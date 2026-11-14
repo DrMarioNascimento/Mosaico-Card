@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "PALMAS_URB": {
+      "id": "PALMAS_URB",
+      "title": "O cerrado que se transformou em cidade",
+      "publisher": "Prefeitura de Palmas",
+      "url": "https://www.palmas.to.gov.br/core/noticias/o-cerrado-que-se-transformou-em-cidade/",
+      "checkedAt": "2026-11-14"
+    },
+    "PALMAS_PONTOS": {
+      "id": "PALMAS_PONTOS",
+      "title": "Conheça alguns lugares que fazem parte da história da capital",
+      "publisher": "Prefeitura de Palmas",
+      "url": "https://www.palmas.to.gov.br/core/noticias/palmas-33-conheca-alguns-lugares-que-fazem-parte-da-historia-da-capital/",
+      "checkedAt": "2026-11-14"
+    },
+    "PALMAS_MTUR": {
+      "id": "PALMAS_MTUR",
+      "title": "Feliz aniversário, Palmas",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/feliz-aniversarioc-palmas",
+      "checkedAt": "2026-11-14"
+    },
+    "PALMAS_IBGE": {
+      "id": "PALMAS_IBGE",
+      "title": "Palmas (TO) — Cidades e Estados",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/to/palmas.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-palmas",
+      "placeId": "norte-palmas",
+      "title": "Palmas",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O11",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Teresina"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Palmas",
+          "sources": [
+            "PALMAS_MTUR"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Características do planejamento",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Capital planejada após a criação do estado"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Capital planejada no início do século XX"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Vila colonial escolhida como capital após séculos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Centro urbano surgido em torno de uma ferrovia"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Capital planejada após a criação do estado",
+          "sources": [
+            "PALMAS_MTUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tocantins"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Goiás"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tocantins",
+          "sources": [
+            "PALMAS_MTUR"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio associado à paisagem local",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Acre"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Madeira"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Tocantins",
+          "sources": [
+            "PALMAS_MTUR"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-palmas-viajante-P01",
+              "factKey": "norte-palmas-F01",
+              "text": "Esta cidade é uma capital estadual brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P02",
+              "factKey": "norte-palmas-F02",
+              "text": "A cidade foi planejada para sediar o governo estadual.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P03",
+              "factKey": "norte-palmas-F03",
+              "text": "Sua construção começou no final do século XX.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P04",
+              "factKey": "norte-palmas-F04",
+              "text": "A pedra fundamental da cidade foi lançada em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P05",
+              "factKey": "norte-palmas-F05",
+              "text": "O estado que abriga a capital foi criado em 1988.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P06",
+              "factKey": "norte-palmas-F06",
+              "text": "Antes da nova capital, o governo estadual ficou provisoriamente em outra cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P07",
+              "factKey": "norte-palmas-F07",
+              "text": "O estado é o Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P08",
+              "factKey": "norte-palmas-F08",
+              "text": "A instalação da capital aconteceu em 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P09",
+              "factKey": "norte-palmas-F09",
+              "text": "Sua paisagem original integra o Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P10",
+              "factKey": "norte-palmas-F10",
+              "text": "Um grande rio faz parte da paisagem da região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P11",
+              "factKey": "norte-palmas-F11",
+              "text": "Esse rio é o Tocantins.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P12",
+              "factKey": "norte-palmas-F12",
+              "text": "Um lago da região se formou com uma usina hidrelétrica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P13",
+              "factKey": "norte-palmas-F13",
+              "text": "Serras aparecem no lado oposto ao lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P14",
+              "factKey": "norte-palmas-F14",
+              "text": "Uma praça da cidade é chamada de Praça dos Girassóis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P15",
+              "factKey": "norte-palmas-F15",
+              "text": "Os três poderes estaduais têm sedes na área dessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P16",
+              "factKey": "norte-palmas-F16",
+              "text": "O Palácio Araguaia fica nessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P17",
+              "factKey": "norte-palmas-F17",
+              "text": "O plano da cidade inclui uma grande avenida chamada Teotônio Segurado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P18",
+              "factKey": "norte-palmas-F18",
+              "text": "O desenho planejado utiliza uma rede de quadras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P19",
+              "factKey": "norte-palmas-F19",
+              "text": "O plano previa integrar serviços às quadras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P20",
+              "factKey": "norte-palmas-F20",
+              "text": "Walfredo Antunes participou da elaboração do projeto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P21",
+              "factKey": "norte-palmas-F21",
+              "text": "Luis Fernando Cruvinel Teixeira também participou do projeto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P22",
+              "factKey": "norte-palmas-F22",
+              "text": "Um distrito da cidade chamado Taquaruçu tem cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P23",
+              "factKey": "norte-palmas-F23",
+              "text": "O Parque Cesamar foi inaugurado em 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P24",
+              "factKey": "norte-palmas-F24",
+              "text": "A Praia da Graciosa mudou depois da formação do lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-viajante-P25",
+              "factKey": "norte-palmas-F25",
+              "text": "O Censo de 2022 contou mais de 300 mil moradores no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-palmas-geografo-P01",
+              "factKey": "norte-palmas-F01",
+              "text": "O destino exerce função de capital de uma unidade da federação brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P02",
+              "factKey": "norte-palmas-F02",
+              "text": "O projeto urbano foi concebido para receber a sede administrativa de um novo estado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P03",
+              "factKey": "norte-palmas-F03",
+              "text": "O planejamento da capital ocorreu no contexto político do final da década de 1980.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P04",
+              "factKey": "norte-palmas-F04",
+              "text": "A fundação simbólica acompanhou o lançamento da pedra fundamental em 20 de maio de 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P05",
+              "factKey": "norte-palmas-F05",
+              "text": "A criação estadual pela Constituição de 1988 antecedeu o planejamento da nova sede.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P06",
+              "factKey": "norte-palmas-F06",
+              "text": "Miracema do Tocantins foi sede provisória do governo antes da instalação da nova capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P07",
+              "factKey": "norte-palmas-F07",
+              "text": "A capital exerce função político-administrativa no estado do Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P08",
+              "factKey": "norte-palmas-F08",
+              "text": "A transferência para a sede definitiva ocorreu em 1º de janeiro de 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P09",
+              "factKey": "norte-palmas-F09",
+              "text": "O sítio escolhido para o projeto urbano situava-se em área de Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P10",
+              "factKey": "norte-palmas-F10",
+              "text": "A localização da cidade foi definida entre um eixo fluvial e áreas de serra.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P11",
+              "factKey": "norte-palmas-F11",
+              "text": "O rio Tocantins constitui referência hidrográfica para a capital.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P12",
+              "factKey": "norte-palmas-F12",
+              "text": "O represamento do rio Tocantins para geração hidrelétrica originou o lago junto à cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P13",
+              "factKey": "norte-palmas-F13",
+              "text": "A paisagem urbana situa-se entre o lago e as serras do Carmo e do Lajeado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P14",
+              "factKey": "norte-palmas-F14",
+              "text": "A Praça dos Girassóis concentra funções políticas e marcos da história estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P15",
+              "factKey": "norte-palmas-F15",
+              "text": "A praça abriga sedes do Executivo, Legislativo e Judiciário estaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P16",
+              "factKey": "norte-palmas-F16",
+              "text": "O Palácio Araguaia representa a sede do Executivo no conjunto cívico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P17",
+              "factKey": "norte-palmas-F17",
+              "text": "A Avenida Teotônio Segurado integra o eixo estruturador previsto no plano urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P18",
+              "factKey": "norte-palmas-F18",
+              "text": "A malha quadriculada organiza parte do traçado urbano planejado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P19",
+              "factKey": "norte-palmas-F19",
+              "text": "O projeto urbanístico propunha combinar diferentes usos e serviços nas quadras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P20",
+              "factKey": "norte-palmas-F20",
+              "text": "O arquiteto e urbanista Walfredo Antunes participou do planejamento da capital.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P21",
+              "factKey": "norte-palmas-F21",
+              "text": "Luis Fernando Cruvinel Teixeira integrou a equipe de concepção da capital.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PALMAS_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P22",
+              "factKey": "norte-palmas-F22",
+              "text": "O distrito de Taquaruçu relaciona paisagens de serra e cachoeiras ao território municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P23",
+              "factKey": "norte-palmas-F23",
+              "text": "O Parque Cesamar, inaugurado em 1998, representa um espaço público de lazer urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P24",
+              "factKey": "norte-palmas-F24",
+              "text": "A formação do lago modificou a relação da Praia da Graciosa com a margem e o lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-palmas-geografo-P25",
+              "factKey": "norte-palmas-F25",
+              "text": "O Censo 2022 do IBGE registrou 302.692 habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PALMAS_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital planejada do Tocantins, fundada em 1989 em área de Cerrado entre o rio Tocantins e as serras.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

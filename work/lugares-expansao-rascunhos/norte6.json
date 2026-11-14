@@ -1,0 +1,1014 @@
+{
+  "sources": {
+    "ARAGUAIA_MMA": {
+      "id": "ARAGUAIA_MMA",
+      "title": "Sítio Ramsar Parque Nacional do Araguaia: Planejamento para o Sucesso de Conservação",
+      "publisher": "Ministério do Meio Ambiente",
+      "url": "https://www.gov.br/mma/pt-br/assuntos/biodiversidade-e-biomas/biomas-e-ecossistemas/areas-umidas/publicacoes/araguaia.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "ARAGUAIA_MUSEU": {
+      "id": "ARAGUAIA_MUSEU",
+      "title": "Povo Karajá — Território",
+      "publisher": "Museu do Índio",
+      "url": "https://prodoclin.museudoindio.gov.br/index.php/etnias/karaja/povo",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-parna-araguaia",
+      "placeId": "norte-parna-araguaia",
+      "title": "Parque Nacional do Araguaia",
+      "aliases": [
+        "Parque do Araguaia"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Araguaia",
+          "sources": [
+            "ARAGUAIA_MMA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ilha fluvial associada",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ilha do Bananal"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ilha do Marajó"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Ilha de Tupinambarana"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ilha do Cardoso"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ilha do Bananal",
+          "sources": [
+            "ARAGUAIA_MMA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado da unidade",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tocantins"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tocantins",
+          "sources": [
+            "ARAGUAIA_MMA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Dinâmica ambiental",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Cheias sazonais e lagos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Marés e manguezais costeiros"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Neve e derretimento de gelo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Vulcanismo e gêiseres"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Cheias sazonais e lagos",
+          "sources": [
+            "ARAGUAIA_MMA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-parna-araguaia-viajante-P01",
+              "factKey": "norte-parna-araguaia-F01",
+              "text": "Este parque conserva uma grande área úmida no interior do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P02",
+              "factKey": "norte-parna-araguaia-F02",
+              "text": "A água muda a paisagem em diferentes épocas do ano.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P03",
+              "factKey": "norte-parna-araguaia-F03",
+              "text": "Rios alagam partes da área durante as cheias.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P04",
+              "factKey": "norte-parna-araguaia-F04",
+              "text": "Na época seca, surgem praias fluviais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P05",
+              "factKey": "norte-parna-araguaia-F05",
+              "text": "O parque fica em uma ilha formada por braços de rio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P06",
+              "factKey": "norte-parna-araguaia-F06",
+              "text": "Essa ilha se chama Ilha do Bananal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P07",
+              "factKey": "norte-parna-araguaia-F07",
+              "text": "A ilha é banhada pelo rio Araguaia e pelo Javaés.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P08",
+              "factKey": "norte-parna-araguaia-F08",
+              "text": "O Javaés fica no lado leste da ilha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P09",
+              "factKey": "norte-parna-araguaia-F09",
+              "text": "A parte da ilha onde fica o parque pertence ao Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P10",
+              "factKey": "norte-parna-araguaia-F10",
+              "text": "O parque nacional foi criado em 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P11",
+              "factKey": "norte-parna-araguaia-F11",
+              "text": "A área recebeu reconhecimento internacional por suas zonas úmidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P12",
+              "factKey": "norte-parna-araguaia-F12",
+              "text": "O reconhecimento como sítio Ramsar ocorreu em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P13",
+              "factKey": "norte-parna-araguaia-F13",
+              "text": "O parque reúne paisagens de Cerrado e Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P14",
+              "factKey": "norte-parna-araguaia-F14",
+              "text": "Também há características de ambientes de planície inundável.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P15",
+              "factKey": "norte-parna-araguaia-F15",
+              "text": "Vários lagos fazem parte da paisagem.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P16",
+              "factKey": "norte-parna-araguaia-F16",
+              "text": "Alguns lagos têm vegetação em suas margens.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P17",
+              "factKey": "norte-parna-araguaia-F17",
+              "text": "Há ilhas de mata chamadas ipucas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P18",
+              "factKey": "norte-parna-araguaia-F18",
+              "text": "As ipucas acumulam água no começo da estação chuvosa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P19",
+              "factKey": "norte-parna-araguaia-F19",
+              "text": "A conservação também envolve espécies de peixes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P20",
+              "factKey": "norte-parna-araguaia-F20",
+              "text": "O pirarucu é uma das espécies consideradas no planejamento da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P21",
+              "factKey": "norte-parna-araguaia-F21",
+              "text": "A área guarda locais importantes para povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P22",
+              "factKey": "norte-parna-araguaia-F22",
+              "text": "Entre os povos relacionados ao território estão Javaé e Karajá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P23",
+              "factKey": "norte-parna-araguaia-F23",
+              "text": "A Terra Indígena Inãwébohona se sobrepõe a parte do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU",
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P24",
+              "factKey": "norte-parna-araguaia-F24",
+              "text": "A conservação inclui respeitar modos de vida e práticas culturais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-viajante-P25",
+              "factKey": "norte-parna-araguaia-F25",
+              "text": "O documento de conservação destaca a ligação entre rios e lagos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-parna-araguaia-geografo-P01",
+              "factKey": "norte-parna-araguaia-F01",
+              "text": "O sítio integra uma extensa planície úmida no interior do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P02",
+              "factKey": "norte-parna-araguaia-F02",
+              "text": "O pulso sazonal de inundação transforma a conexão entre ambientes da planície.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P03",
+              "factKey": "norte-parna-araguaia-F03",
+              "text": "As cheias fluviais inundam periodicamente trechos da unidade de conservação.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P04",
+              "factKey": "norte-parna-araguaia-F04",
+              "text": "A vazante expõe praias fluviais onde antes havia água.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P05",
+              "factKey": "norte-parna-araguaia-F05",
+              "text": "A bifurcação e o reencontro de braços fluviais formam a ilha que abriga a unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P06",
+              "factKey": "norte-parna-araguaia-F06",
+              "text": "A Ilha do Bananal abriga tanto a unidade quanto terras indígenas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P07",
+              "factKey": "norte-parna-araguaia-F07",
+              "text": "O braço principal do Araguaia e o rio Javaés definem setores da ilha fluvial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P08",
+              "factKey": "norte-parna-araguaia-F08",
+              "text": "O Javaés acompanha o setor oriental da ilha, enquanto o braço maior fica a oeste.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P09",
+              "factKey": "norte-parna-araguaia-F09",
+              "text": "A unidade integra os municípios de Pium e Lagoa da Confusão, no Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P10",
+              "factKey": "norte-parna-araguaia-F10",
+              "text": "A unidade foi instituída por decreto federal em 31 de dezembro de 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P11",
+              "factKey": "norte-parna-araguaia-F11",
+              "text": "A designação Ramsar reconhece a importância internacional de suas zonas úmidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P12",
+              "factKey": "norte-parna-araguaia-F12",
+              "text": "O sítio foi reconhecido pela Convenção de Ramsar em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P13",
+              "factKey": "norte-parna-araguaia-F13",
+              "text": "A área apresenta ecótono com componentes do Cerrado e de ambientes amazônicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P14",
+              "factKey": "norte-parna-araguaia-F14",
+              "text": "O mosaico inclui ambientes de planície alagável e componentes semelhantes aos do Pantanal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P15",
+              "factKey": "norte-parna-araguaia-F15",
+              "text": "Lagos permanentes ou temporários integram a rede de ambientes aquáticos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P16",
+              "factKey": "norte-parna-araguaia-F16",
+              "text": "A vegetação ripária acompanha as bordas de lagos e contribui para sua estrutura ecológica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P17",
+              "factKey": "norte-parna-araguaia-F17",
+              "text": "Ipucas são fragmentos florestais que se destacam nas áreas campestres da planície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P18",
+              "factKey": "norte-parna-araguaia-F18",
+              "text": "O acúmulo sazonal de água nas ipucas cria abrigos para peixes temporários.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P19",
+              "factKey": "norte-parna-araguaia-F19",
+              "text": "Os habitats aquáticos são importantes para peixes temporários e recursos pesqueiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P20",
+              "factKey": "norte-parna-araguaia-F20",
+              "text": "O pirarucu figura entre os alvos naturais do planejamento de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P21",
+              "factKey": "norte-parna-araguaia-F21",
+              "text": "Há áreas de sobreposição entre a unidade e terras indígenas na ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P22",
+              "factKey": "norte-parna-araguaia-F22",
+              "text": "Povos Javaé e Karajá mantêm relações territoriais com a ilha e suas águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P23",
+              "factKey": "norte-parna-araguaia-F23",
+              "text": "A sobreposição com a Terra Indígena Inãwébohona exige conciliar conservação e direitos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MUSEU",
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P24",
+              "factKey": "norte-parna-araguaia-F24",
+              "text": "O planejamento considera tanto biodiversidade como práticas culturais das comunidades indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-araguaia-geografo-P25",
+              "factKey": "norte-parna-araguaia-F25",
+              "text": "A conectividade entre rios e lagos é considerada relevante para a conservação da planície.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ARAGUAIA_MMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Unidade no Tocantins que protege área úmida da Ilha do Bananal, com paisagens sazonalmente inundáveis e sobreposição com terras indígenas.",
+        "editorialNotes": [
+          "O parque é distinto da ilha inteira e de outras terras protegidas; território deve ser conferido ao integrar.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

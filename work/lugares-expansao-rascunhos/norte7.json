@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "FLONATAP_JBRJ": {
+      "id": "FLONATAP_JBRJ",
+      "title": "Floresta Nacional do Tapajós — Catálogo de Plantas",
+      "publisher": "Jardim Botânico do Rio de Janeiro",
+      "url": "https://catalogo-ucs-brasil.jbrj.gov.br/areas/FlonaTapajos",
+      "checkedAt": "2026-11-14"
+    },
+    "FLONATAP_ICMBIO": {
+      "id": "FLONATAP_ICMBIO",
+      "title": "Floresta Nacional do Tapajós: uso sustentável em unidades de conservação",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/populacoes-tradicionais/producao-e-uso-sustentavel/uso-sustentavel-em-ucs/floresta-nacional-do-tapajos",
+      "checkedAt": "2026-11-14"
+    },
+    "FLONATAP_SANT": {
+      "id": "FLONATAP_SANT",
+      "title": "Peças do artesanato da Flona do Tapajós são expostas no Cristo Rei",
+      "publisher": "Prefeitura de Santarém",
+      "url": "https://santarem.pa.gov.br/noticias/gerais/pecas-do-artesanato-da-flona-do-tapajos-sao-expostas-no-cristo-rei-1844d19d48ad-b0bd-4602-831f-f75df67dc12b",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-flona-tapajos",
+      "placeId": "norte-flona-tapajos",
+      "title": "Floresta Nacional do Tapajós",
+      "aliases": [
+        "Flona do Tapajós"
+      ],
+      "answerType": "floresta nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Floresta nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Floresta Nacional do Tapajós"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Floresta Nacional do Jamari"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Floresta Nacional de Carajás"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Floresta Nacional de Altamira"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Floresta Nacional de Itaituba I"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Floresta Nacional de Itaituba II"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Floresta Nacional de Saracá-Taquera"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Floresta Nacional de Caxiuanã"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Floresta Nacional do Jamanxim"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Floresta Nacional do Amapá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Floresta Nacional do Purus"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Floresta Nacional de Tefé"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Floresta Nacional do Tapajós",
+          "sources": [
+            "FLONATAP_JBRJ",
+            "FLONATAP_ICMBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Categoria da unidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Floresta nacional de uso sustentável"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Parque nacional de proteção integral"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Reserva biológica de proteção integral"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Monumento natural estadual"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Floresta nacional de uso sustentável",
+          "sources": [
+            "FLONATAP_JBRJ",
+            "FLONATAP_ICMBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pará",
+          "sources": [
+            "FLONATAP_JBRJ",
+            "FLONATAP_ICMBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Organização comunitária",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Cooperativa de manejo florestal"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Consórcio de mineração de carvão"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Associação de pesca oceânica"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cooperativa de cafeicultores"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Cooperativa de manejo florestal",
+          "sources": [
+            "FLONATAP_JBRJ",
+            "FLONATAP_ICMBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-flona-tapajos-viajante-P01",
+              "factKey": "norte-flona-tapajos-F01",
+              "text": "Este lugar protege uma área de floresta amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P02",
+              "factKey": "norte-flona-tapajos-F02",
+              "text": "Há comunidades vivendo na unidade de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P03",
+              "factKey": "norte-flona-tapajos-F03",
+              "text": "O lugar é uma floresta nacional.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P04",
+              "factKey": "norte-flona-tapajos-F04",
+              "text": "É uma unidade de uso sustentável.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P05",
+              "factKey": "norte-flona-tapajos-F05",
+              "text": "A área protegida foi criada em 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P06",
+              "factKey": "norte-flona-tapajos-F06",
+              "text": "Seu estado é o Pará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P07",
+              "factKey": "norte-flona-tapajos-F07",
+              "text": "Um grande rio forma seu limite a oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P08",
+              "factKey": "norte-flona-tapajos-F08",
+              "text": "A rodovia BR-163 fica no limite leste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P09",
+              "factKey": "norte-flona-tapajos-F09",
+              "text": "A área alcança parte do município de Belterra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P10",
+              "factKey": "norte-flona-tapajos-F10",
+              "text": "Aveiro também é um município que abriga parte da floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P11",
+              "factKey": "norte-flona-tapajos-F11",
+              "text": "A área também abrange terras de Placas e Rurópolis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P12",
+              "factKey": "norte-flona-tapajos-F12",
+              "text": "Algumas comunidades participam do manejo florestal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P13",
+              "factKey": "norte-flona-tapajos-F13",
+              "text": "Existe uma cooperativa ligada a moradores da floresta.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P14",
+              "factKey": "norte-flona-tapajos-F14",
+              "text": "A cooperativa é conhecida pela sigla Coomflona.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P15",
+              "factKey": "norte-flona-tapajos-F15",
+              "text": "A cooperativa recebeu o Prêmio Chico Mendes em 2009.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P16",
+              "factKey": "norte-flona-tapajos-F16",
+              "text": "A produção da floresta pode gerar renda para famílias locais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P17",
+              "factKey": "norte-flona-tapajos-F17",
+              "text": "O turismo de base comunitária também é desenvolvido na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P18",
+              "factKey": "norte-flona-tapajos-F18",
+              "text": "São Domingos, Maguari e Jamaraquá são comunidades associadas à região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P19",
+              "factKey": "norte-flona-tapajos-F19",
+              "text": "No artesanato local podem ser usados látex e sementes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P20",
+              "factKey": "norte-flona-tapajos-F20",
+              "text": "Óleos como andiroba e copaíba fazem parte da produção local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P21",
+              "factKey": "norte-flona-tapajos-F21",
+              "text": "A floresta recebe pesquisadores e atividades de estudo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P22",
+              "factKey": "norte-flona-tapajos-F22",
+              "text": "Há trechos de floresta densa e outros de floresta aberta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P23",
+              "factKey": "norte-flona-tapajos-F23",
+              "text": "A região apresenta uma estação seca durante o ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P24",
+              "factKey": "norte-flona-tapajos-F24",
+              "text": "A porção sul apresenta áreas com relevo mais acidentado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-viajante-P25",
+              "factKey": "norte-flona-tapajos-F25",
+              "text": "Territórios indígenas também estão relacionados à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-flona-tapajos-geografo-P01",
+              "factKey": "norte-flona-tapajos-F01",
+              "text": "A unidade de conservação abrange floresta no oeste da Amazônia brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P02",
+              "factKey": "norte-flona-tapajos-F02",
+              "text": "Moradores tradicionais participam da vida social e da gestão do território protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P03",
+              "factKey": "norte-flona-tapajos-F03",
+              "text": "A categoria de manejo da área é floresta nacional federal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P04",
+              "factKey": "norte-flona-tapajos-F04",
+              "text": "A categoria de uso sustentável permite conciliar conservação e usos previstos em regras de manejo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P05",
+              "factKey": "norte-flona-tapajos-F05",
+              "text": "A unidade foi instituída por decreto federal em 19 de fevereiro de 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P06",
+              "factKey": "norte-flona-tapajos-F06",
+              "text": "A unidade distribui-se por municípios do oeste paraense.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P07",
+              "factKey": "norte-flona-tapajos-F07",
+              "text": "O limite ocidental acompanha um importante curso fluvial amazônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P08",
+              "factKey": "norte-flona-tapajos-F08",
+              "text": "A BR-163 constitui referência do limite oriental, oposto ao limite fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P09",
+              "factKey": "norte-flona-tapajos-F09",
+              "text": "Belterra é um dos municípios abrangidos pela unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P10",
+              "factKey": "norte-flona-tapajos-F10",
+              "text": "Parte da unidade de conservação encontra-se no território de Aveiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P11",
+              "factKey": "norte-flona-tapajos-F11",
+              "text": "A unidade distribui-se ainda por setores dos municípios de Placas e Rurópolis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P12",
+              "factKey": "norte-flona-tapajos-F12",
+              "text": "O manejo comunitário articula produção e conservação de recursos florestais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P13",
+              "factKey": "norte-flona-tapajos-F13",
+              "text": "A organização cooperativa reúne moradores tradicionais em atividades de manejo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P14",
+              "factKey": "norte-flona-tapajos-F14",
+              "text": "A Coomflona organiza a produção comunitária e familiar vinculada à unidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P15",
+              "factKey": "norte-flona-tapajos-F15",
+              "text": "Em 2009, a cooperativa foi reconhecida na categoria de negócios sustentáveis do Prêmio Chico Mendes.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P16",
+              "factKey": "norte-flona-tapajos-F16",
+              "text": "O manejo comunitário relaciona geração de renda e manutenção da cobertura florestal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "FLONATAP_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P17",
+              "factKey": "norte-flona-tapajos-F17",
+              "text": "O turismo comunitário associa visitação e participação dos moradores locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P18",
+              "factKey": "norte-flona-tapajos-F18",
+              "text": "Comunidades como Maguari e Jamaraquá participam de iniciativas locais de visitação e produção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P19",
+              "factKey": "norte-flona-tapajos-F19",
+              "text": "O aproveitamento de produtos não madeireiros, como látex e sementes, integra o artesanato comunitário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P20",
+              "factKey": "norte-flona-tapajos-F20",
+              "text": "Produtos florestais não madeireiros incluem óleos de andiroba e copaíba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_SANT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P21",
+              "factKey": "norte-flona-tapajos-F21",
+              "text": "A unidade oferece contexto para pesquisa científica e atividades didáticas sobre a Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P22",
+              "factKey": "norte-flona-tapajos-F22",
+              "text": "Florestas ombrófilas densa e aberta compõem a vegetação da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P23",
+              "factKey": "norte-flona-tapajos-F23",
+              "text": "A sazonalidade regional inclui uma estação seca geralmente entre julho e novembro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P24",
+              "factKey": "norte-flona-tapajos-F24",
+              "text": "O relevo acidentado se concentra em parte da porção sul da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-flona-tapajos-geografo-P25",
+              "factKey": "norte-flona-tapajos-F25",
+              "text": "A gestão envolve territórios indígenas compartilhados entre ICMBio e Funai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FLONATAP_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Floresta nacional de uso sustentável no oeste do Pará, entre o rio Tapajós e a BR-163, com comunidades e manejo florestal comunitário.",
+        "editorialNotes": [
+          "Destaca a unidade de conservação, distinta do rio e do Parque Nacional da Amazônia.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

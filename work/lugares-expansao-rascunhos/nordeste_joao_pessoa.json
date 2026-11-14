@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "JOAOPESSOA_IBGE": {
+      "id": "JOAOPESSOA_IBGE",
+      "title": "Cidades e Estados — João Pessoa",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pb/joao-pessoa.html",
+      "checkedAt": "2026-11-14"
+    },
+    "JOAOPESSOA_PREF": {
+      "id": "JOAOPESSOA_PREF",
+      "title": "Centro histórico, atrações culturais e parques",
+      "publisher": "Prefeitura de João Pessoa",
+      "url": "https://www.joaopessoa.pb.gov.br/noticias/centro-historico-atracoes-culturais-e-parques-sao-pontos-destacados-pelos-turistas-em-joao-pessoa/",
+      "checkedAt": "2026-11-14"
+    },
+    "JOAOPESSOA_ESTACAO": {
+      "id": "JOAOPESSOA_ESTACAO",
+      "title": "Estação Cabo Branco, Ciência, Cultura e Artes",
+      "publisher": "Prefeitura de João Pessoa",
+      "url": "https://www.joaopessoa.pb.gov.br/noticias/pessoenses-e-turistas-participam-da-1a-edicao-do-estacao-por-do-sol-na-estacao-cabo-branco/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-joao-pessoa",
+      "placeId": "joao-pessoa",
+      "title": "João Pessoa",
+      "aliases": [
+        "João Pessoa"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "João Pessoa",
+          "sources": [
+            "JOAOPESSOA_IBGE",
+            "JOAOPESSOA_PREF",
+            "JOAOPESSOA_ESTACAO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio ligado à origem da cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sanhauá"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Capibaribe"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Potengi"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cocó"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Sanhauá",
+          "sources": [
+            "JOAOPESSOA_IBGE",
+            "JOAOPESSOA_PREF",
+            "JOAOPESSOA_ESTACAO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Espaço cultural",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Estação Cabo Branco"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Paço do Frevo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Centro Dragão do Mar"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Museu do Amanhã"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Estação Cabo Branco",
+          "sources": [
+            "JOAOPESSOA_IBGE",
+            "JOAOPESSOA_PREF",
+            "JOAOPESSOA_ESTACAO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraíba"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Grande do Norte"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraíba",
+          "sources": [
+            "JOAOPESSOA_IBGE",
+            "JOAOPESSOA_PREF",
+            "JOAOPESSOA_ESTACAO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "joao-pessoa-viajante-P01",
+              "factKey": "joao-pessoa-F01",
+              "text": "Este destino é uma cidade do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P02",
+              "factKey": "joao-pessoa-F02",
+              "text": "A cidade é uma capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P03",
+              "factKey": "joao-pessoa-F03",
+              "text": "Está no estado da Paraíba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P04",
+              "factKey": "joao-pessoa-F04",
+              "text": "Fica no litoral do oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P05",
+              "factKey": "joao-pessoa-F05",
+              "text": "O Censo de 2022 registrou cerca de 834 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P06",
+              "factKey": "joao-pessoa-F06",
+              "text": "O rio Sanhauá está ligado ao nascimento da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P07",
+              "factKey": "joao-pessoa-F07",
+              "text": "Sua fundação remonta a 1585.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P08",
+              "factKey": "joao-pessoa-F08",
+              "text": "O centro histórico conserva construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P09",
+              "factKey": "joao-pessoa-F09",
+              "text": "Há construções dos séculos XVII e XVIII em seu centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P10",
+              "factKey": "joao-pessoa-F10",
+              "text": "O centro histórico foi tombado pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P11",
+              "factKey": "joao-pessoa-F11",
+              "text": "O Largo de São Pedro Gonçalves fica no centro antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P12",
+              "factKey": "joao-pessoa-F12",
+              "text": "O Hotel Globo é uma das construções históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P13",
+              "factKey": "joao-pessoa-F13",
+              "text": "O Hotel Globo foi construído em 1929.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P14",
+              "factKey": "joao-pessoa-F14",
+              "text": "O antigo hotel abriga atividades culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P15",
+              "factKey": "joao-pessoa-F15",
+              "text": "Uma parte do centro oferece vista para o rio Sanhauá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P16",
+              "factKey": "joao-pessoa-F16",
+              "text": "A Casa da Pólvora é outro edifício histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P17",
+              "factKey": "joao-pessoa-F17",
+              "text": "A Casa da Pólvora foi erguida em 1710.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P18",
+              "factKey": "joao-pessoa-F18",
+              "text": "Esse edifício foi usado para guardar armas e munições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P19",
+              "factKey": "joao-pessoa-F19",
+              "text": "Uma praça histórica se chama Antenor Navarro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P20",
+              "factKey": "joao-pessoa-F20",
+              "text": "Na Praça Antenor Navarro há casarões do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P21",
+              "factKey": "joao-pessoa-F21",
+              "text": "A cidade tem o Parque Solon de Lucena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P22",
+              "factKey": "joao-pessoa-F22",
+              "text": "O Parque Zoobotânico Arruda Câmara é conhecido como Bica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P23",
+              "factKey": "joao-pessoa-F23",
+              "text": "Um centro de ciência e cultura é chamado Estação Cabo Branco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P24",
+              "factKey": "joao-pessoa-F24",
+              "text": "A Estação Cabo Branco fica no bairro do Altiplano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-viajante-P25",
+              "factKey": "joao-pessoa-F25",
+              "text": "Há piscinas naturais na região do Seixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "joao-pessoa-geografo-P01",
+              "factKey": "joao-pessoa-F01",
+              "text": "A carta representa um município urbano no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P02",
+              "factKey": "joao-pessoa-F02",
+              "text": "O município exerce a função administrativa de capital de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P03",
+              "factKey": "joao-pessoa-F03",
+              "text": "A cidade sedia o governo do estado da Paraíba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P04",
+              "factKey": "joao-pessoa-F04",
+              "text": "O território municipal possui uma faixa costeira junto ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P05",
+              "factKey": "joao-pessoa-F05",
+              "text": "Segundo o IBGE, o município tinha 833.932 residentes no Censo Demográfico 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P06",
+              "factKey": "joao-pessoa-F06",
+              "text": "A formação inicial da cidade relaciona-se às margens do rio Sanhauá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P07",
+              "factKey": "joao-pessoa-F07",
+              "text": "A fundação colonial da cidade ocorreu em 1585.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P08",
+              "factKey": "joao-pessoa-F08",
+              "text": "O núcleo histórico reúne edificações preservadas de diferentes períodos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P09",
+              "factKey": "joao-pessoa-F09",
+              "text": "A paisagem arquitetônica do centro inclui edifícios dos séculos XVII e XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P10",
+              "factKey": "joao-pessoa-F10",
+              "text": "A proteção federal reconhece o conjunto histórico urbano como patrimônio cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P11",
+              "factKey": "joao-pessoa-F11",
+              "text": "O Largo de São Pedro Gonçalves concentra parte do conjunto arquitetônico histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P12",
+              "factKey": "joao-pessoa-F12",
+              "text": "O Hotel Globo integra o patrimônio construído no Largo de São Pedro Gonçalves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P13",
+              "factKey": "joao-pessoa-F13",
+              "text": "O edifício do antigo hotel foi construído em 1929.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P14",
+              "factKey": "joao-pessoa-F14",
+              "text": "A reutilização do antigo hotel para atividades culturais conecta preservação e uso urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P15",
+              "factKey": "joao-pessoa-F15",
+              "text": "A posição do conjunto histórico em relação ao rio revela a ligação entre ocupação e drenagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P16",
+              "factKey": "joao-pessoa-F16",
+              "text": "A Casa da Pólvora integra o conjunto arquitetônico do centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P17",
+              "factKey": "joao-pessoa-F17",
+              "text": "A construção da Casa da Pólvora remonta a 1710.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P18",
+              "factKey": "joao-pessoa-F18",
+              "text": "A Casa da Pólvora teve uso original relacionado ao armazenamento de armamentos e munições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P19",
+              "factKey": "joao-pessoa-F19",
+              "text": "A Praça Antenor Navarro integra o conjunto de espaços públicos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P20",
+              "factKey": "joao-pessoa-F20",
+              "text": "O conjunto da Praça Antenor Navarro inclui edificações residenciais do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P21",
+              "factKey": "joao-pessoa-F21",
+              "text": "O Parque Solon de Lucena constitui espaço público de lazer no tecido urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P22",
+              "factKey": "joao-pessoa-F22",
+              "text": "O Parque Zoobotânico Arruda Câmara associa lazer urbano e conservação de fauna e flora.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P23",
+              "factKey": "joao-pessoa-F23",
+              "text": "A Estação Cabo Branco articula ciência, cultura e artes no espaço urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P24",
+              "factKey": "joao-pessoa-F24",
+              "text": "O equipamento cultural situa-se no bairro Altiplano Cabo Branco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joao-pessoa-geografo-P25",
+              "factKey": "joao-pessoa-F25",
+              "text": "As piscinas naturais do Seixas integram o conjunto de atrativos associados ao litoral do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOAOPESSOA_IBGE",
+                "JOAOPESSOA_PREF",
+                "JOAOPESSOA_ESTACAO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital litorânea da Paraíba cuja origem urbana está ligada ao rio Sanhauá.",
+        "editorialNotes": [
+          "O dado demográfico é do município no Censo 2022. Evitar atribuir à cidade atrações de municípios vizinhos.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

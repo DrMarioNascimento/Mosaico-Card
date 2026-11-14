@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "CENTRO_ARA_DNIT": {
+      "id": "CENTRO_ARA_DNIT",
+      "title": "Hidrovia do Tocantins-Araguaia",
+      "publisher": "DNIT",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/intervencao-em-hidrovias/hidrovias-1/hidrovia-do-tocantins-araguaia",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_ARA_IBGE": {
+      "id": "CENTRO_ARA_IBGE",
+      "title": "Bacias hidrográficas brasileiras",
+      "publisher": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/19fedbc1a72096794982c9b28dfa97d8.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_ARA_ANA": {
+      "id": "CENTRO_ARA_ANA",
+      "title": "Região hidrográfica Tocantins-Araguaia",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-rio-araguaia",
+      "placeId": "rio-araguaia",
+      "title": "Rio Araguaia",
+      "aliases": [
+        "Araguaia"
+      ],
+      "answerType": "rio brasileiro",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte",
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Rio brasileiro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio Xingu"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Rio Madeira"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Rio Tietê"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Juruena"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio Araguaia",
+          "sources": [
+            "CENTRO_ARA_DNIT",
+            "CENTRO_ARA_IBGE",
+            "CENTRO_ARA_ANA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio em que deságua",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Paraná"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Tocantins",
+          "sources": [
+            "CENTRO_ARA_DNIT",
+            "CENTRO_ARA_IBGE",
+            "CENTRO_ARA_ANA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ilha fluvial associada",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ilha do Bananal"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ilha de Marajó"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ilha de Maracá"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ilha do Massangano"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ilha do Bananal",
+          "sources": [
+            "CENTRO_ARA_DNIT",
+            "CENTRO_ARA_IBGE",
+            "CENTRO_ARA_ANA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ramo associado à ilha",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Javaés"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio das Mortes"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Cristalino"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Formoso"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Javaés",
+          "sources": [
+            "CENTRO_ARA_DNIT",
+            "CENTRO_ARA_IBGE",
+            "CENTRO_ARA_ANA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-araguaia-viajante-P01",
+              "factKey": "rio-araguaia-F01",
+              "text": "Este lugar é um rio brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P02",
+              "factKey": "rio-araguaia-F02",
+              "text": "Parte de seu curso separa estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P03",
+              "factKey": "rio-araguaia-F03",
+              "text": "O rio atravessa paisagens do Brasil central e do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P04",
+              "factKey": "rio-araguaia-F04",
+              "text": "Nasce em região de serras em Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P05",
+              "factKey": "rio-araguaia-F05",
+              "text": "A serra de sua nascente é chamada Caiapó.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P06",
+              "factKey": "rio-araguaia-F06",
+              "text": "Ele corre predominantemente em direção ao norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P07",
+              "factKey": "rio-araguaia-F07",
+              "text": "Sua água termina encontrando a de outro grande rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P08",
+              "factKey": "rio-araguaia-F08",
+              "text": "Deságua no Rio Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P09",
+              "factKey": "rio-araguaia-F09",
+              "text": "Ao longo de seu percurso há praias de água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P10",
+              "factKey": "rio-araguaia-F10",
+              "text": "Parte do rio contorna uma grande ilha fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P11",
+              "factKey": "rio-araguaia-F11",
+              "text": "A ilha associada ao curso é a Ilha do Bananal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P12",
+              "factKey": "rio-araguaia-F12",
+              "text": "A ilha fica no estado do Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P13",
+              "factKey": "rio-araguaia-F13",
+              "text": "Outro braço de água junto à ilha é o Rio Javaés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P14",
+              "factKey": "rio-araguaia-F14",
+              "text": "A bacia do rio possui extensas áreas que podem ser inundadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P15",
+              "factKey": "rio-araguaia-F15",
+              "text": "O Cerrado ocupa a maior parte de sua bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P16",
+              "factKey": "rio-araguaia-F16",
+              "text": "Há corredeiras em trechos da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P17",
+              "factKey": "rio-araguaia-F17",
+              "text": "Sua bacia inclui trechos com cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P18",
+              "factKey": "rio-araguaia-F18",
+              "text": "O Parque Nacional das Emas está associado à sua bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P19",
+              "factKey": "rio-araguaia-F19",
+              "text": "A ilha ligada ao rio possui territórios indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P20",
+              "factKey": "rio-araguaia-F20",
+              "text": "O rio forma parte de divisas estaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P21",
+              "factKey": "rio-araguaia-F21",
+              "text": "Em seu curso aparecem áreas de encontro entre Centro-Oeste e Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P22",
+              "factKey": "rio-araguaia-F22",
+              "text": "Suas águas integram uma grande região hidrográfica brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P23",
+              "factKey": "rio-araguaia-F23",
+              "text": "Na região hidrográfica, a pesca é uma atividade turística.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P24",
+              "factKey": "rio-araguaia-F24",
+              "text": "Praias fluviais são atrações turísticas da região hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-viajante-P25",
+              "factKey": "rio-araguaia-F25",
+              "text": "A navegação depende das condições dos cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-araguaia-geografo-P01",
+              "factKey": "rio-araguaia-F01",
+              "text": "O objeto desta carta é um rio inteiramente brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P02",
+              "factKey": "rio-araguaia-F02",
+              "text": "Seu curso participa da delimitação de limites interestaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P03",
+              "factKey": "rio-araguaia-F03",
+              "text": "A rede fluvial conecta o Brasil central a áreas da região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P04",
+              "factKey": "rio-araguaia-F04",
+              "text": "Segundo o DNIT, suas cabeceiras situam-se na serra do Caiapó, em Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P05",
+              "factKey": "rio-araguaia-F05",
+              "text": "As nascentes encontram-se em área de relevo mais elevado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P06",
+              "factKey": "rio-araguaia-F06",
+              "text": "O fluxo principal segue predominantemente para o norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P07",
+              "factKey": "rio-araguaia-F07",
+              "text": "Sua foz é uma confluência com outro rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P08",
+              "factKey": "rio-araguaia-F08",
+              "text": "Ele é afluente do Rio Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P09",
+              "factKey": "rio-araguaia-F09",
+              "text": "A variação de vazão influencia a exposição de praias fluviais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P10",
+              "factKey": "rio-araguaia-F10",
+              "text": "A divisão de canais está associada à formação de uma ilha fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P11",
+              "factKey": "rio-araguaia-F11",
+              "text": "A Ilha do Bananal situa-se entre o curso principal e o braço Javaés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P12",
+              "factKey": "rio-araguaia-F12",
+              "text": "A ilha encontra-se no território do estado do Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P13",
+              "factKey": "rio-araguaia-F13",
+              "text": "O Rio Javaés é o outro braço que circunda a ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P14",
+              "factKey": "rio-araguaia-F14",
+              "text": "Sua bacia reúne amplas superfícies inundáveis de importância ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P15",
+              "factKey": "rio-araguaia-F15",
+              "text": "Segundo o IBGE, 81% da bacia encontra-se no bioma Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P16",
+              "factKey": "rio-araguaia-F16",
+              "text": "Cachoeiras e corredeiras fazem parte da diversidade fluvial da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P17",
+              "factKey": "rio-araguaia-F17",
+              "text": "A alternância de desníveis ao longo do curso influencia as características da navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P18",
+              "factKey": "rio-araguaia-F18",
+              "text": "O Parque Nacional das Emas é uma das unidades de conservação associadas à bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P19",
+              "factKey": "rio-araguaia-F19",
+              "text": "A Ilha do Bananal inclui territórios de povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P20",
+              "factKey": "rio-araguaia-F20",
+              "text": "O curso participa da divisão natural entre Goiás, Mato Grosso, Tocantins e Pará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P21",
+              "factKey": "rio-araguaia-F21",
+              "text": "Seu traçado liga recortes das regiões Centro-Oeste e Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P22",
+              "factKey": "rio-araguaia-F22",
+              "text": "Ele integra com seu rio receptor uma região hidrográfica inteiramente brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P23",
+              "factKey": "rio-araguaia-F23",
+              "text": "A gestão das águas regionais precisa conciliar turismo, irrigação, saneamento e navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P24",
+              "factKey": "rio-araguaia-F24",
+              "text": "A dinâmica dos níveis de água afeta usos como turismo em praias fluviais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-araguaia-geografo-P25",
+              "factKey": "rio-araguaia-F25",
+              "text": "O planejamento hídrico regional inclui a conservação de ecossistemas aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ARA_DNIT",
+                "CENTRO_ARA_IBGE",
+                "CENTRO_ARA_ANA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Rio Araguaia nasce no Brasil central, forma junto ao Javaés a Ilha do Bananal e deságua no Tocantins.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

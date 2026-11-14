@@ -1,0 +1,1249 @@
+{
+  "sources": {
+    "RECIFE_IBGE": {
+      "id": "RECIFE_IBGE",
+      "title": "Cidades e Estados — Recife",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pe/recife.html",
+      "checkedAt": "2026-11-14"
+    },
+    "RECIFE_PCR": {
+      "id": "RECIFE_PCR",
+      "title": "Recife: rios, paisagem e patrimônio urbano",
+      "publisher": "Prefeitura do Recife",
+      "url": "https://www2.recife.pe.gov.br/noticias/11/03/2015/estudantes-da-rede-municipal-celebram-aniversario-do-recife-no-marco-zero",
+      "checkedAt": "2026-11-14"
+    },
+    "RECIFE_IPHAN": {
+      "id": "RECIFE_IPHAN",
+      "title": "Frevo",
+      "publisher": "Iphan",
+      "url": "https://bcr.iphan.gov.br/bens-culturais/frevo/",
+      "checkedAt": "2026-11-14"
+    },
+    "RECIFE_RIOS": {
+      "id": "RECIFE_RIOS",
+      "title": "Passeios pelo Rio Capibaribe",
+      "publisher": "Prefeitura do Recife",
+      "url": "https://www2.recife.pe.gov.br/noticias/14/02/2019/rio-capibaribe-rota-do-frevo-poetas-e-carnavais-fazem-parte-dos-proximos-0",
+      "checkedAt": "2026-11-14"
+    },
+    "RECIFE_FJN": {
+      "id": "RECIFE_FJN",
+      "title": "Recife (bairro)",
+      "publisher": "Fundação Joaquim Nabuco",
+      "url": "https://pesquisaescolar.fundaj.gov.br/pt-br/artigo/recife-bairro/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-recife",
+      "placeId": "recife",
+      "title": "Recife",
+      "aliases": [
+        "Recife"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O6",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Recife",
+          "sources": [
+            "RECIFE_IBGE",
+            "RECIFE_PCR",
+            "RECIFE_IPHAN",
+            "RECIFE_RIOS",
+            "RECIFE_FJN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio da paisagem urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Capibaribe"
+            },
+            {
+              "id": "C2-O2",
+              "text": "São Francisco"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Parnaíba"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tocantins"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Capibaribe",
+          "sources": [
+            "RECIFE_IBGE",
+            "RECIFE_PCR",
+            "RECIFE_IPHAN",
+            "RECIFE_RIOS",
+            "RECIFE_FJN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Expressão cultural musical e coreográfica enraizada na cidade",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Frevo"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Boi-bumbá"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Jongo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Fandango caiçara"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Frevo",
+          "sources": [
+            "RECIFE_IBGE",
+            "RECIFE_PCR",
+            "RECIFE_IPHAN",
+            "RECIFE_RIOS",
+            "RECIFE_FJN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ceará"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Alagoas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pernambuco",
+          "sources": [
+            "RECIFE_IBGE",
+            "RECIFE_PCR",
+            "RECIFE_IPHAN",
+            "RECIFE_RIOS",
+            "RECIFE_FJN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "recife-viajante-P01",
+              "factKey": "recife-F01",
+              "text": "O destino é uma cidade do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P02",
+              "factKey": "recife-F02",
+              "text": "É a capital de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P03",
+              "factKey": "recife-F03",
+              "text": "Fica em Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P04",
+              "factKey": "recife-F04",
+              "text": "A cidade fica no litoral do Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P05",
+              "factKey": "recife-F05",
+              "text": "O município tinha cerca de 1,49 milhão de moradores no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P06",
+              "factKey": "recife-F06",
+              "text": "Em 2022 havia mais de seis mil moradores por quilômetro quadrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P07",
+              "factKey": "recife-F07",
+              "text": "Rios ajudam a formar sua paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P08",
+              "factKey": "recife-F08",
+              "text": "Um dos rios importantes é o Capibaribe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P09",
+              "factKey": "recife-F09",
+              "text": "O rio Beberibe também faz parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P10",
+              "factKey": "recife-F10",
+              "text": "Os rios Capibaribe e Beberibe se encontram na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P11",
+              "factKey": "recife-F11",
+              "text": "Pontes ajudam a atravessar os rios da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P12",
+              "factKey": "recife-F12",
+              "text": "O centro histórico inclui uma praça conhecida como Marco Zero.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P13",
+              "factKey": "recife-F13",
+              "text": "A Rua do Bom Jesus é um de seus pontos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P14",
+              "factKey": "recife-F14",
+              "text": "Uma sinagoga conhecida como Kahal Zur Israel fica nessa cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P15",
+              "factKey": "recife-F15",
+              "text": "A Torre Malakoff é outro ponto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P16",
+              "factKey": "recife-F16",
+              "text": "O Teatro Santa Isabel é um dos espaços culturais da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P17",
+              "factKey": "recife-F17",
+              "text": "Há um espaço cultural chamado Paço do Frevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P18",
+              "factKey": "recife-F18",
+              "text": "O frevo é uma expressão cultural fortemente ligada ao lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P19",
+              "factKey": "recife-F19",
+              "text": "O frevo também tem relação com a cidade vizinha de Olinda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P20",
+              "factKey": "recife-F20",
+              "text": "Uma sombrinha colorida aparece na dança do frevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P21",
+              "factKey": "recife-F21",
+              "text": "O frevo surgiu ligado às festas de Carnaval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P22",
+              "factKey": "recife-F22",
+              "text": "A Unesco reconheceu o frevo como patrimônio imaterial em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P23",
+              "factKey": "recife-F23",
+              "text": "A região central tem um porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P24",
+              "factKey": "recife-F24",
+              "text": "Uma área central surgiu entre o mar e os rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-viajante-P25",
+              "factKey": "recife-F25",
+              "text": "A cidade tem o Museu Cais do Sertão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "recife-geografo-P01",
+              "factKey": "recife-F01",
+              "text": "A carta representa um município urbano no Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P02",
+              "factKey": "recife-F02",
+              "text": "O município exerce a função administrativa de capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P03",
+              "factKey": "recife-F03",
+              "text": "A cidade integra e sedia o governo estadual de Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P04",
+              "factKey": "recife-F04",
+              "text": "A cidade localiza-se na faixa litorânea atlântica pernambucana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P05",
+              "factKey": "recife-F05",
+              "text": "O Censo 2022 registrou 1.488.920 habitantes no município, segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P06",
+              "factKey": "recife-F06",
+              "text": "A densidade demográfica de 2022 foi de 6.803,60 hab./km², segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P07",
+              "factKey": "recife-F07",
+              "text": "A rede hidrográfica integra a configuração espacial da cidade litorânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P08",
+              "factKey": "recife-F08",
+              "text": "O rio Capibaribe atravessa a paisagem urbana e chega ao estuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P09",
+              "factKey": "recife-F09",
+              "text": "O Beberibe integra o sistema de águas fluviais junto ao centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P10",
+              "factKey": "recife-F10",
+              "text": "O encontro entre Capibaribe e Beberibe conecta águas fluviais à área portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P11",
+              "factKey": "recife-F11",
+              "text": "A presença de cursos d’água requer conexões viárias por pontes entre setores urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P12",
+              "factKey": "recife-F12",
+              "text": "O Marco Zero integra o espaço público do núcleo urbano histórico junto ao porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P13",
+              "factKey": "recife-F13",
+              "text": "A Rua do Bom Jesus compõe o tecido histórico próximo ao antigo porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P14",
+              "factKey": "recife-F14",
+              "text": "A sinagoga Kahal Zur Israel integra os marcos do patrimônio urbano local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P15",
+              "factKey": "recife-F15",
+              "text": "A Torre Malakoff aparece no circuito de bens históricos do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P16",
+              "factKey": "recife-F16",
+              "text": "O Teatro Santa Isabel integra a rede de equipamentos culturais urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P17",
+              "factKey": "recife-F17",
+              "text": "O Paço do Frevo é um equipamento de memória e valorização cultural na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P18",
+              "factKey": "recife-F18",
+              "text": "O frevo reúne música e dança e está enraizado nessa cidade e em Olinda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P19",
+              "factKey": "recife-F19",
+              "text": "A expressão do frevo integra práticas culturais compartilhadas com Olinda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P20",
+              "factKey": "recife-F20",
+              "text": "A sombrinha do frevo participa da identidade visual e do equilíbrio dos movimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P21",
+              "factKey": "recife-F21",
+              "text": "O frevo se formou no contexto das manifestações populares carnavalescas do fim do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P22",
+              "factKey": "recife-F22",
+              "text": "O reconhecimento internacional do frevo como patrimônio cultural imaterial ocorreu em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P23",
+              "factKey": "recife-F23",
+              "text": "O porto integra a relação histórica entre a ocupação urbana e as águas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P24",
+              "factKey": "recife-F24",
+              "text": "O núcleo histórico ocupa um espaço junto ao Atlântico e aos rios Capibaribe e Beberibe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "recife-geografo-P25",
+              "factKey": "recife-F25",
+              "text": "O Museu Cais do Sertão integra os equipamentos culturais do núcleo histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RECIFE_IBGE",
+                "RECIFE_PCR",
+                "RECIFE_IPHAN",
+                "RECIFE_RIOS",
+                "RECIFE_FJN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital de Pernambuco, localizada no encontro dos rios Capibaribe e Beberibe com a região portuária atlântica.",
+        "editorialNotes": [
+          "O dado demográfico é municipal, referente ao Censo 2022 do IBGE. O frevo também está associado a Olinda, outro lugar do banco.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

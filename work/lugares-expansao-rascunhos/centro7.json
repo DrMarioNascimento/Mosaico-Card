@@ -1,0 +1,1245 @@
+{
+  "sources": {
+    "CENTRO_JUR_ICM": {
+      "id": "CENTRO_JUR_ICM",
+      "title": "Parque Nacional do Juruena",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jurema/parna-do-jurema",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_JUR_DEC": {
+      "id": "CENTRO_JUR_DEC",
+      "title": "Decreto de criação do parque nacional",
+      "publisher": "Ministério do Meio Ambiente e Mudança do Clima",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/anexo/atolegal/46814",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_JUR_CNPQ": {
+      "id": "CENTRO_JUR_CNPQ",
+      "title": "Expedição científica no parque",
+      "publisher": "CNPq",
+      "url": "https://www.gov.br/cnpq/pt-br/assuntos/noticias/cnpq-em-acao/pesquisadores-avaliam-coletas-de-expedicao-cientifica-no-parque-nacional-do-juruena",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_JUR_MJ": {
+      "id": "CENTRO_JUR_MJ",
+      "title": "Território indígena Apiaká do Pontal e Isolados",
+      "publisher": "Ministério da Justiça e Segurança Pública",
+      "url": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/saju/acesso-a-justica-dos-povos-indigenas",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_JUR_PLANO": {
+      "id": "CENTRO_JUR_PLANO",
+      "title": "Plano de manejo do parque nacional",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jurema/arquivos/encarte2.pdf/%40%40download/file",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parna-juruena",
+      "placeId": "parna-juruena",
+      "title": "Parque Nacional do Juruena",
+      "aliases": [
+        "Juruena"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte",
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Mapinguari"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Nascentes do Lago Jari"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Anavilhanas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Juruena",
+          "sources": [
+            "CENTRO_JUR_ICM",
+            "CENTRO_JUR_DEC",
+            "CENTRO_JUR_CNPQ",
+            "CENTRO_JUR_MJ",
+            "CENTRO_JUR_PLANO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estados abrangidos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Amazonas e Mato Grosso"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pará e Tocantins"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Amazonas e Acre"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rondônia e Pará"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Amazonas e Mato Grosso",
+          "sources": [
+            "CENTRO_JUR_ICM",
+            "CENTRO_JUR_DEC",
+            "CENTRO_JUR_CNPQ",
+            "CENTRO_JUR_MJ",
+            "CENTRO_JUR_PLANO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Bioma principal",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Amazônia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pampa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mata Atlântica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Amazônia",
+          "sources": [
+            "CENTRO_JUR_ICM",
+            "CENTRO_JUR_DEC",
+            "CENTRO_JUR_CNPQ",
+            "CENTRO_JUR_MJ",
+            "CENTRO_JUR_PLANO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Saltos pesquisados na expedição",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Salto Augusto e Salto São Simão"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Salto Morato e Salto São Francisco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Cachoeira da Fumaça e Cachoeira do Buracão"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cataratas do Iguaçu e Salto Yucumã"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Salto Augusto e Salto São Simão",
+          "sources": [
+            "CENTRO_JUR_CNPQ"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parna-juruena-viajante-P01",
+              "factKey": "parna-juruena-F01",
+              "text": "É um parque nacional brasileiro com extensas florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P02",
+              "factKey": "parna-juruena-F02",
+              "text": "Protege paisagens da Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P03",
+              "factKey": "parna-juruena-F03",
+              "text": "Seu território abrange partes de dois estados brasileiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P04",
+              "factKey": "parna-juruena-F04",
+              "text": "Uma parte fica no Amazonas e outra em Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P05",
+              "factKey": "parna-juruena-F05",
+              "text": "A área protegida atravessa as regiões Norte e Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P06",
+              "factKey": "parna-juruena-F06",
+              "text": "O parque foi criado em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P07",
+              "factKey": "parna-juruena-F07",
+              "text": "O parque cobre aproximadamente 1,95 milhão de hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P08",
+              "factKey": "parna-juruena-F08",
+              "text": "Parte do parque está no município de Apiacás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P09",
+              "factKey": "parna-juruena-F09",
+              "text": "Também há área protegida no município de Apuí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P10",
+              "factKey": "parna-juruena-F10",
+              "text": "Maués é outro município abrangido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P11",
+              "factKey": "parna-juruena-F11",
+              "text": "O município de Cotriguaçu abriga parte da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P12",
+              "factKey": "parna-juruena-F12",
+              "text": "Nova Bandeirantes também abriga parte do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P13",
+              "factKey": "parna-juruena-F13",
+              "text": "Rios e igarapés fazem parte da paisagem protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P14",
+              "factKey": "parna-juruena-F14",
+              "text": "Há corredeiras e quedas de água na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P15",
+              "factKey": "parna-juruena-F15",
+              "text": "Um salto dentro do parque é conhecido como Salto Augusto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P16",
+              "factKey": "parna-juruena-F16",
+              "text": "Outro é chamado Salto São Simão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P17",
+              "factKey": "parna-juruena-F17",
+              "text": "Pesquisadores estudam peixes de pequeno porte nos igarapés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P18",
+              "factKey": "parna-juruena-F18",
+              "text": "Foram registradas pesquisas também em cavernas da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P19",
+              "factKey": "parna-juruena-F19",
+              "text": "Expedições usam embarcações para percorrer rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P20",
+              "factKey": "parna-juruena-F20",
+              "text": "As pesquisas científicas envolveram apoio de indígenas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P21",
+              "factKey": "parna-juruena-F21",
+              "text": "Parte da área coincide com uma terra indígena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P22",
+              "factKey": "parna-juruena-F22",
+              "text": "A Terra Indígena Apiaká do Pontal e Isolados se sobrepõe ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P23",
+              "factKey": "parna-juruena-F23",
+              "text": "Pessoas dos povos Apiaká e Munduruku vivem no território indígena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P24",
+              "factKey": "parna-juruena-F24",
+              "text": "O plano de manejo orienta a proteção da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-viajante-P25",
+              "factKey": "parna-juruena-F25",
+              "text": "O ICMBio é o órgão federal responsável pela unidade de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parna-juruena-geografo-P01",
+              "factKey": "parna-juruena-F01",
+              "text": "A unidade de proteção integral conserva uma extensa área amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P02",
+              "factKey": "parna-juruena-F02",
+              "text": "A cobertura vegetal e a rede fluvial integram o bioma Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P03",
+              "factKey": "parna-juruena-F03",
+              "text": "O perímetro abrange territórios de duas unidades federativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P04",
+              "factKey": "parna-juruena-F04",
+              "text": "O limite estadual atravessado separa Amazonas e Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P05",
+              "factKey": "parna-juruena-F05",
+              "text": "A unidade contribui para os recortes Norte e Centro-Oeste por estar nos dois estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P06",
+              "factKey": "parna-juruena-F06",
+              "text": "Um decreto federal instituiu o parque em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P07",
+              "factKey": "parna-juruena-F07",
+              "text": "O ICMBio informa área aproximada de 1,95 milhão de hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P08",
+              "factKey": "parna-juruena-F08",
+              "text": "Apiacás representa uma parte mato-grossense do território protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P09",
+              "factKey": "parna-juruena-F09",
+              "text": "Apuí integra a parcela amazonense da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P10",
+              "factKey": "parna-juruena-F10",
+              "text": "Maués também integra o trecho amazonense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P11",
+              "factKey": "parna-juruena-F11",
+              "text": "Cotriguaçu está entre os municípios mato-grossenses abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P12",
+              "factKey": "parna-juruena-F12",
+              "text": "Nova Bandeirantes compõe outra parcela da unidade em Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P13",
+              "factKey": "parna-juruena-F13",
+              "text": "A rede hidrográfica inclui pequenos igarapés, afluentes e rios maiores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P14",
+              "factKey": "parna-juruena-F14",
+              "text": "Corredeiras e saltos diversificam os ambientes aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P15",
+              "factKey": "parna-juruena-F15",
+              "text": "O Salto Augusto foi um dos locais de uma expedição científica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P16",
+              "factKey": "parna-juruena-F16",
+              "text": "A equipe também coletou dados na região do Salto São Simão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P17",
+              "factKey": "parna-juruena-F17",
+              "text": "O estudo de peixes pequenos ajuda a compreender a diversidade dos igarapés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P18",
+              "factKey": "parna-juruena-F18",
+              "text": "Ambientes cavernícolas integraram os locais investigados pela expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P19",
+              "factKey": "parna-juruena-F19",
+              "text": "A dependência dos rios para deslocamentos condiciona a logística das pesquisas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P20",
+              "factKey": "parna-juruena-F20",
+              "text": "Indígenas e equipes do ICMBio apoiaram o trabalho de campo científico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P21",
+              "factKey": "parna-juruena-F21",
+              "text": "Parte da unidade está sobreposta a um território de ocupação indígena tradicional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P22",
+              "factKey": "parna-juruena-F22",
+              "text": "A Terra Indígena Apiaká do Pontal e Isolados está integralmente sobreposta ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P23",
+              "factKey": "parna-juruena-F23",
+              "text": "O território indígena é de ocupação tradicional de povos Apiaká e Munduruku, além de grupo isolado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P24",
+              "factKey": "parna-juruena-F24",
+              "text": "O plano de manejo permite organizar diretrizes de conservação em escala territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-juruena-geografo-P25",
+              "factKey": "parna-juruena-F25",
+              "text": "A conservação da unidade integra atribuições federais do ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_JUR_ICM",
+                "CENTRO_JUR_DEC",
+                "CENTRO_JUR_CNPQ",
+                "CENTRO_JUR_MJ",
+                "CENTRO_JUR_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional do Juruena abrange áreas no Amazonas e em Mato Grosso e se sobrepõe à Terra Indígena Apiaká do Pontal e Isolados.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

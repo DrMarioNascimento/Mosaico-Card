@@ -34,6 +34,13 @@
       "publisher": "IBGE",
       "url": "https://www.ibge.gov.br/cidades-e-estados/mt/cuiaba",
       "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CUI_FESTA": {
+      "id": "CENTRO_CUI_FESTA",
+      "title": "Festa de São Benedito na capital",
+      "publisher": "Prefeitura de Cuiabá",
+      "url": "https://www.cuiaba.mt.gov.br/noticias/prefeitura-de-cuiaba-reforca-apoio-institucional-a-festa-de-sao-benedito",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -397,7 +404,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -416,7 +424,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -435,7 +444,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -874,7 +884,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -893,7 +904,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -912,7 +924,8 @@
                 "CENTRO_CUI_IPHAN",
                 "CENTRO_CUI_CULTURA",
                 "CENTRO_CUI_MUN",
-                "CENTRO_CUI_MUSEU"
+                "CENTRO_CUI_MUSEU",
+                "CENTRO_CUI_FESTA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",

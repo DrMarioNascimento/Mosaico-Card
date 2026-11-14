@@ -1,0 +1,1012 @@
+{
+  "sources": {
+    "SULPARQUEILHAGRANDE": {
+      "id": "SULPARQUEILHAGRANDE",
+      "title": "Informações de visitação do Parque Nacional de Ilha Grande",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-ilha-grande/informacoes-sobre-visitacao-2013-parna-ilha-grande",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPARQUEILHAGRANDEPLANO": {
+      "id": "SULPARQUEILHAGRANDEPLANO",
+      "title": "Plano de Manejo do Parque Nacional de Ilha Grande",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-ilha-grande/arquivos/parna_ilha_grande_pm.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-ilha-grande",
+      "placeId": "parque-ilha-grande",
+      "title": "Parque Nacional de Ilha Grande",
+      "aliases": [
+        "Ilha Grande"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul",
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Ilha Grande"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra do Itajaí"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Superagui"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Aparados da Serra"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Ilha Grande",
+          "sources": [
+            "SULPARQUEILHAGRANDE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio do arquipélago protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Amazonas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Paraná",
+          "sources": [
+            "SULPARQUEILHAGRANDE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes predominantes",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ilhas fluviais, lagoas e várzeas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Fiordes e geleiras"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Deserto e dunas interiores"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mata de altitude e cânions"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ilhas fluviais, lagoas e várzeas",
+          "sources": [
+            "SULPARQUEILHAGRANDE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estados abrangidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná e Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "São Paulo e Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Santa Catarina e Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Goiás e Tocantins"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná e Mato Grosso do Sul",
+          "sources": [
+            "SULPARQUEILHAGRANDE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-ilha-grande-viajante-P01",
+              "factKey": "parque-ilha-grande-viajante-F01",
+              "text": "Este destino protege uma grande paisagem de rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P02",
+              "factKey": "parque-ilha-grande-viajante-F02",
+              "text": "Ilhas e lagoas formam parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P03",
+              "factKey": "parque-ilha-grande-viajante-F03",
+              "text": "A unidade está na divisa entre dois estados brasileiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P04",
+              "factKey": "parque-ilha-grande-viajante-F04",
+              "text": "Paraná e Mato Grosso do Sul compartilham o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P05",
+              "factKey": "parque-ilha-grande-viajante-F05",
+              "text": "O rio que atravessa a área é o Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P06",
+              "factKey": "parque-ilha-grande-viajante-F06",
+              "text": "As ilhas são fluviais, não oceânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P07",
+              "factKey": "parque-ilha-grande-viajante-F07",
+              "text": "A área reúne muitas ilhas e ilhotas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P08",
+              "factKey": "parque-ilha-grande-viajante-F08",
+              "text": "Trechos de várzea ficam junto ao rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P09",
+              "factKey": "parque-ilha-grande-viajante-F09",
+              "text": "O parque foi criado em 1997.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P10",
+              "factKey": "parque-ilha-grande-viajante-F10",
+              "text": "Há lagoas junto ao curso principal do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P11",
+              "factKey": "parque-ilha-grande-viajante-F11",
+              "text": "A Lagoa Xambrê é um dos ambientes aquáticos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P12",
+              "factKey": "parque-ilha-grande-viajante-F12",
+              "text": "Na lagoa há áreas pantanosas e águas entre elas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P13",
+              "factKey": "parque-ilha-grande-viajante-F13",
+              "text": "A lagoa contribui para a manutenção de espécies de peixes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P14",
+              "factKey": "parque-ilha-grande-viajante-F14",
+              "text": "A paisagem também oferece locais de observação de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P15",
+              "factKey": "parque-ilha-grande-viajante-F15",
+              "text": "Um dos pontos conhecidos para observar aves é o Paredão das Araras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P16",
+              "factKey": "parque-ilha-grande-viajante-F16",
+              "text": "O parque integra um corredor de biodiversidade do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P17",
+              "factKey": "parque-ilha-grande-viajante-F17",
+              "text": "A unidade protege áreas que fazem parte de municípios dos dois estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P18",
+              "factKey": "parque-ilha-grande-viajante-F18",
+              "text": "Guaíra é um dos municípios paranaenses abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P19",
+              "factKey": "parque-ilha-grande-viajante-F19",
+              "text": "Altônia é outro município do Paraná abrangido pela unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P20",
+              "factKey": "parque-ilha-grande-viajante-F20",
+              "text": "Mundo Novo está entre os municípios sul-mato-grossenses abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P21",
+              "factKey": "parque-ilha-grande-viajante-F21",
+              "text": "Eldorado está entre os municípios de Mato Grosso do Sul abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P22",
+              "factKey": "parque-ilha-grande-viajante-F22",
+              "text": "A região tem vestígios de antigas ocupações humanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P23",
+              "factKey": "parque-ilha-grande-viajante-F23",
+              "text": "Povos Xetá e Guarani estão ligados à história regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P24",
+              "factKey": "parque-ilha-grande-viajante-F24",
+              "text": "Alguns passeios permitem conhecer a área por embarcação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-viajante-P25",
+              "factKey": "parque-ilha-grande-viajante-F25",
+              "text": "As praias fluviais integram os atrativos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-ilha-grande-geografo-P01",
+              "factKey": "parque-ilha-grande-geografo-F01",
+              "text": "A unidade conserva sistemas fluviais e áreas úmidas associadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P02",
+              "factKey": "parque-ilha-grande-geografo-F02",
+              "text": "O parque ocupa um arquipélago no curso de um grande rio sul-americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P03",
+              "factKey": "parque-ilha-grande-geografo-F03",
+              "text": "O rio delimita nesse trecho uma fronteira entre unidades da federação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P04",
+              "factKey": "parque-ilha-grande-geografo-F04",
+              "text": "A área abrange partes de Paraná e Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P05",
+              "factKey": "parque-ilha-grande-geografo-F05",
+              "text": "Seu sistema hidrográfico pertence à bacia do rio Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P06",
+              "factKey": "parque-ilha-grande-geografo-F06",
+              "text": "Ilhas fluviais são cercadas por canais do rio, diferentemente de ilhas oceânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P07",
+              "factKey": "parque-ilha-grande-geografo-F07",
+              "text": "O arquipélago possui numerosas ilhas e ilhotas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P08",
+              "factKey": "parque-ilha-grande-geografo-F08",
+              "text": "Várzeas e lagoas integram a planície de inundação protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P09",
+              "factKey": "parque-ilha-grande-geografo-F09",
+              "text": "A criação da unidade federal ocorreu em 1997.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P10",
+              "factKey": "parque-ilha-grande-geografo-F10",
+              "text": "A área conserva um trecho do rio Paraná sem barragens em seu curso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDEPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P11",
+              "factKey": "parque-ilha-grande-geografo-F11",
+              "text": "Lagoas marginais fazem parte do sistema flúvio-lacustre regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P12",
+              "factKey": "parque-ilha-grande-geografo-F12",
+              "text": "A Lagoa Xambrê é mencionada como a maior lagoa marginal do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P13",
+              "factKey": "parque-ilha-grande-geografo-F13",
+              "text": "As margens da Lagoa Xambrê apresentam arenito Caiuá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P14",
+              "factKey": "parque-ilha-grande-geografo-F14",
+              "text": "A lagoa marginal contribui para a manutenção de peixes da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P15",
+              "factKey": "parque-ilha-grande-geografo-F15",
+              "text": "O plano de manejo destaca a proteção de remanescentes de floresta estacional semidecidual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDEPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P16",
+              "factKey": "parque-ilha-grande-geografo-F16",
+              "text": "A unidade integra um corredor de biodiversidade no rio Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P17",
+              "factKey": "parque-ilha-grande-geografo-F17",
+              "text": "A distribuição espacial do parque envolve municípios dos dois lados da divisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P18",
+              "factKey": "parque-ilha-grande-geografo-F18",
+              "text": "Guaíra é um dos municípios paranaenses que integram o recorte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P19",
+              "factKey": "parque-ilha-grande-geografo-F19",
+              "text": "Altônia também se encontra entre os municípios paranaenses abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P20",
+              "factKey": "parque-ilha-grande-geografo-F20",
+              "text": "Mundo Novo integra a porção sul-mato-grossense do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P21",
+              "factKey": "parque-ilha-grande-geografo-F21",
+              "text": "Eldorado é outro município de Mato Grosso do Sul abrangido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P22",
+              "factKey": "parque-ilha-grande-geografo-F22",
+              "text": "Sítios históricos e arqueológicos ajudam a estudar a ocupação humana regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P23",
+              "factKey": "parque-ilha-grande-geografo-F23",
+              "text": "O registro regional inclui territórios de povos Xetá e Guarani.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P24",
+              "factKey": "parque-ilha-grande-geografo-F24",
+              "text": "A visitação pode ocorrer por acesso fluvial e por municípios de ambos os estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ilha-grande-geografo-P25",
+              "factKey": "parque-ilha-grande-geografo-F25",
+              "text": "A conservação da planície fluvial protege ecossistemas de várzea raros ou degradados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPARQUEILHAGRANDEPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque fluvial no rio Paraná, entre o Paraná e Mato Grosso do Sul, com ilhas, lagoas e várzeas.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

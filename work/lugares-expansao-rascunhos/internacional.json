@@ -76,6 +76,41 @@
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/145/",
       "checkedAt": "2026-11-14"
+    },
+    "COCOS820": {
+      "id": "COCOS820",
+      "title": "Cocos Island National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/820/",
+      "checkedAt": "2026-11-14"
+    },
+    "GROSMORNE419": {
+      "id": "GROSMORNE419",
+      "title": "Gros Morne National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/419/",
+      "checkedAt": "2026-11-14"
+    },
+    "SIANKAAN410": {
+      "id": "SIANKAAN410",
+      "title": "Sian Ka'an",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/410/",
+      "checkedAt": "2026-11-14"
+    },
+    "BELIZE764": {
+      "id": "BELIZE764",
+      "title": "Belize Barrier Reef Reserve System",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/764/",
+      "checkedAt": "2026-11-14"
+    },
+    "CANAIMA701": {
+      "id": "CANAIMA701",
+      "title": "Canaima National Park: IUCN evaluation",
+      "publisher": "IUCN / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154052",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -9018,6 +9053,4948 @@
         "canonicalSummary": "Unidade de conservação da Patagônia argentina com geleiras andinas e lagos de origem glacial.",
         "editorialNotes": [
           "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-ilha-cocos",
+      "placeId": "ilha-cocos",
+      "title": "Parque Nacional Ilha do Coco",
+      "aliases": [
+        "Ilha do Coco",
+        "Isla del Coco"
+      ],
+      "answerType": "parque nacional insular",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque insular",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Ilha do Coco"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Galápagos"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Santuário de Fauna e Flora de Malpelo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Coiba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Rapa Nui"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Marinho de Baía de Loreto"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional das Ilhas do Golfo da Califórnia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Isla Contoy"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Marino Ballena"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Islas Marietas"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Isla Isabel"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Ilha do Coco",
+          "sources": [
+            "COCOS820"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Costa Rica"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Panamá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Equador"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Costa Rica",
+          "sources": [
+            "COCOS820"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Oceano",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Oceano Pacífico"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Oceano Atlântico"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Oceano Índico"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Oceano Ártico"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Oceano Pacífico",
+          "sources": [
+            "COCOS820"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ambientes protegidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Floresta tropical e ecossistemas marinhos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Tundra e geleiras continentais"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Floresta boreal e fiordes"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Estepes áridas e lagos salinos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Floresta tropical e ecossistemas marinhos",
+          "sources": [
+            "COCOS820"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ilha-cocos-viajante-P01",
+              "factKey": "ilha-cocos-F01",
+              "text": "Este destino protege uma ilha oceânica e o mar ao redor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P02",
+              "factKey": "ilha-cocos-F02",
+              "text": "Fica no oceano Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P03",
+              "factKey": "ilha-cocos-F03",
+              "text": "A área pertence à Costa Rica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P04",
+              "factKey": "ilha-cocos-F04",
+              "text": "A ilha fica a mais de 500 quilômetros do continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P05",
+              "factKey": "ilha-cocos-F05",
+              "text": "Sua origem é vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P06",
+              "factKey": "ilha-cocos-F06",
+              "text": "Grande parte da ilha é coberta por floresta tropical úmida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P07",
+              "factKey": "ilha-cocos-F07",
+              "text": "Há rios e cachoeiras na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P08",
+              "factKey": "ilha-cocos-F08",
+              "text": "Trechos de praia e falésias compõem o litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P09",
+              "factKey": "ilha-cocos-F09",
+              "text": "Recifes de coral vivem nas águas ao redor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P10",
+              "factKey": "ilha-cocos-F10",
+              "text": "A maior parte da área protegida é marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P11",
+              "factKey": "ilha-cocos-F11",
+              "text": "Tubarões estão entre os animais observados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P12",
+              "factKey": "ilha-cocos-F12",
+              "text": "Raias também frequentam as águas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P13",
+              "factKey": "ilha-cocos-F13",
+              "text": "Golfinhos podem aparecer no entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P14",
+              "factKey": "ilha-cocos-F14",
+              "text": "Atuns estão entre os peixes de grande porte da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P15",
+              "factKey": "ilha-cocos-F15",
+              "text": "Espécies migratórias usam a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P16",
+              "factKey": "ilha-cocos-F16",
+              "text": "Algumas aves da ilha não ocorrem naturalmente em outros lugares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P17",
+              "factKey": "ilha-cocos-F17",
+              "text": "Alguns répteis também são endêmicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P18",
+              "factKey": "ilha-cocos-F18",
+              "text": "O local abriga peixes de água doce endêmicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P19",
+              "factKey": "ilha-cocos-F19",
+              "text": "As ilhotas oferecem locais de repouso para aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P20",
+              "factKey": "ilha-cocos-F20",
+              "text": "A ilha é um destino conhecido para mergulho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P21",
+              "factKey": "ilha-cocos-F21",
+              "text": "Correntes marítimas influenciam o ambiente local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P22",
+              "factKey": "ilha-cocos-F22",
+              "text": "A pesca ilegal representa uma ameaça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P23",
+              "factKey": "ilha-cocos-F23",
+              "text": "Espécies introduzidas ameaçam o ambiente terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P24",
+              "factKey": "ilha-cocos-F24",
+              "text": "Pesquisadores visitam a área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-viajante-P25",
+              "factKey": "ilha-cocos-F25",
+              "text": "A cooperação entre países ajuda a proteger animais que migram.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ilha-cocos-geografo-P01",
+              "factKey": "ilha-cocos-F01",
+              "text": "A unidade integra ecossistemas terrestres insulares e ambientes marinhos pelágicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P02",
+              "factKey": "ilha-cocos-F02",
+              "text": "Localiza-se no Pacífico tropical oriental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P03",
+              "factKey": "ilha-cocos-F03",
+              "text": "O parque pertence ao território da Costa Rica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P04",
+              "factKey": "ilha-cocos-F04",
+              "text": "Seu isolamento ultrapassa 500 quilômetros da massa continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P05",
+              "factKey": "ilha-cocos-F05",
+              "text": "A ilha oceânica possui origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P06",
+              "factKey": "ilha-cocos-F06",
+              "text": "A floresta úmida tropical recobre grande parte do ambiente terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P07",
+              "factKey": "ilha-cocos-F07",
+              "text": "A paisagem inclui cursos de água e cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P08",
+              "factKey": "ilha-cocos-F08",
+              "text": "Falésias, enseadas e praias compõem uma costa variada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P09",
+              "factKey": "ilha-cocos-F09",
+              "text": "Recifes coralíneos integram os habitats do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P10",
+              "factKey": "ilha-cocos-F10",
+              "text": "A área marinha representa a maior parte do bem reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P11",
+              "factKey": "ilha-cocos-F11",
+              "text": "Grandes tubarões pelágicos encontram habitat na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P12",
+              "factKey": "ilha-cocos-F12",
+              "text": "Grandes raias integram a fauna marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P13",
+              "factKey": "ilha-cocos-F13",
+              "text": "Mamíferos marinhos visitantes incluem golfinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P14",
+              "factKey": "ilha-cocos-F14",
+              "text": "Peixes pelágicos como atuns frequentam o entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P15",
+              "factKey": "ilha-cocos-F15",
+              "text": "A área funciona como ponto de agregação para espécies migratórias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P16",
+              "factKey": "ilha-cocos-F16",
+              "text": "O isolamento contribuiu para o endemismo de espécies de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P17",
+              "factKey": "ilha-cocos-F17",
+              "text": "Répteis endêmicos compõem parte da fauna terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P18",
+              "factKey": "ilha-cocos-F18",
+              "text": "O endemismo também alcança peixes de água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P19",
+              "factKey": "ilha-cocos-F19",
+              "text": "Rochas e ilhotas próximas oferecem repouso e nidificação a aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P20",
+              "factKey": "ilha-cocos-F20",
+              "text": "O mergulho turístico exige monitoramento para limitar perturbações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P21",
+              "factKey": "ilha-cocos-F21",
+              "text": "O encontro de correntes afeta a distribuição de organismos e larvas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P22",
+              "factKey": "ilha-cocos-F22",
+              "text": "A pesca ilegal ameaça os valores de conservação marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P23",
+              "factKey": "ilha-cocos-F23",
+              "text": "Plantas e animais introduzidos alteram os ecossistemas insulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P24",
+              "factKey": "ilha-cocos-F24",
+              "text": "A distância e as interações mar-terra favorecem estudos de processos biológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-cocos-geografo-P25",
+              "factKey": "ilha-cocos-F25",
+              "text": "A cooperação regional é relevante para espécies que ultrapassam os limites do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COCOS820"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ilha oceânica protegida da Costa Rica, cercada por ecossistemas marinhos do Pacífico tropical oriental.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-gros-morne",
+      "placeId": "gros-morne",
+      "title": "Parque Nacional Gros Morne",
+      "aliases": [
+        "Gros Morne"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CA"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Gros Morne"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Banff"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Jasper"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Yoho"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Kootenay"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Terra Nova"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Forillon"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Fundy"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Auyuittuq"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Nahanni"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional dos Fiordes de Kenai"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Glacier Bay"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Gros Morne",
+          "sources": [
+            "GROSMORNE419"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Canadá"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Estados Unidos"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Islândia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Noruega"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Canadá",
+          "sources": [
+            "GROSMORNE419"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ilha onde se situa",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Terra Nova"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Groenlândia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Islândia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ilha de Vancouver"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Terra Nova",
+          "sources": [
+            "GROSMORNE419"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Processo que modelou parte da paisagem",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ação de geleiras"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Formação de recifes de coral"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Acúmulo de dunas tropicais"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Deposição de cinzas recentes"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Ação de geleiras",
+          "sources": [
+            "GROSMORNE419"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "gros-morne-viajante-P01",
+              "factKey": "gros-morne-F01",
+              "text": "Este destino protege uma paisagem de montanhas e água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P02",
+              "factKey": "gros-morne-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P03",
+              "factKey": "gros-morne-F03",
+              "text": "A área protegida pertence ao Canadá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P04",
+              "factKey": "gros-morne-F04",
+              "text": "O parque está em uma ilha chamada Terra Nova.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P05",
+              "factKey": "gros-morne-F05",
+              "text": "Situa-se na costa oeste dessa ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P06",
+              "factKey": "gros-morne-F06",
+              "text": "A província se chama Terra Nova e Labrador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P07",
+              "factKey": "gros-morne-F07",
+              "text": "Há terrenos baixos junto ao litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P08",
+              "factKey": "gros-morne-F08",
+              "text": "Planaltos alpinos fazem parte do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P09",
+              "factKey": "gros-morne-F09",
+              "text": "Falésias íngremes aparecem na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P10",
+              "factKey": "gros-morne-F10",
+              "text": "Cachoeiras estão entre os elementos naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P11",
+              "factKey": "gros-morne-F11",
+              "text": "Há lagos de água doce na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P12",
+              "factKey": "gros-morne-F12",
+              "text": "A região apresenta vales esculpidos por geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P13",
+              "factKey": "gros-morne-F13",
+              "text": "Há fiordes de água doce no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P14",
+              "factKey": "gros-morne-F14",
+              "text": "Rochas do fundo do oceano aparecem expostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P15",
+              "factKey": "gros-morne-F15",
+              "text": "Também há rochas que se originaram no manto terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P16",
+              "factKey": "gros-morne-F16",
+              "text": "O lugar ajuda cientistas a estudar a movimentação dos continentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P17",
+              "factKey": "gros-morne-F17",
+              "text": "Fósseis são encontrados em algumas rochas sedimentares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P18",
+              "factKey": "gros-morne-F18",
+              "text": "Rochas vulcânicas de origem oceânica integram o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P19",
+              "factKey": "gros-morne-F19",
+              "text": "O parque protege uma área de mais de cem mil hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P20",
+              "factKey": "gros-morne-F20",
+              "text": "A UNESCO o reconheceu em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P21",
+              "factKey": "gros-morne-F21",
+              "text": "A erosão continua modificando a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P22",
+              "factKey": "gros-morne-F22",
+              "text": "Uma estrada atravessa parte da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P23",
+              "factKey": "gros-morne-F23",
+              "text": "Há também um corredor de transmissão elétrica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P24",
+              "factKey": "gros-morne-F24",
+              "text": "A presença de alces introduzidos causou impactos nas florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-viajante-P25",
+              "factKey": "gros-morne-F25",
+              "text": "A coleta de rochas e fósseis é controlada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "gros-morne-geografo-P01",
+              "factKey": "gros-morne-F01",
+              "text": "A unidade insular apresenta registros da evolução geológica da margem continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P02",
+              "factKey": "gros-morne-F02",
+              "text": "Localiza-se na porção oriental da América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P03",
+              "factKey": "gros-morne-F03",
+              "text": "O território protegido integra o sistema canadense de parques nacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P04",
+              "factKey": "gros-morne-F04",
+              "text": "A ilha de Terra Nova abriga o sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P05",
+              "factKey": "gros-morne-F05",
+              "text": "O parque ocupa parte da costa ocidental da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P06",
+              "factKey": "gros-morne-F06",
+              "text": "Situa-se na província de Terra Nova e Labrador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P07",
+              "factKey": "gros-morne-F07",
+              "text": "A paisagem inclui planícies costeiras e terrenos elevados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P08",
+              "factKey": "gros-morne-F08",
+              "text": "A superfície inclui planaltos alpinos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P09",
+              "factKey": "gros-morne-F09",
+              "text": "Escarpas e falésias evidenciam o relevo recortado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P10",
+              "factKey": "gros-morne-F10",
+              "text": "Cachoeiras drenam os terrenos elevados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P11",
+              "factKey": "gros-morne-F11",
+              "text": "Fiordes interiores contêm água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P12",
+              "factKey": "gros-morne-F12",
+              "text": "A erosão glacial escavou vales e expôs formações geológicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P13",
+              "factKey": "gros-morne-F13",
+              "text": "Fiordes e pontas costeiras registram a ação de antigas geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P14",
+              "factKey": "gros-morne-F14",
+              "text": "Porções da crosta oceânica foram deslocadas até a margem continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P15",
+              "factKey": "gros-morne-F15",
+              "text": "Rochas originadas no manto terrestre afloram no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P16",
+              "factKey": "gros-morne-F16",
+              "text": "Os afloramentos permitem estudar tectônica de placas e deriva continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P17",
+              "factKey": "gros-morne-F17",
+              "text": "Sedimentos de plataforma continental incluem fósseis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P18",
+              "factKey": "gros-morne-F18",
+              "text": "Sequências de rochas vulcânicas registram ambientes oceânicos antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P19",
+              "factKey": "gros-morne-F19",
+              "text": "A unidade reconhecida abrange cerca de 180.500 hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P20",
+              "factKey": "gros-morne-F20",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P21",
+              "factKey": "gros-morne-F21",
+              "text": "A erosão atual continua a expor sequências de rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P22",
+              "factKey": "gros-morne-F22",
+              "text": "Uma rodovia cruza a área por um corredor autorizado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P23",
+              "factKey": "gros-morne-F23",
+              "text": "Um corredor de transmissão de energia também atravessa o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P24",
+              "factKey": "gros-morne-F24",
+              "text": "Alces introduzidos degradam parte das florestas nativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gros-morne-geografo-P25",
+              "factKey": "gros-morne-F25",
+              "text": "A coleta de rochas e fósseis é limitada a fins de pesquisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GROSMORNE419"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque canadense na ilha de Terra Nova, com relevo glacial e afloramentos que ilustram a tectônica de placas.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-sian-kaan",
+      "placeId": "sian-kaan",
+      "title": "Reserva da Biosfera Sian Ka’an",
+      "aliases": [
+        "Sian Ka’an",
+        "Sian Ka'an"
+      ],
+      "answerType": "reserva da biosfera",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "MX"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área protegida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Reserva da Biosfera Sian Ka’an"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Reserva da Biosfera Banco Chinchorro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Reserva da Biosfera Ría Lagartos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Reserva da Biosfera Ría Celestún"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Reserva da Biosfera Calakmul"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Reserva da Biosfera Los Petenes"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Reserva da Biosfera Mariposa Monarca"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Reserva da Biosfera El Vizcaíno"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Reserva da Biosfera Montes Azules"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Reserva da Biosfera Pantanos de Centla"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Reserva da Biosfera Talamanca"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Reserva da Biosfera Bosawás"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Reserva da Biosfera Sian Ka’an",
+          "sources": [
+            "SIANKAAN410"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "México"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Belize"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Honduras"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "México",
+          "sources": [
+            "SIANKAAN410"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes interligados",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Manguezais, lagoas e recifes"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tundra, geleiras e fiordes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Savana árida e oásis"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta boreal e permafrost"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Manguezais, lagoas e recifes",
+          "sources": [
+            "SIANKAAN410"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Península",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Yucatán"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Baja California"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Flórida"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Labrador"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Yucatán",
+          "sources": [
+            "SIANKAAN410"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "sian-kaan-viajante-P01",
+              "factKey": "sian-kaan-F01",
+              "text": "Este destino protege uma faixa costeira e ambientes marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P02",
+              "factKey": "sian-kaan-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P03",
+              "factKey": "sian-kaan-F03",
+              "text": "A reserva pertence ao México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P04",
+              "factKey": "sian-kaan-F04",
+              "text": "Fica na península de Yucatán.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P05",
+              "factKey": "sian-kaan-F05",
+              "text": "A área protegida está na costa leste da península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P06",
+              "factKey": "sian-kaan-F06",
+              "text": "Florestas tropicais fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P07",
+              "factKey": "sian-kaan-F07",
+              "text": "Há manguezais e áreas alagadas no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P08",
+              "factKey": "sian-kaan-F08",
+              "text": "Lagoas e praias também integram a reserva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P09",
+              "factKey": "sian-kaan-F09",
+              "text": "Uma parte do recife mesoamericano fica na área marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P10",
+              "factKey": "sian-kaan-F10",
+              "text": "A onça-pintada é um dos mamíferos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P11",
+              "factKey": "sian-kaan-F11",
+              "text": "A anta centro-americana vive nas florestas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P12",
+              "factKey": "sian-kaan-F12",
+              "text": "O peixe-boi pode ocorrer nas águas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P13",
+              "factKey": "sian-kaan-F13",
+              "text": "Tartarugas marinhas usam praias do local para reprodução.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P14",
+              "factKey": "sian-kaan-F14",
+              "text": "Muitas espécies de aves vivem ou passam pela reserva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P15",
+              "factKey": "sian-kaan-F15",
+              "text": "Há cavidades naturais chamadas cenotes na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P16",
+              "factKey": "sian-kaan-F16",
+              "text": "Algumas cavidades expõem água subterrânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P17",
+              "factKey": "sian-kaan-F17",
+              "text": "Ilhas de árvores emergem em meio aos alagados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P18",
+              "factKey": "sian-kaan-F18",
+              "text": "Essas ilhas de vegetação recebem o nome de petenes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P19",
+              "factKey": "sian-kaan-F19",
+              "text": "Manguezais oferecem abrigo para animais jovens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P20",
+              "factKey": "sian-kaan-F20",
+              "text": "O recife ajuda a proteger a costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P21",
+              "factKey": "sian-kaan-F21",
+              "text": "O nome do destino vem de uma língua maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P22",
+              "factKey": "sian-kaan-F22",
+              "text": "A reserva foi criada para proteger ambientes terrestres e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P23",
+              "factKey": "sian-kaan-F23",
+              "text": "Pescadores utilizam recursos do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P24",
+              "factKey": "sian-kaan-F24",
+              "text": "Tempestades tropicais afetam essa costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-viajante-P25",
+              "factKey": "sian-kaan-F25",
+              "text": "O turismo exige cuidados de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "sian-kaan-geografo-P01",
+              "factKey": "sian-kaan-F01",
+              "text": "O sítio integra uma rede de ecossistemas terrestres, costeiros e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P02",
+              "factKey": "sian-kaan-F02",
+              "text": "Localiza-se na América do Norte, no território mexicano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P03",
+              "factKey": "sian-kaan-F03",
+              "text": "A área protegida pertence ao México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P04",
+              "factKey": "sian-kaan-F04",
+              "text": "Ocupa a costa oriental da península de Yucatán.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P05",
+              "factKey": "sian-kaan-F05",
+              "text": "Sua localização no Caribe conecta o litoral às águas marinhas rasas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P06",
+              "factKey": "sian-kaan-F06",
+              "text": "Florestas tropicais e savanas de palmeiras compõem o mosaico terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P07",
+              "factKey": "sian-kaan-F07",
+              "text": "Manguezais e áreas úmidas cobrem extensas porções da reserva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P08",
+              "factKey": "sian-kaan-F08",
+              "text": "Lagoas costeiras integram o complexo hidrológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P09",
+              "factKey": "sian-kaan-F09",
+              "text": "A unidade protege parte da Barreira Mesoamericana de Recifes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P10",
+              "factKey": "sian-kaan-F10",
+              "text": "A onça-pintada é um dos predadores encontrados nas florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P11",
+              "factKey": "sian-kaan-F11",
+              "text": "A anta centro-americana integra a fauna terrestre protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P12",
+              "factKey": "sian-kaan-F12",
+              "text": "O peixe-boi-das-antilhas ocorre em águas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P13",
+              "factKey": "sian-kaan-F13",
+              "text": "Quatro espécies de tartarugas marinhas reproduzem-se na área, segundo a UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P14",
+              "factKey": "sian-kaan-F14",
+              "text": "A área serve a aves residentes e migratórias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P15",
+              "factKey": "sian-kaan-F15",
+              "text": "Os cenotes são cavidades naturais associadas ao relevo cárstico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P16",
+              "factKey": "sian-kaan-F16",
+              "text": "O colapso do calcário pode expor águas subterrâneas nos cenotes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P17",
+              "factKey": "sian-kaan-F17",
+              "text": "Os petenes são ilhas florestadas em meio aos alagados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P18",
+              "factKey": "sian-kaan-F18",
+              "text": "Sistemas subterrâneos de água doce conectam ambientes úmidos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P19",
+              "factKey": "sian-kaan-F19",
+              "text": "Manguezais retêm sedimentos e servem de berçário para animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P20",
+              "factKey": "sian-kaan-F20",
+              "text": "O recife abriga manguezais e pradarias marinhas da ação do mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P21",
+              "factKey": "sian-kaan-F21",
+              "text": "O nome da reserva tem origem em língua maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P22",
+              "factKey": "sian-kaan-F22",
+              "text": "A gestão busca conservar a ligação entre sistemas terrestres, marinhos e de água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P23",
+              "factKey": "sian-kaan-F23",
+              "text": "O manejo precisa considerar os efeitos da pesca sobre espécies costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P24",
+              "factKey": "sian-kaan-F24",
+              "text": "O recife contribui para proteger a costa contra tempestades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sian-kaan-geografo-P25",
+              "factKey": "sian-kaan-F25",
+              "text": "Urbanização costeira e turismo exigem monitoramento e manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SIANKAAN410"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Reserva costeira mexicana que protege florestas, manguezais, cenotes e parte da Barreira Mesoamericana de Recifes.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-barreira-belize",
+      "placeId": "barreira-belize",
+      "title": "Sistema de Reservas da Barreira de Corais de Belize",
+      "aliases": [
+        "Barreira de Corais de Belize"
+      ],
+      "answerType": "sistema de reservas marinhas",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BZ"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sistema de recifes",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sistema de Reservas da Barreira de Corais de Belize"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Grande Barreira de Corais"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Costa de Ningaloo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Reserva da Biosfera Banco Chinchorro"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Reserva da Biosfera Sian Ka’an"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Coiba"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Ilha do Coco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Galápagos"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Santuário de Fauna e Flora de Malpelo"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Reserva Marinha de Glover"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Bunaken"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Recifes de Tubbataha"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Sistema de Reservas da Barreira de Corais de Belize",
+          "sources": [
+            "BELIZE764"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Belize"
+            },
+            {
+              "id": "C2-O2",
+              "text": "México"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Honduras"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Panamá"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Belize",
+          "sources": [
+            "BELIZE764"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes protegidos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Recifes, manguezais e lagoas costeiras"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tundra, geleiras e fiordes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Estepes e desertos de altitude"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Florestas de coníferas e lagos glaciais"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Recifes, manguezais e lagoas costeiras",
+          "sources": [
+            "BELIZE764"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Número de áreas protegidas no bem da UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Sete"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Duas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Quatro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Doze"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Sete",
+          "sources": [
+            "BELIZE764"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "barreira-belize-viajante-P01",
+              "factKey": "barreira-belize-F01",
+              "text": "Este destino reúne áreas protegidas junto ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P02",
+              "factKey": "barreira-belize-F02",
+              "text": "Fica na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P03",
+              "factKey": "barreira-belize-F03",
+              "text": "O sistema acompanha a costa de um país centro-americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P04",
+              "factKey": "barreira-belize-F04",
+              "text": "O mar do Caribe banha a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P05",
+              "factKey": "barreira-belize-F05",
+              "text": "O destino protege uma extensa barreira de corais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P06",
+              "factKey": "barreira-belize-F06",
+              "text": "Há lagoas costeiras e estuários no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P07",
+              "factKey": "barreira-belize-F07",
+              "text": "Manguezais integram a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P08",
+              "factKey": "barreira-belize-F08",
+              "text": "Pequenas ilhas arenosas aparecem ao longo da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P09",
+              "factKey": "barreira-belize-F09",
+              "text": "O conjunto protegido reconhecido tem sete áreas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P10",
+              "factKey": "barreira-belize-F10",
+              "text": "Um monumento natural do conjunto se chama Blue Hole.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P11",
+              "factKey": "barreira-belize-F11",
+              "text": "Half Moon Caye é outro monumento natural do sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P12",
+              "factKey": "barreira-belize-F12",
+              "text": "Bacalar Chico integra as áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P13",
+              "factKey": "barreira-belize-F13",
+              "text": "A Reserva Marinha de South Water Caye também faz parte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P14",
+              "factKey": "barreira-belize-F14",
+              "text": "A Reserva Marinha Glover’s Reef é outro componente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P15",
+              "factKey": "barreira-belize-F15",
+              "text": "Laughing Bird Caye integra a rede.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P16",
+              "factKey": "barreira-belize-F16",
+              "text": "Sapodilla Cayes faz parte do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P17",
+              "factKey": "barreira-belize-F17",
+              "text": "O sistema abriga peixes, aves e outros animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P18",
+              "factKey": "barreira-belize-F18",
+              "text": "Tubarões-martelo vivem em águas da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P19",
+              "factKey": "barreira-belize-F19",
+              "text": "Peixes-boi e tartarugas marinhas são observados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P20",
+              "factKey": "barreira-belize-F20",
+              "text": "O turismo é uma atividade importante para a costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P21",
+              "factKey": "barreira-belize-F21",
+              "text": "A pesca excessiva ameaça os ecossistemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P22",
+              "factKey": "barreira-belize-F22",
+              "text": "O desenvolvimento costeiro pode afetar os ambientes protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P23",
+              "factKey": "barreira-belize-F23",
+              "text": "As mudanças climáticas trazem riscos para os corais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P24",
+              "factKey": "barreira-belize-F24",
+              "text": "A UNESCO reconheceu o conjunto em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-viajante-P25",
+              "factKey": "barreira-belize-F25",
+              "text": "A conservação envolve governo e outras organizações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "barreira-belize-geografo-P01",
+              "factKey": "barreira-belize-F01",
+              "text": "O bem reúne sete áreas protegidas distribuídas em um sistema costeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P02",
+              "factKey": "barreira-belize-F02",
+              "text": "Localiza-se na América Central, na margem caribenha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P03",
+              "factKey": "barreira-belize-F03",
+              "text": "As áreas integram o território de um país centro-americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P04",
+              "factKey": "barreira-belize-F04",
+              "text": "A conectividade marinha ultrapassa limites políticos e de unidades de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P05",
+              "factKey": "barreira-belize-F05",
+              "text": "A barreira de recifes é a maior do hemisfério norte segundo a UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P06",
+              "factKey": "barreira-belize-F06",
+              "text": "Lagoas e estuários integram os habitats costeiros protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P07",
+              "factKey": "barreira-belize-F07",
+              "text": "Manguezais conectam os ambientes terrestres e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P08",
+              "factKey": "barreira-belize-F08",
+              "text": "Ilhotas arenosas e manguezais compõem o complexo recifal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P09",
+              "factKey": "barreira-belize-F09",
+              "text": "O bem serial reconhecido é formado por sete unidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P10",
+              "factKey": "barreira-belize-F10",
+              "text": "O Monumento Natural Blue Hole integra o sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P11",
+              "factKey": "barreira-belize-F11",
+              "text": "O Monumento Natural Half Moon Caye é outro componente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P12",
+              "factKey": "barreira-belize-F12",
+              "text": "Bacalar Chico combina parque nacional e reserva marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P13",
+              "factKey": "barreira-belize-F13",
+              "text": "South Water Caye é uma das reservas marinhas do bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P14",
+              "factKey": "barreira-belize-F14",
+              "text": "Glover’s Reef compõe uma reserva marinha do sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P15",
+              "factKey": "barreira-belize-F15",
+              "text": "Laughing Bird Caye é um parque nacional integrante.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P16",
+              "factKey": "barreira-belize-F16",
+              "text": "Sapodilla Cayes é uma das reservas marinhas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P17",
+              "factKey": "barreira-belize-F17",
+              "text": "A diversidade de habitats favorece peixes e predadores terrestres e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P18",
+              "factKey": "barreira-belize-F18",
+              "text": "Grandes tubarões-martelo são registrados no Blue Hole.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P19",
+              "factKey": "barreira-belize-F19",
+              "text": "Peixes-boi e tartarugas estão entre os vertebrados marinhos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P20",
+              "factKey": "barreira-belize-F20",
+              "text": "A gestão turística precisa controlar impactos sobre ambientes sensíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P21",
+              "factKey": "barreira-belize-F21",
+              "text": "A sobrepesca pode comprometer a integridade do sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P22",
+              "factKey": "barreira-belize-F22",
+              "text": "O manejo costeiro deve considerar dragagem e remoção de manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P23",
+              "factKey": "barreira-belize-F23",
+              "text": "O aquecimento oceânico pode contribuir para o branqueamento de corais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P24",
+              "factKey": "barreira-belize-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "barreira-belize-geografo-P25",
+              "factKey": "barreira-belize-F25",
+              "text": "A gestão combina instituições governamentais e organizações não governamentais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BELIZE764"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Rede de reservas marinhas de Belize que protege recifes, manguezais e lagoas costeiras do Caribe.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-canaima",
+      "placeId": "canaima",
+      "title": "Parque Nacional Canaima",
+      "aliases": [
+        "Canaima"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "VE"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Canaima"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Monte Roraima"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Serranía de la Neblina"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Duida-Marahuaca"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Jaua-Sarisariñama"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional El Ávila"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Sierra Nevada"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Parima Tapirapecó"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Serra do Divisor"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Yapacana"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Canaima",
+          "sources": [
+            "CANAIMA701"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Venezuela"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Equador"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Peru"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Venezuela",
+          "sources": [
+            "CANAIMA701"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Formação de relevo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tepuis, montanhas de topo tabular"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Recifes coralíneos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dunas de areia móvel"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Fiordes escavados em rocha"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tepuis, montanhas de topo tabular",
+          "sources": [
+            "CANAIMA701"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Bacia hidrográfica protegida",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nascentes do rio Caroní"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Nascentes do rio São Francisco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Nascentes do rio Colorado"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Nascentes do rio Mackenzie"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nascentes do rio Caroní",
+          "sources": [
+            "CANAIMA701"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "canaima-viajante-P01",
+              "factKey": "canaima-F01",
+              "text": "Este destino protege grandes áreas de natureza na América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P02",
+              "factKey": "canaima-F02",
+              "text": "O parque está na Venezuela.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P03",
+              "factKey": "canaima-F03",
+              "text": "O território fica no sudeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P04",
+              "factKey": "canaima-F04",
+              "text": "A área protegida chega à região de fronteira com o Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P05",
+              "factKey": "canaima-F05",
+              "text": "Também alcança a região de fronteira com a Guiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P06",
+              "factKey": "canaima-F06",
+              "text": "Grandes montanhas de topo plano se destacam na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P07",
+              "factKey": "canaima-F07",
+              "text": "Essas montanhas são chamadas tepuis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P08",
+              "factKey": "canaima-F08",
+              "text": "Muitas paredes rochosas são quase verticais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P09",
+              "factKey": "canaima-F09",
+              "text": "A paisagem inclui cachoeiras muito altas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P10",
+              "factKey": "canaima-F10",
+              "text": "O Salto Ángel fica nesse parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P11",
+              "factKey": "canaima-F11",
+              "text": "Parte do território é coberta por savanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P12",
+              "factKey": "canaima-F12",
+              "text": "Florestas também integram a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P13",
+              "factKey": "canaima-F13",
+              "text": "O parque protege nascentes ligadas ao rio Caroní.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P14",
+              "factKey": "canaima-F14",
+              "text": "Há plantas que só ocorrem em áreas específicas dos tepuis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P15",
+              "factKey": "canaima-F15",
+              "text": "Povos indígenas pemón vivem em parte do território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P16",
+              "factKey": "canaima-F16",
+              "text": "Algumas montanhas da região são consideradas sagradas por comunidades locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P17",
+              "factKey": "canaima-F17",
+              "text": "A área integra o Escudo das Guianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P18",
+              "factKey": "canaima-F18",
+              "text": "Rochas de arenito compõem parte dos tepuis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P19",
+              "factKey": "canaima-F19",
+              "text": "A erosão ajudou a modelar as montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P20",
+              "factKey": "canaima-F20",
+              "text": "O parque tem aproximadamente três milhões de hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P21",
+              "factKey": "canaima-F21",
+              "text": "Foi criado em 1962.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P22",
+              "factKey": "canaima-F22",
+              "text": "Sua área foi ampliada em 1975.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P23",
+              "factKey": "canaima-F23",
+              "text": "A UNESCO reconheceu o parque em 1994.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P24",
+              "factKey": "canaima-F24",
+              "text": "O turismo precisa ser conciliado com a conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-viajante-P25",
+              "factKey": "canaima-F25",
+              "text": "A proteção das águas é importante para o território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "canaima-geografo-P01",
+              "factKey": "canaima-F01",
+              "text": "A unidade compreende ambientes elevados e baixos do Escudo das Guianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P02",
+              "factKey": "canaima-F02",
+              "text": "Situa-se inteiramente em território venezuelano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P03",
+              "factKey": "canaima-F03",
+              "text": "Localiza-se no sudeste da Venezuela.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P04",
+              "factKey": "canaima-F04",
+              "text": "A área alcança o limite internacional com o Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P05",
+              "factKey": "canaima-F05",
+              "text": "O parque também encontra a região de fronteira com a Guiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P06",
+              "factKey": "canaima-F06",
+              "text": "Mesas rochosas dominam grande parte do relevo protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P07",
+              "factKey": "canaima-F07",
+              "text": "Essas montanhas tabulares são chamadas tepuis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P08",
+              "factKey": "canaima-F08",
+              "text": "Escarpas íngremes ajudam a isolar os ambientes de seus cumes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P09",
+              "factKey": "canaima-F09",
+              "text": "Quedas d’água marcam as bordas elevadas do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P10",
+              "factKey": "canaima-F10",
+              "text": "O Salto Ángel integra a rede de quedas d’água do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P11",
+              "factKey": "canaima-F11",
+              "text": "Savanas ocupam parte das áreas menos elevadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P12",
+              "factKey": "canaima-F12",
+              "text": "Florestas e savanas integram um mosaico de paisagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P13",
+              "factKey": "canaima-F13",
+              "text": "O parque protege cabeceiras da bacia do rio Caroní.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P14",
+              "factKey": "canaima-F14",
+              "text": "O isolamento dos topos relaciona-se ao elevado endemismo vegetal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P15",
+              "factKey": "canaima-F15",
+              "text": "O território é habitado por comunidades indígenas pemón.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P16",
+              "factKey": "canaima-F16",
+              "text": "O documento da IUCN registra significados culturais de alguns tepuis para os pemón.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P17",
+              "factKey": "canaima-F17",
+              "text": "O substrato pertence ao setor venezuelano do Escudo das Guianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P18",
+              "factKey": "canaima-F18",
+              "text": "Muitos tepuis são formados por antigos arenitos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P19",
+              "factKey": "canaima-F19",
+              "text": "Processos erosivos de longa duração contribuíram para a configuração das mesas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P20",
+              "factKey": "canaima-F20",
+              "text": "A área protegida abrange aproximadamente três milhões de hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P21",
+              "factKey": "canaima-F21",
+              "text": "A criação do parque nacional ocorreu em 1962.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P22",
+              "factKey": "canaima-F22",
+              "text": "A extensão da unidade foi ampliada em 1975.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P23",
+              "factKey": "canaima-F23",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1994.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P24",
+              "factKey": "canaima-F24",
+              "text": "O planejamento da visitação deve considerar os impactos locais do turismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "canaima-geografo-P25",
+              "factKey": "canaima-F25",
+              "text": "A proteção das cabeceiras contribui para a conservação da bacia hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANAIMA701"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque venezuelano no Escudo das Guianas, com tepuis, savanas, florestas e o Salto Ángel.",
+        "editorialNotes": [
+          "Revisar separação da pauta do parque brasileiro Monte Roraima, alternativas e dificuldade."
         ]
       },
       "review": {

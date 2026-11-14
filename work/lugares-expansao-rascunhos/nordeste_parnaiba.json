@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "PARNAIBA_DNIT": {
+      "id": "PARNAIBA_DNIT",
+      "title": "Hidrovia do Parnaíba",
+      "publisher": "Departamento Nacional de Infraestrutura de Transportes",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/antiga-daq/hidrovia-do-parnaiba",
+      "checkedAt": "2026-11-14"
+    },
+    "PARNAIBA_ANA": {
+      "id": "PARNAIBA_ANA",
+      "title": "Rio Parnaíba na divisa entre Teresina e Timon",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/agencia-seleciona-organizacao-da-sociedade-civil-para-exercer-funcao-de-secretaria-executiva-do-comite-da-bacia-hidrografica-do-rio-parnaiba/",
+      "checkedAt": "2026-11-14"
+    },
+    "PARNAIBA_CBH": {
+      "id": "PARNAIBA_CBH",
+      "title": "A Bacia do Rio Parnaíba",
+      "publisher": "Comitê da Bacia Hidrográfica do Rio Parnaíba",
+      "url": "https://parnaiba.cbh.gov.br/a-bacia/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-rio-parnaiba",
+      "placeId": "rio-parnaiba",
+      "title": "Rio Parnaíba",
+      "aliases": [
+        "Parnaíba"
+      ],
+      "answerType": "rio",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Rio",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio Jequitinhonha"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Jaguaribe"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Piranhas-Açu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio Paranaíba"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Paraíba do Sul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Rio Doce"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Itapecuru"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Mearim"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio Parnaíba",
+          "sources": [
+            "PARNAIBA_DNIT",
+            "PARNAIBA_ANA",
+            "PARNAIBA_CBH"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estados separados por trecho do rio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Maranhão e Piauí"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Alagoas e Sergipe"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Bahia e Pernambuco"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ceará e Rio Grande do Norte"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Maranhão e Piauí",
+          "sources": [
+            "PARNAIBA_DNIT",
+            "PARNAIBA_ANA",
+            "PARNAIBA_CBH"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio afluente",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Rio Gurguéia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rio das Velhas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rio Paracatu"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rio Paraopeba"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Rio Gurguéia",
+          "sources": [
+            "PARNAIBA_DNIT",
+            "PARNAIBA_ANA",
+            "PARNAIBA_CBH"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Cidades em margens opostas",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Teresina e Timon"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Petrolina e Juazeiro"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Salvador e Itaparica"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Belém e Macapá"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Teresina e Timon",
+          "sources": [
+            "PARNAIBA_DNIT",
+            "PARNAIBA_ANA",
+            "PARNAIBA_CBH"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-parnaiba-viajante-P01",
+              "factKey": "rio-parnaiba-F01",
+              "text": "O destino é um rio do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P02",
+              "factKey": "rio-parnaiba-F02",
+              "text": "Ele deságua no oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P03",
+              "factKey": "rio-parnaiba-F03",
+              "text": "Parte do rio separa Piauí e Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P04",
+              "factKey": "rio-parnaiba-F04",
+              "text": "As cabeceiras ficam na região da Chapada das Mangabeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P05",
+              "factKey": "rio-parnaiba-F05",
+              "text": "Sua nascente envolve o encontro de outros rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P06",
+              "factKey": "rio-parnaiba-F06",
+              "text": "Um de seus rios formadores é o Água Quente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P07",
+              "factKey": "rio-parnaiba-F07",
+              "text": "Outro formador é o rio Boi Pintado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P08",
+              "factKey": "rio-parnaiba-F08",
+              "text": "O Surubim também é mencionado entre os formadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P09",
+              "factKey": "rio-parnaiba-F09",
+              "text": "A foz forma um conjunto de canais e ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P10",
+              "factKey": "rio-parnaiba-F10",
+              "text": "O rio passa entre Teresina e Timon.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P11",
+              "factKey": "rio-parnaiba-F11",
+              "text": "Uma de suas margens banha a capital do Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P12",
+              "factKey": "rio-parnaiba-F12",
+              "text": "O Rio Poti é um de seus afluentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P13",
+              "factKey": "rio-parnaiba-F13",
+              "text": "O Rio Gurguéia também é um afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P14",
+              "factKey": "rio-parnaiba-F14",
+              "text": "O Rio Balsas também traz água para esse rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P15",
+              "factKey": "rio-parnaiba-F15",
+              "text": "O Uruçuí Preto é outro rio da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P16",
+              "factKey": "rio-parnaiba-F16",
+              "text": "O Rio Longá também está entre os afluentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P17",
+              "factKey": "rio-parnaiba-F17",
+              "text": "O Rio Canindé é outro tributário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P18",
+              "factKey": "rio-parnaiba-F18",
+              "text": "Há uma barragem chamada Boa Esperança no curso alto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P19",
+              "factKey": "rio-parnaiba-F19",
+              "text": "Sua bacia alcança o Piauí, o Maranhão e o Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P20",
+              "factKey": "rio-parnaiba-F20",
+              "text": "A maior parte da bacia fica no Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P21",
+              "factKey": "rio-parnaiba-F21",
+              "text": "O Maranhão também abriga parte da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P22",
+              "factKey": "rio-parnaiba-F22",
+              "text": "Uma parte menor da bacia está no Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P23",
+              "factKey": "rio-parnaiba-F23",
+              "text": "O rio tem mais de mil quilômetros de extensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P24",
+              "factKey": "rio-parnaiba-F24",
+              "text": "O território da bacia reúne muitos municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-viajante-P25",
+              "factKey": "rio-parnaiba-F25",
+              "text": "Existe um comitê dedicado à gestão das águas da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-parnaiba-geografo-P01",
+              "factKey": "rio-parnaiba-F01",
+              "text": "A carta representa o curso principal de um rio nordestino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P02",
+              "factKey": "rio-parnaiba-F02",
+              "text": "O curso principal desemboca no oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P03",
+              "factKey": "rio-parnaiba-F03",
+              "text": "Trechos do curso principal marcam a fronteira entre Piauí e Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P04",
+              "factKey": "rio-parnaiba-F04",
+              "text": "As nascentes dos formadores localizam-se na Chapada das Mangabeiras e Serra da Tabatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P05",
+              "factKey": "rio-parnaiba-F05",
+              "text": "A formação do curso principal resulta da confluência de cursos de cabeceira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P06",
+              "factKey": "rio-parnaiba-F06",
+              "text": "O rio Água Quente integra o conjunto de formadores de cabeceira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P07",
+              "factKey": "rio-parnaiba-F07",
+              "text": "O rio Boi Pintado é citado entre os formadores do curso principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P08",
+              "factKey": "rio-parnaiba-F08",
+              "text": "O Surubim integra a rede de cursos de cabeceira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P09",
+              "factKey": "rio-parnaiba-F09",
+              "text": "Na desembocadura, o rio constrói uma paisagem deltaica com canais e ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P10",
+              "factKey": "rio-parnaiba-F10",
+              "text": "O eixo fluvial separa Teresina, no Piauí, de Timon, no Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P11",
+              "factKey": "rio-parnaiba-F11",
+              "text": "Teresina, capital piauiense, situa-se junto ao rio principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P12",
+              "factKey": "rio-parnaiba-F12",
+              "text": "O Rio Poti integra sua rede de tributários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P13",
+              "factKey": "rio-parnaiba-F13",
+              "text": "O Gurguéia compõe a bacia como tributário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P14",
+              "factKey": "rio-parnaiba-F14",
+              "text": "O Rio Balsas integra a rede hidrográfica como afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P15",
+              "factKey": "rio-parnaiba-F15",
+              "text": "O Uruçuí Preto é um tributário da rede de drenagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P16",
+              "factKey": "rio-parnaiba-F16",
+              "text": "O Longá integra o conjunto de rios afluentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P17",
+              "factKey": "rio-parnaiba-F17",
+              "text": "O Canindé contribui para a rede de drenagem do curso principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P18",
+              "factKey": "rio-parnaiba-F18",
+              "text": "A barragem de Boa Esperança situa-se no trecho alto da hidrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P19",
+              "factKey": "rio-parnaiba-F19",
+              "text": "A bacia de drenagem inclui Piauí, Maranhão e Ceará, distinguindo-se do percurso exato do rio principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P20",
+              "factKey": "rio-parnaiba-F20",
+              "text": "A ANA informa que aproximadamente 75% da bacia somada à drenagem do delta situa-se no Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P21",
+              "factKey": "rio-parnaiba-F21",
+              "text": "A ANA informa que aproximadamente 20% da bacia somada à drenagem do delta situa-se no Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P22",
+              "factKey": "rio-parnaiba-F22",
+              "text": "A ANA informa que aproximadamente 5% da bacia somada à drenagem do delta situa-se no Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P23",
+              "factKey": "rio-parnaiba-F23",
+              "text": "A extensão do curso supera mil quilômetros, conectando cabeceiras interiores ao litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P24",
+              "factKey": "rio-parnaiba-F24",
+              "text": "A bacia reúne municípios de diferentes estados, exigindo articulação para a gestão das águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-parnaiba-geografo-P25",
+              "factKey": "rio-parnaiba-F25",
+              "text": "O comitê de bacia reúne atores para discussão e gestão dos recursos hídricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNAIBA_DNIT",
+                "PARNAIBA_ANA",
+                "PARNAIBA_CBH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Rio nordestino que separa trechos do Piauí e Maranhão, recebe o Gurguéia e o Poti e desemboca no Atlântico.",
+        "editorialNotes": [
+          "O curso é pauta distinta da APA Delta; os dois lugares estão associados e não devem ser sorteados em sequência.",
+          "Percentuais referem-se à bacia somada à drenagem do delta, não ao percurso do rio principal."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

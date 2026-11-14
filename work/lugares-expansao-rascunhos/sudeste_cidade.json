@@ -1,0 +1,1041 @@
+{
+  "sources": {
+    "SUDESTE_SP_IBGE": {
+      "id": "SUDESTE_SP_IBGE",
+      "title": "São Paulo (SP): população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sp/sao-paulo",
+      "checkedAt": "2026-11-14"
+    },
+    "SUDESTE_SP_HISTORIA": {
+      "id": "SUDESTE_SP_HISTORIA",
+      "title": "História da cidade e sua fundação",
+      "publisher": "Prefeitura de São Paulo",
+      "url": "https://prefeitura.sp.gov.br/web/cultura/w/arquivo_historico/noticias/23021",
+      "checkedAt": "2026-11-14"
+    },
+    "SUDESTE_SP_TURISMO": {
+      "id": "SUDESTE_SP_TURISMO",
+      "title": "Guia de rotas turísticas do Estado de São Paulo",
+      "publisher": "Secretaria de Turismo e Viagens do Estado de São Paulo",
+      "url": "https://plataforma.turismo.sp.gov.br/publico/include/download.php?file=1130",
+      "checkedAt": "2026-11-14"
+    },
+    "SUDESTE_SP_URBANO": {
+      "id": "SUDESTE_SP_URBANO",
+      "title": "História urbana e bacia hidrográfica do Alto Tietê",
+      "publisher": "Prefeitura de São Paulo",
+      "url": "https://participemais.prefeitura.sp.gov.br/legislation/processes/300/draft_versions/50",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-sao-paulo",
+      "placeId": "cidade-sao-paulo",
+      "title": "São Paulo",
+      "aliases": [
+        "Cidade de São Paulo"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "São Paulo",
+          "sources": [
+            "SUDESTE_SP_TURISMO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Local associado à fundação",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Pátio do Colégio"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Largo da Carioca"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Praça da Liberdade"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Praça Tiradentes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Pátio do Colégio",
+          "sources": [
+            "SUDESTE_SP_HISTORIA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Parque inaugurado em 1954",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Parque Ibirapuera"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Parque Trianon"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Parque da Independência"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Parque Estadual da Cantareira"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Parque Ibirapuera",
+          "sources": [
+            "SUDESTE_SP_TURISMO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "População municipal no Censo 2022",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Cerca de 11,45 milhões"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Cerca de 6,21 milhões"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Cerca de 2,31 milhões"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cerca de 1,77 milhão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Cerca de 11,45 milhões",
+          "sources": [
+            "SUDESTE_SP_IBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-sao-paulo-viajante-P01",
+              "factKey": "cidade-sao-paulo-F01",
+              "text": "Este destino é uma cidade brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P02",
+              "factKey": "cidade-sao-paulo-F02",
+              "text": "Fica na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P03",
+              "factKey": "cidade-sao-paulo-F03",
+              "text": "É a capital de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P04",
+              "factKey": "cidade-sao-paulo-F04",
+              "text": "Seu centro histórico se formou em uma área de planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P05",
+              "factKey": "cidade-sao-paulo-F05",
+              "text": "A história do núcleo colonial começou em 1554.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P06",
+              "factKey": "cidade-sao-paulo-F06",
+              "text": "Antes da colonização, povos indígenas já viviam na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P07",
+              "factKey": "cidade-sao-paulo-F07",
+              "text": "O núcleo colonial cresceu ao redor de um colégio jesuíta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P08",
+              "factKey": "cidade-sao-paulo-F08",
+              "text": "O Pátio do Colégio é ligado às origens da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P09",
+              "factKey": "cidade-sao-paulo-F09",
+              "text": "Um rio chamado Tietê atravessa a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P10",
+              "factKey": "cidade-sao-paulo-F10",
+              "text": "O rio Pinheiros também faz parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P11",
+              "factKey": "cidade-sao-paulo-F11",
+              "text": "A cidade tem um famoso parque chamado Ibirapuera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P12",
+              "factKey": "cidade-sao-paulo-F12",
+              "text": "Esse parque foi inaugurado em 1954.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P13",
+              "factKey": "cidade-sao-paulo-F13",
+              "text": "A Avenida Paulista está entre seus endereços mais conhecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P14",
+              "factKey": "cidade-sao-paulo-F14",
+              "text": "A avenida foi inaugurada no fim do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P15",
+              "factKey": "cidade-sao-paulo-F15",
+              "text": "Um museu conhecido pela sigla MASP fica nessa avenida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P16",
+              "factKey": "cidade-sao-paulo-F16",
+              "text": "O Museu da Língua Portuguesa está entre suas atrações culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P17",
+              "factKey": "cidade-sao-paulo-F17",
+              "text": "O Museu do Futebol fica no estádio do Pacaembu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P18",
+              "factKey": "cidade-sao-paulo-F18",
+              "text": "A Feira da Liberdade integra seus atrativos culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P19",
+              "factKey": "cidade-sao-paulo-F19",
+              "text": "O Mercado Municipal também é chamado de Mercadão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P20",
+              "factKey": "cidade-sao-paulo-F20",
+              "text": "A Catedral da Sé está em sua área central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P21",
+              "factKey": "cidade-sao-paulo-F21",
+              "text": "A cidade abriga o Museu do Ipiranga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P22",
+              "factKey": "cidade-sao-paulo-F22",
+              "text": "O Pico do Jaraguá oferece vista panorâmica da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P23",
+              "factKey": "cidade-sao-paulo-F23",
+              "text": "O bairro da Vila Madalena aparece entre os atrativos turísticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P24",
+              "factKey": "cidade-sao-paulo-F24",
+              "text": "O Memorial da América Latina está nessa cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-viajante-P25",
+              "factKey": "cidade-sao-paulo-F25",
+              "text": "A cidade tinha mais de 11 milhões de habitantes no Censo 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-sao-paulo-geografo-P01",
+              "factKey": "cidade-sao-paulo-F01",
+              "text": "O objeto desta carta é um município da rede urbana brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P02",
+              "factKey": "cidade-sao-paulo-F02",
+              "text": "A capital está situada na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P03",
+              "factKey": "cidade-sao-paulo-F03",
+              "text": "O município é sede do governo de sua unidade federativa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P04",
+              "factKey": "cidade-sao-paulo-F04",
+              "text": "Seu núcleo colonial se instalou no planalto da bacia do Alto Tietê.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P05",
+              "factKey": "cidade-sao-paulo-F05",
+              "text": "O colégio ligado à fundação foi instalado em 1554.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P06",
+              "factKey": "cidade-sao-paulo-F06",
+              "text": "O território já era ocupado por povos indígenas antes da colonização europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P07",
+              "factKey": "cidade-sao-paulo-F07",
+              "text": "O núcleo inicial se organizou em torno de um colégio jesuíta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P08",
+              "factKey": "cidade-sao-paulo-F08",
+              "text": "O Pátio do Colégio representa esse núcleo de formação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P09",
+              "factKey": "cidade-sao-paulo-F09",
+              "text": "O rio Tietê integra a drenagem do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P10",
+              "factKey": "cidade-sao-paulo-F10",
+              "text": "O rio Pinheiros encontra o Tietê no território urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P11",
+              "factKey": "cidade-sao-paulo-F11",
+              "text": "O Parque Ibirapuera integra a rede de espaços públicos de lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P12",
+              "factKey": "cidade-sao-paulo-F12",
+              "text": "Sua inauguração em 1954 marcou o quarto centenário da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P13",
+              "factKey": "cidade-sao-paulo-F13",
+              "text": "A Avenida Paulista tornou-se um eixo de atividades culturais e financeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P14",
+              "factKey": "cidade-sao-paulo-F14",
+              "text": "A abertura da avenida remonta a 1891.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P15",
+              "factKey": "cidade-sao-paulo-F15",
+              "text": "O museu identificado pela sigla MASP localiza-se nesse eixo viário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P16",
+              "factKey": "cidade-sao-paulo-F16",
+              "text": "O Museu da Língua Portuguesa é um dos equipamentos culturais da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P17",
+              "factKey": "cidade-sao-paulo-F17",
+              "text": "O Museu do Futebol ocupa parte do estádio do Pacaembu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P18",
+              "factKey": "cidade-sao-paulo-F18",
+              "text": "A Feira da Liberdade expressa a presença de referências culturais japonesas na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P19",
+              "factKey": "cidade-sao-paulo-F19",
+              "text": "O mercado conhecido como Mercadão concentra comércio de alimentos e restaurantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P20",
+              "factKey": "cidade-sao-paulo-F20",
+              "text": "A Catedral da Sé situa-se na região central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P21",
+              "factKey": "cidade-sao-paulo-F21",
+              "text": "O Museu do Ipiranga integra o conjunto de atrações históricas da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P22",
+              "factKey": "cidade-sao-paulo-F22",
+              "text": "O Pico do Jaraguá oferece vista da mancha urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P23",
+              "factKey": "cidade-sao-paulo-F23",
+              "text": "A Vila Madalena está inserida no conjunto de bairros da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_TURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P24",
+              "factKey": "cidade-sao-paulo-F24",
+              "text": "A história econômica relaciona a expansão urbana ao café e à industrialização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_HISTORIA",
+                "SUDESTE_SP_URBANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-sao-paulo-geografo-P25",
+              "factKey": "cidade-sao-paulo-F25",
+              "text": "O município registrou 11.451.999 habitantes no Censo 2022 do IBGE; o total é municipal, não metropolitano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SUDESTE_SP_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Metrópole do Sudeste e capital estadual, cujo núcleo colonial cresceu no planalto da bacia do Alto Tietê.",
+        "editorialNotes": [
+          "População se refere ao município no Censo 2022, não à região metropolitana.",
+          "Fontes oficiais consultadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

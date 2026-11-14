@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "FORTALEZA_IBGE": {
+      "id": "FORTALEZA_IBGE",
+      "title": "Cidades e Estados — Fortaleza",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ce/fortaleza",
+      "checkedAt": "2026-11-14"
+    },
+    "FORTALEZA_PCR": {
+      "id": "FORTALEZA_PCR",
+      "title": "Fortaleza em Bairros",
+      "publisher": "Prefeitura de Fortaleza",
+      "url": "https://fortalezaembairros.fortaleza.ce.gov.br/fortaleza",
+      "checkedAt": "2026-11-14"
+    },
+    "FORTALEZA_G20": {
+      "id": "FORTALEZA_G20",
+      "title": "Fortaleza — CE",
+      "publisher": "G20 Brasil",
+      "url": "https://www.gov.br/g20/pt-br/sobre-o-g20/cidades-sede/fortaleza-ce",
+      "checkedAt": "2026-11-14"
+    },
+    "FORTALEZA_COCO": {
+      "id": "FORTALEZA_COCO",
+      "title": "Parque Estadual do Cocó",
+      "publisher": "Governo do Ceará",
+      "url": "https://www.ce.gov.br/sema/gestao-de-ucs/unidades-de-conservacao-de-protecao-integral/parques/parque-estadual-do-coco_/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-fortaleza",
+      "placeId": "fortaleza",
+      "title": "Fortaleza",
+      "aliases": [
+        "Fortaleza"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O6",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Fortaleza",
+          "sources": [
+            "FORTALEZA_IBGE",
+            "FORTALEZA_PCR",
+            "FORTALEZA_G20",
+            "FORTALEZA_COCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Praia urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Praia do Futuro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Praia de Pajuçara"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Praia de Ponta Negra"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Praia de Boa Viagem"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Praia do Futuro",
+          "sources": [
+            "FORTALEZA_IBGE",
+            "FORTALEZA_PCR",
+            "FORTALEZA_G20",
+            "FORTALEZA_COCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Espaço de arte e cultura",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Centro Dragão do Mar"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Paço do Frevo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Museu do Amanhã"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Memorial dos Povos Indígenas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Centro Dragão do Mar",
+          "sources": [
+            "FORTALEZA_IBGE",
+            "FORTALEZA_PCR",
+            "FORTALEZA_G20",
+            "FORTALEZA_COCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ceará"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraíba"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Alagoas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Ceará",
+          "sources": [
+            "FORTALEZA_IBGE",
+            "FORTALEZA_PCR",
+            "FORTALEZA_G20",
+            "FORTALEZA_COCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "fortaleza-viajante-P01",
+              "factKey": "fortaleza-F01",
+              "text": "O destino é uma capital do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P02",
+              "factKey": "fortaleza-F02",
+              "text": "A cidade fica no Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P03",
+              "factKey": "fortaleza-F03",
+              "text": "Sua localização é litorânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P04",
+              "factKey": "fortaleza-F04",
+              "text": "No Censo de 2022, tinha cerca de 2,43 milhões de habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P05",
+              "factKey": "fortaleza-F05",
+              "text": "As praias fazem parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P06",
+              "factKey": "fortaleza-F06",
+              "text": "Uma das praias é chamada Praia do Futuro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P07",
+              "factKey": "fortaleza-F07",
+              "text": "Outra praia conhecida é a de Iracema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P08",
+              "factKey": "fortaleza-F08",
+              "text": "Mucuripe é outro nome associado à orla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P09",
+              "factKey": "fortaleza-F09",
+              "text": "A Avenida Beira-Mar acompanha parte da orla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P10",
+              "factKey": "fortaleza-F10",
+              "text": "O Porto do Mucuripe movimenta conexões comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P11",
+              "factKey": "fortaleza-F11",
+              "text": "Um mercado central reúne artesanato e outros produtos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P12",
+              "factKey": "fortaleza-F12",
+              "text": "A feira de artesanato da Beira-Mar é uma atração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P13",
+              "factKey": "fortaleza-F13",
+              "text": "A cidade tem um centro cultural chamado Dragão do Mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P14",
+              "factKey": "fortaleza-F14",
+              "text": "O espaço Dragão do Mar recebe exposições e eventos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P15",
+              "factKey": "fortaleza-F15",
+              "text": "O Teatro José de Alencar é um de seus marcos culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P16",
+              "factKey": "fortaleza-F16",
+              "text": "O Teatro São José é outro espaço da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P17",
+              "factKey": "fortaleza-F17",
+              "text": "Uma praça tradicional é conhecida como Praça do Ferreira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P18",
+              "factKey": "fortaleza-F18",
+              "text": "A Praça dos Mártires também é conhecida como Passeio Público.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P19",
+              "factKey": "fortaleza-F19",
+              "text": "Há uma estátua de Iracema junto à praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P20",
+              "factKey": "fortaleza-F20",
+              "text": "O Parque Estadual do Cocó fica em parte nessa cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P21",
+              "factKey": "fortaleza-F21",
+              "text": "O parque inclui manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P22",
+              "factKey": "fortaleza-F22",
+              "text": "O Rio Cocó é usado em passeios de barco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P23",
+              "factKey": "fortaleza-F23",
+              "text": "A cidade integrou a Rede de Cidades Criativas da UNESCO em 2019.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P24",
+              "factKey": "fortaleza-F24",
+              "text": "A área urbana cresceu mais rapidamente na segunda metade do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-viajante-P25",
+              "factKey": "fortaleza-F25",
+              "text": "O núcleo antigo cresceu junto ao riacho Pajeú.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "fortaleza-geografo-P01",
+              "factKey": "fortaleza-F01",
+              "text": "A carta representa uma capital estadual na região Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P02",
+              "factKey": "fortaleza-F02",
+              "text": "O município exerce a função de capital do estado do Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P03",
+              "factKey": "fortaleza-F03",
+              "text": "Sua área urbana se desenvolve em contato com o litoral atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P04",
+              "factKey": "fortaleza-F04",
+              "text": "O Censo Demográfico 2022 registrou 2.428.708 moradores no município, segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P05",
+              "factKey": "fortaleza-F05",
+              "text": "A orla marítima articula paisagens costeiras e atividades urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P06",
+              "factKey": "fortaleza-F06",
+              "text": "A Praia do Futuro integra o conjunto de praias da área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P07",
+              "factKey": "fortaleza-F07",
+              "text": "A Praia de Iracema compõe a faixa litorânea da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P08",
+              "factKey": "fortaleza-F08",
+              "text": "Mucuripe identifica uma área da orla e abriga uma instalação portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P09",
+              "factKey": "fortaleza-F09",
+              "text": "A Avenida Beira-Mar estrutura parte da ocupação e circulação na orla urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P10",
+              "factKey": "fortaleza-F10",
+              "text": "A atividade do Porto do Mucuripe relaciona a posição costeira às conexões comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P11",
+              "factKey": "fortaleza-F11",
+              "text": "O Mercado Central reúne comércio e artesanato ligados à economia urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P12",
+              "factKey": "fortaleza-F12",
+              "text": "A feira de artesanato junto à orla combina atividades culturais e comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P13",
+              "factKey": "fortaleza-F13",
+              "text": "O Centro Dragão do Mar articula espaços artísticos e culturais urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P14",
+              "factKey": "fortaleza-F14",
+              "text": "O equipamento cultural abriga exposições e eventos de diferentes linguagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P15",
+              "factKey": "fortaleza-F15",
+              "text": "O Theatro José de Alencar integra o patrimônio arquitetônico e cultural da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P16",
+              "factKey": "fortaleza-F16",
+              "text": "O Teatro São José faz parte da rede histórica de espaços culturais centrais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P17",
+              "factKey": "fortaleza-F17",
+              "text": "A Praça do Ferreira integra o conjunto de espaços públicos do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P18",
+              "factKey": "fortaleza-F18",
+              "text": "A Praça dos Mártires, ou Passeio Público, é parte do patrimônio urbano da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P19",
+              "factKey": "fortaleza-F19",
+              "text": "A estátua de Iracema relaciona paisagem litorânea e referência à literatura de José de Alencar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P20",
+              "factKey": "fortaleza-F20",
+              "text": "O Parque Estadual do Cocó protege um grande fragmento natural inserido em área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P21",
+              "factKey": "fortaleza-F21",
+              "text": "O manguezal protegido no parque ilustra a conexão entre recursos hídricos e ecossistemas costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P22",
+              "factKey": "fortaleza-F22",
+              "text": "O Rio Cocó articula os ambientes protegidos do parque à visitação por embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P23",
+              "factKey": "fortaleza-F23",
+              "text": "A UNESCO reconheceu a cidade na categoria de design da Rede de Cidades Criativas em 2019.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P24",
+              "factKey": "fortaleza-F24",
+              "text": "A expansão urbana e o crescimento populacional se intensificaram na segunda metade do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "fortaleza-geografo-P25",
+              "factKey": "fortaleza-F25",
+              "text": "A ocupação histórica desenvolveu-se junto à margem esquerda do riacho Pajeú.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FORTALEZA_IBGE",
+                "FORTALEZA_PCR",
+                "FORTALEZA_G20",
+                "FORTALEZA_COCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital litorânea do Ceará que reúne praias urbanas, o Porto do Mucuripe e equipamentos culturais como o Centro Dragão do Mar.",
+        "editorialNotes": [
+          "Dados demográficos referem-se ao Censo 2022 municipal do IBGE.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

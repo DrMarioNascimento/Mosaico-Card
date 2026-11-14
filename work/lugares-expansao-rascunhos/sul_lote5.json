@@ -1,0 +1,1011 @@
+{
+  "sources": {
+    "SULSAOJOAQUIMICMBIO": {
+      "id": "SULSAOJOAQUIMICMBIO",
+      "title": "Parque Nacional de São Joaquim",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-sao-joaquim",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSAOJOAQUIMPLANO": {
+      "id": "SULSAOJOAQUIMPLANO",
+      "title": "Plano de Manejo do Parque Nacional de São Joaquim",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-sao-joaquim/arquivos/plano_de_manejo_parque_nacional_de_sao_joaquim_2018.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-sao-joaquim",
+      "placeId": "parque-sao-joaquim",
+      "title": "Parque Nacional de São Joaquim",
+      "aliases": [
+        "São Joaquim"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de São Joaquim"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra do Itajaí"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional dos Campos Gerais"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Chapada Diamantina"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de São Joaquim",
+          "sources": [
+            "SULSAOJOAQUIMPLANO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Formação vegetal protegida",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mata de araucária"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Manguezal amazônico"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Floresta de mangue vermelho"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Caatinga arbórea"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mata de araucária",
+          "sources": [
+            "SULSAOJOAQUIMPLANO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Relevo de referência",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Morro da Igreja e Pedra Furada"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Morro do Pico e Baía do Sancho"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pico da Neblina e Rio Negro"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Monte Roraima e Serra do Sol"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Morro da Igreja e Pedra Furada",
+          "sources": [
+            "SULSAOJOAQUIMPLANO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "SULSAOJOAQUIMPLANO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-sao-joaquim-viajante-P01",
+              "factKey": "parque-sao-joaquim-viajante-F01",
+              "text": "O destino é uma área protegida de serra no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P02",
+              "factKey": "parque-sao-joaquim-viajante-F02",
+              "text": "O parque fica em Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P03",
+              "factKey": "parque-sao-joaquim-viajante-F03",
+              "text": "Florestas de araucária fazem parte da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P04",
+              "factKey": "parque-sao-joaquim-viajante-F04",
+              "text": "Há campos de altitude em sua paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P05",
+              "factKey": "parque-sao-joaquim-viajante-F05",
+              "text": "Cânions, encostas e cachoeiras aparecem no relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P06",
+              "factKey": "parque-sao-joaquim-viajante-F06",
+              "text": "O parque protege nascentes de rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P07",
+              "factKey": "parque-sao-joaquim-viajante-F07",
+              "text": "Um de seus pontos conhecidos é o Morro da Igreja.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P08",
+              "factKey": "parque-sao-joaquim-viajante-F08",
+              "text": "A Pedra Furada é uma formação observada da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P09",
+              "factKey": "parque-sao-joaquim-viajante-F09",
+              "text": "O parque está inserido no bioma Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P10",
+              "factKey": "parque-sao-joaquim-viajante-F10",
+              "text": "Além das araucárias, há plantas conhecidas como xaxins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P11",
+              "factKey": "parque-sao-joaquim-viajante-F11",
+              "text": "A onça-parda está entre os animais citados para o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P12",
+              "factKey": "parque-sao-joaquim-viajante-F12",
+              "text": "A jaguatirica também integra a fauna regional protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P13",
+              "factKey": "parque-sao-joaquim-viajante-F13",
+              "text": "O papagaio-charão é uma das aves mencionadas no plano de manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P14",
+              "factKey": "parque-sao-joaquim-viajante-F14",
+              "text": "O papagaio-de-peito-roxo aparece na fauna citada para a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P15",
+              "factKey": "parque-sao-joaquim-viajante-F15",
+              "text": "O parque abriga áreas de mata com neblina frequente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P16",
+              "factKey": "parque-sao-joaquim-viajante-F16",
+              "text": "A Trilha das Nascentes do Rio Pelotas é um dos percursos do Morro da Igreja.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P17",
+              "factKey": "parque-sao-joaquim-viajante-F17",
+              "text": "O Recanto Santa Bárbara tem uma trilha que passa por xaxins gigantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P18",
+              "factKey": "parque-sao-joaquim-viajante-F18",
+              "text": "O parque tem um setor de visitação chamado Rio do Bispo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P19",
+              "factKey": "parque-sao-joaquim-viajante-F19",
+              "text": "Uma trilha passa pela Cachoeira Arroio Boca da Serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P20",
+              "factKey": "parque-sao-joaquim-viajante-F20",
+              "text": "O Morro do Baú aparece entre os atrativos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P21",
+              "factKey": "parque-sao-joaquim-viajante-F21",
+              "text": "A unidade de conservação foi criada em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P22",
+              "factKey": "parque-sao-joaquim-viajante-F22",
+              "text": "Foi o primeiro parque nacional criado em Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P23",
+              "factKey": "parque-sao-joaquim-viajante-F23",
+              "text": "A sede administrativa fica em Urubici.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P24",
+              "factKey": "parque-sao-joaquim-viajante-F24",
+              "text": "A vegetação e a fauna incluem espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-viajante-P25",
+              "factKey": "parque-sao-joaquim-viajante-F25",
+              "text": "A paisagem apresenta paredões rochosos e vales profundos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-sao-joaquim-geografo-P01",
+              "factKey": "parque-sao-joaquim-geografo-F01",
+              "text": "A unidade preserva ecossistemas do Planalto Sul Catarinense e encostas da serra Geral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P02",
+              "factKey": "parque-sao-joaquim-geografo-F02",
+              "text": "Sua área integra o bioma Mata Atlântica em Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P03",
+              "factKey": "parque-sao-joaquim-geografo-F03",
+              "text": "A floresta ombrófila mista regional inclui remanescentes de araucária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P04",
+              "factKey": "parque-sao-joaquim-geografo-F04",
+              "text": "Em altitudes elevadas ocorrem campos e afloramentos rochosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P05",
+              "factKey": "parque-sao-joaquim-geografo-F05",
+              "text": "O relevo de encostas e cânions relaciona-se a derrames antigos de lava basáltica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P06",
+              "factKey": "parque-sao-joaquim-geografo-F06",
+              "text": "Essas rochas vulcânicas estão associadas à fragmentação do antigo continente Gondwana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P07",
+              "factKey": "parque-sao-joaquim-geografo-F07",
+              "text": "O Morro da Igreja está entre os pontos mais altos do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P08",
+              "factKey": "parque-sao-joaquim-geografo-F08",
+              "text": "A Pedra Furada integra o conjunto de feições geomorfológicas da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P09",
+              "factKey": "parque-sao-joaquim-geografo-F09",
+              "text": "A diversidade altitudinal forma habitats distintos para flora e fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P10",
+              "factKey": "parque-sao-joaquim-geografo-F10",
+              "text": "As matas nebulares apresentam uma composição vegetal própria das altitudes elevadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P11",
+              "factKey": "parque-sao-joaquim-geografo-F11",
+              "text": "O plano de manejo aponta sensibilidade dessas matas às mudanças climáticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P12",
+              "factKey": "parque-sao-joaquim-geografo-F12",
+              "text": "As áreas campestres e rochosas de maior altitude apresentam elevado endemismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P13",
+              "factKey": "parque-sao-joaquim-geografo-F13",
+              "text": "O parque integra a zona-núcleo da Reserva da Biosfera da Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P14",
+              "factKey": "parque-sao-joaquim-geografo-F14",
+              "text": "Os remanescentes de araucária contribuem para proteger diversidade genética.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P15",
+              "factKey": "parque-sao-joaquim-geografo-F15",
+              "text": "O xaxim é uma das espécies ameaçadas associadas às florestas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P16",
+              "factKey": "parque-sao-joaquim-geografo-F16",
+              "text": "Nascentes do rio Pelotas encontram-se na região protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P17",
+              "factKey": "parque-sao-joaquim-geografo-F17",
+              "text": "As nascentes do rio Três Barras também estão no território protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P18",
+              "factKey": "parque-sao-joaquim-geografo-F18",
+              "text": "Os rios Pelotas e Canoas se unem para formar o rio Uruguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P19",
+              "factKey": "parque-sao-joaquim-geografo-F19",
+              "text": "O rio Uruguai integra a drenagem que chega ao estuário do Prata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P20",
+              "factKey": "parque-sao-joaquim-geografo-F20",
+              "text": "As nascentes contribuem para o abastecimento das populações do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P21",
+              "factKey": "parque-sao-joaquim-geografo-F21",
+              "text": "A unidade foi criada em 1961 como primeiro parque nacional catarinense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P22",
+              "factKey": "parque-sao-joaquim-geografo-F22",
+              "text": "O objetivo da unidade combina preservação, pesquisa, educação ambiental e lazer compatível.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P23",
+              "factKey": "parque-sao-joaquim-geografo-F23",
+              "text": "A onça-parda e a jaguatirica estão entre os mamíferos presentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P24",
+              "factKey": "parque-sao-joaquim-geografo-F24",
+              "text": "Os papagaios charão e de peito roxo integram a avifauna citada no plano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sao-joaquim-geografo-P25",
+              "factKey": "parque-sao-joaquim-geografo-F25",
+              "text": "As escarpas e vales resultam de processos que esculpiram as rochas ao longo do tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSAOJOAQUIMPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque catarinense de altitude que protege araucárias, nascentes e feições da serra Geral.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}
