@@ -1,0 +1,1014 @@
+{
+  "sources": {
+    "TIKAL64": {
+      "id": "TIKAL64",
+      "title": "Tikal National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/64/",
+      "checkedAt": "2026-11-14"
+    },
+    "TIKAL_CONAP": {
+      "id": "TIKAL_CONAP",
+      "title": "Reserva de la Biosfera Maya, legado para la vida",
+      "publisher": "Consejo Nacional de Áreas Protegidas",
+      "url": "https://conap.gob.gt/reserva-de-la-biosfera-maya-legado-para-la-vida/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-tikal",
+      "placeId": "tikal",
+      "title": "Parque Nacional Tikal",
+      "aliases": [
+        "Tikal"
+      ],
+      "answerType": "parque arqueológico e natural",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "GT"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área protegida ou arqueológica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Tikal"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Yaxhá-Nakum-Naranjo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Calakmul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Palenque"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Sítio Arqueológico de Copán"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Sítio Arqueológico de Caracol"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade Pré-hispânica de Chichén Itzá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cidade Pré-hispânica de Uxmal"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Arqueológico de Quiriguá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Serra do Divisor"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Darién"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Corcovado"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Tikal",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O2",
+              "text": "México"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Belize"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Honduras"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Guatemala",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Civilização ligada ao antigo centro urbano",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Maia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Inca"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Asteca"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Moche"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Maia",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Reserva da biosfera que inclui o parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Reserva da Biosfera Maia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Reserva da Biosfera Sierra de las Minas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Reserva da Biosfera Trifinio Fraternidad"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Reserva da Biosfera La Amistad"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Reserva da Biosfera Maia",
+          "sources": [
+            "TIKAL_CONAP"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "tikal-viajante-P01",
+              "factKey": "tikal-F01",
+              "text": "Este destino protege ruínas antigas em meio à floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P02",
+              "factKey": "tikal-F02",
+              "text": "Fica na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P03",
+              "factKey": "tikal-F03",
+              "text": "O parque está na Guatemala.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P04",
+              "factKey": "tikal-F04",
+              "text": "O local foi um importante centro da civilização maia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P05",
+              "factKey": "tikal-F05",
+              "text": "Há templos e palácios no sítio arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P06",
+              "factKey": "tikal-F06",
+              "text": "Praças públicas integram o antigo centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P07",
+              "factKey": "tikal-F07",
+              "text": "Restos de moradias aparecem nas áreas ao redor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P08",
+              "factKey": "tikal-F08",
+              "text": "Pirâmides fazem parte das construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P09",
+              "factKey": "tikal-F09",
+              "text": "Inscrições em monumentos contam aspectos da história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P10",
+              "factKey": "tikal-F10",
+              "text": "O parque conserva florestas tropicais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P11",
+              "factKey": "tikal-F11",
+              "text": "Também protege áreas úmidas e savanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P12",
+              "factKey": "tikal-F12",
+              "text": "A onça-pintada vive entre os animais da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P13",
+              "factKey": "tikal-F13",
+              "text": "O puma é outro felino registrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P14",
+              "factKey": "tikal-F14",
+              "text": "Macacos fazem parte da fauna local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P15",
+              "factKey": "tikal-F15",
+              "text": "Muitas espécies de aves vivem nos diversos ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P16",
+              "factKey": "tikal-F16",
+              "text": "O parque faz parte de uma reserva da biosfera criada em 1990.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "TIKAL_CONAP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P17",
+              "factKey": "tikal-F17",
+              "text": "Essa floresta se estende além das fronteiras do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P18",
+              "factKey": "tikal-F18",
+              "text": "A antiga cidade tinha áreas cerimoniais e residenciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P19",
+              "factKey": "tikal-F19",
+              "text": "Quadras de jogo de bola integram o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P20",
+              "factKey": "tikal-F20",
+              "text": "Reservatórios antigos guardavam água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P21",
+              "factKey": "tikal-F21",
+              "text": "A região também era usada para agricultura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P22",
+              "factKey": "tikal-F22",
+              "text": "A área foi declarada parque nacional em 1955.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P23",
+              "factKey": "tikal-F23",
+              "text": "A UNESCO reconheceu o parque em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P24",
+              "factKey": "tikal-F24",
+              "text": "A preservação envolve natureza e patrimônio cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P25",
+              "factKey": "tikal-F25",
+              "text": "O saque de peças arqueológicas é um desafio à proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "tikal-geografo-P01",
+              "factKey": "tikal-F01",
+              "text": "A unidade integra patrimônio arqueológico e biodiversidade tropical.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P02",
+              "factKey": "tikal-F02",
+              "text": "Localiza-se na região centro-americana de Petén.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P03",
+              "factKey": "tikal-F03",
+              "text": "O sítio fica no norte da Guatemala.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P04",
+              "factKey": "tikal-F04",
+              "text": "Foi um importante centro político, econômico e militar maia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P05",
+              "factKey": "tikal-F05",
+              "text": "Templos, palácios e plataformas refletem funções cerimoniais e administrativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P06",
+              "factKey": "tikal-F06",
+              "text": "Praças e rampas organizavam espaços públicos do centro monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P07",
+              "factKey": "tikal-F07",
+              "text": "Áreas residenciais se estendiam além do núcleo cerimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P08",
+              "factKey": "tikal-F08",
+              "text": "Conjuntos piramidais integram a arquitetura monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P09",
+              "factKey": "tikal-F09",
+              "text": "Inscrições hieroglíficas registram a história dinástica e relações com outras cidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P10",
+              "factKey": "tikal-F10",
+              "text": "A unidade inclui formações florestais de folhas largas e palmeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P11",
+              "factKey": "tikal-F11",
+              "text": "O mosaico ambiental inclui savanas, áreas úmidas e água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P12",
+              "factKey": "tikal-F12",
+              "text": "A onça-pintada é um dos felinos registrados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P13",
+              "factKey": "tikal-F13",
+              "text": "O puma também integra a fauna de mamíferos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P14",
+              "factKey": "tikal-F14",
+              "text": "Macacos e tamanduás figuram entre os habitantes da floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P15",
+              "factKey": "tikal-F15",
+              "text": "A diversidade de habitats sustenta centenas de espécies de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P16",
+              "factKey": "tikal-F16",
+              "text": "O parque integra a Floresta Maia e a Reserva da Biosfera Maia.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "TIKAL_CONAP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P17",
+              "factKey": "tikal-F17",
+              "text": "A continuidade florestal alcança territórios vizinhos do México e de Belize.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P18",
+              "factKey": "tikal-F18",
+              "text": "O traçado urbano reflete funções cerimoniais, administrativas e residenciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P19",
+              "factKey": "tikal-F19",
+              "text": "Quadras para jogo de bola compõem o patrimônio monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P20",
+              "factKey": "tikal-F20",
+              "text": "Reservatórios conhecidos como aguadas fazem parte do sistema histórico de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P21",
+              "factKey": "tikal-F21",
+              "text": "A periferia contribuiu para a produção agrícola do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P22",
+              "factKey": "tikal-F22",
+              "text": "A área foi instituída como parque nacional em 1955.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P23",
+              "factKey": "tikal-F23",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P24",
+              "factKey": "tikal-F24",
+              "text": "O reconhecimento inclui critérios naturais e culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P25",
+              "factKey": "tikal-F25",
+              "text": "Saque e intemperismo ameaçam a integridade dos vestígios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque da Guatemala que protege uma antiga cidade maia e ecossistemas da Floresta Maia.",
+        "editorialNotes": [
+          "Revisar nome e comparabilidade das alternativas; calibrar em partidas.",
+          "C3 compara civilizações americanas e C4 compara reservas reais. Confirmar a redação de todas as pistas e testar em partida."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "pending-final-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisão de opções e fontes em andamento"
+      }
+    }
+  ]
+}
