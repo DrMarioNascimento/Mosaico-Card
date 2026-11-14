@@ -27,9 +27,9 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    q('#sessao-lugares [data-territorio=centro-oeste]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/1 lugar.*Pouca variedade/);
    q('#sessao-lugares [data-territorio=brasil]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/7 lugares/);
-   q('#sessao-lugares [data-territorio=america]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/8 lugares/);
+   q('#sessao-lugares [data-territorio=america]').click();
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/11 lugares/);
    q('#sessao-lugares [data-territorio=todos]').click();
  }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
@@ -103,6 +103,12 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
      assert.ok([8,12].includes(a.opcoes.length));
      assert.deepEqual(clone(a.opcoes),clone(b.opcoes),'A ordem das alternativas é igual para os jogadores');
      assert.equal(a.opcoes.filter(o=>o.id===a.resposta).length,1);
+     click(master,'[data-verbo="arriscar"]');
+     const acordeao=master.w.document.querySelector('#painel details[data-campo-acordeao]');
+     assert.ok(acordeao);assert.equal(acordeao.open,false);
+     assert.match(acordeao.querySelector('summary').textContent,/Campo/);
+     acordeao.open=true;master.w.MC_GAME_ENGINE.render();
+     assert.equal(master.w.document.querySelector('#painel details[data-campo-acordeao]').open,true,'O campo aberto permanece aberto após atualizar a mesa');
    }
  }
  // Resposta perdida após commit: o refresh reenvia a mesma operação sem duplicar o débito.

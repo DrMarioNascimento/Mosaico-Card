@@ -226,8 +226,8 @@
     const especial = state.demo ? ids.find(eBússola) : null;
     const bonus = adicionarBússolasBonus();
     const comuns = ids.filter(function (id) { return id !== especial && !bonus.includes(id); });
-    const essenciais = comuns.filter(function (id) { return peca(id).importance === "essential"; });
-    const distribuicao = REGRAS.distribuirPistas(comuns, essenciais, ORDEM, shuffle);
+    // Não antecipar deliberadamente as pistas marcadas como decisivas na mão inicial.
+    const distribuicao = REGRAS.distribuirPistas(comuns, [], ORDEM, shuffle);
     state.maosPorJogador = distribuicao.maosPorJogador;
     state.monte = state.demo && especial ? [especial].concat(distribuicao.monte) : shuffle(distribuicao.monte.concat(bonus));
     return bonus.length;
@@ -733,10 +733,10 @@
     }
     if (verbo === "arriscar") {
       const abertos = CAMPOS.filter(function (item) { return campoDisponivel(item.id, jogador); });
-      return "<p>Acerto fecha para todos. Erro fecha somente para você.</p>" + abertos.map(function (item) {
-        return "<div class='campo-resposta'><b>" + esc(item.rotulo) + " · " + item.pontosBase + " pts</b>" + item.opcoes.map(function (op) {
+      return "<p>Escolha um campo para ver a pergunta e as alternativas. Acerto fecha para todos; erro fecha somente para você.</p>" + abertos.map(function (item) {
+        return "<details class='campo-acordeao' data-campo-acordeao='" + esc(item.id) + "'><summary>Campo " + esc(item.id.replace(/^C/, '')) + " · " + item.pontosBase + " pts</summary><div class='campo-resposta'><b>" + esc(item.rotulo) + "</b>" + item.opcoes.map(function (op) {
           return "<button class='slim ghost' type='button' data-act='arriscar-ok' data-campo='" + esc(item.id) + "' data-valor='" + esc(op.id) + "'>" + esc(op.txt) + "</button>";
-        }).join("") + "</div>";
+        }).join("") + "</div></details>";
       }).join("");
     }
     return "";
@@ -793,8 +793,10 @@
     });
     const painel = $("#painel"), html = htmlPainel();
     if (painel) {
+      const abertos = Array.from(painel.querySelectorAll('details[data-campo-acordeao][open]')).map(function (el) { return el.dataset.campoAcordeao; });
       painel.hidden = !html;
       painel.innerHTML = html;
+      painel.querySelectorAll('details[data-campo-acordeao]').forEach(function (el) { el.open = abertos.includes(el.dataset.campoAcordeao); });
       painel.querySelectorAll("[data-act='capturar-ok']").forEach(function (b) { b.addEventListener("click", function () { capturar(b.dataset.quem, b.dataset.id); }); });
       painel.querySelectorAll("[data-act='consignar-ok']").forEach(function (b) { b.addEventListener("click", function () { consignar(b.dataset.id); }); });
       painel.querySelectorAll("[data-act='arriscar-ok']").forEach(function (b) { b.addEventListener("click", function () { arriscar(b.dataset.campo, b.dataset.valor); }); });

@@ -790,3 +790,398 @@ Mosi-oa-Tunya, ou Cataratas Vitória, forma um conjunto transfronteiriço entre 
 - O sítio transfronteiriço localiza-se na África.
 - A dupla denominação reconhece referências históricas e locais do mesmo bem.
 - A identificação resulta da combinação de bacia hidrográfica e posição transfronteiriça.
+
+
+## Ampliação de destinos comparáveis: seis novos lugares
+
+As fontes institucionais estão indicadas na fonte editorial. As pautas requerem calibração de dificuldade em partidas.
+
+### São Luís
+
+O centro histórico de São Luís ocupa um setor insular junto aos rios Anil e Bacanga e reúne arquitetura colonial com azulejos.
+
+- **Cidade**: São Luís.
+- **Revestimento tradicional de fachadas**: Azulejos.
+- **Rios junto ao centro histórico**: Anil e Bacanga.
+- **Presença europeia anterior ao plano português**: Francesa.
+
+**Viajante**
+
+- O centro antigo fica em uma ilha brasileira.
+- A cidade é uma capital do Nordeste.
+- O estado é o Maranhão.
+- Há casarões históricos com azulejos nas fachadas.
+- Os azulejos também ajudavam a proteger as fachadas.
+- Duas correntes de água delimitam a área do centro antigo.
+- Um desses rios chama-se Anil.
+- O outro rio chama-se Bacanga.
+- O núcleo antigo ocupa a parte noroeste da ilha.
+- Um forte francês foi estabelecido em 1612.
+- O plano urbano português foi elaborado em 1615.
+- A história mistura presenças francesas e portuguesas.
+- As ruas do centro histórico seguem um traçado regular.
+- As construções preservadas têm alturas diferentes.
+- Varandas com grades metálicas aparecem nos prédios antigos.
+- Janelas altas e estreitas compõem algumas fachadas.
+- Parte das construções tem telhados de telha.
+- Casas antigas foram adaptadas ao clima quente da região.
+- Varandas e aberturas de madeira aparecem na arquitetura.
+- O patrimônio reúne ruas e casas, não apenas um prédio.
+- A UNESCO reconhece o centro como patrimônio mundial.
+- O centro se expandiu em diferentes séculos.
+- Pátios internos aparecem em construções tradicionais.
+- A área histórica tem ligações com rios e com a ilha.
+- Para distingui-la de outra capital insular, combine os rios e os azulejos.
+
+**Geógrafo**
+
+- O núcleo histórico ocupa um setor insular da costa brasileira.
+- O destino exerce função administrativa estadual na região Nordeste.
+- O enquadramento político-administrativo é o estado do Maranhão.
+- O revestimento cerâmico é elemento da arquitetura colonial preservada.
+- O revestimento combinava proteção das superfícies e ornamentação.
+- O promontório histórico é formado pelos rios Anil e Bacanga.
+- O rio Anil participa da delimitação do promontório urbano.
+- O rio Bacanga integra a localização hidrográfica do centro.
+- A implantação histórica se situa no setor noroeste insular.
+- A presença francesa incluiu uma fortificação no início do século XVII.
+- A malha planejada registra a reorganização portuguesa após a conquista do forte.
+- O sítio registra sucessivas fases de ocupação europeia colonial.
+- A malha urbana organizada em grade expressa planejamento colonial.
+- O conjunto residencial combina edifícios de diferentes alturas.
+- A arquitetura histórica inclui balcões e grades trabalhadas em ferro.
+- A composição de fachadas inclui vãos verticais e elementos decorativos.
+- Os telhados cerâmicos integram o conjunto residencial preservado.
+- As soluções construtivas dialogam com as condições climáticas locais.
+- Elementos de madeira participam da adaptação arquitetônica ao clima.
+- O valor reconhecido corresponde ao conjunto urbano e à arquitetura residencial.
+- A inscrição reconhece a continuidade do tecido histórico.
+- A paisagem urbana sobrepõe fases de expansão dos séculos XVIII a XX.
+- A composição do lote contrapõe fachadas ornamentadas e espaços internos abertos.
+- O sítio associa hidrografia, posição insular e ocupação urbana.
+- A identificação relaciona posição fluvial, herança construtiva e contexto insular.
+
+### Havana
+
+O centro histórico de Havana, em Cuba, reúne praças e um sistema de fortificações ligado à proteção de sua baía e de seu porto.
+
+- **Cidade**: Havana.
+- **País**: Cuba.
+- **Proteção histórica da baía**: Fortificações de pedra.
+- **Uma praça do centro histórico**: Plaza de Armas.
+
+**Viajante**
+
+- O destino tem um centro antigo junto a uma baía.
+- A cidade fica em uma ilha do Caribe.
+- O país é Cuba.
+- O centro antigo conserva praças e ruas estreitas.
+- Casas tradicionais dividem espaço com edifícios monumentais.
+- Construções de épocas diferentes formam o conjunto urbano.
+- A cidade teve um porto de grande importância regional.
+- No século XVIII, havia ali um grande estaleiro.
+- Fortificações protegiam o porto e os navios.
+- A entrada da baía é estreita.
+- O castelo do Morro guarda a entrada da baía.
+- A fortaleza La Cabaña fica a leste do canal.
+- O castelo da Real Fuerza fica no lado oeste.
+- As defesas foram construídas ao longo de vários séculos.
+- O centro tem cinco grandes praças históricas.
+- Uma delas é chamada Praça de Armas.
+- Outra é chamada Praça Velha.
+- Há uma praça associada à catedral.
+- Algumas casas apresentam varandas e pátios internos.
+- O centro reúne obras barrocas e neoclássicas.
+- O núcleo histórico foi fundado por volta de 1519.
+- A cidade nasceu no litoral noroeste da ilha.
+- O centro e as fortificações são reconhecidos pela UNESCO.
+- A história local está ligada a rotas marítimas coloniais.
+- Para distingui-la de outras cidades coloniais, combine ilha, baía e fortalezas.
+
+**Geógrafo**
+
+- O núcleo histórico se organiza em torno de uma posição portuária abrigada.
+- O sítio insular insere-se no espaço caribenho.
+- O enquadramento político é a ilha de Cuba.
+- A morfologia urbana preserva praças e uma rede histórica de circulação.
+- O patrimônio associa arquitetura residencial e edifícios representativos.
+- A sobreposição temporal contribui para a unidade do centro histórico.
+- A baía integrou redes marítimas e fluxos comerciais caribenhos.
+- A construção naval ampliou a relevância estratégica do porto.
+- As estruturas defensivas respondiam à importância marítima do sítio.
+- O canal de acesso à baía condicionou a disposição das defesas.
+- O sistema defensivo inclui a fortificação conhecida como Morro.
+- A defesa do lado oriental inclui a fortaleza de La Cabaña.
+- A proteção do setor ocidental inclui o castelo da Real Fuerza.
+- A rede militar abrange intervenções dos séculos XVI a XIX.
+- A organização urbana preserva cinco praças de diferentes características.
+- A Plaza de Armas integra o sistema de praças do centro.
+- A Plaza Vieja é uma das referências espaciais do núcleo antigo.
+- A Plaza de la Catedral integra o conjunto de espaços públicos.
+- A arquitetura residencial inclui pátios, sacadas e elementos de ferro.
+- O conjunto construído preserva linguagens arquitetônicas de diferentes épocas.
+- A formação da cidade colonial remonta ao início do século XVI.
+- A implantação ocorre no setor noroeste do território insular.
+- A proteção internacional compreende tecido urbano e defesa portuária.
+- A circulação de frotas contribuiu para a função estratégica da baía.
+- A identificação articula posição caribenha, sistema portuário e patrimônio defensivo.
+
+### Ilhas Galápagos
+
+O arquipélago equatoriano de Galápagos tem origem vulcânica e abriga biodiversidade com espécies endêmicas, cercada por reserva marinha.
+
+- **Arquipélago**: Ilhas Galápagos.
+- **País**: Equador.
+- **Origem das ilhas**: Vulcânica.
+- **Fauna emblemática**: Iguanas marinhas e tartarugas gigantes.
+
+**Viajante**
+
+- O destino é formado por várias ilhas no oceano.
+- As ilhas ficam no Oceano Pacífico.
+- O arquipélago pertence ao Equador.
+- As ilhas ficam a cerca de mil quilômetros do continente.
+- A origem das ilhas está ligada a vulcões.
+- Ainda ocorrem processos vulcânicos e sísmicos.
+- O mar ao redor também faz parte da proteção ambiental.
+- As águas recebem influência de correntes oceânicas.
+- O lugar tem tartarugas gigantes conhecidas mundialmente.
+- Existem iguanas que vivem no mar.
+- Há também iguanas terrestres.
+- Aves conhecidas como tentilhões aparecem nas ilhas.
+- Algumas espécies não ocorrem naturalmente em outros lugares.
+- A região inspirou estudos de Charles Darwin.
+- Darwin visitou as ilhas em 1835.
+- Parte das ilhas tem moradores.
+- A proteção terrestre inclui um parque nacional.
+- A reserva marinha protege águas ao redor das ilhas.
+- A introdução de espécies é um desafio para a conservação.
+- A fauna marinha inclui raias e tubarões.
+- Há leões-marinhos no conjunto de ilhas.
+- O relevo é formado por ilhas de origem vulcânica.
+- A UNESCO reconhece tanto a paisagem quanto a biodiversidade.
+- O isolamento ajuda a entender por que há espécies exclusivas.
+- Para diferenciar este destino de outros arquipélagos, combine país, oceano e fauna.
+
+**Geógrafo**
+
+- A unidade territorial é um arquipélago oceânico.
+- A localização oceânica é o Pacífico oriental.
+- O território insular está sob administração equatoriana.
+- O isolamento espacial decorre da distância aproximada de mil quilômetros da costa equatoriana.
+- O vulcanismo participa da formação geológica do arquipélago.
+- A atividade geológica continua modificando a paisagem insular.
+- A conservação abrange o arquipélago e uma extensa reserva marinha.
+- A confluência de correntes contribui para a diversidade marinha.
+- Grandes quelônios terrestres integram a fauna emblemática insular.
+- O arquipélago abriga iguanas marinhas endêmicas.
+- A fauna inclui formas de iguanas ligadas ao ambiente terrestre.
+- Tentilhões compõem um conjunto de aves associado ao estudo evolutivo.
+- O isolamento contribuiu para níveis elevados de endemismo.
+- As observações insulares contribuíram para reflexões sobre evolução.
+- A visita do naturalista ocorreu em 1835, antes da formulação posterior de sua teoria.
+- Existem assentamentos humanos em ilhas do arquipélago.
+- Grande parte da área emersa está incluída em unidade nacional de conservação.
+- A gestão integra a conservação dos ambientes marinhos e terrestres.
+- Espécies invasoras estão entre as ameaças aos organismos endêmicos.
+- A biodiversidade oceânica inclui grandes peixes cartilaginosos.
+- Mamíferos marinhos interagem com ambientes terrestres e oceânicos.
+- A atividade geológica explica a construção de terras emersas oceânicas.
+- O reconhecimento reúne valores geológicos e biológicos.
+- A distância do continente condiciona colonização e diferenciação das espécies.
+- A identificação articula posição geográfica, soberania e endemismo.
+
+### Petra
+
+Petra, na Jordânia, reúne construções e fachadas talhadas na rocha, vestígios nabateus e sistemas de captação e armazenamento de água.
+
+- **Sítio arqueológico**: Petra.
+- **Técnica visível em fachadas**: Escavação e talhe na rocha.
+- **Engenharia necessária em ambiente árido**: Canais, cisternas e reservatórios.
+- **Povo associado à cidade antiga**: Nabateus.
+
+**Viajante**
+
+- O destino guarda construções antigas entre montanhas.
+- Parte das fachadas foi esculpida diretamente na rocha.
+- Nem tudo foi escavado: também há construções erguidas.
+- A cidade antiga foi um centro de passagem de caravanas.
+- Mercadorias como especiarias circulavam pela região.
+- O lugar fica em uma área relativamente seca.
+- Moradores desenvolveram formas de guardar água.
+- Canais ajudavam a conduzir a água.
+- Uma barragem ajudava a desviar a água.
+- Os nabateus ocuparam e organizaram a cidade.
+- A história também inclui períodos romanos e bizantinos.
+- Um caminho estreito entre rochas dá acesso ao conjunto.
+- Esse caminho é chamado Siq.
+- Há túmulos escavados no conjunto.
+- Os túmulos mostram influências arquitetônicas variadas.
+- A área foi uma encruzilhada entre regiões comerciais.
+- O país atual é a Jordânia.
+- A UNESCO reconhece o patrimônio arqueológico.
+- Há vestígios de um teatro antigo.
+- Também há uma rua com colunas entre os vestígios.
+- A água era uma questão central para a ocupação permanente.
+- Os reservatórios faziam parte de uma rede maior.
+- A área inclui marcas religiosas e funerárias.
+- A preservação precisa lidar com o risco de enxurradas.
+- Para diferenciar o sítio de outras ruínas, combine rocha, rotas e água.
+
+**Geógrafo**
+
+- O sítio arqueológico ocupa um ambiente montanhoso recortado por gargantas.
+- A arquitetura combina construção autônoma e estruturas escavadas no maciço.
+- O conjunto integra edificações construídas e fachadas talhadas.
+- As rotas caravaneiras contribuíram para a função comercial do sítio.
+- O entreposto conectava fluxos de especiarias, incenso e seda.
+- A implantação ocorreu em ambiente de disponibilidade hídrica limitada.
+- Cisternas e reservatórios permitiam armazenar água no ambiente árido.
+- A infraestrutura hidráulica incluía canais e aquedutos.
+- O sistema de manejo incluía estrutura de desvio para lidar com fluxos.
+- A capital dos nabateus testemunha uma civilização associada ao comércio regional.
+- O sítio preserva vestígios de sucessivas ocupações históricas.
+- A entrada oriental passa por uma garganta natural sinuosa.
+- O acesso conhecido como Siq é uma passagem entre formações rochosas.
+- A paisagem funerária inclui fachadas de sepulturas talhadas na rocha.
+- A arquitetura funerária articula tradições locais e influências helenísticas.
+- A posição conectava rotas entre Arábia, Egito e a região siro-fenícia.
+- O sítio situa-se no território da atual Jordânia.
+- A proteção internacional abrange um conjunto arqueológico de várias épocas.
+- O conjunto inclui estruturas cívicas ligadas ao período greco-romano.
+- O planejamento cívico preserva evidências de uma via colunada.
+- A engenharia hidráulica tornou possível o assentamento em área árida.
+- O armazenamento dependia da articulação entre captação, canais e cisternas.
+- O conjunto reúne estruturas de culto e espaços destinados a sepultamentos.
+- Cheias repentinas podem ameaçar as passagens e estruturas do sítio.
+- A identificação articula técnica construtiva, comércio de caravanas e gestão hídrica.
+
+### Porto
+
+O centro histórico do Porto, em Portugal, relaciona-se ao rio Douro; o bem inclui a Ponte Luís I e o Mosteiro da Serra do Pilar.
+
+- **Cidade**: Porto.
+- **Rio associado à cidade**: Douro.
+- **Ponte do conjunto patrimonial**: Ponte Luís I.
+- **Mosteiro do conjunto patrimonial**: Mosteiro da Serra do Pilar.
+
+**Viajante**
+
+- A cidade tem um centro antigo junto a um rio.
+- O rio corre em direção ao Atlântico.
+- O rio chama-se Douro.
+- A cidade fica no norte de Portugal.
+- O país é Portugal.
+- O relevo inclui encostas próximas ao rio.
+- O centro foi construído em diferentes alturas.
+- Uma ponte metálica integra o conjunto reconhecido.
+- A ponte tem o nome de Luís I.
+- A paisagem combina cidade, rio e ponte.
+- A história urbana tem cerca de dois mil anos.
+- A atividade marítima influenciou o crescimento da cidade.
+- O nome antigo da cidade remetia a um lugar de chegada de embarcações.
+- O centro antigo possui uma catedral.
+- Há construções religiosas e civis no patrimônio.
+- Uma igreja do centro é dedicada a Santa Clara.
+- A arquitetura preservada inclui elementos de diferentes épocas.
+- O conjunto inclui um antigo edifício ligado ao comércio, a Bolsa.
+- A Bolsa mencionada tem arquitetura neoclássica.
+- Um mosteiro integra o mesmo bem reconhecido.
+- O mosteiro fica na Serra do Pilar.
+- A área histórica é reconhecida pela UNESCO.
+- A paisagem reflete a relação entre a cidade e a água.
+- A proteção envolve mais do que um monumento isolado.
+- Para diferenciar de outras cidades europeias, combine rio, ponte e país.
+
+**Geógrafo**
+
+- O tecido urbano histórico se desenvolve junto à foz de um rio.
+- A proximidade da foz liga as dinâmicas fluviais e marítimas.
+- O curso d'água associado ao núcleo histórico é o Douro.
+- O sítio urbano localiza-se na porção setentrional portuguesa.
+- A localização política é Portugal, na Europa.
+- A topografia de vertentes influencia a forma da paisagem urbana.
+- A ocupação escalonada responde às encostas junto ao vale fluvial.
+- A ponte histórica faz parte do bem patrimonial inscrito.
+- A ligação entre margens inclui a ponte identificada por Luís I.
+- O conjunto articula rede urbana, travessia e ambiente fluvial.
+- O conjunto patrimonial testemunha uma ocupação urbana de longa duração.
+- A função portuária contribuiu para a evolução do núcleo urbano.
+- A denominação latina relacionava a cidade à chegada de embarcações.
+- O conjunto edificado inclui uma catedral de origem histórica.
+- O bem reúne edifícios de usos e períodos diversos.
+- A arquitetura religiosa inclui a igreja de Santa Clara.
+- A cidade sobrepõe expressões medievais, modernas e neoclássicas.
+- Um edifício de função comercial integra o patrimônio urbano.
+- A edificação comercial apresenta linguagem arquitetônica neoclássica.
+- A inscrição patrimonial inclui um mosteiro além do centro e da ponte.
+- A denominação do mosteiro faz referência à Serra do Pilar.
+- O valor patrimonial abrange o conjunto urbano e sua relação com o rio.
+- A posição junto à foz estruturou conexões fluviais e oceânicas.
+- O reconhecimento articula núcleo histórico, ponte e mosteiro.
+- A identificação relaciona posição hidrográfica, travessia e localização nacional.
+
+### Roma
+
+O centro histórico de Roma, às margens do Tibre, reúne monumentos antigos como o Coliseu e edifícios de épocas posteriores.
+
+- **Cidade**: Roma.
+- **Rio associado à cidade**: Tibre.
+- **Anfiteatro antigo**: Coliseu.
+- **Irmãos da lenda de fundação**: Rômulo e Remo.
+
+**Viajante**
+
+- Uma cidade europeia cresceu às margens de um rio.
+- O rio é o Tibre.
+- O país atual é a Itália.
+- O conjunto reúne vestígios de diferentes épocas.
+- A cidade foi centro de uma república na Antiguidade.
+- Mais tarde, tornou-se centro de um império.
+- Uma grande construção antiga recebia espetáculos.
+- Esse anfiteatro é conhecido como Coliseu.
+- Também há um edifício antigo chamado Panteão.
+- Os fóruns antigos fazem parte do patrimônio.
+- O conjunto tem igrejas de diferentes períodos.
+- Há intervenções urbanas renascentistas e barrocas.
+- Uma praça conhecida é a Piazza Navona.
+- O lugar preserva fortificações construídas em diferentes épocas.
+- A colina do Capitólio é uma das referências do conjunto.
+- A cidade também possui vínculos com a história do cristianismo.
+- O patrimônio reconhecido compreende basílicas.
+- Uma lenda associa a fundação a dois irmãos.
+- Os irmãos da lenda são Rômulo e Remo.
+- A data tradicional da fundação é uma referência lendária.
+- As ruínas antigas convivem com áreas urbanas posteriores.
+- A UNESCO reconhece o centro histórico e propriedades relacionadas.
+- O monumento de espetáculos está associado à Antiguidade clássica.
+- O rio é uma referência para a localização do núcleo.
+- Para diferenciar de outras capitais, combine rio, anfiteatro e história antiga.
+
+**Geógrafo**
+
+- A implantação histórica se relaciona ao vale do rio Tibre.
+- O curso fluvial associado ao centro histórico é o Tibre.
+- O território urbano situa-se na Itália.
+- O patrimônio sobrepõe estruturas antigas e intervenções posteriores.
+- Sua trajetória política inclui a República da Antiguidade.
+- A transformação política inclui a formação de um império antigo.
+- Um anfiteatro monumental integra os vestígios antigos.
+- O monumento associado a espetáculos é denominado Coliseu.
+- O Panteão é um dos monumentos incluídos no conjunto histórico.
+- Os espaços cívicos antigos incluem fóruns republicanos e imperiais.
+- A arquitetura religiosa integra camadas históricas sucessivas.
+- O tecido urbano inclui fases de transformação posteriores à Antiguidade.
+- A Piazza Navona exemplifica intervenções urbanas históricas.
+- Muralhas e construções defensivas integram o patrimônio urbano.
+- O Capitólio constitui um dos elementos da paisagem patrimonial.
+- A trajetória urbana inclui funções religiosas associadas ao cristianismo.
+- O conjunto inclui grandes edifícios religiosos como basílicas.
+- A narrativa tradicional atribui a fundação a Rômulo e Remo.
+- A tradição de fundação menciona os irmãos Rômulo e Remo.
+- A cronologia de fundação transmitida pela tradição não deve ser tratada como prova arqueológica.
+- A paisagem histórica se caracteriza pela coexistência de períodos distintos.
+- A inscrição patrimonial compreende o centro e propriedades vinculadas à Santa Sé.
+- O anfiteatro integra os monumentos da Antiguidade presentes no centro.
+- A rede hidrográfica fornece um critério para distinguir cidades europeias.
+- A identificação relaciona hidrografia, monumentos e sucessão de funções políticas.

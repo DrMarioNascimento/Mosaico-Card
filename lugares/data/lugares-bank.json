@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-3-comparaveis-2026-11-14",
+  "catalogVersion": "lote-5-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Quatorze lugares jogáveis em grupos de destinos comparáveis, com dois perfis de pistas",
-  "status": "Quatorze destinos integrados; calibração de dificuldade e revisão editorial de perfis pendentes",
+  "scope": "Vinte destinos jogáveis em grupos comparáveis com dois perfis",
+  "status": "Vinte destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -133,10 +133,10 @@
     },
     "P1": {
       "id": "P1",
-      "title": "Paris Banks of the Seine",
-      "publisher": "UNESCO",
-      "url": "https://whc.unesco.org/en/list/600/",
-      "checkedAt": "2026-11-13"
+      "title": "Petra",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/326/",
+      "checkedAt": "2026-11-14"
     },
     "P2": {
       "id": "P2",
@@ -175,10 +175,10 @@
     },
     "G1": {
       "id": "G1",
-      "title": "Giza Plateau",
-      "publisher": "Ministry of Tourism and Antiquities Egypt",
-      "url": "https://egymonuments.gov.eg/archaeological-sites/giza-plateau/",
-      "checkedAt": "2026-11-13"
+      "title": "Galápagos Islands",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1/",
+      "checkedAt": "2026-11-14"
     },
     "G2": {
       "id": "G2",
@@ -367,6 +367,34 @@
       "title": "Mosi-oa-Tunya / Victoria Falls",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/509/",
+      "checkedAt": "2026-11-14"
+    },
+    "SL1": {
+      "id": "SL1",
+      "title": "Historic Centre of São Luís",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/821/",
+      "checkedAt": "2026-11-14"
+    },
+    "H1": {
+      "id": "H1",
+      "title": "Old Havana and its Fortification System",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/204/",
+      "checkedAt": "2026-11-14"
+    },
+    "PO1": {
+      "id": "PO1",
+      "title": "Historic Centre of Oporto",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/755/",
+      "checkedAt": "2026-11-14"
+    },
+    "RO1": {
+      "id": "RO1",
+      "title": "Historic Centre of Rome",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/91/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -3470,7 +3498,7 @@
         },
         {
           "id": "C3",
-          "label": "Torre ligada à exposição de 1889",
+          "label": "Monumento vertical",
           "options": [
             {
               "id": "C3-O1",
@@ -3497,7 +3525,7 @@
         },
         {
           "id": "C4",
-          "label": "Transformação urbana associada a Haussmann",
+          "label": "Transformação urbana no século XIX",
           "options": [
             {
               "id": "C4-O1",
@@ -14436,6 +14464,5972 @@
       },
       "reveal": {
         "canonicalSummary": "Mosi-oa-Tunya, ou Cataratas Vitória, forma um conjunto transfronteiriço entre Zâmbia e Zimbábue, no rio Zambeze, com gargantas basálticas.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-sao-luis",
+      "placeId": "sao-luis",
+      "title": "São Luís",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O8",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Fortaleza"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "São Luís",
+          "sources": [
+            "SL1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Revestimento tradicional de fachadas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Azulejos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Gelo compactado"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Couro cru"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Coral vivo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Azulejos",
+          "sources": [
+            "SL1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rios junto ao centro histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Anil e Bacanga"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tibre e Arno"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Sena e Marne"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tâmisa e Lea"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Anil e Bacanga",
+          "sources": [
+            "SL1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Presença europeia anterior ao plano português",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Francesa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Japonesa"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Inca"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Otomana"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Francesa",
+          "sources": [
+            "SL1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "sao-luis-viajante-P01",
+              "factKey": "sao-luis-F01",
+              "text": "O centro antigo fica em uma ilha brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P02",
+              "factKey": "sao-luis-F02",
+              "text": "A cidade é uma capital do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P03",
+              "factKey": "sao-luis-F03",
+              "text": "O estado é o Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P04",
+              "factKey": "sao-luis-F04",
+              "text": "Há casarões históricos com azulejos nas fachadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P05",
+              "factKey": "sao-luis-F05",
+              "text": "Os azulejos também ajudavam a proteger as fachadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P06",
+              "factKey": "sao-luis-F06",
+              "text": "Duas correntes de água delimitam a área do centro antigo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P07",
+              "factKey": "sao-luis-F07",
+              "text": "Um desses rios chama-se Anil.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P08",
+              "factKey": "sao-luis-F08",
+              "text": "O outro rio chama-se Bacanga.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P09",
+              "factKey": "sao-luis-F09",
+              "text": "O núcleo antigo ocupa a parte noroeste da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P10",
+              "factKey": "sao-luis-F10",
+              "text": "Um forte francês foi estabelecido em 1612.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P11",
+              "factKey": "sao-luis-F11",
+              "text": "O plano urbano português foi elaborado em 1615.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P12",
+              "factKey": "sao-luis-F12",
+              "text": "A história mistura presenças francesas e portuguesas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P13",
+              "factKey": "sao-luis-F13",
+              "text": "As ruas do centro histórico seguem um traçado regular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P14",
+              "factKey": "sao-luis-F14",
+              "text": "As construções preservadas têm alturas diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P15",
+              "factKey": "sao-luis-F15",
+              "text": "Varandas com grades metálicas aparecem nos prédios antigos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P16",
+              "factKey": "sao-luis-F16",
+              "text": "Janelas altas e estreitas compõem algumas fachadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P17",
+              "factKey": "sao-luis-F17",
+              "text": "Parte das construções tem telhados de telha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P18",
+              "factKey": "sao-luis-F18",
+              "text": "Casas antigas foram adaptadas ao clima quente da região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P19",
+              "factKey": "sao-luis-F19",
+              "text": "Varandas e aberturas de madeira aparecem na arquitetura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P20",
+              "factKey": "sao-luis-F20",
+              "text": "O patrimônio reúne ruas e casas, não apenas um prédio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P21",
+              "factKey": "sao-luis-F21",
+              "text": "A UNESCO reconhece o centro como patrimônio mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P22",
+              "factKey": "sao-luis-F22",
+              "text": "O centro se expandiu em diferentes séculos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P23",
+              "factKey": "sao-luis-F23",
+              "text": "Pátios internos aparecem em construções tradicionais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P24",
+              "factKey": "sao-luis-F24",
+              "text": "A área histórica tem ligações com rios e com a ilha.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-viajante-P25",
+              "factKey": "sao-luis-F25",
+              "text": "Para distingui-la de outra capital insular, combine os rios e os azulejos.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "sao-luis-geografo-P01",
+              "factKey": "sao-luis-F01",
+              "text": "O núcleo histórico ocupa um setor insular da costa brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P02",
+              "factKey": "sao-luis-F02",
+              "text": "O destino exerce função administrativa estadual na região Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P03",
+              "factKey": "sao-luis-F03",
+              "text": "O enquadramento político-administrativo é o estado do Maranhão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P04",
+              "factKey": "sao-luis-F04",
+              "text": "O revestimento cerâmico é elemento da arquitetura colonial preservada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P05",
+              "factKey": "sao-luis-F05",
+              "text": "O revestimento combinava proteção das superfícies e ornamentação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P06",
+              "factKey": "sao-luis-F06",
+              "text": "O promontório histórico é formado pelos rios Anil e Bacanga.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P07",
+              "factKey": "sao-luis-F07",
+              "text": "O rio Anil participa da delimitação do promontório urbano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P08",
+              "factKey": "sao-luis-F08",
+              "text": "O rio Bacanga integra a localização hidrográfica do centro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P09",
+              "factKey": "sao-luis-F09",
+              "text": "A implantação histórica se situa no setor noroeste insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P10",
+              "factKey": "sao-luis-F10",
+              "text": "A presença francesa incluiu uma fortificação no início do século XVII.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P11",
+              "factKey": "sao-luis-F11",
+              "text": "A malha planejada registra a reorganização portuguesa após a conquista do forte.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P12",
+              "factKey": "sao-luis-F12",
+              "text": "O sítio registra sucessivas fases de ocupação europeia colonial.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P13",
+              "factKey": "sao-luis-F13",
+              "text": "A malha urbana organizada em grade expressa planejamento colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P14",
+              "factKey": "sao-luis-F14",
+              "text": "O conjunto residencial combina edifícios de diferentes alturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P15",
+              "factKey": "sao-luis-F15",
+              "text": "A arquitetura histórica inclui balcões e grades trabalhadas em ferro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P16",
+              "factKey": "sao-luis-F16",
+              "text": "A composição de fachadas inclui vãos verticais e elementos decorativos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P17",
+              "factKey": "sao-luis-F17",
+              "text": "Os telhados cerâmicos integram o conjunto residencial preservado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P18",
+              "factKey": "sao-luis-F18",
+              "text": "As soluções construtivas dialogam com as condições climáticas locais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P19",
+              "factKey": "sao-luis-F19",
+              "text": "Elementos de madeira participam da adaptação arquitetônica ao clima.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P20",
+              "factKey": "sao-luis-F20",
+              "text": "O valor reconhecido corresponde ao conjunto urbano e à arquitetura residencial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P21",
+              "factKey": "sao-luis-F21",
+              "text": "A inscrição reconhece a continuidade do tecido histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P22",
+              "factKey": "sao-luis-F22",
+              "text": "A paisagem urbana sobrepõe fases de expansão dos séculos XVIII a XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P23",
+              "factKey": "sao-luis-F23",
+              "text": "A composição do lote contrapõe fachadas ornamentadas e espaços internos abertos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P24",
+              "factKey": "sao-luis-F24",
+              "text": "O sítio associa hidrografia, posição insular e ocupação urbana.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-luis-geografo-P25",
+              "factKey": "sao-luis-F25",
+              "text": "A identificação relaciona posição fluvial, herança construtiva e contexto insular.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "SL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O centro histórico de São Luís ocupa um setor insular junto aos rios Anil e Bacanga e reúne arquitetura colonial com azulejos.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-havana",
+      "placeId": "havana",
+      "title": "Havana",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CU"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Havana"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cartagena"
+            },
+            {
+              "id": "C1-O3",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Santo Domingo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O7",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Natal"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Havana",
+          "sources": [
+            "H1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cuba"
+            },
+            {
+              "id": "C2-O2",
+              "text": "México"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Portugal"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Brasil"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Cuba",
+          "sources": [
+            "H1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Proteção histórica da baía",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Fortificações de pedra"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Muralhas de gelo sazonal"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Recifes artificiais de concreto moderno"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Dunas móveis naturais"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Fortificações de pedra",
+          "sources": [
+            "H1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Uma praça do centro histórico",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Plaza de Armas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Praça da Liberdade"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Piazza San Marco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Praça dos Três Poderes"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Plaza de Armas",
+          "sources": [
+            "H1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "havana-viajante-P01",
+              "factKey": "havana-F01",
+              "text": "O destino tem um centro antigo junto a uma baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P02",
+              "factKey": "havana-F02",
+              "text": "A cidade fica em uma ilha do Caribe.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P03",
+              "factKey": "havana-F03",
+              "text": "O país é Cuba.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P04",
+              "factKey": "havana-F04",
+              "text": "O centro antigo conserva praças e ruas estreitas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P05",
+              "factKey": "havana-F05",
+              "text": "Casas tradicionais dividem espaço com edifícios monumentais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P06",
+              "factKey": "havana-F06",
+              "text": "Construções de épocas diferentes formam o conjunto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P07",
+              "factKey": "havana-F07",
+              "text": "A cidade teve um porto de grande importância regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P08",
+              "factKey": "havana-F08",
+              "text": "No século XVIII, havia ali um grande estaleiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P09",
+              "factKey": "havana-F09",
+              "text": "Fortificações protegiam o porto e os navios.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P10",
+              "factKey": "havana-F10",
+              "text": "A entrada da baía é estreita.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P11",
+              "factKey": "havana-F11",
+              "text": "O castelo do Morro guarda a entrada da baía.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P12",
+              "factKey": "havana-F12",
+              "text": "A fortaleza La Cabaña fica a leste do canal.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P13",
+              "factKey": "havana-F13",
+              "text": "O castelo da Real Fuerza fica no lado oeste.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P14",
+              "factKey": "havana-F14",
+              "text": "As defesas foram construídas ao longo de vários séculos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P15",
+              "factKey": "havana-F15",
+              "text": "O centro tem cinco grandes praças históricas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P16",
+              "factKey": "havana-F16",
+              "text": "Uma delas é chamada Praça de Armas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P17",
+              "factKey": "havana-F17",
+              "text": "Outra é chamada Praça Velha.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P18",
+              "factKey": "havana-F18",
+              "text": "Há uma praça associada à catedral.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P19",
+              "factKey": "havana-F19",
+              "text": "Algumas casas apresentam varandas e pátios internos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P20",
+              "factKey": "havana-F20",
+              "text": "O centro reúne obras barrocas e neoclássicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P21",
+              "factKey": "havana-F21",
+              "text": "O núcleo histórico foi fundado por volta de 1519.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P22",
+              "factKey": "havana-F22",
+              "text": "A cidade nasceu no litoral noroeste da ilha.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P23",
+              "factKey": "havana-F23",
+              "text": "O centro e as fortificações são reconhecidos pela UNESCO.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P24",
+              "factKey": "havana-F24",
+              "text": "A história local está ligada a rotas marítimas coloniais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-viajante-P25",
+              "factKey": "havana-F25",
+              "text": "Para distingui-la de outras cidades coloniais, combine ilha, baía e fortalezas.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "havana-geografo-P01",
+              "factKey": "havana-F01",
+              "text": "O núcleo histórico se organiza em torno de uma posição portuária abrigada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P02",
+              "factKey": "havana-F02",
+              "text": "O sítio insular insere-se no espaço caribenho.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P03",
+              "factKey": "havana-F03",
+              "text": "O enquadramento político é a ilha de Cuba.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P04",
+              "factKey": "havana-F04",
+              "text": "A morfologia urbana preserva praças e uma rede histórica de circulação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P05",
+              "factKey": "havana-F05",
+              "text": "O patrimônio associa arquitetura residencial e edifícios representativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P06",
+              "factKey": "havana-F06",
+              "text": "A sobreposição temporal contribui para a unidade do centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P07",
+              "factKey": "havana-F07",
+              "text": "A baía integrou redes marítimas e fluxos comerciais caribenhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P08",
+              "factKey": "havana-F08",
+              "text": "A construção naval ampliou a relevância estratégica do porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P09",
+              "factKey": "havana-F09",
+              "text": "As estruturas defensivas respondiam à importância marítima do sítio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P10",
+              "factKey": "havana-F10",
+              "text": "O canal de acesso à baía condicionou a disposição das defesas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P11",
+              "factKey": "havana-F11",
+              "text": "O sistema defensivo inclui a fortificação conhecida como Morro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P12",
+              "factKey": "havana-F12",
+              "text": "A defesa do lado oriental inclui a fortaleza de La Cabaña.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P13",
+              "factKey": "havana-F13",
+              "text": "A proteção do setor ocidental inclui o castelo da Real Fuerza.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P14",
+              "factKey": "havana-F14",
+              "text": "A rede militar abrange intervenções dos séculos XVI a XIX.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P15",
+              "factKey": "havana-F15",
+              "text": "A organização urbana preserva cinco praças de diferentes características.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P16",
+              "factKey": "havana-F16",
+              "text": "A Plaza de Armas integra o sistema de praças do centro.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P17",
+              "factKey": "havana-F17",
+              "text": "A Plaza Vieja é uma das referências espaciais do núcleo antigo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P18",
+              "factKey": "havana-F18",
+              "text": "A Plaza de la Catedral integra o conjunto de espaços públicos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P19",
+              "factKey": "havana-F19",
+              "text": "A arquitetura residencial inclui pátios, sacadas e elementos de ferro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P20",
+              "factKey": "havana-F20",
+              "text": "O conjunto construído preserva linguagens arquitetônicas de diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P21",
+              "factKey": "havana-F21",
+              "text": "A formação da cidade colonial remonta ao início do século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P22",
+              "factKey": "havana-F22",
+              "text": "A implantação ocorre no setor noroeste do território insular.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P23",
+              "factKey": "havana-F23",
+              "text": "A proteção internacional compreende tecido urbano e defesa portuária.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P24",
+              "factKey": "havana-F24",
+              "text": "A circulação de frotas contribuiu para a função estratégica da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "havana-geografo-P25",
+              "factKey": "havana-F25",
+              "text": "A identificação articula posição caribenha, sistema portuário e patrimônio defensivo.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "H1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O centro histórico de Havana, em Cuba, reúne praças e um sistema de fortificações ligado à proteção de sua baía e de seu porto.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-galapagos",
+      "placeId": "galapagos",
+      "title": "Ilhas Galápagos",
+      "aliases": [
+        "Galápagos"
+      ],
+      "answerType": "arquipélago",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "EC"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Arquipélago",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilhas Galápagos"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Fernando de Noronha"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Arquipélago dos Açores"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilhas Canárias"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilhas Maldivas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Arquipélago de Abrolhos"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilhas Fiji"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Havaí"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilhas Seychelles"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cabo Verde"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Madeira"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilhas Falkland"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilhas Galápagos",
+          "sources": [
+            "G1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Equador"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "México"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Brasil"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Equador",
+          "sources": [
+            "G1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Origem das ilhas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Vulcânica"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Acúmulo exclusivo de gelo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Construção humana recente"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Deposição de sedimentos por um rio continental"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Vulcânica",
+          "sources": [
+            "G1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Fauna emblemática",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Iguanas marinhas e tartarugas gigantes"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ursos-polares e morsas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pinguins-imperadores e focas antárticas"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Gorilas e elefantes africanos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Iguanas marinhas e tartarugas gigantes",
+          "sources": [
+            "G1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "galapagos-viajante-P01",
+              "factKey": "galapagos-F01",
+              "text": "O destino é formado por várias ilhas no oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P02",
+              "factKey": "galapagos-F02",
+              "text": "As ilhas ficam no Oceano Pacífico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P03",
+              "factKey": "galapagos-F03",
+              "text": "O arquipélago pertence ao Equador.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P04",
+              "factKey": "galapagos-F04",
+              "text": "As ilhas ficam a cerca de mil quilômetros do continente.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P05",
+              "factKey": "galapagos-F05",
+              "text": "A origem das ilhas está ligada a vulcões.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P06",
+              "factKey": "galapagos-F06",
+              "text": "Ainda ocorrem processos vulcânicos e sísmicos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P07",
+              "factKey": "galapagos-F07",
+              "text": "O mar ao redor também faz parte da proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P08",
+              "factKey": "galapagos-F08",
+              "text": "As águas recebem influência de correntes oceânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P09",
+              "factKey": "galapagos-F09",
+              "text": "O lugar tem tartarugas gigantes conhecidas mundialmente.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P10",
+              "factKey": "galapagos-F10",
+              "text": "Existem iguanas que vivem no mar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P11",
+              "factKey": "galapagos-F11",
+              "text": "Há também iguanas terrestres.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P12",
+              "factKey": "galapagos-F12",
+              "text": "Aves conhecidas como tentilhões aparecem nas ilhas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P13",
+              "factKey": "galapagos-F13",
+              "text": "Algumas espécies não ocorrem naturalmente em outros lugares.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P14",
+              "factKey": "galapagos-F14",
+              "text": "A região inspirou estudos de Charles Darwin.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P15",
+              "factKey": "galapagos-F15",
+              "text": "Darwin visitou as ilhas em 1835.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P16",
+              "factKey": "galapagos-F16",
+              "text": "Parte das ilhas tem moradores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P17",
+              "factKey": "galapagos-F17",
+              "text": "A proteção terrestre inclui um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P18",
+              "factKey": "galapagos-F18",
+              "text": "A reserva marinha protege águas ao redor das ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P19",
+              "factKey": "galapagos-F19",
+              "text": "A introdução de espécies é um desafio para a conservação.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P20",
+              "factKey": "galapagos-F20",
+              "text": "A fauna marinha inclui raias e tubarões.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P21",
+              "factKey": "galapagos-F21",
+              "text": "Há leões-marinhos no conjunto de ilhas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P22",
+              "factKey": "galapagos-F22",
+              "text": "O relevo é formado por ilhas de origem vulcânica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P23",
+              "factKey": "galapagos-F23",
+              "text": "A UNESCO reconhece tanto a paisagem quanto a biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P24",
+              "factKey": "galapagos-F24",
+              "text": "O isolamento ajuda a entender por que há espécies exclusivas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-viajante-P25",
+              "factKey": "galapagos-F25",
+              "text": "Para diferenciar este destino de outros arquipélagos, combine país, oceano e fauna.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "galapagos-geografo-P01",
+              "factKey": "galapagos-F01",
+              "text": "A unidade territorial é um arquipélago oceânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P02",
+              "factKey": "galapagos-F02",
+              "text": "A localização oceânica é o Pacífico oriental.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P03",
+              "factKey": "galapagos-F03",
+              "text": "O território insular está sob administração equatoriana.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P04",
+              "factKey": "galapagos-F04",
+              "text": "O isolamento espacial decorre da distância aproximada de mil quilômetros da costa equatoriana.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P05",
+              "factKey": "galapagos-F05",
+              "text": "O vulcanismo participa da formação geológica do arquipélago.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P06",
+              "factKey": "galapagos-F06",
+              "text": "A atividade geológica continua modificando a paisagem insular.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P07",
+              "factKey": "galapagos-F07",
+              "text": "A conservação abrange o arquipélago e uma extensa reserva marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P08",
+              "factKey": "galapagos-F08",
+              "text": "A confluência de correntes contribui para a diversidade marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P09",
+              "factKey": "galapagos-F09",
+              "text": "Grandes quelônios terrestres integram a fauna emblemática insular.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P10",
+              "factKey": "galapagos-F10",
+              "text": "O arquipélago abriga iguanas marinhas endêmicas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P11",
+              "factKey": "galapagos-F11",
+              "text": "A fauna inclui formas de iguanas ligadas ao ambiente terrestre.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P12",
+              "factKey": "galapagos-F12",
+              "text": "Tentilhões compõem um conjunto de aves associado ao estudo evolutivo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P13",
+              "factKey": "galapagos-F13",
+              "text": "O isolamento contribuiu para níveis elevados de endemismo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P14",
+              "factKey": "galapagos-F14",
+              "text": "As observações insulares contribuíram para reflexões sobre evolução.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P15",
+              "factKey": "galapagos-F15",
+              "text": "A visita do naturalista ocorreu em 1835, antes da formulação posterior de sua teoria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P16",
+              "factKey": "galapagos-F16",
+              "text": "Existem assentamentos humanos em ilhas do arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P17",
+              "factKey": "galapagos-F17",
+              "text": "Grande parte da área emersa está incluída em unidade nacional de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P18",
+              "factKey": "galapagos-F18",
+              "text": "A gestão integra a conservação dos ambientes marinhos e terrestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P19",
+              "factKey": "galapagos-F19",
+              "text": "Espécies invasoras estão entre as ameaças aos organismos endêmicos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P20",
+              "factKey": "galapagos-F20",
+              "text": "A biodiversidade oceânica inclui grandes peixes cartilaginosos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P21",
+              "factKey": "galapagos-F21",
+              "text": "Mamíferos marinhos interagem com ambientes terrestres e oceânicos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P22",
+              "factKey": "galapagos-F22",
+              "text": "A atividade geológica explica a construção de terras emersas oceânicas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P23",
+              "factKey": "galapagos-F23",
+              "text": "O reconhecimento reúne valores geológicos e biológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P24",
+              "factKey": "galapagos-F24",
+              "text": "A distância do continente condiciona colonização e diferenciação das espécies.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "galapagos-geografo-P25",
+              "factKey": "galapagos-F25",
+              "text": "A identificação articula posição geográfica, soberania e endemismo.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "G1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O arquipélago equatoriano de Galápagos tem origem vulcânica e abriga biodiversidade com espécies endêmicas, cercada por reserva marinha.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-petra",
+      "placeId": "petra",
+      "title": "Petra",
+      "aliases": [],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "JO"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio arqueológico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Petra"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Machu Picchu"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Angkor"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Palmira"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Persépolis"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Éfeso"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Baalbek"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Hatra"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Tikal"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Chichén Itzá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Teotihuacán"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Palenque"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Petra",
+          "sources": [
+            "P1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Técnica visível em fachadas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Escavação e talhe na rocha"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Construção em blocos de gelo"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Edifícios exclusivamente de vidro"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Casas flutuantes de madeira"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Escavação e talhe na rocha",
+          "sources": [
+            "P1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Engenharia necessária em ambiente árido",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Canais, cisternas e reservatórios"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Apenas drenagem de geleiras"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Distribuição de água exclusivamente por navios"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ausência de captação e armazenamento"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Canais, cisternas e reservatórios",
+          "sources": [
+            "P1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Povo associado à cidade antiga",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nabateus"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Incas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Maias"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Astecas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nabateus",
+          "sources": [
+            "P1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "petra-viajante-P01",
+              "factKey": "petra-F01",
+              "text": "O destino guarda construções antigas entre montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P02",
+              "factKey": "petra-F02",
+              "text": "Parte das fachadas foi esculpida diretamente na rocha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P03",
+              "factKey": "petra-F03",
+              "text": "Nem tudo foi escavado: também há construções erguidas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P04",
+              "factKey": "petra-F04",
+              "text": "A cidade antiga foi um centro de passagem de caravanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P05",
+              "factKey": "petra-F05",
+              "text": "Mercadorias como especiarias circulavam pela região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P06",
+              "factKey": "petra-F06",
+              "text": "O lugar fica em uma área relativamente seca.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P07",
+              "factKey": "petra-F07",
+              "text": "Moradores desenvolveram formas de guardar água.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P08",
+              "factKey": "petra-F08",
+              "text": "Canais ajudavam a conduzir a água.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P09",
+              "factKey": "petra-F09",
+              "text": "Uma barragem ajudava a desviar a água.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P10",
+              "factKey": "petra-F10",
+              "text": "Os nabateus ocuparam e organizaram a cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P11",
+              "factKey": "petra-F11",
+              "text": "A história também inclui períodos romanos e bizantinos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P12",
+              "factKey": "petra-F12",
+              "text": "Um caminho estreito entre rochas dá acesso ao conjunto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P13",
+              "factKey": "petra-F13",
+              "text": "Esse caminho é chamado Siq.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P14",
+              "factKey": "petra-F14",
+              "text": "Há túmulos escavados no conjunto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P15",
+              "factKey": "petra-F15",
+              "text": "Os túmulos mostram influências arquitetônicas variadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P16",
+              "factKey": "petra-F16",
+              "text": "A área foi uma encruzilhada entre regiões comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P17",
+              "factKey": "petra-F17",
+              "text": "O país atual é a Jordânia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P18",
+              "factKey": "petra-F18",
+              "text": "A UNESCO reconhece o patrimônio arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P19",
+              "factKey": "petra-F19",
+              "text": "Há vestígios de um teatro antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P20",
+              "factKey": "petra-F20",
+              "text": "Também há uma rua com colunas entre os vestígios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P21",
+              "factKey": "petra-F21",
+              "text": "A água era uma questão central para a ocupação permanente.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P22",
+              "factKey": "petra-F22",
+              "text": "Os reservatórios faziam parte de uma rede maior.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P23",
+              "factKey": "petra-F23",
+              "text": "A área inclui marcas religiosas e funerárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P24",
+              "factKey": "petra-F24",
+              "text": "A preservação precisa lidar com o risco de enxurradas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-viajante-P25",
+              "factKey": "petra-F25",
+              "text": "Para diferenciar o sítio de outras ruínas, combine rocha, rotas e água.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "petra-geografo-P01",
+              "factKey": "petra-F01",
+              "text": "O sítio arqueológico ocupa um ambiente montanhoso recortado por gargantas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P02",
+              "factKey": "petra-F02",
+              "text": "A arquitetura combina construção autônoma e estruturas escavadas no maciço.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P03",
+              "factKey": "petra-F03",
+              "text": "O conjunto integra edificações construídas e fachadas talhadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P04",
+              "factKey": "petra-F04",
+              "text": "As rotas caravaneiras contribuíram para a função comercial do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P05",
+              "factKey": "petra-F05",
+              "text": "O entreposto conectava fluxos de especiarias, incenso e seda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P06",
+              "factKey": "petra-F06",
+              "text": "A implantação ocorreu em ambiente de disponibilidade hídrica limitada.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P07",
+              "factKey": "petra-F07",
+              "text": "Cisternas e reservatórios permitiam armazenar água no ambiente árido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P08",
+              "factKey": "petra-F08",
+              "text": "A infraestrutura hidráulica incluía canais e aquedutos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P09",
+              "factKey": "petra-F09",
+              "text": "O sistema de manejo incluía estrutura de desvio para lidar com fluxos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P10",
+              "factKey": "petra-F10",
+              "text": "A capital dos nabateus testemunha uma civilização associada ao comércio regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P11",
+              "factKey": "petra-F11",
+              "text": "O sítio preserva vestígios de sucessivas ocupações históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P12",
+              "factKey": "petra-F12",
+              "text": "A entrada oriental passa por uma garganta natural sinuosa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P13",
+              "factKey": "petra-F13",
+              "text": "O acesso conhecido como Siq é uma passagem entre formações rochosas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P14",
+              "factKey": "petra-F14",
+              "text": "A paisagem funerária inclui fachadas de sepulturas talhadas na rocha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P15",
+              "factKey": "petra-F15",
+              "text": "A arquitetura funerária articula tradições locais e influências helenísticas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P16",
+              "factKey": "petra-F16",
+              "text": "A posição conectava rotas entre Arábia, Egito e a região siro-fenícia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P17",
+              "factKey": "petra-F17",
+              "text": "O sítio situa-se no território da atual Jordânia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P18",
+              "factKey": "petra-F18",
+              "text": "A proteção internacional abrange um conjunto arqueológico de várias épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P19",
+              "factKey": "petra-F19",
+              "text": "O conjunto inclui estruturas cívicas ligadas ao período greco-romano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P20",
+              "factKey": "petra-F20",
+              "text": "O planejamento cívico preserva evidências de uma via colunada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P21",
+              "factKey": "petra-F21",
+              "text": "A engenharia hidráulica tornou possível o assentamento em área árida.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P22",
+              "factKey": "petra-F22",
+              "text": "O armazenamento dependia da articulação entre captação, canais e cisternas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P23",
+              "factKey": "petra-F23",
+              "text": "O conjunto reúne estruturas de culto e espaços destinados a sepultamentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P24",
+              "factKey": "petra-F24",
+              "text": "Cheias repentinas podem ameaçar as passagens e estruturas do sítio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "petra-geografo-P25",
+              "factKey": "petra-F25",
+              "text": "A identificação articula técnica construtiva, comércio de caravanas e gestão hídrica.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "P1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Petra, na Jordânia, reúne construções e fachadas talhadas na rocha, vestígios nabateus e sistemas de captação e armazenamento de água.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-porto",
+      "placeId": "porto",
+      "title": "Porto",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "PT"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Porto"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Lisboa"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Paris"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Roma"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Londres"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Praga"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Viena"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Madri"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Sevilha"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Barcelona"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florença"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Veneza"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Porto",
+          "sources": [
+            "PO1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio associado à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Douro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Sena"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tibre"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tâmisa"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Douro",
+          "sources": [
+            "PO1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ponte do conjunto patrimonial",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ponte Luís I"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ponte Hercílio Luz"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ponte da Torre"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ponte Vecchio"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ponte Luís I",
+          "sources": [
+            "PO1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Mosteiro do conjunto patrimonial",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mosteiro da Serra do Pilar"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mosteiro dos Jerónimos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mosteiro de São Bento do Rio de Janeiro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mosteiro de Alcobaça"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mosteiro da Serra do Pilar",
+          "sources": [
+            "PO1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "porto-viajante-P01",
+              "factKey": "porto-F01",
+              "text": "A cidade tem um centro antigo junto a um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P02",
+              "factKey": "porto-F02",
+              "text": "O rio corre em direção ao Atlântico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P03",
+              "factKey": "porto-F03",
+              "text": "O rio chama-se Douro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P04",
+              "factKey": "porto-F04",
+              "text": "A cidade fica no norte de Portugal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P05",
+              "factKey": "porto-F05",
+              "text": "O país é Portugal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P06",
+              "factKey": "porto-F06",
+              "text": "O relevo inclui encostas próximas ao rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P07",
+              "factKey": "porto-F07",
+              "text": "O centro foi construído em diferentes alturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P08",
+              "factKey": "porto-F08",
+              "text": "Uma ponte metálica integra o conjunto reconhecido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P09",
+              "factKey": "porto-F09",
+              "text": "A ponte tem o nome de Luís I.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P10",
+              "factKey": "porto-F10",
+              "text": "A paisagem combina cidade, rio e ponte.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P11",
+              "factKey": "porto-F11",
+              "text": "A história urbana tem cerca de dois mil anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P12",
+              "factKey": "porto-F12",
+              "text": "A atividade marítima influenciou o crescimento da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P13",
+              "factKey": "porto-F13",
+              "text": "O nome antigo da cidade remetia a um lugar de chegada de embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P14",
+              "factKey": "porto-F14",
+              "text": "O centro antigo possui uma catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P15",
+              "factKey": "porto-F15",
+              "text": "Há construções religiosas e civis no patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P16",
+              "factKey": "porto-F16",
+              "text": "Uma igreja do centro é dedicada a Santa Clara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P17",
+              "factKey": "porto-F17",
+              "text": "A arquitetura preservada inclui elementos de diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P18",
+              "factKey": "porto-F18",
+              "text": "O conjunto inclui um antigo edifício ligado ao comércio, a Bolsa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P19",
+              "factKey": "porto-F19",
+              "text": "A Bolsa mencionada tem arquitetura neoclássica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P20",
+              "factKey": "porto-F20",
+              "text": "Um mosteiro integra o mesmo bem reconhecido.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P21",
+              "factKey": "porto-F21",
+              "text": "O mosteiro fica na Serra do Pilar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P22",
+              "factKey": "porto-F22",
+              "text": "A área histórica é reconhecida pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P23",
+              "factKey": "porto-F23",
+              "text": "A paisagem reflete a relação entre a cidade e a água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P24",
+              "factKey": "porto-F24",
+              "text": "A proteção envolve mais do que um monumento isolado.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-viajante-P25",
+              "factKey": "porto-F25",
+              "text": "Para diferenciar de outras cidades europeias, combine rio, ponte e país.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "porto-geografo-P01",
+              "factKey": "porto-F01",
+              "text": "O tecido urbano histórico se desenvolve junto à foz de um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P02",
+              "factKey": "porto-F02",
+              "text": "A proximidade da foz liga as dinâmicas fluviais e marítimas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P03",
+              "factKey": "porto-F03",
+              "text": "O curso d'água associado ao núcleo histórico é o Douro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P04",
+              "factKey": "porto-F04",
+              "text": "O sítio urbano localiza-se na porção setentrional portuguesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P05",
+              "factKey": "porto-F05",
+              "text": "A localização política é Portugal, na Europa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P06",
+              "factKey": "porto-F06",
+              "text": "A topografia de vertentes influencia a forma da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P07",
+              "factKey": "porto-F07",
+              "text": "A ocupação escalonada responde às encostas junto ao vale fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P08",
+              "factKey": "porto-F08",
+              "text": "A ponte histórica faz parte do bem patrimonial inscrito.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P09",
+              "factKey": "porto-F09",
+              "text": "A ligação entre margens inclui a ponte identificada por Luís I.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P10",
+              "factKey": "porto-F10",
+              "text": "O conjunto articula rede urbana, travessia e ambiente fluvial.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P11",
+              "factKey": "porto-F11",
+              "text": "O conjunto patrimonial testemunha uma ocupação urbana de longa duração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P12",
+              "factKey": "porto-F12",
+              "text": "A função portuária contribuiu para a evolução do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P13",
+              "factKey": "porto-F13",
+              "text": "A denominação latina relacionava a cidade à chegada de embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P14",
+              "factKey": "porto-F14",
+              "text": "O conjunto edificado inclui uma catedral de origem histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P15",
+              "factKey": "porto-F15",
+              "text": "O bem reúne edifícios de usos e períodos diversos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P16",
+              "factKey": "porto-F16",
+              "text": "A arquitetura religiosa inclui a igreja de Santa Clara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P17",
+              "factKey": "porto-F17",
+              "text": "A cidade sobrepõe expressões medievais, modernas e neoclássicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P18",
+              "factKey": "porto-F18",
+              "text": "Um edifício de função comercial integra o patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P19",
+              "factKey": "porto-F19",
+              "text": "A edificação comercial apresenta linguagem arquitetônica neoclássica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P20",
+              "factKey": "porto-F20",
+              "text": "A inscrição patrimonial inclui um mosteiro além do centro e da ponte.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P21",
+              "factKey": "porto-F21",
+              "text": "A denominação do mosteiro faz referência à Serra do Pilar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P22",
+              "factKey": "porto-F22",
+              "text": "O valor patrimonial abrange o conjunto urbano e sua relação com o rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P23",
+              "factKey": "porto-F23",
+              "text": "A posição junto à foz estruturou conexões fluviais e oceânicas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P24",
+              "factKey": "porto-F24",
+              "text": "O reconhecimento articula núcleo histórico, ponte e mosteiro.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-geografo-P25",
+              "factKey": "porto-F25",
+              "text": "A identificação relaciona posição hidrográfica, travessia e localização nacional.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O centro histórico do Porto, em Portugal, relaciona-se ao rio Douro; o bem inclui a Ponte Luís I e o Mosteiro da Serra do Pilar.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-roma",
+      "placeId": "roma",
+      "title": "Roma",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "IT"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Roma"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Paris"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Londres"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Atenas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Florença"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Veneza"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Lisboa"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Porto"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Madri"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Praga"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Viena"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Berlim"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Roma",
+          "sources": [
+            "RO1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio associado à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Tibre"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Sena"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Douro"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tâmisa"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Tibre",
+          "sources": [
+            "RO1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Anfiteatro antigo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Coliseu"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Arco do Triunfo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Torre de Belém"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Torre Eiffel"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Coliseu",
+          "sources": [
+            "RO1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Irmãos da lenda de fundação",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rômulo e Remo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Caim e Abel"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ícaro e Dédalo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Castor e Pólux"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rômulo e Remo",
+          "sources": [
+            "RO1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "roma-viajante-P01",
+              "factKey": "roma-F01",
+              "text": "Uma cidade europeia cresceu às margens de um rio.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P02",
+              "factKey": "roma-F02",
+              "text": "O rio é o Tibre.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P03",
+              "factKey": "roma-F03",
+              "text": "O país atual é a Itália.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P04",
+              "factKey": "roma-F04",
+              "text": "O conjunto reúne vestígios de diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P05",
+              "factKey": "roma-F05",
+              "text": "A cidade foi centro de uma república na Antiguidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P06",
+              "factKey": "roma-F06",
+              "text": "Mais tarde, tornou-se centro de um império.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P07",
+              "factKey": "roma-F07",
+              "text": "Uma grande construção antiga recebia espetáculos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P08",
+              "factKey": "roma-F08",
+              "text": "Esse anfiteatro é conhecido como Coliseu.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P09",
+              "factKey": "roma-F09",
+              "text": "Também há um edifício antigo chamado Panteão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P10",
+              "factKey": "roma-F10",
+              "text": "Os fóruns antigos fazem parte do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P11",
+              "factKey": "roma-F11",
+              "text": "O conjunto tem igrejas de diferentes períodos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P12",
+              "factKey": "roma-F12",
+              "text": "Há intervenções urbanas renascentistas e barrocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P13",
+              "factKey": "roma-F13",
+              "text": "Uma praça conhecida é a Piazza Navona.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P14",
+              "factKey": "roma-F14",
+              "text": "O lugar preserva fortificações construídas em diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P15",
+              "factKey": "roma-F15",
+              "text": "A colina do Capitólio é uma das referências do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P16",
+              "factKey": "roma-F16",
+              "text": "A cidade também possui vínculos com a história do cristianismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P17",
+              "factKey": "roma-F17",
+              "text": "O patrimônio reconhecido compreende basílicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P18",
+              "factKey": "roma-F18",
+              "text": "Uma lenda associa a fundação a dois irmãos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P19",
+              "factKey": "roma-F19",
+              "text": "Os irmãos da lenda são Rômulo e Remo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P20",
+              "factKey": "roma-F20",
+              "text": "A data tradicional da fundação é uma referência lendária.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P21",
+              "factKey": "roma-F21",
+              "text": "As ruínas antigas convivem com áreas urbanas posteriores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P22",
+              "factKey": "roma-F22",
+              "text": "A UNESCO reconhece o centro histórico e propriedades relacionadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P23",
+              "factKey": "roma-F23",
+              "text": "O monumento de espetáculos está associado à Antiguidade clássica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P24",
+              "factKey": "roma-F24",
+              "text": "O rio é uma referência para a localização do núcleo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-viajante-P25",
+              "factKey": "roma-F25",
+              "text": "Para diferenciar de outras capitais, combine rio, anfiteatro e história antiga.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "roma-geografo-P01",
+              "factKey": "roma-F01",
+              "text": "A implantação histórica se relaciona ao vale do rio Tibre.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P02",
+              "factKey": "roma-F02",
+              "text": "O curso fluvial associado ao centro histórico é o Tibre.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P03",
+              "factKey": "roma-F03",
+              "text": "O território urbano situa-se na Itália.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P04",
+              "factKey": "roma-F04",
+              "text": "O patrimônio sobrepõe estruturas antigas e intervenções posteriores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P05",
+              "factKey": "roma-F05",
+              "text": "Sua trajetória política inclui a República da Antiguidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P06",
+              "factKey": "roma-F06",
+              "text": "A transformação política inclui a formação de um império antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P07",
+              "factKey": "roma-F07",
+              "text": "Um anfiteatro monumental integra os vestígios antigos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P08",
+              "factKey": "roma-F08",
+              "text": "O monumento associado a espetáculos é denominado Coliseu.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P09",
+              "factKey": "roma-F09",
+              "text": "O Panteão é um dos monumentos incluídos no conjunto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P10",
+              "factKey": "roma-F10",
+              "text": "Os espaços cívicos antigos incluem fóruns republicanos e imperiais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P11",
+              "factKey": "roma-F11",
+              "text": "A arquitetura religiosa integra camadas históricas sucessivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P12",
+              "factKey": "roma-F12",
+              "text": "O tecido urbano inclui fases de transformação posteriores à Antiguidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P13",
+              "factKey": "roma-F13",
+              "text": "A Piazza Navona exemplifica intervenções urbanas históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P14",
+              "factKey": "roma-F14",
+              "text": "Muralhas e construções defensivas integram o patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P15",
+              "factKey": "roma-F15",
+              "text": "O Capitólio constitui um dos elementos da paisagem patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P16",
+              "factKey": "roma-F16",
+              "text": "A trajetória urbana inclui funções religiosas associadas ao cristianismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P17",
+              "factKey": "roma-F17",
+              "text": "O conjunto inclui grandes edifícios religiosos como basílicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P18",
+              "factKey": "roma-F18",
+              "text": "A narrativa tradicional atribui a fundação a Rômulo e Remo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P19",
+              "factKey": "roma-F19",
+              "text": "A tradição de fundação menciona os irmãos Rômulo e Remo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P20",
+              "factKey": "roma-F20",
+              "text": "A cronologia de fundação transmitida pela tradição não deve ser tratada como prova arqueológica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P21",
+              "factKey": "roma-F21",
+              "text": "A paisagem histórica se caracteriza pela coexistência de períodos distintos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P22",
+              "factKey": "roma-F22",
+              "text": "A inscrição patrimonial compreende o centro e propriedades vinculadas à Santa Sé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P23",
+              "factKey": "roma-F23",
+              "text": "O anfiteatro integra os monumentos da Antiguidade presentes no centro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P24",
+              "factKey": "roma-F24",
+              "text": "A rede hidrográfica fornece um critério para distinguir cidades europeias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "roma-geografo-P25",
+              "factKey": "roma-F25",
+              "text": "A identificação relaciona hidrografia, monumentos e sucessão de funções políticas.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "RO1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O centro histórico de Roma, às margens do Tibre, reúne monumentos antigos como o Coliseu e edifícios de épocas posteriores.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

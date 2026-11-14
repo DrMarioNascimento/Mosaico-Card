@@ -1,6 +1,6 @@
 {
   "status": "Seleção editorial proposta; correspondência entre candidatos e destinos jogáveis requer revisão quando há nomes alternativos.",
-  "targetPlaces": 121,
+  "targetPlaces": 125,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -15,7 +15,13 @@
     "Salvador",
     "Olinda",
     "Parque Nacional de Jericoacoara",
-    "Cataratas Vitória"
+    "Cataratas Vitória",
+    "São Luís",
+    "Havana",
+    "Ilhas Galápagos",
+    "Petra",
+    "Porto",
+    "Roma"
   ],
   "groups": {
     "Brasil Norte": [
@@ -41,7 +47,8 @@
       "Chapada Diamantina",
       "Delta do Parnaíba",
       "Rio São Francisco",
-      "Parque Nacional de Jericoacoara"
+      "Parque Nacional de Jericoacoara",
+      "São Luís"
     ],
     "Brasil Centro Oeste": [
       "Brasília",
@@ -93,7 +100,9 @@
       "Deserto do Atacama",
       "Canal do Panamá",
       "Cordilheira dos Andes",
-      "Rio Mississippi"
+      "Rio Mississippi",
+      "Havana",
+      "Ilhas Galápagos"
     ],
     "Europa": [
       "Portugal",
@@ -109,7 +118,8 @@
       "Coliseu",
       "Alpes",
       "Rio Danúbio",
-      "Veneza"
+      "Veneza",
+      "Porto"
     ],
     "África": [
       "Egito",

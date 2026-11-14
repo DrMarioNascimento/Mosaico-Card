@@ -18,3 +18,8 @@ body{background:radial-gradient(ellipse at 40% 5%,#214a43,#102c32 48%,#091b25) f
 .bussola-chamada{color:#725426}.bussola-chamada strong{font-size:20px;line-height:1.15}
 .bussola-art{display:block;width:90%;height:auto;max-height:58%;min-height:0;object-fit:contain;margin:8px auto;filter:drop-shadow(0 6px 5px #51351b44)}
 @media(max-height:740px) and (min-width:700px){.lugares-art{width:min(420px,100%)}}
+
+/* Campos fechados evitam revelar todas as perguntas ao abrir a jogada. */
+.campo-acordeao { margin: .55rem 0; border: 1px solid #5f8690; border-radius: .7rem; background: rgba(5, 35, 47, .72); padding: .25rem .7rem .6rem; }
+.campo-acordeao summary { cursor: pointer; color: #f4e3b9; font-weight: 700; padding: .55rem .2rem; }
+.campo-acordeao summary:focus-visible { outline: 3px solid #ffd173; outline-offset: 3px; }

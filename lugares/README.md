@@ -24,10 +24,16 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Olinda | Brasil / Nordeste / América |
 | Parque Nacional de Jericoacoara | Brasil / Nordeste / América |
 | Cataratas Vitória | África |
+| São Luís | Brasil / Nordeste / América |
+| Havana | América |
+| Ilhas Galápagos | América |
+| Petra | Ásia |
+| Porto | Europa |
+| Roma | Europa |
 
-São 14 lugares, 28 conjuntos de pistas (dois por lugar), 700 pistas, 56 perguntas distintas e 308 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 20 lugares, 40 conjuntos de pistas (dois por lugar), 1.000 pistas, 80 perguntas distintas e 452 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
-Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano editorial reúne 121 candidatos e continua em elaboração; confira os nomes alternativos antes de comparar seus números com o catálogo jogável.
+Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano editorial reúne 125 candidatos e continua em elaboração; confira os nomes alternativos antes de comparar seus números com o catálogo jogável.
 
 ## Fluxo e regras
 
@@ -70,3 +76,5 @@ A página compartilha CSS de componentes, autenticação, QR, regras e o reducer
 As referências foram consultadas na elaboração do primeiro lote. A revisão de integração conferiu gabaritos, ambiguidade dos campos, distinção entre ponto geográfico e magnético, água doce nos Lençóis, corais como animais e linguagem do Viajante. Os testes automatizados não aferem engajamento nem equivalência de dificuldade. A calibração com jogadores e a ampliação do catálogo permanecem próximas etapas.
 
 Criação do Mosaico Card: **Mário César Nascimento e Osana Melo Nascimento (M&O)**. Aplicam-se as condições de [LICENSE.md](../LICENSE.md).
+
+A pergunta principal é neutra; campos e alternativas são abertos separadamente ao arriscar. As pistas decisivas não são mais priorizadas na distribuição inicial, embora possam ser sorteadas. A divisão dos perfis e os campos ainda exigem revisão de dificuldade e testes com jogadores.
