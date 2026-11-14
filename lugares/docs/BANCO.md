@@ -3809,3 +3809,77 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | A proteção inclui a relação dos prédios com os jardins e a água. | O valor reconhecido depende da interação entre edifícios e paisagem. | PA1 |
 | 24 | O antigo cassino é uma das peças de um conjunto, não o destino inteiro. | A identificação deve considerar o conjunto de edifícios e o lago. | PA1 |
 | 25 | Para identificar, combine lago artificial, lazer e arquitetura moderna em Minas Gerais. | A combinação entre sítio urbano, programa e autoria diferencia o bem. | PA1 |
+
+## Grande Zimbábue
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Sítio arqueológico | Grande Zimbábue | Grande Zimbábue; Ruínas de Kilwa Kisiwani; Ruínas de Songo Mnara; Cartago; Acrópole de Atenas; Machu Picchu; Cidade de Petra; Angkor; Sítio de Leptis Magna; Ruínas de Khami; Monumento de Aksum; Cidade antiga de Meroé |
+| Material dos muros do grande recinto | Granito em pedra seca | Granito em pedra seca; Calcário unido com argamassa; Tijolo de adobe; Blocos de arenito |
+| Sociedade histórica associada | Shona | Shona; Suaíli; Núbia; Aksumita |
+| Achado que indica comércio distante | Porcelana chinesa | Porcelana chinesa; Inscrições rúnicas escandinavas; Moedas do Japão feudal; Pergaminhos bizantinos |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino preserva restos de uma antiga cidade africana. | O sítio arqueológico testemunha uma sociedade urbana da África austral. | ZIM1 |
+| 2 | Grandes muros de pedra ainda desenham partes do lugar. | A arquitetura monumental delimita recintos com alvenaria de pedra. | ZIM1 |
+| 3 | O conjunto inclui uma área elevada e outra no vale. | O sítio articula construções em colinas e em áreas mais baixas. | ZIM1 |
+| 4 | Uma parte importante tem formato aproximado de elipse. | Um grande recinto apresenta planta aproximadamente elíptica. | ZIM1 |
+| 5 | Os blocos de um dos recintos foram cortados em granito. | O granito é o material dos blocos do grande recinto. | ZIM1 |
+| 6 | As pedras foram dispostas em fiadas. | A construção organiza blocos em camadas sucessivas. | ZIM1 |
+| 7 | A técnica usa muros de pedra seca. | A alvenaria de pedra seca integra o conjunto arqueológico. | ZIM1 |
+| 8 | Uma passagem estreita conduz a uma torre alta. | Um corredor interno liga áreas do recinto a uma torre cônica. | ZIM1 |
+| 9 | A torre tem forma de cone. | A forma cônica distingue uma estrutura interna do grande recinto. | ZIM1 |
+| 10 | O grande recinto é datado do século XIV. | A principal estrutura elíptica é associada ao século XIV. | ZIM1 |
+| 11 | Havia moradias dentro de áreas cercadas por muros. | Os recintos abrigavam unidades residenciais e espaços comunitários. | ZIM1 |
+| 12 | Parte das paredes tem desenhos em zigue-zague. | Elementos decorativos incluem padrões em chevron. | ZIM1 |
+| 13 | Foram encontrados vestígios de objetos de ferro. | Artefatos de ferro ajudam a compreender a vida econômica local. | ZIM1 |
+| 14 | Cerâmicas encontradas ajudam a estudar o cotidiano. | Fragmentos cerâmicos são evidências da organização social do sítio. | ZIM1 |
+| 15 | Contas de vidro revelam contatos com outras regiões. | Contas de vidro recuperadas indicam conexões comerciais de longa distância. | ZIM1 |
+| 16 | Também foram achados fragmentos de porcelana chinesa. | Porcelana chinesa entre os achados indica redes de troca externas. | ZIM1 |
+| 17 | Moedas e objetos revelam relações com a costa oriental africana. | Moedas ligadas a Kilwa integram evidências de redes comerciais. | ZIM1 |
+| 18 | A cidade esteve ligada a uma sociedade do povo shona. | O lugar testemunha a civilização shona entre os séculos XI e XV. | ZIM1 |
+| 19 | A história do lugar inclui uma fase de capital de um grande Estado. | No século XIV a cidade foi centro de um Estado regional. | ZIM1 |
+| 20 | O nome do país atual também aparece no nome do monumento. | O sítio tem forte valor simbólico nacional no país em que se situa. | ZIM1 |
+| 21 | Figuras de aves feitas em pedra-sabão foram encontradas no sítio. | Esculturas de aves em esteatita integram o patrimônio simbólico local. | ZIM1 |
+| 22 | Essas aves se tornaram símbolo nacional. | Uma das aves de esteatita foi adotada como emblema do país. | ZIM1 |
+| 23 | A área preservada ainda tem significado espiritual para comunidades. | O patrimônio arqueológico conserva associações espirituais contemporâneas. | ZIM1 |
+| 24 | O monumento fica no Zimbábue. | Sua localização administrativa é o Estado africano do Zimbábue. | ZIM1 |
+| 25 | Para reconhecer, reúna muros de granito, torre cônica e história shona. | A identificação combina arquitetura de pedra, morfologia e trajetória política shona. | ZIM1 |
+
+## Timbuktu
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Cidade histórica | Timbuktu | Timbuktu; Djenné; Marrakech; Fez; Cairo; Cartago; Gao; Agadez; Sanaa; Zanzibar; Lalibela; Meroé |
+| Posição regional | Ao sul do Saara, próxima ao rio Níger | Ao sul do Saara, próxima ao rio Níger; Na costa atlântica do Senegal; No vale do Nilo, próximo à fronteira egípcia; No litoral da Tanzânia, junto ao Índico |
+| Produtos negociados historicamente | Sal, ouro e manuscritos | Sal, ouro e manuscritos; Açúcar, café e borracha; Especiarias, seda e porcelana exclusivamente; Madeira, carvão mineral e aço |
+| Edifícios religiosos protegidos | Mesquitas de Djingareyber, Sankoré e Sidi Yahia | Mesquitas de Djingareyber, Sankoré e Sidi Yahia; Mesquitas de Djenne, Mopti e Bobo-Dioulasso; Mesquitas de Cairo, Alexandria e Aswan; Mesquitas de Zanzibar, Kilwa e Lamu |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino foi um centro de estudos e comércio na África. | A cidade histórica articulava circulação comercial e vida intelectual. | TIM1 |
+| 2 | Fica numa região próxima ao deserto do Saara. | O sítio se situa na transição ao sul do Saara. | TIM1 |
+| 3 | A cidade também se relaciona a um grande rio africano. | A localização próxima ao Níger favoreceu conexões regionais. | TIM1 |
+| 4 | O sal estava entre os produtos negociados. | O sal proveniente do norte participava do mercado transaariano. | TIM1 |
+| 5 | O ouro também circulava nos mercados locais. | O ouro foi um dos bens comercializados na rede urbana. | TIM1 |
+| 6 | Manuscritos podiam ser objeto de comércio. | A circulação de manuscritos integrava as trocas culturais e econômicas. | TIM1 |
+| 7 | A cidade foi importante para o ensino religioso. | O ensino islâmico teve papel central na vida intelectual local. | TIM1 |
+| 8 | Uma instituição de ensino é associada a Sankoré. | Sankoré se relaciona ao ensino religioso na cidade. | TIM1 |
+| 9 | Três mesquitas importantes fazem parte do patrimônio. | O bem protegido inclui três mesquitas históricas. | TIM1 |
+| 10 | Uma delas se chama Djingareyber. | A mesquita de Djingareyber é uma das três edificações religiosas principais. | TIM1 |
+| 11 | Outra mesquita tem o nome Sankoré. | A mesquita de Sankoré integra o conjunto protegido. | TIM1 |
+| 12 | A terceira é conhecida como Sidi Yahia. | Sidi Yahia completa o conjunto das três grandes mesquitas. | TIM1 |
+| 13 | A construção em terra caracteriza os monumentos. | A arquitetura de terra constitui um atributo do patrimônio edificado. | TIM1 |
+| 14 | A manutenção tradicional ajuda a preservar as construções. | A conservação depende também de técnicas locais de manutenção da arquitetura de terra. | TIM1 |
+| 15 | O auge cultural ocorreu nos séculos XV e XVI. | A proeminência intelectual e econômica se destacou nos séculos XV e XVI. | TIM1 |
+| 16 | A cidade fica no Mali. | A localização administrativa pertence ao Mali, na África ocidental. | TIM1 |
+| 17 | A UNESCO reconhece mesquitas e mausoléus do local. | A proteção internacional abrange mesquitas e mausoléus. | TIM1 |
+| 18 | A cidade foi um ponto de encontro de rotas comerciais. | A posição na rede transaariana favorecia encontros e trocas. | TIM1 |
+| 19 | Cereais e animais chegavam de áreas ao sul. | Produtos agrícolas e animais do sul integravam a circulação regional. | TIM1 |
+| 20 | A paisagem urbana inclui um minarete de destaque. | O minarete central de uma das mesquitas se destaca na paisagem urbana. | TIM1 |
+| 21 | A areia e a desertificação ameaçam monumentos. | A desertificação é um dos fatores de risco para o patrimônio. | TIM1 |
+| 22 | A expansão urbana também exige cuidado com o patrimônio. | A pressão urbana pode comprometer as relações entre monumentos e seu entorno. | TIM1 |
+| 23 | Uma das mesquitas foi restaurada por Al Aqib no século XVI. | O imã Al Aqib participou da restauração de mesquitas históricas. | TIM1 |
+| 24 | A cidade não fica na costa atlântica. | Sua posição interiorana difere da localização de portos costeiros africanos. | TIM1 |
+| 25 | Para identificar, reúna ensino, manuscritos e rotas ao sul do Saara. | A identificação combina função intelectual, comércio e posição transaariana. | TIM1 |

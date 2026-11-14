@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-22-2026-11-14",
+  "catalogVersion": "lote-23-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Sessenta destinos jogáveis em dois perfis",
-  "status": "Sessenta destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Sessenta e dois destinos jogáveis em dois perfis",
+  "status": "Sessenta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -815,6 +815,20 @@
       "title": "Pampulha Modern Ensemble",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1493/",
+      "checkedAt": "2026-11-14"
+    },
+    "ZIM1": {
+      "id": "ZIM1",
+      "title": "Great Zimbabwe National Monument",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/364/",
+      "checkedAt": "2026-11-14"
+    },
+    "TIM1": {
+      "id": "TIM1",
+      "title": "Timbuktu",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/119/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -61870,6 +61884,1990 @@
       },
       "reveal": {
         "canonicalSummary": "O conjunto moderno de Belo Horizonte articula quatro edifícios de Oscar Niemeyer, paisagismo e artes ao redor de um lago artificial.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-grande-zimbabue",
+      "placeId": "grande-zimbabue",
+      "title": "Grande Zimbábue",
+      "aliases": [
+        "Great Zimbabwe"
+      ],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ZW"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio arqueológico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Grande Zimbábue"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ruínas de Kilwa Kisiwani"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ruínas de Songo Mnara"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cartago"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Acrópole de Atenas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Machu Picchu"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade de Petra"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Angkor"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Sítio de Leptis Magna"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ruínas de Khami"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Monumento de Aksum"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cidade antiga de Meroé"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Grande Zimbábue",
+          "sources": [
+            "ZIM1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Material dos muros do grande recinto",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Granito em pedra seca"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Calcário unido com argamassa"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tijolo de adobe"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Blocos de arenito"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Granito em pedra seca",
+          "sources": [
+            "ZIM1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Sociedade histórica associada",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Shona"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Suaíli"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Núbia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Aksumita"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Shona",
+          "sources": [
+            "ZIM1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Achado que indica comércio distante",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Porcelana chinesa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Inscrições rúnicas escandinavas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Moedas do Japão feudal"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pergaminhos bizantinos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Porcelana chinesa",
+          "sources": [
+            "ZIM1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "grande-zimbabue-viajante-P01",
+              "factKey": "grande-zimbabue-F01",
+              "text": "O destino preserva restos de uma antiga cidade africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P02",
+              "factKey": "grande-zimbabue-F02",
+              "text": "Grandes muros de pedra ainda desenham partes do lugar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P03",
+              "factKey": "grande-zimbabue-F03",
+              "text": "O conjunto inclui uma área elevada e outra no vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P04",
+              "factKey": "grande-zimbabue-F04",
+              "text": "Uma parte importante tem formato aproximado de elipse.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P05",
+              "factKey": "grande-zimbabue-F05",
+              "text": "Os blocos de um dos recintos foram cortados em granito.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P06",
+              "factKey": "grande-zimbabue-F06",
+              "text": "As pedras foram dispostas em fiadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P07",
+              "factKey": "grande-zimbabue-F07",
+              "text": "A técnica usa muros de pedra seca.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P08",
+              "factKey": "grande-zimbabue-F08",
+              "text": "Uma passagem estreita conduz a uma torre alta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P09",
+              "factKey": "grande-zimbabue-F09",
+              "text": "A torre tem forma de cone.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P10",
+              "factKey": "grande-zimbabue-F10",
+              "text": "O grande recinto é datado do século XIV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P11",
+              "factKey": "grande-zimbabue-F11",
+              "text": "Havia moradias dentro de áreas cercadas por muros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P12",
+              "factKey": "grande-zimbabue-F12",
+              "text": "Parte das paredes tem desenhos em zigue-zague.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P13",
+              "factKey": "grande-zimbabue-F13",
+              "text": "Foram encontrados vestígios de objetos de ferro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P14",
+              "factKey": "grande-zimbabue-F14",
+              "text": "Cerâmicas encontradas ajudam a estudar o cotidiano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P15",
+              "factKey": "grande-zimbabue-F15",
+              "text": "Contas de vidro revelam contatos com outras regiões.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P16",
+              "factKey": "grande-zimbabue-F16",
+              "text": "Também foram achados fragmentos de porcelana chinesa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P17",
+              "factKey": "grande-zimbabue-F17",
+              "text": "Moedas e objetos revelam relações com a costa oriental africana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P18",
+              "factKey": "grande-zimbabue-F18",
+              "text": "A cidade esteve ligada a uma sociedade do povo shona.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P19",
+              "factKey": "grande-zimbabue-F19",
+              "text": "A história do lugar inclui uma fase de capital de um grande Estado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P20",
+              "factKey": "grande-zimbabue-F20",
+              "text": "O nome do país atual também aparece no nome do monumento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P21",
+              "factKey": "grande-zimbabue-F21",
+              "text": "Figuras de aves feitas em pedra-sabão foram encontradas no sítio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P22",
+              "factKey": "grande-zimbabue-F22",
+              "text": "Essas aves se tornaram símbolo nacional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P23",
+              "factKey": "grande-zimbabue-F23",
+              "text": "A área preservada ainda tem significado espiritual para comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P24",
+              "factKey": "grande-zimbabue-F24",
+              "text": "O monumento fica no Zimbábue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-viajante-P25",
+              "factKey": "grande-zimbabue-F25",
+              "text": "Para reconhecer, reúna muros de granito, torre cônica e história shona.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "grande-zimbabue-geografo-P01",
+              "factKey": "grande-zimbabue-F01",
+              "text": "O sítio arqueológico testemunha uma sociedade urbana da África austral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P02",
+              "factKey": "grande-zimbabue-F02",
+              "text": "A arquitetura monumental delimita recintos com alvenaria de pedra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P03",
+              "factKey": "grande-zimbabue-F03",
+              "text": "O sítio articula construções em colinas e em áreas mais baixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P04",
+              "factKey": "grande-zimbabue-F04",
+              "text": "Um grande recinto apresenta planta aproximadamente elíptica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P05",
+              "factKey": "grande-zimbabue-F05",
+              "text": "O granito é o material dos blocos do grande recinto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P06",
+              "factKey": "grande-zimbabue-F06",
+              "text": "A construção organiza blocos em camadas sucessivas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P07",
+              "factKey": "grande-zimbabue-F07",
+              "text": "A alvenaria de pedra seca integra o conjunto arqueológico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P08",
+              "factKey": "grande-zimbabue-F08",
+              "text": "Um corredor interno liga áreas do recinto a uma torre cônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P09",
+              "factKey": "grande-zimbabue-F09",
+              "text": "A forma cônica distingue uma estrutura interna do grande recinto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P10",
+              "factKey": "grande-zimbabue-F10",
+              "text": "A principal estrutura elíptica é associada ao século XIV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P11",
+              "factKey": "grande-zimbabue-F11",
+              "text": "Os recintos abrigavam unidades residenciais e espaços comunitários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P12",
+              "factKey": "grande-zimbabue-F12",
+              "text": "Elementos decorativos incluem padrões em chevron.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P13",
+              "factKey": "grande-zimbabue-F13",
+              "text": "Artefatos de ferro ajudam a compreender a vida econômica local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P14",
+              "factKey": "grande-zimbabue-F14",
+              "text": "Fragmentos cerâmicos são evidências da organização social do sítio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P15",
+              "factKey": "grande-zimbabue-F15",
+              "text": "Contas de vidro recuperadas indicam conexões comerciais de longa distância.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P16",
+              "factKey": "grande-zimbabue-F16",
+              "text": "Porcelana chinesa entre os achados indica redes de troca externas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P17",
+              "factKey": "grande-zimbabue-F17",
+              "text": "Moedas ligadas a Kilwa integram evidências de redes comerciais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P18",
+              "factKey": "grande-zimbabue-F18",
+              "text": "O lugar testemunha a civilização shona entre os séculos XI e XV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P19",
+              "factKey": "grande-zimbabue-F19",
+              "text": "No século XIV a cidade foi centro de um Estado regional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P20",
+              "factKey": "grande-zimbabue-F20",
+              "text": "O sítio tem forte valor simbólico nacional no país em que se situa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P21",
+              "factKey": "grande-zimbabue-F21",
+              "text": "Esculturas de aves em esteatita integram o patrimônio simbólico local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P22",
+              "factKey": "grande-zimbabue-F22",
+              "text": "Uma das aves de esteatita foi adotada como emblema do país.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P23",
+              "factKey": "grande-zimbabue-F23",
+              "text": "O patrimônio arqueológico conserva associações espirituais contemporâneas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P24",
+              "factKey": "grande-zimbabue-F24",
+              "text": "Sua localização administrativa é o Estado africano do Zimbábue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "grande-zimbabue-geografo-P25",
+              "factKey": "grande-zimbabue-F25",
+              "text": "A identificação combina arquitetura de pedra, morfologia e trajetória política shona.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "ZIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Sítio arqueológico do Zimbábue ligado à civilização shona, com recintos de pedra, torre cônica e evidências de comércio.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-timbuktu",
+      "placeId": "timbuktu",
+      "title": "Timbuktu",
+      "aliases": [
+        "Tombuctu"
+      ],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ML"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Timbuktu"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Djenné"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Marrakech"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Fez"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cairo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Cartago"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Gao"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Agadez"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Sanaa"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Zanzibar"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Lalibela"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Meroé"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Timbuktu",
+          "sources": [
+            "TIM1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Posição regional",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ao sul do Saara, próxima ao rio Níger"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Na costa atlântica do Senegal"
+            },
+            {
+              "id": "C2-O3",
+              "text": "No vale do Nilo, próximo à fronteira egípcia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "No litoral da Tanzânia, junto ao Índico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ao sul do Saara, próxima ao rio Níger",
+          "sources": [
+            "TIM1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Produtos negociados historicamente",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Sal, ouro e manuscritos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Açúcar, café e borracha"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Especiarias, seda e porcelana exclusivamente"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Madeira, carvão mineral e aço"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Sal, ouro e manuscritos",
+          "sources": [
+            "TIM1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Edifícios religiosos protegidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mesquitas de Djingareyber, Sankoré e Sidi Yahia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mesquitas de Djenne, Mopti e Bobo-Dioulasso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mesquitas de Cairo, Alexandria e Aswan"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mesquitas de Zanzibar, Kilwa e Lamu"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mesquitas de Djingareyber, Sankoré e Sidi Yahia",
+          "sources": [
+            "TIM1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "timbuktu-viajante-P01",
+              "factKey": "timbuktu-F01",
+              "text": "O destino foi um centro de estudos e comércio na África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P02",
+              "factKey": "timbuktu-F02",
+              "text": "Fica numa região próxima ao deserto do Saara.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P03",
+              "factKey": "timbuktu-F03",
+              "text": "A cidade também se relaciona a um grande rio africano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P04",
+              "factKey": "timbuktu-F04",
+              "text": "O sal estava entre os produtos negociados.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P05",
+              "factKey": "timbuktu-F05",
+              "text": "O ouro também circulava nos mercados locais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P06",
+              "factKey": "timbuktu-F06",
+              "text": "Manuscritos podiam ser objeto de comércio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P07",
+              "factKey": "timbuktu-F07",
+              "text": "A cidade foi importante para o ensino religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P08",
+              "factKey": "timbuktu-F08",
+              "text": "Uma instituição de ensino é associada a Sankoré.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P09",
+              "factKey": "timbuktu-F09",
+              "text": "Três mesquitas importantes fazem parte do patrimônio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P10",
+              "factKey": "timbuktu-F10",
+              "text": "Uma delas se chama Djingareyber.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P11",
+              "factKey": "timbuktu-F11",
+              "text": "Outra mesquita tem o nome Sankoré.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P12",
+              "factKey": "timbuktu-F12",
+              "text": "A terceira é conhecida como Sidi Yahia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P13",
+              "factKey": "timbuktu-F13",
+              "text": "A construção em terra caracteriza os monumentos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P14",
+              "factKey": "timbuktu-F14",
+              "text": "A manutenção tradicional ajuda a preservar as construções.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P15",
+              "factKey": "timbuktu-F15",
+              "text": "O auge cultural ocorreu nos séculos XV e XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P16",
+              "factKey": "timbuktu-F16",
+              "text": "A cidade fica no Mali.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P17",
+              "factKey": "timbuktu-F17",
+              "text": "A UNESCO reconhece mesquitas e mausoléus do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P18",
+              "factKey": "timbuktu-F18",
+              "text": "A cidade foi um ponto de encontro de rotas comerciais.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P19",
+              "factKey": "timbuktu-F19",
+              "text": "Cereais e animais chegavam de áreas ao sul.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P20",
+              "factKey": "timbuktu-F20",
+              "text": "A paisagem urbana inclui um minarete de destaque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P21",
+              "factKey": "timbuktu-F21",
+              "text": "A areia e a desertificação ameaçam monumentos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P22",
+              "factKey": "timbuktu-F22",
+              "text": "A expansão urbana também exige cuidado com o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P23",
+              "factKey": "timbuktu-F23",
+              "text": "Uma das mesquitas foi restaurada por Al Aqib no século XVI.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P24",
+              "factKey": "timbuktu-F24",
+              "text": "A cidade não fica na costa atlântica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-viajante-P25",
+              "factKey": "timbuktu-F25",
+              "text": "Para identificar, reúna ensino, manuscritos e rotas ao sul do Saara.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "timbuktu-geografo-P01",
+              "factKey": "timbuktu-F01",
+              "text": "A cidade histórica articulava circulação comercial e vida intelectual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P02",
+              "factKey": "timbuktu-F02",
+              "text": "O sítio se situa na transição ao sul do Saara.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P03",
+              "factKey": "timbuktu-F03",
+              "text": "A localização próxima ao Níger favoreceu conexões regionais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P04",
+              "factKey": "timbuktu-F04",
+              "text": "O sal proveniente do norte participava do mercado transaariano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P05",
+              "factKey": "timbuktu-F05",
+              "text": "O ouro foi um dos bens comercializados na rede urbana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P06",
+              "factKey": "timbuktu-F06",
+              "text": "A circulação de manuscritos integrava as trocas culturais e econômicas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P07",
+              "factKey": "timbuktu-F07",
+              "text": "O ensino islâmico teve papel central na vida intelectual local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P08",
+              "factKey": "timbuktu-F08",
+              "text": "Sankoré se relaciona ao ensino religioso na cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P09",
+              "factKey": "timbuktu-F09",
+              "text": "O bem protegido inclui três mesquitas históricas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P10",
+              "factKey": "timbuktu-F10",
+              "text": "A mesquita de Djingareyber é uma das três edificações religiosas principais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P11",
+              "factKey": "timbuktu-F11",
+              "text": "A mesquita de Sankoré integra o conjunto protegido.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P12",
+              "factKey": "timbuktu-F12",
+              "text": "Sidi Yahia completa o conjunto das três grandes mesquitas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P13",
+              "factKey": "timbuktu-F13",
+              "text": "A arquitetura de terra constitui um atributo do patrimônio edificado.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P14",
+              "factKey": "timbuktu-F14",
+              "text": "A conservação depende também de técnicas locais de manutenção da arquitetura de terra.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P15",
+              "factKey": "timbuktu-F15",
+              "text": "A proeminência intelectual e econômica se destacou nos séculos XV e XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P16",
+              "factKey": "timbuktu-F16",
+              "text": "A localização administrativa pertence ao Mali, na África ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P17",
+              "factKey": "timbuktu-F17",
+              "text": "A proteção internacional abrange mesquitas e mausoléus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P18",
+              "factKey": "timbuktu-F18",
+              "text": "A posição na rede transaariana favorecia encontros e trocas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P19",
+              "factKey": "timbuktu-F19",
+              "text": "Produtos agrícolas e animais do sul integravam a circulação regional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P20",
+              "factKey": "timbuktu-F20",
+              "text": "O minarete central de uma das mesquitas se destaca na paisagem urbana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P21",
+              "factKey": "timbuktu-F21",
+              "text": "A desertificação é um dos fatores de risco para o patrimônio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P22",
+              "factKey": "timbuktu-F22",
+              "text": "A pressão urbana pode comprometer as relações entre monumentos e seu entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P23",
+              "factKey": "timbuktu-F23",
+              "text": "O imã Al Aqib participou da restauração de mesquitas históricas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P24",
+              "factKey": "timbuktu-F24",
+              "text": "Sua posição interiorana difere da localização de portos costeiros africanos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "timbuktu-geografo-P25",
+              "factKey": "timbuktu-F25",
+              "text": "A identificação combina função intelectual, comércio e posição transaariana.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TIM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade histórica do Mali que articulou comércio transaariano, ensino islâmico e arquitetura de terra.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
