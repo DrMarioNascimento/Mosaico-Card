@@ -27,6 +27,20 @@
       "publisher": "Prefeitura de Vitória",
       "url": "https://www.vitoria.es.gov.br/download.php?id=4172&tipo=1",
       "checkedAt": "2026-11-14"
+    },
+    "SE_VV_TRILHA": {
+      "id": "SE_VV_TRILHA",
+      "title": "Estudantes fazem trilha no Morro do Moreno",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://m.vitoria.es.gov.br/noticias/esportes-de-aventura-estudantes-fazem-trilha-no-morro-do-moreno-45531",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VV_MONTES": {
+      "id": "SE_VV_MONTES",
+      "title": "Plano Diretor Urbano: principais novidades",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/sedec/pdu-principais-novidades",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -168,7 +182,7 @@
         },
         {
           "id": "C4",
-          "label": "Morro com trilhas e vista metropolitana",
+          "label": "Morro situado no município, conhecido por trilha e vista da Grande Vitória",
           "options": [
             {
               "id": "C4-O1",
@@ -176,21 +190,22 @@
             },
             {
               "id": "C4-O2",
-              "text": "Morro da Urca"
+              "text": "Mochuara"
             },
             {
               "id": "C4-O3",
-              "text": "Morro do Corcovado"
+              "text": "Mestre Álvaro"
             },
             {
               "id": "C4-O4",
-              "text": "Morro do Pai Inácio"
+              "text": "Morro do Cruzeiro"
             }
           ],
           "answerId": "C4-O1",
           "answerText": "Morro do Moreno",
           "sources": [
-            "SE_VV_TUR"
+            "SE_VV_TRILHA",
+            "SE_VV_MONTES"
           ]
         }
       ],
@@ -1010,16 +1025,17 @@
         "canonicalSummary": "Município litorâneo da Grande Vitória, com patrimônio colonial e o Convento da Penha.",
         "editorialNotes": [
           "Capital vizinha e município da carta são pautas diferentes, com relação temática.",
-          "Fonte institucional consultada; calibrar dificuldade em partidas."
+          "Fonte institucional consultada; calibrar dificuldade em partidas.",
+          "C4 usa alternativas de morros da Grande Vitória. Revisar fontes e gabaritos dos demais campos e a dificuldade em partidas."
         ]
       },
       "review": {
         "structural": "passed",
         "sourceLinked": true,
-        "factual": "initial-editorial-review",
+        "factual": "pending-full-review",
         "playtest": "pending",
         "publication": "draft",
-        "editorial": "reviewed-2026-11-14"
+        "editorial": "pending-comparative-review"
       }
     }
   ]
