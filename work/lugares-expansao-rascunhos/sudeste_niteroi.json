@@ -34,6 +34,13 @@
       "publisher": "IBGE",
       "url": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/riodejaneiro/niteroi.pdf",
       "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_PMUS": {
+      "id": "SE_NIT_PMUS",
+      "title": "Plano de Mobilidade Urbana Sustentável de Niterói 2020–2030, sumário executivo",
+      "publisher": "Prefeitura de Niterói",
+      "url": "https://urbanismo.niteroi.rj.gov.br/anexos/PMUS/PMUS%20NITEROI%20-%20RELATORIO%20FINAL%20SUM%C3%81RIO%20EXECUTIVO.pdf",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -645,12 +652,12 @@
             {
               "id": "cidade-niteroi-geografo-P03",
               "factKey": "cidade-niteroi-F03",
-              "text": "Sua localização na baía influencia as conexões com municípios vizinhos.",
+              "text": "A baía organiza conexões entre municípios por vias rodoviárias e transporte aquaviário.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_NIT_HIST"
+                "SE_NIT_PMUS"
               ],
               "clueType": "territorio",
               "signalStrength": "abertura",
@@ -693,12 +700,12 @@
             {
               "id": "cidade-niteroi-geografo-P06",
               "factKey": "cidade-niteroi-F06",
-              "text": "A ligação rodoviária foi inaugurada em 1974.",
+              "text": "A ponte e as barcas fazem parte dos principais eixos de ligação metropolitana apontados no plano municipal de mobilidade.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_NIT_CIDADE"
+                "SE_NIT_PMUS"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -709,12 +716,12 @@
             {
               "id": "cidade-niteroi-geografo-P07",
               "factKey": "cidade-niteroi-F07",
-              "text": "A navegação por barcas também marcou a mobilidade entre as duas margens.",
+              "text": "No centro da cidade, o terminal de barcas se articula com o Terminal João Goulart.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_NIT_HIST"
+                "SE_NIT_PMUS"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -853,12 +860,12 @@
             {
               "id": "cidade-niteroi-geografo-P16",
               "factKey": "cidade-niteroi-F16",
-              "text": "Icaraí é um bairro do município.",
+              "text": "A prefeitura identifica o centro como área de integração metropolitana por suas conexões com outros municípios.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_NIT_HIST"
+                "SE_NIT_PMUS"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -869,12 +876,12 @@
             {
               "id": "cidade-niteroi-geografo-P17",
               "factKey": "cidade-niteroi-F17",
-              "text": "A urbanização do Campo de São Bento integra a história do bairro de Icaraí.",
+              "text": "O plano municipal descreve a área central como polo de atração de viagens, junto a importantes terminais de transporte.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_NIT_HIST"
+                "SE_NIT_PMUS"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -1018,7 +1025,8 @@
         "editorialNotes": [
           "A capital vizinha é pauta relacionada porém distinta; a população informada é municipal.",
           "Fonte institucional consultada; calibrar em partidas.",
-          "As datas históricas seguem o IBGE e divergem da página Visit Niterói; conferir os atos originais e revisar os demais campos e pistas antes da integração."
+          "As datas históricas seguem o IBGE e divergem da página Visit Niterói; conferir os atos originais e revisar os demais campos e pistas antes da integração.",
+          "Geógrafo inclui relações de mobilidade apoiadas no Plano de Mobilidade de Niterói. Verificar pistas e opções em partidas."
         ]
       },
       "review": {
