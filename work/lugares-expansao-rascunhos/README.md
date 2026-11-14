@@ -1,20 +1,26 @@
 # Rascunhos da expansão Lugares
 
-Checkpoint: 109 propostas únicas, 100 ainda não integradas ao banco de 96 lugares. Existem cópias originais e auditadas; não somá-las. A auditoria identificou alternativas ambíguas e pistas redundantes. Revisão de fontes, gabaritos, dificuldade e partidas permanece necessária.
+Checkpoint: 137 propostas únicas, 124 ainda não integradas ao banco de 100 lugares. Há cópias originais e auditadas: não somá-las. A auditoria encontrou alternativas ambíguas e pistas redundantes. Revisão de fontes, gabaritos, dificuldade e partidas permanece necessária.
 
-Brasil e Américas sem Brasil têm filtros e metas independentes. Quando usado, dado populacional exige fonte, ano e recorte. Rascunhos não estão publicados no jogo.
+Brasil e Américas sem Brasil têm filtros e metas independentes. Dados populacionais precisam de fonte, ano e recorte. Os rascunhos não estão publicados no jogo.
 
 Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 
 ## Destinos ainda não integrados
 
 - Aracaju
+- Arquipélago do Marajó
 - Bairro Histórico da Cidade Portuária de Valparaíso
 - Bairro Histórico de Colônia do Sacramento
 - Balneário Camboriú
+- Belo Horizonte
 - Blumenau
-- Boa Vista
+- Cabo Adare e Praia Ridley
+- Cabo Denison e Cabanas de Mawson
+- Cabo Evans e Cabana Terra Nova
 - Cabo Royds
+- Caldas Novas
+- Castelo de Himeji
 - Centro Arqueológico de Tiwanaku
 - Centro Histórico de Diamantina
 - Centro Histórico de Oeiras
@@ -29,15 +35,21 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Floresta Nacional do Tapajós
 - Fortaleza
 - Gramado
+- Ilha Robben
 - Ilha de Gorée
 - Independence Hall
 - Joinville
 - João Pessoa
 - Lapa
 - Linhas e Geoglifos de Nasca e Palpa
+- Londrina
 - Macapá
 - Maceió
+- Mar de Areia do Namibe
+- Maringá
 - Natal
+- Neko Harbour
+- Niterói
 - Palmas
 - Panamá Viejo e Distrito Histórico do Panamá
 - Parque Estadual Chandless
@@ -51,32 +63,36 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Parque Municipal do Itiquira
 - Parque Nacional Canaima
 - Parque Nacional Darién
+- Parque Nacional Everglades
 - Parque Nacional Gros Morne
 - Parque Nacional Ilha do Coco
+- Parque Nacional Impenetrável de Bwindi
 - Parque Nacional Los Glaciares
 - Parque Nacional Mesa Verde
 - Parque Nacional Montanhas do Tumucumaque
 - Parque Nacional Tikal
 - Parque Nacional Yosemite
+- Parque Nacional da Amazônia
+- Parque Nacional da Furna Feia
 - Parque Nacional da Lagoa do Peixe
 - Parque Nacional da Serra da Canastra
 - Parque Nacional da Serra de Itabaiana
 - Parque Nacional da Serra do Cipó
-- Parque Nacional da Serra do Divisor
 - Parque Nacional de Brasília
 - Parque Nacional de Ilha Grande
 - Parque Nacional de Komodo
 - Parque Nacional de Sete Cidades
 - Parque Nacional de São Joaquim
+- Parque Nacional de Virunga
 - Parque Nacional do Araguaia
-- Parque Nacional do Cabo Orange
 - Parque Nacional do Juruena
 - Parque Nacional do Pico da Neblina
 - Parque Nacional do Superagui
-- Parque Nacional do Viruá
 - Parque Nacional dos Campos Amazônicos
 - Parque Nacional dos Campos Gerais
 - Pelotas
+- Petrópolis
+- Pomerode
 - Porto Alegre
 - Porto Murtinho
 - Porto Velho
@@ -84,14 +100,18 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Recife
 - Reserva Biológica do Atol das Rocas
 - Reserva da Biosfera Sian Ka’an
+- Reserva da Biosfera da Borboleta-Monarca
 - Reserva de Desenvolvimento Sustentável Mamirauá
 - Reservas de Mata Atlântica da Costa do Descobrimento
 - Reservas de Mata Atlântica do Sudeste
+- Rio Amazonas (trecho brasileiro)
 - Rio Araguaia
 - Rio Branco
+- Rio Paraguai
 - Rio Parnaíba
 - Rio São Francisco
 - Rio Tocantins
+- Santa Maria
 - Santarém
 - Santos
 - Santuário do Bom Jesus de Matosinhos
@@ -101,8 +121,12 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - São Francisco do Sul
 - São Paulo
 - Sítio Arqueológico Cais do Valongo
+- Sítio Maia de Copán
 - Sítio Roberto Burle Marx
+- Tassili n’Ajjer
 - Teresina
+- Terraços de arroz das Cordilheiras das Filipinas
+- Território Indígena do Xingu
 - Trinidad e Vale dos Engenhos
 - Vila Bela da Santíssima Trindade
 - Vila Velha

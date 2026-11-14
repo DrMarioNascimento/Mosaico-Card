@@ -13,6 +13,13 @@
       "publisher": "Prefeitura Municipal de Boa Vista",
       "url": "https://boavista.rr.gov.br/index.php/noticias/2026/8/mes-do-patrimonio-cultural-conheca-alguns-dos-predios-historicos-de-boa-vista",
       "checkedAt": "2026-11-14"
+    },
+    "BOAVISTA_IBGE": {
+      "id": "BOAVISTA_IBGE",
+      "title": "Boa Vista (RR) — Cidades e Estados",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rr/boa-vista.html",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -99,57 +106,55 @@
         },
         {
           "id": "C2",
-          "label": "Traçado urbano do centro",
+          "label": "Traçado do núcleo central",
           "options": [
             {
               "id": "C2-O1",
-              "text": "Avenidas em leque a partir de uma praça"
+              "text": "Avenidas radiais em leque a partir de uma praça"
             },
             {
               "id": "C2-O2",
-              "text": "Quadras em tabuleiro a partir de um porto"
+              "text": "Quadras em malha ortogonal sem convergência central"
             },
             {
               "id": "C2-O3",
-              "text": "Avenidas paralelas a um istmo marítimo"
+              "text": "Avenida linear junto ao rio sem convergência central"
             },
             {
               "id": "C2-O4",
-              "text": "Ruas exclusivamente dispostas em ilhas"
+              "text": "Vielas de traçado irregular sem eixo central"
             }
           ],
           "answerId": "C2-O1",
-          "answerText": "Avenidas em leque a partir de uma praça",
+          "answerText": "Avenidas radiais em leque a partir de uma praça",
           "sources": [
-            "BOAVISTA_ENAT",
-            "BOAVISTA_PREF"
+            "BOAVISTA_ENAT"
           ]
         },
         {
           "id": "C3",
-          "label": "Estado brasileiro",
+          "label": "Em que ano a localidade se tornou município?",
           "options": [
             {
               "id": "C3-O1",
-              "text": "Roraima"
+              "text": "1890"
             },
             {
               "id": "C3-O2",
-              "text": "Amapá"
+              "text": "1887"
             },
             {
               "id": "C3-O3",
-              "text": "Acre"
+              "text": "1901"
             },
             {
               "id": "C3-O4",
-              "text": "Rondônia"
+              "text": "1943"
             }
           ],
           "answerId": "C3-O1",
-          "answerText": "Roraima",
+          "answerText": "1890",
           "sources": [
-            "BOAVISTA_ENAT",
             "BOAVISTA_PREF"
           ]
         },
@@ -198,8 +203,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -215,8 +220,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -232,8 +237,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -283,8 +288,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -293,7 +298,7 @@
               "factKey": "norte-boa-vista-F07",
               "text": "A cidade é sede de um estado que faz fronteira com outros países.",
               "relatedFields": [
-                "C3"
+                "C1"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
@@ -310,15 +315,15 @@
               "factKey": "norte-boa-vista-F08",
               "text": "É a capital de Roraima.",
               "relatedFields": [
-                "C3"
+                "C1"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -334,8 +339,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -351,8 +356,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -402,8 +407,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -453,8 +458,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -521,8 +526,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -548,15 +553,15 @@
               "factKey": "norte-boa-vista-F22",
               "text": "A localidade foi elevada a município em 1890.",
               "relatedFields": [
-                "C1"
+                "C3"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -597,17 +602,16 @@
             {
               "id": "norte-boa-vista-viajante-P25",
               "factKey": "norte-boa-vista-F25",
-              "text": "A praça central também fica próxima a uma catedral.",
+              "text": "O Censo de 2022 contou mais de 400 mil moradores no município.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "BOAVISTA_ENAT",
-                "BOAVISTA_PREF"
+                "BOAVISTA_IBGE"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             }
@@ -628,8 +632,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -645,8 +649,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -662,8 +666,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -713,8 +717,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -723,7 +727,7 @@
               "factKey": "norte-boa-vista-F07",
               "text": "A posição em estado fronteiriço insere a cidade em relações territoriais internacionais.",
               "relatedFields": [
-                "C3"
+                "C1"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
@@ -740,15 +744,15 @@
               "factKey": "norte-boa-vista-F08",
               "text": "Sedia o governo estadual de Roraima.",
               "relatedFields": [
-                "C3"
+                "C1"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -764,8 +768,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -781,8 +785,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -832,8 +836,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -883,8 +887,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -951,8 +955,8 @@
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -978,15 +982,15 @@
               "factKey": "norte-boa-vista-F22",
               "text": "A criação do município ocorreu em 9 de julho de 1890.",
               "relatedFields": [
-                "C1"
+                "C3"
               ],
               "sources": [
                 "BOAVISTA_ENAT",
                 "BOAVISTA_PREF"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1027,17 +1031,16 @@
             {
               "id": "norte-boa-vista-geografo-P25",
               "factKey": "norte-boa-vista-F25",
-              "text": "O entorno da praça central inclui equipamentos culturais e a catedral diocesana.",
+              "text": "O município registrou 413.486 habitantes no Censo 2022 do IBGE.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "BOAVISTA_ENAT",
-                "BOAVISTA_PREF"
+                "BOAVISTA_IBGE"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             }
@@ -1047,7 +1050,8 @@
       "reveal": {
         "canonicalSummary": "Capital de Roraima, às margens do rio Branco, conhecida pelo traçado radial de sua área central.",
         "editorialNotes": [
-          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas.",
+          "A marcação de força é editorial; a distribuição depende do motor e deve ser verificada em partidas."
         ]
       },
       "review": {

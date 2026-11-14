@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "SULSMFERRO": {
+      "id": "SULSMFERRO",
+      "title": "Patrimônio ferroviário municipal",
+      "publisher": "Prefeitura de Santa Maria",
+      "url": "https://www.santamaria.rs.gov.br/noticias/29672-santa-maria--o-patrimonio-ferroviario-que-impulsionou-desenvolvimento-do-coracao-rio-grande",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSMMUSEU": {
+      "id": "SULSMMUSEU",
+      "title": "Museu Gama d’Eça e Victor Bersani",
+      "publisher": "Prefeitura de Santa Maria",
+      "url": "https://www.santamaria.rs.gov.br/cultura/1540-museu-educativo-gama-d-eca",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSMIBGE": {
+      "id": "SULSMIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidadesat/painel/painel.php?codmun=431690",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSMIPHAN": {
+      "id": "SULSMIPHAN",
+      "title": "Patrimônio cultural ferroviário",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-preserva-estacoes-e-complexos-que-guardam-a-memoria-dos-trilhos-no-brasil",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-santa-maria-rs",
+      "placeId": "santa-maria-rs",
+      "title": "Santa Maria",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Santa Maria"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Pelotas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Passo Fundo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Bagé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Uruguaiana"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Santa Cruz do Sul"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Canoas"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cachoeira do Sul"
+            },
+            {
+              "id": "C1-O12",
+              "text": "São Leopoldo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Santa Maria",
+          "sources": [
+            "SULSMIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Transporte associado à história",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ferrovia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Navegação oceânica"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Teleférico urbano"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Metrô subterrâneo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ferrovia",
+          "sources": [
+            "SULSMFERRO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Conjunto ferroviário urbano",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Gare e Vila Belga"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Estação da Luz e galpões ferroviários"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Estação de Paranapiacaba e vila ferroviária"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Estação de São João del-Rei e oficinas ferroviárias"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Gare e Vila Belga",
+          "sources": [
+            "SULSMFERRO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULSMIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "santa-maria-rs-viajante-P01",
+              "factKey": "santa-maria-rs-viajante-F01",
+              "text": "A cidade fica no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P02",
+              "factKey": "santa-maria-rs-viajante-F02",
+              "text": "O município pertence ao Rio Grande do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P03",
+              "factKey": "santa-maria-rs-viajante-F03",
+              "text": "A história local tem forte ligação com a ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P04",
+              "factKey": "santa-maria-rs-viajante-F04",
+              "text": "A cidade já foi um importante encontro de linhas ferroviárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P05",
+              "factKey": "santa-maria-rs-viajante-F05",
+              "text": "A estação ferroviária é conhecida como Gare.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P06",
+              "factKey": "santa-maria-rs-viajante-F06",
+              "text": "A Gare fica na Avenida Rio Branco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P07",
+              "factKey": "santa-maria-rs-viajante-F07",
+              "text": "A Vila Belga integra a memória ferroviária local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P08",
+              "factKey": "santa-maria-rs-viajante-F08",
+              "text": "A chegada da ferrovia à cidade ocorreu em 1882.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P09",
+              "factKey": "santa-maria-rs-viajante-F09",
+              "text": "O transporte de cargas começou na década de 1880.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P10",
+              "factKey": "santa-maria-rs-viajante-F10",
+              "text": "A antiga estação tinha um prédio central de dois andares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P11",
+              "factKey": "santa-maria-rs-viajante-F11",
+              "text": "O conjunto ferroviário tem uma plataforma coberta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P12",
+              "factKey": "santa-maria-rs-viajante-F12",
+              "text": "Algumas partes da estação foram construídas em anos diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P13",
+              "factKey": "santa-maria-rs-viajante-F13",
+              "text": "A ferrovia ligava a cidade à capital gaúcha e à fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P14",
+              "factKey": "santa-maria-rs-viajante-F14",
+              "text": "A avenida que leva à estação reúne edifícios Art Déco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P15",
+              "factKey": "santa-maria-rs-viajante-F15",
+              "text": "O conjunto ferroviário recebeu proteção como patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P16",
+              "factKey": "santa-maria-rs-viajante-F16",
+              "text": "O Largo da Estação homenageia o Irmão Estanislau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P17",
+              "factKey": "santa-maria-rs-viajante-F17",
+              "text": "Ele participou da organização de escolas para famílias de ferroviários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P18",
+              "factKey": "santa-maria-rs-viajante-F18",
+              "text": "A região abriga uma universidade federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P19",
+              "factKey": "santa-maria-rs-viajante-F19",
+              "text": "O Museu Educativo Gama d’Eça guarda coleções científicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P20",
+              "factKey": "santa-maria-rs-viajante-F20",
+              "text": "O museu possui acervo de paleontologia e arqueologia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P21",
+              "factKey": "santa-maria-rs-viajante-F21",
+              "text": "O museu também conta aspectos da história da universidade local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P22",
+              "factKey": "santa-maria-rs-viajante-F22",
+              "text": "Um antigo museu local foi criado em 1913.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P23",
+              "factKey": "santa-maria-rs-viajante-F23",
+              "text": "Dois museus se uniram em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P24",
+              "factKey": "santa-maria-rs-viajante-F24",
+              "text": "Um antigo palacete passou a abrigar o acervo em 1985.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-viajante-P25",
+              "factKey": "santa-maria-rs-viajante-F25",
+              "text": "O patrimônio ferroviário inclui edificações de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "santa-maria-rs-geografo-P01",
+              "factKey": "santa-maria-rs-geografo-F01",
+              "text": "A posição central do município no estado favoreceu seu papel de entroncamento ferroviário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P02",
+              "factKey": "santa-maria-rs-geografo-F02",
+              "text": "Linhas de transporte conectavam o núcleo urbano à capital e às fronteiras estaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P03",
+              "factKey": "santa-maria-rs-geografo-F03",
+              "text": "Os trilhos chegaram à cidade em 1882.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P04",
+              "factKey": "santa-maria-rs-geografo-F04",
+              "text": "O transporte de cargas foi iniciado em 1885, segundo a prefeitura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P05",
+              "factKey": "santa-maria-rs-geografo-F05",
+              "text": "O transporte de passageiros é associado à inauguração de uma estação em 1895.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P06",
+              "factKey": "santa-maria-rs-geografo-F06",
+              "text": "A primeira área de operação ferroviária ficava perto do arroio Itaimbé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P07",
+              "factKey": "santa-maria-rs-geografo-F07",
+              "text": "A Avenida Rio Branco ligava a estação ao centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P08",
+              "factKey": "santa-maria-rs-geografo-F08",
+              "text": "Ao longo desse eixo há um conjunto de edificações Art Déco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P09",
+              "factKey": "santa-maria-rs-geografo-F09",
+              "text": "A Vila Belga integra a paisagem histórica ligada ao transporte ferroviário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P10",
+              "factKey": "santa-maria-rs-geografo-F10",
+              "text": "A instalação de uma empresa ferroviária belga influenciou a economia e a cultura locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P11",
+              "factKey": "santa-maria-rs-geografo-F11",
+              "text": "O prédio ferroviário reúne módulos construídos em diferentes momentos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P12",
+              "factKey": "santa-maria-rs-geografo-F12",
+              "text": "Uma estação de passageiros foi inaugurada no fim do século XIX, em 1899.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P13",
+              "factKey": "santa-maria-rs-geografo-F13",
+              "text": "Uma plataforma coberta facilitava embarque e desembarque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P14",
+              "factKey": "santa-maria-rs-geografo-F14",
+              "text": "Armazéns foram incorporados ao conjunto ao longo da história ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P15",
+              "factKey": "santa-maria-rs-geografo-F15",
+              "text": "A desativação da Gare ocorreu em 1980, conforme a documentação municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P16",
+              "factKey": "santa-maria-rs-geografo-F16",
+              "text": "O conjunto recebeu reconhecimento patrimonial municipal, estadual e nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P17",
+              "factKey": "santa-maria-rs-geografo-F17",
+              "text": "A proteção estadual da estação foi registrada no ano 2000.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P18",
+              "factKey": "santa-maria-rs-geografo-F18",
+              "text": "A proteção federal reconheceu o valor do patrimônio ferroviário em 2014.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P19",
+              "factKey": "santa-maria-rs-geografo-F19",
+              "text": "A rede ferroviária também se relacionou à formação de escolas para famílias de trabalhadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P20",
+              "factKey": "santa-maria-rs-geografo-F20",
+              "text": "O Irmão Estanislau identificou locais com demanda por escolas ao longo da malha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMFERRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P21",
+              "factKey": "santa-maria-rs-geografo-F21",
+              "text": "O Censo IBGE de 2022 registrou cerca de 272 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P22",
+              "factKey": "santa-maria-rs-geografo-F22",
+              "text": "A universidade federal local mantém acervos científicos ligados ao museu municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P23",
+              "factKey": "santa-maria-rs-geografo-F23",
+              "text": "Coleções de paleontologia, arqueologia e zoologia compõem o acervo museológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P24",
+              "factKey": "santa-maria-rs-geografo-F24",
+              "text": "A fusão de dois museus em 1981 reuniu histórias e coleções distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santa-maria-rs-geografo-P25",
+              "factKey": "santa-maria-rs-geografo-F25",
+              "text": "O uso cultural de antigas instalações permite relacionar preservação e memória ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSMIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade do centro do Rio Grande do Sul, marcada pelo entroncamento ferroviário, pela Gare e pela universidade federal.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

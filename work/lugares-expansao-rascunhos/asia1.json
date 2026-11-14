@@ -1,0 +1,986 @@
+{
+  "sources": {
+    "ASIA_IFUGAO_UNESCO": {
+      "id": "ASIA_IFUGAO_UNESCO",
+      "title": "Rice Terraces of the Philippine Cordilleras",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/722/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-terracos-ifugao",
+      "placeId": "terracos-ifugao",
+      "title": "Terraços de arroz das Cordilheiras das Filipinas",
+      "aliases": [
+        "Terraços de Ifugao"
+      ],
+      "answerType": "paisagem agrícola",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "PH"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem agrícola",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Terraços de arroz das Cordilheiras das Filipinas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Terraços de arroz de Honghe Hani"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Terraços de arroz de Longji"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Terraços de arroz de Mu Cang Chai"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Terraços de arroz de Sapa"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Terraços de arroz de Tegallalang"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Terraços de arroz de Jatiluwih"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Terraços de arroz da região de Chiang Mai"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Terraços de arroz das Cordilheiras das Filipinas",
+          "sources": [
+            "ASIA_IFUGAO_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Povo associado à paisagem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ifugao"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Hani"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Balineses"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Khmer"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ifugao",
+          "sources": [
+            "ASIA_IFUGAO_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estrutura tradicional que sustenta os terraços",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Muros de pedra ou terra"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Muros de tijolos cozidos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Paredes de madeira trançada"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Paredes de blocos de concreto"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Muros de pedra ou terra",
+          "sources": [
+            "ASIA_IFUGAO_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ilha onde se encontra o conjunto",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Luzon"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bali"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Java"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Honshu"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Luzon",
+          "sources": [
+            "ASIA_IFUGAO_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "terracos-ifugao-viajante-P01",
+              "factKey": "terracos-ifugao-F01",
+              "text": "Este lugar é uma paisagem agrícola de montanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P02",
+              "factKey": "terracos-ifugao-F02",
+              "text": "Os campos de cultivo acompanham encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P03",
+              "factKey": "terracos-ifugao-F03",
+              "text": "Os terrenos formam degraus ou terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P04",
+              "factKey": "terracos-ifugao-F04",
+              "text": "O principal cultivo associado é o arroz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P05",
+              "factKey": "terracos-ifugao-F05",
+              "text": "A paisagem fica em um arquipélago asiático.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P06",
+              "factKey": "terracos-ifugao-F06",
+              "text": "Encontra-se na ilha de Luzon.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P07",
+              "factKey": "terracos-ifugao-F07",
+              "text": "O povo Ifugao mantém conhecimentos ligados a esses campos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P08",
+              "factKey": "terracos-ifugao-F08",
+              "text": "As técnicas são transmitidas entre gerações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P09",
+              "factKey": "terracos-ifugao-F09",
+              "text": "A água chega às plantações por sistemas de irrigação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P10",
+              "factKey": "terracos-ifugao-F10",
+              "text": "As florestas das partes altas ajudam a fornecer água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P11",
+              "factKey": "terracos-ifugao-F11",
+              "text": "Muros de pedra ou terra sustentam os terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P12",
+              "factKey": "terracos-ifugao-F12",
+              "text": "O trabalho das comunidades ajuda a conservar os campos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P13",
+              "factKey": "terracos-ifugao-F13",
+              "text": "Existem aldeias próximas aos campos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P14",
+              "factKey": "terracos-ifugao-F14",
+              "text": "O conjunto reconhecido reúne cinco grupos de terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P15",
+              "factKey": "terracos-ifugao-F15",
+              "text": "Esses grupos se distribuem por quatro municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P16",
+              "factKey": "terracos-ifugao-F16",
+              "text": "Um dos grupos tem forma que lembra um anfiteatro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P17",
+              "factKey": "terracos-ifugao-F17",
+              "text": "Esse grupo chama-se Batad.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P18",
+              "factKey": "terracos-ifugao-F18",
+              "text": "Outro grupo reconhecido chama-se Bangaan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P19",
+              "factKey": "terracos-ifugao-F19",
+              "text": "Batad e Bangaan ficam no município de Banaue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P20",
+              "factKey": "terracos-ifugao-F20",
+              "text": "Mayoyao é outro conjunto de terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P21",
+              "factKey": "terracos-ifugao-F21",
+              "text": "Em Mayoyao há casas e celeiros tradicionais entre os campos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P22",
+              "factKey": "terracos-ifugao-F22",
+              "text": "O conjunto de Nagacadan é atravessado por um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P23",
+              "factKey": "terracos-ifugao-F23",
+              "text": "Hungduan é outro dos grupos reconhecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P24",
+              "factKey": "terracos-ifugao-F24",
+              "text": "A UNESCO reconheceu a paisagem em 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-viajante-P25",
+              "factKey": "terracos-ifugao-F25",
+              "text": "A paisagem continua sendo cultivada e cuidada pelas comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "terracos-ifugao-geografo-P01",
+              "factKey": "terracos-ifugao-F01",
+              "text": "A unidade é uma paisagem cultural agrícola viva em ambiente montanhoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P02",
+              "factKey": "terracos-ifugao-F02",
+              "text": "Os campos em degraus acompanham as curvas naturais das encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P03",
+              "factKey": "terracos-ifugao-F03",
+              "text": "O terraceamento permite organizar superfícies de cultivo em relevo íngreme.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P04",
+              "factKey": "terracos-ifugao-F04",
+              "text": "O sistema agrícola é voltado ao arroz irrigado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P05",
+              "factKey": "terracos-ifugao-F05",
+              "text": "A paisagem situa-se no arquipélago das Filipinas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P06",
+              "factKey": "terracos-ifugao-F06",
+              "text": "Os cinco conjuntos reconhecidos localizam-se no norte da ilha de Luzon.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P07",
+              "factKey": "terracos-ifugao-F07",
+              "text": "O povo Ifugao desenvolveu e mantém os terraços reconhecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P08",
+              "factKey": "terracos-ifugao-F08",
+              "text": "A transmissão intergeracional de conhecimentos sustenta o sistema produtivo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P09",
+              "factKey": "terracos-ifugao-F09",
+              "text": "Canais e estruturas de irrigação conduzem água entre áreas de cultivo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P10",
+              "factKey": "terracos-ifugao-F10",
+              "text": "As florestas das partes altas fazem parte da proteção das fontes de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P11",
+              "factKey": "terracos-ifugao-F11",
+              "text": "Muros de pedra ou terra estabilizam os campos em encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P12",
+              "factKey": "terracos-ifugao-F12",
+              "text": "A manutenção envolve trabalho comunitário e conservação do solo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P13",
+              "factKey": "terracos-ifugao-F13",
+              "text": "A paisagem inclui aldeias e áreas florestais, além das plantações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P14",
+              "factKey": "terracos-ifugao-F14",
+              "text": "O bem inscrito compreende cinco conjuntos territoriais separados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P15",
+              "factKey": "terracos-ifugao-F15",
+              "text": "Os cinco conjuntos distribuem-se por quatro municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P16",
+              "factKey": "terracos-ifugao-F16",
+              "text": "Em Batad os terraços formam um anfiteatro com aldeia na base.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P17",
+              "factKey": "terracos-ifugao-F17",
+              "text": "A configuração semicircular de Batad acompanha o relevo da encosta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P18",
+              "factKey": "terracos-ifugao-F18",
+              "text": "Bangaan combina terraços com uma aldeia tradicional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P19",
+              "factKey": "terracos-ifugao-F19",
+              "text": "Batad e Bangaan pertencem ao município de Banaue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P20",
+              "factKey": "terracos-ifugao-F20",
+              "text": "Os campos centrais de Mayoyao incluem casas e celeiros tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P21",
+              "factKey": "terracos-ifugao-F21",
+              "text": "Os edifícios agrícolas locais incluem casas chamadas bale e celeiros chamados alang.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P22",
+              "factKey": "terracos-ifugao-F22",
+              "text": "Em Nagacadan um rio divide duas fileiras ascendentes de terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P23",
+              "factKey": "terracos-ifugao-F23",
+              "text": "Hungduan é outro dos cinco conjuntos inscritos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P24",
+              "factKey": "terracos-ifugao-F24",
+              "text": "A UNESCO inscreveu a paisagem na Lista do Patrimônio Mundial em 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terracos-ifugao-geografo-P25",
+              "factKey": "terracos-ifugao-F25",
+              "text": "Migração, mudanças no clima e no trabalho agrícola desafiam a continuidade da manutenção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_IFUGAO_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Os terraços das Cordilheiras das Filipinas formam uma paisagem cultural viva mantida pelo povo Ifugao, no norte de Luzon.",
+        "editorialNotes": [
+          "A carta trata do conjunto inscrito de cinco grupos, e não de um único terraço. Fonte UNESCO vinculada; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

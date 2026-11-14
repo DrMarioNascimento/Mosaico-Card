@@ -1,0 +1,1041 @@
+{
+  "sources": {
+    "SE_BH_IBGE": {
+      "id": "SE_BH_IBGE",
+      "title": "Belo Horizonte (MG): Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/mg/belo-horizonte",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_PLANO": {
+      "id": "SE_BH_PLANO",
+      "title": "Breve histórico e planejamento urbano",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/fundacao-municipal-de-cultura/2022/Dossie_amazonas_1927.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_ACERVO": {
+      "id": "SE_BH_ACERVO",
+      "title": "Comissão Construtora da Nova Capital",
+      "publisher": "Arquivo Público da Cidade de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/arquivo-publico/acervo/comissao",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_TUR": {
+      "id": "SE_BH_TUR",
+      "title": "Pesquisa de turismo da Pampulha",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/noticias/forca-turistica-da-pampulha-e-foco-de-pesquisa-sobre-perfil-e-habitos-dos-visitantes-0",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_MERC": {
+      "id": "SE_BH_MERC",
+      "title": "História da fiscalização de controle urbanístico",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/politica-urbana/fiscalizacao/historia",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_MUSEU": {
+      "id": "SE_BH_MUSEU",
+      "title": "Museu Histórico Abílio Barreto",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-belo-horizonte",
+      "placeId": "cidade-belo-horizonte",
+      "title": "Belo Horizonte",
+      "aliases": [
+        "Cidade de Belo Horizonte"
+      ],
+      "answerType": "capital",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio de Janeiro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Belo Horizonte",
+          "sources": [
+            "SE_BH_PLANO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Arraial que antecedeu a cidade planejada",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Curral del Rei"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Campininha das Flores"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Nossa Senhora da Luz dos Pinhais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Vila Rica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Curral del Rei",
+          "sources": [
+            "SE_BH_PLANO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Chefe da comissão construtora inicial",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Aarão Reis"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Attílio Corrêa Lima"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lúcio Costa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Francisco Bicalho"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Aarão Reis",
+          "sources": [
+            "SE_BH_ACERVO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Via que delimitava a área central do plano",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Avenida do Contorno"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Avenida Paulista"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Avenida Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Avenida Afonso Pena"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Avenida do Contorno",
+          "sources": [
+            "SE_BH_PLANO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-belo-horizonte-viajante-P01",
+              "factKey": "cidade-belo-horizonte-F01",
+              "text": "É uma capital estadual brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P02",
+              "factKey": "cidade-belo-horizonte-F02",
+              "text": "O destino fica no Sudeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P03",
+              "factKey": "cidade-belo-horizonte-F03",
+              "text": "Seu território foi planejado para receber um governo estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P04",
+              "factKey": "cidade-belo-horizonte-F04",
+              "text": "A cidade é capital de Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P05",
+              "factKey": "cidade-belo-horizonte-F05",
+              "text": "Antes dela, Ouro Preto tinha sido a capital do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P06",
+              "factKey": "cidade-belo-horizonte-F06",
+              "text": "Sua construção como nova capital começou na década de 1890.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P07",
+              "factKey": "cidade-belo-horizonte-F07",
+              "text": "A cidade foi inaugurada em 1897.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P08",
+              "factKey": "cidade-belo-horizonte-F08",
+              "text": "Um antigo arraial chamado Curral del Rei ocupava a área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P09",
+              "factKey": "cidade-belo-horizonte-F09",
+              "text": "Uma comissão foi criada para planejar e construir a nova capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P10",
+              "factKey": "cidade-belo-horizonte-F10",
+              "text": "O engenheiro Aarão Reis chefiou essa comissão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P11",
+              "factKey": "cidade-belo-horizonte-F11",
+              "text": "O projeto inicial incluiu ruas e avenidas largas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P12",
+              "factKey": "cidade-belo-horizonte-F12",
+              "text": "Algumas avenidas cruzam a malha urbana em diagonal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P13",
+              "factKey": "cidade-belo-horizonte-F13",
+              "text": "Uma avenida chamada Contorno marcava a área central planejada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P14",
+              "factKey": "cidade-belo-horizonte-F14",
+              "text": "O plano também previa uma zona fora desse limite.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P15",
+              "factKey": "cidade-belo-horizonte-F15",
+              "text": "A cidade tem uma praça chamada Liberdade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P16",
+              "factKey": "cidade-belo-horizonte-F16",
+              "text": "Na região da Pampulha há uma lagoa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P17",
+              "factKey": "cidade-belo-horizonte-F17",
+              "text": "A região da lagoa reúne edifícios de arquitetura moderna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P18",
+              "factKey": "cidade-belo-horizonte-F18",
+              "text": "O estádio Mineirão fica na região da Pampulha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P19",
+              "factKey": "cidade-belo-horizonte-F19",
+              "text": "A Igreja de São Francisco integra o conjunto da Pampulha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P20",
+              "factKey": "cidade-belo-horizonte-F20",
+              "text": "A cidade conta com o Mercado Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P21",
+              "factKey": "cidade-belo-horizonte-F21",
+              "text": "A Praça da Estação está ligada à história da ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P22",
+              "factKey": "cidade-belo-horizonte-F22",
+              "text": "Uma antiga estação ferroviária foi inaugurada em 1898.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P23",
+              "factKey": "cidade-belo-horizonte-F23",
+              "text": "O prédio da Estação Central foi inaugurado em 1922.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P24",
+              "factKey": "cidade-belo-horizonte-F24",
+              "text": "O Museu Histórico Abílio Barreto guarda referências do antigo arraial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-viajante-P25",
+              "factKey": "cidade-belo-horizonte-F25",
+              "text": "O município tinha mais de dois milhões de habitantes no Censo 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-belo-horizonte-geografo-P01",
+              "factKey": "cidade-belo-horizonte-F01",
+              "text": "O destino é uma capital estadual da rede urbana brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P02",
+              "factKey": "cidade-belo-horizonte-F02",
+              "text": "A cidade está situada no Sudeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P03",
+              "factKey": "cidade-belo-horizonte-F03",
+              "text": "Sua implantação foi planejada para receber funções político-administrativas estaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P04",
+              "factKey": "cidade-belo-horizonte-F04",
+              "text": "A unidade da federação da qual é sede é Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P05",
+              "factKey": "cidade-belo-horizonte-F05",
+              "text": "A transferência da capital substituiu Ouro Preto como sede administrativa estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P06",
+              "factKey": "cidade-belo-horizonte-F06",
+              "text": "A Comissão Construtora atuou no planejamento e na construção entre 1894 e 1897.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P07",
+              "factKey": "cidade-belo-horizonte-F07",
+              "text": "A inauguração da nova capital ocorreu em 1897.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P08",
+              "factKey": "cidade-belo-horizonte-F08",
+              "text": "O projeto foi implantado sobre a área do antigo arraial do Curral del Rei.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P09",
+              "factKey": "cidade-belo-horizonte-F09",
+              "text": "A construção da nova capital alterou profundamente a paisagem e a ocupação preexistentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P10",
+              "factKey": "cidade-belo-horizonte-F10",
+              "text": "O engenheiro Aarão Reis chefiou a equipe de planejamento inicial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_ACERVO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P11",
+              "factKey": "cidade-belo-horizonte-F11",
+              "text": "O plano articulou ruas regulares e avenidas de maior largura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P12",
+              "factKey": "cidade-belo-horizonte-F12",
+              "text": "Avenidas diagonais cruzavam a malha de quarteirões regulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P13",
+              "factKey": "cidade-belo-horizonte-F13",
+              "text": "A Avenida do Contorno delimitava a área central da planta original.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P14",
+              "factKey": "cidade-belo-horizonte-F14",
+              "text": "As zonas urbana e suburbana foram planejadas com diferentes níveis iniciais de infraestrutura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P15",
+              "factKey": "cidade-belo-horizonte-F15",
+              "text": "A Praça da Liberdade é uma referência histórica e cultural da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P16",
+              "factKey": "cidade-belo-horizonte-F16",
+              "text": "A Lagoa da Pampulha estrutura um dos setores de lazer da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P17",
+              "factKey": "cidade-belo-horizonte-F17",
+              "text": "A região da lagoa inclui um conjunto arquitetônico moderno tombado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P18",
+              "factKey": "cidade-belo-horizonte-F18",
+              "text": "O estádio Mineirão é uma instalação esportiva situada na região da Pampulha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P19",
+              "factKey": "cidade-belo-horizonte-F19",
+              "text": "A Igreja de São Francisco de Assis integra o conjunto arquitetônico da lagoa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P20",
+              "factKey": "cidade-belo-horizonte-F20",
+              "text": "O Mercado Central é um equipamento comercial e turístico da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P21",
+              "factKey": "cidade-belo-horizonte-F21",
+              "text": "A Praça da Estação marca a relação do centro urbano com a ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P22",
+              "factKey": "cidade-belo-horizonte-F22",
+              "text": "Uma estação ferroviária da nova capital foi inaugurada em 1898.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P23",
+              "factKey": "cidade-belo-horizonte-F23",
+              "text": "O edifício atual da Estação Central foi inaugurado em 1922, substituindo a estação anterior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MERC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P24",
+              "factKey": "cidade-belo-horizonte-F24",
+              "text": "O Museu Histórico Abílio Barreto preserva referências materiais do arraial preexistente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-belo-horizonte-geografo-P25",
+              "factKey": "cidade-belo-horizonte-F25",
+              "text": "O Censo 2022 do IBGE registrou 2.315.560 habitantes no município, sem somar cidades vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_BH_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital mineira planejada no final do século XIX, implantada na área do antigo arraial do Curral del Rei.",
+        "editorialNotes": [
+          "A cidade e o Conjunto Moderno da Pampulha são recortes diferentes mas relacionados.",
+          "População se refere ao município em 2022.",
+          "Fontes oficiais consultadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

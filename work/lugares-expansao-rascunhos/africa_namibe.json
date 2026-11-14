@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "NAMIBE_UNESCO": {
+      "id": "NAMIBE_UNESCO",
+      "title": "Namib Sand Sea",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1430/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-mar-areia-namibe",
+      "placeId": "mar-areia-namibe",
+      "title": "Mar de Areia do Namibe",
+      "aliases": [
+        "Namibe"
+      ],
+      "answerType": "deserto costeiro e campo de dunas",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "NA"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem árida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Mar de Areia do Namibe"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Deserto do Saara"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Deserto do Kalahari"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Deserto do Atacama"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Deserto do Gobi"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Deserto da Arábia"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Grande Deserto Arenoso"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Deserto de Simpson"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Erg Chebbi"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Deserto de Mojave"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Deserto de Karakum"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Mar de Areia do Namibe",
+          "sources": [
+            "NAMIBE_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Fonte de umidade destacada pela UNESCO",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Nevoeiro costeiro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Chuvas orográficas regulares"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lençóis freáticos superficiais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cursos fluviais perenes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Nevoeiro costeiro",
+          "sources": [
+            "NAMIBE_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Oceano adjacente",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Atlântico Sul"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Índico Norte"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pacífico Sul"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mar Mediterrâneo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Atlântico Sul",
+          "sources": [
+            "NAMIBE_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Namíbia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Botsuana"
+            },
+            {
+              "id": "C4-O3",
+              "text": "África do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Angola"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Namíbia",
+          "sources": [
+            "NAMIBE_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "mar-areia-namibe-viajante-P01",
+              "factKey": "mar-areia-namibe-F01",
+              "text": "O destino é uma grande paisagem de dunas na África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P02",
+              "factKey": "mar-areia-namibe-F02",
+              "text": "Fica na Namíbia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P03",
+              "factKey": "mar-areia-namibe-F03",
+              "text": "A paisagem está junto ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P04",
+              "factKey": "mar-areia-namibe-F04",
+              "text": "É uma área de clima desértico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P05",
+              "factKey": "mar-areia-namibe-F05",
+              "text": "O nevoeiro costeiro é importante para a vida local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P06",
+              "factKey": "mar-areia-namibe-F06",
+              "text": "Há extensos campos de areia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P07",
+              "factKey": "mar-areia-namibe-F07",
+              "text": "O vento ajuda a movimentar a areia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P08",
+              "factKey": "mar-areia-namibe-F08",
+              "text": "As formas das dunas mudam com o tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P09",
+              "factKey": "mar-areia-namibe-F09",
+              "text": "Existem dunas mais antigas e dunas mais recentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P10",
+              "factKey": "mar-areia-namibe-F10",
+              "text": "Parte da areia veio do interior do continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P11",
+              "factKey": "mar-areia-namibe-F11",
+              "text": "Rios ajudam a transportar sedimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P12",
+              "factKey": "mar-areia-namibe-F12",
+              "text": "Correntes oceânicas também participam do transporte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P13",
+              "factKey": "mar-areia-namibe-F13",
+              "text": "A paisagem inclui planícies de cascalho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P14",
+              "factKey": "mar-areia-namibe-F14",
+              "text": "Há também colinas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P15",
+              "factKey": "mar-areia-namibe-F15",
+              "text": "Algumas elevações isoladas surgem no mar de areia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P16",
+              "factKey": "mar-areia-namibe-F16",
+              "text": "Há rios que só correm por algum tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P17",
+              "factKey": "mar-areia-namibe-F17",
+              "text": "Uma lagoa costeira integra o ambiente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P18",
+              "factKey": "mar-areia-namibe-F18",
+              "text": "Animais locais apresentam adaptações a pouca água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P19",
+              "factKey": "mar-areia-namibe-F19",
+              "text": "Alguns invertebrados vivem entre as dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P20",
+              "factKey": "mar-areia-namibe-F20",
+              "text": "Há répteis adaptados à areia do deserto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P21",
+              "factKey": "mar-areia-namibe-F21",
+              "text": "A área também abriga mamíferos adaptados ao deserto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P22",
+              "factKey": "mar-areia-namibe-F22",
+              "text": "Há espécies encontradas apenas em áreas restritas da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P23",
+              "factKey": "mar-areia-namibe-F23",
+              "text": "O sítio fica dentro de um parque nacional namibiano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P24",
+              "factKey": "mar-areia-namibe-F24",
+              "text": "A UNESCO o reconheceu como Patrimônio Mundial em 2013.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-viajante-P25",
+              "factKey": "mar-areia-namibe-F25",
+              "text": "A área protegida tem mais de três milhões de hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "mar-areia-namibe-geografo-P01",
+              "factKey": "mar-areia-namibe-F01",
+              "text": "A carta representa um campo de dunas costeiro no continente africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P02",
+              "factKey": "mar-areia-namibe-F02",
+              "text": "O bem protegido situa-se no território namibiano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P03",
+              "factKey": "mar-areia-namibe-F03",
+              "text": "O campo de dunas acompanha uma costa árida do Atlântico Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P04",
+              "factKey": "mar-areia-namibe-F04",
+              "text": "A região apresenta condições hiperáridas e comunidades adaptadas à escassez de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P05",
+              "factKey": "mar-areia-namibe-F05",
+              "text": "O nevoeiro funciona como fonte principal de água para muitos organismos do sistema dunar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P06",
+              "factKey": "mar-areia-namibe-F06",
+              "text": "Um conjunto de campos de dunas móveis domina parte da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P07",
+              "factKey": "mar-areia-namibe-F07",
+              "text": "Processos eólicos transportam e depositam areia, alterando as dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P08",
+              "factKey": "mar-areia-namibe-F08",
+              "text": "Mudanças diárias e sazonais nos ventos contribuem para a dinâmica das dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P09",
+              "factKey": "mar-areia-namibe-F09",
+              "text": "Um sistema arenoso antigo semiconsolidado é recoberto por dunas mais jovens e ativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P10",
+              "factKey": "mar-areia-namibe-F10",
+              "text": "Sedimentos percorreram grandes distâncias entre o interior africano e a costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P11",
+              "factKey": "mar-areia-namibe-F11",
+              "text": "A erosão e o transporte fluvial participam do fornecimento de sedimentos ao sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P12",
+              "factKey": "mar-areia-namibe-F12",
+              "text": "As correntes marinhas integram o percurso dos sedimentos antes da ação eólica costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P13",
+              "factKey": "mar-areia-namibe-F13",
+              "text": "Planícies de cascalho compõem o mosaico geomorfológico além das dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P14",
+              "factKey": "mar-areia-namibe-F14",
+              "text": "Relevos rochosos aparecem entre as formas associadas ao campo de areia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P15",
+              "factKey": "mar-areia-namibe-F15",
+              "text": "Inselbergs são elevações rochosas isoladas cercadas por áreas arenosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P16",
+              "factKey": "mar-areia-namibe-F16",
+              "text": "Cursos efêmeros surgem na paisagem em resposta a episódios de chuva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P17",
+              "factKey": "mar-areia-namibe-F17",
+              "text": "Uma laguna costeira é um dos componentes naturais protegidos no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P18",
+              "factKey": "mar-areia-namibe-F18",
+              "text": "A seleção de características comportamentais e fisiológicas permite a vida no ambiente hiperárido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P19",
+              "factKey": "mar-areia-namibe-F19",
+              "text": "Invertebrados ocupam micro-habitats móveis criados pela dinâmica da areia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P20",
+              "factKey": "mar-areia-namibe-F20",
+              "text": "Répteis da região apresentam adaptações para viver em substratos arenosos móveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P21",
+              "factKey": "mar-areia-namibe-F21",
+              "text": "Mamíferos integram comunidades especializadas que exploram os micro-habitats dunares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P22",
+              "factKey": "mar-areia-namibe-F22",
+              "text": "A região contém espécies endêmicas com distribuição geográfica restrita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P23",
+              "factKey": "mar-areia-namibe-F23",
+              "text": "O bem está inteiramente incluído no Parque Nacional Namib-Naukluft.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P24",
+              "factKey": "mar-areia-namibe-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 2013.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mar-areia-namibe-geografo-P25",
+              "factKey": "mar-areia-namibe-F25",
+              "text": "A área inscrita alcança cerca de 3.077.700 hectares, segundo a UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NAMIBE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Campo de dunas costeiras na Namíbia, influenciado por nevoeiros e pelo transporte de sedimentos.",
+        "editorialNotes": [
+          "A carta delimita o bem UNESCO dentro da Namíbia, e não o deserto inteiro.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

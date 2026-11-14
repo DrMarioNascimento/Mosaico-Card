@@ -1,0 +1,1190 @@
+{
+  "sources": {
+    "CENTRO_RPA_ANA": {
+      "id": "CENTRO_RPA_ANA",
+      "title": "Características da região hidrográfica",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/diretoria-colegiada-da-ana-aprova-declaracao-de-escassez-quantitativa-dos-recursos-hidricos-da-regiao-hidrografica-do-paraguai",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_RPA_DNIT": {
+      "id": "CENTRO_RPA_DNIT",
+      "title": "Hidrovia e rede de transportes",
+      "publisher": "DNIT",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/antiga-daq/hidrovia-do-paraguai",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_RPA_SGB": {
+      "id": "CENTRO_RPA_SGB",
+      "title": "Pulso de inundação da bacia hidrográfica",
+      "publisher": "Serviço Geológico do Brasil",
+      "url": "https://www.sgb.gov.br/sace/boletins/Paraguai/20200821_07-20200824%20-%20114824.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_RPA_ANA2": {
+      "id": "CENTRO_RPA_ANA2",
+      "title": "Região hidrográfica e gestão das águas",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-paraguai",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-rio-paraguai",
+      "placeId": "rio-paraguai",
+      "title": "Rio Paraguai",
+      "aliases": [
+        "Paraguai"
+      ],
+      "answerType": "rio sul-americano",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR",
+          "BO",
+          "PY",
+          "AR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Rio sul-americano",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio Uruguai"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Madeira"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Rio Xingu"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Rio Juruena"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Negro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio Paraguai",
+          "sources": [
+            "CENTRO_RPA_ANA",
+            "CENTRO_RPA_DNIT",
+            "CENTRO_RPA_SGB",
+            "CENTRO_RPA_ANA2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio em que deságua",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Amazonas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Paraná",
+          "sources": [
+            "CENTRO_RPA_ANA",
+            "CENTRO_RPA_DNIT",
+            "CENTRO_RPA_SGB",
+            "CENTRO_RPA_ANA2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Planície alagável associada",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pantanal"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Delta do Parnaíba"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Marajó"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Planície dos Lençóis Maranhenses"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pantanal",
+          "sources": [
+            "CENTRO_RPA_ANA",
+            "CENTRO_RPA_DNIT",
+            "CENTRO_RPA_SGB",
+            "CENTRO_RPA_ANA2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Serra das nascentes",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Serra dos Parecis"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Serra do Mar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Serra da Mantiqueira"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Serra dos Órgãos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Serra dos Parecis",
+          "sources": [
+            "CENTRO_RPA_ANA",
+            "CENTRO_RPA_DNIT",
+            "CENTRO_RPA_SGB",
+            "CENTRO_RPA_ANA2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-paraguai-viajante-P01",
+              "factKey": "rio-paraguai-F01",
+              "text": "Este destino é um rio sul-americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P02",
+              "factKey": "rio-paraguai-F02",
+              "text": "Sua nascente fica no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P03",
+              "factKey": "rio-paraguai-F03",
+              "text": "Nasce em Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P04",
+              "factKey": "rio-paraguai-F04",
+              "text": "A serra das nascentes é chamada Parecis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P05",
+              "factKey": "rio-paraguai-F05",
+              "text": "Parte do curso segue pelo Centro-Oeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P06",
+              "factKey": "rio-paraguai-F06",
+              "text": "Sua água atravessa uma grande planície alagável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P07",
+              "factKey": "rio-paraguai-F07",
+              "text": "Essa planície é conhecida como Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P08",
+              "factKey": "rio-paraguai-F08",
+              "text": "A vazão varia ao longo das estações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P09",
+              "factKey": "rio-paraguai-F09",
+              "text": "O regime de cheias transforma a paisagem da planície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P10",
+              "factKey": "rio-paraguai-F10",
+              "text": "O rio também participa de fronteiras internacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P11",
+              "factKey": "rio-paraguai-F11",
+              "text": "Em parte do percurso forma divisa com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P12",
+              "factKey": "rio-paraguai-F12",
+              "text": "Sua bacia envolve mais de um país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P13",
+              "factKey": "rio-paraguai-F13",
+              "text": "Ao final do percurso encontra outro grande rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P14",
+              "factKey": "rio-paraguai-F14",
+              "text": "O rio que recebe suas águas é o Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P15",
+              "factKey": "rio-paraguai-F15",
+              "text": "A navegação faz parte dos usos desse curso de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P16",
+              "factKey": "rio-paraguai-F16",
+              "text": "Embarcações transportam cargas pela hidrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P17",
+              "factKey": "rio-paraguai-F17",
+              "text": "Minérios e produtos agrícolas estão entre as cargas transportadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P18",
+              "factKey": "rio-paraguai-F18",
+              "text": "A cidade de Cáceres está ligada à hidrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P19",
+              "factKey": "rio-paraguai-F19",
+              "text": "Corumbá é outra cidade ligada à navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P20",
+              "factKey": "rio-paraguai-F20",
+              "text": "Porto Murtinho está na área de influência da hidrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P21",
+              "factKey": "rio-paraguai-F21",
+              "text": "Os rios Cuiabá e São Lourenço compõem sua rede hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P22",
+              "factKey": "rio-paraguai-F22",
+              "text": "O Rio Taquari integra a bacia regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P23",
+              "factKey": "rio-paraguai-F23",
+              "text": "O Rio Miranda é outro curso de água associado à bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P24",
+              "factKey": "rio-paraguai-F24",
+              "text": "Erosão e assoreamento são preocupações de gestão das águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-viajante-P25",
+              "factKey": "rio-paraguai-F25",
+              "text": "A qualidade da água é uma das questões ambientais da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-paraguai-geografo-P01",
+              "factKey": "rio-paraguai-F01",
+              "text": "O objeto é um curso de água transfronteiriço da América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P02",
+              "factKey": "rio-paraguai-F02",
+              "text": "Suas cabeceiras situam-se no território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P03",
+              "factKey": "rio-paraguai-F03",
+              "text": "A nascente localiza-se no estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P04",
+              "factKey": "rio-paraguai-F04",
+              "text": "A Serra dos Parecis compõe a região de suas cabeceiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P05",
+              "factKey": "rio-paraguai-F05",
+              "text": "O trecho brasileiro está associado ao Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P06",
+              "factKey": "rio-paraguai-F06",
+              "text": "O rio atua como eixo de drenagem da planície pantaneira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P07",
+              "factKey": "rio-paraguai-F07",
+              "text": "O Pantanal integra a sua bacia hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P08",
+              "factKey": "rio-paraguai-F08",
+              "text": "A alternância sazonal dos níveis de água condiciona ambientes ribeirinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P09",
+              "factKey": "rio-paraguai-F09",
+              "text": "O pulso de inundação influencia os ecossistemas e as atividades econômicas da planície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P10",
+              "factKey": "rio-paraguai-F10",
+              "text": "O curso participa da delimitação de fronteiras entre países.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P11",
+              "factKey": "rio-paraguai-F11",
+              "text": "Um dos trechos fronteiriços separa o Brasil da Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P12",
+              "factKey": "rio-paraguai-F12",
+              "text": "A bacia ultrapassa o território nacional e exige articulação entre países.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P13",
+              "factKey": "rio-paraguai-F13",
+              "text": "Na foz o curso se une a outro rio da bacia do Prata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P14",
+              "factKey": "rio-paraguai-F14",
+              "text": "O rio receptor de suas águas é o Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P15",
+              "factKey": "rio-paraguai-F15",
+              "text": "A hidrovia associa circulação fluvial e integração econômica regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P16",
+              "factKey": "rio-paraguai-F16",
+              "text": "As condições de navegação variam conforme as características de cada trecho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P17",
+              "factKey": "rio-paraguai-F17",
+              "text": "Minérios e produtos agropecuários integram a movimentação de cargas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P18",
+              "factKey": "rio-paraguai-F18",
+              "text": "Cáceres é uma das cidades de influência da hidrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P19",
+              "factKey": "rio-paraguai-F19",
+              "text": "Corumbá mantém relação histórica com o transporte fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P20",
+              "factKey": "rio-paraguai-F20",
+              "text": "Porto Murtinho é outra cidade vinculada à navegação regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P21",
+              "factKey": "rio-paraguai-F21",
+              "text": "Os rios Cuiabá e São Lourenço fazem parte da rede regional de drenagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P22",
+              "factKey": "rio-paraguai-F22",
+              "text": "O Taquari integra a bacia hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P23",
+              "factKey": "rio-paraguai-F23",
+              "text": "O Miranda é outro curso de água da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P24",
+              "factKey": "rio-paraguai-F24",
+              "text": "A gestão deve considerar erosão e assoreamento dos cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-paraguai-geografo-P25",
+              "factKey": "rio-paraguai-F25",
+              "text": "Navegação, qualidade da água e proteção da planície são temas relacionados na gestão hídrica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RPA_ANA",
+                "CENTRO_RPA_DNIT",
+                "CENTRO_RPA_SGB",
+                "CENTRO_RPA_ANA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Rio Paraguai nasce em Mato Grosso, drena o Pantanal e segue pela América do Sul até desaguar no Rio Paraná.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

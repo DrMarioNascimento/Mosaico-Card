@@ -1,0 +1,1030 @@
+{
+  "sources": {
+    "SULPOMERODEIBGEH": {
+      "id": "SULPOMERODEIBGEH",
+      "title": "Histórico do município",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/pomerode.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPOMERODEIBGEP": {
+      "id": "SULPOMERODEIBGEP",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sc/pomerode.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPOMERODECIMVI": {
+      "id": "SULPOMERODECIMVI",
+      "title": "História e economia municipal",
+      "publisher": "Consórcio Intermunicipal do Médio Vale do Itajaí",
+      "url": "https://administrativo.cimvi.sc.gov.br/pomerode/",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPOMERODEIPHAN": {
+      "id": "SULPOMERODEIPHAN",
+      "title": "Restauração de casas enxaimel",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-entrega-restauracao-de-casas-enxaimel-em-santa-catarina",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPOMERODENORMA": {
+      "id": "SULPOMERODENORMA",
+      "title": "Portaria Iphan 110/2023",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/centrais-de-conteudo/legislacao/atos-normativos/2023/portaria-iphan-no-110-de-06-de-julho-de-2023",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-pomerode",
+      "placeId": "pomerode",
+      "title": "Pomerode",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Pomerode"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Timbó"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Indaial"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Brusque"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Jaraguá do Sul"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Bento do Sul"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Chapecó"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Lages"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Pomerode",
+          "sources": [
+            "SULPOMERODEIBGEP"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio ligado à formação local",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio do Testo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Itapocu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Uruguai"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Tubarão"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio do Testo",
+          "sources": [
+            "SULPOMERODEIBGEH"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Técnica da Casa Martin Rahn",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Enxaimel"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Taipa de pilão"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Alvenaria de pedra"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Adobe"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Enxaimel",
+          "sources": [
+            "SULPOMERODEIPHAN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "SULPOMERODEIBGEP"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "pomerode-viajante-P01",
+              "factKey": "pomerode-viajante-F01",
+              "text": "A cidade fica no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P02",
+              "factKey": "pomerode-viajante-F02",
+              "text": "Ela está em Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P03",
+              "factKey": "pomerode-viajante-F03",
+              "text": "Sua história tem relação com a imigração europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P04",
+              "factKey": "pomerode-viajante-F04",
+              "text": "Famílias vindas da Pomerânia estão entre os colonizadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P05",
+              "factKey": "pomerode-viajante-F05",
+              "text": "O Rio do Testo está ligado à ocupação da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P06",
+              "factKey": "pomerode-viajante-F06",
+              "text": "Os primeiros lotes coloniais foram ocupados ao longo do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P07",
+              "factKey": "pomerode-viajante-F07",
+              "text": "O território já integrou o município de Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P08",
+              "factKey": "pomerode-viajante-F08",
+              "text": "O município foi instalado em 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P09",
+              "factKey": "pomerode-viajante-F09",
+              "text": "Casas com estrutura enxaimel fazem parte do patrimônio local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P10",
+              "factKey": "pomerode-viajante-F10",
+              "text": "Na técnica enxaimel, peças de madeira compõem a estrutura da casa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P11",
+              "factKey": "pomerode-viajante-F11",
+              "text": "Os espaços entre as peças podem ser preenchidos com tijolos ou taipa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P12",
+              "factKey": "pomerode-viajante-F12",
+              "text": "O Conjunto Rural de Testo Alto é protegido pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODENORMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P13",
+              "factKey": "pomerode-viajante-F13",
+              "text": "A Casa Martin Rahn pertence a esse conjunto rural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P14",
+              "factKey": "pomerode-viajante-F14",
+              "text": "Essa casa foi construída em 1889.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P15",
+              "factKey": "pomerode-viajante-F15",
+              "text": "Uma rota turística local destaca a arquitetura enxaimel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P16",
+              "factKey": "pomerode-viajante-F16",
+              "text": "Famílias de agricultores cultivavam milho e feijão na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P17",
+              "factKey": "pomerode-viajante-F17",
+              "text": "Mandioca e batata também aparecem na história agrícola.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P18",
+              "factKey": "pomerode-viajante-F18",
+              "text": "A criação de animais integrava o trabalho rural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P19",
+              "factKey": "pomerode-viajante-F19",
+              "text": "Pequenas empresas familiares contribuíram para a industrialização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P20",
+              "factKey": "pomerode-viajante-F20",
+              "text": "Laticínios e móveis aparecem entre as primeiras atividades industriais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P21",
+              "factKey": "pomerode-viajante-F21",
+              "text": "A indústria da porcelana teve importância na economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P22",
+              "factKey": "pomerode-viajante-F22",
+              "text": "A região mantém referências à cultura de famílias imigrantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P23",
+              "factKey": "pomerode-viajante-F23",
+              "text": "Uma antiga ponte coberta foi construída no centro em 1915.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P24",
+              "factKey": "pomerode-viajante-F24",
+              "text": "Uma estrada foi importante para a ligação com Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-viajante-P25",
+              "factKey": "pomerode-viajante-F25",
+              "text": "A cidade está no vale de um rio que é afluente do Itajaí-Açu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "pomerode-geografo-P01",
+              "factKey": "pomerode-geografo-F01",
+              "text": "O núcleo local surgiu em área antes vinculada à Colônia Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P02",
+              "factKey": "pomerode-geografo-F02",
+              "text": "Os lotes coloniais se distribuíram ao longo do Rio do Testo a partir de 1861.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P03",
+              "factKey": "pomerode-geografo-F03",
+              "text": "A ocupação esteve associada ao projeto de ligação terrestre entre duas colônias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P04",
+              "factKey": "pomerode-geografo-F04",
+              "text": "A futura ligação buscava favorecer o comércio entre as colônias de Blumenau e Dona Francisca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P05",
+              "factKey": "pomerode-geografo-F05",
+              "text": "A rede hidrográfica conecta o Rio do Testo ao Itajaí-Açu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P06",
+              "factKey": "pomerode-geografo-F06",
+              "text": "No trecho médio e superior do vale houve assentamento de imigrantes da Pomerânia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P07",
+              "factKey": "pomerode-geografo-F07",
+              "text": "Os colonizadores receberam lotes e desenvolveram pequenas propriedades rurais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P08",
+              "factKey": "pomerode-geografo-F08",
+              "text": "Os cultivos familiares incluíam cereais, tubérculos e cana-de-açúcar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P09",
+              "factKey": "pomerode-geografo-F09",
+              "text": "A criação leiteira e suína integrava as atividades dessas propriedades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P10",
+              "factKey": "pomerode-geografo-F10",
+              "text": "Pequenos empreendimentos familiares de laticínios, móveis e cerâmica iniciaram a industrialização local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P11",
+              "factKey": "pomerode-geografo-F11",
+              "text": "A fabricação de porcelana adquiriu relevância em fase posterior da economia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P12",
+              "factKey": "pomerode-geografo-F12",
+              "text": "O antigo distrito do Rio do Testo pertenceu a Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P13",
+              "factKey": "pomerode-geografo-F13",
+              "text": "A lei estadual de 1958 criou o município por desmembramento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P14",
+              "factKey": "pomerode-geografo-F14",
+              "text": "A instalação administrativa ocorreu em janeiro de 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P15",
+              "factKey": "pomerode-geografo-F15",
+              "text": "Uma ponte coberta construída em 1915 influenciou o desenvolvimento das ruas centrais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODECIMVI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P16",
+              "factKey": "pomerode-geografo-F16",
+              "text": "A arquitetura enxaimel combina estrutura de madeira e fechamento dos vãos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P17",
+              "factKey": "pomerode-geografo-F17",
+              "text": "Esses vãos podem receber tijolo ou taipa, segundo o Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P18",
+              "factKey": "pomerode-geografo-F18",
+              "text": "O Conjunto Rural de Testo Alto tem proteção federal de seus valores culturais e paisagísticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODENORMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P19",
+              "factKey": "pomerode-geografo-F19",
+              "text": "O entorno do conjunto rural possui critérios específicos de preservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODENORMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P20",
+              "factKey": "pomerode-geografo-F20",
+              "text": "A Casa Martin Rahn, de 1889, integra esse patrimônio rural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P21",
+              "factKey": "pomerode-geografo-F21",
+              "text": "Uma restauração do imóvel recebeu apoio do Iphan em 2024.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P22",
+              "factKey": "pomerode-geografo-F22",
+              "text": "O roteiro turístico da arquitetura contribui para a valorização do conjunto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P23",
+              "factKey": "pomerode-geografo-F23",
+              "text": "O IBGE registrou aproximadamente 34 mil moradores no município no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P24",
+              "factKey": "pomerode-geografo-F24",
+              "text": "A origem da população colonizadora inclui famílias procedentes do norte europeu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODEIBGEH"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pomerode-geografo-P25",
+              "factKey": "pomerode-geografo-F25",
+              "text": "A preservação considera a relação entre bens construídos e paisagem rural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOMERODENORMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Município catarinense no vale do Rio do Testo, com patrimônio rural e arquitetura enxaimel.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

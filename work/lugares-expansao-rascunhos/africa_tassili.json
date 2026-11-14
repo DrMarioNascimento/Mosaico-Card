@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "TASSILI_UNESCO": {
+      "id": "TASSILI_UNESCO",
+      "title": "Tassili n’Ajjer",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/179/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-tassili-n-ajjer",
+      "placeId": "tassili-n-ajjer",
+      "title": "Tassili n’Ajjer",
+      "aliases": [
+        "Tassili n’Ajjer"
+      ],
+      "answerType": "planalto e parque cultural",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "DZ"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio com arte rupestre",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Tassili n’Ajjer"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Tadrart Acacus"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Maciço de Ennedi"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Twyfelfontein"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Colinas de Tsodilo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cueva de las Manos"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Vale do Côa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Valcamonica"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Kakadu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Arte Rupestre do Mediterrâneo Ibérico"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Montanhas Drakensberg"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Tassili n’Ajjer",
+          "sources": [
+            "TASSILI_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Grande ambiente geográfico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Saara"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Kalahari"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Patagônia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Deserto de Gobi"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Saara",
+          "sources": [
+            "TASSILI_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Material de formações rochosas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Arenito"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Granito"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Calcário"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Basalto"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Arenito",
+          "sources": [
+            "TASSILI_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Argélia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Líbia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Níger"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mali"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Argélia",
+          "sources": [
+            "TASSILI_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "tassili-n-ajjer-viajante-P01",
+              "factKey": "tassili-n-ajjer-F01",
+              "text": "O destino é uma grande área protegida na África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P02",
+              "factKey": "tassili-n-ajjer-F02",
+              "text": "Fica no sudeste da Argélia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P03",
+              "factKey": "tassili-n-ajjer-F03",
+              "text": "O local está associado à paisagem do Saara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P04",
+              "factKey": "tassili-n-ajjer-F04",
+              "text": "A região reúne formações rochosas e sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P05",
+              "factKey": "tassili-n-ajjer-F05",
+              "text": "Há pinturas feitas em rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P06",
+              "factKey": "tassili-n-ajjer-F06",
+              "text": "Também existem gravuras antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P07",
+              "factKey": "tassili-n-ajjer-F07",
+              "text": "A UNESCO destaca mais de 15 mil desenhos e gravuras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P08",
+              "factKey": "tassili-n-ajjer-F08",
+              "text": "A arte mostra pessoas e animais de diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P09",
+              "factKey": "tassili-n-ajjer-F09",
+              "text": "Algumas imagens mostram animais que precisam de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P10",
+              "factKey": "tassili-n-ajjer-F10",
+              "text": "Há imagens de hipopótamos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P11",
+              "factKey": "tassili-n-ajjer-F11",
+              "text": "Algumas cenas mostram animais criados por pessoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P12",
+              "factKey": "tassili-n-ajjer-F12",
+              "text": "Outras imagens mostram cavalos e camelos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P13",
+              "factKey": "tassili-n-ajjer-F13",
+              "text": "Há pinturas que retratam cenas da vida cotidiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P14",
+              "factKey": "tassili-n-ajjer-F14",
+              "text": "A área tem vestígios de moradias antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P15",
+              "factKey": "tassili-n-ajjer-F15",
+              "text": "Arqueólogos também identificaram sepultamentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P16",
+              "factKey": "tassili-n-ajjer-F16",
+              "text": "Foram encontrados objetos de pedra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P17",
+              "factKey": "tassili-n-ajjer-F17",
+              "text": "A região tem vestígios de objetos de cerâmica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P18",
+              "factKey": "tassili-n-ajjer-F18",
+              "text": "A paisagem tem formações parecidas com florestas de pedra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P19",
+              "factKey": "tassili-n-ajjer-F19",
+              "text": "Grande parte dessas formações é de arenito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P20",
+              "factKey": "tassili-n-ajjer-F20",
+              "text": "Água e vento ajudaram a modelar o relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P21",
+              "factKey": "tassili-n-ajjer-F21",
+              "text": "As rochas guardam sinais de mudanças climáticas e geológicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P22",
+              "factKey": "tassili-n-ajjer-F22",
+              "text": "A área protegida tem aproximadamente 72 mil quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P23",
+              "factKey": "tassili-n-ajjer-F23",
+              "text": "A UNESCO reconheceu o lugar como Patrimônio Mundial em 1982.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P24",
+              "factKey": "tassili-n-ajjer-F24",
+              "text": "A região protege valores naturais e culturais ao mesmo tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-viajante-P25",
+              "factKey": "tassili-n-ajjer-F25",
+              "text": "A arte nas rochas precisa de cuidados contra danos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "tassili-n-ajjer-geografo-P01",
+              "factKey": "tassili-n-ajjer-F01",
+              "text": "A carta representa um parque cultural e planalto no continente africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P02",
+              "factKey": "tassili-n-ajjer-F02",
+              "text": "O planalto situa-se no sudeste do território argelino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P03",
+              "factKey": "tassili-n-ajjer-F03",
+              "text": "A área integra a borda do ambiente saariano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P04",
+              "factKey": "tassili-n-ajjer-F04",
+              "text": "O patrimônio protegido combina geologia e vestígios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P05",
+              "factKey": "tassili-n-ajjer-F05",
+              "text": "A arte rupestre inclui pinturas em superfícies rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P06",
+              "factKey": "tassili-n-ajjer-F06",
+              "text": "As gravuras constituem outra forma de expressão da arte rupestre local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P07",
+              "factKey": "tassili-n-ajjer-F07",
+              "text": "A UNESCO registra mais de 15 mil desenhos e gravuras no conjunto arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P08",
+              "factKey": "tassili-n-ajjer-F08",
+              "text": "As representações permitem examinar mudanças nas relações entre humanos e fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P09",
+              "factKey": "tassili-n-ajjer-F09",
+              "text": "Representações de animais aquáticos ajudam a investigar condições ambientais antigas distintas das atuais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P10",
+              "factKey": "tassili-n-ajjer-F10",
+              "text": "A representação de hipopótamos sugere ambientes mais úmidos em diferentes períodos do passado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P11",
+              "factKey": "tassili-n-ajjer-F11",
+              "text": "O conjunto inclui representações de criação de gado e de práticas pastoris.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P12",
+              "factKey": "tassili-n-ajjer-F12",
+              "text": "Representações mais recentes incluem domesticação de cavalos e camelos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P13",
+              "factKey": "tassili-n-ajjer-F13",
+              "text": "Cenas de vida cotidiana e social integram conjuntos de arte rupestre de diferentes períodos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P14",
+              "factKey": "tassili-n-ajjer-F14",
+              "text": "Restos de habitações integram o acervo arqueológico além das pinturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P15",
+              "factKey": "tassili-n-ajjer-F15",
+              "text": "Estruturas funerárias preservam evidências adicionais sobre ocupações humanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P16",
+              "factKey": "tassili-n-ajjer-F16",
+              "text": "Materiais líticos ampliam o conjunto de evidências das ocupações antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P17",
+              "factKey": "tassili-n-ajjer-F17",
+              "text": "Materiais cerâmicos são mencionados entre os vestígios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P18",
+              "factKey": "tassili-n-ajjer-F18",
+              "text": "A erosão do arenito produziu conjuntos conhecidos como florestas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P19",
+              "factKey": "tassili-n-ajjer-F19",
+              "text": "Sucessões sedimentares de arenito compõem o relevo do planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P20",
+              "factKey": "tassili-n-ajjer-F20",
+              "text": "A erosão hídrica e a ação posterior do vento contribuíram para a morfologia atual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P21",
+              "factKey": "tassili-n-ajjer-F21",
+              "text": "O arenito preserva marcas de acontecimentos geológicos e climáticos de longa duração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P22",
+              "factKey": "tassili-n-ajjer-F22",
+              "text": "O bem abrange cerca de 72.000 km², segundo a descrição da UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P23",
+              "factKey": "tassili-n-ajjer-F23",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1982.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P24",
+              "factKey": "tassili-n-ajjer-F24",
+              "text": "A gestão como parque cultural integra proteção do patrimônio natural e arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tassili-n-ajjer-geografo-P25",
+              "factKey": "tassili-n-ajjer-F25",
+              "text": "A conservação das pinturas exige atenção aos efeitos climáticos e a danos por visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TASSILI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Planalto no sudeste da Argélia com formações de arenito e extenso conjunto de arte rupestre.",
+        "editorialNotes": [
+          "O bem fica na Argélia, próximo a fronteiras; países vizinhos não são automaticamente incluídos como parte do sítio.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

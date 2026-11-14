@@ -1,0 +1,1063 @@
+{
+  "sources": {
+    "ASIA_HIM_UNESCO": {
+      "id": "ASIA_HIM_UNESCO",
+      "title": "Himeji-jo",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/661/",
+      "checkedAt": "2026-11-14"
+    },
+    "ASIA_HIM_CITY": {
+      "id": "ASIA_HIM_CITY",
+      "title": "Preservação e valor universal do castelo",
+      "publisher": "Município de Himeji",
+      "url": "https://www.city.himeji.lg.jp/kanko/cmsfiles/contents/0000030/30274/chapter11.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-castelo-himeji",
+      "placeId": "castelo-himeji",
+      "title": "Castelo de Himeji",
+      "aliases": [
+        "Himeji"
+      ],
+      "answerType": "castelo japonês",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "JP"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Castelo japonês",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Castelo de Himeji"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Castelo de Matsumoto"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Castelo de Osaka"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Castelo de Hikone"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Castelo de Matsue"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Castelo de Inuyama"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Castelo de Kochi"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Castelo de Hirosaki"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Castelo de Kumamoto"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Castelo de Nagoya"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Castelo de Akashi"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Castelo de Nijo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Castelo de Himeji",
+          "sources": [
+            "ASIA_HIM_UNESCO",
+            "ASIA_HIM_CITY"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Revestimento que marca a aparência",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Paredes de terra com reboco branco"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Paredes enegrecidas com ripas de madeira"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Revestimento de argila avermelhada"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Paredes de pedra cinza sem reboco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Paredes de terra com reboco branco",
+          "sources": [
+            "ASIA_HIM_UNESCO",
+            "ASIA_HIM_CITY"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Apelido tradicional",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Castelo da Garça Branca"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Castelo do Corvo Negro"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Castelo do Dragão Azul"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Castelo da Tartaruga Dourada"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Castelo da Garça Branca",
+          "sources": [
+            "ASIA_HIM_UNESCO",
+            "ASIA_HIM_CITY"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Período da arquitetura preservada",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Início do século XVII"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Início do século XIII"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Final do século XIX"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Início do século XXI"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Início do século XVII",
+          "sources": [
+            "ASIA_HIM_UNESCO",
+            "ASIA_HIM_CITY"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "castelo-himeji-viajante-P01",
+              "factKey": "castelo-himeji-F01",
+              "text": "Este destino é um castelo localizado na Ásia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P02",
+              "factKey": "castelo-himeji-F02",
+              "text": "Fica no Japão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P03",
+              "factKey": "castelo-himeji-F03",
+              "text": "Foi construído sobre uma elevação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P04",
+              "factKey": "castelo-himeji-F04",
+              "text": "Ele fica na região de Hyogo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P05",
+              "factKey": "castelo-himeji-F05",
+              "text": "Suas paredes têm aparência branca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P06",
+              "factKey": "castelo-himeji-F06",
+              "text": "A cor vem do reboco aplicado às paredes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P07",
+              "factKey": "castelo-himeji-F07",
+              "text": "A madeira é importante em sua construção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P08",
+              "factKey": "castelo-himeji-F08",
+              "text": "O castelo reúne vários edifícios e torres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P09",
+              "factKey": "castelo-himeji-F09",
+              "text": "Os telhados aparecem em diferentes níveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P10",
+              "factKey": "castelo-himeji-F10",
+              "text": "O conjunto possui muralhas de pedra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P11",
+              "factKey": "castelo-himeji-F11",
+              "text": "Portões fazem parte da estrutura defensiva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P12",
+              "factKey": "castelo-himeji-F12",
+              "text": "Há fossos ao redor de parte do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P13",
+              "factKey": "castelo-himeji-F13",
+              "text": "O sítio serviu como centro de um domínio feudal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P14",
+              "factKey": "castelo-himeji-F14",
+              "text": "A arquitetura preservada remete ao início do século XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P15",
+              "factKey": "castelo-himeji-F15",
+              "text": "A aparência branca inspirou um apelido ligado a uma ave.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P16",
+              "factKey": "castelo-himeji-F16",
+              "text": "O apelido significa Castelo da Garça Branca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P17",
+              "factKey": "castelo-himeji-F17",
+              "text": "A torre principal faz parte do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P18",
+              "factKey": "castelo-himeji-F18",
+              "text": "Torres menores estão ligadas ao edifício principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P19",
+              "factKey": "castelo-himeji-F19",
+              "text": "A paisagem do castelo pode ser vista de diferentes pontos da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P20",
+              "factKey": "castelo-himeji-F20",
+              "text": "O conjunto é Patrimônio Mundial desde 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P21",
+              "factKey": "castelo-himeji-F21",
+              "text": "Os edifícios receberam reparos ao longo dos séculos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P22",
+              "factKey": "castelo-himeji-F22",
+              "text": "Projetos de conservação foram realizados desde a década de 1930.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P23",
+              "factKey": "castelo-himeji-F23",
+              "text": "Parte de antigas construções foi perdida ao longo da história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P24",
+              "factKey": "castelo-himeji-F24",
+              "text": "A proteção busca preservar a madeira e as técnicas tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-viajante-P25",
+              "factKey": "castelo-himeji-F25",
+              "text": "A defesa e a aparência estética foram combinadas no projeto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "castelo-himeji-geografo-P01",
+              "factKey": "castelo-himeji-F01",
+              "text": "O objeto é um conjunto fortificado histórico do Japão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P02",
+              "factKey": "castelo-himeji-F02",
+              "text": "Situa-se na prefeitura de Hyogo, no oeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P03",
+              "factKey": "castelo-himeji-F03",
+              "text": "Foi implantado sobre uma colina na planície de Harima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P04",
+              "factKey": "castelo-himeji-F04",
+              "text": "A localização participa da posição histórica regional como área de circulação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P05",
+              "factKey": "castelo-himeji-F05",
+              "text": "Paredes de terra revestidas com reboco branco unificam a aparência do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P06",
+              "factKey": "castelo-himeji-F06",
+              "text": "A cor e a silhueta contribuíram para o apelido Castelo da Garça Branca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P07",
+              "factKey": "castelo-himeji-F07",
+              "text": "O sistema construtivo combina estruturas de madeira e alvenaria de terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P08",
+              "factKey": "castelo-himeji-F08",
+              "text": "O conjunto inclui torre principal, torres menores e estruturas de ligação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P09",
+              "factKey": "castelo-himeji-F09",
+              "text": "A sobreposição de telhados integra sua composição arquitetônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P10",
+              "factKey": "castelo-himeji-F10",
+              "text": "Muralhas e aterros de pedra participam do sistema defensivo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P11",
+              "factKey": "castelo-himeji-F11",
+              "text": "Portões integram o controle histórico de acesso à fortificação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P12",
+              "factKey": "castelo-himeji-F12",
+              "text": "Fossos delimitam parte da área protegida ao redor do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P13",
+              "factKey": "castelo-himeji-F13",
+              "text": "A fortificação funcionou como centro de um domínio feudal por quase três séculos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P14",
+              "factKey": "castelo-himeji-F14",
+              "text": "Grande parte das estruturas preservadas data do início do século XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P15",
+              "factKey": "castelo-himeji-F15",
+              "text": "Em 1868, a queda do xogunato coincidiu com a criação de um novo governo nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P16",
+              "factKey": "castelo-himeji-F16",
+              "text": "O complexo foi inscrito no Patrimônio Mundial em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P17",
+              "factKey": "castelo-himeji-F17",
+              "text": "O sítio inclui áreas muradas internas e externas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P18",
+              "factKey": "castelo-himeji-F18",
+              "text": "A relação entre torres, corredores e muralhas articulava defesa e circulação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P19",
+              "factKey": "castelo-himeji-F19",
+              "text": "A silhueta e os telhados são visíveis em muitos pontos do entorno urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P20",
+              "factKey": "castelo-himeji-F20",
+              "text": "Campanhas regulares de reparo ocorreram nos séculos XVII, XVIII e XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P21",
+              "factKey": "castelo-himeji-F21",
+              "text": "Projetos sistemáticos de conservação foram realizados desde 1934.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P22",
+              "factKey": "castelo-himeji-F22",
+              "text": "Parte dos edifícios foi perdida em diferentes momentos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P23",
+              "factKey": "castelo-himeji-F23",
+              "text": "A conservação aplica técnicas apropriadas a estruturas tradicionais de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P24",
+              "factKey": "castelo-himeji-F24",
+              "text": "A gestão controla intervenções para preservar forma, materiais e entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "castelo-himeji-geografo-P25",
+              "factKey": "castelo-himeji-F25",
+              "text": "O conjunto exemplifica a integração entre finalidade defensiva e composição estética.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_HIM_UNESCO",
+                "ASIA_HIM_CITY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Castelo de Himeji, no Japão, combina arquitetura em madeira, defesas e paredes brancas que inspiraram o nome Castelo da Garça Branca.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

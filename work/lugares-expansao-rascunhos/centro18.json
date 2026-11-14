@@ -1,0 +1,1133 @@
+{
+  "sources": {
+    "CENTRO_CNO_TUR": {
+      "id": "CENTRO_CNO_TUR",
+      "title": "Destino de águas termais",
+      "publisher": "Goiás Turismo",
+      "url": "https://goias.gov.br/turismo/caldas-novas/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CNO_HIST": {
+      "id": "CENTRO_CNO_HIST",
+      "title": "História do município",
+      "publisher": "Prefeitura de Caldas Novas",
+      "url": "https://www.caldasnovas.go.gov.br/historia/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CNO_SER": {
+      "id": "CENTRO_CNO_SER",
+      "title": "Parque e sistema de águas termais",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/serra-de-caldas-pescan/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CNO_IBGE": {
+      "id": "CENTRO_CNO_IBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/go/caldas-novas.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-caldas-novas-go",
+      "placeId": "caldas-novas-go",
+      "title": "Caldas Novas",
+      "aliases": [],
+      "answerType": "cidade brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Município brasileiro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Caldas Novas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Quente"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Pirenópolis"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Alto Paraíso de Goiás"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Formosa"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bonito"
+            },
+            {
+              "id": "C1-O7",
+              "text": "São Lourenço"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Poços de Caldas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Águas de Lindóia"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Caxambu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Araxá"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Caldas da Imperatriz"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Caldas Novas",
+          "sources": [
+            "CENTRO_CNO_TUR",
+            "CENTRO_CNO_HIST",
+            "CENTRO_CNO_SER",
+            "CENTRO_CNO_IBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Recurso que impulsionou o turismo local",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Águas termais"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cavernas calcárias"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Praias fluviais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Dunas e lagoas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Águas termais",
+          "sources": [
+            "CENTRO_CNO_TUR",
+            "CENTRO_CNO_HIST",
+            "CENTRO_CNO_SER",
+            "CENTRO_CNO_IBGE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Lago próximo associado ao turismo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lago da Represa de Corumbá"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lago da Serra da Mesa"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lago das Brisas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lago de Cana Brava"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Lago da Represa de Corumbá",
+          "sources": [
+            "CENTRO_CNO_TUR",
+            "CENTRO_CNO_HIST",
+            "CENTRO_CNO_SER",
+            "CENTRO_CNO_IBGE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Santuário no Morro do Capão",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nossa Senhora da Salette"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Nossa Senhora Aparecida"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Nossa Senhora de Fátima"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Nossa Senhora do Rosário"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nossa Senhora da Salette",
+          "sources": [
+            "CENTRO_CNO_TUR",
+            "CENTRO_CNO_HIST",
+            "CENTRO_CNO_SER",
+            "CENTRO_CNO_IBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "caldas-novas-go-viajante-P01",
+              "factKey": "caldas-novas-go-F01",
+              "text": "Este destino é uma cidade brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P02",
+              "factKey": "caldas-novas-go-F02",
+              "text": "Fica no interior de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P03",
+              "factKey": "caldas-novas-go-F03",
+              "text": "É conhecida por suas águas naturalmente aquecidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P04",
+              "factKey": "caldas-novas-go-F04",
+              "text": "O turismo associado às águas é importante para a economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P05",
+              "factKey": "caldas-novas-go-F05",
+              "text": "Há hotéis e piscinas que recebem visitantes na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P06",
+              "factKey": "caldas-novas-go-F06",
+              "text": "A água das chuvas pode penetrar em fissuras do solo e das rochas na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P07",
+              "factKey": "caldas-novas-go-F07",
+              "text": "Parte da água aquece em profundidade e retorna à superfície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P08",
+              "factKey": "caldas-novas-go-F08",
+              "text": "Um parque estadual protege a serra associada ao sistema de recarga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P09",
+              "factKey": "caldas-novas-go-F09",
+              "text": "O parque preserva áreas de Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P10",
+              "factKey": "caldas-novas-go-F10",
+              "text": "O município oferece também trilhas e cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P11",
+              "factKey": "caldas-novas-go-F11",
+              "text": "O lago de uma represa do Rio Corumbá fica na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P12",
+              "factKey": "caldas-novas-go-F12",
+              "text": "O município possui um Jardim Japonês para visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P13",
+              "factKey": "caldas-novas-go-F13",
+              "text": "Existe um santuário dedicado a Nossa Senhora da Salette.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P14",
+              "factKey": "caldas-novas-go-F14",
+              "text": "O santuário fica no Morro do Capão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P15",
+              "factKey": "caldas-novas-go-F15",
+              "text": "A paisagem local combina cidade, serra e ambientes naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P16",
+              "factKey": "caldas-novas-go-F16",
+              "text": "A região recebe visitantes brasileiros e estrangeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P17",
+              "factKey": "caldas-novas-go-F17",
+              "text": "As águas termais foram conhecidas por povos originários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P18",
+              "factKey": "caldas-novas-go-F18",
+              "text": "A história local menciona fontes termais na época colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P19",
+              "factKey": "caldas-novas-go-F19",
+              "text": "A busca de ouro também marcou a formação do povoado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P20",
+              "factKey": "caldas-novas-go-F20",
+              "text": "O Córrego das Lavras aparece na história da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P21",
+              "factKey": "caldas-novas-go-F21",
+              "text": "As primeiras casas foram construídas nas proximidades de um córrego.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P22",
+              "factKey": "caldas-novas-go-F22",
+              "text": "A cidade possui estabelecimentos de lazer aquático.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P23",
+              "factKey": "caldas-novas-go-F23",
+              "text": "Rio Quente é outro município da região turística das águas quentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P24",
+              "factKey": "caldas-novas-go-F24",
+              "text": "A proteção das nascentes envolve preocupações ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-viajante-P25",
+              "factKey": "caldas-novas-go-F25",
+              "text": "O turismo local combina lazer aquático e passeios na natureza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "caldas-novas-go-geografo-P01",
+              "factKey": "caldas-novas-go-F01",
+              "text": "O objeto desta carta é um município do interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P02",
+              "factKey": "caldas-novas-go-F02",
+              "text": "Está situado no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P03",
+              "factKey": "caldas-novas-go-F03",
+              "text": "As águas termais constituem importante recurso natural para o turismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P04",
+              "factKey": "caldas-novas-go-F04",
+              "text": "A economia local articula hospedagem e atividades de lazer às fontes aquecidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P05",
+              "factKey": "caldas-novas-go-F05",
+              "text": "O crescimento turístico levou à formação de serviços para visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P06",
+              "factKey": "caldas-novas-go-F06",
+              "text": "Na serra regional, a infiltração da chuva por fraturas alimenta a circulação subterrânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P07",
+              "factKey": "caldas-novas-go-F07",
+              "text": "O aquecimento em profundidade relaciona-se ao gradiente geotérmico das rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P08",
+              "factKey": "caldas-novas-go-F08",
+              "text": "A proteção do maciço serrano contribui à recarga do sistema hidrotermal regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P09",
+              "factKey": "caldas-novas-go-F09",
+              "text": "A unidade de conservação da serra preserva ambientes do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P10",
+              "factKey": "caldas-novas-go-F10",
+              "text": "Trilhas e cachoeiras ampliam a oferta turística além das piscinas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P11",
+              "factKey": "caldas-novas-go-F11",
+              "text": "O lago da Represa de Corumbá compõe a paisagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P12",
+              "factKey": "caldas-novas-go-F12",
+              "text": "O Jardim Japonês é um espaço de visitação existente no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P13",
+              "factKey": "caldas-novas-go-F13",
+              "text": "Um santuário dedicado a Nossa Senhora da Salette integra os pontos de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P14",
+              "factKey": "caldas-novas-go-F14",
+              "text": "O santuário situa-se no Morro do Capão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P15",
+              "factKey": "caldas-novas-go-F15",
+              "text": "O município combina expansão urbana e paisagens naturais de serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P16",
+              "factKey": "caldas-novas-go-F16",
+              "text": "A rede de hospedagem atende visitantes nacionais e internacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P17",
+              "factKey": "caldas-novas-go-F17",
+              "text": "O governo estadual registra a importância histórica das águas para povos originários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P18",
+              "factKey": "caldas-novas-go-F18",
+              "text": "Relatos sobre as fontes termais fazem parte da história colonial local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P19",
+              "factKey": "caldas-novas-go-F19",
+              "text": "A mineração aurífera também influenciou a formação do povoado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P20",
+              "factKey": "caldas-novas-go-F20",
+              "text": "O antigo núcleo desenvolveu-se junto ao Córrego das Lavras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P21",
+              "factKey": "caldas-novas-go-F21",
+              "text": "As primeiras habitações se organizaram próximas às águas e à atividade de garimpo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P22",
+              "factKey": "caldas-novas-go-F22",
+              "text": "A gestão da água termal exige atenção ao uso sustentável do aquífero.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P23",
+              "factKey": "caldas-novas-go-F23",
+              "text": "O polo turístico regional inclui também o município de Rio Quente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P24",
+              "factKey": "caldas-novas-go-F24",
+              "text": "A proteção da área de recarga relaciona-se à continuidade do recurso hídrico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_TUR",
+                "CENTRO_CNO_HIST",
+                "CENTRO_CNO_SER"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caldas-novas-go-geografo-P25",
+              "factKey": "caldas-novas-go-F25",
+              "text": "O Censo 2022 registrou 98.622 habitantes no município, segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CNO_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Caldas Novas é uma cidade goiana cuja economia turística está ligada às águas termais e à paisagem do Cerrado.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

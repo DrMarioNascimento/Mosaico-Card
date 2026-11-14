@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "SULMARINGAPLANO": {
+      "id": "SULMARINGAPLANO",
+      "title": "Plano municipal: contexto histórico e regional",
+      "publisher": "Prefeitura de Maringá",
+      "url": "https://sapl.cmm.pr.gov.br/media/sapl/public/documentoacessorio/2017/11599/11599.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULMARINGACULT": {
+      "id": "SULMARINGACULT",
+      "title": "Planejamento e cartões-postais da cidade",
+      "publisher": "Câmara Municipal de Maringá",
+      "url": "https://www.cmm.pr.gov.br/?id=6927&inc=noticia",
+      "checkedAt": "2026-11-14"
+    },
+    "SULMARINGAIBGE": {
+      "id": "SULMARINGAIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pr/maringa.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SULMARINGAUEM": {
+      "id": "SULMARINGAUEM",
+      "title": "A região Norte do Paraná e a cidade de Maringá",
+      "publisher": "Universidade Estadual de Maringá",
+      "url": "https://prh.uem.br/pph/dissertacoes-e-teses/dissertacoes/paulo-cesar-tomaz.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-maringa",
+      "placeId": "maringa",
+      "title": "Maringá",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Maringá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Londrina"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Apucarana"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Campo Mourão"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cascavel"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Foz do Iguaçu"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Umuarama"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Paranavaí"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cianorte"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Toledo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Maringá",
+          "sources": [
+            "SULMARINGAIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Urbanista ligado ao projeto de 1943",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Jorge de Macedo Vieira"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Lúcio Costa"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Oscar Niemeyer"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Jaime Lerner"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Jorge de Macedo Vieira",
+          "sources": [
+            "SULMARINGAPLANO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Parque urbano",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Parque do Ingá"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Parque Barigui"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Parque Farroupilha"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Parque Tanguá"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Parque do Ingá",
+          "sources": [
+            "SULMARINGACULT"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná",
+          "sources": [
+            "SULMARINGAIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "maringa-viajante-P01",
+              "factKey": "maringa-viajante-F01",
+              "text": "É uma cidade do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P02",
+              "factKey": "maringa-viajante-F02",
+              "text": "O município fica no Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P03",
+              "factKey": "maringa-viajante-F03",
+              "text": "A cidade tem um planejamento urbano associado a avenidas largas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P04",
+              "factKey": "maringa-viajante-F04",
+              "text": "Jardins e áreas arborizadas aparecem no planejamento e na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P05",
+              "factKey": "maringa-viajante-F05",
+              "text": "O urbanista Jorge de Macedo Vieira assinou seu projeto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P06",
+              "factKey": "maringa-viajante-F06",
+              "text": "O plano urbano é datado de 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P07",
+              "factKey": "maringa-viajante-F07",
+              "text": "Uma catedral é um dos cartões-postais da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P08",
+              "factKey": "maringa-viajante-F08",
+              "text": "O Parque do Ingá é uma das áreas verdes locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P09",
+              "factKey": "maringa-viajante-F09",
+              "text": "Outro espaço conhecido é o Parque do Japão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P10",
+              "factKey": "maringa-viajante-F10",
+              "text": "O Teatro Calil Haddad está entre os equipamentos culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P11",
+              "factKey": "maringa-viajante-F11",
+              "text": "O Mercadão também aparece entre os locais de interesse.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P12",
+              "factKey": "maringa-viajante-F12",
+              "text": "O núcleo urbano antigo recebeu o nome de cidade velha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P13",
+              "factKey": "maringa-viajante-F13",
+              "text": "Famílias vindas de diferentes regiões brasileiras chegaram à área na década de 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P14",
+              "factKey": "maringa-viajante-F14",
+              "text": "O núcleo inicial tinha poucas quadras e estabelecimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P15",
+              "factKey": "maringa-viajante-F15",
+              "text": "Companhias de colonização atuaram na venda de terras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P16",
+              "factKey": "maringa-viajante-F16",
+              "text": "O lugar já foi distrito de Mandaguari.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P17",
+              "factKey": "maringa-viajante-F17",
+              "text": "O município foi criado em 1951.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P18",
+              "factKey": "maringa-viajante-F18",
+              "text": "A cidade recebeu migrantes de São Paulo e Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P19",
+              "factKey": "maringa-viajante-F19",
+              "text": "Também recebeu famílias vindas do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P20",
+              "factKey": "maringa-viajante-F20",
+              "text": "O Rio Pirapó é utilizado no abastecimento de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P21",
+              "factKey": "maringa-viajante-F21",
+              "text": "A região tem relação com as bacias dos rios Pirapó e Ivaí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P22",
+              "factKey": "maringa-viajante-F22",
+              "text": "O parque e as praças fazem parte dos espaços urbanos de convivência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P23",
+              "factKey": "maringa-viajante-F23",
+              "text": "O município pertence ao norte do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P24",
+              "factKey": "maringa-viajante-F24",
+              "text": "Povos indígenas como Guarani e Kaingang viveram no norte paranaense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAUEM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-viajante-P25",
+              "factKey": "maringa-viajante-F25",
+              "text": "O município se tornou centro de serviços para a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "maringa-geografo-P01",
+              "factKey": "maringa-geografo-F01",
+              "text": "O território municipal se situa no norte central do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P02",
+              "factKey": "maringa-geografo-F02",
+              "text": "A sede ocupa área próxima ao divisor das bacias dos rios Pirapó e Ivaí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P03",
+              "factKey": "maringa-geografo-F03",
+              "text": "O Rio Pirapó é utilizado para abastecimento público municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P04",
+              "factKey": "maringa-geografo-F04",
+              "text": "O assentamento urbano inicial se desenvolveu em relação à venda de terras rurais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P05",
+              "factKey": "maringa-geografo-F05",
+              "text": "A companhia colonizadora organizava lotes, estradas e núcleos urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P06",
+              "factKey": "maringa-geografo-F06",
+              "text": "O núcleo inicial também prestava comércio e hospedagem a famílias migrantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P07",
+              "factKey": "maringa-geografo-F07",
+              "text": "O planejamento posterior foi assinado pelo urbanista Jorge de Macedo Vieira em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P08",
+              "factKey": "maringa-geografo-F08",
+              "text": "O projeto recebeu influência do conceito de cidade-jardim de Ebenezer Howard.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P09",
+              "factKey": "maringa-geografo-F09",
+              "text": "Avenidas largas e canteiros paisagísticos foram incorporados ao desenho urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P10",
+              "factKey": "maringa-geografo-F10",
+              "text": "As ruas foram planejadas para acompanhar, tanto quanto possível, o relevo natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P11",
+              "factKey": "maringa-geografo-F11",
+              "text": "O projeto urbano utilizou como referência fotografias aéreas da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P12",
+              "factKey": "maringa-geografo-F12",
+              "text": "O distrito foi criado em 1947 subordinado a Mandaguari.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P13",
+              "factKey": "maringa-geografo-F13",
+              "text": "A emancipação municipal ocorreu por lei estadual em 1951.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P14",
+              "factKey": "maringa-geografo-F14",
+              "text": "Famílias de origens paulista, mineira e nordestina participaram da migração ao núcleo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P15",
+              "factKey": "maringa-geografo-F15",
+              "text": "A ocupação do norte paranaense afetou territórios previamente habitados por povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAUEM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P16",
+              "factKey": "maringa-geografo-F16",
+              "text": "A história regional inclui a presença de comunidades Guarani e Kaingang.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAUEM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P17",
+              "factKey": "maringa-geografo-F17",
+              "text": "O Parque do Ingá integra a rede de espaços verdes na área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P18",
+              "factKey": "maringa-geografo-F18",
+              "text": "A catedral e seu entorno compõem uma referência urbana e cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P19",
+              "factKey": "maringa-geografo-F19",
+              "text": "O Parque do Japão é outro equipamento de lazer do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P20",
+              "factKey": "maringa-geografo-F20",
+              "text": "O Teatro Calil Haddad é um equipamento destinado a atividades culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGACULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P21",
+              "factKey": "maringa-geografo-F21",
+              "text": "O Censo do IBGE de 2022 registrou aproximadamente 410 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P22",
+              "factKey": "maringa-geografo-F22",
+              "text": "A região metropolitana foi instituída em 1998, segundo o plano municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P23",
+              "factKey": "maringa-geografo-F23",
+              "text": "A posição regional articula fluxos municipais, estaduais e interestaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P24",
+              "factKey": "maringa-geografo-F24",
+              "text": "A BR-376 constitui um dos eixos de acesso pela porção leste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maringa-geografo-P25",
+              "factKey": "maringa-geografo-F25",
+              "text": "Um dos eixos rodoviários regionais conecta a área à divisa de São Paulo e Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULMARINGAPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade do norte paranaense com projeto urbano associado à cidade-jardim e áreas verdes conhecidas.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

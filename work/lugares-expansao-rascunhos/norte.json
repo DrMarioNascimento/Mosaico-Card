@@ -114,27 +114,27 @@
         },
         {
           "id": "C2",
-          "label": "Paisagem do parque",
+          "label": "Em que ano foi reconhecido como sítio Ramsar?",
           "options": [
             {
               "id": "C2-O1",
-              "text": "Campinaranas e florestas alagáveis"
+              "text": "2017"
             },
             {
               "id": "C2-O2",
-              "text": "Dunas costeiras e restingas"
+              "text": "2013"
             },
             {
               "id": "C2-O3",
-              "text": "Campos de altitude e araucárias"
+              "text": "2015"
             },
             {
               "id": "C2-O4",
-              "text": "Matas de galeria e cerrados"
+              "text": "2019"
             }
           ],
           "answerId": "C2-O1",
-          "answerText": "Campinaranas e florestas alagáveis",
+          "answerText": "2017",
           "sources": [
             "VIRUA_ICMBIO"
           ]
@@ -168,7 +168,7 @@
         },
         {
           "id": "C4",
-          "label": "Rio situado no interior do parque",
+          "label": "Qual rio fica no interior do parque?",
           "options": [
             {
               "id": "C4-O1",
@@ -176,15 +176,15 @@
             },
             {
               "id": "C4-O2",
-              "text": "Rio Tapajós"
+              "text": "Rio Branco"
             },
             {
               "id": "C4-O3",
-              "text": "Rio Juruá"
+              "text": "Rio Baruana"
             },
             {
               "id": "C4-O4",
-              "text": "Rio Tocantins"
+              "text": "Rio Anauá"
             }
           ],
           "answerId": "C4-O1",
@@ -209,8 +209,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -219,14 +219,14 @@
               "factKey": "norte-virua-F02",
               "text": "Há terras que ficam alagadas em parte do ano.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -235,14 +235,14 @@
               "factKey": "norte-virua-F03",
               "text": "Sua paisagem inclui áreas abertas e florestas.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -251,7 +251,7 @@
               "factKey": "norte-virua-F04",
               "text": "Parte da vegetação cresce sobre solos de areia branca.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -267,7 +267,7 @@
               "factKey": "norte-virua-F05",
               "text": "Algumas florestas crescem em áreas baixas próximas às águas.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -283,7 +283,7 @@
               "factKey": "norte-virua-F06",
               "text": "Outros trechos são de floresta de terra firme.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -321,8 +321,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -337,8 +337,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -353,8 +353,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -385,8 +385,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -395,14 +395,14 @@
               "factKey": "norte-virua-F13",
               "text": "Esse reconhecimento internacional ocorreu em 2017.",
               "relatedFields": [
-                "C1"
+                "C2"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -411,7 +411,7 @@
               "factKey": "norte-virua-F14",
               "text": "A paisagem lembra um grande pantanal amazônico.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -457,7 +457,7 @@
             {
               "id": "norte-virua-viajante-P17",
               "factKey": "norte-virua-F17",
-              "text": "A passarela recebeu o nome de uma árvore amazônica de grande porte.",
+              "text": "Do alto de um mirante é possível observar florestas e áreas abertas.",
               "relatedFields": [
                 "C1"
               ],
@@ -497,8 +497,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -513,8 +513,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -529,8 +529,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -545,8 +545,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -587,7 +587,7 @@
               "factKey": "norte-virua-F25",
               "text": "A chuva e a seca mudam a aparência dos rios e áreas alagáveis.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -614,8 +614,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -624,14 +624,14 @@
               "factKey": "norte-virua-F02",
               "text": "A variação sazonal do nível da água altera a extensão dos ambientes inundados e os percursos possíveis.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -640,14 +640,14 @@
               "factKey": "norte-virua-F03",
               "text": "O encontro de áreas abertas e florestais cria um mosaico de habitats para diferentes espécies.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -656,7 +656,7 @@
               "factKey": "norte-virua-F04",
               "text": "As campinaranas incluem formações vegetais associadas a solos arenosos brancos.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -672,7 +672,7 @@
               "factKey": "norte-virua-F05",
               "text": "A presença de florestas aluviais relaciona a vegetação aos terrenos sujeitos à influência dos rios.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -688,7 +688,7 @@
               "factKey": "norte-virua-F06",
               "text": "As florestas de terra firme contrastam com trechos que ficam sazonalmente alagados.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -726,8 +726,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -742,8 +742,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -758,8 +758,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -790,8 +790,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -800,14 +800,14 @@
               "factKey": "norte-virua-F13",
               "text": "A designação Ramsar foi concedida em março de 2017.",
               "relatedFields": [
-                "C1"
+                "C2"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -816,7 +816,7 @@
               "factKey": "norte-virua-F14",
               "text": "O conjunto de áreas inundáveis integra o chamado Pantanal Setentrional, na Amazônia.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -862,7 +862,7 @@
             {
               "id": "norte-virua-geografo-P17",
               "factKey": "norte-virua-F17",
-              "text": "Uma passarela acessível permite observar a floresta alagável e árvores como a samaúma.",
+              "text": "Um mirante na serra permite observar a distribuição de florestas, campinaranas e áreas alagáveis.",
               "relatedFields": [
                 "C1"
               ],
@@ -902,8 +902,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -918,8 +918,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -934,8 +934,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -950,8 +950,8 @@
                 "VIRUA_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -992,7 +992,7 @@
               "factKey": "norte-virua-F25",
               "text": "A alternância entre chuvas e estiagem modifica a navegação, o nível dos rios e as áreas alagadas.",
               "relatedFields": [
-                "C2"
+                "C1"
               ],
               "sources": [
                 "VIRUA_ICMBIO"
@@ -1009,7 +1009,8 @@
       "reveal": {
         "canonicalSummary": "Parque amazônico em Caracaraí, Roraima, que protege campinaranas, florestas e áreas úmidas do Pantanal Setentrional.",
         "editorialNotes": [
-          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas.",
+          "A marcação de força é editorial; a distribuição depende do motor e deve ser verificada em partidas."
         ]
       },
       "review": {
@@ -1054,82 +1055,88 @@
             },
             {
               "id": "C1-O2",
-              "text": "Parque Nacional do Viruá"
+              "text": "Parque Nacional Alto Purús"
             },
             {
               "id": "C1-O3",
-              "text": "Parque Nacional do Cabo Orange"
+              "text": "Parque Nacional Sierra del Divisor"
             },
             {
               "id": "C1-O4",
-              "text": "Parque Nacional do Pico da Neblina"
+              "text": "Parque Nacional Güeppí-Sekime"
             },
             {
               "id": "C1-O5",
-              "text": "Parque Nacional da Serra da Mocidade"
+              "text": "Parque Nacional Bahuaja-Sonene"
             },
             {
               "id": "C1-O6",
-              "text": "Parque Nacional do Jaú"
+              "text": "Parque Nacional Madidi"
             },
             {
               "id": "C1-O7",
-              "text": "Parque Nacional de Anavilhanas"
+              "text": "Parque Nacional da Serra da Capivara"
             },
             {
               "id": "C1-O8",
-              "text": "Parque Nacional do Monte Roraima"
+              "text": "Parque Nacional do Viruá"
             },
             {
               "id": "C1-O9",
-              "text": "Parque Nacional do Juruena"
+              "text": "Parque Nacional do Pico da Neblina"
             },
             {
               "id": "C1-O10",
-              "text": "Parque Nacional da Amazônia"
+              "text": "Parque Nacional do Jaú"
             },
             {
               "id": "C1-O11",
-              "text": "Parque Nacional do Tumucumaque"
+              "text": "Parque Nacional de Anavilhanas"
             },
             {
               "id": "C1-O12",
-              "text": "Parque Nacional da Serra do Pardo"
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
             }
           ],
           "answerId": "C1-O1",
           "answerText": "Parque Nacional da Serra do Divisor",
           "sources": [
-            "DIVISOR_JBRJ",
-            "DIVISOR_AC"
+            "DIVISOR_JBRJ"
           ]
         },
         {
           "id": "C2",
-          "label": "Relação hidrográfica",
+          "label": "Para quais bacias escoam as vertentes?",
           "options": [
             {
               "id": "C2-O1",
-              "text": "Divisor entre bacias do Juruá e do Ucayali"
+              "text": "Bacias do Juruá e do Ucayali"
             },
             {
               "id": "C2-O2",
-              "text": "Encontro dos rios Negro e Solimões"
+              "text": "Bacias do Juruá e do Purus"
             },
             {
               "id": "C2-O3",
-              "text": "Delta do rio Parnaíba"
+              "text": "Bacias do Purus e do Madeira"
             },
             {
               "id": "C2-O4",
-              "text": "Nascentes do rio São Francisco"
+              "text": "Bacias do Tapajós e do Xingu"
             }
           ],
           "answerId": "C2-O1",
-          "answerText": "Divisor entre bacias do Juruá e do Ucayali",
+          "answerText": "Bacias do Juruá e do Ucayali",
           "sources": [
-            "DIVISOR_JBRJ",
-            "DIVISOR_AC"
+            "DIVISOR_JBRJ"
           ]
         },
         {
@@ -1178,7 +1185,7 @@
             },
             {
               "id": "C4-O4",
-              "text": "Uruguai"
+              "text": "Bolívia"
             }
           ],
           "answerId": "C4-O1",
@@ -1205,8 +1212,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1222,8 +1229,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1239,8 +1246,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1256,8 +1263,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1273,8 +1280,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1324,8 +1331,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1341,8 +1348,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1375,8 +1382,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1392,8 +1399,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1409,8 +1416,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1426,8 +1433,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1443,8 +1450,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1528,8 +1535,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1596,8 +1603,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1635,8 +1642,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1652,8 +1659,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1669,8 +1676,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1686,8 +1693,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1703,8 +1710,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1754,8 +1761,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1771,8 +1778,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1805,8 +1812,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1822,8 +1829,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1839,8 +1846,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1856,8 +1863,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1873,8 +1880,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -1958,8 +1965,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2026,8 +2033,8 @@
                 "DIVISOR_AC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2054,7 +2061,8 @@
       "reveal": {
         "canonicalSummary": "Parque amazônico no extremo oeste do Acre, junto à fronteira peruana, em região de divisão entre bacias dos rios Juruá e Ucayali.",
         "editorialNotes": [
-          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas.",
+          "A marcação de força é editorial; a distribuição depende do motor e deve ser verificada em partidas."
         ]
       },
       "review": {
@@ -2150,27 +2158,27 @@
         },
         {
           "id": "C2",
-          "label": "Ambiente costeiro",
+          "label": "Formações predominantes no guia de 2008",
           "options": [
             {
               "id": "C2-O1",
-              "text": "Manguezais e campos alagáveis"
+              "text": "Campos alagáveis e manguezais"
             },
             {
               "id": "C2-O2",
-              "text": "Falésias de arenito e dunas"
+              "text": "Floresta de terra firme e savana amazônica"
             },
             {
               "id": "C2-O3",
-              "text": "Costões de gelo e fiordes"
+              "text": "Floresta ombrófila e campos rupestres"
             },
             {
               "id": "C2-O4",
-              "text": "Campos de altitude e cânions"
+              "text": "Dunas interiores e campos de altitude"
             }
           ],
           "answerId": "C2-O1",
-          "answerText": "Manguezais e campos alagáveis",
+          "answerText": "Campos alagáveis e manguezais",
           "sources": [
             "CABOORANGE_ICMBIO"
           ]
@@ -2204,27 +2212,27 @@
         },
         {
           "id": "C4",
-          "label": "Tipo de área protegida",
+          "label": "Aves migratórias do Hemisfério Norte citadas no guia",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Continental e marinha"
+              "text": "Maçaricos e batuíras"
             },
             {
               "id": "C4-O2",
-              "text": "Apenas cavernas subterrâneas"
+              "text": "Mutuns e jacus"
             },
             {
               "id": "C4-O3",
-              "text": "Exclusivamente de altitude"
+              "text": "Tucanos e araras"
             },
             {
               "id": "C4-O4",
-              "text": "Apenas margem de lago artificial"
+              "text": "Seriemas e emas"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Continental e marinha",
+          "answerText": "Maçaricos e batuíras",
           "sources": [
             "CABOORANGE_ICMBIO"
           ]
@@ -2245,8 +2253,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2255,14 +2263,14 @@
               "factKey": "norte-cabo-orange-F02",
               "text": "O lugar protege ambientes de terra e de mar.",
               "relatedFields": [
-                "C4"
+                "C1"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2271,14 +2279,14 @@
               "factKey": "norte-cabo-orange-F03",
               "text": "Parte do parque encontra o oceano Atlântico.",
               "relatedFields": [
-                "C4"
+                "C1"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2405,8 +2413,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2447,14 +2455,14 @@
               "factKey": "norte-cabo-orange-F14",
               "text": "Algumas aves usam a região para descansar durante viagens longas.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2463,14 +2471,14 @@
               "factKey": "norte-cabo-orange-F15",
               "text": "Parte das aves migratórias vem do Hemisfério Norte.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2479,14 +2487,14 @@
               "factKey": "norte-cabo-orange-F16",
               "text": "Maçaricos estão entre as aves observadas na costa.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2495,14 +2503,14 @@
               "factKey": "norte-cabo-orange-F17",
               "text": "Batuíras também usam praias e áreas costeiras.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2549,8 +2557,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2565,8 +2573,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2613,8 +2621,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2650,8 +2658,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2660,14 +2668,14 @@
               "factKey": "norte-cabo-orange-F02",
               "text": "A unidade articula a conservação terrestre com a proteção de uma faixa marítima costeira.",
               "relatedFields": [
-                "C4"
+                "C1"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2676,14 +2684,14 @@
               "factKey": "norte-cabo-orange-F03",
               "text": "O contato com o Atlântico integra a dinâmica marinha ao mosaico protegido.",
               "relatedFields": [
-                "C4"
+                "C1"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2810,8 +2818,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2852,14 +2860,14 @@
               "factKey": "norte-cabo-orange-F14",
               "text": "A costa funciona como área de alimentação e descanso em rotas de aves migratórias.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2868,14 +2876,14 @@
               "factKey": "norte-cabo-orange-F15",
               "text": "A presença de migrantes do Hemisfério Norte conecta esta área a rotas internacionais.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2884,14 +2892,14 @@
               "factKey": "norte-cabo-orange-F16",
               "text": "Maçaricos usam as áreas costeiras para alimentação durante os deslocamentos migratórios.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2900,14 +2908,14 @@
               "factKey": "norte-cabo-orange-F17",
               "text": "Batuíras figuram entre as aves associadas aos ambientes litorâneos.",
               "relatedFields": [
-                "C1"
+                "C4"
               ],
               "sources": [
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2954,8 +2962,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -2970,8 +2978,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -3018,8 +3026,8 @@
                 "CABOORANGE_ICMBIO"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -3045,7 +3053,8 @@
       "reveal": {
         "canonicalSummary": "Parque no litoral do Amapá, que reúne faixa marítima, manguezais, florestas e campos alagáveis.",
         "editorialNotes": [
-          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas.",
+          "A marcação de força é editorial; a distribuição depende do motor e deve ser verificada em partidas."
         ]
       },
       "review": {

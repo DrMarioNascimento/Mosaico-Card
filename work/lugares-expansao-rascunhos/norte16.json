@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "PARNA_AMAZ_ICMBIO": {
+      "id": "PARNA_AMAZ_ICMBIO",
+      "title": "Plano de Manejo do Parque Nacional da Amazônia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia/copy_of_plano_manejo_parna_amazonia_2021.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "PARNA_AMAZ_VIS": {
+      "id": "PARNA_AMAZ_VIS",
+      "title": "Informações sobre visitação — Parna da Amazônia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia/informacoes-sobre-visitacao-parna-da-amazonia/informacoes-sobre-visitacao-parna-da-amazonia",
+      "checkedAt": "2026-11-14"
+    },
+    "PARNA_AMAZ_FAPESPA": {
+      "id": "PARNA_AMAZ_FAPESPA",
+      "title": "Áreas Protegidas",
+      "publisher": "Fundação Amazônia de Amparo a Estudos e Pesquisas do Pará",
+      "url": "https://www.fapespa.pa.gov.br/sistemas/anuario2023/tabelas/meio-ambiente/tab-4.5-areas-protegidas-no-estado-do-para-e-seus-municipios-2023.htm",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-parna-amazonia",
+      "placeId": "norte-parna-amazonia",
+      "title": "Parque Nacional da Amazônia",
+      "aliases": [
+        "Parna da Amazônia"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Mapinguari"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Amazônia",
+          "sources": [
+            "PARNA_AMAZ_ICMBIO",
+            "PARNA_AMAZ_FAPESPA",
+            "PARNA_AMAZ_VIS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio associado ao parque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Iguaçu"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Tapajós",
+          "sources": [
+            "PARNA_AMAZ_ICMBIO",
+            "PARNA_AMAZ_FAPESPA",
+            "PARNA_AMAZ_VIS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estados abrangidos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pará e Amazonas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Acre e Rondônia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amapá e Pará"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tocantins e Goiás"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pará e Amazonas",
+          "sources": [
+            "PARNA_AMAZ_ICMBIO",
+            "PARNA_AMAZ_FAPESPA",
+            "PARNA_AMAZ_VIS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rodovia associada à área",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Transamazônica (BR-230)"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Cuiabá–Santarém (BR-163)"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Manaus–Porto Velho (BR-319)"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Manaus–Boa Vista (BR-174)"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Transamazônica (BR-230)",
+          "sources": [
+            "PARNA_AMAZ_ICMBIO",
+            "PARNA_AMAZ_FAPESPA",
+            "PARNA_AMAZ_VIS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-parna-amazonia-viajante-P01",
+              "factKey": "norte-parna-amazonia-F01",
+              "text": "Esta unidade federal protege uma área de floresta na região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P02",
+              "factKey": "norte-parna-amazonia-F02",
+              "text": "Foi criada na década de 1970.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P03",
+              "factKey": "norte-parna-amazonia-F03",
+              "text": "O ano de criação é 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P04",
+              "factKey": "norte-parna-amazonia-F04",
+              "text": "A área abrange partes do Pará e do Amazonas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P05",
+              "factKey": "norte-parna-amazonia-F05",
+              "text": "Itaituba é um dos municípios relacionados à área.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P06",
+              "factKey": "norte-parna-amazonia-F06",
+              "text": "O município de Aveiro também é abrangido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P07",
+              "factKey": "norte-parna-amazonia-F07",
+              "text": "Parte da unidade fica em Maués, no Amazonas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P08",
+              "factKey": "norte-parna-amazonia-F08",
+              "text": "Um grande rio de águas claras está associado à área.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P09",
+              "factKey": "norte-parna-amazonia-F09",
+              "text": "Esse rio é o Tapajós.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P10",
+              "factKey": "norte-parna-amazonia-F10",
+              "text": "Há corredeiras e praias fluviais na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P11",
+              "factKey": "norte-parna-amazonia-F11",
+              "text": "Uma rodovia atravessa a área protegida.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P12",
+              "factKey": "norte-parna-amazonia-F12",
+              "text": "Essa rodovia é conhecida como Transamazônica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P13",
+              "factKey": "norte-parna-amazonia-F13",
+              "text": "Existem muitas nascentes na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P14",
+              "factKey": "norte-parna-amazonia-F14",
+              "text": "As águas da área contribuem para a bacia do Tapajós.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P15",
+              "factKey": "norte-parna-amazonia-F15",
+              "text": "Outra parte da drenagem se liga à bacia do Maués-Açu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P16",
+              "factKey": "norte-parna-amazonia-F16",
+              "text": "A floresta densa é uma formação presente na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P17",
+              "factKey": "norte-parna-amazonia-F17",
+              "text": "Também há florestas abertas com palmeiras e cipós.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P18",
+              "factKey": "norte-parna-amazonia-F18",
+              "text": "Trechos de floresta ficam junto aos rios e igarapés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P19",
+              "factKey": "norte-parna-amazonia-F19",
+              "text": "Campinaranas aparecem em algumas manchas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P20",
+              "factKey": "norte-parna-amazonia-F20",
+              "text": "A ararajuba é uma das aves registradas no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P21",
+              "factKey": "norte-parna-amazonia-F21",
+              "text": "O gavião-real é outra ave encontrada na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P22",
+              "factKey": "norte-parna-amazonia-F22",
+              "text": "O parque abriga diferentes espécies de primatas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P23",
+              "factKey": "norte-parna-amazonia-F23",
+              "text": "Há sítios arqueológicos às margens de igarapés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P24",
+              "factKey": "norte-parna-amazonia-F24",
+              "text": "Os povos Sateré-Mawé e Munduruku estão ligados à história regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-viajante-P25",
+              "factKey": "norte-parna-amazonia-F25",
+              "text": "O garimpo pode afetar a qualidade da água na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-parna-amazonia-geografo-P01",
+              "factKey": "norte-parna-amazonia-F01",
+              "text": "A unidade de proteção integral conserva uma área florestal amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P02",
+              "factKey": "norte-parna-amazonia-F02",
+              "text": "O decreto de criação da unidade é da década de 1970.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P03",
+              "factKey": "norte-parna-amazonia-F03",
+              "text": "A criação ocorreu pelo decreto nº 73.683 em 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P04",
+              "factKey": "norte-parna-amazonia-F04",
+              "text": "A unidade se distribui por municípios dos estados do Pará e Amazonas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P05",
+              "factKey": "norte-parna-amazonia-F05",
+              "text": "O município paraense de Itaituba participa da abrangência territorial.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P06",
+              "factKey": "norte-parna-amazonia-F06",
+              "text": "A unidade alcança parte do território de Aveiro, no Pará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P07",
+              "factKey": "norte-parna-amazonia-F07",
+              "text": "Maués integra a porção amazonense da unidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P08",
+              "factKey": "norte-parna-amazonia-F08",
+              "text": "Um rio amazônico de águas claras estrutura parte da paisagem protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P09",
+              "factKey": "norte-parna-amazonia-F09",
+              "text": "O rio Tapajós é referência hidrográfica e paisagística da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P10",
+              "factKey": "norte-parna-amazonia-F10",
+              "text": "A variação do nível das águas expõe praias e corredeiras ao longo do rio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P11",
+              "factKey": "norte-parna-amazonia-F11",
+              "text": "A travessia rodoviária cria desafios de gestão para uma unidade de proteção integral.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P12",
+              "factKey": "norte-parna-amazonia-F12",
+              "text": "A BR-230, ou Transamazônica, corta cursos de água no território da unidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P13",
+              "factKey": "norte-parna-amazonia-F13",
+              "text": "As nascentes contribuem para redes hidrográficas que alimentam bacias amazônicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P14",
+              "factKey": "norte-parna-amazonia-F14",
+              "text": "A drenagem de parte das nascentes se relaciona à bacia do Tapajós.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P15",
+              "factKey": "norte-parna-amazonia-F15",
+              "text": "A proteção de nascentes também alcança a bacia do Maués-Açu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P16",
+              "factKey": "norte-parna-amazonia-F16",
+              "text": "Predomina a floresta ombrófila densa no mosaico de vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P17",
+              "factKey": "norte-parna-amazonia-F17",
+              "text": "As diferenças de relevo, solo e chuvas contribuem para a distribuição de formações florestais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P18",
+              "factKey": "norte-parna-amazonia-F18",
+              "text": "A floresta aluvial acompanha margens dos cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P19",
+              "factKey": "norte-parna-amazonia-F19",
+              "text": "Manchas de campinarana acrescentam diversidade ao mosaico ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P20",
+              "factKey": "norte-parna-amazonia-F20",
+              "text": "A presença da ararajuba destaca a importância da proteção de habitats para aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P21",
+              "factKey": "norte-parna-amazonia-F21",
+              "text": "O plano de manejo cita o gavião-real entre as aves de destaque para conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P22",
+              "factKey": "norte-parna-amazonia-F22",
+              "text": "A proteção de ambientes florestais mantém habitats de diversas espécies de primatas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P23",
+              "factKey": "norte-parna-amazonia-F23",
+              "text": "Sítios arqueológicos próximos aos igarapés registram a ocupação humana antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P24",
+              "factKey": "norte-parna-amazonia-F24",
+              "text": "O plano de manejo reconhece vínculos territoriais e históricos de povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parna-amazonia-geografo-P25",
+              "factKey": "norte-parna-amazonia-F25",
+              "text": "O plano identifica o garimpo como pressão sobre cursos de água e sua qualidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PARNA_AMAZ_ICMBIO",
+                "PARNA_AMAZ_FAPESPA",
+                "PARNA_AMAZ_VIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque nacional na região do Tapajós, em áreas do Pará e do Amazonas, com nascentes, florestas e sítios arqueológicos.",
+        "editorialNotes": [
+          "Unidade distinta da Floresta Nacional do Tapajós.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

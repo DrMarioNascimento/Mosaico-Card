@@ -1,0 +1,1186 @@
+{
+  "sources": {
+    "ROBBEN_UNESCO": {
+      "id": "ROBBEN_UNESCO",
+      "title": "Robben Island",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/916/",
+      "checkedAt": "2026-11-14"
+    },
+    "ROBBEN_GOV": {
+      "id": "ROBBEN_GOV",
+      "title": "Forestry, Fisheries and the Environment",
+      "publisher": "South African Government",
+      "url": "https://www.gov.za/about-sa/environment",
+      "checkedAt": "2026-11-14"
+    },
+    "ROBBEN_MUSEUM": {
+      "id": "ROBBEN_MUSEUM",
+      "title": "Prison period overview",
+      "publisher": "Robben Island Museum",
+      "url": "https://www.robben-island.org.za/prison-period-overview/",
+      "checkedAt": "2026-11-14"
+    },
+    "ROBBEN_QUARRY": {
+      "id": "ROBBEN_QUARRY",
+      "title": "Banishment and imprisonment landscape",
+      "publisher": "Robben Island Museum",
+      "url": "https://www.robben-island.org.za/banishment-1963-1995/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-ilha-robben",
+      "placeId": "ilha-robben",
+      "title": "Ilha Robben",
+      "aliases": [
+        "Robben"
+      ],
+      "answerType": "ilha e sítio histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ZA"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilha Robben"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha de Gorée"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha de Moçambique"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha de Zanzibar"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Santiago de Cabo Verde"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha do Sal"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha de São Tomé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha do Príncipe"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha de Madagascar"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha da Madeira"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha de Alcatraz"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha de Ellis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilha Robben",
+          "sources": [
+            "ROBBEN_UNESCO",
+            "ROBBEN_GOV",
+            "ROBBEN_MUSEUM",
+            "ROBBEN_QUARRY"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Figura histórica que ficou presa na ilha",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Nelson Mandela"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Kwame Nkrumah"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Patrice Lumumba"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Amílcar Cabral"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Nelson Mandela",
+          "sources": [
+            "ROBBEN_UNESCO",
+            "ROBBEN_GOV",
+            "ROBBEN_MUSEUM",
+            "ROBBEN_QUARRY"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Uso histórico durante o apartheid",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Prisão de segurança máxima"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Colônia penal agrícola"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Campo de prisioneiros de guerra"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Prisão para pessoas condenadas por pirataria"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Prisão de segurança máxima",
+          "sources": [
+            "ROBBEN_UNESCO",
+            "ROBBEN_GOV",
+            "ROBBEN_MUSEUM",
+            "ROBBEN_QUARRY"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "África do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Senegal"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Moçambique"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Gana"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "África do Sul",
+          "sources": [
+            "ROBBEN_UNESCO",
+            "ROBBEN_GOV",
+            "ROBBEN_MUSEUM",
+            "ROBBEN_QUARRY"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ilha-robben-viajante-P01",
+              "factKey": "ilha-robben-F01",
+              "text": "Este destino é uma ilha africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P02",
+              "factKey": "ilha-robben-F02",
+              "text": "Fica na África do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P03",
+              "factKey": "ilha-robben-F03",
+              "text": "Está próxima da Cidade do Cabo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P04",
+              "factKey": "ilha-robben-F04",
+              "text": "A ilha faz parte da província do Cabo Ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P05",
+              "factKey": "ilha-robben-F05",
+              "text": "O lugar já foi usado como prisão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P06",
+              "factKey": "ilha-robben-F06",
+              "text": "Também serviu como base militar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P07",
+              "factKey": "ilha-robben-F07",
+              "text": "A ilha já abrigou um hospital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P08",
+              "factKey": "ilha-robben-F08",
+              "text": "Alguns prédios antigos datam do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P09",
+              "factKey": "ilha-robben-F09",
+              "text": "Há restos de uma antiga capela.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P10",
+              "factKey": "ilha-robben-F10",
+              "text": "A ilha possui um farol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P11",
+              "factKey": "ilha-robben-F11",
+              "text": "Há vestígios militares da Segunda Guerra Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P12",
+              "factKey": "ilha-robben-F12",
+              "text": "O regime do apartheid usou a ilha para prender opositores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P13",
+              "factKey": "ilha-robben-F13",
+              "text": "Existiu ali uma prisão de segurança máxima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P14",
+              "factKey": "ilha-robben-F14",
+              "text": "Nelson Mandela esteve entre os presos políticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P15",
+              "factKey": "ilha-robben-F15",
+              "text": "Mandela passou 18 anos preso nessa ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P16",
+              "factKey": "ilha-robben-F16",
+              "text": "A ilha é um lugar de memória da luta contra o racismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P17",
+              "factKey": "ilha-robben-F17",
+              "text": "Alguns prisioneiros foram obrigados a trabalhar em pedreiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P18",
+              "factKey": "ilha-robben-F18",
+              "text": "Uma das pedreiras produzia calcário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P19",
+              "factKey": "ilha-robben-F19",
+              "text": "Parte da pedra retirada foi usada nas estradas da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P20",
+              "factKey": "ilha-robben-F20",
+              "text": "Uma reunião de ex-presos políticos aconteceu em 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P21",
+              "factKey": "ilha-robben-F21",
+              "text": "No encontro de 1995 foi criado um marco de pedras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P22",
+              "factKey": "ilha-robben-F22",
+              "text": "Os presos políticos foram libertados na década de 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P23",
+              "factKey": "ilha-robben-F23",
+              "text": "A ilha foi declarada monumento nacional em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P24",
+              "factKey": "ilha-robben-F24",
+              "text": "A UNESCO reconheceu o lugar como Patrimônio Mundial em 1999.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-viajante-P25",
+              "factKey": "ilha-robben-F25",
+              "text": "O museu local participa da preservação da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ilha-robben-geografo-P01",
+              "factKey": "ilha-robben-F01",
+              "text": "A carta representa uma ilha e um sítio histórico no continente africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P02",
+              "factKey": "ilha-robben-F02",
+              "text": "A ilha pertence ao território sul-africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P03",
+              "factKey": "ilha-robben-F03",
+              "text": "A ilha localiza-se ao largo da Cidade do Cabo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P04",
+              "factKey": "ilha-robben-F04",
+              "text": "Sua administração territorial integra a província sul-africana do Cabo Ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P05",
+              "factKey": "ilha-robben-F05",
+              "text": "Em diferentes períodos, o isolamento insular foi usado para encarceramento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P06",
+              "factKey": "ilha-robben-F06",
+              "text": "As edificações registram uma fase de uso militar da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P07",
+              "factKey": "ilha-robben-F07",
+              "text": "O local também foi usado para segregar e tratar pessoas consideradas socialmente indesejáveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P08",
+              "factKey": "ilha-robben-F08",
+              "text": "Edifícios administrativos do século XIX integram a paisagem histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P09",
+              "factKey": "ilha-robben-F09",
+              "text": "Uma capela e edifícios paroquiais fazem parte dos remanescentes históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P10",
+              "factKey": "ilha-robben-F10",
+              "text": "Um pequeno farol integra o conjunto edificado associado à navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P11",
+              "factKey": "ilha-robben-F11",
+              "text": "Estruturas militares junto ao porto testemunham o uso da ilha durante a Segunda Guerra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P12",
+              "factKey": "ilha-robben-F12",
+              "text": "O isolamento insular integrou o sistema de encarceramento político do apartheid.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P13",
+              "factKey": "ilha-robben-F13",
+              "text": "Uma prisão de segurança máxima para presos políticos passou a funcionar na década de 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P14",
+              "factKey": "ilha-robben-F14",
+              "text": "O líder sul-africano Nelson Mandela esteve encarcerado nessa ilha durante o apartheid.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P15",
+              "factKey": "ilha-robben-F15",
+              "text": "Dos 27 anos de prisão de Mandela, 18 foram cumpridos nessa ilha, segundo o governo sul-africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P16",
+              "factKey": "ilha-robben-F16",
+              "text": "Seu patrimônio edificado testemunha a repressão racial e a luta por direitos políticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P17",
+              "factKey": "ilha-robben-F17",
+              "text": "O trabalho compulsório em pedreiras integrou a experiência de prisioneiros políticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P18",
+              "factKey": "ilha-robben-F18",
+              "text": "A extração de calcário na ilha esteve ligada ao trabalho de pessoas encarceradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P19",
+              "factKey": "ilha-robben-F19",
+              "text": "O calcário extraído foi empregado no revestimento de vias insulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P20",
+              "factKey": "ilha-robben-F20",
+              "text": "Ex-presos políticos reuniram-se na ilha em 1995, após o fim do apartheid.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P21",
+              "factKey": "ilha-robben-F21",
+              "text": "Um conjunto de pedras, chamado isisivane, foi formado na entrada da pedreira por ex-presos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P22",
+              "factKey": "ilha-robben-F22",
+              "text": "A libertação dos presos políticos relaciona-se à rejeição do apartheid na década de 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P23",
+              "factKey": "ilha-robben-F23",
+              "text": "O reconhecimento como monumento nacional sul-africano ocorreu em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P24",
+              "factKey": "ilha-robben-F24",
+              "text": "A ilha foi inscrita na Lista do Patrimônio Mundial em 1999.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-robben-geografo-P25",
+              "factKey": "ilha-robben-F25",
+              "text": "O museu responsável pela gestão atua na conservação e interpretação do patrimônio insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROBBEN_UNESCO",
+                "ROBBEN_GOV",
+                "ROBBEN_MUSEUM",
+                "ROBBEN_QUARRY"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ilha da África do Sul usada como prisão de opositores durante o apartheid, onde Nelson Mandela cumpriu parte da pena.",
+        "editorialNotes": [
+          "A ilha teve usos diversos ao longo dos séculos; não se reduz toda a sua história a um único período.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1064 @@
+{
+  "sources": {
+    "VIRUNGA_UNESCO": {
+      "id": "VIRUNGA_UNESCO",
+      "title": "Virunga National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/63/",
+      "checkedAt": "2026-11-14"
+    },
+    "VIRUNGA_UNESCO2": {
+      "id": "VIRUNGA_UNESCO2",
+      "title": "Emergency response to tragic attack in Virunga National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/news/2114",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-virunga",
+      "placeId": "parque-virunga",
+      "title": "Parque Nacional de Virunga",
+      "aliases": [
+        "Virunga"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CD"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque ou reserva africana",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Virunga"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional das Montanhas Rwenzori"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Kahuzi-Biega"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Garamba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Bwindi"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional dos Vulcões de Ruanda"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Queen Elizabeth"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Serengeti"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Amboseli"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Kruger"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Kilimanjaro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Reserva de Caça de Selous"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Virunga",
+          "sources": [
+            "VIRUNGA_UNESCO",
+            "VIRUNGA_UNESCO2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Vulcão do parque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Nyiragongo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Kilimanjaro"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Monte Quênia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Monte Camarões"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Nyiragongo",
+          "sources": [
+            "VIRUNGA_UNESCO",
+            "VIRUNGA_UNESCO2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Lago associado ao parque",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lago Edward"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lago Chade"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lago Turkana"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lago Malawi"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Lago Edward",
+          "sources": [
+            "VIRUNGA_UNESCO",
+            "VIRUNGA_UNESCO2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País do parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "República Democrática do Congo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Uganda"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ruanda"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Quênia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "República Democrática do Congo",
+          "sources": [
+            "VIRUNGA_UNESCO",
+            "VIRUNGA_UNESCO2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-virunga-viajante-P01",
+              "factKey": "parque-virunga-F01",
+              "text": "O destino é um parque nacional africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P02",
+              "factKey": "parque-virunga-F02",
+              "text": "O parque fica na República Democrática do Congo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P03",
+              "factKey": "parque-virunga-F03",
+              "text": "Ele tem uma longa história de proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P04",
+              "factKey": "parque-virunga-F04",
+              "text": "A UNESCO o reconheceu como Patrimônio Mundial em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P05",
+              "factKey": "parque-virunga-F05",
+              "text": "O parque reúne montanhas e planícies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P06",
+              "factKey": "parque-virunga-F06",
+              "text": "Há savanas em parte da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P07",
+              "factKey": "parque-virunga-F07",
+              "text": "A paisagem também inclui áreas alagadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P08",
+              "factKey": "parque-virunga-F08",
+              "text": "Existem florestas nas montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P09",
+              "factKey": "parque-virunga-F09",
+              "text": "As maiores altitudes têm vegetação adaptada ao frio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P10",
+              "factKey": "parque-virunga-F10",
+              "text": "A região tem vulcões ativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P11",
+              "factKey": "parque-virunga-F11",
+              "text": "Um dos vulcões é o Nyiragongo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P12",
+              "factKey": "parque-virunga-F12",
+              "text": "O Nyamuragira é outro vulcão da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P13",
+              "factKey": "parque-virunga-F13",
+              "text": "O Nyiragongo é conhecido por um lago de lava em sua cratera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P14",
+              "factKey": "parque-virunga-F14",
+              "text": "O parque está em uma área do Grande Vale do Rift.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P15",
+              "factKey": "parque-virunga-F15",
+              "text": "Montanhas de Rwenzori alcançam a área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P16",
+              "factKey": "parque-virunga-F16",
+              "text": "Parte das montanhas faz fronteira com Uganda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P17",
+              "factKey": "parque-virunga-F17",
+              "text": "Algumas montanhas têm neve e gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P18",
+              "factKey": "parque-virunga-F18",
+              "text": "O lago Edward faz parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P19",
+              "factKey": "parque-virunga-F19",
+              "text": "Hipopótamos estão entre os animais associados ao lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P20",
+              "factKey": "parque-virunga-F20",
+              "text": "O gorila-das-montanhas é uma espécie protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P21",
+              "factKey": "parque-virunga-F21",
+              "text": "Há também chimpanzés na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P22",
+              "factKey": "parque-virunga-F22",
+              "text": "A fauna inclui elefantes e búfalos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P23",
+              "factKey": "parque-virunga-F23",
+              "text": "O ocapi é um animal raro mencionado para o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P24",
+              "factKey": "parque-virunga-F24",
+              "text": "Corredores ligam diferentes setores naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-viajante-P25",
+              "factKey": "parque-virunga-F25",
+              "text": "A conservação enfrenta pressões como desmatamento e caça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-virunga-geografo-P01",
+              "factKey": "parque-virunga-F01",
+              "text": "A carta representa um parque nacional situado no continente africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P02",
+              "factKey": "parque-virunga-F02",
+              "text": "A área protegida situa-se na República Democrática do Congo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P03",
+              "factKey": "parque-virunga-F03",
+              "text": "A área possui status de parque nacional desde 1925.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P04",
+              "factKey": "parque-virunga-F04",
+              "text": "A inscrição da unidade na Lista do Patrimônio Mundial ocorreu em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P05",
+              "factKey": "parque-virunga-F05",
+              "text": "O relevo da unidade abrange desde planícies até maciços montanhosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P06",
+              "factKey": "parque-virunga-F06",
+              "text": "A unidade protege ambientes de savana no mosaico de habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P07",
+              "factKey": "parque-virunga-F07",
+              "text": "Pântanos integram o conjunto de ambientes protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P08",
+              "factKey": "parque-virunga-F08",
+              "text": "Florestas afro-montanas ocupam parte das encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P09",
+              "factKey": "parque-virunga-F09",
+              "text": "A vegetação afro-alpina ocorre nas zonas de maior altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P10",
+              "factKey": "parque-virunga-F10",
+              "text": "A paisagem do sul do parque inclui vulcões ativos associados ao Rift Albertino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P11",
+              "factKey": "parque-virunga-F11",
+              "text": "O vulcão Nyiragongo é uma das estruturas vulcânicas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P12",
+              "factKey": "parque-virunga-F12",
+              "text": "O Nyamuragira, próximo ao Nyiragongo, é citado pela UNESCO como vulcão ativo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P13",
+              "factKey": "parque-virunga-F13",
+              "text": "O registro de um lago de lava na cratera do Nyiragongo ilustra a atividade vulcânica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P14",
+              "factKey": "parque-virunga-F14",
+              "text": "A extensão da crosta no Rift Albertino está ligada à formação do maciço vulcânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P15",
+              "factKey": "parque-virunga-F15",
+              "text": "O setor norte abrange parte do maciço transfronteiriço de Rwenzori.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P16",
+              "factKey": "parque-virunga-F16",
+              "text": "O parque confina com área protegida ugandense nas Montanhas Rwenzori.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P17",
+              "factKey": "parque-virunga-F17",
+              "text": "As maiores altitudes de Rwenzori incluem campos de neve e geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P18",
+              "factKey": "parque-virunga-F18",
+              "text": "O lago Edward conecta ambientes aquáticos no interior do mosaico protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P19",
+              "factKey": "parque-virunga-F19",
+              "text": "Hipopótamos utilizam áreas ribeirinhas e margens do lago Edward.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P20",
+              "factKey": "parque-virunga-F20",
+              "text": "O parque funciona como refúgio para o gorila-das-montanhas, ameaçado de extinção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P21",
+              "factKey": "parque-virunga-F21",
+              "text": "O chimpanzé-oriental está entre os grandes primatas que utilizam a área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P22",
+              "factKey": "parque-virunga-F22",
+              "text": "Elefantes e búfalos integram a fauna dos ambientes protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P23",
+              "factKey": "parque-virunga-F23",
+              "text": "O ocapi é endêmico da República Democrática do Congo e citado entre os animais do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P24",
+              "factKey": "parque-virunga-F24",
+              "text": "Corredores ecológicos e áreas vizinhas ajudam a conectar diferentes setores do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-virunga-geografo-P25",
+              "factKey": "parque-virunga-F25",
+              "text": "A gestão precisa enfrentar caça ilegal, desmatamento e pressões sobre recursos naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUNGA_UNESCO",
+                "VIRUNGA_UNESCO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque na República Democrática do Congo, com vulcões, parte das montanhas Rwenzori, lago Edward e gorilas-das-montanhas.",
+        "editorialNotes": [
+          "Não confundir com o Parque Nacional das Montanhas Rwenzori, em Uganda, que faz fronteira com esta unidade. O registro de lago de lava não pressupõe que ele esteja presente em todo momento.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

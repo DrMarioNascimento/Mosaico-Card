@@ -1,0 +1,1249 @@
+{
+  "sources": {
+    "CENTRO_XIN_FUNAI": {
+      "id": "CENTRO_XIN_FUNAI",
+      "title": "Território indígena e seus povos",
+      "publisher": "Fundação Nacional dos Povos Indígenas",
+      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2026/funai-ibama-e-policia-civil-realizam-fiscalizacao-contra-exploracao-ilegal-de-madeira-no-territorio-indigena-do-xingu",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_XIN_POVO": {
+      "id": "CENTRO_XIN_POVO",
+      "title": "Território e transição entre biomas",
+      "publisher": "Museu do Índio",
+      "url": "https://prodocult.museudoindio.gov.br/index.php?Itemid=477&id=61&option=com_content&view=article",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_XIN_FOGO": {
+      "id": "CENTRO_XIN_FOGO",
+      "title": "Saberes indígenas e manejo do fogo",
+      "publisher": "Revista Biodiversidade Brasileira - ICMBio",
+      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/view/1340",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_XIN_GESTAO": {
+      "id": "CENTRO_XIN_GESTAO",
+      "title": "Gestão territorial por organizações indígenas",
+      "publisher": "Fundo Amazônia",
+      "url": "https://www.fundoamazonia.gov.br/pt/projeto/Gestao-das-Terras-Indigenas-das-Bacias-do-Rio-Negro-e-Xingu/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_XIN_FUNAI2": {
+      "id": "CENTRO_XIN_FUNAI2",
+      "title": "Planejamento de proteção territorial",
+      "publisher": "Fundação Nacional dos Povos Indígenas",
+      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2026/funai-e-povos-do-xingu-realizam-semana-de-planejamento-para-fortalecer-protecao-territorial",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-territorio-indigena-xingu",
+      "placeId": "territorio-indigena-xingu",
+      "title": "Território Indígena do Xingu",
+      "aliases": [
+        "Xingu"
+      ],
+      "answerType": "território indígena",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Território indígena",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Território Indígena do Xingu"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Terra Indígena Yanomami"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Terra Indígena Raposa Serra do Sol"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Terra Indígena Alto Rio Negro"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Terra Indígena Kayapó"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Terra Indígena Vale do Javari"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Terra Indígena Arariboia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Terra Indígena Parque do Araguaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Terra Indígena Marãiwatsédé"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Terra Indígena Uru-Eu-Wau-Wau"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Terra Indígena Pataxó de Barra Velha"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Terra Indígena Kadiwéu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Território Indígena do Xingu",
+          "sources": [
+            "CENTRO_XIN_FUNAI",
+            "CENTRO_XIN_POVO",
+            "CENTRO_XIN_FOGO",
+            "CENTRO_XIN_GESTAO",
+            "CENTRO_XIN_FUNAI2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estado onde se situa",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Roraima"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Acre"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Maranhão"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mato Grosso",
+          "sources": [
+            "CENTRO_XIN_FUNAI",
+            "CENTRO_XIN_POVO",
+            "CENTRO_XIN_FOGO",
+            "CENTRO_XIN_GESTAO",
+            "CENTRO_XIN_FUNAI2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes em transição",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cerrado e Floresta Amazônica"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mata Atlântica e Pampa"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Caatinga e manguezal oceânico"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pantanal e dunas costeiras"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cerrado e Floresta Amazônica",
+          "sources": [
+            "CENTRO_XIN_FUNAI",
+            "CENTRO_XIN_POVO",
+            "CENTRO_XIN_FOGO",
+            "CENTRO_XIN_GESTAO",
+            "CENTRO_XIN_FUNAI2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Povos presentes no território",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Aweti, Kuikuro e Yudja"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Yanomami, Ye’kwana e Sanöma"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Guarani, Kaingang e Xokleng"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pataxó, Tupinambá e Potiguara"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Aweti, Kuikuro e Yudja",
+          "sources": [
+            "CENTRO_XIN_FUNAI",
+            "CENTRO_XIN_POVO",
+            "CENTRO_XIN_FOGO",
+            "CENTRO_XIN_GESTAO",
+            "CENTRO_XIN_FUNAI2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "territorio-indigena-xingu-viajante-P01",
+              "factKey": "territorio-indigena-xingu-F01",
+              "text": "Este destino é um território de povos indígenas no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P02",
+              "factKey": "territorio-indigena-xingu-F02",
+              "text": "Fica no estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P03",
+              "factKey": "territorio-indigena-xingu-F03",
+              "text": "Reúne diferentes povos, línguas e tradições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P04",
+              "factKey": "territorio-indigena-xingu-F04",
+              "text": "A Funai informa a presença de 16 povos nesse território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P05",
+              "factKey": "territorio-indigena-xingu-F05",
+              "text": "Sua área inclui um parque indígena criado em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P06",
+              "factKey": "territorio-indigena-xingu-F06",
+              "text": "Outras terras indígenas reconhecidas depois também integram o território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P07",
+              "factKey": "territorio-indigena-xingu-F07",
+              "text": "Uma dessas terras tem o nome de Wawi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P08",
+              "factKey": "territorio-indigena-xingu-F08",
+              "text": "Outra terra é chamada Batovi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P09",
+              "factKey": "territorio-indigena-xingu-F09",
+              "text": "A terra Pequizal do Naruvôtu também integra o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P10",
+              "factKey": "territorio-indigena-xingu-F10",
+              "text": "Há povos chamados Aweti e Ikpeng entre seus habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P11",
+              "factKey": "territorio-indigena-xingu-F11",
+              "text": "Kalapalo e Kamaiurá são outros povos que vivem ali.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P12",
+              "factKey": "territorio-indigena-xingu-F12",
+              "text": "O povo Kuikuro também integra a diversidade local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P13",
+              "factKey": "territorio-indigena-xingu-F13",
+              "text": "Waurá e Yudja são outros povos presentes no território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P14",
+              "factKey": "territorio-indigena-xingu-F14",
+              "text": "A área fica em uma região de transição entre Cerrado e Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P15",
+              "factKey": "territorio-indigena-xingu-F15",
+              "text": "Florestas e áreas de vegetação do Cerrado compõem a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P16",
+              "factKey": "territorio-indigena-xingu-F16",
+              "text": "Os povos têm formas próprias de conhecer e cuidar da terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P17",
+              "factKey": "territorio-indigena-xingu-F17",
+              "text": "Lideranças indígenas participam da proteção territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P18",
+              "factKey": "territorio-indigena-xingu-F18",
+              "text": "Associações indígenas também atuam na gestão da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P19",
+              "factKey": "territorio-indigena-xingu-F19",
+              "text": "A vigilância territorial ajuda a proteger as comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P20",
+              "factKey": "territorio-indigena-xingu-F20",
+              "text": "O combate a incêndios faz parte das preocupações atuais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P21",
+              "factKey": "territorio-indigena-xingu-F21",
+              "text": "Saberes tradicionais participam do manejo do fogo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P22",
+              "factKey": "territorio-indigena-xingu-F22",
+              "text": "O território inclui comunidades organizadas em aldeias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P23",
+              "factKey": "territorio-indigena-xingu-F23",
+              "text": "A proteção da biodiversidade está ligada à vida dos povos locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P24",
+              "factKey": "territorio-indigena-xingu-F24",
+              "text": "Um plano de gestão territorial e ambiental foi elaborado para o parque indígena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-viajante-P25",
+              "factKey": "territorio-indigena-xingu-F25",
+              "text": "A Funai participa de ações articuladas com organizações indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "territorio-indigena-xingu-geografo-P01",
+              "factKey": "territorio-indigena-xingu-F01",
+              "text": "O objeto é um território composto por terras indígenas oficialmente reconhecidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P02",
+              "factKey": "territorio-indigena-xingu-F02",
+              "text": "A área situa-se no estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P03",
+              "factKey": "territorio-indigena-xingu-F03",
+              "text": "É habitada por povos com línguas e trajetórias socioculturais distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P04",
+              "factKey": "territorio-indigena-xingu-F04",
+              "text": "A Funai identifica 16 povos indígenas no território mais amplo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P05",
+              "factKey": "territorio-indigena-xingu-F05",
+              "text": "O parque indígena que integra esse conjunto foi criado em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P06",
+              "factKey": "territorio-indigena-xingu-F06",
+              "text": "O território mais amplo reúne o parque e outras terras reconhecidas posteriormente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P07",
+              "factKey": "territorio-indigena-xingu-F07",
+              "text": "Wawi é uma das terras indígenas integrantes do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P08",
+              "factKey": "territorio-indigena-xingu-F08",
+              "text": "Batovi é outra terra indígena associada ao território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P09",
+              "factKey": "territorio-indigena-xingu-F09",
+              "text": "Pequizal do Naruvôtu completa o grupo de áreas mencionado pela Funai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P10",
+              "factKey": "territorio-indigena-xingu-F10",
+              "text": "Aweti e Ikpeng estão entre os povos presentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P11",
+              "factKey": "territorio-indigena-xingu-F11",
+              "text": "Kalapalo e Kamaiurá integram a diversidade do território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P12",
+              "factKey": "territorio-indigena-xingu-F12",
+              "text": "O povo Kuikuro também participa dessa diversidade sociocultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P13",
+              "factKey": "territorio-indigena-xingu-F13",
+              "text": "Waurá e Yudja são outros povos presentes na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P14",
+              "factKey": "territorio-indigena-xingu-F14",
+              "text": "O território abrange uma zona de contato entre os domínios do Cerrado e da Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P15",
+              "factKey": "territorio-indigena-xingu-F15",
+              "text": "A variedade de formações vegetais relaciona-se à posição de transição ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P16",
+              "factKey": "territorio-indigena-xingu-F16",
+              "text": "Conhecimentos indígenas orientam formas locais de manejo e ocupação da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P17",
+              "factKey": "territorio-indigena-xingu-F17",
+              "text": "Lideranças e organizações indígenas participam da governança territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P18",
+              "factKey": "territorio-indigena-xingu-F18",
+              "text": "A associação indígena ATIX atua em ações de proteção e gestão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P19",
+              "factKey": "territorio-indigena-xingu-F19",
+              "text": "A vigilância comunitária integra o monitoramento territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P20",
+              "factKey": "territorio-indigena-xingu-F20",
+              "text": "Mudanças no entorno e incêndios representam desafios para a proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P21",
+              "factKey": "territorio-indigena-xingu-F21",
+              "text": "Práticas indígenas de manejo do fogo dialogam com estratégias preventivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P22",
+              "factKey": "territorio-indigena-xingu-F22",
+              "text": "As aldeias reúnem comunidades com diferentes formas de organização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P23",
+              "factKey": "territorio-indigena-xingu-F23",
+              "text": "A integridade territorial e a conservação ambiental apoiam os modos de vida locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P24",
+              "factKey": "territorio-indigena-xingu-F24",
+              "text": "O plano de gestão territorial e ambiental orienta ações discutidas com os povos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "territorio-indigena-xingu-geografo-P25",
+              "factKey": "territorio-indigena-xingu-F25",
+              "text": "A Funai atua em articulação com as comunidades e suas organizações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_XIN_FUNAI",
+                "CENTRO_XIN_POVO",
+                "CENTRO_XIN_FOGO",
+                "CENTRO_XIN_GESTAO",
+                "CENTRO_XIN_FUNAI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Território Indígena do Xingu, em Mato Grosso, reúne terras habitadas por diferentes povos e uma zona de transição entre Cerrado e Amazônia.",
+        "editorialNotes": [
+          "A carta aborda um território vivo e os direitos de seus povos; não o apresenta como atração turística.",
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

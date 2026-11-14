@@ -1,0 +1,1026 @@
+{
+  "sources": {
+    "SE_NIT_IBGE": {
+      "id": "SE_NIT_IBGE",
+      "title": "Niterói (RJ): Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/niteroi.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_HIST": {
+      "id": "SE_NIT_HIST",
+      "title": "História da cidade",
+      "publisher": "Prefeitura de Niterói",
+      "url": "https://niteroi.rj.gov.br/niteroi/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_MUSEUS": {
+      "id": "SE_NIT_MUSEUS",
+      "title": "Museus",
+      "publisher": "Prefeitura de Niterói",
+      "url": "https://niteroi.rj.gov.br/museus/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_CIDADE": {
+      "id": "SE_NIT_CIDADE",
+      "title": "História urbana",
+      "publisher": "Visit Niterói",
+      "url": "https://visit.niteroi.br/a-cidade/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-niteroi",
+      "placeId": "cidade-niteroi",
+      "title": "Niterói",
+      "aliases": [
+        "Cidade de Niterói"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Niterói"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Petrópolis"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Teresópolis"
+            },
+            {
+              "id": "C1-O5",
+              "text": "São Gonçalo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Vila Velha"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O10",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Santos"
+            },
+            {
+              "id": "C1-O12",
+              "text": "São Vicente"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Niterói",
+          "sources": [
+            "SE_NIT_CIDADE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Província da qual a cidade foi capital em 1834",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Minas Gerais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Espírito Santo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio de Janeiro",
+          "sources": [
+            "SE_NIT_CIDADE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Arquiteto do museu de arte contemporânea citado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Oscar Niemeyer"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lina Bo Bardi"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lúcio Costa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Vilanova Artigas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Oscar Niemeyer",
+          "sources": [
+            "SE_NIT_MUSEUS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano de inauguração da ponte rodoviária entre as margens da baía",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1974"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1956"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1989"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1996"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1974",
+          "sources": [
+            "SE_NIT_CIDADE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-niteroi-viajante-P01",
+              "factKey": "cidade-niteroi-F01",
+              "text": "Esta é uma cidade brasileira próxima ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P02",
+              "factKey": "cidade-niteroi-F02",
+              "text": "O destino fica no Sudeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P03",
+              "factKey": "cidade-niteroi-F03",
+              "text": "Uma baía faz parte da paisagem local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P04",
+              "factKey": "cidade-niteroi-F04",
+              "text": "A cidade fica no estado do Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P05",
+              "factKey": "cidade-niteroi-F05",
+              "text": "Uma ponte rodoviária cruza a baía e liga a cidade à capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P06",
+              "factKey": "cidade-niteroi-F06",
+              "text": "Essa ponte foi inaugurada em 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P07",
+              "factKey": "cidade-niteroi-F07",
+              "text": "Também houve transporte por barcas na travessia da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P08",
+              "factKey": "cidade-niteroi-F08",
+              "text": "A cidade já foi capital de uma província brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P09",
+              "factKey": "cidade-niteroi-F09",
+              "text": "Mais tarde ela perdeu a condição de capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P10",
+              "factKey": "cidade-niteroi-F10",
+              "text": "Em 1975 ocorreu a fusão do estado com a antiga Guanabara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P11",
+              "factKey": "cidade-niteroi-F11",
+              "text": "Um líder indígena chamado Arariboia está ligado à formação da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P12",
+              "factKey": "cidade-niteroi-F12",
+              "text": "O núcleo indígena inicial foi conhecido como São Lourenço dos Índios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P13",
+              "factKey": "cidade-niteroi-F13",
+              "text": "A fundação lembrada pela prefeitura é de 1573.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P14",
+              "factKey": "cidade-niteroi-F14",
+              "text": "Em 1817 a localidade foi elevada a vila.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P15",
+              "factKey": "cidade-niteroi-F15",
+              "text": "A localidade passou a cidade em 1834.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P16",
+              "factKey": "cidade-niteroi-F16",
+              "text": "O bairro de Icaraí integra o município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P17",
+              "factKey": "cidade-niteroi-F17",
+              "text": "O Campo de São Bento é um espaço urbano no bairro de Icaraí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P18",
+              "factKey": "cidade-niteroi-F18",
+              "text": "Um museu de arte contemporânea fica em um mirante junto à baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P19",
+              "factKey": "cidade-niteroi-F19",
+              "text": "O arquiteto Oscar Niemeyer desenhou esse museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P20",
+              "factKey": "cidade-niteroi-F20",
+              "text": "A forma do museu lembra uma flor ou uma nave.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P21",
+              "factKey": "cidade-niteroi-F21",
+              "text": "Uma rampa vermelha conduz visitantes ao edifício.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P22",
+              "factKey": "cidade-niteroi-F22",
+              "text": "O museu foi inaugurado em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P23",
+              "factKey": "cidade-niteroi-F23",
+              "text": "O Solar do Jambeiro é uma construção histórica do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P24",
+              "factKey": "cidade-niteroi-F24",
+              "text": "Há um museu de arqueologia em Itaipu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-viajante-P25",
+              "factKey": "cidade-niteroi-F25",
+              "text": "O município tinha 481.749 habitantes no Censo 2022 do IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-niteroi-geografo-P01",
+              "factKey": "cidade-niteroi-F01",
+              "text": "O destino é um município costeiro da rede urbana do Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P02",
+              "factKey": "cidade-niteroi-F02",
+              "text": "A cidade se relaciona à região metropolitana de uma capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P03",
+              "factKey": "cidade-niteroi-F03",
+              "text": "Sua localização na baía influencia as conexões com municípios vizinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P04",
+              "factKey": "cidade-niteroi-F04",
+              "text": "O município pertence ao estado do Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P05",
+              "factKey": "cidade-niteroi-F05",
+              "text": "Uma ponte rodoviária atravessa a baía e conecta o município à capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P06",
+              "factKey": "cidade-niteroi-F06",
+              "text": "A ligação rodoviária foi inaugurada em 1974.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P07",
+              "factKey": "cidade-niteroi-F07",
+              "text": "A navegação por barcas também marcou a mobilidade entre as duas margens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P08",
+              "factKey": "cidade-niteroi-F08",
+              "text": "Em 1834 o município tornou-se capital da então Província do Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P09",
+              "factKey": "cidade-niteroi-F09",
+              "text": "A reorganização estadual de 1975 retirou-lhe a condição de capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P10",
+              "factKey": "cidade-niteroi-F10",
+              "text": "A mudança resultou da fusão dos antigos estados do Rio de Janeiro e da Guanabara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P11",
+              "factKey": "cidade-niteroi-F11",
+              "text": "O líder indígena temiminó Arariboia participou da formação do núcleo local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P12",
+              "factKey": "cidade-niteroi-F12",
+              "text": "A aldeia inicial recebeu o nome de São Lourenço dos Índios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P13",
+              "factKey": "cidade-niteroi-F13",
+              "text": "A posse das terras associada à fundação da aldeia ocorreu em 1573.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P14",
+              "factKey": "cidade-niteroi-F14",
+              "text": "A elevação à categoria de vila ocorreu em 1817.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P15",
+              "factKey": "cidade-niteroi-F15",
+              "text": "A elevação à categoria de cidade ocorreu em 1834.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_CIDADE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P16",
+              "factKey": "cidade-niteroi-F16",
+              "text": "Icaraí é um bairro do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P17",
+              "factKey": "cidade-niteroi-F17",
+              "text": "A urbanização do Campo de São Bento integra a história do bairro de Icaraí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P18",
+              "factKey": "cidade-niteroi-F18",
+              "text": "Um museu de arte contemporânea se ergue sobre mirante voltado à baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P19",
+              "factKey": "cidade-niteroi-F19",
+              "text": "O edifício do museu foi projetado por Oscar Niemeyer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P20",
+              "factKey": "cidade-niteroi-F20",
+              "text": "A geometria do edifício é associada a uma forma de flor ou nave.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P21",
+              "factKey": "cidade-niteroi-F21",
+              "text": "Uma rampa externa conduz aos andares do museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P22",
+              "factKey": "cidade-niteroi-F22",
+              "text": "A inauguração do museu ocorreu em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P23",
+              "factKey": "cidade-niteroi-F23",
+              "text": "O Solar do Jambeiro exemplifica arquitetura residencial urbana do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P24",
+              "factKey": "cidade-niteroi-F24",
+              "text": "O Museu de Arqueologia de Itaipu divulga vestígios de povos que viveram na região antes de 1500.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_MUSEUS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-niteroi-geografo-P25",
+              "factKey": "cidade-niteroi-F25",
+              "text": "O Censo 2022 do IBGE registrou 481.749 habitantes no município, sem somar a capital vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_NIT_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Município da baía de Guanabara que já sediou o governo provincial e abriga um museu de arte contemporânea.",
+        "editorialNotes": [
+          "A capital vizinha é pauta relacionada porém distinta; a população informada é municipal.",
+          "Fonte institucional consultada; calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

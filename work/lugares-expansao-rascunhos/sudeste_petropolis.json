@@ -1,0 +1,1033 @@
+{
+  "sources": {
+    "SE_PET_IBGE": {
+      "id": "SE_PET_IBGE",
+      "title": "Petrópolis: Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rj/petropolis.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_PET_MUSEU": {
+      "id": "SE_PET_MUSEU",
+      "title": "Histórico e personagens",
+      "publisher": "Museu Imperial / Ibram",
+      "url": "https://museuimperial.museus.gov.br/historico-e-personagens/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_PET_GUIA": {
+      "id": "SE_PET_GUIA",
+      "title": "Guia de visitação do Museu Imperial",
+      "publisher": "Museu Imperial / Ibram",
+      "url": "https://museuimperial.museus.gov.br/wp-content/uploads/2020/03/guia-visitacao.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_PET_TUR": {
+      "id": "SE_PET_TUR",
+      "title": "Turismo em Petrópolis",
+      "publisher": "Secretaria de Turismo do Rio de Janeiro",
+      "url": "https://www.turismo.rj.gov.br/cidades/petropolis/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_PET_CASA": {
+      "id": "SE_PET_CASA",
+      "title": "Museu Casa de Santos Dumont",
+      "publisher": "Instituto Brasileiro de Museus",
+      "url": "https://visite.museus.gov.br/instituicoes/museu-casa-de-santos-dumont/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-petropolis",
+      "placeId": "cidade-petropolis",
+      "title": "Petrópolis",
+      "aliases": [
+        "Cidade de Petrópolis"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Petrópolis"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Teresópolis"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Nova Friburgo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Campos do Jordão"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Tiradentes"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Pirenópolis"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São João del-Rei"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O11",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio de Janeiro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Petrópolis",
+          "sources": [
+            "SE_PET_MUSEU"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Finalidade inicial do edifício do atual museu",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Residência de verão da família imperial"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Colégio particular"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Museu histórico"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Residência de presidentes republicanos"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Residência de verão da família imperial",
+          "sources": [
+            "SE_PET_MUSEU"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Engenheiro do projeto inicial do palácio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Julius Friedrich Koeler"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Aarão Reis"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Attílio Corrêa Lima"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Francisco Bicalho"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Julius Friedrich Koeler",
+          "sources": [
+            "SE_PET_MUSEU"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Fazenda adquirida em 1830 para futura residência serrana",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Fazenda do Córrego Seco"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Fazenda do Padre Correia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Fazenda Imperial de Santa Cruz"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Fazenda de São Bento"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Fazenda do Córrego Seco",
+          "sources": [
+            "SE_PET_MUSEU"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-petropolis-viajante-P01",
+              "factKey": "cidade-petropolis-F01",
+              "text": "É uma cidade brasileira de região serrana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P02",
+              "factKey": "cidade-petropolis-F02",
+              "text": "O destino fica no Sudeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P03",
+              "factKey": "cidade-petropolis-F03",
+              "text": "Seu patrimônio inclui edifícios e jardins históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P04",
+              "factKey": "cidade-petropolis-F04",
+              "text": "A cidade fica no estado do Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P05",
+              "factKey": "cidade-petropolis-F05",
+              "text": "Uma antiga residência da família imperial fica no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P06",
+              "factKey": "cidade-petropolis-F06",
+              "text": "O edifício abriga hoje um museu sobre o período imperial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P07",
+              "factKey": "cidade-petropolis-F07",
+              "text": "Dom Pedro II usava o antigo palácio como residência de verão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P08",
+              "factKey": "cidade-petropolis-F08",
+              "text": "A construção do palácio começou em 1845.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P09",
+              "factKey": "cidade-petropolis-F09",
+              "text": "A obra foi concluída em 1862.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P10",
+              "factKey": "cidade-petropolis-F10",
+              "text": "O decreto de criação da cidade foi assinado em 1843.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P11",
+              "factKey": "cidade-petropolis-F11",
+              "text": "Um engenheiro conhecido pelo sobrenome Koeler participou do planejamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P12",
+              "factKey": "cidade-petropolis-F12",
+              "text": "Imigrantes europeus participaram da construção do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P13",
+              "factKey": "cidade-petropolis-F13",
+              "text": "Muitos desses imigrantes eram alemães.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P14",
+              "factKey": "cidade-petropolis-F14",
+              "text": "Antes do palácio, existia na área a Fazenda do Córrego Seco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P15",
+              "factKey": "cidade-petropolis-F15",
+              "text": "Dom Pedro I comprou essa fazenda em 1830.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P16",
+              "factKey": "cidade-petropolis-F16",
+              "text": "Seu filho herdou a propriedade e construiu ali a residência de verão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P17",
+              "factKey": "cidade-petropolis-F17",
+              "text": "Um paisagista chamado Jean-Baptiste Binot trabalhou nos jardins do palácio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P18",
+              "factKey": "cidade-petropolis-F18",
+              "text": "Depois do período imperial, o prédio abrigou escolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P19",
+              "factKey": "cidade-petropolis-F19",
+              "text": "O Museu Imperial foi criado em 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P20",
+              "factKey": "cidade-petropolis-F20",
+              "text": "O museu foi inaugurado em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P21",
+              "factKey": "cidade-petropolis-F21",
+              "text": "O acervo do museu inclui objetos associados ao Segundo Reinado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P22",
+              "factKey": "cidade-petropolis-F22",
+              "text": "Uma casa-museu ligada ao inventor Santos Dumont é uma atração local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_CASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P23",
+              "factKey": "cidade-petropolis-F23",
+              "text": "Essa casa foi construída em 1918.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_CASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P24",
+              "factKey": "cidade-petropolis-F24",
+              "text": "O Palácio de Cristal é outro atrativo da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-viajante-P25",
+              "factKey": "cidade-petropolis-F25",
+              "text": "O município registrou 278.881 habitantes no Censo 2022 do IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-petropolis-geografo-P01",
+              "factKey": "cidade-petropolis-F01",
+              "text": "O objeto da carta é um município serrano da região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P02",
+              "factKey": "cidade-petropolis-F02",
+              "text": "Seu núcleo urbano associa relevo de montanha e patrimônio construído.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P03",
+              "factKey": "cidade-petropolis-F03",
+              "text": "A paisagem inclui edificações e jardins de valor histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P04",
+              "factKey": "cidade-petropolis-F04",
+              "text": "O município situa-se no estado do Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P05",
+              "factKey": "cidade-petropolis-F05",
+              "text": "Seu patrimônio inclui uma antiga residência da família imperial brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P06",
+              "factKey": "cidade-petropolis-F06",
+              "text": "O antigo palácio foi adaptado para abrigar um museu de história imperial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P07",
+              "factKey": "cidade-petropolis-F07",
+              "text": "A residência de verão de Pedro II contribuiu para a formação de práticas de veraneio na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P08",
+              "factKey": "cidade-petropolis-F08",
+              "text": "A construção do palácio ocorreu entre 1845 e 1862.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P09",
+              "factKey": "cidade-petropolis-F09",
+              "text": "O decreto de criação do novo núcleo urbano foi assinado em 1843.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P10",
+              "factKey": "cidade-petropolis-F10",
+              "text": "A construção urbana envolveu a atuação de um engenheiro da Fazenda Imperial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P11",
+              "factKey": "cidade-petropolis-F11",
+              "text": "O major Julius Friedrich Koeler elaborou o projeto inicial do palácio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P12",
+              "factKey": "cidade-petropolis-F12",
+              "text": "Imigrantes europeus participaram da construção e ocupação planejada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P13",
+              "factKey": "cidade-petropolis-F13",
+              "text": "A imigração alemã teve presença importante na formação local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P14",
+              "factKey": "cidade-petropolis-F14",
+              "text": "O núcleo foi projetado na área da antiga Fazenda do Córrego Seco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P15",
+              "factKey": "cidade-petropolis-F15",
+              "text": "A propriedade fora adquirida por Pedro I em 1830.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P16",
+              "factKey": "cidade-petropolis-F16",
+              "text": "A fazenda foi herdada por Pedro II antes da instalação de sua residência serrana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P17",
+              "factKey": "cidade-petropolis-F17",
+              "text": "O paisagista Jean-Baptiste Binot planejou e executou os jardins do palácio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_MUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P18",
+              "factKey": "cidade-petropolis-F18",
+              "text": "Após a mudança de regime, o edifício foi ocupado por estabelecimentos de ensino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P19",
+              "factKey": "cidade-petropolis-F19",
+              "text": "O Museu Imperial foi criado por decreto em 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P20",
+              "factKey": "cidade-petropolis-F20",
+              "text": "A instituição museológica abriu ao público em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P21",
+              "factKey": "cidade-petropolis-F21",
+              "text": "O acervo reúne objetos e documentos relativos ao Brasil imperial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P22",
+              "factKey": "cidade-petropolis-F22",
+              "text": "Uma casa-museu preserva a memória do inventor Santos Dumont.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_CASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P23",
+              "factKey": "cidade-petropolis-F23",
+              "text": "A residência do inventor foi construída em 1918 em terreno íngreme.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_CASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P24",
+              "factKey": "cidade-petropolis-F24",
+              "text": "O Palácio de Cristal integra a paisagem cultural e o roteiro histórico do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-petropolis-geografo-P25",
+              "factKey": "cidade-petropolis-F25",
+              "text": "O Censo 2022 do IBGE registrou 278.881 habitantes no município, não na região serrana inteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_PET_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Município da serra fluminense onde o antigo palácio de verão imperial abriga hoje o Museu Imperial.",
+        "editorialNotes": [
+          "Os objetos da cidade e do museu são relacionados; evitar repeti-los em uma sessão.",
+          "Fontes consultadas; calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

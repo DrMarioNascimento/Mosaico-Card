@@ -1,0 +1,3981 @@
+{
+  "sources": {
+    "ATS_DENISON": {
+      "id": "ATS_DENISON",
+      "title": "Visitor Site Guidelines: Mawson’s Huts and Cape Denison",
+      "publisher": "Secretariat of the Antarctic Treaty",
+      "url": "https://www.ats.aq/devAS/e/Ats/Guideline/b7c5d2a7-3532-4dfa-8002-4605f5d4584b",
+      "checkedAt": "2026-11-14"
+    },
+    "ATS_EVANS": {
+      "id": "ATS_EVANS",
+      "title": "Visitor Site Guidelines: Cape Evans",
+      "publisher": "Secretariat of the Antarctic Treaty",
+      "url": "https://www.ats.aq/devAS/e/Ats/Guideline/3b1b86b6-3e0b-4698-a367-79b2422e3026",
+      "checkedAt": "2026-11-14"
+    },
+    "ATS_ADARE": {
+      "id": "ATS_ADARE",
+      "title": "Visitor Site Guidelines: Cape Adare",
+      "publisher": "Secretariat of the Antarctic Treaty",
+      "url": "https://www.ats.aq/devAS/e/Ats/Guideline/fe5fd16a-eee3-4577-9fbf-3fcbf4b3b082",
+      "checkedAt": "2026-11-14"
+    },
+    "ATS_NEKO": {
+      "id": "ATS_NEKO",
+      "title": "Visitor Site Guidelines: Neko Harbour",
+      "publisher": "Secretariat of the Antarctic Treaty",
+      "url": "https://www.ats.aq/devAS/e/Ats/Guideline/6ccbefc1-85af-495a-bf56-5f9a25253623",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cabo-denison",
+      "placeId": "cabo-denison",
+      "title": "Cabo Denison e Cabanas de Mawson",
+      "aliases": [
+        "Cabo Denison",
+        "Cape Denison"
+      ],
+      "answerType": "sítio histórico antártico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio antártico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cabo Denison e Cabanas de Mawson"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cabo Royds e Cabana de Shackleton"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cabo Evans e Cabana Terra Nova"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cabo Adare e Cabanas de Borchgrevink"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Hut Point e Cabana Discovery"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Port Lockroy e Base A"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Baía Esperança e Refúgio Sueco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Snow Hill e Cabana de Nordenskjöld"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cabo Crozier"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ponto Wild"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Baía das Baleias"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cabo Bird"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cabo Denison e Cabanas de Mawson",
+          "sources": [
+            "ATS_DENISON"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Baía",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Commonwealth"
+            },
+            {
+              "id": "C2-O2",
+              "text": "McMurdo"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Esperança"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Almirantado"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Commonwealth",
+          "sources": [
+            "ATS_DENISON"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Expedição histórica",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Expedição Antártica Australasiana"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Expedição Nimrod"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Expedição Terra Nova"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Expedição Discovery"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Expedição Antártica Australasiana",
+          "sources": [
+            "ATS_DENISON"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Responsável histórico",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Douglas Mawson"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ernest Shackleton"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Robert Falcon Scott"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Roald Amundsen"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Douglas Mawson",
+          "sources": [
+            "ATS_DENISON"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cabo-denison-viajante-P01",
+              "factKey": "cabo-denison-F01",
+              "text": "Este destino protege construções antigas em uma costa antártica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P02",
+              "factKey": "cabo-denison-F02",
+              "text": "Fica na Antártida Oriental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P03",
+              "factKey": "cabo-denison-F03",
+              "text": "O local está numa península de terreno rochoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P04",
+              "factKey": "cabo-denison-F04",
+              "text": "A península é em grande parte livre de gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P05",
+              "factKey": "cabo-denison-F05",
+              "text": "Ventos fortes dificultam o acesso ao lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P06",
+              "factKey": "cabo-denison-F06",
+              "text": "O sítio fica junto à Baía Commonwealth.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P07",
+              "factKey": "cabo-denison-F07",
+              "text": "Uma expedição australásica construiu cabanas na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P08",
+              "factKey": "cabo-denison-F08",
+              "text": "A expedição ocorreu entre 1911 e 1914.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P09",
+              "factKey": "cabo-denison-F09",
+              "text": "Douglas Mawson liderou a expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P10",
+              "factKey": "cabo-denison-F10",
+              "text": "Quatro cabanas históricas permanecem no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P11",
+              "factKey": "cabo-denison-F11",
+              "text": "A cabana principal ainda está de pé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P12",
+              "factKey": "cabo-denison-F12",
+              "text": "Uma das construções abrigava um magnetógrafo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P13",
+              "factKey": "cabo-denison-F13",
+              "text": "Há também ruínas de outras duas cabanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P14",
+              "factKey": "cabo-denison-F14",
+              "text": "Vestígios de instrumentos científicos permanecem na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P15",
+              "factKey": "cabo-denison-F15",
+              "text": "Mastros de comunicação sem fio fazem parte dos vestígios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P16",
+              "factKey": "cabo-denison-F16",
+              "text": "Uma cruz memorial está presente no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P17",
+              "factKey": "cabo-denison-F17",
+              "text": "Pinguins-de-adélia reproduzem-se nas proximidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P18",
+              "factKey": "cabo-denison-F18",
+              "text": "Petréis-das-neves também se reproduzem ali.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P19",
+              "factKey": "cabo-denison-F19",
+              "text": "Skua-polar-do-sul é outra ave reprodutora.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P20",
+              "factKey": "cabo-denison-F20",
+              "text": "Focas-de-weddell descansam na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P21",
+              "factKey": "cabo-denison-F21",
+              "text": "Elefantes-marinhos também podem descansar no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P22",
+              "factKey": "cabo-denison-F22",
+              "text": "Líquens crescem em áreas próximas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P23",
+              "factKey": "cabo-denison-F23",
+              "text": "A visita ao setor protegido exige autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P24",
+              "factKey": "cabo-denison-F24",
+              "text": "Objetos históricos não devem ser manipulados sem autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-viajante-P25",
+              "factKey": "cabo-denison-F25",
+              "text": "A conservação precisa evitar perturbação à fauna e aos vestígios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cabo-denison-geografo-P01",
+              "factKey": "cabo-denison-F01",
+              "text": "O sítio combina patrimônio de expedição e ecossistemas costeiros antárticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P02",
+              "factKey": "cabo-denison-F02",
+              "text": "Localiza-se na Antártida Oriental, junto à Baía Commonwealth.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P03",
+              "factKey": "cabo-denison-F03",
+              "text": "Uma península rochosa se projeta em direção ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P04",
+              "factKey": "cabo-denison-F04",
+              "text": "O relevo local inclui cristas e vales próximos ao planalto polar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P05",
+              "factKey": "cabo-denison-F05",
+              "text": "Ventos catabáticos e mar agitado podem dificultar o desembarque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P06",
+              "factKey": "cabo-denison-F06",
+              "text": "A área protegida abrange cabanas e vestígios da expedição de 1911 a 1914.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P07",
+              "factKey": "cabo-denison-F07",
+              "text": "A expedição australásica foi liderada por Douglas Mawson.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P08",
+              "factKey": "cabo-denison-F08",
+              "text": "Os edifícios registram condições de vida e pesquisa no início do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P09",
+              "factKey": "cabo-denison-F09",
+              "text": "A cabana principal e a casa do magnetógrafo permanecem intactas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P10",
+              "factKey": "cabo-denison-F10",
+              "text": "As estruturas de observação magnética registram a atividade científica da expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P11",
+              "factKey": "cabo-denison-F11",
+              "text": "Outras duas cabanas históricas permanecem como ruínas em pé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P12",
+              "factKey": "cabo-denison-F12",
+              "text": "Instrumentos, mastros e objetos conservam seu contexto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P13",
+              "factKey": "cabo-denison-F13",
+              "text": "Uma cruz memorial integra a paisagem cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P14",
+              "factKey": "cabo-denison-F14",
+              "text": "Três cabanas mais recentes servem a pesquisa, gestão ou emergência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P15",
+              "factKey": "cabo-denison-F15",
+              "text": "Pinguins-de-adélia reproduzem-se na região costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P16",
+              "factKey": "cabo-denison-F16",
+              "text": "Petréis-das-neves e skuas-polares-do-sul também se reproduzem na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P17",
+              "factKey": "cabo-denison-F17",
+              "text": "O petrel-de-wilson figura entre as aves reprodutoras registradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P18",
+              "factKey": "cabo-denison-F18",
+              "text": "Focas-de-weddell e elefantes-marinhos utilizam o local para repouso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P19",
+              "factKey": "cabo-denison-F19",
+              "text": "Líquens e algas não marinhas integram a flora registrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P20",
+              "factKey": "cabo-denison-F20",
+              "text": "O trânsito de visitantes pode perturbar ninhos e objetos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P21",
+              "factKey": "cabo-denison-F21",
+              "text": "A área histórica é protegida como ASPA 162.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P22",
+              "factKey": "cabo-denison-F22",
+              "text": "O acesso depende de permissão emitida por autoridade nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P23",
+              "factKey": "cabo-denison-F23",
+              "text": "Áreas de ninhos e trajetos de pinguins precisam ser evitados na visita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P24",
+              "factKey": "cabo-denison-F24",
+              "text": "A umidade no interior pode contribuir para a deterioração das estruturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-denison-geografo-P25",
+              "factKey": "cabo-denison-F25",
+              "text": "O manejo busca conciliar conservação histórica, fauna e pesquisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_DENISON"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Sítio da Antártida Oriental que preserva cabanas da expedição australásica de 1911 a 1914.",
+        "editorialNotes": [
+          "Revisar comparação com outros cabos históricos e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-cabo-evans",
+      "placeId": "cabo-evans",
+      "title": "Cabo Evans e Cabana Terra Nova",
+      "aliases": [
+        "Cabo Evans",
+        "Cape Evans"
+      ],
+      "answerType": "sítio histórico antártico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio antártico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cabo Evans e Cabana Terra Nova"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cabo Royds e Cabana de Shackleton"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cabo Denison e Cabanas de Mawson"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cabo Adare e Cabanas de Borchgrevink"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Hut Point e Cabana Discovery"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Port Lockroy e Base A"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Baía Esperança e Refúgio Sueco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Snow Hill e Cabana de Nordenskjöld"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cabo Crozier"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ponto Wild"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Baía das Baleias"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cabo Bird"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cabo Evans e Cabana Terra Nova",
+          "sources": [
+            "ATS_EVANS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ilha",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ilha Ross"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ilha Deception"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Ilha Paulet"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ilha Rei George"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ilha Ross",
+          "sources": [
+            "ATS_EVANS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Expedição histórica",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Expedição Terra Nova"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Expedição Nimrod"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Expedição Antártica Australasiana"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Expedição Belgica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Expedição Terra Nova",
+          "sources": [
+            "ATS_EVANS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Líder da expedição",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Robert Falcon Scott"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ernest Shackleton"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Douglas Mawson"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Roald Amundsen"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Robert Falcon Scott",
+          "sources": [
+            "ATS_EVANS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cabo-evans-viajante-P01",
+              "factKey": "cabo-evans-F01",
+              "text": "Este destino preserva uma cabana histórica na Antártida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P02",
+              "factKey": "cabo-evans-F02",
+              "text": "Fica em uma ilha antártica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P03",
+              "factKey": "cabo-evans-F03",
+              "text": "O sítio fica na Ilha Ross.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P04",
+              "factKey": "cabo-evans-F04",
+              "text": "A cabana está perto da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P05",
+              "factKey": "cabo-evans-F05",
+              "text": "O terreno da área é de origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P06",
+              "factKey": "cabo-evans-F06",
+              "text": "O Monte Erebus pode ser visto da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P07",
+              "factKey": "cabo-evans-F07",
+              "text": "A cabana foi usada por uma expedição britânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P08",
+              "factKey": "cabo-evans-F08",
+              "text": "A expedição ocorreu entre 1910 e 1913.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P09",
+              "factKey": "cabo-evans-F09",
+              "text": "O navio da expedição chamava-se Terra Nova.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P10",
+              "factKey": "cabo-evans-F10",
+              "text": "Robert Falcon Scott liderou o grupo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P11",
+              "factKey": "cabo-evans-F11",
+              "text": "Objetos da expedição permanecem na cabana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P12",
+              "factKey": "cabo-evans-F12",
+              "text": "Há outros objetos históricos ao redor da construção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P13",
+              "factKey": "cabo-evans-F13",
+              "text": "Uma cruz memorial fica em uma colina próxima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P14",
+              "factKey": "cabo-evans-F14",
+              "text": "A cruz lembra três membros de outra expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P15",
+              "factKey": "cabo-evans-F15",
+              "text": "A skua-polar-do-sul se reproduz na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P16",
+              "factKey": "cabo-evans-F16",
+              "text": "Focas-de-weddell costumam repousar nas proximidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P17",
+              "factKey": "cabo-evans-F17",
+              "text": "Pinguins-de-adélia podem ser observados na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P18",
+              "factKey": "cabo-evans-F18",
+              "text": "Pinguins-imperadores também são observados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P19",
+              "factKey": "cabo-evans-F19",
+              "text": "Esses pinguins não se reproduzem nesse cabo, segundo as diretrizes do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P20",
+              "factKey": "cabo-evans-F20",
+              "text": "Líquens foram registrados no terreno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P21",
+              "factKey": "cabo-evans-F21",
+              "text": "A cabana histórica fica em uma área especialmente protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P22",
+              "factKey": "cabo-evans-F22",
+              "text": "A entrada na área protegida exige autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P23",
+              "factKey": "cabo-evans-F23",
+              "text": "Visitantes autorizados precisam de guia treinado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P24",
+              "factKey": "cabo-evans-F24",
+              "text": "Manusear objetos históricos pode danificá-los.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-viajante-P25",
+              "factKey": "cabo-evans-F25",
+              "text": "A proteção também procura evitar perturbação à fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cabo-evans-geografo-P01",
+              "factKey": "cabo-evans-F01",
+              "text": "O sítio conserva um testemunho da exploração antártica do início do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P02",
+              "factKey": "cabo-evans-F02",
+              "text": "Localiza-se na costa sudoeste da Ilha Ross.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P03",
+              "factKey": "cabo-evans-F03",
+              "text": "A área baixa e triangular é de origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P04",
+              "factKey": "cabo-evans-F04",
+              "text": "O terreno livre de gelo fica próximo ao estreito de McMurdo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P05",
+              "factKey": "cabo-evans-F05",
+              "text": "O Monte Erebus situa-se a nordeste do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P06",
+              "factKey": "cabo-evans-F06",
+              "text": "A cabana histórica está a curta distância da costa em Home Beach.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P07",
+              "factKey": "cabo-evans-F07",
+              "text": "A estrutura foi usada pela Expedição Antártica Britânica Terra Nova.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P08",
+              "factKey": "cabo-evans-F08",
+              "text": "A expedição de 1910 a 1913 foi liderada por Robert Falcon Scott.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P09",
+              "factKey": "cabo-evans-F09",
+              "text": "O edifício é reconhecido como Sítio e Monumento Histórico nº 16.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P10",
+              "factKey": "cabo-evans-F10",
+              "text": "Objetos e estruturas associadas documentam a vida da expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P11",
+              "factKey": "cabo-evans-F11",
+              "text": "Uma cruz memorial está situada em Wind Vane Hill.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P12",
+              "factKey": "cabo-evans-F12",
+              "text": "Essa cruz recorda três integrantes do grupo do Mar de Ross que morreram em 1916.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P13",
+              "factKey": "cabo-evans-F13",
+              "text": "A skua-polar-do-sul se reproduz no cabo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P14",
+              "factKey": "cabo-evans-F14",
+              "text": "Focas-de-weddell são observadas repousando na costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P15",
+              "factKey": "cabo-evans-F15",
+              "text": "Pinguins-de-adélia são observados na área, mas não se reproduzem ali.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P16",
+              "factKey": "cabo-evans-F16",
+              "text": "Pinguins-imperadores também são observados sem reprodução local registrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P17",
+              "factKey": "cabo-evans-F17",
+              "text": "Focas-leopardo podem ser avistadas ocasionalmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P18",
+              "factKey": "cabo-evans-F18",
+              "text": "Líquens crostosos ocorrem no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P19",
+              "factKey": "cabo-evans-F19",
+              "text": "O pisoteio pode afetar objetos, vegetação e locais de nidificação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P20",
+              "factKey": "cabo-evans-F20",
+              "text": "A área de proteção especial é identificada como ASPA 155.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P21",
+              "factKey": "cabo-evans-F21",
+              "text": "O acesso à área protegida depende de autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P22",
+              "factKey": "cabo-evans-F22",
+              "text": "Visitantes autorizados devem ser acompanhados por guia treinado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P23",
+              "factKey": "cabo-evans-F23",
+              "text": "Uma cabana magnética está fechada por razões de segurança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P24",
+              "factKey": "cabo-evans-F24",
+              "text": "O acúmulo de sal pode acelerar a corrosão de objetos metálicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-evans-geografo-P25",
+              "factKey": "cabo-evans-F25",
+              "text": "O manejo protege o patrimônio histórico e limita a perturbação à fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_EVANS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cabo da Ilha Ross onde se conserva a cabana da expedição Terra Nova de Scott.",
+        "editorialNotes": [
+          "Revisar comparação com outros cabos históricos e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-cabo-adare",
+      "placeId": "cabo-adare",
+      "title": "Cabo Adare e Praia Ridley",
+      "aliases": [
+        "Cabo Adare",
+        "Cape Adare"
+      ],
+      "answerType": "cabo e sítio histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio antártico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cabo Adare e Praia Ridley"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cabo Royds e Cabana de Shackleton"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cabo Evans e Cabana Terra Nova"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cabo Denison e Cabanas de Mawson"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Hut Point e Cabana Discovery"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Port Lockroy e Base A"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Baía Esperança e Refúgio Sueco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Snow Hill e Cabana de Nordenskjöld"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cabo Crozier"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ponto Wild"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Baía das Baleias"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cabo Bird"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cabo Adare e Praia Ridley",
+          "sources": [
+            "ATS_ADARE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Localização",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Terra Vitória"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Península Antártica"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Ilha Geórgia do Sul"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Polo Sul Geográfico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Terra Vitória",
+          "sources": [
+            "ATS_ADARE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ave reprodutora",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pinguim-de-adélia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pinguim-africano"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pinguim-de-galápagos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pinguim-de-magalhães"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pinguim-de-adélia",
+          "sources": [
+            "ATS_ADARE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Expedição das cabanas mais antigas",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Expedição Southern Cross"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Expedição Nimrod"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Expedição Terra Nova"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Expedição Antártica Australasiana"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Expedição Southern Cross",
+          "sources": [
+            "ATS_ADARE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cabo-adare-viajante-P01",
+              "factKey": "cabo-adare-F01",
+              "text": "Este destino combina uma praia antártica e cabanas históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P02",
+              "factKey": "cabo-adare-F02",
+              "text": "Fica na região da Terra Vitória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P03",
+              "factKey": "cabo-adare-F03",
+              "text": "O cabo está junto ao Mar de Ross.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P04",
+              "factKey": "cabo-adare-F04",
+              "text": "Uma praia de cascalho fica perto do cabo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P05",
+              "factKey": "cabo-adare-F05",
+              "text": "A praia se chama Ridley.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P06",
+              "factKey": "cabo-adare-F06",
+              "text": "Uma grande colônia de pinguins vive na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P07",
+              "factKey": "cabo-adare-F07",
+              "text": "Os pinguins reprodutores pertencem à espécie adélia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P08",
+              "factKey": "cabo-adare-F08",
+              "text": "As aves fazem ninhos perto das cabanas históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P09",
+              "factKey": "cabo-adare-F09",
+              "text": "As construções estão entre as primeiras erguidas no continente antártico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P10",
+              "factKey": "cabo-adare-F10",
+              "text": "Uma expedição chamada Southern Cross construiu cabanas no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P11",
+              "factKey": "cabo-adare-F11",
+              "text": "A expedição ocorreu entre 1898 e 1900.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P12",
+              "factKey": "cabo-adare-F12",
+              "text": "O explorador Borchgrevink liderou essa expedição.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P13",
+              "factKey": "cabo-adare-F13",
+              "text": "Objetos históricos permanecem no entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P14",
+              "factKey": "cabo-adare-F14",
+              "text": "Uma cabana de expedição posterior desabou.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P15",
+              "factKey": "cabo-adare-F15",
+              "text": "O naturalista Nicolai Hanson foi sepultado na península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P16",
+              "factKey": "cabo-adare-F16",
+              "text": "Skua-polar-do-sul reproduz-se nas encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P17",
+              "factKey": "cabo-adare-F17",
+              "text": "Focas-de-weddell podem ser vistas descansando.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P18",
+              "factKey": "cabo-adare-F18",
+              "text": "Petréis-das-neves foram observados na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P19",
+              "factKey": "cabo-adare-F19",
+              "text": "Pinguins-imperadores são vistos ocasionalmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P20",
+              "factKey": "cabo-adare-F20",
+              "text": "Musgos e líquens ocorrem na península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P21",
+              "factKey": "cabo-adare-F21",
+              "text": "A área das cabanas é especialmente protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P22",
+              "factKey": "cabo-adare-F22",
+              "text": "O acesso à área protegida depende de autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P23",
+              "factKey": "cabo-adare-F23",
+              "text": "Visitantes autorizados precisam de guia treinado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P24",
+              "factKey": "cabo-adare-F24",
+              "text": "Durante a reprodução das aves, o trajeto precisa evitar os ninhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-viajante-P25",
+              "factKey": "cabo-adare-F25",
+              "text": "A conservação busca proteger tanto a fauna quanto os vestígios históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cabo-adare-geografo-P01",
+              "factKey": "cabo-adare-F01",
+              "text": "O sítio está na extremidade norte de uma península da Terra Vitória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P02",
+              "factKey": "cabo-adare-F02",
+              "text": "A costa pertence à região do Mar de Ross.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P03",
+              "factKey": "cabo-adare-F03",
+              "text": "Uma praia de cascalho abriga estruturas históricas a sudoeste do cabo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P04",
+              "factKey": "cabo-adare-F04",
+              "text": "A praia Ridley é ocupada por uma colônia de pinguins-de-adélia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P05",
+              "factKey": "cabo-adare-F05",
+              "text": "Segundo as diretrizes do Tratado Antártico, a colônia foi a maior registrada na Antártida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P06",
+              "factKey": "cabo-adare-F06",
+              "text": "Em 2018, a estimativa da colônia era de aproximadamente 500 mil pares, segundo as diretrizes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P07",
+              "factKey": "cabo-adare-F07",
+              "text": "A presença de ninhos próximos às cabanas condiciona o acesso de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P08",
+              "factKey": "cabo-adare-F08",
+              "text": "A expedição Southern Cross ergueu as primeiras estruturas construídas no continente antártico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P09",
+              "factKey": "cabo-adare-F09",
+              "text": "A expedição ocorreu entre 1898 e 1900 sob liderança de Borchgrevink.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P10",
+              "factKey": "cabo-adare-F10",
+              "text": "As cabanas e vestígios associados são protegidos como sítio histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P11",
+              "factKey": "cabo-adare-F11",
+              "text": "A cabana da equipe do norte da expedição Terra Nova desabou.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P12",
+              "factKey": "cabo-adare-F12",
+              "text": "O sepultamento de Nicolai Hanson está situado na península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P13",
+              "factKey": "cabo-adare-F13",
+              "text": "O naturalista foi o primeiro sepultado no continente antártico, segundo o Tratado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P14",
+              "factKey": "cabo-adare-F14",
+              "text": "Skua-polar-do-sul reproduz-se em encostas acima da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P15",
+              "factKey": "cabo-adare-F15",
+              "text": "A foca-de-weddell utiliza a área para repouso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P16",
+              "factKey": "cabo-adare-F16",
+              "text": "Petréis-das-neves foram observados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P17",
+              "factKey": "cabo-adare-F17",
+              "text": "Pinguins-imperadores e pinguins-reis podem ocorrer ocasionalmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P18",
+              "factKey": "cabo-adare-F18",
+              "text": "Algas, musgos e líquens crostosos compõem a flora registrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P19",
+              "factKey": "cabo-adare-F19",
+              "text": "A presença humana pode perturbar aves, focas e objetos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P20",
+              "factKey": "cabo-adare-F20",
+              "text": "O sítio das cabanas integra a área especialmente protegida ASPA 159.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P21",
+              "factKey": "cabo-adare-F21",
+              "text": "A entrada nessa área exige uma autorização nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P22",
+              "factKey": "cabo-adare-F22",
+              "text": "Visitantes autorizados devem ser acompanhados por guia treinado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P23",
+              "factKey": "cabo-adare-F23",
+              "text": "No verão, áreas com ninhos limitam os caminhos disponíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P24",
+              "factKey": "cabo-adare-F24",
+              "text": "A proteção inclui deixar artefatos no lugar e evitar o manuseio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cabo-adare-geografo-P25",
+              "factKey": "cabo-adare-F25",
+              "text": "O manejo combina conservação do patrimônio e redução de perturbações à fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_ADARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cabo da Terra Vitória associado a uma grande colônia de pinguins-de-adélia e às primeiras cabanas antárticas.",
+        "editorialNotes": [
+          "Revisar comparação com outros cabos históricos e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-neko-harbour",
+      "placeId": "neko-harbour",
+      "title": "Neko Harbour",
+      "aliases": [
+        "Neko Harbour"
+      ],
+      "answerType": "baía antártica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Local antártico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Neko Harbour"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Paradise Harbour"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Port Lockroy"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cierva Cove"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Whalers Bay"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Brown Bluff"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Hope Bay"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Petermann Island"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cuverville Island"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Deception Island"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Half Moon Island"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Aitcho Islands"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Neko Harbour",
+          "sources": [
+            "ATS_NEKO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Baía mais ampla",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Baía Andvord"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Baía Commonwealth"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Estreito de McMurdo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Baía das Baleias"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Baía Andvord",
+          "sources": [
+            "ATS_NEKO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ave reprodutora",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pinguim-gentoo"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pinguim-de-galápagos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pinguim-africano"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pinguim-de-magalhães"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pinguim-gentoo",
+          "sources": [
+            "ATS_NEKO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Dinâmica costeira",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Desprendimento de gelo de geleiras"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Erupção de lava frequente"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Marés de areia de deserto"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Formação de recife tropical"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Desprendimento de gelo de geleiras",
+          "sources": [
+            "ATS_NEKO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "neko-harbour-viajante-P01",
+              "factKey": "neko-harbour-F01",
+              "text": "Este destino é uma enseada na Antártida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P02",
+              "factKey": "neko-harbour-F02",
+              "text": "O local permite desembarque no continente antártico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P03",
+              "factKey": "neko-harbour-F03",
+              "text": "A enseada fica dentro da Baía Andvord.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P04",
+              "factKey": "neko-harbour-F04",
+              "text": "Uma praia e afloramentos rochosos integram a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P05",
+              "factKey": "neko-harbour-F05",
+              "text": "Montanhas altas cercam o local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P06",
+              "factKey": "neko-harbour-F06",
+              "text": "Geleiras rodeiam parte da enseada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P07",
+              "factKey": "neko-harbour-F07",
+              "text": "O gelo das geleiras apresenta fendas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P08",
+              "factKey": "neko-harbour-F08",
+              "text": "Blocos podem se desprender dessas geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P09",
+              "factKey": "neko-harbour-F09",
+              "text": "O desprendimento de gelo pode produzir ondas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P10",
+              "factKey": "neko-harbour-F10",
+              "text": "Uma colônia de pinguins vive no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P11",
+              "factKey": "neko-harbour-F11",
+              "text": "Os pinguins reprodutores são da espécie gentoo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P12",
+              "factKey": "neko-harbour-F12",
+              "text": "Alguns ninhos ficam próximos à praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P13",
+              "factKey": "neko-harbour-F13",
+              "text": "Gaivotas-dominicanas também se reproduzem na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P14",
+              "factKey": "neko-harbour-F14",
+              "text": "Skuas figuram entre as aves reprodutoras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P15",
+              "factKey": "neko-harbour-F15",
+              "text": "Focas-de-weddell podem ser vistas descansando.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P16",
+              "factKey": "neko-harbour-F16",
+              "text": "Há musgos na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P17",
+              "factKey": "neko-harbour-F17",
+              "text": "Algas também foram registradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P18",
+              "factKey": "neko-harbour-F18",
+              "text": "Restos da fundação de um refúgio argentino são visíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P19",
+              "factKey": "neko-harbour-F19",
+              "text": "O refúgio foi removido após danos causados pelo tempo em 2010.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P20",
+              "factKey": "neko-harbour-F20",
+              "text": "O gelo na baía muda de acordo com as condições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P21",
+              "factKey": "neko-harbour-F21",
+              "text": "As aves usam trechos da praia para chegar ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P22",
+              "factKey": "neko-harbour-F22",
+              "text": "Essas passagens não devem ser bloqueadas por visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P23",
+              "factKey": "neko-harbour-F23",
+              "text": "Áreas com fendas exigem avaliação de guias preparados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P24",
+              "factKey": "neko-harbour-F24",
+              "text": "O desembarque deve considerar ondas geradas pelo gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-viajante-P25",
+              "factKey": "neko-harbour-F25",
+              "text": "A visitação precisa evitar perturbar a fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "neko-harbour-geografo-P01",
+              "factKey": "neko-harbour-F01",
+              "text": "A enseada integra a Baía Andvord, na região da Península Antártica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P02",
+              "factKey": "neko-harbour-F02",
+              "text": "O sítio permite desembarque no continente antártico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P03",
+              "factKey": "neko-harbour-F03",
+              "text": "Uma praia e um pequeno afloramento rochoso formam a área de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P04",
+              "factKey": "neko-harbour-F04",
+              "text": "Picos elevados e geleiras delimitam a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P05",
+              "factKey": "neko-harbour-F05",
+              "text": "As geleiras adjacentes apresentam numerosas fendas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P06",
+              "factKey": "neko-harbour-F06",
+              "text": "O desprendimento de blocos de gelo altera as condições da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P07",
+              "factKey": "neko-harbour-F07",
+              "text": "Ondas geradas pelo desprendimento podem atingir a praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P08",
+              "factKey": "neko-harbour-F08",
+              "text": "A configuração do gelo marinho e dos icebergs varia com as condições locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P09",
+              "factKey": "neko-harbour-F09",
+              "text": "A colônia de pinguins-gentoo ocupa áreas próximas ao desembarque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P10",
+              "factKey": "neko-harbour-F10",
+              "text": "A distribuição de ninhos pode mudar as rotas disponíveis durante a temporada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P11",
+              "factKey": "neko-harbour-F11",
+              "text": "Trechos da praia funcionam como passagem dos pinguins entre ninhos e mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P12",
+              "factKey": "neko-harbour-F12",
+              "text": "Gaivotas-dominicanas e skuas também têm reprodução confirmada no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P13",
+              "factKey": "neko-harbour-F13",
+              "text": "Focas-de-weddell podem usar a costa para repouso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P14",
+              "factKey": "neko-harbour-F14",
+              "text": "Musgos e algas integram a flora registrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P15",
+              "factKey": "neko-harbour-F15",
+              "text": "O sítio conserva fundações de um antigo refúgio argentino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P16",
+              "factKey": "neko-harbour-F16",
+              "text": "A construção foi removida em 2010 após danos causados pelas condições ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P17",
+              "factKey": "neko-harbour-F17",
+              "text": "O desembarque deve considerar a possibilidade de ondas causadas por gelo desprendido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P18",
+              "factKey": "neko-harbour-F18",
+              "text": "Percursos elevados ficam próximos de áreas com fendas perigosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P19",
+              "factKey": "neko-harbour-F19",
+              "text": "A avaliação dessas rotas requer guias treinados e equipamentos adequados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P20",
+              "factKey": "neko-harbour-F20",
+              "text": "A instalação de ninhos altera a circulação permitida durante a temporada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P21",
+              "factKey": "neko-harbour-F21",
+              "text": "Passagens usadas por pinguins para chegar ao mar precisam permanecer desobstruídas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P22",
+              "factKey": "neko-harbour-F22",
+              "text": "A distância e a supervisão de visitantes reduzem a perturbação à fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P23",
+              "factKey": "neko-harbour-F23",
+              "text": "A dinâmica entre gelo, mar e costa caracteriza a paisagem local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P24",
+              "factKey": "neko-harbour-F24",
+              "text": "O manejo da visitação procura compatibilizar acesso e reprodução das aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "neko-harbour-geografo-P25",
+              "factKey": "neko-harbour-F25",
+              "text": "Condições de gelo devem ser avaliadas antes de cada desembarque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ATS_NEKO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Enseada da Baía Andvord com geleiras próximas, praia e colônia de pinguins-gentoo.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    }
+  ]
+}

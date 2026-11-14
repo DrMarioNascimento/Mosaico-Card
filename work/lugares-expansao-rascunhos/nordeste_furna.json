@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "FURNA_ICM": {
+      "id": "FURNA_ICM",
+      "title": "Parque Nacional da Furna Feia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-furna-feia",
+      "checkedAt": "2026-11-14"
+    },
+    "FURNA_MANEJO": {
+      "id": "FURNA_MANEJO",
+      "title": "Plano de Manejo do Parque Nacional da Furna Feia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-furna-feia/arquivos/pm_parna_furna_feia_2.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "FURNA_FOGO": {
+      "id": "FURNA_FOGO",
+      "title": "Plano de Manejo Integrado do Fogo",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_2023_2027_PNFF.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "FURNA_CAVERNAS": {
+      "id": "FURNA_CAVERNAS",
+      "title": "Plano de manejo espeleológico da Furna Nova",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/cavernas/patrimonio-espeleologico-em-pauta-1/aprovado-plano-de-manejo-espeleologico-de-uma-das-cavernas-mais-importantes-do-rio-grande-do-norte",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-furna-feia",
+      "placeId": "parque-furna-feia",
+      "title": "Parque Nacional da Furna Feia",
+      "aliases": [
+        "Furna Feia"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Furna Feia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra das Confusões"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Ubajara"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra de Itabaiana"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Cavernas do Peruaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Furna Feia",
+          "sources": [
+            "FURNA_ICM",
+            "FURNA_MANEJO",
+            "FURNA_FOGO",
+            "FURNA_CAVERNAS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Patrimônio natural destacado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cavernas em ambiente de Caatinga"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dunas litorâneas e lagoas temporárias"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Recifes coralíneos oceânicos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Campos de altitude e geleiras"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Cavernas em ambiente de Caatinga",
+          "sources": [
+            "FURNA_ICM",
+            "FURNA_MANEJO",
+            "FURNA_FOGO",
+            "FURNA_CAVERNAS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Grupo animal estudado nas cavernas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Morcegos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Baleias"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pinguins"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Botos-cor-de-rosa"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Morcegos",
+          "sources": [
+            "FURNA_ICM",
+            "FURNA_MANEJO",
+            "FURNA_FOGO",
+            "FURNA_CAVERNAS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Norte"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ceará"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Norte",
+          "sources": [
+            "FURNA_ICM",
+            "FURNA_MANEJO",
+            "FURNA_FOGO",
+            "FURNA_CAVERNAS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-furna-feia-viajante-P01",
+              "factKey": "parque-furna-feia-F01",
+              "text": "O destino é um parque nacional do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P02",
+              "factKey": "parque-furna-feia-F02",
+              "text": "Fica no Rio Grande do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P03",
+              "factKey": "parque-furna-feia-F03",
+              "text": "O parque foi criado em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P04",
+              "factKey": "parque-furna-feia-F04",
+              "text": "A vegetação da área é de Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P05",
+              "factKey": "parque-furna-feia-F05",
+              "text": "O lugar tem muitas cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P06",
+              "factKey": "parque-furna-feia-F06",
+              "text": "O plano de manejo registrou mais de 200 cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P07",
+              "factKey": "parque-furna-feia-F07",
+              "text": "As cavernas são ambientes frágeis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P08",
+              "factKey": "parque-furna-feia-F08",
+              "text": "Morcegos habitam o ambiente subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P09",
+              "factKey": "parque-furna-feia-F09",
+              "text": "Alguns morcegos ajudam a espalhar sementes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P10",
+              "factKey": "parque-furna-feia-F10",
+              "text": "Outros morcegos ajudam na polinização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P11",
+              "factKey": "parque-furna-feia-F11",
+              "text": "Há animais que vivem adaptados ao interior das cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P12",
+              "factKey": "parque-furna-feia-F12",
+              "text": "Alguns animais cavernícolas são encontrados apenas nessa área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P13",
+              "factKey": "parque-furna-feia-F13",
+              "text": "O mocó é um dos animais citados para o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P14",
+              "factKey": "parque-furna-feia-F14",
+              "text": "A ave jacucaca também está entre as espécies mencionadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P15",
+              "factKey": "parque-furna-feia-F15",
+              "text": "O gato-do-mato é um dos felinos citados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P16",
+              "factKey": "parque-furna-feia-F16",
+              "text": "O parque também protege cursos d’água que dependem das chuvas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P17",
+              "factKey": "parque-furna-feia-F17",
+              "text": "Esses riachos são importantes para alguns anfíbios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P18",
+              "factKey": "parque-furna-feia-F18",
+              "text": "O plano menciona pequenos peixes chamados rivulídeos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P19",
+              "factKey": "parque-furna-feia-F19",
+              "text": "Há nascentes protegidas na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P20",
+              "factKey": "parque-furna-feia-F20",
+              "text": "As cavernas apresentam formações chamadas espeleotemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P21",
+              "factKey": "parque-furna-feia-F21",
+              "text": "A área fica entre os municípios de Baraúna e Mossoró.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P22",
+              "factKey": "parque-furna-feia-F22",
+              "text": "A sede administrativa fica em Mossoró.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P23",
+              "factKey": "parque-furna-feia-F23",
+              "text": "A Furna Nova é uma das cavernas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P24",
+              "factKey": "parque-furna-feia-F24",
+              "text": "O parque também permite pesquisas científicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-viajante-P25",
+              "factKey": "parque-furna-feia-F25",
+              "text": "A proteção une a vida da Caatinga e o patrimônio subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-furna-feia-geografo-P01",
+              "factKey": "parque-furna-feia-F01",
+              "text": "O sítio é uma unidade federal de conservação no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P02",
+              "factKey": "parque-furna-feia-F02",
+              "text": "A unidade localiza-se no território potiguar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P03",
+              "factKey": "parque-furna-feia-F03",
+              "text": "O decreto de criação da unidade foi assinado em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P04",
+              "factKey": "parque-furna-feia-F04",
+              "text": "A unidade protege um remanescente do bioma Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P05",
+              "factKey": "parque-furna-feia-F05",
+              "text": "A proteção contempla uma concentração de cavidades naturais subterrâneas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P06",
+              "factKey": "parque-furna-feia-F06",
+              "text": "O plano de manejo apresenta o registro de 206 cavidades naturais na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P07",
+              "factKey": "parque-furna-feia-F07",
+              "text": "A conservação das cavidades exige cuidados por sua fragilidade ecológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P08",
+              "factKey": "parque-furna-feia-F08",
+              "text": "As cavidades oferecem abrigo a diversas espécies de morcegos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P09",
+              "factKey": "parque-furna-feia-F09",
+              "text": "Morcegos participam de serviços ecossistêmicos como a dispersão de sementes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P10",
+              "factKey": "parque-furna-feia-F10",
+              "text": "A polinização é um dos serviços ecossistêmicos associados aos morcegos protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P11",
+              "factKey": "parque-furna-feia-F11",
+              "text": "A fauna troglóbia apresenta adaptação à vida em ambientes subterrâneos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P12",
+              "factKey": "parque-furna-feia-F12",
+              "text": "O plano registra invertebrados troglóbios endêmicos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P13",
+              "factKey": "parque-furna-feia-F13",
+              "text": "O mocó, roedor endêmico da Caatinga, integra a fauna citada no plano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P14",
+              "factKey": "parque-furna-feia-F14",
+              "text": "A jacucaca é uma espécie ameaçada mencionada no plano de manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P15",
+              "factKey": "parque-furna-feia-F15",
+              "text": "O plano menciona felinos como o gato-do-mato entre espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P16",
+              "factKey": "parque-furna-feia-F16",
+              "text": "Riachos intermitentes contribuem para a drenagem durante o período chuvoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P17",
+              "factKey": "parque-furna-feia-F17",
+              "text": "Os cursos sazonais participam da manutenção do ciclo de vida de anfíbios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P18",
+              "factKey": "parque-furna-feia-F18",
+              "text": "Peixes rivulídeos são citados no plano entre os organismos associados aos cursos temporários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P19",
+              "factKey": "parque-furna-feia-F19",
+              "text": "A proteção de nascentes contribui para a disponibilidade hídrica em região semiárida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P20",
+              "factKey": "parque-furna-feia-F20",
+              "text": "O patrimônio subterrâneo inclui espeleotemas de diferentes formas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P21",
+              "factKey": "parque-furna-feia-F21",
+              "text": "A unidade está distribuída nos municípios potiguares de Baraúna e Mossoró.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P22",
+              "factKey": "parque-furna-feia-F22",
+              "text": "Mossoró abriga a sede administrativa da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P23",
+              "factKey": "parque-furna-feia-F23",
+              "text": "A Furna Nova é uma das cavidades principais estudadas para visitação e manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P24",
+              "factKey": "parque-furna-feia-F24",
+              "text": "Pesquisa e educação ambiental integram os objetivos da unidade de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-furna-feia-geografo-P25",
+              "factKey": "parque-furna-feia-F25",
+              "text": "A unidade associa conservação da biodiversidade superficial e dos ecossistemas cavernícolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "FURNA_ICM",
+                "FURNA_MANEJO",
+                "FURNA_FOGO",
+                "FURNA_CAVERNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque nacional no Rio Grande do Norte que protege cavernas, morcegos e remanescentes da Caatinga.",
+        "editorialNotes": [
+          "O quantitativo de cavidades é o registrado no plano de manejo, não uma contagem presumidamente atual.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

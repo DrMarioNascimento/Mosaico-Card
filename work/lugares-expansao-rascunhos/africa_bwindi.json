@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "BWINDI_UNESCO": {
+      "id": "BWINDI_UNESCO",
+      "title": "Bwindi Impenetrable National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/682/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-bwindi",
+      "placeId": "parque-bwindi",
+      "title": "Parque Nacional Impenetrável de Bwindi",
+      "aliases": [
+        "Bwindi"
+      ],
+      "answerType": "parque nacional e floresta",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "UG"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque africano",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Impenetrável de Bwindi"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Virunga"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional das Montanhas Rwenzori"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Kahuzi-Biega"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Garamba"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional dos Vulcões de Ruanda"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Queen Elizabeth"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Serengeti"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Amboseli"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Kruger"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Kilimanjaro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Reserva de Caça de Selous"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Impenetrável de Bwindi",
+          "sources": [
+            "BWINDI_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Primata de montanha protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Gorila-das-montanhas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Gorila-ocidental-das-terras-baixas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Bonobo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Orangotango-de-bornéu"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Gorila-das-montanhas",
+          "sources": [
+            "BWINDI_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Paisagem predominante",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Floresta tropical de altitude"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Dunas costeiras e estuários"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Savana litorânea e recifes"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tundra de clima polar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Floresta tropical de altitude",
+          "sources": [
+            "BWINDI_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Uganda"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ruanda"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Quênia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "República Democrática do Congo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Uganda",
+          "sources": [
+            "BWINDI_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-bwindi-viajante-P01",
+              "factKey": "parque-bwindi-F01",
+              "text": "O destino é um parque nacional africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P02",
+              "factKey": "parque-bwindi-F02",
+              "text": "Fica em Uganda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P03",
+              "factKey": "parque-bwindi-F03",
+              "text": "A floresta é uma parte importante do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P04",
+              "factKey": "parque-bwindi-F04",
+              "text": "A altitude muda bastante dentro da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P05",
+              "factKey": "parque-bwindi-F05",
+              "text": "Há árvores de muitas espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P06",
+              "factKey": "parque-bwindi-F06",
+              "text": "Samambaias também fazem parte da vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P07",
+              "factKey": "parque-bwindi-F07",
+              "text": "Muitas espécies de borboletas vivem na floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P08",
+              "factKey": "parque-bwindi-F08",
+              "text": "Alguns animais vivem apenas em regiões restritas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P09",
+              "factKey": "parque-bwindi-F09",
+              "text": "O parque fica próximo ao Rift Albertino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P10",
+              "factKey": "parque-bwindi-F10",
+              "text": "A região tem grande diversidade de mamíferos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P11",
+              "factKey": "parque-bwindi-F11",
+              "text": "O gorila-das-montanhas vive nessa floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P12",
+              "factKey": "parque-bwindi-F12",
+              "text": "Chimpanzés também são mencionados entre os animais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P13",
+              "factKey": "parque-bwindi-F13",
+              "text": "O elefante-africano é uma das espécies citadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P14",
+              "factKey": "parque-bwindi-F14",
+              "text": "Muitas aves florestais habitam a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P15",
+              "factKey": "parque-bwindi-F15",
+              "text": "O parque abriga aves com distribuição restrita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P16",
+              "factKey": "parque-bwindi-F16",
+              "text": "A área está rodeada por paisagens agrícolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P17",
+              "factKey": "parque-bwindi-F17",
+              "text": "Comunidades rurais vivem no entorno do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P18",
+              "factKey": "parque-bwindi-F18",
+              "text": "Algumas comunidades obtêm benefícios com o ecoturismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P19",
+              "factKey": "parque-bwindi-F19",
+              "text": "Corredores de floresta ligam partes da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P20",
+              "factKey": "parque-bwindi-F20",
+              "text": "A floresta protegida faz fronteira com uma reserva de outro país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P21",
+              "factKey": "parque-bwindi-F21",
+              "text": "Gorilas podem atravessar essa fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P22",
+              "factKey": "parque-bwindi-F22",
+              "text": "O parque tem um instituto de pesquisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P23",
+              "factKey": "parque-bwindi-F23",
+              "text": "Doenças humanas podem ameaçar os gorilas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P24",
+              "factKey": "parque-bwindi-F24",
+              "text": "A autoridade de vida selvagem de Uganda administra o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-viajante-P25",
+              "factKey": "parque-bwindi-F25",
+              "text": "A UNESCO reconheceu a área como Patrimônio Mundial em 1994.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-bwindi-geografo-P01",
+              "factKey": "parque-bwindi-F01",
+              "text": "A carta representa uma unidade de conservação florestal no leste da África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P02",
+              "factKey": "parque-bwindi-F02",
+              "text": "O parque situa-se no território de Uganda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P03",
+              "factKey": "parque-bwindi-F03",
+              "text": "A unidade protege remanescentes de floresta tropical de altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P04",
+              "factKey": "parque-bwindi-F04",
+              "text": "O gradiente altitudinal favorece diferentes faixas e habitats florestais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P05",
+              "factKey": "parque-bwindi-F05",
+              "text": "A UNESCO destaca diversidade elevada de espécies arbóreas para a altitude regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P06",
+              "factKey": "parque-bwindi-F06",
+              "text": "A flora inclui uma grande diversidade de samambaias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P07",
+              "factKey": "parque-bwindi-F07",
+              "text": "As borboletas florestais compõem uma parcela importante da diversidade do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P08",
+              "factKey": "parque-bwindi-F08",
+              "text": "Espécies endêmicas do Rift Albertino reforçam a importância da conservação da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P09",
+              "factKey": "parque-bwindi-F09",
+              "text": "A floresta situa-se na borda oriental do sistema do Rift Albertino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P10",
+              "factKey": "parque-bwindi-F10",
+              "text": "A unidade abriga uma comunidade diversificada de mamíferos africanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P11",
+              "factKey": "parque-bwindi-F11",
+              "text": "A floresta protege habitat importante para o gorila-das-montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P12",
+              "factKey": "parque-bwindi-F12",
+              "text": "O chimpanzé está entre os primatas mencionados para a área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P13",
+              "factKey": "parque-bwindi-F13",
+              "text": "A UNESCO inclui o elefante-africano entre os mamíferos presentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P14",
+              "factKey": "parque-bwindi-F14",
+              "text": "A avifauna inclui numerosas espécies de florestas montanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P15",
+              "factKey": "parque-bwindi-F15",
+              "text": "Parte das aves registradas é endêmica da região do Rift Albertino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P16",
+              "factKey": "parque-bwindi-F16",
+              "text": "A floresta protegida está inserida em uma matriz regional de uso agrícola.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P17",
+              "factKey": "parque-bwindi-F17",
+              "text": "A conservação ocorre em contato estreito com comunidades rurais vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P18",
+              "factKey": "parque-bwindi-F18",
+              "text": "Programas comunitários relacionam ecoturismo à geração de benefícios para vizinhos do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P19",
+              "factKey": "parque-bwindi-F19",
+              "text": "Trechos estreitos entre setores florestais influenciam o deslocamento da fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P20",
+              "factKey": "parque-bwindi-F20",
+              "text": "A área confina com a floresta protegida de Sarambwe, na República Democrática do Congo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P21",
+              "factKey": "parque-bwindi-F21",
+              "text": "O contato com a floresta vizinha permite deslocamento da fauna e favorece intercâmbio genético.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P22",
+              "factKey": "parque-bwindi-F22",
+              "text": "Um instituto local participa de estudos e monitoramento da integridade ecológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P23",
+              "factKey": "parque-bwindi-F23",
+              "text": "A proximidade entre visitantes e primatas requer manejo para reduzir transmissão de doenças.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P24",
+              "factKey": "parque-bwindi-F24",
+              "text": "A gestão da unidade cabe à Uganda Wildlife Authority.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-bwindi-geografo-P25",
+              "factKey": "parque-bwindi-F25",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1994.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BWINDI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque florestal de Uganda importante para a conservação de gorilas-das-montanhas e espécies endêmicas do Rift Albertino.",
+        "editorialNotes": [
+          "O parque está em Uganda, embora faça fronteira com uma floresta protegida na República Democrática do Congo. Números populacionais antigos de gorilas não foram repetidos como atuais.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

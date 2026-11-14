@@ -20,6 +20,13 @@
       "publisher": "Iphan",
       "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-atualiza-portaria-de-preservacao-do-conjunto-da-igreja-de-nossa-senhora-da-penha-em-vila-velha-es",
       "checkedAt": "2026-11-14"
+    },
+    "SE_VV_PONTE": {
+      "id": "SE_VV_PONTE",
+      "title": "Ligação da Terceira Ponte",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/download.php?id=4172&tipo=1",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -279,7 +286,7 @@
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_PONTE"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -684,7 +691,7 @@
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_PONTE"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",

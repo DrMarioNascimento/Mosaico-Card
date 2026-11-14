@@ -209,6 +209,27 @@
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/78/",
       "checkedAt": "2026-11-14"
+    },
+    "EVERGLADES76": {
+      "id": "EVERGLADES76",
+      "title": "Everglades National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/76/",
+      "checkedAt": "2026-11-14"
+    },
+    "MONARCA1290": {
+      "id": "MONARCA1290",
+      "title": "Monarch Butterfly Biosphere Reserve",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1290/",
+      "checkedAt": "2026-11-14"
+    },
+    "COPAN129": {
+      "id": "COPAN129",
+      "title": "Maya Site of Copan",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/129/",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -26996,6 +27017,2971 @@
         "canonicalSummary": "Edifício histórico da Filadélfia ligado à Declaração de Independência e à Constituição dos Estados Unidos.",
         "editorialNotes": [
           "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-everglades",
+      "placeId": "everglades",
+      "title": "Parque Nacional Everglades",
+      "aliases": [
+        "Everglades"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "US"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Everglades"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Biscayne"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Dry Tortugas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Reserva Nacional Big Cypress"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Congaree"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Great Smoky Mountains"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Mammoth Cave"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Yellowstone"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Yosemite"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Tortuguero"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Corcovado"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Everglades",
+          "sources": [
+            "EVERGLADES76"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Flórida"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Alasca"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Colorado"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Nevada"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Flórida",
+          "sources": [
+            "EVERGLADES76"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes protegidos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Áreas úmidas, manguezais e águas costeiras"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tundra e geleiras"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dunas continentais e oásis"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta boreal e fiordes"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Áreas úmidas, manguezais e águas costeiras",
+          "sources": [
+            "EVERGLADES76"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Mamífero aquático",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Peixe-boi"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Urso-polar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Lontra-marinha do Ártico"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Narval"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Peixe-boi",
+          "sources": [
+            "EVERGLADES76"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "everglades-viajante-P01",
+              "factKey": "everglades-F01",
+              "text": "Este destino protege extensas áreas úmidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P02",
+              "factKey": "everglades-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P03",
+              "factKey": "everglades-F03",
+              "text": "O parque está nos Estados Unidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P04",
+              "factKey": "everglades-F04",
+              "text": "Ocupa parte do extremo sul da Flórida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P05",
+              "factKey": "everglades-F05",
+              "text": "O terreno é bastante plano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P06",
+              "factKey": "everglades-F06",
+              "text": "A água se move lentamente do interior em direção ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P07",
+              "factKey": "everglades-F07",
+              "text": "Há grandes áreas cobertas por vegetação aquática.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P08",
+              "factKey": "everglades-F08",
+              "text": "Manguezais crescem perto da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P09",
+              "factKey": "everglades-F09",
+              "text": "Áreas de água doce e salgada fazem parte do sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P10",
+              "factKey": "everglades-F10",
+              "text": "Baías e ambientes marinhos integram o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P11",
+              "factKey": "everglades-F11",
+              "text": "Aves aquáticas usam a área para alimentação e reprodução.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P12",
+              "factKey": "everglades-F12",
+              "text": "Jacarés e crocodilos estão entre os répteis da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P13",
+              "factKey": "everglades-F13",
+              "text": "O peixe-boi encontra abrigo no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P14",
+              "factKey": "everglades-F14",
+              "text": "A pantera-da-flórida é um dos mamíferos ameaçados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P15",
+              "factKey": "everglades-F15",
+              "text": "Pradarias de plantas aquáticas marinhas ocorrem nas águas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P16",
+              "factKey": "everglades-F16",
+              "text": "O parque se conecta a outras áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P17",
+              "factKey": "everglades-F17",
+              "text": "Desvios de água fora do parque afetam seus ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P18",
+              "factKey": "everglades-F18",
+              "text": "A qualidade da água influencia plantas e animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P19",
+              "factKey": "everglades-F19",
+              "text": "A chegada de água doce interfere na salinidade costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P20",
+              "factKey": "everglades-F20",
+              "text": "Espécies trazidas de fora ameaçam a fauna local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P21",
+              "factKey": "everglades-F21",
+              "text": "Uma píton introduzida é citada entre essas espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P22",
+              "factKey": "everglades-F22",
+              "text": "Incêndios podem danificar solos orgânicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P23",
+              "factKey": "everglades-F23",
+              "text": "Tempestades tropicais atingem a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P24",
+              "factKey": "everglades-F24",
+              "text": "A UNESCO reconheceu o parque em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-viajante-P25",
+              "factKey": "everglades-F25",
+              "text": "Projetos de restauração procuram melhorar os fluxos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "everglades-geografo-P01",
+              "factKey": "everglades-F01",
+              "text": "A unidade protege um mosaico subtropical de áreas úmidas e ambientes costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P02",
+              "factKey": "everglades-F02",
+              "text": "Localiza-se no extremo sul da península da Flórida, Estados Unidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P03",
+              "factKey": "everglades-F03",
+              "text": "A paisagem é uma planície de baixo relevo sobre substrato calcário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P04",
+              "factKey": "everglades-F04",
+              "text": "A água escoa lentamente do interior para a costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P05",
+              "factKey": "everglades-F05",
+              "text": "A transição entre águas doces e salobras cria múltiplos habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P06",
+              "factKey": "everglades-F06",
+              "text": "Pântanos de água doce integram o sistema hidrológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P07",
+              "factKey": "everglades-F07",
+              "text": "Florestas de mangue ocupam áreas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P08",
+              "factKey": "everglades-F08",
+              "text": "Pradarias de capins aquáticos formam grandes extensões contínuas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P09",
+              "factKey": "everglades-F09",
+              "text": "Baías rasas e ambientes marinhos compõem a área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P10",
+              "factKey": "everglades-F10",
+              "text": "Pradarias de fanerógamas marinhas sustentam funções ecológicas e pesca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P11",
+              "factKey": "everglades-F11",
+              "text": "O sistema é área importante de alimentação e reprodução para aves aquáticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P12",
+              "factKey": "everglades-F12",
+              "text": "Aligátores e crocodilos integram a fauna de répteis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P13",
+              "factKey": "everglades-F13",
+              "text": "O peixe-boi encontra refúgio em ambientes aquáticos do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P14",
+              "factKey": "everglades-F14",
+              "text": "A pantera-da-flórida é citada entre as espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P15",
+              "factKey": "everglades-F15",
+              "text": "A região integra um corredor de migração de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P16",
+              "factKey": "everglades-F16",
+              "text": "A unidade faz parte de um complexo mais amplo de áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P17",
+              "factKey": "everglades-F17",
+              "text": "Desvios e alterações de fluxo a montante afetam o balanço hídrico do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P18",
+              "factKey": "everglades-F18",
+              "text": "Nutrientes provenientes de atividades agrícolas podem modificar comunidades vegetais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P19",
+              "factKey": "everglades-F19",
+              "text": "Menor aporte de água doce contribui para maior salinidade na baía da Flórida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P20",
+              "factKey": "everglades-F20",
+              "text": "Mudanças na salinidade afetam vegetação aquática e comunidades de peixes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P21",
+              "factKey": "everglades-F21",
+              "text": "Espécies introduzidas incluem a píton-birmanesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P22",
+              "factKey": "everglades-F22",
+              "text": "Drenagem excessiva pode contribuir para perda de solos orgânicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P23",
+              "factKey": "everglades-F23",
+              "text": "Furacões e tempestades intensas podem agravar pressões ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P24",
+              "factKey": "everglades-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "everglades-geografo-P25",
+              "factKey": "everglades-F25",
+              "text": "A restauração busca recuperar fluxos e melhorar a qualidade da água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVERGLADES76"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque da Flórida com extensas áreas úmidas, manguezais e ambientes de transição entre água doce e o mar.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-reserva-monarca",
+      "placeId": "reserva-monarca",
+      "title": "Reserva da Biosfera da Borboleta-Monarca",
+      "aliases": [
+        "Reserva da Biosfera da Borboleta-Monarca"
+      ],
+      "answerType": "reserva da biosfera",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "MX"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Reserva da biosfera",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Reserva da Biosfera da Borboleta-Monarca"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Reserva da Biosfera Sian Ka’an"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Reserva da Biosfera El Triunfo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Reserva da Biosfera La Sepultura"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Reserva da Biosfera Sierra Gorda"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Reserva da Biosfera Sierra de Manantlán"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Reserva da Biosfera Calakmul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Reserva da Biosfera Chamela-Cuixmala"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Reserva da Biosfera Montes Azules"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Reserva da Biosfera Tehuacán-Cuicatlán"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Reserva da Biosfera El Vizcaíno"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Reserva da Biosfera Los Tuxtlas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Reserva da Biosfera da Borboleta-Monarca",
+          "sources": [
+            "MONARCA1290"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "México"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Estados Unidos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Costa Rica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "México",
+          "sources": [
+            "MONARCA1290"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambiente principal",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Florestas de montanha"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tundra ártica"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Recifes submersos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Deserto polar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Florestas de montanha",
+          "sources": [
+            "MONARCA1290"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Processo ecológico",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Migração sazonal de insetos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Migração de baleias-jubarte"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Migração de pinguins-imperadores"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Migração de salmões"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Migração sazonal de insetos",
+          "sources": [
+            "MONARCA1290"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "reserva-monarca-viajante-P01",
+              "factKey": "reserva-monarca-F01",
+              "text": "Este destino protege florestas em uma região montanhosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P02",
+              "factKey": "reserva-monarca-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P03",
+              "factKey": "reserva-monarca-F03",
+              "text": "A área protegida está no México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P04",
+              "factKey": "reserva-monarca-F04",
+              "text": "Está a noroeste da Cidade do México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P05",
+              "factKey": "reserva-monarca-F05",
+              "text": "A reserva abriga insetos que fazem uma longa viagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P06",
+              "factKey": "reserva-monarca-F06",
+              "text": "Milhões de borboletas podem se reunir em áreas da floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P07",
+              "factKey": "reserva-monarca-F07",
+              "text": "As árvores ficam cobertas por muitos desses insetos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P08",
+              "factKey": "reserva-monarca-F08",
+              "text": "A concentração ocorre durante a estação fria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P09",
+              "factKey": "reserva-monarca-F09",
+              "text": "As borboletas chegam de outras partes da América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P10",
+              "factKey": "reserva-monarca-F10",
+              "text": "Algumas vêm de áreas tão distantes quanto o Canadá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P11",
+              "factKey": "reserva-monarca-F11",
+              "text": "O fenômeno envolve uma espécie de borboleta migratória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P12",
+              "factKey": "reserva-monarca-F12",
+              "text": "A espécie é conhecida como borboleta-monarca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P13",
+              "factKey": "reserva-monarca-F13",
+              "text": "As florestas possuem árvores chamadas oyamel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P14",
+              "factKey": "reserva-monarca-F14",
+              "text": "As borboletas se agrupam nos troncos e galhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P15",
+              "factKey": "reserva-monarca-F15",
+              "text": "A floresta fornece condições para a permanência no inverno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P16",
+              "factKey": "reserva-monarca-F16",
+              "text": "Na primavera boreal inicia-se o retorno para o norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P17",
+              "factKey": "reserva-monarca-F17",
+              "text": "Diferentes gerações participam do ciclo migratório.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P18",
+              "factKey": "reserva-monarca-F18",
+              "text": "A reserva protege parte das áreas usadas no inverno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P19",
+              "factKey": "reserva-monarca-F19",
+              "text": "A migração passa por mais de um país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P20",
+              "factKey": "reserva-monarca-F20",
+              "text": "A conservação das florestas é importante para esse fenômeno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P21",
+              "factKey": "reserva-monarca-F21",
+              "text": "O corte ilegal de árvores ameaça o ambiente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P22",
+              "factKey": "reserva-monarca-F22",
+              "text": "A visitação precisa ser controlada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P23",
+              "factKey": "reserva-monarca-F23",
+              "text": "Comunidades locais participam de iniciativas de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P24",
+              "factKey": "reserva-monarca-F24",
+              "text": "A UNESCO reconheceu a reserva em 2008.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-viajante-P25",
+              "factKey": "reserva-monarca-F25",
+              "text": "A proteção da espécie depende de ações em sua rota migratória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "reserva-monarca-geografo-P01",
+              "factKey": "reserva-monarca-F01",
+              "text": "O bem protege florestas montanas usadas por uma população migratória de insetos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P02",
+              "factKey": "reserva-monarca-F02",
+              "text": "Localiza-se no centro do México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P03",
+              "factKey": "reserva-monarca-F03",
+              "text": "A área está aproximadamente a 100 quilômetros a noroeste da Cidade do México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P04",
+              "factKey": "reserva-monarca-F04",
+              "text": "A topografia montanhosa sustenta diferentes microclimas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P05",
+              "factKey": "reserva-monarca-F05",
+              "text": "O fenômeno sazonal envolve a população oriental de uma borboleta norte-americana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P06",
+              "factKey": "reserva-monarca-F06",
+              "text": "A espécie migratória é conhecida como borboleta-monarca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P07",
+              "factKey": "reserva-monarca-F07",
+              "text": "Os insetos formam concentrações em pequenas áreas florestais no inverno boreal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P08",
+              "factKey": "reserva-monarca-F08",
+              "text": "As colônias utilizam florestas de coníferas do tipo oyamel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P09",
+              "factKey": "reserva-monarca-F09",
+              "text": "A cobertura florestal ajuda a manter condições microclimáticas importantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P10",
+              "factKey": "reserva-monarca-F10",
+              "text": "Áreas reprodutivas da população migratória alcançam o Canadá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P11",
+              "factKey": "reserva-monarca-F11",
+              "text": "O movimento sazonal conecta paisagens do México, Estados Unidos e Canadá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P12",
+              "factKey": "reserva-monarca-F12",
+              "text": "A rota anual envolve gerações sucessivas de borboletas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P13",
+              "factKey": "reserva-monarca-F13",
+              "text": "Na primavera boreal os insetos deixam as áreas de invernada em direção ao norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P14",
+              "factKey": "reserva-monarca-F14",
+              "text": "O bem reconhecido protege parte das colônias de invernada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P15",
+              "factKey": "reserva-monarca-F15",
+              "text": "A concentração de insetos nos galhos constitui o fenômeno natural reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P16",
+              "factKey": "reserva-monarca-F16",
+              "text": "A manutenção do fenômeno requer proteção também fora dos limites da reserva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P17",
+              "factKey": "reserva-monarca-F17",
+              "text": "O desmatamento pode alterar a cobertura e o microclima florestal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P18",
+              "factKey": "reserva-monarca-F18",
+              "text": "O corte ilegal de árvores é identificado como ameaça pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P19",
+              "factKey": "reserva-monarca-F19",
+              "text": "O manejo da visitação busca reduzir impactos nos ecossistemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P20",
+              "factKey": "reserva-monarca-F20",
+              "text": "A conservação depende de coordenação entre autoridades de diferentes escalas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P21",
+              "factKey": "reserva-monarca-F21",
+              "text": "A participação de comunidades locais é relevante para o manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P22",
+              "factKey": "reserva-monarca-F22",
+              "text": "Alternativas econômicas ao corte de árvores podem apoiar a conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P23",
+              "factKey": "reserva-monarca-F23",
+              "text": "O reconhecimento da UNESCO ocorreu em 2008.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P24",
+              "factKey": "reserva-monarca-F24",
+              "text": "O monitoramento das colônias contribui para acompanhar mudanças no fenômeno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "reserva-monarca-geografo-P25",
+              "factKey": "reserva-monarca-F25",
+              "text": "Cooperação continental é necessária para proteger a migração ao longo do ciclo de vida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MONARCA1290"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Reserva montanhosa mexicana que protege áreas de invernada da população oriental da borboleta-monarca.",
+        "editorialNotes": [
+          "Verificar vazamento da resposta pelas perguntas de apoio; calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft"
+      }
+    },
+    {
+      "id": "lug2-copan",
+      "placeId": "copan",
+      "title": "Sítio Maia de Copán",
+      "aliases": [
+        "Copán",
+        "Copan"
+      ],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "HN"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio arqueológico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sítio Maia de Copán"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Tikal"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Sítio Arqueológico de Quiriguá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Sítio Arqueológico de Caracol"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cidade Pré-hispânica de Chichén Itzá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Cidade Pré-hispânica de Palenque"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade Pré-hispânica de Uxmal"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cidade Pré-hispânica de Calakmul"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Sítio Arqueológico de Monte Albán"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Sítio Arqueológico de Teotihuacán"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cidade Maia de Yaxchilán"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Sítio Arqueológico de Tiwanaku"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Sítio Maia de Copán",
+          "sources": [
+            "COPAN129"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Honduras"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O3",
+              "text": "México"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Belize"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Honduras",
+          "sources": [
+            "COPAN129"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Patrimônio cultural",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cidade e monumentos maias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Templos e fóruns romanos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Castelos medievais escandinavos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Fortalezas coloniais portuguesas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cidade e monumentos maias",
+          "sources": [
+            "COPAN129"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Elemento arquitetônico destacado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Escadaria com inscrições hieroglíficas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Grande muro de gelo"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Aqueduto industrial de aço"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Farol marítimo moderno"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Escadaria com inscrições hieroglíficas",
+          "sources": [
+            "COPAN129"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "copan-viajante-P01",
+              "factKey": "copan-F01",
+              "text": "Este destino preserva as ruínas de uma cidade antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P02",
+              "factKey": "copan-F02",
+              "text": "Fica na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P03",
+              "factKey": "copan-F03",
+              "text": "O sítio arqueológico está em Honduras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P04",
+              "factKey": "copan-F04",
+              "text": "A cidade pertenceu ao mundo maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P05",
+              "factKey": "copan-F05",
+              "text": "Templos e praças fazem parte das ruínas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P06",
+              "factKey": "copan-F06",
+              "text": "Há uma área monumental chamada acrópole.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P07",
+              "factKey": "copan-F07",
+              "text": "Esculturas em pedra são características do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P08",
+              "factKey": "copan-F08",
+              "text": "Altares aparecem em espaços públicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P09",
+              "factKey": "copan-F09",
+              "text": "Pirâmides e terraços integram o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P10",
+              "factKey": "copan-F10",
+              "text": "Uma escadaria possui muitas inscrições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P11",
+              "factKey": "copan-F11",
+              "text": "As inscrições usam sinais hieroglíficos maias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P12",
+              "factKey": "copan-F12",
+              "text": "O texto da escadaria é conhecido por sua grande extensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P13",
+              "factKey": "copan-F13",
+              "text": "Há uma praça associada à escadaria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P14",
+              "factKey": "copan-F14",
+              "text": "Quadras de jogo de bola integravam a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P15",
+              "factKey": "copan-F15",
+              "text": "Figuras de jaguares aparecem em esculturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P16",
+              "factKey": "copan-F16",
+              "text": "Algumas esculturas foram decoradas com obsidiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P17",
+              "factKey": "copan-F17",
+              "text": "A antiga cidade foi importante durante o período clássico maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P18",
+              "factKey": "copan-F18",
+              "text": "Matemática e astronomia tiveram desenvolvimento nesse contexto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P19",
+              "factKey": "copan-F19",
+              "text": "O centro urbano foi abandonado no início do século X.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P20",
+              "factKey": "copan-F20",
+              "text": "Bairros residenciais cercavam a área monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P21",
+              "factKey": "copan-F21",
+              "text": "O rio próximo pode contribuir para a erosão do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P22",
+              "factKey": "copan-F22",
+              "text": "Plantas e umidade dificultam a conservação de ruínas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P23",
+              "factKey": "copan-F23",
+              "text": "O local foi reconhecido pela UNESCO em 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P24",
+              "factKey": "copan-F24",
+              "text": "A proteção inclui os monumentos e seu entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-viajante-P25",
+              "factKey": "copan-F25",
+              "text": "A conservação busca preservar esculturas e construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "copan-geografo-P01",
+              "factKey": "copan-F01",
+              "text": "O sítio preserva um conjunto urbano da civilização maia clássica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P02",
+              "factKey": "copan-F02",
+              "text": "Localiza-se na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P03",
+              "factKey": "copan-F03",
+              "text": "O território pertence a Honduras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P04",
+              "factKey": "copan-F04",
+              "text": "O centro monumental articula templos, praças e terraços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P05",
+              "factKey": "copan-F05",
+              "text": "A acrópole resultou de construções sucessivas em diferentes períodos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P06",
+              "factKey": "copan-F06",
+              "text": "Esculturas, estelas e altares expressam a produção artística local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P07",
+              "factKey": "copan-F07",
+              "text": "As praças serviam de contexto para monumentos e atividades públicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P08",
+              "factKey": "copan-F08",
+              "text": "Pirâmides, plataformas e templos compõem o conjunto arquitetônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P09",
+              "factKey": "copan-F09",
+              "text": "Uma escadaria monumental apresenta inscrição hieroglífica extensa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P10",
+              "factKey": "copan-F10",
+              "text": "Os glifos registram informações históricas da sociedade maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P11",
+              "factKey": "copan-F11",
+              "text": "A UNESCO destaca a inscrição como uma das mais extensas da região maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P12",
+              "factKey": "copan-F12",
+              "text": "A praça da Escadaria Hieroglífica integra o centro monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P13",
+              "factKey": "copan-F13",
+              "text": "Quadras de jogo de bola fazem parte da organização urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P14",
+              "factKey": "copan-F14",
+              "text": "Figuras de jaguares ornamentam uma das escadarias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P15",
+              "factKey": "copan-F15",
+              "text": "Elementos de obsidiana foram usados na decoração de esculturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P16",
+              "factKey": "copan-F16",
+              "text": "A fase de maior desenvolvimento corresponde ao período clássico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P17",
+              "factKey": "copan-F17",
+              "text": "Conhecimentos de matemática, astronomia e escrita se desenvolveram no período.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P18",
+              "factKey": "copan-F18",
+              "text": "O abandono urbano é situado no início do século X.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P19",
+              "factKey": "copan-F19",
+              "text": "A área protegida inclui setores residenciais no entorno do grupo principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P20",
+              "factKey": "copan-F20",
+              "text": "A erosão fluvial representa uma pressão sobre os vestígios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P21",
+              "factKey": "copan-F21",
+              "text": "Microflora e práticas agrícolas no entorno também podem afetar o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P22",
+              "factKey": "copan-F22",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P23",
+              "factKey": "copan-F23",
+              "text": "A proteção legal abrange o vale e vestígios arqueológicos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P24",
+              "factKey": "copan-F24",
+              "text": "A conservação envolve monumentos, esculturas e organização do assentamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "copan-geografo-P25",
+              "factKey": "copan-F25",
+              "text": "Estudos arqueológicos permitem relacionar os diferentes períodos construtivos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "COPAN129"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Sítio maia em Honduras com praças, esculturas e uma extensa escadaria hieroglífica.",
+        "editorialNotes": [
+          "Evitar repetição temática com outros sítios maias; revisar alternativas e dificuldade."
         ]
       },
       "review": {

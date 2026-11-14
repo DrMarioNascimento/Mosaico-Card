@@ -1,0 +1,1007 @@
+{
+  "sources": {
+    "MARAJO_IDE": {
+      "id": "MARAJO_IDE",
+      "title": "Área de Proteção Ambiental Arquipélago do Marajó",
+      "publisher": "Ideflor-Bio, Governo do Pará",
+      "url": "https://ideflorbio.pa.gov.br/area-de-protecao-ambiental-do-marajo/",
+      "checkedAt": "2026-11-14"
+    },
+    "MARAJO_GOELDI": {
+      "id": "MARAJO_GOELDI",
+      "title": "Museu Goeldi e IPHAN catalogam quatro sítios arqueológicos em Anajás",
+      "publisher": "Museu Paraense Emílio Goeldi",
+      "url": "https://www.gov.br/museugoeldi/pt-br/arquivos/noticias/museu-goeldi-e-iphan-catalogam-quatro-sitios-arqueologicos-no-municipio-de-anajas",
+      "checkedAt": "2026-11-14"
+    },
+    "MARAJO_IBGE": {
+      "id": "MARAJO_IBGE",
+      "title": "Maior concentração de búfalos do país, Ilha do Marajó está no Censo Agro",
+      "publisher": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/17932-maior-concentracao-de-bufalos-do-pais-ilha-do-marajo-esta-no-censo-agro",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-arquipelago-marajo",
+      "placeId": "norte-arquipelago-marajo",
+      "title": "Arquipélago do Marajó",
+      "aliases": [
+        "Marajó"
+      ],
+      "answerType": "arquipélago brasileiro",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Arquipélago brasileiro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Arquipélago do Marajó"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Arquipélago de Anavilhanas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Arquipélago das Ilhas do Bailique"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Arquipélago do Maracá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Arquipélago de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Arquipélago de Abrolhos"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Arquipélago de Tinharé e Boipeba"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Arquipélago de São Pedro e São Paulo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Arquipélago do Marajó",
+          "sources": [
+            "MARAJO_IDE",
+            "MARAJO_GOELDI"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ambientes presentes",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Campos alagados, manguezais e florestas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dunas e lagoas de água doce"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Campos de altitude e cânions"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Recifes e ilhas oceânicas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Campos alagados, manguezais e florestas",
+          "sources": [
+            "MARAJO_IDE",
+            "MARAJO_GOELDI"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Maranhão"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pará",
+          "sources": [
+            "MARAJO_IDE",
+            "MARAJO_GOELDI"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Patrimônio cultural associado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Cerâmicas e vestígios de povos indígenas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pinturas rupestres em paredões rochosos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Megalitos organizados em alinhamentos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Estátuas monumentais de pedra"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Cerâmicas e vestígios de povos indígenas",
+          "sources": [
+            "MARAJO_IDE",
+            "MARAJO_GOELDI"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-arquipelago-marajo-viajante-P01",
+              "factKey": "norte-arquipelago-marajo-F01",
+              "text": "Este lugar é um conjunto de ilhas no Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P02",
+              "factKey": "norte-arquipelago-marajo-F02",
+              "text": "O lugar fica no estado do Pará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P03",
+              "factKey": "norte-arquipelago-marajo-F03",
+              "text": "Há rios, canais e áreas alagadas entre as ilhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P04",
+              "factKey": "norte-arquipelago-marajo-F04",
+              "text": "A influência dos rios e das marés muda a paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P05",
+              "factKey": "norte-arquipelago-marajo-F05",
+              "text": "Alguns campos ficam alagados na estação chuvosa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P06",
+              "factKey": "norte-arquipelago-marajo-F06",
+              "text": "Há florestas e campos na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P07",
+              "factKey": "norte-arquipelago-marajo-F07",
+              "text": "Manguezais também aparecem no conjunto de ambientes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P08",
+              "factKey": "norte-arquipelago-marajo-F08",
+              "text": "Praias e rios são parte da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P09",
+              "factKey": "norte-arquipelago-marajo-F09",
+              "text": "Há praias voltadas para o oceano Atlântico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P10",
+              "factKey": "norte-arquipelago-marajo-F10",
+              "text": "O rio Amazonas está associado à localização do arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P11",
+              "factKey": "norte-arquipelago-marajo-F11",
+              "text": "A região tem uma área de proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P12",
+              "factKey": "norte-arquipelago-marajo-F12",
+              "text": "Soure é um dos municípios da região insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P13",
+              "factKey": "norte-arquipelago-marajo-F13",
+              "text": "Salvaterra é outro município localizado na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P14",
+              "factKey": "norte-arquipelago-marajo-F14",
+              "text": "Cachoeira do Arari é um dos municípios da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P15",
+              "factKey": "norte-arquipelago-marajo-F15",
+              "text": "Búfalos estão presentes em partes da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P16",
+              "factKey": "norte-arquipelago-marajo-F16",
+              "text": "Esses animais não são nativos da Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P17",
+              "factKey": "norte-arquipelago-marajo-F17",
+              "text": "Há culturas e histórias indígenas muito antigas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P18",
+              "factKey": "norte-arquipelago-marajo-F18",
+              "text": "Cerâmicas são parte importante desse patrimônio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P19",
+              "factKey": "norte-arquipelago-marajo-F19",
+              "text": "Arqueólogos também estudam antigos aterros feitos pelas pessoas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P20",
+              "factKey": "norte-arquipelago-marajo-F20",
+              "text": "Alguns desses aterros ficam em áreas sujeitas a alagamentos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P21",
+              "factKey": "norte-arquipelago-marajo-F21",
+              "text": "O município de Anajás possui sítios arqueológicos estudados.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P22",
+              "factKey": "norte-arquipelago-marajo-F22",
+              "text": "A força das águas pode expor e desgastar vestígios antigos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P23",
+              "factKey": "norte-arquipelago-marajo-F23",
+              "text": "Um museu em Cachoeira do Arari apresenta artefatos regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P24",
+              "factKey": "norte-arquipelago-marajo-F24",
+              "text": "A região reúne manifestações na música, dança e artesanato.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-viajante-P25",
+              "factKey": "norte-arquipelago-marajo-F25",
+              "text": "A conservação considera tanto o ambiente quanto as pessoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-arquipelago-marajo-geografo-P01",
+              "factKey": "norte-arquipelago-marajo-F01",
+              "text": "O destino é um arquipélago no norte do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P02",
+              "factKey": "norte-arquipelago-marajo-F02",
+              "text": "O arquipélago integra a porção norte do estado do Pará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P03",
+              "factKey": "norte-arquipelago-marajo-F03",
+              "text": "A paisagem insular é organizada por uma extensa rede de rios e canais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P04",
+              "factKey": "norte-arquipelago-marajo-F04",
+              "text": "Os regimes de maré e de chuva ajudam a formar ambientes terrestres e aquáticos diversos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P05",
+              "factKey": "norte-arquipelago-marajo-F05",
+              "text": "As chuvas inundam sazonalmente várzeas e campos de menor altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P06",
+              "factKey": "norte-arquipelago-marajo-F06",
+              "text": "O mosaico inclui florestas, savanas e campos sazonalmente inundados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P07",
+              "factKey": "norte-arquipelago-marajo-F07",
+              "text": "Manguezais integram as formações influenciadas pelas águas costeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P08",
+              "factKey": "norte-arquipelago-marajo-F08",
+              "text": "Praias, rios e igarapés integram ambientes de transição fluvial e marinha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P09",
+              "factKey": "norte-arquipelago-marajo-F09",
+              "text": "A porção costeira apresenta trechos sob influência do oceano Atlântico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P10",
+              "factKey": "norte-arquipelago-marajo-F10",
+              "text": "A posição na região estuarina aproxima o arquipélago do rio Amazonas e do Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P11",
+              "factKey": "norte-arquipelago-marajo-F11",
+              "text": "Uma área de proteção ambiental de uso sustentável abrange diversos municípios do arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P12",
+              "factKey": "norte-arquipelago-marajo-F12",
+              "text": "Soure integra o conjunto de municípios da porção insular protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P13",
+              "factKey": "norte-arquipelago-marajo-F13",
+              "text": "Salvaterra participa da organização territorial da porção insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P14",
+              "factKey": "norte-arquipelago-marajo-F14",
+              "text": "O município de Cachoeira do Arari abriga um museu dedicado ao patrimônio regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P15",
+              "factKey": "norte-arquipelago-marajo-F15",
+              "text": "Búfalos, introduzidos da Ásia, tornaram-se associados à paisagem e à economia locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P16",
+              "factKey": "norte-arquipelago-marajo-F16",
+              "text": "O búfalo é uma espécie exótica de origem asiática presente na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P17",
+              "factKey": "norte-arquipelago-marajo-F17",
+              "text": "Sociedades indígenas antigas deixaram vestígios materiais na paisagem insular.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P18",
+              "factKey": "norte-arquipelago-marajo-F18",
+              "text": "Artefatos cerâmicos indígenas documentam aspectos de sociedades antigas da região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P19",
+              "factKey": "norte-arquipelago-marajo-F19",
+              "text": "Aterros conhecidos como tesos evidenciam intervenções humanas antigas na planície.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P20",
+              "factKey": "norte-arquipelago-marajo-F20",
+              "text": "Os tesos ajudam pesquisadores a estudar assentamentos em uma paisagem de campos alagáveis.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P21",
+              "factKey": "norte-arquipelago-marajo-F21",
+              "text": "Sítios em Anajás contribuem para a compreensão do patrimônio arqueológico regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P22",
+              "factKey": "norte-arquipelago-marajo-F22",
+              "text": "Secas, cheias e erosão podem alterar a conservação de sítios às margens dos rios.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MARAJO_GOELDI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P23",
+              "factKey": "norte-arquipelago-marajo-F23",
+              "text": "O museu de Cachoeira do Arari é um espaço de apresentação do patrimônio regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P24",
+              "factKey": "norte-arquipelago-marajo-F24",
+              "text": "A diversidade cultural regional se expressa na música, dança, artesanato e alimentação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-arquipelago-marajo-geografo-P25",
+              "factKey": "norte-arquipelago-marajo-F25",
+              "text": "A área de proteção ambiental busca conciliar biodiversidade e uso sustentável por populações locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MARAJO_IDE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Arquipélago paraense de ambientes fluviais e costeiros, com campos alagáveis, manguezais e importante patrimônio indígena e regional.",
+        "editorialNotes": [
+          "O arquipélago e a ilha principal não são tratados como sinônimos; o recorte é o arquipélago.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}
