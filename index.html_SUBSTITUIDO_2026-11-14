@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Mosaico Card — A verdade é um fragmento. Escolha a versão: Novo Testamento, Filmes e Séries ou Lugares.">
+  <title>Mosaico Card — Escolha a versão</title>
+  <script>
+    /* Links e QR codes antigos de sala do Novo Testamento apontavam para a raiz (?sala=…).
+       Eles seguem direto para o jogo, sem passar pela escolha. */
+    (function () {
+      var q = location.search;
+      if (/[?&](sala|telao)=/.test(q)) location.replace("novo-testamento/" + q + location.hash);
+    })();
+  </script>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --ouro: #d7a24a; --ouro-claro: #f2cf86; --texto: #fff6e5; --suave: #c1b8a5; --fundo: #080f18; --cartao: #0e1c26; --borda: #2b4250; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      background: radial-gradient(ellipse at 50% 30%, #263020 0%, #111b20 38%, var(--fundo) 78%) fixed, var(--fundo);
+      color: var(--texto); font: 400 16px/1.5 Inter, system-ui, sans-serif;
+      padding: max(28px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+    }
+    main { width: min(1180px, 100%); margin: 0 auto; text-align: center; }
+    .marca p { margin: 0 0 6px; color: var(--ouro); font: 900 clamp(26px, 5vw, 38px)/1.2 "Cinzel Decorative", Georgia, serif; letter-spacing: .1em; }
+    .marca span { color: var(--suave); font: italic 16px/1.5 Georgia, serif; }
+    .peca { display: block; width: 92px; height: auto; margin: 22px auto 4px; animation: flutua 5s ease-in-out infinite; }
+    @keyframes flutua { 0%,100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+    @media (prefers-reduced-motion: reduce) { .peca { animation: none; } }
+    h1 { margin: 6px 0 4px; font: 600 clamp(24px, 4vw, 32px)/1.3 Georgia, serif; text-wrap: balance; }
+    .sub { margin: 0 0 26px; color: #d6d8dc; }
+    .versoes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .versao {
+      display: flex; flex-direction: column; overflow: hidden; text-decoration: none; color: inherit; text-align: left;
+      background: var(--cartao); border: 1px solid var(--borda); border-radius: 18px;
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+    .versao:hover, .versao:focus-visible { transform: translateY(-3px); border-color: var(--ouro); box-shadow: 0 10px 30px rgba(0,0,0,.45); outline: none; }
+    .versao img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+    .texto { display: flex; flex: 1; flex-direction: column; gap: 6px; padding: 16px 18px 18px; }
+    .rotulo { color: var(--ouro); font: 700 12px/1.2 Inter, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+    .versao h2 { margin: 0; font: 700 22px/1.25 Georgia, serif; }
+    .versao p { margin: 0; color: #d6d8dc; font-size: 15px; }
+    .botao {
+      margin-top: auto; align-self: flex-start; display: inline-flex; gap: 10px; align-items: center;
+      min-height: 48px; padding: 12px 20px; margin-block-start: 12px; border-radius: 12px; border: 1px solid var(--ouro);
+      background: linear-gradient(180deg, #2f6b5e, #1f4d44 48%, #173a33); color: #fff; font-weight: 800;
+    }
+    .acesso{margin:0 auto 24px;padding:18px 20px;max-width:760px;text-align:left;border:1px solid #d7a24a66;border-radius:14px;background:#14232b}.acesso strong{color:var(--ouro-claro)}.acesso p{margin:8px 0 0;color:#d6d8dc;font-size:15px}.acesso a{color:#f2cf86;text-underline-offset:3px}.acesso a:focus-visible{outline:2px solid #f2cf86;outline-offset:3px}
+    .rodape { margin-top: 30px; color: #8f9aa3; font-size: 13px; }
+    .rodape a { color: var(--ouro-claro); }
+    @media (max-width: 640px) { .versoes { grid-template-columns: 1fr; } .peca { width: 76px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="marca">
+      <p>MOSAICO CARD</p>
+      <span>A verdade é um fragmento.</span>
+    </header>
+    <img class="peca" src="assets/escolha/peca.webp" width="320" height="320" alt="">
+    <h1>Escolha a sua versão</h1>
+    <p class="sub">O mesmo jogo de pistas, negociação e dedução. Muda o tema.</p>
+    <aside class="acesso" aria-label="Como participar"><strong>Partidas por convite · testes fechados</strong><p>Quem conduz precisa de uma conta autorizada. Os participantes entram com o código ou link recebido.</p><p>Já recebeu o convite? Escolha abaixo o tema da sua sala. Para conhecer a proposta, <a href="https://dragongames.dev.br/#jogos">veja os jogos da Dragon Games</a>.</p></aside>
+    <div class="versoes">
+      <a class="versao" href="novo-testamento/">
+        <img src="assets/escolha/novo-testamento.webp" width="800" height="533" alt="Bíblia aberta">
+        <span class="texto">
+          <span class="rotulo">Versão bíblica</span>
+          <h2>Novo Testamento</h2>
+          <p>Você conhece a Bíblia. Mas consegue reconhecer a história através de pistas?</p>
+          <span class="botao">Entrar em Novo Testamento <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="versao" href="filmes-e-series/">
+        <img src="assets/escolha/filmes-e-series.webp" width="800" height="533" alt="Claquete, rolo de filme e televisão">
+        <span class="texto">
+          <span class="rotulo">A partir de 2001</span>
+          <h2>Filmes e Séries</h2>
+          <p>Você conhece filmes e séries. Mas consegue reconhecer a obra através de pistas?</p>
+          <span class="botao">Entrar em Filmes e Séries <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="versao" href="lugares/">
+        <img src="assets/escolha/lugares-v1.webp" width="1000" height="563" alt="Globo terrestre, mapa e bússola de latão iluminados em dourado">
+        <span class="texto"><span class="rotulo">Viajante · Geógrafo</span><h2>Lugares</h2><p>Rios, cidades, paisagens e culturas. Conecte as pistas e descubra seu próximo destino.</p><span class="botao">Entrar em Lugares <span aria-hidden="true">→</span></span></span>
+      </a>
+    </div>
+    <p class="rodape">Um jogo <a href="https://dragongames.dev.br/">Dragon Games</a> · 2 a 12 jogadores, cada um no próprio celular.</p>
+  </main>
+</body>
+</html>

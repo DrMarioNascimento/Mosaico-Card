@@ -46,6 +46,8 @@
     .rotulo { color: var(--ouro); font: 700 12px/1.2 Inter, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
     .versao h2 { margin: 0; font: 700 22px/1.25 Georgia, serif; }
     .versao p { margin: 0; color: #d6d8dc; font-size: 15px; }
+    .versao p.modos { margin-top: 4px; color: #c3c8ce; font-size: 14px; }
+    .versao p.modos b { color: var(--ouro-claro); font-weight: 700; }
     .botao {
       margin-top: auto; align-self: flex-start; display: inline-flex; gap: 10px; align-items: center;
       min-height: 48px; padding: 12px 20px; margin-block-start: 12px; border-radius: 12px; border: 1px solid var(--ouro);
@@ -74,6 +76,7 @@
           <span class="rotulo">Versão bíblica</span>
           <h2>Novo Testamento</h2>
           <p>Você conhece a Bíblia. Mas consegue reconhecer a história através de pistas?</p>
+          <p class="modos"><b>Modos:</b> Devocional e Pastor, para ver se conhece as histórias ou, se preferir, encarar pistas e perguntas aprofundadas de quem estuda a Bíblia.</p>
           <span class="botao">Entrar em Novo Testamento <span aria-hidden="true">→</span></span>
         </span>
       </a>
@@ -83,12 +86,19 @@
           <span class="rotulo">A partir de 2001</span>
           <h2>Filmes e Séries</h2>
           <p>Você conhece filmes e séries. Mas consegue reconhecer a obra através de pistas?</p>
+          <p class="modos"><b>Modos:</b> Top 50 e Catálogo completo, para ver se reconhece os títulos mais conhecidos ou, se preferir, encarar o catálogo inteiro.</p>
           <span class="botao">Entrar em Filmes e Séries <span aria-hidden="true">→</span></span>
         </span>
       </a>
       <a class="versao" href="lugares/">
         <img src="assets/escolha/lugares-v1.webp" width="1000" height="563" alt="Globo terrestre, mapa e bússola de latão iluminados em dourado">
-        <span class="texto"><span class="rotulo">Viajante · Geógrafo</span><h2>Lugares</h2><p>Rios, cidades, paisagens e culturas. Conecte as pistas e descubra seu próximo destino.</p><span class="botao">Entrar em Lugares <span aria-hidden="true">→</span></span></span>
+        <span class="texto">
+          <span class="rotulo">Brasil e o mundo</span>
+          <h2>Lugares</h2>
+          <p>Rios, cidades, paisagens e culturas. Conecte as pistas e descubra seu próximo destino.</p>
+          <p class="modos"><b>Modos:</b> Viajante e Geógrafo, para ver se conhece os lugares ou, se preferir, interpretar pistas mais complexas sobre os cenários.</p>
+          <span class="botao">Entrar em Lugares <span aria-hidden="true">→</span></span>
+        </span>
       </a>
     </div>
     <p class="rodape">Um jogo <a href="https://dragongames.dev.br/">Dragon Games</a> · 2 a 12 jogadores, cada um no próprio celular.</p>
