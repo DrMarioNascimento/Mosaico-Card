@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-26-2026-11-14",
+  "catalogVersion": "lote-27-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Sessenta e oito destinos jogáveis em dois perfis",
-  "status": "Sessenta e oito destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Setenta destinos jogáveis em dois perfis",
+  "status": "Setenta destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -871,6 +871,27 @@
       "title": "Kakadu National Park",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/147/",
+      "checkedAt": "2026-11-14"
+    },
+    "APA1": {
+      "id": "APA1",
+      "title": "Parque Nacional de Aparados da Serra",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra",
+      "checkedAt": "2026-11-14"
+    },
+    "APA2": {
+      "id": "APA2",
+      "title": "Trilha do Vértice",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra/atrativos/trilha-do-vertice",
+      "checkedAt": "2026-11-14"
+    },
+    "PAR1": {
+      "id": "PAR1",
+      "title": "Paraty and Ilha Grande – Culture and Biodiversity",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1308/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -69864,6 +69885,2050 @@
       },
       "reveal": {
         "canonicalSummary": "Parque do norte australiano que reúne arte rupestre e paisagens culturais aborígenes a planícies úmidas e escarpas.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-aparados-serra",
+      "placeId": "aparados-serra",
+      "title": "Parque Nacional de Aparados da Serra",
+      "aliases": [
+        "Aparados da Serra"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Brasília"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Aparados da Serra",
+          "sources": [
+            "APA1",
+            "APA2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Cânion de referência",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Itaimbezinho"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Guartelá"
+            },
+            {
+              "id": "C2-O4",
+              "text": "São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Itaimbezinho",
+          "sources": [
+            "APA1",
+            "APA2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Bioma",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mata Atlântica"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pantanal"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pampa exclusivamente"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mata Atlântica",
+          "sources": [
+            "APA1",
+            "APA2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Município de referência",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Cambará do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Chapada dos Guimarães"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Lençóis"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Alto Paraíso de Goiás"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Cambará do Sul",
+          "sources": [
+            "APA1",
+            "APA2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "aparados-serra-viajante-P01",
+              "factKey": "aparados-serra-F01",
+              "text": "O destino é uma área protegida no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P02",
+              "factKey": "aparados-serra-F02",
+              "text": "Grandes paredões de rocha marcam a paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P03",
+              "factKey": "aparados-serra-F03",
+              "text": "Um cânion é o principal atrativo do parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P04",
+              "factKey": "aparados-serra-F04",
+              "text": "O nome desse cânion é Itaimbezinho.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P05",
+              "factKey": "aparados-serra-F05",
+              "text": "Os paredões podem chegar a centenas de metros de profundidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P06",
+              "factKey": "aparados-serra-F06",
+              "text": "A água percorre fendas e vales do terreno.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P07",
+              "factKey": "aparados-serra-F07",
+              "text": "Há pontos de observação na borda do cânion.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P08",
+              "factKey": "aparados-serra-F08",
+              "text": "Uma trilha de visitação recebe o nome de Vértice.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P09",
+              "factKey": "aparados-serra-F09",
+              "text": "A paisagem protegida está no bioma Mata Atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P10",
+              "factKey": "aparados-serra-F10",
+              "text": "Vegetação cobre partes dos paredões.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P11",
+              "factKey": "aparados-serra-F11",
+              "text": "A área abriga onça-parda.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P12",
+              "factKey": "aparados-serra-F12",
+              "text": "O papagaio-charão aparece entre as espécies protegidas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P13",
+              "factKey": "aparados-serra-F13",
+              "text": "O papagaio-de-peito-roxo também é protegido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P14",
+              "factKey": "aparados-serra-F14",
+              "text": "Um pequeno peixe conhecido como lambari é registrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P15",
+              "factKey": "aparados-serra-F15",
+              "text": "A área é classificada como parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P16",
+              "factKey": "aparados-serra-F16",
+              "text": "A criação da unidade ocorreu em 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P17",
+              "factKey": "aparados-serra-F17",
+              "text": "Cambará do Sul é uma referência para o acesso ao parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P18",
+              "factKey": "aparados-serra-F18",
+              "text": "A região relaciona os estados de Santa Catarina e Rio Grande do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P19",
+              "factKey": "aparados-serra-F19",
+              "text": "O local fica no Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P20",
+              "factKey": "aparados-serra-F20",
+              "text": "O relevo não é uma cadeia de dunas costeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P21",
+              "factKey": "aparados-serra-F21",
+              "text": "O parque protege habitats, não apenas o mirante turístico.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P22",
+              "factKey": "aparados-serra-F22",
+              "text": "As trilhas permitem conhecer diferentes perspectivas do relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P23",
+              "factKey": "aparados-serra-F23",
+              "text": "O cenário combina profundidade, rocha, água e vegetação.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P24",
+              "factKey": "aparados-serra-F24",
+              "text": "Há outro parque federal próximo chamado Serra Geral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-viajante-P25",
+              "factKey": "aparados-serra-F25",
+              "text": "Para identificar, combine Mata Atlântica e o Cânion Itaimbezinho.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "aparados-serra-geografo-P01",
+              "factKey": "aparados-serra-F01",
+              "text": "A unidade de conservação situa-se no sul brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P02",
+              "factKey": "aparados-serra-F02",
+              "text": "Escarpas rochosas estruturam o relevo protegido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P03",
+              "factKey": "aparados-serra-F03",
+              "text": "Um vale encaixado entre escarpas é referência para a visitação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P04",
+              "factKey": "aparados-serra-F04",
+              "text": "O Cânion Itaimbezinho integra a unidade de conservação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P05",
+              "factKey": "aparados-serra-F05",
+              "text": "O cânion apresenta desníveis que alcançam cerca de 700 metros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P06",
+              "factKey": "aparados-serra-F06",
+              "text": "Cursos de água atravessam o relevo encaixado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P07",
+              "factKey": "aparados-serra-F07",
+              "text": "A visitação inclui mirantes voltados aos paredões.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P08",
+              "factKey": "aparados-serra-F08",
+              "text": "A Trilha do Vértice permite apreciar o cânion.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P09",
+              "factKey": "aparados-serra-F09",
+              "text": "A unidade integra a Mata Atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P10",
+              "factKey": "aparados-serra-F10",
+              "text": "A cobertura vegetal se distribui pelas escarpas e arredores.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P11",
+              "factKey": "aparados-serra-F11",
+              "text": "A fauna protegida inclui o felino Puma concolor.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P12",
+              "factKey": "aparados-serra-F12",
+              "text": "O papagaio-charão integra a fauna registrada pelo ICMBio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P13",
+              "factKey": "aparados-serra-F13",
+              "text": "O parque protege a espécie Amazona vinacea.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P14",
+              "factKey": "aparados-serra-F14",
+              "text": "A fauna protegida inclui peixes como Mimagoniates rheocharis.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P15",
+              "factKey": "aparados-serra-F15",
+              "text": "A unidade federal pertence à categoria parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P16",
+              "factKey": "aparados-serra-F16",
+              "text": "O decreto de criação do parque data de 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P17",
+              "factKey": "aparados-serra-F17",
+              "text": "O endereço de referência da unidade fica em Cambará do Sul, no Rio Grande do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P18",
+              "factKey": "aparados-serra-F18",
+              "text": "A área dos cânions situa-se na divisa entre estados do sul brasileiro.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P19",
+              "factKey": "aparados-serra-F19",
+              "text": "A unidade está em território brasileiro.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P20",
+              "factKey": "aparados-serra-F20",
+              "text": "As escarpas rochosas diferenciam a área de sistemas de dunas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P21",
+              "factKey": "aparados-serra-F21",
+              "text": "A proteção abrange ecossistemas e fauna além dos pontos de visitação.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P22",
+              "factKey": "aparados-serra-F22",
+              "text": "O uso público explora a observação da topografia e da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P23",
+              "factKey": "aparados-serra-F23",
+              "text": "A paisagem resulta da relação entre relevo encaixado, drenagem e cobertura vegetal.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P24",
+              "factKey": "aparados-serra-F24",
+              "text": "A gestão regional relaciona a unidade ao vizinho Parque Nacional da Serra Geral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aparados-serra-geografo-P25",
+              "factKey": "aparados-serra-F25",
+              "text": "A identificação articula bioma, relevo de cânion e posição sul-brasileira.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "APA1",
+                "APA2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque nacional do Sul brasileiro que protege o Cânion Itaimbezinho e espécies da Mata Atlântica.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-paraty-ilha-grande",
+      "placeId": "paraty-ilha-grande",
+      "title": "Paraty e Ilha Grande",
+      "aliases": [
+        "Paraty e Ilha Grande"
+      ],
+      "answerType": "paisagem cultural e natural",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Bem patrimonial",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Paraty e Ilha Grande"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O5",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Conjunto Moderno da Pampulha"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Sítio Roberto Burle Marx"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Paisagens Cariocas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cidade Histórica de Goiás"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Sítio de São Miguel das Missões"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Porto Seguro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Paraty e Ilha Grande",
+          "sources": [
+            "PAR1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rota histórica associada",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Caminho do Ouro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Estrada Real dos Alpes"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rota da Seda"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Caminho de Santiago"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Caminho do Ouro",
+          "sources": [
+            "PAR1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Bioma",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mata Atlântica"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Cerrado"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pantanal"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mata Atlântica",
+          "sources": [
+            "PAR1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Comunidades tradicionais",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Guarani, caiçaras e quilombolas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ribeirinhas amazônicas, seringueiras e quebradeiras de coco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pantaneiras, vaqueiras do sertão e campeiras"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Povos dos Andes, da Patagônia e da Terra do Fogo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Guarani, caiçaras e quilombolas",
+          "sources": [
+            "PAR1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "paraty-ilha-grande-viajante-P01",
+              "factKey": "paraty-ilha-grande-F01",
+              "text": "O destino reúne uma cidade histórica e ambientes naturais costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P02",
+              "factKey": "paraty-ilha-grande-F02",
+              "text": "O centro histórico conserva construções da época colonial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P03",
+              "factKey": "paraty-ilha-grande-F03",
+              "text": "O local se relaciona ao mar e à Serra do Mar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P04",
+              "factKey": "paraty-ilha-grande-F04",
+              "text": "Uma grande baía e suas ilhas fazem parte do contexto regional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P05",
+              "factKey": "paraty-ilha-grande-F05",
+              "text": "O conjunto está no Sudeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P06",
+              "factKey": "paraty-ilha-grande-F06",
+              "text": "Áreas protegidas se estendem por Rio de Janeiro e São Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P07",
+              "factKey": "paraty-ilha-grande-F07",
+              "text": "O centro histórico se relaciona a rotas antigas para o interior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P08",
+              "factKey": "paraty-ilha-grande-F08",
+              "text": "Uma dessas rotas era usada para transportar ouro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P09",
+              "factKey": "paraty-ilha-grande-F09",
+              "text": "O ouro vinha da região das minas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P10",
+              "factKey": "paraty-ilha-grande-F10",
+              "text": "Produtos agrícolas também passavam pelo porto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P11",
+              "factKey": "paraty-ilha-grande-F11",
+              "text": "A história do porto inclui a chegada de africanos escravizados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P12",
+              "factKey": "paraty-ilha-grande-F12",
+              "text": "Povos indígenas habitavam a região antes da chegada de europeus.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P13",
+              "factKey": "paraty-ilha-grande-F13",
+              "text": "Comunidades guarani mantêm relações com a floresta.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P14",
+              "factKey": "paraty-ilha-grande-F14",
+              "text": "Comunidades caiçaras também vivem na região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P15",
+              "factKey": "paraty-ilha-grande-F15",
+              "text": "A pesca tradicional permanece importante.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P16",
+              "factKey": "paraty-ilha-grande-F16",
+              "text": "Comunidades quilombolas fazem parte da paisagem cultural.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P17",
+              "factKey": "paraty-ilha-grande-F17",
+              "text": "O bioma da região é a Mata Atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P18",
+              "factKey": "paraty-ilha-grande-F18",
+              "text": "Manguezais aparecem nas planícies costeiras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P19",
+              "factKey": "paraty-ilha-grande-F19",
+              "text": "A restinga também faz parte dos ambientes protegidos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P20",
+              "factKey": "paraty-ilha-grande-F20",
+              "text": "A floresta acompanha variações de altitude.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P21",
+              "factKey": "paraty-ilha-grande-F21",
+              "text": "Uma unidade protegida se chama Parque Nacional da Serra da Bocaina.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P22",
+              "factKey": "paraty-ilha-grande-F22",
+              "text": "Ilhas, praias e enseadas compõem a paisagem.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P23",
+              "factKey": "paraty-ilha-grande-F23",
+              "text": "O reconhecimento da UNESCO valoriza cultura e biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P24",
+              "factKey": "paraty-ilha-grande-F24",
+              "text": "O lugar não é uma capital planejada no interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-viajante-P25",
+              "factKey": "paraty-ilha-grande-F25",
+              "text": "Para identificar, combine porto colonial, Caminho do Ouro e baía.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "paraty-ilha-grande-geografo-P01",
+              "factKey": "paraty-ilha-grande-F01",
+              "text": "O patrimônio combina componentes culturais e naturais de uma paisagem costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P02",
+              "factKey": "paraty-ilha-grande-F02",
+              "text": "O núcleo urbano histórico é um componente cultural do bem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P03",
+              "factKey": "paraty-ilha-grande-F03",
+              "text": "A paisagem articula litoral, montanhas e floresta atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P04",
+              "factKey": "paraty-ilha-grande-F04",
+              "text": "A Baía da Ilha Grande integra o contexto da paisagem reconhecida.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P05",
+              "factKey": "paraty-ilha-grande-F05",
+              "text": "O bem situa-se no Sudeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P06",
+              "factKey": "paraty-ilha-grande-F06",
+              "text": "Os componentes do patrimônio abrangem áreas dos estados do Rio de Janeiro e de São Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P07",
+              "factKey": "paraty-ilha-grande-F07",
+              "text": "A cidade foi ponto costeiro de acesso a caminhos para o interior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P08",
+              "factKey": "paraty-ilha-grande-F08",
+              "text": "O Caminho do Ouro ligava áreas mineradoras ao porto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P09",
+              "factKey": "paraty-ilha-grande-F09",
+              "text": "A rota associava a mineração de Minas Gerais ao embarque no litoral.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P10",
+              "factKey": "paraty-ilha-grande-F10",
+              "text": "O porto escoava produtos agrícolas além do ouro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P11",
+              "factKey": "paraty-ilha-grande-F11",
+              "text": "O sítio também testemunha a violência do tráfico de pessoas escravizadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P12",
+              "factKey": "paraty-ilha-grande-F12",
+              "text": "A ocupação indígena antecede a presença europeia na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P13",
+              "factKey": "paraty-ilha-grande-F13",
+              "text": "Comunidades guarani integram o patrimônio cultural vivo regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P14",
+              "factKey": "paraty-ilha-grande-F14",
+              "text": "As comunidades caiçaras mantêm práticas ligadas à terra e ao mar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P15",
+              "factKey": "paraty-ilha-grande-F15",
+              "text": "A pesca é uma prática relevante para comunidades caiçaras.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P16",
+              "factKey": "paraty-ilha-grande-F16",
+              "text": "Comunidades quilombolas mantêm práticas culturais ligadas à Mata Atlântica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P17",
+              "factKey": "paraty-ilha-grande-F17",
+              "text": "O bem protege formações da Mata Atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P18",
+              "factKey": "paraty-ilha-grande-F18",
+              "text": "Manguezais integram a transição entre ambientes terrestres e marinhos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P19",
+              "factKey": "paraty-ilha-grande-F19",
+              "text": "A vegetação de restinga integra a diversidade costeira.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P20",
+              "factKey": "paraty-ilha-grande-F20",
+              "text": "A diversidade ambiental inclui formações florestais em diferentes altitudes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P21",
+              "factKey": "paraty-ilha-grande-F21",
+              "text": "O Parque Nacional da Serra da Bocaina integra o bem reconhecido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P22",
+              "factKey": "paraty-ilha-grande-F22",
+              "text": "A combinação de ilhas, baías e encostas define parte do contexto visual.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P23",
+              "factKey": "paraty-ilha-grande-F23",
+              "text": "O bem é reconhecido por atributos culturais e naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P24",
+              "factKey": "paraty-ilha-grande-F24",
+              "text": "A posição litorânea histórica diferencia o destino de capitais planejadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "paraty-ilha-grande-geografo-P25",
+              "factKey": "paraty-ilha-grande-F25",
+              "text": "A identificação relaciona rota histórica, paisagem costeira e patrimônio cultural.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PAR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Bem misto do Sudeste que reúne centro histórico, Mata Atlântica, comunidades tradicionais e áreas protegidas costeiras.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

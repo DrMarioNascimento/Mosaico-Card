@@ -4105,3 +4105,77 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | O patrimônio não se limita a uma única pintura. | O valor cultural envolve muitos sítios e uma longa continuidade histórica. | KAK1 |
 | 24 | Vários ambientes permitem a presença de plantas e animais diferentes. | A diversidade de habitats sustenta diversidade de flora e fauna. | KAK1 |
 | 25 | Para identificar, combine arte rupestre aborígene, alagados e escarpas. | A identificação integra patrimônio cultural vivo e mosaico de ecossistemas. | KAK1 |
+
+## Parque Nacional de Aparados da Serra
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional de Aparados da Serra | Parque Nacional de Aparados da Serra; Parque Nacional da Serra Geral; Parque Nacional da Serra dos Órgãos; Parque Nacional da Chapada Diamantina; Parque Nacional da Chapada dos Guimarães; Parque Nacional da Serra da Canastra; Parque Nacional do Itatiaia; Parque Nacional do Caparaó; Parque Nacional do Iguaçu; Parque Nacional do Catimbau; Parque Nacional da Serra da Bocaina; Parque Nacional de Brasília |
+| Cânion de referência | Itaimbezinho | Itaimbezinho; Fortaleza; Guartelá; São Francisco |
+| Bioma | Mata Atlântica | Mata Atlântica; Caatinga; Pantanal; Pampa exclusivamente |
+| Município de referência | Cambará do Sul | Cambará do Sul; Chapada dos Guimarães; Lençóis; Alto Paraíso de Goiás |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma área protegida no Sul do Brasil. | A unidade de conservação situa-se no sul brasileiro. | APA1, APA2 |
+| 2 | Grandes paredões de rocha marcam a paisagem. | Escarpas rochosas estruturam o relevo protegido. | APA1, APA2 |
+| 3 | Um cânion é o principal atrativo do parque. | Um vale encaixado entre escarpas é referência para a visitação. | APA1, APA2 |
+| 4 | O nome desse cânion é Itaimbezinho. | O Cânion Itaimbezinho integra a unidade de conservação. | APA1, APA2 |
+| 5 | Os paredões podem chegar a centenas de metros de profundidade. | O cânion apresenta desníveis que alcançam cerca de 700 metros. | APA1, APA2 |
+| 6 | A água percorre fendas e vales do terreno. | Cursos de água atravessam o relevo encaixado. | APA1, APA2 |
+| 7 | Há pontos de observação na borda do cânion. | A visitação inclui mirantes voltados aos paredões. | APA1, APA2 |
+| 8 | Uma trilha de visitação recebe o nome de Vértice. | A Trilha do Vértice permite apreciar o cânion. | APA1, APA2 |
+| 9 | A paisagem protegida está no bioma Mata Atlântica. | A unidade integra a Mata Atlântica. | APA1, APA2 |
+| 10 | Vegetação cobre partes dos paredões. | A cobertura vegetal se distribui pelas escarpas e arredores. | APA1, APA2 |
+| 11 | A área abriga onça-parda. | A fauna protegida inclui o felino Puma concolor. | APA1, APA2 |
+| 12 | O papagaio-charão aparece entre as espécies protegidas. | O papagaio-charão integra a fauna registrada pelo ICMBio. | APA1, APA2 |
+| 13 | O papagaio-de-peito-roxo também é protegido. | O parque protege a espécie Amazona vinacea. | APA1, APA2 |
+| 14 | Um pequeno peixe conhecido como lambari é registrado. | A fauna protegida inclui peixes como Mimagoniates rheocharis. | APA1, APA2 |
+| 15 | A área é classificada como parque nacional. | A unidade federal pertence à categoria parque nacional. | APA1, APA2 |
+| 16 | A criação da unidade ocorreu em 1959. | O decreto de criação do parque data de 1959. | APA1, APA2 |
+| 17 | Cambará do Sul é uma referência para o acesso ao parque. | O endereço de referência da unidade fica em Cambará do Sul, no Rio Grande do Sul. | APA1, APA2 |
+| 18 | A região relaciona os estados de Santa Catarina e Rio Grande do Sul. | A área dos cânions situa-se na divisa entre estados do sul brasileiro. | APA1, APA2 |
+| 19 | O local fica no Brasil. | A unidade está em território brasileiro. | APA1, APA2 |
+| 20 | O relevo não é uma cadeia de dunas costeiras. | As escarpas rochosas diferenciam a área de sistemas de dunas. | APA1, APA2 |
+| 21 | O parque protege habitats, não apenas o mirante turístico. | A proteção abrange ecossistemas e fauna além dos pontos de visitação. | APA1, APA2 |
+| 22 | As trilhas permitem conhecer diferentes perspectivas do relevo. | O uso público explora a observação da topografia e da paisagem. | APA1, APA2 |
+| 23 | O cenário combina profundidade, rocha, água e vegetação. | A paisagem resulta da relação entre relevo encaixado, drenagem e cobertura vegetal. | APA1, APA2 |
+| 24 | Há outro parque federal próximo chamado Serra Geral. | A gestão regional relaciona a unidade ao vizinho Parque Nacional da Serra Geral. | APA1, APA2 |
+| 25 | Para identificar, combine Mata Atlântica e o Cânion Itaimbezinho. | A identificação articula bioma, relevo de cânion e posição sul-brasileira. | APA1, APA2 |
+
+## Paraty e Ilha Grande
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Bem patrimonial | Paraty e Ilha Grande | Paraty e Ilha Grande; Centro Histórico de Olinda; Centro Histórico de Salvador; Ouro Preto; São Luís; Conjunto Moderno da Pampulha; Sítio Roberto Burle Marx; Paisagens Cariocas; Cidade Histórica de Goiás; Centro Histórico de Diamantina; Sítio de São Miguel das Missões; Centro Histórico de Porto Seguro |
+| Rota histórica associada | Caminho do Ouro | Caminho do Ouro; Estrada Real dos Alpes; Rota da Seda; Caminho de Santiago |
+| Bioma | Mata Atlântica | Mata Atlântica; Cerrado; Caatinga; Pantanal |
+| Comunidades tradicionais | Guarani, caiçaras e quilombolas | Guarani, caiçaras e quilombolas; Ribeirinhas amazônicas, seringueiras e quebradeiras de coco; Pantaneiras, vaqueiras do sertão e campeiras; Povos dos Andes, da Patagônia e da Terra do Fogo |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino reúne uma cidade histórica e ambientes naturais costeiros. | O patrimônio combina componentes culturais e naturais de uma paisagem costeira. | PAR1 |
+| 2 | O centro histórico conserva construções da época colonial. | O núcleo urbano histórico é um componente cultural do bem. | PAR1 |
+| 3 | O local se relaciona ao mar e à Serra do Mar. | A paisagem articula litoral, montanhas e floresta atlântica. | PAR1 |
+| 4 | Uma grande baía e suas ilhas fazem parte do contexto regional. | A Baía da Ilha Grande integra o contexto da paisagem reconhecida. | PAR1 |
+| 5 | O conjunto está no Sudeste brasileiro. | O bem situa-se no Sudeste do Brasil. | PAR1 |
+| 6 | Áreas protegidas se estendem por Rio de Janeiro e São Paulo. | Os componentes do patrimônio abrangem áreas dos estados do Rio de Janeiro e de São Paulo. | PAR1 |
+| 7 | O centro histórico se relaciona a rotas antigas para o interior. | A cidade foi ponto costeiro de acesso a caminhos para o interior. | PAR1 |
+| 8 | Uma dessas rotas era usada para transportar ouro. | O Caminho do Ouro ligava áreas mineradoras ao porto. | PAR1 |
+| 9 | O ouro vinha da região das minas. | A rota associava a mineração de Minas Gerais ao embarque no litoral. | PAR1 |
+| 10 | Produtos agrícolas também passavam pelo porto. | O porto escoava produtos agrícolas além do ouro. | PAR1 |
+| 11 | A história do porto inclui a chegada de africanos escravizados. | O sítio também testemunha a violência do tráfico de pessoas escravizadas. | PAR1 |
+| 12 | Povos indígenas habitavam a região antes da chegada de europeus. | A ocupação indígena antecede a presença europeia na região. | PAR1 |
+| 13 | Comunidades guarani mantêm relações com a floresta. | Comunidades guarani integram o patrimônio cultural vivo regional. | PAR1 |
+| 14 | Comunidades caiçaras também vivem na região. | As comunidades caiçaras mantêm práticas ligadas à terra e ao mar. | PAR1 |
+| 15 | A pesca tradicional permanece importante. | A pesca é uma prática relevante para comunidades caiçaras. | PAR1 |
+| 16 | Comunidades quilombolas fazem parte da paisagem cultural. | Comunidades quilombolas mantêm práticas culturais ligadas à Mata Atlântica. | PAR1 |
+| 17 | O bioma da região é a Mata Atlântica. | O bem protege formações da Mata Atlântica. | PAR1 |
+| 18 | Manguezais aparecem nas planícies costeiras. | Manguezais integram a transição entre ambientes terrestres e marinhos. | PAR1 |
+| 19 | A restinga também faz parte dos ambientes protegidos. | A vegetação de restinga integra a diversidade costeira. | PAR1 |
+| 20 | A floresta acompanha variações de altitude. | A diversidade ambiental inclui formações florestais em diferentes altitudes. | PAR1 |
+| 21 | Uma unidade protegida se chama Parque Nacional da Serra da Bocaina. | O Parque Nacional da Serra da Bocaina integra o bem reconhecido. | PAR1 |
+| 22 | Ilhas, praias e enseadas compõem a paisagem. | A combinação de ilhas, baías e encostas define parte do contexto visual. | PAR1 |
+| 23 | O reconhecimento da UNESCO valoriza cultura e biodiversidade. | O bem é reconhecido por atributos culturais e naturais. | PAR1 |
+| 24 | O lugar não é uma capital planejada no interior. | A posição litorânea histórica diferencia o destino de capitais planejadas. | PAR1 |
+| 25 | Para identificar, combine porto colonial, Caminho do Ouro e baía. | A identificação relaciona rota histórica, paisagem costeira e patrimônio cultural. | PAR1 |

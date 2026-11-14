@@ -78,8 +78,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Bagan | Ásia |
 | K’gari | Oceania |
 | Parque Nacional Kakadu | Oceania |
+| Parque Nacional de Aparados da Serra | Brasil · Sul · América |
+| Paraty e Ilha Grande | Brasil · Sudeste · América |
 
-São 68 lugares, 136 conjuntos de pistas (dois por lugar), 3.400 pistas, 272 perguntas distintas e 1.604 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 70 lugares, 140 conjuntos de pistas (dois por lugar), 3.500 pistas, 280 perguntas distintas e 1.652 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
