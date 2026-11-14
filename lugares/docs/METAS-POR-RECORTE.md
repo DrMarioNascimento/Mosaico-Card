@@ -8,12 +8,12 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 12 | 30 | 18 |
-| América | 15 | 30 | 15 |
+| Brasil | 14 | 30 | 16 |
+| América | 17 | 30 | 13 |
 | Europa | 3 | 30 | 27 |
 | África | 5 | 30 | 25 |
 | Ásia | 3 | 30 | 27 |
-| Oceania | 3 | 30 | 27 |
+| Oceania | 5 | 30 | 25 |
 | Antártida | 3 | 30 | 27 |
 
 **Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
@@ -28,11 +28,11 @@ Para evitar que a meta de 30 se concentre em uma região, o planejamento parte d
 |---|---:|---:|---:|
 | Norte | 2 | 6 | 4 |
 | Nordeste | 5 | 6 | 1 |
-| Centro-Oeste | 2 | 6 | 4 |
-| Sudeste | 1 | 6 | 5 |
+| Centro-Oeste | 3 | 6 | 3 |
+| Sudeste | 2 | 6 | 4 |
 | Sul | 2 | 6 | 4 |
 
-Os filtros Norte e Sudeste agora têm, respectivamente, dois lugares e um lugar, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
+Os filtros Norte e Sudeste agora têm dois lugares cada, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
 
 ## Critérios de autoria e revisão
 

@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 128,
+  "targetPlaces": 130,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -33,7 +33,11 @@
     "Angkor",
     "Ilha Deception",
     "Delta do Okavango",
-    "Parque Nacional do Serengeti"
+    "Parque Nacional do Serengeti",
+    "Parque Nacional da Chapada dos Veadeiros",
+    "Ouro Preto",
+    "Parque Nacional Tongariro",
+    "Costa de Ningaloo"
   ],
   "groups": {
     "Brasil Norte": [
@@ -177,7 +181,9 @@
       "Uluru",
       "Tasmânia",
       "Fiji",
-      "Ópera de Sydney"
+      "Ópera de Sydney",
+      "Parque Nacional Tongariro",
+      "Costa de Ningaloo"
     ],
     "Antártida": [
       "Polo Sul Geográfico",

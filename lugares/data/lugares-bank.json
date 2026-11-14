@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-10-2026-11-14",
+  "catalogVersion": "lote-11-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Trinta e dois destinos jogáveis em dois perfis",
-  "status": "Trinta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Trinta e seis destinos jogáveis com dois perfis",
+  "status": "Trinta e seis destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -528,6 +528,41 @@
       "title": "Serengeti National Park",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/156/",
+      "checkedAt": "2026-11-14"
+    },
+    "CH1": {
+      "id": "CH1",
+      "title": "Cerrado Protected Areas: Chapada dos Veadeiros and Emas National Parks",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1035/",
+      "checkedAt": "2026-11-14"
+    },
+    "OU1": {
+      "id": "OU1",
+      "title": "Historic Town of Ouro Preto",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/124/",
+      "checkedAt": "2026-11-14"
+    },
+    "TO1": {
+      "id": "TO1",
+      "title": "Tongariro National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/421/",
+      "checkedAt": "2026-11-14"
+    },
+    "TO2": {
+      "id": "TO2",
+      "title": "Evolving together: Tongariro",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/story-tongariro/",
+      "checkedAt": "2026-11-14"
+    },
+    "NG1": {
+      "id": "NG1",
+      "title": "Ningaloo Coast",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1369/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -32935,6 +32970,4052 @@
       },
       "reveal": {
         "canonicalSummary": "O Parque Nacional do Serengeti, na Tanzânia, protege planícies de savana ligadas à migração sazonal de grandes grupos de herbívoros.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-chapada-veadeiros",
+      "placeId": "chapada-veadeiros",
+      "title": "Parque Nacional da Chapada dos Veadeiros",
+      "aliases": [
+        "Chapada dos Veadeiros"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Serra da Capivara"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Chapada dos Veadeiros",
+          "sources": [
+            "CH1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Parque parceiro no bem reconhecido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Parque Nacional de Jericoacoara"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Parque Nacional das Emas",
+          "sources": [
+            "CH1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Característica do clima no Cerrado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Estações seca e chuvosa"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Neve permanente durante todo o ano"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Apenas estações de monção polar"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ausência total de variação sazonal"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Estações seca e chuvosa",
+          "sources": [
+            "CH1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Maranhão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Goiás",
+          "sources": [
+            "CH1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "chapada-veadeiros-viajante-P01",
+              "factKey": "chapada-veadeiros-F01",
+              "text": "O destino protege paisagens do Cerrado brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P02",
+              "factKey": "chapada-veadeiros-F02",
+              "text": "O lugar fica no estado de Goiás.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P03",
+              "factKey": "chapada-veadeiros-F03",
+              "text": "O recorte escolhido é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P04",
+              "factKey": "chapada-veadeiros-F04",
+              "text": "Outro parque faz parte do mesmo bem reconhecido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P05",
+              "factKey": "chapada-veadeiros-F05",
+              "text": "O parque parceiro é o Parque Nacional das Emas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P06",
+              "factKey": "chapada-veadeiros-F06",
+              "text": "Os dois parques conservam áreas do planalto central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P07",
+              "factKey": "chapada-veadeiros-F07",
+              "text": "A vegetação tem grande diversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P08",
+              "factKey": "chapada-veadeiros-F08",
+              "text": "Há plantas que ocorrem apenas em certas áreas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P09",
+              "factKey": "chapada-veadeiros-F09",
+              "text": "O clima tem uma estação seca e outra chuvosa.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P10",
+              "factKey": "chapada-veadeiros-F10",
+              "text": "O fogo é um dos fatores presentes na história ecológica do Cerrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P11",
+              "factKey": "chapada-veadeiros-F11",
+              "text": "Os solos podem ser ácidos e pobres em nutrientes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P12",
+              "factKey": "chapada-veadeiros-F12",
+              "text": "Essas condições se relacionam a adaptações das plantas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P13",
+              "factKey": "chapada-veadeiros-F13",
+              "text": "A região ajuda a manter cursos d’água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P14",
+              "factKey": "chapada-veadeiros-F14",
+              "text": "O solo e a geologia favorecem a recarga de aquíferos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P15",
+              "factKey": "chapada-veadeiros-F15",
+              "text": "O lugar pode ser relacionado à proteção da água e da biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P16",
+              "factKey": "chapada-veadeiros-F16",
+              "text": "O lobo-guará é um dos animais do conjunto protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P17",
+              "factKey": "chapada-veadeiros-F17",
+              "text": "O tamanduá-bandeira também está entre os grandes mamíferos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P18",
+              "factKey": "chapada-veadeiros-F18",
+              "text": "A onça-pintada é uma das espécies presentes no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P19",
+              "factKey": "chapada-veadeiros-F19",
+              "text": "Há também tatus-canastra no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P20",
+              "factKey": "chapada-veadeiros-F20",
+              "text": "Os parques foram reconhecidos por sua importância natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P21",
+              "factKey": "chapada-veadeiros-F21",
+              "text": "A variação de altitude contribui para ambientes diferentes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P22",
+              "factKey": "chapada-veadeiros-F22",
+              "text": "As áreas protegidas podem servir de refúgio para espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P23",
+              "factKey": "chapada-veadeiros-F23",
+              "text": "A região possui chapadas e diferentes cursos d’água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P24",
+              "factKey": "chapada-veadeiros-F24",
+              "text": "A área é diferente de uma planície inundável como a do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-viajante-P25",
+              "factKey": "chapada-veadeiros-F25",
+              "text": "Para identificar o parque, combine Cerrado, Goiás e a unidade parceira.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "chapada-veadeiros-geografo-P01",
+              "factKey": "chapada-veadeiros-F01",
+              "text": "O parque integra um conjunto de áreas protegidas do bioma Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P02",
+              "factKey": "chapada-veadeiros-F02",
+              "text": "A localização administrativa do parque é Goiás, no Brasil central.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P03",
+              "factKey": "chapada-veadeiros-F03",
+              "text": "A unidade integra a categoria federal de parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P04",
+              "factKey": "chapada-veadeiros-F04",
+              "text": "O reconhecimento patrimonial reúne duas unidades de conservação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P05",
+              "factKey": "chapada-veadeiros-F05",
+              "text": "A inscrição em conjunto inclui a unidade denominada Emas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P06",
+              "factKey": "chapada-veadeiros-F06",
+              "text": "As unidades localizam-se no planalto central brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P07",
+              "factKey": "chapada-veadeiros-F07",
+              "text": "O Cerrado apresenta alta diversidade de espécies vegetais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P08",
+              "factKey": "chapada-veadeiros-F08",
+              "text": "A flora inclui espécies endêmicas associadas ao Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P09",
+              "factKey": "chapada-veadeiros-F09",
+              "text": "A sazonalidade climática alterna períodos secos e úmidos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P10",
+              "factKey": "chapada-veadeiros-F10",
+              "text": "A recorrência de fogo influencia adaptações de espécies do Cerrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P11",
+              "factKey": "chapada-veadeiros-F11",
+              "text": "As condições edáficas incluem elevada acidez e baixa disponibilidade de nutrientes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P12",
+              "factKey": "chapada-veadeiros-F12",
+              "text": "Clima, solos e fogo atuam como fatores de seleção em espécies do bioma.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P13",
+              "factKey": "chapada-veadeiros-F13",
+              "text": "O papel hidrológico inclui alimentação de diferentes cursos fluviais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P14",
+              "factKey": "chapada-veadeiros-F14",
+              "text": "As características do terreno contribuem para processos de recarga hídrica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P15",
+              "factKey": "chapada-veadeiros-F15",
+              "text": "A conservação integra processos hidrológicos e diversidade biológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P16",
+              "factKey": "chapada-veadeiros-F16",
+              "text": "O complexo abriga o lobo-guará, mamífero associado ao Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P17",
+              "factKey": "chapada-veadeiros-F17",
+              "text": "A fauna protegida inclui o tamanduá-bandeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P18",
+              "factKey": "chapada-veadeiros-F18",
+              "text": "O bem inclui habitats utilizados pela onça-pintada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P19",
+              "factKey": "chapada-veadeiros-F19",
+              "text": "O tatu-canastra figura entre os mamíferos do bem protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P20",
+              "factKey": "chapada-veadeiros-F20",
+              "text": "A UNESCO reconheceu o conjunto por seus valores ecológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P21",
+              "factKey": "chapada-veadeiros-F21",
+              "text": "A heterogeneidade altitudinal participa da diversidade de habitats.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P22",
+              "factKey": "chapada-veadeiros-F22",
+              "text": "A conservação mantém habitats capazes de abrigar espécies em mudanças ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P23",
+              "factKey": "chapada-veadeiros-F23",
+              "text": "A paisagem de planalto se relaciona à rede de drenagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P24",
+              "factKey": "chapada-veadeiros-F24",
+              "text": "O recorte de Cerrado em planalto contrasta com ambientes de planície alagável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-veadeiros-geografo-P25",
+              "factKey": "chapada-veadeiros-F25",
+              "text": "A identificação relaciona bioma, localização estadual e composição do bem.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "CH1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional da Chapada dos Veadeiros integra, com o Parque Nacional das Emas, um bem reconhecido pela conservação do Cerrado em Goiás.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-ouro-preto",
+      "placeId": "ouro-preto",
+      "title": "Ouro Preto",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Mariana"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Tiradentes"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Congonhas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O7",
+              "text": "São João del-Rei"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O12",
+              "text": "São Luís"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ouro Preto",
+          "sources": [
+            "OU1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atividade econômica histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mineração de ouro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Extração de petróleo em plataformas modernas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Produção de seda na Antiguidade"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Pesca de baleias no Ártico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mineração de ouro",
+          "sources": [
+            "OU1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Expressão artística marcante",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Barroco brasileiro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Gótico francês do século XII"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Arquitetura Inca de Machu Picchu"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Arte rupestre da Austrália"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Barroco brasileiro",
+          "sources": [
+            "OU1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Minas Gerais"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Minas Gerais",
+          "sources": [
+            "OU1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ouro-preto-viajante-P01",
+              "factKey": "ouro-preto-F01",
+              "text": "O destino é uma cidade histórica entre morros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P02",
+              "factKey": "ouro-preto-F02",
+              "text": "A cidade fica em Minas Gerais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P03",
+              "factKey": "ouro-preto-F03",
+              "text": "O ouro teve grande importância para sua formação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P04",
+              "factKey": "ouro-preto-F04",
+              "text": "A cidade esteve ligada à corrida pelo ouro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P05",
+              "factKey": "ouro-preto-F05",
+              "text": "A atividade mineradora destacou-se no século XVIII.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P06",
+              "factKey": "ouro-preto-F06",
+              "text": "A produção de ouro perdeu força no século XIX.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P07",
+              "factKey": "ouro-preto-F07",
+              "text": "Ruas sinuosas acompanham o relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P08",
+              "factKey": "ouro-preto-F08",
+              "text": "Há ladeiras entre as casas antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P09",
+              "factKey": "ouro-preto-F09",
+              "text": "O centro histórico reúne igrejas, praças e pontes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P10",
+              "factKey": "ouro-preto-F10",
+              "text": "Chafarizes fazem parte do patrimônio preservado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P11",
+              "factKey": "ouro-preto-F11",
+              "text": "A cidade já foi conhecida como Vila Rica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P12",
+              "factKey": "ouro-preto-F12",
+              "text": "Durante muitos anos foi capital provincial de Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P13",
+              "factKey": "ouro-preto-F13",
+              "text": "O barroco aparece nas construções históricas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P14",
+              "factKey": "ouro-preto-F14",
+              "text": "Esculturas também integram o conjunto artístico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P15",
+              "factKey": "ouro-preto-F15",
+              "text": "Um artista importante era conhecido como Aleijadinho.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P16",
+              "factKey": "ouro-preto-F16",
+              "text": "A Igreja de São Francisco de Assis está ligada a esse artista.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P17",
+              "factKey": "ouro-preto-F17",
+              "text": "O artista também atuou como arquiteto e escultor.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P18",
+              "factKey": "ouro-preto-F18",
+              "text": "Um movimento de 1789 teve a cidade como centro simbólico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P19",
+              "factKey": "ouro-preto-F19",
+              "text": "O movimento é conhecido como Inconfidência Mineira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P20",
+              "factKey": "ouro-preto-F20",
+              "text": "Construções de uso administrativo também foram preservadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P21",
+              "factKey": "ouro-preto-F21",
+              "text": "O antigo prédio da Câmara e Cadeia abriga um museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P22",
+              "factKey": "ouro-preto-F22",
+              "text": "O conjunto urbano é reconhecido pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P23",
+              "factKey": "ouro-preto-F23",
+              "text": "A cidade está no interior, longe da costa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P24",
+              "factKey": "ouro-preto-F24",
+              "text": "A paisagem construída reflete tanto a economia quanto o relevo.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-viajante-P25",
+              "factKey": "ouro-preto-F25",
+              "text": "Para diferenciar o destino, combine ouro, ladeiras e barroco.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ouro-preto-geografo-P01",
+              "factKey": "ouro-preto-F01",
+              "text": "O núcleo urbano ocupa encostas de relevo acidentado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P02",
+              "factKey": "ouro-preto-F02",
+              "text": "A localização administrativa situa o destino em Minas Gerais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P03",
+              "factKey": "ouro-preto-F03",
+              "text": "A mineração aurífera influenciou a economia e o desenvolvimento urbano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P04",
+              "factKey": "ouro-preto-F04",
+              "text": "O crescimento local se inseriu no ciclo de exploração aurífera colonial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P05",
+              "factKey": "ouro-preto-F05",
+              "text": "A riqueza mineral marcou a trajetória urbana no período setecentista.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P06",
+              "factKey": "ouro-preto-F06",
+              "text": "A redução da mineração contribuiu para o declínio posterior da influência urbana.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P07",
+              "factKey": "ouro-preto-F07",
+              "text": "O traçado irregular responde à topografia das encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P08",
+              "factKey": "ouro-preto-F08",
+              "text": "A circulação urbana se adapta aos desníveis do terreno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P09",
+              "factKey": "ouro-preto-F09",
+              "text": "O conjunto protegido articula edificações religiosas, espaços públicos e infraestrutura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P10",
+              "factKey": "ouro-preto-F10",
+              "text": "Fontes históricas integram o conjunto urbano reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P11",
+              "factKey": "ouro-preto-F11",
+              "text": "A denominação histórica Vila Rica antecedeu o nome atual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P12",
+              "factKey": "ouro-preto-F12",
+              "text": "O lugar exerceu função administrativa provincial de 1720 a 1897.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P13",
+              "factKey": "ouro-preto-F13",
+              "text": "O patrimônio arquitetônico inclui expressões do barroco brasileiro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P14",
+              "factKey": "ouro-preto-F14",
+              "text": "A produção artística compreende obras escultóricas associadas ao barroco.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P15",
+              "factKey": "ouro-preto-F15",
+              "text": "Antônio Francisco Lisboa é associado a obras do barroco local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P16",
+              "factKey": "ouro-preto-F16",
+              "text": "O conjunto inclui obra associada a Antônio Francisco Lisboa.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P17",
+              "factKey": "ouro-preto-F17",
+              "text": "A trajetória de Antônio Francisco Lisboa envolve arquitetura e escultura.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P18",
+              "factKey": "ouro-preto-F18",
+              "text": "A Inconfidência Mineira relaciona-se à história política do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P19",
+              "factKey": "ouro-preto-F19",
+              "text": "A memória urbana inclui a Inconfidência Mineira de 1789.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P20",
+              "factKey": "ouro-preto-F20",
+              "text": "O patrimônio não se limita a templos e inclui antigos edifícios de governo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P21",
+              "factKey": "ouro-preto-F21",
+              "text": "O edifício histórico foi associado ao Museu da Inconfidência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P22",
+              "factKey": "ouro-preto-F22",
+              "text": "A inscrição internacional protege valores arquitetônicos e históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P23",
+              "factKey": "ouro-preto-F23",
+              "text": "A localização interiorana diferencia o sítio de cidades históricas costeiras.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P24",
+              "factKey": "ouro-preto-F24",
+              "text": "A mineração e a topografia ajudam a explicar a organização histórica da cidade.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ouro-preto-geografo-P25",
+              "factKey": "ouro-preto-F25",
+              "text": "A identificação relaciona atividade mineradora, traçado em encostas e arte barroca.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "OU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ouro Preto reúne patrimônio urbano em encostas ligado à mineração de ouro e a expressões do barroco brasileiro.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-tongariro",
+      "placeId": "tongariro",
+      "title": "Parque Nacional Tongariro",
+      "aliases": [
+        "Tongariro"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "NZ"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Tongariro"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Fiordland"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Aoraki / Mount Cook"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Abel Tasman"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Kakadu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Nitmiluk"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Yellowstone"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Yosemite"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Banff"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional dos Vulcões do Havaí"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Westland Tai Poutini"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Tongariro",
+          "sources": [
+            "TO1",
+            "TO2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Elementos geológicos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Vulcões como Ruapehu e Ngauruhoe"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Apenas recifes de coral"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Gelo marinho sem montanhas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Apenas dunas litorâneas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Vulcões como Ruapehu e Ngauruhoe",
+          "sources": [
+            "TO1",
+            "TO2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Povo associado à paisagem",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Māori"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Anangu"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Incas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Khmer"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Māori",
+          "sources": [
+            "TO1",
+            "TO2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nova Zelândia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Austrália"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Canadá"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Japão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nova Zelândia",
+          "sources": [
+            "TO1",
+            "TO2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "tongariro-viajante-P01",
+              "factKey": "tongariro-F01",
+              "text": "O lugar é um parque com montanhas vulcânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P02",
+              "factKey": "tongariro-F02",
+              "text": "O parque fica na Ilha Norte da Nova Zelândia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P03",
+              "factKey": "tongariro-F03",
+              "text": "Há vulcões ativos e extintos no parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P04",
+              "factKey": "tongariro-F04",
+              "text": "Uma das montanhas é chamada Ruapehu.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P05",
+              "factKey": "tongariro-F05",
+              "text": "Outra montanha é Ngauruhoe.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P06",
+              "factKey": "tongariro-F06",
+              "text": "O terceiro vulcão do conjunto dá nome à unidade.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P07",
+              "factKey": "tongariro-F07",
+              "text": "A paisagem inclui antigos derrames de lava.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P08",
+              "factKey": "tongariro-F08",
+              "text": "Há lagos de cores marcantes na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P09",
+              "factKey": "tongariro-F09",
+              "text": "O ambiente também tem áreas de vegetação alpina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P10",
+              "factKey": "tongariro-F10",
+              "text": "O parque protege mais de um tipo de ecossistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P11",
+              "factKey": "tongariro-F11",
+              "text": "As montanhas são importantes para o povo Māori.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P12",
+              "factKey": "tongariro-F12",
+              "text": "A importância cultural não depende de um edifício no local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P13",
+              "factKey": "tongariro-F13",
+              "text": "Os vínculos entre pessoas e montanhas fazem parte do valor protegido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P14",
+              "factKey": "tongariro-F14",
+              "text": "A proteção internacional reconhece valores naturais e culturais.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P15",
+              "factKey": "tongariro-F15",
+              "text": "Em 1993 a paisagem cultural recebeu reconhecimento sob critérios revisados.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P16",
+              "factKey": "tongariro-F16",
+              "text": "O reconhecimento natural ocorreu antes do cultural.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P17",
+              "factKey": "tongariro-F17",
+              "text": "O parque foi criado no fim do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P18",
+              "factKey": "tongariro-F18",
+              "text": "Foi o primeiro parque nacional do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P19",
+              "factKey": "tongariro-F19",
+              "text": "A conservação envolve a participação Māori.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P20",
+              "factKey": "tongariro-F20",
+              "text": "Há trilhas e atividades de visitação na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P21",
+              "factKey": "tongariro-F21",
+              "text": "Montanhas sagradas estão no centro do parque.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P22",
+              "factKey": "tongariro-F22",
+              "text": "O país pertence ao recorte Oceania usado pelo jogo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P23",
+              "factKey": "tongariro-F23",
+              "text": "A proteção precisa considerar pessoas e ambiente.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P24",
+              "factKey": "tongariro-F24",
+              "text": "O lugar pode ser comparado com outros parques vulcânicos.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-viajante-P25",
+              "factKey": "tongariro-F25",
+              "text": "Para identificar o destino, combine país, vulcões e povo Māori.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "tongariro-geografo-P01",
+              "factKey": "tongariro-F01",
+              "text": "A unidade protegida inclui formas de relevo de origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P02",
+              "factKey": "tongariro-F02",
+              "text": "A localização corresponde à Ilha Norte neozelandesa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P03",
+              "factKey": "tongariro-F03",
+              "text": "O conjunto registra estruturas vulcânicas em diferentes estados de atividade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P04",
+              "factKey": "tongariro-F04",
+              "text": "Ruapehu integra o conjunto de vulcões da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P05",
+              "factKey": "tongariro-F05",
+              "text": "Ngauruhoe é um dos vulcões associados ao parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P06",
+              "factKey": "tongariro-F06",
+              "text": "Uma das montanhas vulcânicas compartilha a denominação do parque.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P07",
+              "factKey": "tongariro-F07",
+              "text": "A atividade vulcânica produziu fluxos de lava preservados na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P08",
+              "factKey": "tongariro-F08",
+              "text": "A paisagem vulcânica inclui lagos conhecidos por tonalidades verdes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P09",
+              "factKey": "tongariro-F09",
+              "text": "Ecossistemas de altitude integram a diversidade do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P10",
+              "factKey": "tongariro-F10",
+              "text": "A diversidade ecológica acompanha diferenças de relevo e condições ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P11",
+              "factKey": "tongariro-F11",
+              "text": "O território tem significado cultural e espiritual para o povo Māori.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P12",
+              "factKey": "tongariro-F12",
+              "text": "As associações espirituais podem ser vinculadas diretamente à paisagem natural.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P13",
+              "factKey": "tongariro-F13",
+              "text": "A relação espiritual entre comunidade e ambiente integra o patrimônio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P14",
+              "factKey": "tongariro-F14",
+              "text": "A inscrição combina atributos naturais e significado cultural.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P15",
+              "factKey": "tongariro-F15",
+              "text": "O parque foi pioneiro no uso de critérios de paisagem cultural.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P16",
+              "factKey": "tongariro-F16",
+              "text": "A inscrição por atributos naturais precedeu a ampliação cultural.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P17",
+              "factKey": "tongariro-F17",
+              "text": "A área protegida nacional foi estabelecida em 1894.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P18",
+              "factKey": "tongariro-F18",
+              "text": "A história da conservação neozelandesa inclui esta unidade como primeiro parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P19",
+              "factKey": "tongariro-F19",
+              "text": "A proteção e a interpretação da paisagem incluem o envolvimento Māori.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P20",
+              "factKey": "tongariro-F20",
+              "text": "O uso público convive com a conservação dos valores naturais e culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P21",
+              "factKey": "tongariro-F21",
+              "text": "A configuração patrimonial associa as montanhas a valores espirituais indígenas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P22",
+              "factKey": "tongariro-F22",
+              "text": "A unidade localiza-se na Nova Zelândia, agrupada em Oceania na seleção.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P23",
+              "factKey": "tongariro-F23",
+              "text": "A gestão envolve biodiversidade e continuidade cultural indígena.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P24",
+              "factKey": "tongariro-F24",
+              "text": "A combinação de vulcanismo e paisagem cultural distingue unidades protegidas.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tongariro-geografo-P25",
+              "factKey": "tongariro-F25",
+              "text": "A identificação articula posição insular, estruturas vulcânicas e valores Māori.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "TO1",
+                "TO2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional Tongariro reúne montanhas vulcânicas e paisagem de significado cultural e espiritual para o povo Māori.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-ningaloo",
+      "placeId": "ningaloo",
+      "title": "Costa de Ningaloo",
+      "aliases": [
+        "Ningaloo"
+      ],
+      "answerType": "costa",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AU"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Costa",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Costa de Ningaloo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Grande Barreira de Corais"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Recifes da Nova Caledônia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Recife de Tubbataha"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife de Apo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Recifes de Raja Ampat"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Barreira de Corais de Belize"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Recifes de Fiji"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Atol das Rocas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Fernando de Noronha"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Recife de Palau"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Recife de Aldabra"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Costa de Ningaloo",
+          "sources": [
+            "NG1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ambiente marinho protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Recife próximo da costa"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Apenas geleira continental"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Apenas dunas sem acesso ao mar"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Somente águas fluviais de montanha"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Recife próximo da costa",
+          "sources": [
+            "NG1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Animais que se reúnem sazonalmente",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tubarões-baleia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ursos-polares"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Gorilas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Renas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tubarões-baleia",
+          "sources": [
+            "NG1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Localização",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Costa ocidental da Austrália"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Costa oriental do Brasil"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Costa norte do Japão"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Interior da Mongólia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Costa ocidental da Austrália",
+          "sources": [
+            "NG1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ningaloo-viajante-P01",
+              "factKey": "ningaloo-F01",
+              "text": "O destino combina uma costa seca e ambientes marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P02",
+              "factKey": "ningaloo-F02",
+              "text": "Ele fica no oeste da Austrália.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P03",
+              "factKey": "ningaloo-F03",
+              "text": "Um grande recife fica próximo da costa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P04",
+              "factKey": "ningaloo-F04",
+              "text": "O recife é diferente da Grande Barreira na costa oriental.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P05",
+              "factKey": "ningaloo-F05",
+              "text": "Todos os anos há concentração de tubarões-baleia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P06",
+              "factKey": "ningaloo-F06",
+              "text": "Esses animais visitam as águas do recife.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P07",
+              "factKey": "ningaloo-F07",
+              "text": "Tartarugas marinhas também ocorrem no local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P08",
+              "factKey": "ningaloo-F08",
+              "text": "A proteção inclui parte terrestre e parte marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P09",
+              "factKey": "ningaloo-F09",
+              "text": "Na parte terrestre existem cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P10",
+              "factKey": "ningaloo-F10",
+              "text": "A rocha calcária participa da formação dessas cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P11",
+              "factKey": "ningaloo-F11",
+              "text": "Há cursos d’água subterrâneos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P12",
+              "factKey": "ningaloo-F12",
+              "text": "Algumas espécies vivem nesses ambientes subterrâneos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P13",
+              "factKey": "ningaloo-F13",
+              "text": "A Península Cape Range integra a paisagem terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P14",
+              "factKey": "ningaloo-F14",
+              "text": "O lugar tem laguna e recife, além de mar aberto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P15",
+              "factKey": "ningaloo-F15",
+              "text": "Também há praias de areia e costas rochosas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P16",
+              "factKey": "ningaloo-F16",
+              "text": "Manguezais aparecem entre os ambientes do bem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P17",
+              "factKey": "ningaloo-F17",
+              "text": "A região marinha tem espécies tropicais e temperadas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P18",
+              "factKey": "ningaloo-F18",
+              "text": "O contraste entre mar e terra seca marca a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P19",
+              "factKey": "ningaloo-F19",
+              "text": "Os tubarões-baleia se reúnem em períodos do ano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P20",
+              "factKey": "ningaloo-F20",
+              "text": "O recife faz parte de um conjunto maior de habitats.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P21",
+              "factKey": "ningaloo-F21",
+              "text": "A UNESCO reconhece a importância natural do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P22",
+              "factKey": "ningaloo-F22",
+              "text": "A costa está junto ao Oceano Índico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P23",
+              "factKey": "ningaloo-F23",
+              "text": "O sistema cárstico tem cavernas e corpos de água subterrânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P24",
+              "factKey": "ningaloo-F24",
+              "text": "Os animais marinhos e os habitantes das cavernas fazem parte da biodiversidade.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-viajante-P25",
+              "factKey": "ningaloo-F25",
+              "text": "Para diferenciar de outros recifes, combine costa oeste, tubarões-baleia e cavernas.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ningaloo-geografo-P01",
+              "factKey": "ningaloo-F01",
+              "text": "O bem reúne uma faixa costeira árida e ecossistemas marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P02",
+              "factKey": "ningaloo-F02",
+              "text": "A posição costeira corresponde à Austrália Ocidental.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P03",
+              "factKey": "ningaloo-F03",
+              "text": "O patrimônio inclui um extenso recife litorâneo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P04",
+              "factKey": "ningaloo-F04",
+              "text": "A localização ocidental distingue este recife do sistema da costa nordeste.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P05",
+              "factKey": "ningaloo-F05",
+              "text": "A área recebe agregações sazonais de tubarões-baleia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P06",
+              "factKey": "ningaloo-F06",
+              "text": "O ambiente marinho oferece condições para agregações de grandes peixes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P07",
+              "factKey": "ningaloo-F07",
+              "text": "A biodiversidade inclui diferentes tartarugas marinhas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P08",
+              "factKey": "ningaloo-F08",
+              "text": "O bem reconhecido abrange componentes em terra e no mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P09",
+              "factKey": "ningaloo-F09",
+              "text": "A paisagem continental inclui uma rede de cavidades subterrâneas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P10",
+              "factKey": "ningaloo-F10",
+              "text": "A dissolução em calcário integra os processos do relevo cárstico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P11",
+              "factKey": "ningaloo-F11",
+              "text": "O sistema cárstico inclui condutos e água no subsolo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P12",
+              "factKey": "ningaloo-F12",
+              "text": "Habitats subterrâneos sustentam organismos especializados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P13",
+              "factKey": "ningaloo-F13",
+              "text": "O sistema cárstico é associado à região de Cape Range.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P14",
+              "factKey": "ningaloo-F14",
+              "text": "Os habitats incluem laguna, recife e ambientes oceânicos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P15",
+              "factKey": "ningaloo-F15",
+              "text": "A diversidade costeira inclui setores arenosos e rochosos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P16",
+              "factKey": "ningaloo-F16",
+              "text": "O conjunto inclui habitats de manguezal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P17",
+              "factKey": "ningaloo-F17",
+              "text": "O recife abriga organismos associados a diferentes faixas ambientais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P18",
+              "factKey": "ningaloo-F18",
+              "text": "A paisagem costeira contrapõe biodiversidade marinha e ambiente árido terrestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P19",
+              "factKey": "ningaloo-F19",
+              "text": "A agregação sazonal coincide com processos de produtividade marinha.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P20",
+              "factKey": "ningaloo-F20",
+              "text": "A proteção articula recife, plataforma continental e outros ambientes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P21",
+              "factKey": "ningaloo-F21",
+              "text": "A inscrição internacional inclui valores marinhos e terrestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P22",
+              "factKey": "ningaloo-F22",
+              "text": "A posição marítima integra o setor oriental do Oceano Índico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P23",
+              "factKey": "ningaloo-F23",
+              "text": "A circulação subterrânea conecta cavidades e reservatórios naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P24",
+              "factKey": "ningaloo-F24",
+              "text": "A conservação reúne organismos de ambientes marinhos e subterrâneos.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ningaloo-geografo-P25",
+              "factKey": "ningaloo-F25",
+              "text": "A identificação articula localização ocidental, agregação sazonal e carste.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "NG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A Costa de Ningaloo reúne um recife próximo à costa, cavernas calcárias e agregações sazonais de tubarões-baleia no oeste australiano.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

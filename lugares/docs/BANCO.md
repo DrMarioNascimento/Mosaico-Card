@@ -1990,3 +1990,268 @@ O Parque Nacional do Serengeti, na Tanzânia, protege planícies de savana ligad
 - O ecossistema apresenta diversas interações entre presas e predadores.
 - A posição geográfica e o padrão de migração ajudam a distinguir parques africanos.
 - A identificação articula localização tanzaniana, planícies e deslocamento de herbívoros.
+
+
+## Ampliação Centro-Oeste, Sudeste e Oceania
+
+Fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Parque Nacional da Chapada dos Veadeiros
+
+O Parque Nacional da Chapada dos Veadeiros integra, com o Parque Nacional das Emas, um bem reconhecido pela conservação do Cerrado em Goiás.
+
+- **Parque nacional**: Parque Nacional da Chapada dos Veadeiros.
+- **Parque parceiro no bem reconhecido**: Parque Nacional das Emas.
+- **Característica do clima no Cerrado**: Estações seca e chuvosa.
+- **Estado**: Goiás.
+
+**Viajante**
+
+- O destino protege paisagens do Cerrado brasileiro.
+- O lugar fica no estado de Goiás.
+- O recorte escolhido é um parque nacional.
+- Outro parque faz parte do mesmo bem reconhecido.
+- O parque parceiro é o Parque Nacional das Emas.
+- Os dois parques conservam áreas do planalto central.
+- A vegetação tem grande diversidade.
+- Há plantas que ocorrem apenas em certas áreas.
+- O clima tem uma estação seca e outra chuvosa.
+- O fogo é um dos fatores presentes na história ecológica do Cerrado.
+- Os solos podem ser ácidos e pobres em nutrientes.
+- Essas condições se relacionam a adaptações das plantas.
+- A região ajuda a manter cursos d’água.
+- O solo e a geologia favorecem a recarga de aquíferos.
+- O lugar pode ser relacionado à proteção da água e da biodiversidade.
+- O lobo-guará é um dos animais do conjunto protegido.
+- O tamanduá-bandeira também está entre os grandes mamíferos.
+- A onça-pintada é uma das espécies presentes no conjunto.
+- Há também tatus-canastra no conjunto.
+- Os parques foram reconhecidos por sua importância natural.
+- A variação de altitude contribui para ambientes diferentes.
+- As áreas protegidas podem servir de refúgio para espécies.
+- A região possui chapadas e diferentes cursos d’água.
+- A área é diferente de uma planície inundável como a do Pantanal.
+- Para identificar o parque, combine Cerrado, Goiás e a unidade parceira.
+
+**Geógrafo**
+
+- O parque integra um conjunto de áreas protegidas do bioma Cerrado.
+- A localização administrativa do parque é Goiás, no Brasil central.
+- A unidade integra a categoria federal de parque nacional.
+- O reconhecimento patrimonial reúne duas unidades de conservação.
+- A inscrição em conjunto inclui a unidade denominada Emas.
+- As unidades localizam-se no planalto central brasileiro.
+- O Cerrado apresenta alta diversidade de espécies vegetais.
+- A flora inclui espécies endêmicas associadas ao Cerrado.
+- A sazonalidade climática alterna períodos secos e úmidos.
+- A recorrência de fogo influencia adaptações de espécies do Cerrado.
+- As condições edáficas incluem elevada acidez e baixa disponibilidade de nutrientes.
+- Clima, solos e fogo atuam como fatores de seleção em espécies do bioma.
+- O papel hidrológico inclui alimentação de diferentes cursos fluviais.
+- As características do terreno contribuem para processos de recarga hídrica.
+- A conservação integra processos hidrológicos e diversidade biológica.
+- O complexo abriga o lobo-guará, mamífero associado ao Cerrado.
+- A fauna protegida inclui o tamanduá-bandeira.
+- O bem inclui habitats utilizados pela onça-pintada.
+- O tatu-canastra figura entre os mamíferos do bem protegido.
+- A UNESCO reconheceu o conjunto por seus valores ecológicos.
+- A heterogeneidade altitudinal participa da diversidade de habitats.
+- A conservação mantém habitats capazes de abrigar espécies em mudanças ambientais.
+- A paisagem de planalto se relaciona à rede de drenagem regional.
+- O recorte de Cerrado em planalto contrasta com ambientes de planície alagável.
+- A identificação relaciona bioma, localização estadual e composição do bem.
+
+### Ouro Preto
+
+Ouro Preto reúne patrimônio urbano em encostas ligado à mineração de ouro e a expressões do barroco brasileiro.
+
+- **Cidade**: Ouro Preto.
+- **Atividade econômica histórica**: Mineração de ouro.
+- **Expressão artística marcante**: Barroco brasileiro.
+- **Estado**: Minas Gerais.
+
+**Viajante**
+
+- O destino é uma cidade histórica entre morros.
+- A cidade fica em Minas Gerais.
+- O ouro teve grande importância para sua formação.
+- A cidade esteve ligada à corrida pelo ouro.
+- A atividade mineradora destacou-se no século XVIII.
+- A produção de ouro perdeu força no século XIX.
+- Ruas sinuosas acompanham o relevo.
+- Há ladeiras entre as casas antigas.
+- O centro histórico reúne igrejas, praças e pontes.
+- Chafarizes fazem parte do patrimônio preservado.
+- A cidade já foi conhecida como Vila Rica.
+- Durante muitos anos foi capital provincial de Minas Gerais.
+- O barroco aparece nas construções históricas.
+- Esculturas também integram o conjunto artístico.
+- Um artista importante era conhecido como Aleijadinho.
+- A Igreja de São Francisco de Assis está ligada a esse artista.
+- O artista também atuou como arquiteto e escultor.
+- Um movimento de 1789 teve a cidade como centro simbólico.
+- O movimento é conhecido como Inconfidência Mineira.
+- Construções de uso administrativo também foram preservadas.
+- O antigo prédio da Câmara e Cadeia abriga um museu.
+- O conjunto urbano é reconhecido pela UNESCO.
+- A cidade está no interior, longe da costa.
+- A paisagem construída reflete tanto a economia quanto o relevo.
+- Para diferenciar o destino, combine ouro, ladeiras e barroco.
+
+**Geógrafo**
+
+- O núcleo urbano ocupa encostas de relevo acidentado.
+- A localização administrativa situa o destino em Minas Gerais.
+- A mineração aurífera influenciou a economia e o desenvolvimento urbano.
+- O crescimento local se inseriu no ciclo de exploração aurífera colonial.
+- A riqueza mineral marcou a trajetória urbana no período setecentista.
+- A redução da mineração contribuiu para o declínio posterior da influência urbana.
+- O traçado irregular responde à topografia das encostas.
+- A circulação urbana se adapta aos desníveis do terreno.
+- O conjunto protegido articula edificações religiosas, espaços públicos e infraestrutura.
+- Fontes históricas integram o conjunto urbano reconhecido.
+- A denominação histórica Vila Rica antecedeu o nome atual.
+- O lugar exerceu função administrativa provincial de 1720 a 1897.
+- O patrimônio arquitetônico inclui expressões do barroco brasileiro.
+- A produção artística compreende obras escultóricas associadas ao barroco.
+- Antônio Francisco Lisboa é associado a obras do barroco local.
+- O conjunto inclui obra associada a Antônio Francisco Lisboa.
+- A trajetória de Antônio Francisco Lisboa envolve arquitetura e escultura.
+- A Inconfidência Mineira relaciona-se à história política do lugar.
+- A memória urbana inclui a Inconfidência Mineira de 1789.
+- O patrimônio não se limita a templos e inclui antigos edifícios de governo.
+- O edifício histórico foi associado ao Museu da Inconfidência.
+- A inscrição internacional protege valores arquitetônicos e históricos.
+- A localização interiorana diferencia o sítio de cidades históricas costeiras.
+- A mineração e a topografia ajudam a explicar a organização histórica da cidade.
+- A identificação relaciona atividade mineradora, traçado em encostas e arte barroca.
+
+### Parque Nacional Tongariro
+
+O Parque Nacional Tongariro reúne montanhas vulcânicas e paisagem de significado cultural e espiritual para o povo Māori.
+
+- **Parque nacional**: Parque Nacional Tongariro.
+- **Elementos geológicos**: Vulcões como Ruapehu e Ngauruhoe.
+- **Povo associado à paisagem**: Māori.
+- **País**: Nova Zelândia.
+
+**Viajante**
+
+- O lugar é um parque com montanhas vulcânicas.
+- O parque fica na Ilha Norte da Nova Zelândia.
+- Há vulcões ativos e extintos no parque.
+- Uma das montanhas é chamada Ruapehu.
+- Outra montanha é Ngauruhoe.
+- O terceiro vulcão do conjunto dá nome à unidade.
+- A paisagem inclui antigos derrames de lava.
+- Há lagos de cores marcantes na área.
+- O ambiente também tem áreas de vegetação alpina.
+- O parque protege mais de um tipo de ecossistema.
+- As montanhas são importantes para o povo Māori.
+- A importância cultural não depende de um edifício no local.
+- Os vínculos entre pessoas e montanhas fazem parte do valor protegido.
+- A proteção internacional reconhece valores naturais e culturais.
+- Em 1993 a paisagem cultural recebeu reconhecimento sob critérios revisados.
+- O reconhecimento natural ocorreu antes do cultural.
+- O parque foi criado no fim do século XIX.
+- Foi o primeiro parque nacional do país.
+- A conservação envolve a participação Māori.
+- Há trilhas e atividades de visitação na região.
+- Montanhas sagradas estão no centro do parque.
+- O país pertence ao recorte Oceania usado pelo jogo.
+- A proteção precisa considerar pessoas e ambiente.
+- O lugar pode ser comparado com outros parques vulcânicos.
+- Para identificar o destino, combine país, vulcões e povo Māori.
+
+**Geógrafo**
+
+- A unidade protegida inclui formas de relevo de origem vulcânica.
+- A localização corresponde à Ilha Norte neozelandesa.
+- O conjunto registra estruturas vulcânicas em diferentes estados de atividade.
+- Ruapehu integra o conjunto de vulcões da unidade.
+- Ngauruhoe é um dos vulcões associados ao parque.
+- Uma das montanhas vulcânicas compartilha a denominação do parque.
+- A atividade vulcânica produziu fluxos de lava preservados na paisagem.
+- A paisagem vulcânica inclui lagos conhecidos por tonalidades verdes.
+- Ecossistemas de altitude integram a diversidade do parque.
+- A diversidade ecológica acompanha diferenças de relevo e condições ambientais.
+- O território tem significado cultural e espiritual para o povo Māori.
+- As associações espirituais podem ser vinculadas diretamente à paisagem natural.
+- A relação espiritual entre comunidade e ambiente integra o patrimônio.
+- A inscrição combina atributos naturais e significado cultural.
+- O parque foi pioneiro no uso de critérios de paisagem cultural.
+- A inscrição por atributos naturais precedeu a ampliação cultural.
+- A área protegida nacional foi estabelecida em 1894.
+- A história da conservação neozelandesa inclui esta unidade como primeiro parque nacional.
+- A proteção e a interpretação da paisagem incluem o envolvimento Māori.
+- O uso público convive com a conservação dos valores naturais e culturais.
+- A configuração patrimonial associa as montanhas a valores espirituais indígenas.
+- A unidade localiza-se na Nova Zelândia, agrupada em Oceania na seleção.
+- A gestão envolve biodiversidade e continuidade cultural indígena.
+- A combinação de vulcanismo e paisagem cultural distingue unidades protegidas.
+- A identificação articula posição insular, estruturas vulcânicas e valores Māori.
+
+### Costa de Ningaloo
+
+A Costa de Ningaloo reúne um recife próximo à costa, cavernas calcárias e agregações sazonais de tubarões-baleia no oeste australiano.
+
+- **Costa**: Costa de Ningaloo.
+- **Ambiente marinho protegido**: Recife próximo da costa.
+- **Animais que se reúnem sazonalmente**: Tubarões-baleia.
+- **Localização**: Costa ocidental da Austrália.
+
+**Viajante**
+
+- O destino combina uma costa seca e ambientes marinhos.
+- Ele fica no oeste da Austrália.
+- Um grande recife fica próximo da costa.
+- O recife é diferente da Grande Barreira na costa oriental.
+- Todos os anos há concentração de tubarões-baleia.
+- Esses animais visitam as águas do recife.
+- Tartarugas marinhas também ocorrem no local.
+- A proteção inclui parte terrestre e parte marinha.
+- Na parte terrestre existem cavernas.
+- A rocha calcária participa da formação dessas cavernas.
+- Há cursos d’água subterrâneos.
+- Algumas espécies vivem nesses ambientes subterrâneos.
+- A Península Cape Range integra a paisagem terrestre.
+- O lugar tem laguna e recife, além de mar aberto.
+- Também há praias de areia e costas rochosas.
+- Manguezais aparecem entre os ambientes do bem.
+- A região marinha tem espécies tropicais e temperadas.
+- O contraste entre mar e terra seca marca a paisagem.
+- Os tubarões-baleia se reúnem em períodos do ano.
+- O recife faz parte de um conjunto maior de habitats.
+- A UNESCO reconhece a importância natural do local.
+- A costa está junto ao Oceano Índico.
+- O sistema cárstico tem cavernas e corpos de água subterrânea.
+- Os animais marinhos e os habitantes das cavernas fazem parte da biodiversidade.
+- Para diferenciar de outros recifes, combine costa oeste, tubarões-baleia e cavernas.
+
+**Geógrafo**
+
+- O bem reúne uma faixa costeira árida e ecossistemas marinhos.
+- A posição costeira corresponde à Austrália Ocidental.
+- O patrimônio inclui um extenso recife litorâneo.
+- A localização ocidental distingue este recife do sistema da costa nordeste.
+- A área recebe agregações sazonais de tubarões-baleia.
+- O ambiente marinho oferece condições para agregações de grandes peixes.
+- A biodiversidade inclui diferentes tartarugas marinhas.
+- O bem reconhecido abrange componentes em terra e no mar.
+- A paisagem continental inclui uma rede de cavidades subterrâneas.
+- A dissolução em calcário integra os processos do relevo cárstico.
+- O sistema cárstico inclui condutos e água no subsolo.
+- Habitats subterrâneos sustentam organismos especializados.
+- O sistema cárstico é associado à região de Cape Range.
+- Os habitats incluem laguna, recife e ambientes oceânicos.
+- A diversidade costeira inclui setores arenosos e rochosos.
+- O conjunto inclui habitats de manguezal.
+- O recife abriga organismos associados a diferentes faixas ambientais.
+- A paisagem costeira contrapõe biodiversidade marinha e ambiente árido terrestre.
+- A agregação sazonal coincide com processos de produtividade marinha.
+- A proteção articula recife, plataforma continental e outros ambientes.
+- A inscrição internacional inclui valores marinhos e terrestres.
+- A posição marítima integra o setor oriental do Oceano Índico.
+- A circulação subterrânea conecta cavidades e reservatórios naturais.
+- A conservação reúne organismos de ambientes marinhos e subterrâneos.
+- A identificação articula localização ocidental, agregação sazonal e carste.

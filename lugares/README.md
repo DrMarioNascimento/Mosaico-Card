@@ -42,8 +42,12 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Ilha Deception | Antártida |
 | Delta do Okavango | África |
 | Parque Nacional do Serengeti | África |
+| Parque Nacional da Chapada dos Veadeiros | Brasil / Centro-Oeste / América |
+| Ouro Preto | Brasil / Sudeste / América |
+| Parque Nacional Tongariro | Oceania |
+| Costa de Ningaloo | Oceania |
 
-São 32 lugares, 64 conjuntos de pistas (dois por lugar), 1.600 pistas, 128 perguntas distintas e 740 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 36 lugares, 72 conjuntos de pistas (dois por lugar), 1.800 pistas, 144 perguntas distintas e 836 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
