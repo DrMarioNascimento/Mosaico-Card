@@ -41,6 +41,20 @@
       "publisher": "Prefeitura de Niterói",
       "url": "https://urbanismo.niteroi.rj.gov.br/anexos/PMUS/PMUS%20NITEROI%20-%20RELATORIO%20FINAL%20SUM%C3%81RIO%20EXECUTIVO.pdf",
       "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_ANTT": {
+      "id": "SE_NIT_ANTT",
+      "title": "Contrato de concessão da Ponte Rio-Niterói",
+      "publisher": "Agência Nacional de Transportes Terrestres",
+      "url": "https://www.gov.br/antt/pt-br/assuntos/noticias/contrato-de-concessao-da-ponte-rio-niteroi-e-assinado-nesta-segunda-feira-185",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_NIT_MAI": {
+      "id": "SE_NIT_MAI",
+      "title": "Museu de Arqueologia de Itaipu",
+      "publisher": "Instituto Brasileiro de Museus",
+      "url": "https://www.gov.br/museus/pt-br/museus-ibram/museu-de-arqueologia-de-itaipu",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -182,7 +196,7 @@
         },
         {
           "id": "C4",
-          "label": "Ano de inauguração da ponte rodoviária entre as margens da baía",
+          "label": "Ano de inauguração da ponte rodoviária para a capital estadual",
           "options": [
             {
               "id": "C4-O1",
@@ -204,7 +218,7 @@
           "answerId": "C4-O1",
           "answerText": "1974",
           "sources": [
-            "SE_NIT_CIDADE"
+            "SE_NIT_ANTT"
           ]
         }
       ],
@@ -300,7 +314,7 @@
                 "C1"
               ],
               "sources": [
-                "SE_NIT_CIDADE"
+                "SE_NIT_ANTT"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -423,7 +437,7 @@
             {
               "id": "cidade-niteroi-viajante-P14",
               "factKey": "cidade-niteroi-F14",
-              "text": "Em 1819 foi criada a Vila Real da Praia Grande.",
+              "text": "No século XIX, o núcleo da Praia Grande foi elevado à condição de vila.",
               "relatedFields": [
                 "C1"
               ],
@@ -439,7 +453,7 @@
             {
               "id": "cidade-niteroi-viajante-P15",
               "factKey": "cidade-niteroi-F15",
-              "text": "A localidade recebeu o nome de Niterói e a condição de cidade em 1835.",
+              "text": "No século XIX, a localidade tornou-se cidade e recebeu a denominação atual.",
               "relatedFields": [
                 "C1"
               ],
@@ -732,7 +746,7 @@
             {
               "id": "cidade-niteroi-geografo-P08",
               "factKey": "cidade-niteroi-F08",
-              "text": "Em 1835 a localidade passou à condição de capital da Província do Rio de Janeiro.",
+              "text": "No século XIX, o núcleo urbano foi escolhido como capital da Província do Rio de Janeiro.",
               "relatedFields": [
                 "C1"
               ],
@@ -828,7 +842,7 @@
             {
               "id": "cidade-niteroi-geografo-P14",
               "factKey": "cidade-niteroi-F14",
-              "text": "A Vila Real da Praia Grande foi criada em 1819.",
+              "text": "No século XIX foi criada a Vila Real da Praia Grande.",
               "relatedFields": [
                 "C1"
               ],
@@ -844,7 +858,7 @@
             {
               "id": "cidade-niteroi-geografo-P15",
               "factKey": "cidade-niteroi-F15",
-              "text": "A localidade recebeu o nome de Niterói e a condição de cidade em 1835.",
+              "text": "A elevação à categoria de cidade e a mudança de nome ocorreram no século XIX.",
               "relatedFields": [
                 "C1"
               ],
@@ -993,7 +1007,7 @@
                 "C1"
               ],
               "sources": [
-                "SE_NIT_MUSEUS"
+                "SE_NIT_MAI"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -1026,7 +1040,8 @@
           "A capital vizinha é pauta relacionada porém distinta; a população informada é municipal.",
           "Fonte institucional consultada; calibrar em partidas.",
           "As datas históricas seguem o IBGE e divergem da página Visit Niterói; conferir os atos originais e revisar os demais campos e pistas antes da integração.",
-          "Geógrafo inclui relações de mobilidade apoiadas no Plano de Mobilidade de Niterói. Verificar pistas e opções em partidas."
+          "Geógrafo inclui relações de mobilidade apoiadas no Plano de Mobilidade de Niterói. Verificar pistas e opções em partidas.",
+          "Datas específicas de vila e cidade substituídas por século após divergência entre fontes institucionais; conferir atos originais para reinseri-las."
         ]
       },
       "review": {
