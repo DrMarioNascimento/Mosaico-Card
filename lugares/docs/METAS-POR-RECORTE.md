@@ -12,8 +12,8 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 | América | 26 | 30 | 4 |
 | Europa | 7 | 30 | 23 |
 | África | 10 | 30 | 20 |
-| Ásia | 6 | 30 | 24 |
-| Oceania | 7 | 30 | 23 |
+| Ásia | 8 | 30 | 22 |
+| Oceania | 9 | 30 | 21 |
 | Antártida | 9 | 30 | 21 |
 
 **Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. Rapa Nui conta em América pela administração chilena e em Oceania pela posição polinésia. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.

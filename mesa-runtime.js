@@ -76,7 +76,10 @@
       if (d.mestre === window.MC_FB.uid) verificarAusencias(d, agora);
       d.presencas = d.presencas || {};
       d.presencas[j.id] = { aba, ate: agora + C.GRACA, visto: agora };
-      tx.set(ref, d); return d;
+      // Jogadores renovam somente presenças; o mestre também pode atualizar o snapshot ao verificar ausências.
+      if (d.mestre === window.MC_FB.uid) tx.set(ref, d);
+      else tx.update(ref, { presencas: d.presencas });
+      return d;
     });
     if (data.bloqueada) {
       ligado = false; S.aplicarDoc(data.documento);

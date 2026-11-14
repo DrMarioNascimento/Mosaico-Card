@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-24-2026-11-14",
+  "catalogVersion": "lote-26-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Sessenta e quatro destinos jogáveis em dois perfis",
-  "status": "Sessenta e quatro destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Sessenta e oito destinos jogáveis em dois perfis",
+  "status": "Sessenta e oito destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -843,6 +843,34 @@
       "title": "Mont-Saint-Michel and its Bay",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/80/",
+      "checkedAt": "2026-11-14"
+    },
+    "BOR1": {
+      "id": "BOR1",
+      "title": "Borobudur Temple Compounds",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/592/",
+      "checkedAt": "2026-11-14"
+    },
+    "BAG1": {
+      "id": "BAG1",
+      "title": "Bagan",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1588/",
+      "checkedAt": "2026-11-14"
+    },
+    "KGA1": {
+      "id": "KGA1",
+      "title": "K’gari",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/630/",
+      "checkedAt": "2026-11-14"
+    },
+    "KAK1": {
+      "id": "KAK1",
+      "title": "Kakadu National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/147/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -65868,6 +65896,3974 @@
       },
       "reveal": {
         "canonicalSummary": "Abadia e povoado fortificado em ilhota rochosa de uma baía francesa marcada por fortes marés.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-borobudur",
+      "placeId": "borobudur",
+      "title": "Borobudur",
+      "aliases": [],
+      "answerType": "templo budista",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ID"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Templo",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Borobudur"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Prambanan"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Angkor Wat"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Preah Vihear"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Templo Todai-ji"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Sanchi"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Boudhanath"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Templo de Karnak"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Templo de Hórus"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Petra"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Templo do Céu"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Templo de Luxor"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Borobudur",
+          "sources": [
+            "BOR1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Organização das plataformas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Terraços quadrados abaixo de plataformas circulares"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Torres em fileiras sobre uma única plataforma retangular"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Cinco torres dispostas em forma de quincunce"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Três edifícios cobertos por telhados curvos"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Terraços quadrados abaixo de plataformas circulares",
+          "sources": [
+            "BOR1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Dinastia associada à construção",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Sailendra"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ming"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Maurya"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Joseon"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Sailendra",
+          "sources": [
+            "BOR1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ilha",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Java"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bali"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Honshu"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Sri Lanka"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Java",
+          "sources": [
+            "BOR1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "borobudur-viajante-P01",
+              "factKey": "borobudur-F01",
+              "text": "O destino é um grande monumento religioso da Ásia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P02",
+              "factKey": "borobudur-F02",
+              "text": "O templo principal se ergue ao redor de uma colina.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P03",
+              "factKey": "borobudur-F03",
+              "text": "A construção sobe em terraços.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P04",
+              "factKey": "borobudur-F04",
+              "text": "A parte inferior tem terraços quadrados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P05",
+              "factKey": "borobudur-F05",
+              "text": "Acima aparecem plataformas circulares.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P06",
+              "factKey": "borobudur-F06",
+              "text": "Uma grande estrutura em forma de estupa coroa o alto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P07",
+              "factKey": "borobudur-F07",
+              "text": "Outras estupas menores cercam as plataformas circulares.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P08",
+              "factKey": "borobudur-F08",
+              "text": "As estupas vazadas abrigam imagens de Buda.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P09",
+              "factKey": "borobudur-F09",
+              "text": "Relevos decoram muros e balaustradas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P10",
+              "factKey": "borobudur-F10",
+              "text": "Essas imagens foram esculpidas em relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P11",
+              "factKey": "borobudur-F11",
+              "text": "A organização dos níveis tem relação com ideias budistas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P12",
+              "factKey": "borobudur-F12",
+              "text": "A base se associa à esfera dos desejos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P13",
+              "factKey": "borobudur-F13",
+              "text": "Os terraços quadrados se associam à esfera das formas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P14",
+              "factKey": "borobudur-F14",
+              "text": "As plataformas circulares se associam à esfera sem forma.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P15",
+              "factKey": "borobudur-F15",
+              "text": "O local foi construído durante a dinastia Sailendra.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P16",
+              "factKey": "borobudur-F16",
+              "text": "A obra data dos séculos VIII e IX.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P17",
+              "factKey": "borobudur-F17",
+              "text": "O lugar fica em uma ilha do Sudeste Asiático.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P18",
+              "factKey": "borobudur-F18",
+              "text": "Java pertence à Indonésia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P19",
+              "factKey": "borobudur-F19",
+              "text": "O templo fica na parte central da ilha.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P20",
+              "factKey": "borobudur-F20",
+              "text": "O vale de Kedu faz parte da localização regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P21",
+              "factKey": "borobudur-F21",
+              "text": "O patrimônio reconhecido inclui outros dois templos menores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P22",
+              "factKey": "borobudur-F22",
+              "text": "Mendut é um dos dois templos ligados ao conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P23",
+              "factKey": "borobudur-F23",
+              "text": "Pawon é o outro templo associado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P24",
+              "factKey": "borobudur-F24",
+              "text": "O monumento foi restaurado no século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-viajante-P25",
+              "factKey": "borobudur-F25",
+              "text": "Para identificar, combine Java, terraços quadrados e estupas vazadas.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "borobudur-geografo-P01",
+              "factKey": "borobudur-F01",
+              "text": "O sítio é um conjunto monumental associado ao budismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P02",
+              "factKey": "borobudur-F02",
+              "text": "Uma elevação natural serviu de núcleo à implantação do monumento.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P03",
+              "factKey": "borobudur-F03",
+              "text": "A forma escalonada organiza a subida em níveis superpostos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P04",
+              "factKey": "borobudur-F04",
+              "text": "A base piramidal compreende cinco terraços quadrados concêntricos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P05",
+              "factKey": "borobudur-F05",
+              "text": "O corpo superior apresenta três plataformas circulares.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P06",
+              "factKey": "borobudur-F06",
+              "text": "Uma estupa monumental finaliza a composição vertical.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P07",
+              "factKey": "borobudur-F07",
+              "text": "Setenta e duas estupas vazadas se distribuem nas plataformas superiores.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P08",
+              "factKey": "borobudur-F08",
+              "text": "Cada estupa vazada das plataformas circulares contém uma imagem de Buda.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P09",
+              "factKey": "borobudur-F09",
+              "text": "Painéis em baixo-relevo revestem muros e balaustradas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P10",
+              "factKey": "borobudur-F10",
+              "text": "O programa artístico utiliza a técnica do baixo-relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P11",
+              "factKey": "borobudur-F11",
+              "text": "A divisão vertical expressa esferas da cosmologia budista.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P12",
+              "factKey": "borobudur-F12",
+              "text": "A base representa kamadhatu na interpretação cosmológica apresentada pela UNESCO.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P13",
+              "factKey": "borobudur-F13",
+              "text": "Os cinco terraços quadrados representam rupadhatu.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P14",
+              "factKey": "borobudur-F14",
+              "text": "As plataformas e a estupa superior representam arupadhatu.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P15",
+              "factKey": "borobudur-F15",
+              "text": "A dinastia Sailendra é associada à construção do monumento.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P16",
+              "factKey": "borobudur-F16",
+              "text": "A cronologia da construção situa-se entre os séculos VIII e IX.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P17",
+              "factKey": "borobudur-F17",
+              "text": "O sítio se localiza na ilha de Java.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P18",
+              "factKey": "borobudur-F18",
+              "text": "A localização nacional é a Indonésia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P19",
+              "factKey": "borobudur-F19",
+              "text": "O monumento está no centro da ilha de Java.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P20",
+              "factKey": "borobudur-F20",
+              "text": "A implantação é associada ao vale de Kedu.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P21",
+              "factKey": "borobudur-F21",
+              "text": "O bem protegido reúne o monumento principal e dois templos menores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P22",
+              "factKey": "borobudur-F22",
+              "text": "O templo de Mendut integra o eixo do bem patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P23",
+              "factKey": "borobudur-F23",
+              "text": "Pawon integra o conjunto de três monumentos reconhecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P24",
+              "factKey": "borobudur-F24",
+              "text": "Uma grande restauração ocorreu entre 1973 e 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "borobudur-geografo-P25",
+              "factKey": "borobudur-F25",
+              "text": "A identificação articula posição insular, planta escalonada e programa budista.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "BOR1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Templo budista de Java, na Indonésia, com terraços e estupas e significado ligado à cosmologia budista.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-bagan",
+      "placeId": "bagan",
+      "title": "Bagan",
+      "aliases": [],
+      "answerType": "paisagem histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "MM"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Bagan"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Borobudur"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Angkor"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Sukhothai"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ayutthaya"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Luang Prabang"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Lumbini"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Bodh Gaya"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Polonnaruwa"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Anuradhapura"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Patan"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Kyoto"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Bagan",
+          "sources": [
+            "BAG1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Elementos do patrimônio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Templos, estupas, mosteiros e afrescos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Palácios, canais, igrejas e pontes"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pirâmides, templos solares e obeliscos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Fortificações, palácios e catedrais góticas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Templos, estupas, mosteiros e afrescos",
+          "sources": [
+            "BAG1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ayeyarwady (Irrawaddy)"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mekong"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ganges"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Yangtzé"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ayeyarwady (Irrawaddy)",
+          "sources": [
+            "BAG1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Função histórica",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Capital de um império regional budista"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Centro de uma monarquia islâmica no Sahel"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Antiga capital do Império Khmer"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Capital imperial do Japão por mais de mil anos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Capital de um império regional budista",
+          "sources": [
+            "BAG1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "bagan-viajante-P01",
+              "factKey": "bagan-F01",
+              "text": "O destino é uma paisagem com muitas construções religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P02",
+              "factKey": "bagan-F02",
+              "text": "Templos e estupas aparecem em grande número.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P03",
+              "factKey": "bagan-F03",
+              "text": "Há também mosteiros no conjunto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P04",
+              "factKey": "bagan-F04",
+              "text": "Alguns lugares continuam associados a peregrinações.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P05",
+              "factKey": "bagan-F05",
+              "text": "Esculturas fazem parte dos testemunhos artísticos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P06",
+              "factKey": "bagan-F06",
+              "text": "Pinturas em paredes também foram preservadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P07",
+              "factKey": "bagan-F07",
+              "text": "O lugar fica numa planície do Sudeste Asiático.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P08",
+              "factKey": "bagan-F08",
+              "text": "A paisagem se encontra junto a uma curva de um grande rio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P09",
+              "factKey": "bagan-F09",
+              "text": "O rio também é conhecido como Irrawaddy.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P10",
+              "factKey": "bagan-F10",
+              "text": "O destino fica em Mianmar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P11",
+              "factKey": "bagan-F11",
+              "text": "A cidade foi capital de um poder regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P12",
+              "factKey": "bagan-F12",
+              "text": "Seu auge se deu entre os séculos XI e XIII.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P13",
+              "factKey": "bagan-F13",
+              "text": "A paisagem testemunha uma tradição budista duradoura.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P14",
+              "factKey": "bagan-F14",
+              "text": "A doação para obras religiosas teve papel importante.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P15",
+              "factKey": "bagan-F15",
+              "text": "Os governantes participaram do financiamento de monumentos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P16",
+              "factKey": "bagan-F16",
+              "text": "O patrimônio inclui restos arqueológicos além dos prédios.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P17",
+              "factKey": "bagan-F17",
+              "text": "O conjunto não é um único templo isolado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P18",
+              "factKey": "bagan-F18",
+              "text": "O valor reconhecido depende da relação entre monumentos e paisagem.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P19",
+              "factKey": "bagan-F19",
+              "text": "Parte do patrimônio é usada em práticas religiosas atuais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P20",
+              "factKey": "bagan-F20",
+              "text": "A UNESCO reconhece o conjunto como Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P21",
+              "factKey": "bagan-F21",
+              "text": "A paisagem apresenta arte budista em diferentes formas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P22",
+              "factKey": "bagan-F22",
+              "text": "O sítio não fica na ilha de Java.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P23",
+              "factKey": "bagan-F23",
+              "text": "O rio ajuda a distinguir esta paisagem de outras cheias de templos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P24",
+              "factKey": "bagan-F24",
+              "text": "A função de antiga capital acrescenta uma dimensão política ao lugar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-viajante-P25",
+              "factKey": "bagan-F25",
+              "text": "Para identificar, combine planície, rio Ayeyarwady e templos budistas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "bagan-geografo-P01",
+              "factKey": "bagan-F01",
+              "text": "O bem reúne um conjunto de monumentos budistas distribuídos na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P02",
+              "factKey": "bagan-F02",
+              "text": "A paisagem sagrada integra templos e estupas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P03",
+              "factKey": "bagan-F03",
+              "text": "Os mosteiros compõem o patrimônio religioso protegido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P04",
+              "factKey": "bagan-F04",
+              "text": "A prática de peregrinação é parte do significado religioso do sítio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P05",
+              "factKey": "bagan-F05",
+              "text": "A arte inclui esculturas em diferentes monumentos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P06",
+              "factKey": "bagan-F06",
+              "text": "Afrescos integram os atributos artísticos do bem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P07",
+              "factKey": "bagan-F07",
+              "text": "O sítio ocupa a planície central de Mianmar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P08",
+              "factKey": "bagan-F08",
+              "text": "O rio Ayeyarwady desenha uma curva junto ao conjunto.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P09",
+              "factKey": "bagan-F09",
+              "text": "Irrawaddy é outra grafia usada para o rio Ayeyarwady.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P10",
+              "factKey": "bagan-F10",
+              "text": "Sua localização nacional é Mianmar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P11",
+              "factKey": "bagan-F11",
+              "text": "O sítio foi capital de um império regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P12",
+              "factKey": "bagan-F12",
+              "text": "A principal fase histórica estendeu-se dos séculos XI ao XIII.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P13",
+              "factKey": "bagan-F13",
+              "text": "A prática budista Theravada integra a significação cultural do lugar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P14",
+              "factKey": "bagan-F14",
+              "text": "O patrocínio religioso contribuiu para a formação monumental.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P15",
+              "factKey": "bagan-F15",
+              "text": "O rei atuava como importante doador na construção religiosa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P16",
+              "factKey": "bagan-F16",
+              "text": "A área reconhecida preserva vestígios arqueológicos e arquitetura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P17",
+              "factKey": "bagan-F17",
+              "text": "O bem compreende diversos componentes monumentais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P18",
+              "factKey": "bagan-F18",
+              "text": "A proteção considera as relações espaciais da paisagem sagrada.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P19",
+              "factKey": "bagan-F19",
+              "text": "A continuidade de usos e devoções participa do valor do lugar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P20",
+              "factKey": "bagan-F20",
+              "text": "O sítio está inscrito na Lista do Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P21",
+              "factKey": "bagan-F21",
+              "text": "Arquitetura, escultura e pintura documentam a produção religiosa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P22",
+              "factKey": "bagan-F22",
+              "text": "Sua posição continental em Mianmar diferencia-o de conjuntos javaneses.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P23",
+              "factKey": "bagan-F23",
+              "text": "A posição na curva do Ayeyarwady diferencia o conjunto de outros sítios budistas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P24",
+              "factKey": "bagan-F24",
+              "text": "A história religiosa se relaciona à centralidade política regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bagan-geografo-P25",
+              "factKey": "bagan-F25",
+              "text": "A identificação articula situação fluvial e paisagem monumental.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "BAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Paisagem sagrada de Mianmar, junto ao rio Ayeyarwady, com templos, estupas e memória de uma capital regional.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-kgari",
+      "placeId": "kgari",
+      "title": "K’gari",
+      "aliases": [
+        "Fraser Island"
+      ],
+      "answerType": "ilha",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AU"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "K’gari"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha Kangaroo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha da Tasmânia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha Rottnest"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha Lord Howe"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha Moreton"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha Bruny"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Norfolk"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha Phillip"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha Kiritimati"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha Grande do Havaí"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha Stewart"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "K’gari",
+          "sources": [
+            "KGA1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Material dominante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Areia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Calcário de recife"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Granito exposto"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Basalto vulcânico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Areia",
+          "sources": [
+            "KGA1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Corpos de água interiores",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lagos de água doce sobre dunas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Fiordes escavados em gelo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lagos de lava permanentes"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lagoas costeiras exclusivamente salgadas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Lagos de água doce sobre dunas",
+          "sources": [
+            "KGA1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Austrália"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Nova Zelândia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Indonésia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Fiji"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Austrália",
+          "sources": [
+            "KGA1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "kgari-viajante-P01",
+              "factKey": "kgari-F01",
+              "text": "O destino é uma ilha próxima da costa de um país da Oceania.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P02",
+              "factKey": "kgari-F02",
+              "text": "A areia é o principal material que forma a ilha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P03",
+              "factKey": "kgari-F03",
+              "text": "Ela tem cerca de 122 quilômetros de comprimento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P04",
+              "factKey": "kgari-F04",
+              "text": "É reconhecida como a maior ilha de areia do mundo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P05",
+              "factKey": "kgari-F05",
+              "text": "Dunas aparecem ao longo da ilha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P06",
+              "factKey": "kgari-F06",
+              "text": "Algumas dunas continuam se deslocando.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P07",
+              "factKey": "kgari-F07",
+              "text": "A praia tem trechos longos e contínuos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P08",
+              "factKey": "kgari-F08",
+              "text": "Há falésias com areias de cores diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P09",
+              "factKey": "kgari-F09",
+              "text": "Lagos de água doce aparecem sobre dunas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P10",
+              "factKey": "kgari-F10",
+              "text": "A água dos lagos não é água salgada do oceano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P11",
+              "factKey": "kgari-F11",
+              "text": "A ilha reúne muitos lagos desse tipo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P12",
+              "factKey": "kgari-F12",
+              "text": "Existe também um grande aquífero sob a areia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P13",
+              "factKey": "kgari-F13",
+              "text": "Dunas, aquífero e lagos estão relacionados.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P14",
+              "factKey": "kgari-F14",
+              "text": "A floresta cresce sobre terreno arenoso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P15",
+              "factKey": "kgari-F15",
+              "text": "Algumas árvores da floresta podem ser muito altas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P16",
+              "factKey": "kgari-F16",
+              "text": "O vento e a água ajudam a moldar a paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P17",
+              "factKey": "kgari-F17",
+              "text": "As dunas mais novas e antigas podem sustentar vegetações diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P18",
+              "factKey": "kgari-F18",
+              "text": "O ambiente muda conforme a salinidade e a água disponível.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P19",
+              "factKey": "kgari-F19",
+              "text": "O destino fica na Austrália.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P20",
+              "factKey": "kgari-F20",
+              "text": "Fica junto à costa leste australiana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P21",
+              "factKey": "kgari-F21",
+              "text": "O nome antigo usado em inglês era Fraser Island.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P22",
+              "factKey": "kgari-F22",
+              "text": "O reconhecimento da UNESCO inclui a ilha e pequenas ilhas vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P23",
+              "factKey": "kgari-F23",
+              "text": "Grande parte da ilha integra um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P24",
+              "factKey": "kgari-F24",
+              "text": "A visitação exige cuidados com a qualidade da água dos lagos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-viajante-P25",
+              "factKey": "kgari-F25",
+              "text": "Para identificar, combine ilha de areia, lagos dunares e floresta.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "kgari-geografo-P01",
+              "factKey": "kgari-F01",
+              "text": "A ilha está situada ao largo da costa oriental australiana.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P02",
+              "factKey": "kgari-F02",
+              "text": "O substrato dominante do ambiente insular é arenoso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P03",
+              "factKey": "kgari-F03",
+              "text": "A extensão longitudinal da ilha é de aproximadamente 122 km.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P04",
+              "factKey": "kgari-F04",
+              "text": "A dimensão do corpo arenoso a destaca entre as ilhas de areia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P05",
+              "factKey": "kgari-F05",
+              "text": "A paisagem inclui sistemas dunares costeiros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P06",
+              "factKey": "kgari-F06",
+              "text": "A dinâmica eólica mantém dunas móveis sobre sistemas mais antigos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P07",
+              "factKey": "kgari-F07",
+              "text": "A faixa costeira inclui longas praias arenosas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P08",
+              "factKey": "kgari-F08",
+              "text": "Os depósitos costeiros incluem paredões arenosos coloridos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P09",
+              "factKey": "kgari-F09",
+              "text": "Depressões dunares abrigam lagos de água doce elevados.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P10",
+              "factKey": "kgari-F10",
+              "text": "Os lagos dunares são corpos de água doce.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P11",
+              "factKey": "kgari-F11",
+              "text": "O sítio concentra uma parcela expressiva dos lagos dunares elevados do mundo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P12",
+              "factKey": "kgari-F12",
+              "text": "Um aquífero livre integra a hidrologia da ilha.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P13",
+              "factKey": "kgari-F13",
+              "text": "O sistema hidrológico conecta depósitos arenosos e águas subterrâneas e superficiais.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P14",
+              "factKey": "kgari-F14",
+              "text": "Florestas úmidas se desenvolvem em dunas costeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P15",
+              "factKey": "kgari-F15",
+              "text": "A vegetação inclui árvores de grande porte sobre substrato arenoso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P16",
+              "factKey": "kgari-F16",
+              "text": "Processos eólicos e costeiros participam da evolução geomorfológica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P17",
+              "factKey": "kgari-F17",
+              "text": "A idade dos solos influencia a sucessão de comunidades vegetais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P18",
+              "factKey": "kgari-F18",
+              "text": "Salinidade e nível de água participam da distribuição da vegetação.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P19",
+              "factKey": "kgari-F19",
+              "text": "A localização nacional é a Austrália.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P20",
+              "factKey": "kgari-F20",
+              "text": "A posição é próxima à costa oriental do país.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P21",
+              "factKey": "kgari-F21",
+              "text": "A ilha também foi conhecida pelo nome Fraser Island.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P22",
+              "factKey": "kgari-F22",
+              "text": "O bem inclui a ilha principal e algumas pequenas ilhas a oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P23",
+              "factKey": "kgari-F23",
+              "text": "A maior parte do território insular está protegida como parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P24",
+              "factKey": "kgari-F24",
+              "text": "O uso recreativo intenso pode afetar os lagos e requer gestão.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kgari-geografo-P25",
+              "factKey": "kgari-F25",
+              "text": "A identificação articula geomorfologia arenosa, hidrologia e sucessão florestal.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KGA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ilha arenosa junto à costa leste australiana, com dunas, florestas e lagos de água doce.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-kakadu",
+      "placeId": "kakadu",
+      "title": "Parque Nacional Kakadu",
+      "aliases": [
+        "Kakadu"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AU"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Kakadu"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Litchfield"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Nitmiluk"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Purnululu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Daintree"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Tongariro"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Fiordland"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Emas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Serengeti"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Jasper"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Yellowstone"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Kakadu",
+          "sources": [
+            "KAK1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Paisagem característica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Escarpas rochosas e planícies alagáveis"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Fiordes e geleiras costeiras"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dunas e lagos de uma ilha arenosa"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Recifes em plataforma oceânica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Escarpas rochosas e planícies alagáveis",
+          "sources": [
+            "KAK1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Patrimônio cultural associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Arte rupestre e tradições aborígenes vivas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Templos romanos e anfiteatros"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Castelos góticos e vilas medievais"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Muralhas incas e terraços andinos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Arte rupestre e tradições aborígenes vivas",
+          "sources": [
+            "KAK1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Região administrativa",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Território do Norte, Austrália"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Queensland, Austrália"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ilha Sul, Nova Zelândia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Tasmania, Austrália"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Território do Norte, Austrália",
+          "sources": [
+            "KAK1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "kakadu-viajante-P01",
+              "factKey": "kakadu-F01",
+              "text": "O destino é uma área protegida no norte da Austrália.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P02",
+              "factKey": "kakadu-F02",
+              "text": "Paisagens de pedra e áreas alagáveis fazem parte do lugar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P03",
+              "factKey": "kakadu-F03",
+              "text": "Algumas escarpas chegam a centenas de metros de altura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P04",
+              "factKey": "kakadu-F04",
+              "text": "Há planícies que podem ser inundadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P05",
+              "factKey": "kakadu-F05",
+              "text": "Manguezais também aparecem na área.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P06",
+              "factKey": "kakadu-F06",
+              "text": "Partes costeiras sofrem influência das marés.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P07",
+              "factKey": "kakadu-F07",
+              "text": "Além de áreas úmidas há savanas e florestas abertas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P08",
+              "factKey": "kakadu-F08",
+              "text": "A paisagem também inclui florestas de monção.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P09",
+              "factKey": "kakadu-F09",
+              "text": "Pinturas antigas foram feitas em superfícies rochosas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P10",
+              "factKey": "kakadu-F10",
+              "text": "Há pinturas que representam pessoas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P11",
+              "factKey": "kakadu-F11",
+              "text": "Animais aparecem em algumas representações.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P12",
+              "factKey": "kakadu-F12",
+              "text": "Algumas imagens representam espécies hoje extintas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P13",
+              "factKey": "kakadu-F13",
+              "text": "O patrimônio também inclui sítios arqueológicos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P14",
+              "factKey": "kakadu-F14",
+              "text": "Os registros mostram modos de vida de povos indígenas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P15",
+              "factKey": "kakadu-F15",
+              "text": "Os povos indígenas continuam ligados ao lugar atualmente.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P16",
+              "factKey": "kakadu-F16",
+              "text": "A história de ocupação humana ultrapassa dezenas de milhares de anos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P17",
+              "factKey": "kakadu-F17",
+              "text": "A proteção reúne importância natural e cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P18",
+              "factKey": "kakadu-F18",
+              "text": "A área protegida é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P19",
+              "factKey": "kakadu-F19",
+              "text": "A UNESCO reconhece o parque como patrimônio mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P20",
+              "factKey": "kakadu-F20",
+              "text": "O contraste entre áreas úmidas e paredões marca a paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P21",
+              "factKey": "kakadu-F21",
+              "text": "O lugar fica no Território do Norte.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P22",
+              "factKey": "kakadu-F22",
+              "text": "O destino não fica na ilha de Java.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P23",
+              "factKey": "kakadu-F23",
+              "text": "O patrimônio não se limita a uma única pintura.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P24",
+              "factKey": "kakadu-F24",
+              "text": "Vários ambientes permitem a presença de plantas e animais diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-viajante-P25",
+              "factKey": "kakadu-F25",
+              "text": "Para identificar, combine arte rupestre aborígene, alagados e escarpas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "kakadu-geografo-P01",
+              "factKey": "kakadu-F01",
+              "text": "O parque situa-se no Território do Norte australiano.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P02",
+              "factKey": "kakadu-F02",
+              "text": "O conjunto reúne escarpas rochosas e extensas planícies úmidas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P03",
+              "factKey": "kakadu-F03",
+              "text": "O relevo inclui escarpas que alcançam cerca de 330 metros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P04",
+              "factKey": "kakadu-F04",
+              "text": "Planícies de inundação integram os ecossistemas protegidos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P05",
+              "factKey": "kakadu-F05",
+              "text": "O parque conserva ecossistemas de manguezal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P06",
+              "factKey": "kakadu-F06",
+              "text": "Planícies lodosas intermareais e costa integram o mosaico ambiental.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P07",
+              "factKey": "kakadu-F07",
+              "text": "O parque combina savanas arborizadas e florestas abertas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P08",
+              "factKey": "kakadu-F08",
+              "text": "Florestas de monção acrescentam diversidade ao mosaico de habitats.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P09",
+              "factKey": "kakadu-F09",
+              "text": "Sítios de arte rupestre registram expressões culturais indígenas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P10",
+              "factKey": "kakadu-F10",
+              "text": "A iconografia inclui figuras humanas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P11",
+              "factKey": "kakadu-F11",
+              "text": "A arte retrata espécies animais identificáveis.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P12",
+              "factKey": "kakadu-F12",
+              "text": "O registro inclui representações de animais extintos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P13",
+              "factKey": "kakadu-F13",
+              "text": "Vestígios arqueológicos complementam a arte rupestre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P14",
+              "factKey": "kakadu-F14",
+              "text": "As evidências documentam práticas sociais e culturais aborígenes ao longo do tempo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P15",
+              "factKey": "kakadu-F15",
+              "text": "O parque é uma paisagem cultural viva de povos aborígenes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P16",
+              "factKey": "kakadu-F16",
+              "text": "A UNESCO destaca presença aborígene por mais de 50 mil anos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P17",
+              "factKey": "kakadu-F17",
+              "text": "O reconhecimento internacional contempla valores naturais e culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P18",
+              "factKey": "kakadu-F18",
+              "text": "A categoria de proteção é parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P19",
+              "factKey": "kakadu-F19",
+              "text": "O bem está inscrito na Lista do Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P20",
+              "factKey": "kakadu-F20",
+              "text": "A relação entre planícies alagáveis e escarpas sustenta o valor cênico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P21",
+              "factKey": "kakadu-F21",
+              "text": "A posição administrativa é o Território do Norte australiano.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P22",
+              "factKey": "kakadu-F22",
+              "text": "O sítio ocupa o norte continental da Austrália.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P23",
+              "factKey": "kakadu-F23",
+              "text": "O valor cultural envolve muitos sítios e uma longa continuidade histórica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P24",
+              "factKey": "kakadu-F24",
+              "text": "A diversidade de habitats sustenta diversidade de flora e fauna.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "kakadu-geografo-P25",
+              "factKey": "kakadu-F25",
+              "text": "A identificação integra patrimônio cultural vivo e mosaico de ecossistemas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "KAK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque do norte australiano que reúne arte rupestre e paisagens culturais aborígenes a planícies úmidas e escarpas.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

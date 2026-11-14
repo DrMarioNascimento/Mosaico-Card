@@ -3957,3 +3957,151 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | O conjunto é Patrimônio Mundial reconhecido pela UNESCO. | O bem cultural é inscrito na Lista do Patrimônio Mundial. | MSM1 |
 | 24 | O lugar não é uma ilha tropical cercada por recifes de coral. | O ambiente é uma baía temperada de fortes marés e bancos arenosos. | MSM1 |
 | 25 | Para identificar, combine marés, monte rochoso e abadia dedicada a Miguel. | A identificação articula dinâmica costeira, topografia e função religiosa. | MSM1 |
+
+## Borobudur
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Templo | Borobudur | Borobudur; Prambanan; Angkor Wat; Preah Vihear; Templo Todai-ji; Sanchi; Boudhanath; Templo de Karnak; Templo de Hórus; Petra; Templo do Céu; Templo de Luxor |
+| Organização das plataformas | Terraços quadrados abaixo de plataformas circulares | Terraços quadrados abaixo de plataformas circulares; Torres em fileiras sobre uma única plataforma retangular; Cinco torres dispostas em forma de quincunce; Três edifícios cobertos por telhados curvos |
+| Dinastia associada à construção | Sailendra | Sailendra; Ming; Maurya; Joseon |
+| Ilha | Java | Java; Bali; Honshu; Sri Lanka |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é um grande monumento religioso da Ásia. | O sítio é um conjunto monumental associado ao budismo. | BOR1 |
+| 2 | O templo principal se ergue ao redor de uma colina. | Uma elevação natural serviu de núcleo à implantação do monumento. | BOR1 |
+| 3 | A construção sobe em terraços. | A forma escalonada organiza a subida em níveis superpostos. | BOR1 |
+| 4 | A parte inferior tem terraços quadrados. | A base piramidal compreende cinco terraços quadrados concêntricos. | BOR1 |
+| 5 | Acima aparecem plataformas circulares. | O corpo superior apresenta três plataformas circulares. | BOR1 |
+| 6 | Uma grande estrutura em forma de estupa coroa o alto. | Uma estupa monumental finaliza a composição vertical. | BOR1 |
+| 7 | Outras estupas menores cercam as plataformas circulares. | Setenta e duas estupas vazadas se distribuem nas plataformas superiores. | BOR1 |
+| 8 | As estupas vazadas abrigam imagens de Buda. | Cada estupa vazada das plataformas circulares contém uma imagem de Buda. | BOR1 |
+| 9 | Relevos decoram muros e balaustradas. | Painéis em baixo-relevo revestem muros e balaustradas. | BOR1 |
+| 10 | Essas imagens foram esculpidas em relevo. | O programa artístico utiliza a técnica do baixo-relevo. | BOR1 |
+| 11 | A organização dos níveis tem relação com ideias budistas. | A divisão vertical expressa esferas da cosmologia budista. | BOR1 |
+| 12 | A base se associa à esfera dos desejos. | A base representa kamadhatu na interpretação cosmológica apresentada pela UNESCO. | BOR1 |
+| 13 | Os terraços quadrados se associam à esfera das formas. | Os cinco terraços quadrados representam rupadhatu. | BOR1 |
+| 14 | As plataformas circulares se associam à esfera sem forma. | As plataformas e a estupa superior representam arupadhatu. | BOR1 |
+| 15 | O local foi construído durante a dinastia Sailendra. | A dinastia Sailendra é associada à construção do monumento. | BOR1 |
+| 16 | A obra data dos séculos VIII e IX. | A cronologia da construção situa-se entre os séculos VIII e IX. | BOR1 |
+| 17 | O lugar fica em uma ilha do Sudeste Asiático. | O sítio se localiza na ilha de Java. | BOR1 |
+| 18 | Java pertence à Indonésia. | A localização nacional é a Indonésia. | BOR1 |
+| 19 | O templo fica na parte central da ilha. | O monumento está no centro da ilha de Java. | BOR1 |
+| 20 | O vale de Kedu faz parte da localização regional. | A implantação é associada ao vale de Kedu. | BOR1 |
+| 21 | O patrimônio reconhecido inclui outros dois templos menores. | O bem protegido reúne o monumento principal e dois templos menores. | BOR1 |
+| 22 | Mendut é um dos dois templos ligados ao conjunto. | O templo de Mendut integra o eixo do bem patrimonial. | BOR1 |
+| 23 | Pawon é o outro templo associado. | Pawon integra o conjunto de três monumentos reconhecidos. | BOR1 |
+| 24 | O monumento foi restaurado no século XX. | Uma grande restauração ocorreu entre 1973 e 1983. | BOR1 |
+| 25 | Para identificar, combine Java, terraços quadrados e estupas vazadas. | A identificação articula posição insular, planta escalonada e programa budista. | BOR1 |
+
+## Bagan
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Paisagem histórica | Bagan | Bagan; Borobudur; Angkor; Sukhothai; Ayutthaya; Luang Prabang; Lumbini; Bodh Gaya; Polonnaruwa; Anuradhapura; Patan; Kyoto |
+| Elementos do patrimônio | Templos, estupas, mosteiros e afrescos | Templos, estupas, mosteiros e afrescos; Palácios, canais, igrejas e pontes; Pirâmides, templos solares e obeliscos; Fortificações, palácios e catedrais góticas |
+| Rio associado | Ayeyarwady (Irrawaddy) | Ayeyarwady (Irrawaddy); Mekong; Ganges; Yangtzé |
+| Função histórica | Capital de um império regional budista | Capital de um império regional budista; Centro de uma monarquia islâmica no Sahel; Antiga capital do Império Khmer; Capital imperial do Japão por mais de mil anos |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma paisagem com muitas construções religiosas. | O bem reúne um conjunto de monumentos budistas distribuídos na paisagem. | BAG1 |
+| 2 | Templos e estupas aparecem em grande número. | A paisagem sagrada integra templos e estupas. | BAG1 |
+| 3 | Há também mosteiros no conjunto. | Os mosteiros compõem o patrimônio religioso protegido. | BAG1 |
+| 4 | Alguns lugares continuam associados a peregrinações. | A prática de peregrinação é parte do significado religioso do sítio. | BAG1 |
+| 5 | Esculturas fazem parte dos testemunhos artísticos. | A arte inclui esculturas em diferentes monumentos. | BAG1 |
+| 6 | Pinturas em paredes também foram preservadas. | Afrescos integram os atributos artísticos do bem. | BAG1 |
+| 7 | O lugar fica numa planície do Sudeste Asiático. | O sítio ocupa a planície central de Mianmar. | BAG1 |
+| 8 | A paisagem se encontra junto a uma curva de um grande rio. | O rio Ayeyarwady desenha uma curva junto ao conjunto. | BAG1 |
+| 9 | O rio também é conhecido como Irrawaddy. | Irrawaddy é outra grafia usada para o rio Ayeyarwady. | BAG1 |
+| 10 | O destino fica em Mianmar. | Sua localização nacional é Mianmar. | BAG1 |
+| 11 | A cidade foi capital de um poder regional. | O sítio foi capital de um império regional. | BAG1 |
+| 12 | Seu auge se deu entre os séculos XI e XIII. | A principal fase histórica estendeu-se dos séculos XI ao XIII. | BAG1 |
+| 13 | A paisagem testemunha uma tradição budista duradoura. | A prática budista Theravada integra a significação cultural do lugar. | BAG1 |
+| 14 | A doação para obras religiosas teve papel importante. | O patrocínio religioso contribuiu para a formação monumental. | BAG1 |
+| 15 | Os governantes participaram do financiamento de monumentos. | O rei atuava como importante doador na construção religiosa. | BAG1 |
+| 16 | O patrimônio inclui restos arqueológicos além dos prédios. | A área reconhecida preserva vestígios arqueológicos e arquitetura. | BAG1 |
+| 17 | O conjunto não é um único templo isolado. | O bem compreende diversos componentes monumentais. | BAG1 |
+| 18 | O valor reconhecido depende da relação entre monumentos e paisagem. | A proteção considera as relações espaciais da paisagem sagrada. | BAG1 |
+| 19 | Parte do patrimônio é usada em práticas religiosas atuais. | A continuidade de usos e devoções participa do valor do lugar. | BAG1 |
+| 20 | A UNESCO reconhece o conjunto como Patrimônio Mundial. | O sítio está inscrito na Lista do Patrimônio Mundial. | BAG1 |
+| 21 | A paisagem apresenta arte budista em diferentes formas. | Arquitetura, escultura e pintura documentam a produção religiosa. | BAG1 |
+| 22 | O sítio não fica na ilha de Java. | Sua posição continental em Mianmar diferencia-o de conjuntos javaneses. | BAG1 |
+| 23 | O rio ajuda a distinguir esta paisagem de outras cheias de templos. | A posição na curva do Ayeyarwady diferencia o conjunto de outros sítios budistas. | BAG1 |
+| 24 | A função de antiga capital acrescenta uma dimensão política ao lugar. | A história religiosa se relaciona à centralidade política regional. | BAG1 |
+| 25 | Para identificar, combine planície, rio Ayeyarwady e templos budistas. | A identificação articula situação fluvial e paisagem monumental. | BAG1 |
+
+## K’gari
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Ilha | K’gari | K’gari; Ilha Kangaroo; Ilha da Tasmânia; Ilha Rottnest; Ilha Lord Howe; Ilha Moreton; Ilha Bruny; Ilha Norfolk; Ilha Phillip; Ilha Kiritimati; Ilha Grande do Havaí; Ilha Stewart |
+| Material dominante | Areia | Areia; Calcário de recife; Granito exposto; Basalto vulcânico |
+| Corpos de água interiores | Lagos de água doce sobre dunas | Lagos de água doce sobre dunas; Fiordes escavados em gelo; Lagos de lava permanentes; Lagoas costeiras exclusivamente salgadas |
+| País | Austrália | Austrália; Nova Zelândia; Indonésia; Fiji |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma ilha próxima da costa de um país da Oceania. | A ilha está situada ao largo da costa oriental australiana. | KGA1 |
+| 2 | A areia é o principal material que forma a ilha. | O substrato dominante do ambiente insular é arenoso. | KGA1 |
+| 3 | Ela tem cerca de 122 quilômetros de comprimento. | A extensão longitudinal da ilha é de aproximadamente 122 km. | KGA1 |
+| 4 | É reconhecida como a maior ilha de areia do mundo. | A dimensão do corpo arenoso a destaca entre as ilhas de areia. | KGA1 |
+| 5 | Dunas aparecem ao longo da ilha. | A paisagem inclui sistemas dunares costeiros. | KGA1 |
+| 6 | Algumas dunas continuam se deslocando. | A dinâmica eólica mantém dunas móveis sobre sistemas mais antigos. | KGA1 |
+| 7 | A praia tem trechos longos e contínuos. | A faixa costeira inclui longas praias arenosas. | KGA1 |
+| 8 | Há falésias com areias de cores diferentes. | Os depósitos costeiros incluem paredões arenosos coloridos. | KGA1 |
+| 9 | Lagos de água doce aparecem sobre dunas. | Depressões dunares abrigam lagos de água doce elevados. | KGA1 |
+| 10 | A água dos lagos não é água salgada do oceano. | Os lagos dunares são corpos de água doce. | KGA1 |
+| 11 | A ilha reúne muitos lagos desse tipo. | O sítio concentra uma parcela expressiva dos lagos dunares elevados do mundo. | KGA1 |
+| 12 | Existe também um grande aquífero sob a areia. | Um aquífero livre integra a hidrologia da ilha. | KGA1 |
+| 13 | Dunas, aquífero e lagos estão relacionados. | O sistema hidrológico conecta depósitos arenosos e águas subterrâneas e superficiais. | KGA1 |
+| 14 | A floresta cresce sobre terreno arenoso. | Florestas úmidas se desenvolvem em dunas costeiras. | KGA1 |
+| 15 | Algumas árvores da floresta podem ser muito altas. | A vegetação inclui árvores de grande porte sobre substrato arenoso. | KGA1 |
+| 16 | O vento e a água ajudam a moldar a paisagem. | Processos eólicos e costeiros participam da evolução geomorfológica. | KGA1 |
+| 17 | As dunas mais novas e antigas podem sustentar vegetações diferentes. | A idade dos solos influencia a sucessão de comunidades vegetais. | KGA1 |
+| 18 | O ambiente muda conforme a salinidade e a água disponível. | Salinidade e nível de água participam da distribuição da vegetação. | KGA1 |
+| 19 | O destino fica na Austrália. | A localização nacional é a Austrália. | KGA1 |
+| 20 | Fica junto à costa leste australiana. | A posição é próxima à costa oriental do país. | KGA1 |
+| 21 | O nome antigo usado em inglês era Fraser Island. | A ilha também foi conhecida pelo nome Fraser Island. | KGA1 |
+| 22 | O reconhecimento da UNESCO inclui a ilha e pequenas ilhas vizinhas. | O bem inclui a ilha principal e algumas pequenas ilhas a oeste. | KGA1 |
+| 23 | Grande parte da ilha integra um parque nacional. | A maior parte do território insular está protegida como parque nacional. | KGA1 |
+| 24 | A visitação exige cuidados com a qualidade da água dos lagos. | O uso recreativo intenso pode afetar os lagos e requer gestão. | KGA1 |
+| 25 | Para identificar, combine ilha de areia, lagos dunares e floresta. | A identificação articula geomorfologia arenosa, hidrologia e sucessão florestal. | KGA1 |
+
+## Parque Nacional Kakadu
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional Kakadu | Parque Nacional Kakadu; Parque Nacional Uluru-Kata Tjuta; Parque Nacional Litchfield; Parque Nacional Nitmiluk; Parque Nacional Purnululu; Parque Nacional Daintree; Parque Nacional Tongariro; Parque Nacional Fiordland; Parque Nacional de Emas; Parque Nacional Serengeti; Parque Nacional Jasper; Parque Nacional de Yellowstone |
+| Paisagem característica | Escarpas rochosas e planícies alagáveis | Escarpas rochosas e planícies alagáveis; Fiordes e geleiras costeiras; Dunas e lagos de uma ilha arenosa; Recifes em plataforma oceânica |
+| Patrimônio cultural associado | Arte rupestre e tradições aborígenes vivas | Arte rupestre e tradições aborígenes vivas; Templos romanos e anfiteatros; Castelos góticos e vilas medievais; Muralhas incas e terraços andinos |
+| Região administrativa | Território do Norte, Austrália | Território do Norte, Austrália; Queensland, Austrália; Ilha Sul, Nova Zelândia; Tasmania, Austrália |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma área protegida no norte da Austrália. | O parque situa-se no Território do Norte australiano. | KAK1 |
+| 2 | Paisagens de pedra e áreas alagáveis fazem parte do lugar. | O conjunto reúne escarpas rochosas e extensas planícies úmidas. | KAK1 |
+| 3 | Algumas escarpas chegam a centenas de metros de altura. | O relevo inclui escarpas que alcançam cerca de 330 metros. | KAK1 |
+| 4 | Há planícies que podem ser inundadas. | Planícies de inundação integram os ecossistemas protegidos. | KAK1 |
+| 5 | Manguezais também aparecem na área. | O parque conserva ecossistemas de manguezal. | KAK1 |
+| 6 | Partes costeiras sofrem influência das marés. | Planícies lodosas intermareais e costa integram o mosaico ambiental. | KAK1 |
+| 7 | Além de áreas úmidas há savanas e florestas abertas. | O parque combina savanas arborizadas e florestas abertas. | KAK1 |
+| 8 | A paisagem também inclui florestas de monção. | Florestas de monção acrescentam diversidade ao mosaico de habitats. | KAK1 |
+| 9 | Pinturas antigas foram feitas em superfícies rochosas. | Sítios de arte rupestre registram expressões culturais indígenas. | KAK1 |
+| 10 | Há pinturas que representam pessoas. | A iconografia inclui figuras humanas. | KAK1 |
+| 11 | Animais aparecem em algumas representações. | A arte retrata espécies animais identificáveis. | KAK1 |
+| 12 | Algumas imagens representam espécies hoje extintas. | O registro inclui representações de animais extintos. | KAK1 |
+| 13 | O patrimônio também inclui sítios arqueológicos. | Vestígios arqueológicos complementam a arte rupestre. | KAK1 |
+| 14 | Os registros mostram modos de vida de povos indígenas. | As evidências documentam práticas sociais e culturais aborígenes ao longo do tempo. | KAK1 |
+| 15 | Os povos indígenas continuam ligados ao lugar atualmente. | O parque é uma paisagem cultural viva de povos aborígenes. | KAK1 |
+| 16 | A história de ocupação humana ultrapassa dezenas de milhares de anos. | A UNESCO destaca presença aborígene por mais de 50 mil anos. | KAK1 |
+| 17 | A proteção reúne importância natural e cultural. | O reconhecimento internacional contempla valores naturais e culturais. | KAK1 |
+| 18 | A área protegida é um parque nacional. | A categoria de proteção é parque nacional. | KAK1 |
+| 19 | A UNESCO reconhece o parque como patrimônio mundial. | O bem está inscrito na Lista do Patrimônio Mundial. | KAK1 |
+| 20 | O contraste entre áreas úmidas e paredões marca a paisagem. | A relação entre planícies alagáveis e escarpas sustenta o valor cênico. | KAK1 |
+| 21 | O lugar fica no Território do Norte. | A posição administrativa é o Território do Norte australiano. | KAK1 |
+| 22 | O destino não fica na ilha de Java. | O sítio ocupa o norte continental da Austrália. | KAK1 |
+| 23 | O patrimônio não se limita a uma única pintura. | O valor cultural envolve muitos sítios e uma longa continuidade histórica. | KAK1 |
+| 24 | Vários ambientes permitem a presença de plantas e animais diferentes. | A diversidade de habitats sustenta diversidade de flora e fauna. | KAK1 |
+| 25 | Para identificar, combine arte rupestre aborígene, alagados e escarpas. | A identificação integra patrimônio cultural vivo e mosaico de ecossistemas. | KAK1 |
