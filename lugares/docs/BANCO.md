@@ -3735,3 +3735,77 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 - A posição antártica situa a ilha no hemisfério meridional.
 - A posição no Mar de Weddell e a fauna ajudam a distingui-la.
 - A identificação relaciona topografia vulcânica, colônia de aves e patrimônio histórico.
+
+## Parque Nacional da Chapada dos Guimarães
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional da Chapada dos Guimarães | Parque Nacional da Chapada dos Guimarães; Parque Nacional da Chapada Diamantina; Parque Nacional da Chapada dos Veadeiros; Parque Nacional das Emas; Parque Nacional da Serra da Canastra; Parque Nacional do Catimbau; Parque Nacional da Serra dos Órgãos; Parque Nacional do Itatiaia; Parque Nacional do Caparaó; Parque Nacional de Sete Cidades; Parque Nacional de Brasília; Parque Nacional do Pantanal Mato-Grossense |
+| Rocha presente nos paredões | Arenito | Arenito; Gelo glacial; Coral recente; Sal-gema |
+| Bioma predominante | Cerrado | Cerrado; Tundra ártica; Floresta boreal; Vegetação mediterrânea europeia |
+| Queda formada pelo Coxipozinho | Véu de Noiva | Véu de Noiva; Salto Ángel; Cataratas do Niágara; Cataratas Vitória |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma área de natureza protegida no interior brasileiro. | A unidade de conservação está situada no interior do Brasil. | CG1 |
+| 2 | Uma paisagem elevada domina parte da região. | O relevo de planalto é um elemento da paisagem regional. | CG1 |
+| 3 | Escarpas e paredões se destacam na paisagem. | Escarpas areníticas integram o relevo da unidade. | CG1 |
+| 4 | A rocha de muitos paredões tem origem em areia consolidada. | O arenito compõe parte das formações rochosas visíveis. | CG1 |
+| 5 | O lugar abriga nascentes e cursos de água. | A proteção inclui ambientes de nascentes e drenagens. | CG1 |
+| 6 | Há rios que ajudam a formar uma bacia regional. | A rede de drenagem contribui para a bacia do rio Coxipó. | CG1 |
+| 7 | O Cerrado está entre os ambientes protegidos. | A área integra a região do bioma Cerrado. | CG1 |
+| 8 | Campos e formações de vegetação compõem a paisagem. | A cobertura vegetal varia entre formações abertas e outras mais densas. | CG1 |
+| 9 | Uma cachoeira é observada de um mirante. | Um mirante permite observar uma queda associada à rede hidrográfica local. | CG1 |
+| 10 | Essa queda tem nome de peça usada em casamentos. | A denominação popular da queda remete a um acessório de noiva. | CG1 |
+| 11 | A cachoeira é conhecida como Véu de Noiva. | A queda de referência recebe o nome de Véu de Noiva. | CG1 |
+| 12 | A água dessa queda vem do Coxipozinho. | O rio Coxipó, chamado Coxipozinho nesse trecho, forma a queda. | CG1 |
+| 13 | A área pode ser visitada por diferentes percursos. | O uso público inclui áreas com trajetos e pontos de observação. | CG1 |
+| 14 | Um dos percursos reúne mais de uma queda-d'água. | A visitação inclui um circuito de cachoeiras. | CG1 |
+| 15 | A unidade pertence à categoria parque nacional. | A proteção federal é classificada como parque nacional. | CG1 |
+| 16 | O parque foi criado em 1989. | A criação da unidade federal ocorreu em 1989. | CG1 |
+| 17 | O território protegido abrange dois municípios mato-grossenses. | A unidade abrange partes de Cuiabá e de outro município vizinho. | CG1 |
+| 18 | Uma capital estadual fica entre os municípios ligados ao parque. | Cuiabá figura entre os municípios abrangidos pela unidade. | CG1 |
+| 19 | O parque fica no estado de Mato Grosso. | A localização administrativa é Mato Grosso, no Centro-Oeste brasileiro. | CG1 |
+| 20 | A cidade próxima serve de base para visitantes. | O município vizinho oferece apoio para o acesso aos atrativos. | CG1 |
+| 21 | A rodovia MT-251 relaciona a cidade de apoio à capital. | O acesso regional utiliza a ligação rodoviária MT-251. | CG1 |
+| 22 | A água e a erosão participam da formação das paisagens. | Os processos erosivos contribuem para modelar as formas do relevo. | CG1 |
+| 23 | O mirante e as cachoeiras fazem parte da visitação permitida. | O uso público ocorre em áreas estabelecidas para visitação. | CG1 |
+| 24 | Esta chapada não fica no estado da Bahia. | A posição mato-grossense distingue a área de unidades situadas na Bahia. | CG1 |
+| 25 | Para identificar, combine Cerrado, arenito e a queda formada pelo Coxipozinho. | A identificação articula contexto biogeográfico, litologia e drenagem. | CG1 |
+
+## Conjunto Moderno da Pampulha
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Conjunto arquitetônico | Conjunto Moderno da Pampulha | Conjunto Moderno da Pampulha; Plano Piloto de Brasília; Conjunto do Parque Ibirapuera; Centro Histórico de Ouro Preto; Centro Histórico de Olinda; Conjunto da Praça da Liberdade; Centro Histórico de Paraty; Centro Histórico de Salvador; Cidade Histórica de Goiás; Conjunto Histórico de Diamantina; Praça dos Três Poderes; Centro Histórico de São Luís |
+| Elemento central da paisagem | Lago artificial | Lago artificial; Deserto de dunas; Geleira de vale; Oceano aberto |
+| Arquiteto dos quatro edifícios | Oscar Niemeyer | Oscar Niemeyer; Lúcio Costa; Antônio Francisco Lisboa; Lina Bo Bardi |
+| Cidade | Belo Horizonte | Belo Horizonte; Brasília; Goiânia; Curitiba |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino reúne edifícios e jardins em uma capital brasileira. | O bem protegido é um conjunto arquitetônico e paisagístico urbano. | PA1 |
+| 2 | A água faz parte da composição da paisagem. | O conjunto foi concebido ao redor de um lago artificial. | PA1 |
+| 3 | Esse lago não surgiu apenas por um processo natural. | O espelho d'água é uma intervenção artificial na paisagem. | PA1 |
+| 4 | O projeto se relaciona a um bairro planejado para lazer. | A proposta articulava lazer e cultura em um bairro concebido como cidade-jardim. | PA1 |
+| 5 | O núcleo reúne quatro edifícios de funções diferentes. | O patrimônio reconhecido articula quatro edificações a espaços paisagísticos. | PA1 |
+| 6 | Uma das construções foi concebida para jogos. | O antigo cassino integra o conjunto patrimonial. | PA1 |
+| 7 | Outra construção foi pensada para bailes. | A antiga casa de baile integra o programa de lazer. | PA1 |
+| 8 | Um clube ligado a atividades náuticas também integra o conjunto. | O clube náutico figura entre os quatro edifícios protegidos. | PA1 |
+| 9 | Uma igreja completa o grupo principal de edifícios. | O programa arquitetônico inclui uma edificação religiosa. | PA1 |
+| 10 | A igreja é dedicada a São Francisco de Assis. | A capela dedicada a São Francisco de Assis integra o bem. | PA1 |
+| 11 | As formas curvas chamam a atenção em parte da arquitetura. | As formas exploram as possibilidades plásticas do concreto. | PA1 |
+| 12 | O material permitiu criar linhas que fogem da caixa retangular. | O concreto foi utilizado para produzir formas livres na arquitetura moderna. | PA1 |
+| 13 | O projeto arquitetônico está ligado a Oscar Niemeyer. | Oscar Niemeyer projetou os quatro edifícios principais. | PA1 |
+| 14 | A colaboração envolveu o engenheiro Joaquim Cardozo. | O trabalho arquitetônico contou com a engenharia de Joaquim Cardozo. | PA1 |
+| 15 | A paisagem foi pensada junto com os edifícios. | O projeto articula arquitetura moderna e paisagismo. | PA1 |
+| 16 | Roberto Burle Marx participou do desenho paisagístico. | O paisagismo é associado ao trabalho de Roberto Burle Marx. | PA1 |
+| 17 | A arte também faz parte da composição. | A proposta integra arquitetura, artes plásticas e paisagismo. | PA1 |
+| 18 | Cândido Portinari está entre os artistas associados ao conjunto. | A colaboração artística inclui obras de Cândido Portinari. | PA1 |
+| 19 | O projeto começou na década de 1940. | A concepção do conjunto remonta a 1940. | PA1 |
+| 20 | A UNESCO reconhece o conjunto como patrimônio mundial. | O reconhecimento internacional considera a paisagem cultural moderna. | PA1 |
+| 21 | O destino fica em Belo Horizonte. | A localização urbana é a capital de Minas Gerais. | PA1 |
+| 22 | A capital fica no Sudeste do Brasil. | A posição administrativa pertence à região Sudeste. | PA1 |
+| 23 | A proteção inclui a relação dos prédios com os jardins e a água. | O valor reconhecido depende da interação entre edifícios e paisagem. | PA1 |
+| 24 | O antigo cassino é uma das peças de um conjunto, não o destino inteiro. | A identificação deve considerar o conjunto de edifícios e o lago. | PA1 |
+| 25 | Para identificar, combine lago artificial, lazer e arquitetura moderna em Minas Gerais. | A combinação entre sítio urbano, programa e autoria diferencia o bem. | PA1 |

@@ -68,8 +68,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional Yellowstone | América |
 | Mar de Ross | Antártida |
 | Ilha Paulet | Antártida |
+| Parque Nacional da Chapada dos Guimarães | Brasil · Centro-Oeste · América |
+| Conjunto Moderno da Pampulha | Brasil · Sudeste · América |
 
-São 58 lugares, 116 conjuntos de pistas (dois por lugar), 2.900 pistas, 232 perguntas distintas e 1.364 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 60 lugares, 120 conjuntos de pistas (dois por lugar), 3.000 pistas, 240 perguntas distintas e 1.412 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

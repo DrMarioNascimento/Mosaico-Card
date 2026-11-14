@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-21-2026-11-14",
+  "catalogVersion": "lote-22-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Cinquenta e oito destinos jogáveis em dois perfis",
-  "status": "Cinquenta e oito destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Sessenta destinos jogáveis em dois perfis",
+  "status": "Sessenta destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -801,6 +801,20 @@
       "title": "Visitor Site Guidelines: Paulet Island",
       "publisher": "Antarctic Treaty Secretariat",
       "url": "https://www.ats.aq/devAS/e/Ats/Guideline/881fc30e-353b-425c-b1e2-b708c9a0a958",
+      "checkedAt": "2026-11-14"
+    },
+    "CG1": {
+      "id": "CG1",
+      "title": "Parque Nacional da Chapada dos Guimarães",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes",
+      "checkedAt": "2026-11-14"
+    },
+    "PA1": {
+      "id": "PA1",
+      "title": "Pampulha Modern Ensemble",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1493/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -59862,6 +59876,2000 @@
       },
       "reveal": {
         "canonicalSummary": "A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de pinguins-de-adélia e vestígios históricos.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-chapada-guimaraes",
+      "placeId": "chapada-guimaraes",
+      "title": "Parque Nacional da Chapada dos Guimarães",
+      "aliases": [
+        "Chapada dos Guimarães"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Chapada dos Guimarães",
+          "sources": [
+            "CG1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rocha presente nos paredões",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Arenito"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Gelo glacial"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Coral recente"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sal-gema"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Arenito",
+          "sources": [
+            "CG1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Bioma predominante",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cerrado"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tundra ártica"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Floresta boreal"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Vegetação mediterrânea europeia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cerrado",
+          "sources": [
+            "CG1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Queda formada pelo Coxipozinho",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Véu de Noiva"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Salto Ángel"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Cataratas do Niágara"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cataratas Vitória"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Véu de Noiva",
+          "sources": [
+            "CG1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "chapada-guimaraes-viajante-P01",
+              "factKey": "chapada-guimaraes-F01",
+              "text": "O destino é uma área de natureza protegida no interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P02",
+              "factKey": "chapada-guimaraes-F02",
+              "text": "Uma paisagem elevada domina parte da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P03",
+              "factKey": "chapada-guimaraes-F03",
+              "text": "Escarpas e paredões se destacam na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P04",
+              "factKey": "chapada-guimaraes-F04",
+              "text": "A rocha de muitos paredões tem origem em areia consolidada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P05",
+              "factKey": "chapada-guimaraes-F05",
+              "text": "O lugar abriga nascentes e cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P06",
+              "factKey": "chapada-guimaraes-F06",
+              "text": "Há rios que ajudam a formar uma bacia regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P07",
+              "factKey": "chapada-guimaraes-F07",
+              "text": "O Cerrado está entre os ambientes protegidos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P08",
+              "factKey": "chapada-guimaraes-F08",
+              "text": "Campos e formações de vegetação compõem a paisagem.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P09",
+              "factKey": "chapada-guimaraes-F09",
+              "text": "Uma cachoeira é observada de um mirante.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P10",
+              "factKey": "chapada-guimaraes-F10",
+              "text": "Essa queda tem nome de peça usada em casamentos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P11",
+              "factKey": "chapada-guimaraes-F11",
+              "text": "A cachoeira é conhecida como Véu de Noiva.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P12",
+              "factKey": "chapada-guimaraes-F12",
+              "text": "A água dessa queda vem do Coxipozinho.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P13",
+              "factKey": "chapada-guimaraes-F13",
+              "text": "A área pode ser visitada por diferentes percursos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P14",
+              "factKey": "chapada-guimaraes-F14",
+              "text": "Um dos percursos reúne mais de uma queda-d'água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P15",
+              "factKey": "chapada-guimaraes-F15",
+              "text": "A unidade pertence à categoria parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P16",
+              "factKey": "chapada-guimaraes-F16",
+              "text": "O parque foi criado em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P17",
+              "factKey": "chapada-guimaraes-F17",
+              "text": "O território protegido abrange dois municípios mato-grossenses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P18",
+              "factKey": "chapada-guimaraes-F18",
+              "text": "Uma capital estadual fica entre os municípios ligados ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P19",
+              "factKey": "chapada-guimaraes-F19",
+              "text": "O parque fica no estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P20",
+              "factKey": "chapada-guimaraes-F20",
+              "text": "A cidade próxima serve de base para visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P21",
+              "factKey": "chapada-guimaraes-F21",
+              "text": "A rodovia MT-251 relaciona a cidade de apoio à capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P22",
+              "factKey": "chapada-guimaraes-F22",
+              "text": "A água e a erosão participam da formação das paisagens.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P23",
+              "factKey": "chapada-guimaraes-F23",
+              "text": "O mirante e as cachoeiras fazem parte da visitação permitida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P24",
+              "factKey": "chapada-guimaraes-F24",
+              "text": "Esta chapada não fica no estado da Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-viajante-P25",
+              "factKey": "chapada-guimaraes-F25",
+              "text": "Para identificar, combine Cerrado, arenito e a queda formada pelo Coxipozinho.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "chapada-guimaraes-geografo-P01",
+              "factKey": "chapada-guimaraes-F01",
+              "text": "A unidade de conservação está situada no interior do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P02",
+              "factKey": "chapada-guimaraes-F02",
+              "text": "O relevo de planalto é um elemento da paisagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P03",
+              "factKey": "chapada-guimaraes-F03",
+              "text": "Escarpas areníticas integram o relevo da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P04",
+              "factKey": "chapada-guimaraes-F04",
+              "text": "O arenito compõe parte das formações rochosas visíveis.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P05",
+              "factKey": "chapada-guimaraes-F05",
+              "text": "A proteção inclui ambientes de nascentes e drenagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P06",
+              "factKey": "chapada-guimaraes-F06",
+              "text": "A rede de drenagem contribui para a bacia do rio Coxipó.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P07",
+              "factKey": "chapada-guimaraes-F07",
+              "text": "A área integra a região do bioma Cerrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P08",
+              "factKey": "chapada-guimaraes-F08",
+              "text": "A cobertura vegetal varia entre formações abertas e outras mais densas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P09",
+              "factKey": "chapada-guimaraes-F09",
+              "text": "Um mirante permite observar uma queda associada à rede hidrográfica local.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P10",
+              "factKey": "chapada-guimaraes-F10",
+              "text": "A denominação popular da queda remete a um acessório de noiva.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P11",
+              "factKey": "chapada-guimaraes-F11",
+              "text": "A queda de referência recebe o nome de Véu de Noiva.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P12",
+              "factKey": "chapada-guimaraes-F12",
+              "text": "O rio Coxipó, chamado Coxipozinho nesse trecho, forma a queda.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P13",
+              "factKey": "chapada-guimaraes-F13",
+              "text": "O uso público inclui áreas com trajetos e pontos de observação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P14",
+              "factKey": "chapada-guimaraes-F14",
+              "text": "A visitação inclui um circuito de cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P15",
+              "factKey": "chapada-guimaraes-F15",
+              "text": "A proteção federal é classificada como parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P16",
+              "factKey": "chapada-guimaraes-F16",
+              "text": "A criação da unidade federal ocorreu em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P17",
+              "factKey": "chapada-guimaraes-F17",
+              "text": "A unidade abrange partes de Cuiabá e de outro município vizinho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P18",
+              "factKey": "chapada-guimaraes-F18",
+              "text": "Cuiabá figura entre os municípios abrangidos pela unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P19",
+              "factKey": "chapada-guimaraes-F19",
+              "text": "A localização administrativa é Mato Grosso, no Centro-Oeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P20",
+              "factKey": "chapada-guimaraes-F20",
+              "text": "O município vizinho oferece apoio para o acesso aos atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P21",
+              "factKey": "chapada-guimaraes-F21",
+              "text": "O acesso regional utiliza a ligação rodoviária MT-251.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P22",
+              "factKey": "chapada-guimaraes-F22",
+              "text": "Os processos erosivos contribuem para modelar as formas do relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P23",
+              "factKey": "chapada-guimaraes-F23",
+              "text": "O uso público ocorre em áreas estabelecidas para visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P24",
+              "factKey": "chapada-guimaraes-F24",
+              "text": "A posição mato-grossense distingue a área de unidades situadas na Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chapada-guimaraes-geografo-P25",
+              "factKey": "chapada-guimaraes-F25",
+              "text": "A identificação articula contexto biogeográfico, litologia e drenagem.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "CG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "No Mato Grosso, o parque protege paisagens de Cerrado, paredões de arenito e a Cachoeira Véu de Noiva, formada pelo Coxipozinho.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-pampulha",
+      "placeId": "pampulha",
+      "title": "Conjunto Moderno da Pampulha",
+      "aliases": [
+        "Pampulha"
+      ],
+      "answerType": "conjunto arquitetônico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto arquitetônico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Conjunto Moderno da Pampulha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Plano Piloto de Brasília"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Conjunto do Parque Ibirapuera"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de Ouro Preto"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Conjunto da Praça da Liberdade"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Paraty"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cidade Histórica de Goiás"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Conjunto Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Praça dos Três Poderes"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de São Luís"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Conjunto Moderno da Pampulha",
+          "sources": [
+            "PA1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Elemento central da paisagem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Lago artificial"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Deserto de dunas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Geleira de vale"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Oceano aberto"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Lago artificial",
+          "sources": [
+            "PA1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Arquiteto dos quatro edifícios",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Oscar Niemeyer"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lúcio Costa"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Antônio Francisco Lisboa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lina Bo Bardi"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Oscar Niemeyer",
+          "sources": [
+            "PA1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Brasília"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Curitiba"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Belo Horizonte",
+          "sources": [
+            "PA1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "pampulha-viajante-P01",
+              "factKey": "pampulha-F01",
+              "text": "O destino reúne edifícios e jardins em uma capital brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P02",
+              "factKey": "pampulha-F02",
+              "text": "A água faz parte da composição da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P03",
+              "factKey": "pampulha-F03",
+              "text": "Esse lago não surgiu apenas por um processo natural.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P04",
+              "factKey": "pampulha-F04",
+              "text": "O projeto se relaciona a um bairro planejado para lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P05",
+              "factKey": "pampulha-F05",
+              "text": "O núcleo reúne quatro edifícios de funções diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P06",
+              "factKey": "pampulha-F06",
+              "text": "Uma das construções foi concebida para jogos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P07",
+              "factKey": "pampulha-F07",
+              "text": "Outra construção foi pensada para bailes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P08",
+              "factKey": "pampulha-F08",
+              "text": "Um clube ligado a atividades náuticas também integra o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P09",
+              "factKey": "pampulha-F09",
+              "text": "Uma igreja completa o grupo principal de edifícios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P10",
+              "factKey": "pampulha-F10",
+              "text": "A igreja é dedicada a São Francisco de Assis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P11",
+              "factKey": "pampulha-F11",
+              "text": "As formas curvas chamam a atenção em parte da arquitetura.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P12",
+              "factKey": "pampulha-F12",
+              "text": "O material permitiu criar linhas que fogem da caixa retangular.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P13",
+              "factKey": "pampulha-F13",
+              "text": "O projeto arquitetônico está ligado a Oscar Niemeyer.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P14",
+              "factKey": "pampulha-F14",
+              "text": "A colaboração envolveu o engenheiro Joaquim Cardozo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P15",
+              "factKey": "pampulha-F15",
+              "text": "A paisagem foi pensada junto com os edifícios.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P16",
+              "factKey": "pampulha-F16",
+              "text": "Roberto Burle Marx participou do desenho paisagístico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P17",
+              "factKey": "pampulha-F17",
+              "text": "A arte também faz parte da composição.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P18",
+              "factKey": "pampulha-F18",
+              "text": "Cândido Portinari está entre os artistas associados ao conjunto.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P19",
+              "factKey": "pampulha-F19",
+              "text": "O projeto começou na década de 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P20",
+              "factKey": "pampulha-F20",
+              "text": "A UNESCO reconhece o conjunto como patrimônio mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P21",
+              "factKey": "pampulha-F21",
+              "text": "O destino fica em Belo Horizonte.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P22",
+              "factKey": "pampulha-F22",
+              "text": "A capital fica no Sudeste do Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P23",
+              "factKey": "pampulha-F23",
+              "text": "A proteção inclui a relação dos prédios com os jardins e a água.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P24",
+              "factKey": "pampulha-F24",
+              "text": "O antigo cassino é uma das peças de um conjunto, não o destino inteiro.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-viajante-P25",
+              "factKey": "pampulha-F25",
+              "text": "Para identificar, combine lago artificial, lazer e arquitetura moderna em Minas Gerais.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "pampulha-geografo-P01",
+              "factKey": "pampulha-F01",
+              "text": "O bem protegido é um conjunto arquitetônico e paisagístico urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P02",
+              "factKey": "pampulha-F02",
+              "text": "O conjunto foi concebido ao redor de um lago artificial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P03",
+              "factKey": "pampulha-F03",
+              "text": "O espelho d'água é uma intervenção artificial na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P04",
+              "factKey": "pampulha-F04",
+              "text": "A proposta articulava lazer e cultura em um bairro concebido como cidade-jardim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P05",
+              "factKey": "pampulha-F05",
+              "text": "O patrimônio reconhecido articula quatro edificações a espaços paisagísticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P06",
+              "factKey": "pampulha-F06",
+              "text": "O antigo cassino integra o conjunto patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P07",
+              "factKey": "pampulha-F07",
+              "text": "A antiga casa de baile integra o programa de lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P08",
+              "factKey": "pampulha-F08",
+              "text": "O clube náutico figura entre os quatro edifícios protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P09",
+              "factKey": "pampulha-F09",
+              "text": "O programa arquitetônico inclui uma edificação religiosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P10",
+              "factKey": "pampulha-F10",
+              "text": "A capela dedicada a São Francisco de Assis integra o bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P11",
+              "factKey": "pampulha-F11",
+              "text": "As formas exploram as possibilidades plásticas do concreto.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P12",
+              "factKey": "pampulha-F12",
+              "text": "O concreto foi utilizado para produzir formas livres na arquitetura moderna.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P13",
+              "factKey": "pampulha-F13",
+              "text": "Oscar Niemeyer projetou os quatro edifícios principais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P14",
+              "factKey": "pampulha-F14",
+              "text": "O trabalho arquitetônico contou com a engenharia de Joaquim Cardozo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P15",
+              "factKey": "pampulha-F15",
+              "text": "O projeto articula arquitetura moderna e paisagismo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P16",
+              "factKey": "pampulha-F16",
+              "text": "O paisagismo é associado ao trabalho de Roberto Burle Marx.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P17",
+              "factKey": "pampulha-F17",
+              "text": "A proposta integra arquitetura, artes plásticas e paisagismo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P18",
+              "factKey": "pampulha-F18",
+              "text": "A colaboração artística inclui obras de Cândido Portinari.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P19",
+              "factKey": "pampulha-F19",
+              "text": "A concepção do conjunto remonta a 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P20",
+              "factKey": "pampulha-F20",
+              "text": "O reconhecimento internacional considera a paisagem cultural moderna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P21",
+              "factKey": "pampulha-F21",
+              "text": "A localização urbana é a capital de Minas Gerais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P22",
+              "factKey": "pampulha-F22",
+              "text": "A posição administrativa pertence à região Sudeste.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P23",
+              "factKey": "pampulha-F23",
+              "text": "O valor reconhecido depende da interação entre edifícios e paisagem.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P24",
+              "factKey": "pampulha-F24",
+              "text": "A identificação deve considerar o conjunto de edifícios e o lago.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pampulha-geografo-P25",
+              "factKey": "pampulha-F25",
+              "text": "A combinação entre sítio urbano, programa e autoria diferencia o bem.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "PA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O conjunto moderno de Belo Horizonte articula quatro edifícios de Oscar Niemeyer, paisagismo e artes ao redor de um lago artificial.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
