@@ -90,8 +90,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional da Serra da Bodoquena | Brasil · Centro-Oeste · América |
 | Parque Nacional do Itatiaia | Brasil · Sudeste · América |
 | Parque Estadual de Vila Velha | Brasil · Sul · América |
+| Baía de Ha Long e Arquipélago de Cat Ba | Ásia |
+| Parque Nacional de Sagarmatha | Ásia |
 
-São 80 lugares, 160 conjuntos de pistas (dois por lugar), 4.000 pistas, 320 perguntas distintas e 1.892 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 82 lugares, 164 conjuntos de pistas (dois por lugar), 4.100 pistas, 328 perguntas distintas e 1.940 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-32-2026-11-14",
+  "catalogVersion": "lote-33-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Oitenta destinos jogáveis em dois perfis",
-  "status": "Oitenta destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Oitenta e dois destinos jogáveis em dois perfis",
+  "status": "Oitenta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -997,6 +997,20 @@
       "title": "Parque Estadual de Vila Velha",
       "publisher": "Instituto Água e Terra do Paraná",
       "url": "https://www.iat.pr.gov.br/Pagina/Parque-Estadual-de-Vila-Velha-PEVV",
+      "checkedAt": "2026-11-14"
+    },
+    "HAL1": {
+      "id": "HAL1",
+      "title": "Ha Long Bay - Cat Ba Archipelago",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/672/",
+      "checkedAt": "2026-11-14"
+    },
+    "SAG1": {
+      "id": "SAG1",
+      "title": "Sagarmatha National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/120/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -82258,6 +82272,1996 @@
       },
       "reveal": {
         "canonicalSummary": "Parque estadual paranaense com formas de arenito, furnas e a Lagoa Dourada.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-ha-long-cat-ba",
+      "placeId": "ha-long-cat-ba",
+      "title": "Baía de Ha Long e Arquipélago de Cat Ba",
+      "aliases": [
+        "Ha Long"
+      ],
+      "answerType": "paisagem costeira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "VN"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Paisagem costeira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Baía de Ha Long e Arquipélago de Cat Ba"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Baía de Phang Nga"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Arquipélago de Raja Ampat"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Baía de Kotor"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Baía da Ilha Grande"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Baía de Fundy"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Baía de Guanabara"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Fiorde Milford Sound"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Baía de San Francisco"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Arquipélago de Galápagos"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Grande Barreira de Corais"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Costa de Ningaloo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Baía de Ha Long e Arquipélago de Cat Ba",
+          "sources": [
+            "HAL1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rocha predominante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Calcário"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Granito"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Basalto"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Arenito"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Calcário",
+          "sources": [
+            "HAL1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Primata endêmico associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Langur-de-cat-ba"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Orangotango-de-bornéu"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lêmure-de-cauda-anelada"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mico-leão-dourado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Langur-de-cat-ba",
+          "sources": [
+            "HAL1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Vietnã"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Tailândia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Indonésia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Filipinas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Vietnã",
+          "sources": [
+            "HAL1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ha-long-cat-ba-viajante-P01",
+              "factKey": "ha-long-cat-ba-F01",
+              "text": "O destino reúne ilhas e ilhotas em uma paisagem marítima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P02",
+              "factKey": "ha-long-cat-ba-F02",
+              "text": "Muitas ilhas têm paredes rochosas íngremes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P03",
+              "factKey": "ha-long-cat-ba-F03",
+              "text": "O calcário é a rocha que caracteriza essas formações.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P04",
+              "factKey": "ha-long-cat-ba-F04",
+              "text": "A água do mar ocupa antigas áreas de relevo cárstico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P05",
+              "factKey": "ha-long-cat-ba-F05",
+              "text": "Algumas elevações aparecem isoladas como torres.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P06",
+              "factKey": "ha-long-cat-ba-F06",
+              "text": "Outras elevações formam grupos de cones.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P07",
+              "factKey": "ha-long-cat-ba-F07",
+              "text": "Cavernas se formaram no calcário.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P08",
+              "factKey": "ha-long-cat-ba-F08",
+              "text": "A erosão marinha formou entalhes nas rochas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P09",
+              "factKey": "ha-long-cat-ba-F09",
+              "text": "Algumas ilhas têm vegetação nas encostas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P10",
+              "factKey": "ha-long-cat-ba-F10",
+              "text": "Há lagoas associadas às ilhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P11",
+              "factKey": "ha-long-cat-ba-F11",
+              "text": "Algumas lagoas sofrem influência das marés.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P12",
+              "factKey": "ha-long-cat-ba-F12",
+              "text": "Uma das ilhas maiores abriga florestas em relevo íngreme.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P13",
+              "factKey": "ha-long-cat-ba-F13",
+              "text": "O destino fica no Vietnã.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P14",
+              "factKey": "ha-long-cat-ba-F14",
+              "text": "A área fica no nordeste desse país.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P15",
+              "factKey": "ha-long-cat-ba-F15",
+              "text": "O arquipélago protegido inclui a área de Cat Ba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P16",
+              "factKey": "ha-long-cat-ba-F16",
+              "text": "O arquipélago foi acrescentado ao patrimônio em 2023.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P17",
+              "factKey": "ha-long-cat-ba-F17",
+              "text": "O lugar abriga um primata ameaçado conhecido como langur-de-cat-ba.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P18",
+              "factKey": "ha-long-cat-ba-F18",
+              "text": "Uma lontra asiática também está entre os animais citados.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P19",
+              "factKey": "ha-long-cat-ba-F19",
+              "text": "A UNESCO reconhece a paisagem por valores naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P20",
+              "factKey": "ha-long-cat-ba-F20",
+              "text": "O conjunto inclui mais de mil ilhas e ilhotas nos limites descritos pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P21",
+              "factKey": "ha-long-cat-ba-F21",
+              "text": "As formas têm tamanhos diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P22",
+              "factKey": "ha-long-cat-ba-F22",
+              "text": "A visitação precisa considerar a conservação ambiental.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P23",
+              "factKey": "ha-long-cat-ba-F23",
+              "text": "A navegação faz parte dos usos humanos da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P24",
+              "factKey": "ha-long-cat-ba-F24",
+              "text": "O ambiente é costeiro, não uma cadeia montanhosa interiorana.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-viajante-P25",
+              "factKey": "ha-long-cat-ba-F25",
+              "text": "Para identificar, combine ilhas calcárias, Vietnã e arquipélago de Cat Ba.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ha-long-cat-ba-geografo-P01",
+              "factKey": "ha-long-cat-ba-F01",
+              "text": "O bem protegido combina baía e arquipélago em ambiente costeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P02",
+              "factKey": "ha-long-cat-ba-F02",
+              "text": "Torres de calcário emergem do mar em diferentes formatos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P03",
+              "factKey": "ha-long-cat-ba-F03",
+              "text": "O relevo dominante é desenvolvido em rocha calcária.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P04",
+              "factKey": "ha-long-cat-ba-F04",
+              "text": "A inundação marinha transformou uma paisagem cárstica em arquipélago.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P05",
+              "factKey": "ha-long-cat-ba-F05",
+              "text": "Formas cársticas isoladas chamadas fenglin marcam o cenário.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P06",
+              "factKey": "ha-long-cat-ba-F06",
+              "text": "O relevo também inclui agrupamentos de picos cônicos, chamados fengcong.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P07",
+              "factKey": "ha-long-cat-ba-F07",
+              "text": "O patrimônio inclui cavernas associadas à evolução cárstica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P08",
+              "factKey": "ha-long-cat-ba-F08",
+              "text": "O contato com o mar produziu entalhes costeiros no calcário.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P09",
+              "factKey": "ha-long-cat-ba-F09",
+              "text": "A paisagem inclui ilhas calcárias cobertas por vegetação.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P10",
+              "factKey": "ha-long-cat-ba-F10",
+              "text": "Lagos marinhos em depressões inundadas integram o relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P11",
+              "factKey": "ha-long-cat-ba-F11",
+              "text": "Parte dos lagos apresenta variação relacionada à maré.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P12",
+              "factKey": "ha-long-cat-ba-F12",
+              "text": "O interior da maior ilha regional tem picos florestados e rochosos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P13",
+              "factKey": "ha-long-cat-ba-F13",
+              "text": "A posição nacional é o Vietnã, no Sudeste Asiático.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P14",
+              "factKey": "ha-long-cat-ba-F14",
+              "text": "O bem se situa no nordeste vietnamita.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P15",
+              "factKey": "ha-long-cat-ba-F15",
+              "text": "Cat Ba integra o conjunto reconhecido em associação com a baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P16",
+              "factKey": "ha-long-cat-ba-F16",
+              "text": "A ampliação dos limites do bem incorporou o arquipélago em 2023.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P17",
+              "factKey": "ha-long-cat-ba-F17",
+              "text": "O langur-de-cat-ba é uma espécie endêmica e ameaçada da área.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P18",
+              "factKey": "ha-long-cat-ba-F18",
+              "text": "A fauna ameaçada inclui a lontra-asiática-de-garras-pequenas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P19",
+              "factKey": "ha-long-cat-ba-F19",
+              "text": "O bem tem reconhecimento por seus atributos cênicos e geológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P20",
+              "factKey": "ha-long-cat-ba-F20",
+              "text": "O bem compreende 1.133 ilhas e ilhotas segundo a descrição patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P21",
+              "factKey": "ha-long-cat-ba-F21",
+              "text": "A paisagem apresenta torres e ilhas de diferentes dimensões.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P22",
+              "factKey": "ha-long-cat-ba-F22",
+              "text": "A gestão busca reduzir impactos do turismo sobre os ecossistemas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P23",
+              "factKey": "ha-long-cat-ba-F23",
+              "text": "O tráfego marítimo é uma atividade considerada na gestão do bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P24",
+              "factKey": "ha-long-cat-ba-F24",
+              "text": "A presença do mar distingue o conjunto de carstes interiores.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ha-long-cat-ba-geografo-P25",
+              "factKey": "ha-long-cat-ba-F25",
+              "text": "A identificação articula carste inundado, posição nacional e arquipélago.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "HAL1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Paisagem vietnamita de ilhas calcárias e carste inundado pelo mar, incluindo o arquipélago de Cat Ba.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-sagarmatha",
+      "placeId": "sagarmatha",
+      "title": "Parque Nacional de Sagarmatha",
+      "aliases": [
+        "Sagarmatha"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "NP"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Sagarmatha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Langtang"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Chitwan"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Makalu Barun"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Jigme Dorji"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Khangchendzonga"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Yosemite"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Banff"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Fiordland"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Monte Quênia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Kilimanjaro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Huascarán"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Sagarmatha",
+          "sources": [
+            "SAG1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Característica física",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Montanhas, geleiras e vales profundos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ilhas de calcário em mar tropical"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dunas costeiras com lagoas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Pântanos de mangue e recifes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Montanhas, geleiras e vales profundos",
+          "sources": [
+            "SAG1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Pico de referência",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Everest"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Kilimanjaro"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Aconcágua"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Denali"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Everest",
+          "sources": [
+            "SAG1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nepal"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Índia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Butão"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Paquistão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nepal",
+          "sources": [
+            "SAG1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "sagarmatha-viajante-P01",
+              "factKey": "sagarmatha-F01",
+              "text": "O destino protege montanhas muito elevadas na Ásia.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P02",
+              "factKey": "sagarmatha-F02",
+              "text": "Geleiras fazem parte da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P03",
+              "factKey": "sagarmatha-F03",
+              "text": "Vales profundos aparecem entre os maciços.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P04",
+              "factKey": "sagarmatha-F04",
+              "text": "O parque inclui o pico mais alto da Terra.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P05",
+              "factKey": "sagarmatha-F05",
+              "text": "O pico tem um nome local usado também pelo parque.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P06",
+              "factKey": "sagarmatha-F06",
+              "text": "O pico é conhecido internacionalmente como Everest.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P07",
+              "factKey": "sagarmatha-F07",
+              "text": "A UNESCO cita cerca de 8.848 metros para o cume.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P08",
+              "factKey": "sagarmatha-F08",
+              "text": "A diferença de altitude dentro do parque é muito grande.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P09",
+              "factKey": "sagarmatha-F09",
+              "text": "O destino fica no Nepal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P10",
+              "factKey": "sagarmatha-F10",
+              "text": "O parque está no distrito de Solu-Khumbu.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P11",
+              "factKey": "sagarmatha-F11",
+              "text": "A cultura sherpa está ligada ao lugar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P12",
+              "factKey": "sagarmatha-F12",
+              "text": "O leopardo-das-neves é uma espécie registrada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P13",
+              "factKey": "sagarmatha-F13",
+              "text": "O panda-vermelho também é citado entre os animais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P14",
+              "factKey": "sagarmatha-F14",
+              "text": "O parque é reconhecido pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P15",
+              "factKey": "sagarmatha-F15",
+              "text": "A área protegida é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P16",
+              "factKey": "sagarmatha-F16",
+              "text": "A paisagem não é dominada por ilhas calcárias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P17",
+              "factKey": "sagarmatha-F17",
+              "text": "A água congelada molda vales e montanhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P18",
+              "factKey": "sagarmatha-F18",
+              "text": "O nome do parque coincide com uma denominação do pico mais alto.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P19",
+              "factKey": "sagarmatha-F19",
+              "text": "A área protegida cobre ambientes de altitudes diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P20",
+              "factKey": "sagarmatha-F20",
+              "text": "O relevo integra uma grande cordilheira asiática.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P21",
+              "factKey": "sagarmatha-F21",
+              "text": "O ambiente de montanha combina gelo, rocha e vales.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P22",
+              "factKey": "sagarmatha-F22",
+              "text": "A montanha principal está em uma área internacional de alta altitude.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P23",
+              "factKey": "sagarmatha-F23",
+              "text": "As comunidades locais fazem parte da história e do significado do lugar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P24",
+              "factKey": "sagarmatha-F24",
+              "text": "O parque não é a mesma coisa que apenas uma montanha.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-viajante-P25",
+              "factKey": "sagarmatha-F25",
+              "text": "Para identificar, combine Nepal, cultura sherpa e o pico mais alto do mundo.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "sagarmatha-geografo-P01",
+              "factKey": "sagarmatha-F01",
+              "text": "A unidade nacional nepalesa integra a cordilheira do Himalaia.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P02",
+              "factKey": "sagarmatha-F02",
+              "text": "O parque conserva ambientes glaciais de alta montanha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P03",
+              "factKey": "sagarmatha-F03",
+              "text": "A topografia combina altos relevos e vales encaixados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P04",
+              "factKey": "sagarmatha-F04",
+              "text": "O Monte Everest domina o conjunto montanhoso.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P05",
+              "factKey": "sagarmatha-F05",
+              "text": "O topônimo nepalês do cume também denomina a unidade protegida.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P06",
+              "factKey": "sagarmatha-F06",
+              "text": "O Everest é o ponto culminante associado à unidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P07",
+              "factKey": "sagarmatha-F07",
+              "text": "A descrição patrimonial situa o cume a aproximadamente 8.848 metros.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P08",
+              "factKey": "sagarmatha-F08",
+              "text": "O gradiente altitudinal atinge cerca de seis mil metros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P09",
+              "factKey": "sagarmatha-F09",
+              "text": "A localização nacional é o Nepal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P10",
+              "factKey": "sagarmatha-F10",
+              "text": "O sítio se situa na região administrativa nepalesa de Solu-Khumbu.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P11",
+              "factKey": "sagarmatha-F11",
+              "text": "Comunidades sherpas integram o contexto cultural do parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P12",
+              "factKey": "sagarmatha-F12",
+              "text": "A fauna inclui o leopardo-das-neves.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P13",
+              "factKey": "sagarmatha-F13",
+              "text": "A fauna destacada inclui o panda-vermelho.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P14",
+              "factKey": "sagarmatha-F14",
+              "text": "A unidade integra a Lista do Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P15",
+              "factKey": "sagarmatha-F15",
+              "text": "A categoria de proteção é parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P16",
+              "factKey": "sagarmatha-F16",
+              "text": "Seu ambiente de alta montanha contrasta com paisagens marítimas cársticas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P17",
+              "factKey": "sagarmatha-F17",
+              "text": "A ação glacial participa dos processos de modelagem do relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P18",
+              "factKey": "sagarmatha-F18",
+              "text": "A toponímia da unidade está relacionada ao nome nepalês de sua montanha principal.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P19",
+              "factKey": "sagarmatha-F19",
+              "text": "O gradiente topográfico produz condições ambientais variadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P20",
+              "factKey": "sagarmatha-F20",
+              "text": "A cordilheira do Himalaia determina o contexto regional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P21",
+              "factKey": "sagarmatha-F21",
+              "text": "O mosaico geomorfológico integra geleiras, escarpas e vales.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P22",
+              "factKey": "sagarmatha-F22",
+              "text": "A região do cume se relaciona à fronteira entre Nepal e China.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P23",
+              "factKey": "sagarmatha-F23",
+              "text": "O patrimônio associa valores naturais e presença cultural sherpa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P24",
+              "factKey": "sagarmatha-F24",
+              "text": "A unidade protegida abrange um conjunto de montanhas, geleiras e vales.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sagarmatha-geografo-P25",
+              "factKey": "sagarmatha-F25",
+              "text": "A identificação articula posição nacional, presença humana e altitude extrema.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "SAG1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque no Nepal com geleiras, vales e o Everest, associado às comunidades sherpas.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

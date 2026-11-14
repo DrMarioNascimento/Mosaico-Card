@@ -4549,3 +4549,77 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | O arenito pode ser desgastado por processos erosivos. | A erosão atua na modelagem das formas rochosas expostas. | VV1 |
 | 24 | O patrimônio protegido reúne várias formas, não apenas uma pedra. | A conservação envolve o conjunto dos afloramentos e outros elementos. | VV1 |
 | 25 | Para identificar, combine arenitos com formatos, furnas e Paraná. | A identificação articula geologia, cavidades e localização estadual. | VV1 |
+
+## Baía de Ha Long e Arquipélago de Cat Ba
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Paisagem costeira | Baía de Ha Long e Arquipélago de Cat Ba | Baía de Ha Long e Arquipélago de Cat Ba; Baía de Phang Nga; Arquipélago de Raja Ampat; Baía de Kotor; Baía da Ilha Grande; Baía de Fundy; Baía de Guanabara; Fiorde Milford Sound; Baía de San Francisco; Arquipélago de Galápagos; Grande Barreira de Corais; Costa de Ningaloo |
+| Rocha predominante | Calcário | Calcário; Granito; Basalto; Arenito |
+| Primata endêmico associado | Langur-de-cat-ba | Langur-de-cat-ba; Orangotango-de-bornéu; Lêmure-de-cauda-anelada; Mico-leão-dourado |
+| País | Vietnã | Vietnã; Tailândia; Indonésia; Filipinas |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino reúne ilhas e ilhotas em uma paisagem marítima. | O bem protegido combina baía e arquipélago em ambiente costeiro. | HAL1 |
+| 2 | Muitas ilhas têm paredes rochosas íngremes. | Torres de calcário emergem do mar em diferentes formatos. | HAL1 |
+| 3 | O calcário é a rocha que caracteriza essas formações. | O relevo dominante é desenvolvido em rocha calcária. | HAL1 |
+| 4 | A água do mar ocupa antigas áreas de relevo cárstico. | A inundação marinha transformou uma paisagem cárstica em arquipélago. | HAL1 |
+| 5 | Algumas elevações aparecem isoladas como torres. | Formas cársticas isoladas chamadas fenglin marcam o cenário. | HAL1 |
+| 6 | Outras elevações formam grupos de cones. | O relevo também inclui agrupamentos de picos cônicos, chamados fengcong. | HAL1 |
+| 7 | Cavernas se formaram no calcário. | O patrimônio inclui cavernas associadas à evolução cárstica. | HAL1 |
+| 8 | A erosão marinha formou entalhes nas rochas. | O contato com o mar produziu entalhes costeiros no calcário. | HAL1 |
+| 9 | Algumas ilhas têm vegetação nas encostas. | A paisagem inclui ilhas calcárias cobertas por vegetação. | HAL1 |
+| 10 | Há lagoas associadas às ilhas. | Lagos marinhos em depressões inundadas integram o relevo. | HAL1 |
+| 11 | Algumas lagoas sofrem influência das marés. | Parte dos lagos apresenta variação relacionada à maré. | HAL1 |
+| 12 | Uma das ilhas maiores abriga florestas em relevo íngreme. | O interior da maior ilha regional tem picos florestados e rochosos. | HAL1 |
+| 13 | O destino fica no Vietnã. | A posição nacional é o Vietnã, no Sudeste Asiático. | HAL1 |
+| 14 | A área fica no nordeste desse país. | O bem se situa no nordeste vietnamita. | HAL1 |
+| 15 | O arquipélago protegido inclui a área de Cat Ba. | Cat Ba integra o conjunto reconhecido em associação com a baía. | HAL1 |
+| 16 | O arquipélago foi acrescentado ao patrimônio em 2023. | A ampliação dos limites do bem incorporou o arquipélago em 2023. | HAL1 |
+| 17 | O lugar abriga um primata ameaçado conhecido como langur-de-cat-ba. | O langur-de-cat-ba é uma espécie endêmica e ameaçada da área. | HAL1 |
+| 18 | Uma lontra asiática também está entre os animais citados. | A fauna ameaçada inclui a lontra-asiática-de-garras-pequenas. | HAL1 |
+| 19 | A UNESCO reconhece a paisagem por valores naturais. | O bem tem reconhecimento por seus atributos cênicos e geológicos. | HAL1 |
+| 20 | O conjunto inclui mais de mil ilhas e ilhotas nos limites descritos pela UNESCO. | O bem compreende 1.133 ilhas e ilhotas segundo a descrição patrimonial. | HAL1 |
+| 21 | As formas têm tamanhos diferentes. | A paisagem apresenta torres e ilhas de diferentes dimensões. | HAL1 |
+| 22 | A visitação precisa considerar a conservação ambiental. | A gestão busca reduzir impactos do turismo sobre os ecossistemas. | HAL1 |
+| 23 | A navegação faz parte dos usos humanos da baía. | O tráfego marítimo é uma atividade considerada na gestão do bem. | HAL1 |
+| 24 | O ambiente é costeiro, não uma cadeia montanhosa interiorana. | A presença do mar distingue o conjunto de carstes interiores. | HAL1 |
+| 25 | Para identificar, combine ilhas calcárias, Vietnã e arquipélago de Cat Ba. | A identificação articula carste inundado, posição nacional e arquipélago. | HAL1 |
+
+## Parque Nacional de Sagarmatha
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional de Sagarmatha | Parque Nacional de Sagarmatha; Parque Nacional de Langtang; Parque Nacional de Chitwan; Parque Nacional de Makalu Barun; Parque Nacional de Jigme Dorji; Parque Nacional de Khangchendzonga; Parque Nacional de Yosemite; Parque Nacional de Banff; Parque Nacional de Fiordland; Parque Nacional do Monte Quênia; Parque Nacional de Kilimanjaro; Parque Nacional Huascarán |
+| Característica física | Montanhas, geleiras e vales profundos | Montanhas, geleiras e vales profundos; Ilhas de calcário em mar tropical; Dunas costeiras com lagoas; Pântanos de mangue e recifes |
+| Pico de referência | Everest | Everest; Kilimanjaro; Aconcágua; Denali |
+| País | Nepal | Nepal; Índia; Butão; Paquistão |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino protege montanhas muito elevadas na Ásia. | A unidade nacional nepalesa integra a cordilheira do Himalaia. | SAG1 |
+| 2 | Geleiras fazem parte da paisagem. | O parque conserva ambientes glaciais de alta montanha. | SAG1 |
+| 3 | Vales profundos aparecem entre os maciços. | A topografia combina altos relevos e vales encaixados. | SAG1 |
+| 4 | O parque inclui o pico mais alto da Terra. | O Monte Everest domina o conjunto montanhoso. | SAG1 |
+| 5 | O pico tem um nome local usado também pelo parque. | O topônimo nepalês do cume também denomina a unidade protegida. | SAG1 |
+| 6 | O pico é conhecido internacionalmente como Everest. | O Everest é o ponto culminante associado à unidade. | SAG1 |
+| 7 | A UNESCO cita cerca de 8.848 metros para o cume. | A descrição patrimonial situa o cume a aproximadamente 8.848 metros. | SAG1 |
+| 8 | A diferença de altitude dentro do parque é muito grande. | O gradiente altitudinal atinge cerca de seis mil metros. | SAG1 |
+| 9 | O destino fica no Nepal. | A localização nacional é o Nepal. | SAG1 |
+| 10 | O parque está no distrito de Solu-Khumbu. | O sítio se situa na região administrativa nepalesa de Solu-Khumbu. | SAG1 |
+| 11 | A cultura sherpa está ligada ao lugar. | Comunidades sherpas integram o contexto cultural do parque. | SAG1 |
+| 12 | O leopardo-das-neves é uma espécie registrada. | A fauna inclui o leopardo-das-neves. | SAG1 |
+| 13 | O panda-vermelho também é citado entre os animais. | A fauna destacada inclui o panda-vermelho. | SAG1 |
+| 14 | O parque é reconhecido pela UNESCO. | A unidade integra a Lista do Patrimônio Mundial. | SAG1 |
+| 15 | A área protegida é um parque nacional. | A categoria de proteção é parque nacional. | SAG1 |
+| 16 | A paisagem não é dominada por ilhas calcárias. | Seu ambiente de alta montanha contrasta com paisagens marítimas cársticas. | SAG1 |
+| 17 | A água congelada molda vales e montanhas. | A ação glacial participa dos processos de modelagem do relevo. | SAG1 |
+| 18 | O nome do parque coincide com uma denominação do pico mais alto. | A toponímia da unidade está relacionada ao nome nepalês de sua montanha principal. | SAG1 |
+| 19 | A área protegida cobre ambientes de altitudes diferentes. | O gradiente topográfico produz condições ambientais variadas. | SAG1 |
+| 20 | O relevo integra uma grande cordilheira asiática. | A cordilheira do Himalaia determina o contexto regional. | SAG1 |
+| 21 | O ambiente de montanha combina gelo, rocha e vales. | O mosaico geomorfológico integra geleiras, escarpas e vales. | SAG1 |
+| 22 | A montanha principal está em uma área internacional de alta altitude. | A região do cume se relaciona à fronteira entre Nepal e China. | SAG1 |
+| 23 | As comunidades locais fazem parte da história e do significado do lugar. | O patrimônio associa valores naturais e presença cultural sherpa. | SAG1 |
+| 24 | O parque não é a mesma coisa que apenas uma montanha. | A unidade protegida abrange um conjunto de montanhas, geleiras e vales. | SAG1 |
+| 25 | Para identificar, combine Nepal, cultura sherpa e o pico mais alto do mundo. | A identificação articula posição nacional, presença humana e altitude extrema. | SAG1 |
