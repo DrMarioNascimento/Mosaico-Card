@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-38-2026-11-14",
+  "catalogVersion": "lote-39-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "91 destinos jogáveis em dois perfis",
-  "status": "91 destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "96 destinos jogáveis em dois perfis",
+  "status": "96 destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1089,6 +1089,153 @@
       "title": "Informações sobre visitação no Parque Nacional Marinho dos Abrolhos",
       "publisher": "ICMBio",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/guia-do-visitante/informacoes-sobre-visitacao",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PIRI_IBGE": {
+      "id": "CENTRO_PIRI_IBGE",
+      "title": "Pirenópolis: história e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/biblioteca/visualizacao/periodicos/112/col_mono_ns_n207_pirenopolis.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PIRI_IPHAN": {
+      "id": "CENTRO_PIRI_IPHAN",
+      "title": "Conjunto arquitetônico de Pirenópolis",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/conjunto-arquitetonico-de-pirenopolis-completa-33-anos-de-tombamento",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PIRI_FESTA": {
+      "id": "CENTRO_PIRI_FESTA",
+      "title": "Festa do Divino e Cavalhadas",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/festa-do-divino-e-cavalhadas-movimentam-a-cidade-pirenopolis-go",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_GYN_IPHAN": {
+      "id": "CENTRO_GYN_IPHAN",
+      "title": "Acervo Arquitetônico e Urbanístico Art Déco",
+      "publisher": "Iphan",
+      "url": "https://sicg.iphan.gov.br/sicg/bem/visualizar/3218",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_GYN_MUN": {
+      "id": "CENTRO_GYN_MUN",
+      "title": "Roteiros turísticos da capital",
+      "publisher": "Agência Municipal de Turismo e Eventos de Goiânia",
+      "url": "https://www.goiania.go.gov.br/goianiatur/turismo/roteiros-turisticos/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_GYN_ESC": {
+      "id": "CENTRO_GYN_ESC",
+      "title": "Patrimônio de Goiânia",
+      "publisher": "Secretaria Municipal de Educação de Goiânia",
+      "url": "https://sme.goiania.go.gov.br/conexaoescola/ensino_fundamental/historia-patrimonio-de-goiania/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_SECTUR": {
+      "id": "CENTRO_BTO_SECTUR",
+      "title": "Cidade de Bonito",
+      "publisher": "Secretaria Municipal de Turismo de Bonito",
+      "url": "https://www.turismo.bonito.ms.gov.br/bonito-ms",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_VISITA": {
+      "id": "CENTRO_BTO_VISITA",
+      "title": "Planejamento de visita a Bonito",
+      "publisher": "Secretaria Municipal de Turismo de Bonito",
+      "url": "https://www.turismo.bonito.ms.gov.br/noticias/bonito-quando-ir-o-que-fazer-dez-coisas-essenciais-para-planejar-sua-visita",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_IBGE": {
+      "id": "CENTRO_BTO_IBGE",
+      "title": "Bonito (MS): população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ms/bonito.html",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_SNORKEL": {
+      "id": "CENTRO_BTO_SNORKEL",
+      "title": "Aquário Natural: flutuação",
+      "publisher": "Secretaria de Turismo de Bonito",
+      "url": "https://www.turismo.bonito.ms.gov.br/aquario-natural-em-bonito-ms",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_MUN": {
+      "id": "CENTRO_COR_MUN",
+      "title": "Destino turístico",
+      "publisher": "Município de Corumbá",
+      "url": "https://corumba.ms.gov.br/paginas/ver/destino",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_IPHAN": {
+      "id": "CENTRO_COR_IPHAN",
+      "title": "Patrimônio material de Mato Grosso do Sul",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso-do-sul/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_FESTA": {
+      "id": "CENTRO_COR_FESTA",
+      "title": "Festeiros do Banho de São João",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/festeiros-do-banho-de-sao-joao-recebem-reconhecimento-como-detentores-da-manifestacao",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_FUND": {
+      "id": "CENTRO_COR_FUND",
+      "title": "Corumbá: história e belezas naturais",
+      "publisher": "Fundação de Turismo de Mato Grosso do Sul",
+      "url": "https://www.turismo.ms.gov.br/corumba-contempla-historia-tradicao-e-belezas-naturais/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_MUN": {
+      "id": "CENTRO_CG_MUN",
+      "title": "História da Morada dos Baís",
+      "publisher": "Prefeitura Municipal de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/livro-que-conta-trajetoria-da-morada-dos-bais-sera-lancado-neste-sabado/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_IPHAN": {
+      "id": "CENTRO_CG_IPHAN",
+      "title": "Patrimônio material de Mato Grosso do Sul",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso-do-sul/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_TREM": {
+      "id": "CENTRO_CG_TREM",
+      "title": "Memória ferroviária da capital",
+      "publisher": "Prefeitura Municipal de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/cartilha-resgata-memoria-ferroviaria-de-campo-grande/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_PLANO": {
+      "id": "CENTRO_CG_PLANO",
+      "title": "Plano municipal de cultura: patrimônio ferroviário",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://cdn.campogrande.ms.gov.br/portal/prod/uploads/sites/18/2016/12/Lei-n.5.135.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_PLANO_URB": {
+      "id": "CENTRO_CG_PLANO_URB",
+      "title": "Plano de preservação e referências culturais urbanas",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://cdn.campogrande.ms.gov.br/portal/prod/uploads/2022/11/propostafinaleaudinciapblica-prefcg-1669147039.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_TUR": {
+      "id": "CENTRO_CG_TUR",
+      "title": "Roteiro histórico da cidade",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/conheca-campo-grande-em-um-dia/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_IBGE": {
+      "id": "CENTRO_COR_IBGE",
+      "title": "Corumbá (MS): população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ms/corumba.html",
       "checkedAt": "2026-11-14"
     }
   },
@@ -95844,6 +95991,5438 @@
         "canonicalSummary": "Parque marinho no sul da Bahia que protege recifes, ilhas e áreas de reprodução da baleia-jubarte.",
         "editorialNotes": [
           "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-pirenopolis-go",
+      "placeId": "pirenopolis-go",
+      "title": "Pirenópolis",
+      "aliases": [],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Pirenópolis"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cidade de Goiás"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Tiradentes"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Mariana"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Cristóvão"
+            },
+            {
+              "id": "C1-O10",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Penedo"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Congonhas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Pirenópolis",
+          "sources": [
+            "CENTRO_PIRI_IBGE",
+            "CENTRO_PIRI_IPHAN",
+            "CENTRO_PIRI_FESTA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Nome histórico de cidade brasileira",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Meia Ponte"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Vila Rica"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Arraial do Tijuco"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Vila do Carmo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Meia Ponte",
+          "sources": [
+            "CENTRO_PIRI_IBGE",
+            "CENTRO_PIRI_IPHAN",
+            "CENTRO_PIRI_FESTA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio que atravessa a cidade",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Rio das Almas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rio Vermelho"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rio Doce"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rio Jequitinhonha"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Rio das Almas",
+          "sources": [
+            "CENTRO_PIRI_IBGE",
+            "CENTRO_PIRI_IPHAN",
+            "CENTRO_PIRI_FESTA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Celebração tradicional",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Festa do Divino e Cavalhadas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Círio de Nazaré"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Bumba Meu Boi do Maranhão"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Festa da Uva"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Festa do Divino e Cavalhadas",
+          "sources": [
+            "CENTRO_PIRI_IBGE",
+            "CENTRO_PIRI_IPHAN",
+            "CENTRO_PIRI_FESTA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "pirenopolis-go-viajante-P01",
+              "factKey": "pirenopolis-go-F01",
+              "text": "É uma cidade do interior brasileiro com construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P02",
+              "factKey": "pirenopolis-go-F02",
+              "text": "Seu conjunto histórico conserva ruas, casarões e igrejas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P03",
+              "factKey": "pirenopolis-go-F03",
+              "text": "Fica no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P04",
+              "factKey": "pirenopolis-go-F04",
+              "text": "Sua formação está ligada ao ciclo do ouro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P05",
+              "factKey": "pirenopolis-go-F05",
+              "text": "O núcleo surgiu na primeira metade do século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P06",
+              "factKey": "pirenopolis-go-F06",
+              "text": "Já foi conhecida pelo nome de Meia Ponte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P07",
+              "factKey": "pirenopolis-go-F07",
+              "text": "Um rio chamado das Almas atravessa a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P08",
+              "factKey": "pirenopolis-go-F08",
+              "text": "Seu nome atual remete à proximidade da serra dos Pireneus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P09",
+              "factKey": "pirenopolis-go-F09",
+              "text": "Uma ponte sobre o rio integra o conjunto protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P10",
+              "factKey": "pirenopolis-go-F10",
+              "text": "A Igreja Matriz é dedicada a Nossa Senhora do Rosário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P11",
+              "factKey": "pirenopolis-go-F11",
+              "text": "Há uma igreja dedicada a Nosso Senhor do Bonfim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P12",
+              "factKey": "pirenopolis-go-F12",
+              "text": "Uma igreja abriga o Museu de Arte Sacra do Carmo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P13",
+              "factKey": "pirenopolis-go-F13",
+              "text": "A cidade tem um teatro chamado Sebastião Pompeu de Pina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P14",
+              "factKey": "pirenopolis-go-F14",
+              "text": "O Cine Teatro Pireneus integra o conjunto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P15",
+              "factKey": "pirenopolis-go-F15",
+              "text": "Seu patrimônio inclui a Fazenda da Babilônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P16",
+              "factKey": "pirenopolis-go-F16",
+              "text": "O Iphan tombou o conjunto urbano em 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P17",
+              "factKey": "pirenopolis-go-F17",
+              "text": "A Igreja Matriz já tinha proteção federal desde 1941.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P18",
+              "factKey": "pirenopolis-go-F18",
+              "text": "A Igreja Matriz sofreu um incêndio em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P19",
+              "factKey": "pirenopolis-go-F19",
+              "text": "Há morros com vegetação no entorno da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P20",
+              "factKey": "pirenopolis-go-F20",
+              "text": "A Festa do Divino é uma celebração tradicional local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P21",
+              "factKey": "pirenopolis-go-F21",
+              "text": "Nessa festa há desfiles de mascarados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P22",
+              "factKey": "pirenopolis-go-F22",
+              "text": "A Festa do Divino também inclui procissões e folias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P23",
+              "factKey": "pirenopolis-go-F23",
+              "text": "As Cavalhadas representam mouros e cristãos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P24",
+              "factKey": "pirenopolis-go-F24",
+              "text": "Um imperador do Divino participa da organização da festa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-viajante-P25",
+              "factKey": "pirenopolis-go-F25",
+              "text": "O Iphan registrou a festa como patrimônio cultural imaterial em 2010.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "pirenopolis-go-geografo-P01",
+              "factKey": "pirenopolis-go-F01",
+              "text": "O destino é um núcleo urbano histórico do Brasil central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P02",
+              "factKey": "pirenopolis-go-F02",
+              "text": "Seu conjunto protegido articula edificações, vias e paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P03",
+              "factKey": "pirenopolis-go-F03",
+              "text": "Situa-se no interior do estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P04",
+              "factKey": "pirenopolis-go-F04",
+              "text": "A mineração de ouro atraiu expedições paulistas e estimulou a formação do núcleo colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P05",
+              "factKey": "pirenopolis-go-F05",
+              "text": "O povoamento remonta ao primeiro terço do século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P06",
+              "factKey": "pirenopolis-go-F06",
+              "text": "A trajetória urbana passou de arraial e vila à categoria de cidade em 1853.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P07",
+              "factKey": "pirenopolis-go-F07",
+              "text": "O traçado urbano é atravessado pelo Rio das Almas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P08",
+              "factKey": "pirenopolis-go-F08",
+              "text": "A mudança de nome em 1890 vinculou a identidade urbana à serra dos Pireneus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P09",
+              "factKey": "pirenopolis-go-F09",
+              "text": "A ponte sobre o curso de água integra o patrimônio local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P10",
+              "factKey": "pirenopolis-go-F10",
+              "text": "A igreja matriz dedicada ao Rosário é referência no tecido urbano histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P11",
+              "factKey": "pirenopolis-go-F11",
+              "text": "A Igreja do Bonfim é um dos bens presentes no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P12",
+              "factKey": "pirenopolis-go-F12",
+              "text": "A Igreja do Carmo abriga uma coleção de arte sacra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P13",
+              "factKey": "pirenopolis-go-F13",
+              "text": "A arquitetura cultural inclui o Theatro Sebastião Pompeu de Pina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P14",
+              "factKey": "pirenopolis-go-F14",
+              "text": "O núcleo minerador reunia vias, igrejas e casas de arquitetura simples.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P15",
+              "factKey": "pirenopolis-go-F15",
+              "text": "A Fazenda da Babilônia figura entre os bens do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P16",
+              "factKey": "pirenopolis-go-F16",
+              "text": "O tombamento federal do conjunto ocorreu em 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P17",
+              "factKey": "pirenopolis-go-F17",
+              "text": "A matriz recebeu tombamento federal individual em 1941.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P18",
+              "factKey": "pirenopolis-go-F18",
+              "text": "Um incêndio em 2002 danificou a matriz, posteriormente restaurada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P19",
+              "factKey": "pirenopolis-go-F19",
+              "text": "A proteção do conjunto inclui tanto a paisagem natural quanto a edificação histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P20",
+              "factKey": "pirenopolis-go-F20",
+              "text": "A Festa do Divino articula práticas religiosas e cultura popular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P21",
+              "factKey": "pirenopolis-go-F21",
+              "text": "Mascarados percorrem a cidade durante a celebração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P22",
+              "factKey": "pirenopolis-go-F22",
+              "text": "Folias, procissões e música articulam religião e participação comunitária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P23",
+              "factKey": "pirenopolis-go-F23",
+              "text": "Nas Cavalhadas, dois grupos representam mouros e cristãos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P24",
+              "factKey": "pirenopolis-go-F24",
+              "text": "A figura do imperador do Divino exerce funções na organização do rito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pirenopolis-go-geografo-P25",
+              "factKey": "pirenopolis-go-F25",
+              "text": "O registro da festa em 2010 reconhece práticas culturais transmitidas entre gerações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIRI_IBGE",
+                "CENTRO_PIRI_IPHAN",
+                "CENTRO_PIRI_FESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Pirenópolis é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas. Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-goiania-go",
+      "placeId": "goiania-go",
+      "title": "Goiânia",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Porto Velho"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Goiânia",
+          "sources": [
+            "CENTRO_GYN_IPHAN",
+            "CENTRO_GYN_MUN",
+            "CENTRO_GYN_ESC"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estilo associado ao acervo urbano tombado pelo Iphan",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Art déco"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Neocolonial"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Neoclássico"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Modernismo brutalista"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Art déco",
+          "sources": [
+            "CENTRO_GYN_IPHAN",
+            "CENTRO_GYN_MUN",
+            "CENTRO_GYN_ESC"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Praça ligada ao centro cívico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Praça Cívica"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Praça dos Três Poderes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Praça da Liberdade"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Praça da Sé"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Praça Cívica",
+          "sources": [
+            "CENTRO_GYN_IPHAN",
+            "CENTRO_GYN_MUN",
+            "CENTRO_GYN_ESC"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como se organiza o núcleo central planejado?",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Vias radiais convergentes"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Malha regular quadriculada"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Anéis concêntricos sem eixos radiais"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Eixos lineares paralelos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Vias radiais convergentes",
+          "sources": [
+            "CENTRO_GYN_MUN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "goiania-go-viajante-P01",
+              "factKey": "goiania-go-F01",
+              "text": "Esta cidade é uma capital brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P02",
+              "factKey": "goiania-go-F02",
+              "text": "Fica na região Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P03",
+              "factKey": "goiania-go-F03",
+              "text": "Foi planejada para ser sede de um governo estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P04",
+              "factKey": "goiania-go-F04",
+              "text": "É a capital do estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P05",
+              "factKey": "goiania-go-F05",
+              "text": "Sua construção começou na década de 1930.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P06",
+              "factKey": "goiania-go-F06",
+              "text": "Uma praça cívica marcou o início da construção urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P07",
+              "factKey": "goiania-go-F07",
+              "text": "A praça concentra prédios públicos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P08",
+              "factKey": "goiania-go-F08",
+              "text": "O Palácio das Esmeraldas fica nessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P09",
+              "factKey": "goiania-go-F09",
+              "text": "Um coreto integra o conjunto da praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P10",
+              "factKey": "goiania-go-F10",
+              "text": "A Torre do Relógio é um marco do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P11",
+              "factKey": "goiania-go-F11",
+              "text": "Há um conjunto de edifícios no estilo art déco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P12",
+              "factKey": "goiania-go-F12",
+              "text": "O patrimônio inclui o Teatro da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P13",
+              "factKey": "goiania-go-F13",
+              "text": "A antiga estação ferroviária integra o conjunto protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P14",
+              "factKey": "goiania-go-F14",
+              "text": "O antigo Grande Hotel faz parte do acervo histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P15",
+              "factKey": "goiania-go-F15",
+              "text": "O conjunto protegido inclui um antigo prédio de polícia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P16",
+              "factKey": "goiania-go-F16",
+              "text": "O antigo núcleo de Campinas integra o patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P17",
+              "factKey": "goiania-go-F17",
+              "text": "Campinas é hoje um bairro da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P18",
+              "factKey": "goiania-go-F18",
+              "text": "A Avenida Goiás é uma das vias importantes do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P19",
+              "factKey": "goiania-go-F19",
+              "text": "As avenidas Araguaia e Tocantins também fazem parte do traçado histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P20",
+              "factKey": "goiania-go-F20",
+              "text": "O Lago das Rosas tem elementos protegidos pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P21",
+              "factKey": "goiania-go-F21",
+              "text": "O patrimônio inclui um antigo trampolim no Lago das Rosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P22",
+              "factKey": "goiania-go-F22",
+              "text": "O traçado das ruas do centro também é protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P23",
+              "factKey": "goiania-go-F23",
+              "text": "O tombamento federal do conjunto urbano foi homologado em 2003.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P24",
+              "factKey": "goiania-go-F24",
+              "text": "A antiga residência de Pedro Ludovico faz parte do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-viajante-P25",
+              "factKey": "goiania-go-F25",
+              "text": "Attílio Corrêa Lima participou do projeto da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "goiania-go-geografo-P01",
+              "factKey": "goiania-go-F01",
+              "text": "O destino é uma capital estadual planejada no interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P02",
+              "factKey": "goiania-go-F02",
+              "text": "Sua posição regional integra o Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P03",
+              "factKey": "goiania-go-F03",
+              "text": "Planejar uma capital estadual exigiu articular edifícios institucionais a um novo sistema viário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P04",
+              "factKey": "goiania-go-F04",
+              "text": "É sede do governo de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P05",
+              "factKey": "goiania-go-F05",
+              "text": "A implantação urbana teve início na década de 1930.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P06",
+              "factKey": "goiania-go-F06",
+              "text": "A praça cívica funciona como ponto de convergência do traçado radial planejado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P07",
+              "factKey": "goiania-go-F07",
+              "text": "O centro cívico reúne instituições públicas em seu entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P08",
+              "factKey": "goiania-go-F08",
+              "text": "O Palácio das Esmeraldas compõe esse conjunto institucional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P09",
+              "factKey": "goiania-go-F09",
+              "text": "Um coreto integra os elementos preservados do espaço cívico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P10",
+              "factKey": "goiania-go-F10",
+              "text": "A presença de uma torre em avenida central associa o patrimônio arquitetônico à circulação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P11",
+              "factKey": "goiania-go-F11",
+              "text": "A adoção do art déco nos primeiros edifícios contribuiu para a identidade visual do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P12",
+              "factKey": "goiania-go-F12",
+              "text": "O teatro local consta do acervo reconhecido pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P13",
+              "factKey": "goiania-go-F13",
+              "text": "A antiga estação ferroviária integra o conjunto tombado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P14",
+              "factKey": "goiania-go-F14",
+              "text": "O Grande Hotel figura na lista dos bens arquitetônicos protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P15",
+              "factKey": "goiania-go-F15",
+              "text": "O aproveitamento de antigos prédios institucionais depende de políticas de conservação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P16",
+              "factKey": "goiania-go-F16",
+              "text": "O tombamento inclui o núcleo pioneiro de Campinas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P17",
+              "factKey": "goiania-go-F17",
+              "text": "Campinas antecedeu a capital e hoje integra seu tecido urbano como bairro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P18",
+              "factKey": "goiania-go-F18",
+              "text": "A Avenida Goiás é um eixo do núcleo pioneiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P19",
+              "factKey": "goiania-go-F19",
+              "text": "As avenidas Araguaia e Tocantins integram o sistema viário original.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P20",
+              "factKey": "goiania-go-F20",
+              "text": "No Lago das Rosas há elementos reconhecidos como patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P21",
+              "factKey": "goiania-go-F21",
+              "text": "Os bens tombados abrangem elementos de lazer, como o trampolim e as muretas de um lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P22",
+              "factKey": "goiania-go-F22",
+              "text": "O patrimônio abrange o traçado viário dos núcleos pioneiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P23",
+              "factKey": "goiania-go-F23",
+              "text": "O tombamento federal do conjunto urbano foi homologado em 2003.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P24",
+              "factKey": "goiania-go-F24",
+              "text": "A residência de Pedro Ludovico está entre os bens listados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "goiania-go-geografo-P25",
+              "factKey": "goiania-go-F25",
+              "text": "O arquiteto e urbanista Attílio Corrêa Lima elaborou o plano urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_GYN_IPHAN",
+                "CENTRO_GYN_MUN",
+                "CENTRO_GYN_ESC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Goiânia é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas. Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-bonito-ms",
+      "placeId": "bonito-ms",
+      "title": "Bonito",
+      "aliases": [],
+      "answerType": "cidade brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Bonito"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Jardim"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Bodoquena"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Brotas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Socorro"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cavalcante"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Alto Paraíso de Goiás"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Barreirinhas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Conceição da Barra"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Urubici"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Lençóis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Bonito",
+          "sources": [
+            "CENTRO_BTO_SECTUR",
+            "CENTRO_BTO_VISITA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como o sistema municipal organiza as reservas?",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Voucher único com controle de vagas por atrativo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Passaporte anual sem reserva por data"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Ingresso único com acesso ilimitado aos atrativos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Inscrição mensal por sorteio de visitantes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Voucher único com controle de vagas por atrativo",
+          "sources": [
+            "CENTRO_BTO_SECTUR",
+            "CENTRO_BTO_VISITA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que atividade permite observar peixes na superfície com máscara e snorkel?",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Flutuação"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mergulho autônomo com cilindro"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Passeio em bote inflável"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rapel em paredão"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Flutuação",
+          "sources": [
+            "CENTRO_BTO_SNORKEL"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Tocantins"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso do Sul",
+          "sources": [
+            "CENTRO_BTO_SECTUR",
+            "CENTRO_BTO_VISITA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "bonito-ms-viajante-P01",
+              "factKey": "bonito-ms-F01",
+              "text": "Este destino é uma cidade do interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P02",
+              "factKey": "bonito-ms-F02",
+              "text": "A natureza é uma das principais atrações para visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P03",
+              "factKey": "bonito-ms-F03",
+              "text": "Fica no estado de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P04",
+              "factKey": "bonito-ms-F04",
+              "text": "A cidade integra a região da serra da Bodoquena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P05",
+              "factKey": "bonito-ms-F05",
+              "text": "A capital estadual, Campo Grande, fica a cerca de 290 quilômetros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P06",
+              "factKey": "bonito-ms-F06",
+              "text": "É conhecida pelo ecoturismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P07",
+              "factKey": "bonito-ms-F07",
+              "text": "Rios com águas transparentes atraem visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P08",
+              "factKey": "bonito-ms-F08",
+              "text": "Peixes de água doce podem ser observados nos passeios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P09",
+              "factKey": "bonito-ms-F09",
+              "text": "A flutuação é uma atividade turística da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P10",
+              "factKey": "bonito-ms-F10",
+              "text": "Há passeios que incluem grutas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P11",
+              "factKey": "bonito-ms-F11",
+              "text": "A região oferece trilhas em áreas naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P12",
+              "factKey": "bonito-ms-F12",
+              "text": "Também há cachoeiras para visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P13",
+              "factKey": "bonito-ms-F13",
+              "text": "Passeios de bote são oferecidos entre as atividades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P14",
+              "factKey": "bonito-ms-F14",
+              "text": "A região oferece mergulho com cilindro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P15",
+              "factKey": "bonito-ms-F15",
+              "text": "O arvorismo está entre as atividades divulgadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P16",
+              "factKey": "bonito-ms-F16",
+              "text": "Há opções de rapel para visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P17",
+              "factKey": "bonito-ms-F17",
+              "text": "A cidade integra um polo turístico com Jardim e Bodoquena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P18",
+              "factKey": "bonito-ms-F18",
+              "text": "Porto Murtinho também integra o polo turístico regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P19",
+              "factKey": "bonito-ms-F19",
+              "text": "Um sistema de voucher único controla visitantes desde 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P20",
+              "factKey": "bonito-ms-F20",
+              "text": "Os passeios possuem vagas diárias limitadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P21",
+              "factKey": "bonito-ms-F21",
+              "text": "Agências locais participam das reservas de passeios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P22",
+              "factKey": "bonito-ms-F22",
+              "text": "A Praça da Liberdade é ponto de encontro na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P23",
+              "factKey": "bonito-ms-F23",
+              "text": "Há um aeroporto regional que atende ao destino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P24",
+              "factKey": "bonito-ms-F24",
+              "text": "As rodovias estaduais MS-178 e MS-382 dão acesso à cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-viajante-P25",
+              "factKey": "bonito-ms-F25",
+              "text": "A produção agropecuária também participa da economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "bonito-ms-geografo-P01",
+              "factKey": "bonito-ms-F01",
+              "text": "O objeto desta carta é um município do interior do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P02",
+              "factKey": "bonito-ms-F02",
+              "text": "O turismo local utiliza atrativos ligados a ambientes naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P03",
+              "factKey": "bonito-ms-F03",
+              "text": "O município pertence ao estado de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P04",
+              "factKey": "bonito-ms-F04",
+              "text": "A cidade integra um polo regional que reúne destinos em diferentes municípios da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P05",
+              "factKey": "bonito-ms-F05",
+              "text": "A distância aproximada de 290 quilômetros até a capital estadual influencia a organização do acesso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P06",
+              "factKey": "bonito-ms-F06",
+              "text": "O ecoturismo tem papel destacado na economia do destino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P07",
+              "factKey": "bonito-ms-F07",
+              "text": "Os rios transparentes são um dos recursos que estruturam o turismo de natureza regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P08",
+              "factKey": "bonito-ms-F08",
+              "text": "O município registrou 23.659 habitantes no Censo 2022, segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P09",
+              "factKey": "bonito-ms-F09",
+              "text": "A transparência de certos cursos de água permite observar organismos durante a flutuação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P10",
+              "factKey": "bonito-ms-F10",
+              "text": "O turismo da região combina ambientes de superfície e cavidades naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P11",
+              "factKey": "bonito-ms-F11",
+              "text": "O polo turístico envolve localidades situadas em diferentes municípios da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P12",
+              "factKey": "bonito-ms-F12",
+              "text": "Parte dos atrativos anunciados para a região está nos municípios vizinhos de Jardim e Bodoquena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P13",
+              "factKey": "bonito-ms-F13",
+              "text": "Limitar vagas diárias permite organizar a pressão de visitantes sobre os atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P14",
+              "factKey": "bonito-ms-F14",
+              "text": "A reserva antecipada articula turistas, agências e operadores locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P15",
+              "factKey": "bonito-ms-F15",
+              "text": "A Praça da Liberdade concentra comércio e serviços para moradores e visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P16",
+              "factKey": "bonito-ms-F16",
+              "text": "O transporte rodoviário conecta os atrativos à rede urbana do polo regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P17",
+              "factKey": "bonito-ms-F17",
+              "text": "O polo turístico ultrapassa limites municipais, incluindo Jardim e Bodoquena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P18",
+              "factKey": "bonito-ms-F18",
+              "text": "Porto Murtinho também integra a região turística.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P19",
+              "factKey": "bonito-ms-F19",
+              "text": "O voucher único permite distribuir vagas e controlar o fluxo de visitantes nos atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P20",
+              "factKey": "bonito-ms-F20",
+              "text": "Limitar vagas diárias é uma medida de gestão da pressão da visitação sobre atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P21",
+              "factKey": "bonito-ms-F21",
+              "text": "O sistema de reservas envolve agências e operadoras locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P22",
+              "factKey": "bonito-ms-F22",
+              "text": "A Praça da Liberdade concentra comércio e convivência urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P23",
+              "factKey": "bonito-ms-F23",
+              "text": "A combinação de rodovias e aeroporto oferece alternativas de acesso regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P24",
+              "factKey": "bonito-ms-F24",
+              "text": "As rodovias estaduais MS-178 e MS-382 integram o acesso à cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bonito-ms-geografo-P25",
+              "factKey": "bonito-ms-F25",
+              "text": "A economia municipal também inclui atividades agropecuárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_BTO_SECTUR",
+                "CENTRO_BTO_VISITA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Bonito é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas. Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-corumba-ms",
+      "placeId": "corumba-ms",
+      "title": "Corumbá",
+      "aliases": [],
+      "answerType": "cidade brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cáceres"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Porto Murtinho"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Aquidauana"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bonito"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Poconé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Miranda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ladário"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Barra do Garças"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Aragarças"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Corumbá",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio junto à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Cuiabá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Madeira"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Paraguai",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Manifestação cultural",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Banho de São João"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Círio de Nazaré"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Congada da Lapa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Festa do Divino de Paraty"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Banho de São João",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso do Sul",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "corumba-ms-viajante-P01",
+              "factKey": "corumba-ms-F01",
+              "text": "Esta cidade brasileira tem um porto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P02",
+              "factKey": "corumba-ms-F02",
+              "text": "Seu porto fica às margens de um grande rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P03",
+              "factKey": "corumba-ms-F03",
+              "text": "Fica no estado de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P04",
+              "factKey": "corumba-ms-F04",
+              "text": "A área urbana relaciona-se à planície do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P05",
+              "factKey": "corumba-ms-F05",
+              "text": "O rio que passa junto à cidade é o Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P06",
+              "factKey": "corumba-ms-F06",
+              "text": "É conhecida como Capital do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P07",
+              "factKey": "corumba-ms-F07",
+              "text": "O município está na fronteira com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P08",
+              "factKey": "corumba-ms-F08",
+              "text": "O porto foi uma porta de entrada de mercadorias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P09",
+              "factKey": "corumba-ms-F09",
+              "text": "Na orla há um conjunto de casarões antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P10",
+              "factKey": "corumba-ms-F10",
+              "text": "O Iphan tombou o conjunto histórico em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P11",
+              "factKey": "corumba-ms-F11",
+              "text": "O casario preserva lembranças do comércio fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P12",
+              "factKey": "corumba-ms-F12",
+              "text": "A cidade manteve intenso comércio com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P13",
+              "factKey": "corumba-ms-F13",
+              "text": "Os rios São Lourenço e Cuiabá integravam as rotas de comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P14",
+              "factKey": "corumba-ms-F14",
+              "text": "O Museu de História do Pantanal fica em um antigo casarão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P15",
+              "factKey": "corumba-ms-F15",
+              "text": "Um mirante junto ao Cristo Rei permite observar a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P16",
+              "factKey": "corumba-ms-F16",
+              "text": "O Museu de História do Pantanal ocupa uma construção ligada ao antigo comércio fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P17",
+              "factKey": "corumba-ms-F17",
+              "text": "A Igreja de Nossa Senhora da Candelária é um marco local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P18",
+              "factKey": "corumba-ms-F18",
+              "text": "Essa igreja foi construída no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P19",
+              "factKey": "corumba-ms-F19",
+              "text": "O Forte de Coimbra integra o patrimônio do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P20",
+              "factKey": "corumba-ms-F20",
+              "text": "O forte fazia parte de uma rede de defesa e demarcação de fronteiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P21",
+              "factKey": "corumba-ms-F21",
+              "text": "Uma ladeira liga a área urbana ao Porto Geral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P22",
+              "factKey": "corumba-ms-F22",
+              "text": "O Banho de São João é uma manifestação cultural da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P23",
+              "factKey": "corumba-ms-F23",
+              "text": "No Banho de São João, devotos seguem em cortejo até o rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P24",
+              "factKey": "corumba-ms-F24",
+              "text": "A manifestação reúne referências de São João e de Xangô.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P25",
+              "factKey": "corumba-ms-F25",
+              "text": "O Festival América do Sul é um dos eventos culturais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "corumba-ms-geografo-P01",
+              "factKey": "corumba-ms-F01",
+              "text": "O destino é uma cidade fluvial dotada de patrimônio portuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P02",
+              "factKey": "corumba-ms-F02",
+              "text": "Seu espaço urbano está associado a uma hidrovia continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P03",
+              "factKey": "corumba-ms-F03",
+              "text": "O município pertence ao Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P04",
+              "factKey": "corumba-ms-F04",
+              "text": "Os ciclos de inundação transformam ao longo do ano a paisagem pantaneira do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P05",
+              "factKey": "corumba-ms-F05",
+              "text": "O núcleo urbano situa-se à margem do Rio Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P06",
+              "factKey": "corumba-ms-F06",
+              "text": "A associação da cidade ao Pantanal é expressa no apelido de Capital do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P07",
+              "factKey": "corumba-ms-F07",
+              "text": "O território municipal alcança a fronteira brasileira com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P08",
+              "factKey": "corumba-ms-F08",
+              "text": "O Porto Geral ligava a circulação fluvial ao comércio e à organização do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P09",
+              "factKey": "corumba-ms-F09",
+              "text": "A área portuária conserva um conjunto de edificações históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P10",
+              "factKey": "corumba-ms-F10",
+              "text": "O tombamento federal do conjunto histórico ocorreu em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P11",
+              "factKey": "corumba-ms-F11",
+              "text": "O patrimônio portuário registra a relação histórica entre navegação e comércio regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P12",
+              "factKey": "corumba-ms-F12",
+              "text": "A posição fronteiriça favoreceu relações históricas de comércio com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P13",
+              "factKey": "corumba-ms-F13",
+              "text": "A rede fluvial articulava o Paraguai aos rios São Lourenço e Cuiabá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P14",
+              "factKey": "corumba-ms-F14",
+              "text": "O Museu de História do Pantanal ocupa uma construção histórica portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P15",
+              "factKey": "corumba-ms-F15",
+              "text": "O mirante do Cristo Rei oferece leitura panorâmica da paisagem urbana e pantaneira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P16",
+              "factKey": "corumba-ms-F16",
+              "text": "O Censo 2022 registrou 96.268 habitantes no município, segundo o IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P17",
+              "factKey": "corumba-ms-F17",
+              "text": "A Igreja de Nossa Senhora da Candelária integra o patrimônio arquitetônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P18",
+              "factKey": "corumba-ms-F18",
+              "text": "O templo da Candelária foi construído no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P19",
+              "factKey": "corumba-ms-F19",
+              "text": "O Forte de Coimbra é um bem histórico situado no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P20",
+              "factKey": "corumba-ms-F20",
+              "text": "A fortificação colonial integrava uma rede de defesa e demarcação territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P21",
+              "factKey": "corumba-ms-F21",
+              "text": "Ladeiras conectam o porto na parte baixa ao núcleo urbano situado acima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P22",
+              "factKey": "corumba-ms-F22",
+              "text": "O Banho de São João é uma celebração tradicional local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P23",
+              "factKey": "corumba-ms-F23",
+              "text": "O rito inclui cortejo em direção às águas do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P24",
+              "factKey": "corumba-ms-F24",
+              "text": "A celebração reúne elementos de matrizes religiosas diferentes, incluindo São João e Xangô.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P25",
+              "factKey": "corumba-ms-F25",
+              "text": "O Festival América do Sul expressa intercâmbios culturais regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Corumbá é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-campo-grande-ms",
+      "placeId": "campo-grande-ms",
+      "title": "Campo Grande",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Manaus"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Campo Grande",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estrada de ferro histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Noroeste do Brasil"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Central do Brasil"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Madeira-Mamoré"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Vitória a Minas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Noroeste do Brasil",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que casarão foi residência da família Baís e depois Pensão Pimentel?",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Morada dos Baís"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Casa do Artesão"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mercado Municipal Antônio Valente"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Casa da Memória Arnaldo Estevão de Figueiredo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Morada dos Baís",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_PLANO_URB"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quais córregos se encontram no marco inicial da cidade?",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Prosa e Segredo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Anhanduí e Guariroba"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Imbirussu e Bandeira"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Lageado e Ceroula"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Prosa e Segredo",
+          "sources": [
+            "CENTRO_CG_PLANO_URB"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "campo-grande-ms-viajante-P01",
+              "factKey": "campo-grande-ms-F01",
+              "text": "Este destino é uma capital brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P02",
+              "factKey": "campo-grande-ms-F02",
+              "text": "Fica na região Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P03",
+              "factKey": "campo-grande-ms-F03",
+              "text": "É a capital de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P04",
+              "factKey": "campo-grande-ms-F04",
+              "text": "Uma antiga ferrovia ajudou a formar sua paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P05",
+              "factKey": "campo-grande-ms-F05",
+              "text": "A ferrovia histórica era chamada Noroeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P06",
+              "factKey": "campo-grande-ms-F06",
+              "text": "A cidade preserva uma antiga estação ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P07",
+              "factKey": "campo-grande-ms-F07",
+              "text": "Um conjunto ferroviário local é tombado pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P08",
+              "factKey": "campo-grande-ms-F08",
+              "text": "O tombamento federal do conjunto ferroviário ocorreu em 2009.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P09",
+              "factKey": "campo-grande-ms-F09",
+              "text": "O conjunto ferroviário reúne edifícios construídos em épocas distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P10",
+              "factKey": "campo-grande-ms-F10",
+              "text": "Há construções antigas de alvenaria na área ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P11",
+              "factKey": "campo-grande-ms-F11",
+              "text": "A área também contém edifícios antigos de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P12",
+              "factKey": "campo-grande-ms-F12",
+              "text": "Ainda restam trechos de trilhos na área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P13",
+              "factKey": "campo-grande-ms-F13",
+              "text": "O conjunto ferroviário inclui a antiga Casa da Chefia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P14",
+              "factKey": "campo-grande-ms-F14",
+              "text": "Uma caixa de água da ferrovia integra a memória ferroviária local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P15",
+              "factKey": "campo-grande-ms-F15",
+              "text": "Vagões fazem parte da paisagem ligada à antiga ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P16",
+              "factKey": "campo-grande-ms-F16",
+              "text": "A Morada dos Baís é um prédio histórico local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P17",
+              "factKey": "campo-grande-ms-F17",
+              "text": "A família Baís viveu nesse casarão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P18",
+              "factKey": "campo-grande-ms-F18",
+              "text": "O edifício começou a ser construído na década de 1910.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P19",
+              "factKey": "campo-grande-ms-F19",
+              "text": "O casarão já funcionou como pensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P20",
+              "factKey": "campo-grande-ms-F20",
+              "text": "A pensão recebeu o nome de Pensão Pimentel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P21",
+              "factKey": "campo-grande-ms-F21",
+              "text": "O imóvel foi reconhecido como patrimônio histórico municipal em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P22",
+              "factKey": "campo-grande-ms-F22",
+              "text": "O prédio passou por intervenções de preservação e recuperação cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P23",
+              "factKey": "campo-grande-ms-F23",
+              "text": "A história do casarão inclui obras da artista Lídia Baís.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P24",
+              "factKey": "campo-grande-ms-F24",
+              "text": "A prefeitura mantém um acervo com objetos e pinturas ligados ao imóvel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P25",
+              "factKey": "campo-grande-ms-F25",
+              "text": "A antiga ferrovia marcou a história cultural e urbana da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "campo-grande-ms-geografo-P01",
+              "factKey": "campo-grande-ms-F01",
+              "text": "O destino é uma capital estadual situada no interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P02",
+              "factKey": "campo-grande-ms-F02",
+              "text": "Sua posição regional integra o Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P03",
+              "factKey": "campo-grande-ms-F03",
+              "text": "É sede administrativa do Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P04",
+              "factKey": "campo-grande-ms-F04",
+              "text": "Na primeira metade do século XX, a ferrovia apoiou a economia rural e o início da industrialização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P05",
+              "factKey": "campo-grande-ms-F05",
+              "text": "A antiga Estrada de Ferro Noroeste do Brasil atravessou seu espaço urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P06",
+              "factKey": "campo-grande-ms-F06",
+              "text": "A estação histórica compõe a memória do transporte regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P07",
+              "factKey": "campo-grande-ms-F07",
+              "text": "O Iphan protege um conjunto arquitetônico ligado à ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P08",
+              "factKey": "campo-grande-ms-F08",
+              "text": "O tombamento do conjunto ferroviário protege testemunhos da infraestrutura de transporte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P09",
+              "factKey": "campo-grande-ms-F09",
+              "text": "As várias épocas de construção refletem a ampliação das atividades ferroviárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P10",
+              "factKey": "campo-grande-ms-F10",
+              "text": "Suas edificações incluem construções em alvenaria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P11",
+              "factKey": "campo-grande-ms-F11",
+              "text": "A combinação de madeira e alvenaria documenta técnicas construtivas do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P12",
+              "factKey": "campo-grande-ms-F12",
+              "text": "Os trilhos remanescentes permitem reconhecer parte do antigo traçado na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P13",
+              "factKey": "campo-grande-ms-F13",
+              "text": "A Casa da Chefia é um dos espaços ligados à antiga ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P14",
+              "factKey": "campo-grande-ms-F14",
+              "text": "A caixa de água ferroviária integra a memória material do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P15",
+              "factKey": "campo-grande-ms-F15",
+              "text": "Vagões compõem o patrimônio associado ao transporte ferroviário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P16",
+              "factKey": "campo-grande-ms-F16",
+              "text": "A memória urbana da capital inclui edificações ferroviárias e residências preservadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P17",
+              "factKey": "campo-grande-ms-F17",
+              "text": "A Morada dos Baís é um sobrado associado a uma família da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P18",
+              "factKey": "campo-grande-ms-F18",
+              "text": "O casarão teve uso residencial antes de receber uma pensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P19",
+              "factKey": "campo-grande-ms-F19",
+              "text": "A Pensão Pimentel funcionou no imóvel durante parte do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P20",
+              "factKey": "campo-grande-ms-F20",
+              "text": "Painéis de Lídia Baís integram a história artística do sobrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P21",
+              "factKey": "campo-grande-ms-F21",
+              "text": "O imóvel foi reconhecido como patrimônio histórico municipal em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P22",
+              "factKey": "campo-grande-ms-F22",
+              "text": "O prédio passou por intervenções de preservação e recuperação cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P23",
+              "factKey": "campo-grande-ms-F23",
+              "text": "O acervo cultural conecta objetos da família à memória da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P24",
+              "factKey": "campo-grande-ms-F24",
+              "text": "A preservação municipal do edifício foi instituída em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P25",
+              "factKey": "campo-grande-ms-F25",
+              "text": "A ferrovia estruturou fluxos e contribuiu para a formação cultural e urbana da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Campo Grande é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
         ]
       },
       "review": {

@@ -16,7 +16,7 @@ for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['Américas (sem Brasil
 const ctx={localStorage:{getItem:()=>{throw Error('blocked');},setItem:()=>{throw Error('blocked');}}};
 for(const f of ['sessao.js','cases-lugares.js','bank-runtime.js'])vm.runInNewContext(readFileSync(new URL('../lugares/'+f,import.meta.url),'utf8'),ctx);
 const B=ctx.MC_LUGARES_BANK,S=ctx.MC_SESSAO;
-assert.equal(banco.cases.length,91);assert.equal(B.order.length,182);assert.equal(B.summary.clues,4550);
+assert.equal(banco.cases.length,96);assert.equal(B.order.length,192);assert.equal(B.summary.clues,4800);
 const norm=t=>t.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 for(const c of banco.cases){
  const v=B.byId[c.id+'-viajante'],g=B.byId[c.id+'-geografo'];assert.deepEqual(v.fields,g.fields);assert.equal(v.sessionTitle,'Destino em descoberta');
@@ -37,10 +37,10 @@ for(const c of banco.cases){
 }
 for(const perfil of ['viajante','geografo']){
  const select=t=>B.elegiveis(12,{perfil,territorios:t});
- assert.equal(select(['todos']).length,91);assert.equal(select(['brasil']).length,38);assert.equal(select(['america']).length,5);
- assert.equal(select(['brasil','america']).length,43);assert.ok(select(['america']).every(id=>!B.byId[id].geography.countries.includes('BR')));assert.ok(select(['brasil','america']).some(id=>B.byId[id].geography.countries.includes('BR')));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,46);
- assert.equal(select(['centro-oeste']).length,7);assert.equal(select(['norte']).length,6);assert.equal(select(['sudeste']).length,6);assert.equal(select(['asia']).length,10);assert.equal(select(['antartida']).length,11);assert.equal(select(['europa']).length,8);assert.equal(select(['africa']).length,11);assert.equal(select(['oceania']).length,9);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,19);
- const sequence=Array.from({length:91},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,91,'Saco sem repetição, mesmo sem localStorage');
+ assert.equal(select(['todos']).length,96);assert.equal(select(['brasil']).length,43);assert.equal(select(['america']).length,5);
+ assert.equal(select(['brasil','america']).length,48);assert.ok(select(['america']).every(id=>!B.byId[id].geography.countries.includes('BR')));assert.ok(select(['brasil','america']).some(id=>B.byId[id].geography.countries.includes('BR')));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,51);
+ assert.equal(select(['centro-oeste']).length,12);assert.equal(select(['norte']).length,6);assert.equal(select(['sudeste']).length,6);assert.equal(select(['asia']).length,10);assert.equal(select(['antartida']).length,11);assert.equal(select(['europa']).length,8);assert.equal(select(['africa']).length,11);assert.equal(select(['oceania']).length,9);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,19);
+ const sequence=Array.from({length:96},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,96,'Saco sem repetição, mesmo sem localStorage');
  assert.ok(B.sortear(12,{perfil,territorios:[]}).erro);assert.ok(B.sortear(13,{perfil,territorios:['todos']}).erro);
 }
 const prev=B.sortear(4,{perfil:'viajante'}).caso.placeId;
@@ -51,4 +51,4 @@ for(const el of doc.querySelectorAll('script[src],link[href]')){const target=el.
 assert.equal(doc.querySelectorAll('#sessao-lugares [data-territorio]').length,13);
 assert.ok(!/a partir de 2001|Cinema &|pipoca|ingressos/.test(doc.body.textContent));
 assert.match(readFileSync(new URL('../index.html',import.meta.url),'utf8'),/href="lugares\/"/);
-dom.window.close();console.log('ok Lugares: 4.550 pistas, gabaritos, fontes, capacidade 2–12, filtros, perfis, sorteio sem persistência e recursos locais');
+dom.window.close();console.log('ok Lugares: 4.800 pistas, gabaritos, fontes, capacidade 2–12, filtros, perfis, sorteio sem persistência e recursos locais');

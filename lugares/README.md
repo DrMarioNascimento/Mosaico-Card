@@ -103,7 +103,13 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Área de Proteção Ambiental Delta do Parnaíba | Brasil / nordeste / america |
 | Parque Nacional Marinho dos Abrolhos | Brasil / nordeste / america |
 
-São 91 lugares, 182 conjuntos de pistas (dois por lugar), 4.550 pistas, 364 perguntas distintas e 2.784 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+| Pirenópolis | Brasil / centro-oeste / america |
+| Goiânia | Brasil / centro-oeste / america |
+| Bonito | Brasil / centro-oeste / america |
+| Corumbá | Brasil / centro-oeste / america |
+| Campo Grande | Brasil / centro-oeste / america |
+
+São 96 lugares, 192 conjuntos de pistas (dois por lugar), 4.800 pistas, 384 perguntas distintas e 2.904 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
