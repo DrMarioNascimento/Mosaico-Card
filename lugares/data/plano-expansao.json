@@ -1,5 +1,5 @@
 {
-  "status": "Seleção editorial proposta; 112 candidatos ainda precisam de pesquisa e elaboração.",
+  "status": "Seleção editorial proposta; 110 candidatos ainda precisam de pesquisa e elaboração.",
   "targetPlaces": 120,
   "draftedPlaces": [
     "Florianópolis",
@@ -9,7 +9,9 @@
     "Pirâmides de Gizé",
     "Monte Fuji",
     "Grande Barreira de Corais",
-    "Polo Sul Geográfico"
+    "Polo Sul Geográfico",
+    "Brasília",
+    "Cataratas do Iguaçu (Parque Nacional do Iguaçu, Brasil)"
   ],
   "groups": {
     "Brasil Norte": [

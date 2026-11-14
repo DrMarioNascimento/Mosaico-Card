@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-1-opcoes-identificacao-2026-11-14",
+  "catalogVersion": "lote-2-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Primeiro lote editorial de oito lugares com dois perfis completos de pistas",
-  "status": "Primeiro lote revisado e integrado; calibração de dificuldade com jogadores pendente",
+  "scope": "Dez lugares jogáveis com dois perfis completos de pistas",
+  "status": "Dez lugares integrados; calibração de dificuldade com jogadores pendente",
   "profiles": [
     "viajante",
     "geografo"
@@ -319,6 +319,34 @@
       "publisher": "IBGE",
       "url": "https://anda.ibge.gov.br/images/atlas/mapas_mundo/mundo_034_divisao_continentes.pdf",
       "checkedAt": "2026-11-13"
+    },
+    "B1": {
+      "id": "B1",
+      "title": "Brasília",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/445/",
+      "checkedAt": "2026-11-14"
+    },
+    "B2": {
+      "id": "B2",
+      "title": "General Information: Brasília",
+      "publisher": "UNESCO",
+      "url": "https://whc.unesco.org/document/103340",
+      "checkedAt": "2026-11-14"
+    },
+    "I1": {
+      "id": "I1",
+      "title": "Iguaçu National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/355/",
+      "checkedAt": "2026-11-14"
+    },
+    "I2": {
+      "id": "I2",
+      "title": "Iguazu National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/303/",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -8228,6 +8256,2080 @@
           "O deslocamento anual do marco decorre principalmente do movimento do gelo; não descrevê-lo como uma migração anual equivalente do eixo da Terra.",
           "Usar aproximadamente para os períodos de luz e escuridão: transições e refração não cabem em uma divisão exata por dias.",
           "O primeiro lote tem somente uma pauta antártica; esse filtro isolado não tem variedade suficiente para uma sessão regular."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-brasilia",
+      "placeId": "brasilia",
+      "title": "Brasília",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Porto Alegre"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Brasília",
+          "sources": [
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Autor do plano urbanístico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Lúcio Costa"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Oscar Niemeyer"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Roberto Burle Marx"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Affonso Eduardo Reidy"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Lúcio Costa",
+          "sources": [
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Arquiteto de edifícios representativos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lina Bo Bardi"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Oscar Niemeyer"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Vilanova Artigas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Paulo Mendes da Rocha"
+            }
+          ],
+          "answerId": "C3-O2",
+          "answerText": "Oscar Niemeyer",
+          "sources": [
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Organização residencial do plano",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Superquadras residenciais"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Vilas flutuantes"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Castelos murados medievais"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Aldeias organizadas apenas em cavernas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Superquadras residenciais",
+          "sources": [
+            "B1",
+            "B2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "brasilia-viajante-P01",
+              "factKey": "brasilia-F01",
+              "text": "O destino foi planejado antes de receber seus primeiros moradores.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P02",
+              "factKey": "brasilia-F02",
+              "text": "A função de sede do governo orientou a construção do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P03",
+              "factKey": "brasilia-F03",
+              "text": "Fica no interior do país, longe do litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P04",
+              "factKey": "brasilia-F04",
+              "text": "As obras avançaram durante o governo de Juscelino Kubitschek.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P05",
+              "factKey": "brasilia-F05",
+              "text": "Uma nova capital surgiu em poucos anos, na segunda metade dos anos 1950.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P06",
+              "factKey": "brasilia-F06",
+              "text": "O lugar começou a funcionar como capital em 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P07",
+              "factKey": "brasilia-F07",
+              "text": "Antes da mudança, a sede federal ficava no Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P08",
+              "factKey": "brasilia-F08",
+              "text": "O projeto tem dois grandes eixos que se cruzam.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P09",
+              "factKey": "brasilia-F09",
+              "text": "Um dos eixos reúne vários prédios ligados ao governo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P10",
+              "factKey": "brasilia-F10",
+              "text": "Áreas diferentes foram pensadas para usos diferentes.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P11",
+              "factKey": "brasilia-F11",
+              "text": "O desenho das ruas segue uma organização em níveis.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P12",
+              "factKey": "brasilia-F12",
+              "text": "As áreas de moradia foram organizadas em superquadras.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P13",
+              "factKey": "brasilia-F13",
+              "text": "Há espaços abertos e verdes entre partes da cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P14",
+              "factKey": "brasilia-F14",
+              "text": "Em alguns blocos residenciais, o térreo fica aberto sob pilares.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P15",
+              "factKey": "brasilia-F15",
+              "text": "Uma esplanada reúne ministérios ao longo de um eixo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P16",
+              "factKey": "brasilia-F16",
+              "text": "A proposta vencedora do plano urbano veio de um concurso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P17",
+              "factKey": "brasilia-F17",
+              "text": "O responsável pelo plano tinha o sobrenome Costa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P18",
+              "factKey": "brasilia-F18",
+              "text": "O nome do planejador começa com Lúcio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P19",
+              "factKey": "brasilia-F19",
+              "text": "O sobrenome Niemeyer aparece na história dos prédios públicos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P20",
+              "factKey": "brasilia-F20",
+              "text": "O primeiro nome do arquiteto de vários prédios marcantes era Oscar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P21",
+              "factKey": "brasilia-F21",
+              "text": "O plano da cidade e os edifícios tiveram autores com funções diferentes.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P22",
+              "factKey": "brasilia-F22",
+              "text": "O patrimônio reconhecido inclui mais que um prédio isolado.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P23",
+              "factKey": "brasilia-F23",
+              "text": "O lugar combina prédios do governo, moradia e espaços livres planejados.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P24",
+              "factKey": "brasilia-F24",
+              "text": "O local fica na região Centro-Oeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-viajante-P25",
+              "factKey": "brasilia-F25",
+              "text": "A sede nacional foi construída como parte de um projeto de modernização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "brasilia-geografo-P01",
+              "factKey": "brasilia-F01",
+              "text": "O conjunto urbano resultou de um projeto elaborado antes da ocupação.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P02",
+              "factKey": "brasilia-F02",
+              "text": "A função político-administrativa orientou a concepção urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P03",
+              "factKey": "brasilia-F03",
+              "text": "Sua implantação deslocou o centro político para o interior nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P04",
+              "factKey": "brasilia-F04",
+              "text": "O empreendimento integrou o programa de modernização do governo Kubitschek.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P05",
+              "factKey": "brasilia-F05",
+              "text": "A construção da nova capital concentrou-se entre 1956 e 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P06",
+              "factKey": "brasilia-F06",
+              "text": "A capital foi inaugurada em 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P07",
+              "factKey": "brasilia-F07",
+              "text": "A transferência sucedeu ao período em que o Rio de Janeiro foi capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P08",
+              "factKey": "brasilia-F08",
+              "text": "A estrutura urbana articula dois eixos principais em interseção.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P09",
+              "factKey": "brasilia-F09",
+              "text": "O Eixo Monumental concentra estruturas representativas e administrativas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P10",
+              "factKey": "brasilia-F10",
+              "text": "O plano distribuiu atividades urbanas por setores especializados.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P11",
+              "factKey": "brasilia-F11",
+              "text": "O projeto estabelece uma hierarquia para o sistema viário.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P12",
+              "factKey": "brasilia-F12",
+              "text": "As superquadras integram o desenho das unidades de vizinhança.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P13",
+              "factKey": "brasilia-F13",
+              "text": "A rede de espaços livres e áreas verdes integra a composição urbana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P14",
+              "factKey": "brasilia-F14",
+              "text": "Os pilotis permitem a continuidade do espaço livre sob blocos residenciais.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P15",
+              "factKey": "brasilia-F15",
+              "text": "A Esplanada dos Ministérios é elemento estruturador do conjunto monumental.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P16",
+              "factKey": "brasilia-F16",
+              "text": "A concepção urbanística foi selecionada por concurso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P17",
+              "factKey": "brasilia-F17",
+              "text": "O plano urbanístico vencedor foi apresentado por um profissional de sobrenome Costa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P18",
+              "factKey": "brasilia-F18",
+              "text": "O autor do plano urbano foi um urbanista chamado Lúcio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P19",
+              "factKey": "brasilia-F19",
+              "text": "A arquitetura de edifícios representativos é associada a Niemeyer.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P20",
+              "factKey": "brasilia-F20",
+              "text": "Oscar é o prenome do arquiteto associado a edifícios emblemáticos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P21",
+              "factKey": "brasilia-F21",
+              "text": "A autoria do plano urbanístico não se confunde com a dos edifícios representativos.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P22",
+              "factKey": "brasilia-F22",
+              "text": "O valor patrimonial abrange o conjunto urbano e suas relações espaciais.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P23",
+              "factKey": "brasilia-F23",
+              "text": "O conjunto articula funções administrativas, residenciais e espaços abertos.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P24",
+              "factKey": "brasilia-F24",
+              "text": "A cidade localiza-se na porção centro-oeste do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "brasilia-geografo-P25",
+              "factKey": "brasilia-F25",
+              "text": "A nova sede federal foi concebida em um projeto nacional de modernização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "B1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Construída para ser a capital do Brasil, Brasília reúne o Plano Piloto de Lúcio Costa, edifícios representativos de Oscar Niemeyer e superquadras residenciais.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-iguacu",
+      "placeId": "iguacu",
+      "title": "Parque Nacional do Iguaçu",
+      "aliases": [
+        "Cataratas do Iguaçu"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto protegido brasileiro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Iguaçu",
+          "sources": [
+            "I1",
+            "I2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País vizinho ao parque brasileiro",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Argentina"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Chile"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Equador"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Argentina",
+          "sources": [
+            "I1",
+            "I2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambiente florestal protegido",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Floresta Atlântica interiorana"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Floresta boreal de coníferas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Tundra ártica"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta mediterrânea europeia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Floresta Atlântica interiorana",
+          "sources": [
+            "I1",
+            "I2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rocha associada ao desnível das quedas",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Basalto"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Giz"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mármore"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Sal-gema"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Basalto",
+          "sources": [
+            "I1",
+            "I2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "iguacu-viajante-P01",
+              "factKey": "iguacu-F01",
+              "text": "O destino reúne muitas quedas de água, não uma cachoeira só.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P02",
+              "factKey": "iguacu-F02",
+              "text": "Uma fronteira internacional passa pela região das quedas.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P03",
+              "factKey": "iguacu-F03",
+              "text": "Brasil e Argentina compartilham essa paisagem.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P04",
+              "factKey": "iguacu-F04",
+              "text": "Há áreas protegidas dos dois lados da fronteira.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P05",
+              "factKey": "iguacu-F05",
+              "text": "No lado brasileiro, o parque fica no Paraná.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P06",
+              "factKey": "iguacu-F06",
+              "text": "Do lado argentino, o parque fica em Misiones.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P07",
+              "factKey": "iguacu-F07",
+              "text": "A água cai ao longo de uma grande curva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P08",
+              "factKey": "iguacu-F08",
+              "text": "A água das quedas vem de um rio, não do mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P09",
+              "factKey": "iguacu-F09",
+              "text": "A cortina de água levanta muita névoa.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P10",
+              "factKey": "iguacu-F10",
+              "text": "A névoa ajuda a manter a vegetação úmida.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P11",
+              "factKey": "iguacu-F11",
+              "text": "O entorno tem floresta subtropical.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P12",
+              "factKey": "iguacu-F12",
+              "text": "A floresta protegida faz parte da Mata Atlântica do interior.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P13",
+              "factKey": "iguacu-F13",
+              "text": "A paisagem abriga animais como a onça-pintada.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P14",
+              "factKey": "iguacu-F14",
+              "text": "Antas também fazem parte da fauna da região.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P15",
+              "factKey": "iguacu-F15",
+              "text": "Há macacos bugios na floresta ao redor.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P16",
+              "factKey": "iguacu-F16",
+              "text": "A área protegida ajuda a conservar uma floresta que continua para o país vizinho.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P17",
+              "factKey": "iguacu-F17",
+              "text": "O parque brasileiro e o argentino são reconhecidos pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P18",
+              "factKey": "iguacu-F18",
+              "text": "As águas despencam sobre uma região de rochas basálticas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P19",
+              "factKey": "iguacu-F19",
+              "text": "A rocha ligada ao desnível das quedas é o basalto.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P20",
+              "factKey": "iguacu-F20",
+              "text": "As quedas se espalham por uma faixa muito larga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P21",
+              "factKey": "iguacu-F21",
+              "text": "O som da água é parte marcante da experiência no lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P22",
+              "factKey": "iguacu-F22",
+              "text": "A paisagem combina água em movimento e floresta.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P23",
+              "factKey": "iguacu-F23",
+              "text": "O local está na América do Sul.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P24",
+              "factKey": "iguacu-F24",
+              "text": "No lado brasileiro, a unidade protegida é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-viajante-P25",
+              "factKey": "iguacu-F25",
+              "text": "A conservação envolve tanto as quedas quanto a floresta ao redor.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "iguacu-geografo-P01",
+              "factKey": "iguacu-F01",
+              "text": "O conjunto é formado por numerosas cascatas e corredeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P02",
+              "factKey": "iguacu-F02",
+              "text": "O sistema de quedas situa-se na fronteira entre dois países.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P03",
+              "factKey": "iguacu-F03",
+              "text": "A paisagem transfronteiriça envolve territórios brasileiro e argentino.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P04",
+              "factKey": "iguacu-F04",
+              "text": "Parques nacionais contíguos protegem trechos em ambos os países.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P05",
+              "factKey": "iguacu-F05",
+              "text": "A unidade brasileira encontra-se no estado do Paraná.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P06",
+              "factKey": "iguacu-F06",
+              "text": "A unidade argentina situa-se na província de Misiones.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P07",
+              "factKey": "iguacu-F07",
+              "text": "O conjunto das quedas apresenta configuração aproximadamente semicircular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P08",
+              "factKey": "iguacu-F08",
+              "text": "O sistema de cascatas está associado a um curso fluvial continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P09",
+              "factKey": "iguacu-F09",
+              "text": "A pulverização das quedas produz nuvens de gotículas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P10",
+              "factKey": "iguacu-F10",
+              "text": "A umidade produzida pela pulverização favorece a vegetação local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P11",
+              "factKey": "iguacu-F11",
+              "text": "O ambiente inclui floresta subtropical de folhas largas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P12",
+              "factKey": "iguacu-F12",
+              "text": "O remanescente protegido pertence à Floresta Atlântica interiorana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P13",
+              "factKey": "iguacu-F13",
+              "text": "A fauna registrada inclui o grande felino conhecido como onça-pintada.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P14",
+              "factKey": "iguacu-F14",
+              "text": "A fauna regional inclui a anta entre os mamíferos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P15",
+              "factKey": "iguacu-F15",
+              "text": "Bugios estão entre os animais da floresta protegida.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P16",
+              "factKey": "iguacu-F16",
+              "text": "As unidades contíguas conservam um remanescente florestal transfronteiriço.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P17",
+              "factKey": "iguacu-F17",
+              "text": "Os dois parques integram bens reconhecidos como Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P18",
+              "factKey": "iguacu-F18",
+              "text": "O desnível das quedas está associado a uma linha de rochas basálticas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P19",
+              "factKey": "iguacu-F19",
+              "text": "O substrato do setor das quedas inclui rocha basáltica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P20",
+              "factKey": "iguacu-F20",
+              "text": "O sistema de cascatas se estende por quase três quilômetros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P21",
+              "factKey": "iguacu-F21",
+              "text": "O volume das quedas contribui para um ambiente de forte expressão sonora.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P22",
+              "factKey": "iguacu-F22",
+              "text": "O cenário resulta da interação visual entre cascatas e floresta subtropical.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P23",
+              "factKey": "iguacu-F23",
+              "text": "A área protegida transfronteiriça localiza-se na América do Sul.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P24",
+              "factKey": "iguacu-F24",
+              "text": "O trecho brasileiro está inserido em uma unidade da categoria parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "iguacu-geografo-P25",
+              "factKey": "iguacu-F25",
+              "text": "A proteção contempla elementos hidrológicos e a biodiversidade florestal.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "I1",
+                "I2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O parque brasileiro protege cataratas em uma paisagem de floresta subtropical contígua ao parque argentino; o desnível se associa a rochas basálticas.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
       },
       "review": {

@@ -1,6 +1,6 @@
 # Mosaico Card — Lugares
 
-Primeiro lote integrado em 14 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
+Banco ampliado em 14 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
 
 O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. Brasil também faz parte de América. A união de filtros não duplica lugares.
 
@@ -18,10 +18,12 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Monte Fuji | Ásia |
 | Grande Barreira de Corais | Oceania |
 | Polo Sul Geográfico | Antártida |
+| Brasília | Brasil / Centro-Oeste / América |
+| Parque Nacional do Iguaçu | Brasil / Sul / América |
 
-São 8 lugares, 16 conjuntos de pistas (dois por lugar), 400 pistas, 32 perguntas distintas e 160 alternativas: oito para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 10 lugares, 20 conjuntos de pistas (dois por lugar), 500 pistas, 40 perguntas distintas e 200 alternativas: oito para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
-O primeiro teste deve preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano de 120 lugares inclui os oito escritos e 112 candidatos ainda por elaborar.
+O primeiro teste deve preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano de 120 lugares inclui os dez escritos e 110 candidatos ainda por elaborar.
 
 ## Fluxo e regras
 

@@ -390,3 +390,138 @@ O Polo Sul Geográfico corresponde a 90 graus de latitude sul, no interior da An
 - **A4** — NOAA Global Monitoring Laboratory: [South Pole Observatory](https://gml.noaa.gov/obop/spo/spo_overview.html).
 - **A5** — Australian Antarctic Program: [Poles and directions](https://www.antarctica.gov.au/about-antarctica/geography-and-geology/geography/poles-and-directions/).
 - **B0** — IBGE: [Divisões dos continentes](https://anda.ibge.gov.br/images/atlas/mapas_mundo/mundo_034_divisao_continentes.pdf).
+
+
+## Ampliação: Brasília e Parque Nacional do Iguaçu
+
+Estas duas pautas foram adicionadas ao catálogo com fontes institucionais; a calibração da dificuldade em partidas permanece pendente.
+
+### Brasília
+
+Construída para ser a capital do Brasil, Brasília reúne o Plano Piloto de Lúcio Costa, edifícios representativos de Oscar Niemeyer e superquadras residenciais.
+
+- **Cidade**: Brasília.
+- **Autor do plano urbanístico**: Lúcio Costa.
+- **Arquiteto de edifícios representativos**: Oscar Niemeyer.
+- **Organização residencial do plano**: Superquadras residenciais.
+
+**Viajante**
+
+- O destino foi planejado antes de receber seus primeiros moradores.
+- A função de sede do governo orientou a construção do lugar.
+- Fica no interior do país, longe do litoral.
+- As obras avançaram durante o governo de Juscelino Kubitschek.
+- Uma nova capital surgiu em poucos anos, na segunda metade dos anos 1950.
+- O lugar começou a funcionar como capital em 1960.
+- Antes da mudança, a sede federal ficava no Rio de Janeiro.
+- O projeto tem dois grandes eixos que se cruzam.
+- Um dos eixos reúne vários prédios ligados ao governo.
+- Áreas diferentes foram pensadas para usos diferentes.
+- O desenho das ruas segue uma organização em níveis.
+- As áreas de moradia foram organizadas em superquadras.
+- Há espaços abertos e verdes entre partes da cidade.
+- Em alguns blocos residenciais, o térreo fica aberto sob pilares.
+- Uma esplanada reúne ministérios ao longo de um eixo.
+- A proposta vencedora do plano urbano veio de um concurso.
+- O responsável pelo plano tinha o sobrenome Costa.
+- O nome do planejador começa com Lúcio.
+- O sobrenome Niemeyer aparece na história dos prédios públicos.
+- O primeiro nome do arquiteto de vários prédios marcantes era Oscar.
+- O plano da cidade e os edifícios tiveram autores com funções diferentes.
+- O patrimônio reconhecido inclui mais que um prédio isolado.
+- O lugar combina prédios do governo, moradia e espaços livres planejados.
+- O local fica na região Centro-Oeste do Brasil.
+- A sede nacional foi construída como parte de um projeto de modernização.
+
+**Geógrafo**
+
+- O conjunto urbano resultou de um projeto elaborado antes da ocupação.
+- A função político-administrativa orientou a concepção urbana.
+- Sua implantação deslocou o centro político para o interior nacional.
+- O empreendimento integrou o programa de modernização do governo Kubitschek.
+- A construção da nova capital concentrou-se entre 1956 e 1960.
+- A capital foi inaugurada em 1960.
+- A transferência sucedeu ao período em que o Rio de Janeiro foi capital.
+- A estrutura urbana articula dois eixos principais em interseção.
+- O Eixo Monumental concentra estruturas representativas e administrativas.
+- O plano distribuiu atividades urbanas por setores especializados.
+- O projeto estabelece uma hierarquia para o sistema viário.
+- As superquadras integram o desenho das unidades de vizinhança.
+- A rede de espaços livres e áreas verdes integra a composição urbana.
+- Os pilotis permitem a continuidade do espaço livre sob blocos residenciais.
+- A Esplanada dos Ministérios é elemento estruturador do conjunto monumental.
+- A concepção urbanística foi selecionada por concurso.
+- O plano urbanístico vencedor foi apresentado por um profissional de sobrenome Costa.
+- O autor do plano urbano foi um urbanista chamado Lúcio.
+- A arquitetura de edifícios representativos é associada a Niemeyer.
+- Oscar é o prenome do arquiteto associado a edifícios emblemáticos.
+- A autoria do plano urbanístico não se confunde com a dos edifícios representativos.
+- O valor patrimonial abrange o conjunto urbano e suas relações espaciais.
+- O conjunto articula funções administrativas, residenciais e espaços abertos.
+- A cidade localiza-se na porção centro-oeste do território brasileiro.
+- A nova sede federal foi concebida em um projeto nacional de modernização.
+
+### Parque Nacional do Iguaçu
+
+O parque brasileiro protege cataratas em uma paisagem de floresta subtropical contígua ao parque argentino; o desnível se associa a rochas basálticas.
+
+- **Conjunto protegido brasileiro**: Parque Nacional do Iguaçu.
+- **País vizinho ao parque brasileiro**: Argentina.
+- **Ambiente florestal protegido**: Floresta Atlântica interiorana.
+- **Rocha associada ao desnível das quedas**: Basalto.
+
+**Viajante**
+
+- O destino reúne muitas quedas de água, não uma cachoeira só.
+- Uma fronteira internacional passa pela região das quedas.
+- Brasil e Argentina compartilham essa paisagem.
+- Há áreas protegidas dos dois lados da fronteira.
+- No lado brasileiro, o parque fica no Paraná.
+- Do lado argentino, o parque fica em Misiones.
+- A água cai ao longo de uma grande curva.
+- A água das quedas vem de um rio, não do mar.
+- A cortina de água levanta muita névoa.
+- A névoa ajuda a manter a vegetação úmida.
+- O entorno tem floresta subtropical.
+- A floresta protegida faz parte da Mata Atlântica do interior.
+- A paisagem abriga animais como a onça-pintada.
+- Antas também fazem parte da fauna da região.
+- Há macacos bugios na floresta ao redor.
+- A área protegida ajuda a conservar uma floresta que continua para o país vizinho.
+- O parque brasileiro e o argentino são reconhecidos pela UNESCO.
+- As águas despencam sobre uma região de rochas basálticas.
+- A rocha ligada ao desnível das quedas é o basalto.
+- As quedas se espalham por uma faixa muito larga.
+- O som da água é parte marcante da experiência no lugar.
+- A paisagem combina água em movimento e floresta.
+- O local está na América do Sul.
+- No lado brasileiro, a unidade protegida é um parque nacional.
+- A conservação envolve tanto as quedas quanto a floresta ao redor.
+
+**Geógrafo**
+
+- O conjunto é formado por numerosas cascatas e corredeiras.
+- O sistema de quedas situa-se na fronteira entre dois países.
+- A paisagem transfronteiriça envolve territórios brasileiro e argentino.
+- Parques nacionais contíguos protegem trechos em ambos os países.
+- A unidade brasileira encontra-se no estado do Paraná.
+- A unidade argentina situa-se na província de Misiones.
+- O conjunto das quedas apresenta configuração aproximadamente semicircular.
+- O sistema de cascatas está associado a um curso fluvial continental.
+- A pulverização das quedas produz nuvens de gotículas.
+- A umidade produzida pela pulverização favorece a vegetação local.
+- O ambiente inclui floresta subtropical de folhas largas.
+- O remanescente protegido pertence à Floresta Atlântica interiorana.
+- A fauna registrada inclui o grande felino conhecido como onça-pintada.
+- A fauna regional inclui a anta entre os mamíferos.
+- Bugios estão entre os animais da floresta protegida.
+- As unidades contíguas conservam um remanescente florestal transfronteiriço.
+- Os dois parques integram bens reconhecidos como Patrimônio Mundial.
+- O desnível das quedas está associado a uma linha de rochas basálticas.
+- O substrato do setor das quedas inclui rocha basáltica.
+- O sistema de cascatas se estende por quase três quilômetros.
+- O volume das quedas contribui para um ambiente de forte expressão sonora.
+- O cenário resulta da interação visual entre cascatas e floresta subtropical.
+- A área protegida transfronteiriça localiza-se na América do Sul.
+- O trecho brasileiro está inserido em uma unidade da categoria parque nacional.
+- A proteção contempla elementos hidrológicos e a biodiversidade florestal.
