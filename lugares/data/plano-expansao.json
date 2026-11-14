@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 139,
+  "targetPlaces": 142,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -53,7 +53,13 @@
     "Medina de Marrakech",
     "Igrejas escavadas de Lalibela",
     "Jalapão",
-    "Parque Nacional da Chapada Diamantina"
+    "Parque Nacional da Chapada Diamantina",
+    "Parque Nacional das Emas",
+    "Fernando de Noronha",
+    "Parque Nacional Rapa Nui",
+    "Parque Nacional Yellowstone",
+    "Mar de Ross",
+    "Ilha Paulet"
   ],
   "groups": {
     "Brasil Norte": [
@@ -134,7 +140,9 @@
       "Cordilheira dos Andes",
       "Rio Mississippi",
       "Havana",
-      "Ilhas Galápagos"
+      "Ilhas Galápagos",
+      "Parque Nacional Rapa Nui",
+      "Parque Nacional Yellowstone"
     ],
     "Europa": [
       "Portugal",
@@ -204,7 +212,8 @@
       "Ópera de Sydney",
       "Parque Nacional Tongariro",
       "Costa de Ningaloo",
-      "Parque Nacional Fiordland"
+      "Parque Nacional Fiordland",
+      "Parque Nacional Rapa Nui"
     ],
     "Antártida": [
       "Polo Sul Geográfico",
@@ -215,7 +224,8 @@
       "Plataforma de Gelo Ross",
       "Plataforma de Gelo Larsen C",
       "Monte Vinson",
-      "Vales Secos de McMurdo"
+      "Vales Secos de McMurdo",
+      "Ilha Paulet"
     ]
   },
   "classificationNotes": [

@@ -3330,3 +3330,408 @@ O Parque Nacional da Chapada Diamantina, na Bahia, protege parte da Serra do Sin
 - A palavra Lençóis em um município baiano não identifica o parque maranhense.
 - A unidade federal está vinculada ao ICMBio.
 - A identificação articula estado, cadeia de relevo e queda d’água.
+
+
+## Ampliação Brasil: Cerrado e arquipélago atlântico
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Parque Nacional das Emas
+
+O Parque Nacional das Emas protege campos, veredas, matas ciliares e fauna do Cerrado, em território ligado a Goiás e Mato Grosso do Sul.
+
+- **Parque nacional**: Parque Nacional das Emas.
+- **Ambientes protegidos**: Campos, veredas e matas ciliares do Cerrado.
+- **Ave associada ao nome**: Ema.
+- **Município relacionado à unidade**: Mineiros.
+
+**Viajante**
+
+- O destino é um parque nacional brasileiro.
+- A unidade protege diferentes formas de Cerrado.
+- Campos limpos estão entre as paisagens.
+- Também há campos sujos.
+- Veredas fazem parte do conjunto.
+- Matas ciliares acompanham cursos d’água.
+- A paisagem inclui grandes áreas relativamente planas.
+- O parque fica em um extremo da Serra dos Caiapós.
+- A unidade tem relação com Goiás e Mato Grosso do Sul.
+- A maior parte da referência regional está no sudoeste goiano.
+- Mineiros é um dos municípios relacionados à unidade.
+- Chapadão do Céu também se relaciona ao parque.
+- Costa Rica, em Mato Grosso do Sul, é outro município relacionado.
+- Uma ave grande é associada ao nome do parque.
+- Essa ave é a ema.
+- Tamanduás-bandeira podem ser encontrados no parque.
+- Antas estão entre os animais observados.
+- Veados também fazem parte da fauna.
+- Cupinzeiros aparecem espalhados pela paisagem.
+- Rios importantes são protegidos pela unidade.
+- Os rios Taquari e Araguaia são citados pelo ICMBio.
+- Outro rio citado é o Jacuba.
+- O parque integra um bem da UNESCO com outra unidade goiana.
+- A unidade parceira é a Chapada dos Veadeiros.
+- Para diferenciar, combine chapadões, Goiás e a ave do nome.
+
+**Geógrafo**
+
+- O recorte corresponde a uma unidade federal de conservação.
+- O parque conserva um mosaico de ambientes do bioma Cerrado.
+- A vegetação inclui formações campestres de campo limpo.
+- Formações de campo sujo integram a diversidade vegetal local.
+- O mosaico de habitats inclui veredas.
+- A vegetação protegida inclui matas junto aos rios.
+- O relevo é marcado por superfícies planas e chapadões.
+- A posição regional se relaciona à Serra dos Caiapós.
+- O território alcança municípios em Goiás e Mato Grosso do Sul.
+- O parque se localiza na região do sudoeste de Goiás.
+- O município goiano de Mineiros integra a referência territorial.
+- O território da unidade envolve Chapadão do Céu, em Goiás.
+- O recorte territorial inclui parte do município sul-mato-grossense de Costa Rica.
+- A denominação da unidade faz referência a uma ave de grande porte.
+- A fauna observada inclui a ema entre as espécies campestres.
+- A fauna típica inclui o tamanduá-bandeira.
+- O parque oferece habitat para a anta.
+- A diversidade de mamíferos inclui cervídeos.
+- Estruturas construídas por cupins são componentes visíveis da área.
+- A conservação inclui cursos d’água de diferentes bacias.
+- A rede hidrográfica associada inclui referências aos rios Taquari e Araguaia.
+- O rio Jacuba aparece na descrição dos cursos protegidos.
+- O reconhecimento do Cerrado reúne esta unidade e outra área protegida.
+- O bem em conjunto inclui o Parque Nacional da Chapada dos Veadeiros.
+- A identificação articula relevo campestre, localização e ave associada à denominação.
+
+### Fernando de Noronha
+
+Fernando de Noronha é um arquipélago brasileiro de origem vulcânica com áreas protegidas terrestres e marinhas em Pernambuco.
+
+- **Arquipélago**: Fernando de Noronha.
+- **Origem das ilhas**: Picos vulcânicos de uma cadeia submarina.
+- **Mamíferos observados na baía**: Golfinhos.
+- **Estado associado**: Pernambuco.
+
+**Viajante**
+
+- O destino é um arquipélago brasileiro.
+- As ilhas ficam afastadas da costa continental.
+- A unidade marinha se relaciona ao estado de Pernambuco.
+- O oceano é o Atlântico.
+- As ilhas são picos de uma cadeia submarina.
+- A origem das ilhas está ligada ao vulcanismo.
+- Um parque nacional marinho protege parte da área.
+- O parque marinho foi criado em 1988.
+- O arquipélago e o Atol das Rocas integram um bem da UNESCO.
+- O atol reconhecido em conjunto fica a oeste do arquipélago.
+- A área tem águas importantes para animais marinhos.
+- Tartarugas marinhas usam a região.
+- Tubarões também ocorrem nas águas locais.
+- Há aves marinhas nas ilhas.
+- Uma baía é conhecida pela presença de golfinhos.
+- Golfinhos utilizam as águas próximas às ilhas.
+- A Praia do Sancho está entre as praias do parque.
+- A Praia do Leão também é citada pelo ICMBio.
+- Há piscinas naturais em alguns locais.
+- O arquipélago pode ser comparado a Galápagos.
+- Parte da ilha principal está dentro da área protegida.
+- Ilhotas e águas adjacentes também integram a proteção.
+- O parque integra o bioma marinho costeiro na classificação do ICMBio.
+- A conservação envolve tanto ambientes terrestres quanto oceânicos.
+- Para identificar, combine Pernambuco, arquipélago e parque marinho.
+
+**Geógrafo**
+
+- O recorte escolhido é um conjunto insular brasileiro no Atlântico.
+- A posição oceânica separa o arquipélago da faixa continental brasileira.
+- A referência administrativa do parque é Pernambuco.
+- A localização marítima pertence ao Atlântico Sul.
+- O arquipélago resulta de elevações vulcânicas de uma cadeia submersa.
+- A formação geológica insular é de origem vulcânica.
+- A conservação inclui uma unidade federal da categoria parque nacional marinho.
+- O decreto de criação da unidade data de 1988.
+- A inscrição internacional reúne duas áreas protegidas insulares.
+- O Atol das Rocas é o outro componente do bem e se situa a oeste.
+- O sistema insular fornece ambientes usados por diversas espécies marinhas.
+- A área é relevante para a conservação de tartarugas marinhas.
+- A fauna protegida inclui diferentes espécies de tubarões.
+- O arquipélago integra uma região importante para aves marinhas tropicais.
+- A Baía dos Golfinhos é associada à observação desses mamíferos.
+- Os mamíferos marinhos fazem parte da biodiversidade do arquipélago.
+- A unidade marinha inclui a praia conhecida como Sancho.
+- Outra referência de visitação da unidade é a Praia do Leão.
+- A paisagem costeira inclui ambientes de águas rasas associados às marés.
+- Ambos são insulares, mas pertencem a países e oceanos diferentes.
+- A unidade não deve ser confundida com a totalidade de todos os usos da ilha.
+- O bem abrange setores insulares menores e áreas marinhas próximas.
+- O recorte protegido está classificado como ambiente marinho costeiro.
+- A proteção depende da relação entre ilhas, costa e mar.
+- A identificação articula localização administrativa, origem insular e conservação marinha.
+
+
+## Ampliação das Américas: ilha do Pacífico e parque geotermal
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Parque Nacional Rapa Nui
+
+O Parque Nacional Rapa Nui, em uma ilha administrada pelo Chile, protege patrimônio arqueológico que inclui moai e plataformas ahu.
+
+- **Parque**: Parque Nacional Rapa Nui.
+- **Nome das esculturas**: Moai.
+- **Nome das plataformas cerimoniais**: Ahu.
+- **País**: Chile.
+
+**Viajante**
+
+- O destino é um parque em uma ilha muito afastada do continente.
+- A ilha pertence ao Chile.
+- A ilha fica a milhares de quilômetros da costa continental.
+- A cultura local tem ligações com a Polinésia.
+- Grandes estátuas de pedra são marcas do patrimônio.
+- Essas esculturas são chamadas moai.
+- As esculturas representam ancestrais.
+- Muitas esculturas foram feitas com tufo vulcânico.
+- As esculturas têm tamanhos diferentes.
+- Algumas foram encontradas em etapas diferentes de produção.
+- A pedreira de Rano Raraku guarda vestígios da produção.
+- Há plataformas cerimoniais no patrimônio.
+- Essas plataformas são chamadas ahu.
+- Algumas plataformas receberam grupos de estátuas.
+- O Ahu Tongariki tem quinze estátuas.
+- As plataformas usam pedras trabalhadas.
+- Há registros de arte rupestre na ilha.
+- Algumas cavernas também possuem arte rupestre.
+- Orongo é uma aldeia de caráter cerimonial.
+- Orongo fica junto ao vulcão Rano Kau.
+- A paisagem possui vestígios de moradia e produção.
+- O parque protege parte da ilha e ilhotas próximas.
+- A UNESCO reconhece o valor cultural do parque.
+- O lugar pode ser comparado a outros arquipélagos remotos.
+- Para identificar, combine Chile, esculturas e plataformas.
+
+**Geógrafo**
+
+- A unidade protege patrimônio arqueológico em uma ilha remota do Pacífico.
+- O recorte está sob administração chilena.
+- O afastamento em relação ao Chile continental é de aproximadamente 3.700 quilômetros.
+- A ocupação humana histórica tem origem na Polinésia oriental.
+- O conjunto inclui esculturas monumentais esculpidas em rocha.
+- A denominação das estátuas é moai.
+- A interpretação cultural associa os moai à representação de antepassados.
+- A matéria-prima de grande parte dos moai é uma rocha de origem vulcânica.
+- O conjunto preserva estátuas com dimensões variadas.
+- O registro arqueológico inclui peças em entalhe, transporte e posição final.
+- A área de extração e entalhe é conhecida como Rano Raraku.
+- Estruturas conhecidas como ahu integram a paisagem arqueológica.
+- A designação das plataformas cerimoniais é ahu.
+- Os ahu podiam servir de suporte à colocação dos moai.
+- Um conjunto cerimonial conhecido reúne quinze moai.
+- A construção dos ahu inclui blocos de pedra e preenchimento.
+- A herança cultural inclui pictografias e petróglifos.
+- O registro arqueológico inclui cavernas com manifestações gráficas.
+- A vila cerimonial de Orongo integra os elementos do patrimônio.
+- A posição da vila se relaciona ao relevo vulcânico de Rano Kau.
+- O conjunto arqueológico inclui estruturas habitacionais e produtivas.
+- A unidade abrange setores terrestres da ilha e ilhotas adjacentes.
+- A inscrição internacional valoriza o patrimônio arqueológico e cultural.
+- A localização no Pacífico e as esculturas distinguem o recorte de outros destinos insulares.
+- A identificação articula soberania chilena, moai e estruturas cerimoniais.
+
+### Parque Nacional Yellowstone
+
+Yellowstone é um parque nacional dos Estados Unidos estabelecido em 1872, conhecido por gêiseres, fontes termais e fauna como bisões.
+
+- **Parque**: Parque Nacional Yellowstone.
+- **Fenômeno geotermal marcante**: Gêiseres e fontes termais.
+- **Animal do parque**: Bisão.
+- **País**: Estados Unidos.
+
+**Viajante**
+
+- O destino é um parque nacional dos Estados Unidos.
+- Foi estabelecido em 1872.
+- A maior parte fica no estado de Wyoming.
+- Partes menores ficam em Montana e Idaho.
+- O lugar tem muitos gêiseres.
+- Gêiseres lançam água quente e vapor.
+- Um gêiser conhecido é o Old Faithful.
+- O tempo entre erupções do gêiser pode mudar.
+- Os fenômenos termais se relacionam ao calor subterrâneo.
+- Existem fontes termais no parque.
+- Fumarolas são outro tipo de manifestação geotermal.
+- Há também áreas de lama aquecida.
+- O parque contém uma grande caldeira vulcânica.
+- O rio que atravessa parte da área também dá nome ao parque.
+- Há um cânion associado a esse rio.
+- Cachoeiras integram o cenário.
+- Bisões vivem no parque.
+- Lobos também fazem parte da fauna.
+- Ursos-pardos são estudados na região.
+- Há wapitis entre os grandes herbívoros.
+- A unidade protege florestas e outros ambientes.
+- A UNESCO reconhece os valores naturais do parque.
+- O lugar pode ser comparado com outros destinos vulcânicos.
+- A gestão da fauna depende também das áreas vizinhas.
+- Para identificar, combine país, gêiseres e ano de criação.
+
+**Geógrafo**
+
+- A unidade protegida está situada nos Estados Unidos.
+- A criação legal do parque ocorreu em 1872.
+- O recorte territorial se concentra predominantemente em Wyoming.
+- A unidade também alcança porções dos estados de Montana e Idaho.
+- A área apresenta grande concentração de manifestações geotermais do tipo gêiser.
+- A atividade geotermal pode produzir erupções de água aquecida e vapor.
+- A área inclui o gêiser chamado Old Faithful.
+- A frequência de erupção não é uma constante imutável.
+- A circulação de água aquecida reflete processos geotérmicos em profundidade.
+- A diversidade geotermal inclui fontes de água quente.
+- A paisagem inclui aberturas com emissão de vapor e gases.
+- O conjunto termal inclui poças ou depósitos de lama associados a calor geotérmico.
+- A história geológica inclui uma extensa estrutura de caldeira.
+- O topônimo da unidade é compartilhado com um rio regional.
+- A paisagem inclui um cânion escavado pelo rio homônimo.
+- O recorte protegido inclui quedas d’água além das áreas termais.
+- A fauna protegida inclui grupos de bisões.
+- A comunidade de mamíferos inclui lobos.
+- A conservação e pesquisa incluem populações de ursos-pardos.
+- A fauna inclui o cervídeo conhecido como wapiti.
+- O conjunto combina áreas florestadas, geotermais e habitats de fauna.
+- A inscrição internacional considera geologia, paisagem e ecossistemas.
+- Gêiseres e nascentes termais ajudam a distinguir essa unidade de outros parques.
+- A mobilidade de grandes animais relaciona o parque ao entorno ecológico.
+- A identificação articula posição norte-americana, geotermia e criação em 1872.
+
+
+## Ampliação da Antártida: mar e ilha
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Mar de Ross
+
+A região do Mar de Ross inclui uma área marinha protegida com zonas de manejo e objetivos de conservação de processos ecológicos e fauna antártica.
+
+- **Mar**: Mar de Ross.
+- **Organização da área protegida**: Três zonas com regras distintas.
+- **Grupo animal considerado na proteção**: Pinguins, focas e krill.
+- **Grande plataforma adjacente**: Plataforma de Gelo Ross.
+
+**Viajante**
+
+- O destino é um mar próximo da Antártida.
+- Há uma área marinha protegida nessa região.
+- A criação dessa área protegida foi acordada em 2016.
+- A medida entrou em vigor em dezembro de 2017.
+- A proposta foi apresentada por dois países em conjunto.
+- A área protegida foi dividida em três zonas.
+- As zonas não permitem necessariamente as mesmas atividades.
+- A pesca é proibida em grande parte da área protegida.
+- O ambiente abriga pinguins.
+- Focas também estão entre os animais protegidos.
+- Baleias aparecem entre os grupos considerados.
+- O krill participa da rede alimentar.
+- Peixes também são considerados na proteção.
+- Um peixe conhecido como bacalhau-da-antártida é citado na medida.
+- A proteção busca conservar predadores e presas.
+- Pesquisas científicas fazem parte dos objetivos.
+- A proteção envolve cooperação internacional.
+- A comissão é conhecida pela sigla CCAMLR.
+- Uma grande plataforma de gelo se associa à região.
+- O mar e a plataforma compartilham um nome.
+- A área marinha não é a mesma coisa que a plataforma flutuante.
+- Gelo marinho pode variar ao longo das estações antárticas.
+- A gestão depende de regras para diferentes atividades.
+- O conjunto pode ser comparado com outros mares antárticos.
+- Para identificar, combine mar, plataforma de mesmo nome e área protegida.
+
+**Geógrafo**
+
+- O recorte corresponde a um setor marítimo do Oceano Austral.
+- A conservação regional inclui uma área marinha protegida sob medidas da CCAMLR.
+- A decisão internacional sobre a área ocorreu em 2016.
+- O início de vigência da proteção ocorreu em 1º de dezembro de 2017.
+- Estados Unidos e Nova Zelândia apresentaram uma proposta conjunta.
+- A gestão estabelece três zonas com diferentes regras de atividade.
+- O zoneamento aplica restrições distintas conforme o setor.
+- A medida restringe a pesca em grande parte da unidade, com exceções reguladas.
+- A fauna considerada na conservação inclui pinguins.
+- O plano inclui mamíferos marinhos como focas.
+- A conservação regional contempla grandes cetáceos.
+- Pequenos crustáceos como o krill integram a teia alimentar protegida.
+- A medida contempla recursos marinhos como o peixe-prateado antártico.
+- Áreas relevantes ao ciclo de vida do peixe antártico integram objetivos da proteção.
+- O desenho da área considera interações entre níveis da teia alimentar.
+- O monitoramento e a pesquisa integram a gestão da área marinha.
+- A decisão foi tomada no âmbito de uma comissão multilateral.
+- A Comissão para a Conservação dos Recursos Vivos Marinhos Antárticos atua na medida.
+- O setor marítimo tem relação geográfica com uma extensa plataforma de gelo.
+- A denominação do setor marítimo corresponde à da plataforma próxima.
+- Uma unidade oceânica de conservação difere de uma extensão de gelo flutuante.
+- O habitat oceânico antártico se relaciona à variabilidade sazonal do gelo marinho.
+- A conservação distingue usos permitidos, restritos e sujeitos a condições.
+- A localização e a área protegida ajudam a distinguir setores do Oceano Austral.
+- A identificação articula geografia regional, proteção marinha e sistema de zonas.
+
+### Ilha Paulet
+
+A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de pinguins-de-adélia e vestígios históricos.
+
+- **Ilha**: Ilha Paulet.
+- **Elemento do relevo**: Cone vulcânico.
+- **Ave que forma colônia reprodutora**: Pinguim-de-adélia.
+- **Posição regional**: Noroeste do Mar de Weddell.
+
+**Viajante**
+
+- O destino é uma pequena ilha antártica.
+- A ilha fica a sudeste da Ilha Dundee.
+- O local tem forma aproximadamente circular.
+- A ilha mede cerca de 1,6 quilômetro de diâmetro.
+- Um cone vulcânico se destaca no relevo.
+- O cone atinge cerca de 350 metros de altura.
+- Uma faixa relativamente plana aparece no norte e nordeste.
+- Na maré alta, parte desse terraço fica submersa.
+- A ilha tem uma grande colônia de pinguins.
+- Os pinguins da colônia são da espécie Adélia.
+- Outras aves também se reproduzem na ilha.
+- A gaivota-dominicana é uma das aves registradas.
+- Biguás-de-olhos-azuis também aparecem no registro.
+- Focas podem descansar na costa.
+- A foca-de-weddell está entre as espécies observadas.
+- A foca-leopardo pode ser observada em águas próximas.
+- Há vestígios históricos feitos de pedra.
+- Uma sepultura e um marco de pedras também são destacados.
+- A cabana e os vestígios compõem um sítio histórico.
+- A visitação precisa levar em conta a colônia de animais.
+- O cone vulcânico a diferencia de muitas ilhas apenas cobertas por gelo.
+- A maré influencia o espaço disponível para desembarque.
+- O local fica no hemisfério sul.
+- A ilha pode ser comparada a outras da região da Península Antártica.
+- Para identificar, combine ilha vulcânica, pinguins-de-adélia e vestígios de pedra.
+
+**Geógrafo**
+
+- O recorte corresponde a uma ilha no setor noroeste do Mar de Weddell.
+- Sua posição é descrita a sudeste da Ilha Dundee.
+- A topografia da ilha é descrita como aproximadamente circular.
+- A dimensão horizontal aproximada do recorte insular é 1,6 km.
+- A topografia inclui um cone de origem vulcânica.
+- A elevação do cone vulcânico é de aproximadamente 350 metros.
+- O relevo inclui um terraço junto aos setores norte e nordeste.
+- A variação da maré altera a disponibilidade de espaço no terraço costeiro.
+- A fauna reprodutora inclui uma extensa colônia de pinguins.
+- A colônia reprodutora mencionada é formada por pinguins-de-adélia.
+- O registro inclui outras aves além dos pinguins.
+- A lista de aves reprodutoras inclui a gaivota-dominicana.
+- Uma espécie de biguá está entre as aves com reprodução confirmada.
+- O registro de fauna inclui focas em áreas de descanso.
+- O conjunto faunístico inclui registros de focas-de-weddell.
+- O registro de fauna inclui a foca-leopardo no ambiente marítimo próximo.
+- O sítio conserva uma cabana de pedra associada à história antártica.
+- Os vestígios históricos incluem sepultura e marco de pedras.
+- A proteção reconhece elementos materiais de ocupação histórica.
+- O acesso deve considerar a sensibilidade da fauna e do espaço disponível.
+- A origem vulcânica é um critério para comparar ilhas antárticas.
+- A submersão parcial do terraço modifica as condições de acesso.
+- A posição antártica situa a ilha no hemisfério meridional.
+- A posição no Mar de Weddell e a fauna ajudam a distingui-la.
+- A identificação relaciona topografia vulcânica, colônia de aves e patrimônio histórico.

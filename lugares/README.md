@@ -2,7 +2,7 @@
 
 Banco ampliado em 14 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
 
-O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. Brasil também faz parte de América. A união de filtros não duplica lugares.
+O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. Brasil também faz parte de América. A união de filtros não duplica lugares. Rapa Nui aparece em América pela administração chilena e em Oceania pela posição polinésia.
 
 Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagens conhecidos. Geógrafo explora relações espaciais, causas e processos. Ambos têm o mesmo catálogo e as mesmas quatro respostas por lugar. A profundidade do conteúdo permanece independente dos recursos pessoais de assistência disponíveis no motor.
 
@@ -62,8 +62,14 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Igrejas escavadas de Lalibela | África |
 | Jalapão | Brasil / Norte / América |
 | Parque Nacional da Chapada Diamantina | Brasil / Nordeste / América |
+| Parque Nacional das Emas | Brasil / Centro-Oeste / América |
+| Fernando de Noronha | Brasil / Nordeste / América |
+| Parque Nacional Rapa Nui | América / Oceania |
+| Parque Nacional Yellowstone | América |
+| Mar de Ross | Antártida |
+| Ilha Paulet | Antártida |
 
-São 52 lugares, 104 conjuntos de pistas (dois por lugar), 2.600 pistas, 208 perguntas distintas e 1.220 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 58 lugares, 116 conjuntos de pistas (dois por lugar), 2.900 pistas, 232 perguntas distintas e 1.364 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

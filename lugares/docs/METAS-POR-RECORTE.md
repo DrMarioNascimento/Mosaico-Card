@@ -8,15 +8,15 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 17 | 30 | 13 |
-| América | 20 | 30 | 10 |
+| Brasil | 19 | 30 | 11 |
+| América | 24 | 30 | 6 |
 | Europa | 5 | 30 | 25 |
 | África | 8 | 30 | 22 |
 | Ásia | 6 | 30 | 24 |
-| Oceania | 6 | 30 | 24 |
-| Antártida | 7 | 30 | 23 |
+| Oceania | 7 | 30 | 23 |
+| Antártida | 9 | 30 | 21 |
 
-**Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
+**Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. Rapa Nui conta em América pela administração chilena e em Oceania pela posição polinésia. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
 
 Dentro da América, preservar variedade além do Brasil: buscar pelo menos 15 lugares de outros países como submeta editorial, além dos 30 brasileiros. Esse é um critério de composição proposto, e não altera a meta mínima de 30 da seleção América. Lugares que cruzam fronteiras devem ter seu objeto explicitamente delimitado e só receber os territórios que realmente abrangem.
 
@@ -27,8 +27,8 @@ Para evitar que a meta de 30 se concentre em uma região, o planejamento parte d
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
 | Norte | 3 | 6 | 3 |
-| Nordeste | 6 | 6 | 0 |
-| Centro-Oeste | 3 | 6 | 3 |
+| Nordeste | 7 | 6 | 0 |
+| Centro-Oeste | 4 | 6 | 2 |
 | Sudeste | 2 | 6 | 4 |
 | Sul | 3 | 6 | 3 |
 
