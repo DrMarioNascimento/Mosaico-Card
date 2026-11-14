@@ -27,9 +27,9 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    q('#sessao-lugares [data-territorio=centro-oeste]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/12 lugares/);
    q('#sessao-lugares [data-territorio=brasil]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/50 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/51 lugares/);
    q('#sessao-lugares [data-territorio=america]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/58 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/59 lugares/);
    q('#sessao-lugares [data-territorio=todos]').click();
  }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
