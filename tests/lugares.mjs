@@ -7,9 +7,9 @@ const require=createRequire(import.meta.url),R=require('../game-core.js');
 const banco=JSON.parse(readFileSync(new URL('../lugares/data/lugares-bank.json',import.meta.url)));
 const plano=JSON.parse(readFileSync(new URL('../lugares/data/plano-expansao.json',import.meta.url)));
 for(const grupo of ['brasil','america','europa','africa','asia','oceania','antartida'])assert.equal(plano.metasPorRecorte[grupo],30);
-for(const regiao of ['norte','nordeste','centro-oeste','sudeste','sul'])assert.equal(plano.minimoPorRegiaoBrasileira[regiao],6);
+for(const regiao of ['norte','nordeste','centro-oeste','sudeste','sul'])assert.equal(plano.minimoPorRegiaoBrasileira[regiao],30);
 const metasDoc=readFileSync(new URL('../lugares/docs/METAS-POR-RECORTE.md',import.meta.url),'utf8');
-for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['América','america',30],['Europa','europa',30],['África','africa',30],['Ásia','asia',30],['Oceania','oceania',30],['Antártida','antartida',30],['Norte','norte',6],['Nordeste','nordeste',6],['Centro-Oeste','centro-oeste',6],['Sudeste','sudeste',6],['Sul','sul',6]]) {
+for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['América','america',30],['Europa','europa',30],['África','africa',30],['Ásia','asia',30],['Oceania','oceania',30],['Antártida','antartida',30],['Norte','norte',30],['Nordeste','nordeste',30],['Centro-Oeste','centro-oeste',30],['Sudeste','sudeste',30],['Sul','sul',30]]) {
  const n=banco.cases.filter(c=>chave==='brasil'?c.geography.countries.includes('BR'):c.geography.continents.includes(chave)||c.geography.brazilRegions.includes(chave)).length;
  assert.ok(metasDoc.includes(`| ${titulo} | ${n} | ${alvo} | ${Math.max(0,alvo-n)} |`),`Contagem desatualizada em ${titulo}`);
 }
@@ -30,7 +30,7 @@ for(const c of banco.cases){
    for(const focal of [c.title,...c.aliases])assert.ok(!(' '+norm(clue.text)+' ').includes(' '+norm(focal)+' '),clue.id+' revela a resposta focal');
    if(['salvador','olinda','jericoacoara','cataratas-vitoria','sao-luis','havana','galapagos','petra'].includes(c.placeId))for(const focal of [c.title,...c.aliases])assert.ok(!norm(clue.text).includes(norm(focal)),clue.id+' revela o nome do destino');
   }
-  for(const f of converted.fields){assert.equal(f.opcoes.length,f.id==='C1'?(['florianopolis','salvador','olinda','lencois-maranhenses','jericoacoara','iguacu','cataratas-vitoria','sao-luis','havana','galapagos','petra','porto','roma','manaus','rio-de-janeiro','belem','opera-sydney','uluru','kilimanjaro','pantanal-matogrossense','monte-erebus','angkor','deception','okavango','serengeti','chapada-veadeiros','ouro-preto','tongariro','ningaloo','plataforma-ross','plataforma-larsen-c','monte-quenia','taj-mahal','muralha-china','fiordland','curitiba','kyoto','vinson','mcmurdo-vales-secos','veneza','acropole-atenas','marrakech','lalibela','jalapao','chapada-diamantina','parque-emas','fernando-noronha','rapa-nui','yellowstone','mar-ross','ilha-paulet','chapada-guimaraes','pampulha','grande-zimbabue','timbuktu','stonehenge','mont-saint-michel','borobudur','bagan','kgari','kakadu','aparados-serra','paraty-ilha-grande','anavilhanas','monte-roraima','caparao','sao-miguel-missoes','point-wild','brown-bluff','jau','serra-bodoquena','itatiaia','vila-velha','ha-long-cat-ba','sagarmatha'].includes(c.placeId)?12:8):4);assert.equal(new Set(f.opcoes.map(o=>o.id)).size,f.opcoes.length);assert.equal(new Set(f.opcoes.map(o=>norm(o.texto))).size,f.opcoes.length);assert.equal(f.opcoes.filter(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica).length,1);}
+  for(const f of converted.fields){assert.ok(f.id==='C1'?f.opcoes.length>=8:f.opcoes.length===4, `Quantidade inválida em ${c.placeId}/${f.id}`);assert.equal(new Set(f.opcoes.map(o=>o.id)).size,f.opcoes.length);assert.equal(new Set(f.opcoes.map(o=>norm(o.texto))).size,f.opcoes.length);assert.equal(f.opcoes.filter(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica).length,1);}
   for(let n=2;n<=12;n++)assert.ok(R.casoCompativelComMesa(converted,n));
   for(const n of [0,1,13,2.5])assert.ok(!R.casoCompativelComMesa(converted,n));
  }

@@ -270,11 +270,11 @@
     "antartida": 30
   },
   "minimoPorRegiaoBrasileira": {
-    "norte": 6,
-    "nordeste": 6,
-    "centro-oeste": 6,
-    "sudeste": 6,
-    "sul": 6
+    "norte": 30,
+    "nordeste": 30,
+    "centro-oeste": 30,
+    "sudeste": 30,
+    "sul": 30
   },
   "regraContagem": "Um lugar conta uma vez em cada recorte ao qual pertence. Brasil integra América; recortes combinados no jogo formam uma união sem duplicatas. Os mínimos regionais integram a meta brasileira."
 }

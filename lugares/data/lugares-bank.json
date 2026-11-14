@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-33-2026-11-14",
+  "catalogVersion": "lote-34-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
@@ -16,7 +16,7 @@
   "sharedAnswers": true,
   "currentGameCompatibility": {
     "fieldsPerCase": 4,
-    "optionsPerField": "4 a 12; identificação com 8 ou 12",
+    "optionsPerField": "4 a 24; identificação com 8 a 24",
     "startingCardsPerPlayer": 2,
     "minimumPool": 1,
     "maxPlayersByCardCount": 12,
@@ -1089,6 +1089,54 @@
             {
               "id": "C1-O12",
               "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Londrina"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Pelotas"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O19",
+              "text": "São José"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Chapecó"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Maringá"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Boa Vista"
             }
           ],
           "answerId": "C1-O1",
@@ -2094,6 +2142,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional da Serra do Divisor"
             }
           ],
           "answerId": "C1-O2",
@@ -3082,6 +3178,70 @@
             {
               "id": "C1-O8",
               "text": "Chan Chan"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Sítio de Micenas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Acrópole de Atenas"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Templo de Segesta"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Hatra"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Palenque"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Sítio de Epidauro"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Dolmens de Antequera"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monumento de Aksum"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Santuário de Delfos"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Chichén Itzá"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Bagan"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Fórum Romano"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Círculo de Callanish"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Cidade antiga de Meroé"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Panteão de Roma"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Sítio de Delos"
             }
           ],
           "answerId": "C1-O3",
@@ -4076,6 +4236,70 @@
             {
               "id": "C1-O8",
               "text": "Lisboa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Veneza"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Florença"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Atenas"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Estocolmo"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Marselha"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Sevilha"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Amsterdã"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Nápoles"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Porto"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Bruges"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Barcelona"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Gênova"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Cartagena"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Havana"
             }
           ],
           "answerId": "C1-O4",
@@ -6048,6 +6272,70 @@
             {
               "id": "C1-O8",
               "text": "Monte Bandai"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Monte Roraima"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Monte Elbrus"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Monte Denali"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Monte Siple"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Quênia"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Monte Kirkpatrick"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Monte Tyree"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monte Discovery"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Monte Erebus"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Aconcágua"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monte Sidley"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Monte Terra Nova"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Monte Toubkal"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Monte Meru"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Monte Terror"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monte Minto"
             }
           ],
           "answerId": "C1-O2",
@@ -9020,6 +9308,70 @@
             {
               "id": "C1-O8",
               "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Santo Domingo"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Maringá"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Congonhas"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O20",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Pelotas"
             }
           ],
           "answerId": "C1-O1",
@@ -11126,6 +11478,54 @@
             {
               "id": "C1-O12",
               "text": "Belém"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O23",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Brasília"
             }
           ],
           "answerId": "C1-O1",
@@ -12121,6 +12521,54 @@
             {
               "id": "C1-O12",
               "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O13",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Caxias do Sul"
             }
           ],
           "answerId": "C1-O1",
@@ -13120,6 +13568,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional das Emas"
             }
           ],
           "answerId": "C1-O1",
@@ -15165,6 +15661,54 @@
             {
               "id": "C1-O12",
               "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O17",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Boa Vista"
             }
           ],
           "answerId": "C1-O1",
@@ -16158,6 +16702,54 @@
             {
               "id": "C1-O12",
               "text": "Natal"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Londrina"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Curitiba"
             }
           ],
           "answerId": "C1-O1",
@@ -18148,6 +18740,54 @@
             {
               "id": "C1-O12",
               "text": "Palenque"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ayutthaya"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Bagan"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Sukhothai"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Borobudur"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Cidade antiga de Meroé"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Círculo de Brodgar"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monumento de Aksum"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Sítio de Leptis Magna"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Ruínas de Songo Mnara"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Templos de Paestum"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Fórum Romano"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Moray"
             }
           ],
           "answerId": "C1-O1",
@@ -19139,6 +19779,54 @@
             {
               "id": "C1-O12",
               "text": "Veneza"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Nápoles"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Bruges"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Amsterdã"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Berlim"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Atenas"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Marselha"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Gênova"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Cartagena"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Estocolmo"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Havana"
             }
           ],
           "answerId": "C1-O1",
@@ -20136,6 +20824,54 @@
             {
               "id": "C1-O12",
               "text": "Berlim"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Cartagena"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Marselha"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Estocolmo"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Havana"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Amsterdã"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Barcelona"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Gênova"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Sevilha"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Nápoles"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Bruges"
             }
           ],
           "answerId": "C1-O1",
@@ -21131,6 +21867,54 @@
             {
               "id": "C1-O12",
               "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O14",
+              "text": "São João del-Rei"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O16",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Santo Domingo"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Pelotas"
             }
           ],
           "answerId": "C1-O1",
@@ -22236,6 +23020,54 @@
             {
               "id": "C1-O12",
               "text": "Aracaju"
+            },
+            {
+              "id": "C1-O13",
+              "text": "São João del-Rei"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Mariana"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Congonhas"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Tiradentes"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Maringá"
             }
           ],
           "answerId": "C1-O1",
@@ -23285,6 +24117,54 @@
             {
               "id": "C1-O12",
               "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O15",
+              "text": "San Juan"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Pelotas"
+            },
+            {
+              "id": "C1-O18",
+              "text": "São João del-Rei"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Goiás"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Santo Domingo"
             }
           ],
           "answerId": "C1-O1",
@@ -25327,6 +26207,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional Rapa Nui"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional Aoraki / Mount Cook"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional Daintree"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Kakadu"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional Fiordland"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional Purnululu"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional Serengeti"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional Tongariro"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional dos Vulcões do Havaí"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Westland Tai Poutini"
             }
           ],
           "answerId": "C1-O1",
@@ -26320,6 +27248,54 @@
             {
               "id": "C1-O12",
               "text": "Monte Toubkal"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Bandai"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Monte Melbourne"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Monte Terror"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monte Ontake"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Monte Siple"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Monte Discovery"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monte Minto"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Monte Vinson"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Monte Haku"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Monte Craddock"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Monte Sidley"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monte Asama"
             }
           ],
           "answerId": "C1-O1",
@@ -28360,6 +29336,54 @@
             {
               "id": "C1-O12",
               "text": "Monte Kilimanjaro"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Tyree"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Monte Craddock"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Monte Shinn"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monte Etna"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Monte Meru"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Monte Iwate"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monte Bandai"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Aconcágua"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Monte Sakurajima"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Monte Toubkal"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Monte Denali"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monte Haku"
             }
           ],
           "answerId": "C1-O1",
@@ -29463,6 +30487,54 @@
             {
               "id": "C1-O12",
               "text": "Teotihuacán"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Hatra"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Palmira"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Cidade antiga de Meroé"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Fórum Romano"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Éfeso"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Templos de Paestum"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Moray"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Baalbek"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Sítio de Leptis Magna"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Círculo de Brodgar"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Ruínas de Songo Mnara"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monumento de Aksum"
             }
           ],
           "answerId": "C1-O1",
@@ -30454,6 +31526,54 @@
             {
               "id": "C1-O12",
               "text": "Ilha James Ross"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ilha Paulet"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Ilha Norfolk"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Ilha Moreton"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Ilha Kangaroo"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Ilha Kiritimati"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Ilha Rottnest"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Ilha Phillip"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Ilha Stewart"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Ilha Bruny"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Ilha Grande do Havaí"
+            },
+            {
+              "id": "C1-O23",
+              "text": "K’gari"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Ilha Lord Howe"
             }
           ],
           "answerId": "C1-O1",
@@ -32506,6 +33626,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional de Tarangire"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional Jasper"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional do Monte Quênia"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Litchfield"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Sagarmatha"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional Nitmiluk"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional do Pico da Neblina"
             }
           ],
           "answerId": "C1-O1",
@@ -33505,6 +34673,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Denali"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional do Cabo Orange"
             }
           ],
           "answerId": "C1-O1",
@@ -34498,6 +35714,54 @@
             {
               "id": "C1-O12",
               "text": "São Luís"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O15",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Maringá"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Maceió"
             }
           ],
           "answerId": "C1-O1",
@@ -35493,6 +36757,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional de Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional Rapa Nui"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional Serengeti"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Jasper"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional Purnululu"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional Fiordland"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional de Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Tongariro"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional Kakadu"
             }
           ],
           "answerId": "C1-O1",
@@ -39643,6 +40955,54 @@
             {
               "id": "C1-O12",
               "text": "Monte Denali"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Siple"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Monte Melbourne"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Monte Vinson"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monte Asama"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Monte Terror"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Monte Haku"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monte Ontake"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Monte Craddock"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Monte Minto"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Monte Sidley"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Monte Discovery"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monte Bandai"
             }
           ],
           "answerId": "C1-O1",
@@ -42622,6 +43982,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional Purnululu"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Litchfield"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional Serengeti"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Nitmiluk"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional de Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional Daintree"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional Rapa Nui"
             }
           ],
           "answerId": "C1-O1",
@@ -43671,6 +45079,54 @@
             {
               "id": "C1-O12",
               "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O17",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O20",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Rio de Janeiro"
             }
           ],
           "answerId": "C1-O1",
@@ -44718,6 +46174,54 @@
             {
               "id": "C1-O12",
               "text": "Fukuoka"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Berlim"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Londres"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Estocolmo"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Marselha"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Santo Domingo"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O24",
+              "text": "São José"
             }
           ],
           "answerId": "C1-O1",
@@ -45715,6 +47219,54 @@
             {
               "id": "C1-O12",
               "text": "Monte Kilimanjaro"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Monte Terra Nova"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Monte Bandai"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Monte Toubkal"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Monte Etna"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Monte Siple"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Aconcágua"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Monte Denali"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Monte Iwate"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Monte Haku"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Monte Fuji"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Monte Sakurajima"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Monte Meru"
             }
           ],
           "answerId": "C1-O1",
@@ -47875,6 +49427,54 @@
             {
               "id": "C1-O12",
               "text": "Marselha"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Viena"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Cartagena"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Havana"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Madri"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Sevilha"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Atenas"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Sabará"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Praga"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Barcelona"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Berlim"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Londres"
             }
           ],
           "answerId": "C1-O1",
@@ -48870,6 +50470,54 @@
             {
               "id": "C1-O12",
               "text": "Templo de Segesta"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Dolmens de Antequera"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Círculo de Callanish"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Carnac"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Machu Picchu"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Círculo de Brodgar"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Templos de Ġgantija"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Petra"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Grande Zimbábue"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Stonehenge"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Newgrange"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Avebury"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Cidade de Petra"
             }
           ],
           "answerId": "C1-O1",
@@ -52908,6 +54556,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional de Superagui"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Anavilhanas"
             }
           ],
           "answerId": "C1-O1",
@@ -53961,6 +55657,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Denali"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Aparados da Serra"
             }
           ],
           "answerId": "C1-O1",
@@ -56062,6 +57806,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Emas"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional dos Vulcões do Havaí"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional da Serra dos Órgãos"
             }
           ],
           "answerId": "C1-O1",
@@ -57062,6 +58854,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Yellowstone"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional de Emas"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional Rapa Nui"
             }
           ],
           "answerId": "C1-O1",
@@ -59156,6 +60996,54 @@
             {
               "id": "C1-O12",
               "text": "Ilha Snow"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ilha Bridgeman"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Ilha Kiritimati"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Ilha Rottnest"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Ilha Norfolk"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Ilha Moreton"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Ilha Lord Howe"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Ilha Stewart"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Ilha Kangaroo"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Ilha Phillip"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Ilha Bruny"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Ilha Grande do Havaí"
+            },
+            {
+              "id": "C1-O24",
+              "text": "K’gari"
             }
           ],
           "answerId": "C1-O1",
@@ -60159,6 +62047,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional de Denali"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Aparados da Serra"
             }
           ],
           "answerId": "C1-O1",
@@ -62151,6 +64087,54 @@
             {
               "id": "C1-O12",
               "text": "Cidade antiga de Meroé"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Sítio de Micenas"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Carnac"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Templos de Paestum"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Sukhothai"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Sítio de Olímpia"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Newgrange"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Círculo de Callanish"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Písac"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Stonehenge"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Palmira"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Sítio de Epidauro"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Sítio de Delos"
             }
           ],
           "answerId": "C1-O1",
@@ -64133,6 +66117,54 @@
             {
               "id": "C1-O12",
               "text": "Petra"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Palácio de Cnossos"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Santuário de Delfos"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Sítio de Epidauro"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Cidade de Petra"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Fórum Romano"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Templos de Paestum"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Sítio de Delos"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Sítio de Micenas"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Templo de Segesta"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Panteão de Roma"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Sítio de Olímpia"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Acrópole de Lindos"
             }
           ],
           "answerId": "C1-O1",
@@ -68101,6 +70133,54 @@
             {
               "id": "C1-O12",
               "text": "Ilha Stewart"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Ilha Livingston"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Ilha Paulet"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Ilha Smith"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Ilha James Ross"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Ilha Rei George"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Ilha Elefante"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Ilha Joinville"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Ilha Greenwich"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Ilha Snow"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Ilha Dundee"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Ilha Deception"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Ilha Bridgeman"
             }
           ],
           "answerId": "C1-O1",
@@ -69096,6 +71176,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional de Yellowstone"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Yellowstone"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Fiordland"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Aoraki / Mount Cook"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional Abel Tasman"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Uluru-Kata Tjuta"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional do Iguaçu"
             }
           ],
           "answerId": "C1-O1",
@@ -70091,6 +72219,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Glacier"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Yellowstone"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional de Emas"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Iguaçu"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Banff"
             }
           ],
           "answerId": "C1-O1",
@@ -72135,6 +74311,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Tongariro"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Jasper"
             }
           ],
           "answerId": "C1-O1",
@@ -73186,6 +75410,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional de Tongariro"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional de Jasper"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Serengeti"
             }
           ],
           "answerId": "C1-O1",
@@ -74183,6 +76455,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Fiordland"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Banff"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Kakadu"
             }
           ],
           "answerId": "C1-O1",
@@ -78207,6 +80527,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional de Tongariro"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Galápagos"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Jasper"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
             }
           ],
           "answerId": "C1-O1",
@@ -79200,6 +81568,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional de Denali"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Serengeti"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Jericoacoara"
             }
           ],
           "answerId": "C1-O1",
@@ -80249,6 +82665,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional de Fiordland"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Banff"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional Westland Tai Poutini"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional de Kakadu"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Serengeti"
             }
           ],
           "answerId": "C1-O1",
@@ -83350,6 +85814,54 @@
             {
               "id": "C1-O12",
               "text": "Parque Nacional Huascarán"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Parque Nacional do Serengeti"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O17",
+              "text": "Parque Nacional de Glacier"
+            },
+            {
+              "id": "C1-O18",
+              "text": "Parque Nacional de Emas"
+            },
+            {
+              "id": "C1-O19",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O20",
+              "text": "Parque Nacional de Tongariro"
+            },
+            {
+              "id": "C1-O21",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O22",
+              "text": "Parque Nacional do Pantanal Matogrossense"
+            },
+            {
+              "id": "C1-O23",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
+            },
+            {
+              "id": "C1-O24",
+              "text": "Parque Nacional de Nitmiluk"
             }
           ],
           "answerId": "C1-O1",

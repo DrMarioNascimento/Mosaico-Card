@@ -100,7 +100,7 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,id);
    if(edicao==='lugares') {
      const a=master.w.MC_GAME_ENGINE.dados().campos[0], b=player.w.MC_GAME_ENGINE.dados().campos[0];
-     assert.ok([8,12].includes(a.opcoes.length));
+     assert.ok(a.opcoes.length >= 8 && a.opcoes.length <= 24);
      assert.deepEqual(clone(a.opcoes),clone(b.opcoes),'A ordem das alternativas é igual para os jogadores');
      assert.equal(a.opcoes.filter(o=>o.id===a.resposta).length,1);
      click(master,'[data-verbo="arriscar"]');

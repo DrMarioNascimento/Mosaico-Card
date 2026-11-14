@@ -1,6 +1,6 @@
 # Metas de expansão por recorte geográfico
 
-Referência editorial, atualizada em 14/11/2026. Meta inicial: **30 lugares jogáveis para Brasil e 30 para cada continente oferecido na seleção**. Não é uma meta de 30 no catálogo inteiro.
+Referência editorial, atualizada em 14/11/2026. Meta: **30 lugares jogáveis para cada região brasileira e para cada continente oferecido na seleção**, além de no mínimo 30 para o Brasil como um todo. Não é uma meta de 30 no catálogo inteiro.
 
 Um lugar só conta como jogável após ter os dois perfis completos, quatro campos com gabarito único e alternativas revisadas, fontes vinculadas, 25 pistas por perfil e aprovação estrutural. Candidatos, nomes sem pistas, rascunhos e alternativas que apenas aparecem na lista de apostas não contam.
 
@@ -22,17 +22,17 @@ Dentro da América, preservar variedade além do Brasil: buscar pelo menos 15 lu
 
 ## Distribuição brasileira
 
-Para evitar que a meta de 30 se concentre em uma região, o planejamento parte de ao menos seis lugares por região. Esses valores integram os 30 do Brasil e não são adicionais a eles.
+A meta é de 30 lugares jogáveis em cada uma das cinco regiões brasileiras. Esses lugares também contam em Brasil e América, sem duplicação no catálogo ou na seleção combinada.
 
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
-| Norte | 6 | 6 | 0 |
-| Nordeste | 7 | 6 | 0 |
-| Centro-Oeste | 6 | 6 | 0 |
-| Sudeste | 6 | 6 | 0 |
-| Sul | 6 | 6 | 0 |
+| Norte | 6 | 30 | 24 |
+| Nordeste | 7 | 30 | 23 |
+| Centro-Oeste | 6 | 30 | 24 |
+| Sudeste | 6 | 30 | 24 |
+| Sul | 6 | 30 | 24 |
 
-As cinco regiões brasileiras atingiram o mínimo inicial de seis lugares. A diversidade e a dificuldade ainda precisam ser avaliadas em partidas.
+Nenhuma das cinco regiões brasileiras atingiu a meta de 30. A diversidade e a dificuldade ainda precisam ser avaliadas em partidas.
 
 ## Critérios de autoria e revisão
 
@@ -46,4 +46,4 @@ As cinco regiões brasileiras atingiram o mínimo inicial de seis lugares. A div
 
 ## Próximos lotes
 
-Priorizar candidatos revisados de Oceania, Antártida, África e Ásia; em paralelo, completar os grupos Norte, Centro-Oeste, Sudeste e Sul do Brasil. Depois distribuir a expansão entre Europa e América fora do Brasil. O arquivo `data/plano-expansao.json` é uma lista de candidatos, não prova de cobertura nem de aprovação factual. Recalcular esta tabela após cada lote efetivamente integrado.
+Completar todas as cinco regiões brasileiras e os cinco continentes ainda abaixo de 30, mantendo variedade também na América fora do Brasil. O arquivo `data/plano-expansao.json` é uma lista de candidatos, não prova de cobertura nem de aprovação factual. Recalcular esta tabela após cada lote efetivamente integrado.
