@@ -1,0 +1,1021 @@
+{
+  "sources": {
+    "DARIEN159": {
+      "id": "DARIEN159",
+      "title": "Darien National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/159/",
+      "checkedAt": "2026-11-14"
+    },
+    "KATIOS_UNESCO": {
+      "id": "KATIOS_UNESCO",
+      "title": "Los Katíos National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/711/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-darien",
+      "placeId": "darien",
+      "title": "Parque Nacional Darién",
+      "aliases": [
+        "Darién",
+        "Darien"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "PA"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Darién"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Los Katíos"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Coiba"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Chagres"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Soberanía"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Corcovado"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Tortuguero"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Isla del Coco"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Tikal"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional del Manu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Yasuní"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Darién",
+          "sources": [
+            "DARIEN159"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Panamá"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Costa Rica"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Equador"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Panamá",
+          "sources": [
+            "DARIEN159"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "País na fronteira oriental do parque",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Costa Rica"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Honduras"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Nicarágua"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Colômbia",
+          "sources": [
+            "DARIEN159"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Parque colombiano contíguo ao destino",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Parque Nacional Los Katíos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Parque Nacional Tayrona"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Parque Nacional Chiribiquete"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Parque Nacional Sierra Nevada de Santa Marta"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Parque Nacional Los Katíos",
+          "sources": [
+            "KATIOS_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "darien-viajante-P01",
+              "factKey": "darien-F01",
+              "text": "Este destino protege uma grande área de florestas tropicais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P02",
+              "factKey": "darien-F02",
+              "text": "Fica na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P03",
+              "factKey": "darien-F03",
+              "text": "O parque pertence ao Panamá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P04",
+              "factKey": "darien-F04",
+              "text": "A área alcança a fronteira com a Colômbia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P05",
+              "factKey": "darien-F05",
+              "text": "Parte do parque fica junto ao oceano Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P06",
+              "factKey": "darien-F06",
+              "text": "Praias arenosas fazem parte da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P07",
+              "factKey": "darien-F07",
+              "text": "Há também trechos de costa rochosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P08",
+              "factKey": "darien-F08",
+              "text": "Manguezais crescem no litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P09",
+              "factKey": "darien-F09",
+              "text": "Rios atravessam a área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P10",
+              "factKey": "darien-F10",
+              "text": "Florestas de terras baixas e de montanha integram o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P11",
+              "factKey": "darien-F11",
+              "text": "O território reúne ambientes em diferentes altitudes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P12",
+              "factKey": "darien-F12",
+              "text": "A onça-pintada vive na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P13",
+              "factKey": "darien-F13",
+              "text": "A anta centro-americana está entre os animais protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P14",
+              "factKey": "darien-F14",
+              "text": "O tamanduá-bandeira também ocorre no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P15",
+              "factKey": "darien-F15",
+              "text": "A harpia é uma das aves encontradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P16",
+              "factKey": "darien-F16",
+              "text": "Povos indígenas vivem no território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P17",
+              "factKey": "darien-F17",
+              "text": "Comunidades afrodescendentes também vivem na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P18",
+              "factKey": "darien-F18",
+              "text": "Os rios Tuira e Balsas são importantes na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P19",
+              "factKey": "darien-F19",
+              "text": "Em muitas áreas os rios servem como vias de deslocamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P20",
+              "factKey": "darien-F20",
+              "text": "O parque é vizinho de outra área protegida colombiana.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DARIEN159",
+                "KATIOS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P21",
+              "factKey": "darien-F21",
+              "text": "O parque vizinho se chama Los Katíos.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DARIEN159",
+                "KATIOS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P22",
+              "factKey": "darien-F22",
+              "text": "A área foi reconhecida pela UNESCO em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P23",
+              "factKey": "darien-F23",
+              "text": "A expansão agrícola pode pressionar a floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P24",
+              "factKey": "darien-F24",
+              "text": "A proteção envolve direitos das comunidades locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-viajante-P25",
+              "factKey": "darien-F25",
+              "text": "A conservação precisa considerar os impactos de obras de infraestrutura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "darien-geografo-P01",
+              "factKey": "darien-F01",
+              "text": "A unidade ocupa uma posição de conexão entre a América Central e a América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P02",
+              "factKey": "darien-F02",
+              "text": "Seu território está no sudeste do Panamá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P03",
+              "factKey": "darien-F03",
+              "text": "O limite protegido acompanha grande parte da fronteira com a Colômbia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P04",
+              "factKey": "darien-F04",
+              "text": "No lado colombiano é contígua ao Parque Nacional Los Katíos.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DARIEN159",
+                "KATIOS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P05",
+              "factKey": "darien-F05",
+              "text": "O gradiente ambiental vai da costa do Pacífico às montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P06",
+              "factKey": "darien-F06",
+              "text": "Praias arenosas e costas rochosas compõem habitats costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P07",
+              "factKey": "darien-F07",
+              "text": "Manguezais conectam ambientes terrestres e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P08",
+              "factKey": "darien-F08",
+              "text": "Rios e áreas úmidas integram o mosaico ecológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P09",
+              "factKey": "darien-F09",
+              "text": "A unidade abriga extensas florestas tropicais de terras baixas e montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P10",
+              "factKey": "darien-F10",
+              "text": "A transição altitudinal entre florestas favorece deslocamentos de espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P11",
+              "factKey": "darien-F11",
+              "text": "A posição biogeográfica reúne elementos de faunas da América Central e do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P12",
+              "factKey": "darien-F12",
+              "text": "A onça-pintada é um dos predadores encontrados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P13",
+              "factKey": "darien-F13",
+              "text": "A anta centro-americana integra a fauna ameaçada mencionada pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P14",
+              "factKey": "darien-F14",
+              "text": "O tamanduá-bandeira é um dos mamíferos registrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P15",
+              "factKey": "darien-F15",
+              "text": "A harpia possui população relevante no território protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P16",
+              "factKey": "darien-F16",
+              "text": "Povos indígenas emberá, wounaan e guna estão entre as populações da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P17",
+              "factKey": "darien-F17",
+              "text": "Comunidades afrodescendentes também integram a diversidade cultural local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P18",
+              "factKey": "darien-F18",
+              "text": "Os rios Tuira e Balsas conectam áreas da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P19",
+              "factKey": "darien-F19",
+              "text": "Em boa parte do parque os rios são importantes rotas de acesso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P20",
+              "factKey": "darien-F20",
+              "text": "A conservação transfronteiriça amplia a continuidade dos habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P21",
+              "factKey": "darien-F21",
+              "text": "O parque colombiano Los Katíos compartilha ecossistemas adjacentes.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DARIEN159",
+                "KATIOS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P22",
+              "factKey": "darien-F22",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P23",
+              "factKey": "darien-F23",
+              "text": "O avanço da fronteira agrícola pode pressionar as florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P24",
+              "factKey": "darien-F24",
+              "text": "A gestão participativa deve respeitar os direitos das comunidades residentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "darien-geografo-P25",
+              "factKey": "darien-F25",
+              "text": "Projetos de infraestrutura exigem avaliação de efeitos sociais e ambientais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DARIEN159"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque panamenho na fronteira colombiana com florestas, rios, costa do Pacífico e comunidades locais.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas.",
+          "C3 e C4 incluem opções mais comparáveis e a relação com o parque colombiano contíguo, sem afirmar que são um único bem transfronteiriço."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "pending-final-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisão de opções e fontes em andamento"
+      }
+    }
+  ]
+}
