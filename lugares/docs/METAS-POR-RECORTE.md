@@ -11,10 +11,10 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 | Brasil | 12 | 30 | 18 |
 | América | 15 | 30 | 15 |
 | Europa | 3 | 30 | 27 |
-| África | 3 | 30 | 27 |
-| Ásia | 2 | 30 | 28 |
+| África | 5 | 30 | 25 |
+| Ásia | 3 | 30 | 27 |
 | Oceania | 3 | 30 | 27 |
-| Antártida | 2 | 30 | 28 |
+| Antártida | 3 | 30 | 27 |
 
 **Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
 

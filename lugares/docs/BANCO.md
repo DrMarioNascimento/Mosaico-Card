@@ -1720,3 +1720,273 @@ O Monte Erebus é um vulcão ativo na Ilha Ross, na Antártida; pesquisas descre
 - A localização antártica situa o vulcão no Hemisfério Sul.
 - O destino é um relevo vulcânico, não o ponto definido pelo eixo de rotação terrestre.
 - A identificação articula posição polar, Ilha Ross e sistema magmático persistente.
+
+
+## Ampliação da Ásia e Antártida
+
+As fontes institucionais constam do banco; as pautas exigem calibração em partidas.
+
+### Angkor
+
+Angkor, no Camboja, reúne templos Khmer, vestígios de antigas capitais e sistemas de reservatórios, canais e diques.
+
+- **Sítio arqueológico**: Angkor.
+- **Civilização associada**: Khmer.
+- **Templo com esculturas**: Bayon.
+- **País**: Camboja.
+
+**Viajante**
+
+- O destino reúne vestígios de cidades e templos antigos.
+- A região tem monumentos em meio a áreas florestadas.
+- O local fica no Sudeste Asiático.
+- O país atual é o Camboja.
+- A província onde está o conjunto é Siem Reap.
+- A história do sítio está ligada ao Império Khmer.
+- Os vestígios incluem diferentes capitais antigas.
+- As construções abrangem vários séculos.
+- Os templos têm importância religiosa e simbólica.
+- Um templo do conjunto é conhecido por suas faces esculpidas.
+- Esse templo se chama Bayon.
+- O templo das faces fica em um dos antigos núcleos urbanos.
+- Há um amplo templo cujo nome combina com o nome do conjunto.
+- Outro templo importante é Ta Prohm.
+- O patrimônio não é formado por uma única construção.
+- Reservatórios de água fazem parte da paisagem histórica.
+- Canais e diques também foram construídos.
+- Os caminhos conectavam diferentes partes do conjunto.
+- O conjunto se estende por uma área muito ampla.
+- A arquitetura é associada aos Khmer.
+- A região permanece habitada.
+- A agricultura de arroz é praticada por moradores.
+- A conservação envolve monumentos e comunidades.
+- A UNESCO reconhece o sítio como patrimônio mundial.
+- Para identificar o destino, combine templos, água e civilização.
+
+**Geógrafo**
+
+- O recorte arqueológico conserva construções associadas a antigas capitais.
+- O parque arqueológico abrange monumentos e áreas cobertas por floresta.
+- A posição geográfica insere o sítio no Sudeste Asiático.
+- O patrimônio situa-se no território cambojano contemporâneo.
+- A localização administrativa do sítio é a província de Siem Reap.
+- As estruturas remanescentes testemunham o desenvolvimento do Império Khmer.
+- A sucessão de capitais deixou distintos planos urbanos e monumentos.
+- O conjunto preserva realizações aproximadamente entre os séculos IX e XV.
+- O significado do patrimônio envolve funções religiosas e valores simbólicos.
+- O Bayon apresenta numerosas decorações escultóricas.
+- O templo das faces mencionado é o Bayon.
+- O templo das faces integra uma das antigas áreas urbanas do complexo.
+- A denominação de um templo principal incorpora a do complexo arqueológico.
+- Ta Prohm é um dos exemplares de arquitetura Khmer no sítio.
+- O bem compreende monumentos, caminhos e sistemas hidráulicos.
+- Grandes reservatórios integram a engenharia hidráulica do conjunto.
+- As estruturas de manejo da água incluem canais, diques e bacias.
+- A infraestrutura histórica compreendia vias de comunicação entre áreas.
+- A área arqueológica abrange aproximadamente 400 quilômetros quadrados.
+- O patrimônio edificado é uma expressão da arquitetura Khmer.
+- A gestão do patrimônio considera vilas e população residente no sítio.
+- O uso atual do território inclui cultivo de arroz.
+- A gestão busca articular patrimônio, moradores e uso turístico.
+- O conjunto possui reconhecimento internacional por valores culturais.
+- A identificação articula arquitetura religiosa, infraestrutura hídrica e história Khmer.
+
+### Ilha Deception
+
+A Ilha Deception, nas Shetland do Sul, tem uma caldeira vulcânica inundada que forma a baía de Port Foster.
+
+- **Ilha**: Ilha Deception.
+- **Estrutura vulcânica**: Caldeira vulcânica inundada.
+- **Baía no interior da ilha**: Port Foster.
+- **Arquipélago**: Shetland do Sul.
+
+**Viajante**
+
+- O destino é uma ilha em região polar.
+- A ilha tem origem vulcânica.
+- Uma baía abrigada ocupa o interior de uma estrutura vulcânica.
+- A entrada de água não significa que o vulcão esteja extinto.
+- A ilha integra um grupo chamado Shetland do Sul.
+- Ela fica na região da Península Antártica.
+- Uma caldeira é uma grande depressão associada ao vulcanismo.
+- A caldeira local tem cerca de dez quilômetros de largura.
+- A água do mar ocupa a caldeira.
+- A baía é conhecida como Port Foster.
+- A ilha possui registro histórico de erupções.
+- Uma erupção histórica ocorreu em 1970.
+- A área já foi usada por expedições de caça às baleias.
+- Também houve atividades de caça a focas.
+- O lugar recebeu estações científicas.
+- Cientistas estudam a profundidade da baía.
+- Medições do fundo registraram áreas de elevação.
+- Essas mudanças podem estar ligadas à atividade vulcânica.
+- O vulcão inclui materiais basálticos e andesíticos.
+- O destino pode ser comparado a outra montanha vulcânica antártica.
+- A ilha não é o Polo Sul Geográfico.
+- A baía abrigada tem relação direta com a estrutura do relevo.
+- A ilha aparece em estudos do British Antarctic Survey.
+- A história geológica inclui eventos antes e depois da caldeira.
+- Para diferenciá-la, combine ilha, caldeira inundada e baía.
+
+**Geógrafo**
+
+- A posição geográfica pertence à região antártica.
+- O relevo insular corresponde a um grande centro vulcânico.
+- A caldeira inundada funciona como porto natural.
+- A presença de uma caldeira inundada não elimina a história de atividade vulcânica.
+- A localização insular pertence ao arquipélago das Shetland do Sul.
+- O centro vulcânico localiza-se na região da Península Antártica.
+- O colapso de uma estrutura vulcânica pode formar uma depressão chamada caldeira.
+- A dimensão aproximada da depressão vulcânica é de dez quilômetros.
+- O preenchimento marinho transformou a depressão em uma baía.
+- A denominação do porto natural é Port Foster.
+- A história geológica inclui episódios eruptivos anteriores e posteriores à formação da caldeira.
+- O registro descrito pelo estudo do BAS aponta atividade eruptiva em 1970.
+- A história de uso humano inclui apoio a atividades baleeiras.
+- O uso histórico incluiu expedições associadas à exploração de focas.
+- O recorte insular também abriga histórico de atividades de pesquisa.
+- Dados batimétricos permitem acompanhar mudanças no fundo da caldeira inundada.
+- Levantamentos batimétricos apontaram padrões de levantamento em setores da caldeira.
+- A interpretação relaciona alterações do fundo a processos vulcanotectônicos.
+- A composição do edifício vulcânico foi descrita como basalto-andesítica.
+- A origem vulcânica permite compará-lo ao Monte Erebus, embora sejam locais diferentes.
+- Um recorte insular costeiro é distinto do ponto geográfico localizado no interior do continente.
+- A forma da caldeira condiciona a configuração do porto natural.
+- Pesquisas do BAS investigaram sua evolução vulcânica e sua batimetria.
+- O registro estratigráfico permite distinguir fases pré e pós-caldeira.
+- A identificação articula posição nas Shetland do Sul e morfologia vulcânica inundada.
+
+
+## Ampliação de áreas úmidas e savanas africanas
+
+As fontes institucionais constam do banco; as pautas exigem calibração em partidas.
+
+### Delta do Okavango
+
+O Delta do Okavango, em Botsuana, é um sistema interior de áreas úmidas cuja inundação anual chega durante a estação seca local.
+
+- **Destino**: Delta do Okavango.
+- **Tipo de drenagem**: Delta interior sem saída para o mar.
+- **Época da inundação anual no local**: Estação seca local.
+- **País**: Botsuana.
+
+**Viajante**
+
+- O lugar é uma área úmida dentro de um continente.
+- Água doce se espalha por canais e áreas baixas.
+- O sistema não desemboca no mar.
+- A água alcança uma região de areias do Kalahari.
+- O destino fica no noroeste de Botsuana.
+- Existem pântanos que permanecem úmidos o ano todo.
+- Outros trechos alagam apenas em parte do ano.
+- A cheia anual ocorre durante a estação seca local.
+- Plantas e animais respondem ao ritmo das águas.
+- As águas transformam a paisagem em época seca.
+- O rio que alimenta a área dá nome ao destino.
+- Canais, lagoas e pequenas ilhas formam um mosaico.
+- A disponibilidade de água influencia onde animais encontram alimento.
+- Há grandes mamíferos na região.
+- Leões e cães-selvagens africanos aparecem entre a fauna.
+- Existem rinocerontes entre as espécies protegidas.
+- Elefantes são associados à área.
+- As águas têm relação com chuvas em regiões mais distantes.
+- Os ambientes incluem lagoas e rios permanentes e sazonais.
+- Algumas ilhas apresentam comunidades terrestres.
+- O sistema pode ser comparado com outras planícies alagáveis.
+- O deserto do Kalahari ajuda a situar a paisagem.
+- A UNESCO reconhece a importância natural do local.
+- A gestão das águas depende de processos na bacia mais ampla.
+- Para diferenciar de outros locais úmidos, combine país, cheia e ausência de mar.
+
+**Geógrafo**
+
+- O sistema é um delta interior, distante da costa oceânica.
+- A rede distributária forma canais, lagoas e planícies inundáveis.
+- Trata-se de uma drenagem endorreica, sem saída para o oceano.
+- O sistema drena em direção à bacia arenosa do Kalahari.
+- A localização do bem é o setor noroeste de Botsuana.
+- O conjunto inclui áreas permanentemente alagadas.
+- Planícies de inundação sazonal complementam os pântanos permanentes.
+- O pulso de inundação alcança o sistema na estação seca de Botsuana.
+- Os ciclos biológicos se relacionam à chegada sazonal da cheia.
+- O pulso anual conecta a paisagem árida a ambientes úmidos temporários.
+- A denominação do sistema corresponde à do rio que o alimenta.
+- O relevo em transformação inclui canais, ilhas e lagoas.
+- A variação hidrológica altera a distribuição espacial de habitats e recursos.
+- O ambiente abriga mamíferos terrestres de grande porte.
+- Predadores como leões e cães-selvagens utilizam o sistema de áreas úmidas.
+- O conjunto sustenta populações de rinocerontes brancos e negros.
+- A região é importante para a conservação de elefantes africanos.
+- A chegada da cheia depende de processos hidrológicos da bacia a montante.
+- O patrimônio reúne ambientes aquáticos com diferentes regimes de permanência.
+- A variação topográfica cria habitats terrestres em meio à área inundável.
+- Comparar pulso de inundação e localização ajuda a distinguir áreas úmidas.
+- A relação com a bacia do Kalahari distingue este delta de áreas costeiras.
+- O bem é inscrito por seus processos naturais e biodiversidade.
+- Intervenções a montante podem afetar o regime hídrico do delta.
+- A identificação articula localização, pulso sazonal e drenagem endorreica.
+
+### Parque Nacional do Serengeti
+
+O Parque Nacional do Serengeti, na Tanzânia, protege planícies de savana ligadas à migração sazonal de grandes grupos de herbívoros.
+
+- **Destino**: Parque Nacional do Serengeti.
+- **Fenômeno ecológico**: Migração sazonal de herbívoros.
+- **Um predador presente no parque**: Leão.
+- **País**: Tanzânia.
+
+**Viajante**
+
+- O destino protege extensas planícies africanas.
+- A área fica na Tanzânia.
+- O ambiente inclui grandes áreas de savana.
+- Muitos animais se deslocam em busca de água e pasto.
+- Grandes grupos de gnus participam desse movimento.
+- Zebras também participam dos deslocamentos.
+- Gazelas fazem parte dos grandes rebanhos.
+- Predadores acompanham as áreas usadas pelos herbívoros.
+- Leões são encontrados no ecossistema.
+- O parque abriga guepardos.
+- Elefantes também vivem na área.
+- O rinoceronte-negro aparece entre as espécies de interesse para conservação.
+- Algumas rochas se destacam em meio às planícies.
+- Rios e trechos arborizados também fazem parte do cenário.
+- O parque está ligado a um ecossistema mais amplo.
+- A migração ultrapassa limites políticos.
+- A reserva Maasai Mara fica no país vizinho.
+- A disponibilidade de água varia com as estações.
+- A UNESCO reconhece o parque como patrimônio natural.
+- A região tem diferentes habitats terrestres e aquáticos.
+- A chuva e o solo influenciam a vegetação.
+- Os movimentos de animais têm papel no funcionamento do ecossistema.
+- A relação entre herbívoros e predadores é marcante.
+- O local pode ser comparado a outras áreas de savana.
+- Para reconhecer o destino, combine país, savana e migração.
+
+**Geógrafo**
+
+- O parque conserva uma ampla paisagem de savana na África oriental.
+- A localização político-administrativa do parque é a Tanzânia.
+- O sítio protege formações campestres e outros ambientes de savana.
+- A migração acompanha a distribuição sazonal de água e recursos alimentares.
+- Os gnus estão entre os principais herbívoros migratórios do ecossistema.
+- A migração envolve zebras além de outros ungulados.
+- Gazelas integram os movimentos de herbívoros pela paisagem.
+- A interação predador-presa acompanha a dinâmica espacial dos rebanhos.
+- Grandes carnívoros incluem leões entre as espécies da região.
+- A fauna inclui o guepardo, predador de ambientes abertos.
+- A diversidade do parque inclui elefantes africanos.
+- O parque protege habitats usados pelo rinoceronte-negro.
+- A paisagem de savana inclui afloramentos rochosos conhecidos como kopjes.
+- A paisagem inclui cursos d’água e áreas com vegetação lenhosa.
+- A área protegida constitui parte de um sistema ecológico maior.
+- O deslocamento dos animais se relaciona a territórios na Tanzânia e no Quênia.
+- O sistema ecológico relaciona-se à reserva Maasai Mara, no Quênia.
+- A sazonalidade afeta recursos usados pelos animais da savana.
+- O parque possui reconhecimento internacional por seus valores naturais.
+- Variações ambientais contribuem para a diversidade de habitats.
+- Fatores abióticos, como precipitação e solo, condicionam a paisagem.
+- A migração altera interações ecológicas ao longo do tempo e do espaço.
+- O ecossistema apresenta diversas interações entre presas e predadores.
+- A posição geográfica e o padrão de migração ajudam a distinguir parques africanos.
+- A identificação articula localização tanzaniana, planícies e deslocamento de herbívoros.

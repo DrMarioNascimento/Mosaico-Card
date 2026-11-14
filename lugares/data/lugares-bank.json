@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-8-2026-11-14",
+  "catalogVersion": "lote-10-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Vinte e oito destinos jogáveis com dois perfis",
-  "status": "Vinte e oito destinos integrados; revisão editorial comparativa e calibração em partidas pendentes",
+  "scope": "Trinta e dois destinos jogáveis em dois perfis",
+  "status": "Trinta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -493,6 +493,41 @@
       "title": "Antarctic Weather Forecasting Handbook",
       "publisher": "British Antarctic Survey",
       "url": "https://legacy.bas.ac.uk/met/momu/International_Antarctic_Weather_Forecasting_Handbook/7.912_Victoria_Tranant_The%20Ross%20Ice%20Shelf_South%20Pole_%20area.php",
+      "checkedAt": "2026-11-14"
+    },
+    "AN1": {
+      "id": "AN1",
+      "title": "Angkor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/668/",
+      "checkedAt": "2026-11-14"
+    },
+    "DC1": {
+      "id": "DC1",
+      "title": "Lithostratigraphy and volcanic evolution of Deception Island",
+      "publisher": "British Antarctic Survey",
+      "url": "https://www.bas.ac.uk/data/our-data/publication/lithostratigraphy-and-volcanic-evolution-of-deception-island-south-shetland-islands/",
+      "checkedAt": "2026-11-14"
+    },
+    "DC2": {
+      "id": "DC2",
+      "title": "Evidence for shallowing and uplift from bathymetric records of Deception Island",
+      "publisher": "British Antarctic Survey",
+      "url": "https://www.bas.ac.uk/data/our-data/publication/evidence-for-shallowing-and-uplift-from-bathymetric-records-of-deception-island-antarctica/",
+      "checkedAt": "2026-11-14"
+    },
+    "OK1": {
+      "id": "OK1",
+      "title": "Okavango Delta",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1432/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE1": {
+      "id": "SE1",
+      "title": "Serengeti National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/156/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -28862,6 +28897,4044 @@
       },
       "reveal": {
         "canonicalSummary": "O Monte Erebus é um vulcão ativo na Ilha Ross, na Antártida; pesquisas descrevem um lago de lava persistente e a estação McMurdo fica na mesma ilha.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-angkor",
+      "placeId": "angkor",
+      "title": "Angkor",
+      "aliases": [],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "KH"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio arqueológico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Angkor"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Petra"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Machu Picchu"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Borobudur"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ayutthaya"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bagan"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Sukhothai"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Palenque"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Tikal"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Chichén Itzá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Persépolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Teotihuacán"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Angkor",
+          "sources": [
+            "AN1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Civilização associada",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Khmer"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Nabateus"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Incas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Maias"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Khmer",
+          "sources": [
+            "AN1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Templo com esculturas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Bayon"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Partenon"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Panteão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Coliseu"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Bayon",
+          "sources": [
+            "AN1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Camboja"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Tailândia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Jordânia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Peru"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Camboja",
+          "sources": [
+            "AN1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "angkor-viajante-P01",
+              "factKey": "angkor-F01",
+              "text": "O destino reúne vestígios de cidades e templos antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P02",
+              "factKey": "angkor-F02",
+              "text": "A região tem monumentos em meio a áreas florestadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P03",
+              "factKey": "angkor-F03",
+              "text": "O local fica no Sudeste Asiático.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P04",
+              "factKey": "angkor-F04",
+              "text": "O país atual é o Camboja.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P05",
+              "factKey": "angkor-F05",
+              "text": "A província onde está o conjunto é Siem Reap.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P06",
+              "factKey": "angkor-F06",
+              "text": "A história do sítio está ligada ao Império Khmer.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P07",
+              "factKey": "angkor-F07",
+              "text": "Os vestígios incluem diferentes capitais antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P08",
+              "factKey": "angkor-F08",
+              "text": "As construções abrangem vários séculos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P09",
+              "factKey": "angkor-F09",
+              "text": "Os templos têm importância religiosa e simbólica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P10",
+              "factKey": "angkor-F10",
+              "text": "Um templo do conjunto é conhecido por suas faces esculpidas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P11",
+              "factKey": "angkor-F11",
+              "text": "Esse templo se chama Bayon.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P12",
+              "factKey": "angkor-F12",
+              "text": "O templo das faces fica em um dos antigos núcleos urbanos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P13",
+              "factKey": "angkor-F13",
+              "text": "Há um amplo templo cujo nome combina com o nome do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P14",
+              "factKey": "angkor-F14",
+              "text": "Outro templo importante é Ta Prohm.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P15",
+              "factKey": "angkor-F15",
+              "text": "O patrimônio não é formado por uma única construção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P16",
+              "factKey": "angkor-F16",
+              "text": "Reservatórios de água fazem parte da paisagem histórica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P17",
+              "factKey": "angkor-F17",
+              "text": "Canais e diques também foram construídos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P18",
+              "factKey": "angkor-F18",
+              "text": "Os caminhos conectavam diferentes partes do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P19",
+              "factKey": "angkor-F19",
+              "text": "O conjunto se estende por uma área muito ampla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P20",
+              "factKey": "angkor-F20",
+              "text": "A arquitetura é associada aos Khmer.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P21",
+              "factKey": "angkor-F21",
+              "text": "A região permanece habitada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P22",
+              "factKey": "angkor-F22",
+              "text": "A agricultura de arroz é praticada por moradores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P23",
+              "factKey": "angkor-F23",
+              "text": "A conservação envolve monumentos e comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P24",
+              "factKey": "angkor-F24",
+              "text": "A UNESCO reconhece o sítio como patrimônio mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-viajante-P25",
+              "factKey": "angkor-F25",
+              "text": "Para identificar o destino, combine templos, água e civilização.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "angkor-geografo-P01",
+              "factKey": "angkor-F01",
+              "text": "O recorte arqueológico conserva construções associadas a antigas capitais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P02",
+              "factKey": "angkor-F02",
+              "text": "O parque arqueológico abrange monumentos e áreas cobertas por floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P03",
+              "factKey": "angkor-F03",
+              "text": "A posição geográfica insere o sítio no Sudeste Asiático.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P04",
+              "factKey": "angkor-F04",
+              "text": "O patrimônio situa-se no território cambojano contemporâneo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P05",
+              "factKey": "angkor-F05",
+              "text": "A localização administrativa do sítio é a província de Siem Reap.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P06",
+              "factKey": "angkor-F06",
+              "text": "As estruturas remanescentes testemunham o desenvolvimento do Império Khmer.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P07",
+              "factKey": "angkor-F07",
+              "text": "A sucessão de capitais deixou distintos planos urbanos e monumentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P08",
+              "factKey": "angkor-F08",
+              "text": "O conjunto preserva realizações aproximadamente entre os séculos IX e XV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P09",
+              "factKey": "angkor-F09",
+              "text": "O significado do patrimônio envolve funções religiosas e valores simbólicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P10",
+              "factKey": "angkor-F10",
+              "text": "O Bayon apresenta numerosas decorações escultóricas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P11",
+              "factKey": "angkor-F11",
+              "text": "O templo das faces mencionado é o Bayon.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P12",
+              "factKey": "angkor-F12",
+              "text": "O templo das faces integra uma das antigas áreas urbanas do complexo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P13",
+              "factKey": "angkor-F13",
+              "text": "A denominação de um templo principal incorpora a do complexo arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P14",
+              "factKey": "angkor-F14",
+              "text": "Ta Prohm é um dos exemplares de arquitetura Khmer no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P15",
+              "factKey": "angkor-F15",
+              "text": "O bem compreende monumentos, caminhos e sistemas hidráulicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P16",
+              "factKey": "angkor-F16",
+              "text": "Grandes reservatórios integram a engenharia hidráulica do conjunto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P17",
+              "factKey": "angkor-F17",
+              "text": "As estruturas de manejo da água incluem canais, diques e bacias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P18",
+              "factKey": "angkor-F18",
+              "text": "A infraestrutura histórica compreendia vias de comunicação entre áreas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P19",
+              "factKey": "angkor-F19",
+              "text": "A área arqueológica abrange aproximadamente 400 quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P20",
+              "factKey": "angkor-F20",
+              "text": "O patrimônio edificado é uma expressão da arquitetura Khmer.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P21",
+              "factKey": "angkor-F21",
+              "text": "A gestão do patrimônio considera vilas e população residente no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P22",
+              "factKey": "angkor-F22",
+              "text": "O uso atual do território inclui cultivo de arroz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P23",
+              "factKey": "angkor-F23",
+              "text": "A gestão busca articular patrimônio, moradores e uso turístico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P24",
+              "factKey": "angkor-F24",
+              "text": "O conjunto possui reconhecimento internacional por valores culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "angkor-geografo-P25",
+              "factKey": "angkor-F25",
+              "text": "A identificação articula arquitetura religiosa, infraestrutura hídrica e história Khmer.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "AN1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Angkor, no Camboja, reúne templos Khmer, vestígios de antigas capitais e sistemas de reservatórios, canais e diques.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-deception",
+      "placeId": "deception",
+      "title": "Ilha Deception",
+      "aliases": [
+        "Deception"
+      ],
+      "answerType": "ilha",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilha Deception"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha Ross"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha Rei George"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha Livingston"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha Elefante"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha Bridgeman"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha Smith"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Snow"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha Greenwich"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha Joinville"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha Dundee"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha James Ross"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilha Deception",
+          "sources": [
+            "DC1",
+            "DC2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estrutura vulcânica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Caldeira vulcânica inundada"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Recife de coral tropical"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Campo exclusivo de dunas eólicas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ponto geográfico definido pelo eixo terrestre"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Caldeira vulcânica inundada",
+          "sources": [
+            "DC1",
+            "DC2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Baía no interior da ilha",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Port Foster"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mar de Ross"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Baía de Guanabara"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Baía de Hudson"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Port Foster",
+          "sources": [
+            "DC1",
+            "DC2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Arquipélago",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Shetland do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Açores"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Galápagos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Canárias"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Shetland do Sul",
+          "sources": [
+            "DC1",
+            "DC2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "deception-viajante-P01",
+              "factKey": "deception-F01",
+              "text": "O destino é uma ilha em região polar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P02",
+              "factKey": "deception-F02",
+              "text": "A ilha tem origem vulcânica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P03",
+              "factKey": "deception-F03",
+              "text": "Uma baía abrigada ocupa o interior de uma estrutura vulcânica.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P04",
+              "factKey": "deception-F04",
+              "text": "A entrada de água não significa que o vulcão esteja extinto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P05",
+              "factKey": "deception-F05",
+              "text": "A ilha integra um grupo chamado Shetland do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P06",
+              "factKey": "deception-F06",
+              "text": "Ela fica na região da Península Antártica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P07",
+              "factKey": "deception-F07",
+              "text": "Uma caldeira é uma grande depressão associada ao vulcanismo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P08",
+              "factKey": "deception-F08",
+              "text": "A caldeira local tem cerca de dez quilômetros de largura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P09",
+              "factKey": "deception-F09",
+              "text": "A água do mar ocupa a caldeira.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P10",
+              "factKey": "deception-F10",
+              "text": "A baía é conhecida como Port Foster.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P11",
+              "factKey": "deception-F11",
+              "text": "A ilha possui registro histórico de erupções.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P12",
+              "factKey": "deception-F12",
+              "text": "Uma erupção histórica ocorreu em 1970.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P13",
+              "factKey": "deception-F13",
+              "text": "A área já foi usada por expedições de caça às baleias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P14",
+              "factKey": "deception-F14",
+              "text": "Também houve atividades de caça a focas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P15",
+              "factKey": "deception-F15",
+              "text": "O lugar recebeu estações científicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P16",
+              "factKey": "deception-F16",
+              "text": "Cientistas estudam a profundidade da baía.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P17",
+              "factKey": "deception-F17",
+              "text": "Medições do fundo registraram áreas de elevação.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P18",
+              "factKey": "deception-F18",
+              "text": "Essas mudanças podem estar ligadas à atividade vulcânica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P19",
+              "factKey": "deception-F19",
+              "text": "O vulcão inclui materiais basálticos e andesíticos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P20",
+              "factKey": "deception-F20",
+              "text": "O destino pode ser comparado a outra montanha vulcânica antártica.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P21",
+              "factKey": "deception-F21",
+              "text": "A ilha não é o Polo Sul Geográfico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P22",
+              "factKey": "deception-F22",
+              "text": "A baía abrigada tem relação direta com a estrutura do relevo.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P23",
+              "factKey": "deception-F23",
+              "text": "A ilha aparece em estudos do British Antarctic Survey.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P24",
+              "factKey": "deception-F24",
+              "text": "A história geológica inclui eventos antes e depois da caldeira.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-viajante-P25",
+              "factKey": "deception-F25",
+              "text": "Para diferenciá-la, combine ilha, caldeira inundada e baía.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "deception-geografo-P01",
+              "factKey": "deception-F01",
+              "text": "A posição geográfica pertence à região antártica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P02",
+              "factKey": "deception-F02",
+              "text": "O relevo insular corresponde a um grande centro vulcânico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P03",
+              "factKey": "deception-F03",
+              "text": "A caldeira inundada funciona como porto natural.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P04",
+              "factKey": "deception-F04",
+              "text": "A presença de uma caldeira inundada não elimina a história de atividade vulcânica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P05",
+              "factKey": "deception-F05",
+              "text": "A localização insular pertence ao arquipélago das Shetland do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P06",
+              "factKey": "deception-F06",
+              "text": "O centro vulcânico localiza-se na região da Península Antártica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P07",
+              "factKey": "deception-F07",
+              "text": "O colapso de uma estrutura vulcânica pode formar uma depressão chamada caldeira.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P08",
+              "factKey": "deception-F08",
+              "text": "A dimensão aproximada da depressão vulcânica é de dez quilômetros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P09",
+              "factKey": "deception-F09",
+              "text": "O preenchimento marinho transformou a depressão em uma baía.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P10",
+              "factKey": "deception-F10",
+              "text": "A denominação do porto natural é Port Foster.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P11",
+              "factKey": "deception-F11",
+              "text": "A história geológica inclui episódios eruptivos anteriores e posteriores à formação da caldeira.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P12",
+              "factKey": "deception-F12",
+              "text": "O registro descrito pelo estudo do BAS aponta atividade eruptiva em 1970.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P13",
+              "factKey": "deception-F13",
+              "text": "A história de uso humano inclui apoio a atividades baleeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P14",
+              "factKey": "deception-F14",
+              "text": "O uso histórico incluiu expedições associadas à exploração de focas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P15",
+              "factKey": "deception-F15",
+              "text": "O recorte insular também abriga histórico de atividades de pesquisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P16",
+              "factKey": "deception-F16",
+              "text": "Dados batimétricos permitem acompanhar mudanças no fundo da caldeira inundada.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P17",
+              "factKey": "deception-F17",
+              "text": "Levantamentos batimétricos apontaram padrões de levantamento em setores da caldeira.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P18",
+              "factKey": "deception-F18",
+              "text": "A interpretação relaciona alterações do fundo a processos vulcanotectônicos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P19",
+              "factKey": "deception-F19",
+              "text": "A composição do edifício vulcânico foi descrita como basalto-andesítica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P20",
+              "factKey": "deception-F20",
+              "text": "A origem vulcânica permite compará-lo ao Monte Erebus, embora sejam locais diferentes.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P21",
+              "factKey": "deception-F21",
+              "text": "Um recorte insular costeiro é distinto do ponto geográfico localizado no interior do continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P22",
+              "factKey": "deception-F22",
+              "text": "A forma da caldeira condiciona a configuração do porto natural.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P23",
+              "factKey": "deception-F23",
+              "text": "Pesquisas do BAS investigaram sua evolução vulcânica e sua batimetria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P24",
+              "factKey": "deception-F24",
+              "text": "O registro estratigráfico permite distinguir fases pré e pós-caldeira.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "deception-geografo-P25",
+              "factKey": "deception-F25",
+              "text": "A identificação articula posição nas Shetland do Sul e morfologia vulcânica inundada.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DC1",
+                "DC2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A Ilha Deception, nas Shetland do Sul, tem uma caldeira vulcânica inundada que forma a baía de Port Foster.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-okavango",
+      "placeId": "okavango",
+      "title": "Delta do Okavango",
+      "aliases": [
+        "Okavango"
+      ],
+      "answerType": "delta",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BW"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Destino",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Delta do Okavango"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Delta do Nilo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Delta do Danúbio"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Delta do Parnaíba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Delta do Mekong"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Delta do Níger"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Delta do Mississippi"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Delta do Amazonas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Esteros del Iberá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Área de Conservação do Pantanal"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Everglades"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Delta do Volga"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Delta do Okavango",
+          "sources": [
+            "OK1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Tipo de drenagem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Delta interior sem saída para o mar"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Delta que deságua diretamente no oceano"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Geleira marinha flutuante"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Recife de coral"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Delta interior sem saída para o mar",
+          "sources": [
+            "OK1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Época da inundação anual no local",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Estação seca local"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Somente durante uma nevasca polar"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Apenas no auge de marés oceânicas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A cada cem anos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Estação seca local",
+          "sources": [
+            "OK1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Botsuana"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Egito"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Brasil"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Botsuana",
+          "sources": [
+            "OK1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "okavango-viajante-P01",
+              "factKey": "okavango-F01",
+              "text": "O lugar é uma área úmida dentro de um continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P02",
+              "factKey": "okavango-F02",
+              "text": "Água doce se espalha por canais e áreas baixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P03",
+              "factKey": "okavango-F03",
+              "text": "O sistema não desemboca no mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P04",
+              "factKey": "okavango-F04",
+              "text": "A água alcança uma região de areias do Kalahari.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P05",
+              "factKey": "okavango-F05",
+              "text": "O destino fica no noroeste de Botsuana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P06",
+              "factKey": "okavango-F06",
+              "text": "Existem pântanos que permanecem úmidos o ano todo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P07",
+              "factKey": "okavango-F07",
+              "text": "Outros trechos alagam apenas em parte do ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P08",
+              "factKey": "okavango-F08",
+              "text": "A cheia anual ocorre durante a estação seca local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P09",
+              "factKey": "okavango-F09",
+              "text": "Plantas e animais respondem ao ritmo das águas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P10",
+              "factKey": "okavango-F10",
+              "text": "As águas transformam a paisagem em época seca.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P11",
+              "factKey": "okavango-F11",
+              "text": "O rio que alimenta a área dá nome ao destino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P12",
+              "factKey": "okavango-F12",
+              "text": "Canais, lagoas e pequenas ilhas formam um mosaico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P13",
+              "factKey": "okavango-F13",
+              "text": "A disponibilidade de água influencia onde animais encontram alimento.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P14",
+              "factKey": "okavango-F14",
+              "text": "Há grandes mamíferos na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P15",
+              "factKey": "okavango-F15",
+              "text": "Leões e cães-selvagens africanos aparecem entre a fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P16",
+              "factKey": "okavango-F16",
+              "text": "Existem rinocerontes entre as espécies protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P17",
+              "factKey": "okavango-F17",
+              "text": "Elefantes são associados à área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P18",
+              "factKey": "okavango-F18",
+              "text": "As águas têm relação com chuvas em regiões mais distantes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P19",
+              "factKey": "okavango-F19",
+              "text": "Os ambientes incluem lagoas e rios permanentes e sazonais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P20",
+              "factKey": "okavango-F20",
+              "text": "Algumas ilhas apresentam comunidades terrestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P21",
+              "factKey": "okavango-F21",
+              "text": "O sistema pode ser comparado com outras planícies alagáveis.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P22",
+              "factKey": "okavango-F22",
+              "text": "O deserto do Kalahari ajuda a situar a paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P23",
+              "factKey": "okavango-F23",
+              "text": "A UNESCO reconhece a importância natural do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P24",
+              "factKey": "okavango-F24",
+              "text": "A gestão das águas depende de processos na bacia mais ampla.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-viajante-P25",
+              "factKey": "okavango-F25",
+              "text": "Para diferenciar de outros locais úmidos, combine país, cheia e ausência de mar.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "okavango-geografo-P01",
+              "factKey": "okavango-F01",
+              "text": "O sistema é um delta interior, distante da costa oceânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P02",
+              "factKey": "okavango-F02",
+              "text": "A rede distributária forma canais, lagoas e planícies inundáveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P03",
+              "factKey": "okavango-F03",
+              "text": "Trata-se de uma drenagem endorreica, sem saída para o oceano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P04",
+              "factKey": "okavango-F04",
+              "text": "O sistema drena em direção à bacia arenosa do Kalahari.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P05",
+              "factKey": "okavango-F05",
+              "text": "A localização do bem é o setor noroeste de Botsuana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P06",
+              "factKey": "okavango-F06",
+              "text": "O conjunto inclui áreas permanentemente alagadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P07",
+              "factKey": "okavango-F07",
+              "text": "Planícies de inundação sazonal complementam os pântanos permanentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P08",
+              "factKey": "okavango-F08",
+              "text": "O pulso de inundação alcança o sistema na estação seca de Botsuana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P09",
+              "factKey": "okavango-F09",
+              "text": "Os ciclos biológicos se relacionam à chegada sazonal da cheia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P10",
+              "factKey": "okavango-F10",
+              "text": "O pulso anual conecta a paisagem árida a ambientes úmidos temporários.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P11",
+              "factKey": "okavango-F11",
+              "text": "A denominação do sistema corresponde à do rio que o alimenta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P12",
+              "factKey": "okavango-F12",
+              "text": "O relevo em transformação inclui canais, ilhas e lagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P13",
+              "factKey": "okavango-F13",
+              "text": "A variação hidrológica altera a distribuição espacial de habitats e recursos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P14",
+              "factKey": "okavango-F14",
+              "text": "O ambiente abriga mamíferos terrestres de grande porte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P15",
+              "factKey": "okavango-F15",
+              "text": "Predadores como leões e cães-selvagens utilizam o sistema de áreas úmidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P16",
+              "factKey": "okavango-F16",
+              "text": "O conjunto sustenta populações de rinocerontes brancos e negros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P17",
+              "factKey": "okavango-F17",
+              "text": "A região é importante para a conservação de elefantes africanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P18",
+              "factKey": "okavango-F18",
+              "text": "A chegada da cheia depende de processos hidrológicos da bacia a montante.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P19",
+              "factKey": "okavango-F19",
+              "text": "O patrimônio reúne ambientes aquáticos com diferentes regimes de permanência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P20",
+              "factKey": "okavango-F20",
+              "text": "A variação topográfica cria habitats terrestres em meio à área inundável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P21",
+              "factKey": "okavango-F21",
+              "text": "Comparar pulso de inundação e localização ajuda a distinguir áreas úmidas.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P22",
+              "factKey": "okavango-F22",
+              "text": "A relação com a bacia do Kalahari distingue este delta de áreas costeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P23",
+              "factKey": "okavango-F23",
+              "text": "O bem é inscrito por seus processos naturais e biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P24",
+              "factKey": "okavango-F24",
+              "text": "Intervenções a montante podem afetar o regime hídrico do delta.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "okavango-geografo-P25",
+              "factKey": "okavango-F25",
+              "text": "A identificação articula localização, pulso sazonal e drenagem endorreica.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "OK1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Delta do Okavango, em Botsuana, é um sistema interior de áreas úmidas cuja inundação anual chega durante a estação seca local.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-serengeti",
+      "placeId": "serengeti",
+      "title": "Parque Nacional do Serengeti",
+      "aliases": [
+        "Serengeti"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "TZ"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Destino",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Serengeti"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Reserva Nacional Maasai Mara"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Kruger"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Etosha"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Chobe"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Amboseli"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Hwange"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Yellowstone"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Kakadu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Yosemite"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Tarangire"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Serengeti",
+          "sources": [
+            "SE1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Fenômeno ecológico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Migração sazonal de herbívoros"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Degelo diário de uma geleira polar"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Branqueamento de recifes oceânicos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Migração de baleias por alto-mar"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Migração sazonal de herbívoros",
+          "sources": [
+            "SE1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Um predador presente no parque",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Leão"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Urso-polar"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pinguim-imperador"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Morsa"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Leão",
+          "sources": [
+            "SE1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Quênia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Botsuana"
+            },
+            {
+              "id": "C4-O4",
+              "text": "África do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Tanzânia",
+          "sources": [
+            "SE1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "serengeti-viajante-P01",
+              "factKey": "serengeti-F01",
+              "text": "O destino protege extensas planícies africanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P02",
+              "factKey": "serengeti-F02",
+              "text": "A área fica na Tanzânia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P03",
+              "factKey": "serengeti-F03",
+              "text": "O ambiente inclui grandes áreas de savana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P04",
+              "factKey": "serengeti-F04",
+              "text": "Muitos animais se deslocam em busca de água e pasto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P05",
+              "factKey": "serengeti-F05",
+              "text": "Grandes grupos de gnus participam desse movimento.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P06",
+              "factKey": "serengeti-F06",
+              "text": "Zebras também participam dos deslocamentos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P07",
+              "factKey": "serengeti-F07",
+              "text": "Gazelas fazem parte dos grandes rebanhos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P08",
+              "factKey": "serengeti-F08",
+              "text": "Predadores acompanham as áreas usadas pelos herbívoros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P09",
+              "factKey": "serengeti-F09",
+              "text": "Leões são encontrados no ecossistema.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P10",
+              "factKey": "serengeti-F10",
+              "text": "O parque abriga guepardos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P11",
+              "factKey": "serengeti-F11",
+              "text": "Elefantes também vivem na área.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P12",
+              "factKey": "serengeti-F12",
+              "text": "O rinoceronte-negro aparece entre as espécies de interesse para conservação.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P13",
+              "factKey": "serengeti-F13",
+              "text": "Algumas rochas se destacam em meio às planícies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P14",
+              "factKey": "serengeti-F14",
+              "text": "Rios e trechos arborizados também fazem parte do cenário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P15",
+              "factKey": "serengeti-F15",
+              "text": "O parque está ligado a um ecossistema mais amplo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P16",
+              "factKey": "serengeti-F16",
+              "text": "A migração ultrapassa limites políticos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P17",
+              "factKey": "serengeti-F17",
+              "text": "A reserva Maasai Mara fica no país vizinho.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P18",
+              "factKey": "serengeti-F18",
+              "text": "A disponibilidade de água varia com as estações.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P19",
+              "factKey": "serengeti-F19",
+              "text": "A UNESCO reconhece o parque como patrimônio natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P20",
+              "factKey": "serengeti-F20",
+              "text": "A região tem diferentes habitats terrestres e aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P21",
+              "factKey": "serengeti-F21",
+              "text": "A chuva e o solo influenciam a vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P22",
+              "factKey": "serengeti-F22",
+              "text": "Os movimentos de animais têm papel no funcionamento do ecossistema.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P23",
+              "factKey": "serengeti-F23",
+              "text": "A relação entre herbívoros e predadores é marcante.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P24",
+              "factKey": "serengeti-F24",
+              "text": "O local pode ser comparado a outras áreas de savana.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-viajante-P25",
+              "factKey": "serengeti-F25",
+              "text": "Para reconhecer o destino, combine país, savana e migração.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "serengeti-geografo-P01",
+              "factKey": "serengeti-F01",
+              "text": "O parque conserva uma ampla paisagem de savana na África oriental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P02",
+              "factKey": "serengeti-F02",
+              "text": "A localização político-administrativa do parque é a Tanzânia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P03",
+              "factKey": "serengeti-F03",
+              "text": "O sítio protege formações campestres e outros ambientes de savana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P04",
+              "factKey": "serengeti-F04",
+              "text": "A migração acompanha a distribuição sazonal de água e recursos alimentares.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P05",
+              "factKey": "serengeti-F05",
+              "text": "Os gnus estão entre os principais herbívoros migratórios do ecossistema.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P06",
+              "factKey": "serengeti-F06",
+              "text": "A migração envolve zebras além de outros ungulados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P07",
+              "factKey": "serengeti-F07",
+              "text": "Gazelas integram os movimentos de herbívoros pela paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P08",
+              "factKey": "serengeti-F08",
+              "text": "A interação predador-presa acompanha a dinâmica espacial dos rebanhos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P09",
+              "factKey": "serengeti-F09",
+              "text": "Grandes carnívoros incluem leões entre as espécies da região.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P10",
+              "factKey": "serengeti-F10",
+              "text": "A fauna inclui o guepardo, predador de ambientes abertos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P11",
+              "factKey": "serengeti-F11",
+              "text": "A diversidade do parque inclui elefantes africanos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P12",
+              "factKey": "serengeti-F12",
+              "text": "O parque protege habitats usados pelo rinoceronte-negro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P13",
+              "factKey": "serengeti-F13",
+              "text": "A paisagem de savana inclui afloramentos rochosos conhecidos como kopjes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P14",
+              "factKey": "serengeti-F14",
+              "text": "A paisagem inclui cursos d’água e áreas com vegetação lenhosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P15",
+              "factKey": "serengeti-F15",
+              "text": "A área protegida constitui parte de um sistema ecológico maior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P16",
+              "factKey": "serengeti-F16",
+              "text": "O deslocamento dos animais se relaciona a territórios na Tanzânia e no Quênia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P17",
+              "factKey": "serengeti-F17",
+              "text": "O sistema ecológico relaciona-se à reserva Maasai Mara, no Quênia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P18",
+              "factKey": "serengeti-F18",
+              "text": "A sazonalidade afeta recursos usados pelos animais da savana.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P19",
+              "factKey": "serengeti-F19",
+              "text": "O parque possui reconhecimento internacional por seus valores naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P20",
+              "factKey": "serengeti-F20",
+              "text": "Variações ambientais contribuem para a diversidade de habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P21",
+              "factKey": "serengeti-F21",
+              "text": "Fatores abióticos, como precipitação e solo, condicionam a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P22",
+              "factKey": "serengeti-F22",
+              "text": "A migração altera interações ecológicas ao longo do tempo e do espaço.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P23",
+              "factKey": "serengeti-F23",
+              "text": "O ecossistema apresenta diversas interações entre presas e predadores.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P24",
+              "factKey": "serengeti-F24",
+              "text": "A posição geográfica e o padrão de migração ajudam a distinguir parques africanos.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serengeti-geografo-P25",
+              "factKey": "serengeti-F25",
+              "text": "A identificação articula localização tanzaniana, planícies e deslocamento de herbívoros.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "SE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional do Serengeti, na Tanzânia, protege planícies de savana ligadas à migração sazonal de grandes grupos de herbívoros.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

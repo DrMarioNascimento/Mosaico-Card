@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 125,
+  "targetPlaces": 128,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -29,7 +29,11 @@
     "Parque Nacional Uluru-Kata Tjuta",
     "Monte Kilimanjaro",
     "Área de Conservação do Pantanal",
-    "Monte Erebus"
+    "Monte Erebus",
+    "Angkor",
+    "Ilha Deception",
+    "Delta do Okavango",
+    "Parque Nacional do Serengeti"
   ],
   "groups": {
     "Brasil Norte": [
@@ -143,7 +147,8 @@
       "Rio Nilo",
       "Monte Kilimanjaro",
       "Cataratas Vitória",
-      "Serengeti"
+      "Serengeti",
+      "Delta do Okavango"
     ],
     "Ásia": [
       "Japão",
@@ -159,7 +164,8 @@
       "Himalaia",
       "Rio Ganges",
       "Mar Morto",
-      "Petra"
+      "Petra",
+      "Angkor"
     ],
     "Oceania": [
       "Austrália",
@@ -177,7 +183,8 @@
       "Polo Sul Geográfico",
       "Península Antártica",
       "Mar de Ross",
-      "Monte Erebus"
+      "Monte Erebus",
+      "Ilha Deception"
     ]
   },
   "classificationNotes": [
