@@ -57,7 +57,7 @@ A partir da raiz, `npm run test:lugares` verifica fontes, gabaritos, pareamento,
 
 Reutiliza o Firebase existente e sua coleção autorizada `salas-cinema`, identificando as novas salas com `config.edicao = "lugares"`. A coleção é infraestrutura de transporte; o catálogo, a memória de reconexão e o sorteio são próprios de Lugares. Cinema e Lugares validam a edição antes da entrada; códigos incompatíveis orientam a usar o link do mestre. As regras de segurança e a lista de mestres não foram alteradas.
 
-A página compartilha CSS de componentes, autenticação, QR, regras e o reducer da mesa. Os arquivos de apresentação e sala que dependem do conteúdo ficam nesta pasta. Não há novas imagens pesadas; a identidade usa CSS e texto.
+A página compartilha CSS de componentes, autenticação, QR, regras e o reducer da mesa. Os arquivos de apresentação e sala que dependem do conteúdo ficam nesta pasta. A capa usa globo, mapa e bússola com iluminação dourada, no mesmo padrão das demais edições. A carta bônus tem imagem própria de bússola com transparência. Os dois arquivos WebP somam cerca de 164 KiB; a capa é reutilizada na abertura.
 
 ## Limites de revisão
 

@@ -11,3 +11,10 @@ body{background:radial-gradient(ellipse at 40% 5%,#214a43,#102c32 48%,#091b25) f
 .carta-costa,.flip-back{background:repeating-linear-gradient(45deg,transparent 0 16px,#e5ca8022 17px 18px),radial-gradient(circle,#35695d,#173a45);border:1px solid #dab96e}.carta-costa::after{content:'◎';font:32px Georgia,serif;color:#f3d28b;text-shadow:0 2px 3px #000}.cell-saldo .stash-art .bag,.cell-saldo .stash-art .wallet{background:linear-gradient(145deg,#ba9857,#6a4f2d);border:2px solid #dfbf7c;border-radius:9px;box-shadow:inset 1px 2px 2px #fff5,0 4px 4px #0005}.cell-saldo .stash-art .coin{background:var(--coin-face);border-radius:50%}.bussola-chamada{text-align:center}.bussola-chamada span{display:block;font-size:16px}.bussola-chamada strong{display:block;font-size:24px}.bussola-art{display:block;text-align:center;font-size:100px;line-height:1.5}.bussola-valor{text-align:center;font-weight:800;font-size:20px}
 @media(max-width:480px){.perfil-grupo{grid-template-columns:1fr}.territorio-op{font-size:12px;gap:6px;padding:9px 7px}.lugares-config input{width:17px;height:17px;flex-basis:17px}.lugares-globo{width:105px;height:105px;font-size:90px}.lugares-art{height:145px}.sessao-grupo{padding:14px!important}}
 @media(prefers-reduced-motion:reduce){.lugares-globo{animation:none}}
+
+/* Capas e bônus com a mesma linguagem de materiais e luz das outras edições. */
+.lugares-art{display:block;width:min(570px,100%);height:auto;aspect-ratio:16/9;margin:20px auto 14px!important;border-radius:16px;overflow:hidden;box-shadow:0 14px 32px #0007,inset 0 1px 0 #efcb8940}
+.lugares-capa{display:block;width:100%;height:100%;object-fit:cover}
+.bussola-chamada{color:#725426}.bussola-chamada strong{font-size:20px;line-height:1.15}
+.bussola-art{display:block;width:90%;height:auto;max-height:58%;min-height:0;object-fit:contain;margin:8px auto;filter:drop-shadow(0 6px 5px #51351b44)}
+@media(max-height:740px) and (min-width:700px){.lugares-art{width:min(420px,100%)}}

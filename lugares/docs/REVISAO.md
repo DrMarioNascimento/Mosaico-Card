@@ -26,3 +26,7 @@ Lugares integrado à página inicial e ao motor de salas do Mosaico Card. Primei
 ## Limites
 
 A prévia local não ficou acessível no navegador remoto. A verificação do endereço público acompanha a publicação. Testes automatizados e emulador não equivalem a uma partida com pessoas em aparelhos físicos, nem medem engajamento ou calibram a dificuldade. O catálogo permanece um primeiro lote, com pouca variedade quando filtrado para um único continente.
+
+## Atualização visual — 14/11/2026
+
+A comparação com Novo Testamento e Filmes e Séries identificou que o símbolo de Lugares não tinha a mesma riqueza de materiais, volume e iluminação. Foi substituído por uma capa de globo, mapa e bússola, com o mesmo enquadramento 16:9 e os mesmos componentes de título, descrição e botão. A abertura reutiliza a capa. A carta bônus passou a mostrar uma bússola de latão com fundo transparente, mantendo os 6 créditos e as regras existentes. Imagens geradas para o projeto e otimizadas em WebP.

@@ -436,7 +436,7 @@
     if (!eBússola(id)) { if (depois) depois(); return; }
     const item = peca(id), stage = $("#flip-stage"), front = $("#flip-front"), msg = $("#flip-msg"), inner = $("#flip-inner");
     if (!stage || !front) { if (depois) depois(); return; }
-    front.innerHTML = "<div class='bussola-chamada'><span>Você ganhou</span><strong>UMA BÚSSOLA</strong></div><span class='bussola-art' aria-hidden='true'>🧭</span><p class='bussola-valor'>Vale 6 créditos</p>";
+    front.innerHTML = "<div class='bussola-chamada'><span>Você ganhou</span><strong>UMA BÚSSOLA</strong></div><img class='bussola-art' src='assets/bussola-v1.webp' width='512' height='512' alt='Bússola dourada de latão'><p class='bussola-valor'>Vale 6 créditos</p>";
     msg.textContent = jogador === idJogadorLocal() ? "Ganhou uma bússola que vale 6 créditos! A carta sai do jogo." : (NOMES[jogador] || "Alguém") + " ganhou uma bússola que vale 6 créditos.";
     if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
     stage.hidden = false;
