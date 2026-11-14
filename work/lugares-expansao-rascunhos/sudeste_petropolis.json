@@ -34,6 +34,20 @@
       "publisher": "Instituto Brasileiro de Museus",
       "url": "https://visite.museus.gov.br/instituicoes/museu-casa-de-santos-dumont/",
       "checkedAt": "2026-11-14"
+    },
+    "SE_PET_HIDRO": {
+      "id": "SE_PET_HIDRO",
+      "title": "Os rios, a cidade e o mapa como objeto de análise da dinâmica da paisagem",
+      "publisher": "Mercator, Universidade Federal do Ceará",
+      "url": "https://www.scielo.br/j/mercator/a/NyWYNNkTRWpmhN8xVX5X4Qt/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_PET_RELEVO": {
+      "id": "SE_PET_RELEVO",
+      "title": "Sistema Brasileiro de Classificação de Relevo",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/biblioteca/visualizacao/livros/liv102023.pdf",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -102,15 +116,15 @@
             },
             {
               "id": "C1-O10",
-              "text": "Paraty"
+              "text": "Nova Petrópolis"
             },
             {
               "id": "C1-O11",
-              "text": "São Paulo"
+              "text": "São Bento do Sapucaí"
             },
             {
               "id": "C1-O12",
-              "text": "Rio de Janeiro"
+              "text": "Cunha"
             }
           ],
           "answerId": "C1-O1",
@@ -629,12 +643,13 @@
             {
               "id": "cidade-petropolis-geografo-P02",
               "factKey": "cidade-petropolis-F02",
-              "text": "Seu núcleo urbano associa relevo de montanha e patrimônio construído.",
+              "text": "A ocupação do núcleo histórico se desenvolveu em uma área de relevo montanhoso e vales.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_MUSEU"
+                "SE_PET_HIDRO",
+                "SE_PET_RELEVO"
               ],
               "clueType": "territorio",
               "signalStrength": "abertura",
@@ -645,12 +660,12 @@
             {
               "id": "cidade-petropolis-geografo-P03",
               "factKey": "cidade-petropolis-F03",
-              "text": "A paisagem inclui edificações e jardins de valor histórico.",
+              "text": "O planejamento do núcleo urbano considerou a rede de drenagem e o traçado de seus rios.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_MUSEU"
+                "SE_PET_HIDRO"
               ],
               "clueType": "territorio",
               "signalStrength": "abertura",
@@ -725,12 +740,12 @@
             {
               "id": "cidade-petropolis-geografo-P08",
               "factKey": "cidade-petropolis-F08",
-              "text": "A construção do palácio ocorreu entre 1845 e 1862.",
+              "text": "O traçado planejado em 1846 considerava três rios que atravessam o núcleo inicial da cidade.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_MUSEU"
+                "SE_PET_HIDRO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -757,12 +772,12 @@
             {
               "id": "cidade-petropolis-geografo-P10",
               "factKey": "cidade-petropolis-F10",
-              "text": "A construção urbana envolveu a atuação de um engenheiro da Fazenda Imperial.",
+              "text": "A planta histórica propunha modificações nos cursos d’água para facilitar a ocupação da área.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_MUSEU"
+                "SE_PET_HIDRO"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -853,12 +868,12 @@
             {
               "id": "cidade-petropolis-geografo-P16",
               "factKey": "cidade-petropolis-F16",
-              "text": "A fazenda foi herdada por Pedro II antes da instalação de sua residência serrana.",
+              "text": "A urbanização modificou os cursos fluviais e aspectos da cobertura do solo na área central.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_MUSEU"
+                "SE_PET_HIDRO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -933,12 +948,12 @@
             {
               "id": "cidade-petropolis-geografo-P21",
               "factKey": "cidade-petropolis-F21",
-              "text": "O acervo reúne objetos e documentos relativos ao Brasil imperial.",
+              "text": "A bacia de um rio local foi estudada como exemplo de ambiente montanhoso urbanizado.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_GUIA"
+                "SE_PET_HIDRO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -981,12 +996,12 @@
             {
               "id": "cidade-petropolis-geografo-P24",
               "factKey": "cidade-petropolis-F24",
-              "text": "O Palácio de Cristal integra a paisagem cultural e o roteiro histórico do município.",
+              "text": "O rio Piabanha é o principal curso d’água do município segundo o IBGE.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_PET_TUR"
+                "SE_PET_RELEVO"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -1017,16 +1032,17 @@
         "canonicalSummary": "Município da serra fluminense onde o antigo palácio de verão imperial abriga hoje o Museu Imperial.",
         "editorialNotes": [
           "Os objetos da cidade e do museu são relacionados; evitar repeti-los em uma sessão.",
-          "Fontes consultadas; calibrar em partidas."
+          "Fontes consultadas; calibrar em partidas.",
+          "Geógrafo inclui relações entre rede fluvial, relevo e ocupação apoiadas em literatura e no IBGE. Pendente revisão dos distratores e partida."
         ]
       },
       "review": {
         "structural": "passed",
         "sourceLinked": true,
-        "factual": "initial-editorial-review",
+        "factual": "pending-final-review",
         "playtest": "pending",
         "publication": "draft",
-        "editorial": "reviewed-2026-11-14"
+        "editorial": "pending-comparative-review"
       }
     }
   ]
