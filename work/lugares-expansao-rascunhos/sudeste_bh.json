@@ -41,6 +41,27 @@
       "publisher": "Prefeitura de Belo Horizonte",
       "url": "https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/mhab",
       "checkedAt": "2026-11-14"
+    },
+    "SE_BH_MALHA": {
+      "id": "SE_BH_MALHA",
+      "title": "Estudos do Arquivo Público de Belo Horizonte, volume 4",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/fundacao-municipal-de-cultura/2023/reapcbh-v.4-2017.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_UNESCO": {
+      "id": "SE_BH_UNESCO",
+      "title": "Conjunto Moderno da Pampulha",
+      "publisher": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/1493/",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_BH_ESTACAO": {
+      "id": "SE_BH_ESTACAO",
+      "title": "Prefeitura de BH inicia obras de reforma da Praça da Estação",
+      "publisher": "Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/noticias/prefeitura-de-bh-inicia-obras-de-reforma-da-praca-da-estacao",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -636,12 +657,12 @@
             {
               "id": "cidade-belo-horizonte-geografo-P02",
               "factKey": "cidade-belo-horizonte-F02",
-              "text": "A cidade está situada no Sudeste do país.",
+              "text": "O planejamento original distinguiu zonas urbana, suburbana e rural.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_BH_PLANO"
+                "SE_BH_MALHA"
               ],
               "clueType": "territorio",
               "signalStrength": "abertura",
@@ -748,12 +769,12 @@
             {
               "id": "cidade-belo-horizonte-geografo-P09",
               "factKey": "cidade-belo-horizonte-F09",
-              "text": "A construção da nova capital alterou profundamente a paisagem e a ocupação preexistentes.",
+              "text": "O projeto sobrepôs malhas de ruas e avenidas e organizou zonas com usos e posições diferentes.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_BH_ACERVO"
+                "SE_BH_MALHA"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -860,12 +881,12 @@
             {
               "id": "cidade-belo-horizonte-geografo-P16",
               "factKey": "cidade-belo-horizonte-F16",
-              "text": "A Lagoa da Pampulha estrutura um dos setores de lazer da capital.",
+              "text": "Um conjunto moderno de lazer e cultura foi planejado ao redor de uma lagoa artificial.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_BH_TUR"
+                "SE_BH_UNESCO"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -876,12 +897,12 @@
             {
               "id": "cidade-belo-horizonte-geografo-P17",
               "factKey": "cidade-belo-horizonte-F17",
-              "text": "A região da lagoa inclui um conjunto arquitetônico moderno tombado.",
+              "text": "A UNESCO reconhece uma paisagem cultural que reúne edifícios e jardins em torno da lagoa.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_BH_TUR"
+                "SE_BH_UNESCO"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -940,12 +961,12 @@
             {
               "id": "cidade-belo-horizonte-geografo-P21",
               "factKey": "cidade-belo-horizonte-F21",
-              "text": "A Praça da Estação marca a relação do centro urbano com a ferrovia.",
+              "text": "A Praça da Estação estava na planta aprovada em 1895 e era atravessada pelo ribeirão Arrudas.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_BH_MERC"
+                "SE_BH_ESTACAO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1025,16 +1046,17 @@
         "editorialNotes": [
           "A cidade e o Conjunto Moderno da Pampulha são recortes diferentes mas relacionados.",
           "População se refere ao município em 2022.",
-          "Fontes oficiais consultadas; calibrar dificuldade em partidas."
+          "Fontes oficiais consultadas; calibrar dificuldade em partidas.",
+          "Geógrafo inclui planejamento urbano, paisagem da lagoa e relação com curso d’água, com fontes vinculadas."
         ]
       },
       "review": {
         "structural": "passed",
         "sourceLinked": true,
-        "factual": "initial-editorial-review",
+        "factual": "pending-final-review",
         "playtest": "pending",
         "publication": "draft",
-        "editorial": "reviewed-2026-11-14"
+        "editorial": "pending-comparative-review"
       }
     }
   ]
