@@ -1,0 +1,1002 @@
+{
+  "sources": {
+    "SULCACAUNESCO": {
+      "id": "SULCACAUNESCO",
+      "title": "Caçapava UNESCO Global Geopark",
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/en/iggp/cacapava-unesco-global-geopark",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-geoparque-cacapava",
+      "placeId": "geoparque-cacapava",
+      "title": "Geoparque Caçapava",
+      "aliases": [],
+      "answerType": "geoparque",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Geoparque",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Geoparque Caçapava"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Geoparque Quarta Colônia"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Geoparque Caminhos dos Cânions do Sul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Geoparque Araripe"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Geoparque Seridó"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Geoparque Uberaba"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Geoparque Vale do Colca e Vulcões de Andagua"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Geoparque Grutas del Palacio"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Geoparque Comarca Minera"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Geoparque Rio Coco"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Geoparque Imbabura"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Geoparque Kütralkura"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Geoparque Caçapava",
+          "sources": [
+            "SULCACAUNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Município",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Caçapava do Sul"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Santa Maria"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Torres"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Alegrete"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Caçapava do Sul",
+          "sources": [
+            "SULCACAUNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Geossítio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Guaritas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Morro do Careca"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pico do Jabre"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Sete Cidades"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Guaritas",
+          "sources": [
+            "SULCACAUNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Bioma",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pampa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Cerrado"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pantanal"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pampa",
+          "sources": [
+            "SULCACAUNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "geoparque-cacapava-viajante-P01",
+              "factKey": "geoparque-cacapava-viajante-F01",
+              "text": "Fica no extremo sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P02",
+              "factKey": "geoparque-cacapava-viajante-F02",
+              "text": "Seu território está nos limites de um município gaúcho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P03",
+              "factKey": "geoparque-cacapava-viajante-F03",
+              "text": "Recebeu designação de geoparque mundial da UNESCO em 2023.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P04",
+              "factKey": "geoparque-cacapava-viajante-F04",
+              "text": "O geoparque abrange o município de Caçapava do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P05",
+              "factKey": "geoparque-cacapava-viajante-F05",
+              "text": "O território inclui o geossítio Guaritas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P06",
+              "factKey": "geoparque-cacapava-viajante-F06",
+              "text": "Formações de arenito caracterizam as Guaritas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P07",
+              "factKey": "geoparque-cacapava-viajante-F07",
+              "text": "A paisagem combina rochas e pecuária tradicional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P08",
+              "factKey": "geoparque-cacapava-viajante-F08",
+              "text": "O Parque Municipal da Serra do Segredo tem trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P09",
+              "factKey": "geoparque-cacapava-viajante-F09",
+              "text": "Escalada é uma das atividades possíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P10",
+              "factKey": "geoparque-cacapava-viajante-F10",
+              "text": "Caminhadas fazem parte das atividades ao ar livre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P11",
+              "factKey": "geoparque-cacapava-viajante-F11",
+              "text": "Há locais usados para voo livre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P12",
+              "factKey": "geoparque-cacapava-viajante-F12",
+              "text": "A Fazenda Santa Marta oferece experiências rurais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P13",
+              "factKey": "geoparque-cacapava-viajante-F13",
+              "text": "O tingimento natural de lã aparece entre as atividades rurais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P14",
+              "factKey": "geoparque-cacapava-viajante-F14",
+              "text": "A região também produz azeite de oliva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P15",
+              "factKey": "geoparque-cacapava-viajante-F15",
+              "text": "O geoparque abriga comunidades quilombolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P16",
+              "factKey": "geoparque-cacapava-viajante-F16",
+              "text": "O povo indígena Guarani está entre as comunidades locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P17",
+              "factKey": "geoparque-cacapava-viajante-F17",
+              "text": "Famílias pecuaristas integram a paisagem cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P18",
+              "factKey": "geoparque-cacapava-viajante-F18",
+              "text": "Há cactos e flores nativas no território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P19",
+              "factKey": "geoparque-cacapava-viajante-F19",
+              "text": "Abelhas estão entre a diversidade de seres vivos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P20",
+              "factKey": "geoparque-cacapava-viajante-F20",
+              "text": "Os céus noturnos atraem observação de estrelas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P21",
+              "factKey": "geoparque-cacapava-viajante-F21",
+              "text": "A Serra do Segredo é um geossítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P22",
+              "factKey": "geoparque-cacapava-viajante-F22",
+              "text": "Minas do Camaquã é outro geossítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P23",
+              "factKey": "geoparque-cacapava-viajante-F23",
+              "text": "O território tem história ligada à mineração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P24",
+              "factKey": "geoparque-cacapava-viajante-F24",
+              "text": "Mármore foi explorado para produtos como cal e cimento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-viajante-P25",
+              "factKey": "geoparque-cacapava-viajante-F25",
+              "text": "A área reúne patrimônio natural e cultural do Pampa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "geoparque-cacapava-geografo-P01",
+              "factKey": "geoparque-cacapava-geografo-F01",
+              "text": "O geoparque mundial designado em 2023 situa-se no território municipal de Caçapava do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P02",
+              "factKey": "geoparque-cacapava-geografo-F02",
+              "text": "Os depósitos vulcanossedimentares registram a transição entre o Ediacarano e o Cambriano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P03",
+              "factKey": "geoparque-cacapava-geografo-F03",
+              "text": "A bacia sedimentar associada é a Bacia do Camaquã.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P04",
+              "factKey": "geoparque-cacapava-geografo-F04",
+              "text": "O registro geológico destacado pela UNESCO abrange aproximadamente 600 a 500 milhões de anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P05",
+              "factKey": "geoparque-cacapava-geografo-F05",
+              "text": "Os geossítios mostram bacias controladas por falhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P06",
+              "factKey": "geoparque-cacapava-geografo-F06",
+              "text": "Antigos derrames vulcânicos integram o registro geológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P07",
+              "factKey": "geoparque-cacapava-geografo-F07",
+              "text": "Depósitos sedimentares ajudam a reconstruir condições tectônicas do passado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P08",
+              "factKey": "geoparque-cacapava-geografo-F08",
+              "text": "Esses registros oferecem evidências sobre a montagem do Gondwana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P09",
+              "factKey": "geoparque-cacapava-geografo-F09",
+              "text": "A Serra do Segredo preserva feições de atividade sedimentar e vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P10",
+              "factKey": "geoparque-cacapava-geografo-F10",
+              "text": "Minas do Camaquã é outro local com registro sedimentar e vulcânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P11",
+              "factKey": "geoparque-cacapava-geografo-F11",
+              "text": "Nas Guaritas, o planalto é intensamente dissecado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P12",
+              "factKey": "geoparque-cacapava-geografo-F12",
+              "text": "Os arenitos e conglomerados das Guaritas têm origem fluvial e eólica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P13",
+              "factKey": "geoparque-cacapava-geografo-F13",
+              "text": "O intemperismo cavernoso produz formas como tafoni e alvéolos nas rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P14",
+              "factKey": "geoparque-cacapava-geografo-F14",
+              "text": "Arcos de rocha expressam processos de alteração da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P15",
+              "factKey": "geoparque-cacapava-geografo-F15",
+              "text": "A geologia serve como recurso para investigação e ensino universitário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P16",
+              "factKey": "geoparque-cacapava-geografo-F16",
+              "text": "A extração de sulfetos metálicos participou do desenvolvimento econômico regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P17",
+              "factKey": "geoparque-cacapava-geografo-F17",
+              "text": "O mármore explorado tem aplicação na produção de cal e cimento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P18",
+              "factKey": "geoparque-cacapava-geografo-F18",
+              "text": "A região reúne comunidades Guarani, quilombolas e pecuaristas familiares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P19",
+              "factKey": "geoparque-cacapava-geografo-F19",
+              "text": "A criação de gado nas Guaritas é descrita pela UNESCO como uma prática de mais de 300 anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P20",
+              "factKey": "geoparque-cacapava-geografo-F20",
+              "text": "A paisagem associa patrimônio geológico e modos de vida ligados à terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P21",
+              "factKey": "geoparque-cacapava-geografo-F21",
+              "text": "A Serra do Segredo combina conservação, geotrilhas e uso recreativo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P22",
+              "factKey": "geoparque-cacapava-geografo-F22",
+              "text": "A variedade do relevo favorece caminhada, escalada e voo livre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P23",
+              "factKey": "geoparque-cacapava-geografo-F23",
+              "text": "A produção de azeite conecta a agricultura regional a mercados contemporâneos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P24",
+              "factKey": "geoparque-cacapava-geografo-F24",
+              "text": "A Fazenda Santa Marta associa turismo rural e tingimento natural de lã.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "geoparque-cacapava-geografo-P25",
+              "factKey": "geoparque-cacapava-geografo-F25",
+              "text": "A interpretação do patrimônio aproxima conservação, educação e economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCACAUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Geoparque mundial da UNESCO em Caçapava do Sul, com Guaritas, Serra do Segredo e patrimônio geológico do Pampa.",
+        "editorialNotes": [
+          "Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

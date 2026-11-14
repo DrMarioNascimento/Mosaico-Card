@@ -1,8 +1,8 @@
 # Rascunhos da expansão Lugares
 
-Checkpoint: 137 propostas únicas, 124 ainda não integradas ao banco de 100 lugares. Há cópias originais e auditadas: não somá-las. A auditoria encontrou alternativas ambíguas e pistas redundantes. Revisão de fontes, gabaritos, dificuldade e partidas permanece necessária.
+Checkpoint: 166 propostas únicas, 150 ainda não integradas ao banco de 103 lugares. Existem cópias originais e auditadas; não somá-las. Auditorias detectaram alternativas ambíguas e pistas redundantes. Revisão de fontes, gabaritos, dificuldade e partidas permanece necessária.
 
-Brasil e Américas sem Brasil têm filtros e metas independentes. Dados populacionais precisam de fonte, ano e recorte. Os rascunhos não estão publicados no jogo.
+Brasil e Américas sem Brasil têm filtros e metas independentes. Dados populacionais exigem fonte, ano e recorte. Rascunhos não estão publicados no jogo.
 
 Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 
@@ -14,29 +14,47 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Bairro Histórico de Colônia do Sacramento
 - Balneário Camboriú
 - Belo Horizonte
+- Bento Gonçalves
 - Blumenau
 - Cabo Adare e Praia Ridley
+- Cabo Crozier
 - Cabo Denison e Cabanas de Mawson
 - Cabo Evans e Cabana Terra Nova
 - Cabo Royds
 - Caldas Novas
+- Campos do Jordão
 - Castelo de Himeji
 - Centro Arqueológico de Tiwanaku
+- Centro Histórico de Bruges
 - Centro Histórico de Diamantina
 - Centro Histórico de Oeiras
 - Centro Histórico de Penedo
 - Cidade Antiga de Dubrovnik
+- Cidade Antiga de Ávila e suas Igrejas Extramuros
 - Cidade Histórica de Cusco
 - Cidade Histórica de Quito
-- Cidade Pré-hispânica de Chichén Itzá
+- Cidade Portuária Histórica de Levuka
+- Cidade Proibida
+- Cidades Antigas de Djenné
 - Cuiabá
 - Cáceres
-- Distrito Histórico do Quebec Antigo
 - Floresta Nacional do Tapajós
 - Fortaleza
+- Gante
+- Geoparque Caçapava
+- Geoparque Quarta Colônia
 - Gramado
+- Grupo de Ilhas Lord Howe
+- Ilha Cuverville
+- Ilha Detaille e Base W
+- Ilha Goudier e Base A de Port Lockroy
+- Ilha Half Moon
+- Ilha Petermann
 - Ilha Robben
 - Ilha de Gorée
+- Ilha de Moçambique
+- Ilha do Mel
+- Ilha vulcânica e tubos de lava de Jeju
 - Independence Hall
 - Joinville
 - João Pessoa
@@ -47,6 +65,7 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Maceió
 - Mar de Areia do Namibe
 - Maringá
+- Mbanza Kongo
 - Natal
 - Neko Harbour
 - Niterói
@@ -79,9 +98,11 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Parque Nacional da Serra de Itabaiana
 - Parque Nacional da Serra do Cipó
 - Parque Nacional de Brasília
+- Parque Nacional de Chitwan
 - Parque Nacional de Ilha Grande
 - Parque Nacional de Komodo
 - Parque Nacional de Sete Cidades
+- Parque Nacional de Sundarbans
 - Parque Nacional de São Joaquim
 - Parque Nacional de Virunga
 - Parque Nacional do Araguaia
@@ -96,8 +117,8 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Porto Alegre
 - Porto Murtinho
 - Porto Velho
-- Porto e Fortificações de Cartagena das Índias
 - Recife
+- Rennell Oriental
 - Reserva Biológica do Atol das Rocas
 - Reserva da Biosfera Sian Ka’an
 - Reserva da Biosfera da Borboleta-Monarca
@@ -107,10 +128,12 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Rio Amazonas (trecho brasileiro)
 - Rio Araguaia
 - Rio Branco
+- Rio Grande
 - Rio Paraguai
 - Rio Parnaíba
 - Rio São Francisco
 - Rio Tocantins
+- Ruínas de Kilwa Kisiwani e Songo Mnara
 - Santa Maria
 - Santarém
 - Santos
@@ -118,8 +141,10 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Sant’Ana do Livramento
 - Serra da Barriga
 - Sistema de Reservas da Barreira de Corais de Belize
+- Stone Town de Zanzibar
 - São Francisco do Sul
 - São Paulo
+- Sítio Agrícola Antigo de Kuk
 - Sítio Arqueológico Cais do Valongo
 - Sítio Maia de Copán
 - Sítio Roberto Burle Marx
@@ -127,6 +152,7 @@ Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 - Teresina
 - Terraços de arroz das Cordilheiras das Filipinas
 - Território Indígena do Xingu
+- Torres
 - Trinidad e Vale dos Engenhos
 - Vila Bela da Santíssima Trindade
 - Vila Velha

@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "ILHAMS_UNESCO": {
+      "id": "ILHAMS_UNESCO",
+      "title": "Island of Mozambique",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/599/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-ilha-mocambique",
+      "placeId": "ilha-mocambique",
+      "title": "Ilha de Moçambique",
+      "aliases": [
+        "Ilha de Moçambique"
+      ],
+      "answerType": "ilha e cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "MZ"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha histórica africana",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilha de Moçambique"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha de Gorée"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha Robben"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha de Zanzibar"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Pemba"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha de Santiago de Cabo Verde"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha de São Tomé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha do Príncipe"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha de Madagascar"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha de Lamu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha de Mombaça"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha de Boa Vista"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilha de Moçambique",
+          "sources": [
+            "ILHAMS_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Oceano da rota comercial",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Índico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Atlântico"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pacífico"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ártico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Índico",
+          "sources": [
+            "ILHAMS_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Tipo tradicional de cobertura de casas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Folhas de palmeira chamadas macuti"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Palha de centeio"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Telhas de ardósia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Folhas de bananeira"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Folhas de palmeira chamadas macuti",
+          "sources": [
+            "ILHAMS_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Moçambique"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Quênia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "África do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Moçambique",
+          "sources": [
+            "ILHAMS_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ilha-mocambique-viajante-P01",
+              "factKey": "ilha-mocambique-F01",
+              "text": "O destino é uma ilha da costa africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P02",
+              "factKey": "ilha-mocambique-F02",
+              "text": "Fica no país de Moçambique.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P03",
+              "factKey": "ilha-mocambique-F03",
+              "text": "Está no oceano Índico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P04",
+              "factKey": "ilha-mocambique-F04",
+              "text": "A ilha fica próxima do continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P05",
+              "factKey": "ilha-mocambique-F05",
+              "text": "Uma ponte liga a ilha ao continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P06",
+              "factKey": "ilha-mocambique-F06",
+              "text": "A ilha está na entrada da Baía de Mossuril.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P07",
+              "factKey": "ilha-mocambique-F07",
+              "text": "A área integra a província de Nampula.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P08",
+              "factKey": "ilha-mocambique-F08",
+              "text": "A formação insular tem origem em recife coralino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P09",
+              "factKey": "ilha-mocambique-F09",
+              "text": "A ilha fez parte de rotas comerciais oceânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P10",
+              "factKey": "ilha-mocambique-F10",
+              "text": "Portugueses usaram o lugar como entreposto comercial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P11",
+              "factKey": "ilha-mocambique-F11",
+              "text": "Ela foi sede do governo colonial português.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P12",
+              "factKey": "ilha-mocambique-F12",
+              "text": "A sede colonial foi transferida para a cidade hoje chamada Maputo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P13",
+              "factKey": "ilha-mocambique-F13",
+              "text": "Há uma fortaleza histórica na ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P14",
+              "factKey": "ilha-mocambique-F14",
+              "text": "Uma fortaleza é dedicada a São Sebastião.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P15",
+              "factKey": "ilha-mocambique-F15",
+              "text": "A construção dessa fortaleza ocorreu entre os séculos XVI e XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P16",
+              "factKey": "ilha-mocambique-F16",
+              "text": "A ilha possui edifícios religiosos antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P17",
+              "factKey": "ilha-mocambique-F17",
+              "text": "O conjunto urbano mistura tradições culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P18",
+              "factKey": "ilha-mocambique-F18",
+              "text": "Na parte norte predominam antigas construções de pedra e cal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P19",
+              "factKey": "ilha-mocambique-F19",
+              "text": "No setor sul há casas historicamente cobertas com folhas de palmeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P20",
+              "factKey": "ilha-mocambique-F20",
+              "text": "As duas partes têm características urbanas diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P21",
+              "factKey": "ilha-mocambique-F21",
+              "text": "A ilha tem vizinhas menores chamadas Goa e Sena.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P22",
+              "factKey": "ilha-mocambique-F22",
+              "text": "A área habitada precisa conciliar moradia e preservação histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P23",
+              "factKey": "ilha-mocambique-F23",
+              "text": "Ciclones podem causar danos às construções.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P24",
+              "factKey": "ilha-mocambique-F24",
+              "text": "A UNESCO reconheceu a ilha como Patrimônio Mundial em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-viajante-P25",
+              "factKey": "ilha-mocambique-F25",
+              "text": "A proteção patrimonial abrange a ilha principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ilha-mocambique-geografo-P01",
+              "factKey": "ilha-mocambique-F01",
+              "text": "A carta representa uma ilha habitada na costa oriental da África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P02",
+              "factKey": "ilha-mocambique-F02",
+              "text": "A ilha integra o território da República de Moçambique.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P03",
+              "factKey": "ilha-mocambique-F03",
+              "text": "A posição insular situa-se no oceano Índico ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P04",
+              "factKey": "ilha-mocambique-F04",
+              "text": "O sítio localiza-se a cerca de quatro quilômetros da costa continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P05",
+              "factKey": "ilha-mocambique-F05",
+              "text": "Uma ponte construída na década de 1960 conecta a ilha à margem continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P06",
+              "factKey": "ilha-mocambique-F06",
+              "text": "A localização na entrada da Baía de Mossuril influenciou suas conexões marítimas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P07",
+              "factKey": "ilha-mocambique-F07",
+              "text": "Administrativamente, a ilha está na província moçambicana de Nampula.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P08",
+              "factKey": "ilha-mocambique-F08",
+              "text": "A UNESCO descreve a base da ilha como recife coralino calcário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P09",
+              "factKey": "ilha-mocambique-F09",
+              "text": "O porto integrou redes comerciais intercontinentais do Índico desde o século X.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P10",
+              "factKey": "ilha-mocambique-F10",
+              "text": "A ilha teve papel nas rotas marítimas portuguesas entre Europa Ocidental e Índia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P11",
+              "factKey": "ilha-mocambique-F11",
+              "text": "A área administrativa e comercial abrigou a sede do governo colonial por longo período.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P12",
+              "factKey": "ilha-mocambique-F12",
+              "text": "A transferência posterior da capital para a atual Maputo alterou sua função administrativa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P13",
+              "factKey": "ilha-mocambique-F13",
+              "text": "As fortificações são componentes importantes do conjunto urbano protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P14",
+              "factKey": "ilha-mocambique-F14",
+              "text": "A Fortaleza de São Sebastião integra o patrimônio defensivo da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P15",
+              "factKey": "ilha-mocambique-F15",
+              "text": "A UNESCO situa a Fortaleza de São Sebastião no intervalo entre 1558 e 1620.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P16",
+              "factKey": "ilha-mocambique-F16",
+              "text": "Edifícios religiosos de diferentes períodos compõem o tecido histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P17",
+              "factKey": "ilha-mocambique-F17",
+              "text": "As construções refletem interações entre tradições africanas, suaílis, árabes, indianas e europeias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P18",
+              "factKey": "ilha-mocambique-F18",
+              "text": "A cidade de pedra e cal concentra edificações administrativas e comerciais no setor norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P19",
+              "factKey": "ilha-mocambique-F19",
+              "text": "A chamada cidade de macuti usa tradicionalmente coberturas de folhas de palmeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P20",
+              "factKey": "ilha-mocambique-F20",
+              "text": "A cidade de pedra e cal e a cidade de macuti expressam formas distintas de ocupação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P21",
+              "factKey": "ilha-mocambique-F21",
+              "text": "As ilhas menores de Goa e Sena integram o arquipélago e a zona de proteção do bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P22",
+              "factKey": "ilha-mocambique-F22",
+              "text": "A conservação envolve patrimônio construído e necessidades sociais de uma cidade viva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P23",
+              "factKey": "ilha-mocambique-F23",
+              "text": "A exposição a ciclones representa um risco para a conservação do patrimônio edificado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P24",
+              "factKey": "ilha-mocambique-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-mocambique-geografo-P25",
+              "factKey": "ilha-mocambique-F25",
+              "text": "Os limites do bem incluem toda a ilha principal, enquanto ilhas menores estão na zona de proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMS_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ilha histórica de Moçambique no Índico, com cidade de pedra e cal e bairros tradicionais de macuti.",
+        "editorialNotes": [
+          "O bem abrange a ilha principal, e não o país inteiro; Goa e Sena pertencem à zona de proteção.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

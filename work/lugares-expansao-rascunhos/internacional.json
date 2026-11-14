@@ -4265,7 +4265,7 @@
       "fields": [
         {
           "id": "C1",
-          "label": "Cidade portuária",
+          "label": "Cidade ou conjunto portuário",
           "options": [
             {
               "id": "C1-O1",
@@ -4273,47 +4273,47 @@
             },
             {
               "id": "C1-O2",
-              "text": "Porto e Fortificações de Havana"
+              "text": "Cidade Portuária de Santa Marta"
             },
             {
               "id": "C1-O3",
-              "text": "Fortificações de San Juan"
+              "text": "Cidade Portuária de Barranquilla"
             },
             {
               "id": "C1-O4",
-              "text": "Fortificações de Portobelo e San Lorenzo"
+              "text": "Cidade Portuária de Riohacha"
             },
             {
               "id": "C1-O5",
-              "text": "Centro Histórico de Campeche"
+              "text": "Cidade Portuária de Buenaventura"
             },
             {
               "id": "C1-O6",
-              "text": "Centro Histórico de Salvador"
+              "text": "Porto e Fortificações de Havana"
             },
             {
               "id": "C1-O7",
-              "text": "Centro Histórico de Santo Domingo"
+              "text": "Fortificações de San Juan"
             },
             {
               "id": "C1-O8",
-              "text": "Centro Histórico de Lima"
+              "text": "Fortificações de Portobelo e San Lorenzo"
             },
             {
               "id": "C1-O9",
-              "text": "Centro Histórico de Quito"
+              "text": "Centro Histórico de Campeche"
             },
             {
               "id": "C1-O10",
-              "text": "Centro Histórico de Panamá"
+              "text": "Centro Histórico de Santo Domingo"
             },
             {
               "id": "C1-O11",
-              "text": "Cidade Histórica de Colônia do Sacramento"
+              "text": "Cidade Portuária de Veracruz"
             },
             {
               "id": "C1-O12",
-              "text": "Centro Histórico de Veracruz"
+              "text": "Centro Histórico de Salvador"
             }
           ],
           "answerId": "C1-O1",
@@ -4351,7 +4351,7 @@
         },
         {
           "id": "C3",
-          "label": "Ambiente marítimo",
+          "label": "Área marítima",
           "options": [
             {
               "id": "C3-O1",
@@ -4359,15 +4359,15 @@
             },
             {
               "id": "C3-O2",
-              "text": "Mar do Norte"
+              "text": "Golfo do México"
             },
             {
               "id": "C3-O3",
-              "text": "Mar Negro"
+              "text": "Golfo da Califórnia"
             },
             {
               "id": "C3-O4",
-              "text": "Mar de Coral"
+              "text": "Golfo de Fonseca"
             }
           ],
           "answerId": "C3-O1",
@@ -4378,27 +4378,27 @@
         },
         {
           "id": "C4",
-          "label": "Sistema defensivo",
+          "label": "Ano da inscrição na UNESCO",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Muralhas, fortes e controle de canais"
+              "text": "1984"
             },
             {
               "id": "C4-O2",
-              "text": "Linhas de trincheiras em geleiras"
+              "text": "1979"
             },
             {
               "id": "C4-O3",
-              "text": "Castelos construídos em desertos interiores"
+              "text": "1987"
             },
             {
               "id": "C4-O4",
-              "text": "Paliçadas em florestas boreais"
+              "text": "1995"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Muralhas, fortes e controle de canais",
+          "answerText": "1984",
           "sources": [
             "CARTAGENA285"
           ]
@@ -4419,8 +4419,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4435,8 +4435,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4477,7 +4477,8 @@
               "factKey": "cartagena-indias-F05",
               "text": "As águas próximas pertencem ao mar do Caribe.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -4525,7 +4526,8 @@
               "factKey": "cartagena-indias-F08",
               "text": "O lugar foi um importante porto caribenho.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -4595,8 +4597,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4611,8 +4613,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4659,8 +4661,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4781,7 +4783,8 @@
               "factKey": "cartagena-indias-F24",
               "text": "A UNESCO reconheceu o conjunto em 1984.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -4824,8 +4827,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4840,8 +4843,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -4850,7 +4853,8 @@
               "factKey": "cartagena-indias-F03",
               "text": "O conjunto pertence ao território colombiano.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -4882,7 +4886,8 @@
               "factKey": "cartagena-indias-F05",
               "text": "Sua posição relaciona o porto às rotas do mar do Caribe.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -4930,7 +4935,8 @@
               "factKey": "cartagena-indias-F08",
               "text": "O porto teve papel estratégico nas rotas coloniais do Caribe.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -5000,8 +5006,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -5016,8 +5022,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -5064,8 +5070,8 @@
                 "CARTAGENA285"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -5186,7 +5192,8 @@
               "factKey": "cartagena-indias-F24",
               "text": "A inscrição do conjunto na Lista do Patrimônio Mundial ocorreu em 1984.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CARTAGENA285"
@@ -5219,7 +5226,8 @@
       "reveal": {
         "canonicalSummary": "Cidade portuária colombiana no Caribe cujo conjunto histórico reúne fortificações, bairros e monumentos.",
         "editorialNotes": [
-          "Revisar alternativas e calibrar dificuldade em partidas."
+          "Revisar alternativas e calibrar dificuldade em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
         ]
       },
       "review": {
@@ -6353,27 +6361,27 @@
         },
         {
           "id": "C4",
-          "label": "Sistema defensivo",
+          "label": "Ano da inscrição na UNESCO",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Muralhas, baluartes e cidadela"
+              "text": "1985"
             },
             {
               "id": "C4-O2",
-              "text": "Canais subterrâneos e diques"
+              "text": "1979"
             },
             {
               "id": "C4-O3",
-              "text": "Fortes esculpidos em gelo"
+              "text": "1987"
             },
             {
               "id": "C4-O4",
-              "text": "Torres de observação em recifes"
+              "text": "1995"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Muralhas, baluartes e cidadela",
+          "answerText": "1985",
           "sources": [
             "QUEBEC300"
           ]
@@ -6394,8 +6402,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6410,8 +6418,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6420,7 +6428,8 @@
               "factKey": "quebec-antigo-F03",
               "text": "O lugar fica no Canadá.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6484,7 +6493,8 @@
               "factKey": "quebec-antigo-F07",
               "text": "O destino possui uma Cidade Alta.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6500,7 +6510,8 @@
               "factKey": "quebec-antigo-F08",
               "text": "A Cidade Alta foi construída sobre um rochedo elevado.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6516,7 +6527,8 @@
               "factKey": "quebec-antigo-F09",
               "text": "Também existe uma Cidade Baixa histórica.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6532,7 +6544,8 @@
               "factKey": "quebec-antigo-F10",
               "text": "A parte baixa se desenvolveu perto do porto.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6564,7 +6577,8 @@
               "factKey": "quebec-antigo-F12",
               "text": "A Cidade Alta tem igrejas e conventos.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6602,8 +6616,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6618,8 +6632,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6676,7 +6690,8 @@
               "factKey": "quebec-antigo-F19",
               "text": "A UNESCO reconheceu o distrito em 1985.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6799,8 +6814,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6815,8 +6830,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6825,7 +6840,8 @@
               "factKey": "quebec-antigo-F03",
               "text": "O distrito integra uma cidade canadense.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6857,7 +6873,8 @@
               "factKey": "quebec-antigo-F05",
               "text": "Muralhas preservadas definem parte do limite defensivo da Cidade Alta.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6905,14 +6922,15 @@
               "factKey": "quebec-antigo-F08",
               "text": "A Cidade Alta ocupa o alto do Cap Diamant.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -6921,7 +6939,8 @@
               "factKey": "quebec-antigo-F09",
               "text": "A Cidade Baixa compreende antigos bairros ligados ao porto.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6937,7 +6956,8 @@
               "factKey": "quebec-antigo-F10",
               "text": "O desenvolvimento do setor baixo acompanhou o porto e a Place Royale.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6953,7 +6973,8 @@
               "factKey": "quebec-antigo-F11",
               "text": "A Place Royale integra o núcleo histórico do setor inferior.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6969,7 +6990,8 @@
               "factKey": "quebec-antigo-F12",
               "text": "A parte elevada mantém funções religiosas e administrativas.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -6985,7 +7007,8 @@
               "factKey": "quebec-antigo-F13",
               "text": "A cidadela integra o sistema de defesa da parte alta.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
@@ -7001,14 +7024,15 @@
               "factKey": "quebec-antigo-F14",
               "text": "O Château Frontenac é um dos marcos construídos da Cidade Alta.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7023,8 +7047,8 @@
                 "QUEBEC300"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7081,7 +7105,8 @@
               "factKey": "quebec-antigo-F19",
               "text": "A inscrição do distrito na Lista do Patrimônio Mundial ocorreu em 1985.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "QUEBEC300"
@@ -7194,7 +7219,8 @@
       "reveal": {
         "canonicalSummary": "Distrito histórico canadense que reúne uma cidade alta fortificada e bairros antigos próximos ao porto.",
         "editorialNotes": [
-          "Revisar alternativas e calibrar em partidas."
+          "Revisar alternativas e calibrar em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
         ]
       },
       "review": {
@@ -7315,7 +7341,7 @@
         },
         {
           "id": "C3",
-          "label": "Fonte natural de água associada",
+          "label": "Cavidades naturais citadas pela UNESCO junto ao núcleo antigo",
           "options": [
             {
               "id": "C3-O1",
@@ -7323,15 +7349,15 @@
             },
             {
               "id": "C3-O2",
-              "text": "Geleiras alpinas"
+              "text": "Tubos de lava"
             },
             {
               "id": "C3-O3",
-              "text": "Fiordes"
+              "text": "Furnas marinhas"
             },
             {
               "id": "C3-O4",
-              "text": "Deltas de maré"
+              "text": "Cavernas glaciares"
             }
           ],
           "answerId": "C3-O1",
@@ -7342,27 +7368,27 @@
         },
         {
           "id": "C4",
-          "label": "Construções destacadas",
+          "label": "Monumentos do setor norte descrito pela UNESCO",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Templo dos Guerreiros e El Caracol"
+              "text": "Templo dos Guerreiros e Grupo das Mil Colunas"
             },
             {
               "id": "C4-O2",
-              "text": "Coliseu e Panteão"
+              "text": "El Caracol e Tumba do Sumo Sacerdote"
             },
             {
               "id": "C4-O3",
-              "text": "Partenon e Erecteion"
+              "text": "Igreja e Akab Dzib"
             },
             {
               "id": "C4-O4",
-              "text": "Muralhas de gelo e iglus"
+              "text": "Casa das Monjas e Templo dos Painéis"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Templo dos Guerreiros e El Caracol",
+          "answerText": "Templo dos Guerreiros e Grupo das Mil Colunas",
           "sources": [
             "CHICHEN483"
           ]
@@ -7383,8 +7409,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7399,8 +7425,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7409,7 +7435,8 @@
               "factKey": "chichen-itza-F03",
               "text": "O sítio arqueológico fica no México.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7505,7 +7532,8 @@
               "factKey": "chichen-itza-F09",
               "text": "A cidade cresceu perto de cavidades naturais chamadas cenotes.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7521,7 +7549,8 @@
               "factKey": "chichen-itza-F10",
               "text": "Os cenotes permitiam acesso à água subterrânea.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7543,8 +7572,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7559,8 +7588,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7569,14 +7598,15 @@
               "factKey": "chichen-itza-F13",
               "text": "O Templo dos Guerreiros integra o sítio.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7591,15 +7621,15 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
             {
               "id": "chichen-itza-viajante-P15",
               "factKey": "chichen-itza-F15",
-              "text": "El Caracol era usado para observação de astros.",
+              "text": "A UNESCO descreve El Caracol como observatório de astros.",
               "relatedFields": [
                 "C1"
               ],
@@ -7607,8 +7637,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7633,14 +7663,15 @@
               "factKey": "chichen-itza-F17",
               "text": "O Grupo das Mil Colunas é um dos complexos do local.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7687,8 +7718,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7713,7 +7744,8 @@
               "factKey": "chichen-itza-F22",
               "text": "Outros elementos indicam relações com o centro do México.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7788,8 +7820,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7804,8 +7836,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7910,7 +7942,8 @@
               "factKey": "chichen-itza-F09",
               "text": "A cidade se estabeleceu junto a cavidades naturais chamadas cenotes.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7926,7 +7959,8 @@
               "factKey": "chichen-itza-F10",
               "text": "Essas cavidades facilitaram o acesso às águas subterrâneas do planalto calcário.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C3"
               ],
               "sources": [
                 "CHICHEN483"
@@ -7948,8 +7982,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7964,8 +7998,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7974,14 +8008,15 @@
               "factKey": "chichen-itza-F13",
               "text": "O Templo dos Guerreiros integra o conjunto monumental do norte.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -7996,8 +8031,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -8012,8 +8047,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -8038,14 +8073,15 @@
               "factKey": "chichen-itza-F17",
               "text": "O Grupo das Mil Colunas situa-se no conjunto norte.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C4"
               ],
               "sources": [
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -8092,8 +8128,8 @@
                 "CHICHEN483"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
               "importance": "relevant",
               "twoPlayerSuitable": true
             },
@@ -8118,7 +8154,8 @@
               "factKey": "chichen-itza-F22",
               "text": "A combinação de técnicas maias e elementos do México central expressa interações culturais.",
               "relatedFields": [
-                "C1"
+                "C1",
+                "C2"
               ],
               "sources": [
                 "CHICHEN483"
@@ -8183,7 +8220,8 @@
       "reveal": {
         "canonicalSummary": "Cidade arqueológica maia na península mexicana de Yucatán, com cenotes e monumentos de pedra.",
         "editorialNotes": [
-          "Revisar alternativas e calibrar em partidas."
+          "Revisar alternativas e calibrar em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
         ]
       },
       "review": {

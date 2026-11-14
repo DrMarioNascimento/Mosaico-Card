@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "MBANZA_UNESCO": {
+      "id": "MBANZA_UNESCO",
+      "title": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1511/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-mbanza-kongo",
+      "placeId": "mbanza-kongo",
+      "title": "Mbanza Kongo",
+      "aliases": [
+        "Mbanza Kongo"
+      ],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AO"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade ou conjunto histórico africano",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Mbanza Kongo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Grande Zimbábue"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Aksum"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cidade Velha de Djenné"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Timbuktu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Cidade Histórica de Grand-Bassam"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Medina de Fez"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Stone Town de Zanzibar"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha de Moçambique"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha de Gorée"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cidade Antiga de Lamu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Mbanza Kongo",
+          "sources": [
+            "MBANZA_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Reino ligado ao sítio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Reino do Kongo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Reino de Axum"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Império Songai"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Reino do Daomé"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Reino do Kongo",
+          "sources": [
+            "MBANZA_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Papel histórico em relação ao reino",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Capital política e espiritual"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Porto comercial secundário"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Fortificação marítima"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cidade de fronteira militar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Capital política e espiritual",
+          "sources": [
+            "MBANZA_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Angola"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Moçambique"
+            },
+            {
+              "id": "C4-O3",
+              "text": "República Democrática do Congo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Etiópia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Angola",
+          "sources": [
+            "MBANZA_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "mbanza-kongo-viajante-P01",
+              "factKey": "mbanza-kongo-F01",
+              "text": "O destino é uma cidade histórica africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P02",
+              "factKey": "mbanza-kongo-F02",
+              "text": "Fica em Angola.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P03",
+              "factKey": "mbanza-kongo-F03",
+              "text": "A cidade foi capital de um reino africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P04",
+              "factKey": "mbanza-kongo-F04",
+              "text": "O reino é conhecido como Reino do Kongo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P05",
+              "factKey": "mbanza-kongo-F05",
+              "text": "Esse reino existiu entre os séculos XIV e XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P06",
+              "factKey": "mbanza-kongo-F06",
+              "text": "A cidade fica em um planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P07",
+              "factKey": "mbanza-kongo-F07",
+              "text": "O planalto está a cerca de 570 metros de altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P08",
+              "factKey": "mbanza-kongo-F08",
+              "text": "O reino já era organizado antes da chegada dos portugueses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P09",
+              "factKey": "mbanza-kongo-F09",
+              "text": "Portugueses chegaram à região no século XV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P10",
+              "factKey": "mbanza-kongo-F10",
+              "text": "O cristianismo passou a ter presença na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P11",
+              "factKey": "mbanza-kongo-F11",
+              "text": "Igrejas fazem parte dos vestígios históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P12",
+              "factKey": "mbanza-kongo-F12",
+              "text": "O lugar conserva restos de uma antiga catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P13",
+              "factKey": "mbanza-kongo-F13",
+              "text": "Há também vestígios de um antigo colégio jesuíta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P14",
+              "factKey": "mbanza-kongo-F14",
+              "text": "Um catecismo foi escrito em quicongo nesse colégio em 1624.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P15",
+              "factKey": "mbanza-kongo-F15",
+              "text": "A cidade mantinha contatos com regiões da Europa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P16",
+              "factKey": "mbanza-kongo-F16",
+              "text": "O reino participou de redes comerciais de longa distância.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P17",
+              "factKey": "mbanza-kongo-F17",
+              "text": "A história regional inclui o tráfico de pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P18",
+              "factKey": "mbanza-kongo-F18",
+              "text": "A UNESCO destaca que não identificou vestígios materiais desse tráfico no bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P19",
+              "factKey": "mbanza-kongo-F19",
+              "text": "A cidade preserva funções simbólicas para a comunidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P20",
+              "factKey": "mbanza-kongo-F20",
+              "text": "Algumas práticas tradicionais continuaram após a chegada de novas religiões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P21",
+              "factKey": "mbanza-kongo-F21",
+              "text": "O conjunto inclui construções civis e militares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P22",
+              "factKey": "mbanza-kongo-F22",
+              "text": "Escavações arqueológicas ajudam a conhecer o passado local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P23",
+              "factKey": "mbanza-kongo-F23",
+              "text": "A participação de autoridades tradicionais faz parte da gestão patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P24",
+              "factKey": "mbanza-kongo-F24",
+              "text": "A UNESCO reconheceu o lugar em 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-viajante-P25",
+              "factKey": "mbanza-kongo-F25",
+              "text": "O local preserva a memória de vários séculos de história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "mbanza-kongo-geografo-P01",
+              "factKey": "mbanza-kongo-F01",
+              "text": "A carta representa uma cidade e um centro histórico na África Austral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P02",
+              "factKey": "mbanza-kongo-F02",
+              "text": "O sítio protegido situa-se no território angolano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P03",
+              "factKey": "mbanza-kongo-F03",
+              "text": "O núcleo urbano exerceu funções de capital em um reino africano histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P04",
+              "factKey": "mbanza-kongo-F04",
+              "text": "A cidade foi capital política e espiritual do Reino do Kongo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P05",
+              "factKey": "mbanza-kongo-F05",
+              "text": "A UNESCO situa a atuação do Reino do Kongo entre os séculos XIV e XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P06",
+              "factKey": "mbanza-kongo-F06",
+              "text": "Sua implantação urbana ocorreu sobre um planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P07",
+              "factKey": "mbanza-kongo-F07",
+              "text": "O núcleo histórico encontra-se a aproximadamente 570 metros de altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P08",
+              "factKey": "mbanza-kongo-F08",
+              "text": "O centro político era próspero quando portugueses chegaram à região no século XV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P09",
+              "factKey": "mbanza-kongo-F09",
+              "text": "O contato com portugueses no século XV transformou relações políticas, comerciais e religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P10",
+              "factKey": "mbanza-kongo-F10",
+              "text": "A expansão do cristianismo ocorreu sem eliminar todas as práticas culturais preexistentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P11",
+              "factKey": "mbanza-kongo-F11",
+              "text": "Edifícios religiosos integram os remanescentes materiais protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P12",
+              "factKey": "mbanza-kongo-F12",
+              "text": "A antiga catedral conhecida como Kulumbimbi integra o patrimônio do centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P13",
+              "factKey": "mbanza-kongo-F13",
+              "text": "O colégio jesuíta testemunha a função histórica de ensino no centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P14",
+              "factKey": "mbanza-kongo-F14",
+              "text": "A produção de um catecismo em quicongo em 1624 exemplifica circulação de saberes e religião.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P15",
+              "factKey": "mbanza-kongo-F15",
+              "text": "As relações com Portugal e Itália conectaram a capital africana a redes internacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P16",
+              "factKey": "mbanza-kongo-F16",
+              "text": "A capital estava integrada a redes comerciais que ultrapassavam o continente africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P17",
+              "factKey": "mbanza-kongo-F17",
+              "text": "O Reino do Kongo se inseriu em rotas de tráfico transatlântico de pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P18",
+              "factKey": "mbanza-kongo-F18",
+              "text": "A ausência de vestígios materiais identificados do tráfico no sítio não elimina a relevância histórica do tema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P19",
+              "factKey": "mbanza-kongo-F19",
+              "text": "A continuidade de funções rituais e simbólicas contribui para a autenticidade do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P20",
+              "factKey": "mbanza-kongo-F20",
+              "text": "Costumes anteriores persistiram ao lado de práticas cristãs no contexto histórico do reino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P21",
+              "factKey": "mbanza-kongo-F21",
+              "text": "Vestígios civis, militares e religiosos documentam diferentes funções do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P22",
+              "factKey": "mbanza-kongo-F22",
+              "text": "A pesquisa arqueológica complementa documentos históricos sobre a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P23",
+              "factKey": "mbanza-kongo-F23",
+              "text": "A gestão participativa inclui representantes institucionais e autoridades tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P24",
+              "factKey": "mbanza-kongo-F24",
+              "text": "O sítio foi inscrito na Lista do Patrimônio Mundial em 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mbanza-kongo-geografo-P25",
+              "factKey": "mbanza-kongo-F25",
+              "text": "A permanência de funções simbólicas conecta o patrimônio histórico a uma tradição viva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MBANZA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Antiga capital política e espiritual do Reino do Kongo, em Angola, com vestígios históricos e tradições vivas.",
+        "editorialNotes": [
+          "As referências ao tráfico tratam do contexto histórico do reino; a UNESCO informa que não identificou vestígios materiais do tráfico no bem.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

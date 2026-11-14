@@ -1,0 +1,1061 @@
+{
+  "sources": {
+    "ASIA_BJ_UNESCO": {
+      "id": "ASIA_BJ_UNESCO",
+      "title": "Imperial Palaces of the Ming and Qing Dynasties",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "checkedAt": "2026-11-14"
+    },
+    "ASIA_BJ_AXIS": {
+      "id": "ASIA_BJ_AXIS",
+      "title": "Beijing Central Axis",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1714/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-proibida",
+      "placeId": "cidade-proibida",
+      "title": "Cidade Proibida",
+      "aliases": [],
+      "answerType": "complexo palaciano",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CN"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Complexo palaciano asiático",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cidade Proibida"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Palácio de Verão de Pequim"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Palácio Imperial de Shenyang"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Palácio de Potala"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palácio de Gyeongbokgung"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Palácio de Changdeokgung"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Palácio de Mysore"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Palácio de Golestão"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Palácio de Topkapi"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Palácio de Nijo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Palácio de Udaipur"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Palácio de Bang Pa-In"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cidade Proibida",
+          "sources": [
+            "ASIA_BJ_UNESCO",
+            "ASIA_BJ_AXIS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Dinastias ligadas ao conjunto",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ming e Qing"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Joseon e Goryeo"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Maurya e Gupta"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sassânida e Aquemênida"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ming e Qing",
+          "sources": [
+            "ASIA_BJ_UNESCO",
+            "ASIA_BJ_AXIS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Organização espacial do conjunto",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Eixo central e pátios simétricos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Salões em círculo em torno de um lago"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Edifícios dispersos sem eixo de composição"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Torres em formato radial ao redor de praça circular"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Eixo central e pátios simétricos",
+          "sources": [
+            "ASIA_BJ_UNESCO",
+            "ASIA_BJ_AXIS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Cidade onde fica",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pequim"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Shenyang"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Seul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Quioto"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pequim",
+          "sources": [
+            "ASIA_BJ_UNESCO",
+            "ASIA_BJ_AXIS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-proibida-viajante-P01",
+              "factKey": "cidade-proibida-F01",
+              "text": "Este destino é um grande conjunto de edifícios históricos na Ásia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P02",
+              "factKey": "cidade-proibida-F02",
+              "text": "O local serviu de residência a imperadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P03",
+              "factKey": "cidade-proibida-F03",
+              "text": "Fica no centro de uma capital nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P04",
+              "factKey": "cidade-proibida-F04",
+              "text": "Essa capital é Pequim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P05",
+              "factKey": "cidade-proibida-F05",
+              "text": "O conjunto está localizado na China.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P06",
+              "factKey": "cidade-proibida-F06",
+              "text": "A construção principal começou no século XV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P07",
+              "factKey": "cidade-proibida-F07",
+              "text": "Sua construção ocorreu entre 1406 e 1420.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P08",
+              "factKey": "cidade-proibida-F08",
+              "text": "A dinastia Ming esteve ligada à construção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P09",
+              "factKey": "cidade-proibida-F09",
+              "text": "A dinastia Qing também utilizou o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P10",
+              "factKey": "cidade-proibida-F10",
+              "text": "O conjunto reúne muitos salões, pátios e jardins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P11",
+              "factKey": "cidade-proibida-F11",
+              "text": "As edificações seguem uma organização simétrica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P12",
+              "factKey": "cidade-proibida-F12",
+              "text": "Um eixo central organiza a disposição do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P13",
+              "factKey": "cidade-proibida-F13",
+              "text": "Há um pátio externo na parte frontal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P14",
+              "factKey": "cidade-proibida-F14",
+              "text": "Um pátio interno fica na parte posterior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P15",
+              "factKey": "cidade-proibida-F15",
+              "text": "As edificações são exemplos de arquitetura tradicional em madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P16",
+              "factKey": "cidade-proibida-F16",
+              "text": "O lugar guarda móveis e obras de arte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P17",
+              "factKey": "cidade-proibida-F17",
+              "text": "Documentos históricos e modelos arquitetônicos também fazem parte do acervo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P18",
+              "factKey": "cidade-proibida-F18",
+              "text": "Há espaços religiosos no interior do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P19",
+              "factKey": "cidade-proibida-F19",
+              "text": "Algumas salas estão ligadas a tradições budistas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P20",
+              "factKey": "cidade-proibida-F20",
+              "text": "O conjunto foi transformado em museu após o fim da dinastia Qing.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P21",
+              "factKey": "cidade-proibida-F21",
+              "text": "A UNESCO reconheceu o palácio de Pequim em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P22",
+              "factKey": "cidade-proibida-F22",
+              "text": "O reconhecimento patrimonial também inclui um palácio em Shenyang.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P23",
+              "factKey": "cidade-proibida-F23",
+              "text": "O palácio de Shenyang foi incluído na lista em 2004.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P24",
+              "factKey": "cidade-proibida-F24",
+              "text": "O lugar documenta costumes e cerimônias da antiga corte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-viajante-P25",
+              "factKey": "cidade-proibida-F25",
+              "text": "A conservação precisa equilibrar proteção e visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-proibida-geografo-P01",
+              "factKey": "cidade-proibida-F01",
+              "text": "O objeto é um complexo palaciano histórico no centro da capital chinesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P02",
+              "factKey": "cidade-proibida-F02",
+              "text": "O conjunto foi residência imperial e centro de poder estatal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P03",
+              "factKey": "cidade-proibida-F03",
+              "text": "Sua localização central articula o palácio ao traçado histórico da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P04",
+              "factKey": "cidade-proibida-F04",
+              "text": "O sítio está em Pequim, na China.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P05",
+              "factKey": "cidade-proibida-F05",
+              "text": "O conjunto preserva testemunhos da cultura das dinastias Ming e Qing.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P06",
+              "factKey": "cidade-proibida-F06",
+              "text": "Sua construção ocorreu no início do século XV, entre 1406 e 1420.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P07",
+              "factKey": "cidade-proibida-F07",
+              "text": "O imperador Ming Zhu Di promoveu a edificação do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P08",
+              "factKey": "cidade-proibida-F08",
+              "text": "A organização espacial usa um eixo central e simetria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P09",
+              "factKey": "cidade-proibida-F09",
+              "text": "O pátio externo situa-se à frente do pátio interno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P10",
+              "factKey": "cidade-proibida-F10",
+              "text": "Essa divisão espacial expressa funções e hierarquias da corte imperial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P11",
+              "factKey": "cidade-proibida-F11",
+              "text": "Jardins e pátios complementam a disposição dos edifícios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P12",
+              "factKey": "cidade-proibida-F12",
+              "text": "A arquitetura preserva técnicas tradicionais de estruturas em madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P13",
+              "factKey": "cidade-proibida-F13",
+              "text": "O conjunto é uma referência do planejamento palaciano chinês.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P14",
+              "factKey": "cidade-proibida-F14",
+              "text": "Sua composição influenciou edifícios oficiais em período posterior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P15",
+              "factKey": "cidade-proibida-F15",
+              "text": "O acervo inclui objetos da família imperial e coleções artísticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P16",
+              "factKey": "cidade-proibida-F16",
+              "text": "Documentos, desenhos e modelos preservam conhecimentos construtivos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P17",
+              "factKey": "cidade-proibida-F17",
+              "text": "As salas religiosas incluem espaços associados ao budismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P18",
+              "factKey": "cidade-proibida-F18",
+              "text": "A UNESCO identifica influências culturais manchus, han, mongóis e tibetanas na arquitetura religiosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P19",
+              "factKey": "cidade-proibida-F19",
+              "text": "A proteção do patrimônio envolve edifícios e seu entorno urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P20",
+              "factKey": "cidade-proibida-F20",
+              "text": "O palácio foi convertido em museu após a queda da dinastia Qing.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P21",
+              "factKey": "cidade-proibida-F21",
+              "text": "A inscrição do palácio da capital na Lista do Patrimônio Mundial ocorreu em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P22",
+              "factKey": "cidade-proibida-F22",
+              "text": "O reconhecimento serial foi ampliado para incluir um palácio em Shenyang.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P23",
+              "factKey": "cidade-proibida-F23",
+              "text": "A inclusão do conjunto de Shenyang ocorreu em 2004.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P24",
+              "factKey": "cidade-proibida-F24",
+              "text": "O arranjo e a decoração registram práticas e hierarquias da corte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-proibida-geografo-P25",
+              "factKey": "cidade-proibida-F25",
+              "text": "A gestão precisa conciliar pesquisa, conservação e fluxo de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_BJ_UNESCO",
+                "ASIA_BJ_AXIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A Cidade Proibida é o complexo palaciano imperial de Pequim, associado às dinastias Ming e Qing.",
+        "editorialNotes": [
+          "A carta delimita o complexo de Pequim; a inscrição da UNESCO inclui também o palácio de Shenyang. Calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

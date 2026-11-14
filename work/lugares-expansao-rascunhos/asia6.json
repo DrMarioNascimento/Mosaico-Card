@@ -1,0 +1,1002 @@
+{
+  "sources": {
+    "ASIA_CHI_UNESCO": {
+      "id": "ASIA_CHI_UNESCO",
+      "title": "Chitwan National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/284/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-chitwan",
+      "placeId": "parque-chitwan",
+      "title": "Parque Nacional de Chitwan",
+      "aliases": [
+        "Chitwan"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "NP"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional asiático",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Chitwan"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Bardia"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Shuklaphanta"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Parsa"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Sagarmatha"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Kaziranga"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Manas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Sundarbans"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Khao Yai"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Yala"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Ujung Kulon"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Komodo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Chitwan",
+          "sources": [
+            "ASIA_CHI_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Faixa de relevo e ambiente",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Planície subtropical do Terai"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Campos montanos do Himalaia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Florestas úmidas dos Gates Ocidentais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Planície aluvial do Brahmaputra"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Planície subtropical do Terai",
+          "sources": [
+            "ASIA_CHI_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rios próximos ao limite norte",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Narayani e Rapti"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Karnali e Bheri"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Koshi e Arun"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Bagmati e Lalbakeya"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Narayani e Rapti",
+          "sources": [
+            "ASIA_CHI_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Área protegida adjacente a leste",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Reserva de Parsa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Parque de Bardia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Parque de Khaptad"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Reserva de Koshi Tappu"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Reserva de Parsa",
+          "sources": [
+            "ASIA_CHI_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-chitwan-viajante-P01",
+              "factKey": "parque-chitwan-F01",
+              "text": "Este destino é um parque nacional asiático.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P02",
+              "factKey": "parque-chitwan-F02",
+              "text": "Fica no Nepal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P03",
+              "factKey": "parque-chitwan-F03",
+              "text": "O parque está em uma área de terras baixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P04",
+              "factKey": "parque-chitwan-F04",
+              "text": "A paisagem fica aos pés do Himalaia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P05",
+              "factKey": "parque-chitwan-F05",
+              "text": "O ambiente regional é conhecido como Terai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P06",
+              "factKey": "parque-chitwan-F06",
+              "text": "A unidade foi criada em 1973.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P07",
+              "factKey": "parque-chitwan-F07",
+              "text": "Foi o primeiro parque nacional do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P08",
+              "factKey": "parque-chitwan-F08",
+              "text": "A UNESCO reconheceu o parque em 1984.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P09",
+              "factKey": "parque-chitwan-F09",
+              "text": "A área protege florestas e campos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P10",
+              "factKey": "parque-chitwan-F10",
+              "text": "Há rios e planícies que podem inundar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P11",
+              "factKey": "parque-chitwan-F11",
+              "text": "O rinoceronte asiático de um chifre vive na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P12",
+              "factKey": "parque-chitwan-F12",
+              "text": "O tigre-de-bengala também encontra abrigo no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P13",
+              "factKey": "parque-chitwan-F13",
+              "text": "A fauna inclui grande variedade de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P14",
+              "factKey": "parque-chitwan-F14",
+              "text": "Florestas de sal fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P15",
+              "factKey": "parque-chitwan-F15",
+              "text": "Florestas próximas aos rios também são protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P16",
+              "factKey": "parque-chitwan-F16",
+              "text": "Os rios Narayani e Rapti ficam junto à parte norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P17",
+              "factKey": "parque-chitwan-F17",
+              "text": "O Rio Reu fica próximo da parte sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P18",
+              "factKey": "parque-chitwan-F18",
+              "text": "O parque faz fronteira com outra área protegida a leste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P19",
+              "factKey": "parque-chitwan-F19",
+              "text": "Essa área vizinha é conhecida como Parsa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P20",
+              "factKey": "parque-chitwan-F20",
+              "text": "A zona de amortecimento reúne florestas e terras privadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P21",
+              "factKey": "parque-chitwan-F21",
+              "text": "Lagos associados à zona de amortecimento têm reconhecimento internacional como área úmida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P22",
+              "factKey": "parque-chitwan-F22",
+              "text": "A comunidade indígena Tharu tem longa relação com a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P23",
+              "factKey": "parque-chitwan-F23",
+              "text": "Há locais religiosos visitados por peregrinos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P24",
+              "factKey": "parque-chitwan-F24",
+              "text": "A caça ilegal de animais é um desafio para a conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-viajante-P25",
+              "factKey": "parque-chitwan-F25",
+              "text": "A proteção precisa considerar os moradores do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-chitwan-geografo-P01",
+              "factKey": "parque-chitwan-F01",
+              "text": "A unidade protege terras baixas subtropicais do Nepal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P02",
+              "factKey": "parque-chitwan-F02",
+              "text": "Situa-se ao pé do Himalaia, no setor centro-sul do Terai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P03",
+              "factKey": "parque-chitwan-F03",
+              "text": "A paisagem inclui a faixa de colinas Siwalik.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P04",
+              "factKey": "parque-chitwan-F04",
+              "text": "Vales fluviais delimitam áreas ao norte e ao sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P05",
+              "factKey": "parque-chitwan-F05",
+              "text": "A unidade foi instituída em 1973 como o primeiro parque nacional do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P06",
+              "factKey": "parque-chitwan-F06",
+              "text": "Sua inscrição no Patrimônio Mundial Natural ocorreu em 1984.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P07",
+              "factKey": "parque-chitwan-F07",
+              "text": "Florestas de sal, campos e matas ribeirinhas formam um mosaico de habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P08",
+              "factKey": "parque-chitwan-F08",
+              "text": "Planícies aluviais refletem processos de deposição associados aos rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P09",
+              "factKey": "parque-chitwan-F09",
+              "text": "Os rios Narayani e Rapti compõem referências do limite norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P10",
+              "factKey": "parque-chitwan-F10",
+              "text": "O Rio Reu e a fronteira internacional são referências ao sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P11",
+              "factKey": "parque-chitwan-F11",
+              "text": "O parque e a área vizinha de Parsa ampliam a continuidade dos habitats.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P12",
+              "factKey": "parque-chitwan-F12",
+              "text": "A zona de amortecimento foi declarada em 1996 e não faz parte do bem inscrito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P13",
+              "factKey": "parque-chitwan-F13",
+              "text": "Os lagos Beeshazar na zona de amortecimento receberam reconhecimento Ramsar em 2003.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P14",
+              "factKey": "parque-chitwan-F14",
+              "text": "O rinoceronte asiático de um chifre utiliza campos aluviais e florestas ribeirinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P15",
+              "factKey": "parque-chitwan-F15",
+              "text": "O tigre-de-bengala também depende de habitats protegidos no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P16",
+              "factKey": "parque-chitwan-F16",
+              "text": "A unidade abriga muitas espécies de aves, mamíferos e peixes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P17",
+              "factKey": "parque-chitwan-F17",
+              "text": "A comunidade indígena Tharu tem história de ocupação e práticas culturais na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P18",
+              "factKey": "parque-chitwan-F18",
+              "text": "Locais como Bikram Baba e Balmiki Ashram recebem peregrinos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P19",
+              "factKey": "parque-chitwan-F19",
+              "text": "A presença de espécies invasoras pode afetar campos e ambientes ribeirinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P20",
+              "factKey": "parque-chitwan-F20",
+              "text": "A caça ilegal representa uma ameaça a rinocerontes e outros animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P21",
+              "factKey": "parque-chitwan-F21",
+              "text": "A gestão da zona de amortecimento envolve conservação e participação das comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P22",
+              "factKey": "parque-chitwan-F22",
+              "text": "Conflitos entre pessoas e animais silvestres exigem medidas de manejo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P23",
+              "factKey": "parque-chitwan-F23",
+              "text": "A poluição hídrica pode afetar os ecossistemas aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P24",
+              "factKey": "parque-chitwan-F24",
+              "text": "O planejamento do turismo deve considerar os efeitos do fluxo de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-chitwan-geografo-P25",
+              "factKey": "parque-chitwan-F25",
+              "text": "A conectividade entre o parque e áreas vizinhas contribui à integridade ecológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_CHI_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional de Chitwan, no Nepal, protege habitats do Terai, incluindo campos e florestas usados por rinocerontes e tigres.",
+        "editorialNotes": [
+          "A zona de amortecimento é distinta da área do parque inscrita pela UNESCO. Fonte institucional vinculada; calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "DJENNE_UNESCO": {
+      "id": "DJENNE_UNESCO",
+      "title": "Old Towns of Djenné",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/116/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidades-antigas-djenne",
+      "placeId": "cidades-antigas-djenne",
+      "title": "Cidades Antigas de Djenné",
+      "aliases": [
+        "Djenné"
+      ],
+      "answerType": "conjunto urbano e sítios arqueológicos",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ML"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto histórico africano",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cidades Antigas de Djenné"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Timbuktu"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cidade Histórica de Grand-Bassam"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Medina de Fez"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Medina de Marrakech"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Stone Town de Zanzibar"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha de Gorée"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha de Moçambique"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cidade Antiga de Lamu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Aksum"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Grande Zimbábue"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cidades Antigas de Djenné",
+          "sources": [
+            "DJENNE_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Material tradicional das construções",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Terra crua"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pedra calcária"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tijolo cozido"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Madeira de mangue"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Terra crua",
+          "sources": [
+            "DJENNE_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Sistema fluvial associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Delta interior do Níger"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Delta do Nilo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Bacia do Congo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Delta do Okavango"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Delta interior do Níger",
+          "sources": [
+            "DJENNE_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mali"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Marrocos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Senegal"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mali",
+          "sources": [
+            "DJENNE_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidades-antigas-djenne-viajante-P01",
+              "factKey": "cidades-antigas-djenne-F01",
+              "text": "O destino reúne um conjunto urbano histórico e sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P02",
+              "factKey": "cidades-antigas-djenne-F02",
+              "text": "Fica no Mali.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P03",
+              "factKey": "cidades-antigas-djenne-F03",
+              "text": "O lugar está no oeste da África.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P04",
+              "factKey": "cidades-antigas-djenne-F04",
+              "text": "A região está ligada ao delta interior do rio Níger.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P05",
+              "factKey": "cidades-antigas-djenne-F05",
+              "text": "O bem inclui a cidade histórica e quatro sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P06",
+              "factKey": "cidades-antigas-djenne-F06",
+              "text": "Um dos pontos conhecidos é uma grande mesquita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P07",
+              "factKey": "cidades-antigas-djenne-F07",
+              "text": "As construções tradicionais usam terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P08",
+              "factKey": "cidades-antigas-djenne-F08",
+              "text": "A grande mesquita foi reconstruída entre 1906 e 1907.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P09",
+              "factKey": "cidades-antigas-djenne-F09",
+              "text": "Muitas casas históricas têm fachadas altas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P10",
+              "factKey": "cidades-antigas-djenne-F10",
+              "text": "Algumas fachadas têm estruturas de apoio salientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P11",
+              "factKey": "cidades-antigas-djenne-F11",
+              "text": "Há casas históricas de dois andares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P12",
+              "factKey": "cidades-antigas-djenne-F12",
+              "text": "As entradas das casas recebem decoração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P13",
+              "factKey": "cidades-antigas-djenne-F13",
+              "text": "Técnicas de construção são transmitidas entre gerações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P14",
+              "factKey": "cidades-antigas-djenne-F14",
+              "text": "Escavações revelaram vestígios muito antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P15",
+              "factKey": "cidades-antigas-djenne-F15",
+              "text": "Alguns vestígios remontam ao século III antes da era comum.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P16",
+              "factKey": "cidades-antigas-djenne-F16",
+              "text": "Foram encontrados restos de moradias antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P17",
+              "factKey": "cidades-antigas-djenne-F17",
+              "text": "Há fragmentos de peças de cerâmica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P18",
+              "factKey": "cidades-antigas-djenne-F18",
+              "text": "Arqueólogos identificaram também urnas funerárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P19",
+              "factKey": "cidades-antigas-djenne-F19",
+              "text": "Pedras de moer aparecem entre os vestígios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P20",
+              "factKey": "cidades-antigas-djenne-F20",
+              "text": "Restos de trabalho com metal também foram encontrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P21",
+              "factKey": "cidades-antigas-djenne-F21",
+              "text": "O conjunto arqueológico ajuda a entender cidades anteriores ao islã.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P22",
+              "factKey": "cidades-antigas-djenne-F22",
+              "text": "A chuva e a erosão podem danificar a arquitetura de terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P23",
+              "factKey": "cidades-antigas-djenne-F23",
+              "text": "A cidade histórica é habitada e tem vida cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P24",
+              "factKey": "cidades-antigas-djenne-F24",
+              "text": "A UNESCO reconheceu o lugar em 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-viajante-P25",
+              "factKey": "cidades-antigas-djenne-F25",
+              "text": "O bem entrou na lista de Patrimônio Mundial em Perigo em 2016.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidades-antigas-djenne-geografo-P01",
+              "factKey": "cidades-antigas-djenne-F01",
+              "text": "A carta representa um bem cultural seriado com centro urbano e sítios arqueológicos africanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P02",
+              "factKey": "cidades-antigas-djenne-F02",
+              "text": "O conjunto protegido situa-se no território malinês.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P03",
+              "factKey": "cidades-antigas-djenne-F03",
+              "text": "Sua localização integra a África Ocidental subsaariana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P04",
+              "factKey": "cidades-antigas-djenne-F04",
+              "text": "Os sítios arqueológicos se relacionam ao delta interior da bacia do Níger.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P05",
+              "factKey": "cidades-antigas-djenne-F05",
+              "text": "A proteção seriada reúne a malha antiga de uma cidade e quatro áreas arqueológicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P06",
+              "factKey": "cidades-antigas-djenne-F06",
+              "text": "A Grande Mesquita é um marco religioso e arquitetônico do conjunto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P07",
+              "factKey": "cidades-antigas-djenne-F07",
+              "text": "A arquitetura local utiliza intensivamente terra crua como material construtivo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P08",
+              "factKey": "cidades-antigas-djenne-F08",
+              "text": "A reconstrução da mesquita em 1906–1907 resultou no edifício religioso atual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P09",
+              "factKey": "cidades-antigas-djenne-F09",
+              "text": "A verticalidade caracteriza parte das fachadas da arquitetura civil local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P10",
+              "factKey": "cidades-antigas-djenne-F10",
+              "text": "Contrafortes e pilastras marcam fachadas de casas históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P11",
+              "factKey": "cidades-antigas-djenne-F11",
+              "text": "Edifícios de dois pavimentos compõem parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P12",
+              "factKey": "cidades-antigas-djenne-F12",
+              "text": "As entradas e seus elementos decorativos participam da composição das fachadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P13",
+              "factKey": "cidades-antigas-djenne-F13",
+              "text": "A transmissão de técnicas de construção em terra envolve mestres e gerações de profissionais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P14",
+              "factKey": "cidades-antigas-djenne-F14",
+              "text": "Escavações arqueológicas identificaram ocupações anteriores à difusão do islã na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P15",
+              "factKey": "cidades-antigas-djenne-F15",
+              "text": "O conjunto arqueológico inclui evidências datadas a partir do século III a.C.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P16",
+              "factKey": "cidades-antigas-djenne-F16",
+              "text": "As escavações revelaram estruturas de habitações circulares e retangulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P17",
+              "factKey": "cidades-antigas-djenne-F17",
+              "text": "Fragmentos cerâmicos ajudam a interpretar práticas materiais de sociedades antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P18",
+              "factKey": "cidades-antigas-djenne-F18",
+              "text": "Urnas funerárias integram os achados sobre práticas de sepultamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P19",
+              "factKey": "cidades-antigas-djenne-F19",
+              "text": "Instrumentos de moagem informam atividades cotidianas e técnicas antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P20",
+              "factKey": "cidades-antigas-djenne-F20",
+              "text": "Escórias metálicas documentam processos de produção e técnicas artesanais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P21",
+              "factKey": "cidades-antigas-djenne-F21",
+              "text": "Os quatro sítios preservam evidências de estruturas urbanas pré-islâmicas no delta interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P22",
+              "factKey": "cidades-antigas-djenne-F22",
+              "text": "A vulnerabilidade da terra crua à água exige manutenção e gestão do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P23",
+              "factKey": "cidades-antigas-djenne-F23",
+              "text": "A preservação precisa dialogar com funções religiosas, residenciais e sociais do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P24",
+              "factKey": "cidades-antigas-djenne-F24",
+              "text": "O conjunto foi inscrito na Lista do Patrimônio Mundial em 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidades-antigas-djenne-geografo-P25",
+              "factKey": "cidades-antigas-djenne-F25",
+              "text": "A inscrição na Lista do Patrimônio Mundial em Perigo em 2016 evidencia desafios de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DJENNE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Bem cultural no Mali que reúne uma cidade histórica de arquitetura em terra e quatro sítios arqueológicos do delta interior do Níger.",
+        "editorialNotes": [
+          "A carta representa o bem seriado, não apenas a mesquita. O status de patrimônio em perigo é informado com data, não como condição presumida permanente.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

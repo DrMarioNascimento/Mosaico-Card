@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "EU_BRUGES_UNESCO": {
+      "id": "EU_BRUGES_UNESCO",
+      "title": "Historic Centre of Brugge",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/996/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-centro-historico-bruges",
+      "placeId": "centro-historico-bruges",
+      "title": "Centro Histórico de Bruges",
+      "aliases": [
+        "Centro Histórico de Brugge"
+      ],
+      "answerType": "centro historico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BE"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Centro histórico europeu",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Centro Histórico de Bruges"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Gante"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de Antuérpia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de Bruxelas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Lovaina"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Liège"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Utrecht"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Amsterdã"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Delft"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Estrasburgo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Siena"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Lübeck"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Centro Histórico de Bruges",
+          "sources": [
+            "EU_BRUGES_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ano de inscrição na UNESCO",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "2000"
+            },
+            {
+              "id": "C2-O2",
+              "text": "1998"
+            },
+            {
+              "id": "C2-O3",
+              "text": "2002"
+            },
+            {
+              "id": "C2-O4",
+              "text": "2005"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "2000",
+          "sources": [
+            "EU_BRUGES_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Expressão arquitetônica citada pela UNESCO",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Gótico de tijolo"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Barroco de madeira"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Românico de mármore"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Modernismo de concreto"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Gótico de tijolo",
+          "sources": [
+            "EU_BRUGES_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da primeira estação ferroviária citada pela UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1838"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1825"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1854"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1871"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1838",
+          "sources": [
+            "EU_BRUGES_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "centro-historico-bruges-viajante-P01",
+              "factKey": "centro-historico-bruges-viajante-F01",
+              "text": "Este centro histórico fica na Europa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P02",
+              "factKey": "centro-historico-bruges-viajante-F02",
+              "text": "É um conjunto urbano histórico que continua habitado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P03",
+              "factKey": "centro-historico-bruges-viajante-F03",
+              "text": "Suas ruas guardam traços de uma cidade medieval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P04",
+              "factKey": "centro-historico-bruges-viajante-F04",
+              "text": "O centro está na Bélgica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P05",
+              "factKey": "centro-historico-bruges-viajante-F05",
+              "text": "A UNESCO o inscreveu na Lista do Patrimônio Mundial em 2000.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P06",
+              "factKey": "centro-historico-bruges-viajante-F06",
+              "text": "A paisagem inclui canais e praças.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P07",
+              "factKey": "centro-historico-bruges-viajante-F07",
+              "text": "A praça central do Mercado possui um campanário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P08",
+              "factKey": "centro-historico-bruges-viajante-F08",
+              "text": "Há uma antiga beguinagem no conjunto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P09",
+              "factKey": "centro-historico-bruges-viajante-F09",
+              "text": "Hospitais antigos integram as estruturas históricas preservadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P10",
+              "factKey": "centro-historico-bruges-viajante-F10",
+              "text": "O conjunto conserva edifícios religiosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P11",
+              "factKey": "centro-historico-bruges-viajante-F11",
+              "text": "Edifícios comerciais antigos também compõem o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P12",
+              "factKey": "centro-historico-bruges-viajante-F12",
+              "text": "A cidade foi um importante centro de comércio medieval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P13",
+              "factKey": "centro-historico-bruges-viajante-F13",
+              "text": "Artistas associados aos primitivos flamengos trabalharam aqui.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P14",
+              "factKey": "centro-historico-bruges-viajante-F14",
+              "text": "Jan van Eyck é um dos pintores associados à cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P15",
+              "factKey": "centro-historico-bruges-viajante-F15",
+              "text": "Hans Memling também é associado à produção artística local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P16",
+              "factKey": "centro-historico-bruges-viajante-F16",
+              "text": "A arquitetura gótica de tijolo caracteriza o centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P17",
+              "factKey": "centro-historico-bruges-viajante-F17",
+              "text": "Muitas ruas medievais ainda orientam o traçado urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P18",
+              "factKey": "centro-historico-bruges-viajante-F18",
+              "text": "Os canais já foram usados no transporte de mercadorias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P19",
+              "factKey": "centro-historico-bruges-viajante-F19",
+              "text": "Quatro portas antigas ainda marcam os antigos limites urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P20",
+              "factKey": "centro-historico-bruges-viajante-F20",
+              "text": "Os muros medievais desapareceram, mas vestígios de sua linha permanecem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P21",
+              "factKey": "centro-historico-bruges-viajante-F21",
+              "text": "Uma primeira estação ferroviária foi construída em 1838.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P22",
+              "factKey": "centro-historico-bruges-viajante-F22",
+              "text": "Fachadas foram renovadas em estilo neogótico no fim do século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P23",
+              "factKey": "centro-historico-bruges-viajante-F23",
+              "text": "O conjunto tem uma mistura histórica de funções urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P24",
+              "factKey": "centro-historico-bruges-viajante-F24",
+              "text": "Parte da malha histórica inclui praças e espaços abertos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-viajante-P25",
+              "factKey": "centro-historico-bruges-viajante-F25",
+              "text": "A silhueta é marcada por torres e edifícios cívicos altos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "centro-historico-bruges-geografo-P01",
+              "factKey": "centro-historico-bruges-geografo-F01",
+              "text": "A UNESCO descreve o centro como assentamento medieval cuja malha evoluiu ao longo dos séculos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P02",
+              "factKey": "centro-historico-bruges-geografo-F02",
+              "text": "Ruas principais convergem para praças públicas, preservando parte da organização urbana medieval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P03",
+              "factKey": "centro-historico-bruges-geografo-F03",
+              "text": "A antiga rede de canais ligava a circulação de mercadorias ao crescimento da cidade comercial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P04",
+              "factKey": "centro-historico-bruges-geografo-F04",
+              "text": "Os antigos limites medievais continuam legíveis apesar da perda das muralhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P05",
+              "factKey": "centro-historico-bruges-geografo-F05",
+              "text": "Quatro portas sobreviventes ajudam a localizar a linha das antigas defesas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P06",
+              "factKey": "centro-historico-bruges-geografo-F06",
+              "text": "A topografia urbana inclui canais, espaços abertos e uma trama histórica de ruas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P07",
+              "factKey": "centro-historico-bruges-geografo-F07",
+              "text": "O gótico de tijolo relaciona a arquitetura local a tradições do norte da Europa e do Báltico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P08",
+              "factKey": "centro-historico-bruges-geografo-F08",
+              "text": "A rede comercial e os vínculos culturais ajudaram a difundir influências artísticas europeias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P09",
+              "factKey": "centro-historico-bruges-geografo-F09",
+              "text": "Obras de pintores locais foram exportadas e influenciaram estilos em outras partes da Europa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P10",
+              "factKey": "centro-historico-bruges-geografo-F10",
+              "text": "A UNESCO associa o patrocínio artístico da cidade aos primitivos flamengos do século XV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P11",
+              "factKey": "centro-historico-bruges-geografo-F11",
+              "text": "A praça do Mercado e seu campanário expressam a permanência de funções públicas na malha histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P12",
+              "factKey": "centro-historico-bruges-geografo-F12",
+              "text": "Hospitais e conjuntos religiosos revelam usos sociais e institucionais além do comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P13",
+              "factKey": "centro-historico-bruges-geografo-F13",
+              "text": "A cidade continuou a crescer após seu auge econômico e artístico medieval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P14",
+              "factKey": "centro-historico-bruges-geografo-F14",
+              "text": "Nos séculos XVIII e XIX, lotes medievais foram reunidos em propriedades maiores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P15",
+              "factKey": "centro-historico-bruges-geografo-F15",
+              "text": "A urbanização da área de Coupure ocorreu entre 1751 e 1755.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P16",
+              "factKey": "centro-historico-bruges-geografo-F16",
+              "text": "A primeira estação ferroviária, de 1838, exemplifica uma intervenção urbana posterior à Idade Média.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P17",
+              "factKey": "centro-historico-bruges-geografo-F17",
+              "text": "A revolução industrial do século XIX teve pouco impacto na estrutura básica do centro histórico, segundo a UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P18",
+              "factKey": "centro-historico-bruges-geografo-F18",
+              "text": "A renovação neogótica de fachadas no fim do século XIX tornou-se parte da história de conservação local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P19",
+              "factKey": "centro-historico-bruges-geografo-F19",
+              "text": "A superposição de épocas aparece na morfologia urbana e na arquitetura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P20",
+              "factKey": "centro-historico-bruges-geografo-F20",
+              "text": "A malha histórica mantém quarteirões delimitados por ruas e passagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P21",
+              "factKey": "centro-historico-bruges-geografo-F21",
+              "text": "A diversidade de funções urbanas é considerada pela UNESCO um atributo a preservar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P22",
+              "factKey": "centro-historico-bruges-geografo-F22",
+              "text": "O desenvolvimento de grande escala próximo ao sítio pode afetar sua relação com o entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P23",
+              "factKey": "centro-historico-bruges-geografo-F23",
+              "text": "A gestão patrimonial precisa conciliar mudanças urbanas e respeito à morfologia histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P24",
+              "factKey": "centro-historico-bruges-geografo-F24",
+              "text": "Um plano de gestão do patrimônio mundial foi elaborado em 2012, coordenado pelo município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-historico-bruges-geografo-P25",
+              "factKey": "centro-historico-bruges-geografo-F25",
+              "text": "A UNESCO registra que o sítio inscrito abrange 410 hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_BRUGES_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Centro histórico belga de origem medieval, cuja rede de canais, praça, arquitetura gótica de tijolo e legado artístico documentam sua história comercial.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; revisar independentemente e calibrar em partidas.",
+          "As indicações de momento dependem do comportamento do motor."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

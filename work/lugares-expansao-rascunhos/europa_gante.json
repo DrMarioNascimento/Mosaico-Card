@@ -1,0 +1,1062 @@
+{
+  "sources": {
+    "EU_GANTE_HIST": {
+      "id": "EU_GANTE_HIST",
+      "title": "Ghent over the centuries",
+      "publisher": "Visit Gent, cidade de Gante",
+      "url": "https://visit.gent.be/en/good-know/practical-information/why-ghent/ghent-over-centuries",
+      "checkedAt": "2026-11-14"
+    },
+    "EU_GANTE_GUIA": {
+      "id": "EU_GANTE_GUIA",
+      "title": "Official City Guide e patrimônio urbano",
+      "publisher": "Visit Gent, cidade de Gante",
+      "url": "https://visit.gent.be/sites/default/files/media/doc/2024-01/STADGENT-CITYGUIDE-2023-nov-ENG-ONLINe.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-gante",
+      "placeId": "cidade-gante",
+      "title": "Gante",
+      "aliases": [
+        "Gent",
+        "Ghent"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BE"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade histórica europeia",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Gante"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Bruges"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Antuérpia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Bruxelas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Lovaina"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Liège"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Utrecht"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Amsterdã"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Delft"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Estrasburgo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Lübeck"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Colônia"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Gante",
+          "sources": [
+            "EU_GANTE_HIST"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Encontro de rios associado às origens da cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Lys e Escalda"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Mosa e Sambre"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Reno e Mosela"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sena e Marne"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Lys e Escalda",
+          "sources": [
+            "EU_GANTE_HIST"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Canal que restabeleceu o acesso portuário ao mar",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Canal Gante-Terneuzen"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Canal Alberto"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Canal do Centro"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Canal de Willebroek"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Canal Gante-Terneuzen",
+          "sources": [
+            "EU_GANTE_HIST"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da exposição mundial sediada na cidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1913"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1900"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1905"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1935"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1913",
+          "sources": [
+            "EU_GANTE_HIST"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-gante-viajante-P01",
+              "factKey": "cidade-gante-viajante-F01",
+              "text": "É uma cidade europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P02",
+              "factKey": "cidade-gante-viajante-F02",
+              "text": "Possui um centro com construções medievais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P03",
+              "factKey": "cidade-gante-viajante-F03",
+              "text": "Sua história está ligada a cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P04",
+              "factKey": "cidade-gante-viajante-F04",
+              "text": "Fica na Bélgica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P05",
+              "factKey": "cidade-gante-viajante-F05",
+              "text": "A cidade se desenvolveu junto aos rios Lys e Escalda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P06",
+              "factKey": "cidade-gante-viajante-F06",
+              "text": "Um castelo medieval rodeado por fosso integra sua paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P07",
+              "factKey": "cidade-gante-viajante-F07",
+              "text": "A cidade possui uma catedral e um campanário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P08",
+              "factKey": "cidade-gante-viajante-F08",
+              "text": "Há três beguinagens na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P09",
+              "factKey": "cidade-gante-viajante-F09",
+              "text": "Suas origens históricas são associadas a uma abadia fundada por Santo Amando por volta de 630.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P10",
+              "factKey": "cidade-gante-viajante-F10",
+              "text": "Foi um importante centro urbano e comercial na Idade Média.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P11",
+              "factKey": "cidade-gante-viajante-F11",
+              "text": "A produção de tecidos teve papel importante na economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P12",
+              "factKey": "cidade-gante-viajante-F12",
+              "text": "Um comerciante de tecidos chamado Jacob van Artevelde teve protagonismo político na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P13",
+              "factKey": "cidade-gante-viajante-F13",
+              "text": "A população resistiu a autoridades e reivindicou privilégios ao longo da história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P14",
+              "factKey": "cidade-gante-viajante-F14",
+              "text": "Uma revolta local foi punida por Carlos V.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P15",
+              "factKey": "cidade-gante-viajante-F15",
+              "text": "A cidade passou por dificuldades econômicas após perder a passagem para o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P16",
+              "factKey": "cidade-gante-viajante-F16",
+              "text": "Um canal para Terneuzen devolveu à cidade o acesso portuário ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P17",
+              "factKey": "cidade-gante-viajante-F17",
+              "text": "A universidade local foi criada em 1816, segundo o guia municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P18",
+              "factKey": "cidade-gante-viajante-F18",
+              "text": "A cidade sediou uma exposição mundial em 1913.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P19",
+              "factKey": "cidade-gante-viajante-F19",
+              "text": "Seu patrimônio histórico sofreu poucos bombardeios nas duas guerras mundiais, segundo o guia municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P20",
+              "factKey": "cidade-gante-viajante-F20",
+              "text": "Os cais Graslei e Korenlei receberam embarcações e mercadorias na Idade Média.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P21",
+              "factKey": "cidade-gante-viajante-F21",
+              "text": "A catedral local abriga o Retábulo do Cordeiro Místico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P22",
+              "factKey": "cidade-gante-viajante-F22",
+              "text": "A antiga igreja de São Nicolau ficava perto do antigo porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P23",
+              "factKey": "cidade-gante-viajante-F23",
+              "text": "A cidade teve associações sindicais entre as primeiras da Bélgica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P24",
+              "factKey": "cidade-gante-viajante-F24",
+              "text": "A indústria e o movimento socialista fazem parte de sua história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-viajante-P25",
+              "factKey": "cidade-gante-viajante-F25",
+              "text": "O antigo castelo dos condes abrigou o Conselho de Flandres a partir de 1407.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-gante-geografo-P01",
+              "factKey": "cidade-gante-geografo-F01",
+              "text": "A confluência dos rios Lys e Escalda está ligada à localização histórica do assentamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P02",
+              "factKey": "cidade-gante-geografo-F02",
+              "text": "Segundo o guia municipal, uma abadia foi estabelecida na confluência por volta de 630.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P03",
+              "factKey": "cidade-gante-geografo-F03",
+              "text": "No século X, o assentamento comercial já se estendia entre os dois rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P04",
+              "factKey": "cidade-gante-geografo-F04",
+              "text": "Os cais Graslei e Korenlei serviam à descarga de barcos na Idade Média.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P05",
+              "factKey": "cidade-gante-geografo-F05",
+              "text": "A navegação fluvial ajudou a articular o centro urbano com circuitos comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P06",
+              "factKey": "cidade-gante-geografo-F06",
+              "text": "O setor têxtil medieval dependia de matérias-primas importadas da Inglaterra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P07",
+              "factKey": "cidade-gante-geografo-F07",
+              "text": "A interrupção das importações inglesas influenciou o posicionamento político local na Guerra dos Cem Anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P08",
+              "factKey": "cidade-gante-geografo-F08",
+              "text": "O comerciante Jacob van Artevelde liderou uma revolta contra o conde de Flandres no século XIV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P09",
+              "factKey": "cidade-gante-geografo-F09",
+              "text": "Ofícios e corporações ampliaram seu poder político no século XIV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P10",
+              "factKey": "cidade-gante-geografo-F10",
+              "text": "Em 1407, a sede do Conselho de Flandres passou de Bruges para o castelo local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P11",
+              "factKey": "cidade-gante-geografo-F11",
+              "text": "O castelo dos condes expressa a relação entre poder territorial e paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P12",
+              "factKey": "cidade-gante-geografo-F12",
+              "text": "A antiga igreja de São Nicolau situava-se perto do mercado e do porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P13",
+              "factKey": "cidade-gante-geografo-F13",
+              "text": "Corporações mantiveram capelas na igreja associada aos mercadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P14",
+              "factKey": "cidade-gante-geografo-F14",
+              "text": "A expansão urbana acompanhou a transformação da igreja paroquial que se tornaria catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P15",
+              "factKey": "cidade-gante-geografo-F15",
+              "text": "O edifício atual da catedral data dos séculos XIII a XVI, segundo guia municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P16",
+              "factKey": "cidade-gante-geografo-F16",
+              "text": "A cidade perdeu a passagem ao mar e enfrentou declínio populacional e econômico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P17",
+              "factKey": "cidade-gante-geografo-F17",
+              "text": "O canal para Terneuzen restabeleceu uma ligação portuária com o mar no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P18",
+              "factKey": "cidade-gante-geografo-F18",
+              "text": "O renascimento econômico começou na segunda metade do século XVIII, segundo a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P19",
+              "factKey": "cidade-gante-geografo-F19",
+              "text": "A industrialização urbana esteve ligada ao surgimento de associações sindicais e do movimento socialista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P20",
+              "factKey": "cidade-gante-geografo-F20",
+              "text": "A universidade foi criada em 1816 durante a administração neerlandesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P21",
+              "factKey": "cidade-gante-geografo-F21",
+              "text": "A exposição mundial de 1913 integra a história urbana do início do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P22",
+              "factKey": "cidade-gante-geografo-F22",
+              "text": "A permanência de monumentos históricos está associada aos poucos danos de bombardeio relatados nas duas guerras mundiais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P23",
+              "factKey": "cidade-gante-geografo-F23",
+              "text": "O centro reúne castelo, campanário, catedral e antigas beguinagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P24",
+              "factKey": "cidade-gante-geografo-F24",
+              "text": "As antigas funções portuárias dos cais convivem hoje com usos de passeio e serviços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-gante-geografo-P25",
+              "factKey": "cidade-gante-geografo-F25",
+              "text": "A pintura dos irmãos Van Eyck na catedral relaciona patrimônio religioso e história artística flamenga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EU_GANTE_HIST",
+                "EU_GANTE_GUIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade belga na confluência do Lys e do Escalda, com trajetória comercial e têxtil medieval, posterior industrialização e ligação portuária ao mar.",
+        "editorialNotes": [
+          "Recorte é a cidade, não uma suposta inscrição UNESCO do centro inteiro; o campanário pertence a bem serial.",
+          "Fontes turísticas municipais; revisão independente e partidas pendentes.",
+          "Metadados de pistas não garantem ordem de distribuição."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1051 @@
+{
+  "sources": {
+    "TRIBGE": {
+      "id": "TRIBGE",
+      "title": "Cidade e Estado",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/torres.html",
+      "checkedAt": "2026-11-14"
+    },
+    "TRFURNAS": {
+      "id": "TRFURNAS",
+      "title": "Morro das Furnas",
+      "publisher": "Prefeitura Municipal",
+      "url": "https://torres.rs.gov.br/viva/morro-do-meio/",
+      "checkedAt": "2026-11-14"
+    },
+    "TRPARQUE": {
+      "id": "TRPARQUE",
+      "title": "Parque da Guarita",
+      "publisher": "Prefeitura Municipal",
+      "url": "https://passaporte.torres.rs.gov.br/locais/parque-da-guarita",
+      "checkedAt": "2026-11-14"
+    },
+    "TRILHA": {
+      "id": "TRILHA",
+      "title": "Ilha dos Lobos",
+      "publisher": "Prefeitura Municipal",
+      "url": "https://torres.rs.gov.br/viva/ilha-dos-lobos/",
+      "checkedAt": "2026-11-14"
+    },
+    "TRICM": {
+      "id": "TRICM",
+      "title": "Área protegida",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/revis-da-ilha-dos-lobos/area-protegida",
+      "checkedAt": "2026-11-14"
+    },
+    "TRVIS": {
+      "id": "TRVIS",
+      "title": "Informações sobre visitação",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/revis-da-ilha-dos-lobos/informacoes-sobre-visitacao",
+      "checkedAt": "2026-11-14"
+    },
+    "TRHIST": {
+      "id": "TRHIST",
+      "title": "História do município",
+      "publisher": "Secretaria de Turismo do RS",
+      "url": "https://www.turismo.rs.gov.br/turismo/municipio/visualizar/5",
+      "checkedAt": "2026-11-14"
+    },
+    "TRORLA": {
+      "id": "TRORLA",
+      "title": "Caminhada na via costeira",
+      "publisher": "Prefeitura Municipal",
+      "url": "https://torres.rs.gov.br/viva/caminhada-na-via-costeira/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-torres-rs",
+      "placeId": "torres-rs",
+      "title": "Torres",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Torres"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Capão da Canoa"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Tramandaí"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Imbé"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Mostardas"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Osório"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Arroio do Sal"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Xangri-lá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cidreira"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Laguna"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Garopaba"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Torres",
+          "sources": [
+            "TRIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Praia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Guarita"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cassino"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Joaquina"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Itamambuca"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Guarita",
+          "sources": [
+            "TRPARQUE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio na divisa interestadual",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mampituba"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Uruguai"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C3-O4",
+              "text": "São Francisco"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mampituba",
+          "sources": [
+            "TRVIS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "TRIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "torres-rs-viajante-P01",
+              "factKey": "torres-rs-viajante-F01",
+              "text": "É uma cidade litorânea no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P02",
+              "factKey": "torres-rs-viajante-F02",
+              "text": "Fica no extremo norte do litoral gaúcho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P03",
+              "factKey": "torres-rs-viajante-F03",
+              "text": "O rio Mampituba marca a divisa com Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P04",
+              "factKey": "torres-rs-viajante-F04",
+              "text": "A praia da Guarita é um de seus atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P05",
+              "factKey": "torres-rs-viajante-F05",
+              "text": "O Parque da Guarita tem falésias junto ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P06",
+              "factKey": "torres-rs-viajante-F06",
+              "text": "O Morro das Furnas também é chamado Torre do Meio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P07",
+              "factKey": "torres-rs-viajante-F07",
+              "text": "A Torre do Meio fica entre o Morro do Farol e a Torre Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P08",
+              "factKey": "torres-rs-viajante-F08",
+              "text": "Suas falésias têm paredões de basalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P09",
+              "factKey": "torres-rs-viajante-F09",
+              "text": "O mar e as chuvas esculpem essas formações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P10",
+              "factKey": "torres-rs-viajante-F10",
+              "text": "A Ilha dos Lobos fica no mar em frente à cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P11",
+              "factKey": "torres-rs-viajante-F11",
+              "text": "A ilha é um refúgio de vida silvestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P12",
+              "factKey": "torres-rs-viajante-F12",
+              "text": "Leões-marinhos frequentam a ilha rochosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P13",
+              "factKey": "torres-rs-viajante-F13",
+              "text": "Baleias-francas são registradas no entorno da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P14",
+              "factKey": "torres-rs-viajante-F14",
+              "text": "A ilha tem origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P15",
+              "factKey": "torres-rs-viajante-F15",
+              "text": "A Praia da Cal integra a orla urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P16",
+              "factKey": "torres-rs-viajante-F16",
+              "text": "A Praia Grande está entre os pontos do percurso pela costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P17",
+              "factKey": "torres-rs-viajante-F17",
+              "text": "A Prainha também aparece na caminhada costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P18",
+              "factKey": "torres-rs-viajante-F18",
+              "text": "Há trilhas sobre o Morro das Furnas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P19",
+              "factKey": "torres-rs-viajante-F19",
+              "text": "A área da Guarita oferece caminhos e mirantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P20",
+              "factKey": "torres-rs-viajante-F20",
+              "text": "O refúgio marinho foi criado como reserva ecológica em 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P21",
+              "factKey": "torres-rs-viajante-F21",
+              "text": "Em 2005 a área passou a ser refúgio de vida silvestre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P22",
+              "factKey": "torres-rs-viajante-F22",
+              "text": "A geografia da cidade inclui oceano, praias e elevações rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P23",
+              "factKey": "torres-rs-viajante-F23",
+              "text": "O local teve uma antiga guarnição militar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P24",
+              "factKey": "torres-rs-viajante-F24",
+              "text": "Uma fortificação controlou historicamente a passagem litorânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-viajante-P25",
+              "factKey": "torres-rs-viajante-F25",
+              "text": "Há passeios para observar a fauna marinha a bordo de embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "torres-rs-geografo-P01",
+              "factKey": "torres-rs-geografo-F01",
+              "text": "O rio Mampituba demarca a divisa entre dois estados sulinos nesta área costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P02",
+              "factKey": "torres-rs-geografo-F02",
+              "text": "A cidade está no extremo norte do litoral gaúcho, junto à divisa interestadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P03",
+              "factKey": "torres-rs-geografo-F03",
+              "text": "As escarpas rochosas interrompem a sequência de praias da orla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P04",
+              "factKey": "torres-rs-geografo-F04",
+              "text": "As falésias da Torre do Meio são constituídas por basalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P05",
+              "factKey": "torres-rs-geografo-F05",
+              "text": "Ventos, chuvas e ondas atuam na modelagem das paredes de rocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P06",
+              "factKey": "torres-rs-geografo-F06",
+              "text": "A erosão marinha participa da formação de furnas nas falésias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P07",
+              "factKey": "torres-rs-geografo-F07",
+              "text": "A Torre do Meio separa-se espacialmente dos morros do Farol e da Torre Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRFURNAS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P08",
+              "factKey": "torres-rs-geografo-F08",
+              "text": "O Parque da Guarita reúne praias, oceano e formas basálticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P09",
+              "factKey": "torres-rs-geografo-F09",
+              "text": "A Ilha dos Lobos se originou de rochas vulcânicas associadas às dos morros costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P10",
+              "factKey": "torres-rs-geografo-F10",
+              "text": "A presença sazonal de mamíferos marinhos reforça a importância de proteção da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P11",
+              "factKey": "torres-rs-geografo-F11",
+              "text": "Registros de lobos e leões-marinhos na ilha remontam a 1797.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P12",
+              "factKey": "torres-rs-geografo-F12",
+              "text": "Segundo a prefeitura, leões-marinhos frequentam a ilha mais que lobos-marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P13",
+              "factKey": "torres-rs-geografo-F13",
+              "text": "Baleias-francas aparecem no entorno sobretudo entre julho e outubro, segundo a prefeitura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P14",
+              "factKey": "torres-rs-geografo-F14",
+              "text": "Um cargueiro naufragou ao colidir com a ilha em 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRILHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P15",
+              "factKey": "torres-rs-geografo-F15",
+              "text": "A proteção federal da ilha começou em 1983 como reserva ecológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P16",
+              "factKey": "torres-rs-geografo-F16",
+              "text": "O enquadramento mudou para refúgio de vida silvestre em 2005.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P17",
+              "factKey": "torres-rs-geografo-F17",
+              "text": "A unidade federal combina proteção integral e regras de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P18",
+              "factKey": "torres-rs-geografo-F18",
+              "text": "A observação embarcada possibilita contato visual com fauna sem desembarcar na ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P19",
+              "factKey": "torres-rs-geografo-F19",
+              "text": "Um posto fiscal e militar controlou historicamente a passagem costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P20",
+              "factKey": "torres-rs-geografo-F20",
+              "text": "A posição na rota terrestre ligava núcleos portugueses do extremo sul ao restante do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P21",
+              "factKey": "torres-rs-geografo-F21",
+              "text": "O antigo posto se tornou uma guarita militar entre 1774 e 1776.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P22",
+              "factKey": "torres-rs-geografo-F22",
+              "text": "A orla conecta praias por calçadão e trilhas nas encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P23",
+              "factKey": "torres-rs-geografo-F23",
+              "text": "O relevo condiciona percursos com subida entre a Praia da Cal e a Guarita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRORLA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P24",
+              "factKey": "torres-rs-geografo-F24",
+              "text": "O Parque da Guarita usa a paisagem costeira para interpretação geológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "torres-rs-geografo-P25",
+              "factKey": "torres-rs-geografo-F25",
+              "text": "A costa associa uma ilha protegida ao uso turístico da cidade litorânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TRVIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade litorânea gaúcha na divisa catarinense, com falésias basálticas e a Ilha dos Lobos.",
+        "editorialNotes": [
+          "Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

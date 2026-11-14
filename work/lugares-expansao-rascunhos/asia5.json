@@ -1,0 +1,1064 @@
+{
+  "sources": {
+    "ASIA_SUN_IND": {
+      "id": "ASIA_SUN_IND",
+      "title": "Sundarbans National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/452/",
+      "checkedAt": "2026-11-14"
+    },
+    "ASIA_SUN_BD": {
+      "id": "ASIA_SUN_BD",
+      "title": "The Sundarbans",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/798/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-sundarbans-india",
+      "placeId": "sundarbans-india",
+      "title": "Parque Nacional de Sundarbans",
+      "aliases": [
+        "Sundarbans"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "IN"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque ou reserva natural",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Sundarbans"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Chitwan"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Kaziranga"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Keoladeo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Komodo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Khao Yai"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Gunung Mulu"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Kinabalu"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Ranthambore"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Yala"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Bardia"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Ujung Kulon"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Sundarbans",
+          "sources": [
+            "ASIA_SUN_IND",
+            "ASIA_SUN_BD"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ecossistema costeiro predominante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Manguezal sujeito a marés"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Floresta tropical úmida de planície"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Floresta temperada de altitude"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Campos alpinos e matas montanas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Manguezal sujeito a marés",
+          "sources": [
+            "ASIA_SUN_IND",
+            "ASIA_SUN_BD"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Animal associado ao parque",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tigre-de-bengala"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Leopardo-indiano"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Leopardo-das-neves"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Leão-asiático"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tigre-de-bengala",
+          "sources": [
+            "ASIA_SUN_IND",
+            "ASIA_SUN_BD"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Processos que moldam a paisagem",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Marés e deposição de sedimentos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Degelo e avanço de geleiras"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Derrames de lava e vulcanismo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Dissolução de rochas em cavernas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Marés e deposição de sedimentos",
+          "sources": [
+            "ASIA_SUN_IND",
+            "ASIA_SUN_BD"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "sundarbans-india-viajante-P01",
+              "factKey": "sundarbans-india-F01",
+              "text": "Este destino é um parque nacional da Ásia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P02",
+              "factKey": "sundarbans-india-F02",
+              "text": "A carta trata da área protegida situada na Índia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P03",
+              "factKey": "sundarbans-india-F03",
+              "text": "O parque faz parte de uma extensa região de manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P04",
+              "factKey": "sundarbans-india-F04",
+              "text": "Essa região também se estende até Bangladesh.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P05",
+              "factKey": "sundarbans-india-F05",
+              "text": "Canais e pequenos cursos de água atravessam a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P06",
+              "factKey": "sundarbans-india-F06",
+              "text": "As marés influenciam o ambiente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P07",
+              "factKey": "sundarbans-india-F07",
+              "text": "Há ilhas e áreas lodosas entre os canais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P08",
+              "factKey": "sundarbans-india-F08",
+              "text": "As árvores do mangue convivem com água salobra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P09",
+              "factKey": "sundarbans-india-F09",
+              "text": "A região fica próxima à Baía de Bengala.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P10",
+              "factKey": "sundarbans-india-F10",
+              "text": "A paisagem está associada a um grande delta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P11",
+              "factKey": "sundarbans-india-F11",
+              "text": "Os rios Ganges e Brahmaputra estão ligados a esse delta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P12",
+              "factKey": "sundarbans-india-F12",
+              "text": "O tigre-de-bengala vive na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P13",
+              "factKey": "sundarbans-india-F13",
+              "text": "Os tigres dessa área podem nadar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P14",
+              "factKey": "sundarbans-india-F14",
+              "text": "Há aves aquáticas no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P15",
+              "factKey": "sundarbans-india-F15",
+              "text": "O crocodilo-estuarino é encontrado no ecossistema regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P16",
+              "factKey": "sundarbans-india-F16",
+              "text": "Golfinhos de rio estão entre os animais associados à área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P17",
+              "factKey": "sundarbans-india-F17",
+              "text": "O parque protege répteis e mamíferos aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P18",
+              "factKey": "sundarbans-india-F18",
+              "text": "Algumas tartarugas marinhas usam áreas da região para nidificar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P19",
+              "factKey": "sundarbans-india-F19",
+              "text": "A UNESCO reconheceu o parque indiano em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P20",
+              "factKey": "sundarbans-india-F20",
+              "text": "Uma área protegida vizinha em Bangladesh tem reconhecimento separado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P21",
+              "factKey": "sundarbans-india-F21",
+              "text": "O mangue ajuda a proteger a costa contra tempestades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P22",
+              "factKey": "sundarbans-india-F22",
+              "text": "O ambiente retém sedimentos trazidos pela água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P23",
+              "factKey": "sundarbans-india-F23",
+              "text": "A pesca é uma atividade ligada às comunidades do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P24",
+              "factKey": "sundarbans-india-F24",
+              "text": "A conservação envolve a relação entre pessoas e animais silvestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-viajante-P25",
+              "factKey": "sundarbans-india-F25",
+              "text": "A vida no parque depende do encontro de água doce e água do mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "sundarbans-india-geografo-P01",
+              "factKey": "sundarbans-india-F01",
+              "text": "A carta delimita o parque nacional localizado na Índia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P02",
+              "factKey": "sundarbans-india-F02",
+              "text": "A unidade integra uma floresta de manguezal compartilhada com Bangladesh.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P03",
+              "factKey": "sundarbans-india-F03",
+              "text": "O ecossistema situa-se no delta do Ganges e do Brahmaputra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P04",
+              "factKey": "sundarbans-india-F04",
+              "text": "A Baía de Bengala influencia as águas costeiras da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P05",
+              "factKey": "sundarbans-india-F05",
+              "text": "Marés conectam rios, canais, estuários e pequenas ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P06",
+              "factKey": "sundarbans-india-F06",
+              "text": "O deslocamento das marés altera a distribuição de sedimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P07",
+              "factKey": "sundarbans-india-F07",
+              "text": "Processos de erosão e deposição remodelam partes da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P08",
+              "factKey": "sundarbans-india-F08",
+              "text": "A mistura de água doce e salgada produz ambientes salobros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P09",
+              "factKey": "sundarbans-india-F09",
+              "text": "A vegetação de mangue é adaptada à influência da salinidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P10",
+              "factKey": "sundarbans-india-F10",
+              "text": "As florestas ajudam a estabilizar margens e reter sedimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P11",
+              "factKey": "sundarbans-india-F11",
+              "text": "O delta funciona como ambiente de crescimento para organismos aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P12",
+              "factKey": "sundarbans-india-F12",
+              "text": "Os manguezais também reduzem parte dos impactos de tempestades costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P13",
+              "factKey": "sundarbans-india-F13",
+              "text": "O tigre-de-bengala é um dos grandes predadores associados ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P14",
+              "factKey": "sundarbans-india-F14",
+              "text": "Natação faz parte do repertório dos tigres em uma paisagem entrecortada por canais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P15",
+              "factKey": "sundarbans-india-F15",
+              "text": "Mamíferos aquáticos incluem golfinhos do Ganges e do Irrawaddy.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P16",
+              "factKey": "sundarbans-india-F16",
+              "text": "A fauna inclui répteis ameaçados e aves aquáticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P17",
+              "factKey": "sundarbans-india-F17",
+              "text": "A área oferece locais de nidificação para espécies de tartarugas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P18",
+              "factKey": "sundarbans-india-F18",
+              "text": "A região de Sajnakhali tem importância para aves migratórias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P19",
+              "factKey": "sundarbans-india-F19",
+              "text": "A inscrição do parque indiano como Patrimônio Mundial ocorreu em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P20",
+              "factKey": "sundarbans-india-F20",
+              "text": "O sítio de Bangladesh foi inscrito separadamente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P21",
+              "factKey": "sundarbans-india-F21",
+              "text": "A salinidade pode ser afetada por mudanças no fluxo de água doce a montante.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P22",
+              "factKey": "sundarbans-india-F22",
+              "text": "Derramamentos de óleo representam ameaça para fauna e manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P23",
+              "factKey": "sundarbans-india-F23",
+              "text": "A gestão precisa articular conservação, pesca e turismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P24",
+              "factKey": "sundarbans-india-F24",
+              "text": "Conflitos entre pessoas e tigres fazem parte dos desafios locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sundarbans-india-geografo-P25",
+              "factKey": "sundarbans-india-F25",
+              "text": "Planejamento participativo pode envolver comunidades da área protegida e do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_SUN_IND",
+                "ASIA_SUN_BD"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional de Sundarbans é uma área protegida da Índia em um manguezal transfronteiriço compartilhado com Bangladesh.",
+        "editorialNotes": [
+          "A carta delimita o parque indiano; o bem vizinho em Bangladesh tem inscrição separada.",
+          "As fontes da UNESCO divergem quanto a algumas proporções de área; números proporcionais foram omitidos."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1070 @@
+{
+  "sources": {
+    "ASIA_JEJ_UNESCO": {
+      "id": "ASIA_JEJ_UNESCO",
+      "title": "Jeju Volcanic Island and Lava Tubes",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1264/",
+      "checkedAt": "2026-11-14"
+    },
+    "ASIA_JEJ_IUCN": {
+      "id": "ASIA_JEJ_IUCN",
+      "title": "Avaliação técnica da ilha vulcânica e seus tubos de lava",
+      "publisher": "IUCN / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/archive/2007/whc07-31com-inf8B2e.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "ASIA_JEJ_VISIT": {
+      "id": "ASIA_JEJ_VISIT",
+      "title": "Cones vulcânicos da ilha",
+      "publisher": "Visit Jeju — portal oficial de turismo",
+      "url": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500128",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-ilha-jeju",
+      "placeId": "ilha-jeju",
+      "title": "Ilha vulcânica e tubos de lava de Jeju",
+      "aliases": [
+        "Jeju"
+      ],
+      "answerType": "ilha vulcânica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "KR"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha vulcânica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilha vulcânica e tubos de lava de Jeju"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha de Ulleungdo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha de Yakushima"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha de Sakurajima"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Aogashima"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha de Miyakejima"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha de Izu Oshima"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha de Hachijojima"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha de Surtsey"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha de Pico"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha de Isabela"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha de Tenerife"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilha vulcânica e tubos de lava de Jeju",
+          "sources": [
+            "ASIA_JEJ_UNESCO",
+            "ASIA_JEJ_IUCN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País da ilha",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Coreia do Sul"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Japão"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Indonésia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Filipinas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Coreia do Sul",
+          "sources": [
+            "ASIA_JEJ_UNESCO",
+            "ASIA_JEJ_IUCN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Cone incluído no bem reconhecido pela UNESCO",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Seongsan Ilchulbong"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Songaksan"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dusanbong"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Soemeori Oreum"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Seongsan Ilchulbong",
+          "sources": [
+            "ASIA_JEJ_UNESCO",
+            "ASIA_JEJ_IUCN",
+            "ASIA_JEJ_VISIT"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rocha predominante em vulcões de escudo",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Basalto"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Calcário"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Granito"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ardósia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Basalto",
+          "sources": [
+            "ASIA_JEJ_IUCN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ilha-jeju-viajante-P01",
+              "factKey": "ilha-jeju-F01",
+              "text": "Este destino é uma ilha de origem vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P02",
+              "factKey": "ilha-jeju-F02",
+              "text": "Fica na Coreia do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P03",
+              "factKey": "ilha-jeju-F03",
+              "text": "O conjunto reconhecido inclui cavernas formadas por lava.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P04",
+              "factKey": "ilha-jeju-F04",
+              "text": "O sistema de cavernas é chamado Geomunoreum.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P05",
+              "factKey": "ilha-jeju-F05",
+              "text": "Suas paredes apresentam rocha vulcânica escura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P06",
+              "factKey": "ilha-jeju-F06",
+              "text": "Há depósitos de carbonato de cores variadas no interior das cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P07",
+              "factKey": "ilha-jeju-F07",
+              "text": "O teto de algumas cavernas apresenta formações minerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P08",
+              "factKey": "ilha-jeju-F08",
+              "text": "O chão também possui formações minerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P09",
+              "factKey": "ilha-jeju-F09",
+              "text": "Uma montanha chamada Halla faz parte do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P10",
+              "factKey": "ilha-jeju-F10",
+              "text": "No alto da montanha há uma cratera com lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P11",
+              "factKey": "ilha-jeju-F11",
+              "text": "A montanha possui cachoeiras e formações rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P12",
+              "factKey": "ilha-jeju-F12",
+              "text": "Um cone vulcânico se projeta junto ao oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P13",
+              "factKey": "ilha-jeju-F13",
+              "text": "Esse cone se chama Seongsan Ilchulbong.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P14",
+              "factKey": "ilha-jeju-F14",
+              "text": "O cone é formado por material vulcânico conhecido como tufo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P15",
+              "factKey": "ilha-jeju-F15",
+              "text": "A paisagem do cone apresenta paredes íngremes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P16",
+              "factKey": "ilha-jeju-F16",
+              "text": "A ilha está associada a um vulcão de formato amplo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P17",
+              "factKey": "ilha-jeju-F17",
+              "text": "A UNESCO reconheceu o conjunto em 2007.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P18",
+              "factKey": "ilha-jeju-F18",
+              "text": "O reconhecimento é de patrimônio natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P19",
+              "factKey": "ilha-jeju-F19",
+              "text": "O bem reconhecido inclui áreas separadas dentro da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P20",
+              "factKey": "ilha-jeju-F20",
+              "text": "Uma reserva natural protege a montanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P21",
+              "factKey": "ilha-jeju-F21",
+              "text": "As cavernas contam uma parte da história vulcânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P22",
+              "factKey": "ilha-jeju-F22",
+              "text": "O conjunto de tubos e cavernas tem valor científico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P23",
+              "factKey": "ilha-jeju-F23",
+              "text": "O patrimônio também é conhecido por suas paisagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P24",
+              "factKey": "ilha-jeju-F24",
+              "text": "A conservação precisa considerar o impacto de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-viajante-P25",
+              "factKey": "ilha-jeju-F25",
+              "text": "As águas e formações minerais criaram cores no ambiente subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ilha-jeju-geografo-P01",
+              "factKey": "ilha-jeju-F01",
+              "text": "O objeto é um conjunto natural em uma ilha vulcânica sul-coreana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P02",
+              "factKey": "ilha-jeju-F02",
+              "text": "A unidade inscrita reúne componentes distintos em uma mesma ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P03",
+              "factKey": "ilha-jeju-F03",
+              "text": "A formação da ilha é associada a um vulcão de escudo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P04",
+              "factKey": "ilha-jeju-F04",
+              "text": "Vulcões de escudo tendem a apresentar perfis amplos e baixos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P05",
+              "factKey": "ilha-jeju-F05",
+              "text": "O sistema Geomunoreum preserva uma rede de tubos de lava.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P06",
+              "factKey": "ilha-jeju-F06",
+              "text": "As paredes escuras registram a origem vulcânica das cavidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P07",
+              "factKey": "ilha-jeju-F07",
+              "text": "Depósitos posteriores de carbonato revestem partes dos tubos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P08",
+              "factKey": "ilha-jeju-F08",
+              "text": "Espeleotemas de carbonato aparecem no teto de cavidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P09",
+              "factKey": "ilha-jeju-F09",
+              "text": "Formações minerais também ocorrem no piso subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P10",
+              "factKey": "ilha-jeju-F10",
+              "text": "O Monte Halla integra uma das áreas protegidas do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P11",
+              "factKey": "ilha-jeju-F11",
+              "text": "A cratera do cume abriga um lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P12",
+              "factKey": "ilha-jeju-F12",
+              "text": "Cachoeiras e diferentes formas de rocha enriquecem a paisagem da montanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P13",
+              "factKey": "ilha-jeju-F13",
+              "text": "O cone de tufo de Seongsan Ilchulbong avança junto ao oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P14",
+              "factKey": "ilha-jeju-F14",
+              "text": "Os estratos desse cone ajudam a estudar erupções vulcânicas em contato com água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P15",
+              "factKey": "ilha-jeju-F15",
+              "text": "Sua forma e suas paredes revelam estruturas do material depositado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P16",
+              "factKey": "ilha-jeju-F16",
+              "text": "A ilha oferece evidência da história geológica regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P17",
+              "factKey": "ilha-jeju-F17",
+              "text": "A inscrição como Patrimônio Mundial Natural ocorreu em 2007.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P18",
+              "factKey": "ilha-jeju-F18",
+              "text": "O bem serial inclui a montanha, o cone e o sistema de tubos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P19",
+              "factKey": "ilha-jeju-F19",
+              "text": "Uma reserva natural protege a área do cume.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P20",
+              "factKey": "ilha-jeju-F20",
+              "text": "Os componentes inscritos representam processos vulcânicos diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P21",
+              "factKey": "ilha-jeju-F21",
+              "text": "A conservação do subsolo precisa considerar possíveis impactos do uso agrícola no entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P22",
+              "factKey": "ilha-jeju-F22",
+              "text": "A gestão do fluxo de visitantes é um desafio de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P23",
+              "factKey": "ilha-jeju-F23",
+              "text": "Os depósitos minerais ajudam a diferenciar as paisagens internas dos tubos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P24",
+              "factKey": "ilha-jeju-F24",
+              "text": "O patrimônio combina valor cênico e importância para a pesquisa geológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-jeju-geografo-P25",
+              "factKey": "ilha-jeju-F25",
+              "text": "A organização das áreas protegidas procura conservar seus atributos e sua paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ASIA_JEJ_UNESCO",
+                "ASIA_JEJ_IUCN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A ilha de Jeju, na Coreia do Sul, reúne o Monte Halla, o cone de Seongsan Ilchulbong e cavernas vulcânicas protegidas.",
+        "editorialNotes": [
+          "O bem serial abrange componentes selecionados, não a ilha inteira. Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

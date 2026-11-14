@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "LEVUKA_UNESCO": {
+      "id": "LEVUKA_UNESCO",
+      "title": "Levuka Historical Port Town",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1399/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-oceania-levuka",
+      "placeId": "oceania-levuka",
+      "title": "Cidade Portuária Histórica de Levuka",
+      "aliases": [
+        "Levuka"
+      ],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "FJ"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade ou centro histórico da Oceania",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cidade Portuária Histórica de Levuka"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Suva"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Lautoka"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Luganville"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Port Vila"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Honiara"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Apia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Nukuʻalofa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Nouméa"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Pago Pago"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Papeete"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Port Moresby"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cidade Portuária Histórica de Levuka",
+          "sources": [
+            "LEVUKA_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ilha onde se localiza",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Ovalau"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Viti Levu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Vanua Levu"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Taveuni"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Ovalau",
+          "sources": [
+            "LEVUKA_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "País",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Fiji"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Vanuatu"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Samoa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tonga"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Fiji",
+          "sources": [
+            "LEVUKA_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Via histórica junto ao mar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Beach Street"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Victoria Parade"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Main Beach Road"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Wharf Street"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Beach Street",
+          "sources": [
+            "LEVUKA_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "oceania-levuka-viajante-P01",
+              "factKey": "oceania-levuka-F01",
+              "text": "Este lugar é uma cidade portuária histórica do Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P02",
+              "factKey": "oceania-levuka-F02",
+              "text": "A cidade fica no país de Fiji.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P03",
+              "factKey": "oceania-levuka-F03",
+              "text": "O município histórico se encontra na ilha de Ovalau.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P04",
+              "factKey": "oceania-levuka-F04",
+              "text": "Atrás da cidade há encostas cobertas por floresta.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P05",
+              "factKey": "oceania-levuka-F05",
+              "text": "Coqueiros e mangueiras aparecem ao longo da praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P06",
+              "factKey": "oceania-levuka-F06",
+              "text": "As construções históricas formam uma linha baixa perto da praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P07",
+              "factKey": "oceania-levuka-F07",
+              "text": "O porto tornou-se centro de comércio a partir da década de 1820.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P08",
+              "factKey": "oceania-levuka-F08",
+              "text": "Americanos e europeus construíram armazéns e estabelecimentos comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P09",
+              "factKey": "oceania-levuka-F09",
+              "text": "A cidade foi a primeira capital colonial de Fiji.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P10",
+              "factKey": "oceania-levuka-F10",
+              "text": "A cessão de Fiji à Grã-Bretanha ocorreu em 1874.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P11",
+              "factKey": "oceania-levuka-F11",
+              "text": "Em 1882 a capital foi transferida para Suva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P12",
+              "factKey": "oceania-levuka-F12",
+              "text": "Uma via chamada Beach Street acompanha a frente marítima.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P13",
+              "factKey": "oceania-levuka-F13",
+              "text": "Um paredão de pedra e concreto acompanha a rua da praia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P14",
+              "factKey": "oceania-levuka-F14",
+              "text": "Outras ruas partem da orla rumo ao interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P15",
+              "factKey": "oceania-levuka-F15",
+              "text": "Antigas aldeias indígenas existiam na área que hoje integra a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P16",
+              "factKey": "oceania-levuka-F16",
+              "text": "A população indígena superava em número os colonos europeus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P17",
+              "factKey": "oceania-levuka-F17",
+              "text": "Armazéns de copra faziam parte do porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P18",
+              "factKey": "oceania-levuka-F18",
+              "text": "Casas, igrejas e escolas surgiram perto das aldeias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P19",
+              "factKey": "oceania-levuka-F19",
+              "text": "Muitos edifícios históricos usam madeira e revestimento de chapa ondulada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P20",
+              "factKey": "oceania-levuka-F20",
+              "text": "Várias edificações têm apenas um ou dois pavimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P21",
+              "factKey": "oceania-levuka-F21",
+              "text": "Há uma catedral e uma casa paroquial históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P22",
+              "factKey": "oceania-levuka-F22",
+              "text": "Um hotel histórico foi fundado no fim da década de 1860.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P23",
+              "factKey": "oceania-levuka-F23",
+              "text": "Há vestígios de trilhos associados ao antigo cais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P24",
+              "factKey": "oceania-levuka-F24",
+              "text": "A cidade histórica recebeu o título de Patrimônio Mundial em 2013.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-viajante-P25",
+              "factKey": "oceania-levuka-F25",
+              "text": "A conservação protege ruas, edifícios e a paisagem das encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "oceania-levuka-geografo-P01",
+              "factKey": "oceania-levuka-F01",
+              "text": "A paisagem urbana ilustra o desenvolvimento de um porto colonial insular do Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P02",
+              "factKey": "oceania-levuka-F02",
+              "text": "O sítio inscrito localiza-se no arquipélago de Fiji.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P03",
+              "factKey": "oceania-levuka-F03",
+              "text": "O núcleo protegido ocupa uma faixa costeira da ilha vulcânica de Ovalau.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P04",
+              "factKey": "oceania-levuka-F04",
+              "text": "As encostas de um vulcão extinto delimitam o assentamento em direção ao interior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P05",
+              "factKey": "oceania-levuka-F05",
+              "text": "O ambiente costeiro é descrito pela UNESCO com coqueiros e mangueiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P06",
+              "factKey": "oceania-levuka-F06",
+              "text": "O casario litorâneo apresenta escala predominantemente baixa e acompanha a orla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P07",
+              "factKey": "oceania-levuka-F07",
+              "text": "A partir dos anos 1820, comerciantes e colonizadores desenvolveram ali atividades portuárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P08",
+              "factKey": "oceania-levuka-F08",
+              "text": "Redes comerciais americanas e europeias instalaram depósitos e atividades ligadas ao porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P09",
+              "factKey": "oceania-levuka-F09",
+              "text": "O núcleo portuário tornou-se a primeira sede da administração colonial de Fiji.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P10",
+              "factKey": "oceania-levuka-F10",
+              "text": "Em 1874 Fiji foi cedido à Grã-Bretanha, marco da formação colonial vinculada ao lugar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P11",
+              "factKey": "oceania-levuka-F11",
+              "text": "A transferência da capital para Suva em 1882 não interrompeu o desenvolvimento local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P12",
+              "factKey": "oceania-levuka-F12",
+              "text": "Beach Street estrutura o eixo de ocupação paralelo à linha costeira.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P13",
+              "factKey": "oceania-levuka-F13",
+              "text": "Uma estrutura longitudinal de pedra e concreto separa a via principal do mar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P14",
+              "factKey": "oceania-levuka-F14",
+              "text": "As vias e vielas irradiam da rua costeira e acompanham os contornos do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P15",
+              "factKey": "oceania-levuka-F15",
+              "text": "Os antigos sítios das aldeias indígenas de Totoga e Nasau compõem a paisagem histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P16",
+              "factKey": "oceania-levuka-F16",
+              "text": "A ocupação colonial desenvolveu-se em contato com uma população indígena numericamente maior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P17",
+              "factKey": "oceania-levuka-F17",
+              "text": "A presença de depósitos de copra testemunha circuitos de extração e exportação marítima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P18",
+              "factKey": "oceania-levuka-F18",
+              "text": "Residências e instituições religiosas e escolares cresceram em torno de assentamentos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P19",
+              "factKey": "oceania-levuka-F19",
+              "text": "Edificações de madeira com revestimento de tábuas ou chapa ondulada expressam adaptações construtivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P20",
+              "factKey": "oceania-levuka-F20",
+              "text": "A tipologia construída é caracterizada principalmente por edifícios de um ou dois andares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P21",
+              "factKey": "oceania-levuka-F21",
+              "text": "A Catedral do Sagrado Coração e sua casa paroquial integram o conjunto reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P22",
+              "factKey": "oceania-levuka-F22",
+              "text": "O Royal Hotel, fundado no final dos anos 1860, é um dos elementos do patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P23",
+              "factKey": "oceania-levuka-F23",
+              "text": "Trilhos remanescentes vinculam edifícios portuários e alfandegários ao cais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P24",
+              "factKey": "oceania-levuka-F24",
+              "text": "A UNESCO inscreveu o sítio cultural em 2013 pelos critérios de intercâmbio e tipologia histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-levuka-geografo-P25",
+              "factKey": "oceania-levuka-F25",
+              "text": "A integridade do conjunto depende também da proteção das encostas que conformam seu entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LEVUKA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade portuária histórica de Fiji, na ilha de Ovalau, que combina traços de ocupação indígena e colonial.",
+        "editorialNotes": [
+          "O nome da rua é dado específico, não o nome do lugar focal.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

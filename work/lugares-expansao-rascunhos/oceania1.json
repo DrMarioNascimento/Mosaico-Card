@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "LORDHOWE_UNESCO": {
+      "id": "LORDHOWE_UNESCO",
+      "title": "Lord Howe Island Group",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/186/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-oceania-lord-howe",
+      "placeId": "oceania-lord-howe",
+      "title": "Grupo de Ilhas Lord Howe",
+      "aliases": [
+        "Lord Howe"
+      ],
+      "answerType": "grupo de ilhas oceânicas",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AU"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Grupo insular",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Grupo de Ilhas Lord Howe"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha Norfolk"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha Macquarie"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilhas Heard e McDonald"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha Christmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilhas Cocos (Keeling)"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha Rottnest"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha Kangaroo"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha Flinders"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha Maria"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha Phillip"
+            },
+            {
+              "id": "C1-O12",
+              "text": "K’gari"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Grupo de Ilhas Lord Howe",
+          "sources": [
+            "LORDHOWE_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Origem das ilhas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Atividade vulcânica submarina"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Elevação tectônica de um atol de coral"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Acumulação sedimentar em delta fluvial"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Fragmentação de crosta continental"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Atividade vulcânica submarina",
+          "sources": [
+            "LORDHOWE_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Mar onde está o grupo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mar da Tasmânia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mar de Coral"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mar de Timor"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mar de Arafura"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mar da Tasmânia",
+          "sources": [
+            "LORDHOWE_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ambientes protegidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ilhas vulcânicas, recifes e área marinha"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ilhas graníticas, restingas e lagoas costeiras"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Atóis de coral e ilhas calcárias"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ilhas continentais com fiordes glaciais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Ilhas vulcânicas, recifes e área marinha",
+          "sources": [
+            "LORDHOWE_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "oceania-lord-howe-viajante-P01",
+              "factKey": "oceania-lord-howe-F01",
+              "text": "Este destino é um conjunto de ilhas oceânicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P02",
+              "factKey": "oceania-lord-howe-F02",
+              "text": "As ilhas pertencem à Austrália.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P03",
+              "factKey": "oceania-lord-howe-F03",
+              "text": "O grupo fica no oceano Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P04",
+              "factKey": "oceania-lord-howe-F04",
+              "text": "O mar da região recebe o nome de Tasmânia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P05",
+              "factKey": "oceania-lord-howe-F05",
+              "text": "As ilhas surgiram a partir de atividade vulcânica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P06",
+              "factKey": "oceania-lord-howe-F06",
+              "text": "A origem dos vulcões está sob a superfície do mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P07",
+              "factKey": "oceania-lord-howe-F07",
+              "text": "As montanhas atuais são restos de um vulcão antigo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P08",
+              "factKey": "oceania-lord-howe-F08",
+              "text": "A erosão alterou a forma desse vulcão ao longo do tempo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P09",
+              "factKey": "oceania-lord-howe-F09",
+              "text": "Há encostas íngremes nas ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P10",
+              "factKey": "oceania-lord-howe-F10",
+              "text": "Uma lagoa fica protegida por um arco de morros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P11",
+              "factKey": "oceania-lord-howe-F11",
+              "text": "Uma rocha chamada Pirâmide de Ball sobe abruptamente do mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P12",
+              "factKey": "oceania-lord-howe-F12",
+              "text": "Há recifes de coral associados ao grupo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P13",
+              "factKey": "oceania-lord-howe-F13",
+              "text": "Esses recifes ficam em uma posição bastante ao sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P14",
+              "factKey": "oceania-lord-howe-F14",
+              "text": "Espécies de águas tropicais e temperadas coexistem na região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P15",
+              "factKey": "oceania-lord-howe-F15",
+              "text": "Muitas aves marinhas utilizam as ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P16",
+              "factKey": "oceania-lord-howe-F16",
+              "text": "As ilhas são importantes para a reprodução de um petrel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P17",
+              "factKey": "oceania-lord-howe-F17",
+              "text": "Há também grande concentração reprodutiva de uma ave de cauda vermelha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P18",
+              "factKey": "oceania-lord-howe-F18",
+              "text": "Algumas espécies vivem naturalmente apenas nesta região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P19",
+              "factKey": "oceania-lord-howe-F19",
+              "text": "Uma ave terrestre da ilha perdeu a capacidade de voar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P20",
+              "factKey": "oceania-lord-howe-F20",
+              "text": "Um grande inseto parecido com um graveto foi redescoberto em uma ilha rochosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P21",
+              "factKey": "oceania-lord-howe-F21",
+              "text": "O lugar reúne ambientes terrestres e marinhos protegidos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P22",
+              "factKey": "oceania-lord-howe-F22",
+              "text": "Grande parte da área terrestre é protegida como parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P23",
+              "factKey": "oceania-lord-howe-F23",
+              "text": "O destino foi reconhecido como Patrimônio Mundial em 1982.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P24",
+              "factKey": "oceania-lord-howe-F24",
+              "text": "Plantas e animais introduzidos podem ameaçar espécies locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-viajante-P25",
+              "factKey": "oceania-lord-howe-F25",
+              "text": "A conservação procura reduzir os impactos das visitas humanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "oceania-lord-howe-geografo-P01",
+              "factKey": "oceania-lord-howe-F01",
+              "text": "O bem protegido compreende um grupo de ilhas oceânicas isoladas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P02",
+              "factKey": "oceania-lord-howe-F02",
+              "text": "O território insular integra a Austrália e sua legislação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P03",
+              "factKey": "oceania-lord-howe-F03",
+              "text": "Sua localização é no Pacífico sul, a leste da Austrália continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P04",
+              "factKey": "oceania-lord-howe-F04",
+              "text": "O arquipélago situa-se no mar da Tasmânia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P05",
+              "factKey": "oceania-lord-howe-F05",
+              "text": "O arquipélago é formado por remanescentes de atividade vulcânica submarina.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P06",
+              "factKey": "oceania-lord-howe-F06",
+              "text": "A construção vulcânica começou no fundo oceânico, a mais de 2.000 metros de profundidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P07",
+              "factKey": "oceania-lord-howe-F07",
+              "text": "As ilhas preservam partes emersas de um antigo vulcão em escudo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P08",
+              "factKey": "oceania-lord-howe-F08",
+              "text": "O relevo insular registra estágio avançado de erosão de um grande vulcão em escudo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P09",
+              "factKey": "oceania-lord-howe-F09",
+              "text": "O relevo inclui encostas montanhosas íngremes e ilhotas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P10",
+              "factKey": "oceania-lord-howe-F10",
+              "text": "Um arco de colinas envolve uma lagoa costeira no grupo insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P11",
+              "factKey": "oceania-lord-howe-F11",
+              "text": "A Pirâmide de Ball é um remanescente rochoso que se eleva abruptamente do oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P12",
+              "factKey": "oceania-lord-howe-F12",
+              "text": "Os recifes coralíneos integram a área marinha protegida.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P13",
+              "factKey": "oceania-lord-howe-F13",
+              "text": "O recife ilustra um limite austral de distribuição de recifes coralíneos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P14",
+              "factKey": "oceania-lord-howe-F14",
+              "text": "A área de transição reúne comunidades associadas a ambientes tropicais e temperados.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P15",
+              "factKey": "oceania-lord-howe-F15",
+              "text": "Colônias de aves marinhas usam o grupo como área de nidificação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P16",
+              "factKey": "oceania-lord-howe-F16",
+              "text": "O grupo é um dos principais locais de reprodução do petrel-de-providência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P17",
+              "factKey": "oceania-lord-howe-F17",
+              "text": "O local abriga importante concentração reprodutiva do rabo-de-junco-de-cauda-vermelha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P18",
+              "factKey": "oceania-lord-howe-F18",
+              "text": "O isolamento insular favoreceu a ocorrência de espécies endêmicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P19",
+              "factKey": "oceania-lord-howe-F19",
+              "text": "Uma ave endêmica incapaz de voar exemplifica a evolução da fauna insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P20",
+              "factKey": "oceania-lord-howe-F20",
+              "text": "Um inseto endêmico antes temido extinto foi redescoberto na Pirâmide de Ball.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P21",
+              "factKey": "oceania-lord-howe-F21",
+              "text": "A delimitação reconhecida inclui áreas terrestres, marinhas e recifes.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P22",
+              "factKey": "oceania-lord-howe-F22",
+              "text": "A maior parte do componente terrestre integra uma reserva permanente de parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P23",
+              "factKey": "oceania-lord-howe-F23",
+              "text": "A UNESCO inscreveu o grupo na Lista do Patrimônio Mundial em 1982.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P24",
+              "factKey": "oceania-lord-howe-F24",
+              "text": "Espécies invasoras representam pressão sobre a biodiversidade insular endêmica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-lord-howe-geografo-P25",
+              "factKey": "oceania-lord-howe-F25",
+              "text": "A gestão de visitantes e espécies invasoras contribui para proteger ecossistemas frágeis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LORDHOWE_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Grupo de ilhas vulcânicas australianas no mar da Tasmânia, com recifes, aves marinhas e espécies endêmicas.",
+        "editorialNotes": [
+          "O bem inclui o grupo insular e a Pirâmide de Ball, não somente a ilha principal.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

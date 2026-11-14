@@ -1,0 +1,1003 @@
+{
+  "sources": {
+    "RENNELL_UNESCO": {
+      "id": "RENNELL_UNESCO",
+      "title": "East Rennell",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/854/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-oceania-rennell-oriental",
+      "placeId": "oceania-rennell-oriental",
+      "title": "Rennell Oriental",
+      "aliases": [
+        "East Rennell"
+      ],
+      "answerType": "área insular protegida",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "SB"
+        ],
+        "continents": [
+          "oceania"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área insular",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rennell Oriental"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilhas Rock do Sul"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilhas Phoenix"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Atol de Bikini"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Atol de Rangiroa"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Atol de Kiritimati"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Atol de Takapoto"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Grupo de Ilhas Lord Howe"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha de Norfolk"
+            },
+            {
+              "id": "C1-O10",
+              "text": "K’gari"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha Macquarie"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha de Páscoa"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rennell Oriental",
+          "sources": [
+            "RENNELL_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Lago associado ao destino",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Lago Tegano"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Lago Te Anau"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lago Taupo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Lago Rotorua"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Lago Tegano",
+          "sources": [
+            "RENNELL_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "País ou território",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ilhas Salomão"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Fiji"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Vanuatu"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Papua-Nova Guiné"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ilhas Salomão",
+          "sources": [
+            "RENNELL_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Origem geológica",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Atol de coral elevado"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ilha de origem vulcânica"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Fragmento de plataforma continental"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ilha fluvial sedimentar"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Atol de coral elevado",
+          "sources": [
+            "RENNELL_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "oceania-rennell-oriental-viajante-P01",
+              "factKey": "oceania-rennell-oriental-F01",
+              "text": "Este destino protegido fica em uma ilha do Pacífico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P02",
+              "factKey": "oceania-rennell-oriental-F02",
+              "text": "O território pertence a um país formado por muitas ilhas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P03",
+              "factKey": "oceania-rennell-oriental-F03",
+              "text": "O país é conhecido como Ilhas Salomão.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P04",
+              "factKey": "oceania-rennell-oriental-F04",
+              "text": "A área protegida ocupa apenas parte de uma ilha maior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P05",
+              "factKey": "oceania-rennell-oriental-F05",
+              "text": "A ilha se formou a partir de um antigo atol.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P06",
+              "factKey": "oceania-rennell-oriental-F06",
+              "text": "A antiga formação tinha uma lagoa central.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P07",
+              "factKey": "oceania-rennell-oriental-F07",
+              "text": "Depois da elevação, a antiga lagoa tornou-se um lago.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P08",
+              "factKey": "oceania-rennell-oriental-F08",
+              "text": "Um grande lago faz parte da área protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P09",
+              "factKey": "oceania-rennell-oriental-F09",
+              "text": "O nome desse lago é Tegano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P10",
+              "factKey": "oceania-rennell-oriental-F10",
+              "text": "A água do lago é salobra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P11",
+              "factKey": "oceania-rennell-oriental-F11",
+              "text": "Pequenas ilhas rochosas aparecem dentro do lago.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P12",
+              "factKey": "oceania-rennell-oriental-F12",
+              "text": "As rochas calcárias também aparecem na paisagem ao redor.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P13",
+              "factKey": "oceania-rennell-oriental-F13",
+              "text": "Grande parte da ilha é coberta por floresta densa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P14",
+              "factKey": "oceania-rennell-oriental-F14",
+              "text": "O lugar tem espécies que vivem naturalmente apenas nessa região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P15",
+              "factKey": "oceania-rennell-oriental-F15",
+              "text": "Há aves terrestres e aquáticas próprias da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P16",
+              "factKey": "oceania-rennell-oriental-F16",
+              "text": "Morcegos também fazem parte da fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P17",
+              "factKey": "oceania-rennell-oriental-F17",
+              "text": "Alguns caracóis terrestres são exclusivos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P18",
+              "factKey": "oceania-rennell-oriental-F18",
+              "text": "Uma serpente marinha endêmica vive no lago.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P19",
+              "factKey": "oceania-rennell-oriental-F19",
+              "text": "O sítio também inclui uma área marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P20",
+              "factKey": "oceania-rennell-oriental-F20",
+              "text": "Ciclones podem afetar a ilha e seus habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P21",
+              "factKey": "oceania-rennell-oriental-F21",
+              "text": "Comunidades vivem dentro dos limites do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P22",
+              "factKey": "oceania-rennell-oriental-F22",
+              "text": "A vida local inclui cultivo, pesca e caça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P23",
+              "factKey": "oceania-rennell-oriental-F23",
+              "text": "A terra é administrada segundo práticas tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P24",
+              "factKey": "oceania-rennell-oriental-F24",
+              "text": "O lugar foi reconhecido como Patrimônio Mundial em 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-viajante-P25",
+              "factKey": "oceania-rennell-oriental-F25",
+              "text": "A conservação depende também da participação das comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "oceania-rennell-oriental-geografo-P01",
+              "factKey": "oceania-rennell-oriental-F01",
+              "text": "O bem natural ocupa parte de uma ilha no Pacífico ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P02",
+              "factKey": "oceania-rennell-oriental-F02",
+              "text": "A unidade faz parte de um país arquipelágico da Oceania.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P03",
+              "factKey": "oceania-rennell-oriental-F03",
+              "text": "O país soberano associado ao sítio é Ilhas Salomão.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P04",
+              "factKey": "oceania-rennell-oriental-F04",
+              "text": "A delimitação reconhecida cobre aproximadamente o terço sul da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P05",
+              "factKey": "oceania-rennell-oriental-F05",
+              "text": "A ilha constitui um atol coralíneo elevado acima do nível do mar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P06",
+              "factKey": "oceania-rennell-oriental-F06",
+              "text": "O antigo atol incluía uma laguna cercada por formações coralíneas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P07",
+              "factKey": "oceania-rennell-oriental-F07",
+              "text": "A elevação do atol transformou sua antiga laguna no lago atual.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P08",
+              "factKey": "oceania-rennell-oriental-F08",
+              "text": "O bem inclui um lago insular e florestas que o cercam.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P09",
+              "factKey": "oceania-rennell-oriental-F09",
+              "text": "O Lago Tegano ocupa a antiga laguna do atol elevado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P10",
+              "factKey": "oceania-rennell-oriental-F10",
+              "text": "A salinidade intermediária caracteriza as águas do lago.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P11",
+              "factKey": "oceania-rennell-oriental-F11",
+              "text": "O lago abriga ilhotas calcárias de relevo irregular.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P12",
+              "factKey": "oceania-rennell-oriental-F12",
+              "text": "O relevo cárstico calcário envolve o lago e sustenta cobertura florestal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P13",
+              "factKey": "oceania-rennell-oriental-F13",
+              "text": "A floresta nativa densa recobre boa parte do terreno cárstico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P14",
+              "factKey": "oceania-rennell-oriental-F14",
+              "text": "O isolamento insular favoreceu a ocorrência de espécies endêmicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P15",
+              "factKey": "oceania-rennell-oriental-F15",
+              "text": "A avifauna inclui espécies e subespécies endêmicas terrestres e aquáticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P16",
+              "factKey": "oceania-rennell-oriental-F16",
+              "text": "A fauna inclui morcegos, entre eles uma espécie endêmica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P17",
+              "factKey": "oceania-rennell-oriental-F17",
+              "text": "A fauna de invertebrados inclui espécies endêmicas de caracóis terrestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P18",
+              "factKey": "oceania-rennell-oriental-F18",
+              "text": "O lago salobro abriga uma serpente marinha endêmica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P19",
+              "factKey": "oceania-rennell-oriental-F19",
+              "text": "A delimitação reconhecida compreende ambientes terrestres e marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P20",
+              "factKey": "oceania-rennell-oriental-F20",
+              "text": "Ciclones influenciam processos ecológicos e podem afetar comunidades locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P21",
+              "factKey": "oceania-rennell-oriental-F21",
+              "text": "Comunidades de origem polinésia habitam aldeias dentro da área reconhecida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P22",
+              "factKey": "oceania-rennell-oriental-F22",
+              "text": "Cultivo de subsistência, pesca e caça integram práticas de comunidades residentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P23",
+              "factKey": "oceania-rennell-oriental-F23",
+              "text": "A propriedade e o manejo consuetudinários atribuem papel central aos proprietários tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P24",
+              "factKey": "oceania-rennell-oriental-F24",
+              "text": "A UNESCO inscreveu o bem natural na Lista do Patrimônio Mundial em 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "oceania-rennell-oriental-geografo-P25",
+              "factKey": "oceania-rennell-oriental-F25",
+              "text": "O reconhecimento de direitos e o fortalecimento comunitário integram a proteção do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RENNELL_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Sítio natural nas Ilhas Salomão, abrangendo o sul de um atol elevado, o Lago Tegano e florestas sob propriedade tradicional.",
+        "editorialNotes": [
+          "O sítio cobre somente parte da ilha, não a totalidade.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1065 @@
+{
+  "sources": {
+    "BEMBRAPA": {
+      "id": "BEMBRAPA",
+      "title": "Denominação de Origem Vale dos Vinhedos",
+      "publisher": "Embrapa Uva e Vinho",
+      "url": "https://www.embrapa.br/en/web/uva-e-vinho/indicacoes-geograficas-de-vinhos-do-brasil/do-vale-dos-vinhedos",
+      "checkedAt": "2026-11-14"
+    },
+    "BEIP": {
+      "id": "BEIP",
+      "title": "Indicação de Procedência Vale dos Vinhedos",
+      "publisher": "Embrapa Uva e Vinho",
+      "url": "https://www.embrapa.br/web/uva-e-vinho/indicacoes-geograficas-de-vinhos-do-brasil/ip-vale-dos-vinhedos",
+      "checkedAt": "2026-11-14"
+    },
+    "BETUR": {
+      "id": "BETUR",
+      "title": "Roteiros e atrativos",
+      "publisher": "Secretaria de Turismo do RS",
+      "url": "https://www.turismo.rs.gov.br/turismo/municipio/visitar/34",
+      "checkedAt": "2026-11-14"
+    },
+    "BEMARIA": {
+      "id": "BEMARIA",
+      "title": "Maria Fumaça",
+      "publisher": "Secretaria de Turismo do RS",
+      "url": "https://www.turismo.rs.gov.br/turismo/municipio/visitar/74",
+      "checkedAt": "2026-11-14"
+    },
+    "BEGEOM": {
+      "id": "BEGEOM",
+      "title": "Geomorfologia para certificação de vinhos",
+      "publisher": "Embrapa",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/handle/doc/656650?locale=pt_BR",
+      "checkedAt": "2026-11-14"
+    },
+    "BECULT": {
+      "id": "BECULT",
+      "title": "Cultura e memória do Vale dos Vinhedos",
+      "publisher": "Instituto Brasileiro de Museus",
+      "url": "https://visite.museus.gov.br/instituicoes/ponto-de-cultura-e-memoria-vale-dos-vinhedos/",
+      "checkedAt": "2026-11-14"
+    },
+    "BEIBGE": {
+      "id": "BEIBGE",
+      "title": "Cidade e Estado",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/bento-goncalves.html",
+      "checkedAt": "2026-11-14"
+    },
+    "BEMEM": {
+      "id": "BEMEM",
+      "title": "Memórias do Vale",
+      "publisher": "Instituto Brasileiro de Museus",
+      "url": "https://visite.museus.gov.br/24a-semana-nacional-de-museus/memorias-do-vale/",
+      "checkedAt": "2026-11-14"
+    },
+    "BEIG": {
+      "id": "BEIG",
+      "title": "Indicações geográficas de vinhos",
+      "publisher": "Embrapa Uva e Vinho",
+      "url": "https://www.embrapa.br/en/web/uva-e-vinho/indicacoes-geograficas-de-vinhos-do-brasil",
+      "checkedAt": "2026-11-14"
+    },
+    "BEVALE": {
+      "id": "BEVALE",
+      "title": "Indicações geográficas do Rio Grande do Sul",
+      "publisher": "Embrapa",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1142177/1/IGs-RS-Cap5.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-bento-goncalves",
+      "placeId": "bento-goncalves",
+      "title": "Bento Gonçalves",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Bento Gonçalves"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Garibaldi"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Gramado"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Canela"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Farroupilha"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Carlos Barbosa"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Nova Petrópolis"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Antônio Prado"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Flores da Cunha"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Veranópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "São Joaquim"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Bento Gonçalves",
+          "sources": [
+            "BEIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Roteiro vitivinícola",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Vale dos Vinhedos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Vale do Itajaí"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Vale do Paraíba"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Vale do Ribeira"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Vale dos Vinhedos",
+          "sources": [
+            "BETUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Produto associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Vinho de uva"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Borracha natural"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Cacau"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Carvão mineral"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Vinho de uva",
+          "sources": [
+            "BEMBRAPA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "BEIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "bento-goncalves-viajante-P01",
+              "factKey": "bento-goncalves-viajante-F01",
+              "text": "É uma cidade do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P02",
+              "factKey": "bento-goncalves-viajante-F02",
+              "text": "Está na Serra Gaúcha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P03",
+              "factKey": "bento-goncalves-viajante-F03",
+              "text": "A uva e o vinho estão associados ao município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P04",
+              "factKey": "bento-goncalves-viajante-F04",
+              "text": "O Vale dos Vinhedos faz parte de seus roteiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P05",
+              "factKey": "bento-goncalves-viajante-F05",
+              "text": "Vinícolas recebem visitantes na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P06",
+              "factKey": "bento-goncalves-viajante-F06",
+              "text": "O enoturismo integra a oferta turística local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P07",
+              "factKey": "bento-goncalves-viajante-F07",
+              "text": "A paisagem do vale inclui vinhedos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P08",
+              "factKey": "bento-goncalves-viajante-F08",
+              "text": "O roteiro vitivinícola também abrange municípios vizinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P09",
+              "factKey": "bento-goncalves-viajante-F09",
+              "text": "Vale dos Vinhedos também é o nome de um distrito deste município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEVALE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P10",
+              "factKey": "bento-goncalves-viajante-F10",
+              "text": "A região recebeu indicação de procedência em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P11",
+              "factKey": "bento-goncalves-viajante-F11",
+              "text": "Uma denominação de origem para vinhos foi reconhecida em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P12",
+              "factKey": "bento-goncalves-viajante-F12",
+              "text": "Os produtos locais incluem vinhos finos tintos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P13",
+              "factKey": "bento-goncalves-viajante-F13",
+              "text": "Vinhos finos brancos também estão entre os produtos da denominação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P14",
+              "factKey": "bento-goncalves-viajante-F14",
+              "text": "A área produz espumantes finos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P15",
+              "factKey": "bento-goncalves-viajante-F15",
+              "text": "Os espumantes da denominação usam o método tradicional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P16",
+              "factKey": "bento-goncalves-viajante-F16",
+              "text": "A elaboração envolve uma segunda fermentação na garrafa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P17",
+              "factKey": "bento-goncalves-viajante-F17",
+              "text": "Chardonnay e Pinot Noir são uvas previstas para esses espumantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P18",
+              "factKey": "bento-goncalves-viajante-F18",
+              "text": "A memória da imigração italiana faz parte da cultura local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P19",
+              "factKey": "bento-goncalves-viajante-F19",
+              "text": "Um ponto de cultura preserva a memória do Vale dos Vinhedos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P20",
+              "factKey": "bento-goncalves-viajante-F20",
+              "text": "Um passeio de Maria Fumaça passa por municípios da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMARIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P21",
+              "factKey": "bento-goncalves-viajante-F21",
+              "text": "O trajeto ferroviário turístico chega a Carlos Barbosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMARIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P22",
+              "factKey": "bento-goncalves-viajante-F22",
+              "text": "Garibaldi também está no percurso de trem turístico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMARIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P23",
+              "factKey": "bento-goncalves-viajante-F23",
+              "text": "Igrejas e capitéis fazem parte da paisagem cultural do vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P24",
+              "factKey": "bento-goncalves-viajante-F24",
+              "text": "A Embrapa Uva e Vinho atua na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-viajante-P25",
+              "factKey": "bento-goncalves-viajante-F25",
+              "text": "A gastronomia regional é um dos componentes do turismo no vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "bento-goncalves-geografo-P01",
+              "factKey": "bento-goncalves-geografo-F01",
+              "text": "A cidade integra a Serra Gaúcha, região vitivinícola do sul brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEGEOM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P02",
+              "factKey": "bento-goncalves-geografo-F02",
+              "text": "A produção de uvas organiza parte da paisagem rural em torno de vinhedos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P03",
+              "factKey": "bento-goncalves-geografo-F03",
+              "text": "O nome Vale dos Vinhedos designa um território que ultrapassa limites municipais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P04",
+              "factKey": "bento-goncalves-geografo-F04",
+              "text": "A denominação de origem abrange partes de três municípios vizinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P05",
+              "factKey": "bento-goncalves-geografo-F05",
+              "text": "A área delimitada para a denominação de origem tem 72,45 quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P06",
+              "factKey": "bento-goncalves-geografo-F06",
+              "text": "A delimitação da indicação de procedência é diferente e soma 81,23 quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P07",
+              "factKey": "bento-goncalves-geografo-F07",
+              "text": "Vale dos Vinhedos também é o nome de um distrito deste município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEVALE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P08",
+              "factKey": "bento-goncalves-geografo-F08",
+              "text": "A definição geográfica de origem relaciona a produção a um território demarcado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P09",
+              "factKey": "bento-goncalves-geografo-F09",
+              "text": "A indicação de procedência foi registrada em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P10",
+              "factKey": "bento-goncalves-geografo-F10",
+              "text": "Em 2012 ocorreu o reconhecimento da denominação de origem para vinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P11",
+              "factKey": "bento-goncalves-geografo-F11",
+              "text": "As uvas da denominação de origem devem ser produzidas na área delimitada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P12",
+              "factKey": "bento-goncalves-geografo-F12",
+              "text": "A elaboração dos vinhos da denominação também ocorre na área delimitada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P13",
+              "factKey": "bento-goncalves-geografo-F13",
+              "text": "O regulamento estabelece requisitos de cultivo e produtividade dos vinhedos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P14",
+              "factKey": "bento-goncalves-geografo-F14",
+              "text": "O regulamento define exigências de qualidade para as uvas destinadas à vinificação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P15",
+              "factKey": "bento-goncalves-geografo-F15",
+              "text": "Espumantes da denominação usam segunda fermentação na própria garrafa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P16",
+              "factKey": "bento-goncalves-geografo-F16",
+              "text": "Chardonnay e/ou Pinot Noir são obrigatórias nos espumantes finos da denominação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMBRAPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P17",
+              "factKey": "bento-goncalves-geografo-F17",
+              "text": "O território vitivinícola também é espaço de turismo e gastronomia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BETUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P18",
+              "factKey": "bento-goncalves-geografo-F18",
+              "text": "A memória da imigração italiana é preservada por instituição cultural no vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P19",
+              "factKey": "bento-goncalves-geografo-F19",
+              "text": "A memória das primeiras famílias imigrantes inclui registros da Linha Leopoldina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMEM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P20",
+              "factKey": "bento-goncalves-geografo-F20",
+              "text": "Pesquisas relacionam características do relevo à certificação de origem dos vinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEGEOM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P21",
+              "factKey": "bento-goncalves-geografo-F21",
+              "text": "A Embrapa coordenou projeto para estruturar uma indicação geográfica regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P22",
+              "factKey": "bento-goncalves-geografo-F22",
+              "text": "Associação de produtores e instituições de pesquisa participaram da construção da indicação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P23",
+              "factKey": "bento-goncalves-geografo-F23",
+              "text": "O trem turístico articula este município a Garibaldi e Carlos Barbosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMARIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P24",
+              "factKey": "bento-goncalves-geografo-F24",
+              "text": "A linha turística explora a ferrovia como patrimônio e recurso econômico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEMARIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "bento-goncalves-geografo-P25",
+              "factKey": "bento-goncalves-geografo-F25",
+              "text": "A maior exigência da denominação de origem diferencia suas regras das da indicação de procedência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BEIP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade da Serra Gaúcha ligada à vitivinicultura e ao território do Vale dos Vinhedos.",
+        "editorialNotes": [
+          "Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

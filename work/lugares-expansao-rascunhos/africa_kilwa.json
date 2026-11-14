@@ -1,0 +1,1004 @@
+{
+  "sources": {
+    "KILWA_UNESCO": {
+      "id": "KILWA_UNESCO",
+      "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/144/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-ruinas-kilwa-songo",
+      "placeId": "ruinas-kilwa-songo",
+      "title": "Ruínas de Kilwa Kisiwani e Songo Mnara",
+      "aliases": [
+        "Kilwa Kisiwani",
+        "Songo Mnara"
+      ],
+      "answerType": "cidades portuárias em ruínas",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "TZ"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Sítio histórico africano",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Stone Town de Zanzibar"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cidade Antiga de Lamu"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cidade Velha de Mombaça"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Moçambique"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha de Gorée"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade Histórica de Grand-Bassam"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Medina de Marrakech"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Medina de Fez"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cidade Velha de Djenné"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Grande Zimbábue"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Timbuktu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ruínas de Kilwa Kisiwani e Songo Mnara",
+          "sources": [
+            "KILWA_UNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Oceano relacionado ao comércio histórico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Índico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Atlântico"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pacífico"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ártico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Índico",
+          "sources": [
+            "KILWA_UNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Monumento do sítio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Grande Mesquita"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mesquita de Djenné"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Templo de Karnak"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mausoléu de Taj Mahal"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Grande Mesquita",
+          "sources": [
+            "KILWA_UNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Quênia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Moçambique"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Marrocos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Tanzânia",
+          "sources": [
+            "KILWA_UNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ruinas-kilwa-songo-viajante-P01",
+              "factKey": "ruinas-kilwa-songo-F01",
+              "text": "O destino reúne ruínas de duas cidades africanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P02",
+              "factKey": "ruinas-kilwa-songo-F02",
+              "text": "Os dois núcleos ficam em ilhas próximas uma da outra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P03",
+              "factKey": "ruinas-kilwa-songo-F03",
+              "text": "As ilhas estão junto à costa da Tanzânia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P04",
+              "factKey": "ruinas-kilwa-songo-F04",
+              "text": "As cidades ficavam na costa do oceano Índico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P05",
+              "factKey": "ruinas-kilwa-songo-F05",
+              "text": "Foram cidades comerciais suaílis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P06",
+              "factKey": "ruinas-kilwa-songo-F06",
+              "text": "Houve comércio com regiões da Ásia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P07",
+              "factKey": "ruinas-kilwa-songo-F07",
+              "text": "A Arábia era uma das regiões com que comerciantes negociavam.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P08",
+              "factKey": "ruinas-kilwa-songo-F08",
+              "text": "Também havia contatos com a Índia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P09",
+              "factKey": "ruinas-kilwa-songo-F09",
+              "text": "Produtos da China chegavam à região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P10",
+              "factKey": "ruinas-kilwa-songo-F10",
+              "text": "O ouro vindo do interior africano era negociado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P11",
+              "factKey": "ruinas-kilwa-songo-F11",
+              "text": "O marfim também era comercializado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P12",
+              "factKey": "ruinas-kilwa-songo-F12",
+              "text": "Prata e perfumes chegavam nas trocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P13",
+              "factKey": "ruinas-kilwa-songo-F13",
+              "text": "Uma das cidades teve moedas próprias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P14",
+              "factKey": "ruinas-kilwa-songo-F14",
+              "text": "A cidade maior foi ocupada entre os séculos IX e XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P15",
+              "factKey": "ruinas-kilwa-songo-F15",
+              "text": "O auge da cidade maior ocorreu nos séculos XIII e XIV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P16",
+              "factKey": "ruinas-kilwa-songo-F16",
+              "text": "O viajante Ibn Battuta visitou uma das cidades no século XIV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P17",
+              "factKey": "ruinas-kilwa-songo-F17",
+              "text": "Há ruínas de uma Grande Mesquita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P18",
+              "factKey": "ruinas-kilwa-songo-F18",
+              "text": "A mesquita começou a ser construída no século XI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P19",
+              "factKey": "ruinas-kilwa-songo-F19",
+              "text": "A mesquita foi ampliada no século XIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P20",
+              "factKey": "ruinas-kilwa-songo-F20",
+              "text": "Um antigo palácio tinha uma piscina de formato octogonal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P21",
+              "factKey": "ruinas-kilwa-songo-F21",
+              "text": "Pedra coralina e argamassa de cal foram usadas em construções.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P22",
+              "factKey": "ruinas-kilwa-songo-F22",
+              "text": "Há vestígios de casas, praças e áreas funerárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P23",
+              "factKey": "ruinas-kilwa-songo-F23",
+              "text": "No século XVI portugueses construíram um forte em uma das ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P24",
+              "factKey": "ruinas-kilwa-songo-F24",
+              "text": "A UNESCO reconheceu as duas áreas juntas em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-viajante-P25",
+              "factKey": "ruinas-kilwa-songo-F25",
+              "text": "Ondas e erosão ameaçam partes das ruínas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ruinas-kilwa-songo-geografo-P01",
+              "factKey": "ruinas-kilwa-songo-F01",
+              "text": "A carta representa dois sítios portuários arqueológicos na costa oriental africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P02",
+              "factKey": "ruinas-kilwa-songo-F02",
+              "text": "O bem seriado é composto por remanescentes em duas ilhas próximas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P03",
+              "factKey": "ruinas-kilwa-songo-F03",
+              "text": "O conjunto arqueológico situa-se na República Unida da Tanzânia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P04",
+              "factKey": "ruinas-kilwa-songo-F04",
+              "text": "Sua posição costeira permitiu integração às redes comerciais do oceano Índico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P05",
+              "factKey": "ruinas-kilwa-songo-F05",
+              "text": "Os sítios registram a expansão da cultura urbana suaíli no litoral oriental africano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P06",
+              "factKey": "ruinas-kilwa-songo-F06",
+              "text": "As rotas marítimas ligavam a costa oriental africana a portos asiáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P07",
+              "factKey": "ruinas-kilwa-songo-F07",
+              "text": "As trocas no Índico incluíam conexões com a região árabe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P08",
+              "factKey": "ruinas-kilwa-songo-F08",
+              "text": "O comércio marítimo conectava os portos a mercados do subcontinente indiano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P09",
+              "factKey": "ruinas-kilwa-songo-F09",
+              "text": "A circulação de porcelanas chinesas mostra o alcance das redes comerciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P10",
+              "factKey": "ruinas-kilwa-songo-F10",
+              "text": "A circulação de ouro ligava o interior africano às rotas do Índico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P11",
+              "factKey": "ruinas-kilwa-songo-F11",
+              "text": "O marfim figurava entre os produtos negociados provenientes do interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P12",
+              "factKey": "ruinas-kilwa-songo-F12",
+              "text": "As importações incluíam prata e perfumes, segundo a UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P13",
+              "factKey": "ruinas-kilwa-songo-F13",
+              "text": "A cunhagem de moedas locais atesta atividades econômicas e políticas urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P14",
+              "factKey": "ruinas-kilwa-songo-F14",
+              "text": "Os vestígios da ilha maior documentam longa ocupação, do século IX ao XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P15",
+              "factKey": "ruinas-kilwa-songo-F15",
+              "text": "Sua prosperidade mais intensa ocorreu nos séculos XIII e XIV.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P16",
+              "factKey": "ruinas-kilwa-songo-F16",
+              "text": "O relato de Ibn Battuta em 1331–1332 documenta a importância do porto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P17",
+              "factKey": "ruinas-kilwa-songo-F17",
+              "text": "A Grande Mesquita é um dos principais testemunhos arquitetônicos da cidade maior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P18",
+              "factKey": "ruinas-kilwa-songo-F18",
+              "text": "A primeira fase da Grande Mesquita remonta ao século XI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P19",
+              "factKey": "ruinas-kilwa-songo-F19",
+              "text": "A expansão da mesquita no século XIII acompanhou a prosperidade do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P20",
+              "factKey": "ruinas-kilwa-songo-F20",
+              "text": "O palácio Husuni Kubwa incluía uma piscina octogonal no conjunto residencial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P21",
+              "factKey": "ruinas-kilwa-songo-F21",
+              "text": "A arquitetura das ruínas utilizou pedra coralina e argamassa de cal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P22",
+              "factKey": "ruinas-kilwa-songo-F22",
+              "text": "O conjunto arqueológico inclui moradias, espaços públicos e sepultamentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P23",
+              "factKey": "ruinas-kilwa-songo-F23",
+              "text": "A construção de um forte português no século XVI marcou mudanças na história regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P24",
+              "factKey": "ruinas-kilwa-songo-F24",
+              "text": "A inscrição seriada na Lista do Patrimônio Mundial ocorreu em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ruinas-kilwa-songo-geografo-P25",
+              "factKey": "ruinas-kilwa-songo-F25",
+              "text": "A conservação enfrenta pressão de erosão costeira e degradação das estruturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "KILWA_UNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Duas antigas cidades portuárias suaílis em ilhas da Tanzânia, ligadas ao comércio do oceano Índico.",
+        "editorialNotes": [
+          "A carta trata do bem seriado composto pelas duas ilhas, não de uma delas isoladamente.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

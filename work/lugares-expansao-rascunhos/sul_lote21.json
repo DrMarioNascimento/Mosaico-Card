@@ -1,0 +1,1037 @@
+{
+  "sources": {
+    "QCUNESCO": {
+      "id": "QCUNESCO",
+      "title": "Quarta Colônia UNESCO Global Geopark",
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/en/iggp/geoparks/quarta-colonia",
+      "checkedAt": "2026-11-14"
+    },
+    "QCUFSM": {
+      "id": "QCUFSM",
+      "title": "Geoparque Quarta Colônia",
+      "publisher": "Universidade Federal de Santa Maria",
+      "url": "https://www.ufsm.br/pro-reitorias/pre/quarta-colonia-geoparque-mundial-da-unesco",
+      "checkedAt": "2026-11-14"
+    },
+    "QCCAPPA": {
+      "id": "QCCAPPA",
+      "title": "Centro de Apoio à Pesquisa Paleontológica",
+      "publisher": "Universidade Federal de Santa Maria",
+      "url": "https://www.ufsm.br/unidades-universitarias/ccne/cappa",
+      "checkedAt": "2026-11-14"
+    },
+    "QCHIST": {
+      "id": "QCHIST",
+      "title": "Região turística Quarta Colônia",
+      "publisher": "Secretaria de Turismo do RS",
+      "url": "https://www.turismo.rs.gov.br/turismo/regiao/visualizar/68",
+      "checkedAt": "2026-11-14"
+    },
+    "QCLINHA": {
+      "id": "QCLINHA",
+      "title": "Geossítio Linha São Luiz",
+      "publisher": "Prefeitura de Faxinal do Soturno",
+      "url": "https://www.faxinaldosoturno.rs.gov.br/turismo/geoparque-quarta-colonia/geosssitio-linha-sao-luiz",
+      "checkedAt": "2026-11-14"
+    },
+    "QCART": {
+      "id": "QCART",
+      "title": "Desenvolvimento territorial nos geoparques",
+      "publisher": "Universidade Federal de Santa Maria",
+      "url": "https://www.ufsm.br/pro-reitorias/pre/2026/07/13/da-extensao-ao-desenvolvimento-territorial-a-atuacao-da-ufsm-nos-geoparques",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-geoparque-quarta-colonia",
+      "placeId": "geoparque-quarta-colonia",
+      "title": "Geoparque Quarta Colônia",
+      "aliases": [],
+      "answerType": "geoparque",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Geoparque",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Geoparque Quarta Colônia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Geoparque Caçapava"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Geoparque Caminhos dos Cânions do Sul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Geoparque Araripe"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Geoparque Seridó"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Geoparque Uberaba"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Geoparque Imbabura"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Geoparque Kütralkura"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Geoparque Rio Coco"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Geoparque Grutas del Palacio"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Geoparque Comarca Minera"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Geoparque Aras"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Geoparque Quarta Colônia",
+          "sources": [
+            "QCUNESCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Período dos fósseis",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Triássico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Jurássico"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Cretáceo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Siluriano"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Triássico",
+          "sources": [
+            "QCUNESCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Instituição de reconhecimento",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "UNESCO"
+            },
+            {
+              "id": "C3-O2",
+              "text": "FIFA"
+            },
+            {
+              "id": "C3-O3",
+              "text": "OMS"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Interpol"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "UNESCO",
+          "sources": [
+            "QCUNESCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "QCUNESCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "quarta-colonia-viajante-P01",
+              "factKey": "quarta-colonia-viajante-F01",
+              "text": "É um geoparque mundial no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P02",
+              "factKey": "quarta-colonia-viajante-F02",
+              "text": "Recebeu reconhecimento da UNESCO em 2023.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P03",
+              "factKey": "quarta-colonia-viajante-F03",
+              "text": "O território reúne nove municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P04",
+              "factKey": "quarta-colonia-viajante-F04",
+              "text": "Está na região central do estado gaúcho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P05",
+              "factKey": "quarta-colonia-viajante-F05",
+              "text": "A região tem fósseis de animais pré-históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P06",
+              "factKey": "quarta-colonia-viajante-F06",
+              "text": "Parte desses fósseis é do período Triássico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUFSM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P07",
+              "factKey": "quarta-colonia-viajante-F07",
+              "text": "Os registros incluem animais ligados à história inicial dos dinossauros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P08",
+              "factKey": "quarta-colonia-viajante-F08",
+              "text": "O nome científico Buriolestes schultzi aparece entre os fósseis da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P09",
+              "factKey": "quarta-colonia-viajante-F09",
+              "text": "Macrocollum itaquii também consta nos registros fósseis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P10",
+              "factKey": "quarta-colonia-viajante-F10",
+              "text": "Bagualosaurus acuteensis é outro nome associado aos achados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P11",
+              "factKey": "quarta-colonia-viajante-F11",
+              "text": "O território tem vales profundos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P12",
+              "factKey": "quarta-colonia-viajante-F12",
+              "text": "Rios e cascatas fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P13",
+              "factKey": "quarta-colonia-viajante-F13",
+              "text": "Há praias fluviais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P14",
+              "factKey": "quarta-colonia-viajante-F14",
+              "text": "Fragmentos de Mata Atlântica cobrem parte das encostas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P15",
+              "factKey": "quarta-colonia-viajante-F15",
+              "text": "O relevo inclui escarpas de arenito e basalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P16",
+              "factKey": "quarta-colonia-viajante-F16",
+              "text": "São João do Polêsine é um dos municípios da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P17",
+              "factKey": "quarta-colonia-viajante-F17",
+              "text": "Agudo é um dos municípios participantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P18",
+              "factKey": "quarta-colonia-viajante-F18",
+              "text": "Faxinal do Soturno também integra o território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P19",
+              "factKey": "quarta-colonia-viajante-F19",
+              "text": "Silveira Martins está entre os municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P20",
+              "factKey": "quarta-colonia-viajante-F20",
+              "text": "Restinga Seca faz parte do conjunto regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P21",
+              "factKey": "quarta-colonia-viajante-F21",
+              "text": "Um centro universitário de pesquisa paleontológica está em São João do Polêsine.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P22",
+              "factKey": "quarta-colonia-viajante-F22",
+              "text": "O centro divulga e pesquisa o patrimônio fossilífero.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P23",
+              "factKey": "quarta-colonia-viajante-F23",
+              "text": "O geossítio Linha São Luiz apresenta fósseis importantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCLINHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P24",
+              "factKey": "quarta-colonia-viajante-F24",
+              "text": "A região guarda marcas da imigração italiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-viajante-P25",
+              "factKey": "quarta-colonia-viajante-F25",
+              "text": "A área reconhecida abrange cerca de 2.923 quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "quarta-colonia-geografo-P01",
+              "factKey": "quarta-colonia-geografo-F01",
+              "text": "O geoparque reúne nove municípios na região central gaúcha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P02",
+              "factKey": "quarta-colonia-geografo-F02",
+              "text": "A paisagem se situa na transição entre os biomas Pampa e Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P03",
+              "factKey": "quarta-colonia-geografo-F03",
+              "text": "O território se sobrepõe à Reserva da Biosfera da Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P04",
+              "factKey": "quarta-colonia-geografo-F04",
+              "text": "A UNESCO designou o território como geoparque mundial em 2023.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P05",
+              "factKey": "quarta-colonia-geografo-F05",
+              "text": "A área reconhecida soma cerca de 2.923 quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P06",
+              "factKey": "quarta-colonia-geografo-F06",
+              "text": "Rochas sedimentares registram ambientes do período Triássico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P07",
+              "factKey": "quarta-colonia-geografo-F07",
+              "text": "Os depósitos fossilíferos destacados datam de cerca de 233 a 225 milhões de anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P08",
+              "factKey": "quarta-colonia-geografo-F08",
+              "text": "A configuração geológica favoreceu a preservação de fósseis triássicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUFSM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P09",
+              "factKey": "quarta-colonia-geografo-F09",
+              "text": "Os achados contribuem para pesquisas sobre a origem e a evolução dos dinossauros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUFSM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P10",
+              "factKey": "quarta-colonia-geografo-F10",
+              "text": "Buriolestes schultzi é uma das espécies destacadas no registro local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P11",
+              "factKey": "quarta-colonia-geografo-F11",
+              "text": "Bagualosaurus acuteensis integra o patrimônio paleontológico descrito pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P12",
+              "factKey": "quarta-colonia-geografo-F12",
+              "text": "Macrocollum itaquii também aparece na lista de fósseis regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P13",
+              "factKey": "quarta-colonia-geografo-F13",
+              "text": "A área conserva registros fósseis de vertebrados e invertebrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P14",
+              "factKey": "quarta-colonia-geografo-F14",
+              "text": "Fósseis de plantas e icnofósseis também ocorrem no território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P15",
+              "factKey": "quarta-colonia-geografo-F15",
+              "text": "Os vales profundos foram escavados pela rede hidrográfica ao longo do tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P16",
+              "factKey": "quarta-colonia-geografo-F16",
+              "text": "Escarpas arenítico-basálticas delimitam setores do relevo montanhoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P17",
+              "factKey": "quarta-colonia-geografo-F17",
+              "text": "Rios, praias fluviais e cascatas expressam a diversidade da drenagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P18",
+              "factKey": "quarta-colonia-geografo-F18",
+              "text": "Fragmentos de Mata Atlântica cobrem parte das encostas do geoparque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCUNESCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P19",
+              "factKey": "quarta-colonia-geografo-F19",
+              "text": "O centro de pesquisa paleontológica fica em São João do Polêsine.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P20",
+              "factKey": "quarta-colonia-geografo-F20",
+              "text": "O centro integra pesquisa acadêmica e divulgação científica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P21",
+              "factKey": "quarta-colonia-geografo-F21",
+              "text": "A Linha São Luiz reúne fósseis e níveis com datação absoluta de relevância internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCLINHA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P22",
+              "factKey": "quarta-colonia-geografo-F22",
+              "text": "A UFSM articulou a iniciativa com municípios, escolas e organizações locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P23",
+              "factKey": "quarta-colonia-geografo-F23",
+              "text": "A cooperação entre os nove municípios viabiliza uma estratégia territorial regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P24",
+              "factKey": "quarta-colonia-geografo-F24",
+              "text": "O geoparque relaciona conservação do patrimônio, educação e turismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCCAPPA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quarta-colonia-geografo-P25",
+              "factKey": "quarta-colonia-geografo-F25",
+              "text": "A história regional inclui a colonização italiana e sua presença cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QCHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Geoparque mundial na região central gaúcha, reconhecido pelo patrimônio fossilífero triássico e suas paisagens.",
+        "editorialNotes": [
+          "Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

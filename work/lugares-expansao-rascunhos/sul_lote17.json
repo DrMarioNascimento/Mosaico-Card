@@ -1,0 +1,1016 @@
+{
+  "sources": {
+    "ILHAMIAT": {
+      "id": "ILHAMIAT",
+      "title": "Parque Estadual da Ilha do Mel",
+      "publisher": "Instituto Água e Terra do Paraná",
+      "url": "https://www.iat.pr.gov.br/Pagina/Parque-Estadual-da-Ilha-do-Mel-PEIM",
+      "checkedAt": "2026-11-14"
+    },
+    "ILHAMDEC": {
+      "id": "ILHAMDEC",
+      "title": "Decreto 5.506 de 2002",
+      "publisher": "Governo do Paraná",
+      "url": "https://celepar7.pr.gov.br/sia/atosnormativos/form_cons_ato1.asp?Codigo=1049",
+      "checkedAt": "2026-11-14"
+    },
+    "ILHAMSERV": {
+      "id": "ILHAMSERV",
+      "title": "Visitar a Ilha do Mel",
+      "publisher": "Governo do Paraná",
+      "url": "https://www.parana.pr.gov.br/servicos/Cultura-e-Lazer/Turismo/Visitar-a-Ilha-do-Mel-6K3Wpvrm",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-ilha-do-mel",
+      "placeId": "ilha-do-mel",
+      "title": "Ilha do Mel",
+      "aliases": [],
+      "answerType": "ilha",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Ilha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ilha do Mel"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ilha de Santa Catarina"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ilha Grande"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ilha do Cardoso"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Superagui"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Ilha Comprida"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ilha do Campeche"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Ilha de São Sebastião"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha do Arvoredo"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ilha das Peças"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Ilha de Marajó"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Ilha de Tinharé"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Ilha do Mel",
+          "sources": [
+            "ILHAMIAT"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Município",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Paranaguá"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Guaraqueçaba"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pontal do Paraná"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Antonina"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Paranaguá",
+          "sources": [
+            "ILHAMIAT"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Farol histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Farol das Conchas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Farol de Santa Marta"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Farol da Barra"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Farol do Calcanhar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Farol das Conchas",
+          "sources": [
+            "ILHAMIAT"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná",
+          "sources": [
+            "ILHAMIAT"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "ilha-do-mel-viajante-P01",
+              "factKey": "ilha-do-mel-viajante-F01",
+              "text": "É uma ilha no litoral do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P02",
+              "factKey": "ilha-do-mel-viajante-F02",
+              "text": "Integra o município de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P03",
+              "factKey": "ilha-do-mel-viajante-F03",
+              "text": "O acesso pode ser feito de barco a partir de Pontal do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P04",
+              "factKey": "ilha-do-mel-viajante-F04",
+              "text": "Também há embarcações saindo de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P05",
+              "factKey": "ilha-do-mel-viajante-F05",
+              "text": "Suas paisagens incluem praias, morros e trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P06",
+              "factKey": "ilha-do-mel-viajante-F06",
+              "text": "A Gruta das Encantadas é uma formação rochosa da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P07",
+              "factKey": "ilha-do-mel-viajante-F07",
+              "text": "Uma trilha parte do trapiche de Encantadas até a gruta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P08",
+              "factKey": "ilha-do-mel-viajante-F08",
+              "text": "O Farol de Conchas fica no alto de um morro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P09",
+              "factKey": "ilha-do-mel-viajante-F09",
+              "text": "O farol é datado de 1872.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P10",
+              "factKey": "ilha-do-mel-viajante-F10",
+              "text": "Uma escadaria leva ao farol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P11",
+              "factKey": "ilha-do-mel-viajante-F11",
+              "text": "A Fortaleza de Nossa Senhora dos Prazeres é um atrativo histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P12",
+              "factKey": "ilha-do-mel-viajante-F12",
+              "text": "A fortaleza pode ser alcançada por uma trilha desde Brasília.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P13",
+              "factKey": "ilha-do-mel-viajante-F13",
+              "text": "O destino tem áreas de restinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P14",
+              "factKey": "ilha-do-mel-viajante-F14",
+              "text": "Também abriga manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P15",
+              "factKey": "ilha-do-mel-viajante-F15",
+              "text": "Bromélias e orquídeas fazem parte da vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P16",
+              "factKey": "ilha-do-mel-viajante-F16",
+              "text": "Botos-cinza podem ser observados nas águas da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P17",
+              "factKey": "ilha-do-mel-viajante-F17",
+              "text": "Fragatas sobrevoam áreas de praia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P18",
+              "factKey": "ilha-do-mel-viajante-F18",
+              "text": "Tiês-sangue estão entre as aves das matas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P19",
+              "factKey": "ilha-do-mel-viajante-F19",
+              "text": "Há uma estação ecológica e um parque estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P20",
+              "factKey": "ilha-do-mel-viajante-F20",
+              "text": "O parque estadual foi criado em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P21",
+              "factKey": "ilha-do-mel-viajante-F21",
+              "text": "A estação ecológica foi criada em 1982.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P22",
+              "factKey": "ilha-do-mel-viajante-F22",
+              "text": "A travessia desde Pontal do Sul costuma ser mais curta que a partir de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P23",
+              "factKey": "ilha-do-mel-viajante-F23",
+              "text": "As trilhas incluem percursos de diferentes extensões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P24",
+              "factKey": "ilha-do-mel-viajante-F24",
+              "text": "Na ilha, a circulação permitida é a pé ou de bicicleta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-viajante-P25",
+              "factKey": "ilha-do-mel-viajante-F25",
+              "text": "A visita reúne patrimônio cultural e natureza costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "ilha-do-mel-geografo-P01",
+              "factKey": "ilha-do-mel-geografo-F01",
+              "text": "A ilha pertence administrativamente a Paranaguá, no litoral paranaense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P02",
+              "factKey": "ilha-do-mel-geografo-F02",
+              "text": "A conexão com o continente depende de transporte aquaviário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P03",
+              "factKey": "ilha-do-mel-geografo-F03",
+              "text": "Há embarques em dois municípios continentais: Paranaguá e Pontal do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P04",
+              "factKey": "ilha-do-mel-geografo-F04",
+              "text": "O acesso por Pontal do Sul é mais curto que o acesso pelo terminal de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P05",
+              "factKey": "ilha-do-mel-geografo-F05",
+              "text": "A circulação local indicada pelo órgão gestor ocorre a pé ou de bicicleta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P06",
+              "factKey": "ilha-do-mel-geografo-F06",
+              "text": "Uma estação ecológica criada em 1982 ocupa cerca de 81% da superfície insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P07",
+              "factKey": "ilha-do-mel-geografo-F07",
+              "text": "Um parque estadual criado em 2002 abrange outros 12% aproximados da ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P08",
+              "factKey": "ilha-do-mel-geografo-F08",
+              "text": "Juntas, as duas unidades cobrem aproximadamente 93% da superfície insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P09",
+              "factKey": "ilha-do-mel-geografo-F09",
+              "text": "A estação ecológica prioriza preservação e pesquisa científica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P10",
+              "factKey": "ilha-do-mel-geografo-F10",
+              "text": "A visitação da estação ecológica é restrita a fins educativos mediante autorização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P11",
+              "factKey": "ilha-do-mel-geografo-F11",
+              "text": "O parque admite visitação pública ordenada, educação ambiental e pesquisa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P12",
+              "factKey": "ilha-do-mel-geografo-F12",
+              "text": "A distinção entre as categorias cria regimes diferentes de acesso à natureza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P13",
+              "factKey": "ilha-do-mel-geografo-F13",
+              "text": "O parque protege praias e costões rochosos sujeitos à influência marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P14",
+              "factKey": "ilha-do-mel-geografo-F14",
+              "text": "Seu decreto também prevê a proteção de marismas e sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMDEC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P15",
+              "factKey": "ilha-do-mel-geografo-F15",
+              "text": "A floresta de restinga se associa a remanescentes de floresta ombrófila densa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P16",
+              "factKey": "ilha-do-mel-geografo-F16",
+              "text": "A estação ecológica protege manguezais, restingas, brejos e caxetais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P17",
+              "factKey": "ilha-do-mel-geografo-F17",
+              "text": "A Gruta das Encantadas exemplifica formação rochosa de influência marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P18",
+              "factKey": "ilha-do-mel-geografo-F18",
+              "text": "A trilha da gruta parte de um trapiche, articulando desembarque e caminhada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P19",
+              "factKey": "ilha-do-mel-geografo-F19",
+              "text": "O Farol de Conchas ocupa posição elevada no Morro das Conchas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P20",
+              "factKey": "ilha-do-mel-geografo-F20",
+              "text": "A estrutura datada de 1872 associa relevo costeiro e navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P21",
+              "factKey": "ilha-do-mel-geografo-F21",
+              "text": "A Fortaleza de Nossa Senhora dos Prazeres integra o patrimônio cultural insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P22",
+              "factKey": "ilha-do-mel-geografo-F22",
+              "text": "Em 1982 a União transferiu ao Paraná a administração insular condicionada à proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P23",
+              "factKey": "ilha-do-mel-geografo-F23",
+              "text": "O boto-cinza alimenta-se principalmente de peixes na baía de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P24",
+              "factKey": "ilha-do-mel-geografo-F24",
+              "text": "Organismos aderidos às rochas formam ambientes nos costões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "ilha-do-mel-geografo-P25",
+              "factKey": "ilha-do-mel-geografo-F25",
+              "text": "A gestão recomenda permanecer nas trilhas sinalizadas para conservar a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ILHAMIAT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Ilha do litoral paranaense com uma estação ecológica, um parque estadual, praias e patrimônio histórico.",
+        "editorialNotes": [
+          "Revisão comparativa e calibração em partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}
