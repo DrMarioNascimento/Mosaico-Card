@@ -9,7 +9,7 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
 | Brasil | 47 | 30 | 0 |
-| Américas (sem Brasil) | 5 | 30 | 25 |
+| Américas (sem Brasil) | 8 | 30 | 22 |
 | Europa | 8 | 30 | 22 |
 | África | 11 | 30 | 19 |
 | Ásia | 10 | 30 | 20 |

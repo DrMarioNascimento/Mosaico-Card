@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-40-2026-11-14",
+  "catalogVersion": "lote-41-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "100 destinos jogáveis em dois perfis",
-  "status": "100 destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "103 destinos jogáveis em dois perfis",
+  "status": "103 destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1285,6 +1285,27 @@
       "title": "Boa Vista (RR) — Cidades e Estados",
       "publisher": "IBGE",
       "url": "https://www.ibge.gov.br/cidades-e-estados/rr/boa-vista.html",
+      "checkedAt": "2026-11-14"
+    },
+    "QUEBEC300": {
+      "id": "QUEBEC300",
+      "title": "Historic District of Old Québec",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/300/",
+      "checkedAt": "2026-11-14"
+    },
+    "CHICHEN483": {
+      "id": "CHICHEN483",
+      "title": "Pre-Hispanic City of Chichen-Itza",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/483/",
+      "checkedAt": "2026-11-14"
+    },
+    "CARTAGENA285": {
+      "id": "CARTAGENA285",
+      "title": "Port, Fortresses and Group of Monuments, Cartagena",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/285/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -105548,6 +105569,3014 @@
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas.",
           "A marcação de força é editorial; a distribuição depende do motor e deve ser verificada em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-cartagena-indias",
+      "placeId": "cartagena-indias",
+      "title": "Porto e Fortificações de Cartagena das Índias",
+      "aliases": [
+        "Cartagena das Índias",
+        "Cartagena de Indias"
+      ],
+      "answerType": "cidade portuária fortificada",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CO"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade ou conjunto portuário",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Porto e Fortificações de Cartagena das Índias"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cidade Portuária de Santa Marta"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cidade Portuária de Barranquilla"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cidade Portuária de Riohacha"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cidade Portuária de Buenaventura"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Porto e Fortificações de Havana"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortificações de San Juan"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Fortificações de Portobelo e San Lorenzo"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Campeche"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Santo Domingo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cidade Portuária de Veracruz"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Salvador"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Porto e Fortificações de Cartagena das Índias",
+          "sources": [
+            "CARTAGENA285"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Colômbia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Panamá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Venezuela"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Equador"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Colômbia",
+          "sources": [
+            "CARTAGENA285"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Área marítima",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mar do Caribe"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Golfo do México"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Golfo da Califórnia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Golfo de Fonseca"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mar do Caribe",
+          "sources": [
+            "CARTAGENA285"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da inscrição na UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1984"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1979"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1987"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1995"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1984",
+          "sources": [
+            "CARTAGENA285"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cartagena-indias-viajante-P01",
+              "factKey": "cartagena-indias-F01",
+              "text": "Este destino conserva uma cidade histórica junto ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P02",
+              "factKey": "cartagena-indias-F02",
+              "text": "Fica na América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P03",
+              "factKey": "cartagena-indias-F03",
+              "text": "A cidade fica na costa da Colômbia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P04",
+              "factKey": "cartagena-indias-F04",
+              "text": "Uma baía abriga seu porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P05",
+              "factKey": "cartagena-indias-F05",
+              "text": "As águas próximas pertencem ao mar do Caribe.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P06",
+              "factKey": "cartagena-indias-F06",
+              "text": "Muralhas cercam parte da área antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P07",
+              "factKey": "cartagena-indias-F07",
+              "text": "Fortificações foram construídas para defender o porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P08",
+              "factKey": "cartagena-indias-F08",
+              "text": "O lugar foi um importante porto caribenho.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P09",
+              "factKey": "cartagena-indias-F09",
+              "text": "Construções militares datam de séculos diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P10",
+              "factKey": "cartagena-indias-F10",
+              "text": "A defesa foi ampliada no século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P11",
+              "factKey": "cartagena-indias-F11",
+              "text": "Fortes foram instalados próximos às entradas da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P12",
+              "factKey": "cartagena-indias-F12",
+              "text": "O castelo de San Felipe de Barajas faz parte das defesas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P13",
+              "factKey": "cartagena-indias-F13",
+              "text": "O bairro Getsemaní integra a história urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P14",
+              "factKey": "cartagena-indias-F14",
+              "text": "San Diego é outro bairro histórico do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P15",
+              "factKey": "cartagena-indias-F15",
+              "text": "O centro abriga uma catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P16",
+              "factKey": "cartagena-indias-F16",
+              "text": "O convento de San Pedro Claver integra a área histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P17",
+              "factKey": "cartagena-indias-F17",
+              "text": "Palácios e casas antigas fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P18",
+              "factKey": "cartagena-indias-F18",
+              "text": "As ruas do centro colonial são estreitas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P19",
+              "factKey": "cartagena-indias-F19",
+              "text": "O porto participou de rotas marítimas de comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P20",
+              "factKey": "cartagena-indias-F20",
+              "text": "Havana foi outra cidade ligada a essas rotas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P21",
+              "factKey": "cartagena-indias-F21",
+              "text": "San Juan, em Porto Rico, também integrou essas conexões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P22",
+              "factKey": "cartagena-indias-F22",
+              "text": "A cidade teve presença de comerciantes e artesãos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P23",
+              "factKey": "cartagena-indias-F23",
+              "text": "Pessoas escravizadas participaram da economia histórica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P24",
+              "factKey": "cartagena-indias-F24",
+              "text": "A UNESCO reconheceu o conjunto em 1984.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-viajante-P25",
+              "factKey": "cartagena-indias-F25",
+              "text": "A preservação envolve muralhas, fortes e construções civis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cartagena-indias-geografo-P01",
+              "factKey": "cartagena-indias-F01",
+              "text": "O bem articula porto, arquitetura civil e um sistema de defesa urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P02",
+              "factKey": "cartagena-indias-F02",
+              "text": "A localização situa o sítio no norte da América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P03",
+              "factKey": "cartagena-indias-F03",
+              "text": "O conjunto pertence ao território colombiano.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P04",
+              "factKey": "cartagena-indias-F04",
+              "text": "A baía protegida favoreceu a instalação portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P05",
+              "factKey": "cartagena-indias-F05",
+              "text": "Sua posição relaciona o porto às rotas do mar do Caribe.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P06",
+              "factKey": "cartagena-indias-F06",
+              "text": "As muralhas formaram parte da defesa do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P07",
+              "factKey": "cartagena-indias-F07",
+              "text": "A fortificação dos acessos visava proteger a atividade portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P08",
+              "factKey": "cartagena-indias-F08",
+              "text": "O porto teve papel estratégico nas rotas coloniais do Caribe.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P09",
+              "factKey": "cartagena-indias-F09",
+              "text": "As estruturas documentam técnicas militares dos séculos XVI a XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P10",
+              "factKey": "cartagena-indias-F10",
+              "text": "As defesas foram reforçadas e ampliadas no século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P11",
+              "factKey": "cartagena-indias-F11",
+              "text": "Fortes e canais naturais foram combinados na proteção das entradas da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P12",
+              "factKey": "cartagena-indias-F12",
+              "text": "O castelo de San Felipe de Barajas protege o acesso pelo istmo de Cabrero.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P13",
+              "factKey": "cartagena-indias-F13",
+              "text": "Getsemaní foi um setor habitado por artesãos e pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P14",
+              "factKey": "cartagena-indias-F14",
+              "text": "San Diego abrigou historicamente comerciantes e artesãos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P15",
+              "factKey": "cartagena-indias-F15",
+              "text": "O centro reúne edifícios religiosos, incluindo a catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P16",
+              "factKey": "cartagena-indias-F16",
+              "text": "O convento de San Pedro Claver integra o conjunto patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P17",
+              "factKey": "cartagena-indias-F17",
+              "text": "Residências e palácios expressam diferentes funções do espaço colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P18",
+              "factKey": "cartagena-indias-F18",
+              "text": "A malha histórica inclui ruas estreitas e construções residenciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P19",
+              "factKey": "cartagena-indias-F19",
+              "text": "O porto articulava circulação marítima entre América e Europa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P20",
+              "factKey": "cartagena-indias-F20",
+              "text": "Havana integra a rede histórica das rotas das Índias Ocidentais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P21",
+              "factKey": "cartagena-indias-F21",
+              "text": "San Juan foi outro porto dessa rede marítima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P22",
+              "factKey": "cartagena-indias-F22",
+              "text": "A ocupação dos bairros expressava divisão social de funções e moradores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P23",
+              "factKey": "cartagena-indias-F23",
+              "text": "O trabalho de pessoas escravizadas sustentou parte da economia urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P24",
+              "factKey": "cartagena-indias-F24",
+              "text": "A inscrição do conjunto na Lista do Patrimônio Mundial ocorreu em 1984.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cartagena-indias-geografo-P25",
+              "factKey": "cartagena-indias-F25",
+              "text": "A gestão do bem envolve atores públicos, privados e religiosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CARTAGENA285"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade portuária colombiana no Caribe cujo conjunto histórico reúne fortificações, bairros e monumentos.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar dificuldade em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-quebec-antigo",
+      "placeId": "quebec-antigo",
+      "title": "Distrito Histórico do Quebec Antigo",
+      "aliases": [
+        "Quebec Antigo",
+        "Old Québec"
+      ],
+      "answerType": "distrito histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "CA"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Distrito Histórico do Quebec Antigo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Montreal"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de Boston"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de Filadélfia"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cidade Histórica de Halifax"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Cartagena"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Havana"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Campeche"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cidade Antiga de Dubrovnik"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Cidade do México"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Puebla"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cidade Velha de San Juan"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Distrito Histórico do Quebec Antigo",
+          "sources": [
+            "QUEBEC300"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Canadá"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Estados Unidos"
+            },
+            {
+              "id": "C2-O3",
+              "text": "México"
+            },
+            {
+              "id": "C2-O4",
+              "text": "França"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Canadá",
+          "sources": [
+            "QUEBEC300"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Organização do sítio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cidade Alta e Cidade Baixa"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Duas ilhas ligadas por pontes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Bairros construídos sobre canais"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cidade subterrânea e cidade costeira"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cidade Alta e Cidade Baixa",
+          "sources": [
+            "QUEBEC300"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da inscrição na UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1985"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1979"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1987"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1995"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1985",
+          "sources": [
+            "QUEBEC300"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "quebec-antigo-viajante-P01",
+              "factKey": "quebec-antigo-F01",
+              "text": "Este destino preserva a parte antiga de uma cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P02",
+              "factKey": "quebec-antigo-F02",
+              "text": "A cidade fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P03",
+              "factKey": "quebec-antigo-F03",
+              "text": "O lugar fica no Canadá.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P04",
+              "factKey": "quebec-antigo-F04",
+              "text": "O explorador Champlain fundou a cidade no início do século XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P05",
+              "factKey": "quebec-antigo-F05",
+              "text": "O conjunto preserva muralhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P06",
+              "factKey": "quebec-antigo-F06",
+              "text": "Portões e baluartes também integram as defesas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P07",
+              "factKey": "quebec-antigo-F07",
+              "text": "O destino possui uma Cidade Alta.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P08",
+              "factKey": "quebec-antigo-F08",
+              "text": "A Cidade Alta foi construída sobre um rochedo elevado.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P09",
+              "factKey": "quebec-antigo-F09",
+              "text": "Também existe uma Cidade Baixa histórica.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P10",
+              "factKey": "quebec-antigo-F10",
+              "text": "A parte baixa se desenvolveu perto do porto.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P11",
+              "factKey": "quebec-antigo-F11",
+              "text": "Uma praça chamada Place Royale integra o setor mais baixo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P12",
+              "factKey": "quebec-antigo-F12",
+              "text": "A Cidade Alta tem igrejas e conventos.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P13",
+              "factKey": "quebec-antigo-F13",
+              "text": "A cidadela integra o conjunto defensivo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P14",
+              "factKey": "quebec-antigo-F14",
+              "text": "O Château Frontenac fica no conjunto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P15",
+              "factKey": "quebec-antigo-F15",
+              "text": "O reduto Dauphine é outra construção defensiva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P16",
+              "factKey": "quebec-antigo-F16",
+              "text": "A cidade já foi capital da Nova França.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P17",
+              "factKey": "quebec-antigo-F17",
+              "text": "Após 1760 também foi capital de uma colônia britânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P18",
+              "factKey": "quebec-antigo-F18",
+              "text": "O conjunto inclui mais de quatro séculos de história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P19",
+              "factKey": "quebec-antigo-F19",
+              "text": "A UNESCO reconheceu o distrito em 1985.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P20",
+              "factKey": "quebec-antigo-F20",
+              "text": "A preservação envolve diferentes níveis de governo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P21",
+              "factKey": "quebec-antigo-F21",
+              "text": "Obras no centro histórico dependem de autorização municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P22",
+              "factKey": "quebec-antigo-F22",
+              "text": "Construções antigas passaram por restaurações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P23",
+              "factKey": "quebec-antigo-F23",
+              "text": "O convento das Ursulinas integra o patrimônio local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P24",
+              "factKey": "quebec-antigo-F24",
+              "text": "O conjunto é um exemplo de cidade colonial fortificada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-viajante-P25",
+              "factKey": "quebec-antigo-F25",
+              "text": "O uso do solo é regulado por normas urbanísticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "quebec-antigo-geografo-P01",
+              "factKey": "quebec-antigo-F01",
+              "text": "O bem exemplifica a organização espacial de uma cidade colonial fortificada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P02",
+              "factKey": "quebec-antigo-F02",
+              "text": "Situa-se na América do Norte, ao norte do México.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P03",
+              "factKey": "quebec-antigo-F03",
+              "text": "O distrito integra uma cidade canadense.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P04",
+              "factKey": "quebec-antigo-F04",
+              "text": "Sua fundação no século XVII vincula-se à colonização francesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P05",
+              "factKey": "quebec-antigo-F05",
+              "text": "Muralhas preservadas definem parte do limite defensivo da Cidade Alta.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P06",
+              "factKey": "quebec-antigo-F06",
+              "text": "Baluartes, portões e outras obras complementam a defesa urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P07",
+              "factKey": "quebec-antigo-F07",
+              "text": "A topografia organiza o conjunto em partes alta e baixa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P08",
+              "factKey": "quebec-antigo-F08",
+              "text": "A Cidade Alta ocupa o alto do Cap Diamant.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P09",
+              "factKey": "quebec-antigo-F09",
+              "text": "A Cidade Baixa compreende antigos bairros ligados ao porto.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P10",
+              "factKey": "quebec-antigo-F10",
+              "text": "O desenvolvimento do setor baixo acompanhou o porto e a Place Royale.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P11",
+              "factKey": "quebec-antigo-F11",
+              "text": "A Place Royale integra o núcleo histórico do setor inferior.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P12",
+              "factKey": "quebec-antigo-F12",
+              "text": "A parte elevada mantém funções religiosas e administrativas.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P13",
+              "factKey": "quebec-antigo-F13",
+              "text": "A cidadela integra o sistema de defesa da parte alta.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P14",
+              "factKey": "quebec-antigo-F14",
+              "text": "O Château Frontenac é um dos marcos construídos da Cidade Alta.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P15",
+              "factKey": "quebec-antigo-F15",
+              "text": "O reduto Dauphine integra o conjunto de obras defensivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P16",
+              "factKey": "quebec-antigo-F16",
+              "text": "O local foi capital da Nova França durante o período colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P17",
+              "factKey": "quebec-antigo-F17",
+              "text": "Após 1760 passou à condição de capital de uma nova colônia britânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P18",
+              "factKey": "quebec-antigo-F18",
+              "text": "A paisagem urbana expressa mais de quatro séculos de história.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P19",
+              "factKey": "quebec-antigo-F19",
+              "text": "A inscrição do distrito na Lista do Patrimônio Mundial ocorreu em 1985.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P20",
+              "factKey": "quebec-antigo-F20",
+              "text": "A gestão patrimonial envolve níveis municipal, provincial e federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P21",
+              "factKey": "quebec-antigo-F21",
+              "text": "Intervenções arquitetônicas requerem autorização da instância urbanística municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P22",
+              "factKey": "quebec-antigo-F22",
+              "text": "Projetos de restauração e reabilitação integram a proteção do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P23",
+              "factKey": "quebec-antigo-F23",
+              "text": "O convento das Ursulinas é um dos bens protegidos no distrito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P24",
+              "factKey": "quebec-antigo-F24",
+              "text": "Sua integridade compreende arquitetura e organização do espaço urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "quebec-antigo-geografo-P25",
+              "factKey": "quebec-antigo-F25",
+              "text": "Regras municipais de zoneamento orientam o uso do solo no sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "QUEBEC300"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Distrito histórico canadense que reúne uma cidade alta fortificada e bairros antigos próximos ao porto.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão inicial e amostral; calibração pendente"
+      }
+    },
+    {
+      "id": "lug2-chichen-itza",
+      "placeId": "chichen-itza",
+      "title": "Cidade Pré-hispânica de Chichén Itzá",
+      "aliases": [
+        "Chichén Itzá",
+        "Chichen Itza"
+      ],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "MX"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade arqueológica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cidade Pré-hispânica de Chichén Itzá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cidade Pré-hispânica de Uxmal"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Cidade Pré-hispânica de Teotihuacán"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cidade Pré-hispânica de Palenque"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cidade Pré-hispânica de Tikal"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Cidade Pré-hispânica de Calakmul"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade Pré-hispânica de Copán"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cidade Pré-hispânica de Monte Albán"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cidade Pré-hispânica de El Tajín"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cidade Pré-hispânica de Xochicalco"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cidade Pré-hispânica de Mitla"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cidade Pré-hispânica de Caracol"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cidade Pré-hispânica de Chichén Itzá",
+          "sources": [
+            "CHICHEN483"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "México"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Honduras"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Peru"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "México",
+          "sources": [
+            "CHICHEN483"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Cavidades naturais citadas pela UNESCO junto ao núcleo antigo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cenotes"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tubos de lava"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Furnas marinhas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cavernas glaciares"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cenotes",
+          "sources": [
+            "CHICHEN483"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Monumentos do setor norte descrito pela UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Templo dos Guerreiros e Grupo das Mil Colunas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "El Caracol e Tumba do Sumo Sacerdote"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Igreja e Akab Dzib"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Casa das Monjas e Templo dos Painéis"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Templo dos Guerreiros e Grupo das Mil Colunas",
+          "sources": [
+            "CHICHEN483"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "chichen-itza-viajante-P01",
+              "factKey": "chichen-itza-F01",
+              "text": "Este destino preserva vestígios de uma cidade antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P02",
+              "factKey": "chichen-itza-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P03",
+              "factKey": "chichen-itza-F03",
+              "text": "O sítio arqueológico fica no México.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P04",
+              "factKey": "chichen-itza-F04",
+              "text": "A região pertence à península de Yucatán.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P05",
+              "factKey": "chichen-itza-F05",
+              "text": "A cidade foi um importante centro maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P06",
+              "factKey": "chichen-itza-F06",
+              "text": "O lugar era considerado sagrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P07",
+              "factKey": "chichen-itza-F07",
+              "text": "Diferentes povos deixaram marcas no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P08",
+              "factKey": "chichen-itza-F08",
+              "text": "Monumentos de pedra fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P09",
+              "factKey": "chichen-itza-F09",
+              "text": "A cidade cresceu perto de cavidades naturais chamadas cenotes.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P10",
+              "factKey": "chichen-itza-F10",
+              "text": "Os cenotes permitiam acesso à água subterrânea.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P11",
+              "factKey": "chichen-itza-F11",
+              "text": "Há uma construção conhecida como El Castillo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P12",
+              "factKey": "chichen-itza-F12",
+              "text": "El Castillo também é chamado de Templo de Kukulkan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P13",
+              "factKey": "chichen-itza-F13",
+              "text": "O Templo dos Guerreiros integra o sítio.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P14",
+              "factKey": "chichen-itza-F14",
+              "text": "Uma construção circular é chamada El Caracol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P15",
+              "factKey": "chichen-itza-F15",
+              "text": "A UNESCO descreve El Caracol como observatório de astros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P16",
+              "factKey": "chichen-itza-F16",
+              "text": "Uma grande quadra de jogo de bola integra o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P17",
+              "factKey": "chichen-itza-F17",
+              "text": "O Grupo das Mil Colunas é um dos complexos do local.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P18",
+              "factKey": "chichen-itza-F18",
+              "text": "Há uma construção conhecida como Templo do Jaguar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P19",
+              "factKey": "chichen-itza-F19",
+              "text": "A Casa das Águias também integra a área monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P20",
+              "factKey": "chichen-itza-F20",
+              "text": "A escada em espiral inspirou o nome de El Caracol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P21",
+              "factKey": "chichen-itza-F21",
+              "text": "Partes da cidade mostram técnicas de construção maias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P22",
+              "factKey": "chichen-itza-F22",
+              "text": "Outros elementos indicam relações com o centro do México.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P23",
+              "factKey": "chichen-itza-F23",
+              "text": "Alguns monumentos foram construídos entre os séculos VI e X.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P24",
+              "factKey": "chichen-itza-F24",
+              "text": "O local foi reconhecido pela UNESCO em 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-viajante-P25",
+              "factKey": "chichen-itza-F25",
+              "text": "A conservação precisa considerar o uso turístico e os monumentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "chichen-itza-geografo-P01",
+              "factKey": "chichen-itza-F01",
+              "text": "O sítio preserva a organização monumental de uma cidade pré-hispânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P02",
+              "factKey": "chichen-itza-F02",
+              "text": "Integra a área cultural mesoamericana na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P03",
+              "factKey": "chichen-itza-F03",
+              "text": "Sua localização atual pertence ao território mexicano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P04",
+              "factKey": "chichen-itza-F04",
+              "text": "Situa-se na península calcária de Yucatán.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P05",
+              "factKey": "chichen-itza-F05",
+              "text": "Foi um dos principais centros maias da península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P06",
+              "factKey": "chichen-itza-F06",
+              "text": "Sua função de centro sagrado se expressa nos monumentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P07",
+              "factKey": "chichen-itza-F07",
+              "text": "A arquitetura reúne contribuições de populações e períodos distintos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P08",
+              "factKey": "chichen-itza-F08",
+              "text": "A escultura e a arquitetura comunicam concepções de mundo e universo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P09",
+              "factKey": "chichen-itza-F09",
+              "text": "A cidade se estabeleceu junto a cavidades naturais chamadas cenotes.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P10",
+              "factKey": "chichen-itza-F10",
+              "text": "Essas cavidades facilitaram o acesso às águas subterrâneas do planalto calcário.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P11",
+              "factKey": "chichen-itza-F11",
+              "text": "A construção El Castillo integra o grupo monumental setentrional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P12",
+              "factKey": "chichen-itza-F12",
+              "text": "El Castillo também é conhecido como Templo de Kukulkan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P13",
+              "factKey": "chichen-itza-F13",
+              "text": "O Templo dos Guerreiros integra o conjunto monumental do norte.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P14",
+              "factKey": "chichen-itza-F14",
+              "text": "El Caracol apresenta uma estrutura circular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P15",
+              "factKey": "chichen-itza-F15",
+              "text": "A UNESCO descreve El Caracol como observatório de astros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P16",
+              "factKey": "chichen-itza-F16",
+              "text": "A grande quadra de jogo de bola compõe o setor monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P17",
+              "factKey": "chichen-itza-F17",
+              "text": "O Grupo das Mil Colunas situa-se no conjunto norte.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P18",
+              "factKey": "chichen-itza-F18",
+              "text": "O Templo do Jaguar integra os complexos monumentais do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P19",
+              "factKey": "chichen-itza-F19",
+              "text": "A Casa das Águias integra o grupo próximo à grande quadra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P20",
+              "factKey": "chichen-itza-F20",
+              "text": "Uma escada em espiral explica o nome atribuído a El Caracol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P21",
+              "factKey": "chichen-itza-F21",
+              "text": "O setor antigo conserva edificações associadas à tradição construtiva maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P22",
+              "factKey": "chichen-itza-F22",
+              "text": "A combinação de técnicas maias e elementos do México central expressa interações culturais.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P23",
+              "factKey": "chichen-itza-F23",
+              "text": "Construções do setor antigo datam de períodos entre os séculos VI e X.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P24",
+              "factKey": "chichen-itza-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "chichen-itza-geografo-P25",
+              "factKey": "chichen-itza-F25",
+              "text": "A gestão precisa compatibilizar visitação, infraestrutura e conservação arqueológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHICHEN483"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade arqueológica maia na península mexicana de Yucatán, com cenotes e monumentos de pedra.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas.",
+          "Alternativas e sinais editoriais revisados; verificar sorteio e calibrar em partidas."
         ]
       },
       "review": {
