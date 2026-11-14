@@ -1,0 +1,2021 @@
+{
+  "sources": {
+    "SULLAGOAICMBIO": {
+      "id": "SULLAGOAICMBIO",
+      "title": "Parque Nacional da Lagoa do Peixe",
+      "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-lagoa-do-peixe/informacoes-sobre-visitacao-parna-da-lagoa-do-peixe",
+      "checkedAt": "2026-11-14"
+    },
+    "SULGRAMADOTURISMO": {
+      "id": "SULGRAMADOTURISMO",
+      "title": "Gramado",
+      "publisher": "Secretaria de Turismo do Rio Grande do Sul",
+      "url": "https://www.turismo.rs.gov.br/turismo/municipio/visitar/497",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLAGOARECURSOS": {
+      "id": "SULLAGOARECURSOS",
+      "title": "Contexto geográfico e histórico — Parque Nacional da Lagoa do Peixe",
+      "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade",
+      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view",
+      "checkedAt": "2026-11-14"
+    },
+    "SULGRAMADOIBGE": {
+      "id": "SULGRAMADOIBGE",
+      "title": "Contexto geográfico e histórico — Gramado",
+      "publisher": "Instituto Brasileiro de Geografia e Estatística",
+      "url": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/riograndedosul/gramado.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "IBGESULGRAMADO": {
+      "id": "IBGESULGRAMADO",
+      "title": "Cidades e Estados — população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/gramado.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-lagoa-peixe",
+      "placeId": "lagoa-peixe",
+      "title": "Parque Nacional da Lagoa do Peixe",
+      "aliases": [
+        "Lagoa do Peixe"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Superagui"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Ilha Grande"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra do Itajaí"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Jericoacoara"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Lagoa do Peixe",
+          "sources": [
+            "SULLAGOAICMBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Grupo animal de destaque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Aves migratórias"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Primatas marinhos"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Morcegos de cavernas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Insetos de altitude"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Aves migratórias",
+          "sources": [
+            "SULLAGOAICMBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Característica da área aquática",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Laguna com comunicação com o mar"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lago glacial fechado"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Reservatório construído por barragem"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rio subterrâneo em caverna"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Laguna com comunicação com o mar",
+          "sources": [
+            "SULLAGOAICMBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULLAGOAICMBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "lagoa-peixe-viajante-P01",
+              "factKey": "lagoa-peixe-F01",
+              "text": "Este lugar protege ambientes próximos ao oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P02",
+              "factKey": "lagoa-peixe-F02",
+              "text": "O parque fica no litoral do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P03",
+              "factKey": "lagoa-peixe-F03",
+              "text": "A paisagem inclui lagoas, dunas e banhados.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P04",
+              "factKey": "lagoa-peixe-F04",
+              "text": "A unidade está no Rio Grande do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P05",
+              "factKey": "lagoa-peixe-F05",
+              "text": "Fica numa planície de areia entre um grande corpo de água e o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P06",
+              "factKey": "lagoa-peixe-F06",
+              "text": "O Oceano Atlântico banha esse trecho da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P07",
+              "factKey": "lagoa-peixe-F07",
+              "text": "A Lagoa dos Patos fica a oeste da planície onde está o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P08",
+              "factKey": "lagoa-peixe-F08",
+              "text": "Aves de diferentes regiões usam a área para se alimentar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P09",
+              "factKey": "lagoa-peixe-F09",
+              "text": "O parque protege espécies de aves migratórias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P10",
+              "factKey": "lagoa-peixe-F10",
+              "text": "Flamingos podem ser vistos nas águas rasas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P11",
+              "factKey": "lagoa-peixe-F11",
+              "text": "Colhereiros também podem ser observados na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P12",
+              "factKey": "lagoa-peixe-F12",
+              "text": "Cisnes-de-pescoço-preto frequentam parte da laguna.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P13",
+              "factKey": "lagoa-peixe-F13",
+              "text": "Maçaricos e batuíras aparecem na costa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P14",
+              "factKey": "lagoa-peixe-F14",
+              "text": "O parque inclui ambientes de restinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P15",
+              "factKey": "lagoa-peixe-F15",
+              "text": "A área abriga lagoas de água doce e de água salobra.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P16",
+              "factKey": "lagoa-peixe-F16",
+              "text": "A lagoa principal comunica-se com o mar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P17",
+              "factKey": "lagoa-peixe-F17",
+              "text": "Por se comunicar com o mar, a lagoa principal é uma laguna.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P18",
+              "factKey": "lagoa-peixe-F18",
+              "text": "O ambiente aquático é relativamente raso.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P19",
+              "factKey": "lagoa-peixe-F19",
+              "text": "A região funciona como berçário para espécies marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P20",
+              "factKey": "lagoa-peixe-F20",
+              "text": "Tainhas e linguados estão entre os peixes mencionados pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P21",
+              "factKey": "lagoa-peixe-F21",
+              "text": "O parque foi criado em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P22",
+              "factKey": "lagoa-peixe-F22",
+              "text": "Foi reconhecido como Sítio Ramsar em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P23",
+              "factKey": "lagoa-peixe-F23",
+              "text": "Em 1991 integrou uma rede de reservas voltada a aves limícolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P24",
+              "factKey": "lagoa-peixe-F24",
+              "text": "A Trilha das Figueiras é um dos percursos de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-viajante-P25",
+              "factKey": "lagoa-peixe-F25",
+              "text": "A sede e o centro de visitantes ficam na cidade de Mostardas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "lagoa-peixe-geografo-P01",
+              "factKey": "lagoa-peixe-F01",
+              "text": "A laguna protegida possui uma barra de comunicação intermitente com o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P02",
+              "factKey": "lagoa-peixe-F02",
+              "text": "O ambiente lagunar é rico em nutrientes e alimentos para a fauna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P03",
+              "factKey": "lagoa-peixe-F03",
+              "text": "As áreas úmidas incluem um cordão de lagoas e banhados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P04",
+              "factKey": "lagoa-peixe-F04",
+              "text": "Veiana, Pai João e Ruivo são lagoas associadas ao sistema protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P05",
+              "factKey": "lagoa-peixe-F05",
+              "text": "O campo de dunas oferece habitat para organismos adaptados às condições costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P06",
+              "factKey": "lagoa-peixe-F06",
+              "text": "As formações campestres nativas também abrigam espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P07",
+              "factKey": "lagoa-peixe-F07",
+              "text": "A vegetação de restinga se estende pela unidade de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P08",
+              "factKey": "lagoa-peixe-F08",
+              "text": "A faixa marinha da unidade alcança cerca de mil metros mar adentro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P09",
+              "factKey": "lagoa-peixe-F09",
+              "text": "A proteção das zonas úmidas contribui para preservar os ambientes de aves residentes e migratórias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P10",
+              "factKey": "lagoa-peixe-F10",
+              "text": "A dispersão de sementes de pínus pelo vento é registrada entre as pressões sobre as dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOARECURSOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P11",
+              "factKey": "lagoa-peixe-F11",
+              "text": "Colhereiros podem ser observados nos ambientes úmidos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P12",
+              "factKey": "lagoa-peixe-F12",
+              "text": "Cisnes-de-pescoço-preto ocorrem na porção norte da laguna.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P13",
+              "factKey": "lagoa-peixe-F13",
+              "text": "Aves limícolas como maçaricos e batuíras utilizam a praia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P14",
+              "factKey": "lagoa-peixe-F14",
+              "text": "Formações de restinga integram a planície arenosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P15",
+              "factKey": "lagoa-peixe-F15",
+              "text": "O conjunto apresenta corpos de água doce e salobra.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P16",
+              "factKey": "lagoa-peixe-F16",
+              "text": "Um canal conecta a laguna principal ao oceano.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P17",
+              "factKey": "lagoa-peixe-F17",
+              "text": "A comunicação com o mar explica a classificação da lagoa principal como laguna.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P18",
+              "factKey": "lagoa-peixe-F18",
+              "text": "A pequena profundidade caracteriza o corpo de água principal.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P19",
+              "factKey": "lagoa-peixe-F19",
+              "text": "A laguna funciona como área de desenvolvimento para fauna marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P20",
+              "factKey": "lagoa-peixe-F20",
+              "text": "O ICMBio cita tainha e linguado entre as espécies presentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P21",
+              "factKey": "lagoa-peixe-F21",
+              "text": "A criação federal ocorreu em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P22",
+              "factKey": "lagoa-peixe-F22",
+              "text": "O reconhecimento como zona úmida de importância internacional ocorreu em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P23",
+              "factKey": "lagoa-peixe-F23",
+              "text": "Desde 1991 a unidade integra uma rede hemisférica de reservas para aves limícolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P24",
+              "factKey": "lagoa-peixe-F24",
+              "text": "A Trilha das Figueiras permite observação de fauna junto à margem oeste da laguna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lagoa-peixe-geografo-P25",
+              "factKey": "lagoa-peixe-F25",
+              "text": "O centro de visitantes e a sede administrativa situam-se em Mostardas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAGOAICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Unidade costeira do Rio Grande do Sul com laguna, dunas, banhados e importância para aves migratórias.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; calibração de pistas em partidas permanece pendente."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-gramado",
+      "placeId": "gramado",
+      "title": "Gramado",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Gramado"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Canela"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Nova Petrópolis"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Bento Gonçalves"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Garibaldi"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cambará do Sul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Francisco de Paula"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Petrópolis"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Campos do Jordão"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Nova Friburgo"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Pomerode"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Gramado",
+          "sources": [
+            "SULGRAMADOTURISMO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Premiação de cinema associada à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Kikito"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Candango"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Grande Otelo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Urso de Ouro"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Kikito",
+          "sources": [
+            "SULGRAMADOTURISMO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Lago turístico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lago Negro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Lago Guaíba"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lago Paranoá"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lago de Furnas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Lago Negro",
+          "sources": [
+            "SULGRAMADOTURISMO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Minas Gerais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULGRAMADOTURISMO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "gramado-viajante-P01",
+              "factKey": "gramado-F01",
+              "text": "O destino é uma cidade de serra no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P02",
+              "factKey": "gramado-F02",
+              "text": "O município fica no Rio Grande do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P03",
+              "factKey": "gramado-F03",
+              "text": "A cidade recebe um conhecido festival de cinema.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P04",
+              "factKey": "gramado-F04",
+              "text": "Um troféu chamado Kikito é ligado a esse festival.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P05",
+              "factKey": "gramado-F05",
+              "text": "O Palácio dos Festivais acolhe atividades de cinema.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P06",
+              "factKey": "gramado-F06",
+              "text": "O Museu do Festival de Cinema preserva a memória do evento.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P07",
+              "factKey": "gramado-F07",
+              "text": "Uma rua coberta recebe apresentações e eventos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P08",
+              "factKey": "gramado-F08",
+              "text": "A Rua Coberta liga a Avenida Borges de Medeiros à Rua Garibaldi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P09",
+              "factKey": "gramado-F09",
+              "text": "A Igreja São Pedro tem construção em pedra basáltica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P10",
+              "factKey": "gramado-F10",
+              "text": "A Igreja do Relógio é dedicada ao apóstolo Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P11",
+              "factKey": "gramado-F11",
+              "text": "Um relógio sobre um jardim de hortênsias identifica essa igreja.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P12",
+              "factKey": "gramado-F12",
+              "text": "A Praça Major Nicoletti fica próxima da igreja matriz e do palácio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P13",
+              "factKey": "gramado-F13",
+              "text": "Uma lagoa turística da cidade recebe o nome de Lago Negro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P14",
+              "factKey": "gramado-F14",
+              "text": "O entorno desse lago foi arborizado depois de um incêndio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P15",
+              "factKey": "gramado-F15",
+              "text": "Outro lago local homenageia Joaquina Rita Bier.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P16",
+              "factKey": "gramado-F16",
+              "text": "O lago Joaquina Rita Bier tem uma pequena ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P17",
+              "factKey": "gramado-F17",
+              "text": "A Casa do Colono fica na Praça das Etnias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P18",
+              "factKey": "gramado-F18",
+              "text": "Produtos do interior do município podem ser encontrados na Casa do Colono.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P19",
+              "factKey": "gramado-F19",
+              "text": "Um parque local apresenta construções em miniatura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P20",
+              "factKey": "gramado-F20",
+              "text": "O parque de miniaturas foi criado pela família Höppner em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P21",
+              "factKey": "gramado-F21",
+              "text": "Um pórtico em estilo bávaro marca uma das entradas da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P22",
+              "factKey": "gramado-F22",
+              "text": "Outro pórtico, no acesso via Taquara, tem estilo normando.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P23",
+              "factKey": "gramado-F23",
+              "text": "Roteiros rurais apresentam alimentos e tradições de famílias locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P24",
+              "factKey": "gramado-F24",
+              "text": "O roteiro Raízes Coloniais passa por Linha Bonita e Linha Nova.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-viajante-P25",
+              "factKey": "gramado-F25",
+              "text": "A prefeitura local reúne elementos decorativos em madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "gramado-geografo-P01",
+              "factKey": "gramado-F01",
+              "text": "A perspectiva de passagem de uma ferrovia influenciou a escolha do novo núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P02",
+              "factKey": "gramado-F02",
+              "text": "Os trilhos da rede ferroviária estadual chegaram ao núcleo em 1919.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P03",
+              "factKey": "gramado-F03",
+              "text": "A chegada da ferrovia facilitou o intercâmbio comercial com outras localidades do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P04",
+              "factKey": "gramado-F04",
+              "text": "A iluminação elétrica local passou a ser fornecida por uma usina própria em 1920.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P05",
+              "factKey": "gramado-F05",
+              "text": "A localidade abrigou uma agência de correios e um escritório bancário em 1918.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P06",
+              "factKey": "gramado-F06",
+              "text": "O antigo distrito teve originalmente a denominação de Linha Nova.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P07",
+              "factKey": "gramado-F07",
+              "text": "O distrito esteve subordinado ao município de Taquara do Mundo Novo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P08",
+              "factKey": "gramado-F08",
+              "text": "A criação do município autônomo ocorreu por lei estadual em 1954.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P09",
+              "factKey": "gramado-F09",
+              "text": "A igreja matriz utiliza pedra basáltica em sua estrutura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P10",
+              "factKey": "gramado-F10",
+              "text": "Um templo luterano conhecido por seu relógio é dedicado ao apóstolo Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P11",
+              "factKey": "gramado-F11",
+              "text": "O relógio e as hortênsias compõem uma referência paisagística local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P12",
+              "factKey": "gramado-F12",
+              "text": "A Praça Major Nicoletti articula a igreja matriz ao espaço dos festivais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P13",
+              "factKey": "gramado-F13",
+              "text": "O Lago Negro integra os espaços turísticos do município.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P14",
+              "factKey": "gramado-F14",
+              "text": "Seu entorno foi replantado após um incêndio na mata local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P15",
+              "factKey": "gramado-F15",
+              "text": "Outro corpo de água urbano leva o nome de Joaquina Rita Bier.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P16",
+              "factKey": "gramado-F16",
+              "text": "Esse lago tem uma pequena ilha e margens utilizadas para caminhada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P17",
+              "factKey": "gramado-F17",
+              "text": "A Casa do Colono integra o conjunto da Praça das Etnias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P18",
+              "factKey": "gramado-F18",
+              "text": "O espaço comercializa produtos produzidos no interior municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P19",
+              "factKey": "gramado-F19",
+              "text": "Um parque temático apresenta modelos em escala de edificações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P20",
+              "factKey": "gramado-F20",
+              "text": "A família Höppner criou o parque de miniaturas em 1981.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P21",
+              "factKey": "gramado-F21",
+              "text": "O Censo 2022 do IBGE registrou aproximadamente 40 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "IBGESULGRAMADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P22",
+              "factKey": "gramado-F22",
+              "text": "O acesso via Taquara possui um pórtico de estilo normando.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P23",
+              "factKey": "gramado-F23",
+              "text": "Roteiros de agroturismo articulam gastronomia e produção familiar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P24",
+              "factKey": "gramado-F24",
+              "text": "As localidades Linha Bonita e Linha Nova integram o roteiro Raízes Coloniais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "gramado-geografo-P25",
+              "factKey": "gramado-F25",
+              "text": "O edifício da prefeitura utiliza ornamentos de madeira na composição da fachada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULGRAMADOTURISMO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Município serrano do Rio Grande do Sul conhecido pelo festival de cinema, turismo e paisagens urbanas.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; calibração de pistas em partidas permanece pendente."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

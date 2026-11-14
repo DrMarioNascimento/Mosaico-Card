@@ -1,0 +1,1063 @@
+{
+  "sources": {
+    "BOAVISTA_ENAT": {
+      "id": "BOAVISTA_ENAT",
+      "title": "Sobre Boa Vista",
+      "publisher": "Encontro Nacional de Administradores Tributários",
+      "url": "https://www.enat.receita.economia.gov.br/pt-br/area_nacional/eventos/xi-enat/sobre-roraima/sobre-boa-vista",
+      "checkedAt": "2026-11-14"
+    },
+    "BOAVISTA_PREF": {
+      "id": "BOAVISTA_PREF",
+      "title": "Mês do Patrimônio Cultural: conheça alguns dos prédios históricos de Boa Vista",
+      "publisher": "Prefeitura Municipal de Boa Vista",
+      "url": "https://boavista.rr.gov.br/index.php/noticias/2026/8/mes-do-patrimonio-cultural-conheca-alguns-dos-predios-historicos-de-boa-vista",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-boa-vista",
+      "placeId": "norte-boa-vista",
+      "title": "Boa Vista",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Goiânia"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Boa Vista",
+          "sources": [
+            "BOAVISTA_ENAT",
+            "BOAVISTA_PREF"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Traçado urbano do centro",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Avenidas em leque a partir de uma praça"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Quadras em tabuleiro a partir de um porto"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Avenidas paralelas a um istmo marítimo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Ruas exclusivamente dispostas em ilhas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Avenidas em leque a partir de uma praça",
+          "sources": [
+            "BOAVISTA_ENAT",
+            "BOAVISTA_PREF"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Roraima"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Roraima",
+          "sources": [
+            "BOAVISTA_ENAT",
+            "BOAVISTA_PREF"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio associado à cidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Acre"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Tocantins"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Branco",
+          "sources": [
+            "BOAVISTA_ENAT",
+            "BOAVISTA_PREF"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-boa-vista-viajante-P01",
+              "factKey": "norte-boa-vista-F01",
+              "text": "Esta cidade é uma capital estadual brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P02",
+              "factKey": "norte-boa-vista-F02",
+              "text": "A capital está na região Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P03",
+              "factKey": "norte-boa-vista-F03",
+              "text": "Seu núcleo histórico se formou junto a um rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P04",
+              "factKey": "norte-boa-vista-F04",
+              "text": "A cidade fica na margem direita desse rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P05",
+              "factKey": "norte-boa-vista-F05",
+              "text": "O rio tem o nome de uma cor.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P06",
+              "factKey": "norte-boa-vista-F06",
+              "text": "O nome do rio é Branco.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P07",
+              "factKey": "norte-boa-vista-F07",
+              "text": "A cidade é sede de um estado que faz fronteira com outros países.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P08",
+              "factKey": "norte-boa-vista-F08",
+              "text": "É a capital de Roraima.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P09",
+              "factKey": "norte-boa-vista-F09",
+              "text": "É a capital estadual brasileira situada mais ao norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P10",
+              "factKey": "norte-boa-vista-F10",
+              "text": "Fica inteiramente ao norte da linha do Equador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P11",
+              "factKey": "norte-boa-vista-F11",
+              "text": "Várias avenidas do centro lembram as hastes de um leque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P12",
+              "factKey": "norte-boa-vista-F12",
+              "text": "Essas avenidas se encontram em uma praça cívica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P13",
+              "factKey": "norte-boa-vista-F13",
+              "text": "A praça central homenageia Joaquim Nabuco.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P14",
+              "factKey": "norte-boa-vista-F14",
+              "text": "Prédios dos poderes estaduais ficam próximos dessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P15",
+              "factKey": "norte-boa-vista-F15",
+              "text": "O plano de parte da cidade foi elaborado na década de 1940.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P16",
+              "factKey": "norte-boa-vista-F16",
+              "text": "Um engenheiro chamado Darcy Derenusson participou do projeto urbano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P17",
+              "factKey": "norte-boa-vista-F17",
+              "text": "O desenho de ruas foi comparado ao de Paris.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P18",
+              "factKey": "norte-boa-vista-F18",
+              "text": "A área urbana teve origem ligada a uma antiga fazenda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P19",
+              "factKey": "norte-boa-vista-F19",
+              "text": "A fazenda foi fundada em 1830.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P20",
+              "factKey": "norte-boa-vista-F20",
+              "text": "Inácio Lopes de Magalhães está ligado à fundação dessa fazenda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P21",
+              "factKey": "norte-boa-vista-F21",
+              "text": "O fundador havia comandado o Forte São Joaquim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P22",
+              "factKey": "norte-boa-vista-F22",
+              "text": "A localidade foi elevada a município em 1890.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P23",
+              "factKey": "norte-boa-vista-F23",
+              "text": "Antes de se tornar estado, Roraima foi território federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P24",
+              "factKey": "norte-boa-vista-F24",
+              "text": "Ene Garcez foi o primeiro governador do antigo território federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-viajante-P25",
+              "factKey": "norte-boa-vista-F25",
+              "text": "A praça central também fica próxima a uma catedral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-boa-vista-geografo-P01",
+              "factKey": "norte-boa-vista-F01",
+              "text": "O destino é a capital de uma unidade da federação brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P02",
+              "factKey": "norte-boa-vista-F02",
+              "text": "A cidade integra a rede urbana da região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P03",
+              "factKey": "norte-boa-vista-F03",
+              "text": "O núcleo original desenvolveu-se junto ao rio, antes da expansão urbana para outras áreas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P04",
+              "factKey": "norte-boa-vista-F04",
+              "text": "A posição na margem direita do curso de água orienta a relação entre cidade e rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P05",
+              "factKey": "norte-boa-vista-F05",
+              "text": "O curso fluvial que margeia a cidade leva no nome uma referência cromática.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P06",
+              "factKey": "norte-boa-vista-F06",
+              "text": "A capital desenvolveu-se junto ao rio Branco.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P07",
+              "factKey": "norte-boa-vista-F07",
+              "text": "A posição em estado fronteiriço insere a cidade em relações territoriais internacionais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P08",
+              "factKey": "norte-boa-vista-F08",
+              "text": "Sedia o governo estadual de Roraima.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P09",
+              "factKey": "norte-boa-vista-F09",
+              "text": "Sua posição faz dela a capital estadual mais setentrional do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P10",
+              "factKey": "norte-boa-vista-F10",
+              "text": "Sua localização inteiramente ao norte da linha equatorial a distingue das demais capitais estaduais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P11",
+              "factKey": "norte-boa-vista-F11",
+              "text": "No plano central, avenidas radiais distribuem a circulação a partir de um núcleo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P12",
+              "factKey": "norte-boa-vista-F12",
+              "text": "A convergência de avenidas para uma praça estrutura o desenho semelhante a um leque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P13",
+              "factKey": "norte-boa-vista-F13",
+              "text": "A Praça Joaquim Nabuco funciona como centro do arranjo radial de vias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P14",
+              "factKey": "norte-boa-vista-F14",
+              "text": "A concentração das sedes dos três poderes na praça reforça sua função de centro administrativo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P15",
+              "factKey": "norte-boa-vista-F15",
+              "text": "O plano radial da década de 1940 orientou parte da organização espacial da capital.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P16",
+              "factKey": "norte-boa-vista-F16",
+              "text": "O engenheiro civil Darcy Aleixo Derenusson elaborou o plano radial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P17",
+              "factKey": "norte-boa-vista-F17",
+              "text": "A associação a Paris diz respeito ao desenho de avenidas convergentes, não à identidade das duas cidades.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P18",
+              "factKey": "norte-boa-vista-F18",
+              "text": "O núcleo urbano teve origem em uma fazenda, posteriormente incorporada ao desenvolvimento da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P19",
+              "factKey": "norte-boa-vista-F19",
+              "text": "A fazenda que deu origem ao núcleo foi fundada em 1830.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P20",
+              "factKey": "norte-boa-vista-F20",
+              "text": "O capitão Inácio Lopes de Magalhães fundou a fazenda originária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P21",
+              "factKey": "norte-boa-vista-F21",
+              "text": "O fundador da fazenda era ex-comandante do Forte São Joaquim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P22",
+              "factKey": "norte-boa-vista-F22",
+              "text": "A criação do município ocorreu em 9 de julho de 1890.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P23",
+              "factKey": "norte-boa-vista-F23",
+              "text": "O planejamento ocorreu quando o atual estado ainda tinha a condição de território federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P24",
+              "factKey": "norte-boa-vista-F24",
+              "text": "O desenho radial foi construído durante o governo do capitão Ene Garcez.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-boa-vista-geografo-P25",
+              "factKey": "norte-boa-vista-F25",
+              "text": "O entorno da praça central inclui equipamentos culturais e a catedral diocesana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOAVISTA_ENAT",
+                "BOAVISTA_PREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital de Roraima, às margens do rio Branco, conhecida pelo traçado radial de sua área central.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

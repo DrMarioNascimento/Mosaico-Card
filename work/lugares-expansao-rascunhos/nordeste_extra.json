@@ -1,0 +1,1004 @@
+{
+  "sources": {
+    "ABROLHOS_ICM": {
+      "id": "ABROLHOS_ICM",
+      "title": "Informações sobre visitação no Parque Nacional Marinho dos Abrolhos",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/guia-do-visitante/informacoes-sobre-visitacao",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-marinho-abrolhos",
+      "placeId": "parque-marinho-abrolhos",
+      "title": "Parque Nacional Marinho dos Abrolhos",
+      "aliases": [
+        "Abrolhos"
+      ],
+      "answerType": "parque nacional marinho",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área marinha protegida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Reserva Biológica do Atol das Rocas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Refúgio de Vida Silvestre do Arquipélago de Alcatrazes"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual Marinho do Parcel de Manuel Luís"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Área de Proteção Ambiental Costa dos Corais"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Área de Proteção Ambiental da Baleia Franca"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Área de Proteção Ambiental Costa das Algas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Estadual Marinho da Pedra da Risca do Meio"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Natural Municipal Marinho do Recife de Fora"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Reserva Extrativista Marinha do Corumbau"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual Marinho de Areia Vermelha"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Marinho dos Abrolhos",
+          "sources": [
+            "ABROLHOS_ICM"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estruturas recifais peculiares do banco coralíneo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Chapeirões"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Piscinas intermareais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Recifes em franja"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Atóis"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Chapeirões",
+          "sources": [
+            "ABROLHOS_ICM"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Cetáceo que migra para reprodução na região",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Baleia-jubarte"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Baleia-franca-austral"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Baleia-cinzenta"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Baleia-azul"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Baleia-jubarte",
+          "sources": [
+            "ABROLHOS_ICM"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado da sede do parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Norte"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Espírito Santo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Bahia",
+          "sources": [
+            "ABROLHOS_ICM"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-marinho-abrolhos-viajante-P01",
+              "factKey": "parque-marinho-abrolhos-F01",
+              "text": "É um parque nacional marinho do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P02",
+              "factKey": "parque-marinho-abrolhos-F02",
+              "text": "Fica no litoral do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P03",
+              "factKey": "parque-marinho-abrolhos-F03",
+              "text": "Sua sede fica na Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P04",
+              "factKey": "parque-marinho-abrolhos-F04",
+              "text": "Foi criado em 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P05",
+              "factKey": "parque-marinho-abrolhos-F05",
+              "text": "Foi o primeiro parque nacional marinho criado no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P06",
+              "factKey": "parque-marinho-abrolhos-F06",
+              "text": "Suas águas protegem recifes de coral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P07",
+              "factKey": "parque-marinho-abrolhos-F07",
+              "text": "Uma parte do parque fica longe da costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P08",
+              "factKey": "parque-marinho-abrolhos-F08",
+              "text": "A área protegida é formada por duas partes separadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P09",
+              "factKey": "parque-marinho-abrolhos-F09",
+              "text": "Uma de suas áreas protege o Recife de Timbebas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P10",
+              "factKey": "parque-marinho-abrolhos-F10",
+              "text": "O recife costeiro fica entre Alcobaça e Prado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P11",
+              "factKey": "parque-marinho-abrolhos-F11",
+              "text": "Outra parte protege águas próximas a um arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P12",
+              "factKey": "parque-marinho-abrolhos-F12",
+              "text": "A Ilha Siriba é uma das ilhas do arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P13",
+              "factKey": "parque-marinho-abrolhos-F13",
+              "text": "A Ilha Redonda também integra o arquipélago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P14",
+              "factKey": "parque-marinho-abrolhos-F14",
+              "text": "A Ilha Santa Bárbara não faz parte dos limites do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P15",
+              "factKey": "parque-marinho-abrolhos-F15",
+              "text": "A Ilha Santa Bárbara está sob jurisdição da Marinha do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P16",
+              "factKey": "parque-marinho-abrolhos-F16",
+              "text": "O fundo do mar tem grandes formações conhecidas como chapeirões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P17",
+              "factKey": "parque-marinho-abrolhos-F17",
+              "text": "Baleias-jubarte procuram a região para se reproduzir.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P18",
+              "factKey": "parque-marinho-abrolhos-F18",
+              "text": "As baleias-jubarte podem ser observadas em parte do ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P19",
+              "factKey": "parque-marinho-abrolhos-F19",
+              "text": "Tartarugas marinhas também frequentam a área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P20",
+              "factKey": "parque-marinho-abrolhos-F20",
+              "text": "A tartaruga-de-pente está entre os animais citados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P21",
+              "factKey": "parque-marinho-abrolhos-F21",
+              "text": "Aves chamadas atobás usam ilhas para se reproduzir.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P22",
+              "factKey": "parque-marinho-abrolhos-F22",
+              "text": "A grazina-de-bico-vermelho é uma das aves locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P23",
+              "factKey": "parque-marinho-abrolhos-F23",
+              "text": "A pesca é proibida dentro dos limites do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P24",
+              "factKey": "parque-marinho-abrolhos-F24",
+              "text": "A cidade de Caravelas abriga o centro de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-viajante-P25",
+              "factKey": "parque-marinho-abrolhos-F25",
+              "text": "O lugar é administrado pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-marinho-abrolhos-geografo-P01",
+              "factKey": "parque-marinho-abrolhos-F01",
+              "text": "O sítio é uma unidade federal da categoria parque nacional marinho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P02",
+              "factKey": "parque-marinho-abrolhos-F02",
+              "text": "A unidade marinha situa-se na região Nordeste do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P03",
+              "factKey": "parque-marinho-abrolhos-F03",
+              "text": "A gestão e o centro de visitantes localizam-se no estado da Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P04",
+              "factKey": "parque-marinho-abrolhos-F04",
+              "text": "O decreto federal de criação da unidade é de 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P05",
+              "factKey": "parque-marinho-abrolhos-F05",
+              "text": "Sua criação inaugurou a categoria de parque nacional marinho no país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P06",
+              "factKey": "parque-marinho-abrolhos-F06",
+              "text": "A conservação dos recifes protege habitats marinhos associados ao maior banco coralíneo da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P07",
+              "factKey": "parque-marinho-abrolhos-F07",
+              "text": "O polígono oceânico protege áreas afastadas da costa, a cerca de 70 quilômetros de Caravelas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P08",
+              "factKey": "parque-marinho-abrolhos-F08",
+              "text": "Dois polígonos descontínuos permitem incluir ambientes recifais oceânicos e costeiros na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P09",
+              "factKey": "parque-marinho-abrolhos-F09",
+              "text": "O Recife de Timbebas integra o setor costeiro do parque, separado do setor oceânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P10",
+              "factKey": "parque-marinho-abrolhos-F10",
+              "text": "A posição entre Alcobaça e Prado situa o setor recifal costeiro no sul da Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P11",
+              "factKey": "parque-marinho-abrolhos-F11",
+              "text": "O polígono oceânico conecta a proteção das ilhas aos ambientes marinhos adjacentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P12",
+              "factKey": "parque-marinho-abrolhos-F12",
+              "text": "A Ilha Siriba integra o conjunto insular associado à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P13",
+              "factKey": "parque-marinho-abrolhos-F13",
+              "text": "A Ilha Redonda é um dos componentes do conjunto insular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P14",
+              "factKey": "parque-marinho-abrolhos-F14",
+              "text": "O limite legal exclui Santa Bárbara, mostrando que nem toda ilha do arquipélago pertence ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P15",
+              "factKey": "parque-marinho-abrolhos-F15",
+              "text": "A administração da Ilha Santa Bárbara cabe à Marinha do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P16",
+              "factKey": "parque-marinho-abrolhos-F16",
+              "text": "Chapeirões são estruturas recifais peculiares que compõem o banco coralíneo regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P17",
+              "factKey": "parque-marinho-abrolhos-F17",
+              "text": "A migração das baleias-jubarte conecta áreas de alimentação no sul a áreas de reprodução na costa brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P18",
+              "factKey": "parque-marinho-abrolhos-F18",
+              "text": "A visita sazonal das jubartes relaciona a migração ao nascimento de filhotes em águas costeiras brasileiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P19",
+              "factKey": "parque-marinho-abrolhos-F19",
+              "text": "Espécies de tartarugas marinhas usam a área marinha protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P20",
+              "factKey": "parque-marinho-abrolhos-F20",
+              "text": "A presença de tartarugas marinhas reforça o papel da área como habitat de espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P21",
+              "factKey": "parque-marinho-abrolhos-F21",
+              "text": "As ilhas funcionam como áreas de nidificação para aves marinhas, incluindo atobás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P22",
+              "factKey": "parque-marinho-abrolhos-F22",
+              "text": "A avifauna marinha inclui a grazina-de-bico-vermelho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P23",
+              "factKey": "parque-marinho-abrolhos-F23",
+              "text": "A proibição da pesca dentro da unidade integra as medidas de conservação das espécies marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P24",
+              "factKey": "parque-marinho-abrolhos-F24",
+              "text": "A sede em Caravelas conecta a gestão da unidade oceânica a uma cidade do litoral sul da Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-marinho-abrolhos-geografo-P25",
+              "factKey": "parque-marinho-abrolhos-F25",
+              "text": "A gestão federal do parque cabe ao Instituto Chico Mendes de Conservação da Biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ABROLHOS_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque marinho no sul da Bahia que protege recifes, ilhas e áreas de reprodução da baleia-jubarte.",
+        "editorialNotes": [
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

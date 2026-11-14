@@ -1,0 +1,1187 @@
+{
+  "sources": {
+    "CENTRO_VB_IPHAN": {
+      "id": "CENTRO_VB_IPHAN",
+      "title": "Patrimônio material de Mato Grosso",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_VB_TUR": {
+      "id": "CENTRO_VB_TUR",
+      "title": "História e paisagem da cidade",
+      "publisher": "Prefeitura Municipal de Vila Bela da Santíssima Trindade",
+      "url": "https://turismo.vilabeladasantissimatrindade.mt.gov.br/A-Cidade/Sobre-a-Cidade/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_VB_IPHAN2": {
+      "id": "CENTRO_VB_IPHAN2",
+      "title": "Política de preservação do patrimônio cultural brasileiro",
+      "publisher": "Iphan",
+      "url": "https://portal.iphan.gov.br/uploads/publicacao/PubDivCol_PoliticaPreservacaoPatrimonioCulturalBrasil_m.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_VB_INVENTARIO": {
+      "id": "CENTRO_VB_INVENTARIO",
+      "title": "Inventário de bens culturais da cidade",
+      "publisher": "Iphan",
+      "url": "https://inrc.iphan.gov.br/wp-content/uploads/tainacan-items/26488/454606/Vila-Bela-da-Santissima-Trindade-SEC-MT-2008-2010_arq_Anexo-3-Bens-Culturais-Inventariados-1.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-vila-bela-mt",
+      "placeId": "vila-bela-mt",
+      "title": "Vila Bela da Santíssima Trindade",
+      "aliases": [
+        "Vila Bela"
+      ],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Vila Bela da Santíssima Trindade"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cáceres"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Pirenópolis"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cidade de Goiás"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Alcântara"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Ouro Preto"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Paraty"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Diamantina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "São Cristóvão"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Vila Bela da Santíssima Trindade",
+          "sources": [
+            "CENTRO_VB_IPHAN",
+            "CENTRO_VB_TUR",
+            "CENTRO_VB_IPHAN2",
+            "CENTRO_VB_INVENTARIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio associado à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Guaporé"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Guaporé",
+          "sources": [
+            "CENTRO_VB_IPHAN",
+            "CENTRO_VB_TUR",
+            "CENTRO_VB_IPHAN2",
+            "CENTRO_VB_INVENTARIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Elemento do patrimônio histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ruínas de antiga igreja matriz"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ruínas de um antigo aqueduto"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ruínas de uma estação ferroviária"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ruínas de uma fortaleza no litoral"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ruínas de antiga igreja matriz",
+          "sources": [
+            "CENTRO_VB_IPHAN",
+            "CENTRO_VB_TUR",
+            "CENTRO_VB_IPHAN2",
+            "CENTRO_VB_INVENTARIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso",
+          "sources": [
+            "CENTRO_VB_IPHAN",
+            "CENTRO_VB_TUR",
+            "CENTRO_VB_IPHAN2",
+            "CENTRO_VB_INVENTARIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "vila-bela-mt-viajante-P01",
+              "factKey": "vila-bela-mt-F01",
+              "text": "Este lugar é uma cidade histórica brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P02",
+              "factKey": "vila-bela-mt-F02",
+              "text": "Fica no oeste do estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P03",
+              "factKey": "vila-bela-mt-F03",
+              "text": "Foi a primeira capital do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P04",
+              "factKey": "vila-bela-mt-F04",
+              "text": "A cidade foi fundada em 1752.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P05",
+              "factKey": "vila-bela-mt-F05",
+              "text": "Seu surgimento está ligado à procura de ouro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P06",
+              "factKey": "vila-bela-mt-F06",
+              "text": "Um rio importante para a cidade é o Guaporé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P07",
+              "factKey": "vila-bela-mt-F07",
+              "text": "As ruínas de uma antiga igreja fazem parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P08",
+              "factKey": "vila-bela-mt-F08",
+              "text": "A igreja em ruínas foi dedicada à Santíssima Trindade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P09",
+              "factKey": "vila-bela-mt-F09",
+              "text": "A antiga igreja teve grossas paredes de adobe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P10",
+              "factKey": "vila-bela-mt-F10",
+              "text": "A igreja antiga nunca chegou a ser concluída.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P11",
+              "factKey": "vila-bela-mt-F11",
+              "text": "A cidade possui um Palácio dos Capitães Generais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P12",
+              "factKey": "vila-bela-mt-F12",
+              "text": "Esse palácio serviu de residência a governadores da capitania.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P13",
+              "factKey": "vila-bela-mt-F13",
+              "text": "O palácio foi construído com a técnica da taipa de pilão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P14",
+              "factKey": "vila-bela-mt-F14",
+              "text": "O Iphan protege as ruínas e o palácio desde 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P15",
+              "factKey": "vila-bela-mt-F15",
+              "text": "A cidade tem uma forte comunidade negra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P16",
+              "factKey": "vila-bela-mt-F16",
+              "text": "A Festança é uma celebração cultural tradicional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P17",
+              "factKey": "vila-bela-mt-F17",
+              "text": "A Festança reúne homenagens religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P18",
+              "factKey": "vila-bela-mt-F18",
+              "text": "A Dança do Congo integra a Festança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P19",
+              "factKey": "vila-bela-mt-F19",
+              "text": "O Chorado é outra dança associada à celebração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P20",
+              "factKey": "vila-bela-mt-F20",
+              "text": "A Serra Ricardo Franco está na paisagem do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P21",
+              "factKey": "vila-bela-mt-F21",
+              "text": "O município possui um parque estadual com esse nome.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P22",
+              "factKey": "vila-bela-mt-F22",
+              "text": "A Cachoeira do Jatobá é uma atração natural da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P23",
+              "factKey": "vila-bela-mt-F23",
+              "text": "A paisagem da região reúne influências da Amazônia, do Cerrado e do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P24",
+              "factKey": "vila-bela-mt-F24",
+              "text": "A cidade mantém tradições culturais de sua população negra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-viajante-P25",
+              "factKey": "vila-bela-mt-F25",
+              "text": "A fronteira oeste teve importância para a criação do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "vila-bela-mt-geografo-P01",
+              "factKey": "vila-bela-mt-F01",
+              "text": "O destino é um núcleo urbano histórico do Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P02",
+              "factKey": "vila-bela-mt-F02",
+              "text": "Situa-se no extremo oeste de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P03",
+              "factKey": "vila-bela-mt-F03",
+              "text": "Foi estabelecido como primeira sede administrativa da capitania no território mato-grossense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P04",
+              "factKey": "vila-bela-mt-F04",
+              "text": "A fundação do núcleo ocorreu em 1752.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P05",
+              "factKey": "vila-bela-mt-F05",
+              "text": "A descoberta de ouro no vale do Guaporé impulsionou sua instalação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P06",
+              "factKey": "vila-bela-mt-F06",
+              "text": "A posição no vale do Guaporé vinculou o núcleo à ocupação da fronteira ocidental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P07",
+              "factKey": "vila-bela-mt-F07",
+              "text": "As ruínas da antiga matriz evidenciam a trajetória da arquitetura religiosa colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P08",
+              "factKey": "vila-bela-mt-F08",
+              "text": "A antiga matriz era dedicada à Santíssima Trindade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P09",
+              "factKey": "vila-bela-mt-F09",
+              "text": "As paredes da antiga igreja foram construídas em adobe, sobre bases de pedra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P10",
+              "factKey": "vila-bela-mt-F10",
+              "text": "A interrupção da obra da matriz relaciona-se ao declínio histórico da antiga capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P11",
+              "factKey": "vila-bela-mt-F11",
+              "text": "O Palácio dos Capitães Generais integrava o núcleo administrativo colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P12",
+              "factKey": "vila-bela-mt-F12",
+              "text": "O edifício abrigou governadores da capitania.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P13",
+              "factKey": "vila-bela-mt-F13",
+              "text": "A taipa de pilão foi empregada na construção do palácio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P14",
+              "factKey": "vila-bela-mt-F14",
+              "text": "O Iphan tombou ambos os bens em 1988.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P15",
+              "factKey": "vila-bela-mt-F15",
+              "text": "Após a transferência do aparato administrativo, uma comunidade negra manteve e recriou tradições locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P16",
+              "factKey": "vila-bela-mt-F16",
+              "text": "A Festança integra práticas religiosas, dança e sociabilidade comunitária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P17",
+              "factKey": "vila-bela-mt-F17",
+              "text": "A celebração reúne devoções ao Divino, à Trindade e a São Benedito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P18",
+              "factKey": "vila-bela-mt-F18",
+              "text": "A Dança do Congo faz parte do conjunto de práticas festivas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P19",
+              "factKey": "vila-bela-mt-F19",
+              "text": "O Chorado é uma dança de participação feminina vinculada à Festança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P20",
+              "factKey": "vila-bela-mt-F20",
+              "text": "O relevo da serra Ricardo Franco compõe o entorno territorial do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P21",
+              "factKey": "vila-bela-mt-F21",
+              "text": "Parte dessa paisagem serrana é protegida por parque estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P22",
+              "factKey": "vila-bela-mt-F22",
+              "text": "A Cachoeira do Jatobá integra os atrativos naturais do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P23",
+              "factKey": "vila-bela-mt-F23",
+              "text": "O município situa-se em área de contato entre formações associadas à Amazônia, ao Cerrado e ao Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P24",
+              "factKey": "vila-bela-mt-F24",
+              "text": "A transmissão de práticas festivas fortalece a identidade da comunidade negra local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-bela-mt-geografo-P25",
+              "factKey": "vila-bela-mt-F25",
+              "text": "A instalação da antiga capital relacionava-se à estratégia portuguesa de ocupação da fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_VB_IPHAN",
+                "CENTRO_VB_TUR",
+                "CENTRO_VB_IPHAN2",
+                "CENTRO_VB_INVENTARIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Vila Bela da Santíssima Trindade foi a primeira capital de Mato Grosso e preserva história e tradições negras no vale do Guaporé.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

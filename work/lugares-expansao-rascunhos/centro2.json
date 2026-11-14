@@ -1,0 +1,2318 @@
+{
+  "sources": {
+    "CENTRO_COR_MUN": {
+      "id": "CENTRO_COR_MUN",
+      "title": "Destino turístico",
+      "publisher": "Município de Corumbá",
+      "url": "https://corumba.ms.gov.br/paginas/ver/destino",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_IPHAN": {
+      "id": "CENTRO_COR_IPHAN",
+      "title": "Patrimônio material de Mato Grosso do Sul",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso-do-sul/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_FESTA": {
+      "id": "CENTRO_COR_FESTA",
+      "title": "Festeiros do Banho de São João",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/festeiros-do-banho-de-sao-joao-recebem-reconhecimento-como-detentores-da-manifestacao",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_FUND": {
+      "id": "CENTRO_COR_FUND",
+      "title": "Corumbá: história e belezas naturais",
+      "publisher": "Fundação de Turismo de Mato Grosso do Sul",
+      "url": "https://www.turismo.ms.gov.br/corumba-contempla-historia-tradicao-e-belezas-naturais/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_MUN": {
+      "id": "CENTRO_CG_MUN",
+      "title": "História da Morada dos Baís",
+      "publisher": "Prefeitura Municipal de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/livro-que-conta-trajetoria-da-morada-dos-bais-sera-lancado-neste-sabado/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_IPHAN": {
+      "id": "CENTRO_CG_IPHAN",
+      "title": "Patrimônio material de Mato Grosso do Sul",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso-do-sul/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_TREM": {
+      "id": "CENTRO_CG_TREM",
+      "title": "Memória ferroviária da capital",
+      "publisher": "Prefeitura Municipal de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/cartilha-resgata-memoria-ferroviaria-de-campo-grande/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_PLANO": {
+      "id": "CENTRO_CG_PLANO",
+      "title": "Plano municipal de cultura: patrimônio ferroviário",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://cdn.campogrande.ms.gov.br/portal/prod/uploads/sites/18/2016/12/Lei-n.5.135.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-corumba-ms",
+      "placeId": "corumba-ms",
+      "title": "Corumbá",
+      "aliases": [],
+      "answerType": "cidade brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cáceres"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Porto Murtinho"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Aquidauana"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bonito"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Poconé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Miranda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ladário"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Barra do Garças"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Aragarças"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Corumbá",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio junto à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Cuiabá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Madeira"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Paraguai",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Manifestação cultural",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Banho de São João"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Círio de Nazaré"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Congada da Lapa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Festa do Divino de Paraty"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Banho de São João",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso do Sul",
+          "sources": [
+            "CENTRO_COR_MUN",
+            "CENTRO_COR_IPHAN",
+            "CENTRO_COR_FESTA",
+            "CENTRO_COR_FUND"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "corumba-ms-viajante-P01",
+              "factKey": "corumba-ms-F01",
+              "text": "Esta cidade brasileira tem um porto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P02",
+              "factKey": "corumba-ms-F02",
+              "text": "Seu porto fica às margens de um grande rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P03",
+              "factKey": "corumba-ms-F03",
+              "text": "Fica no estado de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P04",
+              "factKey": "corumba-ms-F04",
+              "text": "A área urbana relaciona-se à planície do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P05",
+              "factKey": "corumba-ms-F05",
+              "text": "O rio que passa junto à cidade é o Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P06",
+              "factKey": "corumba-ms-F06",
+              "text": "É conhecida como Capital do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P07",
+              "factKey": "corumba-ms-F07",
+              "text": "O município está na fronteira com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P08",
+              "factKey": "corumba-ms-F08",
+              "text": "O porto foi uma porta de entrada de mercadorias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P09",
+              "factKey": "corumba-ms-F09",
+              "text": "Na orla há um conjunto de casarões antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P10",
+              "factKey": "corumba-ms-F10",
+              "text": "O Iphan tombou o conjunto histórico em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P11",
+              "factKey": "corumba-ms-F11",
+              "text": "O casario preserva lembranças do comércio fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P12",
+              "factKey": "corumba-ms-F12",
+              "text": "A cidade manteve intenso comércio com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P13",
+              "factKey": "corumba-ms-F13",
+              "text": "Os rios São Lourenço e Cuiabá integravam as rotas de comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P14",
+              "factKey": "corumba-ms-F14",
+              "text": "O Museu de História do Pantanal fica em um antigo casarão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P15",
+              "factKey": "corumba-ms-F15",
+              "text": "Um mirante junto ao Cristo Rei permite observar a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P16",
+              "factKey": "corumba-ms-F16",
+              "text": "O Cristo Rei fica na parte alta da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P17",
+              "factKey": "corumba-ms-F17",
+              "text": "A Igreja de Nossa Senhora da Candelária é um marco local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P18",
+              "factKey": "corumba-ms-F18",
+              "text": "Essa igreja foi construída no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P19",
+              "factKey": "corumba-ms-F19",
+              "text": "O Forte de Coimbra integra o patrimônio do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P20",
+              "factKey": "corumba-ms-F20",
+              "text": "O forte foi construído junto ao rio Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P21",
+              "factKey": "corumba-ms-F21",
+              "text": "Uma ladeira liga a área urbana ao Porto Geral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P22",
+              "factKey": "corumba-ms-F22",
+              "text": "O Banho de São João é uma manifestação cultural da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P23",
+              "factKey": "corumba-ms-F23",
+              "text": "No Banho de São João, devotos seguem em cortejo até o rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P24",
+              "factKey": "corumba-ms-F24",
+              "text": "A manifestação reúne referências de São João e de Xangô.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-viajante-P25",
+              "factKey": "corumba-ms-F25",
+              "text": "O Festival América do Sul é um dos eventos culturais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "corumba-ms-geografo-P01",
+              "factKey": "corumba-ms-F01",
+              "text": "O destino é uma cidade fluvial dotada de patrimônio portuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P02",
+              "factKey": "corumba-ms-F02",
+              "text": "Seu espaço urbano está associado a uma hidrovia continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P03",
+              "factKey": "corumba-ms-F03",
+              "text": "O município pertence ao Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P04",
+              "factKey": "corumba-ms-F04",
+              "text": "Os ciclos de inundação transformam ao longo do ano a paisagem pantaneira do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P05",
+              "factKey": "corumba-ms-F05",
+              "text": "O núcleo urbano situa-se à margem do Rio Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P06",
+              "factKey": "corumba-ms-F06",
+              "text": "A associação da cidade ao Pantanal é expressa no apelido de Capital do Pantanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P07",
+              "factKey": "corumba-ms-F07",
+              "text": "O território municipal alcança a fronteira brasileira com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P08",
+              "factKey": "corumba-ms-F08",
+              "text": "O Porto Geral ligava a circulação fluvial ao comércio e à organização do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P09",
+              "factKey": "corumba-ms-F09",
+              "text": "A área portuária conserva um conjunto de edificações históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P10",
+              "factKey": "corumba-ms-F10",
+              "text": "O tombamento federal do conjunto histórico ocorreu em 1993.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P11",
+              "factKey": "corumba-ms-F11",
+              "text": "O patrimônio portuário registra a relação histórica entre navegação e comércio regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P12",
+              "factKey": "corumba-ms-F12",
+              "text": "A posição fronteiriça favoreceu relações históricas de comércio com a Bolívia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P13",
+              "factKey": "corumba-ms-F13",
+              "text": "A rede fluvial articulava o Paraguai aos rios São Lourenço e Cuiabá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P14",
+              "factKey": "corumba-ms-F14",
+              "text": "O Museu de História do Pantanal ocupa uma construção histórica portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P15",
+              "factKey": "corumba-ms-F15",
+              "text": "O mirante do Cristo Rei oferece leitura panorâmica da paisagem urbana e pantaneira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P16",
+              "factKey": "corumba-ms-F16",
+              "text": "O monumento Cristo Rei localiza-se na parte alta do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P17",
+              "factKey": "corumba-ms-F17",
+              "text": "A Igreja de Nossa Senhora da Candelária integra o patrimônio arquitetônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P18",
+              "factKey": "corumba-ms-F18",
+              "text": "O templo da Candelária foi construído no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P19",
+              "factKey": "corumba-ms-F19",
+              "text": "O Forte de Coimbra é um bem histórico situado no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P20",
+              "factKey": "corumba-ms-F20",
+              "text": "A fortificação foi implantada na margem do Rio Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P21",
+              "factKey": "corumba-ms-F21",
+              "text": "Ladeiras conectam o porto na parte baixa ao núcleo urbano situado acima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P22",
+              "factKey": "corumba-ms-F22",
+              "text": "O Banho de São João é uma celebração tradicional local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P23",
+              "factKey": "corumba-ms-F23",
+              "text": "O rito inclui cortejo em direção às águas do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P24",
+              "factKey": "corumba-ms-F24",
+              "text": "A celebração reúne elementos de matrizes religiosas diferentes, incluindo São João e Xangô.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "corumba-ms-geografo-P25",
+              "factKey": "corumba-ms-F25",
+              "text": "O Festival América do Sul expressa intercâmbios culturais regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_COR_MUN",
+                "CENTRO_COR_IPHAN",
+                "CENTRO_COR_FESTA",
+                "CENTRO_COR_FUND"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Corumbá é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-campo-grande-ms",
+      "placeId": "campo-grande-ms",
+      "title": "Campo Grande",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Goiânia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Brasília"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Belo Horizonte"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Manaus"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Campo Grande",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estrada de ferro histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Noroeste do Brasil"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Central do Brasil"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Madeira-Mamoré"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Vitória a Minas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Noroeste do Brasil",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Edifício histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Morada dos Baís"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Casa de Cora Coralina"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Casa de Rui Barbosa"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Casa de Jorge Amado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Morada dos Baís",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Tocantins"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso do Sul",
+          "sources": [
+            "CENTRO_CG_MUN",
+            "CENTRO_CG_IPHAN",
+            "CENTRO_CG_TREM"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "campo-grande-ms-viajante-P01",
+              "factKey": "campo-grande-ms-F01",
+              "text": "Este destino é uma capital brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P02",
+              "factKey": "campo-grande-ms-F02",
+              "text": "Fica na região Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P03",
+              "factKey": "campo-grande-ms-F03",
+              "text": "É a capital de Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P04",
+              "factKey": "campo-grande-ms-F04",
+              "text": "Uma antiga ferrovia ajudou a formar sua paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P05",
+              "factKey": "campo-grande-ms-F05",
+              "text": "A ferrovia histórica era chamada Noroeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P06",
+              "factKey": "campo-grande-ms-F06",
+              "text": "A cidade preserva uma antiga estação ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P07",
+              "factKey": "campo-grande-ms-F07",
+              "text": "Um conjunto ferroviário local é tombado pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P08",
+              "factKey": "campo-grande-ms-F08",
+              "text": "O tombamento federal do conjunto ferroviário ocorreu em 2009.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P09",
+              "factKey": "campo-grande-ms-F09",
+              "text": "O conjunto ferroviário reúne edifícios construídos em épocas distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P10",
+              "factKey": "campo-grande-ms-F10",
+              "text": "Há construções antigas de alvenaria na área ferroviária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P11",
+              "factKey": "campo-grande-ms-F11",
+              "text": "A área também contém edifícios antigos de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P12",
+              "factKey": "campo-grande-ms-F12",
+              "text": "Ainda restam trechos de trilhos na área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P13",
+              "factKey": "campo-grande-ms-F13",
+              "text": "O conjunto ferroviário inclui a antiga Casa da Chefia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P14",
+              "factKey": "campo-grande-ms-F14",
+              "text": "Uma caixa de água da ferrovia integra a memória ferroviária local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P15",
+              "factKey": "campo-grande-ms-F15",
+              "text": "Vagões fazem parte da paisagem ligada à antiga ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P16",
+              "factKey": "campo-grande-ms-F16",
+              "text": "A Morada dos Baís é um prédio histórico local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P17",
+              "factKey": "campo-grande-ms-F17",
+              "text": "A família Baís viveu nesse casarão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P18",
+              "factKey": "campo-grande-ms-F18",
+              "text": "O edifício começou a ser construído na década de 1910.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P19",
+              "factKey": "campo-grande-ms-F19",
+              "text": "O casarão já funcionou como pensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P20",
+              "factKey": "campo-grande-ms-F20",
+              "text": "A pensão recebeu o nome de Pensão Pimentel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P21",
+              "factKey": "campo-grande-ms-F21",
+              "text": "O edifício também já funcionou como hotel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P22",
+              "factKey": "campo-grande-ms-F22",
+              "text": "Atualmente o imóvel é usado para atividades culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P23",
+              "factKey": "campo-grande-ms-F23",
+              "text": "A história do casarão inclui obras da artista Lídia Baís.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P24",
+              "factKey": "campo-grande-ms-F24",
+              "text": "A prefeitura mantém um acervo com objetos e pinturas ligados ao imóvel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-viajante-P25",
+              "factKey": "campo-grande-ms-F25",
+              "text": "A antiga ferrovia marcou a história cultural e urbana da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "campo-grande-ms-geografo-P01",
+              "factKey": "campo-grande-ms-F01",
+              "text": "O destino é uma capital estadual situada no interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P02",
+              "factKey": "campo-grande-ms-F02",
+              "text": "Sua posição regional integra o Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P03",
+              "factKey": "campo-grande-ms-F03",
+              "text": "É sede administrativa do Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P04",
+              "factKey": "campo-grande-ms-F04",
+              "text": "Na primeira metade do século XX, a ferrovia apoiou a economia rural e o início da industrialização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P05",
+              "factKey": "campo-grande-ms-F05",
+              "text": "A antiga Estrada de Ferro Noroeste do Brasil atravessou seu espaço urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P06",
+              "factKey": "campo-grande-ms-F06",
+              "text": "A estação histórica compõe a memória do transporte regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P07",
+              "factKey": "campo-grande-ms-F07",
+              "text": "O Iphan protege um conjunto arquitetônico ligado à ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P08",
+              "factKey": "campo-grande-ms-F08",
+              "text": "O tombamento do conjunto ferroviário protege testemunhos da infraestrutura de transporte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P09",
+              "factKey": "campo-grande-ms-F09",
+              "text": "As várias épocas de construção refletem a ampliação das atividades ferroviárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P10",
+              "factKey": "campo-grande-ms-F10",
+              "text": "Suas edificações incluem construções em alvenaria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P11",
+              "factKey": "campo-grande-ms-F11",
+              "text": "A combinação de madeira e alvenaria documenta técnicas construtivas do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P12",
+              "factKey": "campo-grande-ms-F12",
+              "text": "Os trilhos remanescentes permitem reconhecer parte do antigo traçado na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P13",
+              "factKey": "campo-grande-ms-F13",
+              "text": "A Casa da Chefia é um dos espaços ligados à antiga ferrovia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P14",
+              "factKey": "campo-grande-ms-F14",
+              "text": "A caixa de água ferroviária integra a memória material do complexo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P15",
+              "factKey": "campo-grande-ms-F15",
+              "text": "Vagões compõem o patrimônio associado ao transporte ferroviário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P16",
+              "factKey": "campo-grande-ms-F16",
+              "text": "A Morada dos Baís é uma referência do patrimônio urbano local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P17",
+              "factKey": "campo-grande-ms-F17",
+              "text": "O casarão foi originalmente residência da família Baís.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P18",
+              "factKey": "campo-grande-ms-F18",
+              "text": "O casarão da família foi adaptado a usos diversos ao longo de sua trajetória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P19",
+              "factKey": "campo-grande-ms-F19",
+              "text": "O imóvel passou por uso como pensão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P20",
+              "factKey": "campo-grande-ms-F20",
+              "text": "Pensão Pimentel foi um dos nomes associados à ocupação do casarão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P21",
+              "factKey": "campo-grande-ms-F21",
+              "text": "O prédio também teve uso hoteleiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P22",
+              "factKey": "campo-grande-ms-F22",
+              "text": "A recuperação do casarão como espaço cultural conecta memória urbana e novos usos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P23",
+              "factKey": "campo-grande-ms-F23",
+              "text": "Obras e murais de Lídia Baís integram a história do imóvel.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P24",
+              "factKey": "campo-grande-ms-F24",
+              "text": "A prefeitura conserva um acervo associado ao casarão e à família.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campo-grande-ms-geografo-P25",
+              "factKey": "campo-grande-ms-F25",
+              "text": "A ferrovia estruturou fluxos e contribuiu para a formação cultural e urbana da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CG_MUN",
+                "CENTRO_CG_IPHAN",
+                "CENTRO_CG_TREM",
+                "CENTRO_CG_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Campo Grande é uma cidade do Centro-Oeste brasileiro.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

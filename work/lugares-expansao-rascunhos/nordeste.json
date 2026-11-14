@@ -1,0 +1,3123 @@
+{
+  "sources": {
+    "CATIMBAU_ICM": {
+      "id": "CATIMBAU_ICM",
+      "title": "Informações institucionais sobre Parque Nacional do Catimbau",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-do-catimbau/informacoes-sobre-visitacao-2013-parna-do-catimbau",
+      "checkedAt": "2026-11-14"
+    },
+    "UBAJARA_MTur": {
+      "id": "UBAJARA_MTur",
+      "title": "Informações institucionais sobre Parque Nacional de Ubajara",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/noticias/parque-nacional-de-ubajara-santuario-de-grutas-biodiversidade-e-paisagens-deslumbrantes-no-ceara",
+      "checkedAt": "2026-11-14"
+    },
+    "UBAJARA_ICM": {
+      "id": "UBAJARA_ICM",
+      "title": "Informações institucionais sobre Parque Nacional de Ubajara",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/quem-somos",
+      "checkedAt": "2026-11-14"
+    },
+    "UBAJARA_GRUTA": {
+      "id": "UBAJARA_GRUTA",
+      "title": "Informações institucionais sobre Parque Nacional de Ubajara",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/gruta-de-ubajara/gruta-de-ubajara-2013-informacoes-principais",
+      "checkedAt": "2026-11-14"
+    },
+    "APA_DELTA_ICM": {
+      "id": "APA_DELTA_ICM",
+      "title": "Informações institucionais sobre Área de Proteção Ambiental Delta do Parnaíba",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/apa-delta-do-parnaiba/informacoes-sobre-visitacao-apa-delta-do-parnaiba/area-de-protecao-ambiental-delta-do-parnaiba",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-catimbau",
+      "placeId": "parque-catimbau",
+      "title": "Parque Nacional do Catimbau",
+      "aliases": [
+        "Catimbau"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra das Confusões"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Ubajara"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Catimbau",
+          "sources": [
+            "CATIMBAU_ICM"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ambiente",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pampa"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pantanal"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Floresta amazônica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Caatinga",
+          "sources": [
+            "CATIMBAU_ICM"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Patrimônio arqueológico destacado pelo ICMBio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pinturas e inscrições rupestres"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Sambaquis de conchas litorâneos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Geoglifos de terra em floresta úmida"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ruínas de fortificações costeiras"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pinturas e inscrições rupestres",
+          "sources": [
+            "CATIMBAU_ICM"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ceará"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pernambuco",
+          "sources": [
+            "CATIMBAU_ICM"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-catimbau-viajante-P01",
+              "factKey": "parque-catimbau-F01",
+              "text": "É uma área natural protegida do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P02",
+              "factKey": "parque-catimbau-F02",
+              "text": "O destino fica no estado de Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P03",
+              "factKey": "parque-catimbau-F03",
+              "text": "O lugar é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P04",
+              "factKey": "parque-catimbau-F04",
+              "text": "O parque foi criado em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P05",
+              "factKey": "parque-catimbau-F05",
+              "text": "A natureza local inclui vegetação de Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P06",
+              "factKey": "parque-catimbau-F06",
+              "text": "Há plantas que só ocorrem em determinadas regiões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P07",
+              "factKey": "parque-catimbau-F07",
+              "text": "Cactos estão entre as plantas destacadas na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P08",
+              "factKey": "parque-catimbau-F08",
+              "text": "Bromélias também fazem parte da vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P09",
+              "factKey": "parque-catimbau-F09",
+              "text": "A paisagem tem grandes chapadões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P10",
+              "factKey": "parque-catimbau-F10",
+              "text": "Cânions podem ser vistos na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P11",
+              "factKey": "parque-catimbau-F11",
+              "text": "O parque tem pequenas cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P12",
+              "factKey": "parque-catimbau-F12",
+              "text": "A erosão ajudou a esculpir as rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P13",
+              "factKey": "parque-catimbau-F13",
+              "text": "Há sítios arqueológicos na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P14",
+              "factKey": "parque-catimbau-F14",
+              "text": "Algumas rochas guardam pinturas antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P15",
+              "factKey": "parque-catimbau-F15",
+              "text": "Também existem inscrições feitas em rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P16",
+              "factKey": "parque-catimbau-F16",
+              "text": "O ICMBio menciona registros rupestres de até seis mil anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P17",
+              "factKey": "parque-catimbau-F17",
+              "text": "A fauna inclui o tatu-peba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P18",
+              "factKey": "parque-catimbau-F18",
+              "text": "O mocó é um dos animais registrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P19",
+              "factKey": "parque-catimbau-F19",
+              "text": "A seriema está entre as aves mencionadas para o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P20",
+              "factKey": "parque-catimbau-F20",
+              "text": "O galo-de-campina é uma das aves citadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P21",
+              "factKey": "parque-catimbau-F21",
+              "text": "Lagartos podem ser vistos sobre rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P22",
+              "factKey": "parque-catimbau-F22",
+              "text": "A área protegida alcança o município de Buíque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P23",
+              "factKey": "parque-catimbau-F23",
+              "text": "Ibimirim também está entre os municípios abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P24",
+              "factKey": "parque-catimbau-F24",
+              "text": "Tupanatinga é outro município abrangido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-viajante-P25",
+              "factKey": "parque-catimbau-F25",
+              "text": "Os visitantes podem percorrer trilhas para conhecer sítios e formações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-catimbau-geografo-P01",
+              "factKey": "parque-catimbau-F01",
+              "text": "A unidade de conservação está localizada no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P02",
+              "factKey": "parque-catimbau-F02",
+              "text": "A unidade integra o território pernambucano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P03",
+              "factKey": "parque-catimbau-F03",
+              "text": "Sua categoria de proteção é parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P04",
+              "factKey": "parque-catimbau-F04",
+              "text": "O ato de criação da unidade data de 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P05",
+              "factKey": "parque-catimbau-F05",
+              "text": "A proteção da vegetação da Caatinga está associada à conservação de flora adaptada ao semiárido nordestino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P06",
+              "factKey": "parque-catimbau-F06",
+              "text": "A presença de espécies endêmicas dá à conservação local relevância para organismos de distribuição restrita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P07",
+              "factKey": "parque-catimbau-F07",
+              "text": "A flora destacada pelo ICMBio inclui espécies de cactáceas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P08",
+              "factKey": "parque-catimbau-F08",
+              "text": "Cactáceas e bromeliáceas contribuem para a composição da flora da Caatinga preservada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P09",
+              "factKey": "parque-catimbau-F09",
+              "text": "Chapadões e cânions expressam a variedade de feições do relevo local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P10",
+              "factKey": "parque-catimbau-F10",
+              "text": "O relevo apresenta cânions associados à evolução geomorfológica da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P11",
+              "factKey": "parque-catimbau-F11",
+              "text": "Pequenas cavidades integram suas feições geomorfológicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P12",
+              "factKey": "parque-catimbau-F12",
+              "text": "A erosão atua ao longo do tempo no modelado das rochas, contribuindo para as formas observadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P13",
+              "factKey": "parque-catimbau-F13",
+              "text": "Os sítios arqueológicos associam a paisagem atual a registros materiais de ocupações humanas passadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P14",
+              "factKey": "parque-catimbau-F14",
+              "text": "As pinturas rupestres constituem evidências de expressões culturais anteriores à ocupação colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P15",
+              "factKey": "parque-catimbau-F15",
+              "text": "Os sítios incluem inscrições rupestres além das pinturas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P16",
+              "factKey": "parque-catimbau-F16",
+              "text": "As estimativas de idade dos registros rupestres permitem situar parte da história humana regional em escala de milênios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P17",
+              "factKey": "parque-catimbau-F17",
+              "text": "O tatu-peba aparece entre os animais citados para a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P18",
+              "factKey": "parque-catimbau-F18",
+              "text": "A presença do mocó associa a fauna da unidade a ambientes rochosos da Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P19",
+              "factKey": "parque-catimbau-F19",
+              "text": "A avifauna mencionada inclui seriemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P20",
+              "factKey": "parque-catimbau-F20",
+              "text": "Entre as aves observadas e destacadas está o galo-de-campina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P21",
+              "factKey": "parque-catimbau-F21",
+              "text": "O ICMBio relata lagartos em ambientes rochosos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P22",
+              "factKey": "parque-catimbau-F22",
+              "text": "A unidade abrange municípios diferentes, o que exige relacionar conservação e gestão territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P23",
+              "factKey": "parque-catimbau-F23",
+              "text": "A distribuição territorial da unidade inclui parte de Ibimirim.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P24",
+              "factKey": "parque-catimbau-F24",
+              "text": "A área protegida também alcança parte de Tupanatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-catimbau-geografo-P25",
+              "factKey": "parque-catimbau-F25",
+              "text": "Trilhas de acesso aproximam a visitação pública das feições geomorfológicas e dos sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CATIMBAU_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque Nacional do Catimbau é uma unidade federal de conservação no Nordeste brasileiro.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-parque-ubajara",
+      "placeId": "parque-ubajara",
+      "title": "Parque Nacional de Ubajara",
+      "aliases": [
+        "Ubajara"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Ubajara"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra das Confusões"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Cavernas do Peruaçu"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Ubajara",
+          "sources": [
+            "UBAJARA_MTur",
+            "UBAJARA_ICM",
+            "UBAJARA_GRUTA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Patrimônio natural protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cavernas e grutas em rochas calcárias"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cavidades em arenitos e pinturas rupestres"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tubos de lava em ilhas vulcânicas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Grutas marinhas em falésias costeiras"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Cavernas e grutas em rochas calcárias",
+          "sources": [
+            "UBAJARA_MTur",
+            "UBAJARA_ICM",
+            "UBAJARA_GRUTA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Serra onde se situa",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ibiapaba"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mantiqueira"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Espinhaço"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Geral"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ibiapaba",
+          "sources": [
+            "UBAJARA_MTur",
+            "UBAJARA_ICM",
+            "UBAJARA_GRUTA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ceará"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Ceará",
+          "sources": [
+            "UBAJARA_MTur",
+            "UBAJARA_ICM",
+            "UBAJARA_GRUTA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-ubajara-viajante-P01",
+              "factKey": "parque-ubajara-F01",
+              "text": "O destino é um parque nacional brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P02",
+              "factKey": "parque-ubajara-F02",
+              "text": "O parque fica no Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P03",
+              "factKey": "parque-ubajara-F03",
+              "text": "O destino fica no Ceará.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P04",
+              "factKey": "parque-ubajara-F04",
+              "text": "Sua criação aconteceu em 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P05",
+              "factKey": "parque-ubajara-F05",
+              "text": "A região tem grutas e cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P06",
+              "factKey": "parque-ubajara-F06",
+              "text": "Parte das rochas protegidas é calcária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P07",
+              "factKey": "parque-ubajara-F07",
+              "text": "Uma de suas atrações é uma gruta aberta à visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P08",
+              "factKey": "parque-ubajara-F08",
+              "text": "Na visita à gruta há passarelas e iluminação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P09",
+              "factKey": "parque-ubajara-F09",
+              "text": "A visita à caverna envolve um percurso com desnível.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P10",
+              "factKey": "parque-ubajara-F10",
+              "text": "O parque fica na Serra da Ibiapaba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P11",
+              "factKey": "parque-ubajara-F11",
+              "text": "Há paisagens com paredões rochosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P12",
+              "factKey": "parque-ubajara-F12",
+              "text": "Um bondinho permite ver a paisagem de cima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P13",
+              "factKey": "parque-ubajara-F13",
+              "text": "A vegetação da região inclui áreas de Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P14",
+              "factKey": "parque-ubajara-F14",
+              "text": "Há também influência da Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P15",
+              "factKey": "parque-ubajara-F15",
+              "text": "A unidade alcança parte do município de Tianguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P16",
+              "factKey": "parque-ubajara-F16",
+              "text": "Frecheirinha também tem parte de seu território no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P17",
+              "factKey": "parque-ubajara-F17",
+              "text": "O parque tem um circuito de cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P18",
+              "factKey": "parque-ubajara-F18",
+              "text": "Existe uma trilha que destaca as samambaias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P19",
+              "factKey": "parque-ubajara-F19",
+              "text": "Um mirante é conhecido como Mirante do Pendurado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P20",
+              "factKey": "parque-ubajara-F20",
+              "text": "Há um percurso para quem gosta de pedalar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P21",
+              "factKey": "parque-ubajara-F21",
+              "text": "O parque protege animais como a onça-parda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P22",
+              "factKey": "parque-ubajara-F22",
+              "text": "O tamanduá é citado entre os animais protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P23",
+              "factKey": "parque-ubajara-F23",
+              "text": "A área também abriga o pintassilgo-do-Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P24",
+              "factKey": "parque-ubajara-F24",
+              "text": "O ICMBio administra a unidade de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-viajante-P25",
+              "factKey": "parque-ubajara-F25",
+              "text": "Pesquisa e educação ambiental fazem parte dos objetivos do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-ubajara-geografo-P01",
+              "factKey": "parque-ubajara-F01",
+              "text": "O sítio tem a categoria federal de parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P02",
+              "factKey": "parque-ubajara-F02",
+              "text": "A unidade protegida localiza-se no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P03",
+              "factKey": "parque-ubajara-F03",
+              "text": "A unidade situa-se no território cearense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P04",
+              "factKey": "parque-ubajara-F04",
+              "text": "O ato de criação do parque data de 1959.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P05",
+              "factKey": "parque-ubajara-F05",
+              "text": "Cavernas e grutas conferem à unidade relevância para a proteção do patrimônio subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P06",
+              "factKey": "parque-ubajara-F06",
+              "text": "A conservação dos afloramentos calcários protege também ambientes cavernícolas associados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P07",
+              "factKey": "parque-ubajara-F07",
+              "text": "Uma caverna integra o conjunto protegido e permite aproximar visitação e conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P08",
+              "factKey": "parque-ubajara-F08",
+              "text": "Passarelas e guarda-corpos orientam o percurso de visitação no interior de uma cavidade natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P09",
+              "factKey": "parque-ubajara-F09",
+              "text": "O desnível de cerca de 35 metros no percurso evidencia a dimensão vertical do ambiente subterrâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P10",
+              "factKey": "parque-ubajara-F10",
+              "text": "A unidade ocupa a vertente da Serra da Ibiapaba e reúne feições de relevo serrano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P11",
+              "factKey": "parque-ubajara-F11",
+              "text": "Paredões e vales compõem uma paisagem de relevo acentuado observada no percurso do teleférico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P12",
+              "factKey": "parque-ubajara-F12",
+              "text": "O teleférico oferece observação panorâmica dos vales e paredões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P13",
+              "factKey": "parque-ubajara-F13",
+              "text": "A vegetação da unidade inclui elementos da Caatinga, apesar da diversidade de ambientes locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P14",
+              "factKey": "parque-ubajara-F14",
+              "text": "A unidade situa-se em uma zona de contato entre formações de Caatinga e Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P15",
+              "factKey": "parque-ubajara-F15",
+              "text": "A abrangência em municípios distintos faz da gestão territorial um aspecto da conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P16",
+              "factKey": "parque-ubajara-F16",
+              "text": "A distribuição municipal da unidade inclui Frecheirinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P17",
+              "factKey": "parque-ubajara-F17",
+              "text": "O sistema de visitação inclui percursos ligados a cachoeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P18",
+              "factKey": "parque-ubajara-F18",
+              "text": "A rede de visitação inclui a Trilha da Samambaia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P19",
+              "factKey": "parque-ubajara-F19",
+              "text": "Mirantes permitem observar a relação entre paredões rochosos, vales e cobertura vegetal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P20",
+              "factKey": "parque-ubajara-F20",
+              "text": "Um dos percursos previstos na unidade contempla cicloturismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P21",
+              "factKey": "parque-ubajara-F21",
+              "text": "Entre as espécies citadas para proteção está Puma concolor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P22",
+              "factKey": "parque-ubajara-F22",
+              "text": "Tamandua tetradactyla está entre as espécies mencionadas para a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P23",
+              "factKey": "parque-ubajara-F23",
+              "text": "A conservação inclui o pintassilgo-do-Nordeste, Spinus yarrellii.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P24",
+              "factKey": "parque-ubajara-F24",
+              "text": "A gestão da unidade federal cabe ao Instituto Chico Mendes de Conservação da Biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-ubajara-geografo-P25",
+              "factKey": "parque-ubajara-F25",
+              "text": "Pesquisa e educação ambiental complementam a proteção do patrimônio natural da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "UBAJARA_MTur",
+                "UBAJARA_ICM",
+                "UBAJARA_GRUTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque Nacional de Ubajara é uma unidade federal de conservação no Nordeste brasileiro.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-apa-delta-parnaiba",
+      "placeId": "apa-delta-parnaiba",
+      "title": "Área de Proteção Ambiental Delta do Parnaíba",
+      "aliases": [
+        "APA Delta do Parnaíba",
+        "Delta do Parnaíba"
+      ],
+      "answerType": "área de proteção ambiental",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área protegida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Área de Proteção Ambiental Delta do Parnaíba"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Área de Proteção Ambiental Costa dos Corais"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Área de Proteção Ambiental da Barra do Rio Mamanguape"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Área de Proteção Ambiental de Guaraqueçaba"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Área de Proteção Ambiental da Baía de Camamu"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Área de Proteção Ambiental de Cairuçu"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Área de Proteção Ambiental da Baleia Franca"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Área de Proteção Ambiental das Reentrâncias Maranhenses"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Área de Proteção Ambiental da Lagoa de Guaraíras"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Área de Proteção Ambiental do Maracanã"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Área de Proteção Ambiental Costa das Algas"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Área de Proteção Ambiental de Piaçabuçu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Área de Proteção Ambiental Delta do Parnaíba",
+          "sources": [
+            "APA_DELTA_ICM"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Conjunto paisagístico destacado pelo ICMBio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Manguezais, ilhas e dunas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Falésias, restingas e recifes de corais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lagoas de planalto e campos rupestres"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cânions interiores e cavernas calcárias"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Manguezais, ilhas e dunas",
+          "sources": [
+            "APA_DELTA_ICM"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Aves citadas para os manguezais",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Guarás e garças"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Emas e seriemas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Araras e tucanos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pica-paus e beija-flores"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Guarás e garças",
+          "sources": [
+            "APA_DELTA_ICM"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estados abrangidos pela unidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Piauí, Maranhão e Ceará"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Piauí, Maranhão e Bahia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Maranhão, Ceará e Rio Grande do Norte"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Piauí, Pernambuco e Ceará"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Piauí, Maranhão e Ceará",
+          "sources": [
+            "APA_DELTA_ICM"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "apa-delta-parnaiba-viajante-P01",
+              "factKey": "apa-delta-parnaiba-F01",
+              "text": "O destino protege uma extensa área costeira do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P02",
+              "factKey": "apa-delta-parnaiba-F02",
+              "text": "A unidade é uma área de proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P03",
+              "factKey": "apa-delta-parnaiba-F03",
+              "text": "A área foi criada em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P04",
+              "factKey": "apa-delta-parnaiba-F04",
+              "text": "A área abrange partes de três estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P05",
+              "factKey": "apa-delta-parnaiba-F05",
+              "text": "Piauí está entre os estados abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P06",
+              "factKey": "apa-delta-parnaiba-F06",
+              "text": "Maranhão também está entre os estados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P07",
+              "factKey": "apa-delta-parnaiba-F07",
+              "text": "Ceará completa o grupo de estados abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P08",
+              "factKey": "apa-delta-parnaiba-F08",
+              "text": "O destino inclui uma paisagem de rio e mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P09",
+              "factKey": "apa-delta-parnaiba-F09",
+              "text": "O rio principal chega ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P10",
+              "factKey": "apa-delta-parnaiba-F10",
+              "text": "Um dos atrativos são cinco saídas de água para o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P11",
+              "factKey": "apa-delta-parnaiba-F11",
+              "text": "Ilhas fazem parte do cenário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P12",
+              "factKey": "apa-delta-parnaiba-F12",
+              "text": "Manguezais aparecem em diferentes trechos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P13",
+              "factKey": "apa-delta-parnaiba-F13",
+              "text": "Os passeios podem atravessar canais chamados igarapés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P14",
+              "factKey": "apa-delta-parnaiba-F14",
+              "text": "As dunas de areia fazem parte da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P15",
+              "factKey": "apa-delta-parnaiba-F15",
+              "text": "O vento ajuda a dar forma às dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P16",
+              "factKey": "apa-delta-parnaiba-F16",
+              "text": "Há comunidades que vivem da pesca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P17",
+              "factKey": "apa-delta-parnaiba-F17",
+              "text": "A coleta de caranguejos é praticada por moradores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P18",
+              "factKey": "apa-delta-parnaiba-F18",
+              "text": "Alguns moradores coletam ostras e mariscos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P19",
+              "factKey": "apa-delta-parnaiba-F19",
+              "text": "O artesanato de palha de carnaúba aparece em uma das comunidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P20",
+              "factKey": "apa-delta-parnaiba-F20",
+              "text": "Guarás e garças estão entre as aves observadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P21",
+              "factKey": "apa-delta-parnaiba-F21",
+              "text": "Jacarés e capivaras estão entre os animais citados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P22",
+              "factKey": "apa-delta-parnaiba-F22",
+              "text": "O estuário dos rios Timonha e Ubatuba fica na parte leste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P23",
+              "factKey": "apa-delta-parnaiba-F23",
+              "text": "O peixe-boi-marinho encontra um berçário no estuário oriental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P24",
+              "factKey": "apa-delta-parnaiba-F24",
+              "text": "Os passeios pelo delta podem usar embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-viajante-P25",
+              "factKey": "apa-delta-parnaiba-F25",
+              "text": "A área tem municípios como Araioses e Ilha Grande.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "apa-delta-parnaiba-geografo-P01",
+              "factKey": "apa-delta-parnaiba-F01",
+              "text": "A unidade envolve ambientes costeiros e municípios de três estados nordestinos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P02",
+              "factKey": "apa-delta-parnaiba-F02",
+              "text": "Como área de proteção ambiental, a unidade pertence ao grupo de uso sustentável do SNUC.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P03",
+              "factKey": "apa-delta-parnaiba-F03",
+              "text": "O ato de criação da unidade é de agosto de 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P04",
+              "factKey": "apa-delta-parnaiba-F04",
+              "text": "Sua extensão entre três estados exige articulação territorial para conservação e uso sustentável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P05",
+              "factKey": "apa-delta-parnaiba-F05",
+              "text": "O território protegido inclui municípios no litoral piauiense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P06",
+              "factKey": "apa-delta-parnaiba-F06",
+              "text": "Municípios maranhenses integram a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P07",
+              "factKey": "apa-delta-parnaiba-F07",
+              "text": "A porção leste da unidade inclui municípios cearenses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P08",
+              "factKey": "apa-delta-parnaiba-F08",
+              "text": "O encontro de águas fluviais com o Atlântico configura ambientes de transição costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P09",
+              "factKey": "apa-delta-parnaiba-F09",
+              "text": "O curso de água principal do delta deságua no Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P10",
+              "factKey": "apa-delta-parnaiba-F10",
+              "text": "Cinco barras distribuem a saída das águas do rio até o oceano, conforme descrito pelo órgão gestor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P11",
+              "factKey": "apa-delta-parnaiba-F11",
+              "text": "O mosaico costeiro inclui ilhas fluviais e marítimas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P12",
+              "factKey": "apa-delta-parnaiba-F12",
+              "text": "Manguezais integram ambientes costeiros e fornecem abrigo a diferentes organismos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P13",
+              "factKey": "apa-delta-parnaiba-F13",
+              "text": "Igarapés conectam áreas úmidas ao mosaico de manguezais e ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P14",
+              "factKey": "apa-delta-parnaiba-F14",
+              "text": "Dunas compõem uma faixa arenosa costeira em contato com rios e ambientes marinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P15",
+              "factKey": "apa-delta-parnaiba-F15",
+              "text": "A ação dos ventos transporta areia e modifica as formas das dunas ao longo do tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P16",
+              "factKey": "apa-delta-parnaiba-F16",
+              "text": "A pesca integra os meios de vida de comunidades que vivem na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P17",
+              "factKey": "apa-delta-parnaiba-F17",
+              "text": "A coleta de caranguejos relaciona atividades tradicionais e uso dos manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P18",
+              "factKey": "apa-delta-parnaiba-F18",
+              "text": "A coleta de moluscos também compõe meios de vida locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P19",
+              "factKey": "apa-delta-parnaiba-F19",
+              "text": "O artesanato de carnaúba conecta o uso de recursos vegetais aos meios de vida locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P20",
+              "factKey": "apa-delta-parnaiba-F20",
+              "text": "Manguezais e igarapés oferecem locais de abrigo e nidificação para aves como guarás e garças.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P21",
+              "factKey": "apa-delta-parnaiba-F21",
+              "text": "A fauna citada pelo ICMBio inclui jacarés e capivaras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P22",
+              "factKey": "apa-delta-parnaiba-F22",
+              "text": "No extremo oriental, o estuário dos rios Timonha e Ubatuba integra a unidade, além do delta propriamente dito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P23",
+              "factKey": "apa-delta-parnaiba-F23",
+              "text": "O estuário oriental funciona como berçário de peixe-boi-marinho, relacionando proteção de habitat e reprodução.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P24",
+              "factKey": "apa-delta-parnaiba-F24",
+              "text": "Os canais e barras condicionam o acesso por embarcações a comunidades e paisagens do delta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "apa-delta-parnaiba-geografo-P25",
+              "factKey": "apa-delta-parnaiba-F25",
+              "text": "Araioses, no Maranhão, e Ilha Grande, no Piauí, integram a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "APA_DELTA_ICM"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Área de Proteção Ambiental Delta do Parnaíba é uma unidade federal de conservação no Nordeste brasileiro.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3045 @@
+{
+  "sources": {
+    "SULSUPERAGUIICMBIO": {
+      "id": "SULSUPERAGUIICMBIO",
+      "title": "Parque Nacional do Superagui",
+      "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-do-superagui/informacoes-sobre-visitacao-2013-parna-do-superagui",
+      "checkedAt": "2026-11-14"
+    },
+    "SULBLUMENAUPREF": {
+      "id": "SULBLUMENAUPREF",
+      "title": "Blumenau",
+      "publisher": "Prefeitura de Blumenau",
+      "url": "https://admin.blumenau.sc.gov.br/secao/historia",
+      "checkedAt": "2026-11-14"
+    },
+    "SULBLUMENAUFESTA": {
+      "id": "SULBLUMENAUFESTA",
+      "title": "Carros alegóricos da Oktoberfest em exposição",
+      "publisher": "Prefeitura de Blumenau",
+      "url": "https://www.blumenau.sc.gov.br/secao/noticias/43300",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPORTOALEGREG20": {
+      "id": "SULPORTOALEGREG20",
+      "title": "Porto Alegre",
+      "publisher": "Governo Federal, G20 Brasil",
+      "url": "https://www.gov.br/g20/pt-br/sobre-o-g20/cidades-sede/porto-alegre-rs",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPORTOALEGREENCHENTE": {
+      "id": "SULPORTOALEGREENCHENTE",
+      "title": "História da Brigada Militar",
+      "publisher": "Brigada Militar do Rio Grande do Sul",
+      "url": "https://www.bm.rs.gov.br/historia",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSUPERAGUIGEO": {
+      "id": "SULSUPERAGUIGEO",
+      "title": "Contexto geográfico e histórico — Parque Nacional do Superagui",
+      "publisher": "Patrimônio Cultural do Paraná",
+      "url": "https://www.patrimoniocultural.pr.gov.br/Bem-Tombado/Ilha-do-Superagui-Guaraquecaba",
+      "checkedAt": "2026-11-14"
+    },
+    "SULBLUMENAUHIDRO": {
+      "id": "SULBLUMENAUHIDRO",
+      "title": "Contexto geográfico e histórico — Blumenau",
+      "publisher": "Secretaria de Estado do Meio Ambiente e Economia Verde de Santa Catarina",
+      "url": "https://www.aguas.sc.gov.br/a-bacia-rio-itajai/regiao-hidrografica-rio-itajai",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPOAUFRGS": {
+      "id": "SULPOAUFRGS",
+      "title": "Contexto geográfico e histórico — Porto Alegre",
+      "publisher": "Universidade Federal do Rio Grande do Sul",
+      "url": "https://lume.ufrgs.br/bitstream/10183/255835/1/001155529.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "IBGESULBLUMENAU": {
+      "id": "IBGESULBLUMENAU",
+      "title": "Cidades e Estados — população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sc/blumenau.html",
+      "checkedAt": "2026-11-14"
+    },
+    "IBGESULPOA": {
+      "id": "IBGESULPOA",
+      "title": "Cidades e Estados — população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/porto-alegre.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-superagui",
+      "placeId": "superagui",
+      "title": "Parque Nacional do Superagui",
+      "aliases": [
+        "Superagui"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Superagui"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Saint-Hilaire/Lange"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra do Itajaí"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Ilha Grande"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Superagui",
+          "sources": [
+            "SULSUPERAGUIICMBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Primata protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mico-leão-da-cara-preta"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Mico-leão-dourado"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Mico-leão-de-cara-dourada"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mico-leão-preto"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mico-leão-da-cara-preta",
+          "sources": [
+            "SULSUPERAGUIICMBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Conjunto ambiental predominante",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Restingas, manguezais e florestas costeiras"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Campos de altitude e araucárias"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dunas continentais e cerrado"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Savana e florestas inundáveis amazônicas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Restingas, manguezais e florestas costeiras",
+          "sources": [
+            "SULSUPERAGUIICMBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado do parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "São Paulo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Grande do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná",
+          "sources": [
+            "SULSUPERAGUIICMBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "superagui-viajante-P01",
+              "factKey": "superagui-F01",
+              "text": "O destino protege paisagens próximas ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P02",
+              "factKey": "superagui-F02",
+              "text": "Está em um trecho do litoral do Sul do Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P03",
+              "factKey": "superagui-F03",
+              "text": "O parque fica no estado do Paraná.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P04",
+              "factKey": "superagui-F04",
+              "text": "Ilhas costeiras fazem parte da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P05",
+              "factKey": "superagui-F05",
+              "text": "A paisagem inclui extensas praias arenosas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P06",
+              "factKey": "superagui-F06",
+              "text": "Os manguezais são um dos ambientes da região.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P07",
+              "factKey": "superagui-F07",
+              "text": "Na área há restingas com bromélias e orquídeas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P08",
+              "factKey": "superagui-F08",
+              "text": "O parque abriga florestas de Mata Atlântica.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P09",
+              "factKey": "superagui-F09",
+              "text": "As águas próximas incluem canais e ambientes de estuário.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P10",
+              "factKey": "superagui-F10",
+              "text": "Um pequeno primata ameaçado tem o rosto preto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P11",
+              "factKey": "superagui-F11",
+              "text": "O mico-leão-da-cara-preta vive na região protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P12",
+              "factKey": "superagui-F12",
+              "text": "As ilhas do Pinheiro e Pinheirinho são dormitórios de um papagaio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P13",
+              "factKey": "superagui-F13",
+              "text": "O papagaio-da-cara-roxa encontra abrigo em ilhas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P14",
+              "factKey": "superagui-F14",
+              "text": "A fauna local inclui animais como a anta e a onça-parda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P15",
+              "factKey": "superagui-F15",
+              "text": "Na região também podem viver onças-pintadas e bugios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P16",
+              "factKey": "superagui-F16",
+              "text": "Botos podem ser observados nas águas próximas à Ilha das Peças.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P17",
+              "factKey": "superagui-F17",
+              "text": "O parque integra o mosaico de áreas protegidas do Lagamar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P18",
+              "factKey": "superagui-F18",
+              "text": "A criação da unidade ocorreu em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P19",
+              "factKey": "superagui-F19",
+              "text": "Em 1997 a área protegida foi ampliada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P20",
+              "factKey": "superagui-F20",
+              "text": "O setor continental incluído na ampliação fica no vale do Rio dos Patos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P21",
+              "factKey": "superagui-F21",
+              "text": "O Canal do Varadouro foi aberto em 1953.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P22",
+              "factKey": "superagui-F22",
+              "text": "A navegação em barcos é uma forma de chegar às comunidades e ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P23",
+              "factKey": "superagui-F23",
+              "text": "A Praia Deserta é um dos percursos conhecidos para caminhadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P24",
+              "factKey": "superagui-F24",
+              "text": "Comunidades caiçaras mantêm tradições como o fandango.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-viajante-P25",
+              "factKey": "superagui-F25",
+              "text": "Sambaquis registram a antiga presença humana na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "superagui-geografo-P01",
+              "factKey": "superagui-F01",
+              "text": "A paisagem costeira da baía foi modelada por oscilações do nível do mar ao longo do Quaternário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P02",
+              "factKey": "superagui-F02",
+              "text": "Planícies arenosas e depósitos de origem marinha compõem o relevo de uma ilha da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P03",
+              "factKey": "superagui-F03",
+              "text": "A dinâmica costeira envolve processos de deposição de areia e erosão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P04",
+              "factKey": "superagui-F04",
+              "text": "A linha de costa do sistema insular não é estática e pode mudar com a dinâmica marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P05",
+              "factKey": "superagui-F05",
+              "text": "Uma ilha hoje protegida já esteve ligada ao continente como península.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P06",
+              "factKey": "superagui-F06",
+              "text": "Um canal aberto pelo ser humano separou a antiga península do continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P07",
+              "factKey": "superagui-F07",
+              "text": "A ilha é delimitada em parte pela Baía dos Pinheiros e pelo Oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P08",
+              "factKey": "superagui-F08",
+              "text": "A paisagem protegida reúne manguezais, restinga e Floresta Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P09",
+              "factKey": "superagui-F09",
+              "text": "A região pertence ao complexo estuarino de Paranaguá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P10",
+              "factKey": "superagui-F10",
+              "text": "Ilhas do entorno servem como dormitórios de papagaios da fauna regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P11",
+              "factKey": "superagui-F11",
+              "text": "O mico-leão-da-cara-preta é um dos componentes da fauna protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P12",
+              "factKey": "superagui-F12",
+              "text": "Ilhas do Pinheiro e Pinheirinho funcionam como dormitório coletivo para aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P13",
+              "factKey": "superagui-F13",
+              "text": "O papagaio-da-cara-roxa utiliza ilhas do parque como dormitório.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P14",
+              "factKey": "superagui-F14",
+              "text": "A continuidade de áreas naturais oferece habitat para anta e onça-parda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P15",
+              "factKey": "superagui-F15",
+              "text": "A área protegida integra uma paisagem com onças-pintadas e bugios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P16",
+              "factKey": "superagui-F16",
+              "text": "As águas junto à Ilha das Peças são local de observação de botos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P17",
+              "factKey": "superagui-F17",
+              "text": "A unidade integra o Mosaico Lagamar de áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P18",
+              "factKey": "superagui-F18",
+              "text": "A criação federal do parque data de 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P19",
+              "factKey": "superagui-F19",
+              "text": "Uma ampliação legal incorporou novas áreas em 1997.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P20",
+              "factKey": "superagui-F20",
+              "text": "O vale do Rio dos Patos compõe o setor continental acrescentado à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P21",
+              "factKey": "superagui-F21",
+              "text": "A abertura do Canal do Varadouro em 1953 interrompeu uma ligação terrestre regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P22",
+              "factKey": "superagui-F22",
+              "text": "O acesso às áreas insulares é realizado por embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P23",
+              "factKey": "superagui-F23",
+              "text": "Uma longa praia arenosa permite deslocamentos a pé e de bicicleta sob condições adequadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P24",
+              "factKey": "superagui-F24",
+              "text": "O fandango é parte do patrimônio cultural de comunidades caiçaras da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "superagui-geografo-P25",
+              "factKey": "superagui-F25",
+              "text": "Sambaquis são vestígios arqueológicos associados à ocupação antiga do litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSUPERAGUIICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Unidade costeira do Paraná, no Lagamar, com ilhas, restingas, manguezais e fauna ameaçada.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; calibração de pistas em partidas permanece pendente."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-blumenau",
+      "placeId": "blumenau",
+      "title": "Blumenau",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Brusque"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Pomerode"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Jaraguá do Sul"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Itajaí"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Lages"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Chapecó"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Maringá"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Blumenau",
+          "sources": [
+            "SULBLUMENAUPREF"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio ligado à formação da cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Itajaí-Açu"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Itapocu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Tubarão"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Chapecó"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Itajaí-Açu",
+          "sources": [
+            "SULBLUMENAUPREF"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ano da chegada dos primeiros colonos da colônia",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "1850"
+            },
+            {
+              "id": "C3-O2",
+              "text": "1824"
+            },
+            {
+              "id": "C3-O3",
+              "text": "1875"
+            },
+            {
+              "id": "C3-O4",
+              "text": "1891"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "1850",
+          "sources": [
+            "SULBLUMENAUPREF"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "SULBLUMENAUPREF"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "blumenau-viajante-P01",
+              "factKey": "blumenau-F01",
+              "text": "O destino é uma cidade do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P02",
+              "factKey": "blumenau-F02",
+              "text": "A cidade cresceu em um vale atravessado por rios.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P03",
+              "factKey": "blumenau-F03",
+              "text": "O rio Itajaí-Açu está ligado à sua história.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P04",
+              "factKey": "blumenau-F04",
+              "text": "O município fica em Santa Catarina.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P05",
+              "factKey": "blumenau-F05",
+              "text": "Povos indígenas habitavam a região antes da colônia europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P06",
+              "factKey": "blumenau-F06",
+              "text": "Os Kaingang e Xokleng estão entre os povos citados na história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P07",
+              "factKey": "blumenau-F07",
+              "text": "Famílias já viviam na região antes da fundação da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P08",
+              "factKey": "blumenau-F08",
+              "text": "Um ribeirão chamado Garcia aparece na história do povoamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P09",
+              "factKey": "blumenau-F09",
+              "text": "Uma colônia agrícola foi estabelecida no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P10",
+              "factKey": "blumenau-F10",
+              "text": "Os primeiros 17 colonos da colônia chegaram em 1850.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P11",
+              "factKey": "blumenau-F11",
+              "text": "O fundador da colônia era alemão e havia estudado química e farmácia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P12",
+              "factKey": "blumenau-F12",
+              "text": "O empreendimento inicialmente pertencia a seu fundador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P13",
+              "factKey": "blumenau-F13",
+              "text": "O governo imperial assumiu a colônia em 1860.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P14",
+              "factKey": "blumenau-F14",
+              "text": "O fundador permaneceu na direção mesmo após essa mudança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P15",
+              "factKey": "blumenau-F15",
+              "text": "Os lotes agrícolas foram demarcados ao longo de rios e ribeirões.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P16",
+              "factKey": "blumenau-F16",
+              "text": "Além de alemães, a região recebeu imigrantes italianos e poloneses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P17",
+              "factKey": "blumenau-F17",
+              "text": "A localidade tornou-se município por lei em 1880.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P18",
+              "factKey": "blumenau-F18",
+              "text": "Uma grande enchente ocorreu no ano em que foi elevada a município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P19",
+              "factKey": "blumenau-F19",
+              "text": "Essa enchente danificou pontes e estradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P20",
+              "factKey": "blumenau-F20",
+              "text": "A instalação do município ocorreu em 1883.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P21",
+              "factKey": "blumenau-F21",
+              "text": "A localidade recebeu a categoria de cidade em 1928.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P22",
+              "factKey": "blumenau-F22",
+              "text": "Desmembramentos posteriores deram origem a outros municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P23",
+              "factKey": "blumenau-F23",
+              "text": "As tradições da região guardam influências alemãs e italianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P24",
+              "factKey": "blumenau-F24",
+              "text": "Uma festa conhecida como Oktoberfest acontece nesta cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUFESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-viajante-P25",
+              "factKey": "blumenau-F25",
+              "text": "Um antigo vapor transportava pessoas e mercadorias até Itajaí.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUFESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "blumenau-geografo-P01",
+              "factKey": "blumenau-F01",
+              "text": "O principal rio da bacia nasce da confluência do Itajaí do Sul com o Itajaí do Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P02",
+              "factKey": "blumenau-F02",
+              "text": "A confluência dos rios formadores situa-se no município de Rio do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P03",
+              "factKey": "blumenau-F03",
+              "text": "O curso principal da bacia pode ser dividido em trechos alto, médio e baixo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P04",
+              "factKey": "blumenau-F04",
+              "text": "O salto de Weissbach, nas proximidades da cidade, marca a passagem entre trechos médio e baixo do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P05",
+              "factKey": "blumenau-F05",
+              "text": "O curso de água associado à cidade deságua no Oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P06",
+              "factKey": "blumenau-F06",
+              "text": "Enchentes periódicas são um dos problemas registrados no vale fluvial da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P07",
+              "factKey": "blumenau-F07",
+              "text": "A bacia principal pertence à região hidrográfica catarinense identificada como RH 7.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P08",
+              "factKey": "blumenau-F08",
+              "text": "No vale, o desenvolvimento urbano e os efeitos das cheias estão ligados à rede hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUHIDRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P09",
+              "factKey": "blumenau-F09",
+              "text": "O núcleo colonial foi planejado como empreendimento agrícola no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P10",
+              "factKey": "blumenau-F10",
+              "text": "Em 1850 chegou um grupo inicial de 17 colonos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P11",
+              "factKey": "blumenau-F11",
+              "text": "O responsável pelo empreendimento tinha formação em química e farmácia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P12",
+              "factKey": "blumenau-F12",
+              "text": "Inicialmente a colônia foi uma propriedade particular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P13",
+              "factKey": "blumenau-F13",
+              "text": "Em 1860 a administração imperial assumiu o empreendimento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P14",
+              "factKey": "blumenau-F14",
+              "text": "O antigo proprietário continuou a dirigir a colônia após a encampação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P15",
+              "factKey": "blumenau-F15",
+              "text": "A distribuição de lotes acompanhava a rede hidrográfica local.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P16",
+              "factKey": "blumenau-F16",
+              "text": "Imigrantes italianos e poloneses juntaram-se à população de origem alemã.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P17",
+              "factKey": "blumenau-F17",
+              "text": "Uma lei de 1880 elevou a colônia à categoria de município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P18",
+              "factKey": "blumenau-F18",
+              "text": "No mesmo ano uma enchente afetou a população e a administração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P19",
+              "factKey": "blumenau-F19",
+              "text": "A inundação destruiu infraestruturas de transporte, incluindo pontes e estradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P20",
+              "factKey": "blumenau-F20",
+              "text": "A instalação municipal efetiva só ocorreu em 1883.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P21",
+              "factKey": "blumenau-F21",
+              "text": "O Censo 2022 do IBGE registrou aproximadamente 361 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "IBGESULBLUMENAU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P22",
+              "factKey": "blumenau-F22",
+              "text": "O território original foi posteriormente dividido em novos municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P23",
+              "factKey": "blumenau-F23",
+              "text": "A formação cultural regional inclui influências alemãs e italianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P24",
+              "factKey": "blumenau-F24",
+              "text": "A Oktoberfest é uma manifestação festiva associada ao município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULBLUMENAUFESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "blumenau-geografo-P25",
+              "factKey": "blumenau-F25",
+              "text": "Um vapor fluvial ligou a cidade a Itajaí no transporte de cargas e pessoas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULBLUMENAUFESTA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade catarinense do vale do Itajaí-Açu, cuja história reúne presença indígena, imigração e desenvolvimento urbano.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; calibração de pistas em partidas permanece pendente."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-porto-alegre",
+      "placeId": "porto-alegre",
+      "title": "Porto Alegre",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Pelotas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Santa Maria"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Canoas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Passo Fundo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Foz do Iguaçu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Porto Alegre",
+          "sources": [
+            "SULPORTOALEGREG20"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Corpo de água da orla",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Guaíba"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Lago Paranoá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lagoa Rodrigo de Freitas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Lagoa da Pampulha"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Guaíba",
+          "sources": [
+            "SULPORTOALEGREG20"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Parque também chamado Redenção",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Parque Farroupilha"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Parque Barigui"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Parque Ibirapuera"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Parque do Cocó"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Parque Farroupilha",
+          "sources": [
+            "SULPORTOALEGREG20"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mato Grosso do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULPORTOALEGREG20"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "porto-alegre-viajante-P01",
+              "factKey": "porto-alegre-F01",
+              "text": "A cidade fica no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P02",
+              "factKey": "porto-alegre-F02",
+              "text": "É uma capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P03",
+              "factKey": "porto-alegre-F03",
+              "text": "Sua orla acompanha as águas do Guaíba.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P04",
+              "factKey": "porto-alegre-F04",
+              "text": "O município é capital do Rio Grande do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P05",
+              "factKey": "porto-alegre-F05",
+              "text": "O pôr do sol pode ser observado na orla junto ao Gasômetro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P06",
+              "factKey": "porto-alegre-F06",
+              "text": "O Mercado Público está entre os marcos do centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P07",
+              "factKey": "porto-alegre-F07",
+              "text": "O centro histórico reúne construções de épocas diferentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P08",
+              "factKey": "porto-alegre-F08",
+              "text": "O Parque da Redenção também se chama Parque Farroupilha.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P09",
+              "factKey": "porto-alegre-F09",
+              "text": "O parque possui alamedas arborizadas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P10",
+              "factKey": "porto-alegre-F10",
+              "text": "O chimarrão aparece em rodas de conversa nos parques.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P11",
+              "factKey": "porto-alegre-F11",
+              "text": "O sítio do Laçador representa uma tradição regional gaúcha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P12",
+              "factKey": "porto-alegre-F12",
+              "text": "O monumento do Laçador fica diante do aeroporto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P13",
+              "factKey": "porto-alegre-F13",
+              "text": "O bairro Cidade Baixa é conhecido por bares e vida noturna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P14",
+              "factKey": "porto-alegre-F14",
+              "text": "O bairro Bom Fim reúne comércio e opções gastronômicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P15",
+              "factKey": "porto-alegre-F15",
+              "text": "O Museu de Arte do Rio Grande do Sul integra a vida cultural local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P16",
+              "factKey": "porto-alegre-F16",
+              "text": "A Casa de Cultura Mário Quintana é um dos espaços culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P17",
+              "factKey": "porto-alegre-F17",
+              "text": "A Fundação Iberê Camargo também está entre as atrações culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P18",
+              "factKey": "porto-alegre-F18",
+              "text": "O Theatro São Pedro fica próximo à Praça da Matriz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P19",
+              "factKey": "porto-alegre-F19",
+              "text": "A Catedral Metropolitana está na área da Praça da Matriz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P20",
+              "factKey": "porto-alegre-F20",
+              "text": "O Cais do Porto lembra a relação da cidade com a navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P21",
+              "factKey": "porto-alegre-F21",
+              "text": "É possível conhecer a paisagem do município em passeios de barco.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P22",
+              "factKey": "porto-alegre-F22",
+              "text": "O Aeroporto Internacional Salgado Filho atende a capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P23",
+              "factKey": "porto-alegre-F23",
+              "text": "O churrasco e o arroz de carreteiro estão ligados à culinária regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P24",
+              "factKey": "porto-alegre-F24",
+              "text": "O clima é subtropical, com verões quentes e invernos frios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-viajante-P25",
+              "factKey": "porto-alegre-F25",
+              "text": "Uma grande cheia do Guaíba atingiu o centro e bairros em 1941.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULPORTOALEGREENCHENTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "porto-alegre-geografo-P01",
+              "factKey": "porto-alegre-F01",
+              "text": "O principal corpo hídrico de abastecimento da capital também é utilizado para transporte e lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P02",
+              "factKey": "porto-alegre-F02",
+              "text": "Uma porção da rede urbana capta água bruta do rio Jacuí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P03",
+              "factKey": "porto-alegre-F03",
+              "text": "O lago junto à capital recebe água dos rios Jacuí, Sinos, Caí e Gravataí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P04",
+              "factKey": "porto-alegre-F04",
+              "text": "O Jacuí contribui com a maior parcela da vazão de entrada desse lago.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P05",
+              "factKey": "porto-alegre-F05",
+              "text": "O delta regional se forma próximo ao encontro dos rios Jacuí, Caí, Sinos e Gravataí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P06",
+              "factKey": "porto-alegre-F06",
+              "text": "Esse delta possui ilhas, canais, banhados e áreas continentais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P07",
+              "factKey": "porto-alegre-F07",
+              "text": "O Parque Estadual Delta do Jacuí é uma das unidades de conservação da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P08",
+              "factKey": "porto-alegre-F08",
+              "text": "Uma área de proteção ambiental também integra o sistema de proteção do delta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P09",
+              "factKey": "porto-alegre-F09",
+              "text": "O lago e o Jacuí integram a Região Hidrográfica do Guaíba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P10",
+              "factKey": "porto-alegre-F10",
+              "text": "A água captada nas margens é tratada em estações distribuídas pela cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPOAUFRGS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P11",
+              "factKey": "porto-alegre-F11",
+              "text": "O Sítio do Laçador representa uma referência simbólica da tradição gaúcha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P12",
+              "factKey": "porto-alegre-F12",
+              "text": "O monumento regional está instalado em frente ao aeroporto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P13",
+              "factKey": "porto-alegre-F13",
+              "text": "A Cidade Baixa concentra atividades de lazer noturno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P14",
+              "factKey": "porto-alegre-F14",
+              "text": "O Bom Fim é um bairro com atividades comerciais e gastronômicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P15",
+              "factKey": "porto-alegre-F15",
+              "text": "O Museu de Arte do Rio Grande do Sul integra a rede de equipamentos culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P16",
+              "factKey": "porto-alegre-F16",
+              "text": "A Casa de Cultura Mário Quintana é um equipamento cultural da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P17",
+              "factKey": "porto-alegre-F17",
+              "text": "A Fundação Iberê Camargo é outra instituição associada às artes visuais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P18",
+              "factKey": "porto-alegre-F18",
+              "text": "A Praça da Matriz articula espaços urbanos com o Theatro São Pedro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P19",
+              "factKey": "porto-alegre-F19",
+              "text": "A Catedral Metropolitana situa-se no entorno da Praça da Matriz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P20",
+              "factKey": "porto-alegre-F20",
+              "text": "O cais expressa o papel histórico da navegação e da atividade portuária.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P21",
+              "factKey": "porto-alegre-F21",
+              "text": "O Censo 2022 do IBGE registrou aproximadamente 1,33 milhão de habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "IBGESULPOA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P22",
+              "factKey": "porto-alegre-F22",
+              "text": "O Aeroporto Internacional Salgado Filho conecta a capital a outras regiões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P23",
+              "factKey": "porto-alegre-F23",
+              "text": "A alimentação regional inclui pratos como churrasco e arroz de carreteiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P24",
+              "factKey": "porto-alegre-F24",
+              "text": "O clima subtropical apresenta contrastes entre o verão e o inverno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPORTOALEGREG20"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "porto-alegre-geografo-P25",
+              "factKey": "porto-alegre-F25",
+              "text": "A cheia de 1941 ilustra a vulnerabilidade da área urbana à elevação do Guaíba.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SULPORTOALEGREENCHENTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital gaúcha às margens do Guaíba, com centro histórico, parques e equipamentos culturais.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; calibração de pistas em partidas permanece pendente."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1030 @@
+{
+  "sources": {
+    "SULPELOTASIPHAN": {
+      "id": "SULPELOTASIPHAN",
+      "title": "Tradições doceiras da região",
+      "publisher": "Iphan",
+      "url": "https://bcr.iphan.gov.br/bens-culturais/tradicoes-doceiras-na-regiao-de-pelotas-e-antiga-pelotas-morro-redondo-iturucu-capao-do-leao-e-arroio-do-padre/",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPELOTASPREF": {
+      "id": "SULPELOTASPREF",
+      "title": "História e patrimônio da praça central",
+      "publisher": "Prefeitura Municipal de Pelotas",
+      "url": "https://www.pelotas.rs.gov.br/noticia/dez-monumentos-da-praca-contam-a-historia-de-pelotas",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPELOTASIPHANDOC": {
+      "id": "SULPELOTASIPHANDOC",
+      "title": "Dossiê das tradições doceiras",
+      "publisher": "Iphan",
+      "url": "https://portal.iphan.gov.br/uploads/ckfinder/arquivos/Dossie_%20tradicoes_doceiras_de_pelotas_antiga_pelotas.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPELOTASPREF2": {
+      "id": "SULPELOTASPREF2",
+      "title": "Patrimônio Nacional: arquitetura pelotense",
+      "publisher": "Prefeitura Municipal de Pelotas",
+      "url": "https://www.pelotas.rs.gov.br/noticia/patrimonio-nacional-arquitetura-pelotense-e-reconhecida-pelo-iphan",
+      "checkedAt": "2026-11-14"
+    },
+    "SULPELOTASIBGE": {
+      "id": "SULPELOTASIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/pelotas.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-pelotas",
+      "placeId": "pelotas",
+      "title": "Pelotas",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Pelotas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Caxias do Sul"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Santa Maria"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bagé"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Passo Fundo"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Novo Hamburgo"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Canoas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Uruguaiana"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Curitiba"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Pelotas",
+          "sources": [
+            "SULPELOTASIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atividade histórica da economia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Produção de charque"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Extração de látex"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Mineração de diamantes"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Produção de sal marinho"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Produção de charque",
+          "sources": [
+            "SULPELOTASIPHANDOC"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Tradição alimentar reconhecida pelo Iphan",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Doces finos e doces coloniais"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Queijos de leite de búfala"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Farinha de mandioca d’água"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Vinho de uva de altitude"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Doces finos e doces coloniais",
+          "sources": [
+            "SULPELOTASIPHAN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mato Grosso do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULPELOTASIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "pelotas-viajante-P01",
+              "factKey": "pelotas-viajante-F01",
+              "text": "Esta é uma cidade do Sul brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P02",
+              "factKey": "pelotas-viajante-F02",
+              "text": "Fica no estado do Rio Grande do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P03",
+              "factKey": "pelotas-viajante-F03",
+              "text": "A produção de charque marcou a história econômica da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P04",
+              "factKey": "pelotas-viajante-F04",
+              "text": "Casarões antigos fazem parte de sua paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P05",
+              "factKey": "pelotas-viajante-F05",
+              "text": "Uma praça central leva o nome Coronel Pedro Osório.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P06",
+              "factKey": "pelotas-viajante-F06",
+              "text": "Há monumentos históricos nessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P07",
+              "factKey": "pelotas-viajante-F07",
+              "text": "A cidade tem uma reconhecida tradição de doces.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P08",
+              "factKey": "pelotas-viajante-F08",
+              "text": "Os doces finos incluem receitas com ovos e açúcar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P09",
+              "factKey": "pelotas-viajante-F09",
+              "text": "Nozes e amêndoas aparecem em algumas receitas tradicionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P10",
+              "factKey": "pelotas-viajante-F10",
+              "text": "Famílias também produzem doces a partir de frutas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P11",
+              "factKey": "pelotas-viajante-F11",
+              "text": "Compotas e geleias fazem parte dos doces coloniais da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P12",
+              "factKey": "pelotas-viajante-F12",
+              "text": "A tradição doceira está presente na cidade e no meio rural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P13",
+              "factKey": "pelotas-viajante-F13",
+              "text": "Cozinheiras negras e suas descendentes contribuíram para esses saberes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P14",
+              "factKey": "pelotas-viajante-F14",
+              "text": "Parte das receitas é transmitida entre gerações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P15",
+              "factKey": "pelotas-viajante-F15",
+              "text": "O preparo de doces também se tornou fonte de renda para famílias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P16",
+              "factKey": "pelotas-viajante-F16",
+              "text": "O Iphan registrou as tradições doceiras da região em 2018.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P17",
+              "factKey": "pelotas-viajante-F17",
+              "text": "O registro das tradições inclui municípios próximos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P18",
+              "factKey": "pelotas-viajante-F18",
+              "text": "A Charqueada São João integra o patrimônio histórico reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P19",
+              "factKey": "pelotas-viajante-F19",
+              "text": "A Chácara da Baronesa está no conjunto de bens históricos reconhecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P20",
+              "factKey": "pelotas-viajante-F20",
+              "text": "O Canal São Gonçalo participou do transporte do charque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P21",
+              "factKey": "pelotas-viajante-F21",
+              "text": "O porto de Rio Grande recebeu produtos transportados por esse canal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P22",
+              "factKey": "pelotas-viajante-F22",
+              "text": "O charque era levado em pequenas embarcações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P23",
+              "factKey": "pelotas-viajante-F23",
+              "text": "A praça central abriga obras do escultor Antônio Caringi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P24",
+              "factKey": "pelotas-viajante-F24",
+              "text": "Uma feira do livro já ocupou a praça central da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-viajante-P25",
+              "factKey": "pelotas-viajante-F25",
+              "text": "A doçaria também aparece em celebrações religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "pelotas-geografo-P01",
+              "factKey": "pelotas-geografo-F01",
+              "text": "Os saberes doceiros da região combinam práticas urbanas e rurais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P02",
+              "factKey": "pelotas-geografo-F02",
+              "text": "A tradição de doces finos se formou nas casas urbanas de famílias vinculadas ao charque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P03",
+              "factKey": "pelotas-geografo-F03",
+              "text": "A circulação comercial ajudou a transformar uma prática doméstica em atividade econômica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P04",
+              "factKey": "pelotas-geografo-F04",
+              "text": "A produção de charque e couro se articulava ao transporte por canais e portos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P05",
+              "factKey": "pelotas-geografo-F05",
+              "text": "Pequenas embarcações levavam charque pelo Canal São Gonçalo em direção a Rio Grande.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P06",
+              "factKey": "pelotas-geografo-F06",
+              "text": "O beneficiamento da carne salgada esteve associado ao trabalho de pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P07",
+              "factKey": "pelotas-geografo-F07",
+              "text": "A doçaria fina se desenvolveu num contexto histórico de forte desigualdade social.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHANDOC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P08",
+              "factKey": "pelotas-geografo-F08",
+              "text": "O Iphan reconheceu a contribuição de cozinheiras negras e descendentes na manutenção do saber.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P09",
+              "factKey": "pelotas-geografo-F09",
+              "text": "Os doces coloniais estão associados às pequenas propriedades rurais e ao cultivo de frutas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P10",
+              "factKey": "pelotas-geografo-F10",
+              "text": "Pêssego, figo, maçã e uva são frutas mencionadas na tradição rural regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P11",
+              "factKey": "pelotas-geografo-F11",
+              "text": "Transformar frutas em compotas e conservas faz parte de um saber transmitido em família.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P12",
+              "factKey": "pelotas-geografo-F12",
+              "text": "Técnicas artesanais incluem o uso de tachos de cobre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P13",
+              "factKey": "pelotas-geografo-F13",
+              "text": "A secagem ao sol é uma técnica citada na elaboração de produtos da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P14",
+              "factKey": "pelotas-geografo-F14",
+              "text": "Práticas das áreas urbana e rural se influenciam e geram novas formas de produção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P15",
+              "factKey": "pelotas-geografo-F15",
+              "text": "O registro do patrimônio imaterial envolve saberes, práticas e seus detentores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P16",
+              "factKey": "pelotas-geografo-F16",
+              "text": "O Iphan reconheceu as tradições doceiras regionais no Livro dos Saberes em 2018.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P17",
+              "factKey": "pelotas-geografo-F17",
+              "text": "A abrangência do registro inclui Morro Redondo, Turuçu, Capão do Leão e Arroio do Padre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P18",
+              "factKey": "pelotas-geografo-F18",
+              "text": "O patrimônio construído inclui uma antiga charqueada e um conjunto de espaços urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P19",
+              "factKey": "pelotas-geografo-F19",
+              "text": "A Praça Coronel Pedro Osório integra o conjunto histórico reconhecido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P20",
+              "factKey": "pelotas-geografo-F20",
+              "text": "Casas históricas no entorno da praça se relacionam à economia charqueadora.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P21",
+              "factKey": "pelotas-geografo-F21",
+              "text": "Em 2022 o Censo do IBGE registrou aproximadamente 326 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P22",
+              "factKey": "pelotas-geografo-F22",
+              "text": "A praça central reúne obras do escultor Antônio Caringi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P23",
+              "factKey": "pelotas-geografo-F23",
+              "text": "As tradições alimentares aparecem em atividades comerciais e cerimônias religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P24",
+              "factKey": "pelotas-geografo-F24",
+              "text": "O consumo de doces também ocorre em terreiros de religiões de matriz africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASIPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "pelotas-geografo-P25",
+              "factKey": "pelotas-geografo-F25",
+              "text": "Uma feira do livro utiliza a praça central como espaço cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULPELOTASPREF"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade do Rio Grande do Sul ligada à história das charqueadas e às tradições doceiras regionais.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

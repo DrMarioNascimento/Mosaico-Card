@@ -1,0 +1,3061 @@
+{
+  "sources": {
+    "VIRUA_ICMBIO": {
+      "id": "VIRUA_ICMBIO",
+      "title": "Parque Nacional do Viruá — Informações sobre visitação",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/informacoes-sobre-visitacao-2013-parna-do-virua",
+      "checkedAt": "2026-11-14"
+    },
+    "DIVISOR_JBRJ": {
+      "id": "DIVISOR_JBRJ",
+      "title": "Parque Nacional da Serra do Divisor — Catálogo de Plantas das Unidades de Conservação do Brasil",
+      "publisher": "Jardim Botânico do Rio de Janeiro",
+      "url": "https://catalogo-ucs-brasil.jbrj.gov.br/areas/SerradoDivisor",
+      "checkedAt": "2026-11-14"
+    },
+    "DIVISOR_AC": {
+      "id": "DIVISOR_AC",
+      "title": "Serra do Divisor: um santuário no coração da floresta",
+      "publisher": "Secretaria de Estado de Turismo e Empreendedorismo do Acre",
+      "url": "https://sete.ac.gov.br/serra-do-divisor-um-santuario-no-coracao-da-floresta/",
+      "checkedAt": "2026-11-14"
+    },
+    "CABOORANGE_ICMBIO": {
+      "id": "CABOORANGE_ICMBIO",
+      "title": "Aves do Parque Nacional do Cabo Orange: guia de campo",
+      "publisher": "ICMBio/Cemave",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/souzaetal-_2008_avesdoparquenacionaldocaboorangeavesdoparquenacionaldocaboorange.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-virua",
+      "placeId": "norte-virua",
+      "title": "Parque Nacional do Viruá",
+      "aliases": [
+        "Viruá"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Mocidade"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Tumucumaque"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Serra do Pardo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Viruá",
+          "sources": [
+            "VIRUA_ICMBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Paisagem do parque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Campinaranas e florestas alagáveis"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dunas costeiras e restingas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Campos de altitude e araucárias"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Matas de galeria e cerrados"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Campinaranas e florestas alagáveis",
+          "sources": [
+            "VIRUA_ICMBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Roraima"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Amapá"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Roraima",
+          "sources": [
+            "VIRUA_ICMBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio situado no interior do parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Iruá"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Juruá"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Tocantins"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Iruá",
+          "sources": [
+            "VIRUA_ICMBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-virua-viajante-P01",
+              "factKey": "norte-virua-F01",
+              "text": "Esta área protegida conserva paisagens da Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P02",
+              "factKey": "norte-virua-F02",
+              "text": "Há terras que ficam alagadas em parte do ano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P03",
+              "factKey": "norte-virua-F03",
+              "text": "Sua paisagem inclui áreas abertas e florestas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P04",
+              "factKey": "norte-virua-F04",
+              "text": "Parte da vegetação cresce sobre solos de areia branca.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P05",
+              "factKey": "norte-virua-F05",
+              "text": "Algumas florestas crescem em áreas baixas próximas às águas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P06",
+              "factKey": "norte-virua-F06",
+              "text": "Outros trechos são de floresta de terra firme.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P07",
+              "factKey": "norte-virua-F07",
+              "text": "O parque fica no Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P08",
+              "factKey": "norte-virua-F08",
+              "text": "O destino está em um estado que faz fronteira com a Venezuela.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P09",
+              "factKey": "norte-virua-F09",
+              "text": "Seu estado é Roraima.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P10",
+              "factKey": "norte-virua-F10",
+              "text": "O município de Caracaraí abriga a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P11",
+              "factKey": "norte-virua-F11",
+              "text": "A área foi criada como parque nacional em 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P12",
+              "factKey": "norte-virua-F12",
+              "text": "Foi reconhecido como área úmida de importância internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P13",
+              "factKey": "norte-virua-F13",
+              "text": "Esse reconhecimento internacional ocorreu em 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P14",
+              "factKey": "norte-virua-F14",
+              "text": "A paisagem lembra um grande pantanal amazônico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P15",
+              "factKey": "norte-virua-F15",
+              "text": "Pesquisas de longa duração estudam a natureza no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P16",
+              "factKey": "norte-virua-F16",
+              "text": "Uma passarela permite visitar um trecho de floresta alagável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P17",
+              "factKey": "norte-virua-F17",
+              "text": "A passarela recebeu o nome de uma árvore amazônica de grande porte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P18",
+              "factKey": "norte-virua-F18",
+              "text": "O rio principal dentro dos limites do parque tem águas escuras.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P19",
+              "factKey": "norte-virua-F19",
+              "text": "O rio que corre dentro da unidade é o Iruá.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P20",
+              "factKey": "norte-virua-F20",
+              "text": "No mesmo destino existe um lago chamado Baixa Verde.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P21",
+              "factKey": "norte-virua-F21",
+              "text": "As águas desse lago chegam ao rio por um igarapé com muitos buritis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P22",
+              "factKey": "norte-virua-F22",
+              "text": "Uma estrada chamada Perdida dá acesso à sede do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P23",
+              "factKey": "norte-virua-F23",
+              "text": "A observação de aves é uma atividade possível na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P24",
+              "factKey": "norte-virua-F24",
+              "text": "Um sistema de trilhas também apoia levantamentos da biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-viajante-P25",
+              "factKey": "norte-virua-F25",
+              "text": "A chuva e a seca mudam a aparência dos rios e áreas alagáveis.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-virua-geografo-P01",
+              "factKey": "norte-virua-F01",
+              "text": "A unidade protege uma amostra da diversidade ambiental amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P02",
+              "factKey": "norte-virua-F02",
+              "text": "A variação sazonal do nível da água altera a extensão dos ambientes inundados e os percursos possíveis.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P03",
+              "factKey": "norte-virua-F03",
+              "text": "O encontro de áreas abertas e florestais cria um mosaico de habitats para diferentes espécies.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P04",
+              "factKey": "norte-virua-F04",
+              "text": "As campinaranas incluem formações vegetais associadas a solos arenosos brancos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P05",
+              "factKey": "norte-virua-F05",
+              "text": "A presença de florestas aluviais relaciona a vegetação aos terrenos sujeitos à influência dos rios.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P06",
+              "factKey": "norte-virua-F06",
+              "text": "As florestas de terra firme contrastam com trechos que ficam sazonalmente alagados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P07",
+              "factKey": "norte-virua-F07",
+              "text": "A unidade está situada na região Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P08",
+              "factKey": "norte-virua-F08",
+              "text": "A unidade localiza-se em um estado brasileiro fronteiriço com a Venezuela.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P09",
+              "factKey": "norte-virua-F09",
+              "text": "O sítio está no centro-sul de Roraima.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P10",
+              "factKey": "norte-virua-F10",
+              "text": "O município de Caracaraí integra a localização administrativa do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P11",
+              "factKey": "norte-virua-F11",
+              "text": "A unidade de proteção integral foi criada em 29 de abril de 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P12",
+              "factKey": "norte-virua-F12",
+              "text": "Recebeu o reconhecimento de Sítio Ramsar, relativo a áreas úmidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P13",
+              "factKey": "norte-virua-F13",
+              "text": "A designação Ramsar foi concedida em março de 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P14",
+              "factKey": "norte-virua-F14",
+              "text": "O conjunto de áreas inundáveis integra o chamado Pantanal Setentrional, na Amazônia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P15",
+              "factKey": "norte-virua-F15",
+              "text": "A diversidade de ambientes torna a unidade adequada a estudos ecológicos de longa duração.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P16",
+              "factKey": "norte-virua-F16",
+              "text": "Uma passarela acessível facilita a observação de floresta alagável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P17",
+              "factKey": "norte-virua-F17",
+              "text": "Uma passarela acessível permite observar a floresta alagável e árvores como a samaúma.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P18",
+              "factKey": "norte-virua-F18",
+              "text": "O rio de águas pretas conecta trechos abertos e áreas de igapó no interior do parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P19",
+              "factKey": "norte-virua-F19",
+              "text": "O rio Iruá é o principal curso de água situado no interior da unidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P20",
+              "factKey": "norte-virua-F20",
+              "text": "O Lago da Baixa Verde integra uma rede de águas que alimenta o principal rio interno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P21",
+              "factKey": "norte-virua-F21",
+              "text": "Um igarapé atravessa um buritizal e conduz águas do lago ao rio interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P22",
+              "factKey": "norte-virua-F22",
+              "text": "A Estrada Perdida conecta a BR-174 ao setor da sede, articulando acesso regional e local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P23",
+              "factKey": "norte-virua-F23",
+              "text": "A variedade de ambientes da unidade permite observar aves de formações florestais e abertas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P24",
+              "factKey": "norte-virua-F24",
+              "text": "O sistema de trilhas do PPBio permite comparar a biodiversidade de florestas e campinaranas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-virua-geografo-P25",
+              "factKey": "norte-virua-F25",
+              "text": "A alternância entre chuvas e estiagem modifica a navegação, o nível dos rios e as áreas alagadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VIRUA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque amazônico em Caracaraí, Roraima, que protege campinaranas, florestas e áreas úmidas do Pantanal Setentrional.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    },
+    {
+      "id": "lug2-norte-serra-divisor",
+      "placeId": "norte-serra-divisor",
+      "title": "Parque Nacional da Serra do Divisor",
+      "aliases": [
+        "Serra do Divisor"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Mocidade"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Tumucumaque"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Serra do Pardo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Serra do Divisor",
+          "sources": [
+            "DIVISOR_JBRJ",
+            "DIVISOR_AC"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Relação hidrográfica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Divisor entre bacias do Juruá e do Ucayali"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Encontro dos rios Negro e Solimões"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Delta do rio Parnaíba"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Nascentes do rio São Francisco"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Divisor entre bacias do Juruá e do Ucayali",
+          "sources": [
+            "DIVISOR_JBRJ",
+            "DIVISOR_AC"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rondônia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Roraima"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pará"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Acre",
+          "sources": [
+            "DIVISOR_JBRJ",
+            "DIVISOR_AC"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País vizinho à área protegida",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Peru"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Venezuela"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Suriname"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Uruguai"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Peru",
+          "sources": [
+            "DIVISOR_JBRJ",
+            "DIVISOR_AC"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-serra-divisor-viajante-P01",
+              "factKey": "norte-serra-divisor-F01",
+              "text": "Este lugar protege paisagens de floresta na Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P02",
+              "factKey": "norte-serra-divisor-F02",
+              "text": "A área fica no oeste da região Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P03",
+              "factKey": "norte-serra-divisor-F03",
+              "text": "O parque fica junto à fronteira com outro país.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P04",
+              "factKey": "norte-serra-divisor-F04",
+              "text": "Do outro lado da fronteira fica o Peru.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P05",
+              "factKey": "norte-serra-divisor-F05",
+              "text": "O estado brasileiro em que fica o parque é o Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P06",
+              "factKey": "norte-serra-divisor-F06",
+              "text": "Seu nome está ligado ao caminho que as águas seguem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P07",
+              "factKey": "norte-serra-divisor-F07",
+              "text": "Há uma separação entre águas que seguem para bacias diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P08",
+              "factKey": "norte-serra-divisor-F08",
+              "text": "Uma dessas bacias leva água para o rio Juruá.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P09",
+              "factKey": "norte-serra-divisor-F09",
+              "text": "A outra está ligada ao rio Ucayali, no Peru.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P10",
+              "factKey": "norte-serra-divisor-F10",
+              "text": "O parque nacional foi criado em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P11",
+              "factKey": "norte-serra-divisor-F11",
+              "text": "Parte da área está no município de Mâncio Lima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P12",
+              "factKey": "norte-serra-divisor-F12",
+              "text": "Cruzeiro do Sul é outro município com parte da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P13",
+              "factKey": "norte-serra-divisor-F13",
+              "text": "A região também abrange parte de Marechal Thaumaturgo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P14",
+              "factKey": "norte-serra-divisor-F14",
+              "text": "Rodrigues Alves é outro município relacionado ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P15",
+              "factKey": "norte-serra-divisor-F15",
+              "text": "Parte do parque fica no município de Porto Walter.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P16",
+              "factKey": "norte-serra-divisor-F16",
+              "text": "Há áreas de floresta aberta na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P17",
+              "factKey": "norte-serra-divisor-F17",
+              "text": "Também existem florestas próximas a cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P18",
+              "factKey": "norte-serra-divisor-F18",
+              "text": "Uma floresta densa em áreas de relevo mais elevado também aparece.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P19",
+              "factKey": "norte-serra-divisor-F19",
+              "text": "Pesquisadores coletam plantas na região há mais de um século.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P20",
+              "factKey": "norte-serra-divisor-F20",
+              "text": "O naturalista Ernest Ule esteve entre os primeiros a estudar plantas da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P21",
+              "factKey": "norte-serra-divisor-F21",
+              "text": "Algumas plantas do parque têm relações com a região dos Andes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P22",
+              "factKey": "norte-serra-divisor-F22",
+              "text": "O local tem grande variedade de plantas já registradas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P23",
+              "factKey": "norte-serra-divisor-F23",
+              "text": "Cachoeiras estão entre os atrativos da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P24",
+              "factKey": "norte-serra-divisor-F24",
+              "text": "Uma das quedas visitadas é chamada Cachoeira do Amor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-viajante-P25",
+              "factKey": "norte-serra-divisor-F25",
+              "text": "Moradores participam de atividades de turismo na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-serra-divisor-geografo-P01",
+              "factKey": "norte-serra-divisor-F01",
+              "text": "A unidade de conservação está inserida no bioma Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P02",
+              "factKey": "norte-serra-divisor-F02",
+              "text": "A posição no extremo oeste brasileiro aproxima o parque da região andina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P03",
+              "factKey": "norte-serra-divisor-F03",
+              "text": "O limite internacional junto ao parque conecta a discussão ambiental às relações Brasil–Peru.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P04",
+              "factKey": "norte-serra-divisor-F04",
+              "text": "O limite internacional próximo separa Brasil e Peru.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P05",
+              "factKey": "norte-serra-divisor-F05",
+              "text": "A unidade está localizada no extremo oeste do Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P06",
+              "factKey": "norte-serra-divisor-F06",
+              "text": "O nome da área protegida remete a uma feição que separa redes de drenagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P07",
+              "factKey": "norte-serra-divisor-F07",
+              "text": "O divisor de águas organiza o escoamento em direção a bacias diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P08",
+              "factKey": "norte-serra-divisor-F08",
+              "text": "A drenagem de uma vertente está associada ao Alto Vale do rio Juruá, no Brasil.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P09",
+              "factKey": "norte-serra-divisor-F09",
+              "text": "A drenagem da outra vertente está associada ao Médio Vale do Ucayali, no Peru.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P10",
+              "factKey": "norte-serra-divisor-F10",
+              "text": "Sua criação ocorreu pelo decreto federal 97.839, em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P11",
+              "factKey": "norte-serra-divisor-F11",
+              "text": "A área protegida abrange parte de Mâncio Lima, articulando conservação e território municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P12",
+              "factKey": "norte-serra-divisor-F12",
+              "text": "A área protegida inclui terras do município de Cruzeiro do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P13",
+              "factKey": "norte-serra-divisor-F13",
+              "text": "O município de Marechal Thaumaturgo participa da abrangência territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P14",
+              "factKey": "norte-serra-divisor-F14",
+              "text": "A unidade também se estende por parte de Rodrigues Alves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P15",
+              "factKey": "norte-serra-divisor-F15",
+              "text": "O território protegido alcança parte de Porto Walter.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P16",
+              "factKey": "norte-serra-divisor-F16",
+              "text": "A Floresta Ombrófila Aberta é uma das formações que compõem o mosaico do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P17",
+              "factKey": "norte-serra-divisor-F17",
+              "text": "Florestas aluviais integram o mosaico vegetal associado a terrenos influenciados por cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P18",
+              "factKey": "norte-serra-divisor-F18",
+              "text": "Áreas submontanas abrigam Floresta Ombrófila Densa, uma das formações da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P19",
+              "factKey": "norte-serra-divisor-F19",
+              "text": "As primeiras coletas botânicas citadas para a região ocorreram em 1901.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P20",
+              "factKey": "norte-serra-divisor-F20",
+              "text": "As coletas pioneiras de Ernest H. G. Ule contribuíram para o conhecimento botânico do Acre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P21",
+              "factKey": "norte-serra-divisor-F21",
+              "text": "A flora apresenta relações com o baixo piemonte andino, coerentes com a posição ocidental da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P22",
+              "factKey": "norte-serra-divisor-F22",
+              "text": "A riqueza de plantas vasculares documentada reforça a importância da proteção de diferentes formações florestais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P23",
+              "factKey": "norte-serra-divisor-F23",
+              "text": "Cachoeiras revelam a interação entre relevo e cursos de água na paisagem da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P24",
+              "factKey": "norte-serra-divisor-F24",
+              "text": "A Cachoeira do Amor é um dos atrativos citados pelo governo estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-serra-divisor-geografo-P25",
+              "factKey": "norte-serra-divisor-F25",
+              "text": "O turismo comunitário combina visitação, trabalho local e transmissão de conhecimentos sobre a floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DIVISOR_JBRJ",
+                "DIVISOR_AC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque amazônico no extremo oeste do Acre, junto à fronteira peruana, em região de divisão entre bacias dos rios Juruá e Ucayali.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    },
+    {
+      "id": "lug2-norte-cabo-orange",
+      "placeId": "norte-cabo-orange",
+      "title": "Parque Nacional do Cabo Orange",
+      "aliases": [
+        "Cabo Orange"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Mocidade"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Cabo Orange",
+          "sources": [
+            "CABOORANGE_ICMBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ambiente costeiro",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Manguezais e campos alagáveis"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Falésias de arenito e dunas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Costões de gelo e fiordes"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Campos de altitude e cânions"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Manguezais e campos alagáveis",
+          "sources": [
+            "CABOORANGE_ICMBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Maranhão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Acre"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Amapá",
+          "sources": [
+            "CABOORANGE_ICMBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Tipo de área protegida",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Continental e marinha"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Apenas cavernas subterrâneas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Exclusivamente de altitude"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Apenas margem de lago artificial"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Continental e marinha",
+          "sources": [
+            "CABOORANGE_ICMBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-cabo-orange-viajante-P01",
+              "factKey": "norte-cabo-orange-F01",
+              "text": "Este destino conserva paisagens no Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P02",
+              "factKey": "norte-cabo-orange-F02",
+              "text": "O lugar protege ambientes de terra e de mar.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P03",
+              "factKey": "norte-cabo-orange-F03",
+              "text": "Parte do parque encontra o oceano Atlântico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P04",
+              "factKey": "norte-cabo-orange-F04",
+              "text": "Manguezais são uma parte importante da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P05",
+              "factKey": "norte-cabo-orange-F05",
+              "text": "A área também possui campos que podem ficar alagados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P06",
+              "factKey": "norte-cabo-orange-F06",
+              "text": "Há locais em que águas dos rios encontram o mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P07",
+              "factKey": "norte-cabo-orange-F07",
+              "text": "Restingas aparecem entre os ambientes protegidos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P08",
+              "factKey": "norte-cabo-orange-F08",
+              "text": "Florestas alagáveis também fazem parte do lugar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P09",
+              "factKey": "norte-cabo-orange-F09",
+              "text": "Outros trechos apresentam florestas de terra firme.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P10",
+              "factKey": "norte-cabo-orange-F10",
+              "text": "Há manchas de savana amazônica na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P11",
+              "factKey": "norte-cabo-orange-F11",
+              "text": "O destino fica no estado do Amapá.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P12",
+              "factKey": "norte-cabo-orange-F12",
+              "text": "O parque foi criado em 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P13",
+              "factKey": "norte-cabo-orange-F13",
+              "text": "As aves são uma das grandes riquezas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P14",
+              "factKey": "norte-cabo-orange-F14",
+              "text": "Algumas aves usam a região para descansar durante viagens longas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P15",
+              "factKey": "norte-cabo-orange-F15",
+              "text": "Parte das aves migratórias vem do Hemisfério Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P16",
+              "factKey": "norte-cabo-orange-F16",
+              "text": "Maçaricos estão entre as aves observadas na costa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P17",
+              "factKey": "norte-cabo-orange-F17",
+              "text": "Batuíras também usam praias e áreas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P18",
+              "factKey": "norte-cabo-orange-F18",
+              "text": "Garças utilizam áreas de manguezal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P19",
+              "factKey": "norte-cabo-orange-F19",
+              "text": "Guarás são aves associadas a trechos de mangue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P20",
+              "factKey": "norte-cabo-orange-F20",
+              "text": "Colhereiros também podem ser encontrados nos manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P21",
+              "factKey": "norte-cabo-orange-F21",
+              "text": "A região oferece locais de alimentação para flamingos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P22",
+              "factKey": "norte-cabo-orange-F22",
+              "text": "A diversidade do parque inclui água doce e água salgada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P23",
+              "factKey": "norte-cabo-orange-F23",
+              "text": "Um guia de campo oficial foi produzido para ajudar a reconhecer aves do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P24",
+              "factKey": "norte-cabo-orange-F24",
+              "text": "O parque está inserido em uma região de fauna compartilhada com as Guianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-viajante-P25",
+              "factKey": "norte-cabo-orange-F25",
+              "text": "A área guarda também vestígios da presença de diferentes povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-cabo-orange-geografo-P01",
+              "factKey": "norte-cabo-orange-F01",
+              "text": "A unidade de conservação situa-se no norte do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P02",
+              "factKey": "norte-cabo-orange-F02",
+              "text": "A unidade articula a conservação terrestre com a proteção de uma faixa marítima costeira.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P03",
+              "factKey": "norte-cabo-orange-F03",
+              "text": "O contato com o Atlântico integra a dinâmica marinha ao mosaico protegido.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P04",
+              "factKey": "norte-cabo-orange-F04",
+              "text": "Os manguezais são formações sujeitas à influência combinada de águas fluviais e marinhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P05",
+              "factKey": "norte-cabo-orange-F05",
+              "text": "Campos inundáveis e manguezais criam ambientes distintos para a fauna aquática.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P06",
+              "factKey": "norte-cabo-orange-F06",
+              "text": "Nos estuários, a interação entre águas dos rios e do mar produz ambientes de transição.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P07",
+              "factKey": "norte-cabo-orange-F07",
+              "text": "Formações de restinga integram a diversidade ambiental da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P08",
+              "factKey": "norte-cabo-orange-F08",
+              "text": "A área protegida inclui florestas inundáveis, além dos manguezais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P09",
+              "factKey": "norte-cabo-orange-F09",
+              "text": "As florestas de terra firme contrastam com os terrenos costeiros periodicamente inundáveis.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P10",
+              "factKey": "norte-cabo-orange-F10",
+              "text": "Manchas de savana amazônica ampliam a variedade de formações vegetais protegidas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P11",
+              "factKey": "norte-cabo-orange-F11",
+              "text": "A unidade está localizada na costa norte do estado do Amapá.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P12",
+              "factKey": "norte-cabo-orange-F12",
+              "text": "A criação da unidade ocorreu por decreto federal em 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P13",
+              "factKey": "norte-cabo-orange-F13",
+              "text": "A riqueza de aves relaciona-se à diversidade de ambientes costeiros, florestais e aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P14",
+              "factKey": "norte-cabo-orange-F14",
+              "text": "A costa funciona como área de alimentação e descanso em rotas de aves migratórias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P15",
+              "factKey": "norte-cabo-orange-F15",
+              "text": "A presença de migrantes do Hemisfério Norte conecta esta área a rotas internacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P16",
+              "factKey": "norte-cabo-orange-F16",
+              "text": "Maçaricos usam as áreas costeiras para alimentação durante os deslocamentos migratórios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P17",
+              "factKey": "norte-cabo-orange-F17",
+              "text": "Batuíras figuram entre as aves associadas aos ambientes litorâneos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P18",
+              "factKey": "norte-cabo-orange-F18",
+              "text": "Os manguezais oferecem áreas de dormitório a aves como garças.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P19",
+              "factKey": "norte-cabo-orange-F19",
+              "text": "Guarás usam os manguezais do parque como áreas de dormitório.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P20",
+              "factKey": "norte-cabo-orange-F20",
+              "text": "Dormitórios de colhereiros ocorrem em setores de manguezal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P21",
+              "factKey": "norte-cabo-orange-F21",
+              "text": "Trechos da costa constituem áreas de alimentação para flamingos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P22",
+              "factKey": "norte-cabo-orange-F22",
+              "text": "Águas doces, salgadas e salobras formam uma diversidade de habitats para a avifauna.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P23",
+              "factKey": "norte-cabo-orange-F23",
+              "text": "ICMBio e Cemave publicaram um guia de campo dedicado às aves da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P24",
+              "factKey": "norte-cabo-orange-F24",
+              "text": "Sua posição no Escudo das Guianas ajuda a explicar espécies de aves compartilhadas com a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-cabo-orange-geografo-P25",
+              "factKey": "norte-cabo-orange-F25",
+              "text": "Registros materiais e culturais atestam ocupações passadas por diferentes populações indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CABOORANGE_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque no litoral do Amapá, que reúne faixa marítima, manguezais, florestas e campos alagáveis.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

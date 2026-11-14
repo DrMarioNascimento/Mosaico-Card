@@ -1,0 +1,1073 @@
+{
+  "sources": {
+    "CENTRO_CAC_IPHAN": {
+      "id": "CENTRO_CAC_IPHAN",
+      "title": "Conjunto arquitetônico e paisagístico da cidade",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/centrais-de-conteudo/legislacao/atos-normativos/2022/portaria-iphan-no-6-de-20-de-janeiro-de-2022",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAC_SUDECO": {
+      "id": "CENTRO_CAC_SUDECO",
+      "title": "História, economia e turismo de Cáceres",
+      "publisher": "Sudeco",
+      "url": "https://www.gov.br/sudeco/pt-br/municipios/mato-grosso/outubro/caceres-mt",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAC_IBGE": {
+      "id": "CENTRO_CAC_IBGE",
+      "title": "Cáceres: população no censo",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/mt/caceres.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-caceres-mt",
+      "placeId": "caceres-mt",
+      "title": "Cáceres",
+      "aliases": [],
+      "answerType": "cidade histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cáceres"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Porto Murtinho"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Aquidauana"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Bonito"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Poconé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Miranda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ladário"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Barra do Garças"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Aragarças"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cáceres",
+          "sources": [
+            "CENTRO_CAC_IPHAN",
+            "CENTRO_CAC_SUDECO",
+            "CENTRO_CAC_IBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio que estrutura a paisagem urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Madeira"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Tocantins"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Paraguai",
+          "sources": [
+            "CENTRO_CAC_IPHAN",
+            "CENTRO_CAC_SUDECO",
+            "CENTRO_CAC_IBGE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Monumento histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Marco do Jauru"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Marco Zero do Equador"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Marco das Três Fronteiras"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Marco da Independência"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Marco do Jauru",
+          "sources": [
+            "CENTRO_CAC_IPHAN",
+            "CENTRO_CAC_SUDECO",
+            "CENTRO_CAC_IBGE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso",
+          "sources": [
+            "CENTRO_CAC_IPHAN",
+            "CENTRO_CAC_SUDECO",
+            "CENTRO_CAC_IBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "caceres-mt-viajante-P01",
+              "factKey": "caceres-mt-F01",
+              "text": "Esta cidade histórica fica na região Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P02",
+              "factKey": "caceres-mt-F02",
+              "text": "Fica no sudoeste de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P03",
+              "factKey": "caceres-mt-F03",
+              "text": "Sua origem está ligada a uma vila fundada em 1778.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P04",
+              "factKey": "caceres-mt-F04",
+              "text": "O núcleo antigo teve o nome de Vila Maria do Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P05",
+              "factKey": "caceres-mt-F05",
+              "text": "A cidade se desenvolveu às margens de um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P06",
+              "factKey": "caceres-mt-F06",
+              "text": "O rio que marca a paisagem é o Paraguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P07",
+              "factKey": "caceres-mt-F07",
+              "text": "Sua implantação se relaciona à definição de fronteiras coloniais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P08",
+              "factKey": "caceres-mt-F08",
+              "text": "O Tratado de Madri é parte desse contexto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P09",
+              "factKey": "caceres-mt-F09",
+              "text": "O núcleo urbano tinha ruas organizadas em traçado regular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P10",
+              "factKey": "caceres-mt-F10",
+              "text": "A Praça Barão do Rio Branco fica junto ao rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P11",
+              "factKey": "caceres-mt-F11",
+              "text": "Um marco histórico está nessa praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P12",
+              "factKey": "caceres-mt-F12",
+              "text": "O monumento foi chamado Marco do Jauru.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P13",
+              "factKey": "caceres-mt-F13",
+              "text": "O Marco do Jauru foi transferido para a praça no século XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P14",
+              "factKey": "caceres-mt-F14",
+              "text": "A Catedral de São Luís fica próxima da praça histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P15",
+              "factKey": "caceres-mt-F15",
+              "text": "A cidade tem um antigo mercado público.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P16",
+              "factKey": "caceres-mt-F16",
+              "text": "O antigo mercado fica na Praça Major João Carlos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P17",
+              "factKey": "caceres-mt-F17",
+              "text": "Um antigo grupo escolar integra o patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P18",
+              "factKey": "caceres-mt-F18",
+              "text": "O prédio da antiga prefeitura também integra o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P19",
+              "factKey": "caceres-mt-F19",
+              "text": "Há edifícios históricos de diferentes estilos arquitetônicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P20",
+              "factKey": "caceres-mt-F20",
+              "text": "Algumas construções apresentam estilo art déco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P21",
+              "factKey": "caceres-mt-F21",
+              "text": "O conjunto urbano foi tombado pelo Iphan em 2013.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P22",
+              "factKey": "caceres-mt-F22",
+              "text": "A pesca esportiva atrai visitantes para o município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P23",
+              "factKey": "caceres-mt-F23",
+              "text": "O município é associado a um festival de pesca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P24",
+              "factKey": "caceres-mt-F24",
+              "text": "A ponte Marechal Rondon atravessa o rio da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-viajante-P25",
+              "factKey": "caceres-mt-F25",
+              "text": "A atividade agrícola e a pecuária participam da economia municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "caceres-mt-geografo-P01",
+              "factKey": "caceres-mt-F01",
+              "text": "O destino é um núcleo histórico do Centro-Oeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P02",
+              "factKey": "caceres-mt-F02",
+              "text": "O município situa-se no sudoeste do estado de Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P03",
+              "factKey": "caceres-mt-F03",
+              "text": "Sua origem remonta à implantação de uma vila em 1778.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P04",
+              "factKey": "caceres-mt-F04",
+              "text": "Vila Maria do Paraguai foi uma designação do núcleo pioneiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P05",
+              "factKey": "caceres-mt-F05",
+              "text": "A posição ribeirinha condicionou a implantação do tecido urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P06",
+              "factKey": "caceres-mt-F06",
+              "text": "O rio Paraguai estruturou a paisagem e a comunicação fluvial regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P07",
+              "factKey": "caceres-mt-F07",
+              "text": "A criação da vila integrou a estratégia portuguesa de ocupação da fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P08",
+              "factKey": "caceres-mt-F08",
+              "text": "O Tratado de Madri de 1750 estabeleceu o contexto diplomático dessa ocupação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P09",
+              "factKey": "caceres-mt-F09",
+              "text": "O núcleo pioneiro foi organizado segundo um traçado regular.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P10",
+              "factKey": "caceres-mt-F10",
+              "text": "A Praça Barão do Rio Branco marca o núcleo junto à margem esquerda do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P11",
+              "factKey": "caceres-mt-F11",
+              "text": "A praça concentra um marco relacionado à delimitação de fronteiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P12",
+              "factKey": "caceres-mt-F12",
+              "text": "O Marco do Jauru registra antigas negociações territoriais entre Portugal e Espanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P13",
+              "factKey": "caceres-mt-F13",
+              "text": "O monumento foi transferido para a praça urbana em 1883.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P14",
+              "factKey": "caceres-mt-F14",
+              "text": "A catedral configura uma referência arquitetônica ao redor da praça principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P15",
+              "factKey": "caceres-mt-F15",
+              "text": "O antigo mercado público documenta a função comercial do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P16",
+              "factKey": "caceres-mt-F16",
+              "text": "A Praça Major João Carlos abriga o antigo mercado municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P17",
+              "factKey": "caceres-mt-F17",
+              "text": "O grupo escolar Espiridião Marques representa a função educacional do núcleo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P18",
+              "factKey": "caceres-mt-F18",
+              "text": "A antiga prefeitura é um dos edifícios institucionais protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P19",
+              "factKey": "caceres-mt-F19",
+              "text": "O patrimônio reúne expressões coloniais, ecléticas e neoclássicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P20",
+              "factKey": "caceres-mt-F20",
+              "text": "A arquitetura art déco integra a diversidade de estilos presentes no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P21",
+              "factKey": "caceres-mt-F21",
+              "text": "A proteção federal reconheceu o conjunto urbano em 2013.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P22",
+              "factKey": "caceres-mt-F22",
+              "text": "A pesca esportiva participa dos fluxos turísticos do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P23",
+              "factKey": "caceres-mt-F23",
+              "text": "O festival de pesca articula o rio a práticas de turismo e lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P24",
+              "factKey": "caceres-mt-F24",
+              "text": "A ponte Marechal Rondon contribuiu para a circulação em direção ao noroeste estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IPHAN",
+                "CENTRO_CAC_SUDECO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "caceres-mt-geografo-P25",
+              "factKey": "caceres-mt-F25",
+              "text": "Segundo o IBGE, o município tinha 89.681 habitantes no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAC_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cáceres é uma cidade de Mato Grosso junto ao Rio Paraguai, com patrimônio urbano ligado à formação da fronteira.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

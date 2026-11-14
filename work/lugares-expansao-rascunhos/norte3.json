@@ -1,0 +1,2071 @@
+{
+  "sources": {
+    "MACAPA_AP": {
+      "id": "MACAPA_AP",
+      "title": "Municípios: Macapá",
+      "publisher": "Secretaria do Desenvolvimento das Cidades do Amapá",
+      "url": "https://cidades.portal.ap.gov.br/conteudo/municipios/macapa",
+      "checkedAt": "2026-11-14"
+    },
+    "RIOBRANCO_PREF": {
+      "id": "RIOBRANCO_PREF",
+      "title": "Nossa Rio Branco",
+      "publisher": "Prefeitura de Rio Branco",
+      "url": "https://www.riobranco.ac.gov.br/nossa-rio-branco/",
+      "checkedAt": "2026-11-14"
+    },
+    "RIOBRANCO_MTUR": {
+      "id": "RIOBRANCO_MTUR",
+      "title": "Rio Branco: de seringal à capital do Acre",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/rio-branco-de-seringal-a-capital-do-acre",
+      "checkedAt": "2026-11-14"
+    },
+    "MACAPA_IBGE": {
+      "id": "MACAPA_IBGE",
+      "title": "Macapá (AP) — Cidades e Estados",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ap/macapa.html",
+      "checkedAt": "2026-11-14"
+    },
+    "RIOBRANCO_IBGE": {
+      "id": "RIOBRANCO_IBGE",
+      "title": "Rio Branco (AC) — Cidades e Estados",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ac/rio-branco.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-macapa",
+      "placeId": "norte-macapa",
+      "title": "Macapá",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Goiânia"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Macapá",
+          "sources": [
+            "MACAPA_AP"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Linha imaginária que atravessa a cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Linha do Equador"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Trópico de Câncer"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Trópico de Capricórnio"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Círculo Polar Ártico"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Linha do Equador",
+          "sources": [
+            "MACAPA_AP"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Maranhão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Acre"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Amapá",
+          "sources": [
+            "MACAPA_AP"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio que banha a cidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Amazonas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Acre"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Araguaia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Amazonas",
+          "sources": [
+            "MACAPA_AP"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-macapa-viajante-P01",
+              "factKey": "norte-macapa-F01",
+              "text": "Esta cidade é uma capital do Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P02",
+              "factKey": "norte-macapa-F02",
+              "text": "Ela fica junto a um grande rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P03",
+              "factKey": "norte-macapa-F03",
+              "text": "A cidade está na margem esquerda desse rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P04",
+              "factKey": "norte-macapa-F04",
+              "text": "O rio que banha a cidade é o Amazonas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P05",
+              "factKey": "norte-macapa-F05",
+              "text": "Fica em um estado do extremo norte brasileiro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P06",
+              "factKey": "norte-macapa-F06",
+              "text": "A capital pertence ao estado do Amapá.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P07",
+              "factKey": "norte-macapa-F07",
+              "text": "Uma linha imaginária da geografia atravessa essa capital.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P08",
+              "factKey": "norte-macapa-F08",
+              "text": "Essa linha divide a Terra em hemisférios norte e sul.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P09",
+              "factKey": "norte-macapa-F09",
+              "text": "A linha que passa pelo município é a do Equador.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P10",
+              "factKey": "norte-macapa-F10",
+              "text": "Há um monumento chamado Marco Zero do Equador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P11",
+              "factKey": "norte-macapa-F11",
+              "text": "Um estádio da cidade é conhecido como Zerão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P12",
+              "factKey": "norte-macapa-F12",
+              "text": "Em 2022, o Censo contou mais de 400 mil moradores nesse município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P13",
+              "factKey": "norte-macapa-F13",
+              "text": "Uma antiga fortaleza se tornou símbolo da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P14",
+              "factKey": "norte-macapa-F14",
+              "text": "A fortaleza tem São José no nome.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P15",
+              "factKey": "norte-macapa-F15",
+              "text": "A inauguração da fortaleza ocorreu em 1782.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P16",
+              "factKey": "norte-macapa-F16",
+              "text": "O povoado foi elevado a vila no século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P17",
+              "factKey": "norte-macapa-F17",
+              "text": "A elevação a vila aconteceu em 1758.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P18",
+              "factKey": "norte-macapa-F18",
+              "text": "O povoado recebeu a condição de cidade em 1856.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P19",
+              "factKey": "norte-macapa-F19",
+              "text": "O nome da cidade é relacionado ao fruto bacaba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P20",
+              "factKey": "norte-macapa-F20",
+              "text": "A bacaba é fruto de uma palmeira da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P21",
+              "factKey": "norte-macapa-F21",
+              "text": "O marabaixo é uma manifestação cultural presente na capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P22",
+              "factKey": "norte-macapa-F22",
+              "text": "No marabaixo há dança e toque de caixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P23",
+              "factKey": "norte-macapa-F23",
+              "text": "O complexo Beira-Rio tem trapiches e restaurantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P24",
+              "factKey": "norte-macapa-F24",
+              "text": "O Curiaú tem ligação com comunidades quilombolas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-viajante-P25",
+              "factKey": "norte-macapa-F25",
+              "text": "O comércio local está ligado a uma área de livre comércio compartilhada com Santana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-macapa-geografo-P01",
+              "factKey": "norte-macapa-F01",
+              "text": "A cidade exerce a função de capital estadual no Norte do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P02",
+              "factKey": "norte-macapa-F02",
+              "text": "O sítio urbano estabelece relação com um importante eixo fluvial amazônico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P03",
+              "factKey": "norte-macapa-F03",
+              "text": "A localização municipal inclui a margem esquerda do rio que banha a capital.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P04",
+              "factKey": "norte-macapa-F04",
+              "text": "A capital se situa na margem esquerda do rio Amazonas, próximo à sua desembocadura.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P05",
+              "factKey": "norte-macapa-F05",
+              "text": "A posição regional situa a capital no extremo norte do território brasileiro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P06",
+              "factKey": "norte-macapa-F06",
+              "text": "O município concentra funções administrativas do estado do Amapá.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P07",
+              "factKey": "norte-macapa-F07",
+              "text": "Uma linha de latitude de referência atravessa o território da capital.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P08",
+              "factKey": "norte-macapa-F08",
+              "text": "O paralelo que a atravessa divide a superfície terrestre em hemisférios norte e sul.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P09",
+              "factKey": "norte-macapa-F09",
+              "text": "A linha do Equador atravessa o município, situado na latitude de referência zero.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P10",
+              "factKey": "norte-macapa-F10",
+              "text": "O Marco Zero representa no espaço urbano a passagem da linha equatorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P11",
+              "factKey": "norte-macapa-F11",
+              "text": "O Estádio Olímpico Milton de Souza Corrêa é conhecido pelo apelido Zerão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P12",
+              "factKey": "norte-macapa-F12",
+              "text": "Segundo o Censo 2022 do IBGE, o município tinha 442.933 habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P13",
+              "factKey": "norte-macapa-F13",
+              "text": "A fortaleza integra a paisagem histórica ligada à ocupação colonial da foz amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P14",
+              "factKey": "norte-macapa-F14",
+              "text": "A Fortaleza de São José é um marco da defesa colonial portuguesa na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P15",
+              "factKey": "norte-macapa-F15",
+              "text": "A obra defensiva foi inaugurada em 1782, após a formação da vila.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P16",
+              "factKey": "norte-macapa-F16",
+              "text": "A formação administrativa como vila remonta ao século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P17",
+              "factKey": "norte-macapa-F17",
+              "text": "A vila foi instalada em fevereiro de 1758, antes da inauguração da fortaleza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P18",
+              "factKey": "norte-macapa-F18",
+              "text": "A evolução administrativa incluiu a elevação à categoria de cidade em 1856.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P19",
+              "factKey": "norte-macapa-F19",
+              "text": "A origem tupi do topônimo é associada à ocorrência de bacabas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P20",
+              "factKey": "norte-macapa-F20",
+              "text": "A referência toponímica remete ao fruto de uma palmeira nativa regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P21",
+              "factKey": "norte-macapa-F21",
+              "text": "O marabaixo relaciona festa, memória e expressões culturais na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P22",
+              "factKey": "norte-macapa-F22",
+              "text": "O ciclo do marabaixo articula dança e percussão com caixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P23",
+              "factKey": "norte-macapa-F23",
+              "text": "Trapiches e espaços de convivência do Beira-Rio reforçam a relação da cidade com sua orla fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P24",
+              "factKey": "norte-macapa-F24",
+              "text": "A paisagem do Curiaú mantém vínculos com comunidades quilombolas da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-macapa-geografo-P25",
+              "factKey": "norte-macapa-F25",
+              "text": "A área de livre comércio integra economicamente a capital à cidade vizinha de Santana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACAPA_AP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital do Amapá, situada na margem esquerda do rio Amazonas e atravessada pela linha do Equador.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    },
+    {
+      "id": "lug2-norte-rio-branco",
+      "placeId": "norte-rio-branco",
+      "title": "Rio Branco",
+      "aliases": [],
+      "answerType": "capital brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cuiabá"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Campo Grande"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Goiânia"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio Branco",
+          "sources": [
+            "RIOBRANCO_PREF",
+            "RIOBRANCO_MTUR"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atividade ligada à origem do povoado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Extração e comércio de borracha"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Extração de sal marinho"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Mineração de carvão"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Plantio de café para exportação"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Extração e comércio de borracha",
+          "sources": [
+            "RIOBRANCO_PREF",
+            "RIOBRANCO_MTUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rondônia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Roraima"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Amazonas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Acre",
+          "sources": [
+            "RIOBRANCO_PREF",
+            "RIOBRANCO_MTUR"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio que atravessa a cidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Acre"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Araguaia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Acre",
+          "sources": [
+            "RIOBRANCO_PREF",
+            "RIOBRANCO_MTUR"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-rio-branco-viajante-P01",
+              "factKey": "norte-rio-branco-F01",
+              "text": "Esta cidade é uma capital brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P02",
+              "factKey": "norte-rio-branco-F02",
+              "text": "Fica na região Norte do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P03",
+              "factKey": "norte-rio-branco-F03",
+              "text": "Sua formação ocorreu às margens de um rio amazônico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P04",
+              "factKey": "norte-rio-branco-F04",
+              "text": "A cidade se espalhou pelos dois lados desse rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P05",
+              "factKey": "norte-rio-branco-F05",
+              "text": "O rio leva o mesmo nome do estado.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P06",
+              "factKey": "norte-rio-branco-F06",
+              "text": "Esse é o rio Acre.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P07",
+              "factKey": "norte-rio-branco-F07",
+              "text": "A cidade é a capital do Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P08",
+              "factKey": "norte-rio-branco-F08",
+              "text": "Seu começo está ligado a um antigo seringal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P09",
+              "factKey": "norte-rio-branco-F09",
+              "text": "A borracha foi importante para a formação do povoado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P10",
+              "factKey": "norte-rio-branco-F10",
+              "text": "O seringal inicial era chamado Volta da Empreza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P11",
+              "factKey": "norte-rio-branco-F11",
+              "text": "A volta mencionada no nome acompanha uma curva do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P12",
+              "factKey": "norte-rio-branco-F12",
+              "text": "O núcleo foi fundado em 1882 por Neutel Maia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P13",
+              "factKey": "norte-rio-branco-F13",
+              "text": "O primeiro povoado cresceu na margem direita do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P14",
+              "factKey": "norte-rio-branco-F14",
+              "text": "Uma grande gameleira faz parte da memória local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P15",
+              "factKey": "norte-rio-branco-F15",
+              "text": "Os barcos a vapor ajudaram a movimentar o antigo porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P16",
+              "factKey": "norte-rio-branco-F16",
+              "text": "Casas de comércio apareceram no antigo povoado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P17",
+              "factKey": "norte-rio-branco-F17",
+              "text": "As primeiras ruas acompanharam a margem do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P18",
+              "factKey": "norte-rio-branco-F18",
+              "text": "A madeira era usada em construções do núcleo antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P19",
+              "factKey": "norte-rio-branco-F19",
+              "text": "A área mais baixa podia ficar alagada nas cheias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P20",
+              "factKey": "norte-rio-branco-F20",
+              "text": "A ocupação cresceu para a outra margem no início do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P21",
+              "factKey": "norte-rio-branco-F21",
+              "text": "O novo núcleo do outro lado do rio foi chamado Penápolis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P22",
+              "factKey": "norte-rio-branco-F22",
+              "text": "Mais tarde, as áreas das duas margens passaram a formar uma cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P23",
+              "factKey": "norte-rio-branco-F23",
+              "text": "Em 2022, o Censo contou mais de 360 mil moradores nesse município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P24",
+              "factKey": "norte-rio-branco-F24",
+              "text": "Há um mercado histórico conhecido como Mercado Velho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-viajante-P25",
+              "factKey": "norte-rio-branco-F25",
+              "text": "O Parque da Maternidade reúne áreas verdes e caminhos para bicicletas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-rio-branco-geografo-P01",
+              "factKey": "norte-rio-branco-F01",
+              "text": "O lugar exerce função de capital estadual no território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P02",
+              "factKey": "norte-rio-branco-F02",
+              "text": "A capital integra a rede urbana da região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P03",
+              "factKey": "norte-rio-branco-F03",
+              "text": "O rio foi eixo do assentamento inicial e da organização do espaço urbano.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P04",
+              "factKey": "norte-rio-branco-F04",
+              "text": "A expansão urbana passou da margem direita à margem esquerda do curso fluvial.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P05",
+              "factKey": "norte-rio-branco-F05",
+              "text": "O curso de água que atravessa a capital compartilha o nome do estado.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P06",
+              "factKey": "norte-rio-branco-F06",
+              "text": "O rio Acre atravessa a cidade, articulando suas duas margens.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P07",
+              "factKey": "norte-rio-branco-F07",
+              "text": "O centro urbano concentra funções político-administrativas do Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P08",
+              "factKey": "norte-rio-branco-F08",
+              "text": "Sua origem urbana relaciona-se à economia extrativa dos seringais amazônicos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P09",
+              "factKey": "norte-rio-branco-F09",
+              "text": "O comércio da borracha contribuiu para a transformação do seringal em povoado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P10",
+              "factKey": "norte-rio-branco-F10",
+              "text": "O Seringal Volta da Empreza deu origem ao núcleo urbano da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P11",
+              "factKey": "norte-rio-branco-F11",
+              "text": "A curva do rio ajudou a definir o local do primeiro núcleo de ocupação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P12",
+              "factKey": "norte-rio-branco-F12",
+              "text": "A fundação do seringal por Neutel Maia ocorreu em 1882.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P13",
+              "factKey": "norte-rio-branco-F13",
+              "text": "A ocupação inicial concentrou-se em uma faixa da margem direita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P14",
+              "factKey": "norte-rio-branco-F14",
+              "text": "A gameleira funcionou como referência espacial para o porto do núcleo histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P15",
+              "factKey": "norte-rio-branco-F15",
+              "text": "A circulação fluvial de vapores ajudou a consolidar o núcleo como entreposto comercial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P16",
+              "factKey": "norte-rio-branco-F16",
+              "text": "A presença de estabelecimentos comerciais diferenciou o povoado dos seringais próximos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P17",
+              "factKey": "norte-rio-branco-F17",
+              "text": "O primeiro arruamento seguiu o traçado da margem fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P18",
+              "factKey": "norte-rio-branco-F18",
+              "text": "A disponibilidade regional de madeira influenciou as primeiras construções urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P19",
+              "factKey": "norte-rio-branco-F19",
+              "text": "A topografia baixa da margem direita tornava o núcleo vulnerável às cheias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P20",
+              "factKey": "norte-rio-branco-F20",
+              "text": "A partir de 1909, o crescimento alcançou terras mais altas da margem esquerda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P21",
+              "factKey": "norte-rio-branco-F21",
+              "text": "O núcleo de Penápolis ampliou a malha urbana na margem oposta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P22",
+              "factKey": "norte-rio-branco-F22",
+              "text": "A integração dos núcleos das duas margens consolidou uma cidade atravessada pelo rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P23",
+              "factKey": "norte-rio-branco-F23",
+              "text": "Segundo o Censo 2022 do IBGE, o município tinha 364.756 habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P24",
+              "factKey": "norte-rio-branco-F24",
+              "text": "O Mercado Velho relaciona comércio urbano e produtos regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-rio-branco-geografo-P25",
+              "factKey": "norte-rio-branco-F25",
+              "text": "O Parque da Maternidade insere áreas verdes e ciclovias na paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RIOBRANCO_PREF",
+                "RIOBRANCO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital do Acre, formada às margens do rio Acre a partir de um povoado ligado ao ciclo da borracha.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1129 @@
+{
+  "sources": {
+    "SFRANCISCO_CODEVASF": {
+      "id": "SFRANCISCO_CODEVASF",
+      "title": "Bacias Hidrográficas — São Francisco",
+      "publisher": "Codevasf",
+      "url": "https://www.gov.br/codevasf/pt-br/acesso-a-informacao/institucional/area-de-atuacao/bacias-hidrograficas",
+      "checkedAt": "2026-11-14"
+    },
+    "SFRANCISCO_MIDR": {
+      "id": "SFRANCISCO_MIDR",
+      "title": "O Rio e seus números",
+      "publisher": "Ministério da Integração e do Desenvolvimento Regional",
+      "url": "https://www.gov.br/mdr/pt-br/assuntos/seguranca-hidrica/projeto-sao-francisco/meio-ambiente-preservado/o-rio-e-seus-numeros",
+      "checkedAt": "2026-11-14"
+    },
+    "SFRANCISCO_DNIT": {
+      "id": "SFRANCISCO_DNIT",
+      "title": "Hidrovia do São Francisco",
+      "publisher": "Departamento Nacional de Infraestrutura de Transportes",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/intervencao-em-hidrovias/hidrovias-1/hidrovia-do-sao-francisco",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-rio-sao-francisco",
+      "placeId": "rio-sao-francisco",
+      "title": "Rio São Francisco",
+      "aliases": [
+        "São Francisco",
+        "Velho Chico"
+      ],
+      "answerType": "rio",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste",
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Rio",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio Jequitinhonha"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Paraíba do Sul"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Doce"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Rio Amazonas"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Xingu"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Paranaíba"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio São Francisco",
+          "sources": [
+            "SFRANCISCO_CODEVASF",
+            "SFRANCISCO_MIDR",
+            "SFRANCISCO_DNIT"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Serra da nascente histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Serra da Canastra"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Serra do Espinhaço"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Serra da Mantiqueira"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Serra da Ibiapaba"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Serra da Canastra",
+          "sources": [
+            "SFRANCISCO_CODEVASF",
+            "SFRANCISCO_MIDR",
+            "SFRANCISCO_DNIT"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estados na foz",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Alagoas e Sergipe"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Bahia e Sergipe"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Piauí e Maranhão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pernambuco e Paraíba"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Alagoas e Sergipe",
+          "sources": [
+            "SFRANCISCO_CODEVASF",
+            "SFRANCISCO_MIDR",
+            "SFRANCISCO_DNIT"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Afluente",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Paracatu"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Doce"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Jequitinhonha"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Paracatu",
+          "sources": [
+            "SFRANCISCO_CODEVASF",
+            "SFRANCISCO_MIDR",
+            "SFRANCISCO_DNIT"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-sao-francisco-viajante-P01",
+              "factKey": "rio-sao-francisco-F01",
+              "text": "Este destino é um rio brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P02",
+              "factKey": "rio-sao-francisco-F02",
+              "text": "Sua nascente histórica fica em Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P03",
+              "factKey": "rio-sao-francisco-F03",
+              "text": "A nascente histórica fica na Serra da Canastra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P04",
+              "factKey": "rio-sao-francisco-F04",
+              "text": "O rio chega ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P05",
+              "factKey": "rio-sao-francisco-F05",
+              "text": "A foz fica entre Alagoas e Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P06",
+              "factKey": "rio-sao-francisco-F06",
+              "text": "O curso principal passa por Minas Gerais e Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P07",
+              "factKey": "rio-sao-francisco-F07",
+              "text": "Ele também banha Pernambuco, Alagoas e Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P08",
+              "factKey": "rio-sao-francisco-F08",
+              "text": "O rio liga paisagens do Sudeste e do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P09",
+              "factKey": "rio-sao-francisco-F09",
+              "text": "Sua bacia alcança terras de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P10",
+              "factKey": "rio-sao-francisco-F10",
+              "text": "A bacia também alcança parte do Distrito Federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P11",
+              "factKey": "rio-sao-francisco-F11",
+              "text": "Em 2020, cerca de 20,3 milhões de pessoas viviam na bacia desse rio, segundo Codevasf e IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P12",
+              "factKey": "rio-sao-francisco-F12",
+              "text": "O Rio Paracatu é um de seus afluentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P13",
+              "factKey": "rio-sao-francisco-F13",
+              "text": "O Rio das Velhas também é um afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P14",
+              "factKey": "rio-sao-francisco-F14",
+              "text": "O Rio Urucuia é outro afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P15",
+              "factKey": "rio-sao-francisco-F15",
+              "text": "A chuva varia bastante ao longo da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P16",
+              "factKey": "rio-sao-francisco-F16",
+              "text": "A região das nascentes recebe mais chuva que partes do semiárido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P17",
+              "factKey": "rio-sao-francisco-F17",
+              "text": "Parte de sua bacia fica no Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P18",
+              "factKey": "rio-sao-francisco-F18",
+              "text": "O curso é dividido em quatro trechos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P19",
+              "factKey": "rio-sao-francisco-F19",
+              "text": "O trecho alto vai das cabeceiras até Pirapora.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P20",
+              "factKey": "rio-sao-francisco-F20",
+              "text": "O trecho médio vai de Pirapora até Remanso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P21",
+              "factKey": "rio-sao-francisco-F21",
+              "text": "O trecho submédio vai até Paulo Afonso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P22",
+              "factKey": "rio-sao-francisco-F22",
+              "text": "O trecho baixo segue de Paulo Afonso até a foz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P23",
+              "factKey": "rio-sao-francisco-F23",
+              "text": "Em alguns trechos o rio permite a navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P24",
+              "factKey": "rio-sao-francisco-F24",
+              "text": "Petrolina e Juazeiro ficam em margens ligadas ao rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-viajante-P25",
+              "factKey": "rio-sao-francisco-F25",
+              "text": "O rio faz parte da divisa entre Bahia e Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-sao-francisco-geografo-P01",
+              "factKey": "rio-sao-francisco-F01",
+              "text": "O objeto desta carta é o curso principal de um rio brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P02",
+              "factKey": "rio-sao-francisco-F02",
+              "text": "A nascente histórica está no município mineiro de São Roque de Minas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P03",
+              "factKey": "rio-sao-francisco-F03",
+              "text": "A Serra da Canastra abriga a nascente histórica do curso principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P04",
+              "factKey": "rio-sao-francisco-F04",
+              "text": "A desembocadura do curso principal localiza-se no oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P05",
+              "factKey": "rio-sao-francisco-F05",
+              "text": "A foz integra a divisa estadual entre Alagoas e Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P06",
+              "factKey": "rio-sao-francisco-F06",
+              "text": "Seu curso principal conecta o território mineiro à Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P07",
+              "factKey": "rio-sao-francisco-F07",
+              "text": "O curso banha também Pernambuco, Alagoas e Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P08",
+              "factKey": "rio-sao-francisco-F08",
+              "text": "O eixo fluvial conecta espacialmente áreas do Sudeste e do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P09",
+              "factKey": "rio-sao-francisco-F09",
+              "text": "A bacia de drenagem alcança Goiás, embora isso não signifique passagem do curso principal pelo estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P10",
+              "factKey": "rio-sao-francisco-F10",
+              "text": "O Distrito Federal integra a bacia, mas não é atravessado pelo curso principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P11",
+              "factKey": "rio-sao-francisco-F11",
+              "text": "A população estimada da bacia era de cerca de 20,3 milhões em 2020 (Codevasf/IBGE), ajudando a dimensionar demandas por água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P12",
+              "factKey": "rio-sao-francisco-F12",
+              "text": "O Rio Paracatu integra a rede de drenagem como afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P13",
+              "factKey": "rio-sao-francisco-F13",
+              "text": "O Rio das Velhas contribui para a drenagem da bacia como afluente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P14",
+              "factKey": "rio-sao-francisco-F14",
+              "text": "O Rio Urucuia faz parte da rede de tributários.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P15",
+              "factKey": "rio-sao-francisco-F15",
+              "text": "A bacia apresenta diferenças de precipitação entre áreas de cabeceira e semiárido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P16",
+              "factKey": "rio-sao-francisco-F16",
+              "text": "O contraste pluviométrico entre a cabeceira e o semiárido influencia as condições hidrológicas da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P17",
+              "factKey": "rio-sao-francisco-F17",
+              "text": "O Cerrado do Brasil central e áreas mineiras concentram parcela importante da produção de água da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P18",
+              "factKey": "rio-sao-francisco-F18",
+              "text": "A divisão regional da bacia compreende trechos alto, médio, submédio e baixo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P19",
+              "factKey": "rio-sao-francisco-F19",
+              "text": "Pirapora marca o limite entre as regiões do alto e do médio curso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P20",
+              "factKey": "rio-sao-francisco-F20",
+              "text": "A região do médio curso estende-se de Pirapora, em Minas Gerais, a Remanso, na Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P21",
+              "factKey": "rio-sao-francisco-F21",
+              "text": "O submédio é delimitado por Remanso e Paulo Afonso, na Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P22",
+              "factKey": "rio-sao-francisco-F22",
+              "text": "O baixo curso estende-se de Paulo Afonso até a desembocadura no Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P23",
+              "factKey": "rio-sao-francisco-F23",
+              "text": "As características físicas permitem navegação em determinados trechos, mas não em todo o percurso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P24",
+              "factKey": "rio-sao-francisco-F24",
+              "text": "Petrolina e Juazeiro estão em estados diferentes e se articulam com o mesmo eixo fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-sao-francisco-geografo-P25",
+              "factKey": "rio-sao-francisco-F25",
+              "text": "Parte do curso constitui fronteira natural entre Bahia e Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SFRANCISCO_CODEVASF",
+                "SFRANCISCO_MIDR",
+                "SFRANCISCO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Curso fluvial brasileiro com nascente histórica na Serra da Canastra, em Minas Gerais, e foz no Atlântico entre Alagoas e Sergipe.",
+        "editorialNotes": [
+          "A carta representa o curso principal: sua bacia também alcança Goiás e o Distrito Federal, mas essas áreas não contam como passagem do rio. A nascente geográfica envolve o rio Samburá.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}
