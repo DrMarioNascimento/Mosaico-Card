@@ -19,7 +19,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Grande Barreira de Corais | Oceania |
 | Polo Sul Geográfico | Antártida |
 
-São 8 lugares, 16 conjuntos de pistas (dois por lugar), 400 pistas, 32 perguntas distintas e 128 alternativas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 8 lugares, 16 conjuntos de pistas (dois por lugar), 400 pistas, 32 perguntas distintas e 160 alternativas: oito para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 O primeiro teste deve preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano de 120 lugares inclui os oito escritos e 112 candidatos ainda por elaborar.
 

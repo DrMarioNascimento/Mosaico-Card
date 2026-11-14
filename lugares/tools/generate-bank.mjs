@@ -7,7 +7,7 @@ for(const entry of bank.cases)for(const profile of bank.profiles){
  const cards=entry.profiles[profile].cards;
  if(cards.length<25||entry.fields.length!==4)throw Error('Banco incompleto: '+entry.id);
  const fields=entry.fields.map((f,i)=>{
-   if(f.options.length!==4||!f.options.some(o=>o.id===f.answerId&&o.text===f.answerText))throw Error('Gabarito inconsistente: '+entry.id+f.id);
+   if(f.options.length<4||new Set(f.options.map(o=>o.id)).size!==f.options.length||new Set(f.options.map(o=>o.text.trim().toLocaleLowerCase('pt-BR'))).size!==f.options.length||!f.options.some(o=>o.id===f.answerId&&o.text===f.answerText))throw Error('Alternativas ou gabarito inconsistentes: '+entry.id+f.id);
    return {id:f.id,sourceOrder:i+1,rotulo:f.label,opcoes:f.options.map(o=>({id:o.id,texto:o.text})),respostaId:f.answerId,respostaCanonica:f.answerText,endereco:sourceText(f.sources),isFocal:i===0,pontosBase:points[i]};
  });
  const refs=[...new Set(cards.flatMap(c=>c.sources))];

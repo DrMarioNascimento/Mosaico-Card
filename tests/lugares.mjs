@@ -21,7 +21,7 @@ for(const c of banco.cases){
    assert.ok(clue.relatedFields.length&&clue.relatedFields.every(id=>c.fields.some(f=>f.id===id)));
    for(const focal of [c.title,...c.aliases])assert.ok(!(' '+norm(clue.text)+' ').includes(' '+norm(focal)+' '),clue.id+' revela a resposta focal');
   }
-  for(const f of converted.fields){assert.equal(f.opcoes.length,4);assert.ok(f.opcoes.some(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica));}
+  for(const f of converted.fields){assert.equal(f.opcoes.length,f.id==='C1'?8:4);assert.equal(new Set(f.opcoes.map(o=>o.id)).size,f.opcoes.length);assert.equal(new Set(f.opcoes.map(o=>norm(o.texto))).size,f.opcoes.length);assert.equal(f.opcoes.filter(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica).length,1);}
   for(let n=2;n<=12;n++)assert.ok(R.casoCompativelComMesa(converted,n));
   for(const n of [0,1,13,2.5])assert.ok(!R.casoCompativelComMesa(converted,n));
  }
