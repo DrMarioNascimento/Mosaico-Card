@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-30-2026-11-14",
+  "catalogVersion": "lote-32-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Setenta e seis destinos jogáveis em dois perfis",
-  "status": "Setenta e seis destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Oitenta destinos jogáveis em dois perfis",
+  "status": "Oitenta destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -948,6 +948,55 @@
       "title": "Visitor Site Guidelines: Brown Bluff",
       "publisher": "Antarctic Treaty Secretariat",
       "url": "https://www.ats.aq/devAS/e/Ats/Guideline/4e8ad01e-34de-45cc-b1e3-e17fe8c89f06",
+      "checkedAt": "2026-11-14"
+    },
+    "JAU1": {
+      "id": "JAU1",
+      "title": "Informações Sobre Visitação – Parque Nacional do Jaú",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jau/informacoes-sobre-visitacao-2013-parna-do-jau",
+      "checkedAt": "2026-11-14"
+    },
+    "BOD1": {
+      "id": "BOD1",
+      "title": "Parque Nacional da Serra da Bodoquena",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena/parna-da-serra-da-bodoquena",
+      "checkedAt": "2026-11-14"
+    },
+    "BOD2": {
+      "id": "BOD2",
+      "title": "Parque Nacional da Serra da Bodoquena",
+      "publisher": "Secretaria de Turismo de Bonito",
+      "url": "https://www.turismo.bonito.ms.gov.br/parque-nacional-da-serra-da-bodoquena",
+      "checkedAt": "2026-11-14"
+    },
+    "ITA1": {
+      "id": "ITA1",
+      "title": "Parte Alta: Parque Nacional do Itatiaia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia/arquivos/paginas/ParteAlta",
+      "checkedAt": "2026-11-14"
+    },
+    "ITA2": {
+      "id": "ITA2",
+      "title": "Parte Baixa: Parque Nacional do Itatiaia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia/arquivos/paginas/ParteBaixa",
+      "checkedAt": "2026-11-14"
+    },
+    "ITA3": {
+      "id": "ITA3",
+      "title": "História: Serra dos Órgãos",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/quem-somos/historia",
+      "checkedAt": "2026-11-14"
+    },
+    "VV1": {
+      "id": "VV1",
+      "title": "Parque Estadual de Vila Velha",
+      "publisher": "Instituto Água e Terra do Paraná",
+      "url": "https://www.iat.pr.gov.br/Pagina/Parque-Estadual-de-Vila-Velha-PEVV",
       "checkedAt": "2026-11-14"
     }
   },
@@ -78057,6 +78106,4158 @@
       },
       "reveal": {
         "canonicalSummary": "Praia continental antártica com falésias de tufo vulcânico e colônias de pinguins-de-adélia e gentoo.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-jau",
+      "placeId": "jau",
+      "title": "Parque Nacional do Jaú",
+      "aliases": [
+        "Jaú"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Serra da Canastra"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Jaú",
+          "sources": [
+            "JAU1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio que limita a área a leste",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Paraná"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Negro",
+          "sources": [
+            "JAU1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambiente sazonalmente inundado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Igapó"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Floresta boreal"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Tundra"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mata mediterrânea"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Igapó",
+          "sources": [
+            "JAU1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Municípios de referência",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Novo Airão e Barcelos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bonito e Jardim"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Alto Caparaó e Dores do Rio Preto"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cambará do Sul e Praia Grande"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Novo Airão e Barcelos",
+          "sources": [
+            "JAU1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "jau-viajante-P01",
+              "factKey": "jau-F01",
+              "text": "O destino protege uma extensa área de floresta amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P02",
+              "factKey": "jau-F02",
+              "text": "A água dos rios é importante para conhecer o lugar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P03",
+              "factKey": "jau-F03",
+              "text": "O rio principal tem águas escuras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P04",
+              "factKey": "jau-F04",
+              "text": "O nome do parque vem do rio que ele protege.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P05",
+              "factKey": "jau-F05",
+              "text": "O nome do rio lembra um grande peixe de água doce.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P06",
+              "factKey": "jau-F06",
+              "text": "A unidade protege praticamente toda a bacia desse rio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P07",
+              "factKey": "jau-F07",
+              "text": "O rio Negro forma parte do limite do parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P08",
+              "factKey": "jau-F08",
+              "text": "Ao sul, a área chega ao rio Carabinani.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P09",
+              "factKey": "jau-F09",
+              "text": "Ao norte, a área se estende para o rio Unini.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P10",
+              "factKey": "jau-F10",
+              "text": "A subida e a descida das águas alteram a paisagem.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P11",
+              "factKey": "jau-F11",
+              "text": "Na cheia é possível navegar entre árvores inundadas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P12",
+              "factKey": "jau-F12",
+              "text": "Na seca aparecem praias e trechos de pedra.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P13",
+              "factKey": "jau-F13",
+              "text": "Existem florestas de igapó no parque.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P14",
+              "factKey": "jau-F14",
+              "text": "Também há ambientes de floresta de terra firme.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P15",
+              "factKey": "jau-F15",
+              "text": "Araras e papagaios podem ser observados sobre a floresta.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P16",
+              "factKey": "jau-F16",
+              "text": "A área preserva sítios arqueológicos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P17",
+              "factKey": "jau-F17",
+              "text": "Há inscrições antigas feitas em pedras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P18",
+              "factKey": "jau-F18",
+              "text": "A unidade foi criada em 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P19",
+              "factKey": "jau-F19",
+              "text": "A UNESCO reconhece a importância da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P20",
+              "factKey": "jau-F20",
+              "text": "A área integra o Complexo de Conservação da Amazônia Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P21",
+              "factKey": "jau-F21",
+              "text": "O parque fica no estado do Amazonas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P22",
+              "factKey": "jau-F22",
+              "text": "Novo Airão e Barcelos são municípios de referência.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P23",
+              "factKey": "jau-F23",
+              "text": "O ambiente protegido é fluvial, não marítimo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P24",
+              "factKey": "jau-F24",
+              "text": "A visitação pode envolver passeios de barco e trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-viajante-P25",
+              "factKey": "jau-F25",
+              "text": "Para identificar, combine bacia de águas pretas, igapós e limite no rio Negro.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "jau-geografo-P01",
+              "factKey": "jau-F01",
+              "text": "A unidade abrange uma grande extensão contínua de floresta tropical úmida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P02",
+              "factKey": "jau-F02",
+              "text": "Os cursos fluviais estruturam o acesso e a paisagem da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P03",
+              "factKey": "jau-F03",
+              "text": "A bacia protegida é de um rio amazônico de águas pretas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P04",
+              "factKey": "jau-F04",
+              "text": "A denominação da unidade corresponde à da bacia principal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P05",
+              "factKey": "jau-F05",
+              "text": "A toponímia do rio deriva do nome de um peixe conhecido como jaú.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P06",
+              "factKey": "jau-F06",
+              "text": "A abrangência territorial acompanha quase toda a bacia hidrográfica principal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P07",
+              "factKey": "jau-F07",
+              "text": "O limite oriental da unidade acompanha o rio Negro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P08",
+              "factKey": "jau-F08",
+              "text": "A delimitação meridional inclui águas do Carabinani.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P09",
+              "factKey": "jau-F09",
+              "text": "O rio Unini integra o limite setentrional da área protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P10",
+              "factKey": "jau-F10",
+              "text": "A sazonalidade fluvial modifica os ambientes acessíveis.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P11",
+              "factKey": "jau-F11",
+              "text": "O aumento do nível da água permite percursos em florestas de igapó.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P12",
+              "factKey": "jau-F12",
+              "text": "A vazante expõe praias fluviais, corredeiras e pedrais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P13",
+              "factKey": "jau-F13",
+              "text": "A vegetação inclui florestas periodicamente inundadas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P14",
+              "factKey": "jau-F14",
+              "text": "A unidade combina igapós e florestas não inundadas de terra firme.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P15",
+              "factKey": "jau-F15",
+              "text": "A avifauna observável inclui araras e papagaios.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P16",
+              "factKey": "jau-F16",
+              "text": "Os registros culturais incluem sítios arqueológicos no território protegido.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P17",
+              "factKey": "jau-F17",
+              "text": "Petróglifos constituem evidências da ocupação humana regional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P18",
+              "factKey": "jau-F18",
+              "text": "O decreto de criação do parque data de 1980.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P19",
+              "factKey": "jau-F19",
+              "text": "O parque integra o patrimônio natural reconhecido internacionalmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P20",
+              "factKey": "jau-F20",
+              "text": "A unidade compõe um bem de conservação com outras áreas amazônicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P21",
+              "factKey": "jau-F21",
+              "text": "A localização administrativa pertence ao Amazonas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P22",
+              "factKey": "jau-F22",
+              "text": "A área situa-se entre os municípios de Novo Airão e Barcelos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P23",
+              "factKey": "jau-F23",
+              "text": "A rede de rios e florestas compõe um sistema continental de água doce.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P24",
+              "factKey": "jau-F24",
+              "text": "O uso público inclui percursos aquáticos e terrestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jau-geografo-P25",
+              "factKey": "jau-F25",
+              "text": "A identificação relaciona hidrografia, regime de inundação e posição amazônica.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "JAU1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque amazônico que protege quase toda a bacia do rio Jaú, com rios de águas pretas, igapós e sítios arqueológicos.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-serra-bodoquena",
+      "placeId": "serra-bodoquena",
+      "title": "Parque Nacional da Serra da Bodoquena",
+      "aliases": [
+        "Serra da Bodoquena"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Pantanal Mato-Grossense"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Iguaçu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Serra da Bodoquena",
+          "sources": [
+            "BOD1",
+            "BOD2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rocha associada à hidrologia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Calcário"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Granito"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Basalto"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Gnaisse"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Calcário",
+          "sources": [
+            "BOD1",
+            "BOD2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Fenômeno das águas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Sumidouros e ressurgências em terreno cárstico"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Formação de fiordes por geleiras"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dunas móveis levadas pelos ventos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Vulcanismo submarino ativo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Sumidouros e ressurgências em terreno cárstico",
+          "sources": [
+            "BOD1",
+            "BOD2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Mato Grosso do Sul",
+          "sources": [
+            "BOD1",
+            "BOD2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "serra-bodoquena-viajante-P01",
+              "factKey": "serra-bodoquena-F01",
+              "text": "O destino é um parque no Centro-Oeste brasileiro.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P02",
+              "factKey": "serra-bodoquena-F02",
+              "text": "Rios de água clara chamam atenção na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P03",
+              "factKey": "serra-bodoquena-F03",
+              "text": "Alguns canais apresentam águas azuladas ou esverdeadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P04",
+              "factKey": "serra-bodoquena-F04",
+              "text": "A região possui rochas calcárias.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P05",
+              "factKey": "serra-bodoquena-F05",
+              "text": "A água pode dissolver parte das rochas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P06",
+              "factKey": "serra-bodoquena-F06",
+              "text": "Há cavernas e passagens subterrâneas na paisagem regional.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P07",
+              "factKey": "serra-bodoquena-F07",
+              "text": "Em alguns pontos a água desaparece no solo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P08",
+              "factKey": "serra-bodoquena-F08",
+              "text": "Em outros pontos a água volta a surgir.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P09",
+              "factKey": "serra-bodoquena-F09",
+              "text": "Depósitos de carbonato formam estruturas chamadas tufas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P10",
+              "factKey": "serra-bodoquena-F10",
+              "text": "As tufas podem aparecer em cachoeiras e barragens naturais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P11",
+              "factKey": "serra-bodoquena-F11",
+              "text": "A área protegida também tem cachoeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P12",
+              "factKey": "serra-bodoquena-F12",
+              "text": "Cânions aparecem entre as formas de relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P13",
+              "factKey": "serra-bodoquena-F13",
+              "text": "Matas acompanham as margens de rios.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P14",
+              "factKey": "serra-bodoquena-F14",
+              "text": "A mata ciliar ajuda a reduzir o transporte de terra para os rios.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P15",
+              "factKey": "serra-bodoquena-F15",
+              "text": "A região combina diferentes formações vegetais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P16",
+              "factKey": "serra-bodoquena-F16",
+              "text": "Parte das árvores perde folhas na época seca.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P17",
+              "factKey": "serra-bodoquena-F17",
+              "text": "O parque é apontado como área de Mata Atlântica em meio ao Cerrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P18",
+              "factKey": "serra-bodoquena-F18",
+              "text": "A unidade é um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P19",
+              "factKey": "serra-bodoquena-F19",
+              "text": "A unidade abrange o município de Bonito.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P20",
+              "factKey": "serra-bodoquena-F20",
+              "text": "Jardim também está entre os municípios associados.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P21",
+              "factKey": "serra-bodoquena-F21",
+              "text": "Outro município tem o mesmo nome da serra.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P22",
+              "factKey": "serra-bodoquena-F22",
+              "text": "O parque fica em Mato Grosso do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P23",
+              "factKey": "serra-bodoquena-F23",
+              "text": "A conservação depende da qualidade das águas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P24",
+              "factKey": "serra-bodoquena-F24",
+              "text": "O lugar não é uma ilha arenosa oceânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-viajante-P25",
+              "factKey": "serra-bodoquena-F25",
+              "text": "Para identificar, combine rios transparentes, calcário e Mato Grosso do Sul.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "serra-bodoquena-geografo-P01",
+              "factKey": "serra-bodoquena-F01",
+              "text": "A unidade situa-se no Mato Grosso do Sul.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P02",
+              "factKey": "serra-bodoquena-F02",
+              "text": "Cursos fluviais de baixa turbidez são marcantes na região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P03",
+              "factKey": "serra-bodoquena-F03",
+              "text": "A paisagem fluvial inclui trechos de tonalidades azuladas e esmeralda.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P04",
+              "factKey": "serra-bodoquena-F04",
+              "text": "O substrato inclui calcário, relacionado à dinâmica da água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P05",
+              "factKey": "serra-bodoquena-F05",
+              "text": "A dissolução do calcário participa da formação de condutos subterrâneos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P06",
+              "factKey": "serra-bodoquena-F06",
+              "text": "O relevo cárstico inclui cavernas e condutos em rocha calcária.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P07",
+              "factKey": "serra-bodoquena-F07",
+              "text": "Sumidouros integram a dinâmica hídrica regional.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P08",
+              "factKey": "serra-bodoquena-F08",
+              "text": "Ressurgências revelam conexões entre circulação subterrânea e superfície.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P09",
+              "factKey": "serra-bodoquena-F09",
+              "text": "A precipitação de carbonato produz depósitos de tufa calcária.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P10",
+              "factKey": "serra-bodoquena-F10",
+              "text": "Depósitos calcários participam de formas ao longo das drenagens.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P11",
+              "factKey": "serra-bodoquena-F11",
+              "text": "Quedas-d'água integram os atrativos descritos pelo ICMBio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P12",
+              "factKey": "serra-bodoquena-F12",
+              "text": "Vales encaixados compõem parte da paisagem regional.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P13",
+              "factKey": "serra-bodoquena-F13",
+              "text": "A vegetação ciliar protege as margens dos cursos de água.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P14",
+              "factKey": "serra-bodoquena-F14",
+              "text": "A cobertura nas margens contribui para conter erosão e assoreamento.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P15",
+              "factKey": "serra-bodoquena-F15",
+              "text": "O mosaico inclui Cerrado e florestas estacionais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P16",
+              "factKey": "serra-bodoquena-F16",
+              "text": "A sazonalidade da vegetação inclui perda de folhas na estiagem.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P17",
+              "factKey": "serra-bodoquena-F17",
+              "text": "O ICMBio descreve um enclave de Mata Atlântica no contexto do Cerrado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P18",
+              "factKey": "serra-bodoquena-F18",
+              "text": "A área tem a categoria federal de parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P19",
+              "factKey": "serra-bodoquena-F19",
+              "text": "Bonito é um dos municípios que abrangem o parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P20",
+              "factKey": "serra-bodoquena-F20",
+              "text": "O território protegido compreende parte do município de Jardim.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P21",
+              "factKey": "serra-bodoquena-F21",
+              "text": "O parque abrange também o município que compartilha o nome da serra.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P22",
+              "factKey": "serra-bodoquena-F22",
+              "text": "A localização administrativa é Mato Grosso do Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P23",
+              "factKey": "serra-bodoquena-F23",
+              "text": "O funcionamento e a preservação das tufas se relacionam à qualidade da água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P24",
+              "factKey": "serra-bodoquena-F24",
+              "text": "A unidade protege uma serra continental e seus rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-bodoquena-geografo-P25",
+              "factKey": "serra-bodoquena-F25",
+              "text": "A identificação articula hidrologia, geologia cárstica e localização regional.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "BOD1",
+                "BOD2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque de Mato Grosso do Sul com rios transparentes, rochas calcárias, tufas e ambientes de Cerrado e Mata Atlântica.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-itatiaia",
+      "placeId": "itatiaia",
+      "title": "Parque Nacional do Itatiaia",
+      "aliases": [
+        "Itatiaia"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra dos Órgãos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional das Emas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Itatiaia",
+          "sources": [
+            "ITA1",
+            "ITA2",
+            "ITA3"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ambientes de altitude",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Campos de altitude e floresta úmida"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Recifes de coral e manguezais insulares"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dunas móveis e lagoas costeiras"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tundra e floresta boreal"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Campos de altitude e floresta úmida",
+          "sources": [
+            "ITA1",
+            "ITA2",
+            "ITA3"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Pico de referência",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Agulhas Negras"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pico da Bandeira"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pico da Neblina"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pico Paraná"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Agulhas Negras",
+          "sources": [
+            "ITA1",
+            "ITA2",
+            "ITA3"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Marco histórico",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Primeiro parque nacional brasileiro, criado em 1937"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Primeiro parque nacional brasileiro, criado em 1989"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Primeiro parque estadual do Paraná, criado em 1953"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Parque nacional criado para proteger dunas em 1981"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Primeiro parque nacional brasileiro, criado em 1937",
+          "sources": [
+            "ITA1",
+            "ITA2",
+            "ITA3"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "itatiaia-viajante-P01",
+              "factKey": "itatiaia-F01",
+              "text": "O destino é uma área protegida de montanhas no Sudeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P02",
+              "factKey": "itatiaia-F02",
+              "text": "O parque tem áreas chamadas parte alta e parte baixa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P03",
+              "factKey": "itatiaia-F03",
+              "text": "A parte alta possui campos de altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P04",
+              "factKey": "itatiaia-F04",
+              "text": "A parte baixa abriga floresta úmida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P05",
+              "factKey": "itatiaia-F05",
+              "text": "O contraste entre campos e floresta acompanha a altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P06",
+              "factKey": "itatiaia-F06",
+              "text": "Montanhas atraem pessoas interessadas em caminhadas e escaladas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P07",
+              "factKey": "itatiaia-F07",
+              "text": "Um pico famoso recebe o nome de Agulhas Negras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P08",
+              "factKey": "itatiaia-F08",
+              "text": "O pico chega a cerca de 2.791 metros.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P09",
+              "factKey": "itatiaia-F09",
+              "text": "O maciço das Prateleiras é outro ponto da parte alta.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P10",
+              "factKey": "itatiaia-F10",
+              "text": "O Morro do Couto também está na área alta.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P11",
+              "factKey": "itatiaia-F11",
+              "text": "A parte baixa tem cachoeiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P12",
+              "factKey": "itatiaia-F12",
+              "text": "Uma cachoeira local se chama Véu de Noiva.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P13",
+              "factKey": "itatiaia-F13",
+              "text": "A cachoeira Itaporani também é citada entre os atrativos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P14",
+              "factKey": "itatiaia-F14",
+              "text": "A região do Maromba tem área de água visitada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P15",
+              "factKey": "itatiaia-F15",
+              "text": "A unidade é reconhecida como o primeiro parque nacional do Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P16",
+              "factKey": "itatiaia-F16",
+              "text": "A criação ocorreu em 1937.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P17",
+              "factKey": "itatiaia-F17",
+              "text": "A área fica na Serra da Mantiqueira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P18",
+              "factKey": "itatiaia-F18",
+              "text": "O território envolve Rio de Janeiro e Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P19",
+              "factKey": "itatiaia-F19",
+              "text": "Resende é um dos municípios relacionados à área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P20",
+              "factKey": "itatiaia-F20",
+              "text": "Itamonte é um dos municípios do lado mineiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P21",
+              "factKey": "itatiaia-F21",
+              "text": "O Pico das Agulhas Negras é referência de altitude fluminense.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P22",
+              "factKey": "itatiaia-F22",
+              "text": "A Mata Atlântica está entre os ambientes protegidos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P23",
+              "factKey": "itatiaia-F23",
+              "text": "A paisagem elevada pode ter clima de montanha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P24",
+              "factKey": "itatiaia-F24",
+              "text": "A proteção envolve diferentes ambientes, não somente o pico.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-viajante-P25",
+              "factKey": "itatiaia-F25",
+              "text": "Para identificar, combine primeiro parque nacional, Mantiqueira e Agulhas Negras.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "itatiaia-geografo-P01",
+              "factKey": "itatiaia-F01",
+              "text": "A unidade preserva ambientes serranos no Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P02",
+              "factKey": "itatiaia-F02",
+              "text": "A visitação organiza-se em setores com diferentes altitudes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P03",
+              "factKey": "itatiaia-F03",
+              "text": "A vegetação do setor elevado inclui campos de altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P04",
+              "factKey": "itatiaia-F04",
+              "text": "A cobertura vegetal do setor baixo inclui floresta densa de Mata Atlântica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P05",
+              "factKey": "itatiaia-F05",
+              "text": "O gradiente altitudinal relaciona-se a diferentes formações vegetais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P06",
+              "factKey": "itatiaia-F06",
+              "text": "O relevo favorece atividades de montanhismo e trekking.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P07",
+              "factKey": "itatiaia-F07",
+              "text": "O Pico das Agulhas Negras é um dos principais cumes da área.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P08",
+              "factKey": "itatiaia-F08",
+              "text": "A altitude do ponto mais alto indicado pelo ICMBio é próxima de 2.791 metros.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P09",
+              "factKey": "itatiaia-F09",
+              "text": "O setor elevado inclui o Maciço das Prateleiras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P10",
+              "factKey": "itatiaia-F10",
+              "text": "A unidade inclui o Morro do Couto entre suas elevações.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P11",
+              "factKey": "itatiaia-F11",
+              "text": "O setor florestal inclui quedas-d'água e trilhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P12",
+              "factKey": "itatiaia-F12",
+              "text": "A Cachoeira Véu de Noiva integra os atrativos do setor baixo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P13",
+              "factKey": "itatiaia-F13",
+              "text": "A rede de visitação inclui a Cachoeira Itaporani.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P14",
+              "factKey": "itatiaia-F14",
+              "text": "O Piscinão do Maromba é um atrativo do setor baixo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P15",
+              "factKey": "itatiaia-F15",
+              "text": "Sua criação inaugurou a categoria de parque nacional no país.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P16",
+              "factKey": "itatiaia-F16",
+              "text": "A unidade federal foi criada em 1937.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P17",
+              "factKey": "itatiaia-F17",
+              "text": "O parque está inserido na Serra da Mantiqueira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P18",
+              "factKey": "itatiaia-F18",
+              "text": "A unidade ocupa municípios fluminenses e mineiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P19",
+              "factKey": "itatiaia-F19",
+              "text": "O território do parque alcança o município fluminense de Resende.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P20",
+              "factKey": "itatiaia-F20",
+              "text": "O parque abrange parte de Itamonte, em Minas Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P21",
+              "factKey": "itatiaia-F21",
+              "text": "O cume é apontado como ponto culminante do estado do Rio de Janeiro.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P22",
+              "factKey": "itatiaia-F22",
+              "text": "A unidade conserva ecossistemas do bioma Mata Atlântica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P23",
+              "factKey": "itatiaia-F23",
+              "text": "O setor alto apresenta condições climáticas de montanha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P24",
+              "factKey": "itatiaia-F24",
+              "text": "O parque conserva um gradiente que vai da floresta aos campos elevados.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "itatiaia-geografo-P25",
+              "factKey": "itatiaia-F25",
+              "text": "A identificação relaciona história institucional, serra e cume.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "ITA1",
+                "ITA2",
+                "ITA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Primeiro parque nacional brasileiro, na Serra da Mantiqueira, com florestas, campos de altitude e o Pico das Agulhas Negras.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-vila-velha",
+      "placeId": "vila-velha",
+      "title": "Parque Estadual de Vila Velha",
+      "aliases": [
+        "Vila Velha"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque estadual",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual do Guartelá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual da Ilha do Mel"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual do Rio Preto"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Estadual do Caracol"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Sete Cidades"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual de Vila Velha",
+          "sources": [
+            "VV1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rocha das formações",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Arenito"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Granito"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Basalto"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mármore"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Arenito",
+          "sources": [
+            "VV1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Outros atrativos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Furnas e Lagoa Dourada"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Geleiras e fiordes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Recifes e atóis"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tepuis e floresta amazônica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Furnas e Lagoa Dourada",
+          "sources": [
+            "VV1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Cidade de referência",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Londrina"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cascavel"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Ponta Grossa",
+          "sources": [
+            "VV1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "vila-velha-viajante-P01",
+              "factKey": "vila-velha-F01",
+              "text": "O destino é um parque estadual no Sul do Brasil.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P02",
+              "factKey": "vila-velha-F02",
+              "text": "Grandes formações de pedra se destacam na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P03",
+              "factKey": "vila-velha-F03",
+              "text": "O material principal dessas formações é o arenito.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P04",
+              "factKey": "vila-velha-F04",
+              "text": "Algumas rochas lembram objetos e figuras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P05",
+              "factKey": "vila-velha-F05",
+              "text": "Uma das formações lembra uma taça.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P06",
+              "factKey": "vila-velha-F06",
+              "text": "Outra formação lembra uma garrafa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P07",
+              "factKey": "vila-velha-F07",
+              "text": "Uma figura também lembra uma bota.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P08",
+              "factKey": "vila-velha-F08",
+              "text": "O parque também tem grandes cavidades chamadas furnas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P09",
+              "factKey": "vila-velha-F09",
+              "text": "As furnas são diferentes das formações de arenito em relevo.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P10",
+              "factKey": "vila-velha-F10",
+              "text": "Um corpo de água é chamado Lagoa Dourada.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P11",
+              "factKey": "vila-velha-F11",
+              "text": "A paisagem combina rochas, cavidades e água.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P12",
+              "factKey": "vila-velha-F12",
+              "text": "A unidade foi tombada pelo patrimônio estadual em 1966.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P13",
+              "factKey": "vila-velha-F13",
+              "text": "O destino é um parque estadual, não federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P14",
+              "factKey": "vila-velha-F14",
+              "text": "O estado onde fica o parque é o Paraná.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P15",
+              "factKey": "vila-velha-F15",
+              "text": "Ponta Grossa é uma cidade de referência para o acesso.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P16",
+              "factKey": "vila-velha-F16",
+              "text": "A área recebe visitantes em trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P17",
+              "factKey": "vila-velha-F17",
+              "text": "O manejo procura reduzir o impacto dos visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P18",
+              "factKey": "vila-velha-F18",
+              "text": "As formas de pedra têm importância para a geologia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P19",
+              "factKey": "vila-velha-F19",
+              "text": "A taça é uma interpretação da forma de uma rocha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P20",
+              "factKey": "vila-velha-F20",
+              "text": "Nem todos os atrativos da unidade são montanhas altas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P21",
+              "factKey": "vila-velha-F21",
+              "text": "A água também integra a paisagem do parque.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P22",
+              "factKey": "vila-velha-F22",
+              "text": "A região fica no Sul brasileiro.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P23",
+              "factKey": "vila-velha-F23",
+              "text": "O arenito pode ser desgastado por processos erosivos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P24",
+              "factKey": "vila-velha-F24",
+              "text": "O patrimônio protegido reúne várias formas, não apenas uma pedra.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-viajante-P25",
+              "factKey": "vila-velha-F25",
+              "text": "Para identificar, combine arenitos com formatos, furnas e Paraná.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "vila-velha-geografo-P01",
+              "factKey": "vila-velha-F01",
+              "text": "A unidade estadual situa-se no Paraná.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P02",
+              "factKey": "vila-velha-F02",
+              "text": "A área conserva formas rochosas de arenito.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P03",
+              "factKey": "vila-velha-F03",
+              "text": "Os afloramentos são constituídos por arenito.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P04",
+              "factKey": "vila-velha-F04",
+              "text": "A erosão produziu formas que recebem nomes por semelhança visual.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P05",
+              "factKey": "vila-velha-F05",
+              "text": "A formação conhecida como Taça é símbolo do parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P06",
+              "factKey": "vila-velha-F06",
+              "text": "O conjunto inclui uma forma popularmente comparada a uma garrafa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P07",
+              "factKey": "vila-velha-F07",
+              "text": "A semelhança com uma bota dá nome a outra formação.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P08",
+              "factKey": "vila-velha-F08",
+              "text": "Depressões conhecidas como furnas são outros atrativos geológicos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P09",
+              "factKey": "vila-velha-F09",
+              "text": "O conjunto reúne feições superficiais e cavidades.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P10",
+              "factKey": "vila-velha-F10",
+              "text": "A Lagoa Dourada integra os atrativos da unidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P11",
+              "factKey": "vila-velha-F11",
+              "text": "O patrimônio geológico inclui arenitos, furnas e lagoa.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P12",
+              "factKey": "vila-velha-F12",
+              "text": "O tombamento estadual do parque ocorreu em 1966.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P13",
+              "factKey": "vila-velha-F13",
+              "text": "A categoria administrativa pertence ao estado do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P14",
+              "factKey": "vila-velha-F14",
+              "text": "A posição administrativa é paranaense.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P15",
+              "factKey": "vila-velha-F15",
+              "text": "O parque está próximo à cidade de Ponta Grossa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P16",
+              "factKey": "vila-velha-F16",
+              "text": "O uso público inclui percursos para observar as formações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P17",
+              "factKey": "vila-velha-F17",
+              "text": "A infraestrutura de visitação busca minimizar impactos ao patrimônio geológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P18",
+              "factKey": "vila-velha-F18",
+              "text": "A unidade conserva um patrimônio geológico reconhecido no estado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P19",
+              "factKey": "vila-velha-F19",
+              "text": "O nome popular decorre da semelhança da formação com um objeto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P20",
+              "factKey": "vila-velha-F20",
+              "text": "O sítio reúne arenitos e depressões além de relevo elevado.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P21",
+              "factKey": "vila-velha-F21",
+              "text": "A Lagoa Dourada constitui componente hídrico do conjunto.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P22",
+              "factKey": "vila-velha-F22",
+              "text": "A unidade insere-se no sul do Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P23",
+              "factKey": "vila-velha-F23",
+              "text": "A erosão atua na modelagem das formas rochosas expostas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P24",
+              "factKey": "vila-velha-F24",
+              "text": "A conservação envolve o conjunto dos afloramentos e outros elementos.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vila-velha-geografo-P25",
+              "factKey": "vila-velha-F25",
+              "text": "A identificação articula geologia, cavidades e localização estadual.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "VV1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque estadual paranaense com formas de arenito, furnas e a Lagoa Dourada.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

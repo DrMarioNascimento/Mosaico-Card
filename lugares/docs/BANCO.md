@@ -4401,3 +4401,151 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | Fica próximo ao estreito conhecido como Antarctic Sound. | A posição regional está na costa sudoeste do Antarctic Sound. | BB1 |
 | 24 | A paisagem reúne origem vulcânica e fauna polar. | A identificação combina litologia vulcânica e comunidades costeiras antárticas. | BB1 |
 | 25 | Para identificar, combine praia de seixos, falésias de tufo e pinguins. | O sítio se distingue por escarpas de tufo e colônias de duas espécies de pinguim. | BB1 |
+
+## Parque Nacional do Jaú
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional do Jaú | Parque Nacional do Jaú; Parque Nacional de Anavilhanas; Parque Nacional da Amazônia; Parque Nacional do Pico da Neblina; Parque Nacional do Viruá; Parque Nacional da Serra do Divisor; Parque Nacional do Cabo Orange; Parque Nacional Montanhas do Tumucumaque; Parque Nacional dos Campos Amazônicos; Parque Nacional do Araguaia; Parque Nacional do Iguaçu; Parque Nacional da Serra da Canastra |
+| Rio que limita a área a leste | Rio Negro | Rio Negro; Rio Tocantins; Rio São Francisco; Rio Paraná |
+| Ambiente sazonalmente inundado | Igapó | Igapó; Floresta boreal; Tundra; Mata mediterrânea |
+| Municípios de referência | Novo Airão e Barcelos | Novo Airão e Barcelos; Bonito e Jardim; Alto Caparaó e Dores do Rio Preto; Cambará do Sul e Praia Grande |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino protege uma extensa área de floresta amazônica. | A unidade abrange uma grande extensão contínua de floresta tropical úmida. | JAU1 |
+| 2 | A água dos rios é importante para conhecer o lugar. | Os cursos fluviais estruturam o acesso e a paisagem da unidade. | JAU1 |
+| 3 | O rio principal tem águas escuras. | A bacia protegida é de um rio amazônico de águas pretas. | JAU1 |
+| 4 | O nome do parque vem do rio que ele protege. | A denominação da unidade corresponde à da bacia principal. | JAU1 |
+| 5 | O nome do rio lembra um grande peixe de água doce. | A toponímia do rio deriva do nome de um peixe conhecido como jaú. | JAU1 |
+| 6 | A unidade protege praticamente toda a bacia desse rio. | A abrangência territorial acompanha quase toda a bacia hidrográfica principal. | JAU1 |
+| 7 | O rio Negro forma parte do limite do parque. | O limite oriental da unidade acompanha o rio Negro. | JAU1 |
+| 8 | Ao sul, a área chega ao rio Carabinani. | A delimitação meridional inclui águas do Carabinani. | JAU1 |
+| 9 | Ao norte, a área se estende para o rio Unini. | O rio Unini integra o limite setentrional da área protegida. | JAU1 |
+| 10 | A subida e a descida das águas alteram a paisagem. | A sazonalidade fluvial modifica os ambientes acessíveis. | JAU1 |
+| 11 | Na cheia é possível navegar entre árvores inundadas. | O aumento do nível da água permite percursos em florestas de igapó. | JAU1 |
+| 12 | Na seca aparecem praias e trechos de pedra. | A vazante expõe praias fluviais, corredeiras e pedrais. | JAU1 |
+| 13 | Existem florestas de igapó no parque. | A vegetação inclui florestas periodicamente inundadas. | JAU1 |
+| 14 | Também há ambientes de floresta de terra firme. | A unidade combina igapós e florestas não inundadas de terra firme. | JAU1 |
+| 15 | Araras e papagaios podem ser observados sobre a floresta. | A avifauna observável inclui araras e papagaios. | JAU1 |
+| 16 | A área preserva sítios arqueológicos. | Os registros culturais incluem sítios arqueológicos no território protegido. | JAU1 |
+| 17 | Há inscrições antigas feitas em pedras. | Petróglifos constituem evidências da ocupação humana regional. | JAU1 |
+| 18 | A unidade foi criada em 1980. | O decreto de criação do parque data de 1980. | JAU1 |
+| 19 | A UNESCO reconhece a importância da área. | O parque integra o patrimônio natural reconhecido internacionalmente. | JAU1 |
+| 20 | A área integra o Complexo de Conservação da Amazônia Central. | A unidade compõe um bem de conservação com outras áreas amazônicas. | JAU1 |
+| 21 | O parque fica no estado do Amazonas. | A localização administrativa pertence ao Amazonas. | JAU1 |
+| 22 | Novo Airão e Barcelos são municípios de referência. | A área situa-se entre os municípios de Novo Airão e Barcelos. | JAU1 |
+| 23 | O ambiente protegido é fluvial, não marítimo. | A rede de rios e florestas compõe um sistema continental de água doce. | JAU1 |
+| 24 | A visitação pode envolver passeios de barco e trilhas. | O uso público inclui percursos aquáticos e terrestres. | JAU1 |
+| 25 | Para identificar, combine bacia de águas pretas, igapós e limite no rio Negro. | A identificação relaciona hidrografia, regime de inundação e posição amazônica. | JAU1 |
+
+## Parque Nacional da Serra da Bodoquena
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional da Serra da Bodoquena | Parque Nacional da Serra da Bodoquena; Parque Nacional da Chapada dos Guimarães; Parque Nacional da Chapada dos Veadeiros; Parque Nacional das Emas; Parque Nacional do Pantanal Mato-Grossense; Parque Nacional de Brasília; Parque Nacional da Serra da Canastra; Parque Nacional do Itatiaia; Parque Nacional do Caparaó; Parque Nacional de Aparados da Serra; Parque Nacional da Chapada Diamantina; Parque Nacional do Iguaçu |
+| Rocha associada à hidrologia | Calcário | Calcário; Granito; Basalto; Gnaisse |
+| Fenômeno das águas | Sumidouros e ressurgências em terreno cárstico | Sumidouros e ressurgências em terreno cárstico; Formação de fiordes por geleiras; Dunas móveis levadas pelos ventos; Vulcanismo submarino ativo |
+| Estado | Mato Grosso do Sul | Mato Grosso do Sul; Mato Grosso; Goiás; Bahia |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é um parque no Centro-Oeste brasileiro. | A unidade situa-se no Mato Grosso do Sul. | BOD1, BOD2 |
+| 2 | Rios de água clara chamam atenção na paisagem. | Cursos fluviais de baixa turbidez são marcantes na região. | BOD1, BOD2 |
+| 3 | Alguns canais apresentam águas azuladas ou esverdeadas. | A paisagem fluvial inclui trechos de tonalidades azuladas e esmeralda. | BOD1, BOD2 |
+| 4 | A região possui rochas calcárias. | O substrato inclui calcário, relacionado à dinâmica da água. | BOD1, BOD2 |
+| 5 | A água pode dissolver parte das rochas. | A dissolução do calcário participa da formação de condutos subterrâneos. | BOD1, BOD2 |
+| 6 | Há cavernas e passagens subterrâneas na paisagem regional. | O relevo cárstico inclui cavernas e condutos em rocha calcária. | BOD1, BOD2 |
+| 7 | Em alguns pontos a água desaparece no solo. | Sumidouros integram a dinâmica hídrica regional. | BOD1, BOD2 |
+| 8 | Em outros pontos a água volta a surgir. | Ressurgências revelam conexões entre circulação subterrânea e superfície. | BOD1, BOD2 |
+| 9 | Depósitos de carbonato formam estruturas chamadas tufas. | A precipitação de carbonato produz depósitos de tufa calcária. | BOD1, BOD2 |
+| 10 | As tufas podem aparecer em cachoeiras e barragens naturais. | Depósitos calcários participam de formas ao longo das drenagens. | BOD1, BOD2 |
+| 11 | A área protegida também tem cachoeiras. | Quedas-d'água integram os atrativos descritos pelo ICMBio. | BOD1, BOD2 |
+| 12 | Cânions aparecem entre as formas de relevo. | Vales encaixados compõem parte da paisagem regional. | BOD1, BOD2 |
+| 13 | Matas acompanham as margens de rios. | A vegetação ciliar protege as margens dos cursos de água. | BOD1, BOD2 |
+| 14 | A mata ciliar ajuda a reduzir o transporte de terra para os rios. | A cobertura nas margens contribui para conter erosão e assoreamento. | BOD1, BOD2 |
+| 15 | A região combina diferentes formações vegetais. | O mosaico inclui Cerrado e florestas estacionais. | BOD1, BOD2 |
+| 16 | Parte das árvores perde folhas na época seca. | A sazonalidade da vegetação inclui perda de folhas na estiagem. | BOD1, BOD2 |
+| 17 | O parque é apontado como área de Mata Atlântica em meio ao Cerrado. | O ICMBio descreve um enclave de Mata Atlântica no contexto do Cerrado. | BOD1, BOD2 |
+| 18 | A unidade é um parque nacional. | A área tem a categoria federal de parque nacional. | BOD1, BOD2 |
+| 19 | A unidade abrange o município de Bonito. | Bonito é um dos municípios que abrangem o parque. | BOD1, BOD2 |
+| 20 | Jardim também está entre os municípios associados. | O território protegido compreende parte do município de Jardim. | BOD1, BOD2 |
+| 21 | Outro município tem o mesmo nome da serra. | O parque abrange também o município que compartilha o nome da serra. | BOD1, BOD2 |
+| 22 | O parque fica em Mato Grosso do Sul. | A localização administrativa é Mato Grosso do Sul. | BOD1, BOD2 |
+| 23 | A conservação depende da qualidade das águas. | O funcionamento e a preservação das tufas se relacionam à qualidade da água. | BOD1, BOD2 |
+| 24 | O lugar não é uma ilha arenosa oceânica. | A unidade protege uma serra continental e seus rios. | BOD1, BOD2 |
+| 25 | Para identificar, combine rios transparentes, calcário e Mato Grosso do Sul. | A identificação articula hidrologia, geologia cárstica e localização regional. | BOD1, BOD2 |
+
+## Parque Nacional do Itatiaia
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional do Itatiaia | Parque Nacional do Itatiaia; Parque Nacional do Caparaó; Parque Nacional da Serra dos Órgãos; Parque Nacional da Serra da Bocaina; Parque Nacional da Serra do Cipó; Parque Nacional da Serra da Canastra; Parque Nacional de Aparados da Serra; Parque Nacional da Serra Geral; Parque Nacional do Iguaçu; Parque Nacional da Tijuca; Parque Nacional da Chapada Diamantina; Parque Nacional das Emas |
+| Ambientes de altitude | Campos de altitude e floresta úmida | Campos de altitude e floresta úmida; Recifes de coral e manguezais insulares; Dunas móveis e lagoas costeiras; Tundra e floresta boreal |
+| Pico de referência | Agulhas Negras | Agulhas Negras; Pico da Bandeira; Pico da Neblina; Pico Paraná |
+| Marco histórico | Primeiro parque nacional brasileiro, criado em 1937 | Primeiro parque nacional brasileiro, criado em 1937; Primeiro parque nacional brasileiro, criado em 1989; Primeiro parque estadual do Paraná, criado em 1953; Parque nacional criado para proteger dunas em 1981 |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma área protegida de montanhas no Sudeste brasileiro. | A unidade preserva ambientes serranos no Sudeste. | ITA1, ITA2, ITA3 |
+| 2 | O parque tem áreas chamadas parte alta e parte baixa. | A visitação organiza-se em setores com diferentes altitudes. | ITA1, ITA2, ITA3 |
+| 3 | A parte alta possui campos de altitude. | A vegetação do setor elevado inclui campos de altitude. | ITA1, ITA2, ITA3 |
+| 4 | A parte baixa abriga floresta úmida. | A cobertura vegetal do setor baixo inclui floresta densa de Mata Atlântica. | ITA1, ITA2, ITA3 |
+| 5 | O contraste entre campos e floresta acompanha a altitude. | O gradiente altitudinal relaciona-se a diferentes formações vegetais. | ITA1, ITA2, ITA3 |
+| 6 | Montanhas atraem pessoas interessadas em caminhadas e escaladas. | O relevo favorece atividades de montanhismo e trekking. | ITA1, ITA2, ITA3 |
+| 7 | Um pico famoso recebe o nome de Agulhas Negras. | O Pico das Agulhas Negras é um dos principais cumes da área. | ITA1, ITA2, ITA3 |
+| 8 | O pico chega a cerca de 2.791 metros. | A altitude do ponto mais alto indicado pelo ICMBio é próxima de 2.791 metros. | ITA1, ITA2, ITA3 |
+| 9 | O maciço das Prateleiras é outro ponto da parte alta. | O setor elevado inclui o Maciço das Prateleiras. | ITA1, ITA2, ITA3 |
+| 10 | O Morro do Couto também está na área alta. | A unidade inclui o Morro do Couto entre suas elevações. | ITA1, ITA2, ITA3 |
+| 11 | A parte baixa tem cachoeiras. | O setor florestal inclui quedas-d'água e trilhas. | ITA1, ITA2, ITA3 |
+| 12 | Uma cachoeira local se chama Véu de Noiva. | A Cachoeira Véu de Noiva integra os atrativos do setor baixo. | ITA1, ITA2, ITA3 |
+| 13 | A cachoeira Itaporani também é citada entre os atrativos. | A rede de visitação inclui a Cachoeira Itaporani. | ITA1, ITA2, ITA3 |
+| 14 | A região do Maromba tem área de água visitada. | O Piscinão do Maromba é um atrativo do setor baixo. | ITA1, ITA2, ITA3 |
+| 15 | A unidade é reconhecida como o primeiro parque nacional do Brasil. | Sua criação inaugurou a categoria de parque nacional no país. | ITA1, ITA2, ITA3 |
+| 16 | A criação ocorreu em 1937. | A unidade federal foi criada em 1937. | ITA1, ITA2, ITA3 |
+| 17 | A área fica na Serra da Mantiqueira. | O parque está inserido na Serra da Mantiqueira. | ITA1, ITA2, ITA3 |
+| 18 | O território envolve Rio de Janeiro e Minas Gerais. | A unidade ocupa municípios fluminenses e mineiros. | ITA1, ITA2, ITA3 |
+| 19 | Resende é um dos municípios relacionados à área. | O território do parque alcança o município fluminense de Resende. | ITA1, ITA2, ITA3 |
+| 20 | Itamonte é um dos municípios do lado mineiro. | O parque abrange parte de Itamonte, em Minas Gerais. | ITA1, ITA2, ITA3 |
+| 21 | O Pico das Agulhas Negras é referência de altitude fluminense. | O cume é apontado como ponto culminante do estado do Rio de Janeiro. | ITA1, ITA2, ITA3 |
+| 22 | A Mata Atlântica está entre os ambientes protegidos. | A unidade conserva ecossistemas do bioma Mata Atlântica. | ITA1, ITA2, ITA3 |
+| 23 | A paisagem elevada pode ter clima de montanha. | O setor alto apresenta condições climáticas de montanha. | ITA1, ITA2, ITA3 |
+| 24 | A proteção envolve diferentes ambientes, não somente o pico. | O parque conserva um gradiente que vai da floresta aos campos elevados. | ITA1, ITA2, ITA3 |
+| 25 | Para identificar, combine primeiro parque nacional, Mantiqueira e Agulhas Negras. | A identificação relaciona história institucional, serra e cume. | ITA1, ITA2, ITA3 |
+
+## Parque Estadual de Vila Velha
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque estadual | Parque Estadual de Vila Velha | Parque Estadual de Vila Velha; Parque Estadual do Guartelá; Parque Estadual do Jalapão; Parque Estadual do Ibitipoca; Parque Estadual da Ilha do Mel; Parque Estadual do Rio Preto; Parque Estadual do Caracol; Parque Nacional da Serra Geral; Parque Nacional de Aparados da Serra; Parque Nacional de Itatiaia; Parque Nacional do Catimbau; Parque Nacional de Sete Cidades |
+| Rocha das formações | Arenito | Arenito; Granito; Basalto; Mármore |
+| Outros atrativos | Furnas e Lagoa Dourada | Furnas e Lagoa Dourada; Geleiras e fiordes; Recifes e atóis; Tepuis e floresta amazônica |
+| Cidade de referência | Ponta Grossa | Ponta Grossa; Curitiba; Londrina; Cascavel |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é um parque estadual no Sul do Brasil. | A unidade estadual situa-se no Paraná. | VV1 |
+| 2 | Grandes formações de pedra se destacam na paisagem. | A área conserva formas rochosas de arenito. | VV1 |
+| 3 | O material principal dessas formações é o arenito. | Os afloramentos são constituídos por arenito. | VV1 |
+| 4 | Algumas rochas lembram objetos e figuras. | A erosão produziu formas que recebem nomes por semelhança visual. | VV1 |
+| 5 | Uma das formações lembra uma taça. | A formação conhecida como Taça é símbolo do parque. | VV1 |
+| 6 | Outra formação lembra uma garrafa. | O conjunto inclui uma forma popularmente comparada a uma garrafa. | VV1 |
+| 7 | Uma figura também lembra uma bota. | A semelhança com uma bota dá nome a outra formação. | VV1 |
+| 8 | O parque também tem grandes cavidades chamadas furnas. | Depressões conhecidas como furnas são outros atrativos geológicos. | VV1 |
+| 9 | As furnas são diferentes das formações de arenito em relevo. | O conjunto reúne feições superficiais e cavidades. | VV1 |
+| 10 | Um corpo de água é chamado Lagoa Dourada. | A Lagoa Dourada integra os atrativos da unidade. | VV1 |
+| 11 | A paisagem combina rochas, cavidades e água. | O patrimônio geológico inclui arenitos, furnas e lagoa. | VV1 |
+| 12 | A unidade foi tombada pelo patrimônio estadual em 1966. | O tombamento estadual do parque ocorreu em 1966. | VV1 |
+| 13 | O destino é um parque estadual, não federal. | A categoria administrativa pertence ao estado do Paraná. | VV1 |
+| 14 | O estado onde fica o parque é o Paraná. | A posição administrativa é paranaense. | VV1 |
+| 15 | Ponta Grossa é uma cidade de referência para o acesso. | O parque está próximo à cidade de Ponta Grossa. | VV1 |
+| 16 | A área recebe visitantes em trilhas. | O uso público inclui percursos para observar as formações. | VV1 |
+| 17 | O manejo procura reduzir o impacto dos visitantes. | A infraestrutura de visitação busca minimizar impactos ao patrimônio geológico. | VV1 |
+| 18 | As formas de pedra têm importância para a geologia. | A unidade conserva um patrimônio geológico reconhecido no estado. | VV1 |
+| 19 | A taça é uma interpretação da forma de uma rocha. | O nome popular decorre da semelhança da formação com um objeto. | VV1 |
+| 20 | Nem todos os atrativos da unidade são montanhas altas. | O sítio reúne arenitos e depressões além de relevo elevado. | VV1 |
+| 21 | A água também integra a paisagem do parque. | A Lagoa Dourada constitui componente hídrico do conjunto. | VV1 |
+| 22 | A região fica no Sul brasileiro. | A unidade insere-se no sul do Brasil. | VV1 |
+| 23 | O arenito pode ser desgastado por processos erosivos. | A erosão atua na modelagem das formas rochosas expostas. | VV1 |
+| 24 | O patrimônio protegido reúne várias formas, não apenas uma pedra. | A conservação envolve o conjunto dos afloramentos e outros elementos. | VV1 |
+| 25 | Para identificar, combine arenitos com formatos, furnas e Paraná. | A identificação articula geologia, cavidades e localização estadual. | VV1 |
