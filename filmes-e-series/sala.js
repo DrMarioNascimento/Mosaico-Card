@@ -8,6 +8,10 @@
   };
   const CONFIG_PADRAO = { tempoPorJogada: 45, duracao: "padrao", telao: false, sessao: { formatos: ["filme", "serie"], top50: false } };
   const COLECAO = "salas-cinema";
+  function validarEdicao(data) {
+    const edicao=data && data.config && data.config.edicao || 'cinema';
+    if(edicao!=='cinema') throw new Error('Esta sala é de '+(edicao==='lugares'?'Lugares':'Filmes e Séries')+'. Entre pelo link enviado pelo mestre.');
+  }
   function sessaoDe(config) { return window.MC_SESSAO ? window.MC_SESSAO.normalizar(config && config.sessao) : { formatos: ["filme", "serie"], top50: false }; }
   const sala = {
     codigo: null,
@@ -215,6 +219,7 @@
 
   function aplicarDoc(data) {
     if (!data) return;
+    try { validarEdicao(data); } catch(e) { setStatus(sala.telao ? "#telao-msg" : "#entrar-status",e.message); return; }
     sala.ultimoDoc = data;
     if (window.MC_MESA) window.MC_MESA.observarSala(data);
     if (data.ativa === false || data.fase === "encerrada") {
@@ -395,6 +400,7 @@
         if (!cod) { setStatus("#entrar-status", "Digite o código da mesa."); return; }
         const ref = refSala(cod);
         const atual = await ref.get();
+        if(atual.exists) validarEdicao(atual.data());
         if (atual.exists && atual.data().autoridade === "mestre") {
           setStatus("#entrar-status", "Entrando na sala… mantenha a tela do mestre aberta.");
           const data = await window.MC_MESA.entrar(cod, nome, sala.forma);
@@ -517,6 +523,7 @@
   sala.aplicarDoc = aplicarDoc;
   sala.resetar = resetarSala;
   sala.souMestre = souMestre;
+  sala.validarEdicao = validarEdicao;
   sala.sessao = function () { return sessaoDe(sala.config); };
   sala.pintar = pintar;
   sala.show = show;

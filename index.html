@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Mosaico Card — A verdade é um fragmento. Escolha a versão: Novo Testamento ou Filmes e Séries.">
+  <meta name="description" content="Mosaico Card — A verdade é um fragmento. Escolha a versão: Novo Testamento, Filmes e Séries ou Lugares.">
   <title>Mosaico Card — Escolha a versão</title>
   <script>
     /* Links e QR codes antigos de sala do Novo Testamento apontavam para a raiz (?sala=…).
@@ -26,7 +26,7 @@
       color: var(--texto); font: 400 16px/1.5 Inter, system-ui, sans-serif;
       padding: max(28px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
     }
-    main { width: min(980px, 100%); margin: 0 auto; text-align: center; }
+    main { width: min(1180px, 100%); margin: 0 auto; text-align: center; }
     .marca p { margin: 0 0 6px; color: var(--ouro); font: 900 clamp(26px, 5vw, 38px)/1.2 "Cinzel Decorative", Georgia, serif; letter-spacing: .1em; }
     .marca span { color: var(--suave); font: italic 16px/1.5 Georgia, serif; }
     .peca { display: block; width: 92px; height: auto; margin: 22px auto 4px; animation: flutua 5s ease-in-out infinite; }
@@ -34,7 +34,7 @@
     @media (prefers-reduced-motion: reduce) { .peca { animation: none; } }
     h1 { margin: 6px 0 4px; font: 600 clamp(24px, 4vw, 32px)/1.3 Georgia, serif; text-wrap: balance; }
     .sub { margin: 0 0 26px; color: #d6d8dc; }
-    .versoes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .versoes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
     .versao {
       display: flex; flex-direction: column; overflow: hidden; text-decoration: none; color: inherit; text-align: left;
       background: var(--cartao); border: 1px solid var(--borda); border-radius: 18px;
@@ -42,6 +42,7 @@
     }
     .versao:hover, .versao:focus-visible { transform: translateY(-3px); border-color: var(--ouro); box-shadow: 0 10px 30px rgba(0,0,0,.45); outline: none; }
     .versao img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+    .capa-lugares{aspect-ratio:16/9;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:radial-gradient(circle at 35% 25%,#33736c,#163f48 55%,#0c242d);box-shadow:inset 0 2px 2px #ffffff28,inset 0 -12px 28px #0007;color:#f2cf86}.capa-lugares>span{font:110px/1 Georgia,serif;text-shadow:0 8px 12px #0007}.capa-lugares small{letter-spacing:.25em;font-weight:800}
     .texto { display: flex; flex: 1; flex-direction: column; gap: 6px; padding: 16px 18px 18px; }
     .rotulo { color: var(--ouro); font: 700 12px/1.2 Inter, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
     .versao h2 { margin: 0; font: 700 22px/1.25 Georgia, serif; }
@@ -85,6 +86,10 @@
           <p>Você conhece filmes e séries. Mas consegue reconhecer a obra através de pistas?</p>
           <span class="botao">Entrar em Filmes e Séries <span aria-hidden="true">→</span></span>
         </span>
+      </a>
+      <a class="versao" href="lugares/">
+        <span class="capa-lugares" aria-hidden="true"><span>◎</span><small>BRASIL · MUNDO</small></span>
+        <span class="texto"><span class="rotulo">Viajante · Geógrafo</span><h2>Lugares</h2><p>Rios, cidades, paisagens e culturas. Conecte as pistas e descubra seu próximo destino.</p><span class="botao">Entrar em Lugares <span aria-hidden="true">→</span></span></span>
       </a>
     </div>
     <p class="rodape">Um jogo <a href="https://dragongames.dev.br/">Dragon Games</a> · 2 a 12 jogadores, cada um no próprio celular.</p>

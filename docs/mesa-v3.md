@@ -7,7 +7,7 @@ As edições compartilham `mesa-core.js` (regras determinísticas), `mesa-runtim
 - O mestre escolhe conteúdo e formato. Filmes/Séries/Top 50 não aparecem aos jogadores.
 - Sessão Clássica: um jogador por vez. Maratonar: dois jogadores ao mesmo tempo, cada um por si. Com número ímpar, alterna quem joga sozinho a cada rodada.
 - No Maratonar, as escolhas se resolvem juntas. Dois acertos na mesma questão pontuam igualmente. Capturas disputadas têm prioridade alternada, sem cobrança de quem ficou sem a pista e com nova escolha por até 15 segundos. Dois cliques no mesmo verso retiram cartas distintas.
-- O mestre inicia a demonstração: duas rodadas, uma especial e nenhuma classificação. Exemplos identificados completam mesas com menos de quatro pessoas. Cada etapa ensina uma ação; quem espera recebe texto de observação. Entendi recolhe apenas a dica local. A partida seguinte começa limpa.
+- O mestre inicia a demonstração: duas rodadas livres, carta especial, fechamento e placar. Bots identificados completam mesas com menos de quatro pessoas. Quem espera recebe texto de observação; Entendi recolhe apenas a dica local. O botão Voltar à sala permite iniciar uma partida limpa.
 - Arriscar exige saldo 3, seleção de alternativa e confirmação. Só o erro desconta 3. Ajuda permanece disponível; na partida real o relógio continua durante a consulta.
 
 ## Autoridade e transações
@@ -34,9 +34,13 @@ Em outro aparelho, o mestre gera token aleatório de 128 bits, válido por 5 min
 
 - `npm test`: bancos e regras anteriores; ambos os formatos, edições e 2–12 pessoas; duas rodadas e uma especial; acertos simultâneos, captura disputada, recibos, identidades/abas incorretas, rodízio ímpar, pausa e pontuação.
 - Integração DOM com transporte em memória: botões, ocultação de configurações, refresh de jogador/mestre, duas abas, confirmação perdida, ausência longa e token usado uma vez.
-- `npm run test:firebase` (Java 21): SDK Firestore e emulador oficial com as regras reais, quatro clientes independentes nas duas edições, demonstração terminada por jogador, reinício limpo, refresh, recuperação, fechamento e apuração. Inclui permanência ociosa por mais de 30 segundos sem falsa desconexão e rejeição de acesso cruzado, escrita de saldo/configuração/vínculo, resultados falsos, pedidos grandes, timestamps falsos e documentos órfãos. CI executa ambas as suítes.
+- `npm run test:firebase` (Java 21): SDK Firestore e emulador oficial com as regras reais, quatro clientes independentes em Novo Testamento, Filmes e Séries e Lugares, demonstração terminada por jogador, reinício limpo, refresh, recuperação, fechamento e apuração. Inclui permanência ociosa por mais de 30 segundos sem falsa desconexão e rejeição de acesso cruzado, escrita de saldo/configuração/vínculo, resultados falsos, pedidos grandes, timestamps falsos e documentos órfãos. CI executa ambas as suítes.
 - QA visual e limites em `design-qa.md`. Capturas em `docs/qa/`.
 
 ## Publicação e limites
 
 Publicar primeiro `firestore.rules`, que preserva salas legadas, e depois o frontend. Não mudar o plano Spark nem as identidades autorizadas. As regras são um protótipo validado para este fluxo conduzido por mestre; revisar novamente antes de uma abertura ampla ao público, principalmente a retirada do contrato legado e limites de uso por sala. Testes no emulador não substituem latência, suspensão de aplicativo e conectividade de celulares físicos.
+
+## Lugares — 14 de novembro de 2026
+
+A edição Lugares utiliza a identidade própria `mc:sessao:v3:lugares`, catálogo com perfil incorporado ao ID da pauta e seleção territorial por união. As salas usam a infraestrutura já autorizada em `salas-cinema`, discriminadas por `config.edicao`. A entrada pela edição errada é recusada antes do pedido. A lista de mestres e as regras Firestore permanecem as mesmas.

@@ -5,8 +5,9 @@
   const $ = q => document.querySelector(q);
   const E = () => window.MC_GAME_ENGINE;
   const cinema = location.pathname.includes("filmes-e-series");
-  const moeda = cinema ? "ingressos" : "denários";
-  const chave = "mc:sessao:v3:" + (cinema ? "cinema" : "nt");
+  const edicao = window.MC_EDITION || {id:cinema?'cinema':'nt',moeda:cinema?'ingressos':'denários',demo:cinema?'pipoca':'ovelha',oferta:cinema?'Em cartaz':'Consignar',ofertaVerbo:cinema?'pôr em cartaz':'consignar',ofertaLocal:cinema?'em cartaz':'no balaio'};
+  const moeda = edicao.moeda;
+  const chave = 'mc:sessao:v3:'+edicao.id;
   const uuid = () => {
     if (crypto.randomUUID) return crypto.randomUUID();
     const bytes = crypto.getRandomValues(new Uint8Array(16));
@@ -65,7 +66,7 @@
     const ref = S.ref(S.codigo);
     const data = await window.MC_FB.db.runTransaction(async tx => {
       const doc = await tx.get(ref); if (!doc.exists) throw new Error("Sala não encontrada.");
-      const d = doc.data(); if (d.ativa === false) throw new Error("Esta sala foi encerrada.");
+      const d = doc.data(); if(S.validarEdicao) S.validarEdicao(d); if (d.ativa === false) throw new Error("Esta sala foi encerrada.");
       const j = C.participante(d, window.MC_FB.uid);
       if (!j) throw new Error("Seu acesso não foi encontrado. Peça ao mestre um código de recuperação.");
       const agora = Date.now(), p = (d.presencas || {})[j.id];
@@ -246,7 +247,11 @@
       tx.set(pedidoRef, Object.assign({}, p, { payload: "{}", resultado: { ok: !erro, erro: erro.slice(0, 300) } }));
     });
   }
-  async function entrar(codigo, nome, forma) { return pedir(codigo, "entrar", { nome, forma }); }
+  async function entrar(codigo, nome, forma) {
+    const doc=await S.ref(codigo).get();if(!doc.exists)throw new Error('Sala não encontrada.');
+    if(S.validarEdicao)S.validarEdicao(doc.data());
+    return pedir(codigo, 'entrar', { nome, forma });
+  }
   function aguardaMestre() { const d = dadosSala(); return !!(!local && S.online && d && d.autoridade === "mestre" && !C.presente((d.presencas || {})[d.mestre], Date.now())); }
   function souMestre() { return !!local || S.souMestre(); }
   function meuId() { return local ? "voce" : S.playerId || S.uid; }
@@ -341,7 +346,7 @@
     if (!S.souMestre()) return;
     try {
       await conectar(); if (!ligado) return;
-      const ref = S.ref(S.codigo), modelo = window.MC_CASOS[cinema ? "pipoca" : "ovelha"], partidaId = uuid();
+      const ref = S.ref(S.codigo), modelo = window.MC_CASOS[edicao.demo], partidaId = uuid();
       const data = await window.MC_FB.db.runTransaction(async tx => {
         const doc = await tx.get(ref), d = doc.data();
         if (d.fase !== "lobby" || d.mestre !== S.uid) throw new Error("Volte à sala para iniciar a demonstração.");
@@ -356,7 +361,7 @@
   function iniciarTreinoLocal() {
     ligado = false; S.online = false;
     const jogadores = [{ id: "voce", nome: S.nome || "Você" }];
-    const treino = C.treino(window.MC_CASOS[cinema ? "pipoca" : "ovelha"], jogadores, { modalidade: "classica", tempoPorJogada: 45, duracao: "padrao" }, Date.now(), uuid());
+    const treino = C.treino(window.MC_CASOS[edicao.demo], jogadores, { modalidade: "classica", tempoPorJogada: 45, duracao: "padrao" }, Date.now(), uuid());
     local = Object.assign({ jogadores, mestre: "voce", presencas: { voce: { aba, ate: Date.now() + C.GRACA } }, fase: "deal" }, treino);
     receber(local);
   }
@@ -409,8 +414,8 @@
     const p = C.passoTreino(s, dadosSala().ordem, id), rodada = Math.floor(s.vez / dadosSala().ordem.length) + 1;
     let texto = "";
     if (p.tipo === "comprar") texto = p.especial ? "Toque em Comprar e em uma carta. Esta é a única carta especial do treino: +6, sem pagar pela compra." : "Veja suas pistas e seu saldo de 12. Toque em Comprar e escolha uma carta do monte. Custa 4.";
-    if (p.tipo === "consignar") texto = "Escolha “" + (cinema ? "Em cartaz" : "Consignar") + "” e uma pista sua. É grátis. Você recebe 2 se alguém a levar.";
-    if (p.tipo === "capturar") texto = p.cartaz ? "Toque em Capturar e escolha a pista " + (cinema ? "em cartaz" : "no balaio") + ". Você paga 2 e quem ofereceu recebe 2." : "Toque em Capturar e escolha uma pista de outro jogador. Custa 2. Cartas protegidas não podem ser levadas.";
+    if (p.tipo === "consignar") texto = "Escolha “" + edicao.oferta + "” e uma pista sua. É grátis. Você recebe 2 se alguém a levar.";
+    if (p.tipo === "capturar") texto = p.cartaz ? "Toque em Capturar e escolha a pista " + edicao.ofertaLocal + ". Você paga 2 e quem ofereceu recebe 2." : "Toque em Capturar e escolha uma pista de outro jogador. Custa 2. Cartas protegidas não podem ser levadas.";
     if (p.tipo === "arriscar") {
       const campo = s.campos.find(c => c.id === p.campo), op = campo.opcoes.find(o => o.id === p.valor);
       texto = "Experimente Arriscar: em “" + campo.rotulo + "”, escolha “" + op.txt + "” e confirme. " + (p.valor === campo.resposta ? "O acerto vale pontos e fecha a questão para todos; não desconta saldo." : "Vamos simular um erro: perde 3 e fecha a questão só para você. É preciso ter pelo menos 3.");
@@ -440,7 +445,7 @@
     }
     jogadaBot.hidden = !livre || !s.treinoUltimaJogada;
     const status = $("#estado-acoes");
-    const acoes = { arriscar: "Arriscar", capturar: "Capturar", comprar: "Comprar", consignar: cinema ? "Em cartaz" : "Consignar" };
+    const acoes = { arriscar: "Arriscar", capturar: "Capturar", comprar: "Comprar", consignar: edicao.oferta };
     const aviso = aguardaMestre() ? "Aguardando o mestre reconectar" : s.pausado ? "Partida pausada" : ocupado ? "Confirmando sua escolha…" : s.escolhas[id] ? "Escolha confirmada · aguarde a outra escolha" : vezLocal ? "Sua vez · " + (passoLocal ? "experimente " + acoes[passoLocal.tipo] : "escolha uma ação") : "Aguarde sua vez";
     if (status && status.textContent !== aviso) status.textContent = aviso;
     document.querySelectorAll("#verbos button, #leque button, #painel button").forEach(btn => {
@@ -461,7 +466,7 @@
         passar.disabled = !vezLocal;
         if (livre) {
           const rodada = Math.floor(s.vez / d.ordem.length) + 1;
-          const oferta = cinema ? "pôr em cartaz" : "consignar";
+          const oferta = edicao.ofertaVerbo;
           const dica = vezLocal
             ? "Sua vez. Você pode arriscar, capturar, comprar ou " + oferta + "."
             : "Acompanhe a mesa e revise suas pistas enquanto espera.";

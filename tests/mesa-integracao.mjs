@@ -12,19 +12,49 @@ class Servidor {
  gravar(path,data){this.docs.set(path,clone(data));for(const fn of this.listeners.get(path)||[])queueMicrotask(()=>fn(this.snap(path)));const col=path.slice(0,path.lastIndexOf('/'));for(const fn of this.collectionListeners.get(col)||[])queueMicrotask(()=>fn(this.query(col)));}
  db(){return {collection:n=>({doc:id=>this.ref(n+'/'+id)}),runTransaction:fn=>{const p=this.fila.then(async()=>{const writes=[];const out=await fn({get:async ref=>this.snap(ref.path),set:(ref,d)=>writes.push([ref.path,d]),update:(ref,d)=>writes.push([ref.path,{...this.docs.get(ref.path),...d}])});for(const [p,d]of writes)this.gravar(p,d);if(this.falharDepois){this.falharDepois=false;const e=new Error('Resposta de rede perdida');e.code='unavailable';throw e;}return out;});this.fila=p.catch(()=>{});return p;}};}
 }
-for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]){
+for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'], ['lugares','viajante'], ['lugares','geografo']]){
  const server=new Servidor();let master=await abrir(server,edicao,'mestre',{google:true}),player=await abrir(server,edicao,'pessoa');
  assert.equal(master.auth.anonimos,0,'Refresh não substitui a identidade Google');
  click(master,'#btn-abrir-mesa');await flush();assert.equal(master.w.document.querySelector('#modal-mestre').hidden,false);
  fill(master,'[name=modalidade][value=maratonar]','maratonar');master.w.document.querySelector('[name=modalidade][value=maratonar]').checked=true;
- if(modo) click(master,'[name=modo-nt][value='+modo+']');
+ if(edicao==='nt'&&modo) click(master,'[name=modo-nt][value='+modo+']');
+ if(edicao==='lugares') {const input=master.w.document.querySelector('[name=sessao-perfil][value='+modo+']');input.checked=true;input.dispatchEvent(new master.w.Event('change',{bubbles:true}));}
+ if(edicao==='lugares') {
+   const q=sel=>master.w.document.querySelector(sel);
+   q('#sessao-lugares [data-territorio=todos]').click();
+   assert.equal(q('#btn-abrir-com-mesa').disabled,true,'Sem seleção não cria sala');
+   assert.equal(q('#sessao-lugares [data-territorio=norte]').disabled,true,'Região sem banco informa em breve');
+   q('#sessao-lugares [data-territorio=brasil]').click();
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/2 lugares.*Pouca variedade/);
+   q('#sessao-lugares [data-territorio=america]').click();
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/3 lugares/);
+   q('#sessao-lugares [data-territorio=todos]').click();
+ }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
  const codigo=master.w.MC_SALA.codigo;assert.ok(codigo);assert.equal(master.w.MC_SALA.fase,'lobby');
+ if(edicao==='lugares') {
+   const wrong=await abrir(server,'cinema','outra-edicao');click(wrong,'#btn-ir-entrar');fill(wrong,'#nome','Outra versão');fill(wrong,'#cod',codigo);click(wrong,'#btn-entrar-mesa');await flush();
+   assert.match(wrong.w.document.querySelector('#entrar-status').textContent,/Esta sala é de Lugares/);
+   assert.equal(master.w.MC_SALA.jogadores.length,1);wrong.close();
+ }
+
  click(player,'#btn-ir-entrar');fill(player,'#nome','Pessoa de teste');fill(player,'#cod',codigo);click(player,'#btn-entrar-mesa');await flush();
  assert.equal(player.w.document.querySelector('.scene.active').id,'lobby');
  assert.equal(player.w.document.querySelector('#lobby-formato').hidden,true);
- if(modo) assert.equal(player.w.MC_SALA.config.modoNT,modo);
- if(edicao==='cinema')assert.equal(player.w.document.querySelector('#lobby-sessao').hidden,true);
+ if(edicao==='nt'&&modo) assert.equal(player.w.MC_SALA.config.modoNT,modo);
+ if(edicao==='lugares') {
+   assert.equal(player.w.MC_SALA.config.sessao.perfil,modo);
+   const outro=modo==='viajante'?'geografo':'viajante';
+   for(const perfil of [outro,modo]) {
+     const input=master.w.document.querySelector('[name=lobby-perfil][value='+perfil+']');input.checked=true;input.dispatchEvent(new master.w.Event('change',{bubbles:true}));await flush();
+     assert.equal(player.w.MC_SALA.config.sessao.perfil,perfil,'Troca no lobby sincroniza para os participantes');
+   }
+   master.w.document.querySelector('#lobby-lugares [data-territorio=brasil]').click();await flush();
+   assert.deepEqual(clone(player.w.MC_SALA.config.sessao.territorios),['brasil']);
+   master.w.document.querySelector('#lobby-lugares [data-territorio=todos]').click();await flush();
+ }
+
+ if(edicao==='cinema'||edicao==='lugares')assert.equal(player.w.document.querySelector('#lobby-sessao').hidden,true);
  assert.equal(player.w.document.querySelector('#assistencia'),null);
  click(master,'#btn-treino');await flush();
  assert.equal(master.w.MC_GAME_ENGINE.state.treino,true);assert.equal(player.w.MC_GAME_ENGINE.state.treino,true);
@@ -63,7 +93,8 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]
  assert.equal(master.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,12);assert.equal(master.w.MC_SALA.ultimoDoc.ordem.length,2);
  if(modo){
    const id=master.w.MC_SALA.ultimoDoc.pautaId;
-   assert.equal(id.endsWith('-devocional'),modo==='devocional');
+   if(edicao==='nt')assert.equal(id.endsWith('-devocional'),modo==='devocional');
+   if(edicao==='lugares')assert.ok(id.endsWith('-'+modo));
    assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,id);
  }
  // Resposta perdida após commit: o refresh reenvia a mesma operação sem duplicar o débito.
@@ -102,7 +133,7 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]
  master.w.confirm=()=>false;click(master,'#btn-encerrar-sala');await flush();assert.equal(master.w.MC_SALA.codigo,codigo);
  master.w.confirm=()=>true;const historico=clone(master.w.MC_GAME_ENGINE.state.maosPorJogador);
  click(master,'#btn-encerrar-sala');await flush();
- const encerrada=server.docs.get((edicao==='cinema'?'salas-cinema':'salas')+'/'+codigo);
+ const encerrada=server.docs.get((edicao==='nt'?'salas':'salas-cinema')+'/'+codigo);
  assert.equal(encerrada.ativa,false);assert.equal(encerrada.snap.fase,'encerrada');assert.deepEqual(encerrada.snap.maosPorJogador,historico);
  assert.equal(master.w.MC_SALA.codigo,null);assert.equal(nova.w.MC_SALA.codigo,null);
  nova.close();intruso.close();
