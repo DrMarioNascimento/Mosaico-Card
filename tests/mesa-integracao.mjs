@@ -27,9 +27,9 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    q('#sessao-lugares [data-territorio=centro-oeste]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/1 lugar.*Pouca variedade/);
    q('#sessao-lugares [data-territorio=brasil]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/4 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/7 lugares/);
    q('#sessao-lugares [data-territorio=america]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/5 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/8 lugares/);
    q('#sessao-lugares [data-territorio=todos]').click();
  }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
@@ -98,6 +98,12 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    if(edicao==='nt')assert.equal(id.endsWith('-devocional'),modo==='devocional');
    if(edicao==='lugares')assert.ok(id.endsWith('-'+modo));
    assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,id);
+   if(edicao==='lugares') {
+     const a=master.w.MC_GAME_ENGINE.dados().campos[0], b=player.w.MC_GAME_ENGINE.dados().campos[0];
+     assert.ok([8,12].includes(a.opcoes.length));
+     assert.deepEqual(clone(a.opcoes),clone(b.opcoes),'A ordem das alternativas é igual para os jogadores');
+     assert.equal(a.opcoes.filter(o=>o.id===a.resposta).length,1);
+   }
  }
  // Resposta perdida após commit: o refresh reenvia a mesma operação sem duplicar o débito.
  click(master,'[data-verbo="comprar"]');click(master,'[data-monte-index="0"]');await flush();

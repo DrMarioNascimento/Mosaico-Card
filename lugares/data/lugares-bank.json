@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-2-2026-11-14",
+  "catalogVersion": "lote-3-comparaveis-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Dez lugares jogáveis com dois perfis completos de pistas",
-  "status": "Dez lugares integrados; calibração de dificuldade com jogadores pendente",
+  "scope": "Quatorze lugares jogáveis em grupos de destinos comparáveis, com dois perfis de pistas",
+  "status": "Quatorze destinos integrados; calibração de dificuldade e revisão editorial de perfis pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -16,7 +16,7 @@
   "sharedAnswers": true,
   "currentGameCompatibility": {
     "fieldsPerCase": 4,
-    "optionsPerField": "4 a 8; identificação do lugar com 8",
+    "optionsPerField": "4 a 12; identificação com 8 ou 12",
     "startingCardsPerPlayer": 2,
     "minimumPool": 1,
     "maxPlayersByCardCount": 12,
@@ -210,17 +210,17 @@
     },
     "J1": {
       "id": "J1",
-      "title": "Fujisan sacred place and source of artistic inspiration",
-      "publisher": "UNESCO",
-      "url": "https://whc.unesco.org/en/list/1418",
-      "checkedAt": "2026-11-13"
+      "title": "Informações sobre visitação: Parque Nacional de Jericoacoara",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara/informacoes-sobre-visitacao-2013-parna-de-jericoacoara",
+      "checkedAt": "2026-11-14"
     },
     "J2": {
       "id": "J2",
-      "title": "Learn about the eruption of Mount Fuji",
-      "publisher": "Tokyo Metropolitan Government",
-      "url": "https://www.fujisan-kouhai.metro.tokyo.lg.jp/en/fuji-eruption_en/",
-      "checkedAt": "2026-11-13"
+      "title": "Análise da Unidade: Parque Nacional de Jericoacoara",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara/arquivos/analise_unidade.pdf",
+      "checkedAt": "2026-11-14"
     },
     "J3": {
       "id": "J3",
@@ -347,6 +347,27 @@
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/303/",
       "checkedAt": "2026-11-14"
+    },
+    "S1": {
+      "id": "S1",
+      "title": "Historic Centre of Salvador de Bahia",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/309/",
+      "checkedAt": "2026-11-14"
+    },
+    "O1": {
+      "id": "O1",
+      "title": "Historic Centre of the Town of Olinda",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/189/",
+      "checkedAt": "2026-11-14"
+    },
+    "V1": {
+      "id": "V1",
+      "title": "Mosi-oa-Tunya / Victoria Falls",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/509/",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -383,15 +404,15 @@
             },
             {
               "id": "C1-O2",
-              "text": "Curitiba"
+              "text": "Salvador"
             },
             {
               "id": "C1-O3",
-              "text": "Porto Alegre"
+              "text": "Recife"
             },
             {
               "id": "C1-O4",
-              "text": "Joinville"
+              "text": "Olinda"
             },
             {
               "id": "C1-O5",
@@ -403,11 +424,27 @@
             },
             {
               "id": "C1-O7",
-              "text": "Belém"
+              "text": "Natal"
             },
             {
               "id": "C1-O8",
               "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O10",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Fortaleza"
             }
           ],
           "answerId": "C1-O1",
@@ -1388,7 +1425,7 @@
             },
             {
               "id": "C1-O6",
-              "text": "Parque Nacional das Dunas da Lagoa do Peixe"
+              "text": "Parque Nacional da Lagoa do Peixe"
             },
             {
               "id": "C1-O7",
@@ -1397,6 +1434,22 @@
             {
               "id": "C1-O8",
               "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Superagui"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Marinho dos Abrolhos"
             }
           ],
           "answerId": "C1-O2",
@@ -9327,43 +9380,59 @@
       "fields": [
         {
           "id": "C1",
-          "label": "Conjunto protegido brasileiro",
+          "label": "Conjunto de quedas",
           "options": [
             {
               "id": "C1-O1",
-              "text": "Parque Nacional do Iguaçu"
+              "text": "Cataratas do Iguaçu"
             },
             {
               "id": "C1-O2",
-              "text": "Parque Nacional da Serra do Divisor"
+              "text": "Cataratas Vitória"
             },
             {
               "id": "C1-O3",
-              "text": "Parque Nacional de Itatiaia"
+              "text": "Salto Ángel"
             },
             {
               "id": "C1-O4",
-              "text": "Parque Nacional do Caparaó"
+              "text": "Cataratas do Niágara"
             },
             {
               "id": "C1-O5",
-              "text": "Parque Nacional de Aparados da Serra"
+              "text": "Cataratas do Reno"
             },
             {
               "id": "C1-O6",
-              "text": "Parque Nacional da Serra dos Órgãos"
+              "text": "Cataratas de Kaieteur"
             },
             {
               "id": "C1-O7",
-              "text": "Parque Nacional da Serra da Canastra"
+              "text": "Cataratas do Nilo Azul"
             },
             {
               "id": "C1-O8",
-              "text": "Parque Nacional da Chapada dos Veadeiros"
+              "text": "Cataratas de Tugela"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cachoeira do Caracol"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Saltos do Moconá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cataratas de Kalandula"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cataratas de Dettifoss"
             }
           ],
           "answerId": "C1-O1",
-          "answerText": "Parque Nacional do Iguaçu",
+          "answerText": "Cataratas do Iguaçu",
           "sources": [
             "I1",
             "I2"
@@ -10328,6 +10397,4045 @@
       },
       "reveal": {
         "canonicalSummary": "O parque brasileiro protege cataratas em uma paisagem de floresta subtropical contígua ao parque argentino; o desnível se associa a rochas basálticas.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-salvador",
+      "placeId": "salvador",
+      "title": "Salvador",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O4",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O10",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Belém"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Salvador",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Distribuição do núcleo histórico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cidade alta e cidade baixa"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Apenas um centro em planície sem desnível"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Cidade inteiramente subterrânea"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Núcleo construído somente sobre o mar"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Cidade alta e cidade baixa",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Função histórica até 1763",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Primeira capital da América portuguesa"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Capital federal criada em 1960"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Capital do Império Inca"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Sede colonial holandesa na Indonésia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Primeira capital da América portuguesa",
+          "sources": [
+            "S1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Baía associada à península",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Baía de Todos os Santos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Baía de Guanabara"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Baía de Paranaguá"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Baía de São Marcos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Baía de Todos os Santos",
+          "sources": [
+            "S1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "salvador-viajante-P01",
+              "factKey": "salvador-F01",
+              "text": "A cidade cresceu junto ao mar e a uma grande baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P02",
+              "factKey": "salvador-F02",
+              "text": "A paisagem urbana tem uma parte mais alta e outra mais baixa.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P03",
+              "factKey": "salvador-F03",
+              "text": "O porto se relacionava com a parte baixa da cidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P04",
+              "factKey": "salvador-F04",
+              "text": "No alto ficavam funções de defesa, governo e moradia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P05",
+              "factKey": "salvador-F05",
+              "text": "As duas partes não ficam na mesma altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P06",
+              "factKey": "salvador-F06",
+              "text": "Há ladeiras e ruas antigas no centro.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P07",
+              "factKey": "salvador-F07",
+              "text": "O lugar foi sede do governo da colônia portuguesa na América.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P08",
+              "factKey": "salvador-F08",
+              "text": "A fundação ocorreu em 1549.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P09",
+              "factKey": "salvador-F09",
+              "text": "A cidade manteve a função de capital até 1763.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P10",
+              "factKey": "salvador-F10",
+              "text": "Antes de Brasília e do Rio como capitais, este lugar teve essa função.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P11",
+              "factKey": "salvador-F11",
+              "text": "A ocupação se estabeleceu numa pequena península.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P12",
+              "factKey": "salvador-F12",
+              "text": "A baía local tem o nome de Todos os Santos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P13",
+              "factKey": "salvador-F13",
+              "text": "A península separa a baía do Oceano Atlântico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P14",
+              "factKey": "salvador-F14",
+              "text": "O centro histórico reúne casarões e igrejas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P15",
+              "factKey": "salvador-F15",
+              "text": "O conjunto histórico é reconhecido pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P16",
+              "factKey": "salvador-F16",
+              "text": "A região protegida inclui um bairro conhecido por casarões coloridos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P17",
+              "factKey": "salvador-F17",
+              "text": "O nome desse bairro lembra uma coluna usada em punições públicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P18",
+              "factKey": "salvador-F18",
+              "text": "O traçado do bairro histórico conserva marcas do século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P19",
+              "factKey": "salvador-F19",
+              "text": "A cidade reúne influências de povos africanos, indígenas e europeus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P20",
+              "factKey": "salvador-F20",
+              "text": "A história local também envolve o tráfico de pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P21",
+              "factKey": "salvador-F21",
+              "text": "O comércio ligado ao porto ajudou a estruturar a cidade baixa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P22",
+              "factKey": "salvador-F22",
+              "text": "A posição elevada ajudava na defesa da parte administrativa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P23",
+              "factKey": "salvador-F23",
+              "text": "A cidade fica no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P24",
+              "factKey": "salvador-F24",
+              "text": "Seu estado é a Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-viajante-P25",
+              "factKey": "salvador-F25",
+              "text": "O patrimônio protegido reúne ruas, praças e edifícios, não uma única construção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "salvador-geografo-P01",
+              "factKey": "salvador-F01",
+              "text": "A localização costeira relaciona o núcleo urbano a uma baía e ao Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P02",
+              "factKey": "salvador-F02",
+              "text": "Um desnível separa os setores alto e baixo do núcleo histórico.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P03",
+              "factKey": "salvador-F03",
+              "text": "A atividade comercial portuária concentrou-se no setor inferior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P04",
+              "factKey": "salvador-F04",
+              "text": "A escarpa favoreceu a instalação de funções administrativas, defensivas e residenciais na parte superior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P05",
+              "factKey": "salvador-F05",
+              "text": "A topografia cria uma diferença de nível entre o setor portuário e o centro alto.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P06",
+              "factKey": "salvador-F06",
+              "text": "O traçado histórico adapta a circulação às condições do sítio.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P07",
+              "factKey": "salvador-F07",
+              "text": "Sua função de capital articulava administração colonial e território.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P08",
+              "factKey": "salvador-F08",
+              "text": "O núcleo foi fundado em meados do século XVI, em 1549.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P09",
+              "factKey": "salvador-F09",
+              "text": "A capitalidade persistiu até a transferência da sede administrativa em 1763.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P10",
+              "factKey": "salvador-F10",
+              "text": "A sequência histórica das sedes federais inclui uma capital colonial anterior ao Rio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P11",
+              "factKey": "salvador-F11",
+              "text": "O sítio inicial ocupa uma península entre baía e oceano.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P12",
+              "factKey": "salvador-F12",
+              "text": "A Baía de Todos os Santos constitui referência da posição costeira do sítio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P13",
+              "factKey": "salvador-F13",
+              "text": "O relevo peninsular diferencia a frente voltada à baía da frente oceânica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P14",
+              "factKey": "salvador-F14",
+              "text": "A paisagem patrimonial combina edificações civis e religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P15",
+              "factKey": "salvador-F15",
+              "text": "A proteção internacional recai sobre um conjunto urbano histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P16",
+              "factKey": "salvador-F16",
+              "text": "Um bairro histórico integra o traçado protegido e seu conjunto de edificações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P17",
+              "factKey": "salvador-F17",
+              "text": "A toponímia de um bairro remete a um instrumento de punição do período colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P18",
+              "factKey": "salvador-F18",
+              "text": "A malha urbana preserva elementos associados à formação quinhentista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P19",
+              "factKey": "salvador-F19",
+              "text": "A formação cultural decorre de encontros e relações desiguais entre matrizes africanas, indígenas e europeias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P20",
+              "factKey": "salvador-F20",
+              "text": "A trajetória urbana está ligada à violência da escravização e do tráfico atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P21",
+              "factKey": "salvador-F21",
+              "text": "As relações portuárias contribuíram para organizar atividades comerciais no setor inferior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P22",
+              "factKey": "salvador-F22",
+              "text": "A altitude da escarpa associava posição defensiva e funções de governo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P23",
+              "factKey": "salvador-F23",
+              "text": "O sítio integra a faixa costeira nordestina do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P24",
+              "factKey": "salvador-F24",
+              "text": "A localização administrativa é o estado da Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "salvador-geografo-P25",
+              "factKey": "salvador-F25",
+              "text": "O valor patrimonial é atribuído às relações entre traçado, edificações e topografia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "S1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Salvador foi a primeira capital da América portuguesa; o centro histórico relaciona a cidade alta à cidade baixa portuária e à Baía de Todos os Santos.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-olinda",
+      "placeId": "olinda",
+      "title": "Olinda",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O4",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O5",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Florianópolis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Olinda",
+          "sources": [
+            "O1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Relevo do centro histórico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Colinas voltadas ao Atlântico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Planície polar coberta por gelo"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Vale alpino interiorano"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Deserto de altitude"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Colinas voltadas ao Atlântico",
+          "sources": [
+            "O1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Atividade econômica colonial",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Produção de açúcar de cana"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Extração de petróleo em plataformas modernas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Produção industrial de automóveis no século XVI"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cultivo de chá no século XX"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Produção de açúcar de cana",
+          "sources": [
+            "O1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Cidade vizinha associada ao porto",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Recife"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Manaus"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Belém"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Cuiabá"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Recife",
+          "sources": [
+            "O1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "olinda-viajante-P01",
+              "factKey": "olinda-F01",
+              "text": "O lugar tem um centro antigo voltado para o oceano.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P02",
+              "factKey": "olinda-F02",
+              "text": "As ruas históricas acompanham o relevo de morros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P03",
+              "factKey": "olinda-F03",
+              "text": "A cidade fica perto de outra grande cidade pernambucana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P04",
+              "factKey": "olinda-F04",
+              "text": "O porto próximo ficava na área que deu origem a Recife.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P05",
+              "factKey": "olinda-F05",
+              "text": "Uma atividade agrícola ajudou a enriquecer a região no período colonial.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P06",
+              "factKey": "olinda-F06",
+              "text": "Essa atividade usava cana como matéria-prima.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P07",
+              "factKey": "olinda-F07",
+              "text": "O centro mistura paisagem, ruas e construções históricas.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P08",
+              "factKey": "olinda-F08",
+              "text": "Há igrejas antigas entre as construções preservadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P09",
+              "factKey": "olinda-F09",
+              "text": "As moradias também fazem parte da importância do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P10",
+              "factKey": "olinda-F10",
+              "text": "A UNESCO reconhece o centro histórico como patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P11",
+              "factKey": "olinda-F11",
+              "text": "A fundação é situada no século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P12",
+              "factKey": "olinda-F12",
+              "text": "A data de fundação indicada pela UNESCO é 1535.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P13",
+              "factKey": "olinda-F13",
+              "text": "Os holandeses saquearam e incendiaram a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P14",
+              "factKey": "olinda-F14",
+              "text": "Depois da destruição, houve reconstrução pelos portugueses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P15",
+              "factKey": "olinda-F15",
+              "text": "Boa parte do conjunto atual tem origem no século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P16",
+              "factKey": "olinda-F16",
+              "text": "Ainda existem monumentos mais antigos que o conjunto predominante.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P17",
+              "factKey": "olinda-F17",
+              "text": "Uma carta antiga registrou orientações para o traçado do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P18",
+              "factKey": "olinda-F18",
+              "text": "A paisagem é marcada pela relação entre colinas e mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P19",
+              "factKey": "olinda-F19",
+              "text": "As igrejas e casas estão distribuídas pelo tecido da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P20",
+              "factKey": "olinda-F20",
+              "text": "A cidade pertence ao estado de Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P21",
+              "factKey": "olinda-F21",
+              "text": "Fica no Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P22",
+              "factKey": "olinda-F22",
+              "text": "A produção de açúcar teve importância a partir do fim do século XVI.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P23",
+              "factKey": "olinda-F23",
+              "text": "O porto próximo favorecia a ligação com atividades econômicas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P24",
+              "factKey": "olinda-F24",
+              "text": "Construções de diferentes séculos convivem no centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-viajante-P25",
+              "factKey": "olinda-F25",
+              "text": "Para reconhecer o lugar, observe a relação entre colinas, patrimônio e cidade vizinha.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "olinda-geografo-P01",
+              "factKey": "olinda-F01",
+              "text": "O sítio histórico ocupa colinas com orientação para o Atlântico.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P02",
+              "factKey": "olinda-F02",
+              "text": "A implantação urbana adapta o traçado às encostas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P03",
+              "factKey": "olinda-F03",
+              "text": "A proximidade com Recife relaciona dois núcleos urbanos da costa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P04",
+              "factKey": "olinda-F04",
+              "text": "O istmo associado ao porto articulava o núcleo histórico à área recifense.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P05",
+              "factKey": "olinda-F05",
+              "text": "A economia açucareira sustentou parte da prosperidade histórica urbana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P06",
+              "factKey": "olinda-F06",
+              "text": "A produção colonial de açúcar dependia do cultivo de cana-de-açúcar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P07",
+              "factKey": "olinda-F07",
+              "text": "O valor do conjunto decorre da relação entre paisagem, urbanismo e arquitetura.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P08",
+              "factKey": "olinda-F08",
+              "text": "Edifícios religiosos integram o conjunto arquitetônico histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P09",
+              "factKey": "olinda-F09",
+              "text": "O patrimônio compreende edificações residenciais além dos monumentos religiosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P10",
+              "factKey": "olinda-F10",
+              "text": "O reconhecimento internacional incide sobre o conjunto urbano histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P11",
+              "factKey": "olinda-F11",
+              "text": "O núcleo foi fundado no contexto da colonização portuguesa quinhentista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P12",
+              "factKey": "olinda-F12",
+              "text": "A formação urbana é datada de 1535 na descrição patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P13",
+              "factKey": "olinda-F13",
+              "text": "O tecido urbano sofreu destruição durante a presença neerlandesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P14",
+              "factKey": "olinda-F14",
+              "text": "A reconstrução posterior alterou a materialidade preservada do núcleo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P15",
+              "factKey": "olinda-F15",
+              "text": "O tecido histórico sobrevivente é majoritariamente setecentista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P16",
+              "factKey": "olinda-F16",
+              "text": "A permanência de edificações anteriores mostra diferentes camadas temporais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P17",
+              "factKey": "olinda-F17",
+              "text": "O Foral é documento relevante para compreender a organização urbana inicial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P18",
+              "factKey": "olinda-F18",
+              "text": "A topografia costeira integra a composição do conjunto patrimonial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P19",
+              "factKey": "olinda-F19",
+              "text": "A proteção abrange o conjunto urbano e suas relações, não apenas um edifício.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P20",
+              "factKey": "olinda-F20",
+              "text": "A posição administrativa situa o destino em Pernambuco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P21",
+              "factKey": "olinda-F21",
+              "text": "O sítio insere-se na costa nordestina brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P22",
+              "factKey": "olinda-F22",
+              "text": "A economia açucareira foi central para a região por longo período colonial.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P23",
+              "factKey": "olinda-F23",
+              "text": "A posição junto a um sistema portuário apoiava a circulação ligada à economia colonial.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P24",
+              "factKey": "olinda-F24",
+              "text": "O conjunto preserva sobreposições de fases históricas distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "olinda-geografo-P25",
+              "factKey": "olinda-F25",
+              "text": "A identificação pode combinar posição topográfica, patrimônio urbano e proximidade metropolitana.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "O1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Olinda conserva um centro histórico em colinas voltadas ao Atlântico; sua trajetória colonial se liga à economia açucareira e à proximidade de Recife.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-jericoacoara",
+      "placeId": "jericoacoara",
+      "title": "Parque Nacional de Jericoacoara",
+      "aliases": [
+        "Jericoacoara"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Jericoacoara"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional dos Lençóis Maranhenses"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Lagoa do Peixe"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Restinga de Jurubatiba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Superagui"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Jericoacoara",
+          "sources": [
+            "J1",
+            "J2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Agente de transporte das dunas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Vento"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Geleira continental"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lava vulcânica"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Raízes de árvores"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Vento",
+          "sources": [
+            "J1",
+            "J2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ceará"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Maranhão"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Ceará",
+          "sources": [
+            "J1",
+            "J2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Formação rochosa conhecida",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pedra Furada"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pão de Açúcar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pedra da Gávea"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pico da Neblina"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pedra Furada",
+          "sources": [
+            "J1",
+            "J2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "jericoacoara-viajante-P01",
+              "factKey": "jericoacoara-F01",
+              "text": "O lugar protegido combina praia, areia e lagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P02",
+              "factKey": "jericoacoara-F02",
+              "text": "Os ventos movimentam a areia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P03",
+              "factKey": "jericoacoara-F03",
+              "text": "Algumas dunas podem mudar de posição com o vento.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P04",
+              "factKey": "jericoacoara-F04",
+              "text": "Lagoas aparecem em espaços entre dunas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P05",
+              "factKey": "jericoacoara-F05",
+              "text": "O parque fica no litoral do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P06",
+              "factKey": "jericoacoara-F06",
+              "text": "O estado onde fica o parque é o Ceará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P07",
+              "factKey": "jericoacoara-F07",
+              "text": "Há uma vila que serve de ponto de partida para passeios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P08",
+              "factKey": "jericoacoara-F08",
+              "text": "Uma formação de rocha tem uma abertura natural.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P09",
+              "factKey": "jericoacoara-F09",
+              "text": "Essa formação é conhecida como Pedra Furada.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P10",
+              "factKey": "jericoacoara-F10",
+              "text": "As praias também são usadas para atividades esportivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P11",
+              "factKey": "jericoacoara-F11",
+              "text": "O lugar é protegido como parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P12",
+              "factKey": "jericoacoara-F12",
+              "text": "A criação do parque ocorreu em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P13",
+              "factKey": "jericoacoara-F13",
+              "text": "Antes do parque havia uma área de proteção ambiental na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P14",
+              "factKey": "jericoacoara-F14",
+              "text": "Dunas e lagoas não aparecem apenas nos Lençóis Maranhenses.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P15",
+              "factKey": "jericoacoara-F15",
+              "text": "Parte das lagoas fica nos espaços entre montes de areia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P16",
+              "factKey": "jericoacoara-F16",
+              "text": "A areia transportada pelos ventos pode alcançar a praia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P17",
+              "factKey": "jericoacoara-F17",
+              "text": "Dunas e praia fazem parte de uma paisagem costeira dinâmica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P18",
+              "factKey": "jericoacoara-F18",
+              "text": "Além das dunas, um ponto de interesse tem forma rochosa.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P19",
+              "factKey": "jericoacoara-F19",
+              "text": "A visitação precisa conviver com a proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P20",
+              "factKey": "jericoacoara-F20",
+              "text": "A área foi protegida por uma unidade administrada pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P21",
+              "factKey": "jericoacoara-F21",
+              "text": "Não é preciso uma fronteira entre dois países para conhecer esse lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P22",
+              "factKey": "jericoacoara-F22",
+              "text": "A paisagem mistura terra, água e o movimento do ar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P23",
+              "factKey": "jericoacoara-F23",
+              "text": "O nome da formação rochosa descreve uma abertura.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P24",
+              "factKey": "jericoacoara-F24",
+              "text": "Para diferenciar este parque de outros com dunas, observe o estado e a rocha.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-viajante-P25",
+              "factKey": "jericoacoara-F25",
+              "text": "O parque está na costa brasileira banhada pelo Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "jericoacoara-geografo-P01",
+              "factKey": "jericoacoara-F01",
+              "text": "A unidade conserva ambientes costeiros com dunas, lagoas e praias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P02",
+              "factKey": "jericoacoara-F02",
+              "text": "O transporte eólico participa da dinâmica dos sedimentos arenosos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P03",
+              "factKey": "jericoacoara-F03",
+              "text": "A mobilidade de dunas resulta do deslocamento de areia pela ação eólica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P04",
+              "factKey": "jericoacoara-F04",
+              "text": "Depressões interdunares podem acumular água e formar lagoas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P05",
+              "factKey": "jericoacoara-F05",
+              "text": "A unidade ocupa uma faixa costeira nordestina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P06",
+              "factKey": "jericoacoara-F06",
+              "text": "Sua localização administrativa é o estado do Ceará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P07",
+              "factKey": "jericoacoara-F07",
+              "text": "A visitação articula a vila e os atrativos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P08",
+              "factKey": "jericoacoara-F08",
+              "text": "Um afloramento com abertura tornou-se referência paisagística local.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P09",
+              "factKey": "jericoacoara-F09",
+              "text": "A abertura rochosa é identificada pelo nome Pedra Furada.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P10",
+              "factKey": "jericoacoara-F10",
+              "text": "A visitação associa recreação em praias à conservação costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P11",
+              "factKey": "jericoacoara-F11",
+              "text": "A unidade integra a categoria federal de parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P12",
+              "factKey": "jericoacoara-F12",
+              "text": "A instituição da unidade de proteção integral ocorreu em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P13",
+              "factKey": "jericoacoara-F13",
+              "text": "A proteção territorial antecedente incluía uma categoria distinta de unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P14",
+              "factKey": "jericoacoara-F14",
+              "text": "A associação entre dunas e lagoas também ocorre em outras áreas costeiras brasileiras.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P15",
+              "factKey": "jericoacoara-F15",
+              "text": "A acumulação hídrica interdunar relaciona-se à forma do relevo arenoso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P16",
+              "factKey": "jericoacoara-F16",
+              "text": "O corredor de dunas móveis contribui com sedimentos direcionados à zona de praia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P17",
+              "factKey": "jericoacoara-F17",
+              "text": "A circulação de sedimentos conecta compartimentos da paisagem litorânea.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P18",
+              "factKey": "jericoacoara-F18",
+              "text": "A paisagem reúne formas arenosas e afloramentos rochosos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P19",
+              "factKey": "jericoacoara-F19",
+              "text": "A gestão da unidade deve articular uso público e conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P20",
+              "factKey": "jericoacoara-F20",
+              "text": "A gestão federal da unidade envolve o órgão responsável por áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P21",
+              "factKey": "jericoacoara-F21",
+              "text": "Sua posição é litorânea brasileira, sem atribuição de fronteira internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P22",
+              "factKey": "jericoacoara-F22",
+              "text": "A dinâmica costeira integra transporte de areia, relevo e água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P23",
+              "factKey": "jericoacoara-F23",
+              "text": "A denominação popular do afloramento faz referência a um orifício.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P24",
+              "factKey": "jericoacoara-F24",
+              "text": "A combinação de localização estadual e marco rochoso distingue esta unidade de outras áreas dunares.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "jericoacoara-geografo-P25",
+              "factKey": "jericoacoara-F25",
+              "text": "A unidade integra o litoral atlântico do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "J1",
+                "J2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "No litoral do Ceará, o Parque Nacional de Jericoacoara reúne dunas móveis, lagoas e formações rochosas como a Pedra Furada.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-cataratas-vitoria",
+      "placeId": "cataratas-vitoria",
+      "title": "Cataratas Vitória",
+      "aliases": [
+        "Mosi-oa-Tunya"
+      ],
+      "answerType": "conjunto de quedas",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "ZM",
+          "ZW"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto de quedas",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cataratas Vitória"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cataratas do Iguaçu"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Salto Ángel"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cataratas do Niágara"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Cataratas do Reno"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Cataratas de Kaieteur"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cataratas do Nilo Azul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cataratas de Tugela"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Cachoeira do Caracol"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Saltos do Moconá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Cataratas de Kalandula"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Cataratas de Dettifoss"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Cataratas Vitória",
+          "sources": [
+            "V1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Países que compartilham o bem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Zâmbia e Zimbábue"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Brasil e Argentina"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Canadá e Estados Unidos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Argentina e Chile"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Zâmbia e Zimbábue",
+          "sources": [
+            "V1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio responsável pelas quedas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Zambeze"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Nilo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Congo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Níger"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Zambeze",
+          "sources": [
+            "V1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rocha das gargantas",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Basalto"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Sal-gema"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Gelo glacial"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Coral"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Basalto",
+          "sources": [
+            "V1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cataratas-vitoria-viajante-P01",
+              "factKey": "cataratas-vitoria-F01",
+              "text": "Uma grande queda marca a paisagem de um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P02",
+              "factKey": "cataratas-vitoria-F02",
+              "text": "O destino fica entre dois países africanos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P03",
+              "factKey": "cataratas-vitoria-F03",
+              "text": "A água cai em uma região de gargantas rochosas.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P04",
+              "factKey": "cataratas-vitoria-F04",
+              "text": "A rocha das gargantas é basáltica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P05",
+              "factKey": "cataratas-vitoria-F05",
+              "text": "Uma névoa se levanta onde a água despenca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P06",
+              "factKey": "cataratas-vitoria-F06",
+              "text": "A água faz muito barulho ao atingir a parte baixa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P07",
+              "factKey": "cataratas-vitoria-F07",
+              "text": "O rio responsável é o Zambeze.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P08",
+              "factKey": "cataratas-vitoria-F08",
+              "text": "Antes da queda, o rio se espalha por uma grande largura.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P09",
+              "factKey": "cataratas-vitoria-F09",
+              "text": "O rio tem mais de dois quilômetros de largura nesse ponto.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P10",
+              "factKey": "cataratas-vitoria-F10",
+              "text": "O lugar protegido inclui um parque no lado da Zâmbia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P11",
+              "factKey": "cataratas-vitoria-F11",
+              "text": "Também inclui área protegida no Zimbábue.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P12",
+              "factKey": "cataratas-vitoria-F12",
+              "text": "A fronteira acompanha uma paisagem natural compartilhada.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P13",
+              "factKey": "cataratas-vitoria-F13",
+              "text": "A UNESCO reconhece o conjunto como patrimônio.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P14",
+              "factKey": "cataratas-vitoria-F14",
+              "text": "O lugar tem uma denominação local e outra de uso internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P15",
+              "factKey": "cataratas-vitoria-F15",
+              "text": "O mesmo destino também é conhecido por um nome ligado à rainha Vitória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P16",
+              "factKey": "cataratas-vitoria-F16",
+              "text": "A queda não fica no Brasil nem na Argentina.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P17",
+              "factKey": "cataratas-vitoria-F17",
+              "text": "A névoa pode ser observada a muitos quilômetros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P18",
+              "factKey": "cataratas-vitoria-F18",
+              "text": "A água desce por gargantas em vez de seguir reta em uma planície.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P19",
+              "factKey": "cataratas-vitoria-F19",
+              "text": "Há áreas de parque nacional em ambos os lados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P20",
+              "factKey": "cataratas-vitoria-F20",
+              "text": "O nome do rio começa com Z.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P21",
+              "factKey": "cataratas-vitoria-F21",
+              "text": "O rio não é o Nilo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P22",
+              "factKey": "cataratas-vitoria-F22",
+              "text": "A paisagem combina água, rocha e uma grande cortina de névoa.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P23",
+              "factKey": "cataratas-vitoria-F23",
+              "text": "A região está no continente africano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P24",
+              "factKey": "cataratas-vitoria-F24",
+              "text": "Dois nomes podem designar a mesma queda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-viajante-P25",
+              "factKey": "cataratas-vitoria-F25",
+              "text": "Para diferenciar estas quedas de outras, combine continente, rio e países.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cataratas-vitoria-geografo-P01",
+              "factKey": "cataratas-vitoria-F01",
+              "text": "Um grande desnível fluvial estrutura a paisagem protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P02",
+              "factKey": "cataratas-vitoria-F02",
+              "text": "A área protegida é compartilhada por Zâmbia e Zimbábue.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P03",
+              "factKey": "cataratas-vitoria-F03",
+              "text": "O curso d'água desce por um sistema de gargantas em rocha.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P04",
+              "factKey": "cataratas-vitoria-F04",
+              "text": "O substrato do sistema de gargantas é composto por basalto.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P05",
+              "factKey": "cataratas-vitoria-F05",
+              "text": "A pulverização produz uma pluma de gotículas visível a distância.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P06",
+              "factKey": "cataratas-vitoria-F06",
+              "text": "A queda gera uma paisagem sonora intensa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P07",
+              "factKey": "cataratas-vitoria-F07",
+              "text": "O sistema de quedas pertence ao curso do rio Zambeze.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P08",
+              "factKey": "cataratas-vitoria-F08",
+              "text": "A largura do canal a montante é uma característica da paisagem.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P09",
+              "factKey": "cataratas-vitoria-F09",
+              "text": "A seção descrita pela UNESCO excede dois quilômetros de largura.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P10",
+              "factKey": "cataratas-vitoria-F10",
+              "text": "O bem transfronteiriço incorpora área do parque nacional do lado zambiano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P11",
+              "factKey": "cataratas-vitoria-F11",
+              "text": "O lado zimbabuano integra unidades protegidas ao bem reconhecido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P12",
+              "factKey": "cataratas-vitoria-F12",
+              "text": "A conservação envolve coordenação territorial entre países vizinhos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P13",
+              "factKey": "cataratas-vitoria-F13",
+              "text": "O reconhecimento internacional inclui os dois lados da fronteira.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P14",
+              "factKey": "cataratas-vitoria-F14",
+              "text": "O bem reconhecido possui denominações local e internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P15",
+              "factKey": "cataratas-vitoria-F15",
+              "text": "Outra denominação internacional faz referência a Vitória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P16",
+              "factKey": "cataratas-vitoria-F16",
+              "text": "A localização africana distingue esse sistema de quedas do Iguaçu.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P17",
+              "factKey": "cataratas-vitoria-F17",
+              "text": "A pluma de aerossóis tem visibilidade que ultrapassa a área imediata das quedas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P18",
+              "factKey": "cataratas-vitoria-F18",
+              "text": "A topografia confinada das gargantas condiciona o trajeto posterior do rio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P19",
+              "factKey": "cataratas-vitoria-F19",
+              "text": "A proteção utiliza unidades nacionais contíguas em dois países.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P20",
+              "factKey": "cataratas-vitoria-F20",
+              "text": "O curso fluvial tem uma denominação iniciada pela letra Z.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P21",
+              "factKey": "cataratas-vitoria-F21",
+              "text": "A bacia relevante para essa queda é distinta da bacia do Nilo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P22",
+              "factKey": "cataratas-vitoria-F22",
+              "text": "O valor cênico decorre da interação entre queda fluvial, substrato e pulverização.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P23",
+              "factKey": "cataratas-vitoria-F23",
+              "text": "O sítio transfronteiriço localiza-se na África.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P24",
+              "factKey": "cataratas-vitoria-F24",
+              "text": "A dupla denominação reconhece referências históricas e locais do mesmo bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cataratas-vitoria-geografo-P25",
+              "factKey": "cataratas-vitoria-F25",
+              "text": "A identificação resulta da combinação de bacia hidrográfica e posição transfronteiriça.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "V1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Mosi-oa-Tunya, ou Cataratas Vitória, forma um conjunto transfronteiriço entre Zâmbia e Zimbábue, no rio Zambeze, com gargantas basálticas.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

@@ -525,3 +525,268 @@ O parque brasileiro protege cataratas em uma paisagem de floresta subtropical co
 - A área protegida transfronteiriça localiza-se na América do Sul.
 - O trecho brasileiro está inserido em uma unidade da categoria parque nacional.
 - A proteção contempla elementos hidrológicos e a biodiversidade florestal.
+
+
+## Ampliação por destinos semelhantes
+
+Os quatro destinos abaixo aproximam cidades históricas, parques com dunas e sistemas de cataratas. Suas alternativas e pistas exigem revisão em partidas.
+
+### Salvador
+
+Salvador foi a primeira capital da América portuguesa; o centro histórico relaciona a cidade alta à cidade baixa portuária e à Baía de Todos os Santos.
+
+- **Cidade**: Salvador.
+- **Distribuição do núcleo histórico**: Cidade alta e cidade baixa.
+- **Função histórica até 1763**: Primeira capital da América portuguesa.
+- **Baía associada à península**: Baía de Todos os Santos.
+
+**Viajante**
+
+- A cidade cresceu junto ao mar e a uma grande baía.
+- A paisagem urbana tem uma parte mais alta e outra mais baixa.
+- O porto se relacionava com a parte baixa da cidade.
+- No alto ficavam funções de defesa, governo e moradia.
+- As duas partes não ficam na mesma altitude.
+- Há ladeiras e ruas antigas no centro.
+- O lugar foi sede do governo da colônia portuguesa na América.
+- A fundação ocorreu em 1549.
+- A cidade manteve a função de capital até 1763.
+- Antes de Brasília e do Rio como capitais, este lugar teve essa função.
+- A ocupação se estabeleceu numa pequena península.
+- A baía local tem o nome de Todos os Santos.
+- A península separa a baía do Oceano Atlântico.
+- O centro histórico reúne casarões e igrejas.
+- O conjunto histórico é reconhecido pela UNESCO.
+- A região protegida inclui um bairro conhecido por casarões coloridos.
+- O nome desse bairro lembra uma coluna usada em punições públicas.
+- O traçado do bairro histórico conserva marcas do século XVI.
+- A cidade reúne influências de povos africanos, indígenas e europeus.
+- A história local também envolve o tráfico de pessoas escravizadas.
+- O comércio ligado ao porto ajudou a estruturar a cidade baixa.
+- A posição elevada ajudava na defesa da parte administrativa.
+- A cidade fica no Nordeste brasileiro.
+- Seu estado é a Bahia.
+- O patrimônio protegido reúne ruas, praças e edifícios, não uma única construção.
+
+**Geógrafo**
+
+- A localização costeira relaciona o núcleo urbano a uma baía e ao Atlântico.
+- Um desnível separa os setores alto e baixo do núcleo histórico.
+- A atividade comercial portuária concentrou-se no setor inferior.
+- A escarpa favoreceu a instalação de funções administrativas, defensivas e residenciais na parte superior.
+- A topografia cria uma diferença de nível entre o setor portuário e o centro alto.
+- O traçado histórico adapta a circulação às condições do sítio.
+- Sua função de capital articulava administração colonial e território.
+- O núcleo foi fundado em meados do século XVI, em 1549.
+- A capitalidade persistiu até a transferência da sede administrativa em 1763.
+- A sequência histórica das sedes federais inclui uma capital colonial anterior ao Rio.
+- O sítio inicial ocupa uma península entre baía e oceano.
+- A Baía de Todos os Santos constitui referência da posição costeira do sítio.
+- O relevo peninsular diferencia a frente voltada à baía da frente oceânica.
+- A paisagem patrimonial combina edificações civis e religiosas.
+- A proteção internacional recai sobre um conjunto urbano histórico.
+- Um bairro histórico integra o traçado protegido e seu conjunto de edificações.
+- A toponímia de um bairro remete a um instrumento de punição do período colonial.
+- A malha urbana preserva elementos associados à formação quinhentista.
+- A formação cultural decorre de encontros e relações desiguais entre matrizes africanas, indígenas e europeias.
+- A trajetória urbana está ligada à violência da escravização e do tráfico atlântico.
+- As relações portuárias contribuíram para organizar atividades comerciais no setor inferior.
+- A altitude da escarpa associava posição defensiva e funções de governo.
+- O sítio integra a faixa costeira nordestina do Brasil.
+- A localização administrativa é o estado da Bahia.
+- O valor patrimonial é atribuído às relações entre traçado, edificações e topografia.
+
+### Olinda
+
+Olinda conserva um centro histórico em colinas voltadas ao Atlântico; sua trajetória colonial se liga à economia açucareira e à proximidade de Recife.
+
+- **Cidade**: Olinda.
+- **Relevo do centro histórico**: Colinas voltadas ao Atlântico.
+- **Atividade econômica colonial**: Produção de açúcar de cana.
+- **Cidade vizinha associada ao porto**: Recife.
+
+**Viajante**
+
+- O lugar tem um centro antigo voltado para o oceano.
+- As ruas históricas acompanham o relevo de morros.
+- A cidade fica perto de outra grande cidade pernambucana.
+- O porto próximo ficava na área que deu origem a Recife.
+- Uma atividade agrícola ajudou a enriquecer a região no período colonial.
+- Essa atividade usava cana como matéria-prima.
+- O centro mistura paisagem, ruas e construções históricas.
+- Há igrejas antigas entre as construções preservadas.
+- As moradias também fazem parte da importância do centro.
+- A UNESCO reconhece o centro histórico como patrimônio.
+- A fundação é situada no século XVI.
+- A data de fundação indicada pela UNESCO é 1535.
+- Os holandeses saquearam e incendiaram a cidade.
+- Depois da destruição, houve reconstrução pelos portugueses.
+- Boa parte do conjunto atual tem origem no século XVIII.
+- Ainda existem monumentos mais antigos que o conjunto predominante.
+- Uma carta antiga registrou orientações para o traçado do lugar.
+- A paisagem é marcada pela relação entre colinas e mar.
+- As igrejas e casas estão distribuídas pelo tecido da cidade.
+- A cidade pertence ao estado de Pernambuco.
+- Fica no Nordeste do Brasil.
+- A produção de açúcar teve importância a partir do fim do século XVI.
+- O porto próximo favorecia a ligação com atividades econômicas.
+- Construções de diferentes séculos convivem no centro.
+- Para reconhecer o lugar, observe a relação entre colinas, patrimônio e cidade vizinha.
+
+**Geógrafo**
+
+- O sítio histórico ocupa colinas com orientação para o Atlântico.
+- A implantação urbana adapta o traçado às encostas.
+- A proximidade com Recife relaciona dois núcleos urbanos da costa.
+- O istmo associado ao porto articulava o núcleo histórico à área recifense.
+- A economia açucareira sustentou parte da prosperidade histórica urbana.
+- A produção colonial de açúcar dependia do cultivo de cana-de-açúcar.
+- O valor do conjunto decorre da relação entre paisagem, urbanismo e arquitetura.
+- Edifícios religiosos integram o conjunto arquitetônico histórico.
+- O patrimônio compreende edificações residenciais além dos monumentos religiosos.
+- O reconhecimento internacional incide sobre o conjunto urbano histórico.
+- O núcleo foi fundado no contexto da colonização portuguesa quinhentista.
+- A formação urbana é datada de 1535 na descrição patrimonial.
+- O tecido urbano sofreu destruição durante a presença neerlandesa.
+- A reconstrução posterior alterou a materialidade preservada do núcleo.
+- O tecido histórico sobrevivente é majoritariamente setecentista.
+- A permanência de edificações anteriores mostra diferentes camadas temporais.
+- O Foral é documento relevante para compreender a organização urbana inicial.
+- A topografia costeira integra a composição do conjunto patrimonial.
+- A proteção abrange o conjunto urbano e suas relações, não apenas um edifício.
+- A posição administrativa situa o destino em Pernambuco.
+- O sítio insere-se na costa nordestina brasileira.
+- A economia açucareira foi central para a região por longo período colonial.
+- A posição junto a um sistema portuário apoiava a circulação ligada à economia colonial.
+- O conjunto preserva sobreposições de fases históricas distintas.
+- A identificação pode combinar posição topográfica, patrimônio urbano e proximidade metropolitana.
+
+### Parque Nacional de Jericoacoara
+
+No litoral do Ceará, o Parque Nacional de Jericoacoara reúne dunas móveis, lagoas e formações rochosas como a Pedra Furada.
+
+- **Parque nacional**: Parque Nacional de Jericoacoara.
+- **Agente de transporte das dunas**: Vento.
+- **Estado brasileiro**: Ceará.
+- **Formação rochosa conhecida**: Pedra Furada.
+
+**Viajante**
+
+- O lugar protegido combina praia, areia e lagoas.
+- Os ventos movimentam a areia.
+- Algumas dunas podem mudar de posição com o vento.
+- Lagoas aparecem em espaços entre dunas.
+- O parque fica no litoral do Nordeste.
+- O estado onde fica o parque é o Ceará.
+- Há uma vila que serve de ponto de partida para passeios.
+- Uma formação de rocha tem uma abertura natural.
+- Essa formação é conhecida como Pedra Furada.
+- As praias também são usadas para atividades esportivas.
+- O lugar é protegido como parque nacional.
+- A criação do parque ocorreu em 2002.
+- Antes do parque havia uma área de proteção ambiental na região.
+- Dunas e lagoas não aparecem apenas nos Lençóis Maranhenses.
+- Parte das lagoas fica nos espaços entre montes de areia.
+- A areia transportada pelos ventos pode alcançar a praia.
+- Dunas e praia fazem parte de uma paisagem costeira dinâmica.
+- Além das dunas, um ponto de interesse tem forma rochosa.
+- A visitação precisa conviver com a proteção ambiental.
+- A área foi protegida por uma unidade administrada pelo ICMBio.
+- Não é preciso uma fronteira entre dois países para conhecer esse lugar.
+- A paisagem mistura terra, água e o movimento do ar.
+- O nome da formação rochosa descreve uma abertura.
+- Para diferenciar este parque de outros com dunas, observe o estado e a rocha.
+- O parque está na costa brasileira banhada pelo Atlântico.
+
+**Geógrafo**
+
+- A unidade conserva ambientes costeiros com dunas, lagoas e praias.
+- O transporte eólico participa da dinâmica dos sedimentos arenosos.
+- A mobilidade de dunas resulta do deslocamento de areia pela ação eólica.
+- Depressões interdunares podem acumular água e formar lagoas.
+- A unidade ocupa uma faixa costeira nordestina.
+- Sua localização administrativa é o estado do Ceará.
+- A visitação articula a vila e os atrativos da unidade.
+- Um afloramento com abertura tornou-se referência paisagística local.
+- A abertura rochosa é identificada pelo nome Pedra Furada.
+- A visitação associa recreação em praias à conservação costeira.
+- A unidade integra a categoria federal de parque nacional.
+- A instituição da unidade de proteção integral ocorreu em 2002.
+- A proteção territorial antecedente incluía uma categoria distinta de unidade.
+- A associação entre dunas e lagoas também ocorre em outras áreas costeiras brasileiras.
+- A acumulação hídrica interdunar relaciona-se à forma do relevo arenoso.
+- O corredor de dunas móveis contribui com sedimentos direcionados à zona de praia.
+- A circulação de sedimentos conecta compartimentos da paisagem litorânea.
+- A paisagem reúne formas arenosas e afloramentos rochosos.
+- A gestão da unidade deve articular uso público e conservação.
+- A gestão federal da unidade envolve o órgão responsável por áreas protegidas.
+- Sua posição é litorânea brasileira, sem atribuição de fronteira internacional.
+- A dinâmica costeira integra transporte de areia, relevo e água.
+- A denominação popular do afloramento faz referência a um orifício.
+- A combinação de localização estadual e marco rochoso distingue esta unidade de outras áreas dunares.
+- A unidade integra o litoral atlântico do Brasil.
+
+### Cataratas Vitória
+
+Mosi-oa-Tunya, ou Cataratas Vitória, forma um conjunto transfronteiriço entre Zâmbia e Zimbábue, no rio Zambeze, com gargantas basálticas.
+
+- **Conjunto de quedas**: Cataratas Vitória.
+- **Países que compartilham o bem**: Zâmbia e Zimbábue.
+- **Rio responsável pelas quedas**: Zambeze.
+- **Rocha das gargantas**: Basalto.
+
+**Viajante**
+
+- Uma grande queda marca a paisagem de um rio.
+- O destino fica entre dois países africanos.
+- A água cai em uma região de gargantas rochosas.
+- A rocha das gargantas é basáltica.
+- Uma névoa se levanta onde a água despenca.
+- A água faz muito barulho ao atingir a parte baixa.
+- O rio responsável é o Zambeze.
+- Antes da queda, o rio se espalha por uma grande largura.
+- O rio tem mais de dois quilômetros de largura nesse ponto.
+- O lugar protegido inclui um parque no lado da Zâmbia.
+- Também inclui área protegida no Zimbábue.
+- A fronteira acompanha uma paisagem natural compartilhada.
+- A UNESCO reconhece o conjunto como patrimônio.
+- O lugar tem uma denominação local e outra de uso internacional.
+- O mesmo destino também é conhecido por um nome ligado à rainha Vitória.
+- A queda não fica no Brasil nem na Argentina.
+- A névoa pode ser observada a muitos quilômetros.
+- A água desce por gargantas em vez de seguir reta em uma planície.
+- Há áreas de parque nacional em ambos os lados.
+- O nome do rio começa com Z.
+- O rio não é o Nilo.
+- A paisagem combina água, rocha e uma grande cortina de névoa.
+- A região está no continente africano.
+- Dois nomes podem designar a mesma queda.
+- Para diferenciar estas quedas de outras, combine continente, rio e países.
+
+**Geógrafo**
+
+- Um grande desnível fluvial estrutura a paisagem protegida.
+- A área protegida é compartilhada por Zâmbia e Zimbábue.
+- O curso d'água desce por um sistema de gargantas em rocha.
+- O substrato do sistema de gargantas é composto por basalto.
+- A pulverização produz uma pluma de gotículas visível a distância.
+- A queda gera uma paisagem sonora intensa.
+- O sistema de quedas pertence ao curso do rio Zambeze.
+- A largura do canal a montante é uma característica da paisagem.
+- A seção descrita pela UNESCO excede dois quilômetros de largura.
+- O bem transfronteiriço incorpora área do parque nacional do lado zambiano.
+- O lado zimbabuano integra unidades protegidas ao bem reconhecido.
+- A conservação envolve coordenação territorial entre países vizinhos.
+- O reconhecimento internacional inclui os dois lados da fronteira.
+- O bem reconhecido possui denominações local e internacional.
+- Outra denominação internacional faz referência a Vitória.
+- A localização africana distingue esse sistema de quedas do Iguaçu.
+- A pluma de aerossóis tem visibilidade que ultrapassa a área imediata das quedas.
+- A topografia confinada das gargantas condiciona o trajeto posterior do rio.
+- A proteção utiliza unidades nacionais contíguas em dois países.
+- O curso fluvial tem uma denominação iniciada pela letra Z.
+- A bacia relevante para essa queda é distinta da bacia do Nilo.
+- O valor cênico decorre da interação entre queda fluvial, substrato e pulverização.
+- O sítio transfronteiriço localiza-se na África.
+- A dupla denominação reconhece referências históricas e locais do mesmo bem.
+- A identificação resulta da combinação de bacia hidrográfica e posição transfronteiriça.

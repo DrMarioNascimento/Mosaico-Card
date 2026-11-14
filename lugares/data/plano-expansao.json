@@ -1,6 +1,6 @@
 {
-  "status": "Seleção editorial proposta; 110 candidatos ainda precisam de pesquisa e elaboração.",
-  "targetPlaces": 120,
+  "status": "Seleção editorial proposta; correspondência entre candidatos e destinos jogáveis requer revisão quando há nomes alternativos.",
+  "targetPlaces": 121,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -11,7 +11,11 @@
     "Grande Barreira de Corais",
     "Polo Sul Geográfico",
     "Brasília",
-    "Cataratas do Iguaçu (Parque Nacional do Iguaçu, Brasil)"
+    "Cataratas do Iguaçu (Parque Nacional do Iguaçu, Brasil)",
+    "Salvador",
+    "Olinda",
+    "Parque Nacional de Jericoacoara",
+    "Cataratas Vitória"
   ],
   "groups": {
     "Brasil Norte": [
@@ -36,7 +40,8 @@
       "Fernando de Noronha",
       "Chapada Diamantina",
       "Delta do Parnaíba",
-      "Rio São Francisco"
+      "Rio São Francisco",
+      "Parque Nacional de Jericoacoara"
     ],
     "Brasil Centro Oeste": [
       "Brasília",

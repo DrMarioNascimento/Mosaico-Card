@@ -2,11 +2,11 @@
 
 ## Lugares — 14 de novembro de 2026
 
-Nova versão em [Lugares](lugares/), também disponível na página de escolha. O mestre combina Brasil, regiões brasileiras e continentes e escolhe **Viajante** ou **Geógrafo** para a sala. Os dois perfis usam os mesmos dez lugares e gabaritos, com 25 pistas por lugar em cada perfil: **500 pistas** no catálogo atual. Rios, clima, relevo e paisagens conhecidos também fazem parte do Viajante.
+Nova versão em [Lugares](lugares/), também disponível na página de escolha. O mestre combina Brasil, regiões brasileiras e continentes e escolhe **Viajante** ou **Geógrafo** para a sala. Os dois perfis usam os mesmos 14 lugares e gabaritos, com 25 pistas por lugar em cada perfil: **700 pistas** no catálogo atual. Rios, clima, relevo e paisagens conhecidos também fazem parte do Viajante.
 
 A seleção informa a quantidade disponível, avisa quando há pouca variedade e bloqueia recortes vazios. O banco mantém a identidade do perfil ao reconectar e evita repetir o lugar ao alternar os perfis. Demonstração da bússola, créditos, Sessão Clássica e Maratonar preservam os custos e a pontuação da mesa. O acesso continua por mestres autorizados e participantes convidados.
 
-Consulte [o banco e a manutenção de Lugares](lugares/README.md). A seleção de 120 candidatos é um plano de expansão: 110 lugares ainda não têm pistas elaboradas. A dificuldade precisa de calibração com jogadores.
+Consulte [o banco e a manutenção de Lugares](lugares/README.md). A seleção de 121 candidatos é um plano de expansão; nomes alternativos exigem conferência antes de calcular pendências. A dificuldade precisa de calibração com jogadores.
 
 ## Atualização da mesa — 3 de novembro de 2026
 

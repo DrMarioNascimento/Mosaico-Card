@@ -6,7 +6,7 @@ O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, sua
 
 Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagens conhecidos. Geógrafo explora relações espaciais, causas e processos. Ambos têm o mesmo catálogo e as mesmas quatro respostas por lugar. A profundidade do conteúdo permanece independente dos recursos pessoais de assistência disponíveis no motor.
 
-## Conteúdo do primeiro lote
+## Catálogo jogável
 
 | Lugar | Recorte |
 |---|---|
@@ -20,10 +20,14 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Polo Sul Geográfico | Antártida |
 | Brasília | Brasil / Centro-Oeste / América |
 | Parque Nacional do Iguaçu | Brasil / Sul / América |
+| Salvador | Brasil / Nordeste / América |
+| Olinda | Brasil / Nordeste / América |
+| Parque Nacional de Jericoacoara | Brasil / Nordeste / América |
+| Cataratas Vitória | África |
 
-São 10 lugares, 20 conjuntos de pistas (dois por lugar), 500 pistas, 40 perguntas distintas e 200 alternativas: oito para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 14 lugares, 28 conjuntos de pistas (dois por lugar), 700 pistas, 56 perguntas distintas e 308 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
-O primeiro teste deve preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano de 120 lugares inclui os dez escritos e 110 candidatos ainda por elaborar.
+Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. O plano editorial reúne 121 candidatos e continua em elaboração; confira os nomes alternativos antes de comparar seus números com o catálogo jogável.
 
 ## Fluxo e regras
 
