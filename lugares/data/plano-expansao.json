@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 130,
+  "targetPlaces": 132,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -37,7 +37,9 @@
     "Parque Nacional da Chapada dos Veadeiros",
     "Ouro Preto",
     "Parque Nacional Tongariro",
-    "Costa de Ningaloo"
+    "Costa de Ningaloo",
+    "Plataforma de Gelo Ross",
+    "Plataforma de Gelo Larsen C"
   ],
   "groups": {
     "Brasil Norte": [
@@ -190,7 +192,9 @@
       "Península Antártica",
       "Mar de Ross",
       "Monte Erebus",
-      "Ilha Deception"
+      "Ilha Deception",
+      "Plataforma de Gelo Ross",
+      "Plataforma de Gelo Larsen C"
     ]
   },
   "classificationNotes": [

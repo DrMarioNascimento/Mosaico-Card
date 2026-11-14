@@ -46,8 +46,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Ouro Preto | Brasil / Sudeste / América |
 | Parque Nacional Tongariro | Oceania |
 | Costa de Ningaloo | Oceania |
+| Plataforma de Gelo Ross | Antártida |
+| Plataforma de Gelo Larsen C | Antártida |
 
-São 36 lugares, 72 conjuntos de pistas (dois por lugar), 1.800 pistas, 144 perguntas distintas e 836 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 38 lugares, 76 conjuntos de pistas (dois por lugar), 1.900 pistas, 152 perguntas distintas e 884 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

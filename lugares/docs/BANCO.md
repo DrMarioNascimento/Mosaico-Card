@@ -2255,3 +2255,138 @@ A Costa de Ningaloo reúne um recife próximo à costa, cavernas calcárias e ag
 - A circulação subterrânea conecta cavidades e reservatórios naturais.
 - A conservação reúne organismos de ambientes marinhos e subterrâneos.
 - A identificação articula localização ocidental, agregação sazonal e carste.
+
+
+## Plataformas de gelo antárticas
+
+As fontes institucionais constam do banco; a calibração de dificuldade em partidas permanece pendente.
+
+### Plataforma de Gelo Ross
+
+A Plataforma de Gelo Ross é uma grande extensão flutuante de gelo continental junto ao Mar de Ross, na Antártida.
+
+- **Destino**: Plataforma de Gelo Ross.
+- **Origem principal do gelo flutuante**: Neve acumulada no continente e transportada por geleiras.
+- **Mar associado**: Mar de Ross.
+- **Continente**: Antártida.
+
+**Viajante**
+
+- Este destino é uma grande plataforma de gelo.
+- O local fica na Antártida.
+- Parte do gelo se origina de neve acumulada em terra.
+- O gelo escoa da terra e passa a flutuar sobre o mar.
+- O gelo da plataforma é de água doce.
+- Uma plataforma flutuante não é o mesmo que gelo marinho.
+- Este é um dos maiores exemplos de plataforma antártica.
+- A superfície cobre cerca de meio milhão de quilômetros quadrados.
+- A plataforma tem cerca de 800 quilômetros de largura.
+- Ela está junto a um mar com o mesmo nome.
+- Esse mar recebe o nome de Ross.
+- Pesquisadores estudam o contato entre gelo e oceano.
+- A parte de cima está em contato com a atmosfera.
+- A parte inferior da plataforma fica em contato com o mar.
+- Pedaços podem se desprender e formar icebergs.
+- O desprendimento ocorre na frente da plataforma.
+- Uma plataforma pode reduzir a velocidade do gelo vindo do interior.
+- A perda de contenção pode afetar o fluxo de gelo em terra.
+- O derretimento do gelo que já flutua não equivale diretamente ao derretimento em terra.
+- Glaciares do interior alimentam a plataforma.
+- Exploradores atravessaram essa área rumo ao Polo Sul.
+- Amundsen e Scott estiveram entre os exploradores dessas rotas.
+- Bases sobre gelo flutuante enfrentam o risco de desprendimento.
+- A área não deve ser confundida com o próprio Polo Sul Geográfico.
+- Para distingui-la, combine dimensão, gelo flutuante e mar adjacente.
+
+**Geógrafo**
+
+- O recorte é uma extensão flutuante de gelo ligada ao continente.
+- A plataforma integra a região costeira antártica.
+- A plataforma recebe gelo continental formado pela compactação de neve.
+- O fluxo glacial transporta gelo continental até uma extensão flutuante.
+- Sua composição difere do gelo formado pelo congelamento direto da água do mar.
+- O gelo marinho resulta do congelamento da água do mar, diferentemente da plataforma.
+- A extensão figura entre as maiores plataformas de gelo da Antártida.
+- A área aproximada é de 500 mil quilômetros quadrados.
+- A dimensão transversal é da ordem de 800 quilômetros.
+- A plataforma e o mar adjacente compartilham uma denominação.
+- O setor marinho associado é o Mar de Ross.
+- A interação da base flutuante com a água é relevante para a estabilidade.
+- A plataforma tem interface superior com o ar e inferior com o oceano.
+- A base do gelo flutuante interage com a água oceânica.
+- O desprendimento de gelo na borda produz icebergs.
+- A borda oceânica é uma zona de formação de icebergs.
+- O efeito de contenção influencia a descarga do gelo continental.
+- Mudanças na plataforma podem modificar a velocidade do gelo apoiado no continente.
+- A elevação indireta do nível do mar pode ocorrer por aceleração do gelo continental.
+- A plataforma recebe descarga de grandes geleiras continentais.
+- Rotas históricas para o polo cruzaram a grande plataforma.
+- As expedições de Amundsen e Scott passaram por essa região antes do polo.
+- O surgimento de icebergs é um risco para infraestrutura instalada em plataformas.
+- Uma plataforma costeira flutuante é distinta do ponto geográfico no interior continental.
+- A identificação articula dimensão, origem continental e localização no setor do Mar de Ross.
+
+### Plataforma de Gelo Larsen C
+
+A Plataforma Larsen C localiza-se no lado oriental da Península Antártica; em 2017, parte dela se desprendeu formando o iceberg A-68.
+
+- **Destino**: Plataforma de Gelo Larsen C.
+- **Origem principal do gelo flutuante**: Neve acumulada no continente e transportada por geleiras.
+- **Mar associado**: Mar de Weddell.
+- **Localização**: Lado oriental da Península Antártica.
+
+**Viajante**
+
+- O destino é uma plataforma de gelo flutuante.
+- A plataforma fica junto à Península Antártica.
+- Ela está no lado oriental da península.
+- Esse lado se relaciona ao Mar de Weddell.
+- A plataforma pertence a um conjunto dividido em setores.
+- O setor em questão é identificado pela letra C.
+- Os setores são nomeados em ordem alfabética de norte a sul.
+- O segmento C é o maior do seu conjunto.
+- O gelo se forma inicialmente a partir de neve em terra.
+- O gelo continental flui em direção à costa.
+- Ao alcançar o oceano, parte do gelo passa a flutuar.
+- Isso é diferente do congelamento da água do mar.
+- A plataforma pode ter centenas de metros de espessura.
+- O setor A do conjunto se desintegrou em 1995.
+- O setor B se desintegrou em 2002.
+- Uma parte do setor C se desprendeu em 2017.
+- O desprendimento de 2017 formou um iceberg identificado como A-68.
+- O episódio de 2017 não significa que todo o setor C desapareceu.
+- O desprendimento de um iceberg é um processo da borda do gelo.
+- A área pode ser comparada a outras plataformas antárticas.
+- Uma plataforma é diferente de uma ilha vulcânica.
+- O lado da península e o mar adjacente ajudam a situar o destino.
+- A plataforma tem água do oceano sob sua base.
+- A parte superior fica exposta à atmosfera.
+- Para diferenciar o destino, combine península, letra e evento de 2017.
+
+**Geógrafo**
+
+- O recorte é uma extensão de gelo continental que flutua no oceano.
+- A localização costeira associa o gelo à península do continente antártico.
+- O setor protegido pelo gelo se localiza na margem oriental da península.
+- A posição da plataforma é associada ao setor do Mar de Weddell.
+- O sistema de plataformas foi subdividido em segmentos identificados por letras.
+- A denominação do segmento inclui a letra C.
+- A distinção entre segmentos usa letras organizadas espacialmente.
+- O setor C foi descrito pelo BAS como o maior segmento do sistema.
+- A acumulação e compactação de neve alimentam gelo continental.
+- O transporte glacial desloca a massa de gelo em direção ao oceano.
+- A plataforma resulta da extensão flutuante do gelo que veio do continente.
+- A origem continental distingue a plataforma do gelo marinho sazonal.
+- Extensões flutuantes podem atingir várias centenas de metros de espessura.
+- O histórico registra a perda do segmento A em 1995.
+- A desintegração do segmento B foi registrada em 2002.
+- Um grande evento de desprendimento ocorreu em julho de 2017.
+- O iceberg resultante desse evento recebeu a identificação A-68.
+- O evento separou uma grande porção, não a plataforma inteira.
+- A perda de massa pela borda é conhecida como desprendimento ou calving.
+- A localização e a identificação por letras ajudam a distinguir sistemas flutuantes.
+- Uma extensão flutuante de gelo continental não é um edifício vulcânico insular.
+- A relação entre margem oriental e Mar de Weddell orienta sua posição.
+- O gelo flutuante permanece em contato basal com a água marinha.
+- A plataforma interage com o ar acima e com o oceano abaixo.
+- A identificação articula posição geográfica, segmento C e histórico de desprendimento.

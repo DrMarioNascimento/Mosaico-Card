@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-11-2026-11-14",
+  "catalogVersion": "lote-12-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Trinta e seis destinos jogáveis com dois perfis",
-  "status": "Trinta e seis destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Trinta e oito destinos jogáveis com dois perfis",
+  "status": "Trinta e oito destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -563,6 +563,27 @@
       "title": "Ningaloo Coast",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/1369/",
+      "checkedAt": "2026-11-14"
+    },
+    "RI1": {
+      "id": "RI1",
+      "title": "Ice shelves",
+      "publisher": "Australian Antarctic Program",
+      "url": "https://www.antarctica.gov.au/about-antarctica/ice-and-atmosphere/sea-ice/fast-ice/ice-shelves/",
+      "checkedAt": "2026-11-14"
+    },
+    "RI2": {
+      "id": "RI2",
+      "title": "Why Ice Shelves Matter",
+      "publisher": "National Snow and Ice Data Center",
+      "url": "https://nsidc.org/learn/parts-cryosphere/ice-shelves/why-ice-shelves-matter",
+      "checkedAt": "2026-11-14"
+    },
+    "LC1": {
+      "id": "LC1",
+      "title": "Larsen C Ice Shelf briefing",
+      "publisher": "British Antarctic Survey",
+      "url": "https://www.bas.ac.uk/wp-content/uploads/2018/02/Larsen-C-briefing_Feb18.pdf",
       "checkedAt": "2026-11-14"
     }
   },
@@ -37016,6 +37037,2102 @@
       },
       "reveal": {
         "canonicalSummary": "A Costa de Ningaloo reúne um recife próximo à costa, cavernas calcárias e agregações sazonais de tubarões-baleia no oeste australiano.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-plataforma-ross",
+      "placeId": "plataforma-ross",
+      "title": "Plataforma de Gelo Ross",
+      "aliases": [
+        "Plataforma Ross"
+      ],
+      "answerType": "plataforma de gelo",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Destino",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Plataforma de Gelo Ross"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Plataforma de Gelo Larsen C"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Plataforma de Gelo Ronne"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Plataforma de Gelo Filchner"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Plataforma de Gelo Amery"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Plataforma de Gelo Brunt"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Plataforma de Gelo Fimbul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Plataforma de Gelo Shackleton"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Plataforma de Gelo George VI"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Plataforma de Gelo Getz"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Plataforma de Gelo Sulzberger"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Plataforma de Gelo Wilkins"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Plataforma de Gelo Ross",
+          "sources": [
+            "RI1",
+            "RI2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Origem principal do gelo flutuante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Neve acumulada no continente e transportada por geleiras"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Somente congelamento direto de água do mar"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Areia acumulada pelo vento"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Corais calcários"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Neve acumulada no continente e transportada por geleiras",
+          "sources": [
+            "RI1",
+            "RI2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Mar associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mar de Ross"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mar de Weddell"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mar de Amundsen"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mar de Bellingshausen"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mar de Ross",
+          "sources": [
+            "RI1",
+            "RI2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Continente",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Antártida"
+            },
+            {
+              "id": "C4-O2",
+              "text": "África"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Oceania"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Europa"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Antártida",
+          "sources": [
+            "RI1",
+            "RI2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "plataforma-ross-viajante-P01",
+              "factKey": "plataforma-ross-F01",
+              "text": "Este destino é uma grande plataforma de gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P02",
+              "factKey": "plataforma-ross-F02",
+              "text": "O local fica na Antártida.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P03",
+              "factKey": "plataforma-ross-F03",
+              "text": "Parte do gelo se origina de neve acumulada em terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P04",
+              "factKey": "plataforma-ross-F04",
+              "text": "O gelo escoa da terra e passa a flutuar sobre o mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P05",
+              "factKey": "plataforma-ross-F05",
+              "text": "O gelo da plataforma é de água doce.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P06",
+              "factKey": "plataforma-ross-F06",
+              "text": "Uma plataforma flutuante não é o mesmo que gelo marinho.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P07",
+              "factKey": "plataforma-ross-F07",
+              "text": "Este é um dos maiores exemplos de plataforma antártica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P08",
+              "factKey": "plataforma-ross-F08",
+              "text": "A superfície cobre cerca de meio milhão de quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P09",
+              "factKey": "plataforma-ross-F09",
+              "text": "A plataforma tem cerca de 800 quilômetros de largura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P10",
+              "factKey": "plataforma-ross-F10",
+              "text": "Ela está junto a um mar com o mesmo nome.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P11",
+              "factKey": "plataforma-ross-F11",
+              "text": "Esse mar recebe o nome de Ross.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P12",
+              "factKey": "plataforma-ross-F12",
+              "text": "Pesquisadores estudam o contato entre gelo e oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P13",
+              "factKey": "plataforma-ross-F13",
+              "text": "A parte de cima está em contato com a atmosfera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P14",
+              "factKey": "plataforma-ross-F14",
+              "text": "A parte inferior da plataforma fica em contato com o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P15",
+              "factKey": "plataforma-ross-F15",
+              "text": "Pedaços podem se desprender e formar icebergs.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P16",
+              "factKey": "plataforma-ross-F16",
+              "text": "O desprendimento ocorre na frente da plataforma.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P17",
+              "factKey": "plataforma-ross-F17",
+              "text": "Uma plataforma pode reduzir a velocidade do gelo vindo do interior.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P18",
+              "factKey": "plataforma-ross-F18",
+              "text": "A perda de contenção pode afetar o fluxo de gelo em terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P19",
+              "factKey": "plataforma-ross-F19",
+              "text": "O derretimento do gelo que já flutua não equivale diretamente ao derretimento em terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P20",
+              "factKey": "plataforma-ross-F20",
+              "text": "Glaciares do interior alimentam a plataforma.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P21",
+              "factKey": "plataforma-ross-F21",
+              "text": "Exploradores atravessaram essa área rumo ao Polo Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P22",
+              "factKey": "plataforma-ross-F22",
+              "text": "Amundsen e Scott estiveram entre os exploradores dessas rotas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P23",
+              "factKey": "plataforma-ross-F23",
+              "text": "Bases sobre gelo flutuante enfrentam o risco de desprendimento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P24",
+              "factKey": "plataforma-ross-F24",
+              "text": "A área não deve ser confundida com o próprio Polo Sul Geográfico.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-viajante-P25",
+              "factKey": "plataforma-ross-F25",
+              "text": "Para distingui-la, combine dimensão, gelo flutuante e mar adjacente.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "plataforma-ross-geografo-P01",
+              "factKey": "plataforma-ross-F01",
+              "text": "O recorte é uma extensão flutuante de gelo ligada ao continente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P02",
+              "factKey": "plataforma-ross-F02",
+              "text": "A plataforma integra a região costeira antártica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P03",
+              "factKey": "plataforma-ross-F03",
+              "text": "A plataforma recebe gelo continental formado pela compactação de neve.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P04",
+              "factKey": "plataforma-ross-F04",
+              "text": "O fluxo glacial transporta gelo continental até uma extensão flutuante.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P05",
+              "factKey": "plataforma-ross-F05",
+              "text": "Sua composição difere do gelo formado pelo congelamento direto da água do mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P06",
+              "factKey": "plataforma-ross-F06",
+              "text": "O gelo marinho resulta do congelamento da água do mar, diferentemente da plataforma.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P07",
+              "factKey": "plataforma-ross-F07",
+              "text": "A extensão figura entre as maiores plataformas de gelo da Antártida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P08",
+              "factKey": "plataforma-ross-F08",
+              "text": "A área aproximada é de 500 mil quilômetros quadrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P09",
+              "factKey": "plataforma-ross-F09",
+              "text": "A dimensão transversal é da ordem de 800 quilômetros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P10",
+              "factKey": "plataforma-ross-F10",
+              "text": "A plataforma e o mar adjacente compartilham uma denominação.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P11",
+              "factKey": "plataforma-ross-F11",
+              "text": "O setor marinho associado é o Mar de Ross.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P12",
+              "factKey": "plataforma-ross-F12",
+              "text": "A interação da base flutuante com a água é relevante para a estabilidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P13",
+              "factKey": "plataforma-ross-F13",
+              "text": "A plataforma tem interface superior com o ar e inferior com o oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P14",
+              "factKey": "plataforma-ross-F14",
+              "text": "A base do gelo flutuante interage com a água oceânica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P15",
+              "factKey": "plataforma-ross-F15",
+              "text": "O desprendimento de gelo na borda produz icebergs.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P16",
+              "factKey": "plataforma-ross-F16",
+              "text": "A borda oceânica é uma zona de formação de icebergs.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P17",
+              "factKey": "plataforma-ross-F17",
+              "text": "O efeito de contenção influencia a descarga do gelo continental.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P18",
+              "factKey": "plataforma-ross-F18",
+              "text": "Mudanças na plataforma podem modificar a velocidade do gelo apoiado no continente.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P19",
+              "factKey": "plataforma-ross-F19",
+              "text": "A elevação indireta do nível do mar pode ocorrer por aceleração do gelo continental.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P20",
+              "factKey": "plataforma-ross-F20",
+              "text": "A plataforma recebe descarga de grandes geleiras continentais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P21",
+              "factKey": "plataforma-ross-F21",
+              "text": "Rotas históricas para o polo cruzaram a grande plataforma.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P22",
+              "factKey": "plataforma-ross-F22",
+              "text": "As expedições de Amundsen e Scott passaram por essa região antes do polo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P23",
+              "factKey": "plataforma-ross-F23",
+              "text": "O surgimento de icebergs é um risco para infraestrutura instalada em plataformas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P24",
+              "factKey": "plataforma-ross-F24",
+              "text": "Uma plataforma costeira flutuante é distinta do ponto geográfico no interior continental.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-ross-geografo-P25",
+              "factKey": "plataforma-ross-F25",
+              "text": "A identificação articula dimensão, origem continental e localização no setor do Mar de Ross.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "RI1",
+                "RI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A Plataforma de Gelo Ross é uma grande extensão flutuante de gelo continental junto ao Mar de Ross, na Antártida.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-plataforma-larsen-c",
+      "placeId": "plataforma-larsen-c",
+      "title": "Plataforma de Gelo Larsen C",
+      "aliases": [
+        "Larsen C"
+      ],
+      "answerType": "plataforma de gelo",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Destino",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Plataforma de Gelo Ross"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Plataforma de Gelo Larsen C"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Plataforma de Gelo Ronne"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Plataforma de Gelo Filchner"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Plataforma de Gelo Amery"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Plataforma de Gelo Brunt"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Plataforma de Gelo Fimbul"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Plataforma de Gelo Shackleton"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Plataforma de Gelo George VI"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Plataforma de Gelo Getz"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Plataforma de Gelo Sulzberger"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Plataforma de Gelo Wilkins"
+            }
+          ],
+          "answerId": "C1-O2",
+          "answerText": "Plataforma de Gelo Larsen C",
+          "sources": [
+            "LC1",
+            "RI1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Origem principal do gelo flutuante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Neve acumulada no continente e transportada por geleiras"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Somente congelamento direto de água do mar"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Areia acumulada pelo vento"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Corais calcários"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Neve acumulada no continente e transportada por geleiras",
+          "sources": [
+            "LC1",
+            "RI1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Mar associado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mar de Weddell"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Mar de Ross"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mar de Amundsen"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Mar de Bellingshausen"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Mar de Weddell",
+          "sources": [
+            "LC1",
+            "RI1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Localização",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Lado oriental da Península Antártica"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Lado ocidental da Península Antártica"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Costa da Terra de Vitória"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Costa da Terra da Rainha Maud"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Lado oriental da Península Antártica",
+          "sources": [
+            "LC1",
+            "RI1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "plataforma-larsen-c-viajante-P01",
+              "factKey": "plataforma-larsen-c-F01",
+              "text": "O destino é uma plataforma de gelo flutuante.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P02",
+              "factKey": "plataforma-larsen-c-F02",
+              "text": "A plataforma fica junto à Península Antártica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P03",
+              "factKey": "plataforma-larsen-c-F03",
+              "text": "Ela está no lado oriental da península.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P04",
+              "factKey": "plataforma-larsen-c-F04",
+              "text": "Esse lado se relaciona ao Mar de Weddell.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P05",
+              "factKey": "plataforma-larsen-c-F05",
+              "text": "A plataforma pertence a um conjunto dividido em setores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P06",
+              "factKey": "plataforma-larsen-c-F06",
+              "text": "O setor em questão é identificado pela letra C.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P07",
+              "factKey": "plataforma-larsen-c-F07",
+              "text": "Os setores são nomeados em ordem alfabética de norte a sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P08",
+              "factKey": "plataforma-larsen-c-F08",
+              "text": "O segmento C é o maior do seu conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P09",
+              "factKey": "plataforma-larsen-c-F09",
+              "text": "O gelo se forma inicialmente a partir de neve em terra.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P10",
+              "factKey": "plataforma-larsen-c-F10",
+              "text": "O gelo continental flui em direção à costa.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P11",
+              "factKey": "plataforma-larsen-c-F11",
+              "text": "Ao alcançar o oceano, parte do gelo passa a flutuar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P12",
+              "factKey": "plataforma-larsen-c-F12",
+              "text": "Isso é diferente do congelamento da água do mar.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P13",
+              "factKey": "plataforma-larsen-c-F13",
+              "text": "A plataforma pode ter centenas de metros de espessura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P14",
+              "factKey": "plataforma-larsen-c-F14",
+              "text": "O setor A do conjunto se desintegrou em 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P15",
+              "factKey": "plataforma-larsen-c-F15",
+              "text": "O setor B se desintegrou em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P16",
+              "factKey": "plataforma-larsen-c-F16",
+              "text": "Uma parte do setor C se desprendeu em 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P17",
+              "factKey": "plataforma-larsen-c-F17",
+              "text": "O desprendimento de 2017 formou um iceberg identificado como A-68.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P18",
+              "factKey": "plataforma-larsen-c-F18",
+              "text": "O episódio de 2017 não significa que todo o setor C desapareceu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P19",
+              "factKey": "plataforma-larsen-c-F19",
+              "text": "O desprendimento de um iceberg é um processo da borda do gelo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P20",
+              "factKey": "plataforma-larsen-c-F20",
+              "text": "A área pode ser comparada a outras plataformas antárticas.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P21",
+              "factKey": "plataforma-larsen-c-F21",
+              "text": "Uma plataforma é diferente de uma ilha vulcânica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P22",
+              "factKey": "plataforma-larsen-c-F22",
+              "text": "O lado da península e o mar adjacente ajudam a situar o destino.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P23",
+              "factKey": "plataforma-larsen-c-F23",
+              "text": "A plataforma tem água do oceano sob sua base.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P24",
+              "factKey": "plataforma-larsen-c-F24",
+              "text": "A parte superior fica exposta à atmosfera.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-viajante-P25",
+              "factKey": "plataforma-larsen-c-F25",
+              "text": "Para diferenciar o destino, combine península, letra e evento de 2017.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "plataforma-larsen-c-geografo-P01",
+              "factKey": "plataforma-larsen-c-F01",
+              "text": "O recorte é uma extensão de gelo continental que flutua no oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P02",
+              "factKey": "plataforma-larsen-c-F02",
+              "text": "A localização costeira associa o gelo à península do continente antártico.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P03",
+              "factKey": "plataforma-larsen-c-F03",
+              "text": "O setor protegido pelo gelo se localiza na margem oriental da península.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P04",
+              "factKey": "plataforma-larsen-c-F04",
+              "text": "A posição da plataforma é associada ao setor do Mar de Weddell.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P05",
+              "factKey": "plataforma-larsen-c-F05",
+              "text": "O sistema de plataformas foi subdividido em segmentos identificados por letras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P06",
+              "factKey": "plataforma-larsen-c-F06",
+              "text": "A denominação do segmento inclui a letra C.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P07",
+              "factKey": "plataforma-larsen-c-F07",
+              "text": "A distinção entre segmentos usa letras organizadas espacialmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P08",
+              "factKey": "plataforma-larsen-c-F08",
+              "text": "O setor C foi descrito pelo BAS como o maior segmento do sistema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P09",
+              "factKey": "plataforma-larsen-c-F09",
+              "text": "A acumulação e compactação de neve alimentam gelo continental.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P10",
+              "factKey": "plataforma-larsen-c-F10",
+              "text": "O transporte glacial desloca a massa de gelo em direção ao oceano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P11",
+              "factKey": "plataforma-larsen-c-F11",
+              "text": "A plataforma resulta da extensão flutuante do gelo que veio do continente.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P12",
+              "factKey": "plataforma-larsen-c-F12",
+              "text": "A origem continental distingue a plataforma do gelo marinho sazonal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P13",
+              "factKey": "plataforma-larsen-c-F13",
+              "text": "Extensões flutuantes podem atingir várias centenas de metros de espessura.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P14",
+              "factKey": "plataforma-larsen-c-F14",
+              "text": "O histórico registra a perda do segmento A em 1995.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P15",
+              "factKey": "plataforma-larsen-c-F15",
+              "text": "A desintegração do segmento B foi registrada em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P16",
+              "factKey": "plataforma-larsen-c-F16",
+              "text": "Um grande evento de desprendimento ocorreu em julho de 2017.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P17",
+              "factKey": "plataforma-larsen-c-F17",
+              "text": "O iceberg resultante desse evento recebeu a identificação A-68.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P18",
+              "factKey": "plataforma-larsen-c-F18",
+              "text": "O evento separou uma grande porção, não a plataforma inteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P19",
+              "factKey": "plataforma-larsen-c-F19",
+              "text": "A perda de massa pela borda é conhecida como desprendimento ou calving.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P20",
+              "factKey": "plataforma-larsen-c-F20",
+              "text": "A localização e a identificação por letras ajudam a distinguir sistemas flutuantes.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P21",
+              "factKey": "plataforma-larsen-c-F21",
+              "text": "Uma extensão flutuante de gelo continental não é um edifício vulcânico insular.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P22",
+              "factKey": "plataforma-larsen-c-F22",
+              "text": "A relação entre margem oriental e Mar de Weddell orienta sua posição.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P23",
+              "factKey": "plataforma-larsen-c-F23",
+              "text": "O gelo flutuante permanece em contato basal com a água marinha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P24",
+              "factKey": "plataforma-larsen-c-F24",
+              "text": "A plataforma interage com o ar acima e com o oceano abaixo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "plataforma-larsen-c-geografo-P25",
+              "factKey": "plataforma-larsen-c-F25",
+              "text": "A identificação articula posição geográfica, segmento C e histórico de desprendimento.",
+              "relatedFields": [
+                "C1",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "LC1",
+                "RI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "A Plataforma Larsen C localiza-se no lado oriental da Península Antártica; em 2017, parte dela se desprendeu formando o iceberg A-68.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
