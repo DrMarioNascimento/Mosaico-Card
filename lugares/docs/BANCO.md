@@ -3883,3 +3883,77 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | Uma das mesquitas foi restaurada por Al Aqib no século XVI. | O imã Al Aqib participou da restauração de mesquitas históricas. | TIM1 |
 | 24 | A cidade não fica na costa atlântica. | Sua posição interiorana difere da localização de portos costeiros africanos. | TIM1 |
 | 25 | Para identificar, reúna ensino, manuscritos e rotas ao sul do Saara. | A identificação combina função intelectual, comércio e posição transaariana. | TIM1 |
+
+## Stonehenge
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Monumento | Stonehenge | Stonehenge; Avebury; Círculo de Callanish; Círculo de Brodgar; Newgrange; Carnac; Dolmens de Antequera; Templos de Ġgantija; Acrópole de Atenas; Machu Picchu; Grande Zimbábue; Petra |
+| Estrutura arquitetônica | Pedras verticais com lintéis horizontais | Pedras verticais com lintéis horizontais; Muros de adobe e torres; Pirâmide de blocos escalonados; Arcos de concreto armado |
+| Materiais principais | Sarsens e bluestones | Sarsens e bluestones; Granito e mármore de Carrara; Coral e calcário oceânico; Basalto e obsidiana |
+| Alinhamento associado | Nascer do sol no solstício de verão e pôr do sol no de inverno | Nascer do sol no solstício de verão e pôr do sol no de inverno; Nascer do sol no equinócio apenas; Pôr do sol diário em qualquer estação; Alinhamento com o Polo Sul Geográfico |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é um monumento de pedras muito antigas. | O sítio é um monumento megalítico pré-histórico. | SHE1 |
+| 2 | As pedras foram organizadas em uma planta circular. | O desenho inclui uma organização concêntrica de grandes blocos. | SHE1 |
+| 3 | Alguns blocos verticais sustentam pedras horizontais. | A arquitetura usa grandes lintéis horizontais sobre suportes verticais. | SHE1 |
+| 4 | Há estruturas feitas com duas pedras verticais e uma horizontal. | Os trilitos combinam dois apoios e uma peça horizontal. | SHE1 |
+| 5 | Os encaixes foram trabalhados pelos construtores. | As juntas foram moldadas para estabilizar os componentes. | SHE1 |
+| 6 | Nem todas as pedras vieram do mesmo lugar. | O monumento usa rochas de origens distintas. | SHE1 |
+| 7 | Há blocos conhecidos como sarsens. | O arenito sarsen constitui um dos principais materiais. | SHE1 |
+| 8 | Também foram usadas pedras chamadas bluestones. | O conjunto combina sarsens e pedras chamadas bluestones. | SHE1 |
+| 9 | Algumas rochas foram transportadas por longas distâncias. | A procedência das pedras demonstra mobilização e transporte de materiais. | SHE1 |
+| 10 | O lugar fica no sul da Grã-Bretanha. | O sítio integra uma paisagem de giz do sul britânico. | SHE1 |
+| 11 | O condado onde fica é Wiltshire. | A localização administrativa é Wiltshire, na Inglaterra. | SHE1 |
+| 12 | O monumento faz parte de uma paisagem com outros sítios antigos. | A área protegida inclui sítios arqueológicos relacionados ao círculo principal. | SHE1 |
+| 13 | Uma avenida antiga integra essa paisagem. | A chamada Avenue conecta o círculo ao contexto arqueológico envolvente. | SHE1 |
+| 14 | Túmulos antigos também aparecem na região protegida. | Montículos funerários integram a paisagem arqueológica. | SHE1 |
+| 15 | A área serviu a práticas funerárias. | O sítio foi usado como cemitério de cremação em um período de sua história. | SHE1 |
+| 16 | O conjunto está ligado ao Neolítico e à Idade do Bronze. | As construções e usos abrangem fases do Neolítico e da Idade do Bronze. | SHE1 |
+| 17 | Algumas estruturas se alinham ao movimento aparente do Sol. | O eixo do círculo e da avenida se relaciona aos solstícios. | SHE1 |
+| 18 | O nascer do sol no verão é um dos alinhamentos observados. | O eixo assinala a direção do nascer do sol no solstício de verão. | SHE1 |
+| 19 | O pôr do sol no inverno é outro alinhamento associado. | O alinhamento também aponta para o pôr do sol no solstício de inverno. | SHE1 |
+| 20 | Ainda existem questões abertas sobre o uso original exato. | A interpretação dos rituais originais não está completamente estabelecida. | SHE1 |
+| 21 | A UNESCO protege esta paisagem junto de outra área com círculo de pedras. | O bem mundial reúne duas áreas arqueológicas relacionadas. | SHE1 |
+| 22 | A outra área do mesmo bem é Avebury. | Avebury integra, com este sítio, o mesmo bem reconhecido pela UNESCO. | SHE1 |
+| 23 | Hoje algumas pessoas se reúnem no local em datas astronômicas. | O monumento conserva associações espirituais contemporâneas. | SHE1 |
+| 24 | Construir o conjunto exigiu planejamento e trabalho coletivo. | As dimensões e os encaixes evidenciam organização e técnica pré-históricas. | SHE1 |
+| 25 | Para identificar, combine trilitos, sarsens e alinhamento com solstícios. | A identificação articula arquitetura megalítica, materiais e orientação astronômica. | SHE1 |
+
+## Mont-Saint-Michel
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Lugar | Mont-Saint-Michel | Mont-Saint-Michel; Abadia de Lindisfarne; Monte Athos; Skellig Michael; Ilha de Saint-Honorat; Convento de Cristo; Abadia de Westminster; Mosteiro de Alcobaça; Mosteiro de Batalha; Abadia de Cluny; Catedral de Chartres; Mosteiro dos Jerónimos |
+| Característica da baía | Marés fortes e bancos de areia expostos | Marés fortes e bancos de areia expostos; Fiorde profundo cercado por montanhas; Baía com manguezais e deltas tropicais; Costa de falésias sem grandes marés |
+| Instituição religiosa histórica | Abadia beneditina dedicada ao arcanjo Miguel | Abadia beneditina dedicada ao arcanjo Miguel; Abadia cisterciense dedicada a Santa Maria; Mosteiro ortodoxo dedicado a São Jorge; Convento franciscano dedicado a Santo Antônio |
+| Função histórica | Peregrinação medieval | Peregrinação medieval; Centro de mineração medieval; Entreposto medieval de especiarias; Residência imperial romana |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino reúne uma construção religiosa e um povoado. | O conjunto patrimonial combina abadia e núcleo fortificado. | MSM1 |
+| 2 | O povoado cresceu junto às muralhas da construção principal. | O desenvolvimento urbano ocorreu em torno do complexo religioso. | MSM1 |
+| 3 | O lugar ocupa um pequeno monte rochoso costeiro. | O sítio se implanta em uma ilhota rochosa numa baía. | MSM1 |
+| 4 | O mar não fica na mesma posição ao longo do dia. | A amplitude das marés altera a extensão das águas na baía. | MSM1 |
+| 5 | Na maré baixa, grandes bancos de areia podem aparecer. | A vazante expõe planícies arenosas no entorno. | MSM1 |
+| 6 | Na maré alta, a água volta a ocupar parte dessa paisagem. | O avanço das águas modifica a relação entre ilhota e baía. | MSM1 |
+| 7 | A travessia da baía exige atenção às marés. | A dinâmica das marés condiciona o acesso e a segurança no entorno. | MSM1 |
+| 8 | O lugar fica na França. | A posição nacional situa o bem na França. | MSM1 |
+| 9 | A baía está na área entre Normandia e Bretanha. | O patrimônio situa-se na interface regional entre Normandia e Bretanha. | MSM1 |
+| 10 | Uma abadia beneditina ocupa o alto do monte. | O edifício religioso principal é uma abadia beneditina. | MSM1 |
+| 11 | A abadia é dedicada ao arcanjo Miguel. | A dedicação religiosa do santuário é ao arcanjo São Miguel. | MSM1 |
+| 12 | Antes da abadia existia um santuário no local. | O santuário dedicado ao arcanjo antecede a fundação da abadia. | MSM1 |
+| 13 | A UNESCO aponta 966 para a fundação beneditina. | A fundação da abadia beneditina é datada de 966. | MSM1 |
+| 14 | A construção precisou se adaptar ao espaço limitado. | A topografia e a área restrita influenciaram as soluções arquitetônicas. | MSM1 |
+| 15 | Parte do conjunto é medieval. | Os edifícios conservam testemunhos de diferentes etapas medievais. | MSM1 |
+| 16 | Há elementos românicos na igreja. | A nave conserva contribuições arquitetônicas do período românico. | MSM1 |
+| 17 | O conjunto também apresenta formas góticas. | O desenvolvimento gótico contribuiu para a silhueta vertical do lugar. | MSM1 |
+| 18 | Um setor construído a partir de 1204 ganhou o nome de Merveille. | O conjunto conventual gótico conhecido como Merveille começou no século XIII. | MSM1 |
+| 19 | O claustro fica em uma das partes mais elevadas. | O claustro integra o pavimento superior de parte do complexo conventual. | MSM1 |
+| 20 | O local recebeu peregrinos durante a Idade Média. | O santuário teve importância como destino de peregrinação medieval. | MSM1 |
+| 21 | Muralhas ajudam a contar a história defensiva do povoado. | A vila fortificada acrescenta uma dimensão defensiva ao sítio religioso. | MSM1 |
+| 22 | A paisagem natural e os edifícios são reconhecidos em conjunto. | O valor patrimonial integra arquitetura e ambiente da baía. | MSM1 |
+| 23 | O conjunto é Patrimônio Mundial reconhecido pela UNESCO. | O bem cultural é inscrito na Lista do Patrimônio Mundial. | MSM1 |
+| 24 | O lugar não é uma ilha tropical cercada por recifes de coral. | O ambiente é uma baía temperada de fortes marés e bancos arenosos. | MSM1 |
+| 25 | Para identificar, combine marés, monte rochoso e abadia dedicada a Miguel. | A identificação articula dinâmica costeira, topografia e função religiosa. | MSM1 |

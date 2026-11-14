@@ -16,7 +16,7 @@ for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['América','america',3
 const ctx={localStorage:{getItem:()=>{throw Error('blocked');},setItem:()=>{throw Error('blocked');}}};
 for(const f of ['sessao.js','cases-lugares.js','bank-runtime.js'])vm.runInNewContext(readFileSync(new URL('../lugares/'+f,import.meta.url),'utf8'),ctx);
 const B=ctx.MC_LUGARES_BANK,S=ctx.MC_SESSAO;
-assert.equal(banco.cases.length,62);assert.equal(B.order.length,124);assert.equal(B.summary.clues,3100);
+assert.equal(banco.cases.length,64);assert.equal(B.order.length,128);assert.equal(B.summary.clues,3200);
 const norm=t=>t.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
 for(const c of banco.cases){
  const v=B.byId[c.id+'-viajante'],g=B.byId[c.id+'-geografo'];assert.deepEqual(v.fields,g.fields);assert.equal(v.sessionTitle,'Destino em descoberta');
@@ -30,17 +30,17 @@ for(const c of banco.cases){
    for(const focal of [c.title,...c.aliases])assert.ok(!(' '+norm(clue.text)+' ').includes(' '+norm(focal)+' '),clue.id+' revela a resposta focal');
    if(['salvador','olinda','jericoacoara','cataratas-vitoria','sao-luis','havana','galapagos','petra'].includes(c.placeId))for(const focal of [c.title,...c.aliases])assert.ok(!norm(clue.text).includes(norm(focal)),clue.id+' revela o nome do destino');
   }
-  for(const f of converted.fields){assert.equal(f.opcoes.length,f.id==='C1'?(['florianopolis','salvador','olinda','lencois-maranhenses','jericoacoara','iguacu','cataratas-vitoria','sao-luis','havana','galapagos','petra','porto','roma','manaus','rio-de-janeiro','belem','opera-sydney','uluru','kilimanjaro','pantanal-matogrossense','monte-erebus','angkor','deception','okavango','serengeti','chapada-veadeiros','ouro-preto','tongariro','ningaloo','plataforma-ross','plataforma-larsen-c','monte-quenia','taj-mahal','muralha-china','fiordland','curitiba','kyoto','vinson','mcmurdo-vales-secos','veneza','acropole-atenas','marrakech','lalibela','jalapao','chapada-diamantina','parque-emas','fernando-noronha','rapa-nui','yellowstone','mar-ross','ilha-paulet','chapada-guimaraes','pampulha','grande-zimbabue','timbuktu'].includes(c.placeId)?12:8):4);assert.equal(new Set(f.opcoes.map(o=>o.id)).size,f.opcoes.length);assert.equal(new Set(f.opcoes.map(o=>norm(o.texto))).size,f.opcoes.length);assert.equal(f.opcoes.filter(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica).length,1);}
+  for(const f of converted.fields){assert.equal(f.opcoes.length,f.id==='C1'?(['florianopolis','salvador','olinda','lencois-maranhenses','jericoacoara','iguacu','cataratas-vitoria','sao-luis','havana','galapagos','petra','porto','roma','manaus','rio-de-janeiro','belem','opera-sydney','uluru','kilimanjaro','pantanal-matogrossense','monte-erebus','angkor','deception','okavango','serengeti','chapada-veadeiros','ouro-preto','tongariro','ningaloo','plataforma-ross','plataforma-larsen-c','monte-quenia','taj-mahal','muralha-china','fiordland','curitiba','kyoto','vinson','mcmurdo-vales-secos','veneza','acropole-atenas','marrakech','lalibela','jalapao','chapada-diamantina','parque-emas','fernando-noronha','rapa-nui','yellowstone','mar-ross','ilha-paulet','chapada-guimaraes','pampulha','grande-zimbabue','timbuktu','stonehenge','mont-saint-michel'].includes(c.placeId)?12:8):4);assert.equal(new Set(f.opcoes.map(o=>o.id)).size,f.opcoes.length);assert.equal(new Set(f.opcoes.map(o=>norm(o.texto))).size,f.opcoes.length);assert.equal(f.opcoes.filter(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica).length,1);}
   for(let n=2;n<=12;n++)assert.ok(R.casoCompativelComMesa(converted,n));
   for(const n of [0,1,13,2.5])assert.ok(!R.casoCompativelComMesa(converted,n));
  }
 }
 for(const perfil of ['viajante','geografo']){
  const select=t=>B.elegiveis(12,{perfil,territorios:t});
- assert.equal(select(['todos']).length,62);assert.equal(select(['brasil']).length,21);assert.equal(select(['america']).length,26);
- assert.deepEqual(select(['brasil','america']),select(['america']));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,26);
- assert.equal(select(['centro-oeste']).length,5);assert.equal(select(['norte']).length,3);assert.equal(select(['sudeste']).length,3);assert.equal(select(['asia']).length,6);assert.equal(select(['antartida']).length,9);assert.equal(select(['europa']).length,5);assert.equal(select(['africa']).length,10);assert.equal(select(['oceania']).length,7);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,10);
- const sequence=Array.from({length:62},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,62,'Saco sem repetição, mesmo sem localStorage');
+ assert.equal(select(['todos']).length,64);assert.equal(select(['brasil']).length,21);assert.equal(select(['america']).length,26);
+ assert.deepEqual(select(['brasil','america']),select(['america']));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,28);
+ assert.equal(select(['centro-oeste']).length,5);assert.equal(select(['norte']).length,3);assert.equal(select(['sudeste']).length,3);assert.equal(select(['asia']).length,6);assert.equal(select(['antartida']).length,9);assert.equal(select(['europa']).length,7);assert.equal(select(['africa']).length,10);assert.equal(select(['oceania']).length,7);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,10);
+ const sequence=Array.from({length:64},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,64,'Saco sem repetição, mesmo sem localStorage');
  assert.ok(B.sortear(12,{perfil,territorios:[]}).erro);assert.ok(B.sortear(13,{perfil,territorios:['todos']}).erro);
 }
 const prev=B.sortear(4,{perfil:'viajante'}).caso.placeId;
@@ -51,4 +51,4 @@ for(const el of doc.querySelectorAll('script[src],link[href]')){const target=el.
 assert.equal(doc.querySelectorAll('#sessao-lugares [data-territorio]').length,13);
 assert.ok(!/a partir de 2001|Cinema &|pipoca|ingressos/.test(doc.body.textContent));
 assert.match(readFileSync(new URL('../index.html',import.meta.url),'utf8'),/href="lugares\/"/);
-dom.window.close();console.log('ok Lugares: 3.100 pistas, gabaritos, fontes, capacidade 2–12, filtros, perfis, sorteio sem persistência e recursos locais');
+dom.window.close();console.log('ok Lugares: 3.200 pistas, gabaritos, fontes, capacidade 2–12, filtros, perfis, sorteio sem persistência e recursos locais');

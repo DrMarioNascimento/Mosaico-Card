@@ -72,8 +72,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Conjunto Moderno da Pampulha | Brasil · Sudeste · América |
 | Grande Zimbábue | África |
 | Timbuktu | África |
+| Stonehenge | Europa |
+| Mont-Saint-Michel | Europa |
 
-São 62 lugares, 124 conjuntos de pistas (dois por lugar), 3.100 pistas, 248 perguntas distintas e 1.460 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 64 lugares, 128 conjuntos de pistas (dois por lugar), 3.200 pistas, 256 perguntas distintas e 1.508 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

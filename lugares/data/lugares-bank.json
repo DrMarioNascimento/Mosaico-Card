@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-23-2026-11-14",
+  "catalogVersion": "lote-24-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Sessenta e dois destinos jogáveis em dois perfis",
-  "status": "Sessenta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Sessenta e quatro destinos jogáveis em dois perfis",
+  "status": "Sessenta e quatro destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -829,6 +829,20 @@
       "title": "Timbuktu",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/119/",
+      "checkedAt": "2026-11-14"
+    },
+    "SHE1": {
+      "id": "SHE1",
+      "title": "Stonehenge, Avebury and Associated Sites",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/373/",
+      "checkedAt": "2026-11-14"
+    },
+    "MSM1": {
+      "id": "MSM1",
+      "title": "Mont-Saint-Michel and its Bay",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/80/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -63868,6 +63882,1992 @@
       },
       "reveal": {
         "canonicalSummary": "Cidade histórica do Mali que articulou comércio transaariano, ensino islâmico e arquitetura de terra.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-stonehenge",
+      "placeId": "stonehenge",
+      "title": "Stonehenge",
+      "aliases": [],
+      "answerType": "sítio arqueológico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "GB"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Monumento",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Stonehenge"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Avebury"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Círculo de Callanish"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Círculo de Brodgar"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Newgrange"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Carnac"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Dolmens de Antequera"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Templos de Ġgantija"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Acrópole de Atenas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Machu Picchu"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Grande Zimbábue"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Petra"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Stonehenge",
+          "sources": [
+            "SHE1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estrutura arquitetônica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Pedras verticais com lintéis horizontais"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Muros de adobe e torres"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Pirâmide de blocos escalonados"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Arcos de concreto armado"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Pedras verticais com lintéis horizontais",
+          "sources": [
+            "SHE1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Materiais principais",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Sarsens e bluestones"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Granito e mármore de Carrara"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Coral e calcário oceânico"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Basalto e obsidiana"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Sarsens e bluestones",
+          "sources": [
+            "SHE1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Alinhamento associado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nascer do sol no solstício de verão e pôr do sol no de inverno"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Nascer do sol no equinócio apenas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pôr do sol diário em qualquer estação"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Alinhamento com o Polo Sul Geográfico"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Nascer do sol no solstício de verão e pôr do sol no de inverno",
+          "sources": [
+            "SHE1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "stonehenge-viajante-P01",
+              "factKey": "stonehenge-F01",
+              "text": "O destino é um monumento de pedras muito antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P02",
+              "factKey": "stonehenge-F02",
+              "text": "As pedras foram organizadas em uma planta circular.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P03",
+              "factKey": "stonehenge-F03",
+              "text": "Alguns blocos verticais sustentam pedras horizontais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P04",
+              "factKey": "stonehenge-F04",
+              "text": "Há estruturas feitas com duas pedras verticais e uma horizontal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P05",
+              "factKey": "stonehenge-F05",
+              "text": "Os encaixes foram trabalhados pelos construtores.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P06",
+              "factKey": "stonehenge-F06",
+              "text": "Nem todas as pedras vieram do mesmo lugar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P07",
+              "factKey": "stonehenge-F07",
+              "text": "Há blocos conhecidos como sarsens.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P08",
+              "factKey": "stonehenge-F08",
+              "text": "Também foram usadas pedras chamadas bluestones.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P09",
+              "factKey": "stonehenge-F09",
+              "text": "Algumas rochas foram transportadas por longas distâncias.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P10",
+              "factKey": "stonehenge-F10",
+              "text": "O lugar fica no sul da Grã-Bretanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P11",
+              "factKey": "stonehenge-F11",
+              "text": "O condado onde fica é Wiltshire.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P12",
+              "factKey": "stonehenge-F12",
+              "text": "O monumento faz parte de uma paisagem com outros sítios antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P13",
+              "factKey": "stonehenge-F13",
+              "text": "Uma avenida antiga integra essa paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P14",
+              "factKey": "stonehenge-F14",
+              "text": "Túmulos antigos também aparecem na região protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P15",
+              "factKey": "stonehenge-F15",
+              "text": "A área serviu a práticas funerárias.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P16",
+              "factKey": "stonehenge-F16",
+              "text": "O conjunto está ligado ao Neolítico e à Idade do Bronze.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P17",
+              "factKey": "stonehenge-F17",
+              "text": "Algumas estruturas se alinham ao movimento aparente do Sol.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P18",
+              "factKey": "stonehenge-F18",
+              "text": "O nascer do sol no verão é um dos alinhamentos observados.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P19",
+              "factKey": "stonehenge-F19",
+              "text": "O pôr do sol no inverno é outro alinhamento associado.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P20",
+              "factKey": "stonehenge-F20",
+              "text": "Ainda existem questões abertas sobre o uso original exato.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P21",
+              "factKey": "stonehenge-F21",
+              "text": "A UNESCO protege esta paisagem junto de outra área com círculo de pedras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P22",
+              "factKey": "stonehenge-F22",
+              "text": "A outra área do mesmo bem é Avebury.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P23",
+              "factKey": "stonehenge-F23",
+              "text": "Hoje algumas pessoas se reúnem no local em datas astronômicas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P24",
+              "factKey": "stonehenge-F24",
+              "text": "Construir o conjunto exigiu planejamento e trabalho coletivo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-viajante-P25",
+              "factKey": "stonehenge-F25",
+              "text": "Para identificar, combine trilitos, sarsens e alinhamento com solstícios.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "stonehenge-geografo-P01",
+              "factKey": "stonehenge-F01",
+              "text": "O sítio é um monumento megalítico pré-histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P02",
+              "factKey": "stonehenge-F02",
+              "text": "O desenho inclui uma organização concêntrica de grandes blocos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P03",
+              "factKey": "stonehenge-F03",
+              "text": "A arquitetura usa grandes lintéis horizontais sobre suportes verticais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P04",
+              "factKey": "stonehenge-F04",
+              "text": "Os trilitos combinam dois apoios e uma peça horizontal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P05",
+              "factKey": "stonehenge-F05",
+              "text": "As juntas foram moldadas para estabilizar os componentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P06",
+              "factKey": "stonehenge-F06",
+              "text": "O monumento usa rochas de origens distintas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P07",
+              "factKey": "stonehenge-F07",
+              "text": "O arenito sarsen constitui um dos principais materiais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P08",
+              "factKey": "stonehenge-F08",
+              "text": "O conjunto combina sarsens e pedras chamadas bluestones.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P09",
+              "factKey": "stonehenge-F09",
+              "text": "A procedência das pedras demonstra mobilização e transporte de materiais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P10",
+              "factKey": "stonehenge-F10",
+              "text": "O sítio integra uma paisagem de giz do sul britânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P11",
+              "factKey": "stonehenge-F11",
+              "text": "A localização administrativa é Wiltshire, na Inglaterra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P12",
+              "factKey": "stonehenge-F12",
+              "text": "A área protegida inclui sítios arqueológicos relacionados ao círculo principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P13",
+              "factKey": "stonehenge-F13",
+              "text": "A chamada Avenue conecta o círculo ao contexto arqueológico envolvente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P14",
+              "factKey": "stonehenge-F14",
+              "text": "Montículos funerários integram a paisagem arqueológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P15",
+              "factKey": "stonehenge-F15",
+              "text": "O sítio foi usado como cemitério de cremação em um período de sua história.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P16",
+              "factKey": "stonehenge-F16",
+              "text": "As construções e usos abrangem fases do Neolítico e da Idade do Bronze.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P17",
+              "factKey": "stonehenge-F17",
+              "text": "O eixo do círculo e da avenida se relaciona aos solstícios.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P18",
+              "factKey": "stonehenge-F18",
+              "text": "O eixo assinala a direção do nascer do sol no solstício de verão.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P19",
+              "factKey": "stonehenge-F19",
+              "text": "O alinhamento também aponta para o pôr do sol no solstício de inverno.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P20",
+              "factKey": "stonehenge-F20",
+              "text": "A interpretação dos rituais originais não está completamente estabelecida.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P21",
+              "factKey": "stonehenge-F21",
+              "text": "O bem mundial reúne duas áreas arqueológicas relacionadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P22",
+              "factKey": "stonehenge-F22",
+              "text": "Avebury integra, com este sítio, o mesmo bem reconhecido pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P23",
+              "factKey": "stonehenge-F23",
+              "text": "O monumento conserva associações espirituais contemporâneas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P24",
+              "factKey": "stonehenge-F24",
+              "text": "As dimensões e os encaixes evidenciam organização e técnica pré-históricas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "stonehenge-geografo-P25",
+              "factKey": "stonehenge-F25",
+              "text": "A identificação articula arquitetura megalítica, materiais e orientação astronômica.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "SHE1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Monumento megalítico inglês com blocos sarsen e bluestones, inserido em uma paisagem arqueológica associada aos solstícios.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-mont-saint-michel",
+      "placeId": "mont-saint-michel",
+      "title": "Mont-Saint-Michel",
+      "aliases": [
+        "Monte Saint-Michel"
+      ],
+      "answerType": "conjunto insular",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "FR"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Lugar",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Mont-Saint-Michel"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Abadia de Lindisfarne"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Monte Athos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Skellig Michael"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Ilha de Saint-Honorat"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Convento de Cristo"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Abadia de Westminster"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Mosteiro de Alcobaça"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Mosteiro de Batalha"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Abadia de Cluny"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Catedral de Chartres"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Mosteiro dos Jerónimos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Mont-Saint-Michel",
+          "sources": [
+            "MSM1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Característica da baía",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Marés fortes e bancos de areia expostos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Fiorde profundo cercado por montanhas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Baía com manguezais e deltas tropicais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Costa de falésias sem grandes marés"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Marés fortes e bancos de areia expostos",
+          "sources": [
+            "MSM1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Instituição religiosa histórica",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Abadia beneditina dedicada ao arcanjo Miguel"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Abadia cisterciense dedicada a Santa Maria"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Mosteiro ortodoxo dedicado a São Jorge"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Convento franciscano dedicado a Santo Antônio"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Abadia beneditina dedicada ao arcanjo Miguel",
+          "sources": [
+            "MSM1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Função histórica",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Peregrinação medieval"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Centro de mineração medieval"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Entreposto medieval de especiarias"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Residência imperial romana"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Peregrinação medieval",
+          "sources": [
+            "MSM1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "mont-saint-michel-viajante-P01",
+              "factKey": "mont-saint-michel-F01",
+              "text": "O destino reúne uma construção religiosa e um povoado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P02",
+              "factKey": "mont-saint-michel-F02",
+              "text": "O povoado cresceu junto às muralhas da construção principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P03",
+              "factKey": "mont-saint-michel-F03",
+              "text": "O lugar ocupa um pequeno monte rochoso costeiro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P04",
+              "factKey": "mont-saint-michel-F04",
+              "text": "O mar não fica na mesma posição ao longo do dia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P05",
+              "factKey": "mont-saint-michel-F05",
+              "text": "Na maré baixa, grandes bancos de areia podem aparecer.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P06",
+              "factKey": "mont-saint-michel-F06",
+              "text": "Na maré alta, a água volta a ocupar parte dessa paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P07",
+              "factKey": "mont-saint-michel-F07",
+              "text": "A travessia da baía exige atenção às marés.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P08",
+              "factKey": "mont-saint-michel-F08",
+              "text": "O lugar fica na França.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P09",
+              "factKey": "mont-saint-michel-F09",
+              "text": "A baía está na área entre Normandia e Bretanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P10",
+              "factKey": "mont-saint-michel-F10",
+              "text": "Uma abadia beneditina ocupa o alto do monte.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P11",
+              "factKey": "mont-saint-michel-F11",
+              "text": "A abadia é dedicada ao arcanjo Miguel.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P12",
+              "factKey": "mont-saint-michel-F12",
+              "text": "Antes da abadia existia um santuário no local.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P13",
+              "factKey": "mont-saint-michel-F13",
+              "text": "A UNESCO aponta 966 para a fundação beneditina.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P14",
+              "factKey": "mont-saint-michel-F14",
+              "text": "A construção precisou se adaptar ao espaço limitado.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P15",
+              "factKey": "mont-saint-michel-F15",
+              "text": "Parte do conjunto é medieval.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P16",
+              "factKey": "mont-saint-michel-F16",
+              "text": "Há elementos românicos na igreja.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P17",
+              "factKey": "mont-saint-michel-F17",
+              "text": "O conjunto também apresenta formas góticas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P18",
+              "factKey": "mont-saint-michel-F18",
+              "text": "Um setor construído a partir de 1204 ganhou o nome de Merveille.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P19",
+              "factKey": "mont-saint-michel-F19",
+              "text": "O claustro fica em uma das partes mais elevadas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P20",
+              "factKey": "mont-saint-michel-F20",
+              "text": "O local recebeu peregrinos durante a Idade Média.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P21",
+              "factKey": "mont-saint-michel-F21",
+              "text": "Muralhas ajudam a contar a história defensiva do povoado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P22",
+              "factKey": "mont-saint-michel-F22",
+              "text": "A paisagem natural e os edifícios são reconhecidos em conjunto.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P23",
+              "factKey": "mont-saint-michel-F23",
+              "text": "O conjunto é Patrimônio Mundial reconhecido pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P24",
+              "factKey": "mont-saint-michel-F24",
+              "text": "O lugar não é uma ilha tropical cercada por recifes de coral.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-viajante-P25",
+              "factKey": "mont-saint-michel-F25",
+              "text": "Para identificar, combine marés, monte rochoso e abadia dedicada a Miguel.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "mont-saint-michel-geografo-P01",
+              "factKey": "mont-saint-michel-F01",
+              "text": "O conjunto patrimonial combina abadia e núcleo fortificado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P02",
+              "factKey": "mont-saint-michel-F02",
+              "text": "O desenvolvimento urbano ocorreu em torno do complexo religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P03",
+              "factKey": "mont-saint-michel-F03",
+              "text": "O sítio se implanta em uma ilhota rochosa numa baía.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P04",
+              "factKey": "mont-saint-michel-F04",
+              "text": "A amplitude das marés altera a extensão das águas na baía.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P05",
+              "factKey": "mont-saint-michel-F05",
+              "text": "A vazante expõe planícies arenosas no entorno.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P06",
+              "factKey": "mont-saint-michel-F06",
+              "text": "O avanço das águas modifica a relação entre ilhota e baía.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P07",
+              "factKey": "mont-saint-michel-F07",
+              "text": "A dinâmica das marés condiciona o acesso e a segurança no entorno.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P08",
+              "factKey": "mont-saint-michel-F08",
+              "text": "A posição nacional situa o bem na França.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P09",
+              "factKey": "mont-saint-michel-F09",
+              "text": "O patrimônio situa-se na interface regional entre Normandia e Bretanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P10",
+              "factKey": "mont-saint-michel-F10",
+              "text": "O edifício religioso principal é uma abadia beneditina.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P11",
+              "factKey": "mont-saint-michel-F11",
+              "text": "A dedicação religiosa do santuário é ao arcanjo São Miguel.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P12",
+              "factKey": "mont-saint-michel-F12",
+              "text": "O santuário dedicado ao arcanjo antecede a fundação da abadia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P13",
+              "factKey": "mont-saint-michel-F13",
+              "text": "A fundação da abadia beneditina é datada de 966.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P14",
+              "factKey": "mont-saint-michel-F14",
+              "text": "A topografia e a área restrita influenciaram as soluções arquitetônicas.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P15",
+              "factKey": "mont-saint-michel-F15",
+              "text": "Os edifícios conservam testemunhos de diferentes etapas medievais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P16",
+              "factKey": "mont-saint-michel-F16",
+              "text": "A nave conserva contribuições arquitetônicas do período românico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P17",
+              "factKey": "mont-saint-michel-F17",
+              "text": "O desenvolvimento gótico contribuiu para a silhueta vertical do lugar.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P18",
+              "factKey": "mont-saint-michel-F18",
+              "text": "O conjunto conventual gótico conhecido como Merveille começou no século XIII.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P19",
+              "factKey": "mont-saint-michel-F19",
+              "text": "O claustro integra o pavimento superior de parte do complexo conventual.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P20",
+              "factKey": "mont-saint-michel-F20",
+              "text": "O santuário teve importância como destino de peregrinação medieval.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P21",
+              "factKey": "mont-saint-michel-F21",
+              "text": "A vila fortificada acrescenta uma dimensão defensiva ao sítio religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P22",
+              "factKey": "mont-saint-michel-F22",
+              "text": "O valor patrimonial integra arquitetura e ambiente da baía.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P23",
+              "factKey": "mont-saint-michel-F23",
+              "text": "O bem cultural é inscrito na Lista do Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P24",
+              "factKey": "mont-saint-michel-F24",
+              "text": "O ambiente é uma baía temperada de fortes marés e bancos arenosos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mont-saint-michel-geografo-P25",
+              "factKey": "mont-saint-michel-F25",
+              "text": "A identificação articula dinâmica costeira, topografia e função religiosa.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MSM1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Abadia e povoado fortificado em ilhota rochosa de uma baía francesa marcada por fortes marés.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
