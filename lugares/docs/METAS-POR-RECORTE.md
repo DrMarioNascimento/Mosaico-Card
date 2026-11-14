@@ -8,13 +8,13 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 23 | 30 | 7 |
-| América | 28 | 30 | 2 |
+| Brasil | 27 | 30 | 3 |
+| América | 32 | 30 | 0 |
 | Europa | 7 | 30 | 23 |
 | África | 10 | 30 | 20 |
 | Ásia | 8 | 30 | 22 |
 | Oceania | 9 | 30 | 21 |
-| Antártida | 9 | 30 | 21 |
+| Antártida | 11 | 30 | 19 |
 
 **Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. Rapa Nui conta em América pela administração chilena e em Oceania pela posição polinésia. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
 
@@ -26,13 +26,13 @@ Para evitar que a meta de 30 se concentre em uma região, o planejamento parte d
 
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
-| Norte | 3 | 6 | 3 |
+| Norte | 5 | 6 | 1 |
 | Nordeste | 7 | 6 | 0 |
 | Centro-Oeste | 5 | 6 | 1 |
-| Sudeste | 4 | 6 | 2 |
-| Sul | 4 | 6 | 2 |
+| Sudeste | 5 | 6 | 1 |
+| Sul | 5 | 6 | 1 |
 
-Os filtros Norte e Sudeste agora têm, respectivamente, três e quatro lugares, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
+Os filtros Norte e Sudeste agora têm, respectivamente, cinco e cinco lugares, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
 
 ## Critérios de autoria e revisão
 

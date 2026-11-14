@@ -10,7 +10,7 @@ class Servidor {
  query(path){return {forEach:fn=>{for(const [p]of this.docs)if(p.startsWith(path+'/')&&!p.slice(path.length+1).includes('/'))fn({id:p.slice(path.length+1),...this.snap(p)});}};}
  snap(path){return {exists:this.docs.has(path),data:()=>clone(this.docs.get(path))};}
  gravar(path,data){this.docs.set(path,clone(data));for(const fn of this.listeners.get(path)||[])queueMicrotask(()=>fn(this.snap(path)));const col=path.slice(0,path.lastIndexOf('/'));for(const fn of this.collectionListeners.get(col)||[])queueMicrotask(()=>fn(this.query(col)));}
- db(){return {collection:n=>({doc:id=>this.ref(n+'/'+id)}),runTransaction:fn=>{const p=this.fila.then(async()=>{const writes=[];const out=await fn({get:async ref=>this.snap(ref.path),set:(ref,d)=>writes.push([ref.path,d]),update:(ref,d)=>writes.push([ref.path,{...this.docs.get(ref.path),...d}])});for(const [p,d]of writes)this.gravar(p,d);if(this.falharDepois){this.falharDepois=false;const e=new Error('Resposta de rede perdida');e.code='unavailable';throw e;}return out;});this.fila=p.catch(()=>{});return p;}};}
+ db(){return {collection:n=>({doc:id=>this.ref(n+'/'+id)}),runTransaction:fn=>{const p=this.fila.then(async()=>{const writes=[];const out=await fn({get:async ref=>this.snap(ref.path),set:(ref,d)=>writes.push([ref.path,d]),update:(ref,d,value)=>{const original=this.docs.get(ref.path);if(d?.segments){const [a,b]=d.segments;writes.push([ref.path,{...original,[a]:{...original[a],[b]:value}}]);}else writes.push([ref.path,{...original,...d}]);}});for(const [p,d]of writes)this.gravar(p,d);if(this.falharDepois){this.falharDepois=false;const e=new Error('Resposta de rede perdida');e.code='unavailable';throw e;}return out;});this.fila=p.catch(()=>{});return p;}};}
 }
 for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'], ['lugares','viajante'], ['lugares','geografo']]){
  const server=new Servidor();let master=await abrir(server,edicao,'mestre',{google:true}),player=await abrir(server,edicao,'pessoa');
@@ -27,9 +27,9 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    q('#sessao-lugares [data-territorio=centro-oeste]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/5 lugares/);
    q('#sessao-lugares [data-territorio=brasil]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/23 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/27 lugares/);
    q('#sessao-lugares [data-territorio=america]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/28 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/32 lugares/);
    q('#sessao-lugares [data-territorio=todos]').click();
  }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();

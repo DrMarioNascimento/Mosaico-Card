@@ -30,6 +30,12 @@ try {
   await master.doc(path).update({jogadores:[...room.jogadores,{id:'pessoa',nome:'Ana',forma:'n',pronto:true}],ordem:['mestre','pessoa'],vinculos:{mestre:'mestre',pessoa:'pessoa'}});
   const visto=Date.now(),p={aba:'aba-pessoa',visto,ate:visto+30000};
   await assertSucceeds(player.doc(path).update({presencas:{pessoa:p}}));
+  // Um UID pode conter ponto: somente sua presença deve ser alterada, sem afetar a de outro jogador.
+  const uidPontuado='pessoa.com.ponto', jogadorPontuado=env.authenticatedContext(uidPontuado).firestore();
+  await master.doc(path).update({vinculos:{mestre:'mestre',pessoa:'pessoa',[uidPontuado]:uidPontuado}});
+  await assertSucceeds(jogadorPontuado.doc(path).update(new firebase.firestore.FieldPath('presencas',uidPontuado),p));
+  assert.ok((await master.doc(path).get()).data().presencas.pessoa);
+  await assertFails(jogadorPontuado.doc(path).update(new firebase.firestore.FieldPath('presencas','pessoa'),{...p,aba:'tentativa-de-alteracao'}));
   await assertSucceeds(player.doc(path+'/pulsos/pessoa').set(p));
   await assertFails(other.doc(path+'/pulsos/pessoa').set(p));
   await assertFails(other.doc(path+'/pulsos/pessoa').get());
@@ -64,10 +70,15 @@ try {
  const bridge=(db,uid)=>{
   const ref=r=>({_ref:r,get:()=>r.get(),set:d=>r.set(normal(d)),update:d=>r.update(normal(d)),onSnapshot:(...a)=>r.onSnapshot(...a),collection:n=>col(r.collection(n))});
   const col=c=>({doc:id=>ref(c.doc(id)),onSnapshot:(...a)=>c.onSnapshot(...a)});
-  return {doc:p=>ref(db.doc(p)),collection:n=>col(db.collection(n)),runTransaction:fn=>db.runTransaction(tx=>fn({get:r=>tx.get(r._ref),set:(r,d)=>tx.set(r._ref,normal(d)),update:(r,d)=>tx.update(r._ref,normal(d))})).catch(e=>{console.error("TRANSACTION",uid,e.message);throw e;})};
+  return {doc:p=>ref(db.doc(p)),collection:n=>col(db.collection(n)),runTransaction:fn=>{
+   let antes=null, escrito=null;
+   return db.runTransaction(tx=>fn({get:async r=>{const snap=await tx.get(r._ref);if(snap.exists&&snap.data().codigo)antes=JSON.parse(JSON.stringify(snap.data()));return snap;},set:(r,d)=>{if(d.codigo)escrito=JSON.parse(JSON.stringify(d));return tx.set(r._ref,normal(d));},update:(r,...args)=>{if(args[0]?.presencas)escrito={presencas:JSON.parse(JSON.stringify(args[0].presencas))};if(args.length===2&&args[0] instanceof firebase.firestore.FieldPath)escrito={presencas:{[uid]:JSON.parse(JSON.stringify(args[1]))}};return tx.update(r._ref,...args.map(normal));}})).catch(e=>{
+    console.error('TRANSACTION',uid,e.message,JSON.stringify({fase:antes?.fase,ativa:antes?.ativa,vinculo:antes?.vinculos?.[uid],antes:Object.keys(antes?.presencas||{}),depois:Object.keys(escrito?.presencas||{}),presenca:escrito?.presencas?.[antes?.vinculos?.[uid]]}));throw e;
+   });
+  }};
  };
  const contexts=new Map();
- const server={get agora(){return Date.now();},serverTimestamp:()=>firebase.firestore.FieldValue.serverTimestamp(),db(uid){if(!contexts.has(uid))contexts.set(uid,bridge(env.authenticatedContext(uid,uid==='mestre'?{email:'mestre@example.test',email_verified:true}:{}).firestore(),uid));return contexts.get(uid);}};
+ const server={FieldPath:firebase.firestore.FieldPath,get agora(){return Date.now();},serverTimestamp:()=>firebase.firestore.FieldValue.serverTimestamp(),db(uid){if(!contexts.has(uid))contexts.set(uid,bridge(env.authenticatedContext(uid,uid==='mestre'?{email:'mestre@example.test',email_verified:true}:{}).firestore(),uid));return contexts.get(uid);}};
  for(const edicao of ['cinema','nt','lugares']){
   let m=await abrir(server,edicao,'mestre',{google:true});apps.push(m);
   await ate(()=>m.w.MC_FB.ready);await new Promise(r=>setTimeout(r,100));

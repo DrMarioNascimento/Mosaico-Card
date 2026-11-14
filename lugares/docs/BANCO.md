@@ -4063,7 +4063,7 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 18 | O ambiente muda conforme a salinidade e a água disponível. | Salinidade e nível de água participam da distribuição da vegetação. | KGA1 |
 | 19 | O destino fica na Austrália. | A localização nacional é a Austrália. | KGA1 |
 | 20 | Fica junto à costa leste australiana. | A posição é próxima à costa oriental do país. | KGA1 |
-| 21 | O nome antigo usado em inglês era Fraser Island. | A ilha também foi conhecida pelo nome Fraser Island. | KGA1 |
+| 21 | A ilha também foi conhecida por outro nome em inglês. | A toponímia da ilha inclui uma denominação histórica em inglês. | KGA1 |
 | 22 | O reconhecimento da UNESCO inclui a ilha e pequenas ilhas vizinhas. | O bem inclui a ilha principal e algumas pequenas ilhas a oeste. | KGA1 |
 | 23 | Grande parte da ilha integra um parque nacional. | A maior parte do território insular está protegida como parque nacional. | KGA1 |
 | 24 | A visitação exige cuidados com a qualidade da água dos lagos. | O uso recreativo intenso pode afetar os lagos e requer gestão. | KGA1 |
@@ -4179,3 +4179,225 @@ A Ilha Paulet, no noroeste do Mar de Weddell, tem relevo vulcânico, colônia de
 | 23 | O reconhecimento da UNESCO valoriza cultura e biodiversidade. | O bem é reconhecido por atributos culturais e naturais. | PAR1 |
 | 24 | O lugar não é uma capital planejada no interior. | A posição litorânea histórica diferencia o destino de capitais planejadas. | PAR1 |
 | 25 | Para identificar, combine porto colonial, Caminho do Ouro e baía. | A identificação relaciona rota histórica, paisagem costeira e patrimônio cultural. | PAR1 |
+
+## Parque Nacional de Anavilhanas
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional de Anavilhanas | Parque Nacional de Anavilhanas; Parque Nacional do Jaú; Parque Nacional da Serra do Divisor; Parque Nacional do Pico da Neblina; Parque Nacional do Viruá; Parque Nacional Montanhas do Tumucumaque; Parque Nacional dos Lençóis Maranhenses; Parque Nacional do Iguaçu; Parque Nacional do Pantanal Mato-Grossense; Parque Nacional do Cabo Orange; Parque Nacional da Amazônia; Parque Nacional do Araguaia |
+| Rio do arquipélago | Rio Negro | Rio Negro; Rio São Francisco; Rio Paraná; Rio Parnaíba |
+| Floresta periodicamente inundada | Igapó | Igapó; Floresta boreal; Mata mediterrânea; Tundra |
+| Município de referência | Novo Airão | Novo Airão; Manaus; Belém; Palmas |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino protege uma paisagem de ilhas e canais na Amazônia. | A unidade protege um arquipélago fluvial amazônico. | ANA1, ANA2 |
+| 2 | As ilhas ficam em um rio, não no oceano. | O arquipélago se desenvolve em ambiente de água doce continental. | ANA1, ANA2 |
+| 3 | O rio que envolve o arquipélago é o Negro. | A localização do conjunto de ilhas é o rio Negro. | ANA1, ANA2 |
+| 4 | O nível da água muda durante o ano. | A variação sazonal do rio modifica a paisagem do arquipélago. | ANA1, ANA2 |
+| 5 | Na cheia, parte da floresta fica inundada. | O pulso de inundação alcança florestas de igapó. | ANA1, ANA2 |
+| 6 | A época de seca pode revelar praias fluviais. | A retração das águas expõe faixas arenosas ao longo do rio. | ANA1, ANA2 |
+| 7 | A quantidade aparente de ilhas varia com o nível da água. | A inundação altera a delimitação visível das ilhas. | ANA1, ANA2 |
+| 8 | O arquipélago tem centenas de ilhas. | O conjunto fluvial reúne cerca de quatrocentas ilhas ou mais. | ANA1, ANA2 |
+| 9 | A paisagem também tem lagos e canais. | Canais e lagos integram o mosaico de ambientes aquáticos. | ANA1, ANA2 |
+| 10 | Há florestas que são inundadas periodicamente. | Florestas de igapó se relacionam ao ciclo anual do rio. | ANA1, ANA2 |
+| 11 | Outros trechos de floresta ficam em terra firme. | A unidade também protege ambientes florestais de terra firme. | ANA1, ANA2 |
+| 12 | Um mamífero aquático conhecido pela cor rosada vive na região. | O boto-cor-de-rosa é uma das espécies associadas à unidade. | ANA1, ANA2 |
+| 13 | O peixe-boi amazônico está entre os animais protegidos na região. | O complexo amazônico abriga o peixe-boi amazônico. | ANA1, ANA2 |
+| 14 | A ariranha também aparece na fauna protegida. | A ariranha integra a fauna do complexo de conservação. | ANA1, ANA2 |
+| 15 | O pirarucu é um grande peixe encontrado na região. | O pirarucu integra a diversidade aquática da área protegida. | ANA1, ANA2 |
+| 16 | A região abriga muitos peixes elétricos. | Os ambientes aquáticos apresentam grande diversidade de peixes elétricos. | ANA1, ANA2 |
+| 17 | A unidade é um parque nacional. | A categoria federal de proteção é parque nacional. | ANA1, ANA2 |
+| 18 | Antes de ser parque, a área tinha outra categoria de proteção. | A área foi inicialmente uma estação ecológica. | ANA1, ANA2 |
+| 19 | A mudança para parque nacional ocorreu em 2008. | A reclassificação da unidade como parque nacional data de 2008. | ANA1, ANA2 |
+| 20 | O parque integra o Complexo de Conservação da Amazônia Central. | O bem reconhecido pela UNESCO reúne a unidade e outras áreas protegidas. | ANA1, ANA2 |
+| 21 | Novo Airão é referência para a administração do parque. | A sede administrativa situa-se em Novo Airão, no Amazonas. | ANA1, ANA2 |
+| 22 | O destino fica no estado do Amazonas. | A localização administrativa pertence ao Amazonas. | ANA1, ANA2 |
+| 23 | A paisagem é fluvial, diferente de um arquipélago oceânico. | As ilhas são formadas no curso de um rio e não no mar. | ANA1, ANA2 |
+| 24 | O parque protege tanto águas como florestas. | A conservação abrange ambientes aquáticos e terrestres relacionados. | ANA1, ANA2 |
+| 25 | Para identificar, combine ilhas, rio de águas escuras e floresta inundável. | A identificação articula arquipélago fluvial, rio Negro e ciclo de inundação. | ANA1, ANA2 |
+
+## Parque Nacional do Monte Roraima
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional do Monte Roraima | Parque Nacional do Monte Roraima; Parque Nacional do Pico da Neblina; Parque Nacional da Serra do Divisor; Parque Nacional do Viruá; Parque Nacional de Anavilhanas; Parque Nacional Montanhas do Tumucumaque; Parque Nacional da Chapada dos Veadeiros; Parque Nacional do Itatiaia; Parque Nacional do Caparaó; Parque Nacional dos Campos Amazônicos; Parque Nacional da Serra da Canastra; Parque Nacional da Chapada Diamantina |
+| Forma das montanhas | Tepuis de topo plano e escarpas íngremes | Tepuis de topo plano e escarpas íngremes; Dunas móveis costeiras; Recifes de coral submersos; Fiordes glaciais |
+| Povos indígenas associados | Ingarikó | Ingarikó; Caiçaras; Inuítes; Maoris |
+| Fronteira na região do monte | Brasil, Venezuela e Guiana | Brasil, Venezuela e Guiana; Brasil, Argentina e Uruguai; Brasil, Peru e Bolívia; Brasil, Colômbia e Equador |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino protege montanhas no extremo norte do Brasil. | A unidade de conservação situa-se no norte do estado de Roraima. | ROR1 |
+| 2 | Algumas montanhas têm topo relativamente plano. | O relevo inclui serras tabulares de cimeira aplainada. | ROR1 |
+| 3 | Essas montanhas têm paredões íngremes. | Escarpas abruptas delimitam os topos das serras tabulares. | ROR1 |
+| 4 | O nome regional desse tipo de montanha é tepui. | As serras de topo plano são conhecidas como tepuis. | ROR1 |
+| 5 | Uma dessas montanhas é um dos pontos elevados do Brasil. | O monte alcança aproximadamente 2.700 metros de altitude. | ROR1 |
+| 6 | O parque abriga outras serras altas além da montanha principal. | A unidade protege diferentes serras e vales montanhosos. | ROR1 |
+| 7 | A Serra do Sol é uma das elevações da região. | Wîi-tîpî, ou Serra do Sol, integra a área montanhosa do parque. | ROR1 |
+| 8 | Uma elevação chamada Roraiminha também é citada no plano de manejo. | O relevo inclui o Roraiminha, também conhecido como Wei-assipu. | ROR1 |
+| 9 | Os topos de algumas serras ficam isolados uns dos outros. | Os tepuis se destacam como maciços separados na paisagem. | ROR1 |
+| 10 | Os vales ficam abaixo das partes mais elevadas. | A diferença altimétrica separa vales encaixados e topos de montanhas. | ROR1 |
+| 11 | Há igarapés e rios nos vales. | A drenagem inclui cursos de água que percorrem os vales. | ROR1 |
+| 12 | A vegetação inclui florestas. | A unidade abriga formações florestais. | ROR1 |
+| 13 | Também existem savanas e campos. | O mosaico vegetal inclui savanas e campos além de florestas. | ROR1 |
+| 14 | Algumas espécies têm distribuição restrita. | O isolamento e a variedade ambiental se associam a biodiversidade endêmica. | ROR1 |
+| 15 | O local tem relação ancestral com comunidades indígenas. | A ocupação territorial inclui o uso ancestral por comunidades indígenas. | ROR1 |
+| 16 | O povo Ingarikó vive e mantém relações culturais na região. | As comunidades Ingarikó participam da história e do uso territorial local. | ROR1 |
+| 17 | Não há estradas dentro da unidade. | O acesso interno ocorre por meios como trilhas e transporte aéreo. | ROR1 |
+| 18 | O terreno tem acesso remoto. | A localização no extremo norte e a ausência de estradas internas dificultam o acesso. | ROR1 |
+| 19 | O parque foi criado em 1989. | A criação da unidade federal data de 1989. | ROR1 |
+| 20 | A unidade está no estado de Roraima. | A localização administrativa é Roraima, no Brasil. | ROR1 |
+| 21 | A região da montanha está perto de uma fronteira tripla. | O relevo principal se situa na região de encontro entre Brasil, Venezuela e Guiana. | ROR1 |
+| 22 | O monte Caburaí também aparece na área do parque. | O parque inclui a região do Monte Caburaí, ponto setentrional do Brasil. | ROR1 |
+| 23 | A área protegida não é formada por dunas costeiras. | O relevo tabular serrano diferencia o parque de sistemas litorâneos arenosos. | ROR1 |
+| 24 | O parque reúne valor natural e relações culturais vivas. | O manejo precisa considerar ecossistemas e usos ancestrais indígenas. | ROR1 |
+| 25 | Para identificar, combine tepuis, Roraima e território Ingarikó. | A identificação articula relevo tabular, posição fronteiriça e presença indígena. | ROR1 |
+
+## Parque Nacional do Caparaó
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Parque nacional | Parque Nacional do Caparaó | Parque Nacional do Caparaó; Parque Nacional do Itatiaia; Parque Nacional da Serra dos Órgãos; Parque Nacional da Serra da Bocaina; Parque Nacional da Serra da Canastra; Parque Nacional da Chapada Diamantina; Parque Nacional de Aparados da Serra; Parque Nacional da Serra Geral; Parque Nacional do Iguaçu; Parque Nacional da Tijuca; Parque Nacional da Serra do Cipó; Parque Nacional da Chapada dos Veadeiros |
+| Pico de referência | Pico da Bandeira | Pico da Bandeira; Pico da Neblina; Pico das Agulhas Negras; Pico Paraná |
+| Estados envolvidos | Minas Gerais e Espírito Santo | Minas Gerais e Espírito Santo; Rio de Janeiro e São Paulo; Santa Catarina e Rio Grande do Sul; Bahia e Sergipe |
+| Entrada no lado mineiro | Alto Caparaó | Alto Caparaó; Cambará do Sul; Novo Airão; Alto Paraíso de Goiás |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma área protegida de montanhas no Sudeste. | A unidade conserva uma paisagem serrana do Sudeste brasileiro. | CAP1, CAP2 |
+| 2 | Um pico muito alto atrai montanhistas. | A visitação inclui a subida a um dos pontos culminantes do Brasil. | CAP1, CAP2 |
+| 3 | O pico principal tem cerca de 2.892 metros. | O cume atinge aproximadamente 2.892 metros de altitude. | CAP1, CAP2 |
+| 4 | O nome do pico é Bandeira. | O Pico da Bandeira é o principal atrativo de altitude da unidade. | CAP1, CAP2 |
+| 5 | O cume é apontado como o terceiro mais alto do Brasil. | A altitude coloca o pico entre os pontos mais elevados do país. | CAP1, CAP2 |
+| 6 | A serra está na divisa entre dois estados. | O parque ocupa a região limítrofe entre Minas Gerais e Espírito Santo. | CAP1, CAP2 |
+| 7 | Um dos estados é Minas Gerais. | A vertente mineira da unidade fica em Minas Gerais. | CAP1, CAP2 |
+| 8 | O outro estado é Espírito Santo. | A vertente capixaba fica no Espírito Santo. | CAP1, CAP2 |
+| 9 | Uma das portarias fica em um município mineiro com o nome da serra. | Uma das entradas está no lado mineiro da serra. | CAP1, CAP2 |
+| 10 | A sede administrativa fica no lado mineiro. | A sede administrativa situa-se no município da portaria mineira. | CAP1, CAP2 |
+| 11 | Outra portaria fica em Pedra Menina. | A entrada capixaba se localiza no distrito de Pedra Menina. | CAP1, CAP2 |
+| 12 | Pedra Menina pertence ao município de Dores do Rio Preto. | A portaria capixaba está no município de Dores do Rio Preto. | CAP1, CAP2 |
+| 13 | A serra dá nome ao parque. | A denominação da unidade coincide com a da serra protegida. | CAP1, CAP2 |
+| 14 | O parque é parte da Mata Atlântica. | A conservação abrange ambientes do bioma Mata Atlântica. | CAP1, CAP2 |
+| 15 | A unidade é um parque nacional federal. | A categoria de proteção é parque nacional. | CAP1, CAP2 |
+| 16 | A criação ocorreu em 1961. | A unidade foi criada pelo decreto federal de 1961. | CAP1, CAP2 |
+| 17 | O presidente na época da criação era Jânio Quadros. | O decreto de criação foi assinado no governo Jânio Quadros. | CAP1, CAP2 |
+| 18 | A visitação inclui trilhas de montanha. | O uso público oferece percursos em relevo montanhoso. | CAP1, CAP2 |
+| 19 | Há áreas de acampamento no lado de Minas. | Tronqueira e Terreirão são áreas de acampamento da entrada mineira. | CAP1, CAP2 |
+| 20 | Também existem áreas de acampamento no lado capixaba. | Macieira e Casa Queimada são áreas de acampamento na vertente capixaba. | CAP1, CAP2 |
+| 21 | Vale Verde é uma área de visitação do parque. | O uso público inclui o setor conhecido como Vale Verde. | CAP1, CAP2 |
+| 22 | O destino fica no continente americano. | A unidade situa-se na América do Sul. | CAP1, CAP2 |
+| 23 | O pico não é o ponto culminante da Amazônia. | A montanha do Sudeste difere dos picos da região norte amazônica. | CAP1, CAP2 |
+| 24 | A área protege ambientes além do cume mais famoso. | A conservação contempla a serra e seus ecossistemas além do ponto culminante. | CAP1, CAP2 |
+| 25 | Para identificar, combine pico elevado, Mata Atlântica e divisa MG–ES. | A identificação articula altitude, bioma e posição interestadual. | CAP1, CAP2 |
+
+## Sítio de São Miguel Arcanjo
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Sítio histórico brasileiro | Sítio de São Miguel Arcanjo | Sítio de São Miguel Arcanjo; San Ignacio Miní; Santa Ana; Nuestra Señora de Loreto; Santa María la Mayor; Ruínas de Quilmes; Sítio Arqueológico de São João Marcos; Ruínas de São Paulo; Centro Histórico de Olinda; Jesús de Tavarangüe; Centro Histórico de Ouro Preto; Parque Nacional da Serra da Capivara |
+| Estrutura remanescente | Igreja missioneira com torre sineira | Igreja missioneira com torre sineira; Templo budista de pedra; Pirâmide escalonada; Anfiteatro romano |
+| Povo indígena associado | Guarani | Guarani; Inuítes; Maoris; Aborígenes australianos |
+| País dos demais sítios do bem UNESCO | Argentina | Argentina; Portugal; México; Colômbia |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino preserva vestígios de um povoado histórico no Sul do Brasil. | O sítio arqueológico integra o patrimônio missioneiro da América do Sul. | MIS1 |
+| 2 | As ruínas incluem parte de uma antiga igreja. | A igreja é a estrutura remanescente mais completa do sítio brasileiro. | MIS1 |
+| 3 | Também restam evidências de outras estruturas. | O sítio conserva traços de convento, moradias e espaços comunitários. | MIS1 |
+| 4 | O conjunto inclui uma antiga praça. | A praça integra a organização espacial do povoado missioneiro. | MIS1 |
+| 5 | Parte das fundações de moradias indígenas sobreviveu. | Fundações de habitações indígenas compõem os vestígios materiais. | MIS1 |
+| 6 | Havia também estruturas de drenagem. | Vestígios de drenagem registram a infraestrutura do assentamento. | MIS1 |
+| 7 | Uma torre sineira está entre os elementos preservados. | O campanário integra os remanescentes da igreja. | MIS1 |
+| 8 | A história envolve missionários da Companhia de Jesus. | A experiência histórica relaciona-se às missões jesuíticas. | MIS1 |
+| 9 | O povo guarani estava presente no território. | As missões se estabeleceram em terras ocupadas por comunidades guarani. | MIS1 |
+| 10 | A evangelização fazia parte dos objetivos dos missionários. | O processo missioneiro incluiu campanhas de evangelização. | MIS1 |
+| 11 | A história envolveu relações entre indígenas e europeus. | O sítio documenta relações culturais entre Guarani e missionários europeus. | MIS1 |
+| 12 | As relações ocorreram no contexto colonial. | O assentamento se desenvolveu no contexto de ocupação colonial sul-americana. | MIS1 |
+| 13 | As missões reconhecidas datam dos séculos XVII e XVIII. | A cronologia dos povoados missioneiros abrange os séculos XVII e XVIII. | MIS1 |
+| 14 | O povoado integrava uma rede mais ampla de missões. | O sítio se relaciona a um sistema de povoados chamados reduções. | MIS1 |
+| 15 | Nessa rede havia áreas produtivas e caminhos. | A organização territorial articulava povoamentos, produção e circulação. | MIS1 |
+| 16 | A erva-mate aparece entre as atividades produtivas associadas à rede. | Plantações de erva-mate integravam a economia missioneira regional. | MIS1 |
+| 17 | Rios e caminhos ligavam diferentes povoamentos. | As redes de circulação incluíam cursos d'água e trilhas. | MIS1 |
+| 18 | O sítio brasileiro integra um bem reconhecido com outros da Argentina. | A inscrição transnacional da UNESCO reúne componentes brasileiros e argentinos. | MIS1 |
+| 19 | Quatro dos componentes reconhecidos ficam na Argentina. | O bem inclui quatro sítios missioneiros argentinos. | MIS1 |
+| 20 | San Ignacio Miní é um dos sítios argentinos associados. | San Ignacio Miní integra a série reconhecida internacionalmente. | MIS1 |
+| 21 | O componente brasileiro fica no Rio Grande do Sul. | A localização do sítio brasileiro é o estado do Rio Grande do Sul. | MIS1 |
+| 22 | O município tem nome ligado às missões. | O sítio integra a região missioneira do Rio Grande do Sul. | MIS1 |
+| 23 | A proteção federal do sítio brasileiro tem longa história. | O IPHAN registrou a proteção das ruínas em 1938. | MIS1 |
+| 24 | O patrimônio envolve mais do que uma fachada isolada. | Os vestígios e o traçado expressam uma forma histórica de ocupação. | MIS1 |
+| 25 | Para identificar, combine missão guarani, ruínas de igreja e Rio Grande do Sul. | A identificação articula sítio brasileiro, rede missioneira e posição regional. | MIS1 |
+
+## Point Wild
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Local antártico | Point Wild | Point Wild; Brown Bluff; Cabo Royds; Cabo Adare; Port Lockroy; Baía Paradise; Ilha Paulet; Ilha Deception; Punta Hannah; Ilha Livingston; Ilha Rei George; Ilha Ross |
+| Ilha onde se localiza | Ilha Elefante | Ilha Elefante; Ilha Ross; Ilha Paulet; Ilha Deception |
+| Pinguim reprodutor | Pinguim-de-barbicha | Pinguim-de-barbicha; Pinguim-imperador; Pinguim-rei; Pinguim-das-Galápagos |
+| Embarcação de resgate em 1916 | Yelcho | Yelcho; Endurance; Discovery; Terra Nova |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma pequena ponta de terra em uma ilha antártica. | O sítio ocupa uma ponta estreita na costa norte da Ilha Elefante. | PW1 |
+| 2 | O terreno combina areia, cascalho e rochas. | A topografia é baixa, estreita e formada por areia e rocha. | PW1 |
+| 3 | Geleiras e paredões cercam a região. | Geleiras que alcançam o mar e escarpas margeiam a ponta. | PW1 |
+| 4 | Grandes blocos de gelo podem ficar presos próximos à costa. | Icebergs frequentemente encalham em elevações submersas. | PW1 |
+| 5 | O desembarque depende muito das condições do mar. | A costa exposta torna os desembarques ocasionais e condicionados ao tempo. | PW1 |
+| 6 | Na maré baixa, um istmo pode ligar a ponta à ilha. | A conexão terrestre visível varia com a maré. | PW1 |
+| 7 | Uma colônia de pinguins vive na região. | A avifauna reprodutora inclui pinguins-de-barbicha. | PW1 |
+| 8 | Os pinguins da colônia são conhecidos como pinguins-de-barbicha. | A espécie reprodutora registrada é o pinguim-de-barbicha. | PW1 |
+| 9 | Andorinhas-do-mar antárticas também se reproduzem no local. | A fauna reprodutora inclui a andorinha-do-mar antártica. | PW1 |
+| 10 | Gaivotas-dominicanas aparecem entre as aves reprodutoras. | A gaivota-dominicana está entre as aves registradas como reprodutoras. | PW1 |
+| 11 | Lobos-marinhos podem descansar em terra. | O lobo-marinho-antártico utiliza a área para descanso. | PW1 |
+| 12 | Focas-leopardo são observadas perto da costa. | A fauna costeira observada inclui focas-leopardo. | PW1 |
+| 13 | Líquens crescem em pequenas manchas. | A flora inclui líquens em áreas expostas de rocha. | PW1 |
+| 14 | Musgos também são citados para a área. | A vegetação do sítio inclui pequenos musgos. | PW1 |
+| 15 | O lugar está ligado à história de uma expedição que perdeu seu navio. | Tripulantes da expedição do Endurance acamparam nesse ponto. | PW1 |
+| 16 | O navio da expedição era o Endurance. | O naufrágio do Endurance antecedeu a permanência da tripulação no local. | PW1 |
+| 17 | O explorador associado à expedição foi Ernest Shackleton. | A expedição ligada ao sítio era liderada por Ernest Shackleton. | PW1 |
+| 18 | Parte da tripulação aguardou ali por cerca de quatro meses. | O acampamento durou aproximadamente quatro meses. | PW1 |
+| 19 | O resgate ocorreu em agosto de 1916. | A retirada dos homens foi realizada em agosto de 1916. | PW1 |
+| 20 | O navio de resgate era chileno. | O resgate foi realizado por uma embarcação da marinha chilena. | PW1 |
+| 21 | A embarcação de resgate se chamava Yelcho. | A Yelcho conduziu o resgate da tripulação. | PW1 |
+| 22 | Um busto homenageia o capitão responsável pelo resgate. | O sítio histórico inclui um busto de Luis Alberto Pardo. | PW1 |
+| 23 | Placas e um monólito também lembram o resgate. | O memorial combina busto, monólito e placas. | PW1 |
+| 24 | O lugar fica na costa norte da Ilha Elefante. | A posição insular é a costa setentrional da Ilha Elefante. | PW1 |
+| 25 | Para identificar, combine Ilha Elefante, resgate de 1916 e pinguins. | A identificação relaciona posição insular, história polar e fauna. | PW1 |
+
+## Brown Bluff
+
+| Campo | Gabarito | Alternativas |
+|---|---|---|
+| Sítio antártico | Brown Bluff | Brown Bluff; Point Wild; Cabo Royds; Cabo Adare; Port Lockroy; Baía Paradise; Ilha Paulet; Ilha Deception; Punta Hannah; Ilha Livingston; Ilha Rei George; Ilha Ross |
+| Material das falésias | Tufo vulcânico | Tufo vulcânico; Granito glaciar; Coral tropical; Calcário recifal |
+| Pinguins reprodutores | Adélia e gentoo | Adélia e gentoo; Imperador e rei; Galápagos e africano; Magalhães e Humboldt |
+| Península | Península Tabarin | Península Tabarin; Península Ibérica; Península de Yucatán; Península Arábica |
+
+| Nº | Viajante | Geógrafo | Fontes |
+|---:|---|---|---|
+| 1 | O destino é uma praia na região da Península Antártica. | O sítio fica na costa leste da Península Tabarin. | BB1 |
+| 2 | A praia tem cerca de um quilômetro e meio de extensão. | A faixa costeira mede aproximadamente 1,5 km. | BB1 |
+| 3 | A superfície da praia combina seixos e cinza. | O depósito de praia contém seixos e cinzas. | BB1 |
+| 4 | Paredões avermelhados se erguem atrás da praia. | Falésias de tufo marrom-avermelhado dominam o relevo. | BB1 |
+| 5 | A rocha das falésias tem origem vulcânica. | O tufo vulcânico compõe as escarpas do sítio. | BB1 |
+| 6 | Fragmentos conhecidos como bombas vulcânicas aparecem na rocha. | As falésias de tufo contêm bombas vulcânicas. | BB1 |
+| 7 | A erosão desgasta os paredões. | A erosão das falésias produz fragmentos e encostas instáveis. | BB1 |
+| 8 | Pedras grandes aparecem na faixa de praia. | Blocos rochosos estão distribuídos na praia. | BB1 |
+| 9 | O vento também desgasta algumas rochas expostas. | A erosão eólica afeta blocos presentes no litoral. | BB1 |
+| 10 | Gelo permanente cerca o sítio em diferentes lados. | Geleiras que chegam ao mar e gelo permanente cercam a área. | BB1 |
+| 11 | Pinguins-de-adélia se reproduzem no local. | A fauna reprodutora inclui pinguins-de-adélia. | BB1 |
+| 12 | Pinguins-gentoo também se reproduzem ali. | A lista de espécies reprodutoras inclui pinguins-gentoo. | BB1 |
+| 13 | Petréis-do-cabo estão entre as aves registradas. | O petrel-do-cabo integra a avifauna reprodutora confirmada. | BB1 |
+| 14 | Petréis-da-neve também aparecem na área. | O petrel-da-neve figura entre as aves reprodutoras registradas. | BB1 |
+| 15 | A gaivota-dominicana aparece entre as aves. | A fauna confirmada inclui gaivotas-dominicanas. | BB1 |
+| 16 | A foca-de-weddell pode descansar em terra. | Focas-de-weddell utilizam a área costeira para descanso. | BB1 |
+| 17 | A foca-leopardo pode ser observada na água próxima. | Focas-leopardo ocorrem no ambiente marítimo adjacente. | BB1 |
+| 18 | Líquens crescem sobre pedras expostas. | Líquens colonizam blocos rochosos desde a costa até áreas mais altas. | BB1 |
+| 19 | Musgos ocorrem perto de drenagens glaciais em áreas elevadas. | A flora inclui musgos associados a drenagem glacial. | BB1 |
+| 20 | A maré alta reduz o espaço disponível na praia. | A variação de maré modifica a faixa de praia acessível. | BB1 |
+| 21 | O acesso de pessoas precisa evitar perturbar as colônias. | A gestão da visitação protege áreas de nidificação e reprodução. | BB1 |
+| 22 | A visita oferece possibilidade de pisar no continente antártico. | O sítio de visitação é continental, não apenas insular. | BB1 |
+| 23 | Fica próximo ao estreito conhecido como Antarctic Sound. | A posição regional está na costa sudoeste do Antarctic Sound. | BB1 |
+| 24 | A paisagem reúne origem vulcânica e fauna polar. | A identificação combina litologia vulcânica e comunidades costeiras antárticas. | BB1 |
+| 25 | Para identificar, combine praia de seixos, falésias de tufo e pinguins. | O sítio se distingue por escarpas de tufo e colônias de duas espécies de pinguim. | BB1 |

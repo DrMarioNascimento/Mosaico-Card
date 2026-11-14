@@ -78,7 +78,7 @@
       d.presencas[j.id] = { aba, ate: agora + C.GRACA, visto: agora };
       // Jogadores renovam somente presenças; o mestre também pode atualizar o snapshot ao verificar ausências.
       if (d.mestre === window.MC_FB.uid) tx.set(ref, d);
-      else tx.update(ref, { presencas: d.presencas });
+      else tx.update(ref, new firebase.firestore.FieldPath("presencas", j.id), d.presencas[j.id]);
       return d;
     });
     if (data.bloqueada) {

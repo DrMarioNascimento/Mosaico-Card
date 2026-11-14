@@ -17,7 +17,7 @@ async function abrir(server,edicao,id,{storage={},sessao={},google=false}={}){
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;this.dispatchEvent(new w.Event('close'));};
  Object.entries(storage).forEach(([k,v])=>w.localStorage.setItem(k,v));Object.entries(sessao).forEach(([k,v])=>w.sessionStorage.setItem(k,v));
  const auth={currentUser:{uid:id,isAnonymous:!google,email:google?'mestre@example.test':null},anonimos:0,setPersistence:async()=>{},onAuthStateChanged:fn=>queueMicrotask(()=>fn(auth.currentUser)),signInAnonymously:async()=>{auth.anonimos++;return {user:auth.currentUser};}};
- const firestore=()=>server.db(id);firestore.FieldValue={serverTimestamp:()=>server.serverTimestamp ? server.serverTimestamp() : server.agora};const authFn=()=>auth;authFn.Auth={Persistence:{LOCAL:'local'}};
+ const firestore=()=>server.db(id);firestore.FieldValue={serverTimestamp:()=>server.serverTimestamp ? server.serverTimestamp() : server.agora};firestore.FieldPath=server.FieldPath || class FieldPath{constructor(...segments){this.segments=segments;}};const authFn=()=>auth;authFn.Auth={Persistence:{LOCAL:'local'}};
  w.firebase={initializeApp:()=>({}),firestore,auth:authFn};
  // Mantém a ordem real dos scripts. SDKs externos são substituídos pelo contrato acima.
  for(const script of w.document.querySelectorAll('script[src]')){
