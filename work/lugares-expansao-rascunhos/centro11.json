@@ -1,0 +1,1066 @@
+{
+  "sources": {
+    "CENTRO_CAL_SEMAD": {
+      "id": "CENTRO_CAL_SEMAD",
+      "title": "Parque Estadual da Serra de Caldas Novas",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/serra-de-caldas-pescan/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAL_CONC": {
+      "id": "CENTRO_CAL_CONC",
+      "title": "Concessão e conservação da unidade",
+      "publisher": "Secretaria de Meio Ambiente de Goiás",
+      "url": "https://goias.gov.br/meioambiente/concessao-do-pescan/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-serra-caldas-go",
+      "placeId": "serra-caldas-go",
+      "title": "Parque Estadual da Serra de Caldas Novas",
+      "aliases": [
+        "Caldas Novas",
+        "Serra de Caldas"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Unidade de conservação",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual da Serra de Caldas Novas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual dos Pireneus"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual de Terra Ronca"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual da Serra Azul"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual Serra Dourada"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual de Ibitipoca"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual de Vila Velha"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual da Serra de Caldas Novas",
+          "sources": [
+            "CENTRO_CAL_SEMAD",
+            "CENTRO_CAL_CONC"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Processo ligado à água subterrânea",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Infiltração e aquecimento geotérmico"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Aquecimento pela proximidade de magma vulcânico"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Aquecimento solar direto em lagoas rasas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mistura com correntes oceânicas quentes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Infiltração e aquecimento geotérmico",
+          "sources": [
+            "CENTRO_CAL_SEMAD",
+            "CENTRO_CAL_CONC"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes protegidos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Campos e formações do Cerrado"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Floresta boreal e tundra"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Manguezais costeiros"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Recifes marinhos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Campos e formações do Cerrado",
+          "sources": [
+            "CENTRO_CAL_SEMAD",
+            "CENTRO_CAL_CONC"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Minas Gerais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Goiás",
+          "sources": [
+            "CENTRO_CAL_SEMAD",
+            "CENTRO_CAL_CONC"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "serra-caldas-go-viajante-P01",
+              "factKey": "serra-caldas-go-F01",
+              "text": "É um parque estadual brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P02",
+              "factKey": "serra-caldas-go-F02",
+              "text": "Fica no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P03",
+              "factKey": "serra-caldas-go-F03",
+              "text": "Sua paisagem protege uma serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P04",
+              "factKey": "serra-caldas-go-F04",
+              "text": "A serra tem um topo relativamente plano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P05",
+              "factKey": "serra-caldas-go-F05",
+              "text": "A unidade foi criada em 1970.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P06",
+              "factKey": "serra-caldas-go-F06",
+              "text": "O parque protege ambientes do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P07",
+              "factKey": "serra-caldas-go-F07",
+              "text": "A área abriga nascentes de água fria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P08",
+              "factKey": "serra-caldas-go-F08",
+              "text": "A serra participa do sistema regional de águas termais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P09",
+              "factKey": "serra-caldas-go-F09",
+              "text": "Água da chuva penetra em fissuras das rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P10",
+              "factKey": "serra-caldas-go-F10",
+              "text": "Após circular em profundidade, parte dessa água retorna aquecida à superfície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P11",
+              "factKey": "serra-caldas-go-F11",
+              "text": "Segundo o órgão gestor, não há águas quentes no interior do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P12",
+              "factKey": "serra-caldas-go-F12",
+              "text": "O relevo inclui encostas e bordas íngremes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P13",
+              "factKey": "serra-caldas-go-F13",
+              "text": "Há cânions e lajeados na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P14",
+              "factKey": "serra-caldas-go-F14",
+              "text": "Um cânion conhecido como Rua de Pedra é um atrativo natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P15",
+              "factKey": "serra-caldas-go-F15",
+              "text": "A unidade oferece trilhas e mirantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P16",
+              "factKey": "serra-caldas-go-F16",
+              "text": "A Cachoeira da Cascatinha é uma das quedas de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P17",
+              "factKey": "serra-caldas-go-F17",
+              "text": "Outra é chamada Cachoeira da Confusão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P18",
+              "factKey": "serra-caldas-go-F18",
+              "text": "Há também uma queda chamada Cachoeira do Paredão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P19",
+              "factKey": "serra-caldas-go-F19",
+              "text": "A água das cachoeiras varia entre períodos de chuva e estiagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P20",
+              "factKey": "serra-caldas-go-F20",
+              "text": "A ave seriema é um símbolo associado à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P21",
+              "factKey": "serra-caldas-go-F21",
+              "text": "Um museu apresenta animais típicos do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P22",
+              "factKey": "serra-caldas-go-F22",
+              "text": "A unidade recebe grupos para atividades de educação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P23",
+              "factKey": "serra-caldas-go-F23",
+              "text": "Pesquisadores podem desenvolver estudos de campo na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P24",
+              "factKey": "serra-caldas-go-F24",
+              "text": "Há equipamentos adaptados para apoiar a visitação de pessoas com deficiência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-viajante-P25",
+              "factKey": "serra-caldas-go-F25",
+              "text": "A administração da unidade é estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "serra-caldas-go-geografo-P01",
+              "factKey": "serra-caldas-go-F01",
+              "text": "A unidade estadual protege um maciço no Planalto Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P02",
+              "factKey": "serra-caldas-go-F02",
+              "text": "Seu território está no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P03",
+              "factKey": "serra-caldas-go-F03",
+              "text": "O parque abrange o topo, as bordas e as encostas da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P04",
+              "factKey": "serra-caldas-go-F04",
+              "text": "O topo relativamente plano é um dos traços morfológicos da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P05",
+              "factKey": "serra-caldas-go-F05",
+              "text": "Uma lei estadual instituiu a unidade em 1970.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P06",
+              "factKey": "serra-caldas-go-F06",
+              "text": "A cobertura vegetal conserva diferentes ambientes do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P07",
+              "factKey": "serra-caldas-go-F07",
+              "text": "Mananciais frios da unidade contribuem para afluentes da bacia do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P08",
+              "factKey": "serra-caldas-go-F08",
+              "text": "A proteção da serra contribui à recarga do sistema de águas termais regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P09",
+              "factKey": "serra-caldas-go-F09",
+              "text": "Fissuras nas rochas permitem que águas de chuva infiltrem no subsolo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P10",
+              "factKey": "serra-caldas-go-F10",
+              "text": "O calor geotérmico aquece a água em profundidade antes de seu retorno à superfície.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P11",
+              "factKey": "serra-caldas-go-F11",
+              "text": "O órgão gestor informa que as fontes quentes emergem fora do interior da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P12",
+              "factKey": "serra-caldas-go-F12",
+              "text": "Movimentos tectônicos fraturaram e arquearam as rochas da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P13",
+              "factKey": "serra-caldas-go-F13",
+              "text": "As bordas apresentam lajeados e cânions esculpidos na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P14",
+              "factKey": "serra-caldas-go-F14",
+              "text": "A Rua de Pedra é um cânion em rocha sedimentar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P15",
+              "factKey": "serra-caldas-go-F15",
+              "text": "Mirantes e trilhas dão acesso à observação do relevo protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P16",
+              "factKey": "serra-caldas-go-F16",
+              "text": "A Cachoeira da Cascatinha integra a rede de drenagem local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P17",
+              "factKey": "serra-caldas-go-F17",
+              "text": "A Cachoeira da Confusão pode reduzir sua vazão durante a seca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P18",
+              "factKey": "serra-caldas-go-F18",
+              "text": "A Cachoeira do Paredão é acessada por uma trilha a partir de outra queda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P19",
+              "factKey": "serra-caldas-go-F19",
+              "text": "O clima regional apresenta estação chuvosa e estação seca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P20",
+              "factKey": "serra-caldas-go-F20",
+              "text": "A seriema representa uma das aves associadas ao Cerrado protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P21",
+              "factKey": "serra-caldas-go-F21",
+              "text": "Um acervo educativo apresenta exemplares da fauna regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P22",
+              "factKey": "serra-caldas-go-F22",
+              "text": "O anfiteatro recebe atividades de interpretação e educação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P23",
+              "factKey": "serra-caldas-go-F23",
+              "text": "Estruturas de apoio permitem o desenvolvimento de pesquisas de campo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P24",
+              "factKey": "serra-caldas-go-F24",
+              "text": "Recursos adaptados buscam facilitar o acesso de pessoas com deficiência às trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-caldas-go-geografo-P25",
+              "factKey": "serra-caldas-go-F25",
+              "text": "A gestão estadual concilia proteção de mananciais, biodiversidade e uso público.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAL_SEMAD",
+                "CENTRO_CAL_CONC"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Estadual da Serra de Caldas Novas protege Cerrado, mananciais e uma área importante para a recarga das águas termais.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

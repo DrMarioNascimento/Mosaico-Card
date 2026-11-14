@@ -164,27 +164,27 @@
         },
         {
           "id": "C4",
-          "label": "Organização comunitária",
+          "label": "Organização citada para o manejo madeireiro",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Cooperativa de manejo florestal"
+              "text": "Cooperativa comunitária de manejo florestal"
             },
             {
               "id": "C4-O2",
-              "text": "Consórcio de mineração de carvão"
+              "text": "Cooperativa comunitária de pesca artesanal"
             },
             {
               "id": "C4-O3",
-              "text": "Associação de pesca oceânica"
+              "text": "Cooperativa comunitária de turismo"
             },
             {
               "id": "C4-O4",
-              "text": "Cooperativa de cafeicultores"
+              "text": "Cooperativa comunitária de sementes"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Cooperativa de manejo florestal",
+          "answerText": "Cooperativa comunitária de manejo florestal",
           "sources": [
             "FLONATAP_JBRJ",
             "FLONATAP_ICMBIO"
@@ -470,7 +470,7 @@
             {
               "id": "norte-flona-tapajos-viajante-P18",
               "factKey": "norte-flona-tapajos-F18",
-              "text": "São Domingos, Maguari e Jamaraquá são comunidades associadas à região.",
+              "text": "Maguari, Jamaraquá e Prainha são comunidades associadas à região.",
               "relatedFields": [
                 "C1"
               ],

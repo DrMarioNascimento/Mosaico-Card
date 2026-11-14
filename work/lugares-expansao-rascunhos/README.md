@@ -1,72 +1,88 @@
 # Rascunhos da expansão Lugares
 
-Conteúdo de trabalho: 62 casos ainda não integrados. Verificações estruturais preliminares não substituem revisão factual e editorial. A auditoria detectou alternativas que revelam respostas e pistas de Geógrafo que repetem Viajante; corrigir e avaliar em partidas antes da integração. Os casos não contam para a meta nem estão publicados no jogo.
+Checkpoint: 82 propostas únicas, 78 ainda não integradas ao banco de 91 lugares. Há arquivos originais e cópias auditadas de alguns casos; não somá-los. Verificações estruturais não substituem revisão de fontes, gabaritos, dificuldade e testes de partida. A auditoria já encontrou respostas ambíguas, vazamentos e pistas redundantes.
 
-Brasil e Américas (sem Brasil) têm seleções separadas e meta própria de 30 por recorte. Quando usado, dado populacional deve trazer fonte, ano e recorte territorial.
+Brasil e Américas sem Brasil têm filtros e metas independentes. População exige fonte, ano e recorte. Os rascunhos não estão publicados no jogo.
 
-Tarefa completa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
+Tarefa: https://github.com/DrMarioNascimento/Mosaico-Card/issues/60
 
-## Destinos neste checkpoint
+## Destinos ainda não integrados
 
-- Recife
-- Palmas
-- Parque Nacional de São Joaquim
-- Rio Parnaíba
-- Corumbá
-- Campo Grande
-- Parque Nacional do Superagui
+- Aracaju
+- Bairro Histórico da Cidade Portuária de Valparaíso
 - Blumenau
-- Porto Alegre
-- Vila Bela da Santíssima Trindade
-- Floresta Nacional do Tapajós
-- Parque Nacional da Serra da Canastra
-- Santuário do Bom Jesus de Matosinhos
+- Boa Vista
+- Bonito
+- Cabo Royds
+- Campo Grande
+- Centro Arqueológico de Tiwanaku
 - Centro Histórico de Diamantina
-- Sítio Arqueológico Cais do Valongo
-- Sítio Roberto Burle Marx
+- Cidade Antiga de Dubrovnik
+- Cidade Histórica de Cusco
+- Cidade Pré-hispânica de Chichén Itzá
+- Corumbá
+- Cuiabá
+- Cáceres
+- Distrito Histórico do Quebec Antigo
+- Floresta Nacional do Tapajós
+- Fortaleza
+- Goiânia
+- Gramado
+- Ilha de Gorée
+- Joinville
+- João Pessoa
+- Macapá
+- Maceió
+- Natal
+- Palmas
+- Panamá Viejo e Distrito Histórico do Panamá
+- Parque Estadual da Serra de Caldas Novas
+- Parque Estadual de Terra Ronca
+- Parque Estadual dos Pireneus
+- Parque Nacional Canaima
+- Parque Nacional Gros Morne
+- Parque Nacional Ilha do Coco
+- Parque Nacional Los Glaciares
+- Parque Nacional Tikal
+- Parque Nacional da Lagoa do Peixe
+- Parque Nacional da Serra da Canastra
+- Parque Nacional da Serra de Itabaiana
+- Parque Nacional da Serra do Cipó
+- Parque Nacional da Serra do Divisor
+- Parque Nacional de Brasília
+- Parque Nacional de Ilha Grande
+- Parque Nacional de Komodo
+- Parque Nacional de São Joaquim
+- Parque Nacional do Araguaia
+- Parque Nacional do Cabo Orange
+- Parque Nacional do Juruena
+- Parque Nacional do Pico da Neblina
+- Parque Nacional do Superagui
+- Parque Nacional do Viruá
+- Parque Nacional dos Campos Amazônicos
+- Parque Nacional dos Campos Gerais
+- Pelotas
+- Pirenópolis
+- Porto Alegre
+- Porto Murtinho
+- Porto Velho
+- Porto e Fortificações de Cartagena das Índias
+- Recife
+- Reserva da Biosfera Sian Ka’an
+- Reserva de Desenvolvimento Sustentável Mamirauá
 - Reservas de Mata Atlântica da Costa do Descobrimento
 - Reservas de Mata Atlântica do Sudeste
-- Parque Nacional da Serra do Cipó
-- Parque Nacional do Catimbau
-- Parque Nacional de Ubajara
-- Área de Proteção Ambiental Delta do Parnaíba
-- Pelotas
-- Parque Nacional do Juruena
-- Cidade Antiga de Dubrovnik
-- Ilha de Gorée
-- Parque Nacional de Komodo
-- Área das Grandes Montanhas Azuis
-- Porto e Fortificações de Cartagena das Índias
-- Cabo Royds
-- Distrito Histórico do Quebec Antigo
-- Cidade Pré-hispânica de Chichén Itzá
-- Parque Nacional Los Glaciares
-- Parque Nacional Ilha do Coco
-- Parque Nacional Gros Morne
-- Reserva da Biosfera Sian Ka’an
-- Sistema de Reservas da Barreira de Corais de Belize
-- Parque Nacional Canaima
-- Parque Nacional do Viruá
-- Parque Nacional da Serra do Divisor
-- Parque Nacional do Cabo Orange
-- Cáceres
 - Rio Araguaia
-- Parque Nacional da Lagoa do Peixe
-- Gramado
-- Rio São Francisco
-- Parque Nacional Marinho dos Abrolhos
-- Cuiabá
-- Parque Nacional do Araguaia
-- Pirenópolis
-- Goiânia
-- Bonito
-- São Paulo
-- Porto Velho
-- Boa Vista
-- João Pessoa
-- Parque Nacional da Serra de Itabaiana
-- Parque Nacional de Ilha Grande
-- Fortaleza
-- Macapá
 - Rio Branco
-- Porto Murtinho
+- Rio Parnaíba
+- Rio São Francisco
+- Santarém
+- Santuário do Bom Jesus de Matosinhos
+- Sistema de Reservas da Barreira de Corais de Belize
+- São Paulo
+- Sítio Arqueológico Cais do Valongo
+- Sítio Roberto Burle Marx
+- Teresina
+- Trinidad e Vale dos Engenhos
+- Vila Bela da Santíssima Trindade
+- Área das Grandes Montanhas Azuis

@@ -1,0 +1,1187 @@
+{
+  "sources": {
+    "CENTRO_TER_GOV": {
+      "id": "CENTRO_TER_GOV",
+      "title": "Parque Estadual de Terra Ronca",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-de-terra-ronca-peter/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_TER_SEMAD": {
+      "id": "CENTRO_TER_SEMAD",
+      "title": "Importância e visitação do parque estadual",
+      "publisher": "Secretaria de Meio Ambiente de Goiás",
+      "url": "https://goias.gov.br/meioambiente/parque-estadual-terra-ronca/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_TER_APA": {
+      "id": "CENTRO_TER_APA",
+      "title": "Área de Proteção Ambiental da Serra Geral de Goiás",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/apa-serra-geral/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_TER_MIN": {
+      "id": "CENTRO_TER_MIN",
+      "title": "O esplendor das cavernas",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/o-esplendor-das-cavernas-de-terra-ronca",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-terra-ronca-go",
+      "placeId": "terra-ronca-go",
+      "title": "Parque Estadual de Terra Ronca",
+      "aliases": [
+        "Terra Ronca"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Unidade de conservação",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual de Terra Ronca"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual Intervales"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual Turístico do Alto Ribeira"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Estadual da Serra do Rola-Moça"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Estadual de Campinhos"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Ubajara"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Peruaçu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual de Terra Ronca",
+          "sources": [
+            "CENTRO_TER_GOV",
+            "CENTRO_TER_SEMAD",
+            "CENTRO_TER_APA",
+            "CENTRO_TER_MIN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atrativo natural de destaque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Complexo de cavernas e grutas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cânions com floresta de araucárias"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dunas interiores com lagoas sazonais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Grandes cataratas em floresta subtropical"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Complexo de cavernas e grutas",
+          "sources": [
+            "CENTRO_TER_GOV",
+            "CENTRO_TER_SEMAD",
+            "CENTRO_TER_APA",
+            "CENTRO_TER_MIN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Região administrativa brasileira",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Centro-Oeste"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Sul"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Norte"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Sudeste"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Centro-Oeste",
+          "sources": [
+            "CENTRO_TER_GOV",
+            "CENTRO_TER_SEMAD",
+            "CENTRO_TER_APA",
+            "CENTRO_TER_MIN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Municípios abrangidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "São Domingos e Guarani de Goiás"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Cavalcante e Alto Paraíso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Bonito e Jardim"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pirenópolis e Goiás"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "São Domingos e Guarani de Goiás",
+          "sources": [
+            "CENTRO_TER_GOV",
+            "CENTRO_TER_SEMAD",
+            "CENTRO_TER_APA",
+            "CENTRO_TER_MIN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "terra-ronca-go-viajante-P01",
+              "factKey": "terra-ronca-go-F01",
+              "text": "Este lugar é uma unidade de conservação brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P02",
+              "factKey": "terra-ronca-go-F02",
+              "text": "Fica no Centro-Oeste do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P03",
+              "factKey": "terra-ronca-go-F03",
+              "text": "Está no nordeste do estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P04",
+              "factKey": "terra-ronca-go-F04",
+              "text": "A área fica perto da divisa com a Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P05",
+              "factKey": "terra-ronca-go-F05",
+              "text": "O parque foi criado em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P06",
+              "factKey": "terra-ronca-go-F06",
+              "text": "Cavernas e grutas são parte importante da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P07",
+              "factKey": "terra-ronca-go-F07",
+              "text": "Há cursos de água que atravessam cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P08",
+              "factKey": "terra-ronca-go-F08",
+              "text": "A região fica no domínio do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P09",
+              "factKey": "terra-ronca-go-F09",
+              "text": "O parque se distribui pelos municípios de São Domingos e Guarani de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P10",
+              "factKey": "terra-ronca-go-F10",
+              "text": "A Serra Geral de Goiás compõe a paisagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P11",
+              "factKey": "terra-ronca-go-F11",
+              "text": "Em cavernas, a água ajudou a formar estruturas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P12",
+              "factKey": "terra-ronca-go-F12",
+              "text": "Formações que pendem do teto são chamadas estalactites.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P13",
+              "factKey": "terra-ronca-go-F13",
+              "text": "Formações que crescem a partir do chão são chamadas estalagmites.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P14",
+              "factKey": "terra-ronca-go-F14",
+              "text": "Uma das cavernas visitadas recebe o nome de Angélica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P15",
+              "factKey": "terra-ronca-go-F15",
+              "text": "Outra caverna é conhecida como São Mateus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P16",
+              "factKey": "terra-ronca-go-F16",
+              "text": "Uma terceira caverna recebe o nome de São Bernardo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P17",
+              "factKey": "terra-ronca-go-F17",
+              "text": "A unidade protege rios, cachoeiras e nascentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P18",
+              "factKey": "terra-ronca-go-F18",
+              "text": "Também há sítios com pinturas rupestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P19",
+              "factKey": "terra-ronca-go-F19",
+              "text": "O parque conserva parte da fauna adaptada às cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P20",
+              "factKey": "terra-ronca-go-F20",
+              "text": "Há espécies do Cerrado na área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P21",
+              "factKey": "terra-ronca-go-F21",
+              "text": "Peregrinações religiosas fazem parte da história do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P22",
+              "factKey": "terra-ronca-go-F22",
+              "text": "Uma romaria tradicional acontece em uma das cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P23",
+              "factKey": "terra-ronca-go-F23",
+              "text": "A visitação subterrânea requer acompanhamento de condutores credenciados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P24",
+              "factKey": "terra-ronca-go-F24",
+              "text": "Lanternas e capacetes são itens previstos para os visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-viajante-P25",
+              "factKey": "terra-ronca-go-F25",
+              "text": "A unidade é administrada pelo governo estadual de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "terra-ronca-go-geografo-P01",
+              "factKey": "terra-ronca-go-F01",
+              "text": "A unidade estadual protege uma paisagem de grande diversidade subterrânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P02",
+              "factKey": "terra-ronca-go-F02",
+              "text": "Seu território situa-se na região Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P03",
+              "factKey": "terra-ronca-go-F03",
+              "text": "A área integra o nordeste goiano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P04",
+              "factKey": "terra-ronca-go-F04",
+              "text": "Sua localização é próxima à divisa entre Goiás e Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P05",
+              "factKey": "terra-ronca-go-F05",
+              "text": "A unidade foi instituída por lei estadual em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P06",
+              "factKey": "terra-ronca-go-F06",
+              "text": "O conjunto espeleológico inclui cavernas, grutas e dolinas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P07",
+              "factKey": "terra-ronca-go-F07",
+              "text": "A circulação subterrânea de água participa da modelagem das cavidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P08",
+              "factKey": "terra-ronca-go-F08",
+              "text": "A unidade encontra-se no domínio vegetacional do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P09",
+              "factKey": "terra-ronca-go-F09",
+              "text": "Seu território abrange São Domingos e Guarani de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P10",
+              "factKey": "terra-ronca-go-F10",
+              "text": "A Serra Geral constitui parte do contexto geológico regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P11",
+              "factKey": "terra-ronca-go-F11",
+              "text": "O gotejamento pode depositar minerais e formar espeleotemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P12",
+              "factKey": "terra-ronca-go-F12",
+              "text": "Estalactites se formam de cima para baixo a partir do teto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P13",
+              "factKey": "terra-ronca-go-F13",
+              "text": "Estalagmites se desenvolvem a partir do piso das cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P14",
+              "factKey": "terra-ronca-go-F14",
+              "text": "A gruta Angélica integra o conjunto de cavidades local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P15",
+              "factKey": "terra-ronca-go-F15",
+              "text": "A gruta São Mateus é outro ambiente espeleológico da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P16",
+              "factKey": "terra-ronca-go-F16",
+              "text": "A gruta São Bernardo compõe o patrimônio subterrâneo regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P17",
+              "factKey": "terra-ronca-go-F17",
+              "text": "A conservação da unidade inclui mananciais e rios associados às cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P18",
+              "factKey": "terra-ronca-go-F18",
+              "text": "A proteção do território também compreende sítios arqueológicos com pinturas rupestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P19",
+              "factKey": "terra-ronca-go-F19",
+              "text": "Espécies adaptadas ao ambiente cavernícola integram a biodiversidade local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P20",
+              "factKey": "terra-ronca-go-F20",
+              "text": "Os ambientes protegidos incluem também fauna e flora típicas do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P21",
+              "factKey": "terra-ronca-go-F21",
+              "text": "A paisagem subterrânea possui valor cultural além do ecológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P22",
+              "factKey": "terra-ronca-go-F22",
+              "text": "Uma romaria tradicional associa devoção e uso social de uma caverna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P23",
+              "factKey": "terra-ronca-go-F23",
+              "text": "O acompanhamento por condutores credenciados organiza o uso público em cavernas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P24",
+              "factKey": "terra-ronca-go-F24",
+              "text": "Equipamentos como capacete e lanterna ajudam na visitação subterrânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "terra-ronca-go-geografo-P25",
+              "factKey": "terra-ronca-go-F25",
+              "text": "O governo estadual define diretrizes de manejo e visitação da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_TER_GOV",
+                "CENTRO_TER_SEMAD",
+                "CENTRO_TER_APA",
+                "CENTRO_TER_MIN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Estadual de Terra Ronca, em Goiás, protege cavernas, águas subterrâneas e ambientes do Cerrado.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

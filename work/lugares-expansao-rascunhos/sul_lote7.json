@@ -1,0 +1,1011 @@
+{
+  "sources": {
+    "SULCAMPOSGERAIS": {
+      "id": "SULCAMPOSGERAIS",
+      "title": "Aves do Parque Nacional dos Campos Gerais",
+      "publisher": "ICMBio e Universidade Estadual de Ponta Grossa",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/avespnebook.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULCAMPOSGERAISFURNA": {
+      "id": "SULCAMPOSGERAISFURNA",
+      "title": "Impactos ambientais do uso público no Buraco do Padre",
+      "publisher": "Revista Brasileira de Espeleologia, ICMBio",
+      "url": "https://revistaeletronica.icmbio.gov.br/RBEsp/article/view/841",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-campos-gerais",
+      "placeId": "parque-campos-gerais",
+      "title": "Parque Nacional dos Campos Gerais",
+      "aliases": [
+        "Campos Gerais"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional dos Campos Gerais"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de São Joaquim"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra do Itajaí"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Aparados da Serra"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra Geral"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional das Araucárias"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Ilha Grande"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Serra da Bocaina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Caparaó"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional dos Campos Gerais",
+          "sources": [
+            "SULCAMPOSGERAIS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Formação visitável",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Furna com cachoeira no seu interior"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ilha oceânica com recife de coral"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Duna costeira com lagoas temporárias"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Gruta marinha em falésia oceânica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Furna com cachoeira no seu interior",
+          "sources": [
+            "SULCAMPOSGERAIS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes vegetais protegidos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Campos nativos e mata com araucárias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Manguezais e restingas insulares"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Caatinga arbórea e dunas litorâneas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta inundada amazônica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Campos nativos e mata com araucárias",
+          "sources": [
+            "SULCAMPOSGERAIS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná",
+          "sources": [
+            "SULCAMPOSGERAIS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-campos-gerais-viajante-P01",
+              "factKey": "parque-campos-gerais-viajante-F01",
+              "text": "Esta área protegida fica no Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P02",
+              "factKey": "parque-campos-gerais-viajante-F02",
+              "text": "O parque está no Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P03",
+              "factKey": "parque-campos-gerais-viajante-F03",
+              "text": "Campos e matas dividem a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P04",
+              "factKey": "parque-campos-gerais-viajante-F04",
+              "text": "Araucárias fazem parte da vegetação protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P05",
+              "factKey": "parque-campos-gerais-viajante-F05",
+              "text": "Há cachoeiras na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P06",
+              "factKey": "parque-campos-gerais-viajante-F06",
+              "text": "A paisagem inclui furnas e afloramentos de rocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P07",
+              "factKey": "parque-campos-gerais-viajante-F07",
+              "text": "Um dos atrativos é uma furna que tem uma cachoeira em seu interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P08",
+              "factKey": "parque-campos-gerais-viajante-F08",
+              "text": "O local com cachoeira dentro da furna é chamado Buraco do Padre.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P09",
+              "factKey": "parque-campos-gerais-viajante-F09",
+              "text": "As Furnas Gêmeas também são formações da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P10",
+              "factKey": "parque-campos-gerais-viajante-F10",
+              "text": "A Furna Grande está entre os atrativos do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P11",
+              "factKey": "parque-campos-gerais-viajante-F11",
+              "text": "A Cachoeira da Mariquinha é um dos lugares mencionados para visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P12",
+              "factKey": "parque-campos-gerais-viajante-F12",
+              "text": "A Cachoeira do São Jorge integra a paisagem da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P13",
+              "factKey": "parque-campos-gerais-viajante-F13",
+              "text": "O Capão da Onça é outro atrativo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P14",
+              "factKey": "parque-campos-gerais-viajante-F14",
+              "text": "O parque protege áreas de três municípios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P15",
+              "factKey": "parque-campos-gerais-viajante-F15",
+              "text": "Ponta Grossa é um dos municípios abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P16",
+              "factKey": "parque-campos-gerais-viajante-F16",
+              "text": "Castro também tem parte do território na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P17",
+              "factKey": "parque-campos-gerais-viajante-F17",
+              "text": "Carambeí é outro município abrangido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P18",
+              "factKey": "parque-campos-gerais-viajante-F18",
+              "text": "O parque foi criado em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P19",
+              "factKey": "parque-campos-gerais-viajante-F19",
+              "text": "O ICMBio administra essa unidade federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P20",
+              "factKey": "parque-campos-gerais-viajante-F20",
+              "text": "A área reúne campos, rios e banhados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P21",
+              "factKey": "parque-campos-gerais-viajante-F21",
+              "text": "Pode-se observar aves em ambientes de campo e de mata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P22",
+              "factKey": "parque-campos-gerais-viajante-F22",
+              "text": "A coruja-buraqueira é uma das aves de campo apresentadas no guia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P23",
+              "factKey": "parque-campos-gerais-viajante-F23",
+              "text": "O pica-pau-do-campo está entre as aves destacadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P24",
+              "factKey": "parque-campos-gerais-viajante-F24",
+              "text": "O tucano-de-bico-verde é mencionado entre as aves de mata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-viajante-P25",
+              "factKey": "parque-campos-gerais-viajante-F25",
+              "text": "Pesquisas e educação ambiental apoiam a conservação da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-campos-gerais-geografo-P01",
+              "factKey": "parque-campos-gerais-geografo-F01",
+              "text": "A unidade federal protege amostras de Campos Sulinos e Floresta Ombrófila Mista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P02",
+              "factKey": "parque-campos-gerais-geografo-F02",
+              "text": "A mata de araucárias é uma expressão regional da floresta ombrófila mista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P03",
+              "factKey": "parque-campos-gerais-geografo-F03",
+              "text": "A coexistência de campos, matas e áreas úmidas oferece habitats variados para aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P04",
+              "factKey": "parque-campos-gerais-geografo-F04",
+              "text": "A paisagem regional inclui fragmentos de Cerrado em transição para a Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P05",
+              "factKey": "parque-campos-gerais-geografo-F05",
+              "text": "O parque é distribuído entre Ponta Grossa, Castro e Carambeí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P06",
+              "factKey": "parque-campos-gerais-geografo-F06",
+              "text": "Sua criação como unidade de proteção integral ocorreu em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P07",
+              "factKey": "parque-campos-gerais-geografo-F07",
+              "text": "Rios, banhados e afloramentos rochosos contribuem para a diversidade de ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P08",
+              "factKey": "parque-campos-gerais-geografo-F08",
+              "text": "Furnas e paredões rochosos integram o patrimônio geológico da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P09",
+              "factKey": "parque-campos-gerais-geografo-F09",
+              "text": "Uma das furnas abriga uma cachoeira e pode ser alcançada por uma trilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P10",
+              "factKey": "parque-campos-gerais-geografo-F10",
+              "text": "Um estudo do ICMBio analisou impactos do uso público nessa furna visitável.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAISFURNA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P11",
+              "factKey": "parque-campos-gerais-geografo-F11",
+              "text": "A área inclui uma formação conhecida como Furnas Gêmeas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P12",
+              "factKey": "parque-campos-gerais-geografo-F12",
+              "text": "A formação chamada Furna Grande é outro dos atrativos do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P13",
+              "factKey": "parque-campos-gerais-geografo-F13",
+              "text": "A Cachoeira do São Jorge é uma das feições hídricas incluídas na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P14",
+              "factKey": "parque-campos-gerais-geografo-F14",
+              "text": "A Cachoeira da Mariquinha também integra os atrativos naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P15",
+              "factKey": "parque-campos-gerais-geografo-F15",
+              "text": "A região tem a Ponte do Rio São Jorge entre suas referências de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P16",
+              "factKey": "parque-campos-gerais-geografo-F16",
+              "text": "O setor Capão da Onça integra a lista de atrativos citados pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P17",
+              "factKey": "parque-campos-gerais-geografo-F17",
+              "text": "A observação de aves pode aproximar educação ambiental e turismo de natureza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P18",
+              "factKey": "parque-campos-gerais-geografo-F18",
+              "text": "Um guia produzido por UEPG e ICMBio apresenta aves de campo e de mata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P19",
+              "factKey": "parque-campos-gerais-geografo-F19",
+              "text": "As diferenças de ambiente condicionam o tipo de habitat usado por aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P20",
+              "factKey": "parque-campos-gerais-geografo-F20",
+              "text": "O pica-pau-do-campo é apresentado entre as espécies de ambientes abertos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P21",
+              "factKey": "parque-campos-gerais-geografo-F21",
+              "text": "A coruja-buraqueira integra a lista de aves de campo do guia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P22",
+              "factKey": "parque-campos-gerais-geografo-F22",
+              "text": "O tucano-de-bico-verde figura entre as espécies de mata apresentadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P23",
+              "factKey": "parque-campos-gerais-geografo-F23",
+              "text": "A pesquisa e a interpretação da natureza são citadas como apoio à conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P24",
+              "factKey": "parque-campos-gerais-geografo-F24",
+              "text": "A unidade situa-se no estado do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-campos-gerais-geografo-P25",
+              "factKey": "parque-campos-gerais-geografo-F25",
+              "text": "A gestão federal é realizada pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULCAMPOSGERAIS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque paranaense que protege campos e matas com araucárias, além de furnas e cachoeiras.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

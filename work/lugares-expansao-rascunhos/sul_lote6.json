@@ -1,0 +1,1044 @@
+{
+  "sources": {
+    "JOINVILLEGEO": {
+      "id": "JOINVILLEGEO",
+      "title": "Joinville Cidade em Dados: Ambiente Construído",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/wp-content/uploads/2021/12/Joinville-Cidade-em-Dados-2021-%E2%80%93-Ambiente-Constru%C3%ADdo.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLEHIST": {
+      "id": "JOINVILLEHIST",
+      "title": "Diagnóstico socioambiental de Joinville",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/wp-content/uploads/2016/07/%C3%81rea-urbana-consolidada-de-Joinville-Volume-II-Diagn%C3%B3stico-socioambiental.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLECULT": {
+      "id": "JOINVILLECULT",
+      "title": "Escola Municipal de Ballet",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/noticias/escola-municipal-de-ballet-de-joinville-comemora-50-anos/",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLEMUSEU": {
+      "id": "JOINVILLEMUSEU",
+      "title": "Museu Nacional de Imigração e Colonização",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/institucional/secult/upm/mni/",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLEMANGUE": {
+      "id": "JOINVILLEMANGUE",
+      "title": "Manguezais e guarás",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/noticias/com-preservacao-dos-manguezais-guaras-vermelhos-retornam-a-joinville/",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLEIBGE": {
+      "id": "JOINVILLEIBGE",
+      "title": "Cidades e Estados: população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidadesat/painel/painel.php?codmun=420910",
+      "checkedAt": "2026-11-14"
+    },
+    "JOINVILLEMARE": {
+      "id": "JOINVILLEMARE",
+      "title": "Consultar tábua de marés",
+      "publisher": "Prefeitura de Joinville",
+      "url": "https://www.joinville.sc.gov.br/servicos/consultar-tabua-de-mares/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-joinville",
+      "placeId": "joinville",
+      "title": "Joinville",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Joinville"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Blumenau"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Pomerode"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Jaraguá do Sul"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Itajaí"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Brusque"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Bento do Sul"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Chapecó"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Porto Alegre"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Grande"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Joinville",
+          "sources": [
+            "JOINVILLEIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio que atravessa a área central",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Cachoeira"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Itajaí-Açu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Tubarão"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Chapecó"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Cachoeira",
+          "sources": [
+            "JOINVILLEGEO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Baía ligada ao município",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Baía da Babitonga"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Baía da Guanabara"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Baía de Todos os Santos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Baía de São Marcos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Baía da Babitonga",
+          "sources": [
+            "JOINVILLEGEO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "JOINVILLEIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "joinville-viajante-P01",
+              "factKey": "joinville-viajante-F01",
+              "text": "É uma cidade do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P02",
+              "factKey": "joinville-viajante-F02",
+              "text": "O município fica em Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P03",
+              "factKey": "joinville-viajante-F03",
+              "text": "A cidade tem uma história ligada a um festival de dança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P04",
+              "factKey": "joinville-viajante-F04",
+              "text": "A primeira edição desse festival aconteceu em 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P05",
+              "factKey": "joinville-viajante-F05",
+              "text": "Uma escola do Teatro Bolshoi funciona no município brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P06",
+              "factKey": "joinville-viajante-F06",
+              "text": "O Rio Cachoeira passa pela área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P07",
+              "factKey": "joinville-viajante-F07",
+              "text": "A região tem relação com a Baía da Babitonga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P08",
+              "factKey": "joinville-viajante-F08",
+              "text": "A Lagoa do Saguaçu integra a paisagem das águas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P09",
+              "factKey": "joinville-viajante-F09",
+              "text": "Manguezais existem em áreas do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P10",
+              "factKey": "joinville-viajante-F10",
+              "text": "O guará-vermelho é uma ave que pode frequentar a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P11",
+              "factKey": "joinville-viajante-F11",
+              "text": "A água dos rios encontra a água do mar no estuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P12",
+              "factKey": "joinville-viajante-F12",
+              "text": "A história da cidade inclui a Colônia Dona Francisca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P13",
+              "factKey": "joinville-viajante-F13",
+              "text": "A chegada de uma leva de imigrantes europeus em 1851 marca sua fundação oficial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P14",
+              "factKey": "joinville-viajante-F14",
+              "text": "O povoamento da região é anterior à instalação da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P15",
+              "factKey": "joinville-viajante-F15",
+              "text": "Sambaquis são vestígios de populações antigas da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P16",
+              "factKey": "joinville-viajante-F16",
+              "text": "O Museu Nacional de Imigração e Colonização fica no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P17",
+              "factKey": "joinville-viajante-F17",
+              "text": "O museu reúne documentos e objetos ligados à imigração no Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P18",
+              "factKey": "joinville-viajante-F18",
+              "text": "Uma escola municipal de balé teve papel na criação do festival.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P19",
+              "factKey": "joinville-viajante-F19",
+              "text": "A água da maré influencia partes da área costeira local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P20",
+              "factKey": "joinville-viajante-F20",
+              "text": "Maré alta e chuva podem contribuir para alagamentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P21",
+              "factKey": "joinville-viajante-F21",
+              "text": "A cidade tem ligações históricas com o porto de São Francisco do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P22",
+              "factKey": "joinville-viajante-F22",
+              "text": "O transporte pelo Rio Cachoeira foi importante para o acesso à colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P23",
+              "factKey": "joinville-viajante-F23",
+              "text": "A história municipal inclui imigração alemã.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P24",
+              "factKey": "joinville-viajante-F24",
+              "text": "A região também recebeu famílias de origem portuguesa antes da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-viajante-P25",
+              "factKey": "joinville-viajante-F25",
+              "text": "A área da cidade abrange partes do complexo hídrico da Babitonga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "joinville-geografo-P01",
+              "factKey": "joinville-geografo-F01",
+              "text": "A posição junto à baía influenciou a escolha do local da antiga colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P02",
+              "factKey": "joinville-geografo-F02",
+              "text": "O sistema hídrico que favoreceu seu acesso incluía o Rio Cachoeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P03",
+              "factKey": "joinville-geografo-F03",
+              "text": "A Lagoa do Saguaçu e a baía completavam uma rota de acesso à área colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P04",
+              "factKey": "joinville-geografo-F04",
+              "text": "A conexão hídrica facilitava o escoamento da produção do planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P05",
+              "factKey": "joinville-geografo-F05",
+              "text": "O porto de São Francisco do Sul integrava as rotas comerciais regionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P06",
+              "factKey": "joinville-geografo-F06",
+              "text": "A produção destinada ao porto seguia também para a Europa e a região do Prata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P07",
+              "factKey": "joinville-geografo-F07",
+              "text": "O antigo núcleo colonial nasceu de contrato envolvendo uma companhia de Hamburgo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P08",
+              "factKey": "joinville-geografo-F08",
+              "text": "A implantação oficial da colônia europeia é datada de 1851.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P09",
+              "factKey": "joinville-geografo-F09",
+              "text": "A presença humana na região antecede em milênios o núcleo colonial europeu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P10",
+              "factKey": "joinville-geografo-F10",
+              "text": "Sambaquis e artefatos arqueológicos documentam ocupações antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P11",
+              "factKey": "joinville-geografo-F11",
+              "text": "Famílias luso-brasileiras e pessoas escravizadas já estavam na região antes da colônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P12",
+              "factKey": "joinville-geografo-F12",
+              "text": "A ocupação europeia do século XIX não ocorreu sobre um território vazio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P13",
+              "factKey": "joinville-geografo-F13",
+              "text": "O encontro de águas fluviais e marinhas caracteriza um estuário na baía local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P14",
+              "factKey": "joinville-geografo-F14",
+              "text": "Manguezais ocorrem na Lagoa do Saguaçu e em outros setores do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P15",
+              "factKey": "joinville-geografo-F15",
+              "text": "O guará é uma ave típica de manguezais, mas também pode procurar alimento no rio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMANGUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P16",
+              "factKey": "joinville-geografo-F16",
+              "text": "A combinação de maré alta com chuva pode agravar situações de alagamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P17",
+              "factKey": "joinville-geografo-F17",
+              "text": "O monitoramento das marés ajuda a compreender riscos no território costeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMARE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P18",
+              "factKey": "joinville-geografo-F18",
+              "text": "Em 2022, o Censo do IBGE registrou cerca de 616 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P19",
+              "factKey": "joinville-geografo-F19",
+              "text": "Um museu federal administrado pelo município documenta a imigração no Sul do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P20",
+              "factKey": "joinville-geografo-F20",
+              "text": "O acervo museológico inclui artefatos, documentos e publicações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P21",
+              "factKey": "joinville-geografo-F21",
+              "text": "Uma escola municipal de balé contribuiu para criar o festival de dança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P22",
+              "factKey": "joinville-geografo-F22",
+              "text": "O primeiro festival de dança local ocorreu em 1983.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P23",
+              "factKey": "joinville-geografo-F23",
+              "text": "A chegada de uma escola vinculada ao Teatro Bolshoi em 2000 ampliou a rede local de formação em dança.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLECULT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P24",
+              "factKey": "joinville-geografo-F24",
+              "text": "A ocupação humana e as atividades culturais se inserem em uma paisagem influenciada por rios e baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEGEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "joinville-geografo-P25",
+              "factKey": "joinville-geografo-F25",
+              "text": "O município pertence ao estado de Santa Catarina, na Região Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "JOINVILLEIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade catarinense ligada à Baía da Babitonga, ao Rio Cachoeira e à dança.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

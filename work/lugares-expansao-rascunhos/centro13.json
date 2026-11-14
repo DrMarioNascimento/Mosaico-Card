@@ -1,0 +1,1126 @@
+{
+  "sources": {
+    "CENTRO_PIR_PE": {
+      "id": "CENTRO_PIR_PE",
+      "title": "Parque Estadual dos Pireneus",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-dos-pireneus-pep/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PIR_SEMAD": {
+      "id": "CENTRO_PIR_SEMAD",
+      "title": "Proteção do parque estadual",
+      "publisher": "Secretaria de Meio Ambiente de Goiás",
+      "url": "https://goias.gov.br/meioambiente/parque-estadual-dos-pirineus-pep/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PIR_APA": {
+      "id": "CENTRO_PIR_APA",
+      "title": "Área de Proteção Ambiental dos Pireneus",
+      "publisher": "Governo de Goiás",
+      "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/apa-pireneus/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-pireneus-go",
+      "placeId": "parque-pireneus-go",
+      "title": "Parque Estadual dos Pireneus",
+      "aliases": [
+        "Pireneus"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Unidade de conservação",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual dos Pireneus"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual de Terra Ronca"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual da Serra de Caldas Novas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual da Serra Azul"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual Serra Dourada"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual de Ibitipoca"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual de Vila Velha"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual dos Pireneus",
+          "sources": [
+            "CENTRO_PIR_PE",
+            "CENTRO_PIR_SEMAD",
+            "CENTRO_PIR_APA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Papel das nascentes",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Divisor de águas de duas bacias"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Encontro de rios de cores diferentes"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Formação de deltas em litoral oceânico"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Degelo de geleiras tropicais"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Divisor de águas de duas bacias",
+          "sources": [
+            "CENTRO_PIR_PE",
+            "CENTRO_PIR_SEMAD",
+            "CENTRO_PIR_APA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Bacias hidrográficas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tocantins e Paraná"
+            },
+            {
+              "id": "C3-O2",
+              "text": "São Francisco e Parnaíba"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amazonas e Paraguai"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Uruguai e Atlântico Leste"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tocantins e Paraná",
+          "sources": [
+            "CENTRO_PIR_PE",
+            "CENTRO_PIR_SEMAD",
+            "CENTRO_PIR_APA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Minas Gerais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Goiás",
+          "sources": [
+            "CENTRO_PIR_PE",
+            "CENTRO_PIR_SEMAD",
+            "CENTRO_PIR_APA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-pireneus-go-viajante-P01",
+              "factKey": "parque-pireneus-go-F01",
+              "text": "O destino é um parque estadual brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P02",
+              "factKey": "parque-pireneus-go-F02",
+              "text": "Fica no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P03",
+              "factKey": "parque-pireneus-go-F03",
+              "text": "A unidade foi criada em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P04",
+              "factKey": "parque-pireneus-go-F04",
+              "text": "Seu território protege uma serra de altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P05",
+              "factKey": "parque-pireneus-go-F05",
+              "text": "O Cerrado rupestre aparece nas áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P06",
+              "factKey": "parque-pireneus-go-F06",
+              "text": "Existem formações rochosas destacadas na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P07",
+              "factKey": "parque-pireneus-go-F07",
+              "text": "O parque conserva nascentes e córregos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P08",
+              "factKey": "parque-pireneus-go-F08",
+              "text": "As águas da serra seguem para duas grandes bacias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P09",
+              "factKey": "parque-pireneus-go-F09",
+              "text": "Uma delas é a bacia do Rio Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P10",
+              "factKey": "parque-pireneus-go-F10",
+              "text": "A outra é a bacia do Rio Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P11",
+              "factKey": "parque-pireneus-go-F11",
+              "text": "Córregos da região dão origem ao Rio das Almas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P12",
+              "factKey": "parque-pireneus-go-F12",
+              "text": "Outros cursos de água alimentam o Rio Corumbá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P13",
+              "factKey": "parque-pireneus-go-F13",
+              "text": "Há um pico entre os mais altos de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P14",
+              "factKey": "parque-pireneus-go-F14",
+              "text": "Uma capela dedicada à Santíssima Trindade fica no alto da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P15",
+              "factKey": "parque-pireneus-go-F15",
+              "text": "A capela recebe visitantes e devotos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P16",
+              "factKey": "parque-pireneus-go-F16",
+              "text": "A paisagem do alto permite vistas panorâmicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P17",
+              "factKey": "parque-pireneus-go-F17",
+              "text": "O parque inclui campos e matas de galeria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P18",
+              "factKey": "parque-pireneus-go-F18",
+              "text": "Uma área de proteção ambiental envolve o entorno da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P19",
+              "factKey": "parque-pireneus-go-F19",
+              "text": "A Cascata Sonrisal integra os atrativos naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P20",
+              "factKey": "parque-pireneus-go-F20",
+              "text": "Essa cascata tem uma sequência de quedas e poços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P21",
+              "factKey": "parque-pireneus-go-F21",
+              "text": "Uma trilha dá acesso à cascata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P22",
+              "factKey": "parque-pireneus-go-F22",
+              "text": "O Córrego Capitão do Mato alimenta a cascata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P23",
+              "factKey": "parque-pireneus-go-F23",
+              "text": "A unidade abriga fauna e flora do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P24",
+              "factKey": "parque-pireneus-go-F24",
+              "text": "O governo estadual é responsável pela gestão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-viajante-P25",
+              "factKey": "parque-pireneus-go-F25",
+              "text": "Há um centro de apoio para visitantes próximo ao pico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-pireneus-go-geografo-P01",
+              "factKey": "parque-pireneus-go-F01",
+              "text": "A unidade estadual conserva ambientes de altitude no Planalto Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P02",
+              "factKey": "parque-pireneus-go-F02",
+              "text": "Seu território integra o estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P03",
+              "factKey": "parque-pireneus-go-F03",
+              "text": "Uma lei estadual instituiu o parque em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P04",
+              "factKey": "parque-pireneus-go-F04",
+              "text": "O maciço funciona como referência topográfica e ecológica regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P05",
+              "factKey": "parque-pireneus-go-F05",
+              "text": "O cerrado rupestre ocorre sobre áreas de relevo e substrato rochoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P06",
+              "factKey": "parque-pireneus-go-F06",
+              "text": "A paisagem reúne afloramentos e formações rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P07",
+              "factKey": "parque-pireneus-go-F07",
+              "text": "A conservação dos mananciais integra os objetivos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P08",
+              "factKey": "parque-pireneus-go-F08",
+              "text": "A serra funciona como divisor de águas de duas bacias hidrográficas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P09",
+              "factKey": "parque-pireneus-go-F09",
+              "text": "Parte da drenagem dirige-se à bacia do Tocantins.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P10",
+              "factKey": "parque-pireneus-go-F10",
+              "text": "Outra parcela da drenagem integra a bacia do Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P11",
+              "factKey": "parque-pireneus-go-F11",
+              "text": "Nascentes na serra contribuem para o Rio das Almas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P12",
+              "factKey": "parque-pireneus-go-F12",
+              "text": "Outras nascentes contribuem para a formação do Rio Corumbá.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P13",
+              "factKey": "parque-pireneus-go-F13",
+              "text": "O ponto culminante da serra está entre os mais altos do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P14",
+              "factKey": "parque-pireneus-go-F14",
+              "text": "Uma capela no alto da serra associa paisagem protegida e práticas religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P15",
+              "factKey": "parque-pireneus-go-F15",
+              "text": "A devoção e a visitação ao cume compõem parte do uso cultural da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P16",
+              "factKey": "parque-pireneus-go-F16",
+              "text": "O relevo elevado oferece pontos naturais de observação da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P17",
+              "factKey": "parque-pireneus-go-F17",
+              "text": "O mosaico vegetacional inclui campos, mata seca e mata de galeria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P18",
+              "factKey": "parque-pireneus-go-F18",
+              "text": "Uma área de proteção ambiental envolve o parque e busca ordenar usos em seu entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P19",
+              "factKey": "parque-pireneus-go-F19",
+              "text": "A Cascata Sonrisal é um dos ambientes aquáticos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P20",
+              "factKey": "parque-pireneus-go-F20",
+              "text": "A sucessão de quedas e poços configura a paisagem da cascata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P21",
+              "factKey": "parque-pireneus-go-F21",
+              "text": "Trilhas organizam o acesso de visitantes aos pontos de interesse.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P22",
+              "factKey": "parque-pireneus-go-F22",
+              "text": "O Córrego Capitão do Mato alimenta a cascata.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P23",
+              "factKey": "parque-pireneus-go-F23",
+              "text": "A unidade protege espécies e recursos hídricos do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P24",
+              "factKey": "parque-pireneus-go-F24",
+              "text": "A gestão estadual orienta preservação e visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-pireneus-go-geografo-P25",
+              "factKey": "parque-pireneus-go-F25",
+              "text": "Uma estrutura de apoio próxima ao cume serve a visitantes da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PIR_PE",
+                "CENTRO_PIR_SEMAD",
+                "CENTRO_PIR_APA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Estadual dos Pireneus protege o Cerrado de altitude e nascentes de bacias do Tocantins e Paraná.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

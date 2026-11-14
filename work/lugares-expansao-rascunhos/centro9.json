@@ -1,0 +1,1126 @@
+{
+  "sources": {
+    "CENTRO_PNB_ICM": {
+      "id": "CENTRO_PNB_ICM",
+      "title": "Informações sobre o parque e a visitação",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia/informacoes-sobre-visitacao-2013-parna-de-brasilia/informacoes-sobre-visitacao-2013-parna-de-brasilia",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PNB_PLANO": {
+      "id": "CENTRO_PNB_PLANO",
+      "title": "Plano de manejo do parque",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia/arquivos/minuta_plano_manejo_pnb_v8_final.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_PNB_TCU": {
+      "id": "CENTRO_PNB_TCU",
+      "title": "Caracterização da unidade",
+      "publisher": "Tribunal de Contas da União",
+      "url": "https://pesquisa.apps.tcu.gov.br/documento/acordao-completo/portaria%2520301/%2520/DTRELEVANCIA%2520desc%252C%2520NUMACORDAOINT%2520desc/18",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parna-brasilia",
+      "placeId": "parna-brasilia",
+      "title": "Parque Nacional de Brasília",
+      "aliases": [
+        "Brasília"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Brasília"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional das Emas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Chapada dos Guimarães"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Araguaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Grande Sertão Veredas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional das Nascentes do Rio Parnaíba"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Caparaó"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Brasília",
+          "sources": [
+            "CENTRO_PNB_ICM",
+            "CENTRO_PNB_PLANO",
+            "CENTRO_PNB_TCU"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Bioma protegido",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cerrado"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pampa"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mata Atlântica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Cerrado",
+          "sources": [
+            "CENTRO_PNB_ICM",
+            "CENTRO_PNB_PLANO",
+            "CENTRO_PNB_TCU"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Área conhecida por piscinas naturais",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Água Mineral"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Água Azul"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Água Doce"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Água Vermelha"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Água Mineral",
+          "sources": [
+            "CENTRO_PNB_ICM",
+            "CENTRO_PNB_PLANO",
+            "CENTRO_PNB_TCU"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Reservatório associado aos mananciais protegidos",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Maria"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Sobradinho"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Furnas"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Três Marias"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Maria",
+          "sources": [
+            "CENTRO_PNB_ICM",
+            "CENTRO_PNB_PLANO",
+            "CENTRO_PNB_TCU"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parna-brasilia-viajante-P01",
+              "factKey": "parna-brasilia-F01",
+              "text": "Este destino é um parque nacional do Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P02",
+              "factKey": "parna-brasilia-F02",
+              "text": "Seu território abriga vegetação do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P03",
+              "factKey": "parna-brasilia-F03",
+              "text": "A área fica próxima da capital federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P04",
+              "factKey": "parna-brasilia-F04",
+              "text": "Também abrange uma parte do estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P05",
+              "factKey": "parna-brasilia-F05",
+              "text": "Foi criado em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P06",
+              "factKey": "parna-brasilia-F06",
+              "text": "O parque foi ampliado em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P07",
+              "factKey": "parna-brasilia-F07",
+              "text": "A preservação da água está entre seus objetivos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P08",
+              "factKey": "parna-brasilia-F08",
+              "text": "Ele protege córregos que alimentam o reservatório de Santa Maria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P09",
+              "factKey": "parna-brasilia-F09",
+              "text": "Esse reservatório participa do abastecimento do Distrito Federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P10",
+              "factKey": "parna-brasilia-F10",
+              "text": "A vegetação inclui matas ao longo dos cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P11",
+              "factKey": "parna-brasilia-F11",
+              "text": "Também há áreas de campo e de cerrado mais aberto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P12",
+              "factKey": "parna-brasilia-F12",
+              "text": "Veredas fazem parte da diversidade vegetal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P13",
+              "factKey": "parna-brasilia-F13",
+              "text": "O lobo-guará é uma das espécies associadas à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P14",
+              "factKey": "parna-brasilia-F14",
+              "text": "O tamanduá-bandeira também está entre os animais registrados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P15",
+              "factKey": "parna-brasilia-F15",
+              "text": "A fauna inclui tatu-canastra e onça-parda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P16",
+              "factKey": "parna-brasilia-F16",
+              "text": "A jaguatirica é outro mamífero citado pelo órgão gestor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P17",
+              "factKey": "parna-brasilia-F17",
+              "text": "Há uma área de visitação conhecida como Água Mineral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P18",
+              "factKey": "parna-brasilia-F18",
+              "text": "Nela existem piscinas com águas naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P19",
+              "factKey": "parna-brasilia-F19",
+              "text": "As piscinas são chamadas Pedreira e Areal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P20",
+              "factKey": "parna-brasilia-F20",
+              "text": "Uma trilha conhecida como Capivara permite caminhadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P21",
+              "factKey": "parna-brasilia-F21",
+              "text": "A trilha passa perto do Córrego Acampamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P22",
+              "factKey": "parna-brasilia-F22",
+              "text": "Outra área de trilhas recebe o nome de Cristal Água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P23",
+              "factKey": "parna-brasilia-F23",
+              "text": "A observação de aves é uma das atividades possíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P24",
+              "factKey": "parna-brasilia-F24",
+              "text": "O parque também oferece caminhos usados para ciclismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-viajante-P25",
+              "factKey": "parna-brasilia-F25",
+              "text": "O ICMBio é responsável pela gestão federal da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parna-brasilia-geografo-P01",
+              "factKey": "parna-brasilia-F01",
+              "text": "A unidade de proteção integral conserva ambientes do Planalto Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P02",
+              "factKey": "parna-brasilia-F02",
+              "text": "A vegetação protegida inclui diferentes fitofisionomias do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P03",
+              "factKey": "parna-brasilia-F03",
+              "text": "Sua criação está relacionada à implantação da capital federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P04",
+              "factKey": "parna-brasilia-F04",
+              "text": "O território abrange o Distrito Federal e parte de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P05",
+              "factKey": "parna-brasilia-F05",
+              "text": "O decreto de criação foi editado em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P06",
+              "factKey": "parna-brasilia-F06",
+              "text": "A alteração de limites de 2006 incorporou novos ambientes à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P07",
+              "factKey": "parna-brasilia-F07",
+              "text": "A proteção de mananciais é uma finalidade histórica do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P08",
+              "factKey": "parna-brasilia-F08",
+              "text": "As bacias de córregos protegidos alimentam o reservatório de Santa Maria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P09",
+              "factKey": "parna-brasilia-F09",
+              "text": "Esse reservatório contribui para o fornecimento público de água ao Distrito Federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P10",
+              "factKey": "parna-brasilia-F10",
+              "text": "Matas de galeria acompanham cursos de água na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P11",
+              "factKey": "parna-brasilia-F11",
+              "text": "O mosaico vegetacional inclui campos limpos, campos sujos e cerradão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P12",
+              "factKey": "parna-brasilia-F12",
+              "text": "Veredas integram a variedade de ambientes úmidos protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P13",
+              "factKey": "parna-brasilia-F13",
+              "text": "O lobo-guará é um mamífero associado à fauna protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P14",
+              "factKey": "parna-brasilia-F14",
+              "text": "O tamanduá-bandeira é uma das espécies citadas pelo órgão gestor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P15",
+              "factKey": "parna-brasilia-F15",
+              "text": "A unidade abriga espécies como tatu-canastra e onça-parda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P16",
+              "factKey": "parna-brasilia-F16",
+              "text": "A jaguatirica também é citada na fauna do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P17",
+              "factKey": "parna-brasilia-F17",
+              "text": "A área de visitação Água Mineral concentra estruturas de uso público.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P18",
+              "factKey": "parna-brasilia-F18",
+              "text": "Piscinas de águas naturais ligam lazer e contato com mananciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P19",
+              "factKey": "parna-brasilia-F19",
+              "text": "Pedreira e Areal são os nomes das duas piscinas descritas pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P20",
+              "factKey": "parna-brasilia-F20",
+              "text": "Uma trilha circular permite interpretação ambiental e caminhadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P21",
+              "factKey": "parna-brasilia-F21",
+              "text": "A trilha da Capivara acompanha o Córrego Acampamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P22",
+              "factKey": "parna-brasilia-F22",
+              "text": "O sistema de trilhas Cristal Água inclui percursos em estradas internas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P23",
+              "factKey": "parna-brasilia-F23",
+              "text": "A observação de aves integra atividades de educação e uso público.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P24",
+              "factKey": "parna-brasilia-F24",
+              "text": "A conexão entre trilhas favorece deslocamentos a pé e de bicicleta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parna-brasilia-geografo-P25",
+              "factKey": "parna-brasilia-F25",
+              "text": "O ICMBio administra a proteção, pesquisa e visitação da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_PNB_ICM",
+                "CENTRO_PNB_PLANO",
+                "CENTRO_PNB_TCU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional de Brasília protege ecossistemas do Cerrado e mananciais próximos à capital federal.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

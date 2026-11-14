@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "CENTRO_CAM_ICM": {
+      "id": "CENTRO_CAM_ICM",
+      "title": "Parque nacional e espécies ameaçadas",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-campos-amazonicos",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAM_PLANO": {
+      "id": "CENTRO_CAM_PLANO",
+      "title": "Ficha técnica e plano de manejo",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-campos-amazonicos/arquivos/plano_de_manejo_parna_campos_amazonicos_apresentacao.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAM_FOGO": {
+      "id": "CENTRO_CAM_FOGO",
+      "title": "Queimas prescritas no enclave de cerrado",
+      "publisher": "Revista Biodiversidade Brasileira - ICMBio",
+      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/view/1183",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CAM_SEN": {
+      "id": "CENTRO_CAM_SEN",
+      "title": "Decreto federal de criação da unidade",
+      "publisher": "Senado Federal",
+      "url": "https://legis.senado.gov.br/norma/573087/publicacao/15731535",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-campos-amazonicos",
+      "placeId": "campos-amazonicos",
+      "title": "Parque Nacional dos Campos Amazônicos",
+      "aliases": [
+        "Campos Amazônicos"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte",
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional dos Campos Amazônicos"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Juruena"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Mapinguari"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Rio Novo"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional dos Campos Ferruginosos"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Araguaia"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional dos Campos Amazônicos",
+          "sources": [
+            "CENTRO_CAM_ICM",
+            "CENTRO_CAM_PLANO",
+            "CENTRO_CAM_FOGO",
+            "CENTRO_CAM_SEN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estados abrangidos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Amazonas, Rondônia e Mato Grosso"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Amazonas, Pará e Amapá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rondônia, Acre e Pará"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mato Grosso, Goiás e Tocantins"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Amazonas, Rondônia e Mato Grosso",
+          "sources": [
+            "CENTRO_CAM_ICM",
+            "CENTRO_CAM_PLANO",
+            "CENTRO_CAM_FOGO",
+            "CENTRO_CAM_SEN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Mosaico de vegetação",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Enclave de Cerrado em ambiente amazônico"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Campos rupestres em área de Mata Atlântica"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Florestas com araucária em campos sulinos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Caatinga em contato com Mata Atlântica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Enclave de Cerrado em ambiente amazônico",
+          "sources": [
+            "CENTRO_CAM_ICM",
+            "CENTRO_CAM_PLANO",
+            "CENTRO_CAM_FOGO",
+            "CENTRO_CAM_SEN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rio associado à unidade",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Roosevelt"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Purus"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Tapajós"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Roosevelt",
+          "sources": [
+            "CENTRO_CAM_ICM",
+            "CENTRO_CAM_PLANO",
+            "CENTRO_CAM_FOGO",
+            "CENTRO_CAM_SEN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "campos-amazonicos-viajante-P01",
+              "factKey": "campos-amazonicos-F01",
+              "text": "Este destino é um parque nacional brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P02",
+              "factKey": "campos-amazonicos-F02",
+              "text": "Está situado na região amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P03",
+              "factKey": "campos-amazonicos-F03",
+              "text": "O território abrange partes de três estados brasileiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P04",
+              "factKey": "campos-amazonicos-F04",
+              "text": "Abrange Amazonas, Rondônia e Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P05",
+              "factKey": "campos-amazonicos-F05",
+              "text": "Por isso aparece nos recortes Norte e Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P06",
+              "factKey": "campos-amazonicos-F06",
+              "text": "Foi criado em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P07",
+              "factKey": "campos-amazonicos-F07",
+              "text": "Abrange áreas de Novo Aripuanã e Manicoré.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P08",
+              "factKey": "campos-amazonicos-F08",
+              "text": "Também está presente no município de Machadinho d’Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P09",
+              "factKey": "campos-amazonicos-F09",
+              "text": "Uma pequena parcela fica no município de Colniza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P10",
+              "factKey": "campos-amazonicos-F10",
+              "text": "O parque protege uma paisagem que mistura campos e florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P11",
+              "factKey": "campos-amazonicos-F11",
+              "text": "Há vegetação de Cerrado isolada em meio ao ambiente amazônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P12",
+              "factKey": "campos-amazonicos-F12",
+              "text": "Essa área isolada é chamada de enclave.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P13",
+              "factKey": "campos-amazonicos-F13",
+              "text": "A área protegida também possui florestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P14",
+              "factKey": "campos-amazonicos-F14",
+              "text": "As campinaranas são outro tipo de vegetação encontrado na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P15",
+              "factKey": "campos-amazonicos-F15",
+              "text": "O parque protege nascentes e cursos de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P16",
+              "factKey": "campos-amazonicos-F16",
+              "text": "Um dos rios associados à área chama-se Roosevelt.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P17",
+              "factKey": "campos-amazonicos-F17",
+              "text": "Os rios Branco e Guaribas também estão associados ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P18",
+              "factKey": "campos-amazonicos-F18",
+              "text": "As nascentes do Rio Manicoré recebem proteção na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P19",
+              "factKey": "campos-amazonicos-F19",
+              "text": "A onça-pintada é uma das espécies protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P20",
+              "factKey": "campos-amazonicos-F20",
+              "text": "A ariranha aparece na lista de espécies ameaçadas da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P21",
+              "factKey": "campos-amazonicos-F21",
+              "text": "O maracajá-peludo integra a lista de fauna protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P22",
+              "factKey": "campos-amazonicos-F22",
+              "text": "O gato-do-mato também figura nessa lista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P23",
+              "factKey": "campos-amazonicos-F23",
+              "text": "O manejo considera a prevenção de incêndios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P24",
+              "factKey": "campos-amazonicos-F24",
+              "text": "Pesquisadores estudam a biodiversidade da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-viajante-P25",
+              "factKey": "campos-amazonicos-F25",
+              "text": "O ICMBio é responsável pela gestão federal da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "campos-amazonicos-geografo-P01",
+              "factKey": "campos-amazonicos-F01",
+              "text": "A unidade de proteção integral conserva um mosaico de ambientes amazônicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P02",
+              "factKey": "campos-amazonicos-F02",
+              "text": "O parque está inserido no domínio da Amazônia meridional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P03",
+              "factKey": "campos-amazonicos-F03",
+              "text": "Seus limites abrangem três unidades federativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P04",
+              "factKey": "campos-amazonicos-F04",
+              "text": "O território se distribui por Amazonas, Rondônia e Mato Grosso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P05",
+              "factKey": "campos-amazonicos-F05",
+              "text": "Essa distribuição permite classificá-lo nos recortes Norte e Centro-Oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P06",
+              "factKey": "campos-amazonicos-F06",
+              "text": "Um decreto federal criou a unidade em 2006.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P07",
+              "factKey": "campos-amazonicos-F07",
+              "text": "Novo Aripuanã e Manicoré compõem a parcela amazonense do território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P08",
+              "factKey": "campos-amazonicos-F08",
+              "text": "Machadinho d’Oeste representa a porção de Rondônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P09",
+              "factKey": "campos-amazonicos-F09",
+              "text": "Uma parcela do parque está no município mato-grossense de Colniza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P10",
+              "factKey": "campos-amazonicos-F10",
+              "text": "A unidade combina florestas com formações abertas não contínuas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P11",
+              "factKey": "campos-amazonicos-F11",
+              "text": "Um enclave de Cerrado está isolado do restante desse bioma em ambiente amazônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P12",
+              "factKey": "campos-amazonicos-F12",
+              "text": "Proteger esse enclave contribui à conservação de espécies de ambientes abertos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P13",
+              "factKey": "campos-amazonicos-F13",
+              "text": "As florestas ao redor podem funcionar como corredores para espécies florestais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P14",
+              "factKey": "campos-amazonicos-F14",
+              "text": "As campinaranas compõem outra fitofisionomia do mosaico protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P15",
+              "factKey": "campos-amazonicos-F15",
+              "text": "As cabeceiras e afluentes sustentam uma rede hidrográfica extensa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P16",
+              "factKey": "campos-amazonicos-F16",
+              "text": "O Rio Roosevelt integra a rede de referência territorial da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P17",
+              "factKey": "campos-amazonicos-F17",
+              "text": "O decreto também menciona os rios Branco e Guaribas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P18",
+              "factKey": "campos-amazonicos-F18",
+              "text": "Nascentes do Rio Manicoré estão entre as áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P19",
+              "factKey": "campos-amazonicos-F19",
+              "text": "A lista de espécies ameaçadas inclui a onça-pintada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P20",
+              "factKey": "campos-amazonicos-F20",
+              "text": "A ariranha representa uma espécie ligada aos ambientes aquáticos protegidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P21",
+              "factKey": "campos-amazonicos-F21",
+              "text": "O maracajá-peludo integra a lista de mamíferos ameaçados da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P22",
+              "factKey": "campos-amazonicos-F22",
+              "text": "O gato-do-mato também é citado entre as espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P23",
+              "factKey": "campos-amazonicos-F23",
+              "text": "O manejo integrado do fogo busca reduzir riscos de incêndios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P24",
+              "factKey": "campos-amazonicos-F24",
+              "text": "A pesquisa ecológica auxilia a conhecer e conservar o mosaico de ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "campos-amazonicos-geografo-P25",
+              "factKey": "campos-amazonicos-F25",
+              "text": "A gestão federal e o plano de manejo cabem ao ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_CAM_ICM",
+                "CENTRO_CAM_PLANO",
+                "CENTRO_CAM_FOGO",
+                "CENTRO_CAM_SEN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Nacional dos Campos Amazônicos protege um mosaico com enclave de Cerrado em território dos estados do Amazonas, Rondônia e Mato Grosso.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

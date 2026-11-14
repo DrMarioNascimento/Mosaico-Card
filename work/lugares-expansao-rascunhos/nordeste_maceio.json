@@ -1,0 +1,1249 @@
+{
+  "sources": {
+    "MACEIO_IBGE": {
+      "id": "MACEIO_IBGE",
+      "title": "Cidades e Estados — Maceió",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/al/maceio.html",
+      "checkedAt": "2026-11-14"
+    },
+    "MACEIO_MTUR": {
+      "id": "MACEIO_MTUR",
+      "title": "Um pedacinho do paraíso chamado Maceió",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/um-pedacinho-do-paraiso-chamado-maceio/",
+      "checkedAt": "2026-11-14"
+    },
+    "MACEIO_PCR": {
+      "id": "MACEIO_PCR",
+      "title": "Praias da orla urbana",
+      "publisher": "Prefeitura de Maceió",
+      "url": "https://maceio.al.gov.br/noticias/semsc/seguranca-cidada-institui-comissao-para-reordenar-comercio-ambulante-na-orla-de-maceio",
+      "checkedAt": "2026-11-14"
+    },
+    "MACEIO_JARAGUA": {
+      "id": "MACEIO_JARAGUA",
+      "title": "Plano de Mobilidade — Diagnóstico",
+      "publisher": "Prefeitura de Maceió",
+      "url": "https://planmobi.maceio.al.gov.br/files/Diagnostico.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "MACEIO_ART": {
+      "id": "MACEIO_ART",
+      "title": "Pontal da Barra e bordado filé",
+      "publisher": "Prefeitura de Maceió",
+      "url": "https://maceio.al.gov.br/noticias/semtur/maceioenses-e-turistas-que-chegam-a-maceio-em-cruzeiros-sao-levados-de-graca-ao-pontal-da-barra",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-maceio",
+      "placeId": "maceio",
+      "title": "Maceió",
+      "aliases": [
+        "Maceió"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O3",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Maceió",
+          "sources": [
+            "MACEIO_IBGE",
+            "MACEIO_MTUR",
+            "MACEIO_PCR",
+            "MACEIO_JARAGUA",
+            "MACEIO_ART"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Lagoa associada à paisagem local",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mundaú"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Lagoa dos Patos"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Lagoa da Conceição"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Lagoa Rodrigo de Freitas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mundaú",
+          "sources": [
+            "MACEIO_IBGE",
+            "MACEIO_MTUR",
+            "MACEIO_PCR",
+            "MACEIO_JARAGUA",
+            "MACEIO_ART"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Artesanato do Pontal da Barra",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Filé"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Renda renascença"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Renda de bilros"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Capim dourado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Filé",
+          "sources": [
+            "MACEIO_IBGE",
+            "MACEIO_MTUR",
+            "MACEIO_PCR",
+            "MACEIO_JARAGUA",
+            "MACEIO_ART"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraíba"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Grande do Norte"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Alagoas",
+          "sources": [
+            "MACEIO_IBGE",
+            "MACEIO_MTUR",
+            "MACEIO_PCR",
+            "MACEIO_JARAGUA",
+            "MACEIO_ART"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "maceio-viajante-P01",
+              "factKey": "maceio-F01",
+              "text": "Este destino é uma cidade do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P02",
+              "factKey": "maceio-F02",
+              "text": "A cidade é uma capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P03",
+              "factKey": "maceio-F03",
+              "text": "Está no estado de Alagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P04",
+              "factKey": "maceio-F04",
+              "text": "No Censo de 2022, tinha cerca de 958 mil habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P05",
+              "factKey": "maceio-F05",
+              "text": "O litoral atlântico faz parte da paisagem da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P06",
+              "factKey": "maceio-F06",
+              "text": "A praia de Pajuçara fica nessa cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P07",
+              "factKey": "maceio-F07",
+              "text": "Ponta Verde também é uma praia da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P08",
+              "factKey": "maceio-F08",
+              "text": "A praia de Jatiúca fica na mesma orla.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P09",
+              "factKey": "maceio-F09",
+              "text": "Passeios de jangada levam a piscinas naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P10",
+              "factKey": "maceio-F10",
+              "text": "Peixes e moluscos podem ser observados nas piscinas naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P11",
+              "factKey": "maceio-F11",
+              "text": "Uma lagoa importante para a paisagem é a Mundaú.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P12",
+              "factKey": "maceio-F12",
+              "text": "A região também se relaciona com a lagoa Manguaba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P13",
+              "factKey": "maceio-F13",
+              "text": "Manguezais aparecem na região das lagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P14",
+              "factKey": "maceio-F14",
+              "text": "Pescadores vivem e trabalham na região lagunar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P15",
+              "factKey": "maceio-F15",
+              "text": "O Pontal da Barra é conhecido por seu artesanato.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P16",
+              "factKey": "maceio-F16",
+              "text": "O bordado filé é um artesanato tradicional do Pontal da Barra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P17",
+              "factKey": "maceio-F17",
+              "text": "Há passeios de barco na região das lagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P18",
+              "factKey": "maceio-F18",
+              "text": "A lagoa Mundaú possui ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P19",
+              "factKey": "maceio-F19",
+              "text": "Uma das ilhas mencionadas fica em Marechal Deodoro, município vizinho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P20",
+              "factKey": "maceio-F20",
+              "text": "Jaraguá é um bairro ligado à história do porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P21",
+              "factKey": "maceio-F21",
+              "text": "O Teatro Deodoro é um marco cultural da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P22",
+              "factKey": "maceio-F22",
+              "text": "A Catedral de Nossa Senhora dos Prazeres fica nessa cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P23",
+              "factKey": "maceio-F23",
+              "text": "O Palácio dos Martírios é outro marco histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P24",
+              "factKey": "maceio-F24",
+              "text": "A cidade teve ligação histórica com Marechal Deodoro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-viajante-P25",
+              "factKey": "maceio-F25",
+              "text": "Há mirantes na parte alta da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "maceio-geografo-P01",
+              "factKey": "maceio-F01",
+              "text": "A carta representa um município urbano do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P02",
+              "factKey": "maceio-F02",
+              "text": "O município exerce a função administrativa de capital de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P03",
+              "factKey": "maceio-F03",
+              "text": "A cidade sedia o governo do estado de Alagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P04",
+              "factKey": "maceio-F04",
+              "text": "Segundo o IBGE, o município tinha 957.916 habitantes no Censo Demográfico 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P05",
+              "factKey": "maceio-F05",
+              "text": "A posição costeira conecta a ocupação urbana ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P06",
+              "factKey": "maceio-F06",
+              "text": "Pajuçara integra a faixa de praias urbanas do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P07",
+              "factKey": "maceio-F07",
+              "text": "Ponta Verde é uma das unidades da paisagem da orla urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P08",
+              "factKey": "maceio-F08",
+              "text": "Jatiúca compõe a sequência de praias da orla municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P09",
+              "factKey": "maceio-F09",
+              "text": "Os passeios de jangada conectam a orla a ambientes de piscinas naturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P10",
+              "factKey": "maceio-F10",
+              "text": "As piscinas naturais abrigam organismos como peixes e moluscos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P11",
+              "factKey": "maceio-F11",
+              "text": "A lagoa Mundaú integra o sistema lagunar próximo à capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P12",
+              "factKey": "maceio-F12",
+              "text": "As lagoas Mundaú e Manguaba integram a paisagem lagunar regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P13",
+              "factKey": "maceio-F13",
+              "text": "Os manguezais integram ambientes úmidos do complexo lagunar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P14",
+              "factKey": "maceio-F14",
+              "text": "A pesca conecta meios de vida locais às águas lagunares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P15",
+              "factKey": "maceio-F15",
+              "text": "O Pontal da Barra é um núcleo de produção artesanal associado à região lagunar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P16",
+              "factKey": "maceio-F16",
+              "text": "O filé conecta saberes artesanais locais ao complexo estuarino Mundaú-Manguaba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P17",
+              "factKey": "maceio-F17",
+              "text": "A navegação turística aproxima visitantes das ilhas e dos manguezais lagunares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P18",
+              "factKey": "maceio-F18",
+              "text": "A paisagem da lagoa Mundaú inclui um conjunto de ilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P19",
+              "factKey": "maceio-F19",
+              "text": "O sistema lagunar ultrapassa limites municipais e inclui área de Marechal Deodoro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P20",
+              "factKey": "maceio-F20",
+              "text": "Jaraguá representa um núcleo histórico portuário e comercial da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P21",
+              "factKey": "maceio-F21",
+              "text": "O Teatro Deodoro integra o patrimônio cultural do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P22",
+              "factKey": "maceio-F22",
+              "text": "A Catedral de Nossa Senhora dos Prazeres compõe o patrimônio edificado urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P23",
+              "factKey": "maceio-F23",
+              "text": "O Palácio dos Martírios integra o conjunto de bens históricos da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P24",
+              "factKey": "maceio-F24",
+              "text": "A transferência da capital alterou a relação administrativa entre este município e Marechal Deodoro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "maceio-geografo-P25",
+              "factKey": "maceio-F25",
+              "text": "O relevo da parte alta permite mirantes para a observação da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MACEIO_IBGE",
+                "MACEIO_MTUR",
+                "MACEIO_PCR",
+                "MACEIO_JARAGUA",
+                "MACEIO_ART"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital litorânea de Alagoas, ligada às praias urbanas e à paisagem do complexo lagunar Mundaú-Manguaba.",
+        "editorialNotes": [
+          "A população é municipal, do Censo 2022. O complexo lagunar alcança outros municípios.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

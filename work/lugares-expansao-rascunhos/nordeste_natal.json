@@ -1,0 +1,1249 @@
+{
+  "sources": {
+    "NATAL_IBGE": {
+      "id": "NATAL_IBGE",
+      "title": "Cidades e Estados — Natal",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rn/natal.html",
+      "checkedAt": "2026-11-14"
+    },
+    "NATAL_PREF": {
+      "id": "NATAL_PREF",
+      "title": "A cidade",
+      "publisher": "Prefeitura Municipal do Natal",
+      "url": "https://natal.rn.gov.br/cidade-de-natal-rn",
+      "checkedAt": "2026-11-14"
+    },
+    "NATAL_IPHAN": {
+      "id": "NATAL_IPHAN",
+      "title": "Sítios históricos e conjuntos urbanos — Natal",
+      "publisher": "Iphan / Programa Monumenta",
+      "url": "https://portal.iphan.gov.br/uploads/publicacao/CadTec3_SitiosHistoricos_m.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "NATAL_RN": {
+      "id": "NATAL_RN",
+      "title": "Turismo — Parque das Dunas",
+      "publisher": "Governo do Estado do Rio Grande do Norte",
+      "url": "https://www.rn.gov.br/postagem/turismo/",
+      "checkedAt": "2026-11-14"
+    },
+    "NATAL_RISCO": {
+      "id": "NATAL_RISCO",
+      "title": "Plano Municipal de Redução de Riscos",
+      "publisher": "Prefeitura do Natal",
+      "url": "https://www.natal.rn.gov.br/storage/app/media/sempla/Vol_1_-_REL_AREAS_RISCO_-_Final.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-natal",
+      "placeId": "natal",
+      "title": "Natal",
+      "aliases": [
+        "Natal"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O2",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Natal",
+          "sources": [
+            "NATAL_IBGE",
+            "NATAL_PREF",
+            "NATAL_IPHAN",
+            "NATAL_RN",
+            "NATAL_RISCO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio ligado à origem urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Potengi"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Sanhauá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Capibaribe"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cocó"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Potengi",
+          "sources": [
+            "NATAL_IBGE",
+            "NATAL_PREF",
+            "NATAL_IPHAN",
+            "NATAL_RN",
+            "NATAL_RISCO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Forte histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Fortaleza dos Reis Magos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Forte de São Marcelo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Forte Orange"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Forte dos Remédios"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Fortaleza dos Reis Magos",
+          "sources": [
+            "NATAL_IBGE",
+            "NATAL_PREF",
+            "NATAL_IPHAN",
+            "NATAL_RN",
+            "NATAL_RISCO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Norte"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraíba"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ceará"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Norte",
+          "sources": [
+            "NATAL_IBGE",
+            "NATAL_PREF",
+            "NATAL_IPHAN",
+            "NATAL_RN",
+            "NATAL_RISCO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "natal-viajante-P01",
+              "factKey": "natal-F01",
+              "text": "O destino é uma cidade do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P02",
+              "factKey": "natal-F02",
+              "text": "A cidade é capital de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P03",
+              "factKey": "natal-F03",
+              "text": "Fica no Rio Grande do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P04",
+              "factKey": "natal-F04",
+              "text": "Sua população era de cerca de 751 mil pessoas no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P05",
+              "factKey": "natal-F05",
+              "text": "O rio Potengi está ligado à origem da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P06",
+              "factKey": "natal-F06",
+              "text": "O rio encontra o mar junto à cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P07",
+              "factKey": "natal-F07",
+              "text": "O município fica no litoral atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P08",
+              "factKey": "natal-F08",
+              "text": "A fundação da cidade remonta a 1599.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P09",
+              "factKey": "natal-F09",
+              "text": "Um forte histórico protegeu o início da ocupação colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P10",
+              "factKey": "natal-F10",
+              "text": "A construção do Forte dos Reis Magos começou em 1598.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P11",
+              "factKey": "natal-F11",
+              "text": "O Forte dos Reis Magos fica junto ao estuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P12",
+              "factKey": "natal-F12",
+              "text": "O forte é reconhecido como patrimônio histórico nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P13",
+              "factKey": "natal-F13",
+              "text": "A cidade tem uma praia chamada Ponta Negra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P14",
+              "factKey": "natal-F14",
+              "text": "O Morro do Careca faz parte da paisagem costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P15",
+              "factKey": "natal-F15",
+              "text": "O Parque das Dunas é uma área natural da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P16",
+              "factKey": "natal-F16",
+              "text": "O parque das dunas tem uma área chamada Bosque dos Namorados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P17",
+              "factKey": "natal-F17",
+              "text": "Trilhas no parque das dunas levam a mirantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P18",
+              "factKey": "natal-F18",
+              "text": "Um rio da cidade tem estuário com manguezais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P19",
+              "factKey": "natal-F19",
+              "text": "Peixes e crustáceos podem usar o manguezal como abrigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P20",
+              "factKey": "natal-F20",
+              "text": "Uma ponte sobre o Potengi se chama Newton Navarro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P21",
+              "factKey": "natal-F21",
+              "text": "O bairro da Ribeira cresceu associado ao porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P22",
+              "factKey": "natal-F22",
+              "text": "O centro antigo tem ruas e quarteirões irregulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P23",
+              "factKey": "natal-F23",
+              "text": "O núcleo original ocupou uma parte elevada do terreno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P24",
+              "factKey": "natal-F24",
+              "text": "Na cidade há um parque chamado Dom Nivaldo Monte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-viajante-P25",
+              "factKey": "natal-F25",
+              "text": "A foz do rio reúne paisagens de praia e manguezal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "natal-geografo-P01",
+              "factKey": "natal-F01",
+              "text": "A carta representa um município urbano situado no Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P02",
+              "factKey": "natal-F02",
+              "text": "O município desempenha a função administrativa de capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P03",
+              "factKey": "natal-F03",
+              "text": "A cidade sedia o governo do estado do Rio Grande do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P04",
+              "factKey": "natal-F04",
+              "text": "O IBGE registrou 751.300 habitantes no município no Censo Demográfico 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P05",
+              "factKey": "natal-F05",
+              "text": "A formação inicial da cidade ocorreu junto ao rio Potengi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P06",
+              "factKey": "natal-F06",
+              "text": "O estuário do Potengi conecta a drenagem fluvial às águas atlânticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P07",
+              "factKey": "natal-F07",
+              "text": "A área urbana situa-se na faixa costeira banhada pelo Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P08",
+              "factKey": "natal-F08",
+              "text": "A fundação urbana colonial ocorreu em 1599.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P09",
+              "factKey": "natal-F09",
+              "text": "A origem da cidade está ligada à construção de uma fortificação de defesa colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P10",
+              "factKey": "natal-F10",
+              "text": "A fortificação na desembocadura teve início em 1598, antes da fundação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P11",
+              "factKey": "natal-F11",
+              "text": "A fortaleza foi construída sobre arrecifes adjacentes ao estuário do Potengi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P12",
+              "factKey": "natal-F12",
+              "text": "O conjunto da fortaleza possui proteção patrimonial em nível federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P13",
+              "factKey": "natal-F13",
+              "text": "Ponta Negra compõe a orla de uma capital atlântica nordestina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P14",
+              "factKey": "natal-F14",
+              "text": "O Morro do Careca integra um sistema de dunas da paisagem costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P15",
+              "factKey": "natal-F15",
+              "text": "O Parque das Dunas protege ambiente dunar dentro da área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P16",
+              "factKey": "natal-F16",
+              "text": "O Bosque dos Namorados funciona como área de visitação em uma unidade de proteção dunar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P17",
+              "factKey": "natal-F17",
+              "text": "As trilhas da área protegida conectam visitação e observação da paisagem costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P18",
+              "factKey": "natal-F18",
+              "text": "Manguezais do estuário oferecem abrigo e área de reprodução a animais aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P19",
+              "factKey": "natal-F19",
+              "text": "A função ecológica do manguezal estuarino inclui abrigo e reprodução de peixes e crustáceos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P20",
+              "factKey": "natal-F20",
+              "text": "A ponte Newton Navarro estabelece conexão sobre o estuário do Potengi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P21",
+              "factKey": "natal-F21",
+              "text": "A expansão urbana alcançou a Ribeira no século XVIII, relacionada às atividades portuárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P22",
+              "factKey": "natal-F22",
+              "text": "A malha antiga apresenta traçado irregular associado à topografia e à evolução urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P23",
+              "factKey": "natal-F23",
+              "text": "A escolha de um ponto elevado para o núcleo inicial seguiu uma tradição urbanística ibérica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P24",
+              "factKey": "natal-F24",
+              "text": "O parque municipal Dom Nivaldo Monte integra espaços urbanos de educação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "natal-geografo-P25",
+              "factKey": "natal-F25",
+              "text": "A zona estuarina articula processos fluviais, costa marítima e ecossistemas de mangue.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NATAL_IBGE",
+                "NATAL_PREF",
+                "NATAL_IPHAN",
+                "NATAL_RN",
+                "NATAL_RISCO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital do Rio Grande do Norte, ligada ao estuário do Potengi e à Fortaleza dos Reis Magos.",
+        "editorialNotes": [
+          "O dado populacional refere-se ao município no Censo 2022 do IBGE. A carta não atribui à capital praias de municípios vizinhos.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

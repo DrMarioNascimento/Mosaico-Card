@@ -1,0 +1,1032 @@
+{
+  "sources": {
+    "NEBLINA_JBRJ": {
+      "id": "NEBLINA_JBRJ",
+      "title": "Parque Nacional do Pico da Neblina — Catálogo de Plantas",
+      "publisher": "Jardim Botânico do Rio de Janeiro",
+      "url": "https://catalogo-ucs-brasil.jbrj.gov.br/areas/PicodaNeblina",
+      "checkedAt": "2026-11-14"
+    },
+    "NEBLINA_FUNAI": {
+      "id": "NEBLINA_FUNAI",
+      "title": "Funai assina carta de anuência para Plano de Visitação Yaripo",
+      "publisher": "Fundação Nacional dos Povos Indígenas",
+      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2026/funai-assina-carta-de-anuencia-para-plano-de-visitacao-yaripo-e-fortalece-ecoturismo-yanomami-no-pico-da-neblina",
+      "checkedAt": "2026-11-14"
+    },
+    "NEBLINA_ICMBIO": {
+      "id": "NEBLINA_ICMBIO",
+      "title": "Parque Nacional do Pico da Neblina",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-pico-da-neblina/Parna%20do%20Pico%20da%20Neblina",
+      "checkedAt": "2026-11-14"
+    },
+    "NEBLINA_IBGE": {
+      "id": "NEBLINA_IBGE",
+      "title": "Geociências: IBGE revê as altitudes de sete pontos culminantes",
+      "publisher": "IBGE",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/15275-geociencias-ibge-reve-as-altitudes-de-sete-pontos-culminantes",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-pico-neblina",
+      "placeId": "norte-pico-neblina",
+      "title": "Parque Nacional do Pico da Neblina",
+      "aliases": [
+        "Pico da Neblina"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional do Pico da Neblina"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Monte Roraima"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra do Divisor"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional do Viruá"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Montanhas do Tumucumaque"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Mocidade"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Amazônia"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Anavilhanas"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Cabo Orange"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional do Caparaó"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional do Pico da Neblina",
+          "sources": [
+            "NEBLINA_JBRJ",
+            "NEBLINA_FUNAI"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Paisagem protegida",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Montanhas e planícies amazônicas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Chapadas e cânions do Brasil central"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Campos sulinos e planícies costeiras"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Serras litorâneas e restingas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Montanhas e planícies amazônicas",
+          "sources": [
+            "NEBLINA_JBRJ",
+            "NEBLINA_FUNAI"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Roraima"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pará"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Amazonas",
+          "sources": [
+            "NEBLINA_JBRJ",
+            "NEBLINA_FUNAI"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Povo indígena associado ao território",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Yanomami"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Guarani Mbya"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pataxó"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Potiguara"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Yanomami",
+          "sources": [
+            "NEBLINA_JBRJ",
+            "NEBLINA_FUNAI"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-pico-neblina-viajante-P01",
+              "factKey": "norte-pico-neblina-F01",
+              "text": "Este parque protege parte da Amazônia brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P02",
+              "factKey": "norte-pico-neblina-F02",
+              "text": "O lugar fica no norte do estado do Amazonas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P03",
+              "factKey": "norte-pico-neblina-F03",
+              "text": "A área protegida faz fronteira com a Venezuela.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P04",
+              "factKey": "norte-pico-neblina-F04",
+              "text": "O parque abrange terras de Santa Isabel do Rio Negro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P05",
+              "factKey": "norte-pico-neblina-F05",
+              "text": "São Gabriel da Cachoeira é outro município relacionado à área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P06",
+              "factKey": "norte-pico-neblina-F06",
+              "text": "A unidade nacional foi criada em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P07",
+              "factKey": "norte-pico-neblina-F07",
+              "text": "Há montanhas e planícies dentro da unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P08",
+              "factKey": "norte-pico-neblina-F08",
+              "text": "Algumas elevações da região têm paredões e topos destacados.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P09",
+              "factKey": "norte-pico-neblina-F09",
+              "text": "Duas das maiores altitudes do Brasil estão neste parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P10",
+              "factKey": "norte-pico-neblina-F10",
+              "text": "Uma das montanhas é o Pico 31 de Março.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ",
+                "NEBLINA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P11",
+              "factKey": "norte-pico-neblina-F11",
+              "text": "A montanha mais alta da área supera 2.900 metros.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P12",
+              "factKey": "norte-pico-neblina-F12",
+              "text": "Há florestas de terra firme nas áreas mais baixas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P13",
+              "factKey": "norte-pico-neblina-F13",
+              "text": "Campinaranas também aparecem na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P14",
+              "factKey": "norte-pico-neblina-F14",
+              "text": "Alguns trechos têm matas que podem ficar inundadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P15",
+              "factKey": "norte-pico-neblina-F15",
+              "text": "Em áreas altas existem matas envolvidas por nuvens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P16",
+              "factKey": "norte-pico-neblina-F16",
+              "text": "Plantas crescem também sobre áreas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P17",
+              "factKey": "norte-pico-neblina-F17",
+              "text": "A mudança de altitude ajuda a explicar a diversidade de ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P18",
+              "factKey": "norte-pico-neblina-F18",
+              "text": "A área se sobrepõe a uma terra indígena.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P19",
+              "factKey": "norte-pico-neblina-F19",
+              "text": "O povo Yanomami tem relação com o território.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P20",
+              "factKey": "norte-pico-neblina-F20",
+              "text": "Uma das montanhas tem significado sagrado para esse povo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P21",
+              "factKey": "norte-pico-neblina-F21",
+              "text": "Há uma iniciativa de visitação conduzida por organizações indígenas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P22",
+              "factKey": "norte-pico-neblina-F22",
+              "text": "O plano combina visitação e proteção do território.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P23",
+              "factKey": "norte-pico-neblina-F23",
+              "text": "Funai e ICMBio participam das decisões sobre visitação.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P24",
+              "factKey": "norte-pico-neblina-F24",
+              "text": "A região de Maturacá é ponto de partida de uma rota de montanhismo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-viajante-P25",
+              "factKey": "norte-pico-neblina-F25",
+              "text": "O macaco-aranha está entre as espécies protegidas citadas pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-pico-neblina-geografo-P01",
+              "factKey": "norte-pico-neblina-F01",
+              "text": "A unidade federal de proteção integral situa-se no domínio amazônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P02",
+              "factKey": "norte-pico-neblina-F02",
+              "text": "O parque localiza-se no norte do Amazonas, próximo à fronteira internacional.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P03",
+              "factKey": "norte-pico-neblina-F03",
+              "text": "A posição fronteiriça aproxima a gestão da unidade de questões territoriais internacionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P04",
+              "factKey": "norte-pico-neblina-F04",
+              "text": "Santa Isabel do Rio Negro é um dos municípios que abrangem a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P05",
+              "factKey": "norte-pico-neblina-F05",
+              "text": "A unidade se distribui também pelo município de São Gabriel da Cachoeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P06",
+              "factKey": "norte-pico-neblina-F06",
+              "text": "O parque foi instituído em junho de 1979 como área de proteção integral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P07",
+              "factKey": "norte-pico-neblina-F07",
+              "text": "O relevo combina planícies e serras, com grande variação de altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P08",
+              "factKey": "norte-pico-neblina-F08",
+              "text": "Tepuis, picos íngremes e morros isolados integram as feições de relevo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P09",
+              "factKey": "norte-pico-neblina-F09",
+              "text": "A unidade abriga os dois pontos culminantes do território brasileiro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P10",
+              "factKey": "norte-pico-neblina-F10",
+              "text": "O segundo ponto mais alto do país, o Pico 31 de Março, fica na unidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ",
+                "NEBLINA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P11",
+              "factKey": "norte-pico-neblina-F11",
+              "text": "A altitude do ponto culminante brasileiro foi revista pelo IBGE para 2.995,30 metros em 2016.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "NEBLINA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P12",
+              "factKey": "norte-pico-neblina-F12",
+              "text": "As florestas de terra firme participam do mosaico de formações de menor altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P13",
+              "factKey": "norte-pico-neblina-F13",
+              "text": "As campinaranas integram a variedade de ambientes vegetacionais da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P14",
+              "factKey": "norte-pico-neblina-F14",
+              "text": "Matas inundadas contrastam com ambientes montanos nas áreas mais elevadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P15",
+              "factKey": "norte-pico-neblina-F15",
+              "text": "Matas nebulares são uma das formações associadas aos ambientes montanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P16",
+              "factKey": "norte-pico-neblina-F16",
+              "text": "Afloramentos rochosos sustentam vegetação específica nas partes elevadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P17",
+              "factKey": "norte-pico-neblina-F17",
+              "text": "O gradiente altitudinal contribui para a diversidade de formações vegetais protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P18",
+              "factKey": "norte-pico-neblina-F18",
+              "text": "A sobreposição territorial entre unidade de conservação e terra indígena demanda gestão articulada.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P19",
+              "factKey": "norte-pico-neblina-F19",
+              "text": "Comunidades Yanomami participam de decisões sobre atividades em seu território.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P20",
+              "factKey": "norte-pico-neblina-F20",
+              "text": "A montanha é reconhecida como lugar sagrado na espiritualidade Yanomami.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P21",
+              "factKey": "norte-pico-neblina-F21",
+              "text": "O ecoturismo comunitário é proposto e conduzido por associações Yanomami.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P22",
+              "factKey": "norte-pico-neblina-F22",
+              "text": "O plano relaciona renda comunitária, proteção territorial e conservação ambiental.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P23",
+              "factKey": "norte-pico-neblina-F23",
+              "text": "A gestão da visitação envolve articulação entre organizações indígenas, Funai e ICMBio.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P24",
+              "factKey": "norte-pico-neblina-F24",
+              "text": "A rota comunitária parte da região de Maturacá e sobe pela floresta amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_FUNAI"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-pico-neblina-geografo-P25",
+              "factKey": "norte-pico-neblina-F25",
+              "text": "O ICMBio relaciona o coatá, ou macaco-aranha, às espécies protegidas da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "NEBLINA_ICMBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Unidade amazônica no norte do Amazonas, que abriga os dois pontos mais altos do Brasil e se sobrepõe à Terra Indígena Yanomami.",
+        "editorialNotes": [
+          "O nome Yanomami da montanha é Yaripo; fontes vinculadas.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

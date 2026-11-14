@@ -1,0 +1,1028 @@
+{
+  "sources": {
+    "SANTAREM_HIST": {
+      "id": "SANTAREM_HIST",
+      "title": "História de Santarém",
+      "publisher": "Secretaria Municipal de Turismo de Santarém",
+      "url": "https://turismo.santarem.pa.gov.br/historia-de-santarem",
+      "checkedAt": "2026-11-14"
+    },
+    "SANTAREM_PONTOS": {
+      "id": "SANTAREM_PONTOS",
+      "title": "Projeto Turismo na Escola em Santarém",
+      "publisher": "Prefeitura Municipal de Santarém",
+      "url": "https://santarem.pa.gov.br/noticias/gerais/dia-nacional-do-turismo-e-marcado-por-projeto-turismo-na-escola-em-santarem-382730961bd5-6007-47ae-9175-e55c90b053a2",
+      "checkedAt": "2026-11-14"
+    },
+    "SANTAREM_IBGE": {
+      "id": "SANTAREM_IBGE",
+      "title": "Santarém (PA) — Cidades e Estados",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pa/santarem.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SANTAREM_MTUR": {
+      "id": "SANTAREM_MTUR",
+      "title": "Alter do Chão – 260 anos",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/alter-do-chao---259-anos/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-santarem",
+      "placeId": "norte-santarem",
+      "title": "Santarém",
+      "aliases": [],
+      "answerType": "cidade brasileira",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Santarém"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Marabá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Itaituba"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Óbidos"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Altamira"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parintins"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Tefé"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Coari"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Manacapuru"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Oriximiná"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Porto Nacional"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Araguaína"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Santarém",
+          "sources": [
+            "SANTAREM_HIST",
+            "SANTAREM_PONTOS"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rios que se encontram em frente à cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Tapajós e Amazonas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Negro e Solimões"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Madeira e Guaporé"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tocantins e Araguaia"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Tapajós e Amazonas",
+          "sources": [
+            "SANTAREM_HIST",
+            "SANTAREM_PONTOS"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amapá"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Acre"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pará",
+          "sources": [
+            "SANTAREM_HIST",
+            "SANTAREM_PONTOS"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Distrito conhecido por praias fluviais",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Alter do Chão"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Barcelos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ponta Negra"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Salvaterra"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Alter do Chão",
+          "sources": [
+            "SANTAREM_HIST",
+            "SANTAREM_PONTOS"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-santarem-viajante-P01",
+              "factKey": "norte-santarem-F01",
+              "text": "Esta cidade brasileira está na região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P02",
+              "factKey": "norte-santarem-F02",
+              "text": "O destino fica no oeste de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P03",
+              "factKey": "norte-santarem-F03",
+              "text": "Seu estado é o Pará.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P04",
+              "factKey": "norte-santarem-F04",
+              "text": "A vida da cidade tem relação com grandes rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P05",
+              "factKey": "norte-santarem-F05",
+              "text": "Em frente à cidade há um encontro de águas com cores diferentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P06",
+              "factKey": "norte-santarem-F06",
+              "text": "Um dos rios que chegam ali se chama Tapajós.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P07",
+              "factKey": "norte-santarem-F07",
+              "text": "O outro rio do encontro é o Amazonas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P08",
+              "factKey": "norte-santarem-F08",
+              "text": "Uma praça elevada permite observar esse encontro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P09",
+              "factKey": "norte-santarem-F09",
+              "text": "Essa praça também é conhecida como Praça do Mirante.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P10",
+              "factKey": "norte-santarem-F10",
+              "text": "No local da praça existiu uma antiga fortaleza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P11",
+              "factKey": "norte-santarem-F11",
+              "text": "A fortaleza serviu de abrigo durante a Cabanagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P12",
+              "factKey": "norte-santarem-F12",
+              "text": "A localidade foi elevada à condição de vila em 1758.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P13",
+              "factKey": "norte-santarem-F13",
+              "text": "Em 1848, recebeu a categoria de cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P14",
+              "factKey": "norte-santarem-F14",
+              "text": "A história local inclui povos indígenas da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P15",
+              "factKey": "norte-santarem-F15",
+              "text": "O distrito de Alter do Chão pertence ao município.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P16",
+              "factKey": "norte-santarem-F16",
+              "text": "Esse distrito é conhecido por praias de água doce.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P17",
+              "factKey": "norte-santarem-F17",
+              "text": "A festa do Sairé acontece nesse distrito.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P18",
+              "factKey": "norte-santarem-F18",
+              "text": "O transporte por rios é importante para a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P19",
+              "factKey": "norte-santarem-F19",
+              "text": "Barcos ligam a cidade a outras cidades amazônicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P20",
+              "factKey": "norte-santarem-F20",
+              "text": "A BR-163 é uma das rodovias relacionadas ao acesso local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P21",
+              "factKey": "norte-santarem-F21",
+              "text": "A cidade tem um Centro Cultural chamado João Fona.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P22",
+              "factKey": "norte-santarem-F22",
+              "text": "A Feira do Peixe faz parte do cotidiano urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P23",
+              "factKey": "norte-santarem-F23",
+              "text": "O Bosque Vera Paz é um dos espaços públicos da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P24",
+              "factKey": "norte-santarem-F24",
+              "text": "A cidade tem um Terminal Fluvial Turístico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-viajante-P25",
+              "factKey": "norte-santarem-F25",
+              "text": "O Censo de 2022 registrou mais de 330 mil moradores no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-santarem-geografo-P01",
+              "factKey": "norte-santarem-F01",
+              "text": "O centro urbano integra a rede de cidades da região Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P02",
+              "factKey": "norte-santarem-F02",
+              "text": "A cidade desempenha funções comerciais e culturais no oeste de seu estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P03",
+              "factKey": "norte-santarem-F03",
+              "text": "O município situa-se na porção oeste do território paraense.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P04",
+              "factKey": "norte-santarem-F04",
+              "text": "A posição em uma rede hidrográfica favorece o transporte e a organização regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P05",
+              "factKey": "norte-santarem-F05",
+              "text": "A confluência fluvial produz uma faixa visível entre águas de tonalidades distintas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P06",
+              "factKey": "norte-santarem-F06",
+              "text": "O rio Tapajós encontra o eixo principal amazônico diante da cidade.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P07",
+              "factKey": "norte-santarem-F07",
+              "text": "A confluência reúne águas do Tapajós e do Amazonas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P08",
+              "factKey": "norte-santarem-F08",
+              "text": "A Praça Fortaleza do Tapajós funciona como mirante sobre a confluência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P09",
+              "factKey": "norte-santarem-F09",
+              "text": "A Praça do Mirante ocupa terreno elevado próximo ao antigo sítio de fortificação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P10",
+              "factKey": "norte-santarem-F10",
+              "text": "A antiga fortificação expressa a ocupação colonial e a importância estratégica dos rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P11",
+              "factKey": "norte-santarem-F11",
+              "text": "A fortificação teve papel na história regional da Cabanagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P12",
+              "factKey": "norte-santarem-F12",
+              "text": "A formação administrativa como vila ocorreu em 1758, no período colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P13",
+              "factKey": "norte-santarem-F13",
+              "text": "A elevação da vila à categoria de cidade ocorreu em outubro de 1848.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P14",
+              "factKey": "norte-santarem-F14",
+              "text": "A formação histórica do município inclui a presença de diferentes povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P15",
+              "factKey": "norte-santarem-F15",
+              "text": "Alter do Chão integra o município e possui trajetória ligada ao povo Borari.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P16",
+              "factKey": "norte-santarem-F16",
+              "text": "Praias fluviais ligadas ao Tapajós constituem um dos atrativos do distrito.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P17",
+              "factKey": "norte-santarem-F17",
+              "text": "O Sairé é uma manifestação cultural realizada em Alter do Chão.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SANTAREM_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P18",
+              "factKey": "norte-santarem-F18",
+              "text": "As hidrovias articulam deslocamento de passageiros e transporte de cargas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P19",
+              "factKey": "norte-santarem-F19",
+              "text": "Embarcações ligam o centro urbano a cidades como Belém e Manaus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P20",
+              "factKey": "norte-santarem-F20",
+              "text": "A BR-163 conecta a cidade ao eixo rodoviário em direção a Rurópolis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P21",
+              "factKey": "norte-santarem-F21",
+              "text": "O Centro Cultural João Fona integra o patrimônio cultural urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P22",
+              "factKey": "norte-santarem-F22",
+              "text": "A Feira do Peixe integra a rede de espaços comerciais e de abastecimento locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P23",
+              "factKey": "norte-santarem-F23",
+              "text": "O Bosque Vera Paz integra os espaços públicos de visitação da área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P24",
+              "factKey": "norte-santarem-F24",
+              "text": "O Terminal Fluvial Turístico revela a importância do acesso por rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_PONTOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-santarem-geografo-P25",
+              "factKey": "norte-santarem-F25",
+              "text": "Segundo o Censo 2022 do IBGE, o município tinha 331.942 habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SANTAREM_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade do oeste do Pará junto ao encontro dos rios Tapajós e Amazonas, cuja rede urbana e cultural inclui o distrito de Alter do Chão.",
+        "editorialNotes": [
+          "As águas de rios que se encontram mantêm cores distintas por um trecho; isso não significa ausência permanente de mistura.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

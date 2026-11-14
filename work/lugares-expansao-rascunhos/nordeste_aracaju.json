@@ -1,0 +1,1249 @@
+{
+  "sources": {
+    "ARACAJU_IBGE": {
+      "id": "ARACAJU_IBGE",
+      "title": "Cidades e Estados — Aracaju",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/se/aracaju.html",
+      "checkedAt": "2026-11-14"
+    },
+    "ARACAJU_PLANO": {
+      "id": "ARACAJU_PLANO",
+      "title": "Plano de Resiliência de Aracaju 2017–2024",
+      "publisher": "Prefeitura de Aracaju",
+      "url": "https://www.aracaju.se.gov.br/userfiles/pdf/2022/GuardaMunicipal/Plano_de_Resili%C3%AAncia_novo_web.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "ARACAJU_MOB": {
+      "id": "ARACAJU_MOB",
+      "title": "Planejamento da mobilidade urbana",
+      "publisher": "Prefeitura de Aracaju",
+      "url": "https://smtt.aracaju.se.gov.br/prefeitura-projeta-aracaju-para-o-futuro-com-planejamento-da-mobilidade-urbana/",
+      "checkedAt": "2026-11-14"
+    },
+    "ARACAJU_CIDADE": {
+      "id": "ARACAJU_CIDADE",
+      "title": "Conheça Aracaju",
+      "publisher": "Prefeitura de Aracaju",
+      "url": "https://www.aracaju.se.gov.br/aracaju/?act=fixo&materia=turismo",
+      "checkedAt": "2026-11-14"
+    },
+    "ARACAJU_MERCADO": {
+      "id": "ARACAJU_MERCADO",
+      "title": "Mercados centrais e desenvolvimento da capital",
+      "publisher": "Prefeitura de Aracaju",
+      "url": "https://www.aracaju.se.gov.br/noticias/45274/mercados-centrais-marcaram-desenvolvimento-da-capital",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-aracaju",
+      "placeId": "aracaju",
+      "title": "Aracaju",
+      "aliases": [
+        "Aracaju"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O4",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O8",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Teresina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Aracaju",
+          "sources": [
+            "ARACAJU_IBGE",
+            "ARACAJU_PLANO",
+            "ARACAJU_MOB",
+            "ARACAJU_CIDADE",
+            "ARACAJU_MERCADO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio associado ao centro urbano",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sergipe"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Potengi"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Capibaribe"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cocó"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Sergipe",
+          "sources": [
+            "ARACAJU_IBGE",
+            "ARACAJU_PLANO",
+            "ARACAJU_MOB",
+            "ARACAJU_CIDADE",
+            "ARACAJU_MERCADO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Traçado histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Quadrado de Pirro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Plano Piloto"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Cidade-Jardim"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Avenida do Contorno"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Quadrado de Pirro",
+          "sources": [
+            "ARACAJU_IBGE",
+            "ARACAJU_PLANO",
+            "ARACAJU_MOB",
+            "ARACAJU_CIDADE",
+            "ARACAJU_MERCADO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Sergipe"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraíba"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Rio Grande do Norte"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Sergipe",
+          "sources": [
+            "ARACAJU_IBGE",
+            "ARACAJU_PLANO",
+            "ARACAJU_MOB",
+            "ARACAJU_CIDADE",
+            "ARACAJU_MERCADO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "aracaju-viajante-P01",
+              "factKey": "aracaju-F01",
+              "text": "O destino é uma cidade nordestina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P02",
+              "factKey": "aracaju-F02",
+              "text": "A cidade é uma capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P03",
+              "factKey": "aracaju-F03",
+              "text": "Fica no estado de Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P04",
+              "factKey": "aracaju-F04",
+              "text": "O Censo de 2022 registrou cerca de 603 mil habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P05",
+              "factKey": "aracaju-F05",
+              "text": "A criação da capital ocorreu em 1855.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P06",
+              "factKey": "aracaju-F06",
+              "text": "A sede do governo estadual veio de São Cristóvão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P07",
+              "factKey": "aracaju-F07",
+              "text": "Seu centro histórico foi planejado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P08",
+              "factKey": "aracaju-F08",
+              "text": "O desenho de parte do centro lembra um tabuleiro de xadrez.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P09",
+              "factKey": "aracaju-F09",
+              "text": "O plano original é conhecido como Quadrado de Pirro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P10",
+              "factKey": "aracaju-F10",
+              "text": "O engenheiro Sebastião Pirro está ligado a esse plano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P11",
+              "factKey": "aracaju-F11",
+              "text": "O rio Sergipe faz parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P12",
+              "factKey": "aracaju-F12",
+              "text": "A proximidade do rio influenciou a escolha do local da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P13",
+              "factKey": "aracaju-F13",
+              "text": "O rio foi uma via de transporte entre a capital e o interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P14",
+              "factKey": "aracaju-F14",
+              "text": "Outra bacia do município é a do rio Vaza-Barris.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P15",
+              "factKey": "aracaju-F15",
+              "text": "O rio Poxim faz parte da bacia do rio Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P16",
+              "factKey": "aracaju-F16",
+              "text": "O Poxim tem importância no abastecimento da região metropolitana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P17",
+              "factKey": "aracaju-F17",
+              "text": "O rio do Sal aparece na zona norte do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P18",
+              "factKey": "aracaju-F18",
+              "text": "O rio do Sal também marca divisa com município vizinho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P19",
+              "factKey": "aracaju-F19",
+              "text": "A Orla de Atalaia é uma área conhecida da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P20",
+              "factKey": "aracaju-F20",
+              "text": "Há ciclovia e espaços esportivos na Orla de Atalaia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P21",
+              "factKey": "aracaju-F21",
+              "text": "Os mercados centrais oferecem artesanato e alimentos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P22",
+              "factKey": "aracaju-F22",
+              "text": "Um dos mercados é o Thales Ferraz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P23",
+              "factKey": "aracaju-F23",
+              "text": "Outro mercado é o Antônio Franco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P24",
+              "factKey": "aracaju-F24",
+              "text": "O Museu da Gente Sergipana apresenta aspectos da cultura estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-viajante-P25",
+              "factKey": "aracaju-F25",
+              "text": "O tecido urbano é mais alongado no sentido norte-sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "aracaju-geografo-P01",
+              "factKey": "aracaju-F01",
+              "text": "A carta representa um município urbano da região Nordeste brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P02",
+              "factKey": "aracaju-F02",
+              "text": "O município desempenha a função administrativa de capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P03",
+              "factKey": "aracaju-F03",
+              "text": "A cidade sedia o governo do estado de Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P04",
+              "factKey": "aracaju-F04",
+              "text": "Segundo o IBGE, o município tinha 602.757 habitantes no Censo Demográfico 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P05",
+              "factKey": "aracaju-F05",
+              "text": "A transferência e criação da capital planejada ocorreram em 1855.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P06",
+              "factKey": "aracaju-F06",
+              "text": "A mudança da capital em 1855 deslocou o centro administrativo de São Cristóvão para o litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P07",
+              "factKey": "aracaju-F07",
+              "text": "A cidade teve sua área central organizada a partir de projeto urbanístico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P08",
+              "factKey": "aracaju-F08",
+              "text": "O traçado do núcleo planejado é ortogonal, com ruas organizadas em retícula.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P09",
+              "factKey": "aracaju-F09",
+              "text": "O núcleo projetado ficou conhecido como Quadrado de Pirro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P10",
+              "factKey": "aracaju-F10",
+              "text": "Sebastião José Basílio Pirro elaborou o traçado associado à capital planejada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P11",
+              "factKey": "aracaju-F11",
+              "text": "O rio Sergipe integra a hidrografia e a paisagem da porção norte municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P12",
+              "factKey": "aracaju-F12",
+              "text": "A posição junto ao rio favorecia as conexões e o escoamento regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P13",
+              "factKey": "aracaju-F13",
+              "text": "Historicamente, o rio Sergipe articulou transporte e comunicação com o interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P14",
+              "factKey": "aracaju-F14",
+              "text": "A porção sul municipal integra a bacia hidrográfica do rio Vaza-Barris.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P15",
+              "factKey": "aracaju-F15",
+              "text": "O Poxim é um afluente associado à bacia do Sergipe na área municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P16",
+              "factKey": "aracaju-F16",
+              "text": "A água do Poxim está associada ao abastecimento da região metropolitana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P17",
+              "factKey": "aracaju-F17",
+              "text": "O rio do Sal compõe parte da rede hidrográfica da zona norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P18",
+              "factKey": "aracaju-F18",
+              "text": "O rio do Sal estabelece parte da divisa com Nossa Senhora do Socorro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P19",
+              "factKey": "aracaju-F19",
+              "text": "A Orla de Atalaia articula a paisagem costeira a espaços urbanos de lazer.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P20",
+              "factKey": "aracaju-F20",
+              "text": "A orla reúne infraestrutura de circulação e lazer, incluindo ciclovia e quadras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P21",
+              "factKey": "aracaju-F21",
+              "text": "Os mercados centrais combinam comércio de alimentos e produção artesanal local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P22",
+              "factKey": "aracaju-F22",
+              "text": "O Mercado Thales Ferraz integra a rede histórica de comércio do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P23",
+              "factKey": "aracaju-F23",
+              "text": "O Mercado Antônio Franco integra a rede de mercados centrais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P24",
+              "factKey": "aracaju-F24",
+              "text": "O Museu da Gente Sergipana é um equipamento cultural dedicado à diversidade estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "aracaju-geografo-P25",
+              "factKey": "aracaju-F25",
+              "text": "A forma alongada norte-sul ajuda a explicar a orientação de importantes corredores de transporte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ARACAJU_IBGE",
+                "ARACAJU_PLANO",
+                "ARACAJU_MOB",
+                "ARACAJU_CIDADE",
+                "ARACAJU_MERCADO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital planejada de Sergipe, fundada em 1855 próxima ao rio Sergipe.",
+        "editorialNotes": [
+          "Dados populacionais referem-se ao Censo 2022 municipal.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}
