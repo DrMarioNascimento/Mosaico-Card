@@ -41,6 +41,20 @@
       "publisher": "Prefeitura de Vitória",
       "url": "https://www.vitoria.es.gov.br/sedec/pdu-principais-novidades",
       "checkedAt": "2026-11-14"
+    },
+    "SE_VV_SANEAMENTO": {
+      "id": "SE_VV_SANEAMENTO",
+      "title": "Plano Municipal de Saneamento Básico de Vila Velha",
+      "publisher": "Agência de Regulação de Serviços Públicos do Espírito Santo",
+      "url": "https://arsp.es.gov.br/Media/arsi/Saneamento/Municipios%20Regulados/Vila%20Velha/3PMSB_VilaVelha.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VV_EDUCACAO": {
+      "id": "SE_VV_EDUCACAO",
+      "title": "Espaços Potencialmente Educativos do Espírito Santo",
+      "publisher": "Secretaria de Educação do Espírito Santo",
+      "url": "https://curriculo.sedu.es.gov.br/curriculo/espacoseducativos/",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -653,12 +667,12 @@
             {
               "id": "cidade-vila-velha-geografo-P03",
               "factKey": "cidade-vila-velha-F03",
-              "text": "A paisagem local combina praias, morros e área urbana.",
+              "text": "Uma área protegida no litoral reúne restinga, costão rochoso e manguezal.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_SANEAMENTO"
               ],
               "clueType": "territorio",
               "signalStrength": "abertura",
@@ -685,12 +699,12 @@
             {
               "id": "cidade-vila-velha-geografo-P05",
               "factKey": "cidade-vila-velha-F05",
-              "text": "Sua malha urbana se articula à da capital metropolitana vizinha.",
+              "text": "Na região da foz do rio Jucu, a paisagem combina ambientes costeiros e vegetação ribeirinha.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_SANEAMENTO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -749,12 +763,12 @@
             {
               "id": "cidade-vila-velha-geografo-P09",
               "factKey": "cidade-vila-velha-F09",
-              "text": "A altitude do conjunto permite observar a baía e cidades próximas.",
+              "text": "O manguezal na foz de um rio integra o mosaico ambiental de uma área natural protegida.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_VV_IPHAN"
+                "SE_VV_SANEAMENTO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -909,12 +923,12 @@
             {
               "id": "cidade-vila-velha-geografo-P19",
               "factKey": "cidade-vila-velha-F19",
-              "text": "As praias de Itapoã e Itaparica são outros segmentos do litoral local.",
+              "text": "Uma reserva ecológica próxima à foz do rio Jucu preserva restinga e manguezal.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_SANEAMENTO"
               ],
               "clueType": "territorio",
               "signalStrength": "decisiva",
@@ -941,12 +955,12 @@
             {
               "id": "cidade-vila-velha-geografo-P21",
               "factKey": "cidade-vila-velha-F21",
-              "text": "A posição do morro permite relacionar o litoral à ocupação urbana vizinha.",
+              "text": "Na Barra do Jucu, práticas culturais como o congo convivem com ambientes de restinga e manguezal.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "SE_VV_TUR"
+                "SE_VV_EDUCACAO"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1026,13 +1040,14 @@
         "editorialNotes": [
           "Capital vizinha e município da carta são pautas diferentes, com relação temática.",
           "Fonte institucional consultada; calibrar dificuldade em partidas.",
-          "C4 usa alternativas de morros da Grande Vitória. Revisar fontes e gabaritos dos demais campos e a dificuldade em partidas."
+          "C4 usa alternativas de morros da Grande Vitória. Revisar fontes e gabaritos dos demais campos e a dificuldade em partidas.",
+          "Geógrafo recebeu relações entre foz fluvial, restinga, manguezal e cultura local, com fontes estaduais."
         ]
       },
       "review": {
         "structural": "passed",
         "sourceLinked": true,
-        "factual": "pending-full-review",
+        "factual": "pending-final-review",
         "playtest": "pending",
         "publication": "draft",
         "editorial": "pending-comparative-review"
