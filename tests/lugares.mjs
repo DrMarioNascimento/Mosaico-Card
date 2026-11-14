@@ -1,0 +1,45 @@
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {createRequire} from 'node:module';
+import vm from 'node:vm';
+import {JSDOM} from 'jsdom';
+const require=createRequire(import.meta.url),R=require('../game-core.js');
+const banco=JSON.parse(readFileSync(new URL('../lugares/data/lugares-bank.json',import.meta.url)));
+const ctx={localStorage:{getItem:()=>{throw Error('blocked');},setItem:()=>{throw Error('blocked');}}};
+for(const f of ['sessao.js','cases-lugares.js','bank-runtime.js'])vm.runInNewContext(readFileSync(new URL('../lugares/'+f,import.meta.url),'utf8'),ctx);
+const B=ctx.MC_LUGARES_BANK,S=ctx.MC_SESSAO;
+assert.equal(banco.cases.length,8);assert.equal(B.order.length,16);assert.equal(B.summary.clues,400);
+const norm=t=>t.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase();
+for(const c of banco.cases){
+ const v=B.byId[c.id+'-viajante'],g=B.byId[c.id+'-geografo'];assert.deepEqual(v.fields,g.fields);assert.equal(v.sessionTitle,'Destino em descoberta');
+ for(const profile of ['viajante','geografo']){
+  const converted=B.byId[c.id+'-'+profile];assert.equal(converted.deck.cards.length,25);
+  const ids=new Set(),texts=new Set();
+  for(const clue of converted.deck.cards){
+   assert.ok(!ids.has(clue.id));ids.add(clue.id);assert.ok(!texts.has(clue.text));texts.add(clue.text);
+   assert.ok(clue.sources.length&&clue.sources.every(s=>banco.sources[s]?.url.startsWith('https://')));
+   assert.ok(clue.relatedFields.length&&clue.relatedFields.every(id=>c.fields.some(f=>f.id===id)));
+   for(const focal of [c.title,...c.aliases])assert.ok(!(' '+norm(clue.text)+' ').includes(' '+norm(focal)+' '),clue.id+' revela a resposta focal');
+  }
+  for(const f of converted.fields){assert.equal(f.opcoes.length,4);assert.ok(f.opcoes.some(o=>o.id===f.respostaId&&o.texto===f.respostaCanonica));}
+  for(let n=2;n<=12;n++)assert.ok(R.casoCompativelComMesa(converted,n));
+  for(const n of [0,1,13,2.5])assert.ok(!R.casoCompativelComMesa(converted,n));
+ }
+}
+for(const perfil of ['viajante','geografo']){
+ const select=t=>B.elegiveis(12,{perfil,territorios:t});
+ assert.equal(select(['todos']).length,8);assert.equal(select(['brasil']).length,2);assert.equal(select(['america']).length,3);
+ assert.deepEqual(select(['brasil','america']),select(['america']));assert.equal(select(['brasil','europa']).length,3);
+ assert.equal(select(['norte']).length,0);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,2);
+ const sequence=Array.from({length:8},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,8,'Saco sem repetição, mesmo sem localStorage');
+ assert.ok(B.sortear(12,{perfil,territorios:[]}).erro);assert.ok(B.sortear(13,{perfil,territorios:['todos']}).erro);
+}
+const prev=B.sortear(4,{perfil:'viajante'}).caso.placeId;
+assert.notEqual(B.sortear(4,{perfil:'geografo'}).caso.placeId,prev,'Troca de perfil conserva memória do lugar');
+const html=readFileSync(new URL('../lugares/index.html',import.meta.url),'utf8');
+const dom=new JSDOM(html,{url:'https://example.test/lugares/'}),doc=dom.window.document;
+for(const el of doc.querySelectorAll('script[src],link[href]')){const target=el.getAttribute('src')||el.getAttribute('href');if(/^https:/.test(target))continue;assert.ok(existsSync(new URL('../lugares/'+target.split('?')[0],import.meta.url)),target);}
+assert.equal(doc.querySelectorAll('#sessao-lugares [data-territorio]').length,13);
+assert.ok(!/a partir de 2001|Cinema &|pipoca|ingressos/.test(doc.body.textContent));
+assert.match(readFileSync(new URL('../index.html',import.meta.url),'utf8'),/href="lugares\/"/);
+dom.window.close();console.log('ok Lugares: 400 pistas, gabaritos, fontes, capacidade 2–12, filtros, perfis, sorteio sem persistência e recursos locais');

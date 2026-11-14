@@ -58,7 +58,7 @@ try {
  await assertFails(player.doc('config/mestres').get());
  await assertFails(player.doc('config/mestres').set({emails:['pessoa@example.test']}));
  console.log('ok regras reais: papéis, presença, pedidos privados, limites, campos imutáveis e isolamento');
- // Scripts reais das duas edições, quatro clientes independentes, SDK Firestore real contra o emulador.
+ // Scripts reais das três edições, quatro clientes independentes, SDK Firestore real contra o emulador.
  // O SDK roda no realm Node; converte somente objetos literais vindos do JSDOM.
  const normal=x=>Array.isArray(x)?Array.from(x,normal):x&&x.constructor?.name==='Object'?Object.fromEntries(Object.entries(x).map(([k,v])=>[k,normal(v)])):x;
  const bridge=(db,uid)=>{
@@ -68,7 +68,7 @@ try {
  };
  const contexts=new Map();
  const server={get agora(){return Date.now();},serverTimestamp:()=>firebase.firestore.FieldValue.serverTimestamp(),db(uid){if(!contexts.has(uid))contexts.set(uid,bridge(env.authenticatedContext(uid,uid==='mestre'?{email:'mestre@example.test',email_verified:true}:{}).firestore(),uid));return contexts.get(uid);}};
- for(const edicao of ['cinema','nt']){
+ for(const edicao of ['cinema','nt','lugares']){
   let m=await abrir(server,edicao,'mestre',{google:true});apps.push(m);
   await ate(()=>m.w.MC_FB.ready);await new Promise(r=>setTimeout(r,100));
   click(m,'#btn-abrir-mesa');await ate(()=>!m.w.document.querySelector('#modal-mestre').hidden);
@@ -90,12 +90,19 @@ try {
    assert.ok(m.w.MC_SALA.ultimoDoc.presencas.jogador3.ate>Date.now());
   }
   for(let rodada=0;rodada<2;rodada++)for(const app of participantes){
-   await ate(()=>app.w.MC_MESA.suaVez());const rev=app.w.MC_GAME_ENGINE.state.revisao;await jogar(app);
-   await ate(()=>m.w.MC_GAME_ENGINE.state.revisao>rev);
+   await ate(()=>app.w.MC_MESA.suaVez() && app.w.MC_GAME_ENGINE.state.revisao===m.w.MC_GAME_ENGINE.state.revisao);const rev=app.w.MC_GAME_ENGINE.state.revisao;await jogar(app);
+   try { await ate(()=>m.w.MC_GAME_ENGINE.state.revisao>rev); }
+   catch (e) { console.error('Demonstração sem avanço', {edicao,rodada,jogador:app.w.MC_SALA.playerId,rev,fase:app.w.MC_GAME_ENGINE.state.fase});throw e; }
+   const confirmada=m.w.MC_GAME_ENGINE.state.revisao;
+   await ate(()=>participantes.every(p=>p.w.MC_GAME_ENGINE.state.revisao>=confirmada));
   }
-  await ate(()=>participantes.every(a=>a.w.document.querySelector('.scene.active').id==='treino-fim'));
+  // O treino livre atual termina em fechamento e placar, antes de retornar ao lobby.
+  await ate(()=>participantes.every(a=>a.w.document.querySelector('.scene.active').id==='fechamento'));
   assert.equal(Object.keys(m.w.MC_GAME_ENGINE.state.pagas).length,1);
-  click(m,'#treino-voltar');await ate(()=>players.every(p=>p.w.MC_SALA.fase==='lobby'));
+  for(const app of participantes){click(app,'#fechamento-concluir');await ate(()=>app.w.MC_GAME_ENGINE.state.finaisProntos?.[app.w.MC_SALA.playerId]||app.w.MC_GAME_ENGINE.state.fase==='judge');}
+  await ate(()=>participantes.every(a=>a.w.document.querySelector('.scene.active').id==='judge'));
+  assert.equal(m.w.MC_GAME_ENGINE.state.ranking.length,4);
+  click(m,'#voltar-demonstracao');await ate(()=>players.every(p=>p.w.MC_SALA.fase==='lobby'));
   click(m,'#btn-iniciar-partida');await ate(()=>players.every(p=>p.w.MC_GAME_ENGINE.state.treino===false&&p.w.MC_GAME_ENGINE.state.fase==='deal'));
   assert.equal(players[0].w.MC_GAME_ENGINE.state.saldosPorJogador.jogador1,12);
   const partida=m.w.MC_GAME_ENGINE.state.partidaId,save=players[0].save(),mao=JSON.stringify(players[0].w.MC_GAME_ENGINE.state.maosPorJogador.jogador1);
@@ -106,7 +113,7 @@ try {
   const token=m.w.document.querySelector('#recuperacao-codigo').textContent.split('uma vez: ')[1];
   const recuperado=await abrir(server,edicao,'recuperado');apps.push(recuperado);await ate(()=>recuperado.w.MC_FB.ready);click(recuperado,'#btn-recuperar');fill(recuperado,'#recuperar-token',token);click(recuperado,'#recuperar-enviar');await ate(()=>(recuperado.w.MC_SALA.playerId==='jogador1' && recuperado.w.MC_GAME_ENGINE.state.partidaId===partida)||recuperado.w.document.querySelector('#recuperar-erro').textContent);assert.equal(recuperado.w.document.querySelector('#recuperar-erro').textContent,'');
   assert.equal(JSON.stringify(recuperado.w.MC_GAME_ENGINE.state.maosPorJogador.jogador1),mao);
-  const col=edicao==='cinema'?'salas-cinema':'salas';
+  const col=edicao==='nt'?'salas':'salas-cinema';
   await assertFails(server.db('jogador1').doc(col+'/'+codigo).update({'presencas.jogador1':{aba:'antiga',visto:Date.now(),ate:Date.now()+30000}}));
   const mSave=m.save();m.close();m=await abrir(server,edicao,'mestre',mSave);apps.push(m);await ate(()=>m.w.MC_GAME_ENGINE.state.partidaId===partida);assert.equal(m.w.MC_SALA.souMestre(),true);
   click(m,'#btn-pausar');await ate(()=>!recuperado.w.MC_GAME_ENGINE.state.pausado);

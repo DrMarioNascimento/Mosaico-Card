@@ -10,9 +10,9 @@ const clone=x=>JSON.parse(JSON.stringify(x));
 const flush=async()=>{ for(let n=0;n<12;n++)await new Promise(r=>setImmediate(r)); };
 const ate=async teste=>{for(let n=0;n<200&&!teste();n++)await new Promise(r=>setTimeout(r,5));assert.ok(teste(),'Operação assíncrona não concluiu');};
 async function abrir(server,edicao,id,{storage={},sessao={},google=false}={}){
- const cinema=edicao==='cinema', html=readFileSync(resolve(raiz,cinema?'filmes-e-series/index.html':'novo-testamento/index.html'),'utf8');
+ const pasta=edicao==='lugares'?'lugares':edicao==='cinema'?'filmes-e-series':'novo-testamento', html=readFileSync(resolve(raiz,pasta+'/index.html'),'utf8');
  const erros=[],vc=new VirtualConsole();vc.on('jsdomError',e=>{if(!/Not implemented: (Window|HTML)/.test(e.message))erros.push(e);});
- const dom=new JSDOM(html,{url:'https://teste.example/'+(cinema?'filmes-e-series/':'novo-testamento/'),runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:vc});
+ const dom=new JSDOM(html,{url:'https://teste.example/'+(pasta+'/'),runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:vc});
  const w=dom.window;Object.defineProperty(w.crypto,'subtle',{value:webcrypto.subtle});w.scrollTo=()=>{};w.matchMedia=()=>({matches:true});w.confirm=()=>true;w.Date.now=()=>server.agora;
  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};w.HTMLDialogElement.prototype.close=function(){this.open=false;this.dispatchEvent(new w.Event('close'));};
  Object.entries(storage).forEach(([k,v])=>w.localStorage.setItem(k,v));Object.entries(sessao).forEach(([k,v])=>w.sessionStorage.setItem(k,v));

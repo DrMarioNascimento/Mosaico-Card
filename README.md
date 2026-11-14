@@ -1,5 +1,13 @@
 # Mosaico Card — Mercado de Pistas
 
+## Lugares — 14 de novembro de 2026
+
+Nova versão em [Lugares](lugares/), também disponível na página de escolha. O mestre combina Brasil, regiões brasileiras e continentes e escolhe **Viajante** ou **Geógrafo** para a sala. Os dois perfis usam os mesmos oito lugares e gabaritos, com 25 pistas por lugar em cada perfil: **400 pistas** no primeiro lote. Rios, clima, relevo e paisagens conhecidos também fazem parte do Viajante.
+
+A seleção informa a quantidade disponível, avisa quando há pouca variedade e bloqueia recortes vazios. O banco mantém a identidade do perfil ao reconectar e evita repetir o lugar ao alternar os perfis. Demonstração da bússola, créditos, Sessão Clássica e Maratonar preservam os custos e a pontuação da mesa. O acesso continua por mestres autorizados e participantes convidados.
+
+Consulte [o banco e a manutenção de Lugares](lugares/README.md). A seleção de 120 candidatos é um plano de expansão: 112 lugares ainda não têm pistas elaboradas. A dificuldade precisa de calibração com jogadores.
+
 ## Atualização da mesa — 3 de novembro de 2026
 
 Demonstração de duas rodadas iniciada pelo mestre, Sessão Clássica e Maratonar (dois jogadores ao mesmo tempo, cada um por si), ajuda permanente e recuperação após recarregar. Configurações de conteúdo ficam com o mestre. Consulte [o funcionamento e a validação](docs/mesa-v3.md) e [a revisão visual](design-qa.md). As novidades valem para salas novas; o acesso continua restrito aos testes conduzidos por mestres autorizados.
@@ -47,14 +55,15 @@ Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-inte
 ## Dragon Games
 
 O Mosaico Card faz parte do [catálogo Dragon Games](https://dragongames.dev.br/).
-O projeto reúne duas versões independentes: **Novo Testamento (NAA)** e **Filmes e Séries**. A raiz do domínio apresenta a escolha da versão.
+O projeto reúne três versões: **Novo Testamento (NAA)**, **Filmes e Séries** e **Lugares**. A raiz do domínio apresenta a escolha da versão.
 
 | Versão | Página |
 |---|---|
 | Novo Testamento | https://mosaico-card.dragongames.dev.br/novo-testamento/ |
 | Filmes e Séries | https://mosaico-card.dragongames.dev.br/filmes-e-series/ |
+| Lugares | https://mosaico-card.dragongames.dev.br/lugares/ |
 
-A documentação e os números do banco NT abaixo se referem somente à versão Novo Testamento. A outra versão tem [README próprio](filmes-e-series/README.md).
+A documentação e os números do banco NT abaixo se referem somente à versão Novo Testamento. As outras versões têm documentação própria: [Filmes e Séries](filmes-e-series/README.md) e [Lugares](lugares/README.md).
 Seu código, banco e publicação continuam neste repositório, com autoria conjunta
 e condições de uso descritas em [LICENSE.md](LICENSE.md).
 

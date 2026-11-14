@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Mosaico Card — Lugares. Brasil e todos os continentes · Viajante e Geógrafo em um jogo de cartas e dedução.">
+  <title>Mosaico Card — Lugares</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../filmes-e-series/styles.css?v=dock5">
+  <link rel="stylesheet" href="../filmes-e-series/mc-mark.css?v=peixe1">
+  
+  
+  <link rel="stylesheet" href="../filmes-e-series/coin.css?v=entrega3">
+  <link rel="stylesheet" href="../filmes-e-series/cards.css?v=mesa3d3">
+  <link rel="stylesheet" href="../filmes-e-series/sala.css?v=ident1">
+  <link rel="stylesheet" href="../filmes-e-series/abertura.css?v=5">
+  <link rel="stylesheet" href="../filmes-e-series/cinema.css?v=3">
+  <link rel="stylesheet" href="../mesa.css?v=area-jogador1">
+  <link rel="stylesheet" href="lugares.css?v=lug1">
+</head>
+<body>
+  <section class="scene active" id="welcome" aria-labelledby="welcome-title">
+    <div class="welcome-content">
+      <header class="welcome-brand">
+        <p>MOSAICO CARD</p>
+        <span>A verdade é um fragmento.</span>
+      </header>
+      <h1 id="welcome-title">Você conhece esses lugares?<br><span>Conecte as pistas e<br class="welcome-break"> descubra o destino.</span></h1>
+      <div class="welcome-art lugares-art" aria-hidden="true"><span class="lugares-globo">◎</span><span>BRASIL · MUNDO</span></div><p class="welcome-profiles">Viajante · Geógrafo</p>
+      <button type="button" id="welcome-start">Explorar lugares <span aria-hidden="true">→</span></button>
+    </div>
+  </section>
+  <section class="scene" id="open">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker">Lugares · Viajante e Geógrafo</p>
+      <h1>O MERCADO DE PISTAS</h1>
+      <p class="lede">Pistas, decisões e perspectivas. Um lugar é sorteado ao iniciar a partida.</p>
+      <div class="portas">
+        <button type="button" id="btn-abrir-mesa">Criar uma sala</button>
+        <button type="button" id="btn-recuperar" class="ghost">Recuperar meu lugar</button>
+        <button type="button" id="btn-ir-entrar" class="ghost">Entrar em uma mesa</button>
+        <button type="button" id="go-how" class="ghost">Como jogar</button>
+        <button type="button" id="go-rule" class="ghost">Experimentar demonstração</button>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="how-to-play" aria-labelledby="how-title">
+    <div class="wrap how-wrap">
+      <p class="kicker">Mosaico Card · Como jogar</p>
+      <h1 id="how-title" tabindex="-1">Cada pista aproxima você da resposta.</h1>
+      <p class="lede">Seu objetivo é conseguir pistas, conectar os detalhes e descobrir qual é o lugar — e responder às perguntas sobre ele. Vence quem somar mais pontos.</p>
+      <ol class="how-steps">
+        <li><strong>Conheça o desafio</strong><p>Um lugar é sorteado para a mesa. Leia as perguntas e examine suas pistas: cada detalhe pode ajudar a encontrar uma resposta.</p></li>
+        <li><strong>Busque novas pistas</strong><p>Você começa com 12 créditos. Na sua vez, pode comprar uma pista do monte por 4 créditos ou capturar uma pista permitida de outro jogador por 2. Também pode oferecer uma pista: quem levá-la depois paga 2 créditos a você.</p></li>
+        <li><strong>Conecte os detalhes e arrisque</strong><p>Quando acreditar que já sabe, use <b>Arriscar</b> e escolha uma resposta. Cada ação encerra sua vez, então decida entre buscar mais pistas e responder.</p></li>
+      </ol>
+      <section class="how-bonus" aria-labelledby="how-bonus-title">
+        <h2 id="how-bonus-title">Acertar mais cedo vale mais.</h2>
+        <p>Quanto antes você acertar, mais pontos pode conquistar. Use as pistas para decidir quando já vale a pena responder.</p>
+      </section>
+      <section class="how-time" aria-labelledby="how-time-title">
+        <h2 id="how-time-title">O tempo também faz parte do desafio.</h2>
+        <p><b>Tempo da mão (sua vez):</b> o Mestre escolhe 30, 45 ou 60 segundos por jogada. Faça sua ação dentro desse prazo. Ao concluir a ação ou quando o relógio zerar, a vez passa ao próximo jogador.</p>
+        <p><b>Tempo da partida:</b> o Mestre escolhe Curta, Padrão ou Longa. A duração é calculada conforme o número de jogadores, as perguntas e o tempo por jogada. Por isso, não existe um tempo único para todas as mesas.</p>
+        <p>Quando o tempo total termina, a mesa conclui a volta em andamento e entra no fechamento de 60 segundos.</p>
+      </section>
+      <section class="how-risk" aria-labelledby="how-risk-title">
+        <h2 id="how-risk-title">Vale arriscar agora?</h2>
+        <p>Você precisa ter pelo menos <b>3 créditos</b> para arriscar.</p>
+        <p><b>Se acertar:</b> ganha os pontos, mantém seus créditos e aquela pergunta fecha para todos.</p>
+        <p><b>Se errar:</b> perde 3 créditos e não poderá responder àquela pergunta novamente, nem no fechamento. Os outros continuam podendo tentar.</p>
+      </section>
+      <section class="how-end" aria-labelledby="how-end-title">
+        <h2 id="how-end-title">Uma última chance</h2>
+        <p>No fechamento, você tem <b>60 segundos</b> para responder às perguntas ainda disponíveis para você, sem gastar créditos e sem bônus de tempo.</p>
+        <p>Ao final, cada <b>crédito restante vale 0,35 ponto extra</b>, contando as frações. A soma dos acertos e desses pontos define o resultado.</p>
+      </section>
+      <button type="button" id="how-back">Entendi</button>
+    </div>
+  </section>
+  <section class="scene" id="demo-lobby" aria-labelledby="demo-lobby-title">
+    <div class="wrap">
+      <p class="kicker">Demonstração · 2 rodadas</p>
+      <h2 id="demo-lobby-title">Tudo pronto para jogar.</h2>
+      <div class="how-end"><p><b id="demo-player-name">Você</b> · Pronto</p><p>Bot 1, Bot 2 e Bot 3 · Prontos</p></div>
+      <p class="lede">Jogue duas rodadas contra três bots. Escolha suas jogadas e veja o placar ao final.</p>
+      <button type="button" id="demo-ready">Começar demonstração</button>
+    </div>
+  </section>
+  <section class="scene" id="entrar" data-modo="convidado">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker" id="entrar-kicker">Entrar</p>
+      <h2 id="entrar-titulo">Quem chega agora?</h2>
+      <p class="lede" id="entrar-lede">O fato cabe na carta. Você chega com um nome e um código.</p>
+      <p id="entrar-aviso" class="sala-nota" hidden>Na partida você joga normalmente. Código e QR ficam no botão Mestre para quem ainda chega.</p>
+      <p id="entrar-status" class="log"></p>
+      <label class="sala-field" id="campo-cod" for="cod">Código da mesa
+        <input id="cod" class="codigo" maxlength="6" autocapitalize="characters" autocomplete="off" placeholder="ABC123">
+      </label>
+      <label class="sala-field" for="nome">Seu nome
+        <input id="nome" class="sala-input" maxlength="18" autocomplete="nickname" placeholder="Como a mesa te chama">
+      </label>
+      <p class="kicker" id="formas-kicker">Como quer que o Mosaico te chame?</p>
+      <div class="formas" role="group" aria-label="Forma de tratamento">
+        <button type="button" class="forma-op" data-forma="m" aria-pressed="false"><b>👨</b><span>Bem-vindo</span></button>
+        <button type="button" class="forma-op" data-forma="f" aria-pressed="false"><b>👩</b><span>Bem-vinda</span></button>
+        <button type="button" class="forma-op on" data-forma="n" aria-pressed="true"><b>👥</b><span>Tanto faz</span></button>
+      </div>
+      <div class="actions ident-actions">
+        <button type="button" id="btn-entrar-mesa" class="btn-go">Entrar</button>
+        <button type="button" id="btn-voltar-open" class="ghost">← Voltar</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="telao">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Telão</span>
+        </div>
+      </header>
+      <div class="telao-view" aria-live="polite">
+        <p class="kicker">Display da mesa</p>
+        <p class="codigo-grande" id="telao-codigo">—</p>
+        <p class="lede" id="telao-msg">Aguardando o Mestre abrir a partida.</p>
+        <section class="telao-pauta" aria-labelledby="telao-pergunta">
+          <p class="kicker">Pauta da mesa</p>
+          <p class="sessao-linha" id="telao-sessao"></p>
+          <h2 id="telao-pergunta">A pergunta será revelada no início.</h2>
+          <div class="telao-campos" id="telao-campos">
+            <p>Os campos ativos aparecerão aqui.</p>
+          </div>
+        </section>
+        <div class="telao-status">
+          <p><small>Tempo</small><strong id="telao-tempo">—</strong></p>
+          <p><small>Vez</small><strong id="telao-vez">—</strong></p>
+        </div>
+        <ol id="telao-lista" class="sala-lista"></ol>
+      </div>
+    </div>
+  </section>
+  <div id="conexao-mesa" role="status" aria-live="polite" hidden></div>
+  <section class="scene" id="lobby">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker" id="lobby-kicker">Sala</p>
+      <h2 id="lobby-titulo">Sala aberta</h2>
+      <p class="codigo-grande" id="lobby-codigo">—</p>
+      <div id="lobby-qr-wrap" class="sala-qr-wrap">
+        <div class="sala-qr" id="lobby-qr"></div>
+        <p class="lede" id="lobby-nota">Aponte a câmera para o QR ou informe o código.</p>
+      </div>
+      <section class="lobby-sessao" id="lobby-sessao" aria-label="Sessão da partida">
+        <p class="kicker">Sessão</p>
+        <p class="sessao-linha" id="lobby-sessao-linha">—</p>
+        <div id="lobby-sessao-edicao" hidden><div class="lugares-config" id="lobby-lugares"><fieldset class="perfil-grupo"><legend>Profundidade das pistas</legend><label><input type="radio" name="lobby-perfil" value="viajante" checked><span><b>Viajante</b><small>Referências familiares e linguagem simples.</small></span></label><label><input type="radio" name="lobby-perfil" value="geografo"><span><b>Geógrafo</b><small>Processos e relações entre os lugares.</small></span></label></fieldset><fieldset><legend>Por onde vamos?</legend><p class="sessao-sub">Combine Brasil, regiões e continentes. Os lugares não se repetem.</p><div class="territorios"><label class="territorio-op"><input type="checkbox" data-territorio="todos" checked><span>Todos os lugares</span><small data-contagem="todos"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="brasil"><span>Brasil inteiro</span><small data-contagem="brasil"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="norte"><span>Norte</span><small data-contagem="norte"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="nordeste"><span>Nordeste</span><small data-contagem="nordeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="centro-oeste"><span>Centro-Oeste</span><small data-contagem="centro-oeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="sudeste"><span>Sudeste</span><small data-contagem="sudeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="sul"><span>Sul</span><small data-contagem="sul"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="america"><span>América</span><small data-contagem="america"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="europa"><span>Europa</span><small data-contagem="europa"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="africa"><span>África</span><small data-contagem="africa"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="asia"><span>Ásia</span><small data-contagem="asia"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="oceania"><span>Oceania</span><small data-contagem="oceania"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="antartida"><span>Antártida</span><small data-contagem="antartida"></small></label></div></fieldset><p class="lugares-disponiveis" role="status" aria-live="polite"></p></div></div>
+      </section>
+      <fieldset id="lobby-formato" class="config-grupo" hidden><legend>Como vamos jogar?</legend><select id="lobby-modalidade" aria-label="Formato da partida"><option value="classica">Sessão Clássica</option><option value="maratonar">Maratonar</option></select><p id="lobby-modalidade-texto">Um jogador por vez.</p></fieldset>
+      <ol id="lobby-lista" class="sala-lista"></ol>
+      <p class="lobby-prontidao" id="lobby-prontidao" aria-live="polite">Preparando os participantes…</p>
+      <div class="actions">
+        <button type="button" id="btn-treino" class="btn-go" hidden>Jogar demonstração · 2 rodadas</button>
+        <button type="button" id="btn-iniciar-partida" class="btn-go">Iniciar partida</button>
+        <button type="button" id="btn-abrir-telao" class="ghost" hidden>Abrir telão</button>
+        <p id="lobby-espera" class="log" hidden>Aguardando o Mestre iniciar a partida…</p>
+        <button type="button" id="btn-lobby-voltar" class="ghost">← Encerrar / sair</button>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="fechamento">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker">Último fechamento</p>
+      <h2 id="fechamento-titulo">Um minuto para sustentar os campos abertos</h2>
+      <p class="lede">Agora as respostas não custam créditos. As escolhas são privadas e serão avaliadas juntas ao final do tempo.</p>
+      <div class="fechamento-tempo"><small>Tempo restante</small><strong id="fechamento-tempo">1:00</strong></div>
+      <div class="fechamento-campos" id="fechamento-campos"></div>
+      <p class="log" id="fechamento-status" role="status"></p>
+      <button id="fechamento-concluir" type="button" hidden>Concluir respostas</button>
+    </div>
+  </section>
+  <section class="scene" id="rule">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker" id="rule-kicker">A vez · as pistas · os quatro botões</p>
+      <h2 id="rule-title">Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
+      <ul class="verbs" id="rule-verbs">
+        <li><b>Arriscar · 3</b> Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
+        <li><b>Capturar · 2</b> Tira a pista de outro dossiê. A bússola não pode ser capturada.</li>
+        <li><b>Comprar · 4</b> Pista nova do monte. A bússola não cobra e paga 6.</li>
+        <li><b>Pôr em cartaz</b> Só recebe 2 se alguém levar.</li>
+      </ul>
+      <p class="lede" id="rule-lede">Doze créditos. Três voltas. O cronômetro da jogada corre no tabuleiro.</p>
+      <div class="actions">
+        <button id="go-deal" type="button">Começar este caso</button>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="deal">
+    <div class="wrap market">
+      <header class="mobile-topbar deal-bar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Abrir ajuda da mesa" aria-haspopup="dialog" title="Como jogar">Ajuda</button></div>
+        <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
+      </header>
+      <p class="sessao-linha mesa-sessao" id="mesa-sessao" hidden></p>
+      <aside id="treino-dica" class="treino-dica" hidden><b>Aprenda jogando · 2 rodadas</b><p id="treino-texto"></p><button type="button" id="treino-entendi">Entendi</button><button type="button" class="ghost" id="treino-passar" hidden>Passar a vez</button></aside>
+      <p class="log" id="log" role="status"></p>
+      <div class="mesa-areas">
+        <div class="mesa-areas-compartilhadas">
+          <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
+            <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
+            <p class="mesa-question" id="mesa-question" hidden></p>
+            <section class="monte-box" id="monte-box">
+              <div class="leque-wrap">
+                <div class="area-heading"><strong id="monte-titulo">Monte de compra</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
+                <div class="leque" id="leque"></div>
+              </div>
+            </section>
+            <p class="mesa-balaio" id="mesa-balaio">Oferecidas · nenhuma pista oferecida.</p>
+          </section>
+          <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
+            <details class="jogadores-bar" id="jogadores-bar">
+              <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
+              <ol class="ordem" id="ordem"></ol>
+            </details>
+            <p class="jogada-bot" id="jogada-bot" hidden></p>
+          </section>
+        </div>
+        <div class="mesa-areas-jogador">
+          <section class="pistas-box mesa-area-pessoal" id="pistas-box" aria-labelledby="minhas-pistas-label">
+            <button type="button" class="pistas-toggle" id="pistas-toggle" aria-controls="hand" aria-expanded="true">
+              <span><small>Minha área · privada</small><b id="minhas-pistas-label">Minhas pistas</b></span>
+              <span class="chev" id="pistas-chev">FECHAR ▾</span>
+            </button>
+            <div class="hand" id="hand"></div>
+            <div class="painel" id="painel" hidden></div>
+          </section>
+          <div class="control-dock" role="group" aria-labelledby="minha-jogada-titulo">
+            <h2 class="mesa-area-titulo" id="minha-jogada-titulo">Minha jogada</h2>
+            <div class="status-grid" id="status-grid">
+              <div class="status-cell cell-saldo">
+                <div class="saldo-head"><small>Meu saldo de créditos</small><strong id="saldo-numero">12</strong></div>
+                <div class="purse" id="purse"></div>
+              </div>
+              <div class="status-cell" id="cell-tempo">
+                <span class="tempo-inline"><small>Tempo:</small><strong id="tempo">0:45</strong></span>
+                <span class="vez-inline">Vez: <b id="vez">Você</b></span>
+              </div>
+            </div>
+            <p id="estado-acoes" role="status">Aguarde sua vez · Ajuda sempre disponível</p>
+            <div class="verbos" id="verbos">
+              <button type="button" data-verbo="arriscar"><span>Arriscar</span><small>Perde 3 se errar</small></button>
+              <button type="button" data-verbo="capturar"><span>Capturar</span><small>Custa 2</small></button>
+              <button type="button" data-verbo="comprar"><span>Comprar</span><small>Custa 4</small></button>
+              <button type="button" data-verbo="consignar"><span>Oferecer</span><small>Grátis · recebe 2 se levarem</small></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="treino-fim"><div class="wrap">
+      <p class="kicker">Demonstração concluída · 2 de 2 rodadas</p><h2>Agora você já conhece a mesa.</h2>
+      <p>Você viu suas pistas, o monte, saldo, vez, botões, custos, captura e uma bússola.</p>
+      <p><b>Arriscar:</b> precisa ter 3. Acertou, pontua sem pagar e fecha a questão para todos. Errou, perde 3 e a questão fecha só para você.</p>
+      <p><b>Fechamento:</b> na partida real, todos têm 60 segundos para responder gratuitamente às questões ainda disponíveis. As respostas são salvas e avaliadas juntas ao final.</p>
+      <p><b>Pontuação:</b> acertos antecipados valem mais. O saldo restante também conta. A tela final mostra a conta e o resultado.</p>
+      <p><b>Ajuda fica sempre disponível.</b> Recarregou? A sala retoma seu lugar e suas cartas.</p>
+      <p>Este treino não vale pontos. A partida real começa com novas pistas e 12 créditos.</p>
+      <button type="button" id="treino-voltar">Voltar à sala e preparar a partida</button><p id="treino-espera" hidden>Aguarde o mestre voltar à sala.</p>
+    </div></section>
+  <section class="scene" id="judge">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker">Apuração</p>
+      <h2>Sua pontuação se forma por partes</h2>
+      <section class="revelacao-canonica" id="revelacao-canonica" aria-labelledby="revelacao-titulo">
+        <p class="kicker">O lugar revelado</p>
+        <h2 id="revelacao-titulo">O que os fatos permitem concluir</h2>
+        <p class="revelacao-fonte" id="revelacao-fonte"></p>
+        <div class="revelacao-campos" id="revelacao-campos"></div>
+        <div class="revelacao-dente" id="revelacao-dente" hidden></div>
+      </section>
+      <div class="score-progress" id="score-progress" aria-live="polite">
+        <div id="score-questions"></div>
+        <div class="score-step"><span>Créditos restantes</span><div class="score-question-value" title="Cada crédito restante vale 0,35 ponto; frações são mantidas"><strong id="score-residual">—</strong><small class="score-multiplier">(x0,35)</small></div></div>
+        <div class="score-total"><span>Total</span><strong id="score-total">—</strong></div>
+      </div>
+      <div id="score"></div>
+      <section class="podio" id="podio" hidden aria-labelledby="podio-titulo">
+        <p class="kicker">Classificação final</p>
+        <h2 id="podio-titulo">O pódio da mesa</h2>
+        <div class="podio-top3" id="podio-top3"></div>
+        <ol class="ranking-final" id="ranking-final"></ol>
+      </section>
+      <div class="actions" style="margin-top:22px">
+        <button class="ghost" id="voltar-demonstracao" type="button" hidden>Voltar da demonstração</button>
+        <p id="placar-treino-espera" hidden>Aguarde o mestre voltar à sala.</p>
+        <button class="ghost" id="again" type="button">Jogar de novo</button>
+      </div>
+    </div>
+  </section>
+  <div id="flip-stage" class="flip-stage" hidden>
+    <div class="flip-card">
+      <div class="flip-inner" id="flip-inner">
+        <div class="flip-back"></div>
+        <div class="flip-front" id="flip-front"></div>
+      </div>
+    </div>
+    <p class="flip-msg" id="flip-msg"></p>
+  </div>
+  <div id="coin-fly" class="coin-fly" hidden aria-hidden="true">
+    <div class="spin">
+      <i class="face a"></i>
+      <i class="face b"></i>
+    </div>
+  </div>
+  <div id="coin-trail" aria-hidden="true"></div>
+  <div id="bag-toast" class="bag-toast" hidden>
+    <small>Bilheteria da partida</small>
+    <p>Você recebe <strong>12 créditos</strong> para a partida</p>
+  </div>
+  <div id="modal-mestre" class="modal-fundo" hidden>
+    <div class="modal-sala" role="dialog" aria-labelledby="mestre-titulo">
+      <p class="kicker">Etapa 1 de 2 · configuração da sala</p>
+      <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como será esta partida?</h2>
+      <p class="log">A sala será criada agora. Você define as regras e depois informa seu nome. Os jogadores apenas entram e aguardam.</p>
+      <fieldset class="config-grupo escolha-formato"><legend>Como vamos jogar?</legend>
+        <label><input type="radio" name="modalidade" value="classica" checked><span><b>Sessão Clássica</b><small>Um jogador por vez.</small></span></label>
+        <label><input type="radio" name="modalidade" value="maratonar"><span><b>Maratonar</b><small>Dois jogadores ao mesmo tempo. Cada um por si.</small></span></label>
+        <p>Maratonar resolve as duas escolhas juntas. Se os dois acertarem a mesma questão, os dois pontuam. Disputas pela mesma pista alternam a prioridade; quem ficar sem ela não paga e pode escolher novamente.</p>
+      </fieldset>
+      <section class="config-grupo sessao-grupo" id="sessao-grupo" aria-label="Conteúdo da partida"><div class="lugares-config" id="sessao-lugares"><fieldset class="perfil-grupo"><legend>Profundidade das pistas</legend><label><input type="radio" name="sessao-perfil" value="viajante" checked><span><b>Viajante</b><small>Referências familiares e linguagem simples.</small></span></label><label><input type="radio" name="sessao-perfil" value="geografo"><span><b>Geógrafo</b><small>Processos e relações entre os lugares.</small></span></label></fieldset><fieldset><legend>Por onde vamos?</legend><p class="sessao-sub">Combine Brasil, regiões e continentes. Os lugares não se repetem.</p><div class="territorios"><label class="territorio-op"><input type="checkbox" data-territorio="todos" checked><span>Todos os lugares</span><small data-contagem="todos"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="brasil"><span>Brasil inteiro</span><small data-contagem="brasil"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="norte"><span>Norte</span><small data-contagem="norte"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="nordeste"><span>Nordeste</span><small data-contagem="nordeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="centro-oeste"><span>Centro-Oeste</span><small data-contagem="centro-oeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="sudeste"><span>Sudeste</span><small data-contagem="sudeste"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="sul"><span>Sul</span><small data-contagem="sul"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="america"><span>América</span><small data-contagem="america"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="europa"><span>Europa</span><small data-contagem="europa"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="africa"><span>África</span><small data-contagem="africa"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="asia"><span>Ásia</span><small data-contagem="asia"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="oceania"><span>Oceania</span><small data-contagem="oceania"></small></label><label class="territorio-op"><input type="checkbox" data-territorio="antartida"><span>Antártida</span><small data-contagem="antartida"></small></label></div></fieldset><p class="lugares-disponiveis" role="status" aria-live="polite"></p></div><p class="sessao-aviso" id="sessao-aviso" hidden>Selecione ao menos um território com lugares disponíveis.</p></section>
+      <fieldset class="config-grupo">
+        <legend>Tempo por jogada</legend>
+        <div class="config-opcoes" role="group" aria-label="Tempo por jogada">
+          <button type="button" class="tempo-op" data-tempo="30" aria-pressed="false"><b>30 s</b><span>Mais pressão</span></button>
+          <button type="button" class="tempo-op on" data-tempo="45" aria-pressed="true"><b>45 s</b><span>Equilibrado</span></button>
+          <button type="button" class="tempo-op" data-tempo="60" aria-pressed="false"><b>60 s</b><span>Mais tempo</span></button>
+        </div>
+      </fieldset>
+      <fieldset class="config-grupo">
+        <legend>Duração da partida</legend>
+        <div class="config-opcoes" role="group" aria-label="Duração da partida">
+          <button type="button" class="duracao-op" data-duracao="curta" aria-pressed="false"><b>Curta</b><span>Uma bússola a menos</span></button>
+          <button type="button" class="duracao-op on" data-duracao="padrao" aria-pressed="true"><b>Padrão</b><span>Ritmo recomendado</span></button>
+          <button type="button" class="duracao-op" data-duracao="longa" aria-pressed="false"><b>Longa</b><span>Uma bússola a mais</span></button>
+        </div>
+      </fieldset>
+      <label class="telao-toggle" for="usa-telao"><span><b>Usar telão</b><small>Mostra o estado coletivo em outra tela.</small></span><input id="usa-telao" type="checkbox" role="switch"></label>
+      <p id="mestre-status" class="log"></p>
+      <div class="actions">
+        <button type="button" id="btn-abrir-com-mesa" class="btn-go">Criar sala e continuar</button>
+        <button type="button" id="btn-cancelar-mestre" class="ghost">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <button type="button" id="btn-mestre-flutuante" class="mestre-float" hidden>Mestre</button>
+  <aside id="sala-panel" class="sala-panel" hidden>
+    <div class="sala-card">
+      <div class="sala-head">
+        <div>
+          <p class="kicker">Mestre · Mosaico Card</p>
+          <h2>Sala</h2>
+          <p id="sala-ritmo-nota" class="log"></p>
+        </div>
+        <button type="button" id="sala-fechar" class="ghost slim">Fechar</button>
+      </div>
+      <details class="sala-sec" open>
+        <summary>Código e QR</summary>
+        <p class="sala-codigo-grande" id="sala-codigo-view">—</p>
+        <div class="sala-qr" id="sala-qr"></div>
+      </details>
+      <details class="sala-sec">
+        <summary>Participantes · <span id="sala-n">0</span></summary>
+        <ol id="sala-lista" class="sala-lista"></ol><ul id="presenca-lista" class="presenca-lista"></ul><p id="recuperacao-codigo" hidden></p>
+      </details>
+      <details class="sala-sec">
+        <summary>Controle partida</summary>
+        <p id="sala-controle" class="log"></p>
+        <div class="controle-mestre" id="controle-mestre">
+          <button type="button" id="btn-pausar">Pausar</button>
+          <button type="button" id="btn-adicionar-tempo">+ tempo</button>
+          <button type="button" id="btn-passar-vez">Passar vez</button>
+          <button type="button" id="btn-encerrar-fase" class="danger">Encerrar fase</button>
+        </div>
+      </details>
+      <details class="sala-sec">
+        <summary>Encerrar sala</summary>
+        <div class="actions">
+          <button type="button" id="btn-encerrar-sala" class="danger">Encerrar sala</button>
+        </div>
+      </details>
+      <p id="sala-status" class="log">Conectando Firebase…</p>
+    </div>
+  </aside>
+  <footer class="credit">M&amp;O</footer>
+  <button type="button" id="ajuda-sempre">Ajuda</button>
+  <dialog id="risco-dialog" aria-labelledby="risco-titulo"><h2 id="risco-titulo">Confirmar resposta?</h2><p id="risco-resposta"></p><p>Acertou: pontua e não paga. Errou: perde 3 e essa questão fecha só para você.</p><p id="risco-tempo">O tempo da vez continua enquanto você escolhe.</p><div class="actions"><button type="button" id="risco-cancelar" class="ghost">Rever resposta</button><button type="button" id="risco-confirmar">Confirmar e arriscar</button></div></dialog>
+  <dialog id="recuperar-dialog" aria-labelledby="recuperar-titulo"><h2 id="recuperar-titulo">Recuperar meu lugar</h2><p>O mestre gera um código no painel da sala. Ele devolve suas cartas e seu saldo a este aparelho.</p><label for="recuperar-token">Código de recuperação</label><input id="recuperar-token" autocomplete="off" spellcheck="false"><p id="recuperar-erro" role="alert"></p><div class="actions"><button type="button" id="recuperar-enviar">Recuperar acesso</button><button type="button" id="recuperar-fechar" class="ghost">Fechar</button></div></dialog>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+  <script src="edition.js?v=lug1"></script>
+  <script src="../qr.js?v=casa"></script>
+  <script src="../firebase.js?v=mesa10"></script>
+  <script src="sessao.js?v=lug1"></script>
+  <script src="sala.js?v=lug1"></script>
+  <!-- 16/10/2026: abrir sala só com Google da lista de mestres; entrar por código continua livre. -->
+  <script src="../mestre-acesso.js?v=20261016"></script>
+  <script src="../abertura.js?v=mesa10"></script>
+  <script src="case-bussola.js?v=lug1"></script>
+  <script src="cases-lugares.js?v=lug1"></script>
+  <script src="bank-runtime.js?v=lug1"></script>
+  <script src="../game-core.js?v=mesa10"></script>
+  <script src="game.js?v=lug1"></script>
+  <script src="game-sala.js?v=lug1"></script>
+  <script src="../mesa-core.js?v=areas1"></script>
+  <script src="../mesa-runtime.js?v=lug1"></script>
+</body>
+</html>

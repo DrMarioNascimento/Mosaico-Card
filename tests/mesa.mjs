@@ -7,7 +7,8 @@ let serial = 0;
 function modelo(file, key) { const ctx = { window: {} }; vm.runInNewContext(readFileSync(new URL(file, import.meta.url), 'utf8'), ctx); return ctx.window.MC_CASOS[key]; }
 for (const [edicao, arquivo, key, rules] of [
   ['Cinema','../filmes-e-series/case-pipoca.js','pipoca',require('../filmes-e-series/game-core.js')],
-  ['NT','../case-ovelha.js','ovelha',require('../game-core.js')]
+  ['NT','../case-ovelha.js','ovelha',require('../game-core.js')],
+  ['Lugares','../lugares/case-bussola.js','bussola',require('../game-core.js')]
 ]) {
  const m = modelo(arquivo,key);
  function sala(n=4, modalidade='maratonar', training=false) {
