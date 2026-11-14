@@ -2390,3 +2390,403 @@ A Plataforma Larsen C localiza-se no lado oriental da Península Antártica; em 
 - O gelo flutuante permanece em contato basal com a água marinha.
 - A plataforma interage com o ar acima e com o oceano abaixo.
 - A identificação articula posição geográfica, segmento C e histórico de desprendimento.
+
+
+## Ampliação África, Ásia e Oceania
+
+Fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Monte Quênia
+
+O Monte Quênia é um antigo vulcão africano com picos como Batian e Nelion e vales modificados pela ação glacial.
+
+- **Montanha**: Monte Quênia.
+- **Picos associados**: Batian e Nelion.
+- **Processo que modificou os vales**: Erosão glacial.
+- **País**: Quênia.
+
+**Viajante**
+
+- O destino é uma montanha africana.
+- O maciço está situado no país que lhe dá nome.
+- O país é o Quênia.
+- É o segundo pico mais alto da África.
+- A altitude máxima é de cerca de 5.199 metros.
+- O maior pico é chamado Batian.
+- Outro pico elevado recebe o nome de Nelion.
+- A origem da montanha é vulcânica.
+- A atividade vulcânica ocorreu há milhões de anos.
+- O relevo foi modificado por geleiras.
+- Há vales com formato aproximado de U.
+- O maciço tem remanescentes de geleiras.
+- A UNESCO registra retração dessas geleiras.
+- Pequenos lagos de origem glacial ocorrem na montanha.
+- As encostas médias possuem florestas.
+- Em altitude aparece flora afro-alpina.
+- O parque e a floresta integram uma área protegida.
+- Uma área de conservação chamada Lewa integra o bem.
+- A floresta de Ngare Ndare também participa do conjunto.
+- Um corredor permite a passagem de elefantes.
+- Parte do bem se estende para ambientes mais secos.
+- A Linha do Equador passa pela região da montanha.
+- O lugar pode ser comparado ao ponto mais alto da África.
+- O maciço combina vulcanismo antigo e marcas de gelo.
+- Para diferenciar, combine país, altitude e nomes dos picos.
+
+**Geógrafo**
+
+- O recorte protege um maciço montanhoso da África oriental.
+- A denominação da montanha corresponde à do país onde se encontra.
+- O enquadramento administrativo do parque é o Quênia.
+- O cume tem a segunda maior altitude do continente africano.
+- A cota do pico mais alto do maciço é aproximadamente 5.199 metros.
+- Batian corresponde ao ponto mais alto do conjunto montanhoso.
+- Nelion é um dos picos principais do maciço.
+- O maciço é descrito como um antigo vulcão extinto.
+- O período ativo do antigo vulcão antecede a ocupação humana moderna em milhões de anos.
+- A erosão glacial contribuiu para esculpir vales nas encostas.
+- A forma em U de alguns vales está associada à ação do gelo.
+- Porções de gelo glacial permanecem nas áreas mais altas.
+- As geleiras remanescentes foram descritas como em retração.
+- O relevo inclui lagos associados a processos glaciais.
+- A vegetação florestal ocupa setores intermediários do relevo.
+- A vegetação afro-alpina reflete condições ambientais de grande altitude.
+- O reconhecimento inclui parque nacional e floresta natural.
+- O componente Lewa acrescenta áreas de conservação ao sítio inscrito.
+- O bem inclui a reserva florestal Ngare Ndare.
+- A conectividade entre componentes protege rotas de deslocamento de elefantes.
+- A transição ecológica alcança campos e bosques de condições semiáridas.
+- O maciço situa-se na região equatorial do país.
+- A posição de segundo lugar o distingue do Kilimanjaro.
+- A origem vulcânica e a erosão glacial são processos distintos no mesmo relevo.
+- A identificação articula posição nacional, altitude e os picos Batian e Nelion.
+
+### Taj Mahal
+
+O Taj Mahal é um mausoléu mogol de mármore branco em Agra, encomendado por Shah Jahan em memória de Mumtaz Mahal.
+
+- **Monumento**: Taj Mahal.
+- **Imperador que encomendou a obra**: Shah Jahan.
+- **Material marcante do mausoléu**: Mármore branco.
+- **Cidade**: Agra.
+
+**Viajante**
+
+- O destino é um monumento construído como mausoléu.
+- Ele fica em uma cidade da Índia.
+- A cidade está associada ao rio Yamuna.
+- A obra foi encomendada por um imperador mogol.
+- O imperador era Shah Jahan.
+- O monumento homenageia Mumtaz Mahal.
+- O edifício principal apresenta mármore branco.
+- O conjunto inclui um jardim dividido em quatro partes.
+- O túmulo está em uma extremidade do jardim.
+- A construção teve início no século XVII.
+- O mausoléu principal foi concluído em 1648.
+- Outras partes do conjunto ficaram prontas depois.
+- Há uma grande cúpula no conjunto.
+- Quatro minaretes ocupam posições próximas aos cantos da plataforma.
+- Os minaretes são estruturas independentes.
+- A plataforma do edifício é elevada.
+- A composição tem forte organização simétrica.
+- Há decoração com pedras incrustadas.
+- Motivos de flores aparecem na decoração.
+- A obra envolveu artesãos de diferentes especialidades.
+- Uma mesquita integra o complexo.
+- A mesquita e uma casa de hóspedes usam arenito vermelho.
+- Há inscrições em escrita árabe no conjunto.
+- A UNESCO reconhece o conjunto como patrimônio mundial.
+- Para identificar, combine local, material e função funerária.
+
+**Geógrafo**
+
+- O conjunto foi concebido como arquitetura funerária imperial.
+- A localização administrativa é Agra, no território indiano.
+- O monumento situa-se à margem direita do rio Yamuna.
+- O patrono do conjunto pertenceu à dinastia mogol.
+- Shah Jahan encomendou o conjunto funerário.
+- O mausoléu foi construído em memória de Mumtaz Mahal.
+- O revestimento do mausoléu utiliza mármore branco.
+- O planejamento paisagístico organiza o jardim em quatro setores.
+- A implantação do mausoléu difere de uma posição central no jardim quadripartido.
+- A obra principal pertence à primeira metade do século XVII.
+- A cronologia distingue a conclusão do túmulo principal das obras posteriores.
+- O portal, mesquita e estruturas auxiliares foram concluídos posteriormente.
+- A composição arquitetônica utiliza cúpula como elemento marcante.
+- A plataforma do mausoléu é acompanhada por quatro minaretes.
+- Os quatro elementos verticais estão separados do corpo principal.
+- O mausoléu foi implantado sobre uma base elevada.
+- O planejamento usa um eixo central e relações de simetria bilateral.
+- O trabalho ornamental inclui incrustação de pedras no mármore.
+- Os detalhes ornamentais representam formas vegetais.
+- A construção reuniu trabalhadores de ofícios como entalhe e caligrafia.
+- O conjunto arquitetônico inclui uma mesquita além do mausoléu.
+- Edificações auxiliares contrastam com o mármore branco do túmulo.
+- A decoração inclui inscrições históricas e religiosas em escrita árabe.
+- O sítio tem reconhecimento internacional por seus valores arquitetônicos.
+- A identificação articula Agra, mármore branco e homenagem funerária mogol.
+
+### Grande Muralha da China
+
+A Grande Muralha da China compreende sistemas defensivos construídos e modificados em diferentes períodos, inclusive Qin e Ming.
+
+- **Conjunto defensivo**: Grande Muralha da China.
+- **Uma etapa histórica associada**: Qin e Ming.
+- **Estruturas de vigilância**: Torres de vigilância.
+- **País**: China.
+
+**Viajante**
+
+- O destino é um conjunto extenso de fortificações.
+- A construção percorre diferentes paisagens.
+- O sistema fica na China.
+- Trechos foram construídos em épocas diferentes.
+- Algumas seções antigas foram conectadas no século III antes da era comum.
+- O governante associado a essa ligação era Qin Shi Huang.
+- A construção continuou em períodos posteriores.
+- A dinastia Ming também realizou obras no conjunto.
+- Não se trata apenas de uma muralha simples e isolada.
+- Há torres em vários pontos do sistema.
+- As torres ajudavam na observação e comunicação.
+- Fortalezas aparecem ao longo do percurso.
+- Há passagens estratégicas entre setores.
+- Algumas seções usam terra compactada.
+- Outros trechos apresentam alvenaria.
+- O percurso total reúne mais de 20 mil quilômetros de elementos.
+- O sistema se estende no norte do país.
+- O conjunto registra estratégias militares antigas.
+- A estrutura também se relaciona a contatos entre populações.
+- A UNESCO reconhece o conjunto como patrimônio.
+- A construção seguiu a forma das montanhas em muitos trechos.
+- Os trechos não foram todos feitos pela mesma dinastia.
+- O período Ming ocorreu muitos séculos depois do período Qin.
+- A paisagem reúne estruturas de vigilância e defesa.
+- Para identificar, combine país, função defensiva e etapas históricas.
+
+**Geógrafo**
+
+- A estrutura corresponde a um sistema defensivo linear de grande extensão.
+- A implantação acompanha características variadas do relevo.
+- A localização histórica e atual corresponde ao território chinês.
+- A estrutura resulta de intervenções ao longo de sucessivos períodos imperiais.
+- A unificação de trechos é associada ao período de Qin Shi Huang.
+- A consolidação inicial de trechos é ligada ao primeiro imperador Qin.
+- O desenvolvimento do sistema se estendeu por séculos.
+- Os trechos Ming testemunham uma etapa posterior da construção.
+- O sistema combina muros, fortificações, passagens e estruturas auxiliares.
+- Torres de vigilância compõem a infraestrutura defensiva.
+- A rede de torres apoiava funções de vigilância e sinalização.
+- O conjunto inclui estruturas fortificadas além dos muros.
+- Passos e portos fortificados integram a organização defensiva.
+- Trechos construídos com terra socada preservam técnicas de períodos antigos.
+- A variedade de materiais reflete técnicas e períodos distintos.
+- A extensão agregada inclui trechos e estruturas de diferentes épocas.
+- A localização relaciona-se historicamente à fronteira setentrional.
+- A arquitetura permite estudar a organização defensiva de impérios chineses.
+- O patrimônio testemunha conflitos e intercâmbios entre sociedades agrícolas e nômades.
+- O bem possui reconhecimento por sua importância cultural e arquitetônica.
+- A adaptação ao relevo influenciou o traçado de setores defensivos.
+- A cronologia inclui diferentes autoridades e momentos de construção.
+- As etapas Qin e Ming pertencem a momentos históricos distintos.
+- A organização espacial combina observação, barreiras e posições fortificadas.
+- A identificação articula localização chinesa, defesa linear e intervenções Qin e Ming.
+
+### Parque Nacional Fiordland
+
+Fiordland, na Ilha Sul da Nova Zelândia, protege paisagens de montanhas, lagos e fiordes moldados por geleiras.
+
+- **Parque nacional**: Parque Nacional Fiordland.
+- **Processo importante na formação dos vales**: Erosão glacial.
+- **Um fiorde da região**: Milford Sound / Piopiotahi.
+- **País**: Nova Zelândia.
+
+**Viajante**
+
+- O destino é um parque nacional em uma área de fiordes.
+- Ele fica na Nova Zelândia.
+- O parque está na Ilha Sul.
+- Geleiras antigas ajudaram a moldar a paisagem.
+- Os fiordes são vales ligados ao mar.
+- Há vales com perfil em U.
+- O parque reúne montanhas, lagos e litoral.
+- A unidade foi criada em 1952.
+- Um dos fiordes conhecidos é Milford Sound.
+- Milford Sound também é chamado Piopiotahi.
+- Outro fiorde conhecido é Doubtful Sound.
+- Tamatea também é conhecido como Dusky Sound.
+- Vários fiordes locais têm a palavra sound no nome.
+- As geleiras também deixaram lagos na paisagem.
+- A área tem trechos de floresta nativa.
+- Algumas rochas locais são antigas e resistentes.
+- O granito aparece entre os materiais do relevo.
+- A paisagem mostra paredes íngremes.
+- O parque faz parte de um bem reconhecido pela UNESCO.
+- O bem reconhecido inclui outras áreas protegidas.
+- O local pode ser comparado a outros parques de montanha.
+- Há paisagens que vão das montanhas ao mar.
+- Viajantes podem observar cachoeiras e lagos no caminho.
+- A paisagem é diferente de um recife de coral tropical.
+- Para identificar o parque, combine país, fiordes e ação do gelo.
+
+**Geógrafo**
+
+- A unidade protege uma costa recortada por vales glaciais inundados.
+- O parque situa-se no território neozelandês.
+- A unidade ocupa parte da Ilha Sul da Nova Zelândia.
+- A erosão glacial esculpiu vales e fiordes do conjunto.
+- A invasão marinha de vales glaciais contribui para o formato dos fiordes.
+- A erosão pelo gelo produziu formas de vale com seção aproximadamente em U.
+- A paisagem articula relevo montanhoso, lagos e ambientes costeiros.
+- A constituição oficial do parque ocorreu em 1952.
+- Milford Sound integra a paisagem e o acesso turístico regional.
+- O local tem denominações associadas às línguas inglesa e Māori.
+- Doubtful Sound é um dos recortes da paisagem regional.
+- Tamatea e Dusky Sound são nomes associados ao mesmo fiorde.
+- A denominação sound aparece em locais cuja origem envolve erosão glacial.
+- Alguns lagos ocupam depressões associadas à ação glacial.
+- A cobertura vegetal inclui formações florestais nativas.
+- O parque contém rochas cristalinas como granito e gnaisse.
+- Rochas ígneas como granito fazem parte da geologia regional.
+- A ação do gelo e a resistência da rocha influenciaram vertentes acentuadas.
+- A unidade integra o bem Te Wāhipounamu, no sudoeste da Nova Zelândia.
+- O patrimônio internacional reúne diferentes parques do sudoeste do país.
+- A combinação de glaciação, fiordes e posição neozelandesa distingue o recorte.
+- A continuidade espacial conecta ambientes de altitude e litoral.
+- A visitação permite observar relevo glacial, lagos e quedas d’água.
+- Fiordes escavados pelo gelo representam um processo distinto da construção de recifes.
+- A identificação articula localização neozelandesa, formas costeiras e erosão glacial.
+
+
+## Ampliação do Sul e Ásia
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Curitiba
+
+Curitiba, capital do Paraná, tem um jardim botânico municipal com estufa metálica, acervo botânico e Jardim das Sensações.
+
+- **Cidade**: Curitiba.
+- **Espaço verde com estufa metálica**: Jardim Botânico Municipal.
+- **Proposta de uma trilha do jardim**: Exploração de plantas por diferentes sentidos.
+- **Estado**: Paraná.
+
+**Viajante**
+
+- O destino é uma capital brasileira da região Sul.
+- A cidade é a capital do Paraná.
+- Um jardim botânico é um ponto conhecido do lugar.
+- Esse jardim foi inaugurado em 1991.
+- No jardim há uma estufa de estrutura metálica.
+- A estufa abriga espécies de florestas tropicais.
+- O desenho da estufa foi inspirado em um palácio de cristal inglês.
+- O jardim tem canteiros inspirados em jardins franceses.
+- Lagos e fontes integram a área verde.
+- Caminhos permitem percorrer o jardim.
+- Há um museu botânico na área.
+- O museu tem um herbário.
+- Um percurso é chamado Jardim das Sensações.
+- O percurso sensorial não depende apenas da visão.
+- Os aromas das plantas participam desse percurso.
+- Texturas de plantas podem ser percebidas com as mãos.
+- A araucária é uma das plantas registradas na área.
+- Bromélias e orquídeas aparecem na lista de plantas.
+- A fauna registrada inclui cutias e preás.
+- Aves como quero-quero aparecem na lista de fauna.
+- O nome do jardim homenageia uma engenheira ligada à cidade.
+- A homenagem se relaciona ao planejamento urbano.
+- Uma galeria da área faz referência às quatro estações.
+- O espaço combina visitação, pesquisa e conservação de plantas.
+- Para identificar a cidade, combine região, estado e jardim com estufa.
+
+**Geógrafo**
+
+- A cidade exerce função de capital estadual no Sul do Brasil.
+- O enquadramento político-administrativo é a capital do Paraná.
+- Uma área verde municipal reúne funções botânicas e de visitação.
+- A implantação do jardim municipal ocorreu em 1991.
+- A estufa combina estrutura metálica e espaços para plantas.
+- A coleção exposta inclui plantas originárias de florestas tropicais.
+- A referência arquitetônica da estufa remete ao Palácio de Cristal inglês.
+- O paisagismo de entrada segue referências de jardins franceses.
+- A composição paisagística inclui corpos d’água e fontes.
+- A infraestrutura inclui trilhas e percursos de caminhada.
+- O espaço reúne um museu dedicado a coleções botânicas.
+- A infraestrutura científica inclui um acervo botânico preservado em herbário.
+- A área tem uma trilha que propõe explorar plantas por diferentes sentidos.
+- A experiência estimula tato, olfato e audição na relação com as plantas.
+- O olfato é um dos sentidos explorados na trilha sensorial.
+- O tato integra a proposta interpretativa do jardim sensorial.
+- A flora do espaço inclui araucária entre outras espécies.
+- A vegetação registrada inclui bromélias e orquídeas.
+- A área verde abriga mamíferos como cutias e preás.
+- Os registros locais incluem aves como o quero-quero.
+- A denominação reconhece a contribuição de Francisca Maria Garfunkel Rischbieter.
+- A profissional homenageada participou de processos de planejamento urbano.
+- A Galeria das Quatro Estações integra os equipamentos locais.
+- A função do jardim articula educação, acervo botânico e uso público.
+- A identificação articula localização sul-brasileira, Paraná e patrimônio botânico.
+
+### Kyoto
+
+Kyoto foi capital imperial do Japão; o conjunto histórico reconhecido reúne arquitetura em madeira e jardins em 17 componentes.
+
+- **Cidade**: Kyoto.
+- **Quantidade de componentes no conjunto inscrito**: 17.
+- **Expressão cultural reconhecida**: Arquitetura de madeira e jardins.
+- **País**: Japão.
+
+**Viajante**
+
+- O destino é uma cidade histórica do Japão.
+- A cidade foi capital imperial por muitos séculos.
+- Sua formação como capital remonta ao ano 794.
+- O plano inicial tomou como referência antigas capitais chinesas.
+- A cidade foi importante centro cultural durante mais de mil anos.
+- Construções religiosas integram o patrimônio reconhecido.
+- Há templos e santuários entre os componentes.
+- Um castelo também integra o conjunto.
+- Esse castelo é conhecido como Nijo-jo.
+- A arquitetura de madeira é uma característica importante.
+- A arte dos jardins é parte do valor do conjunto.
+- Jardins locais influenciaram o paisagismo em outras regiões.
+- O conjunto reconhecido possui dezessete componentes.
+- Os componentes ficam em três cidades atuais.
+- Uji é uma das cidades relacionadas ao conjunto inscrito.
+- Otsu também possui parte do patrimônio reconhecido.
+- A UNESCO reconhece os monumentos e jardins como patrimônio.
+- Os edifícios reconhecidos abrangem diferentes períodos.
+- O lugar é conhecido pela continuidade de tradições culturais.
+- A cidade fica na Ásia.
+- O conjunto combina espaços construídos e jardins.
+- A madeira aparece especialmente em edificações religiosas.
+- O patrimônio engloba mais que um templo isolado.
+- A antiga capital foi planejada com referências vindas do continente asiático.
+- Para identificar, combine antiga capital, país e tradições de jardim.
+
+**Geógrafo**
+
+- O núcleo urbano integra a história política e cultural japonesa.
+- Sua função como capital imperial perdurou até meados do século XIX.
+- O estabelecimento do núcleo imperial é datado de 794.
+- O modelo urbanístico inicial dialogou com capitais da antiga China.
+- A trajetória cultural urbana se estendeu por mais de um milênio.
+- O bem patrimonial reúne principalmente estabelecimentos religiosos.
+- A composição inscrita inclui estruturas religiosas de diferentes tipos.
+- O castelo Nijo-jo é a exceção secular entre os componentes reconhecidos.
+- O componente não religioso do conjunto é denominado Nijo-jo.
+- O patrimônio ilustra a evolução da arquitetura japonesa em madeira.
+- O reconhecimento inclui o desenvolvimento de jardins japoneses.
+- As tradições de jardim da cidade exerceram influência internacional.
+- A inscrição reúne 17 componentes patrimoniais.
+- O bem se distribui entre três municípios em duas províncias.
+- A distribuição do bem inclui componentes em Uji.
+- A cidade de Otsu integra a distribuição espacial dos componentes.
+- A inscrição internacional valoriza arquitetura e jardins históricos.
+- As construções incluem obras dos séculos X a XVII.
+- A trajetória histórica articula arquitetura religiosa, jardins e cultura japonesa.
+- A localização japonesa integra o recorte asiático.
+- O patrimônio relaciona arquitetura e desenho paisagístico.
+- A arquitetura religiosa preservada exemplifica técnicas em madeira.
+- A inscrição compreende um conjunto de 17 partes.
+- O modelo das capitais chinesas influenciou o estabelecimento inicial.
+- A identificação articula capitalidade imperial, posição japonesa e paisagismo.

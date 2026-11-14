@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 132,
+  "targetPlaces": 135,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -39,7 +39,13 @@
     "Parque Nacional Tongariro",
     "Costa de Ningaloo",
     "Plataforma de Gelo Ross",
-    "Plataforma de Gelo Larsen C"
+    "Plataforma de Gelo Larsen C",
+    "Monte Quênia",
+    "Taj Mahal",
+    "Grande Muralha da China",
+    "Parque Nacional Fiordland",
+    "Curitiba",
+    "Kyoto"
   ],
   "groups": {
     "Brasil Norte": [
@@ -154,7 +160,8 @@
       "Monte Kilimanjaro",
       "Cataratas Vitória",
       "Serengeti",
-      "Delta do Okavango"
+      "Delta do Okavango",
+      "Monte Quênia"
     ],
     "Ásia": [
       "Japão",
@@ -171,7 +178,8 @@
       "Rio Ganges",
       "Mar Morto",
       "Petra",
-      "Angkor"
+      "Angkor",
+      "Kyoto"
     ],
     "Oceania": [
       "Austrália",
@@ -185,7 +193,8 @@
       "Fiji",
       "Ópera de Sydney",
       "Parque Nacional Tongariro",
-      "Costa de Ningaloo"
+      "Costa de Ningaloo",
+      "Parque Nacional Fiordland"
     ],
     "Antártida": [
       "Polo Sul Geográfico",

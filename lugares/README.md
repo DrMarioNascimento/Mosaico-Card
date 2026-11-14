@@ -48,8 +48,14 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Costa de Ningaloo | Oceania |
 | Plataforma de Gelo Ross | Antártida |
 | Plataforma de Gelo Larsen C | Antártida |
+| Monte Quênia | África |
+| Taj Mahal | Ásia |
+| Grande Muralha da China | Ásia |
+| Parque Nacional Fiordland | Oceania |
+| Curitiba | Brasil / Sul / América |
+| Kyoto | Ásia |
 
-São 38 lugares, 76 conjuntos de pistas (dois por lugar), 1.900 pistas, 152 perguntas distintas e 884 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 44 lugares, 88 conjuntos de pistas (dois por lugar), 2.200 pistas, 176 perguntas distintas e 1.028 alternativas: oito ou 12 para identificar cada lugar e quatro nos demais campos. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
