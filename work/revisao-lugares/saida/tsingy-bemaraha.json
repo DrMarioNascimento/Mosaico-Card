@@ -1,0 +1,1073 @@
+{
+  "case": {
+    "id": "lug3-tsingy-bemaraha",
+    "placeId": "tsingy-bemaraha",
+    "title": "Tsingy de Bemaraha",
+    "aliases": [
+      "Bemaraha"
+    ],
+    "answerType": "área protegida (reserva natural e parque nacional)",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "MG"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem natural protegida africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Tsingy de Bemaraha"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Isalo"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional de Ranomafana"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Masoala"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Avenida dos Baobás"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Maciço do Ennedi"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Tassili n'Ajjer"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional das Montanhas Simien"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque uKhahlamba-Drakensberg"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Falésia de Bandiagara"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Mar de Areia do Namibe"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Deserto Branco"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Monte Mulanje"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional do Lago Malawi"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Tsingy de Bemaraha",
+        "sources": [
+          "TSINGY_IUCN",
+          "TSINGY_MNP",
+          "TSINGY_UNESCO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha que forma os pináculos",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Arenito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Basalto"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Calcário",
+        "sources": [
+          "TSINGY_IUCN",
+          "TSINGY_UNESCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio cujo cânion corta o maciço",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Manambolo"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Betsiboka"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Onilahy"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Mangoro"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Manambolo",
+        "sources": [
+          "TSINGY_IUCN",
+          "TSINGY_KBA",
+          "TSINGY_MNP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Grupo de primatas que vive nas florestas da área",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Lêmures"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Babuínos"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Chimpanzés"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Macacos-colobos"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Lêmures",
+        "sources": [
+          "TSINGY_IUCN",
+          "TSINGY_KBA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "tsingy-bemaraha-viajante-P01",
+            "factKey": "tsingy-bemaraha-F01",
+            "text": "É uma área protegida com floresta seca, cânions, morros, lagos e até manguezais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P02",
+            "factKey": "tsingy-bemaraha-F02",
+            "text": "É um destino para quem gosta de aventura: há trilhas difíceis, cavernas e passeios de canoa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P03",
+            "factKey": "tsingy-bemaraha-F03",
+            "text": "A paisagem é descrita como uma \"floresta de pedras afiadas\".",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P04",
+            "factKey": "tsingy-bemaraha-F04",
+            "text": "Pináculos de pedra cinzenta chegam a 100 metros de altura e lembram catedrais.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P05",
+            "factKey": "tsingy-bemaraha-F05",
+            "text": "Essas agulhas são de calcário formado no fundo de um mar muito antigo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P06",
+            "factKey": "tsingy-bemaraha-F06",
+            "text": "Uma das trilhas mais difíceis tem uma ponte suspensa de 70 metros e termina com vista para o pôr do sol.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P07",
+            "factKey": "tsingy-bemaraha-F07",
+            "text": "Um rio abriu um cânion no maciço, e dá para percorrê-lo de canoa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P08",
+            "factKey": "tsingy-bemaraha-F08",
+            "text": "As paredes desse desfiladeiro têm de 50 a 80 metros de altura.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P09",
+            "factKey": "tsingy-bemaraha-F09",
+            "text": "A área protegida é limitada ao sul pelo rio Manambolo e ao norte pelo rio Soahany.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P10",
+            "factKey": "tsingy-bemaraha-F10",
+            "text": "Subindo o rio de canoa, chega-se a túmulos atribuídos ao antigo povo vazimba.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P11",
+            "factKey": "tsingy-bemaraha-F11",
+            "text": "Segundo a tradição, as formações de pedra guardam os túmulos dos ancestrais e são o descanso final de suas almas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P12",
+            "factKey": "tsingy-bemaraha-F12",
+            "text": "Há cavernas com estalactites e estalagmites, e algumas guardam sinais de presença humana antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P13",
+            "factKey": "tsingy-bemaraha-F13",
+            "text": "Onze espécies de lêmures vivem ali.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P14",
+            "factKey": "tsingy-bemaraha-F14",
+            "text": "O sifaka-de-decken, um lêmure ameaçado, é um dos animais-símbolo da área.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P15",
+            "factKey": "tsingy-bemaraha-F15",
+            "text": "Uma espécie de lêmure-lanoso só existe nessa região e leva o nome do próprio planalto.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P16",
+            "factKey": "tsingy-bemaraha-F16",
+            "text": "O camaleão Brookesia perarmata e a lagartixa Uroplatus henkeli são répteis endêmicos destacados pelo parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP",
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P17",
+            "factKey": "tsingy-bemaraha-F17",
+            "text": "Mais de 90 espécies de aves foram registradas, entre elas a águia-pescadora-de-madagascar, criticamente ameaçada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P18",
+            "factKey": "tsingy-bemaraha-F18",
+            "text": "Nas fendas e cânions cresce uma floresta mais úmida; sobre a rocha exposta, só plantas suculentas que aguentam a seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P19",
+            "factKey": "tsingy-bemaraha-F19",
+            "text": "Entre junho e outubro, queimadas para renovar o pasto são uma das maiores ameaças à área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P20",
+            "factKey": "tsingy-bemaraha-F20",
+            "text": "A primeira reserva natural do lugar foi criada em 1927.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P21",
+            "factKey": "tsingy-bemaraha-F21",
+            "text": "Entrou para a lista do Patrimônio Mundial da UNESCO em 1990.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP",
+              "TSINGY_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P22",
+            "factKey": "tsingy-bemaraha-F22",
+            "text": "Fica no interior, a 60–80 km da costa oeste de uma grande ilha africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P23",
+            "factKey": "tsingy-bemaraha-F23",
+            "text": "A área soma cerca de 157 mil hectares, divididos entre uma reserva natural integral e um parque nacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P24",
+            "factKey": "tsingy-bemaraha-F24",
+            "text": "As agulhas de pedra do lugar são conhecidas como tsingy.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-viajante-P25",
+            "factKey": "tsingy-bemaraha-F25",
+            "text": "Fica na região de Melaky, no oeste de Madagascar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "tsingy-bemaraha-geografo-P01",
+            "factKey": "tsingy-bemaraha-F26",
+            "text": "O relevo resulta de erosão cárstica: fendas profundas, rios subterrâneos e cavernas separados por pináculos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P02",
+            "factKey": "tsingy-bemaraha-F27",
+            "text": "A cobertura se divide quase igualmente entre floresta (48%) e savana (47%), com matas ciliares ao longo dos cursos d'água permanentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P03",
+            "factKey": "tsingy-bemaraha-F28",
+            "text": "O planalto, com 250 km de comprimento, é de calcário de origem marinha do período Jurássico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P04",
+            "factKey": "tsingy-bemaraha-F04",
+            "text": "A UNESCO descreve um maciço calcário muito dissecado, atravessado por uma garganta fluvial profunda, com pináculos de até 100 m.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P05",
+            "factKey": "tsingy-bemaraha-F29",
+            "text": "A porção oeste é um planalto cárstico elevado e muito erodido, com dolinas alongadas e cânions profundos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P06",
+            "factKey": "tsingy-bemaraha-F30",
+            "text": "A altitude varia de 150 a 838 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P07",
+            "factKey": "tsingy-bemaraha-F09",
+            "text": "O cânion do Manambolo corta o maciço, e esse rio marca o limite sul da área protegida.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TSINGY_KBA",
+              "TSINGY_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P08",
+            "factKey": "tsingy-bemaraha-F31",
+            "text": "O planalto regula a hidrologia das terras a oeste, incluindo os complexos de lagos de Manambolomaty e Bemamba.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P09",
+            "factKey": "tsingy-bemaraha-F18",
+            "text": "A floresta seca decídua domina; a floresta mais perene ocupa dolinas e cânions, e um matagal suculento xerófilo cobre a rocha exposta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_KBA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P10",
+            "factKey": "tsingy-bemaraha-F32",
+            "text": "Pelo menos 583 espécies de plantas, de 102 famílias, foram registradas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P11",
+            "factKey": "tsingy-bemaraha-F33",
+            "text": "Dos 63 répteis registrados, 58 são endêmicos da ilha e 17 só existem no maciço.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P12",
+            "factKey": "tsingy-bemaraha-F34",
+            "text": "As 19 espécies de anfíbios formam a maior riqueza registrada numa área seca do país, e seis podem ser exclusivas do planalto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P13",
+            "factKey": "tsingy-bemaraha-F13",
+            "text": "Onze espécies de lêmures, de cinco famílias endêmicas, ocupam as florestas do maciço.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P14",
+            "factKey": "tsingy-bemaraha-F15",
+            "text": "O lêmure-lanoso Avahi cleesei é endêmico local, e o sifaka-de-decken está ameaçado de extinção.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P15",
+            "factKey": "tsingy-bemaraha-F35",
+            "text": "Entre os mamíferos vulneráveis está a fossa (Cryptoprocta ferox), carnívoro da família dos euplerídeos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_KBA",
+              "TSINGY_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P16",
+            "factKey": "tsingy-bemaraha-F36",
+            "text": "Uma saracura florestal do lugar só foi descrita pela ciência em 2011.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P17",
+            "factKey": "tsingy-bemaraha-F11",
+            "text": "As formações são tidas como túmulos dos vazimba, ancestrais originários, e morada final das almas dos antepassados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P18",
+            "factKey": "tsingy-bemaraha-F19",
+            "text": "Queimadas anuais, de junho a outubro, renovam pastagens e abrem trilhas, sobretudo na periferia da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P19",
+            "factKey": "tsingy-bemaraha-F37",
+            "text": "A proteção natural do carste limita a maior parte dos impactos, mas o desmatamento para agricultura, o gado e a extração de madeira pressionam a floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_KBA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P20",
+            "factKey": "tsingy-bemaraha-F38",
+            "text": "Uma trilha sísmica aberta em 1984 e uma estrada da indústria do petróleo deram acesso a áreas antes isoladas; há gás natural sob a área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_KBA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P21",
+            "factKey": "tsingy-bemaraha-F20",
+            "text": "A reserva integral de 1927 virou monumento natural em 1939; em 1997, a parte sul (72.340 ha) tornou-se parque nacional para o ecoturismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_MNP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P22",
+            "factKey": "tsingy-bemaraha-F21",
+            "text": "Inscrito em 1990, o bem foi ampliado em 2023 numa série de florestas secas da ilha, junto com Ankarana, Ankarafantsika e outras áreas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P23",
+            "factKey": "tsingy-bemaraha-F39",
+            "text": "O maciço integra o centro de endemismo de Melaky, em florestas secas moldadas por mudanças paleoclimáticas dos últimos milhões de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TSINGY_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P24",
+            "factKey": "tsingy-bemaraha-F22",
+            "text": "Situado a 60–80 km da costa oeste de Madagascar, é limitado pelos rios Manambolo, ao sul, e Soahany, ao norte.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TSINGY_KBA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "tsingy-bemaraha-geografo-P25",
+            "factKey": "tsingy-bemaraha-F24",
+            "text": "Os pináculos calcários desse maciço malgaxe são chamados de tsingy.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TSINGY_IUCN",
+              "TSINGY_MNP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Maciço calcário do oeste de Madagascar, na região de Melaky, onde a erosão cárstica esculpiu pináculos de até 100 m — a \"floresta de pedras afiadas\" — cortados pelo cânion do rio Manambolo; reserva desde 1927, Patrimônio Mundial desde 1990 e lar de onze espécies de lêmures.",
+      "editorialNotes": [
+        "Desde 2023 o bem da UNESCO se chama Florestas Secas de Andrefana (série que inclui Ankarana, Ankarafantsika e outras áreas); o título usa o nome tradicional do componente.",
+        "Área: 157.710 ha somando reserva integral e parque (Madagascar National Parks); a avaliação da IUCN de 2020 registra 152.000 ha declarados e aponta a contradição. O estatuto atual da metade norte também diverge entre as fontes (decreto de 2011 citado pela IUCN x reserva integral no site do parque); nenhuma pista depende disso.",
+        "A página da lista da UNESCO não foi usada; o texto da UNESCO foi conferido na decisão 45 COM 8B.2 (2023)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: avaliação da IUCN (2020), ficha KBA, site da Madagascar National Parks e decisão 45 COM 8B.2 da UNESCO; C1 com 14 paisagens naturais africanas comparáveis."
+    }
+  },
+  "sources": {
+    "TSINGY_IUCN": {
+      "id": "TSINGY_IUCN",
+      "title": "Tsingy de Bemaraha Strict Nature Reserve — 2020 Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook (cópia na Africa Knowledge Platform da Comissão Europeia)",
+      "url": "https://africa-knowledge-platform.ec.europa.eu/sites/default/files/2020-12/Tsingy%20de%20Bemaraha%20Strict%20Nature%20Reserve%20-%202020%20COA%20-%20en.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TSINGY_KBA": {
+      "id": "TSINGY_KBA",
+      "title": "Tsingy de Bemaraha National Park and Strict Nature Reserve (KBA 6558)",
+      "publisher": "Key Biodiversity Areas Partnership",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/6558",
+      "checkedAt": "2026-11-15"
+    },
+    "TSINGY_MNP": {
+      "id": "TSINGY_MNP",
+      "title": "Tsingy de Bemaraha",
+      "publisher": "Madagascar National Parks",
+      "url": "https://parcs-madagascar.com/?p=11189",
+      "checkedAt": "2026-11-15"
+    },
+    "TSINGY_UNESCO": {
+      "id": "TSINGY_UNESCO",
+      "title": "Decision 45 COM 8B.2 — Andrefana Dry Forests (Madagascar)",
+      "publisher": "UNESCO World Heritage Committee",
+      "url": "https://whc.unesco.org/en/decisions/8377",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://africa-knowledge-platform.ec.europa.eu/sites/default/files/2020-12/Tsingy%20de%20Bemaraha%20Strict%20Nature%20Reserve%20-%202020%20COA%20-%20en.pdf",
+      "https://www.keybiodiversityareas.org/site/factsheet/6558",
+      "https://parcs-madagascar.com/?p=11189",
+      "https://whc.unesco.org/en/decisions/8377"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

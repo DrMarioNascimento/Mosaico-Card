@@ -1,0 +1,1075 @@
+{
+  "case": {
+    "id": "lug3-abu-simbel",
+    "placeId": "abu-simbel",
+    "title": "Templos de Abu Simbel",
+    "aliases": [
+      "Abu Simbel"
+    ],
+    "answerType": "conjunto de templos",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "EG"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Monumento do antigo Egito e da Núbia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Templos de Abu Simbel"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Templo de Karnak"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Templo de Luxor"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Vale dos Reis"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Templo de Hatshepsut em Deir el-Bahari"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Templo de Ísis em Philae"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Templo de Edfu"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Templo de Kom Ombo"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Templo de Dendera"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Templo de Kalabsha"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Templo de Seti I em Abidos"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Pirâmides de Gizé"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Pirâmides de Meroé"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Templos de Abu Simbel",
+        "sources": [
+          "ABUS_EBK",
+          "ABUS_UNESCO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Faraó que mandou construir os templos",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ramsés II"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Tutmés III"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Amenhotep III"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Seti I"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ramsés II",
+        "sources": [
+          "ABUS_EBK",
+          "ABUS_UNESCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Motivo da transferência dos templos nos anos 1960",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Formação do lago de uma grande represa"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Avanço das dunas do deserto"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Rachaduras causadas por um terremoto"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Abertura de um canal de navegação"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Formação do lago de uma grande represa",
+        "sources": [
+          "ABUS_UNESCO",
+          "ABUS_EBK",
+          "ABUS_NATGEO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "A quem foi dedicado o templo menor do conjunto",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "À rainha Nefertari, para o culto da deusa Hator"
+          },
+          {
+            "id": "C4-O2",
+            "text": "À rainha Hatshepsut, para o culto de Amon"
+          },
+          {
+            "id": "C4-O3",
+            "text": "À rainha Nefertiti, para o culto de Aton"
+          },
+          {
+            "id": "C4-O4",
+            "text": "À rainha Tiye, para o culto de Ísis"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "À rainha Nefertari, para o culto da deusa Hator",
+        "sources": [
+          "ABUS_EBK"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "abu-simbel-viajante-P01",
+            "factKey": "abu-simbel-F01",
+            "text": "São templos antigos escavados num penhasco à beira de um grande rio, numa região de deserto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P02",
+            "factKey": "abu-simbel-F02",
+            "text": "Na fachada, estátuas gigantes de um faraó sentado vigiam a entrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_EBK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P03",
+            "factKey": "abu-simbel-F03",
+            "text": "São quatro estátuas colossais, com 20 a 21 metros de altura, conforme a fonte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P04",
+            "factKey": "abu-simbel-F04",
+            "text": "O faraó que mandou fazer os templos reinou mais ou menos de 1279 a 1213 a.C., na 19ª dinastia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P05",
+            "factKey": "abu-simbel-F05",
+            "text": "As quatro estátuas da fachada representam Ramsés II.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P06",
+            "factKey": "abu-simbel-F06",
+            "text": "O templo maior foi dedicado aos deuses do sol Amon-Rá e Rá-Horakhty.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P07",
+            "factKey": "abu-simbel-F07",
+            "text": "Lá dentro, três salões avançam 56 metros rocha adentro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P08",
+            "factKey": "abu-simbel-F08",
+            "text": "Por volta de 22 de fevereiro e de 22 de outubro, os primeiros raios do sol atravessam o templo inteiro e iluminam o santuário do fundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P09",
+            "factKey": "abu-simbel-F09",
+            "text": "Logo ao norte fica um templo menor, dedicado à rainha Nefertari para o culto da deusa Hator.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P10",
+            "factKey": "abu-simbel-F10",
+            "text": "As estátuas do faraó e da rainha no templo menor têm 10,5 metros de altura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P11",
+            "factKey": "abu-simbel-F11",
+            "text": "Soldados gregos do século VI a.C. deixaram inscrições em duas das estátuas, que ajudam a estudar o alfabeto grego antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P12",
+            "factKey": "abu-simbel-F12",
+            "text": "Por muito tempo a areia cobriu os templos; o suíço Johann Ludwig Burckhardt os redescobriu em 1813.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_NATGEO",
+              "ABUS_EBK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P13",
+            "factKey": "abu-simbel-F13",
+            "text": "Em 1817, o italiano Giovanni Battista Belzoni explorou os templos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P14",
+            "factKey": "abu-simbel-F14",
+            "text": "Ficam no sul do Egito, na região da Núbia, perto da fronteira com o Sudão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_NATGEO",
+              "ABUS_EGY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P15",
+            "factKey": "abu-simbel-F15",
+            "text": "Nos anos 1960, o reservatório de uma grande represa ia cobrir os templos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P16",
+            "factKey": "abu-simbel-F16",
+            "text": "Em novembro de 1963, operários começaram a cortar os templos com serras de fio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P17",
+            "factKey": "abu-simbel-F17",
+            "text": "Mais de mil blocos, de cerca de 30 toneladas cada, foram numerados, guardados e montados de novo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P18",
+            "factKey": "abu-simbel-F18",
+            "text": "Os templos foram remontados num penhasco artificial, 64 metros mais alto e 180 metros mais para dentro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P19",
+            "factKey": "abu-simbel-F19",
+            "text": "A inauguração no novo lugar aconteceu em 22 de setembro de 1968.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P20",
+            "factKey": "abu-simbel-F20",
+            "text": "O lugar original está debaixo d'água, no fundo de um lago artificial de cerca de 480 km (298 milhas) de comprimento.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P21",
+            "factKey": "abu-simbel-F21",
+            "text": "Os templos celebravam uma vitória sobre os hititas na batalha de Kadesh, por volta de 1275 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P22",
+            "factKey": "abu-simbel-F22",
+            "text": "Eles também serviam para lembrar a Núbia do poder do Egito.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P23",
+            "factKey": "abu-simbel-F23",
+            "text": "Junto com o santuário de Ísis em Philae e outros monumentos núbios, é Patrimônio Mundial desde 1979.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P24",
+            "factKey": "abu-simbel-F24",
+            "text": "Esses templos foram salvos pela campanha internacional que a UNESCO lançou em 1960 para resgatar os monumentos da Núbia.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-viajante-P25",
+            "factKey": "abu-simbel-F25",
+            "text": "São os templos que Ramsés II mandou escavar num penhasco de arenito da margem oeste do Nilo, ao sul de Korosko.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "abu-simbel-geografo-P01",
+            "factKey": "abu-simbel-F14",
+            "text": "O conjunto pertence à Núbia, região histórica entre o sul do Egito e o norte do Sudão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EGY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P02",
+            "factKey": "abu-simbel-F26",
+            "text": "O caso opôs uma grande obra moderna, voltada à agricultura e à energia, à preservação de monumentos antigos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P03",
+            "factKey": "abu-simbel-F25",
+            "text": "Os templos foram talhados diretamente no arenito de um penhasco da margem oeste do Nilo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P04",
+            "factKey": "abu-simbel-F27",
+            "text": "A fachada do templo maior foi esculpida na rocha maciça no século XIII a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P05",
+            "factKey": "abu-simbel-F21",
+            "text": "A obra de um rei da 19ª dinastia comemorava a batalha de Kadesh contra os hititas e afirmava o domínio egípcio sobre a Núbia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P06",
+            "factKey": "abu-simbel-F08",
+            "text": "O eixo do templo maior está alinhado ao nascer do sol: duas vezes por ano a luz chega ao santuário mais interno, efeito reproduzido na remontagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P07",
+            "factKey": "abu-simbel-F28",
+            "text": "Em 1959, o Egito construía a Represa Alta de Assuã para ampliar a agricultura e a geração de energia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P08",
+            "factKey": "abu-simbel-F29",
+            "text": "O reservatório da represa submergiria os monumentos do vale; a ilha de Philae já era inundada periodicamente pelo Nilo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P09",
+            "factKey": "abu-simbel-F20",
+            "text": "O lago artificial formado tem cerca de 480 km de extensão, e seu extremo sul avança pelo Sudão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P10",
+            "factKey": "abu-simbel-F30",
+            "text": "Egito e Sudão pediram ajuda à UNESCO, que lançou em 8 de março de 1960 a Campanha Internacional para Salvar os Monumentos da Núbia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P11",
+            "factKey": "abu-simbel-F16",
+            "text": "Com o lago enchendo rápido, o corte começou em novembro de 1963; um dique provisório manteve o local seco durante a obra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P12",
+            "factKey": "abu-simbel-F17",
+            "text": "Os templos foram desmontados em mais de mil blocos de cerca de 30 toneladas e remontados num penhasco artificial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P13",
+            "factKey": "abu-simbel-F18",
+            "text": "A nova posição fica 64 m acima e 180 m para o interior em relação ao sítio original.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P14",
+            "factKey": "abu-simbel-F31",
+            "text": "A obra exigiu estradas de acesso, uma usina de energia, moradias para os operários e um monte artificial com cúpulas de concreto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P15",
+            "factKey": "abu-simbel-F32",
+            "text": "O desmonte terminou em abril de 1966, e a reinauguração foi em 22 de setembro de 1968.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P16",
+            "factKey": "abu-simbel-F33",
+            "text": "Na campanha, 40 missões técnicas de cinco continentes salvaram 22 monumentos e conjuntos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P17",
+            "factKey": "abu-simbel-F34",
+            "text": "O custo total foi de 80 milhões de dólares, cerca de metade doada por uns 50 países.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P18",
+            "factKey": "abu-simbel-F35",
+            "text": "Cerca de 30 países formaram comitês nacionais de apoio, e 30 países emitiram selos para arrecadar fundos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO",
+              "ABUS_NATGEO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P19",
+            "factKey": "abu-simbel-F36",
+            "text": "O ministro francês André Malraux comparou o plano a uma \"Tennessee Valley Authority da arqueologia\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P20",
+            "factKey": "abu-simbel-F37",
+            "text": "A campanha impulsionou a criação da Convenção do Patrimônio Mundial e inspirou outras na Itália, no Paquistão e na Indonésia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P21",
+            "factKey": "abu-simbel-F38",
+            "text": "Os monumentos de Philae foram transferidos para a ilha mais alta de Agilkia entre 1972 e 1979.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P22",
+            "factKey": "abu-simbel-F23",
+            "text": "Inscrito em 1979, o bem núbio reúne sítios entre Assuã e o sul do Egito, como Amada, Wadi es-Sebua, Kalabsha e Philae.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EGY",
+              "ABUS_EBK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P23",
+            "factKey": "abu-simbel-F11",
+            "text": "Inscrições de soldados gregos do século VI a.C. nas estátuas servem de fonte sobre a história inicial do alfabeto grego.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_EBK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P24",
+            "factKey": "abu-simbel-F39",
+            "text": "Os dois templos de Ramsés II na Núbia, o maior para deuses solares e o menor para Nefertari e Hator, foram remontados mais de 60 m acima do sítio original.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "ABUS_EBK",
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "abu-simbel-geografo-P25",
+            "factKey": "abu-simbel-F24",
+            "text": "Seus templos e o santuário de Ísis em Philae são os destaques do conjunto salvo pela campanha internacional da UNESCO, de 1960 a 1980.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ABUS_UNESCO_NHK",
+              "ABUS_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Dois templos escavados por ordem de Ramsés II no século XIII a.C. num penhasco de arenito da margem oeste do Nilo, na Núbia egípcia — o maior dedicado a deuses solares, o menor a Nefertari e à deusa Hator —, desmontados e remontados num terreno mais alto entre 1963 e 1968 para escapar do lago da Represa Alta de Assuã.",
+      "editorialNotes": [
+        "Altura das estátuas colossais: 20 m (Britannica) ou 21 m (UNESCO); elevação da nova posição: mais de 60 m (Britannica) ou 64 m (UNESCO). As pistas usam as duas faixas ou a UNESCO.",
+        "Número de blocos: a UNESCO e a National Geographic falam em mais de mil blocos de cerca de 30 t; a Britannica Kids fala em 16 mil. As pistas seguem a UNESCO.",
+        "Diferença em relação às Pirâmides de Gizé, já no banco: templos escavados na rocha na Núbia, do Novo Império, e a transferência dos anos 1960."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: página da UNESCO sobre o resgate, descrição UNESCO/NHK, site do Ministério do Turismo e Antiguidades do Egito, Britannica (edição para estudantes) e National Geographic; C1 com 13 monumentos egípcios e núbios comparáveis."
+    }
+  },
+  "sources": {
+    "ABUS_EBK": {
+      "id": "ABUS_EBK",
+      "title": "Abu Simbel",
+      "publisher": "Encyclopaedia Britannica (Britannica Kids, edição para estudantes)",
+      "url": "https://kids.britannica.com/students/article/Abu-Simbel/309662",
+      "checkedAt": "2026-11-15"
+    },
+    "ABUS_UNESCO": {
+      "id": "ABUS_UNESCO",
+      "title": "Working Together: Abu Simbel",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/story-abu-simbel",
+      "checkedAt": "2026-11-15"
+    },
+    "ABUS_UNESCO_NHK": {
+      "id": "ABUS_UNESCO_NHK",
+      "title": "Nubian Monuments from Abu Simbel to Philae (UNESCO/NHK)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/104057",
+      "checkedAt": "2026-11-15"
+    },
+    "ABUS_EGY": {
+      "id": "ABUS_EGY",
+      "title": "Nubian Monuments from Abu Simbel to Philae",
+      "publisher": "Ministério do Turismo e Antiguidades do Egito (egymonuments.gov.eg)",
+      "url": "https://egymonuments.gov.eg/world-heritage/nubian-monuments-from-abu-simbel-to-philae",
+      "checkedAt": "2026-11-15"
+    },
+    "ABUS_NATGEO": {
+      "id": "ABUS_NATGEO",
+      "title": "Epic engineering rescued colossal ancient Egyptian temples from floodwaters",
+      "publisher": "National Geographic",
+      "url": "https://nationalgeographic.com/history/history-magazine/article/egyptian-temples-excavation-abu-simbel",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://kids.britannica.com/students/article/Abu-Simbel/309662",
+      "https://whc.unesco.org/en/story-abu-simbel",
+      "https://whc.unesco.org/en/documents/104057",
+      "https://egymonuments.gov.eg/world-heritage/nubian-monuments-from-abu-simbel-to-philae",
+      "https://nationalgeographic.com/history/history-magazine/article/egyptian-temples-excavation-abu-simbel"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

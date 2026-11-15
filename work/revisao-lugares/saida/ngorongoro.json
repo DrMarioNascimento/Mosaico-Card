@@ -1,0 +1,1075 @@
+{
+  "case": {
+    "id": "lug3-ngorongoro",
+    "placeId": "ngorongoro",
+    "title": "Área de Conservação de Ngorongoro",
+    "aliases": [
+      "Ngorongoro"
+    ],
+    "answerType": "área de conservação",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "TZ"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área protegida africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Área de Conservação de Ngorongoro"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional do Serengeti"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Reserva Nacional Maasai Mara"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Amboseli"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Tarangire"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional do Lago Manyara"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Kruger"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Etosha"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Chobe"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional de Hwange"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de South Luangwa"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Reserva de Caça Selous"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Queen Elizabeth"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional de Tsavo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Área de Conservação de Ngorongoro",
+        "sources": [
+          "NGORO_UNESCO",
+          "NGORO_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Origem da grande depressão central da área",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Colapso de um vulcão após uma erupção"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Impacto de um meteorito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Dissolução de rochas calcárias"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Escavação por geleiras"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Colapso de um vulcão após uma erupção",
+        "sources": [
+          "NGORO_EB_CRATERA",
+          "NGORO_UNESCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Povo pastor que vive na área com seus rebanhos",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Maasai"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Himba"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Tuaregue"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Fula"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Maasai",
+        "sources": [
+          "NGORO_UNESCO",
+          "NGORO_IUCN",
+          "NGORO_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Sítio de fósseis de hominínios que fica dentro da área",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Garganta de Olduvai"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cavernas de Sterkfontein"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Hadar"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Koobi Fora"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Garganta de Olduvai",
+        "sources": [
+          "NGORO_UNESCO",
+          "NGORO_EB",
+          "NGORO_EBSCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ngorongoro-viajante-P01",
+            "factKey": "ngorongoro-F01",
+            "text": "Aqui dá para ver leões, hienas, zebras e grandes manadas de gnus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P02",
+            "factKey": "ngorongoro-F02",
+            "text": "A paisagem mistura planícies de capim, savana com árvores, florestas, montanhas, lagos e pântanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P03",
+            "factKey": "ngorongoro-F03",
+            "text": "Fica no norte da Tanzânia, na região de Arusha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P04",
+            "factKey": "ngorongoro-F04",
+            "text": "Fica a sudeste do Parque Nacional do Serengeti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P05",
+            "factKey": "ngorongoro-F05",
+            "text": "A grande atração é uma cratera gigante, com 16 a 19 km de uma borda à outra.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P06",
+            "factKey": "ngorongoro-F06",
+            "text": "A borda, coberta de floresta, chega a 2.286 metros de altitude, e o fundo fica 610 metros abaixo dela.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P07",
+            "factKey": "ngorongoro-F07",
+            "text": "O fundo da cratera tem cerca de 264 km², e muitos animais vivem lá dentro o ano todo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA",
+              "NGORO_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P08",
+            "factKey": "ngorongoro-F08",
+            "text": "A cratera nasceu há cerca de 2,5 milhões de anos, quando um grande vulcão desabou depois de uma erupção.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P09",
+            "factKey": "ngorongoro-F09",
+            "text": "Outras duas crateras vulcânicas da área são Olmoti e Empakaai; nesta, um lago alcalino profundo cobre quase metade do fundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P10",
+            "factKey": "ngorongoro-F10",
+            "text": "Flamingos estão entre as mais de 400 espécies de aves da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P11",
+            "factKey": "ngorongoro-F11",
+            "text": "O rinoceronte-negro, criticamente ameaçado, é uma das espécies raras protegidas ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P12",
+            "factKey": "ngorongoro-F12",
+            "text": "A área tem uma das maiores densidades de mamíferos predadores da África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P13",
+            "factKey": "ngorongoro-F13",
+            "text": "Pastores maasai vivem ali com seus rebanhos, lado a lado com os animais selvagens.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P14",
+            "factKey": "ngorongoro-F14",
+            "text": "Plantar lavouras é proibido, mas os pastores podem levar o gado para pastar.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P15",
+            "factKey": "ngorongoro-F15",
+            "text": "A área fazia parte do parque vizinho desde 1951 e virou uma unidade separada em 1959.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P16",
+            "factKey": "ngorongoro-F16",
+            "text": "Uma ravina profunda da área guarda fósseis de várias espécies humanas, dos australopitecos ao Homo sapiens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P17",
+            "factKey": "ngorongoro-F17",
+            "text": "Em 1959, a arqueóloga Mary Leakey achou ali dentes e fragmentos do crânio de um hominínio de cerca de 1,75 milhão de anos, apelidado de \"homem quebra-nozes\".",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P18",
+            "factKey": "ngorongoro-F18",
+            "text": "As ferramentas de pedra achadas nessa ravina deram nome a uma tradição técnica: a olduvaiense.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P19",
+            "factKey": "ngorongoro-F19",
+            "text": "Em outro sítio da área, Laetoli, ficaram pegadas fossilizadas de 3,6 milhões de anos ligadas ao andar sobre dois pés.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P20",
+            "factKey": "ngorongoro-F20",
+            "text": "Entrou na lista do Patrimônio Mundial em 1979 pela natureza e, em 2010, também pela cultura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P21",
+            "factKey": "ngorongoro-F21",
+            "text": "Em 2014, a área recebeu cerca de 650 mil visitantes, e o fundo da cratera costuma ficar congestionado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P22",
+            "factKey": "ngorongoro-F22",
+            "text": "A altitude vai de cerca de 1.000 metros, junto ao lago Eyasi, a 3.600 metros no alto das montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P23",
+            "factKey": "ngorongoro-F23",
+            "text": "Na migração anual, mais de 1 milhão de gnus, 72 mil zebras e cerca de 350 mil gazelas passam pela área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P24",
+            "factKey": "ngorongoro-F24",
+            "text": "Abriga a maior caldeira vulcânica intacta do mundo, no norte da Tanzânia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-viajante-P25",
+            "factKey": "ngorongoro-F25",
+            "text": "Na mesma área ficam a cratera gigante, a ravina dos fósseis estudada pelos Leakey e as pegadas de Laetoli.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_EBSCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ngorongoro-geografo-P01",
+            "factKey": "ngorongoro-F26",
+            "text": "O território se estende das planícies de um grande parque vizinho, a noroeste, até o braço oriental do Grande Vale do Rift.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P02",
+            "factKey": "ngorongoro-F27",
+            "text": "O modelo de gestão tenta conciliar conservação da fauna, pastoreio e turismo no mesmo território.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P03",
+            "factKey": "ngorongoro-F28",
+            "text": "A região é geologicamente ativa desde o fim do Mesozoico e fica no flanco oeste do Grande Vale do Rift.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P04",
+            "factKey": "ngorongoro-F08",
+            "text": "A caldeira resulta do colapso do cone de um grande vulcão ativo após uma erupção, há cerca de 2,5 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P05",
+            "factKey": "ngorongoro-F29",
+            "text": "Os principais edifícios vulcânicos da área, a caldeira central e os vulcões Olmoti e Empakaai, formaram-se entre 20 milhões e 2 milhões de anos atrás.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P06",
+            "factKey": "ngorongoro-F06",
+            "text": "A borda florestada, a 2.286 m, ergue-se 610 m acima do fundo da caldeira, que tem de 16 a 19 km de diâmetro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_EB_CRATERA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P07",
+            "factKey": "ngorongoro-F30",
+            "text": "Cinzas lançadas pelo vulcão vizinho Ol Doinyo Lengai aumentam a fertilidade dos campos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P08",
+            "factKey": "ngorongoro-F31",
+            "text": "Além dos vulcões, a área tem dunas de areia formadas pelo vento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P09",
+            "factKey": "ngorongoro-F32",
+            "text": "A erosão por rios sazonais expôs camadas com fósseis nas gargantas de Olduvai e Laetoli.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P10",
+            "factKey": "ngorongoro-F33",
+            "text": "As camadas vulcânicas da ravina, divididas em quatro leitos, permitem datar fósseis e ferramentas por métodos radiométricos; o leito I tem mais de 2 milhões de anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_EBSCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P11",
+            "factKey": "ngorongoro-F17",
+            "text": "O achado de 1959, um hominínio robusto de cerca de 1,75 milhão de anos, recuou a idade conhecida dos primeiros hominínios e reforçou a ideia da África como berço da humanidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NGORO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P12",
+            "factKey": "ngorongoro-F19",
+            "text": "Pegadas fossilizadas de cerca de 3,6 milhões de anos registram o desenvolvimento do bipedalismo humano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P13",
+            "factKey": "ngorongoro-F34",
+            "text": "O registro arqueológico da área cobre quase 4 milhões de anos de evolução humana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P14",
+            "factKey": "ngorongoro-F35",
+            "text": "Cerca de 25 mil grandes animais, sobretudo ungulados, vivem na área, que ocupa a ponta sul de um ecossistema de migração muito maior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P15",
+            "factKey": "ngorongoro-F07",
+            "text": "Cercada pelas paredes da caldeira, uma fauna densa permanece no fundo o ano inteiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NGORO_UNESCO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P16",
+            "factKey": "ngorongoro-F36",
+            "text": "A população de leões mais densa já conhecida, estimada em 68 animais em 1987, foi registrada ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P17",
+            "factKey": "ngorongoro-F13",
+            "text": "Os pastores maasai residentes passaram de cerca de 20 mil, na inscrição de 1979, para 93.136 em 2017.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P18",
+            "factKey": "ngorongoro-F37",
+            "text": "O crescimento da população pastoril, projetada em 161 mil pessoas para 2027, é a principal preocupação de longo prazo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P19",
+            "factKey": "ngorongoro-F38",
+            "text": "Cerca de 300 mil cabeças de gado dividem os pastos com a fauna, e o sobrepastoreio espalha plantas que os animais não comem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P20",
+            "factKey": "ngorongoro-F14",
+            "text": "A proibição de lavouras, com permissão de pastoreio, define o uso do solo pelos pastores dentro da área.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NGORO_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P21",
+            "factKey": "ngorongoro-F21",
+            "text": "O fundo da cratera ocupa menos de 5% da área, mas concentra o turismo, que chegou a 650 mil visitantes em 2014.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P22",
+            "factKey": "ngorongoro-F39",
+            "text": "Plantas exóticas invasoras, como a acácia-negra e a lantana, são classificadas como ameaça alta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P23",
+            "factKey": "ngorongoro-F22",
+            "text": "Com cerca de 8.094 km², a área vai de cerca de 1.000 m de altitude, no lago Eyasi, a 3.600 m nos picos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P24",
+            "factKey": "ngorongoro-F24",
+            "text": "A UNESCO destaca que a área abriga a maior caldeira intacta do mundo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ngorongoro-geografo-P25",
+            "factKey": "ngorongoro-F40",
+            "text": "Criada em 1959 como área de uso múltiplo, foi separada do parque nacional vizinho para que fauna selvagem e pastores maasai dividissem o território.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "NGORO_UNESCO",
+              "NGORO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Área de uso múltiplo do norte da Tanzânia, criada em 1959 a sudeste do Serengeti, onde fauna selvagem e pastores maasai dividem o território; abriga a maior caldeira vulcânica intacta do mundo e os sítios de Olduvai e Laetoli, e é Patrimônio Mundial natural (1979) e cultural (2010).",
+      "editorialNotes": [
+        "Comprimento da garganta de Olduvai diverge (14 km na UNESCO, mais de 40 km no EBSCO); nenhuma pista usa o número.",
+        "Aves: mais de 400 espécies (Britannica) ou cerca de 500 (IUCN); a pista usa a Britannica. Área: 809.440 ha (UNESCO), 8.094 km² (IUCN) ou cerca de 8.300 km² (Britannica).",
+        "A população maasai cresce rápido (93.136 em 2017, segundo a IUCN); as pistas com números trazem o ano. Diferença em relação ao Serengeti, já no banco: cratera, Olduvai/Laetoli e pastoreio maasai."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: página da UNESCO (declaração de valor universal), avaliação da IUCN (2020), dois verbetes da Britannica e EBSCO Research Starter sobre o achado de 1959; C1 com 14 áreas protegidas africanas comparáveis."
+    }
+  },
+  "sources": {
+    "NGORO_UNESCO": {
+      "id": "NGORO_UNESCO",
+      "title": "Ngorongoro Conservation Area",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/39/",
+      "checkedAt": "2026-11-15"
+    },
+    "NGORO_IUCN": {
+      "id": "NGORO_IUCN",
+      "title": "Ngorongoro Conservation Area — 2020 Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook (cópia no BIOPAMA)",
+      "url": "https://old.biopama.org/sites/default/files/2020-12/Ngorongoro%20Conservation%20Area%20-%202020%20COA%20-%20en.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "NGORO_EB": {
+      "id": "NGORO_EB",
+      "title": "Ngorongoro Conservation Area",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/413567",
+      "checkedAt": "2026-11-15"
+    },
+    "NGORO_EB_CRATERA": {
+      "id": "NGORO_EB_CRATERA",
+      "title": "Ngorongoro Crater",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Ngorongoro-Crater",
+      "checkedAt": "2026-11-15"
+    },
+    "NGORO_EBSCO": {
+      "id": "NGORO_EBSCO",
+      "title": "Leakeys Find a 1.75-Million-Year-Old Fossil Hominid (Research Starter)",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/history/leakeys-find-175-million-year-old-fossil-hominid",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/39/",
+      "https://old.biopama.org/sites/default/files/2020-12/Ngorongoro%20Conservation%20Area%20-%202020%20COA%20-%20en.pdf",
+      "https://www.britannica.com/print/article/413567",
+      "https://www.britannica.com/place/Ngorongoro-Crater",
+      "https://www.ebsco.com/research-starters/history/leakeys-find-175-million-year-old-fossil-hominid"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

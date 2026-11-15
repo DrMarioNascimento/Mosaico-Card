@@ -1,0 +1,1109 @@
+{
+  "case": {
+    "id": "lug3-cartago",
+    "placeId": "cartago",
+    "title": "Cartago",
+    "aliases": [
+      "Carthage"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "TN"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio arqueológico africano",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cartago"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pirâmides de Gizé"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Grande Zimbábue"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ruínas de Kilwa Kisiwani e Songo Mnara"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Mbanza Kongo"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Templos de Abu Simbel"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Aksum"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Leptis Magna"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Sabratha"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cirene"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Volubilis"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Dougga"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Cidade Púnica de Kerkouane"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Anfiteatro de El Djem"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Timgad"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Tipasa"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Djémila"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cartago",
+        "sources": [
+          "CARTAGO_UNESCO",
+          "CARTAGO_UNESCO_ES"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Povo da primeira cidade fundada no local",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Fenícios"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Gregos"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Etruscos"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Egípcios"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Fenícios",
+        "sources": [
+          "CARTAGO_UNESCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Divindade de um santuário repleto de estelas",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Baal"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ísis"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Júpiter"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Apolo"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Baal",
+        "sources": [
+          "CARTAGO_UNESCO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Golfo dominado pela colina do sítio",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Golfo de Túnis"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Golfo de Gabès"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Golfo de Hammamet"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Golfo de Sidra"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Golfo de Túnis",
+        "sources": [
+          "CARTAGO_UNESCO"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cartago-viajante-P01",
+            "factKey": "cartago-F01",
+            "text": "Este destino é um conjunto de ruínas antigas à beira do Mediterrâneo, na África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P02",
+            "factKey": "cartago-F02",
+            "text": "Está na lista do Patrimônio Mundial da UNESCO desde 1979.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO_ES",
+              "CARTAGO_SOC2023"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P03",
+            "factKey": "cartago-F03",
+            "text": "A primeira cidade do local foi fundada no século IX a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_UNESCO_ES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P04",
+            "factKey": "cartago-F04",
+            "text": "A partir do século VI a.C., ela virou o centro de um grande império comercial que cobria boa parte do Mediterrâneo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_UNESCO_ES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P05",
+            "factKey": "cartago-F05",
+            "text": "As ruínas ficam numa colina que domina um golfo e a planície em volta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P06",
+            "factKey": "cartago-F06",
+            "text": "O país onde fica o sítio é a Tunísia.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CARTAGO_SOC2011",
+              "CARTAGO_SOC2023"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P07",
+            "factKey": "cartago-F07",
+            "text": "Segundo a lenda, a fundadora da cidade foi uma princesa vinda de Tiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P08",
+            "factKey": "cartago-F08",
+            "text": "O sítio é um testemunho excepcional da civilização fenício-púnica, na época o grande centro da parte ocidental do Mediterrâneo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P09",
+            "factKey": "cartago-F09",
+            "text": "Depois de longas guerras contra Roma, a cidade acabou destruída pela rival.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_UNESCO_ES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P10",
+            "factKey": "cartago-F10",
+            "text": "Sobre as ruínas da primeira cidade, os romanos ergueram uma segunda, por ordem de Júlio César.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P11",
+            "factKey": "cartago-F11",
+            "text": "No tempo dos romanos, ela foi a capital da província da África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P12",
+            "factKey": "cartago-F12",
+            "text": "Há vestígios deixados por púnicos, romanos, vândalos, primeiros cristãos e árabes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P13",
+            "factKey": "cartago-F13",
+            "text": "Um santuário antigo guarda muitas estelas, pedras gravadas que mostram influências de várias culturas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P14",
+            "factKey": "cartago-F14",
+            "text": "Esse santuário das estelas era dedicado ao deus Baal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P15",
+            "factKey": "cartago-F15",
+            "text": "Os portos antigos contam mais de dez séculos de trocas comerciais e culturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P16",
+            "factKey": "cartago-F16",
+            "text": "Entre as ruínas estão teatro, anfiteatro, circo, basílicas, necrópoles e as Termas de Antonino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_SOC2012"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P17",
+            "factKey": "cartago-F17",
+            "text": "Cisternas antigas, usadas para guardar água, também fazem parte do conjunto protegido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_SOC2011"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P18",
+            "factKey": "cartago-F18",
+            "text": "Santo Agostinho se formou ali e voltou várias vezes; o lugar também é ligado ao mártir São Cipriano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P19",
+            "factKey": "cartago-F19",
+            "text": "O escritor Apuleio, tido como fundador da literatura latino-africana, é ligado à cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P20",
+            "factKey": "cartago-F20",
+            "text": "Na primeira metade do século XX, a cidade moderna cresceu sem controle e alterou parte do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P21",
+            "factKey": "cartago-F21",
+            "text": "Uma estátua de Ganimedes foi roubada do museu do sítio em 2013 e depois recuperada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2018"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P22",
+            "factKey": "cartago-F22",
+            "text": "A UNESCO pediu um plano de turismo para conter o comércio informal na chamada Praça da UNESCO e em volta das Termas de Antonino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2018",
+              "CARTAGO_SOC2016"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P23",
+            "factKey": "cartago-F23",
+            "text": "A cidade também deu ao mundo um navegador e explorador da Antiguidade, Hanão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P24",
+            "factKey": "cartago-F24",
+            "text": "A fundadora lendária, a princesa Elissa-Dido, aparece na Eneida, de Virgílio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-viajante-P25",
+            "factKey": "cartago-F25",
+            "text": "A cidade produziu Aníbal, gênio da guerra e da estratégia, e suas ruínas dominam o golfo de Túnis.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cartago-geografo-P01",
+            "factKey": "cartago-F26",
+            "text": "Sítio urbano antigo do litoral africano onde várias culturas se sucederam, se misturaram e se difundiram.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P02",
+            "factKey": "cartago-F27",
+            "text": "A área central inscrita como Patrimônio Mundial tem cerca de 498 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P03",
+            "factKey": "cartago-F05",
+            "text": "A implantação em colina, dominando um golfo e a planície vizinha, é o traço topográfico que a UNESCO destaca no sítio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P04",
+            "factKey": "cartago-F15",
+            "text": "Os portos antigos funcionaram como eixo de trocas comerciais e culturais por mais de dez séculos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P05",
+            "factKey": "cartago-F04",
+            "text": "Desde o século VI a.C., a cidade esteve à frente de um império comercial que se estendia por boa parte do Mediterrâneo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_UNESCO_ES"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P06",
+            "factKey": "cartago-F08",
+            "text": "Foi a metrópole da civilização púnica na África, então o centro da bacia ocidental do Mediterrâneo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P07",
+            "factKey": "cartago-F07",
+            "text": "A origem fenício-púnica da primeira cidade aparece na lenda de sua fundadora, uma princesa de Tiro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P08",
+            "factKey": "cartago-F09",
+            "text": "Durante as longas Guerras Púnicas, a cidade ocupou territórios de Roma, que por fim destruiu a rival.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P09",
+            "factKey": "cartago-F10",
+            "text": "A refundação romana, ordenada por Júlio César, assentou uma nova cidade diretamente sobre as ruínas da anterior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P10",
+            "factKey": "cartago-F11",
+            "text": "Sob Roma, virou capital da província da África e um dos centros mais brilhantes da civilização afro-romana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P11",
+            "factKey": "cartago-F28",
+            "text": "A cidade antiga teve influência considerável no desenvolvimento das artes, da arquitetura e do urbanismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P12",
+            "factKey": "cartago-F29",
+            "text": "Do tecido urbano antigo restam a malha de ruas, o fórum, o teatro, as termas, os templos e a área residencial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P13",
+            "factKey": "cartago-F13",
+            "text": "As estelas do santuário dedicado a Baal registram a mistura de várias influências culturais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P14",
+            "factKey": "cartago-F30",
+            "text": "Segundo o relatório de 2016, as escavações no setor do santuário das estelas seguiam revelando novos achados.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CARTAGO_SOC2016"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P15",
+            "factKey": "cartago-F20",
+            "text": "A expansão urbana sem controle da primeira metade do século XX comprometeu parte da integridade do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P16",
+            "factKey": "cartago-F31",
+            "text": "A pressão urbana foi contida em grande parte pela proteção de um parque arqueológico nacional, classificado por decreto em 1985.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_SOC2011"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P17",
+            "factKey": "cartago-F32",
+            "text": "Entre 1992 e 2008, 14 desclassificações liberaram partes desse parque; um decreto-lei de março de 2011 as anulou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2012",
+              "CARTAGO_SOC2011"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P18",
+            "factKey": "cartago-F33",
+            "text": "Depois da Revolução de 2010–2011, as construções ilegais viraram a principal ameaça, sobretudo no leste do bairro do circo romano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2021"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P19",
+            "factKey": "cartago-F34",
+            "text": "A compra de terrenos na área protegida, com seis lotes adquiridos em 2018 e 2019, virou a medida-chave para começar a controlar a ocupação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2021"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P20",
+            "factKey": "cartago-F35",
+            "text": "Para a UNESCO, atacar as causas socioeconômicas da pressão imobiliária continua sendo o desafio central do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2021"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P21",
+            "factKey": "cartago-F36",
+            "text": "A gestão do sítio é integrada ao plano de desenvolvimento urbano da cidade atual de mesmo nome.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO",
+              "CARTAGO_SOC2012"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P22",
+            "factKey": "cartago-F37",
+            "text": "Desde 2019, uma unidade de arqueologia preventiva do Instituto Nacional do Patrimônio atua nas áreas urbanas vizinhas e analisa licenças de construção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2021",
+              "CARTAGO_SOC2023"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P23",
+            "factKey": "cartago-F38",
+            "text": "O conjunto hidráulico de cisternas e reservatórios poderá virar espaço cultural, com um centro de interpretação da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_SOC2018"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P24",
+            "factKey": "cartago-F39",
+            "text": "A UNESCO associa o lugar a Aníbal, ao navegador Hanão, ao escritor Apuleio, a São Cipriano e a Santo Agostinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cartago-geografo-P25",
+            "factKey": "cartago-F40",
+            "text": "A acrópole de Byrsa, os portos púnicos e o tofet compõem o sítio, que domina o golfo de Túnis.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CARTAGO_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Sítio arqueológico numa colina sobre o golfo de Túnis, na Tunísia, com as ruínas da metrópole fenício-púnica fundada no século IX a.C. e da cidade romana refundada sobre ela, capital da província da África; Patrimônio Mundial desde 1979.",
+      "editorialNotes": [
+        "A ficha da UNESCO dá a destruição por Roma em 146 a.C. na descrição, mas \"146 AD\" na síntese em inglês (erro evidente da página); por isso nenhuma pista usa o ano da destruição.",
+        "Todas as fontes são da UNESCO (ficha do bem, versão em espanhol para a área de 498,08 ha e relatórios de estado de conservação de 2011 a 2023): a cota de buscas acabou antes de abrir Britannica ou o Instituto Nacional do Patrimônio da Tunísia. As pistas de conservação trazem o ano do relatório quando a situação pode mudar.",
+        "No C1 há outros sítios púnicos (Kerkouane, Tipasa) e romanos do Magrebe; a diferenciação vem do golfo de Túnis, de Byrsa, da refundação por Júlio César, da capital da província da África e dos nomes de Elissa-Dido e Aníbal (pistas finais)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: ficha da UNESCO (descrição e declaração de valor universal, conferidas por citação), versão em espanhol e seis relatórios de estado de conservação (2011–2023); C1 com 17 sítios arqueológicos africanos comparáveis."
+    }
+  },
+  "sources": {
+    "CARTAGO_UNESCO": {
+      "id": "CARTAGO_UNESCO",
+      "title": "Archaeological Site of Carthage",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/037",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_UNESCO_ES": {
+      "id": "CARTAGO_UNESCO_ES",
+      "title": "Sitio arqueológico de Cartago",
+      "publisher": "UNESCO World Heritage Centre (versão em espanhol)",
+      "url": "https://whc.unesco.org/es/list/37",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2011": {
+      "id": "CARTAGO_SOC2011",
+      "title": "State of Conservation: Archaeological Site of Carthage (2011)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/391",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2012": {
+      "id": "CARTAGO_SOC2012",
+      "title": "State of Conservation: Archaeological Site of Carthage (2012)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/250",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2016": {
+      "id": "CARTAGO_SOC2016",
+      "title": "State of Conservation: Archaeological Site of Carthage (2016)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3404",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2018": {
+      "id": "CARTAGO_SOC2018",
+      "title": "State of Conservation: Archaeological Site of Carthage (2018)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3716",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2021": {
+      "id": "CARTAGO_SOC2021",
+      "title": "State of Conservation: Archaeological Site of Carthage (2021)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4075",
+      "checkedAt": "2026-11-15"
+    },
+    "CARTAGO_SOC2023": {
+      "id": "CARTAGO_SOC2023",
+      "title": "State of Conservation: Archaeological Site of Carthage (2023)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4412",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/037",
+      "https://whc.unesco.org/es/list/37",
+      "https://whc.unesco.org/en/soc/391",
+      "https://whc.unesco.org/en/soc/250",
+      "https://whc.unesco.org/en/soc/3404",
+      "https://whc.unesco.org/en/soc/3716",
+      "https://whc.unesco.org/en/soc/4075",
+      "https://whc.unesco.org/en/soc/4412"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1105 @@
+{
+  "case": {
+    "id": "lug3-purnululu",
+    "placeId": "purnululu",
+    "title": "Parque Nacional Purnululu",
+    "aliases": [],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Karijini"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Nitmiluk"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Litchfield"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Kalbarri"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Nambung"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Cape Range"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Mirima"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Watarrka"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Grampians"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional Ikara-Flinders Ranges"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Nacional Daintree"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Nacional Kosciuszko"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Parque Nacional Tongariro"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Parque Nacional Aoraki/Monte Cook"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Purnululu",
+        "sources": [
+          "PURN_PARKS",
+          "PURN_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Origem das faixas escuras que listram os domos de rocha",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Crostas de cianobactérias nas camadas mais úmidas do arenito"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Camadas de cinza vulcânica"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Veios de carvão mineral"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Liquens alimentados pela névoa marinha"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Crostas de cianobactérias nas camadas mais úmidas do arenito",
+        "sources": [
+          "PURN_DBCA_WHA",
+          "PURN_LANDSCOPE",
+          "PURN_IUCN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Tipo de relevo que justificou o critério geológico do Patrimônio Mundial",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Carste em cones de arenito"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Campo de dunas lineares"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Planalto basáltico"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Vulcões em escudo"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Carste em cones de arenito",
+        "sources": [
+          "PURN_IUCN",
+          "PURN_DBCA_WHA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Povo em cuja língua o nome do parque significa \"arenito\"",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Kija (Gija)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Anangu"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Malgana"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Bininj"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Kija (Gija)",
+        "sources": [
+          "PURN_DEC"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "purnululu-viajante-P01",
+            "factKey": "purnululu-F01",
+            "text": "Aqui quase toda a chuva do ano, uns 600 mm, cai num verão curto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P02",
+            "factKey": "purnululu-F02",
+            "text": "As paredes de rocha mudam de cor ao longo do dia: do marrom ao vermelho, ao laranja e ao dourado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P03",
+            "factKey": "purnululu-F03",
+            "text": "Os morros de arenito têm forma de colmeia e são listrados, em faixas alaranjadas e escuras.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PURN_PARKS",
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P04",
+            "factKey": "purnululu-F04",
+            "text": "Esses domos passam de 250 m de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P05",
+            "factKey": "purnululu-F05",
+            "text": "Uma trilha de 2 km, ida e volta, leva a um anfiteatro natural de rocha vermelha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P06",
+            "factKey": "purnululu-F06",
+            "text": "Num cânion estreito, as paredes chegam a 200 m de altura e, em alguns pontos, mal passam de 1 m de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P07",
+            "factKey": "purnululu-F07",
+            "text": "Palmeiras pré-históricas do gênero Livistona crescem nos desfiladeiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P08",
+            "factKey": "purnululu-F08",
+            "text": "O parque só abre de abril a novembro, se o tempo deixar; na estação chuvosa, fica fechado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P09",
+            "factKey": "purnululu-F09",
+            "text": "Só se chega de 4x4 de chassi alto, por uma estrada de terra de 53 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P10",
+            "factKey": "purnululu-F10",
+            "text": "Esse trecho de terra até o centro de visitantes leva de 1,5 a 3 horas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P11",
+            "factKey": "purnululu-F11",
+            "text": "Um mirante numa crista de calcário dá vista de 360 graus e é ótimo para o nascer e o pôr do sol.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P12",
+            "factKey": "purnululu-F12",
+            "text": "Mais de 130 espécies de aves aparecem por aqui, como abelharucos-arco-íris e periquitos-australianos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P13",
+            "factKey": "purnululu-F13",
+            "text": "Dragões-de-cauda-anelada tomam sol nas trilhas, e wallabies-de-cauda-de-unha podem cruzar as rochas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P14",
+            "factKey": "purnululu-F14",
+            "text": "Morcegos-fantasma e rãs de poças de rocha costumam ser vistos nas fendas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P15",
+            "factKey": "purnululu-F15",
+            "text": "Sobrevoos de helicóptero saem de dentro do parque, de Kununurra ou de Warmun.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P16",
+            "factKey": "purnululu-F16",
+            "text": "Drones são proibidos, e não se deve acenar para helicópteros, a não ser em emergência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P17",
+            "factKey": "purnululu-F17",
+            "text": "Há dois acampamentos públicos, Walardi e Kurrajong, e é essencial reservar antes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P18",
+            "factKey": "purnululu-F18",
+            "text": "Segundo o órgão de parques (2023), cerca de 30 mil pessoas visitam o parque por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P19",
+            "factKey": "purnululu-F19",
+            "text": "Um centro de visitantes novo e maior foi inaugurado em abril de 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS_DESTAQUE",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P20",
+            "factKey": "purnululu-F20",
+            "text": "Fica a 304 km de Kununurra e a 160 km de Halls Creek pela estrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P21",
+            "factKey": "purnululu-F21",
+            "text": "Um documentário de TV de 1983 sobre essas formações de rocha tornou o lugar famoso em todo o país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P22",
+            "factKey": "purnululu-F22",
+            "text": "A primeira boiada, de 4.000 cabeças, chegou à região em 1884.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P23",
+            "factKey": "purnululu-F23",
+            "text": "O parque foi criado pelo governo da Austrália Ocidental em 1987.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P24",
+            "factKey": "purnululu-F24",
+            "text": "O nome do parque é uma palavra do povo Kija que quer dizer \"arenito\".",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-viajante-P25",
+            "factKey": "purnululu-F25",
+            "text": "As \"colmeias\" listradas desta paisagem formam a cordilheira Bungle Bungle.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS",
+              "PURN_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "purnululu-geografo-P01",
+            "factKey": "purnululu-F26",
+            "text": "O arenito que forma este relevo foi depositado há cerca de 360 milhões de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_DBCA_WHA",
+              "PURN_DEC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P02",
+            "factKey": "purnululu-F27",
+            "text": "Nos últimos 20 milhões de anos, a erosão de rios e córregos e o intemperismo esculpiram domos, fendas e desfiladeiros.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P03",
+            "factKey": "purnululu-F28",
+            "text": "O conjunto é citado como o exemplo mais notável do mundo de carste em cones formado em arenito.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA",
+              "PURN_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P04",
+            "factKey": "purnululu-F29",
+            "text": "As faixas escuras são crostas de cianobactérias que crescem nas camadas onde a umidade se acumula.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P05",
+            "factKey": "purnululu-F30",
+            "text": "As faixas alaranjadas são camadas com compostos de ferro oxidados, que secam rápido demais para as cianobactérias se fixarem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA",
+              "PURN_LANDSCOPE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P06",
+            "factKey": "purnululu-F31",
+            "text": "As palmeiras Livistona e a crosta de cianobactérias são vulneráveis ao fogo, por isso o manejo usa queimadas prescritas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P07",
+            "factKey": "purnululu-F32",
+            "text": "Os desfiladeiros sinuosos e estreitos, de paredes verticais, são cortados por cachoeiras e poços sazonais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P08",
+            "factKey": "purnululu-F33",
+            "text": "Os desfiladeiros abrigados guardam as manchas de floresta tropical mais ao sul do leste de Kimberley.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P09",
+            "factKey": "purnululu-F34",
+            "text": "Com 13 espécies, o parque tem a maior concentração de capins spinifex da Austrália, inclusive uma endêmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA",
+              "PURN_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P10",
+            "factKey": "purnululu-F35",
+            "text": "Já foram registradas cerca de 619 espécies de plantas vasculares, nove delas conhecidas só daqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P11",
+            "factKey": "purnululu-F36",
+            "text": "Entre as aves ameaçadas estão a carriça-de-coroa-roxa, em perigo, e o falcão-cinzento; o diamante-de-gould também ocorre aqui.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P12",
+            "factKey": "purnululu-F37",
+            "text": "O parque soma mais de 85 espécies de répteis, 32 de mamíferos nativos e 12 de rãs, além de ao menos um lagarto endêmico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P13",
+            "factKey": "purnululu-F38",
+            "text": "Nos anos 1980 e 1990, cerca de 25 mil bois, 4 mil burros e alguns camelos foram retirados da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P14",
+            "factKey": "purnululu-F39",
+            "text": "Sapos-cururus invasores foram confirmados no parque em 2012–13, e o capim-buffel altera o regime de fogo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P15",
+            "factKey": "purnululu-F40",
+            "text": "A área protegida reúne 239.723 ha de parque nacional e 79.602 ha de reserva de conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_DEC",
+              "PURN_PARKS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P16",
+            "factKey": "purnululu-F41",
+            "text": "O parque fica entre uma reserva de conservação e uma reserva de regeneração do rio Ord.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P17",
+            "factKey": "purnululu-F42",
+            "text": "Os limites do parque seguem sobretudo cursos de água, e não divisores de bacias, o que já foi apontado na inscrição.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P18",
+            "factKey": "purnululu-F43",
+            "text": "Foi inscrito no Patrimônio Mundial em 2003 por dois critérios naturais: beleza excepcional e valor geológico.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA",
+              "PURN_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P19",
+            "factKey": "purnululu-F44",
+            "text": "Os povos Jaru, Gija e Malngin, do leste de Kimberley, são reconhecidos como detentores de título nativo da área.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PURN_LANDSCOPE",
+              "PURN_PARKS_DESTAQUE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P20",
+            "factKey": "purnululu-F45",
+            "text": "Os aborígines locais mantêm o vínculo com a paisagem por meio de histórias, canções, arte e visitas, e ainda usam recursos que os sustentam há milhares de anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P21",
+            "factKey": "purnululu-F21",
+            "text": "O nome oficial da cordilheira só entrou em uso em 1983, ano do documentário que a levou à TV nacional; o parque foi criado quatro anos depois, em 1987.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P22",
+            "factKey": "purnululu-F20",
+            "text": "Fica a cerca de 300 km ao sul de Kununurra e 150 km a nordeste de Halls Creek.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DBCA_WHA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P23",
+            "factKey": "purnululu-F46",
+            "text": "O barulho dos helicópteros de turismo preocupa o manejo, e trilhas foram desviadas em 2013 para reduzir a erosão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P24",
+            "factKey": "purnululu-F47",
+            "text": "Os domos em forma de colmeia da cordilheira Bungle Bungle ocupam cerca de 45 mil hectares do parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "PURN_PARKS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "purnululu-geografo-P25",
+            "factKey": "purnululu-F48",
+            "text": "O nome Bungle Bungle foi usado primeiro por um pecuarista, em 1930, como nome de fazenda, e só virou oficial para a cordilheira em 1983.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PURN_DEC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional do leste de Kimberley, na Austrália Ocidental, criado em 1987 e Patrimônio Mundial desde 2003, famoso pelos domos de arenito em forma de colmeia da cordilheira Bungle Bungle, listrados por crostas de cianobactérias e tidos como o exemplo mais notável de carste em cones em arenito; o nome vem da língua kija e significa \"arenito\", e a área é terra dos povos Gija (Kija), Jaru e Malngin.",
+      "editorialNotes": [
+        "A grafia do povo varia: Kija (guia do DEC, c. 2008), Gija (Explore Parks WA e LANDSCOPE) e Gidja (IUCN). A IUCN data a determinação do título nativo de dezembro de 2022; a LANDSCOPE fala em reconhecimento em maio de 2023; por isso a pista não traz o ano.",
+        "Visitação: cerca de 30 mil pessoas por ano na LANDSCOPE (2023) e cerca de 25 mil na IUCN (2025); a pista usa a primeira, com o ano.",
+        "A idade do arenito é de cerca de 360 milhões de anos na maioria das fontes; a página do Explore Parks WA também cita 350 milhões. A página da UNESCO (sítio 1094) não foi aberta; a inscrição de 2003 e os critérios vêm do DBCA e da IUCN."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "PURN_PARKS": {
+      "id": "PURN_PARKS",
+      "title": "Purnululu National Park – About this park",
+      "publisher": "Explore Parks WA – DBCA (governo da Austrália Ocidental)",
+      "url": "https://exploreparks.dbca.wa.gov.au/park/purnululu",
+      "checkedAt": "2026-11-15"
+    },
+    "PURN_LANDSCOPE": {
+      "id": "PURN_LANDSCOPE",
+      "title": "Purnululu National Park (LANDSCOPE, primavera de 2023)",
+      "publisher": "Department of Biodiversity, Conservation and Attractions (DBCA)",
+      "url": "https://www.dbca.wa.gov.au/landscope/spring-2023/purnululu-national-park",
+      "checkedAt": "2026-11-15"
+    },
+    "PURN_PARKS_DESTAQUE": {
+      "id": "PURN_PARKS_DESTAQUE",
+      "title": "Park feature: Purnululu National Park",
+      "publisher": "Explore Parks WA – DBCA (governo da Austrália Ocidental)",
+      "url": "https://exploreparks.dbca.wa.gov.au/get-inspired/park-feature-purnululu-national-park",
+      "checkedAt": "2026-11-15"
+    },
+    "PURN_IUCN": {
+      "id": "PURN_IUCN",
+      "title": "Purnululu National Park – Conservation Outlook Assessment",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1123",
+      "checkedAt": "2026-11-15"
+    },
+    "PURN_DBCA_WHA": {
+      "id": "PURN_DBCA_WHA",
+      "title": "Purnululu National Park World Heritage Area",
+      "publisher": "Department of Biodiversity, Conservation and Attractions (DBCA)",
+      "url": "https://dbca.wa.gov.au/node/394",
+      "checkedAt": "2026-11-15"
+    },
+    "PURN_DEC": {
+      "id": "PURN_DEC",
+      "title": "Purnululu National Park – World Heritage Area (guia para visitantes, c. 2008)",
+      "publisher": "Department of Environment and Conservation (DEC), Austrália Ocidental – biblioteca do DBCA",
+      "url": "https://library.dbca.wa.gov.au/FullTextFiles/PAM02262.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://exploreparks.dbca.wa.gov.au/park/purnululu",
+      "https://www.dbca.wa.gov.au/landscope/spring-2023/purnululu-national-park",
+      "https://exploreparks.dbca.wa.gov.au/get-inspired/park-feature-purnululu-national-park",
+      "https://worldheritageoutlook.iucn.org/node/1123",
+      "https://dbca.wa.gov.au/node/394",
+      "https://library.dbca.wa.gov.au/FullTextFiles/PAM02262.pdf"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

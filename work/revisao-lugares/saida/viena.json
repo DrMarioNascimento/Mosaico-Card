@@ -1,0 +1,1096 @@
+{
+  "case": {
+    "id": "lug3-viena",
+    "placeId": "viena",
+    "title": "Viena",
+    "aliases": [
+      "Wien"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AT"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Viena"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Budapeste"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Bratislava"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Praga"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Berlim"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Munique"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Salzburgo"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Zurique"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Varsóvia"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cracóvia"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Belgrado"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Liubliana"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Zagreb"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Paris"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Roma"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Londres"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Bruxelas"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Copenhague"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Viena",
+        "sources": [
+          "VIENA_BRIT_SUM"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio às margens do qual a cidade se desenvolveu",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Danúbio"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Reno"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Elba"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Vltava"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Danúbio",
+        "sources": [
+          "VIENA_RP",
+          "VIENA_ICOMOS",
+          "VIENA_BRIT_SUM"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "O que ocupou o traçado das muralhas demolidas na segunda metade do século XIX",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Uma avenida em anel com prédios monumentais"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Um canal navegável em anel"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Uma ferrovia circular elevada"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Um cinturão de fortes modernos"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Uma avenida em anel com prédios monumentais",
+        "sources": [
+          "VIENA_ICOMOS",
+          "VIENA_RP",
+          "VIENA_BRIT_LAYOUT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Dinastia que assumiu a residência ducal da cidade em 1276",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Habsburgo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Hohenzollern"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Wittelsbach"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Bourbon"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Habsburgo",
+        "sources": [
+          "VIENA_ICOMOS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "viena-viajante-P01",
+            "factKey": "viena-F01",
+            "text": "É uma capital europeia famosa pela arquitetura e pela música.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P02",
+            "factKey": "viena-F02",
+            "text": "O lugar já tinha um povoado celta antes da chegada dos romanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_ICOMOS",
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P03",
+            "factKey": "viena-F03",
+            "text": "A cidade fica às margens de um grande rio, no leste do seu país.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIENA_RP",
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P04",
+            "factKey": "viena-F04",
+            "text": "O grande rio que passa pela cidade é o Danúbio, que já foi fronteira do Império Romano.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P05",
+            "factKey": "viena-F05",
+            "text": "No rio há uma ilha comprida e estreita, de cerca de 21 km, criada em antigas várzeas e usada como parque esportivo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P06",
+            "factKey": "viena-F06",
+            "text": "Bosques sobem a partir do rio em terraços, e o ponto mais alto chega a 542 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P07",
+            "factKey": "viena-F07",
+            "text": "Os romanos ergueram ali um forte à beira do rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P08",
+            "factKey": "viena-F08",
+            "text": "A grande catedral gótica levou cerca de 150 anos para ser construída, a partir do início do século XIV.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P09",
+            "factKey": "viena-F09",
+            "text": "Na segunda metade do século XIX, o imperador mandou demolir as fortificações que cercavam o centro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_RP",
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P10",
+            "factKey": "viena-F10",
+            "text": "No lugar delas surgiu uma avenida em anel, ladeada de prédios monumentais, monumentos e parques.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_ICOMOS",
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P11",
+            "factKey": "viena-F11",
+            "text": "Ao longo desse anel ficam o Parlamento, a prefeitura, a universidade, teatros, museus e a Ópera.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P12",
+            "factKey": "viena-F12",
+            "text": "A Ópera Estatal, nessa avenida, foi construída de 1861 a 1869.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P13",
+            "factKey": "viena-F13",
+            "text": "Mozart, Beethoven, Brahms e Mahler viveram ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P14",
+            "factKey": "viena-F14",
+            "text": "Schubert e Johann Strauss filho nasceram na cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P15",
+            "factKey": "viena-F15",
+            "text": "Para a UNESCO, desde o século XVI ela é reconhecida como a capital musical da Europa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP",
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P16",
+            "factKey": "viena-F16",
+            "text": "Em 1683, a cidade resistiu ao cerco de um exército otomano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P17",
+            "factKey": "viena-F17",
+            "text": "Em 1814–1815, a cidade sediou um congresso internacional que leva o seu nome.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P18",
+            "factKey": "viena-F18",
+            "text": "Um palácio de verão barroco tem no parque o zoológico mais antigo do mundo, fundado em 1752.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_AUSTRIAINFO",
+              "VIENA_SCHOENBRUNN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P19",
+            "factKey": "viena-F19",
+            "text": "No alto do parque desse palácio, uma arcada de 1775 comemora uma vitória sobre a Prússia em 1757.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_AUSTRIAINFO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P20",
+            "factKey": "viena-F20",
+            "text": "Esse palácio era a residência de verão dos Habsburgo, e a imperatriz Maria Teresa lhe deu a forma atual.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT",
+              "VIENA_AUSTRIAINFO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P21",
+            "factKey": "viena-F35",
+            "text": "Em 1276, a dinastia dos Habsburgo assumiu a residência ducal da cidade, o atual Hofburg.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P22",
+            "factKey": "viena-F21",
+            "text": "Dois palácios barrocos nas pontas de um jardim em terraços foram construídos para o príncipe Eugênio de Saboia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P23",
+            "factKey": "viena-F22",
+            "text": "Em 1955, o tratado de Estado do país foi assinado no palácio de cima desse conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P24",
+            "factKey": "viena-F24",
+            "text": "A cidade abriga a sede da Agência Internacional de Energia Atômica e da OPEP.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-viajante-P25",
+            "factKey": "viena-F25",
+            "text": "É a capital da Áustria e o principal centro comercial e industrial do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "viena-geografo-P01",
+            "factKey": "viena-F26",
+            "text": "Para a UNESCO, o centro reúne três grandes fases: a Idade Média, o Barroco e a Gründerzeit do século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P02",
+            "factKey": "viena-F27",
+            "text": "Já na época das Cruzadas, a cidade era um centro de comércio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P03",
+            "factKey": "viena-F07",
+            "text": "O núcleo medieval se apoia no acampamento romano de Vindobona, erguido à beira do Danúbio, então fronteira do império.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P04",
+            "factKey": "viena-F28",
+            "text": "Traços do acampamento romano ainda aparecem no traçado das ruas ao norte da catedral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P05",
+            "factKey": "viena-F29",
+            "text": "No início do século XII, a cidade cresceu além das defesas romanas, que acabaram demolidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P06",
+            "factKey": "viena-F30",
+            "text": "Nas guerras contra os otomanos dos séculos XVI e XVII, as muralhas medievais foram refeitas com bastiões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P07",
+            "factKey": "viena-F09",
+            "text": "A demolição das fortificações em volta do centro, ordenada pelo imperador, durou de 1858 a 1874.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_ICOMOS",
+              "VIENA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P08",
+            "factKey": "viena-F10",
+            "text": "Sobre a linha das antigas muralhas, a Ringstraße virou um dos grandes conjuntos urbanísticos do fim do século XIX.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P09",
+            "factKey": "viena-F31",
+            "text": "Um segundo anel viário, o Gürtel, separa os subúrbios internos dos externos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P10",
+            "factKey": "viena-F32",
+            "text": "A cidade se divide em 23 distritos, e dois deles ficam do outro lado do rio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P11",
+            "factKey": "viena-F05",
+            "text": "Uma ilha de cerca de 21 km por 230 m foi criada sobre antigas várzeas do rio e virou parque esportivo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P12",
+            "factKey": "viena-F06",
+            "text": "Os bosques sobem do rio em quatro terraços quase semicirculares, e o distrito central fica no segundo mais baixo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P13",
+            "factKey": "viena-F33",
+            "text": "A Lobau, área arborizada à beira do rio, é um cinturão verde protegido.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P14",
+            "factKey": "viena-F34",
+            "text": "O Prater, antiga reserva de caça aristocrática com 1.295 ha, é parque público desde 1766.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P15",
+            "factKey": "viena-F08",
+            "text": "A catedral gótica incorpora restos de uma igreja românica do século XII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P16",
+            "factKey": "viena-F35",
+            "text": "Em 1276, os Habsburgo assumiram a residência ducal, núcleo do atual palácio imperial.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P17",
+            "factKey": "viena-F36",
+            "text": "O palácio imperial cresceu do século XIII ao fim do XIX e hoje abriga a Biblioteca Nacional, a Albertina e a Escola Espanhola de Equitação.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P18",
+            "factKey": "viena-F37",
+            "text": "A área do palácio de verão foi terreno de caça da família imperial desde o século XVI, antes de virar residência de verão sob Maria Teresa (1740–1780).",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_SCHOENBRUNN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P19",
+            "factKey": "viena-F38",
+            "text": "O parque do palácio de verão, com cerca de 120 ha, foi aberto ao público em 1778.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VIENA_AUSTRIAINFO",
+              "VIENA_SCHOENBRUNN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P20",
+            "factKey": "viena-F21",
+            "text": "O conjunto barroco do Belvedere, de Hildebrandt para o príncipe Eugênio, é peça-chave do bem da UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP",
+              "VIENA_BRIT_LAYOUT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P21",
+            "factKey": "viena-F39",
+            "text": "Foi sede do Sacro Império, depois do Império Austríaco e, até 1918, do Império Austro-Húngaro.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P22",
+            "factKey": "viena-F40",
+            "text": "O bem tem 371 ha e uma zona de amortecimento de 462 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP",
+              "VIENA_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P23",
+            "factKey": "viena-F41",
+            "text": "Em 2017, o centro histórico entrou na lista do Patrimônio Mundial em Perigo; prédios altos e impactos visuais são as principais ameaças.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P24",
+            "factKey": "viena-F42",
+            "text": "Um plano de 2014 para prédios altos fixou eixos de visão protegidos, e cada projeto é testado num modelo 3D.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_RP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "viena-geografo-P25",
+            "factKey": "viena-F25",
+            "text": "Capital da Áustria, é o principal centro comercial e industrial do país e sedia a AIEA, a ONUDI e a OPEP.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VIENA_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Áustria, às margens do Danúbio: residência dos Habsburgo desde 1276, tem o centro histórico cercado pela Ringstraße, aberta no lugar das muralhas demolidas no século XIX, e é Patrimônio Mundial desde 2001.",
+      "editorialNotes": [
+        "O ICOMOS fala em muralhas arrasadas em 1857 e demolição de 1858 a 1874; as pistas usam \"segunda metade do século XIX\" e o intervalo de obras.",
+        "As datas do Belvedere divergem (1712–1721 no ICOMOS; 1714–1716 e 1721–1724 na Britannica); as pistas não dão datas.",
+        "O início do papel de sede do Sacro Império varia entre as fontes (1533 no ICOMOS, 1558 na Britannica); as pistas não dão o ano."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: relatório periódico e avaliação do ICOMOS na UNESCO, Britannica (resumo e traçado urbano), site oficial de Schönbrunn e Austria Info; C1 com 18 cidades europeias, incluindo outras capitais do Danúbio."
+    }
+  },
+  "sources": {
+    "VIENA_RP": {
+      "id": "VIENA_RP",
+      "title": "Historic Centre of Vienna — Periodic Report, Section II",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217591",
+      "checkedAt": "2026-11-15"
+    },
+    "VIENA_ICOMOS": {
+      "id": "VIENA_ICOMOS",
+      "title": "The Historic Centre of Vienna — ICOMOS evaluation (2001)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/151582",
+      "checkedAt": "2026-11-15"
+    },
+    "VIENA_BRIT_SUM": {
+      "id": "VIENA_BRIT_SUM",
+      "title": "Vienna — summary",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Vienna",
+      "checkedAt": "2026-11-15"
+    },
+    "VIENA_BRIT_LAYOUT": {
+      "id": "VIENA_BRIT_LAYOUT",
+      "title": "Vienna — Layout and architecture",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Vienna/Layout-and-architecture",
+      "checkedAt": "2026-11-15"
+    },
+    "VIENA_SCHOENBRUNN": {
+      "id": "VIENA_SCHOENBRUNN",
+      "title": "30 years UNESCO World Heritage Site",
+      "publisher": "Schloss Schönbrunn Kultur- und Betriebsges.m.b.H. (site oficial)",
+      "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/",
+      "checkedAt": "2026-11-15"
+    },
+    "VIENA_AUSTRIAINFO": {
+      "id": "VIENA_AUSTRIAINFO",
+      "title": "Schönbrunn Palace",
+      "publisher": "Austria Info (Österreich Werbung)",
+      "url": "https://austria.info/en/locations/schoenbrunn-palace",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/217591",
+      "https://whc.unesco.org/document/151582",
+      "https://www.britannica.com/summary/Vienna",
+      "https://www.britannica.com/place/Vienna/Layout-and-architecture",
+      "https://www.schoenbrunn.at/en/about-schoenbrunn/",
+      "https://austria.info/en/locations/schoenbrunn-palace"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

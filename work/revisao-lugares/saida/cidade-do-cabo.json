@@ -1,0 +1,1099 @@
+{
+  "case": {
+    "id": "lug3-cidade-do-cabo",
+    "placeId": "cidade-do-cabo",
+    "title": "Cidade do Cabo",
+    "aliases": [
+      "Cape Town",
+      "Kaapstad"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ZA"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade africana",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade do Cabo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Joanesburgo"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Durban"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Pretória"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Windhoek"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Maputo"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Luanda"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Nairóbi"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Dar es Salaam"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Lagos"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Acra"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Dakar"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Casablanca"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Túnis"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Argel"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Alexandria"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Adis Abeba"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Port Louis"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade do Cabo",
+        "sources": [
+          "CABO_EB",
+          "CABO_EBSCO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Companhia que instalou ali, em 1652, um posto de abastecimento de navios",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Companhia Holandesa das Índias Orientais"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Companhia Britânica das Índias Orientais"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Companhia Francesa das Índias Orientais"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Companhia Dinamarquesa das Índias Orientais"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Companhia Holandesa das Índias Orientais",
+        "sources": [
+          "CABO_EB_HIST",
+          "CABO_EBSCO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Função política nacional da cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Capital legislativa do país"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Capital única do país, sede de todos os poderes"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Capital provincial, sem função nacional"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Antiga capital nacional"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Capital legislativa do país",
+        "sources": [
+          "CABO_EB",
+          "CABO_EBSCO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Vegetação nativa que cobre as encostas das montanhas da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Fynbos"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Miombo"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Savana de acácias"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Floresta tropical úmida"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Fynbos",
+        "sources": [
+          "CABO_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-do-cabo-viajante-P01",
+            "factKey": "cidade-do-cabo-F01",
+            "text": "É uma grande cidade portuária, com praias e mais de setenta montanhas dentro do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P02",
+            "factKey": "cidade-do-cabo-F02",
+            "text": "O clima é mediterrâneo: no verão, as máximas médias ficam perto de 21 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P03",
+            "factKey": "cidade-do-cabo-F03",
+            "text": "Uma montanha de topo plano, com mais de 1 km de altura, aparece atrás dos prédios e do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB",
+              "CABO_EBSCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P04",
+            "factKey": "cidade-do-cabo-F04",
+            "text": "Dá para chegar ao topo dessa montanha a pé ou de teleférico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P05",
+            "factKey": "cidade-do-cabo-F05",
+            "text": "Um vento forte de sudeste, que os moradores chamam de \"Cape Doctor\", leva embora a poluição do ar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P06",
+            "factKey": "cidade-do-cabo-F06",
+            "text": "A cidade tem praias viradas para o oceano Atlântico e outras numa grande baía, a False Bay.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P07",
+            "factKey": "cidade-do-cabo-F07",
+            "text": "Numa praia de pedras enormes, a Boulders, vive uma colônia de pinguins dentro de um parque nacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO",
+              "CABO_SANPARKS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P08",
+            "factKey": "cidade-do-cabo-F08",
+            "text": "O censo de 2026 contou 790 casais de pinguins-africanos nessa praia; a espécie está criticamente ameaçada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_SANPARKS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P09",
+            "factKey": "cidade-do-cabo-F09",
+            "text": "O primeiro capítulo europeu da sua história é português: foi Bartolomeu Dias quem batizou o cabo da Boa Esperança.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P10",
+            "factKey": "cidade-do-cabo-F10",
+            "text": "Em 1503, o português Antônio de Saldanha foi o primeiro europeu a ancorar na baía e a subir a montanha de topo plano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST",
+              "CABO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P11",
+            "factKey": "cidade-do-cabo-F11",
+            "text": "Em 7 de abril de 1652, Jan van Riebeeck desembarcou ali para escolher lugares para um forte e uma horta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P12",
+            "factKey": "cidade-do-cabo-F12",
+            "text": "Ele trabalhava para uma companhia holandesa de comércio que queria um posto de abastecimento para seus navios.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CABO_EB_HIST",
+              "CABO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P13",
+            "factKey": "cidade-do-cabo-F13",
+            "text": "A horta do fundador virou um jardim histórico no centro, o Company's Garden.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P14",
+            "factKey": "cidade-do-cabo-F14",
+            "text": "O Castelo da Boa Esperança, antiga sede dos governos holandês e britânico, é a construção mais antiga do período colonial no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P15",
+            "factKey": "cidade-do-cabo-F15",
+            "text": "A companhia começou a trazer pessoas escravizadas em 1658; um antigo alojamento delas virou museu, o Slave Lodge.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST",
+              "CABO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P16",
+            "factKey": "cidade-do-cabo-F16",
+            "text": "Os britânicos ocuparam a cidade em 1795 e de novo em 1806, depois de um breve retorno aos holandeses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P17",
+            "factKey": "cidade-do-cabo-F17",
+            "text": "Em 1966, o governo do apartheid declarou o bairro District Six \"área branca\" e começou a despejar cerca de 50 mil moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P18",
+            "factKey": "cidade-do-cabo-F18",
+            "text": "Mais de 200 vinícolas ficam a até um dia de carro da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P19",
+            "factKey": "cidade-do-cabo-F19",
+            "text": "Em 2017 e 2018, a cidade temeu o \"Dia Zero\", quando a água das torneiras seria cortada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P20",
+            "factKey": "cidade-do-cabo-F20",
+            "text": "As encostas são cobertas pelo fynbos, uma vegetação de arbustos de folhas finas que só existe nessa região florística.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P21",
+            "factKey": "cidade-do-cabo-F21",
+            "text": "Um parque nacional vai da ponta da península até a cidade e faz parte do Patrimônio Mundial natural.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CABO_TURISMO",
+              "CABO_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P22",
+            "factKey": "cidade-do-cabo-F22",
+            "text": "Em setembro de 1989, uma marcha pacífica de cerca de 40 mil pessoas na cidade ajudou a abrir caminho para a libertação de Nelson Mandela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P23",
+            "factKey": "cidade-do-cabo-F23",
+            "text": "No litoral da False Bay fica Simon's Town, um porto da Marinha, e dali segue a estrada até a ponta da península, o Cape Point.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P24",
+            "factKey": "cidade-do-cabo-F24",
+            "text": "É a capital legislativa da África do Sul e a capital da província do Cabo Ocidental.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CABO_EB",
+              "CABO_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-viajante-P25",
+            "factKey": "cidade-do-cabo-F25",
+            "text": "É a segunda maior cidade sul-africana, atrás de Joanesburgo, com cerca de 4,9 milhões de habitantes na região metropolitana em 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-do-cabo-geografo-P01",
+            "factKey": "cidade-do-cabo-F26",
+            "text": "O sítio urbano combina um grande porto com dezenas de montanhas e praias voltadas para duas frentes de mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P02",
+            "factKey": "cidade-do-cabo-F27",
+            "text": "A expansão urbana pressiona áreas protegidas vizinhas, numa das regiões de maior biodiversidade vegetal terrestre do planeta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P03",
+            "factKey": "cidade-do-cabo-F28",
+            "text": "O núcleo urbano ocupa a extremidade norte de uma península, à beira de uma baía usada como ancoradouro pelos navegadores europeus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB",
+              "CABO_EB_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P04",
+            "factKey": "cidade-do-cabo-F12",
+            "text": "A cidade nasceu como posto de reabastecimento de navios da Companhia Holandesa das Índias Orientais.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CABO_EB_HIST",
+              "CABO_EBSCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P05",
+            "factKey": "cidade-do-cabo-F29",
+            "text": "A escolha do local seguiu os relatos favoráveis de sobreviventes do naufrágio do navio Haerlem, em 1647.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P06",
+            "factKey": "cidade-do-cabo-F30",
+            "text": "A partir de 1658, pessoas escravizadas trazidas da Indonésia, do Ceilão, da península Malaia e de Madagascar passaram a compor a população.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST",
+              "CABO_EBSCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P07",
+            "factKey": "cidade-do-cabo-F31",
+            "text": "Para manter os khoisan, povos nativos da região, fora do povoamento, o fundador do posto plantou uma sebe de amendoeiras-amargas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO",
+              "CABO_EB_HIST"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P08",
+            "factKey": "cidade-do-cabo-F32",
+            "text": "Em 1657, a companhia começou a liberar funcionários para virarem agricultores livres, os free burghers.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P09",
+            "factKey": "cidade-do-cabo-F16",
+            "text": "O controle alternou entre Países Baixos e Grã-Bretanha: ocupação britânica em 1795, devolução em 1803, nova ocupação em 1806 e confirmação britânica em 1814.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P10",
+            "factKey": "cidade-do-cabo-F33",
+            "text": "Os escravizados foram libertados em 1834, mas ainda obrigados a quatro anos de servidão por contrato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P11",
+            "factKey": "cidade-do-cabo-F34",
+            "text": "A ferrovia começou em 1859 e uma doca abriu em 1870; diamantes (1870) e ouro (1886) achados no interior trouxeram uma industrialização modesta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P12",
+            "factKey": "cidade-do-cabo-F35",
+            "text": "Em 1913, três anos depois da criação da União Sul-Africana, a cidade se fundiu com municípios vizinhos numa grande municipalidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EB_HIST"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P13",
+            "factKey": "cidade-do-cabo-F36",
+            "text": "Com 2.461 km², é a maior cidade sul-africana em área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P14",
+            "factKey": "cidade-do-cabo-F37",
+            "text": "Sob o apartheid, populações não brancas foram confinadas em vastos assentamentos pobres dos Cape Flats, onde luz elétrica e asfalto só chegaram a partir do fim dos anos 1990.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P15",
+            "factKey": "cidade-do-cabo-F38",
+            "text": "Khayelitsha, o maior township dessa planície, tem mais de 98% de moradores negros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P16",
+            "factKey": "cidade-do-cabo-F17",
+            "text": "A Lei de Áreas de Grupo restringia onde cada grupo racial podia morar; em 1966, um bairro central declarado \"branco\" teve cerca de 50 mil moradores despejados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P17",
+            "factKey": "cidade-do-cabo-F05",
+            "text": "Fortes ventos de sudeste dispersam a poluição do ar da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P18",
+            "factKey": "cidade-do-cabo-F39",
+            "text": "A posição em relação às montanhas faz de um subúrbio, Newlands, o lugar mais chuvoso da África do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P19",
+            "factKey": "cidade-do-cabo-F19",
+            "text": "A crise hídrica de 2017–2018 expôs a vulnerabilidade do abastecimento urbano a secas e a mudanças no tempo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_EBSCO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P20",
+            "factKey": "cidade-do-cabo-F40",
+            "text": "Projeções para 2050 indicam até 3,7 °C de aquecimento e queda de 10% a 30% nas chuvas de inverno da região florística local.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P21",
+            "factKey": "cidade-do-cabo-F20",
+            "text": "O fynbos é um arbustal esclerófilo de folhas finas, adaptado ao clima mediterrâneo e a incêndios periódicos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P22",
+            "factKey": "cidade-do-cabo-F41",
+            "text": "Essa região florística cobre menos de 0,5% da área da África, mas reúne quase 20% da flora do continente: cerca de 9 mil espécies, 69% delas endêmicas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P23",
+            "factKey": "cidade-do-cabo-F42",
+            "text": "Pinheiros e acácias invasores intensificam o fogo nas encostas, e a longa borda urbana encostada ao parque nacional dificulta as queimas controladas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CABO_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P24",
+            "factKey": "cidade-do-cabo-F24",
+            "text": "É chamada de \"cidade-mãe\" do país por ter sido o primeiro povoamento europeu sul-africano; hoje é a capital legislativa nacional.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CABO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-do-cabo-geografo-P25",
+            "factKey": "cidade-do-cabo-F43",
+            "text": "Segunda maior cidade do país depois de Joanesburgo, tinha cerca de 4,98 milhões de habitantes em 2024 e crescia perto de 2% ao ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CABO_IUCN",
+              "CABO_EBSCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade portuária na ponta norte da Península do Cabo, capital legislativa da África do Sul e capital do Cabo Ocidental: nasceu em 1652 como posto de abastecimento da Companhia Holandesa das Índias Orientais, aos pés de uma montanha de topo plano, num litoral de clima mediterrâneo cercado pelo fynbos.",
+      "editorialNotes": [
+        "População: cerca de 4,89 milhões na região metropolitana em 2023 (EBSCO, a partir do CIA World Factbook) e cerca de 4,98 milhões em 2024 (IUCN); cada pista traz a fonte e o ano.",
+        "A página principal da Britannica abriu só a introdução (capital legislativa, \"cidade-mãe\", ponta norte da península); a história foi conferida na seção History da Britannica, e geografia, clima, apartheid e economia no EBSCO Research Starter (2022).",
+        "Nenhuma pista depende da Ilha Robben, que já está no banco."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica (verbete e seção de história), EBSCO Research Starter, avaliação da IUCN (2025) da Região Florística do Cabo, SANParks e Cape Town Tourism; C1 com 18 cidades africanas comparáveis."
+    }
+  },
+  "sources": {
+    "CABO_EB": {
+      "id": "CABO_EB",
+      "title": "Cape Town",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Cape-Town",
+      "checkedAt": "2026-11-15"
+    },
+    "CABO_EB_HIST": {
+      "id": "CABO_EB_HIST",
+      "title": "History of Cape Town",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Cape-Town/History",
+      "checkedAt": "2026-11-15"
+    },
+    "CABO_EBSCO": {
+      "id": "CABO_EBSCO",
+      "title": "Cape Town, South Africa (Research Starter)",
+      "publisher": "EBSCO Research Starters",
+      "url": "https://www.ebsco.com/research-starters/geography-and-cartography/cape-town-south-africa",
+      "checkedAt": "2026-11-15"
+    },
+    "CABO_IUCN": {
+      "id": "CABO_IUCN",
+      "title": "Cape Floral Region Protected Areas — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1130",
+      "checkedAt": "2026-11-15"
+    },
+    "CABO_SANPARKS": {
+      "id": "CABO_SANPARKS",
+      "title": "African penguin population grows at Boulders colony",
+      "publisher": "South African National Parks (SANParks)",
+      "url": "https://www.sanparks.org/news/african-penguin-population-grows-at-boulders-colony",
+      "checkedAt": "2026-11-15"
+    },
+    "CABO_TURISMO": {
+      "id": "CABO_TURISMO",
+      "title": "SANParks – Table Mountain National Park",
+      "publisher": "Cape Town Tourism",
+      "url": "https://www.capetown.travel/listing/sanparks-table-mountain-national-park/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Cape-Town",
+      "https://www.britannica.com/place/Cape-Town/History",
+      "https://www.ebsco.com/research-starters/geography-and-cartography/cape-town-south-africa",
+      "https://worldheritageoutlook.iucn.org/node/1130",
+      "https://www.sanparks.org/news/african-penguin-population-grows-at-boulders-colony",
+      "https://www.capetown.travel/listing/sanparks-table-mountain-national-park/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

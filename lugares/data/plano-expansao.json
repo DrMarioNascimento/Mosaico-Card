@@ -277,7 +277,21 @@
     "Budapeste",
     "Cracóvia",
     "Fiordes do Oeste da Noruega",
-    "Florença"
+    "Florença",
+    "Templos de Abu Simbel",
+    "Alhambra de Granada",
+    "Calçada dos Gigantes",
+    "Cartago",
+    "Cidade do Cabo",
+    "Edimburgo",
+    "Medina de Fez",
+    "Área de Conservação de Ngorongoro",
+    "Parque Estadual do Ibitipoca",
+    "Parque Estadual Turístico do Alto Ribeira",
+    "Pompeia",
+    "Parque Nacional Purnululu",
+    "Tsingy de Bemaraha",
+    "Viena"
   ],
   "groups": {
     "Brasil Norte": [
@@ -387,7 +401,9 @@
       "Campos do Jordão",
       "Santos",
       "Parque Nacional da Serra da Canastra",
-      "Sítio Roberto Burle Marx"
+      "Sítio Roberto Burle Marx",
+      "Parque Estadual do Ibitipoca",
+      "Parque Estadual Turístico do Alto Ribeira"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -492,7 +508,12 @@
       "Budapeste",
       "Cracóvia",
       "Fiordes do Oeste da Noruega",
-      "Florença"
+      "Florença",
+      "Alhambra de Granada",
+      "Calçada dos Gigantes",
+      "Edimburgo",
+      "Pompeia",
+      "Viena"
     ],
     "África": [
       "Egito",
@@ -522,7 +543,12 @@
       "Parque Nacional de Virunga",
       "Ruínas de Kilwa Kisiwani e Songo Mnara",
       "Stone Town de Zanzibar",
-      "Tassili n’Ajjer"
+      "Tassili n’Ajjer",
+      "Templos de Abu Simbel",
+      "Cartago",
+      "Medina de Fez",
+      "Área de Conservação de Ngorongoro",
+      "Tsingy de Bemaraha"
     ],
     "Ásia": [
       "Japão",
@@ -574,7 +600,8 @@
       "Rotorua",
       "Parque Nacional Aoraki/Monte Cook",
       "Baía Shark",
-      "Bora Bora"
+      "Bora Bora",
+      "Parque Nacional Purnululu"
     ],
     "Antártida": [
       "Polo Sul Geográfico",

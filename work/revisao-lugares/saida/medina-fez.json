@@ -1,0 +1,1065 @@
+{
+  "case": {
+    "id": "lug3-medina-fez",
+    "placeId": "medina-fez",
+    "title": "Medina de Fez",
+    "aliases": [
+      "Fez",
+      "Fès"
+    ],
+    "answerType": "centro histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "MA"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Centro histórico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Medina de Fez"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Medina de Marrakech"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Medina de Tetuão"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Medina de Essaouira"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Cidade histórica de Meknès"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Medina de Túnis"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Medina de Sousse"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Medina de Kairouan"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Casbá de Argel"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidade velha de Ghadamés"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cairo histórico"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ksar de Aït-Ben-Haddou"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Medina de Fez",
+        "sources": [
+          "FEZ_SOUV",
+          "FEZ_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Dinastia que fundou a cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Idríssidas"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Almorávidas"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Almôades"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Merínidas"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Idríssidas",
+        "sources": [
+          "FEZ_SOUV",
+          "FEZ_EB",
+          "FEZ_ARCHNET"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Mesquita e centro de ensino fundado em 859 na cidade velha",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Al-Qarawiyyin"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Al-Azhar"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Zitouna"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Ben Youssef"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Al-Qarawiyyin",
+        "sources": [
+          "FEZ_EB",
+          "FEZ_TEACH"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio em que deságua o uádi que atravessa a cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Sebou"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Moulouya"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Oum Er-Rbia"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Tensift"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Sebou",
+        "sources": [
+          "FEZ_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "medina-fez-viajante-P01",
+            "factKey": "medina-fez-F01",
+            "text": "É uma cidade velha cercada por muralhas, cheia de ruelas e com mais de mil anos de história.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV",
+              "FEZ_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P02",
+            "factKey": "medina-fez-F02",
+            "text": "Nas ruelas estreitas, artesãos trabalham couro e cerâmica, vendidos nos mercados, os suqs.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P03",
+            "factKey": "medina-fez-F03",
+            "text": "Fica no norte do Marrocos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P04",
+            "factKey": "medina-fez-F04",
+            "text": "Morros baixos cobertos de oliveiras e pomares cercam quase toda a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P05",
+            "factKey": "medina-fez-F05",
+            "text": "Um pequeno rio, um uádi, corta a cidade velha, que nasceu de duas cidades, uma em cada margem.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FEZ_EB",
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P06",
+            "factKey": "medina-fez-F06",
+            "text": "A primeira parte foi fundada por volta de 789 por Idris I, na margem leste.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P07",
+            "factKey": "medina-fez-F07",
+            "text": "Por volta de 809, Idris II fundou a cidade da margem oeste.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P08",
+            "factKey": "medina-fez-F08",
+            "text": "No século XI, os almorávidas uniram as duas cidades num só conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB",
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P09",
+            "factKey": "medina-fez-F09",
+            "text": "A mesquita al-Qarawiyyin, do século IX, fica na cidade velha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P10",
+            "factKey": "medina-fez-F10",
+            "text": "Essa mesquita foi fundada em 859 por uma mulher, Fátima al-Fihri, nascida em Kairouan, na Tunísia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_TEACH",
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P11",
+            "factKey": "medina-fez-F11",
+            "text": "A fundadora deu à mesquita o nome de sua cidade natal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_TEACH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P12",
+            "factKey": "medina-fez-F12",
+            "text": "A universidade ligada a ela ainda funciona e é apresentada como a mais antiga do mundo, quase cem anos mais velha que a de al-Azhar.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_TEACH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P13",
+            "factKey": "medina-fez-F13",
+            "text": "O túmulo de Idris II, um dos fundadores, fica na cidade velha.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P14",
+            "factKey": "medina-fez-F14",
+            "text": "Antigos caravançarás, os funduqs, que recebiam mercadores, continuam bem conservados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P15",
+            "factKey": "medina-fez-F15",
+            "text": "Sob os merínidas, no século XIII, a cidade virou capital da dinastia e ganhou muitas madraças.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P16",
+            "factKey": "medina-fez-F16",
+            "text": "Em 1276, os merínidas fundaram ao lado uma \"cidade nova\", com palácio real, quartéis e muralha dupla.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV",
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P17",
+            "factKey": "medina-fez-F17",
+            "text": "O bairro judeu, o Mellah, fica ao sul do Palácio Real; muitos de seus ourives emigraram para Israel depois de 1948.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P18",
+            "factKey": "medina-fez-F18",
+            "text": "Até o fim do século XIX, o barrete vermelho de feltro, sem aba, que leva o nome da cidade só era fabricado ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P19",
+            "factKey": "medina-fez-F19",
+            "text": "Em 30 de março de 1912, um tratado assinado na cidade criou o protetorado francês no Marrocos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P20",
+            "factKey": "medina-fez-F20",
+            "text": "Em 1916, o marechal francês Lyautey fundou uma cidade moderna num planalto a sudoeste da cidade velha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P21",
+            "factKey": "medina-fez-F21",
+            "text": "A cidade velha é Patrimônio Mundial da UNESCO desde 1981.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB",
+              "FEZ_SOUV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P22",
+            "factKey": "medina-fez-F22",
+            "text": "Os campos em volta produzem trigo, feijão, azeitonas e uvas, e criam ovelhas, cabras e gado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P23",
+            "factKey": "medina-fez-F23",
+            "text": "A cidade tinha 1.091.512 habitantes em 2014.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P24",
+            "factKey": "medina-fez-F24",
+            "text": "É a mais antiga das quatro cidades imperiais do Marrocos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-viajante-P25",
+            "factKey": "medina-fez-F25",
+            "text": "Em 1988, a UNESCO financiou um levantamento fotogramétrico de um antigo relógio hidráulico da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOC"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "medina-fez-geografo-P01",
+            "factKey": "medina-fez-F26",
+            "text": "O tecido urbano medieval permaneceu notavelmente homogêneo e conserva a maior parte de suas funções originais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P02",
+            "factKey": "medina-fez-F27",
+            "text": "Os principais problemas de conservação são a deterioração dos edifícios e o excesso de população no núcleo antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P03",
+            "factKey": "medina-fez-F05",
+            "text": "O sítio fica junto a um uádi, pouco acima de sua confluência com o rio Sebou.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P04",
+            "factKey": "medina-fez-F28",
+            "text": "A capital idríssida nasceu entre 789 e 808 com dois bairros fortificados, nas margens andaluza e cairuanesa do uádi.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P05",
+            "factKey": "medina-fez-F29",
+            "text": "As duas cidades passaram quase um século sob o domínio dos omíadas de al-Andalus antes de uma sucessão de dinastias berberes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P06",
+            "factKey": "medina-fez-F08",
+            "text": "No fim do século XI, os almorávidas unificaram as cidades autônomas com nova muralha, novos bairros e obras hidráulicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET",
+              "FEZ_SOUV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P07",
+            "factKey": "medina-fez-F30",
+            "text": "Sob os almôades (séculos XII–XIII), a cidade antiga atingiu o tamanho atual; eles derrubaram fortificações anteriores e ergueram muralhas e portas que em boa parte sobrevivem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV",
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P08",
+            "factKey": "medina-fez-F15",
+            "text": "Até os merínidas, Marrakech, capital de almorávidas e almôades, superava a cidade em importância; com eles, ela virou capital dinástica e grande centro intelectual e comercial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P09",
+            "factKey": "medina-fez-F16",
+            "text": "Em 1276, uma cidadela administrativa com muralha dupla foi erguida a oeste da cidade velha, com palácio real, quartel-general do exército e bairros residenciais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET",
+              "FEZ_SOUV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P10",
+            "factKey": "medina-fez-F31",
+            "text": "Segundo a UNESCO, essa cidade nova merínida adaptou o modelo urbano anterior de Marrakech.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P11",
+            "factKey": "medina-fez-F32",
+            "text": "No fim do século XIX, a cidade velha e a cidadela merínida foram unidas dentro de novas muralhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P12",
+            "factKey": "medina-fez-F33",
+            "text": "Depois dos merínidas, a cidade foi tomada pelos saadianos, no século XVI, e pelos alauítas, em 1666.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_ARCHNET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P13",
+            "factKey": "medina-fez-F09",
+            "text": "A instituição islâmica de ensino da cidade velha, fundada em 859, é anterior em quase um século à de al-Azhar.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_EB",
+              "FEZ_TEACH"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P14",
+            "factKey": "medina-fez-F10",
+            "text": "A fundadora da mesquita, filha de um comerciante instruído de Kairouan, herdou uma grande fortuna do pai e do marido.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FEZ_TEACH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P15",
+            "factKey": "medina-fez-F34",
+            "text": "A cidade moderna de 1916, no planalto a sudoeste, reúne o bairro industrial, perto da estação ferroviária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P16",
+            "factKey": "medina-fez-F35",
+            "text": "Além da instituição medieval, a cidade sedia a Universidade Sidi Mohammed ben Abdellah, de 1974; o turismo é uma de suas principais atividades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P17",
+            "factKey": "medina-fez-F36",
+            "text": "Técnicas de construção e decoração misturam saberes locais com inspirações andaluzas, orientais e africanas ao longo de mais de dez séculos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P18",
+            "factKey": "medina-fez-F37",
+            "text": "A UNESCO a considera uma das cidades históricas mais extensas e bem conservadas do mundo árabe-muçulmano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P19",
+            "factKey": "medina-fez-F38",
+            "text": "Uma agência de desdensificação e reabilitação executa o plano de desenvolvimento adotado em 2001, reavaliado a cada dez anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOUV"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P20",
+            "factKey": "medina-fez-F39",
+            "text": "Em 1995, quase um hectare de jardins e edifícios foi destruído no norte do perímetro protegido para abrir uma estrada; os projetos viários foram depois abandonados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOC"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P21",
+            "factKey": "medina-fez-F40",
+            "text": "Em 1995, a cidade recebeu um seminário da UNESCO sobre patrimônio e urbanismo e uma sessão do Conselho Executivo que a citou como modelo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_SOC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P22",
+            "factKey": "medina-fez-F17",
+            "text": "Ao sul do palácio real, o bairro judeu perdeu muitos ourives, prateiros e joalheiros, que emigraram para Israel após 1948.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P23",
+            "factKey": "medina-fez-F22",
+            "text": "O entorno agrícola produz cereais, sobretudo trigo, além de feijão, azeitonas e uvas, e cria ovinos, caprinos e bovinos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P24",
+            "factKey": "medina-fez-F19",
+            "text": "O tratado de 30 de março de 1912, que instituiu o protetorado francês no Marrocos, leva o nome desta cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FEZ_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "medina-fez-geografo-P25",
+            "factKey": "medina-fez-F24",
+            "text": "Fundada pelos idríssidas, é a mais antiga das quatro cidades imperiais marroquinas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FEZ_EB",
+              "FEZ_SOUV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade velha murada do norte do Marrocos, fundada pelos idríssidas entre 789 e 809 nas duas margens de um uádi afluente do Sebou, unificada pelos almorávidas e capital dos merínidas, que criaram ao lado uma cidade nova em 1276; abriga a mesquita al-Qarawiyyin (859) e é Patrimônio Mundial desde 1981.",
+      "editorialNotes": [
+        "Fundação da margem oeste: c. 809 (Britannica) ou até 808 (UNESCO); as pistas usam \"por volta de\" ou a faixa da UNESCO.",
+        "A al-Qarawiyyin como \"universidade mais antiga do mundo\" é afirmação do TeachMideast; a pista a apresenta como tal. A população de 2014 (Britannica) é a da cidade, não só da medina.",
+        "A página da lista da UNESCO (170) não abriu; o texto da UNESCO foi conferido na declaração retrospectiva de valor universal (WHC-10/34.COM/8E.Add) e no relatório de conservação de 1997. Diferença em relação a Marrakech, já no banco: fundação idríssida, al-Qarawiyyin e capital merínida."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, Archnet, declaração de valor universal e relatório de conservação da UNESCO e TeachMideast; C1 com 12 centros históricos do norte da África comparáveis, sem nomes que contenham o da cidade."
+    }
+  },
+  "sources": {
+    "FEZ_EB": {
+      "id": "FEZ_EB",
+      "title": "Fès",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Fes",
+      "checkedAt": "2026-11-15"
+    },
+    "FEZ_ARCHNET": {
+      "id": "FEZ_ARCHNET",
+      "title": "Fès",
+      "publisher": "Archnet",
+      "url": "https://archnet.org/authorities/3657",
+      "checkedAt": "2026-11-15"
+    },
+    "FEZ_SOUV": {
+      "id": "FEZ_SOUV",
+      "title": "Adoption of retrospective Statements of Outstanding Universal Value (WHC-10/34.COM/8E.Add) — Medina of Fez",
+      "publisher": "UNESCO World Heritage Committee",
+      "url": "https://whc.unesco.org/document/104629",
+      "checkedAt": "2026-11-15"
+    },
+    "FEZ_SOC": {
+      "id": "FEZ_SOC",
+      "title": "State of Conservation: Medina of Fez (1997)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3015",
+      "checkedAt": "2026-11-15"
+    },
+    "FEZ_TEACH": {
+      "id": "FEZ_TEACH",
+      "title": "Fatima al-Fihri",
+      "publisher": "TeachMideast (Middle East Policy Council)",
+      "url": "https://teachmideast.org/fatima-al-fihri/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Fes",
+      "https://archnet.org/authorities/3657",
+      "https://whc.unesco.org/document/104629",
+      "https://whc.unesco.org/en/soc/3015",
+      "https://teachmideast.org/fatima-al-fihri/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

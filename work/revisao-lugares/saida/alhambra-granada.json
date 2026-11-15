@@ -1,0 +1,1100 @@
+{
+  "case": {
+    "id": "lug3-alhambra-granada",
+    "placeId": "alhambra-granada",
+    "title": "Alhambra de Granada",
+    "aliases": [
+      "Alhambra"
+    ],
+    "answerType": "conjunto monumental",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ES"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Conjunto monumental",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Alhambra de Granada"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Real Alcázar de Sevilha"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Mesquita-Catedral de Córdoba"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Medina Azahara"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Aljafería de Saragoça"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Alcazaba de Málaga"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Alcázar de Segóvia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Mosteiro do Escorial"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Palácio Real de Madri"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Palácio Nacional da Pena"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Mosteiro dos Jerónimos"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Palácio de Versalhes"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Palácio dos Papas de Avignon"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Castelo de Praga"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Kremlin de Moscou"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Palácio de Diocleciano"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Acrópole de Atenas"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Mont-Saint-Michel"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Alhambra de Granada",
+        "sources": [
+          "ALHAMBRA_BRIT",
+          "ALHAMBRA_RP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Dinastia muçulmana que ergueu a maior parte do conjunto",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Nasrida"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Omíada"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Almôada"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Almorávida"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Nasrida",
+        "sources": [
+          "ALHAMBRA_BRIT",
+          "ALHAMBRA_RP"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ano em que acabou o domínio muçulmano sobre o conjunto",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "1085"
+          },
+          {
+            "id": "C3-O2",
+            "text": "1236"
+          },
+          {
+            "id": "C3-O3",
+            "text": "1248"
+          },
+          {
+            "id": "C3-O4",
+            "text": "1492"
+          }
+        ],
+        "answerId": "C3-O4",
+        "answerText": "1492",
+        "sources": [
+          "ALHAMBRA_BRIT",
+          "ALHAMBRA_RP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Animais de mármore que sustentam a fonte do pátio mais famoso do conjunto",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Leões"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Elefantes"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Cavalos"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Águias"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Leões",
+        "sources": [
+          "ALHAMBRA_BRIT",
+          "ALHAMBRA_ARCHNET"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "alhambra-granada-viajante-P01",
+            "factKey": "alhambra-granada-F01",
+            "text": "É um conjunto de palácios e fortificações no alto de uma colina, de onde se vê a cidade lá embaixo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT",
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P02",
+            "factKey": "alhambra-granada-F02",
+            "text": "A pressão do turismo sobre o lugar é considerada significativa e crescente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P03",
+            "factKey": "alhambra-granada-F03",
+            "text": "O conjunto ocupa uma de duas colinas vizinhas separadas por um rio; na outra fica um bairro histórico de moradias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP",
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P04",
+            "factKey": "alhambra-granada-F04",
+            "text": "O nome vem do árabe e quer dizer, mais ou menos, \"a vermelha\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P05",
+            "factKey": "alhambra-granada-F05",
+            "text": "A cor avermelhada viria da taipa, a terra socada, usada nas muralhas externas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P06",
+            "factKey": "alhambra-granada-F06",
+            "text": "A maior parte foi construída entre 1238 e 1358.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P07",
+            "factKey": "alhambra-granada-F07",
+            "text": "Quem começou a obra foi Ibn al-Ahmar, fundador de uma dinastia muçulmana, seguido por seus sucessores.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P08",
+            "factKey": "alhambra-granada-F08",
+            "text": "Essa dinastia é a dos nasridas, cuja arte e cujas inscrições marcam o conjunto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT",
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P09",
+            "factKey": "alhambra-granada-F09",
+            "text": "Inscrições em árabe nas paredes formam uma \"arquitetura falante\", com textos religiosos, políticos e poéticos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P10",
+            "factKey": "alhambra-granada-F10",
+            "text": "Um pátio comprido tem um espelho d'água no centro, ladeado por murtas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P11",
+            "factKey": "alhambra-granada-F11",
+            "text": "O maior salão, o dos Embaixadores, fica dentro de uma torre e tem uma cúpula de cerca de 23 m de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P12",
+            "factKey": "alhambra-granada-F12",
+            "text": "Um pátio famoso é cercado por uma galeria de 124 colunas de mármore branco.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P13",
+            "factKey": "alhambra-granada-F13",
+            "text": "No centro desse pátio, uma fonte é sustentada por 12 leões de mármore.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT",
+              "ALHAMBRA_ARCHNET"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P14",
+            "factKey": "alhambra-granada-F14",
+            "text": "O palácio desse pátio foi construído pelo sultão Muhammad V no seu segundo reinado, entre 1362 e 1391.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_LEONES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P15",
+            "factKey": "alhambra-granada-F15",
+            "text": "Há indícios de que esse pátio já teve plantas: um relato de 1502, contestado, fala de seis laranjeiras nos cantos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_ARCHNET"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P16",
+            "factKey": "alhambra-granada-F16",
+            "text": "A água chegava por um canal que a captava num rio, cerca de 11 km acima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_ACEQUIA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P17",
+            "factKey": "alhambra-granada-F17",
+            "text": "Ao lado fica uma residência de campo dos sultões, com pátios, jardins em terraços e fontes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT",
+              "ALHAMBRA_SPAININFO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P18",
+            "factKey": "alhambra-granada-F18",
+            "text": "Nessa residência de campo, o Pátio da Acequia tem dois blocos de edifícios nas pontas e um tanque no meio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_SPAININFO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P19",
+            "factKey": "alhambra-granada-F19",
+            "text": "Em 1526 começou a ser erguido, dentro do conjunto, um palácio renascentista projetado por Pedro Machuca para Carlos V.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P20",
+            "factKey": "alhambra-granada-F20",
+            "text": "Os mouros foram expulsos em 1492; depois disso, boa parte dos interiores foi danificada ou saqueada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P21",
+            "factKey": "alhambra-granada-F21",
+            "text": "Em 1812, tropas francesas explodiram algumas torres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P22",
+            "factKey": "alhambra-granada-F22",
+            "text": "Um terremoto em 1821 causou mais estragos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P23",
+            "factKey": "alhambra-granada-F23",
+            "text": "A restauração começou em 1828, com José Contreras, e a família dele continuou o trabalho por décadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P24",
+            "factKey": "alhambra-granada-F24",
+            "text": "O conjunto entrou na lista do Patrimônio Mundial em 1984.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP",
+              "ALHAMBRA_ICOMOS_1994"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-viajante-P25",
+            "factKey": "alhambra-granada-F25",
+            "text": "Na colina em frente fica o Albaicín, que a UNESCO considera a cidade hispano-muçulmana mais bem preservada do sul da Espanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP",
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "alhambra-granada-geografo-P01",
+            "factKey": "alhambra-granada-F03",
+            "text": "O bem protegido se estende por duas colinas vizinhas separadas por um rio, acima da cidade baixa moderna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P02",
+            "factKey": "alhambra-granada-F27",
+            "text": "Seu caráter de cidade palaciana islâmica se formou entre os séculos XIII e XV, com obras de sucessivos governantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP",
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P03",
+            "factKey": "alhambra-granada-F28",
+            "text": "Para a UNESCO, é hoje a única cidade palatina preservada do período islâmico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P04",
+            "factKey": "alhambra-granada-F01",
+            "text": "Ergue-se num planalto que domina a cidade, de frente para o bairro da colina oposta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P05",
+            "factKey": "alhambra-granada-F16",
+            "text": "A água era captada num rio cerca de 11 km a montante e levada por um canal, a Acequia Real.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_ACEQUIA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P06",
+            "factKey": "alhambra-granada-F30",
+            "text": "O canal contornava a encosta norte do Cerro del Sol e tornou habitável a colina da Sabika.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_ACEQUIA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P07",
+            "factKey": "alhambra-granada-F31",
+            "text": "A mesma água servia palácios, banhos, mesquitas, casas, cisternas, fontes, jardins, lavouras e ofícios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_ACEQUIA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P08",
+            "factKey": "alhambra-granada-F32",
+            "text": "O efeito de grande pomar da residência de campo dos sultões veio do desvio do rio Darro por canais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_SPAININFO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P09",
+            "factKey": "alhambra-granada-F17",
+            "text": "A residência rural dos emires, dos séculos XIII e XIV, fica na encosta do Cerro del Sol e tinha hortas que abasteciam os palácios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP",
+              "ALHAMBRA_SPAININFO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P10",
+            "factKey": "alhambra-granada-F05",
+            "text": "O nome árabe, \"a vermelha\", remete à taipa avermelhada das muralhas externas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P11",
+            "factKey": "alhambra-granada-F06",
+            "text": "O fundador da dinastia nasrida, Ibn al-Ahmar, abriu em 1238 um ciclo de obras levado adiante por seus sucessores até 1358.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P12",
+            "factKey": "alhambra-granada-F33",
+            "text": "As decorações internas são atribuídas a Yusuf I, morto em 1354.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P13",
+            "factKey": "alhambra-granada-F34",
+            "text": "A fachada de Comares, do século XIV, foi construída sob Muhammad V.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P14",
+            "factKey": "alhambra-granada-F10",
+            "text": "O Palácio de Comares, onde o sultão dava audiências, envolve um longo pátio de mármore com espelho d'água e murtas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P15",
+            "factKey": "alhambra-granada-F09",
+            "text": "Para a UNESCO, a epigrafia árabe liga a arquitetura ao mundo religioso, político e poético da dinastia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P16",
+            "factKey": "alhambra-granada-F35",
+            "text": "No pátio em cruz, a fonte central faz a água sair em lâmina rasa e voltar por um cilindro, sem transbordar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_LEONES"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P17",
+            "factKey": "alhambra-granada-F36",
+            "text": "Estudiosos discutem se os quatro setores da cruz eram pavimentados ou plantados, abaixo das galerias.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_LEONES"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P18",
+            "factKey": "alhambra-granada-F14",
+            "text": "O palácio desse pátio foi obra de Muhammad V no segundo reinado (1362–1391); o primeiro durou só cinco anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ALHAMBRA_PATRONATO_LEONES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P19",
+            "factKey": "alhambra-granada-F37",
+            "text": "Depois de 1492, jardineiros vindos de Valência foram trazidos para recuperar as hortas sob a torre de Comares.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ALHAMBRA_ARCHNET"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P20",
+            "factKey": "alhambra-granada-F19",
+            "text": "Depois do fim do domínio muçulmano, em 1492, Carlos V mandou demolir parte do conjunto para erguer um palácio italianizante, iniciado em 1526.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "ALHAMBRA_BRIT"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P21",
+            "factKey": "alhambra-granada-F38",
+            "text": "O bem tem 450 ha e uma zona de amortecimento de 67 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P22",
+            "factKey": "alhambra-granada-F39",
+            "text": "Mudanças de temperatura, seca e vento, num clima cada vez mais extremo, estão entre os fatores que afetam o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P23",
+            "factKey": "alhambra-granada-F40",
+            "text": "A gestão se divide entre um patronato autônomo, para os palácios e jardins, e uma fundação municipal, para o bairro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P24",
+            "factKey": "alhambra-granada-F41",
+            "text": "A alcáçova do bairro vizinho passou a ser chamada de \"Alcáçova Velha\" depois que o novo conjunto foi erguido, no século XIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_ICOMOS_1994"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "alhambra-granada-geografo-P25",
+            "factKey": "alhambra-granada-F25",
+            "text": "O Generalife e o Albaicín completam, com a cidade palatina, o bem do Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ALHAMBRA_RP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade palatina erguida sobretudo pela dinastia nasrida entre 1238 e 1358 numa colina de Granada, com o Pátio dos Leões e o Generalife; o domínio muçulmano acabou em 1492, e o conjunto é Patrimônio Mundial desde 1984.",
+      "editorialNotes": [
+        "A Britannica dá 1238–1358 para a maior parte das obras; a Archnet usa 1232–1492 como período do estilo nasrida.",
+        "O bem da UNESCO inclui também o Generalife e o bairro do Albaicín (avaliado pelo ICOMOS em 1994 como extensão); o título usa só \"Alhambra de Granada\".",
+        "O relato de 1502 sobre laranjeiras no Pátio dos Leões é contestado, como registra a Archnet."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: relatório periódico e avaliação do ICOMOS na UNESCO, Patronato de la Alhambra y Generalife (Pátio dos Leões e Acequia Real), Britannica, Archnet e Spain.info; C1 com 18 conjuntos monumentais europeus, incluindo outros palácios e fortalezas da Espanha islâmica."
+    }
+  },
+  "sources": {
+    "ALHAMBRA_RP": {
+      "id": "ALHAMBRA_RP",
+      "title": "Alhambra, Generalife and Albayzín, Granada — Periodic Report, Section II",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216527",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_ICOMOS_1994": {
+      "id": "ALHAMBRA_ICOMOS_1994",
+      "title": "Alhambra, Generalife and Albayzín, Granada (extension) — nomination record and ICOMOS evaluation (1994)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/153179",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_BRIT": {
+      "id": "ALHAMBRA_BRIT",
+      "title": "Alhambra",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/EBchecked/topic/15202/Alhambra",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_PATRONATO_LEONES": {
+      "id": "ALHAMBRA_PATRONATO_LEONES",
+      "title": "The court of the lions",
+      "publisher": "Patronato de la Alhambra y Generalife",
+      "url": "https://alhambra-patronato.es/en?p=10173",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_PATRONATO_ACEQUIA": {
+      "id": "ALHAMBRA_PATRONATO_ACEQUIA",
+      "title": "The Royal Canal",
+      "publisher": "Patronato de la Alhambra y Generalife",
+      "url": "https://www.alhambra-patronato.es/en/elemento-del-mes/the-royal-canal",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_ARCHNET": {
+      "id": "ALHAMBRA_ARCHNET",
+      "title": "Palacio de los Leones, Alhambra",
+      "publisher": "Archnet (Aga Khan Documentation Center, MIT)",
+      "url": "https://archnet.org/sites/20794",
+      "checkedAt": "2026-11-15"
+    },
+    "ALHAMBRA_SPAININFO": {
+      "id": "ALHAMBRA_SPAININFO",
+      "title": "Generalife",
+      "publisher": "Spain.info (Turespaña)",
+      "url": "https://www.spain.info/es/lugares-interes/generalife/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/216527",
+      "https://whc.unesco.org/document/153179",
+      "https://www.britannica.com/EBchecked/topic/15202/Alhambra",
+      "https://alhambra-patronato.es/en?p=10173",
+      "https://www.alhambra-patronato.es/en/elemento-del-mes/the-royal-canal",
+      "https://archnet.org/sites/20794",
+      "https://www.spain.info/es/lugares-interes/generalife/"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

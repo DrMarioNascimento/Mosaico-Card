@@ -1,0 +1,1123 @@
+{
+  "case": {
+    "id": "lug3-edimburgo",
+    "placeId": "edimburgo",
+    "title": "Edimburgo",
+    "aliases": [
+      "Edinburgh"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "GB"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Edimburgo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Glasgow"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Aberdeen"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Londres"
+          },
+          {
+            "id": "C1-O5",
+            "text": "York"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Bath"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Oxford"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cambridge"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Liverpool"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Dublin"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Belfast"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Cardiff"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Bruges"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Praga"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Copenhague"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Oslo"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Amsterdã"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Estocolmo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Edimburgo",
+        "sources": [
+          "EDIMBURGO_BRIT_SUM"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Origem do rochedo onde fica o castelo",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Chaminé de um antigo vulcão"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Recife de coral fossilizado"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Bloco de rocha trazido por uma geleira"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Duna de areia petrificada"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Chaminé de um antigo vulcão",
+        "sources": [
+          "EDIMBURGO_BGS",
+          "EDIMBURGO_EGS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Vencedor do concurso de 1766–1767 para o traçado da Cidade Nova",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "James Craig"
+          },
+          {
+            "id": "C3-O2",
+            "text": "John Nash"
+          },
+          {
+            "id": "C3-O3",
+            "text": "John Wood, o Velho"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Christopher Wren"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "James Craig",
+        "sources": [
+          "EDIMBURGO_EWH",
+          "EDIMBURGO_ICOMOS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estuário em cuja costa fica a cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Forth"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Clyde"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Tay"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Humber"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Forth",
+        "sources": [
+          "EDIMBURGO_UNESCO_ATLAS",
+          "EDIMBURGO_BRIT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "edimburgo-viajante-P01",
+            "factKey": "edimburgo-F01",
+            "text": "É uma capital de prédios altos e torres de pedra escura, espalhada entre penhascos e colinas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P02",
+            "factKey": "edimburgo-F02",
+            "text": "Segundo relatório enviado à UNESCO, a cidade recebe cerca de 4 milhões de visitantes por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P03",
+            "factKey": "edimburgo-F03",
+            "text": "O centro fica perto da costa de um estuário que é um braço do mar do Norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P04",
+            "factKey": "edimburgo-F04",
+            "text": "Esse estuário é o do Forth, onde fica o movimentado porto de Leith.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT",
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P05",
+            "factKey": "edimburgo-F05",
+            "text": "O castelo fica no alto de um rochedo que é o resto de um antigo vulcão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_EGS",
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P06",
+            "factKey": "edimburgo-F06",
+            "text": "Esse rochedo vulcânico se formou há cerca de 340 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_EGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P07",
+            "factKey": "edimburgo-F07",
+            "text": "Uma rua comprida desce suavemente do castelo até um palácio real, pelo alto de uma crista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS",
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P08",
+            "factKey": "edimburgo-F08",
+            "text": "Na parte antiga, becos estreitos chamados closes e wynds saem da rua principal como uma espinha de peixe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS",
+              "EDIMBURGO_HES"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P09",
+            "factKey": "edimburgo-F09",
+            "text": "Os prédios de apartamentos da cidade velha devem ter sido os mais altos do mundo na sua época.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_ICOMOS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P10",
+            "factKey": "edimburgo-F10",
+            "text": "Do outro lado de um vale, uma Cidade Nova planejada começou a ser erguida em 1767.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "EDIMBURGO_EWH",
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P11",
+            "factKey": "edimburgo-F11",
+            "text": "O traçado da Cidade Nova saiu de um concurso vencido por James Craig em 1766–1767.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "EDIMBURGO_EWH"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P12",
+            "factKey": "edimburgo-F12",
+            "text": "As casas georgianas da Cidade Nova têm fachadas de pedra lavrada, em geral com três andares, sótão e porão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P13",
+            "factKey": "edimburgo-F13",
+            "text": "No vale entre a cidade velha e a nova houve um lago artificial, de cerca de 1450 a 1816.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P14",
+            "factKey": "edimburgo-F14",
+            "text": "Hoje, nesse vale, ficam os jardins da Princes Street e a linha do trem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P15",
+            "factKey": "edimburgo-F15",
+            "text": "A ponte North Bridge e o aterro do Mound ligam a cidade velha à nova por cima desse vale.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P16",
+            "factKey": "edimburgo-F16",
+            "text": "Na colina de Calton Hill, monumentos foram agrupados no sonho de criar uma \"Atenas do Norte\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P17",
+            "factKey": "edimburgo-F17",
+            "text": "A cidade é a capital do seu país desde 1437.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_EWH",
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P18",
+            "factKey": "edimburgo-F18",
+            "text": "Em 1544, a cidade foi destruída em guerras de fronteira com a Inglaterra, e a reconstrução trouxe sua típica arquitetura de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P19",
+            "factKey": "edimburgo-F19",
+            "text": "No século XVIII, foi um centro da vida intelectual escocesa, ligado a nomes como David Hume e Adam Smith.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM",
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P20",
+            "factKey": "edimburgo-F20",
+            "text": "A Encyclopaedia Britannica nasceu ali, em 1768.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P21",
+            "factKey": "edimburgo-F21",
+            "text": "Os escritores Walter Scott e Robert Louis Stevenson estão entre as figuras célebres da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_HES"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P22",
+            "factKey": "edimburgo-F22",
+            "text": "Mais de 75% dos prédios da área do Patrimônio Mundial são protegidos por tombamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_HES"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P23",
+            "factKey": "edimburgo-F23",
+            "text": "Robert the Bruce concedeu uma carta de privilégios à cidade em 1329.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P24",
+            "factKey": "edimburgo-F24",
+            "text": "É a capital da Escócia e sede do Parlamento escocês, que se reuniu pela primeira vez em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-viajante-P25",
+            "factKey": "edimburgo-F25",
+            "text": "A rua que desce do castelo até o Palácio de Holyroodhouse é a famosa Royal Mile.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_ICOMOS",
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "edimburgo-geografo-P01",
+            "factKey": "edimburgo-F26",
+            "text": "Para a UNESCO, o contraste entre um núcleo medieval orgânico e uma expansão georgiana planejada reflete grandes mudanças no urbanismo europeu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_HES",
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P02",
+            "factKey": "edimburgo-F27",
+            "text": "Colinas e vales da cidade foram modelados por vulcões e mantos de gelo há milhões de anos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_HES"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P03",
+            "factKey": "edimburgo-F03",
+            "text": "O centro fica perto da margem sul de um estuário, braço do mar do Norte que avança para oeste até as Terras Baixas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P04",
+            "factKey": "edimburgo-F05",
+            "text": "O rochedo do castelo é uma chaminé vulcânica do início do Carbonífero, intrudida em rochas sedimentares.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS",
+              "EDIMBURGO_EGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P05",
+            "factKey": "edimburgo-F28",
+            "text": "Um manto de gelo vindo do oeste bateu na face oeste do rochedo vulcânico; os sedimentos protegidos atrás dele formaram a \"cauda\" de um relevo do tipo crag and tail.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS",
+              "EDIMBURGO_EGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P06",
+            "factKey": "edimburgo-F07",
+            "text": "A rua principal da cidade velha corre sobre essa cauda e desce suavemente, do castelo para leste, até Holyrood.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS",
+              "EDIMBURGO_EGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P07",
+            "factKey": "edimburgo-F29",
+            "text": "Desviado pelo rochedo, o gelo escavou um vale ao norte, hoje com jardins e ferrovia, e outro ao sul, onde ficam o Grassmarket e o Cowgate.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P08",
+            "factKey": "edimburgo-F13",
+            "text": "O vale glacial do norte teve um lago pós-glacial e, de cerca de 1450 a 1816, um lago artificial, o Nor' Loch.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BGS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P09",
+            "factKey": "edimburgo-F30",
+            "text": "A cidade velha cresceu de forma orgânica desde o século XII, ao longo de uma crista, num padrão em espinha de peixe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P10",
+            "factKey": "edimburgo-F31",
+            "text": "O Canongate nasceu como um burgo dependente da abadia de Holyrood.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P11",
+            "factKey": "edimburgo-F32",
+            "text": "Um quarteirão típico da cidade velha tem cerca de 6 andares e 80% do lote ocupado; na Cidade Nova, cerca de 4 andares mais porão e 58%.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P12",
+            "factKey": "edimburgo-F33",
+            "text": "A Cidade Nova foi implantada numa planície glacial ao norte da cidade velha, num sítio mais baixo e livre.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS",
+              "EDIMBURGO_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P13",
+            "factKey": "edimburgo-F34",
+            "text": "A Cidade Nova foi erguida em fases, de 1767 a 1890, como sete cidades planejadas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS",
+              "EDIMBURGO_EWH"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P14",
+            "factKey": "edimburgo-F11",
+            "text": "O traçado retangular da Cidade Nova é obra de James Craig, redesenhado após consulta a John Adam.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "EDIMBURGO_ICOMOS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P15",
+            "factKey": "edimburgo-F35",
+            "text": "Arquitetos como os irmãos Adam, William Chambers e William Playfair deram à expansão seus prédios neoclássicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_UNESCO_ATLAS",
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P16",
+            "factKey": "edimburgo-F36",
+            "text": "A expansão planejada fixou padrões para a Escócia e influenciou o urbanismo europeu nos séculos XVIII e XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_ICOMOS",
+              "EDIMBURGO_HES"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P17",
+            "factKey": "edimburgo-F15",
+            "text": "A North Bridge e o Mound atravessam o vale de Waverley e costuram as duas metades da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P18",
+            "factKey": "edimburgo-F37",
+            "text": "Em vez de zona de amortecimento, o bem da UNESCO usa cones de visão e uma política de proteção da silhueta urbana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P19",
+            "factKey": "edimburgo-F38",
+            "text": "O turismo e o aluguel de curta temporada pressionam as comunidades de moradores no pico da temporada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P20",
+            "factKey": "edimburgo-F39",
+            "text": "Vento, chuva, enchentes e o aumento da temperatura estão entre os riscos climáticos apontados para o patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_RP"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P21",
+            "factKey": "edimburgo-F18",
+            "text": "Depois da destruição de 1544, nas guerras de fronteira com a Inglaterra, a reconstrução difundiu a construção em pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT_SUM"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P22",
+            "factKey": "edimburgo-F19",
+            "text": "No Iluminismo do século XVIII, a cidade foi um grande centro de pensamento e saber.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_EWH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P23",
+            "factKey": "edimburgo-F41",
+            "text": "A área municipal, de 264 km², inclui o porto de Leith, no estuário, e South Queensferry.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P24",
+            "factKey": "edimburgo-F42",
+            "text": "O bem do Patrimônio Mundial, inscrito em 1995, ocupa cerca de 4,5 km² e reúne quase 4.500 edifícios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_EWH"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "edimburgo-geografo-P25",
+            "factKey": "edimburgo-F24",
+            "text": "Capital escocesa, é a sede do Parlamento e do Executivo da Escócia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EDIMBURGO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital da Escócia desde 1437, junto ao estuário do Forth: a cidade velha medieval desce de um rochedo vulcânico coroado pelo castelo, e a Cidade Nova georgiana, traçada por James Craig a partir de 1767, completa o Patrimônio Mundial.",
+      "editorialNotes": [
+        "A rocha do rochedo do castelo é descrita como basalto (British Geological Survey) ou dolerito (Sociedade Geológica de Edimburgo); as pistas falam só em chaminé vulcânica.",
+        "O surgimento da cidade velha é datado do século XI (Britannica) ou XII (Atlas da UNESCO); as pistas usam o Atlas.",
+        "A população aparece com valores diferentes nas duas páginas da Britannica (2001); as pistas não dão número."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Atlas do Patrimônio Urbano da UNESCO, avaliação do ICOMOS, relatório periódico, Edinburgh World Heritage, Historic Environment Scotland, British Geological Survey, Sociedade Geológica de Edimburgo e Britannica; C1 com 18 cidades europeias, incluindo outras britânicas e irlandesas."
+    }
+  },
+  "sources": {
+    "EDIMBURGO_UNESCO_ATLAS": {
+      "id": "EDIMBURGO_UNESCO_ATLAS",
+      "title": "New and Old Towns of Edinburgh — Urban Heritage Atlas",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/urban-heritage-atlas/edinburgh",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_ICOMOS": {
+      "id": "EDIMBURGO_ICOMOS",
+      "title": "The Old and New Towns of Edinburgh — nomination summary and ICOMOS evaluation",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154125",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_RP": {
+      "id": "EDIMBURGO_RP",
+      "title": "Old and New Towns of Edinburgh — Periodic Report, Section II",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217173",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_EWH": {
+      "id": "EDIMBURGO_EWH",
+      "title": "The UNESCO World Heritage Site",
+      "publisher": "Edinburgh World Heritage",
+      "url": "https://ewh.org.uk/the-unesco-world-heritage-site/",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_HES": {
+      "id": "EDIMBURGO_HES",
+      "title": "Old and New Towns of Edinburgh",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://www.historicenvironment.scot/advice-and-support/listing-scheduling-and-designations/world-heritage-sites/old-and-new-towns-of-edinburgh/",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_BGS": {
+      "id": "EDIMBURGO_BGS",
+      "title": "City of Edinburgh, The Castle - an excursion",
+      "publisher": "British Geological Survey (Earthwise)",
+      "url": "https://earthwise.bgs.ac.uk/index.php/City_of_Edinburgh,_The_Castle_-_an_excursion",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_EGS": {
+      "id": "EDIMBURGO_EGS",
+      "title": "Castle Rock",
+      "publisher": "Edinburgh Geological Society",
+      "url": "https://edinburghgeolsoc.org/geological-site/castle-rock/",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_BRIT_SUM": {
+      "id": "EDIMBURGO_BRIT_SUM",
+      "title": "Edinburgh — summary",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Edinburgh-Scotland",
+      "checkedAt": "2026-11-15"
+    },
+    "EDIMBURGO_BRIT": {
+      "id": "EDIMBURGO_BRIT",
+      "title": "Edinburgh (print article)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/179167",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/urban-heritage-atlas/edinburgh",
+      "https://whc.unesco.org/document/154125",
+      "https://whc.unesco.org/document/217173",
+      "https://ewh.org.uk/the-unesco-world-heritage-site/",
+      "https://www.historicenvironment.scot/advice-and-support/listing-scheduling-and-designations/world-heritage-sites/old-and-new-towns-of-edinburgh/",
+      "https://earthwise.bgs.ac.uk/index.php/City_of_Edinburgh,_The_Castle_-_an_excursion",
+      "https://edinburghgeolsoc.org/geological-site/castle-rock/",
+      "https://www.britannica.com/summary/Edinburgh-Scotland",
+      "https://www.britannica.com/print/article/179167"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

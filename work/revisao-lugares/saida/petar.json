@@ -1,0 +1,1128 @@
+{
+  "case": {
+    "id": "lug3-petar",
+    "placeId": "petar",
+    "title": "Parque Estadual Turístico do Alto Ribeira",
+    "aliases": [
+      "PETAR",
+      "Alto Ribeira"
+    ],
+    "answerType": "parque estadual",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque estadual",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Estadual Turístico do Alto Ribeira"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Estadual Intervales"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Estadual Caverna do Diabo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Estadual Carlos Botelho"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Estadual da Ilha do Cardoso"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Estadual da Serra do Mar"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Estadual de Ilhabela"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Estadual Campos do Jordão"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Estadual do Ibitipoca"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Estadual do Sumidouro"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Estadual do Rio Doce"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Estadual de Itaúnas"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Estadual da Pedra Azul"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Estadual do Desengano"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Estadual dos Três Picos"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Estadual Turístico do Alto Ribeira",
+        "sources": [
+          "PETAR_ALESP",
+          "PETAR_ANPTUR",
+          "PETAR_SEMIL_CONCESSAO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha em que se desenvolve a maioria das cavernas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Arenito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Quartzito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Granito"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Calcário",
+        "sources": [
+          "PETAR_SBE",
+          "PETAR_OECO",
+          "PETAR_ANPTUR"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Caverna cujo pórtico de entrada é citado como o maior do mundo",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Casa de Pedra"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Gruta de Maquiné"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Gruta do Lago Azul"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Caverna do Diabo"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Casa de Pedra",
+        "sources": [
+          "PETAR_ALESP",
+          "PETAR_SEMIL_CAVERNAS",
+          "PETAR_OECO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de criação do parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1937"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1958"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1972"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1999"
+          }
+        ],
+        "answerId": "C4-O2",
+        "answerText": "1958",
+        "sources": [
+          "PETAR_ALESP",
+          "PETAR_ANPTUR",
+          "PETAR_SEMIL_CONCESSAO",
+          "PETAR_CNN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "petar-viajante-P01",
+            "factKey": "petar-F01",
+            "text": "É uma grande área protegida de Mata Atlântica no Sudeste, cheia de trilhas, rios e cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR",
+              "PETAR_CNN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P02",
+            "factKey": "petar-F02",
+            "text": "O passeio mais procurado ali é entrar em cavernas, sempre com lanterna na mão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO",
+              "PETAR_ALESP"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P03",
+            "factKey": "petar-F03",
+            "text": "Fica no sul do estado de São Paulo, numa região de serras e floresta conhecida como Vale do Ribeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_ECOTURISMO",
+              "PETAR_CNN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P04",
+            "factKey": "petar-F04",
+            "text": "Da capital paulista até lá são mais de 300 km de estrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_CNN",
+              "PETAR_OECO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P05",
+            "factKey": "petar-F05",
+            "text": "A UNESCO reconhece o parque como Patrimônio Mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P06",
+            "factKey": "petar-F06",
+            "text": "Para entrar nas cavernas é obrigatório ir com um monitor local, levar lanterna e usar calça comprida até o tornozelo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P07",
+            "factKey": "petar-F07",
+            "text": "Há centenas de cavernas catalogadas, mas só 12 estão abertas à visitação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_CNN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P08",
+            "factKey": "petar-F08",
+            "text": "Mais da metade dos visitantes de cada ano são estudantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P09",
+            "factKey": "petar-F09",
+            "text": "A visita é organizada em quatro núcleos, cada um com suas cavernas e trilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P10",
+            "factKey": "petar-F10",
+            "text": "No núcleo mais visitado, uma caverna de vários quilômetros tem passarelas e pontes de madeira nos cerca de 800 m abertos ao público.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_CNN",
+              "PETAR_OECO",
+              "PETAR_ALESP"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P11",
+            "factKey": "petar-F11",
+            "text": "Numa das cavernas o percurso é feito todo dentro d'água, às vezes com a água no pescoço.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_CNN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P12",
+            "factKey": "petar-F12",
+            "text": "Dentro de outra caverna há uma cachoeira onde dá para tomar banho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_CNN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P13",
+            "factKey": "petar-F13",
+            "text": "Uma trilha de cerca de uma hora à beira de um rio leva a uma caverna e termina numa cachoeira de 35 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_CNN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P14",
+            "factKey": "petar-F14",
+            "text": "Lá dentro, as cavernas são enfeitadas por estalactites e estalagmites.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PETAR_OECO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P15",
+            "factKey": "petar-F15",
+            "text": "Uma das cavernas tem uma entrada tão alta que é citada como o maior pórtico de caverna do mundo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_SEMIL_CAVERNAS",
+              "PETAR_OECO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P16",
+            "factKey": "petar-F16",
+            "text": "A caverna do pórtico gigante dá nome a um dos núcleos, que está entre os menos visitados.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P17",
+            "factKey": "petar-F17",
+            "text": "Onças-pintadas e muriquis, o maior macaco das Américas, vivem nessas matas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_ECOTURISMO",
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P18",
+            "factKey": "petar-F18",
+            "text": "Na mata mais antiga, com árvores de 25 a 30 m, crescem canelas, cedros e a palmeira-juçara.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_ECOTURISMO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P19",
+            "factKey": "petar-F19",
+            "text": "Um bagre cego e sem cor vive em algumas cavernas da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P20",
+            "factKey": "petar-F20",
+            "text": "Desde os anos 1990, além das cavernas, o lugar atrai quem pratica boia-cross, canionismo e ciclismo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P21",
+            "factKey": "petar-F21",
+            "text": "O parque foi criado no fim dos anos 1950 e está entre os parques estaduais mais antigos de São Paulo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PETAR_CNN",
+              "PETAR_ALESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P22",
+            "factKey": "petar-F22",
+            "text": "Comunidades quilombolas vivem na região e fazem parte da sua riqueza cultural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR",
+              "PETAR_ALESP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P23",
+            "factKey": "petar-F23",
+            "text": "São cerca de 35 mil hectares de Mata Atlântica preservada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P24",
+            "factKey": "petar-F24",
+            "text": "A principal porta de entrada é um bairro do município de Iporanga, onde ficam pousadas e campings.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-viajante-P25",
+            "factKey": "petar-F25",
+            "text": "Entre os núcleos de visitação estão Santana, Ouro Grosso e Caboclos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_ANPTUR",
+              "PETAR_CNN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "petar-geografo-P01",
+            "factKey": "petar-F01",
+            "text": "A unidade protege Mata Atlântica associada a um relevo de exceção, com sistemas de cavernas que guardam paisagens subterrâneas e sítios paleontológicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_ECOTURISMO",
+              "PETAR_SBE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P02",
+            "factKey": "petar-F14",
+            "text": "É um terreno cárstico: cavernas, abismos e rios subterrâneos se formam numa rocha que a água consegue dissolver.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PETAR_SBE",
+              "PETAR_OECO",
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P03",
+            "factKey": "petar-F26",
+            "text": "As cavernas se desenvolvem em metacalcários cinza do Subgrupo Lajeado, intercalados com metapsamitos, filitos e metarritmitos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P04",
+            "factKey": "petar-F27",
+            "text": "Essas rochas fazem parte do Grupo Açungui, uma sequência vulcano-sedimentar do Meso ao Neoproterozoico, de metamorfismo fraco a moderado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P05",
+            "factKey": "petar-F28",
+            "text": "A área fica no setor sudoeste da Faixa Ribeira, sobre um embasamento arqueano de gnaisses e migmatitos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P06",
+            "factKey": "petar-F29",
+            "text": "Entre as estruturas geológicas descritas na área estão o Sinclinal do Bairro da Serra e o Anticlinal da Biquinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P07",
+            "factKey": "petar-F30",
+            "text": "O rio Betari atravessa a unidade, e várias de suas cavernas são percorridas por rios subterrâneos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_OECO",
+              "PETAR_CNN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P08",
+            "factKey": "petar-F31",
+            "text": "Os espeleotemas crescem muito devagar: as estimativas vão de 1 cm a só 1 mm a cada 30 a 100 anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PETAR_OECO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P09",
+            "factKey": "petar-F15",
+            "text": "Um dos núcleos leva o nome de uma caverna cujo pórtico, com cerca de 215 m de altura, é citado por órgãos paulistas como o maior do mundo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PETAR_ALESP",
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P10",
+            "factKey": "petar-F16",
+            "text": "O fluxo turístico é desigual: Santana e Ouro Grosso concentram a visita, enquanto Caboclos e Casa de Pedra recebem poucos visitantes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P11",
+            "factKey": "petar-F32",
+            "text": "A visitação começou com espeleólogos, sobretudo nos anos 1960 e 1970; com o tempo, o público passou a ser quase todo de turistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P12",
+            "factKey": "petar-F33",
+            "text": "O turismo se intensificou a partir dos anos 1980, sobretudo depois que o núcleo mais visitado foi estruturado, entre 1983 e 1989.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P13",
+            "factKey": "petar-F34",
+            "text": "Desde os anos 1990, o bairro que serve de porta de entrada passou por fortes mudanças físicas, fundiárias e sociais ligadas à visitação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P14",
+            "factKey": "petar-F35",
+            "text": "O fechamento das cavernas no início de 2008 quase parou o turismo regional e afetou as famílias que dependem dele.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P15",
+            "factKey": "petar-F06",
+            "text": "A exigência de condutor local mudou o perfil da visitação e criou empregos, sobretudo para os jovens da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P16",
+            "factKey": "petar-F36",
+            "text": "Em municípios como Iporanga, mais da metade da economia se apoia nos atrativos turísticos das cavernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P17",
+            "factKey": "petar-F37",
+            "text": "Em 2015, um dos municípios abrangidos reunia 441 das 718 cavidades cadastradas no estado de São Paulo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P18",
+            "factKey": "petar-F38",
+            "text": "Faz divisa com Guapiara ao norte e a noroeste e com Itaóca a sudoeste, e seu território é contínuo ao do Parque Estadual Intervales.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO",
+              "PETAR_SEMIL_ECOTURISMO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P19",
+            "factKey": "petar-F18",
+            "text": "Florestas primárias com árvores de 25 a 30 m abrigam o palmito-juçara, cujo fruto é visto como alternativa de renda para a comunidade local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO",
+              "PETAR_SEMIL_ECOTURISMO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P20",
+            "factKey": "petar-F19",
+            "text": "Entre os troglóbios, organismos que só vivem em cavernas, está um bagre cego e despigmentado registrado em cinco cavernas da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CAVERNAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P21",
+            "factKey": "petar-F39",
+            "text": "Em 2021, o governo paulista abriu consulta pública para conceder à iniciativa privada atividades de ecoturismo em áreas de três núcleos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P22",
+            "factKey": "petar-F40",
+            "text": "A conservação e a fiscalização ficam a cargo da Fundação Florestal e da secretaria estadual de meio ambiente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P23",
+            "factKey": "petar-F21",
+            "text": "A unidade foi criada pelo Decreto Estadual n.º 32.283, de 1958.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PETAR_ANPTUR",
+              "PETAR_ALESP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P24",
+            "factKey": "petar-F41",
+            "text": "Ocupa parte do curso superior da bacia do rio Ribeira de Iguape, no sul do estado de São Paulo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_SBE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "petar-geografo-P25",
+            "factKey": "petar-F42",
+            "text": "Abrange parte dos municípios de Iporanga e Apiaí.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PETAR_ANPTUR",
+              "PETAR_ALESP",
+              "PETAR_SEMIL_CONCESSAO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque estadual criado em 1958 no sul paulista, em parte de Iporanga e Apiaí, no curso superior da bacia do Ribeira de Iguape; protege cerca de 35 mil ha de Mata Atlântica sobre um carste em metacalcários do Grupo Açungui, com centenas de cavernas, como a de Santana e a Casa de Pedra, de pórtico gigante, visitadas com monitores locais a partir de quatro núcleos.",
+      "editorialNotes": [
+        "Números divergentes: área de 35.102,83 ha (ANPTUR, 2011), 35.719 ha (CNN), 35.750 ha (SEMIL, 2023), 35,7 mil ha (SEMIL, 2021) e 36 mil ha (((o))eco); cavernas: mais de 250 (((o))eco, c. 2006), 300 (Alesp), 380 (CNN) e 400 (SEMIL, 2021). As pistas usam \"cerca de 35 mil ha\" e \"centenas\". Distância da capital: 320 a 340 km conforme a fonte (pista: \"mais de 300 km\").",
+        "Pórtico da Casa de Pedra: 215 m (Alesp, SEMIL 2015), 216 m (((o))eco) e 172 m (Showcaves, que o dá como não confirmado; não usada como fonte). Caverna de Santana: mais de 8 km (SEMIL 2021, CNN) contra 5.040 m mapeados (((o))eco, c. 2006); as pistas não citam a extensão.",
+        "A Caverna do Diabo fica em outro parque estadual (alternativa do C1); uma matéria de 2025 (BNews) a lista entre as cavernas do PETAR, o que não foi usado. O banco já tem \"Reservas de Mata Atlântica do Sudeste\", com pistas sobre a Casa de Pedra e a Caverna de Santana: evitar sorteá-los em sequência."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "PETAR_SEMIL_CONCESSAO": {
+      "id": "PETAR_SEMIL_CONCESSAO",
+      "title": "Governo de SP abre consulta pública para concessão de atividades de ecoturismo do PETAR (22/10/2021)",
+      "publisher": "Secretaria de Meio Ambiente, Infraestrutura e Logística de São Paulo (SEMIL)",
+      "url": "https://semil.sp.gov.br/?p=99792",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_SEMIL_ECOTURISMO": {
+      "id": "PETAR_SEMIL_ECOTURISMO",
+      "title": "Governo de São Paulo investe R$ 6,5 milhões em ecoturismo no Vale do Ribeira (04/08/2023)",
+      "publisher": "Secretaria de Meio Ambiente, Infraestrutura e Logística de São Paulo (SEMIL) e Fundação Florestal",
+      "url": "https://semil.sp.gov.br/2023/08/governo-de-sao-paulo-investe-r-65-milhoes-em-ecoturismo-no-vale-do-ribeira/",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_SEMIL_CAVERNAS": {
+      "id": "PETAR_SEMIL_CAVERNAS",
+      "title": "Segunda maior concentração de cavernas no país está em São Paulo (24/06/2015)",
+      "publisher": "Secretaria de Meio Ambiente, Infraestrutura e Logística de São Paulo (SEMIL)",
+      "url": "https://semil.sp.gov.br/06/segundo-maior-reduto-de-cavernas-no-pais-esta-em-sao-paulo/",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_ALESP": {
+      "id": "PETAR_ALESP",
+      "title": "Parque Estadual Turístico do Alto Ribeira (Petar)",
+      "publisher": "Assembleia Legislativa do Estado de São Paulo (Alesp)",
+      "url": "https://www.al.sp.gov.br/noticia/?id=286786",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_SBE": {
+      "id": "PETAR_SBE",
+      "title": "Cursos de capacitação em geologia para os monitores ambientais do Parque Estadual Turístico do Alto Ribeira (PETAR): uma análise de 10 anos de atuação do GGEO (Godinho et al., 2016)",
+      "publisher": "Pesquisas em Turismo e Paisagens Cársticas, v. 9, n. 1 (Sociedade Brasileira de Espeleologia)",
+      "url": "https://www.cavernas.org.br/wp-content/uploads/2021/07/ptpc_v9_n1_053-062.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_ANPTUR": {
+      "id": "PETAR_ANPTUR",
+      "title": "Planejamento turístico em unidades de conservação públicas: espeleoturismo no Parque Estadual Turístico do Alto Ribeira (PETAR), SP (Lobo e Fogaça, 2011)",
+      "publisher": "Anais do VIII Seminário da ANPTUR",
+      "url": "https://www.anptur.org.br/anais/anais/files/8/40.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_OECO": {
+      "id": "PETAR_OECO",
+      "title": "Admirável mundo novo (reportagem sobre o PETAR)",
+      "publisher": "((o))eco — Jornalismo Ambiental",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/1706-oeco_18388.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PETAR_CNN": {
+      "id": "PETAR_CNN",
+      "title": "Conheça o PETAR, a mais bela porção preservada da Mata Atlântica",
+      "publisher": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/viagemegastronomia/viagem/conheca-o-petar-mais-bela-porcao-preservada-da-mata-atlantica/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://semil.sp.gov.br/?p=99792",
+      "https://semil.sp.gov.br/2023/08/governo-de-sao-paulo-investe-r-65-milhoes-em-ecoturismo-no-vale-do-ribeira/",
+      "https://semil.sp.gov.br/06/segundo-maior-reduto-de-cavernas-no-pais-esta-em-sao-paulo/",
+      "https://semil.sp.gov.br/?p=76543",
+      "https://semil.sp.gov.br/?p=54469",
+      "https://www.al.sp.gov.br/noticia/?id=286786",
+      "https://www.cavernas.org.br/wp-content/uploads/2021/07/ptpc_v9_n1_053-062.pdf",
+      "https://www.anptur.org.br/anais/anais/files/8/40.pdf",
+      "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/1706-oeco_18388.pdf",
+      "https://www.cnnbrasil.com.br/viagemegastronomia/viagem/conheca-o-petar-mais-bela-porcao-preservada-da-mata-atlantica/",
+      "https://www.showcaves.com/english/br/region/Petar.html",
+      "https://www.bnewssaopaulo.com.br/amp/noticias/entretenimento/petar-parque-200-vezes-maior-ibirapuera-como-visitar.html",
+      "https://saopaulosecreto.com/o-que-fazer-petar-parque-estadual-turistico-alto-ribeira-sp/"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "Showcaves, BNews e São Paulo Secreto foram abertos só para conferir números (divergências registradas em editorialNotes); nenhuma pista depende deles"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

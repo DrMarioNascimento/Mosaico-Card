@@ -1,0 +1,1121 @@
+{
+  "case": {
+    "id": "lug3-parque-ibitipoca",
+    "placeId": "parque-ibitipoca",
+    "title": "Parque Estadual do Ibitipoca",
+    "aliases": [
+      "Ibitipoca",
+      "Parque Estadual da Serra do Ibitipoca"
+    ],
+    "answerType": "parque estadual",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque do Sudeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Estadual do Ibitipoca"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional da Serra do Cipó"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional do Caparaó"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional do Itatiaia"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional da Serra dos Órgãos"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Estadual de Itaúnas"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Estadual Turístico do Alto Ribeira"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Estadual do Rio Doce"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Estadual do Itacolomi"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Estadual da Serra do Brigadeiro"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Estadual de Campos do Jordão"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Parque Estadual da Pedra Azul"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Parque Estadual da Serra do Mar"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Parque Estadual do Desengano"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Estadual do Ibitipoca",
+        "sources": [
+          "IBITIPOCA_WIKI",
+          "IBITIPOCA_MGBIOTA",
+          "IBITIPOCA_SOCNAT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha em que se abrem as grutas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Quartzito"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Basalto"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Quartzito",
+        "sources": [
+          "IBITIPOCA_SOCNAT",
+          "IBITIPOCA_UFRJ",
+          "IBITIPOCA_UAI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Cor típica das águas de rios e poços",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Cor de chá ou caramelo"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Verde-esmeralda"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Azul-turquesa"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cinza-esbranquiçada"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Cor de chá ou caramelo",
+        "sources": [
+          "IBITIPOCA_WIKI",
+          "IBITIPOCA_UAI",
+          "IBITIPOCA_TRIBUNA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de criação",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1973"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1961"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1984"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1998"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1973",
+        "sources": [
+          "IBITIPOCA_WIKI",
+          "IBITIPOCA_MGBIOTA",
+          "IBITIPOCA_TRIBUNA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-ibitipoca-viajante-P01",
+            "factKey": "parque-ibitipoca-F01",
+            "text": "É uma área protegida no alto de uma serra mineira, com trilhas, cachoeiras, grutas e mirantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P02",
+            "factKey": "parque-ibitipoca-F02",
+            "text": "A gerente diz que o parque é relativamente pequeno, mas tem uma concentração enorme de belezas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P03",
+            "factKey": "parque-ibitipoca-F03",
+            "text": "A área protegida soma cerca de 1.488 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_MGBIOTA",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P04",
+            "factKey": "parque-ibitipoca-F04",
+            "text": "As grutas não são de calcário: elas se abrem numa rocha considerada rara para cavernas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_UAI",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P05",
+            "factKey": "parque-ibitipoca-F05",
+            "text": "Rios e poços têm água cor de chá, que vai do dourado ao marrom.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IBITIPOCA_UAI",
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P06",
+            "factKey": "parque-ibitipoca-F06",
+            "text": "Guias e moradores falam de cachoeiras de águas acobreadas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P07",
+            "factKey": "parque-ibitipoca-F07",
+            "text": "Ao longo dos dois rios principais do parque aparecem pequenas praias de rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P08",
+            "factKey": "parque-ibitipoca-F08",
+            "text": "Uma das trilhas mais famosas leva à Janela do Céu, um mirante sobre uma cachoeira de várias quedas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_UAI",
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P09",
+            "factKey": "parque-ibitipoca-F09",
+            "text": "Lago dos Espelhos, Cachoeira dos Macacos e Cachoeirinha estão entre os pontos de visita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P10",
+            "factKey": "parque-ibitipoca-F10",
+            "text": "Numa formação chamada Ponte de Pedra, o rio passa por dentro da rocha.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT",
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P11",
+            "factKey": "parque-ibitipoca-F11",
+            "text": "A Gruta dos Viajantes tem galerias que já serviram de abrigo a tropeiros.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_UAI",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P12",
+            "factKey": "parque-ibitipoca-F12",
+            "text": "O ponto mais alto, o Pico da Lombada, passa dos 1.700 m e tem vista de 360 graus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_UFRJ",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P13",
+            "factKey": "parque-ibitipoca-F13",
+            "text": "A Capela do Pião, erguida em 1930 num dos pontos mais altos, foi danificada por raios e hoje só resta o altar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P14",
+            "factKey": "parque-ibitipoca-F14",
+            "text": "O verão é ameno e chuvoso, e o inverno, mais seco, é a época de maior movimento de turistas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P15",
+            "factKey": "parque-ibitipoca-F15",
+            "text": "Nas trilhas, os guias mostram cactos que florescem à noite, canelas-de-ema e candeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P16",
+            "factKey": "parque-ibitipoca-F16",
+            "text": "Orquídeas vermelhas que antes enfeitavam a Ponte de Pedra hoje são raras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P17",
+            "factKey": "parque-ibitipoca-F17",
+            "text": "Antigamente, moradores colhiam ali a macela para encher travesseiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P18",
+            "factKey": "parque-ibitipoca-F18",
+            "text": "Sauá, mico-estrela, barbado e macaco-prego vivem no parque e nas matas em volta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_MGBIOTA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P19",
+            "factKey": "parque-ibitipoca-F19",
+            "text": "Em 2026, quatro muriquis-do-norte, o maior primata das Américas, foram levados de Peçanha para a região do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P20",
+            "factKey": "parque-ibitipoca-F20",
+            "text": "Recebe cerca de 90 mil visitantes por ano, e a entrada tem limite diário de pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P21",
+            "factKey": "parque-ibitipoca-F21",
+            "text": "É apontado como a unidade de conservação mais visitada de Minas Gerais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P22",
+            "factKey": "parque-ibitipoca-F22",
+            "text": "Foi inaugurado em julho de 1973 e festejou 50 anos com um bolo de cinco metros.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "IBITIPOCA_AGMINAS",
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P23",
+            "factKey": "parque-ibitipoca-F23",
+            "text": "No século XVIII, a extração de ouro num córrego local fez a região chegar a cerca de 7 mil habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P24",
+            "factKey": "parque-ibitipoca-F24",
+            "text": "Lima Duarte, na Zona da Mata mineira, é um dos seus municípios; Juiz de Fora é a cidade grande mais próxima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_MGBIOTA",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-viajante-P25",
+            "factKey": "parque-ibitipoca-F25",
+            "text": "O nome da serra vem do tupi e costuma ser traduzido como \"serra que estoura\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA",
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-ibitipoca-geografo-P01",
+            "factKey": "parque-ibitipoca-F26",
+            "text": "Protege o topo de uma serra que se ergue como relevo morfoestrutural no sudeste de Minas Gerais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_UFRJ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P02",
+            "factKey": "parque-ibitipoca-F27",
+            "text": "É unidade de proteção integral; o plano de manejo liga sua criação à biodiversidade, mas um estudo de 2013 defende que a geodiversidade explica suas paisagens.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P03",
+            "factKey": "parque-ibitipoca-F28",
+            "text": "Predominam quartzitos de grão grosso, chamados localmente de \"sal grosso\".",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P04",
+            "factKey": "parque-ibitipoca-F29",
+            "text": "Os quartzitos se intercalam com quartzitos finos micáceos e com um xisto de granada, sillimanita e biotita.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_UFRJ"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P05",
+            "factKey": "parque-ibitipoca-F30",
+            "text": "Os sedimentos originais foram metamorfizados na fácies anfibolito e dobrados em nappe, depois cortados por falhas e zonas de cisalhamento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_UFRJ"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P06",
+            "factKey": "parque-ibitipoca-F31",
+            "text": "O embasamento é o Complexo Mantiqueira, de gnaisses, e o órgão gestor descreve a serra como ramificação da Mantiqueira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P07",
+            "factKey": "parque-ibitipoca-F32",
+            "text": "Nas áreas rebaixadas aflora uma unidade de xisto e gnaisse com granada, mais facilmente erodida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P08",
+            "factKey": "parque-ibitipoca-F33",
+            "text": "Veios hidrotermais de quartzo e pegmatito são associados a uma reativação tectônica de cerca de 150 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P09",
+            "factKey": "parque-ibitipoca-F34",
+            "text": "Um controle estrutural ligado a tectonismo estimado como plio-pleistocênico condiciona fortemente o relevo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P10",
+            "factKey": "parque-ibitipoca-F35",
+            "text": "Por dentro o relevo é montanhoso a escarpado, com declives de 15° a 45° que chegam a 65°; em volta, o modelado é mais suave.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P11",
+            "factKey": "parque-ibitipoca-F36",
+            "text": "Ao norte dominam cristas aplainadas e, ao sul, topografia arrasada, com formas ruiniformes e lapiás.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_UFRJ"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P12",
+            "factKey": "parque-ibitipoca-F04",
+            "text": "Todas as cavernas são esculpidas em quartzito, rocha pouco comum para cavidades, e formam um distrito espeleológico com o nome da serra.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT",
+              "IBITIPOCA_UAI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P13",
+            "factKey": "parque-ibitipoca-F10",
+            "text": "O rio do Salto é a calha principal da drenagem e atravessa uma cavidade na rocha, a Ponte de Pedra.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P14",
+            "factKey": "parque-ibitipoca-F05",
+            "text": "A cor caramelo dos rios é atribuída à grande quantidade de matéria orgânica na água.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P15",
+            "factKey": "parque-ibitipoca-F40",
+            "text": "Os solos são cambissolos rasos, feitos de matéria orgânica e de areia resultante da erosão.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P16",
+            "factKey": "parque-ibitipoca-F41",
+            "text": "Por ser mais elevada, a área é mais úmida e fria que o entorno, com chuvas de cerca de 1.500 a 1.800 mm por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P17",
+            "factKey": "parque-ibitipoca-F42",
+            "text": "A vegetação forma um mosaico de floresta estacional semidecidual, cerrado, campo rupestre e campo de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P18",
+            "factKey": "parque-ibitipoca-F43",
+            "text": "Boa parte da vegetação é xerófita, de gramíneas e ervas baixas; nos solos mais rasos aparecem arbustos, cactos e bromélias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P19",
+            "factKey": "parque-ibitipoca-F44",
+            "text": "Um fragmento de cerca de 32 ha, a Mata Grande, é classificado como floresta estacional semidecidual montana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_MGBIOTA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P20",
+            "factKey": "parque-ibitipoca-F18",
+            "text": "Parque e entorno abrigam quatro dos seis gêneros de primatas da Mata Atlântica, incluindo o muriqui-do-norte, criticamente em perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_MGBIOTA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P21",
+            "factKey": "parque-ibitipoca-F22",
+            "text": "A Lei estadual nº 6.126, de 1973, criou a unidade, que é gerida pelo Instituto Estadual de Florestas de Minas Gerais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "IBITIPOCA_MGBIOTA",
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P22",
+            "factKey": "parque-ibitipoca-F23",
+            "text": "O ouro do século XVIII povoou a região até a descoberta de ouro em Vila Rica provocar um êxodo; antes do parque, a serra era queimada todo ano para o gado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_TRIBUNA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P23",
+            "factKey": "parque-ibitipoca-F48",
+            "text": "A visitação passou de quase 50 mil pessoas em 2011 para cerca de 90 mil por ano em 2023, quando a área de visitação foi concedida à iniciativa privada por 30 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_SOCNAT",
+              "IBITIPOCA_AGMINAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P24",
+            "factKey": "parque-ibitipoca-F12",
+            "text": "Com altitude média perto de 1.500 m, a serra tem o Pico do Pião a 1.722 m e um ponto culminante acima de 1.700 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_UFRJ",
+              "IBITIPOCA_SOCNAT",
+              "IBITIPOCA_WIKI"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ibitipoca-geografo-P25",
+            "factKey": "parque-ibitipoca-F24",
+            "text": "Fica perto de 21°42' de latitude sul, na Zona da Mata mineira, em terras de Lima Duarte e de municípios vizinhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "IBITIPOCA_WIKI",
+              "IBITIPOCA_MGBIOTA",
+              "IBITIPOCA_SOCNAT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque estadual de cerca de 1.488 ha criado em 1973 no alto de uma serra de quartzito da Zona da Mata mineira (Lima Duarte), gerido pelo IEF-MG, com grutas abertas em quartzito, rios cor de chá, a Janela do Céu e picos acima de 1.700 m, num mosaico de campo rupestre, campo de altitude, cerrado e floresta estacional; é a unidade de conservação mais visitada de Minas Gerais.",
+      "editorialNotes": [
+        "Números divergentes ficaram fora das pistas: cavernas (cerca de 15 em Nummer et al. 2012, cerca de 30 em Bento e Rodrigues 2013, 74 grutas e 48 cachoeiras segundo o IEF citado pelo UAI em 2026); maior gruta (Gruta das Bromélias em 2012; Gruta dos Moreiras, 673 m, em 2013); Pico da Lombada com 1.784 m (UFRJ, UFU, UAI) ou \"pouco mais de 1.800 m\" (Wikipédia), por isso a pista diz \"passa dos 1.700 m\"; trilha da Janela do Céu com cerca de 13 km (Wikipédia) ou 16 km ida e volta (UAI); limite diário de 300/800 visitantes (Wikipédia, sem data) ou mil (Agência Minas, 2023); distância de Lima Duarte à vila de 25 km (Tribuna) ou 27 km (Wikipédia, UAI).",
+        "Outras ressalvas: o ato de criação aparece como Lei nº 6.126 (MG.Biota/IEF) e como \"decreto\" (Tribuna de Minas), ambos em 4/7/1973; a cor das águas é explicada pela matéria orgânica (Wikipédia) ou pelo solo poroso de quartzito (UAI); o MG.Biota classifica a Mata Grande como floresta estacional semidecidual e cita também floresta ombrófila densa altimontana. A bacia hidrográfica dos rios do parque não foi verificada (cota de buscas esgotada) e não entrou nas pistas.",
+        "As pistas evitam os nomes do distrito e do município vizinho que repetem o nome do parque. Serra do Cipó e Serra da Canastra também são quartzíticas e mineiras: a diferenciação vem da Zona da Mata/Lima Duarte, do nome tupi, das grutas em quartzito, da Janela do Céu e do Pico do Pião; o primata muriqui foi translocado para a região em 2026 (UAI, citando o Ibama), não necessariamente para dentro do parque."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "IBITIPOCA_AGMINAS": {
+      "id": "IBITIPOCA_AGMINAS",
+      "title": "Minas celebra os 50 anos do Parque Estadual do Ibitipoca",
+      "publisher": "Agência Minas (Governo de Minas Gerais), 2023",
+      "url": "https://www.agenciaminas.mg.gov.br/noticia/minas-celebra-os-50-anos-do-parque-estadual-do-ibitipoca-118038",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_WIKI": {
+      "id": "IBITIPOCA_WIKI",
+      "title": "Ibitipoca State Park",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Ibitipoca_State_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_TRIBUNA": {
+      "id": "IBITIPOCA_TRIBUNA",
+      "title": "Parque Estadual do Ibitipoca completa 50 anos (Mariana Floriano, 02/07/2023)",
+      "publisher": "Tribuna de Minas (Juiz de Fora)",
+      "url": "https://tribunademinas.com.br/noticias/regiao/02-07-2023/parque-estadual-do-ibitipoca-completa-50-anos.html?amp=1",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_UFRJ": {
+      "id": "IBITIPOCA_UFRJ",
+      "title": "Potencial geoturístico do Parque Estadual da Serra do Ibitipoca, sudeste do estado de Minas Gerais (Nummer et al., Anuário do Instituto de Geociências, v. 35, n. 1, 2012)",
+      "publisher": "Instituto de Geociências, UFRJ",
+      "url": "https://www.revistas.ufrj.br/index.php/aigeo/article/view/6916",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_UAI": {
+      "id": "IBITIPOCA_UAI",
+      "title": "Serra que estoura: o vilarejo mineiro com 74 grutas de quartzito e a Janela do Céu a 1.784 metros de altitude (Vitor Bruno, 29/05/2026)",
+      "publisher": "UAI (Diários Associados, Minas Gerais)",
+      "url": "https://www.uai.com.br/cidades/2026/05/29/serra-que-estoura-o-vilarejo-mineiro-com-74-grutas-de-quartzito-e-a-janela-do-ceu-a-1-784-metros-de-altitude/",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_MGBIOTA": {
+      "id": "IBITIPOCA_MGBIOTA",
+      "title": "MG.Biota, v. 1, n. 6 (fev./mar. 2009) — estudo dos primatas do Parque Estadual do Ibitipoca e entorno",
+      "publisher": "Instituto Estadual de Florestas de Minas Gerais (IEF-MG)",
+      "url": "https://periodicos.meioambiente.mg.gov.br/MB/issue/download/47/44",
+      "checkedAt": "2026-11-15"
+    },
+    "IBITIPOCA_SOCNAT": {
+      "id": "IBITIPOCA_SOCNAT",
+      "title": "Aspectos geológico-geomorfológicos do Parque Estadual do Ibitipoca/MG: base para o entendimento do seu geopatrimônio (Bento e Rodrigues, Sociedade & Natureza, v. 25, n. 2, 2013)",
+      "publisher": "Universidade Federal de Uberlândia (cópia na Redalyc)",
+      "url": "https://www.redalyc.org/pdf/3213/321328750013.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.agenciaminas.mg.gov.br/noticia/minas-celebra-os-50-anos-do-parque-estadual-do-ibitipoca-118038",
+      "https://en.wikipedia.org/wiki/Ibitipoca_State_Park",
+      "https://tribunademinas.com.br/noticias/regiao/02-07-2023/parque-estadual-do-ibitipoca-completa-50-anos.html?amp=1",
+      "https://www.revistas.ufrj.br/index.php/aigeo/article/view/6916",
+      "https://www.uai.com.br/cidades/2026/05/29/serra-que-estoura-o-vilarejo-mineiro-com-74-grutas-de-quartzito-e-a-janela-do-ceu-a-1-784-metros-de-altitude/",
+      "https://periodicos.meioambiente.mg.gov.br/MB/issue/download/47/44",
+      "https://www.redalyc.org/pdf/3213/321328750013.pdf"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

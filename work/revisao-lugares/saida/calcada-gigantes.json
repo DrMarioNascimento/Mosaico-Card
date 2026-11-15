@@ -1,0 +1,1095 @@
+{
+  "case": {
+    "id": "lug3-calcada-gigantes",
+    "placeId": "calcada-gigantes",
+    "title": "Calçada dos Gigantes",
+    "aliases": [
+      "Giant's Causeway"
+    ],
+    "answerType": "formação geológica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "GB"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem natural",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Calçada dos Gigantes"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilha de Staffa"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Fiordes do Oeste da Noruega"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Dolomitas"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional dos Lagos de Plitvice"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Alpes Suíços Jungfrau-Aletsch"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Costa Jurássica (Dorset e East Devon)"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha de Surtsey"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Vatnajökull"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Alta Costa e Arquipélago de Kvarken"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Mar de Wadden"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Delta do Danúbio"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Monte Etna"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Ilhas Eólias"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Pireneus – Monte Perdido"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Ilha de St Kilda"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Baía de Kotor"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Falésias de Moher"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Calçada dos Gigantes",
+        "sources": [
+          "CALCADA_UNESCO",
+          "CALCADA_BGS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha que forma as colunas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Basalto"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Arenito"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Basalto",
+        "sources": [
+          "CALCADA_UNESCO",
+          "CALCADA_BGS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Forma predominante das colunas",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Hexagonal (seis lados)"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Triangular (três lados)"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cilíndrica (sem arestas)"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Octogonal (oito lados)"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Hexagonal (seis lados)",
+        "sources": [
+          "CALCADA_NT",
+          "CALCADA_AONB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Gigante da lenda local que teria construído a passagem sobre o mar",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Finn McCool (Fionn mac Cumhaill)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Gargântua"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Golias"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Ymir"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Finn McCool (Fionn mac Cumhaill)",
+        "sources": [
+          "CALCADA_NT",
+          "CALCADA_BGS",
+          "CALCADA_AONB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "calcada-gigantes-viajante-P01",
+            "factKey": "calcada-gigantes-F01",
+            "text": "É uma paisagem natural europeia à beira-mar, famosa por suas formações de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P02",
+            "factKey": "calcada-gigantes-F02",
+            "text": "Há pelo menos 300 anos o lugar atrai visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO",
+              "CALCADA_BGS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P03",
+            "factKey": "calcada-gigantes-F03",
+            "text": "Ali, cerca de 40 mil grandes colunas de pedra escura saem do mar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P04",
+            "factKey": "calcada-gigantes-F04",
+            "text": "As colunas são de basalto, uma rocha de origem vulcânica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO",
+              "CALCADA_BGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P05",
+            "factKey": "calcada-gigantes-F05",
+            "text": "A maioria das colunas tem seis lados, mas há algumas com quatro, cinco, sete e oito.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P06",
+            "factKey": "calcada-gigantes-F06",
+            "text": "As colunas ficam ao pé de falésias de basalto, na borda de um planalto.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P07",
+            "factKey": "calcada-gigantes-F07",
+            "text": "Em média, cada coluna tem cerca de 45 cm de diâmetro.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P08",
+            "factKey": "calcada-gigantes-F08",
+            "text": "Um grupo de cerca de 60 colunas regulares, com uns 12 metros de altura, é chamado de Órgão do Gigante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN",
+              "CALCADA_AONB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P09",
+            "factKey": "calcada-gigantes-F09",
+            "text": "Tudo nasceu de atividade vulcânica, há cerca de 50 a 60 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P10",
+            "factKey": "calcada-gigantes-F10",
+            "text": "A lava esfriou devagar e se contraiu, abrindo rachaduras que formaram as colunas.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "CALCADA_BGS",
+              "CALCADA_NT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P11",
+            "factKey": "calcada-gigantes-F11",
+            "text": "Uma lenda diz que um gigante construiu ali uma passagem para atravessar o mar até a Escócia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CALCADA_UNESCO",
+              "CALCADA_NT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P12",
+            "factKey": "calcada-gigantes-F12",
+            "text": "Na lenda, o gigante queria chegar até seu rival escocês, chamado Benandonner.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CALCADA_NT",
+              "CALCADA_AONB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P13",
+            "factKey": "calcada-gigantes-F13",
+            "text": "A lenda conta que o rival, ao fugir de volta para a Escócia, arrancou a passagem.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CALCADA_NT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P14",
+            "factKey": "calcada-gigantes-F14",
+            "text": "Numa versão da história, foi a esposa do gigante, Oonagh, quem enganou o rival e o fez fugir.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P15",
+            "factKey": "calcada-gigantes-F15",
+            "text": "Uma pedra em forma de bota seria o calçado fossilizado do gigante, numa baía chamada Port Noffer.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CALCADA_NT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P16",
+            "factKey": "calcada-gigantes-F16",
+            "text": "Algumas formações têm nomes curiosos, como Cadeira dos Desejos, Corcova do Camelo e Leque da Dama.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P17",
+            "factKey": "calcada-gigantes-F17",
+            "text": "Uma entidade de preservação adquiriu o local em 1961 e hoje detém a maior parte das terras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_NT",
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P18",
+            "factKey": "calcada-gigantes-F18",
+            "text": "Um centro de visitantes pensado para se misturar à paisagem foi aberto em julho de 2012.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN",
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P19",
+            "factKey": "calcada-gigantes-F19",
+            "text": "Antes da pandemia, o lugar recebia mais de um milhão de visitantes por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_BGS",
+              "CALCADA_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P20",
+            "factKey": "calcada-gigantes-F20",
+            "text": "Focas-cinzentas, lontras e golfinhos-nariz-de-garrafa vivem nas águas em volta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P21",
+            "factKey": "calcada-gigantes-F21",
+            "text": "Aves como a torda-mergulheira e o falcão-peregrino aparecem nessa costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P22",
+            "factKey": "calcada-gigantes-F22",
+            "text": "O lugar foi apresentado oficialmente à Royal Society em 1693.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P23",
+            "factKey": "calcada-gigantes-F23",
+            "text": "Aquarelas da pintora Susanna Drury, divulgadas em 1743, tornaram o lugar mais conhecido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P24",
+            "factKey": "calcada-gigantes-F24",
+            "text": "Colunas parecidas, de mesma origem vulcânica, existem em ilhas da Escócia, como Staffa.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-viajante-P25",
+            "factKey": "calcada-gigantes-F25",
+            "text": "Fica no litoral norte da Irlanda do Norte e é o único patrimônio mundial dessa parte do Reino Unido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_BGS",
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "calcada-gigantes-geografo-P01",
+            "factKey": "calcada-gigantes-F26",
+            "text": "Uma costa rochosa de grande beleza natural é também uma referência para as ciências da Terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P02",
+            "factKey": "calcada-gigantes-F27",
+            "text": "O bem protegido é pequeno, com cerca de 70 ha, mas tem importância geológica mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN",
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P03",
+            "factKey": "calcada-gigantes-F28",
+            "text": "As formações surgiram no início do Paleógeno, há cerca de 60 milhões de anos, quando a Laurásia se fragmentava e o Atlântico Norte se abria.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P04",
+            "factKey": "calcada-gigantes-F29",
+            "text": "A lava saiu de vulcões e fissuras e cobriu toda a superfície; a mesma atividade formou partes do oeste da Escócia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P05",
+            "factKey": "calcada-gigantes-F30",
+            "text": "As primeiras lavas vieram de pelo menos seis erupções, seguidas de um longo período sem atividade vulcânica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P06",
+            "factKey": "calcada-gigantes-F31",
+            "text": "Nessa pausa, o intemperismo da lava produziu uma camada vermelha, rica em ferro e alumínio: a Formação Interbasáltica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P07",
+            "factKey": "calcada-gigantes-F32",
+            "text": "No ponto principal, a lava acumulou-se num grande lago de lava com cerca de 90 m de profundidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P08",
+            "factKey": "calcada-gigantes-F33",
+            "text": "O resfriamento lento e uniforme desse lago fez a rocha se contrair e se fraturar em colunas.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P09",
+            "factKey": "calcada-gigantes-F34",
+            "text": "Para a UNESCO, a formação é uma seção horizontal superlativa através de lavas basálticas colunares.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P10",
+            "factKey": "calcada-gigantes-F35",
+            "text": "Derrames de lava sucessivos e camadas interbasálticas expostos nas falésias registram a história vulcânica do Terciário.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_UNESCO",
+              "CALCADA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P11",
+            "factKey": "calcada-gigantes-F36",
+            "text": "Na era do gelo, geleiras rasparam as camadas superiores; depois, com a subida do mar, as ondas expuseram mais colunas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_NT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P12",
+            "factKey": "calcada-gigantes-F37",
+            "text": "O basalto das falésias chega a 28 m de espessura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_AONB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P13",
+            "factKey": "calcada-gigantes-F38",
+            "text": "A erosão separou das falésias um grupo de colunas conhecido como Chimney Tops.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P14",
+            "factKey": "calcada-gigantes-F39",
+            "text": "A mudança climática deve aumentar a erosão costeira e a instabilidade das falésias, e a subida do mar pode deixar áreas inacessíveis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P15",
+            "factKey": "calcada-gigantes-F40",
+            "text": "Um projeto de monitoramento por satélite e em campo busca reduzir riscos geológicos, como quedas de rochas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P16",
+            "factKey": "calcada-gigantes-F41",
+            "text": "Estudos geológicos feitos ali nos últimos 300 anos contribuíram muito para o desenvolvimento das ciências da Terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P17",
+            "factKey": "calcada-gigantes-F42",
+            "text": "Inscrito em 1986 pelos critérios (vii) e (viii), o sítio é uma localidade clássica para estudar o vulcanismo basáltico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_IUCN",
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P18",
+            "factKey": "calcada-gigantes-F43",
+            "text": "A National Trust detém a maior parte das terras em propriedade inalienável; cerca de 5% continuam em mãos privadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P19",
+            "factKey": "calcada-gigantes-F44",
+            "text": "A faixa entre a maré alta e a maré baixa pertence legalmente à Crown Estate.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P20",
+            "factKey": "calcada-gigantes-F45",
+            "text": "A área de paisagem protegida da costa em que o sítio se insere abrange cerca de 29 km de litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P21",
+            "factKey": "calcada-gigantes-F46",
+            "text": "Um grande projeto de hotel e golfe aprovado em 2012 nas proximidades teve a licença vencida em 2017, sem obras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P22",
+            "factKey": "calcada-gigantes-F47",
+            "text": "A visitação caiu cerca de 95% com a covid-19, para uns 140 mil em 2020, e voltou a cerca de 663 mil em 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P23",
+            "factKey": "calcada-gigantes-F48",
+            "text": "Cerca de 200 espécies de plantas, como a orquídea-rã, e 50 espécies de aves residentes ocorrem no sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P24",
+            "factKey": "calcada-gigantes-F49",
+            "text": "Basaltos colunares da mesma origem vulcânica aparecem nas ilhas escocesas de Staffa, Mull e Ulva.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CALCADA_BGS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "calcada-gigantes-geografo-P25",
+            "factKey": "calcada-gigantes-F50",
+            "text": "Fica na borda do planalto de Antrim, na Irlanda do Norte, e é um dos dois bens do Reino Unido inscritos por seu patrimônio geológico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CALCADA_UNESCO",
+              "CALCADA_BGS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Formação de cerca de 40 mil colunas de basalto, criada por vulcanismo há 50–60 milhões de anos na borda do planalto de Antrim, na Irlanda do Norte, ligada à lenda do gigante Finn McCool e Patrimônio Mundial desde 1986.",
+      "editorialNotes": [
+        "As fontes divergem sobre a forma das colunas: a National Trust fala em colunas hexagonais; o AONB diz que a maioria tem seis lados, mas também as descreve como \"tipicamente de cinco lados\".",
+        "Idade: a UNESCO dá 50–60 milhões de anos; o BGS e a National Trust, cerca de 60 milhões.",
+        "O AONB data de 1693 a apresentação à Royal Society e de 1743 a divulgação das aquarelas de Susanna Drury."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: UNESCO, British Geological Survey, National Trust, Causeway Coast AONB e IUCN World Heritage Outlook 2025; C1 com 18 paisagens naturais europeias, incluindo Staffa."
+    }
+  },
+  "sources": {
+    "CALCADA_UNESCO": {
+      "id": "CALCADA_UNESCO",
+      "title": "Giant's Causeway and Causeway Coast",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/369",
+      "checkedAt": "2026-11-15"
+    },
+    "CALCADA_BGS": {
+      "id": "CALCADA_BGS",
+      "title": "The Giant's Causeway and Causeway Coast",
+      "publisher": "British Geological Survey",
+      "url": "https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/the-giants-causeway-and-causeway-coast/",
+      "checkedAt": "2026-11-15"
+    },
+    "CALCADA_NT": {
+      "id": "CALCADA_NT",
+      "title": "History of Giant's Causeway",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway",
+      "checkedAt": "2026-11-15"
+    },
+    "CALCADA_AONB": {
+      "id": "CALCADA_AONB",
+      "title": "The Giant's Causeway",
+      "publisher": "Causeway Coast AONB – Causeway Coast and Glens Heritage Trust",
+      "url": "https://causewaycoastaonb.ccght.org/?p=1360",
+      "checkedAt": "2026-11-15"
+    },
+    "CALCADA_IUCN": {
+      "id": "CALCADA_IUCN",
+      "title": "Giant's Causeway and Causeway Coast (World Heritage Outlook 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1018",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/369",
+      "https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/the-giants-causeway-and-causeway-coast/",
+      "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway",
+      "https://causewaycoastaonb.ccght.org/?p=1360",
+      "https://worldheritageoutlook.iucn.org/node/1018"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

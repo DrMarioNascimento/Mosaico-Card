@@ -1,0 +1,1130 @@
+{
+  "case": {
+    "id": "lug3-pompeia",
+    "placeId": "pompeia",
+    "title": "Pompeia",
+    "aliases": [
+      "Pompeii",
+      "Pompei"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "IT"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio arqueológico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Pompeia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Herculano"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Óstia Antiga"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Fórum Romano"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Acrópole de Atenas"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Templos de Paestum"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Vale dos Templos de Agrigento"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Villa Adriana"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Villa Romana del Casale"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Sítio de Olímpia"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Santuário de Delfos"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Palácio de Cnossos"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Sítio de Micenas"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Sítio de Delos"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Akrotiri"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Conjunto Arqueológico de Mérida"
+          },
+          {
+            "id": "C1-O17",
+            "text": "Aquileia"
+          },
+          {
+            "id": "C1-O18",
+            "text": "Butrint"
+          },
+          {
+            "id": "C1-O19",
+            "text": "Stonehenge"
+          },
+          {
+            "id": "C1-O20",
+            "text": "Conímbriga"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Pompeia",
+        "sources": [
+          "POMPEIA_BRIT",
+          "POMPEIA_UNESCO_NHK"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Vulcão cuja erupção soterrou o lugar",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Vesúvio"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Etna"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Estrômboli"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Campi Flegrei"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Vesúvio",
+        "sources": [
+          "POMPEIA_BRIT",
+          "POMPEIA_UNESCO_NHK"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ano da erupção que soterrou o lugar",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "79 d.C."
+          },
+          {
+            "id": "C3-O2",
+            "text": "62 d.C."
+          },
+          {
+            "id": "C3-O3",
+            "text": "44 a.C."
+          },
+          {
+            "id": "C3-O4",
+            "text": "476 d.C."
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "79 d.C.",
+        "sources": [
+          "POMPEIA_BRIT",
+          "POMPEIA_UNESCO_NHK",
+          "POMPEIA_ICOMOS"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Superintendente do século XIX que fez moldes de gesso a partir dos vazios deixados na cinza",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Giuseppe Fiorelli"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Heinrich Schliemann"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Arthur Evans"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Howard Carter"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Giuseppe Fiorelli",
+        "sources": [
+          "POMPEIA_SMART",
+          "POMPEIA_BRIT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "pompeia-viajante-P01",
+            "factKey": "pompeia-F01",
+            "text": "É um sítio arqueológico europeu com as ruínas de uma cidade da Antiguidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_NHK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P02",
+            "factKey": "pompeia-F02",
+            "text": "As ruínas mostram como era a vida cotidiana numa cidade romana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANTIQ",
+              "POMPEIA_UNESCO_SOC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P03",
+            "factKey": "pompeia-F03",
+            "text": "Fica na Campânia, na Itália, a cerca de 23 km a sudeste de Nápoles.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P04",
+            "factKey": "pompeia-F04",
+            "text": "As ruínas ficam na base de um vulcão famoso.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P05",
+            "factKey": "pompeia-F05",
+            "text": "O vulcão vizinho é o Vesúvio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POMPEIA_BRIT",
+              "POMPEIA_UNESCO_NHK"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P06",
+            "factKey": "pompeia-F06",
+            "text": "A erupção que enterrou a cidade aconteceu no ano 79 da nossa era.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT",
+              "POMPEIA_UNESCO_NHK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P07",
+            "factKey": "pompeia-F07",
+            "text": "A data tradicional da erupção é 24 de agosto, mas o parque arqueológico também menciona outubro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANTIQ",
+              "POMPEIA_UNESCO_NHK"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P08",
+            "factKey": "pompeia-F08",
+            "text": "Pedras-pomes e cinzas cobriram a cidade com uma camada de 6 a 7 metros.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P09",
+            "factKey": "pompeia-F09",
+            "text": "A cidade tinha entre 10 mil e 20 mil moradores quando foi destruída.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P10",
+            "factKey": "pompeia-F10",
+            "text": "O principal relato de testemunha está em duas cartas de Plínio, o Jovem, ao historiador Tácito.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P11",
+            "factKey": "pompeia-F11",
+            "text": "Plínio, o Velho, comandante da frota romana em Miseno, morreu em Estábia ao tentar socorrer a população.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P12",
+            "factKey": "pompeia-F12",
+            "text": "Em 62, um terremoto já tinha causado grandes estragos na cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P13",
+            "factKey": "pompeia-F13",
+            "text": "O anfiteatro da cidade, de 70 a.C., é o mais antigo anfiteatro romano conhecido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANFI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P14",
+            "factKey": "pompeia-F14",
+            "text": "Esse anfiteatro recebia até 20 mil espectadores, inclusive gente de cidades vizinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANFI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P15",
+            "factKey": "pompeia-F15",
+            "text": "Em 59, uma briga sangrenta entre a torcida local e a da vizinha Nocera fez o Senado fechar a arena por dez anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANFI",
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P16",
+            "factKey": "pompeia-F16",
+            "text": "O soterramento repentino protegeu a cidade por 17 séculos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P17",
+            "factKey": "pompeia-F17",
+            "text": "As escavações começaram em 1748, por decisão do rei Carlos III de Bourbon.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS",
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P18",
+            "factKey": "pompeia-F18",
+            "text": "Antes disso, esse rei passou dez anos explorando outra cidade soterrada pelo mesmo vulcão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P19",
+            "factKey": "pompeia-F19",
+            "text": "No fim do século XVIII, viajantes do Grand Tour, vindos da Grã-Bretanha e de outros países, visitavam as ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P20",
+            "factKey": "pompeia-F20",
+            "text": "No século XIX, um superintendente das escavações fez moldes de gesso a partir dos vazios deixados na cinza.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P21",
+            "factKey": "pompeia-F21",
+            "text": "Esse superintendente, Giuseppe Fiorelli, também abriu o sítio à visitação e cobrou a primeira entrada.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P22",
+            "factKey": "pompeia-F22",
+            "text": "Em setembro de 1943, bombardeios da Segunda Guerra Mundial danificaram gravemente o museu do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANTIQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P23",
+            "factKey": "pompeia-F23",
+            "text": "No fim do século XVI, um canal de água foi aberto através da colina que cobria a cidade, sem que se percebesse o valor do que havia ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS",
+              "POMPEIA_SMART"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P24",
+            "factKey": "pompeia-F24",
+            "text": "O sítio é Patrimônio Mundial desde 1997, junto com outra cidade e com vilas soterradas pelo mesmo vulcão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT",
+              "POMPEIA_UNESCO_NHK"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-viajante-P25",
+            "factKey": "pompeia-F25",
+            "text": "Uma inscrição com as palavras REI PUBLICAE POMPEIANORUM confirmou o nome da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "pompeia-geografo-P01",
+            "factKey": "pompeia-F26",
+            "text": "O sítio oferece o quadro completo de uma cidade romana entre o século I a.C. e o século I d.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_SOC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P02",
+            "factKey": "pompeia-F27",
+            "text": "Os primeiros habitantes foram povos de língua osca, descendentes dos moradores neolíticos da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P03",
+            "factKey": "pompeia-F28",
+            "text": "A cidade foi construída sobre um esporão formado por um derrame de lava pré-histórico, ao norte da foz do rio Sarno.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P04",
+            "factKey": "pompeia-F29",
+            "text": "Gregos instalados do outro lado da baía desde o século VIII a.C. influenciaram a aldeia original.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P05",
+            "factKey": "pompeia-F30",
+            "text": "Os samnitas, que conquistaram a região no fim do século V a.C., fixaram-se na cidade e no vale do Sarno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT",
+              "POMPEIA_PARCO_ANTIQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P06",
+            "factKey": "pompeia-F31",
+            "text": "A primeira menção escrita à cidade é de 310 a.C., durante a Segunda Guerra Samnita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P07",
+            "factKey": "pompeia-F32",
+            "text": "Depois de aderir à revolta da Guerra Social, foi sitiada por Sula em 89 a.C. e recebeu depois uma colônia de veteranos romanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT",
+              "POMPEIA_PARCO_ANTIQ"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P08",
+            "factKey": "pompeia-F33",
+            "text": "O anfiteatro, de 70 a.C., foi erguido numa área periférica para facilitar a circulação de multidões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANFI"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P09",
+            "factKey": "pompeia-F34",
+            "text": "Em torno da praça do fórum surgiram grandes edifícios, como o Templo de Júpiter, a Basílica e o macellum, o mercado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANTIQ",
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P10",
+            "factKey": "pompeia-F35",
+            "text": "Após o terremoto de 62 d.C., que causou grande destruição, o Senado romano retirou a proibição de espetáculos na arena local.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANFI",
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P11",
+            "factKey": "pompeia-F36",
+            "text": "Por volta do meio-dia de 24 de agosto de 79, o vulcão lançou detritos sobre a cidade, e a camada de cinzas e pomes passou de 3 m.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P12",
+            "factKey": "pompeia-F37",
+            "text": "Na manhã de 25 de agosto, ondas piroclásticas chegaram às muralhas e asfixiaram muitos moradores.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P13",
+            "factKey": "pompeia-F38",
+            "text": "Depois da erupção, saqueadores cavaram túneis sob a cinza consolidada e retiraram mármore do fórum, dos teatros e do anfiteatro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P14",
+            "factKey": "pompeia-F39",
+            "text": "O imperador Tito encarregou dois magistrados de coordenar a ajuda à Campânia depois da catástrofe.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P15",
+            "factKey": "pompeia-F40",
+            "text": "Em 1755, o rei criou em Nápoles uma academia para mapear os sítios soterrados e publicar as descobertas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P16",
+            "factKey": "pompeia-F41",
+            "text": "A cidade vizinha começou a ser escavada em 1738, por túneis a mais de 20 m de profundidade; aqui, as escavações começaram em 1748, na colina da Civita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_SMART",
+              "POMPEIA_PARCO_POS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P17",
+            "factKey": "pompeia-F42",
+            "text": "Entre 1863 e 1875, o superintendente do sítio dividiu-o em nove regiões, abriu-o aos visitantes e fez moldes de gesso dos vazios na cinza.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMPEIA_SMART"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P18",
+            "factKey": "pompeia-F43",
+            "text": "O mesmo superintendente construiu o Antiquarium, o museu do sítio, entre 1873 e 1874.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_ANTIQ"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P19",
+            "factKey": "pompeia-F44",
+            "text": "As termas de Moregine, achadas nas obras da rodovia Nápoles–Salerno, voltaram a ser usadas depois de 79, até serem soterradas por outra erupção.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "POMPEIA_PARCO_POS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P20",
+            "factKey": "pompeia-F45",
+            "text": "Desde 2016, um parque arqueológico autônomo, criado por decreto ministerial, administra o sítio; é um dos dois órgãos que gerem o bem da UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_ICOMOS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P21",
+            "factKey": "pompeia-F46",
+            "text": "A zona de amortecimento do sítio foi fixada por decreto ministerial em 1929.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_SOC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P22",
+            "factKey": "pompeia-F47",
+            "text": "A Villa dos Mistérios, a oeste da cidade, foi ligada ao restante das escavações com a desapropriação de terras perto da necrópole da Porta Ercolano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_SOC",
+              "POMPEIA_ICOMOS"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P23",
+            "factKey": "pompeia-F48",
+            "text": "Em 2003 e 2004, o bem da UNESCO registrou entre 2,45 e 2,63 milhões de ingressos emitidos por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_SOC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P24",
+            "factKey": "pompeia-F49",
+            "text": "O município moderno de mesmo nome tinha 25.440 habitantes em 2011.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMPEIA_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pompeia-geografo-P25",
+            "factKey": "pompeia-F50",
+            "text": "Das duas cidades romanas engolidas pelo Vesúvio em 79, esta é a mais extensa: um centro comercial, e não a estância de veraneio menor e mais bem conservada.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "POMPEIA_UNESCO_NHK",
+              "POMPEIA_UNESCO_SOC"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade romana da Campânia, na base sudeste do Vesúvio, soterrada pela erupção de 79 d.C., escavada desde 1748 e famosa pelos moldes de gesso de Giuseppe Fiorelli; parte do Patrimônio Mundial desde 1997, com Herculano e Torre Annunziata.",
+      "editorialNotes": [
+        "A data tradicional da erupção é 24 de agosto de 79 (UNESCO, Britannica); a página do Antiquarium do parque cita \"agosto ou outubro\".",
+        "A briga no anfiteatro é de 59 d.C. na página do anfiteatro e na Britannica, mas de 58 d.C. na página do Antiquarium; usou-se 59.",
+        "O bem da UNESCO inclui Herculano e Torre Annunziata; as pistas tratam só desta cidade, e os números de visitantes (2003–04) valem para o bem inteiro."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, documentos da UNESCO e do ICOMOS, páginas do Parco Archeologico di Pompei e Smarthistory; C1 com 20 sítios arqueológicos europeus, incluindo Herculano."
+    }
+  },
+  "sources": {
+    "POMPEIA_BRIT": {
+      "id": "POMPEIA_BRIT",
+      "title": "Pompeii",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Pompeii",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_UNESCO_NHK": {
+      "id": "POMPEIA_UNESCO_NHK",
+      "title": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata (UNESCO/NHK)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/104067",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_UNESCO_SOC": {
+      "id": "POMPEIA_UNESCO_SOC",
+      "title": "State of Conservation of World Heritage Properties in Europe – Italy: Archaeological Areas of Pompei, Hercolaneum and Torre Annunziata",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/162952",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_ICOMOS": {
+      "id": "POMPEIA_ICOMOS",
+      "title": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata – Evaluation 829bis (2022)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/205804",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_PARCO_ANFI": {
+      "id": "POMPEIA_PARCO_ANFI",
+      "title": "Amphitheatre",
+      "publisher": "Parco Archeologico di Pompei",
+      "url": "https://pompeiisites.org/en/archaeological-site/amphitheater/",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_PARCO_POS": {
+      "id": "POMPEIA_PARCO_POS",
+      "title": "Pompeii after the Eruption",
+      "publisher": "Parco Archeologico di Pompei",
+      "url": "https://pompeiisites.org/en/?p=12166",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_PARCO_ANTIQ": {
+      "id": "POMPEIA_PARCO_ANTIQ",
+      "title": "Antiquarium",
+      "publisher": "Parco Archeologico di Pompei",
+      "url": "https://pompeiisites.org/en/?p=3614",
+      "checkedAt": "2026-11-15"
+    },
+    "POMPEIA_SMART": {
+      "id": "POMPEIA_SMART",
+      "title": "The rediscovery of Pompeii and the other cities of Vesuvius",
+      "publisher": "Smarthistory",
+      "url": "https://smarthistory.org/the-rediscovery-of-pompeii-and-the-other-cities-of-vesuvius",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Pompeii",
+      "https://whc.unesco.org/en/documents/104067",
+      "https://whc.unesco.org/document/162952",
+      "https://whc.unesco.org/document/205804",
+      "https://pompeiisites.org/en/archaeological-site/amphitheater/",
+      "https://pompeiisites.org/en/?p=12166",
+      "https://pompeiisites.org/en/?p=3614",
+      "https://smarthistory.org/the-rediscovery-of-pompeii-and-the-other-cities-of-vesuvius"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
