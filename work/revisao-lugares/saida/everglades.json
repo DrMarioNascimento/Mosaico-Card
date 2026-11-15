@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-everglades",
+    "placeId": "everglades",
+    "title": "Parque Nacional Everglades",
+    "aliases": [
+      "Everglades"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "US"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área protegida",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Everglades"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Biscayne"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Dry Tortugas"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Reserva Nacional Big Cypress"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Congaree"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Great Smoky Mountains"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Mammoth Cave"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Yellowstone"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Yosemite"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Grand Canyon"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Acadia"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Olympic"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Everglades",
+        "sources": [
+          "EVER_IUCN",
+          "EVER_NPS_WHY"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Flórida"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Luisiana"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Geórgia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Carolina do Sul"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Flórida",
+        "sources": [
+          "EVER_IUCN",
+          "EVER_SOC2008"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ecossistema costeiro do qual o parque abriga a maior extensão do Hemisfério Ocidental",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Manguezal"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Recife de coral"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Floresta de algas (kelp)"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Dunas costeiras"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Manguezal",
+        "sources": [
+          "EVER_IUCN",
+          "EVER_NPS_WHY"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Mamífero marinho ameaçado que encontra abrigo no parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Peixe-boi"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Leão-marinho-da-califórnia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Morsa"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Elefante-marinho-do-norte"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Peixe-boi",
+        "sources": [
+          "EVER_IUCN",
+          "EVER_SOC2008"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "everglades-viajante-P01",
+            "factKey": "everglades-F01",
+            "text": "Este destino protege áreas alagadas que servem de refúgio para muitas aves e répteis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P02",
+            "factKey": "everglades-F02",
+            "text": "Fica na América do Norte, numa região de clima subtropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY",
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P03",
+            "factKey": "everglades-F03",
+            "text": "O parque fica nos Estados Unidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY",
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P04",
+            "factKey": "everglades-F04",
+            "text": "Fica no extremo sul da Flórida.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P05",
+            "factKey": "everglades-F05",
+            "text": "A paisagem é enorme, baixa e quase totalmente plana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P06",
+            "factKey": "everglades-F06",
+            "text": "A água avança devagar, quase sem se notar, como um “rio de capim” rumo ao mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P07",
+            "factKey": "everglades-F07",
+            "text": "Abriga a maior pradaria de capim-serra (sawgrass) da América do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P08",
+            "factKey": "everglades-F08",
+            "text": "Manguezais imensos ocupam a costa do parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "EVER_NPS_WHY",
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P09",
+            "factKey": "everglades-F09",
+            "text": "Pinheirais sobre rocha e matas tropicais de folhosas aparecem entre os brejos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P10",
+            "factKey": "everglades-F10",
+            "text": "Uma grande baía estuarina faz parte do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P11",
+            "factKey": "everglades-F11",
+            "text": "É o local de reprodução mais importante da América do Norte para aves pernaltas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P12",
+            "factKey": "everglades-F12",
+            "text": "Colhereiros e garças estão entre as aves que se veem por lá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P13",
+            "factKey": "everglades-F13",
+            "text": "Mais de 400 espécies de aves já foram registradas no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P14",
+            "factKey": "everglades-F14",
+            "text": "Aligátores (jacarés-americanos) e crocodilos vivem no mesmo parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P15",
+            "factKey": "everglades-F15",
+            "text": "O peixe-boi, ameaçado, encontra abrigo nas águas do parque.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P16",
+            "factKey": "everglades-F16",
+            "text": "A pantera-da-flórida está entre as espécies ameaçadas que o parque protege.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P17",
+            "factKey": "everglades-F17",
+            "text": "Pradarias submarinas de plantas marinhas são importantes para a pesca na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P18",
+            "factKey": "everglades-F18",
+            "text": "Dá para explorar de canoa, de barco, de bicicleta ou a pé, por trilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P19",
+            "factKey": "everglades-F19",
+            "text": "Há entradas perto de Homestead, de Miami e de Naples.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P20",
+            "factKey": "everglades-F20",
+            "text": "A estação chuvosa e a seca mudam bastante a paisagem ao longo do ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P21",
+            "factKey": "everglades-F21",
+            "text": "Foi a primeira vez que o país reservou terras federais pela variedade de plantas e animais, e não pela paisagem bonita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P22",
+            "factKey": "everglades-F22",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1979.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P23",
+            "factKey": "everglades-F23",
+            "text": "A píton-birmanesa, uma cobra introduzida, está entre as espécies invasoras do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P24",
+            "factKey": "everglades-F24",
+            "text": "Furacões e incêndios estão entre as ameaças ao parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-viajante-P25",
+            "factKey": "everglades-F25",
+            "text": "O nível do mar vem subindo, e a água salgada avança sobre áreas de água doce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "everglades-geografo-P01",
+            "factKey": "everglades-F01",
+            "text": "A unidade protege um mosaico de hábitats aquáticos, de brejos de água doce a pradarias marinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P02",
+            "factKey": "everglades-F02",
+            "text": "Situa-se numa planície costeira subtropical da América do Norte, aberta para o golfo do México.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P03",
+            "factKey": "everglades-F03",
+            "text": "O terreno é um vasto fundo marinho quase plano, que sustenta um contínuo de ambientes marinhos rasos, estuarinos, de água doce e terrestres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P04",
+            "factKey": "everglades-F04",
+            "text": "O substrato calcário é uma das áreas mais ativas de sedimentação carbonática moderna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P05",
+            "factKey": "everglades-F05",
+            "text": "Um lençol de água escoa de forma quase imperceptível do interior para o mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P06",
+            "factKey": "everglades-F06",
+            "text": "O parque corresponde a cerca de um quinto do sistema original de áreas úmidas: a porção mais ao sul.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P07",
+            "factKey": "everglades-F07",
+            "text": "Com cerca de 1,5 milhão de acres (mais de 600 mil hectares), está entre os maiores parques do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY",
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P08",
+            "factKey": "everglades-F08",
+            "text": "É a única área selvagem (wilderness) subtropical da América do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P09",
+            "factKey": "everglades-F09",
+            "text": "Obras de controle de cheias de um grande projeto regional alteraram o fluxo de água no ecossistema.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P10",
+            "factKey": "everglades-F10",
+            "text": "A salinidade sobe no nordeste da baía que o parque abriga, e a intrusão de água salgada se acelera.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P11",
+            "factKey": "everglades-F11",
+            "text": "Nutrientes de áreas agrícolas a montante são uma grande preocupação para a qualidade da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P12",
+            "factKey": "everglades-F12",
+            "text": "O mercúrio chega pelo ar, emitido por usinas a carvão, e contamina peixes e fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P13",
+            "factKey": "everglades-F13",
+            "text": "O manejo histórico da água deixou incêndios anormalmente frequentes e intensos, que atingem turfas e ilhas de mata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P14",
+            "factKey": "everglades-F14",
+            "text": "A elevação do nível do mar na região já desloca comunidades de plantas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P15",
+            "factKey": "everglades-F15",
+            "text": "Fica no cruzamento de duas grandes rotas migratórias de aves, a do Atlântico e a do Mississippi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P16",
+            "factKey": "everglades-F16",
+            "text": "As pradarias de fanerógamas marinhas sustentam pescas comerciais e recreativas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P17",
+            "factKey": "everglades-F17",
+            "text": "Aligátor, crocodilo e pantera-da-flórida estão entre os predadores principais das cadeias alimentares.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P18",
+            "factKey": "everglades-F18",
+            "text": "O cabeça-seca, uma cegonha, e o gavião-caramujeiro estão entre as espécies ameaçadas protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN",
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P19",
+            "factKey": "everglades-F19",
+            "text": "Cerca de 1.040 espécies de plantas já foram registradas no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P20",
+            "factKey": "everglades-F20",
+            "text": "A píton-birmanesa, a aroeira-vermelha e uma samambaia trepadeira do Velho Mundo estão entre as invasoras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P21",
+            "factKey": "everglades-F21",
+            "text": "O Congresso autorizou o parque em 1934 para preservar o ecossistema subtropical; a dedicação oficial veio em 1947.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_WHY"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P22",
+            "factKey": "everglades-F22",
+            "text": "Reúne três títulos internacionais: Patrimônio Mundial, Reserva da Biosfera e área úmida de importância internacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_NPS_ES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P23",
+            "factKey": "everglades-F23",
+            "text": "Entrou na Lista do Patrimônio Mundial em Perigo em 1993, saiu em 2007 e voltou em 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_SOC2008"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P24",
+            "factKey": "everglades-F24",
+            "text": "Um plano abrangente de restauração, de mais de 10,5 bilhões de dólares, busca devolver fluxos de água mais naturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "everglades-geografo-P25",
+            "factKey": "everglades-F25",
+            "text": "Mais de 3 milhas de pontes na rodovia Tamiami Trail fazem parte do esforço para aumentar a entrada de água doce.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EVER_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional no extremo sul da Flórida, com um imenso “rio de capim” que escoa lentamente para o mar, manguezais, baías estuarinas e grande concentração de aves pernaltas, répteis e espécies ameaçadas.",
+      "editorialNotes": [
+        "Superlativo dos manguezais: a IUCN fala no “maior ecossistema de manguezal do Hemisfério Ocidental”; o NPS, na “maior floresta de mangue protegida do Hemisfério Norte”. O C3 usa a formulação da IUCN.",
+        "Área: o NPS dá 1.509.000 acres (cerca de 610 mil ha); as pistas usam “cerca de 1,5 milhão de acres”.",
+        "Lista em Perigo: a página da UNESCO informa 1993–2007 e 2010–presente; a IUCN (2025) diz que o sítio foi mantido na lista em 2019. As pistas não afirmam a situação atual."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), em duas páginas do NPS e na página de estado de conservação da UNESCO; C1, C2, C3 e C4 refeitos com alternativas comparáveis."
+    }
+  },
+  "sources": {
+    "EVER_IUCN": {
+      "id": "EVER_IUCN",
+      "checkedAt": "2026-11-15",
+      "title": "Everglades National Park — World Heritage Outlook (avaliação 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/966"
+    },
+    "EVER_NPS_WHY": {
+      "id": "EVER_NPS_WHY",
+      "checkedAt": "2026-11-15",
+      "title": "Why Protect Everglades National Park?",
+      "publisher": "National Park Service",
+      "url": "https://home.nps.gov/ever/learn/nature/ccintrospurposeenp.htm"
+    },
+    "EVER_NPS_ES": {
+      "id": "EVER_NPS_ES",
+      "checkedAt": "2026-11-15",
+      "title": "Parque Nacional Everglades (página em espanhol)",
+      "publisher": "National Park Service",
+      "url": "https://home.nps.gov/ever/espanol/index.htm"
+    },
+    "EVER_SOC2008": {
+      "id": "EVER_SOC2008",
+      "checkedAt": "2026-11-15",
+      "title": "Everglades National Park — State of Conservation (2008)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/827"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/966",
+      "https://home.nps.gov/ever/learn/nature/ccintrospurposeenp.htm",
+      "https://home.nps.gov/ever/espanol/index.htm",
+      "https://whc.unesco.org/en/soc/827"
+    ],
+    "alteracoes": [
+      "Fontes: EVERGLADES76 (página /en/list/ da UNESCO, não aberta) trocada pela IUCN World Heritage Outlook (EVER_IUCN), por duas páginas do NPS (EVER_NPS_WHY, EVER_NPS_ES) e pela página de estado de conservação da UNESCO (EVER_SOC2008).",
+      "C1: Tortuguero, Corcovado e Pantanal (fora dos EUA, incompatíveis com o C2 “Estado”) trocados por Grand Canyon, Acadia e Olympic; rótulo virou “Área protegida” por causa da Reserva Nacional Big Cypress.",
+      "C2: Alasca, Colorado e Nevada trocados por Luisiana, Geórgia e Carolina do Sul, estados de planície costeira mais comparáveis.",
+      "C3: “Ambientes protegidos” com alternativas absurdas (tundra, dunas com oásis, fiordes) trocado por “Ecossistema costeiro do qual o parque abriga a maior extensão do Hemisfério Ocidental” (manguezal).",
+      "C4: urso-polar, narval e lontra-marinha do Ártico (só ela combinava com a Flórida) trocados por leão-marinho-da-califórnia, morsa e elefante-marinho-do-norte; rótulo agora “Mamífero marinho ameaçado”.",
+      "Viajante: as 25 pistas reescritas ou trocadas (rio de capim, capim-serra, aves pernaltas, 400 espécies de aves, colhereiros, entradas Homestead/Miami/Naples, estações, primeiro parque criado pela biodiversidade).",
+      "Geógrafo: as 25 pistas reescritas ou trocadas para processos (antigo fundo marinho, sedimentação carbonática, salinidade e intrusão salina, mercúrio atmosférico, fogo e manejo da água, rotas migratórias, Lista em Perigo, CERP, pontes da Tamiami Trail); a pista que chamava as pradarias de “capins aquáticos” saiu.",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas P06 e P21 (Viajante) e P24–P25 (Geógrafo)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

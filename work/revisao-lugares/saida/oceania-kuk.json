@@ -1,0 +1,1067 @@
+{
+  "case": {
+    "id": "lug2-oceania-kuk",
+    "placeId": "oceania-kuk",
+    "title": "Sítio Agrícola Antigo de Kuk",
+    "aliases": [
+      "Sítio de Kuk"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PG"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio cultural ou arqueológico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Sítio Agrícola Antigo de Kuk"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Nan Madol"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Paisagem Cultural de Budj Bim"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Domínio do Chefe Roi Mata"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Taputapuātea"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Rapa Nui"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Região dos Lagos Willandra"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Sítio Arqueológico de Lapita"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Pu‘uhonua o Hōnaunau"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilhas Rock do Sul"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Uluṟu-Kata Tjuṯa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Sítio Agrícola Antigo de Kuk",
+        "sources": [
+          "KUK_UNESCO",
+          "KUK_DECISAO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ambiente do sítio",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Pântano em vale de terras altas"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Planície costeira de manguezal"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Encosta de ilha vulcânica"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Atol de coral"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Pântano em vale de terras altas",
+        "sources": [
+          "KUK_UNESCO",
+          "KUK_ICOMOS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "País",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Papua-Nova Guiné"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Vanuatu"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Fiji"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Ilhas Salomão"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Papua-Nova Guiné",
+        "sources": [
+          "KUK_UNESCO",
+          "KUK_ONU"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Plantas da agricultura antiga do sítio",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Taro, inhame e banana"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Trigo, cevada e centeio"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Milho, feijão e abóbora"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Arroz, milheto e soja"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Taro, inhame e banana",
+        "sources": [
+          "KUK_DECISAO",
+          "KUK_ICOMOS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "oceania-kuk-viajante-P01",
+            "factKey": "oceania-kuk-F01",
+            "text": "Este lugar guarda, enterrados no solo, vestígios de antigas formas de cultivar a terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P02",
+            "factKey": "oceania-kuk-F02",
+            "text": "Fica nas terras altas de uma ilha da Oceania.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P03",
+            "factKey": "oceania-kuk-F03",
+            "text": "A área fica em Papua-Nova Guiné.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "KUK_UNESCO",
+              "KUK_ONU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P04",
+            "factKey": "oceania-kuk-F04",
+            "text": "O terreno é um pântano, quase sempre encharcado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_UNESCO",
+              "KUK_ICOMOS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P05",
+            "factKey": "oceania-kuk-F05",
+            "text": "O lugar fica num dos maiores vales entre montanhas das terras altas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P06",
+            "factKey": "oceania-kuk-F06",
+            "text": "Está a cerca de 1.500 metros de altitude.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P07",
+            "factKey": "oceania-kuk-F07",
+            "text": "A terra ali é trabalhada quase sem parar há uns 7 mil anos, talvez 10 mil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P08",
+            "factKey": "oceania-kuk-F08",
+            "text": "Há uns 6.500 anos, os moradores passaram de coletar plantas a cultivá-las.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P09",
+            "factKey": "oceania-kuk-F09",
+            "text": "É um dos poucos lugares do mundo onde a agricultura parece ter surgido por conta própria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_UNESCO",
+              "KUK_DECISAO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P10",
+            "factKey": "oceania-kuk-F10",
+            "text": "Taro, inhame e banana estão entre as plantas cultivadas desde os primeiros tempos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P11",
+            "factKey": "oceania-kuk-F11",
+            "text": "Valas para escoar a água ajudaram o plantio de banana no terreno encharcado.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P12",
+            "factKey": "oceania-kuk-F12",
+            "text": "Essas plantas eram multiplicadas por mudas e pedaços da própria planta, sem sementes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P13",
+            "factKey": "oceania-kuk-F13",
+            "text": "Restos microscópicos de plantas guardados no solo ajudam a contar essa história.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P14",
+            "factKey": "oceania-kuk-F14",
+            "text": "Os primeiros agricultores faziam montinhos de terra na beira do pântano para plantar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P15",
+            "factKey": "oceania-kuk-F15",
+            "text": "Mais tarde vieram as valas, cavadas para drenar o pântano.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_UNESCO"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P16",
+            "factKey": "oceania-kuk-F16",
+            "text": "As valas eram abertas com ferramentas de madeira, de uns 4 mil anos atrás até hoje.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P17",
+            "factKey": "oceania-kuk-F17",
+            "text": "Ferramentas de pedra serviam para preparar taro, inhame e outras plantas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P18",
+            "factKey": "oceania-kuk-F18",
+            "text": "Arqueólogos já abriram mais de 200 trincheiras no lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P19",
+            "factKey": "oceania-kuk-F19",
+            "text": "Mesmo assim, as escavações mexeram só numa pequena parte da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P20",
+            "factKey": "oceania-kuk-F20",
+            "text": "A área protegida tem 116 hectares, quase toda de pântano.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P21",
+            "factKey": "oceania-kuk-F21",
+            "text": "O clã Kawelka, dono tradicional da terra, voltou a ocupar a área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P22",
+            "factKey": "oceania-kuk-F22",
+            "text": "Hoje os moradores plantam sobretudo raízes e tubérculos tradicionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P23",
+            "factKey": "oceania-kuk-F23",
+            "text": "Os donos da terra aceitaram não plantar espécies de raiz funda nem cavar valas profundas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P24",
+            "factKey": "oceania-kuk-F24",
+            "text": "O pântano já virou plantação de chá e, depois, estação de pesquisa agrícola.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-viajante-P25",
+            "factKey": "oceania-kuk-F25",
+            "text": "Em 2008, o lugar se tornou o primeiro Patrimônio Mundial do seu país.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_ONU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "oceania-kuk-geografo-P01",
+            "factKey": "oceania-kuk-F01",
+            "text": "O sítio é um registro arqueológico soterrado de mudanças no uso agrícola da terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P02",
+            "factKey": "oceania-kuk-F02",
+            "text": "Foi inscrito como paisagem cultural relíquia, pelos critérios (iii) e (iv).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P03",
+            "factKey": "oceania-kuk-F03",
+            "text": "Situa-se nas terras altas ocidentais da Nova Guiné, em território de Papua-Nova Guiné.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KUK_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P04",
+            "factKey": "oceania-kuk-F04",
+            "text": "Pântanos de terras altas conservaram, soterradas, as estruturas agrícolas antigas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_UNESCO",
+              "KUK_DECISAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P05",
+            "factKey": "oceania-kuk-F05",
+            "text": "Os pântanos ocupam um dos maiores vales intermontanos da região, no alto vale do Wahgi.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P06",
+            "factKey": "oceania-kuk-F06",
+            "text": "A altitude é de cerca de 1.560 m segundo a ICOMOS; a UNESCO arredonda para 1.500 m.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_ICOMOS",
+              "KUK_UNESCO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P07",
+            "factKey": "oceania-kuk-F07",
+            "text": "A sequência indica uso da terra persistente, mas episódico, possivelmente desde 10 mil anos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P08",
+            "factKey": "oceania-kuk-F08",
+            "text": "A passagem da coleta para a agricultura ocorreu entre cerca de 7.000 e 6.400 anos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P09",
+            "factKey": "oceania-kuk-F09",
+            "text": "O critério (iv) destaca o desenvolvimento agrícola independente e as mudanças de prática ao longo de 7 a 10 mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_UNESCO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P10",
+            "factKey": "oceania-kuk-F10",
+            "text": "A agricultura baseou-se na propagação vegetativa de banana, taro e inhame.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_ICOMOS"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P11",
+            "factKey": "oceania-kuk-F11",
+            "text": "Microfósseis vegetais do sítio corroboram interpretações genéticas e fitogeográficas sobre a dispersão de plantas domesticadas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P12",
+            "factKey": "oceania-kuk-F12",
+            "text": "Instrumentos de pedra associam-se ao processamento de taro, inhame e outras plantas amiláceas e lenhosas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P13",
+            "factKey": "oceania-kuk-F13",
+            "text": "A primeira fase de manejo usou montículos nas margens da área úmida, datados de 7.000 a 6.400 anos atrás.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_ICOMOS"
+            ],
+            "clueType": "agricultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P14",
+            "factKey": "oceania-kuk-F14",
+            "text": "Redes de valas ligadas a canais de drenagem permitiram cultivar banana em solo encharcado.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P15",
+            "factKey": "oceania-kuk-F15",
+            "text": "A partir de cerca de 4.000 anos atrás, a drenagem passou a ser feita com valas abertas por ferramentas de madeira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P16",
+            "factKey": "oceania-kuk-F16",
+            "text": "Trincheiras com valas de fases diferentes se cruzando mostram a sobreposição de sistemas de drenagem no tempo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P17",
+            "factKey": "oceania-kuk-F17",
+            "text": "As escavações nos drenos da plantação começaram pouco antes da independência do país, em 1975, e foram intensas até 1977.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P18",
+            "factKey": "oceania-kuk-F18",
+            "text": "A integridade é considerada mantida: a pesquisa atingiu pequena parte da área central e a agricultura atual é pouco intensa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_UNESCO",
+              "KUK_DECISAO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P19",
+            "factKey": "oceania-kuk-F19",
+            "text": "A área central de 116 ha é cercada por uma zona de amortecimento de 195 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P20",
+            "factKey": "oceania-kuk-F20",
+            "text": "A terra é de propriedade tradicional do clã Kawelka, que a arrendou em 1968 por 99 anos e depois voltou a ocupá-la.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P21",
+            "factKey": "oceania-kuk-F21",
+            "text": "A nova drenagem da plantação de chá vizinha, de Tibi, poderia afetar o sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P22",
+            "factKey": "oceania-kuk-F22",
+            "text": "A intensificação agrícola e os cultivos de raízes profundas são as principais ameaças ao registro soterrado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P23",
+            "factKey": "oceania-kuk-F23",
+            "text": "A subida do lençol freático e a mudança do clima também preocupam a conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_ICOMOS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P24",
+            "factKey": "oceania-kuk-F24",
+            "text": "A proteção legal foi julgada adequada, mas a proteção tradicional precisava ser formalizada com uma Área de Conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "KUK_DECISAO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-kuk-geografo-P25",
+            "factKey": "oceania-kuk-F25",
+            "text": "Inscrito em 2008, na 32ª sessão do Comitê, foi o primeiro bem do Patrimônio Mundial do país.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "KUK_DECISAO",
+              "KUK_ONU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Pântano de 116 ha nas terras altas ocidentais da Nova Guiné, em Papua-Nova Guiné, que registra cerca de 7 mil (talvez 10 mil) anos de agricultura desenvolvida de forma independente, dos montículos de cultivo às valas de drenagem.",
+      "editorialNotes": [
+        "Altitude: 1.500 m na UNESCO e 1.560 m na avaliação da ICOMOS. A matéria da ONU de 2008 diz ‘sul’ de Papua-Nova Guiné; a UNESCO fala em terras altas ocidentais.",
+        "Evitar dizer que foi o primeiro ou o único lugar agrícola do mundo: as fontes dizem ‘um dos poucos lugares’ com agricultura desenvolvida de forma independente.",
+        "A fonte da FAO do rascunho não pôde ser aberta e saiu; as pistas sobre a pá de madeira datada e os machados de pedra saíram por falta de apoio nas fontes abertas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na página da UNESCO, na avaliação da ICOMOS (2008), na decisão de inscrição do Comitê e na matéria da ONU de 2008; fonte FAO retirada e alternativas de C1, C2 e C4 ajustadas."
+    }
+  },
+  "sources": {
+    "KUK_UNESCO": {
+      "id": "KUK_UNESCO",
+      "title": "Kuk Early Agricultural Site",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/887",
+      "checkedAt": "2026-11-15"
+    },
+    "KUK_ICOMOS": {
+      "id": "KUK_ICOMOS",
+      "title": "Kuk Early Agricultural Site (Papua New Guinea) — ICOMOS evaluation, 2008",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154519",
+      "checkedAt": "2026-11-15"
+    },
+    "KUK_DECISAO": {
+      "id": "KUK_DECISAO",
+      "title": "Kuk Early Agricultural Site (Papua New Guinea) — World Heritage Committee decision, 32nd session (2008)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/1487",
+      "checkedAt": "2026-11-15"
+    },
+    "KUK_ONU": {
+      "id": "KUK_ONU",
+      "title": "Eight more sites inscribed on UNESCO’s World Heritage List",
+      "publisher": "UN News",
+      "url": "https://news.un.org/en/story/2008/07/265502",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/887",
+      "https://whc.unesco.org/document/154519",
+      "https://whc.unesco.org/en/decisions/1487",
+      "https://news.un.org/en/story/2008/07/265502"
+    ],
+    "alteracoes": [
+      "Fonte KUK_FAO retirada (não foi possível abri-la); entraram a avaliação da ICOMOS (KUK_ICOMOS), a decisão de inscrição de 2008 (KUK_DECISAO) e a matéria da ONU de 7/7/2008 (KUK_ONU), além da página da UNESCO (KUK_UNESCO).",
+      "C1: ‘Lago Mungo’ trocado por ‘Região dos Lagos Willandra’ (nome do bem); ids renumerados sem lacuna.",
+      "C2: alternativas implausíveis (delta, deserto de dunas, fiorde) trocadas por ambientes da Oceania (manguezal, encosta vulcânica, atol); gabarito ‘Pântano em vale de terras altas’.",
+      "C4: ‘Azeitona, uva e figo’ trocado por ‘Arroz, milheto e soja’; gabarito mantido (taro, inhame e banana, conforme a decisão de inscrição).",
+      "Viajante: 24 pistas reescritas; saíram a pá de madeira datada encontrada perto do local, os machados de pedra e as ferramentas de cavar, sem apoio nas fontes abertas; entraram transição de 6.500 anos, valas para a banana, propagação por mudas, 200 trincheiras, 116 ha, compromisso dos Kawelka, plantação de chá e primeiro Patrimônio Mundial do país.",
+      "Geógrafo: todas as 25 reescritas para processos e relações (sequência episódica, propagação vegetativa, microfósseis, sobreposição de valas, zona de amortecimento de 195 ha, arrendamento de 1968, ameaças de drenagem e de raízes profundas, proteção tradicional).",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas P09 e P25 nos dois perfis; clueType e relatedFields diversificados."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

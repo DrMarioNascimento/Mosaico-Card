@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-darien",
+    "placeId": "darien",
+    "title": "Parque Nacional Darién",
+    "aliases": [
+      "Darién",
+      "Darien"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PA"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Darién"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Los Katíos"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Coiba"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Chagres"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Soberanía"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Corcovado"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Tortuguero"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Ilha do Coco"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Tikal"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional do Manu"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Jaú"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Yasuní"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Darién",
+        "sources": [
+          "DARIEN_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Panamá"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Colômbia"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Costa Rica"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Equador"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Panamá",
+        "sources": [
+          "DARIEN_IUCN",
+          "DARIEN_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Grande ave de rapina com população importante no parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Harpia"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Condor-andino"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Águia-careca"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Águia-real"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Harpia",
+        "sources": [
+          "DARIEN_IUCN",
+          "DARIEN_IUCN1981"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Povos indígenas com presença antiga no território",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Emberá, Wounaan e Guna"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Mapuche e Tehuelche"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Quíchua e Aimará"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Navajo e Hopi"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Emberá, Wounaan e Guna",
+        "sources": [
+          "DARIEN_IUCN",
+          "DARIEN_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "darien-viajante-P01",
+            "factKey": "darien-F01",
+            "text": "Este destino protege florestas tropicais, rios e um trecho de litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P02",
+            "factKey": "darien-F02",
+            "text": "Fica na América Central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P03",
+            "factKey": "darien-F03",
+            "text": "O clima da região é quente e úmido, com chuvas de 1.800 a 4.500 mm por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P04",
+            "factKey": "darien-F04",
+            "text": "O parque fica no Panamá.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P05",
+            "factKey": "darien-F05",
+            "text": "Fica no leste do país, junto à fronteira com a Colômbia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P06",
+            "factKey": "darien-F06",
+            "text": "Praias de areia e costões rochosos aparecem no litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN1981",
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P07",
+            "factKey": "darien-F07",
+            "text": "Manguezais e pântanos fazem parte da paisagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P08",
+            "factKey": "darien-F08",
+            "text": "Há florestas tanto nas terras baixas quanto nas montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P09",
+            "factKey": "darien-F09",
+            "text": "Nas partes mais altas existem florestas de neblina, ainda pouco conhecidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P10",
+            "factKey": "darien-F10",
+            "text": "Vários rios importantes, como o Tuira e o Balsas, cortam a região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P11",
+            "factKey": "darien-F11",
+            "text": "A onça-pintada está entre os grandes predadores do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P12",
+            "factKey": "darien-F12",
+            "text": "Tamanduás-bandeira e queixadas estão entre os mamíferos do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P13",
+            "factKey": "darien-F13",
+            "text": "A anta-de-baird, ameaçada de extinção, vive no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P14",
+            "factKey": "darien-F14",
+            "text": "A harpia tem uma população importante no parque.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P15",
+            "factKey": "darien-F15",
+            "text": "Uma grande arara verde, ameaçada de extinção, está entre as aves de destaque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P16",
+            "factKey": "darien-F16",
+            "text": "Capivaras, bugios e jacarés estão entre os animais da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P17",
+            "factKey": "darien-F17",
+            "text": "Povos indígenas vivem dentro do parque e em seu entorno.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P18",
+            "factKey": "darien-F18",
+            "text": "Comunidades afrodescendentes também vivem no leste do país há séculos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P19",
+            "factKey": "darien-F19",
+            "text": "Emberá, Wounaan e Guna são os povos indígenas citados na região.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P20",
+            "factKey": "darien-F20",
+            "text": "Vilas como Yaviza e El Real de Santa María ficam perto da fronteira.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P21",
+            "factKey": "darien-F21",
+            "text": "A Rodovia Pan-Americana não atravessa a região, o que deixa sem ligação por estrada a América Central e a do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_EB",
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P22",
+            "factKey": "darien-F22",
+            "text": "Do lado colombiano, o parque encosta no Parque Nacional Los Katíos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P23",
+            "factKey": "darien-F23",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1981.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P24",
+            "factKey": "darien-F24",
+            "text": "Pastagens para gado e plantações de dendê pressionam a floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-viajante-P25",
+            "factKey": "darien-F25",
+            "text": "Em 2023 e 2024, a passagem de migrantes pela fronteira aumentou a pressão sobre o ambiente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "darien-geografo-P01",
+            "factKey": "darien-F01",
+            "text": "A unidade protege um mosaico de costas, planícies costeiras, colinas e serras cobertas de floresta tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P02",
+            "factKey": "darien-F02",
+            "text": "Situa-se num istmo que funciona como ponte terrestre entre dois continentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P03",
+            "factKey": "darien-F03",
+            "text": "Ocupa o setor oriental do istmo panamenho, junto à fronteira colombiana.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P04",
+            "factKey": "darien-F04",
+            "text": "Protege parte substancial das bacias hidrográficas de uma província panamenha de fronteira.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P05",
+            "factKey": "darien-F05",
+            "text": "Rios como Tuira, Chucunaque, Jaque, Sambú e Balsas drenam o território.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P06",
+            "factKey": "darien-F06",
+            "text": "Oscilações do nível do mar ligadas a mudanças climáticas e glaciações ajudaram a moldar costas e planícies.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P07",
+            "factKey": "darien-F07",
+            "text": "Abriga a floresta tropical de baixada mais extensa da costa pacífica da América Central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P08",
+            "factKey": "darien-F08",
+            "text": "A grande extensão de floresta permite que processos ecológicos e evolutivos continuem em larga escala.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P09",
+            "factKey": "darien-F09",
+            "text": "Florestas de neblina isoladas, nas maiores altitudes, ainda são pouco estudadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P10",
+            "factKey": "darien-F10",
+            "text": "Pesquisas com armadilhas fotográficas foram feitas na Serranía del Pirre.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P11",
+            "factKey": "darien-F11",
+            "text": "Feições cársticas notáveis, ligadas à dissolução de rochas, estão entre os atributos do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P12",
+            "factKey": "darien-F12",
+            "text": "A região é zona de primeiro contato e intercâmbio entre duas massas de terra antes isoladas, o que se reflete na biodiversidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P13",
+            "factKey": "darien-F13",
+            "text": "Integra uma ecorregião reconhecida internacionalmente como hotspot de biodiversidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P14",
+            "factKey": "darien-F14",
+            "text": "O endemismo é alto tanto entre vertebrados quanto entre invertebrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P15",
+            "factKey": "darien-F15",
+            "text": "Predadores de topo, como a onça-pintada, e também a suçuarana integram a fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P16",
+            "factKey": "darien-F16",
+            "text": "Mamíferos ameaçados como a anta-de-baird, o queixada e o macaco-aranha-de-cabeça-castanha ocorrem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P17",
+            "factKey": "darien-F17",
+            "text": "A harpia, classificada como vulnerável, mantém ali uma de suas populações importantes.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P18",
+            "factKey": "darien-F18",
+            "text": "O cachorro-vinagre, quase ameaçado, figura entre os mamíferos registrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_IUCN1981"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P19",
+            "factKey": "darien-F19",
+            "text": "Os povos emberá, wounaan e guna têm presença enraizada na região; o uso tradicional manteve florestas antigas intactas em grande parte de 125 mil hectares indígenas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P20",
+            "factKey": "darien-F20",
+            "text": "A falta de direitos de terra legalmente reconhecidos para os indígenas que vivem no parque é apontada como fragilidade.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P21",
+            "factKey": "darien-F21",
+            "text": "O sítio fica inteiramente dentro de uma reserva da biosfera de 859.333 ha, cerca de 280 mil ha maior que o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P22",
+            "factKey": "darien-F22",
+            "text": "A área começou a ser protegida em 1972, como reserva florestal, e entrou na Lista do Patrimônio Mundial em 1981.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_EB",
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P23",
+            "factKey": "darien-F23",
+            "text": "O trecho que falta da Rodovia Pan-Americana, entre Panamá e Colômbia, fica na região, e sua conclusão é debatida há décadas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DARIEN_IUCN",
+              "DARIEN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P24",
+            "factKey": "darien-F24",
+            "text": "Na fronteira, parte do limite do parque encosta em Los Katíos, unidade colombiana bem menor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "darien-geografo-P25",
+            "factKey": "darien-F25",
+            "text": "Pecuária, dendê, extração ilegal de madeira e crime organizado transnacional compõem um quadro de ameaça muito alta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DARIEN_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional no leste do Panamá, na fronteira com a Colômbia, com florestas tropicais de baixada e de montanha, rios, manguezais e costa do Pacífico, ponte biológica entre as Américas.",
+      "editorialNotes": [
+        "Área: a revisão técnica da IUCN de 1981 fala em cerca de 575 mil ha; a IUCN (2025) diz que a reserva da biosfera, de 859.333 ha, é 280.333 ha maior que o parque. As pistas não dão a área do parque.",
+        "A Britannica informa que a área foi criada como Reserva Florestal do Alto Darién em 1972; a data de criação como parque nacional não foi conferida e não aparece nas pistas.",
+        "Los Katíos é parque contíguo na Colômbia, mas é um bem do Patrimônio Mundial separado; as pistas não tratam os dois como um só sítio."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), na revisão técnica da IUCN de 1981 (UNESCO) e na Britannica; C3 e C4 refeitos para não entregar o C1."
+    }
+  },
+  "sources": {
+    "DARIEN_IUCN": {
+      "id": "DARIEN_IUCN",
+      "checkedAt": "2026-11-15",
+      "title": "Darién National Park — World Heritage Outlook (avaliação 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/972"
+    },
+    "DARIEN_IUCN1981": {
+      "id": "DARIEN_IUCN1981",
+      "checkedAt": "2026-11-15",
+      "title": "World Heritage Nomination: IUCN Technical Review — Darien National Park (159)",
+      "publisher": "UNESCO World Heritage Centre / IUCN",
+      "url": "https://whc.unesco.org/document/152863"
+    },
+    "DARIEN_EB": {
+      "id": "DARIEN_EB",
+      "checkedAt": "2026-11-15",
+      "title": "Darién (região do Panamá e da Colômbia)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/151558"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/972",
+      "https://whc.unesco.org/document/152863",
+      "https://www.britannica.com/print/article/151558"
+    ],
+    "alteracoes": [
+      "Fontes: DARIEN159 (página /en/list/ da UNESCO) e KATIOS_UNESCO (não abertas) trocadas pela IUCN World Heritage Outlook (DARIEN_IUCN), pela revisão técnica da IUCN de 1981 no site da UNESCO (DARIEN_IUCN1981) e pela Britannica (DARIEN_EB).",
+      "C1: nomes padronizados (Parque Nacional Ilha do Coco, Tikal, do Manu); 12 parques de floresta das Américas mantidos.",
+      "C3: \"País na fronteira oriental\" (redundante com o C2) trocado por \"Grande ave de rapina com população importante no parque\" (harpia).",
+      "C4: \"Parque colombiano contíguo ao destino\" entregava o C1 (só um parque panamenho da lista faz fronteira com a Colômbia); trocado por povos indígenas (Emberá, Wounaan e Guna). Los Katíos ficou como pista decisiva.",
+      "Viajante: 24 pistas reescritas ou trocadas, ao menos na redação (clima com chuva da Britannica, vilas de fronteira, arara verde, migração, Rodovia Pan-Americana); P19 (rios como vias de deslocamento) saiu por falta de apoio na fonte; P24 e P25 genéricas trocadas por ameaças citadas pela IUCN.",
+      "Geógrafo: as 25 pistas reescritas ou trocadas para processos (oscilações do nível do mar, contato entre massas de terra, carste, endemismo, reserva da biosfera, lacuna da Pan-Americana, direitos territoriais); P10 (transição altitudinal que \"favorece deslocamentos\") saiu por falta de apoio.",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas P21–P22 (Viajante) e P23–P24 (Geógrafo); relatedFields ampliados onde a pista informa C2, C3 ou C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

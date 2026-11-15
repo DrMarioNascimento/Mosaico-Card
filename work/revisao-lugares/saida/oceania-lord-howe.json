@@ -1,0 +1,1063 @@
+{
+  "case": {
+    "id": "lug2-oceania-lord-howe",
+    "placeId": "oceania-lord-howe",
+    "title": "Grupo de Ilhas Lord Howe",
+    "aliases": [
+      "Lord Howe"
+    ],
+    "answerType": "grupo de ilhas oceânicas",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Ilha ou grupo de ilhas",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilha Norfolk"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha Macquarie"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ilhas Heard e McDonald"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ilha Christmas"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilhas Cocos (Keeling)"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha Rottnest"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha Kangaroo"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha Flinders"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilha Maria"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha Phillip"
+          },
+          {
+            "id": "C1-O12",
+            "text": "K’gari"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Grupo de Ilhas Lord Howe",
+        "sources": [
+          "LORDHOWE_IUCN",
+          "LORDHOWE_RP3"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Origem das ilhas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Atividade vulcânica submarina"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Elevação tectônica de um atol de coral"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Acumulação sedimentar em delta fluvial"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Fragmentação de crosta continental"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Atividade vulcânica submarina",
+        "sources": [
+          "LORDHOWE_IUCN",
+          "LORDHOWE_RP3"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Mar onde está o grupo",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Mar da Tasmânia"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Mar de Coral"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Mar de Timor"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Mar de Arafura"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Mar da Tasmânia",
+        "sources": [
+          "LORDHOWE_RP3"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "O que distingue o recife de coral do bem",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "É o recife de coral verdadeiro mais ao sul do mundo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "É o maior sistema de recifes de coral do mundo"
+          },
+          {
+            "id": "C4-O3",
+            "text": "É o recife de coral mais ao norte do Pacífico"
+          },
+          {
+            "id": "C4-O4",
+            "text": "É um atol com a maior laguna do mundo"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "É o recife de coral verdadeiro mais ao sul do mundo",
+        "sources": [
+          "LORDHOWE_IUCN",
+          "LORDHOWE_RP3"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "oceania-lord-howe-viajante-P01",
+            "factKey": "oceania-lord-howe-F01",
+            "text": "Este destino é um grupo de ilhas e ilhotas de origem vulcânica, no meio do oceano.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P02",
+            "factKey": "oceania-lord-howe-F02",
+            "text": "Uma lagoa com recife de coral fica abraçada pela ilha principal.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P03",
+            "factKey": "oceania-lord-howe-F03",
+            "text": "As ilhas pertencem à Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P04",
+            "factKey": "oceania-lord-howe-F04",
+            "text": "As ilhas ficam no mar da Tasmânia, longe da costa australiana.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P05",
+            "factKey": "oceania-lord-howe-F05",
+            "text": "Ali, águas mais frias e águas tropicais se encontram.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P06",
+            "factKey": "oceania-lord-howe-F06",
+            "text": "As ilhas são o que sobrou de um grande vulcão, gasto pela erosão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P07",
+            "factKey": "oceania-lord-howe-F07",
+            "text": "Esse vulcão começou a se formar a mais de 2.000 metros de profundidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P08",
+            "factKey": "oceania-lord-howe-F08",
+            "text": "O vulcão surgiu há cerca de 6,5 a 7 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P09",
+            "factKey": "oceania-lord-howe-F09",
+            "text": "Duas montanhas dominam a ilha principal; a mais alta tem 875 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P10",
+            "factKey": "oceania-lord-howe-F10",
+            "text": "No alto da montanha mais alta há uma floresta de musgos, envolta em neblina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P11",
+            "factKey": "oceania-lord-howe-F11",
+            "text": "Uma rocha pontuda e isolada, a Pirâmide de Ball, sobe direto do mar a uns 25 km da ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P12",
+            "factKey": "oceania-lord-howe-F12",
+            "text": "É o recife de coral verdadeiro mais ao sul do mundo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P13",
+            "factKey": "oceania-lord-howe-F13",
+            "text": "Espécies de águas tropicais e de águas temperadas vivem lado a lado no recife.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P14",
+            "factKey": "oceania-lord-howe-F14",
+            "text": "Pelo menos 14 espécies de aves marinhas fazem ninho nas ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P15",
+            "factKey": "oceania-lord-howe-F15",
+            "text": "As ilhas são o grande reduto de reprodução do petrel-de-providência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P16",
+            "factKey": "oceania-lord-howe-F16",
+            "text": "Ali fica uma das maiores colônias do mundo do rabo-de-palha-de-cauda-vermelha, uma ave marinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P17",
+            "factKey": "oceania-lord-howe-F17",
+            "text": "Uma ave da ilha que não voa já foi considerada uma das mais raras do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3",
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P18",
+            "factKey": "oceania-lord-howe-F18",
+            "text": "Em 1975 restavam uns 26 indivíduos dessa ave; a criação em cativeiro ajudou a recuperá-la.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P19",
+            "factKey": "oceania-lord-howe-F19",
+            "text": "O maior bicho-pau do mundo, dado como extinto na ilha principal, foi reencontrado numa rocha isolada no mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3",
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P20",
+            "factKey": "oceania-lord-howe-F20",
+            "text": "Das 241 espécies de plantas nativas, 105 não existem em nenhum outro lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P21",
+            "factKey": "oceania-lord-howe-F21",
+            "text": "Cerca de três quartos da ilha principal e todas as outras ilhas são parque permanente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P22",
+            "factKey": "oceania-lord-howe-F22",
+            "text": "As águas ao redor das ilhas são parques marinhos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P23",
+            "factKey": "oceania-lord-howe-F23",
+            "text": "O conjunto entrou para o Patrimônio Mundial em 1982.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P24",
+            "factKey": "oceania-lord-howe-F24",
+            "text": "No máximo 400 turistas podem estar nas ilhas ao mesmo tempo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-viajante-P25",
+            "factKey": "oceania-lord-howe-F25",
+            "text": "Uma grande operação de 2019 para eliminar ratos é considerada um sucesso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "oceania-lord-howe-geografo-P01",
+            "factKey": "oceania-lord-howe-F01",
+            "text": "O bem reúne ilhas oceânicas vulcânicas, ilhotas e as águas marinhas ao redor.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P02",
+            "factKey": "oceania-lord-howe-F02",
+            "text": "Foi inscrito por dois critérios naturais, (vii) e (x).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P03",
+            "factKey": "oceania-lord-howe-F03",
+            "text": "Situa-se no mar da Tasmânia, a cerca de 570 km a leste de Port Macquarie, na costa australiana.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P04",
+            "factKey": "oceania-lord-howe-F04",
+            "text": "O bem inclui a ilha principal, as ilhas Admiralty e Mutton Bird, a Pirâmide de Ball e ilhotas próximas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P05",
+            "factKey": "oceania-lord-howe-F05",
+            "text": "As ilhas são restos emersos de um grande vulcão-escudo, em estágio quase completo de destruição.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P06",
+            "factKey": "oceania-lord-howe-F06",
+            "text": "A construção vulcânica começou a mais de 2.000 m abaixo do nível do mar, há cerca de 6,5 a 7 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P07",
+            "factKey": "oceania-lord-howe-F07",
+            "text": "A Pirâmide de Ball, pináculo a cerca de 25 km a sudeste da ilha principal, ilustra o desmonte quase completo de uma ilha vulcânica.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P08",
+            "factKey": "oceania-lord-howe-F08",
+            "text": "Os montes Gower (875 m) e Lidgbird (777 m) dominam o relevo da ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P09",
+            "factKey": "oceania-lord-howe-F09",
+            "text": "A ilha principal tem forma de crescente e envolve, a sudoeste, uma laguna recifal.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P10",
+            "factKey": "oceania-lord-howe-F10",
+            "text": "O aquecimento do mar é apontado como ameaça às florestas de neblina do monte Gower.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P11",
+            "factKey": "oceania-lord-howe-F11",
+            "text": "Na laguna está o recife de coral verdadeiro mais austral do planeta.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP3",
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P12",
+            "factKey": "oceania-lord-howe-F12",
+            "text": "Massas d’água temperadas e tropicais se encontram ali, e formas tropicais e temperadas coabitam nos recifes.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002",
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P13",
+            "factKey": "oceania-lord-howe-F13",
+            "text": "Com pelo menos 14 espécies de aves marinhas nidificantes, o grupo é área-chave de reprodução.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P14",
+            "factKey": "oceania-lord-howe-F14",
+            "text": "É o único grande sítio de reprodução do petrel-de-providência e uma das maiores concentrações reprodutivas do rabo-de-palha-de-cauda-vermelha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P15",
+            "factKey": "oceania-lord-howe-F15",
+            "text": "A ave terrestre endêmica que não voa caiu a cerca de 26 indivíduos em 1975 e chegou a uns 220 com criação em cativeiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002",
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P16",
+            "factKey": "oceania-lord-howe-F16",
+            "text": "O bicho-pau gigante, dado como extinto na ilha principal nos anos 1930, foi reencontrado na Pirâmide de Ball em 2001.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN",
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P17",
+            "factKey": "oceania-lord-howe-F17",
+            "text": "O endemismo vegetal é alto: 105 das 241 plantas vasculares nativas só ocorrem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P18",
+            "factKey": "oceania-lord-howe-F18",
+            "text": "O bem, somando terras e águas, abrange cerca de 136.300 ha, segundo o relatório oficial de 2002.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P19",
+            "factKey": "oceania-lord-howe-F19",
+            "text": "Cerca de 75% da parte terrestre é Reserva Permanente de Parque, e as águas ao redor são parques marinhos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP3"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P20",
+            "factKey": "oceania-lord-howe-F20",
+            "text": "O parque marinho estadual foi criado em 1999 e o federal em 2000, este até 12 milhas náuticas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P21",
+            "factKey": "oceania-lord-howe-F21",
+            "text": "Espécies introduzidas são consideradas a maior ameaça aos valores do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P22",
+            "factKey": "oceania-lord-howe-F22",
+            "text": "A erradicação de roedores feita em 2019 é avaliada pela IUCN como muito bem-sucedida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P23",
+            "factKey": "oceania-lord-howe-F23",
+            "text": "Episódios de branqueamento de corais na laguna e nos recifes estão ficando mais frequentes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P24",
+            "factKey": "oceania-lord-howe-F24",
+            "text": "Um limite de 400 visitantes simultâneos mantém a população total abaixo de 1.000 pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-lord-howe-geografo-P25",
+            "factKey": "oceania-lord-howe-F25",
+            "text": "Inscrito em 17 de dezembro de 1982, o bem tem perspectiva de conservação ‘boa’ na avaliação da IUCN de 2025.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "LORDHOWE_RP2002",
+              "LORDHOWE_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Grupo de ilhas vulcânicas australianas no mar da Tasmânia, restos de um grande vulcão-escudo, com o recife de coral verdadeiro mais ao sul do mundo, a Pirâmide de Ball, grandes colônias de aves marinhas e espécies endêmicas.",
+      "editorialNotes": [
+        "O bem inclui a ilha principal, as ilhas Admiralty e Mutton Bird, a Pirâmide de Ball e ilhotas, não só a ilha principal.",
+        "A altura da Pirâmide de Ball não é consistente entre as fontes consultadas (o relatório de 2002 fala em 650 m); por isso as pistas não usam a altura.",
+        "Reserva Permanente de Parque: cerca de 75% da parte terrestre nos relatórios periódicos e cerca de 70% na IUCN; o relatório recente chama o local de ‘única grande área de reprodução’ do petrel-de-providência."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook e em dois relatórios periódicos da UNESCO (2002 e o ciclo recente); C1 e C4 refeitos e pistas diversificadas."
+    }
+  },
+  "sources": {
+    "LORDHOWE_IUCN": {
+      "id": "LORDHOWE_IUCN",
+      "title": "Lord Howe Island Group — World Heritage Outlook",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/990",
+      "checkedAt": "2026-11-15"
+    },
+    "LORDHOWE_RP2002": {
+      "id": "LORDHOWE_RP2002",
+      "title": "Periodic Report (Section II) — Lord Howe Island Group, Australia, 2002",
+      "publisher": "UNESCO World Heritage Centre / Environment Australia",
+      "url": "https://whc.unesco.org/document/162436",
+      "checkedAt": "2026-11-15"
+    },
+    "LORDHOWE_RP3": {
+      "id": "LORDHOWE_RP3",
+      "title": "Periodic Report (Section II) — Lord Howe Island Group, Australia",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216299",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/990",
+      "https://whc.unesco.org/document/162436",
+      "https://whc.unesco.org/document/216299"
+    ],
+    "alteracoes": [
+      "Fonte LORDHOWE_UNESCO (whc.unesco.org/en/list/186) substituída pela IUCN World Heritage Outlook (LORDHOWE_IUCN) e pelos relatórios periódicos da UNESCO de 2002 (LORDHOWE_RP2002) e do ciclo recente (LORDHOWE_RP3), que trazem o mesmo conteúdo.",
+      "C1: rótulo ‘Grupo insular’ trocado por ‘Ilha ou grupo de ilhas’, para que a resposta não seja a única a combinar com o rótulo.",
+      "C4: ‘Ambientes protegidos’ repetia a origem vulcânica de C2; foi trocado por ‘O que distingue o recife de coral do bem’ (recife de coral verdadeiro mais ao sul do mundo).",
+      "Viajante: 24 pistas reescritas; ‘oceano Pacífico’ saiu (as fontes falam do mar da Tasmânia); ‘grande parte é parque’ ficou ‘três quartos da ilha principal’; entraram idade e profundidade do vulcão, monte de 875 m, floresta de neblina, 25 km até a Pirâmide de Ball, 14 aves marinhas, 26 indivíduos em 1975, 105 plantas endêmicas, limite de 400 turistas e erradicação de ratos de 2019.",
+      "Geógrafo: todas as 25 reescritas para relações e processos (570 km de Port Macquarie, vulcão-escudo em destruição, Gower e Lidgbird, laguna em crescente, encontro de massas d’água, parques marinhos de 1999/2000, espécies introduzidas, branqueamento, perspectiva ‘boa’ em 2025).",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas Viajante P11 e P19, Geógrafo P07 e P16; clueType e relatedFields diversificados."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

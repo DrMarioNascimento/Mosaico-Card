@@ -894,7 +894,7 @@
      {
       "id": "reservas-mata-sudeste-geografo-P20",
       "factKey": "reservas-mata-sudeste-F20",
-      "text": "A gestão é dividida entre o órgão federal e os órgãos de áreas protegidas dos dois estados envolvidos.",
+      "text": "A gestão é dividida entre o órgão federal, os órgãos de áreas protegidas dos dois estados e a administração de uma reserva privada.",
       "relatedFields": [
        "C3"
       ],
@@ -1037,6 +1037,7 @@
    "Fonte SUDESTE_MATA_SUL (whc.unesco.org/en/list/893) não abriu (robots); substituída por MATASE_IUCN (IUCN World Heritage Outlook) e MATASE_AGENCIAGOV (Agência Gov/MTur, 2026)",
    "C1: \"Parque Nacional do Superagui\" retirado (é componente do próprio bem, gerando gabarito ambíguo); entra \"Paraty e Ilha Grande – Cultura e Biodiversidade\"",
    "C3: distrator \"Pernambuco e Alagoas\" trocado por \"Paraná e Santa Catarina\"",
+   "geografo P24 (Estação Ecológica de Guaraqueçaba como componente) reescrita só com o Superagui: a IUCN cita Guaraqueçaba apenas como sítio Ramsar",
    "pistas sobre comunidades caiçaras e sobre orquídeas e bromélias retiradas: sem apoio nas fontes abertas (a IUCN cita só quilombolas)",
    "complexo estuarino Iguape-Cananeia-Paranaguá mantido com apoio da Agência Gov; Casa de Pedra com pórtico de 215 m (Agência Gov) e \"maior abertura do mundo\" (IUCN)",
    "novas pistas verificadas: critérios vii/ix/x, zona de amortecimento como Reserva da Biosfera, APA Ramsar de Cananéia-Iguape-Peruíbe, porto de Paranaguá, pínus, mineração, cachorro-vinagre, papagaio-de-cara-roxa, Iporanga/Apiaí, Curitiba e Vale do Ribeira",

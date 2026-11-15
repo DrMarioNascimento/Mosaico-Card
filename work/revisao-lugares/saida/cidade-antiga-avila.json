@@ -1,0 +1,1041 @@
+{
+  "case": {
+    "id": "lug2-cidade-antiga-avila",
+    "placeId": "cidade-antiga-avila",
+    "title": "Cidade Antiga de Ávila e suas Igrejas Extramuros",
+    "aliases": [
+      "Cidade antiga de Ávila",
+      "Ávila"
+    ],
+    "answerType": "cidade historica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "ES"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica fortificada",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade Antiga de Ávila e suas Igrejas Extramuros"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cidade Antiga de Salamanca"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Cidade Histórica de Toledo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Cidade Antiga de Segóvia"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Cidade Antiga de Cáceres"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Cidade Histórica de Cuenca"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Centro Histórico de Córdoba"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Centro Histórico de Santiago de Compostela"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Cidade Fortificada de Carcassonne"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidade Antiga de Dubrovnik"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cidade Antiga de Évora"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Centro Histórico de Guimarães"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade Antiga de Ávila e suas Igrejas Extramuros",
+        "sources": [
+          "EU_AVILA_PR"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ano de inscrição na UNESCO",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "1985"
+          },
+          {
+            "id": "C2-O2",
+            "text": "1984"
+          },
+          {
+            "id": "C2-O3",
+            "text": "1986"
+          },
+          {
+            "id": "C2-O4",
+            "text": "1988"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "1985",
+        "sources": [
+          "EU_AVILA_PR"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Comunidade autônoma espanhola",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Castela e Leão"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Castela-Mancha"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Extremadura"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Andaluzia"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Castela e Leão",
+        "sources": [
+          "EU_AVILA_PR",
+          "EU_AVILA_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Número de portas da muralha, segundo a UNESCO",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Quatro"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Seis"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Nove"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Doze"
+          }
+        ],
+        "answerId": "C4-O3",
+        "answerText": "Nove",
+        "sources": [
+          "EU_AVILA_PR"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-antiga-avila-viajante-P01",
+            "factKey": "cidade-antiga-avila-viajante-F01",
+            "text": "Este conjunto histórico fica no centro de um país do sul da Europa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P02",
+            "factKey": "cidade-antiga-avila-viajante-F02",
+            "text": "Uma muralha medieval inteira envolve a cidade antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P03",
+            "factKey": "cidade-antiga-avila-viajante-F03",
+            "text": "A cidade fica em Castela e Leão, no centro da Espanha.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "EU_AVILA_PR",
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P04",
+            "factKey": "cidade-antiga-avila-viajante-F04",
+            "text": "Fica a cerca de 115 km a noroeste de Madri.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P05",
+            "factKey": "cidade-antiga-avila-viajante-F05",
+            "text": "A cidade está a 1.132 metros de altitude, à beira do rio Adaja.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P06",
+            "factKey": "cidade-antiga-avila-viajante-F06",
+            "text": "A serra de Gredos, ao sul, e a de Guadarrama, a leste, cercam a região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P07",
+            "factKey": "cidade-antiga-avila-viajante-F07",
+            "text": "A muralha tem nove portas, de épocas diferentes.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P08",
+            "factKey": "cidade-antiga-avila-viajante-F08",
+            "text": "Dezenas de torres semicirculares reforçam a muralha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P09",
+            "factKey": "cidade-antiga-avila-viajante-F09",
+            "text": "O perímetro da muralha passa de 2,5 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR",
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P10",
+            "factKey": "cidade-antiga-avila-viajante-F10",
+            "text": "Duas torres de 20 metros, ligadas por um arco, ladeiam as portas mais antigas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P11",
+            "factKey": "cidade-antiga-avila-viajante-F11",
+            "text": "Boa parte da muralha foi refeita no século XII, mas há trechos de por volta de 1090.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P12",
+            "factKey": "cidade-antiga-avila-viajante-F12",
+            "text": "A catedral gótica começou a ser construída por volta de 1091.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P13",
+            "factKey": "cidade-antiga-avila-viajante-F13",
+            "text": "Igrejas românicas do lado de fora da muralha também fazem parte do patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P14",
+            "factKey": "cidade-antiga-avila-viajante-F14",
+            "text": "Entre essas igrejas de fora dos muros está a basílica românica de San Vicente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR",
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P15",
+            "factKey": "cidade-antiga-avila-viajante-F15",
+            "text": "A cidade é a terra natal de Santa Teresa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR",
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P16",
+            "factKey": "cidade-antiga-avila-viajante-F16",
+            "text": "Um mosteiro do fim do século XV guarda o túmulo de Torquemada, o primeiro grande inquisidor da Espanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P17",
+            "factKey": "cidade-antiga-avila-viajante-F17",
+            "text": "O mesmo mosteiro guarda o túmulo do único filho dos Reis Católicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P18",
+            "factKey": "cidade-antiga-avila-viajante-F18",
+            "text": "Conventos dos séculos XV e XVI entraram no patrimônio em 2007.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P19",
+            "factKey": "cidade-antiga-avila-viajante-F19",
+            "text": "Palácios fortificados do século XVI fazem parte da paisagem da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P20",
+            "factKey": "cidade-antiga-avila-viajante-F20",
+            "text": "O turismo é uma fonte de renda muito importante para a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR",
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P21",
+            "factKey": "cidade-antiga-avila-viajante-F21",
+            "text": "Dentro dos muros, o traçado das ruas da cidade medieval foi preservado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P22",
+            "factKey": "cidade-antiga-avila-viajante-F22",
+            "text": "Antes dos romanos já havia um povoado ali, que depois passou a fazer parte da Lusitânia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P23",
+            "factKey": "cidade-antiga-avila-viajante-F23",
+            "text": "A cidade ficou sob domínio muçulmano a partir de cerca de 714 e foi retomada pelos cristãos em 1085.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P24",
+            "factKey": "cidade-antiga-avila-viajante-F24",
+            "text": "A muralha tem, em média, uns 3 metros de espessura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-viajante-P25",
+            "factKey": "cidade-antiga-avila-viajante-F25",
+            "text": "A UNESCO inscreveu o conjunto em 1985 e o ampliou em 2007.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-antiga-avila-geografo-P01",
+            "factKey": "cidade-antiga-avila-geografo-F01",
+            "text": "O bem é serial: reúne um núcleo murado e componentes religiosos fora do perímetro defensivo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P02",
+            "factKey": "cidade-antiga-avila-geografo-F02",
+            "text": "A UNESCO descreve a fundação da cidade fortificada como proteção contra os mouros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P03",
+            "factKey": "cidade-antiga-avila-geografo-F03",
+            "text": "Após a retomada de Toledo por Afonso VI, em 1085, uma política de repovoamento buscou fortalecer o Reino de Castela, ainda vulnerável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P04",
+            "factKey": "cidade-antiga-avila-geografo-F04",
+            "text": "A UNESCO a considera o exemplo mais conhecido de cidade fortificada nascida dessa política de repovoamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P05",
+            "factKey": "cidade-antiga-avila-geografo-F05",
+            "text": "O recinto murado forma um quadrilátero regular de 2.516 m de perímetro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P06",
+            "factKey": "cidade-antiga-avila-geografo-F06",
+            "text": "A muralha reaproveita pedras de construções anteriores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P07",
+            "factKey": "cidade-antiga-avila-geografo-F07",
+            "text": "O acesso ao núcleo murado se faz por nove portas construídas em períodos diferentes.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P08",
+            "factKey": "cidade-antiga-avila-geografo-F08",
+            "text": "As portas mais antigas, como a de San Vicente e a do Alcázar, têm torres gêmeas de 20 m unidas por um arco semicircular.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P09",
+            "factKey": "cidade-antiga-avila-geografo-F09",
+            "text": "Trechos da muralha datam de cerca de 1090, mas a maior parte parece ter sido reconstruída no século XII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P10",
+            "factKey": "cidade-antiga-avila-geografo-F10",
+            "text": "O núcleo intramuros ocupa cerca de 34 hectares, dentro de um bem de 36,4 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P11",
+            "factKey": "cidade-antiga-avila-geografo-F11",
+            "text": "A 1.132 m de altitude, a cidade fica entre a serra de Gredos, ao sul, e a de Guadarrama, a leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P12",
+            "factKey": "cidade-antiga-avila-geografo-F12",
+            "text": "Às margens do Adaja, a cerca de 115 km a noroeste de Madri, é capital de província em Castela e Leão.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P13",
+            "factKey": "cidade-antiga-avila-geografo-F13",
+            "text": "Quatro igrejas românicas extramuros — San Segundo, San Andrés, San Vicente e San Pedro — integram a inscrição de 1985.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P14",
+            "factKey": "cidade-antiga-avila-geografo-F14",
+            "text": "Em 2007 entraram as igrejas de San Nicolás, Santa María de la Cabeza e San Martín, além de três conventos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P15",
+            "factKey": "cidade-antiga-avila-geografo-F15",
+            "text": "Os conventos de La Encarnación, San José e Santo Tomás, dos séculos XV e XVI, expressam a “Idade de Ouro” local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P16",
+            "factKey": "cidade-antiga-avila-geografo-F16",
+            "text": "A vida e a obra de Santa Teresa, nascida ali, estão entre os atributos do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P17",
+            "factKey": "cidade-antiga-avila-geografo-F17",
+            "text": "A catedral gótica e as fortificações compõem a paisagem monumental medieval.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P18",
+            "factKey": "cidade-antiga-avila-geografo-F18",
+            "text": "A catedral, começada por volta de 1091, foi concluída entre os séculos XIII e XV.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P19",
+            "factKey": "cidade-antiga-avila-geografo-F19",
+            "text": "O traçado intramuros foi preservado, e vestígios da cidade medieval ainda são reconhecíveis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P20",
+            "factKey": "cidade-antiga-avila-geografo-F20",
+            "text": "A cidade foi registrada como “Sítio Histórico” em 1982, antes da inscrição na UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P21",
+            "factKey": "cidade-antiga-avila-geografo-F21",
+            "text": "A expansão urbana pressiona o bem, e a proteção inclui vistas-chave para a cidade e a partir dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P22",
+            "factKey": "cidade-antiga-avila-geografo-F22",
+            "text": "Congestionamento e novos conjuntos residenciais estão entre as pressões do desenvolvimento urbano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P23",
+            "factKey": "cidade-antiga-avila-geografo-F23",
+            "text": "A economia é dominada pelos serviços, e o turismo é uma fonte muito importante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB",
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P24",
+            "factKey": "cidade-antiga-avila-geografo-F24",
+            "text": "Parte das indústrias locais está ligada às de Madri e Segóvia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-antiga-avila-geografo-P25",
+            "factKey": "cidade-antiga-avila-geografo-F25",
+            "text": "O sistema de gestão do bem ainda está só parcialmente implantado, a partir de um plano em rascunho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "EU_AVILA_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade de Castela e Leão, no centro da Espanha, cercada por uma muralha medieval intacta com nove portas, cuja inscrição na UNESCO (1985, ampliada em 2007) inclui igrejas românicas e conventos fora do recinto; terra natal de Santa Teresa.",
+      "editorialNotes": [
+        "Torres: o relatório periódico da UNESCO cita 87 torres semicirculares, mas outras páginas da UNESCO trazem 82; as pistas falam só em “dezenas”.",
+        "Perímetro: 2.516 m na UNESCO e 2.500 m na Britannica; a pista do Viajante diz “passa de 2,5 km”.",
+        "A página da lista da UNESCO (348) não foi aberta; a declaração de valor universal foi conferida no relatório periódico publicado pela própria UNESCO (documento 217725)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO e na Britannica; C4 trocado pelo número de portas e pistas genéricas substituídas por dados verificados."
+    }
+  },
+  "sources": {
+    "EU_AVILA_PR": {
+      "title": "Old Town of Ávila with its Extra-Muros Churches — Periodic Reporting questionnaire",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217725",
+      "id": "EU_AVILA_PR",
+      "checkedAt": "2026-11-15"
+    },
+    "EU_AVILA_EB": {
+      "title": "Ávila (Spain)",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Avila-Spain",
+      "id": "EU_AVILA_EB",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/217725",
+      "https://www.britannica.com/place/Avila-Spain"
+    ],
+    "alteracoes": [
+      "Fonte EU_AVILA_UNESCO (whc.unesco.org/en/list/348/) substituída pelo relatório periódico da UNESCO EU_AVILA_PR, com o mesmo texto da declaração de valor universal; acrescentada a Britannica (EU_AVILA_EB).",
+      "C4: “alteração de limites em 2007” (segundo campo de ano) trocado pelo número de portas da muralha (nove, segundo a UNESCO); 2007 ficou nas pistas.",
+      "C1, C2 e C3 conferidos e mantidos; C3 ganhou também a Britannica como fonte.",
+      "Aliases: acrescentado Ávila para proteger as pistas.",
+      "Viajante: P04–P06, P12, P14, P16, P17, P19, P20, P22 e P23 trocadas por fatos verificados (Madri a 115 km, 1.132 m e rio Adaja, serras de Gredos e Guadarrama, catedral de 1091, San Vicente, túmulos de Torquemada e do filho dos Reis Católicos, palácios fortificados, turismo, Lusitânia, 714/1085); as demais reescritas; a sepultura de Torquemada (P20 do rascunho) passou para P16, com o mosteiro de Santo Tomás.",
+      "Geógrafo: P02, P10–P12, P15, P16, P18, P21–P25 trocadas ou refeitas (proteção contra os mouros, áreas de 34 e 36,4 ha, altitude e serras, Adaja e Madri, conventos da Idade de Ouro, Santa Teresa como atributo, conclusão da catedral, pressões urbanas, economia, gestão parcial); o “território vulnerável” do rascunho (P11) foi corrigido em P03 para “fortalecer o Reino de Castela, ainda vulnerável”, como diz a UNESCO; as demais reescritas.",
+      "Sinais: abertura P01–P02 e decisivas P15/P16 (Viajante) e P13/P16 (Geógrafo), em vez das 13–14 decisivas do rascunho; relatedFields ampliados para C2, C3 e C4.",
+      "reveal.canonicalSummary e editorialNotes refeitos; review marcado como source-reviewed."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

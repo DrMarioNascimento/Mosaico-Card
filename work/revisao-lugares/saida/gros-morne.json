@@ -1,0 +1,1046 @@
+{
+  "case": {
+    "id": "lug2-gros-morne",
+    "placeId": "gros-morne",
+    "title": "Parque Nacional Gros Morne",
+    "aliases": [
+      "Gros Morne"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "CA"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Gros Morne"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Banff"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Jasper"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Yoho"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Kootenay"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Terra Nova"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Forillon"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Fundy"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Auyuittuq"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Nahanni"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Kenai Fjords"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Glacier Bay"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Gros Morne",
+        "sources": [
+          "GROSMORNE_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Canadá"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Estados Unidos"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Islândia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Noruega"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Canadá",
+        "sources": [
+          "GROSMORNE_IUCN",
+          "GROSMORNE_SOC2021"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ilha onde se situa",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Terra Nova"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ilha de Baffin"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Ilha de Vancouver"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Ilha do Cabo Bretão"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Terra Nova",
+        "sources": [
+          "GROSMORNE_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Afloramento que tornou o parque referência em tectônica de placas",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Crosta oceânica profunda e rochas do manto"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cratera de impacto de meteorito"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Domos de sal"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Lavas de um vulcão ativo"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Crosta oceânica profunda e rochas do manto",
+        "sources": [
+          "GROSMORNE_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "gros-morne-viajante-P01",
+            "factKey": "gros-morne-F01",
+            "text": "Este destino reúne montanhas, lagos e um litoral recortado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P02",
+            "factKey": "gros-morne-F02",
+            "text": "Fica na América do Norte, numa região de florestas boreais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P03",
+            "factKey": "gros-morne-F03",
+            "text": "O parque fica no Canadá.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P04",
+            "factKey": "gros-morne-F04",
+            "text": "Está na costa oeste de uma ilha grande, de frente para o golfo de São Lourenço.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P05",
+            "factKey": "gros-morne-F05",
+            "text": "A ilha é Terra Nova, na província de Terra Nova e Labrador.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P06",
+            "factKey": "gros-morne-F06",
+            "text": "Há planícies junto ao mar e um planalto alto no interior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P07",
+            "factKey": "gros-morne-F07",
+            "text": "Paredões íngremes e cachoeiras fazem parte do cenário.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P08",
+            "factKey": "gros-morne-F08",
+            "text": "Muitos lagos de águas intocadas se espalham pela paisagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P09",
+            "factKey": "gros-morne-F09",
+            "text": "Há fiordes de água doce, isolados do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P10",
+            "factKey": "gros-morne-F10",
+            "text": "Antigas geleiras rasparam as terras altas e abriram vales profundos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P11",
+            "factKey": "gros-morne-F11",
+            "text": "No alto do planalto, o ambiente é ártico-alpino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P12",
+            "factKey": "gros-morne-F12",
+            "text": "Florestas de abeto-balsâmico cobrem as encostas e os vales do interior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P13",
+            "factKey": "gros-morne-F13",
+            "text": "Uma grande área de solo de serpentinito, quase sem vegetação, chama atenção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P14",
+            "factKey": "gros-morne-F14",
+            "text": "Lebres-árticas, caribus e martas vivem no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P15",
+            "factKey": "gros-morne-F15",
+            "text": "Alces introduzidos ficaram numerosos demais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P16",
+            "factKey": "gros-morne-F16",
+            "text": "Os alces comeram tanto as mudas que a floresta deixou de se renovar em alguns trechos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P17",
+            "factKey": "gros-morne-F17",
+            "text": "Salmão-do-atlântico e salvelino-ártico vivem nas águas do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P18",
+            "factKey": "gros-morne-F18",
+            "text": "A águia-careca faz ninho no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P19",
+            "factKey": "gros-morne-F19",
+            "text": "Entre 2014 e 2018, o passeio de barco no lago Western Brook Pond passou de 24 mil para quase 39 mil pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P20",
+            "factKey": "gros-morne-F20",
+            "text": "Rochas do manto da Terra e da crosta do fundo do oceano estão expostas na superfície.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P21",
+            "factKey": "gros-morne-F21",
+            "text": "Também há rochas sedimentares do período Ordoviciano e granitos ainda mais antigos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P22",
+            "factKey": "gros-morne-F22",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1987.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P23",
+            "factKey": "gros-morne-F23",
+            "text": "Duas linhas de transmissão de energia percorrem as terras baixas do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P24",
+            "factKey": "gros-morne-F24",
+            "text": "Algumas comunidades de moradores ficam cercadas pelo parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-viajante-P25",
+            "factKey": "gros-morne-F25",
+            "text": "Tempestades fortes e a erosão podem danificar formações rochosas da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "gros-morne-geografo-P01",
+            "factKey": "gros-morne-F01",
+            "text": "A unidade reúne exemplos clássicos das forças que constroem e modificam a crosta terrestre.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P02",
+            "factKey": "gros-morne-F02",
+            "text": "Situa-se no leste da América do Norte, numa costa voltada para o golfo de São Lourenço.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P03",
+            "factKey": "gros-morne-F03",
+            "text": "Ocupa a costa ocidental da ilha de Terra Nova, no Canadá.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P04",
+            "factKey": "gros-morne-F04",
+            "text": "As rochas ilustram a interação de placas tectônicas ao longo da costa leste norte-americana.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P05",
+            "factKey": "gros-morne-F05",
+            "text": "Crosta oceânica, manto e um trecho da antiga descontinuidade de Mohorovičić estão expostos.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P06",
+            "factKey": "gros-morne-F06",
+            "text": "É um exemplo raro do processo de deriva continental, com crosta oceânica profunda à mostra.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P07",
+            "factKey": "gros-morne-F07",
+            "text": "Os afloramentos contribuíram muito para o entendimento da tectônica de placas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P08",
+            "factKey": "gros-morne-F08",
+            "text": "A geologia é diversa: sedimentos ordovicianos, granito e gnaisse pré-cambrianos e rochas ultrabásicas serpentinizadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P09",
+            "factKey": "gros-morne-F09",
+            "text": "A glaciação escavou terras altas e fiordes, tornando visíveis as estruturas geológicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P10",
+            "factKey": "gros-morne-F10",
+            "text": "Fiordes de origem glacial estão hoje isolados do mar e guardam água doce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P11",
+            "factKey": "gros-morne-F11",
+            "text": "O relevo combina planície costeira, planalto alpino, vales glaciais e falésias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P12",
+            "factKey": "gros-morne-F12",
+            "text": "Um ambiente ártico-alpino ocupa o planalto, acima da floresta boreal das encostas e vales.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P13",
+            "factKey": "gros-morne-F13",
+            "text": "Extensas áreas estéreis de serpentinito contrastam com a floresta boreal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P14",
+            "factKey": "gros-morne-F14",
+            "text": "Salvelinos-árticos vivem em forma permanente de água doce em lagos isolados das Long Range Mountains.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P15",
+            "factKey": "gros-morne-F15",
+            "text": "O salmão-do-atlântico é anádromo: sobe do mar para se reproduzir em água doce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P16",
+            "factKey": "gros-morne-F16",
+            "text": "Lebre-ártica, caribu-da-floresta e marta-de-terra-nova são mamíferos de interesse especial; a lebre teve forte queda em 2015.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P17",
+            "factKey": "gros-morne-F17",
+            "text": "O pastoreio de alces introduzidos converteu mais de 40 km² de floresta em áreas abertas de capim e arbustos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P18",
+            "factKey": "gros-morne-F18",
+            "text": "A restauração já plantou 420 mil árvores em 120 ha degradados, com meta de mais de 285 ha até 2028.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P19",
+            "factKey": "gros-morne-F19",
+            "text": "Duas linhas de alta tensão, de 138 kV e 69 kV, as únicas que abastecem o norte da Grande Península do Norte, correm pelas terras baixas do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P20",
+            "factKey": "gros-morne-F20",
+            "text": "Uma proposta de 2013 de perfurar dentro de uma comunidade-enclave cercada pelo parque gerou preocupação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P21",
+            "factKey": "gros-morne-F21",
+            "text": "Desde o fim de 2014 vale uma pausa na exploração por fraturamento hidráulico fora do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P22",
+            "factKey": "gros-morne-F22",
+            "text": "O bem não tem zona de amortecimento, fator apontado em relatórios da UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P23",
+            "factKey": "gros-morne-F23",
+            "text": "Áreas costeiras próximas, como a baía Bonne, são reguladas pela província, e não pelo plano do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P24",
+            "factKey": "gros-morne-F24",
+            "text": "Foi inscrito em 1987 pelos critérios de fenômenos naturais excepcionais e de história da Terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN",
+              "GROSMORNE_SOC2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "gros-morne-geografo-P25",
+            "factKey": "gros-morne-F25",
+            "text": "A erosão provocada por eventos climáticos extremos é risco para afloramentos costeiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GROSMORNE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional na costa oeste da ilha de Terra Nova, no Canadá, com fiordes de água doce, planalto ártico-alpino e rochas do manto e da crosta oceânica expostas, exemplo clássico de tectônica de placas.",
+      "editorialNotes": [
+        "A área total do parque não foi encontrada nas fontes abertas; a pista do rascunho com 180.500 ha saiu.",
+        "Rochas: a IUCN fala em crosta oceânica profunda, manto e um trecho da antiga descontinuidade de Mohorovičić; não usa o termo “peridotito” nem cita o Iapetus, que ficaram de fora.",
+        "A pista sobre coleta de rochas e fósseis do rascunho não teve apoio nas fontes abertas e foi trocada."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025) e na página de estado de conservação da UNESCO (2021); C3 e C4 refeitos com alternativas comparáveis."
+    }
+  },
+  "sources": {
+    "GROSMORNE_IUCN": {
+      "id": "GROSMORNE_IUCN",
+      "checkedAt": "2026-11-15",
+      "title": "Gros Morne National Park — World Heritage Outlook (avaliação 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1028"
+    },
+    "GROSMORNE_SOC2021": {
+      "id": "GROSMORNE_SOC2021",
+      "checkedAt": "2026-11-15",
+      "title": "Gros Morne National Park — State of Conservation (2021)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/4152"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1028",
+      "https://whc.unesco.org/en/soc/4152"
+    ],
+    "alteracoes": [
+      "Fontes: GROSMORNE419 (página /en/list/ da UNESCO, não aberta) trocada pela IUCN World Heritage Outlook (GROSMORNE_IUCN) e pela página de estado de conservação 2021 da UNESCO (GROSMORNE_SOC2021).",
+      "C1: nomes padronizados (Yoho, Forillon, Fundy, Nahanni, Kenai Fjords, Glacier Bay sem “de”).",
+      "C3: Groenlândia e Islândia (Islândia já estava no C2) trocadas por Ilha de Baffin e Ilha do Cabo Bretão.",
+      "C4: “Processo que modelou a paisagem” com alternativas absurdas (recifes de coral, dunas tropicais) trocado por “Afloramento que tornou o parque referência em tectônica de placas” (crosta oceânica profunda e rochas do manto).",
+      "Viajante: as 25 pistas reescritas ou trocadas (golfo de São Lourenço, ambiente ártico-alpino, abeto-balsâmico, serpentinito, fauna citada pela IUCN, passeio de barco 2014–2018, erosão); P19 (mais de cem mil hectares) e P25 (coleta controlada) saíram por falta de apoio.",
+      "Geógrafo: as 25 pistas reescritas ou trocadas para processos e relações (descontinuidade de Mohorovičić, deriva continental, fiordes isolados, salvelino de água doce, alces e perda de floresta, restauração, linhas de transmissão, fraturamento hidráulico, zona de amortecimento); a área de 180.500 ha saiu.",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas P09 e P20 (Viajante) e P05 e P14 (Geógrafo)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

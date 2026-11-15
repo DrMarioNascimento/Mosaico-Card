@@ -1,0 +1,1087 @@
+{
+  "case": {
+    "id": "lug2-parque-bwindi",
+    "placeId": "parque-bwindi",
+    "title": "Parque Nacional Impenetrável de Bwindi",
+    "aliases": [
+      "Bwindi"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "UG"
+      ],
+      "continents": [
+        "africa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Impenetrável de Bwindi"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Virunga"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional das Montanhas Rwenzori"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Kahuzi-Biega"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional dos Gorilas de Mgahinga"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional dos Vulcões"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Floresta de Nyungwe"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Kibale"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Queen Elizabeth"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional das Montanhas Udzungwa"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Monte Elgon"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional do Monte Quênia"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional do Kilimanjaro"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Impenetrável de Bwindi",
+        "sources": [
+          "BWINDI_IUCN_WHO",
+          "BWINDI_IUCN1994"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Grande primata do qual o parque abriga cerca de metade da população mundial",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Gorila-das-montanhas"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Gorila-de-grauer"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Chimpanzé-oriental"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Bonobo"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Gorila-das-montanhas",
+        "sources": [
+          "BWINDI_IUCN_WHO",
+          "BWINDI_UWA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Paisagem que domina a área protegida",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Floresta tropical densa em terreno acidentado"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Savanas e planícies às margens de lagos do rifte"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cones vulcânicos e campos de lava"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Picos com geleiras e vegetação afro-alpina"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Floresta tropical densa em terreno acidentado",
+        "sources": [
+          "BWINDI_IUCN_WHO",
+          "BWINDI_IUCN1994"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Uganda"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ruanda"
+          },
+          {
+            "id": "C4-O3",
+            "text": "República Democrática do Congo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Tanzânia"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Uganda",
+        "sources": [
+          "BWINDI_IUCN_WHO",
+          "BWINDI_IUCN1994"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-bwindi-viajante-P01",
+            "factKey": "parque-bwindi-F01",
+            "text": "Este destino protege uma floresta de montanha na África, perto da linha do equador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P02",
+            "factKey": "parque-bwindi-F02",
+            "text": "Chove bastante por lá, e a mata é muito fechada.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_UWA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P03",
+            "factKey": "parque-bwindi-F03",
+            "text": "O parque fica no sudoeste de Uganda.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P04",
+            "factKey": "parque-bwindi-F04",
+            "text": "A oeste, a floresta chega à fronteira com a República Democrática do Congo.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BWINDI_IUCN1994",
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P05",
+            "factKey": "parque-bwindi-F05",
+            "text": "O terreno é acidentado, e a altitude vai de cerca de 1.200 a mais de 2.500 metros.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P06",
+            "factKey": "parque-bwindi-F06",
+            "text": "A mata passa da floresta de baixada à floresta de montanha sem interrupção.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P07",
+            "factKey": "parque-bwindi-F07",
+            "text": "Há mais de 200 espécies de árvores, dez delas endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P08",
+            "factKey": "parque-bwindi-F08",
+            "text": "Mais de cem espécies de samambaias crescem na floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P09",
+            "factKey": "parque-bwindi-F09",
+            "text": "São cerca de 200 espécies de borboletas de floresta de montanha, a grande maioria das que existem no país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P10",
+            "factKey": "parque-bwindi-F10",
+            "text": "Cerca de 350 espécies de aves vivem nessa floresta relativamente pequena.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P11",
+            "factKey": "parque-bwindi-F11",
+            "text": "Elefantes também vivem na mata, mas são poucos: algumas dezenas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P12",
+            "factKey": "parque-bwindi-F12",
+            "text": "Chimpanzés e o ameaçado macaco-de-l’Hoest também vivem na floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P13",
+            "factKey": "parque-bwindi-F13",
+            "text": "Cerca de metade de todos os gorilas-das-montanhas do mundo vive nesta floresta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_UWA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P14",
+            "factKey": "parque-bwindi-F14",
+            "text": "O número de gorilas cresceu: eram menos de 300 em 1997 e passaram de 450 em 2018.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_APES"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P15",
+            "factKey": "parque-bwindi-F15",
+            "text": "Ver os gorilas exige caminhar de 2 a 7 horas na mata, para ficar uma hora com a família.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_UWA"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P16",
+            "factKey": "parque-bwindi-F16",
+            "text": "Grupos de gorilas acostumados a pessoas começaram a receber turistas em 1993.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_APES",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P17",
+            "factKey": "parque-bwindi-F17",
+            "text": "A floresta é uma ilha verde cercada por roças numa região muito povoada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P18",
+            "factKey": "parque-bwindi-F18",
+            "text": "Animais que saem da mata para comer as plantações são o maior atrito com os vizinhos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P19",
+            "factKey": "parque-bwindi-F19",
+            "text": "Parte do dinheiro das entradas e das licenças para ver gorilas vai para projetos das comunidades vizinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P20",
+            "factKey": "parque-bwindi-F20",
+            "text": "O povo batwa viveu nessa floresta por séculos antes de ser retirado dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P21",
+            "factKey": "parque-bwindi-F21",
+            "text": "Doenças respiratórias levadas por pessoas são um risco sério para os gorilas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_APES",
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P22",
+            "factKey": "parque-bwindi-F22",
+            "text": "A mata é protegida desde 1932 e virou parque nacional em 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN1994",
+              "BWINDI_APES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P23",
+            "factKey": "parque-bwindi-F23",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1994.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_SOC2001",
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P24",
+            "factKey": "parque-bwindi-F24",
+            "text": "As caminhadas até os gorilas partem dos setores Buhoma, Ruhija, Rushaga e Nkuringo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_UWA",
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-viajante-P25",
+            "factKey": "parque-bwindi-F25",
+            "text": "Do lado congolês, a floresta continua numa pequena reserva chamada Sarambwe.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-bwindi-geografo-P01",
+            "factKey": "parque-bwindi-F01",
+            "text": "A unidade protege um bloco de floresta tropical de montanha na África equatorial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P02",
+            "factKey": "parque-bwindi-F02",
+            "text": "Situa-se na borda do ramo ocidental do rifte africano, em terras altas de relevo acidentado.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN1994",
+              "BWINDI_APES",
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P03",
+            "factKey": "parque-bwindi-F03",
+            "text": "Ocupa o sudoeste de Uganda, junto à fronteira com a República Democrática do Congo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P04",
+            "factKey": "parque-bwindi-F04",
+            "text": "A amplitude altitudinal, de 1.190 m a mais de 2.500 m, explica a grande diversidade de habitats.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P05",
+            "factKey": "parque-bwindi-F05",
+            "text": "A mata cobre a transição contínua entre floresta de baixada e floresta montana, rara na África Oriental.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P06",
+            "factKey": "parque-bwindi-F06",
+            "text": "Com mais de 25 mil anos, a floresta foi apontada pela IUCN como provável refúgio do Pleistoceno.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_APES",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "historia-natural",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P07",
+            "factKey": "parque-bwindi-F07",
+            "text": "A riqueza arbórea passa de 200 espécies, com 10 endêmicas, e há ao menos mil plantas com flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P08",
+            "factKey": "parque-bwindi-F08",
+            "text": "Com cerca de 104 espécies, a diversidade de samambaias é a maior da África Oriental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P09",
+            "factKey": "parque-bwindi-F09",
+            "text": "As 202 espécies de borboletas de floresta montana equivalem a 84% do total ugandense.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P10",
+            "factKey": "parque-bwindi-F10",
+            "text": "Cerca de 350 espécies de aves em apenas 321 km² fazem da área uma Área Importante para Aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P11",
+            "factKey": "parque-bwindi-F11",
+            "text": "A floresta abriga 22 das 36 aves endêmicas conhecidas do Rift Albertino.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P12",
+            "factKey": "parque-bwindi-F12",
+            "text": "A área pequena dificulta manter populações viáveis de mamíferos grandes, como os cerca de 76 elefantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P13",
+            "factKey": "parque-bwindi-F13",
+            "text": "Os 459 gorilas-das-montanhas contados em 2018 representam 51% do total mundial.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_APES"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P14",
+            "factKey": "parque-bwindi-F14",
+            "text": "Censos registram aumento dos gorilas de 292 em 1997 para 400 em 2011.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_APES"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P15",
+            "factKey": "parque-bwindi-F15",
+            "text": "Nove grupos de gorilas estão habituados ao turismo e um à pesquisa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_APES"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P16",
+            "factKey": "parque-bwindi-F16",
+            "text": "A habituação tira dos gorilas o medo de pessoas e os expõe a doenças transmitidas por visitantes.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P17",
+            "factKey": "parque-bwindi-F17",
+            "text": "O zoneamento reserva cerca de metade da área à natureza intocada e 20% ao uso comunitário de produtos não madeireiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P18",
+            "factKey": "parque-bwindi-F18",
+            "text": "A floresta funciona como “ilha ecológica” em uma das áreas mais densamente povoadas e cultivadas da África.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P19",
+            "factKey": "parque-bwindi-F19",
+            "text": "Protegida como reserva florestal desde 1932, a área virou santuário de fauna em 1961 e parque nacional em 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN1994",
+              "BWINDI_APES"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P20",
+            "factKey": "parque-bwindi-F20",
+            "text": "A invasão de lavouras por animais é a principal ameaça à relação entre o parque e as comunidades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P21",
+            "factKey": "parque-bwindi-F21",
+            "text": "A repartição de receitas destina 20% das entradas e parte das licenças de gorilas a projetos comunitários.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P22",
+            "factKey": "parque-bwindi-F22",
+            "text": "Os batwa, povo indígena que viveu séculos na floresta, foram removidos com a criação dos parques e somavam cerca de 1,4 mil no entorno em 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P23",
+            "factKey": "parque-bwindi-F23",
+            "text": "Estradas rurais que atravessam a floresta ameaçam a dispersão da fauna.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P24",
+            "factKey": "parque-bwindi-F24",
+            "text": "O Instituto de Conservação de Florestas Tropicais, da Universidade de Mbarara, faz pesquisa em Ruhija desde 1991.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO",
+              "BWINDI_IUCN1994"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-bwindi-geografo-P25",
+            "factKey": "parque-bwindi-F25",
+            "text": "A floresta é contígua à pequena reserva de Sarambwe, no Congo, e é gerida junto com Mgahinga numa mesma área de conservação.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BWINDI_IUCN_WHO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque florestal do sudoeste de Uganda, na borda do Rift Albertino, que cobre a transição entre floresta de baixada e de montana e abriga cerca de metade dos gorilas-das-montanhas do mundo.",
+      "editorialNotes": [
+        "Altitude máxima: a avaliação da IUCN de 1994 indica 2.607 m e a IUCN World Heritage Outlook (2025), 2.560 m; as pistas usam “mais de 2.500 m”.",
+        "Gorilas: 459 no censo de 2018 (51% do total mundial, segundo a IUCN); o A.P.E.S. Wiki atribui esse número ao ecossistema Bwindi–Sarambwe. Conferir a contagem quando sair um novo censo.",
+        "Para não confundir com Virunga (também com gorilas-das-montanhas), as pistas evitam vulcões e savanas e se apoiam na floresta contínua, nos batwa, nos setores de visita, em Sarambwe e no instituto de Ruhija."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025), na avaliação IUCN de 1994, na UNESCO, na Uganda Wildlife Authority e no A.P.E.S. Wiki; C1–C4 e as 50 pistas refeitos para diferenciar de Virunga."
+    }
+  },
+  "sources": {
+    "BWINDI_IUCN_WHO": {
+      "id": "BWINDI_IUCN_WHO",
+      "title": "Bwindi Impenetrable National Park — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1046",
+      "checkedAt": "2026-11-15"
+    },
+    "BWINDI_IUCN1994": {
+      "id": "BWINDI_IUCN1994",
+      "title": "World Heritage Nomination — IUCN Technical Evaluation: Bwindi Impenetrable National Park (Uganda), 1994",
+      "publisher": "UNESCO World Heritage Centre / IUCN",
+      "url": "https://whc.unesco.org/document/154019",
+      "checkedAt": "2026-11-15"
+    },
+    "BWINDI_SOC2001": {
+      "id": "BWINDI_SOC2001",
+      "title": "State of conservation: Bwindi Impenetrable National Park (2001)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3094",
+      "checkedAt": "2026-11-15"
+    },
+    "BWINDI_UWA": {
+      "id": "BWINDI_UWA",
+      "title": "Bwindi Impenetrable National Park — Gorilla tracking",
+      "publisher": "Uganda Wildlife Authority",
+      "url": "https://ugandawildlife.org/national_parks/bwindi/",
+      "checkedAt": "2026-11-15"
+    },
+    "BWINDI_APES": {
+      "id": "BWINDI_APES",
+      "title": "Bwindi Impenetrable National Park",
+      "publisher": "IUCN SSC A.P.E.S. Wiki (Primate Specialist Group)",
+      "url": "https://wiki.iucnapesportal.org/index.php/Bwindi_Impenetrable_National_Park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1046",
+      "https://whc.unesco.org/document/154019",
+      "https://whc.unesco.org/en/soc/3094",
+      "https://ugandawildlife.org/national_parks/bwindi/",
+      "https://wiki.iucnapesportal.org/index.php/Bwindi_Impenetrable_National_Park",
+      "https://whc.unesco.org/en/decisions/5716"
+    ],
+    "alteracoes": [
+      "Fonte BWINDI_UNESCO (whc.unesco.org/en/list/682, não aberta por regra do protocolo) substituída pela IUCN World Heritage Outlook 2025 (BWINDI_IUCN_WHO), avaliação IUCN de 1994 (BWINDI_IUCN1994), estado de conservação UNESCO 2001 (BWINDI_SOC2001), Uganda Wildlife Authority (BWINDI_UWA) e A.P.E.S. Wiki (BWINDI_APES).",
+      "C1: rótulo ‘Parque africano’ → ‘Parque nacional’; saíram Garamba, Serengeti, Amboseli, Kruger e Selous (savana, fora do recorte); entraram Mgahinga, Nyungwe, Kibale, Udzungwa e Monte Elgon (florestas e montanhas do leste/centro da África).",
+      "C2: rótulo refeito (‘cerca de metade da população mundial’, IUCN 51% e UWA) e alternativas trocadas por grandes primatas da mesma região (gorila-de-grauer, chimpanzé-oriental, bonobo) no lugar do orangotango.",
+      "C3: alternativas implausíveis (dunas, recifes, tundra) trocadas por paisagens do Rift Albertino (savanas com lagos, vulcões, geleiras); gabarito ‘Floresta tropical densa em terreno acidentado’.",
+      "C4: Quênia trocado por Tanzânia (mantém 4 países da região; gabarito Uganda).",
+      "Viajante: P01–P25 reescritas ou trocadas — números verificados (altitude, 200+ árvores, 100+ samambaias, ~200 borboletas, 350 aves, dezenas de elefantes, metade dos gorilas, censos 1997/2018, caminhadas de 2 a 7 h, turismo desde 1993, batwa, repartição de receitas, 1932/1991, 1994) e pistas decisivas novas (setores de visita; Sarambwe).",
+      "Geógrafo: P01–P25 reescritas para relações e processos (borda do rifte, gradiente altitudinal, transição baixada–montana, refúgio do Pleistoceno, área pequena x populações viáveis, habituação e doenças, zoneamento, ilha ecológica, repartição de receitas, estradas, ITFC em Ruhija, Sarambwe/Mgahinga).",
+      "Retiradas pistas genéricas ou sem apoio específico (corredores de floresta, ‘instituto de pesquisa’ sem nome); ‘Fica em Uganda’ deixou de ser a 2ª pista.",
+      "Sinais: P01–P02 abertura e P24–P25 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

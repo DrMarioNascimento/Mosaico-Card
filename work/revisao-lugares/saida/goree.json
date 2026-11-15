@@ -1,0 +1,1061 @@
+{
+ "case": {
+  "id": "lug2-goree",
+  "placeId": "goree",
+  "title": "Ilha de Gorée",
+  "aliases": [
+   "Gorée"
+  ],
+  "answerType": "ilha histórica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "SN"
+   ],
+   "continents": [
+    "africa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha histórica africana",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha de Gorée"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha de Saint-Louis"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha Kunta Kinteh"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha de Moçambique"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Robben"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha de Lamu"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha de Kilwa Kisiwani"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha de Santiago, em Cabo Verde"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha de São Tomé"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha de Zanzibar"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha de Djerba"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha de Bioko"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha de Gorée",
+    "sources": [
+     "GOREE_SOUV",
+     "GOREE_EB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Senegal"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Gâmbia"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Gana"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Benim"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Senegal",
+    "sources": [
+     "GOREE_EB",
+     "GOREE_SOUV"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Cidade portuária diante da ilha",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Dakar"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Banjul"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Acra"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Lomé"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Dakar",
+    "sources": [
+     "GOREE_SOUV",
+     "GOREE_EB"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Tema histórico pelo qual a UNESCO inscreveu o lugar",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Tráfico atlântico de pessoas escravizadas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Prisão de opositores políticos"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Comércio transaariano de ouro e sal"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Comércio suaíli no oceano Índico"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Tráfico atlântico de pessoas escravizadas",
+    "sources": [
+     "GOREE_SOUV",
+     "GOREE_EB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "goree-viajante-P01",
+      "factKey": "goree-F01",
+      "text": "Este destino é uma ilha pequena, bem perto de uma cidade portuária do continente.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_SOUV",
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P02",
+      "factKey": "goree-F02",
+      "text": "O chão da ilha é de rocha vulcânica, bem árida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P03",
+      "factKey": "goree-F03",
+      "text": "Fica no litoral do Senegal.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P04",
+      "factKey": "goree-F04",
+      "text": "A ilha está a uns 3,5 km da costa de Dakar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P05",
+      "factKey": "goree-F05",
+      "text": "Fica logo ao sul da península do Cabo Verde, no litoral do continente.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P06",
+      "factKey": "goree-F06",
+      "text": "A pequena cidade ocupa quase a ilha inteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P07",
+      "factKey": "goree-F07",
+      "text": "Ruas, praças e casas antigas fazem parte do passeio pela ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P08",
+      "factKey": "goree-F08",
+      "text": "Do século XV ao XIX, a ilha foi um grande centro do tráfico de pessoas escravizadas.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV",
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P09",
+      "factKey": "goree-F09",
+      "text": "Portugueses, holandeses, ingleses e franceses dominaram a ilha, um depois do outro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P10",
+      "factKey": "goree-F10",
+      "text": "Navegadores portugueses chegaram à ilha em 1444.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P11",
+      "factKey": "goree-F11",
+      "text": "A França controlou a ilha de 1817 até 1960.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P12",
+      "factKey": "goree-F12",
+      "text": "Alojamentos sombrios de cativos contrastam com casas elegantes de traficantes.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P13",
+      "factKey": "goree-F13",
+      "text": "A Casa dos Escravos, de 1786, expõe objetos ligados à escravidão.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P14",
+      "factKey": "goree-F14",
+      "text": "No alto de um platô rochoso, fortificações dominam a ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P15",
+      "factKey": "goree-F15",
+      "text": "Um forte do século XIX abriga hoje um museu de história.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P16",
+      "factKey": "goree-F16",
+      "text": "A UNESCO reconheceu a ilha como Patrimônio Mundial em 1978.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P17",
+      "factKey": "goree-F17",
+      "text": "Águas abrigadas faziam do lugar um bom ancoradouro para navios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P18",
+      "factKey": "goree-F18",
+      "text": "A antiga residência do governador francês faz parte do patrimônio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P19",
+      "factKey": "goree-F19",
+      "text": "Pessoas da diáspora africana visitam a ilha como lugar de peregrinação.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P20",
+      "factKey": "goree-F20",
+      "text": "A ilha é lembrada como espaço de reconciliação e perdão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P21",
+      "factKey": "goree-F21",
+      "text": "O mar desgasta as muralhas e as últimas baterias de canhões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P22",
+      "factKey": "goree-F22",
+      "text": "A ilha perdeu importância quando Dakar e Saint-Louis cresceram no continente.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P23",
+      "factKey": "goree-F23",
+      "text": "Já em 1848 a ilha participava de eleições francesas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P24",
+      "factKey": "goree-F24",
+      "text": "O nome do lugar vem de 'boa rada', por causa do bom ancoradouro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-viajante-P25",
+      "factKey": "goree-F25",
+      "text": "Em 2017, obras recuperaram muralhas, um píer flutuante e passarelas, com pedreiros locais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "goree-geografo-P01",
+      "factKey": "goree-F01",
+      "text": "A insularidade, a poucos quilômetros do continente, fez do lugar uma escala marítima cobiçada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P02",
+      "factKey": "goree-F02",
+      "text": "O substrato é de rocha vulcânica, e o terreno é descrito como árido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P03",
+      "factKey": "goree-F05",
+      "text": "Situa-se ao sul da península do Cabo Verde e comanda o ancoradouro do porto de Dakar.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P04",
+      "factKey": "goree-F04",
+      "text": "O oceano em volta funciona como zona de amortecimento natural de quase 4 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P05",
+      "factKey": "goree-F06",
+      "text": "O núcleo urbano é quase coextensivo à ilha, de área muito reduzida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P06",
+      "factKey": "goree-F17",
+      "text": "O abrigo para fundear navios explica o uso como escala e o próprio nome do lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P07",
+      "factKey": "goree-F08",
+      "text": "Do século XV ao XIX, potências europeias usaram a ilha, sucessivamente, como escala e mercado de escravizados.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P08",
+      "factKey": "goree-F09",
+      "text": "A sucessão de domínios português, holandês, inglês e francês mostra a disputa pelo ponto estratégico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS",
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P09",
+      "factKey": "goree-F11",
+      "text": "Sob controle francês de 1817 a 1960, a ilha já participava de eleições francesas em 1848.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P10",
+      "factKey": "goree-F26",
+      "text": "A UNESCO a descreve como o maior centro de comércio de escravizados da costa africana nesse período.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P11",
+      "factKey": "goree-F27",
+      "text": "Historiadores debatem se a ilha foi um grande polo do tráfico ou um entre vários pontos de embarque.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P12",
+      "factKey": "goree-F28",
+      "text": "Mais de uma dúzia de casas de escravos funcionava como entreposto de pessoas cativas.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P13",
+      "factKey": "goree-F12",
+      "text": "A arquitetura opõe alojamentos de cativos a casas elegantes de traficantes, expressão espacial da desigualdade.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P14",
+      "factKey": "goree-F14",
+      "text": "O Castelo, um platô rochoso coberto de fortificações, domina o relevo da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P15",
+      "factKey": "goree-F15",
+      "text": "O Forte d'Estrées, da década de 1850, abriga um museu histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P16",
+      "factKey": "goree-F18",
+      "text": "O Relais de l'Espadon, antiga residência do governador francês, integra o conjunto edificado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P17",
+      "factKey": "goree-F22",
+      "text": "A ascensão de Saint-Louis e Dakar no continente esvaziou a função da ilha.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P18",
+      "factKey": "goree-F19",
+      "text": "Destino de peregrinação da diáspora africana, o lugar é associado a ideais de reconciliação e perdão.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P19",
+      "factKey": "goree-F29",
+      "text": "Foi declarada sítio histórico em 1944 e recebeu medidas de salvaguarda em 1951.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P20",
+      "factKey": "goree-F30",
+      "text": "Uma portaria de 1975 a pôs na lista do patrimônio nacional; um comitê de salvaguarda veio em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P21",
+      "factKey": "goree-F16",
+      "text": "Inscrita em 1978, a ilha entrou na lista apenas pelo critério (vi), de valor associativo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_SOUV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P22",
+      "factKey": "goree-F21",
+      "text": "Correntes marinhas e a elevação do nível do mar erodem muralhas de proteção e antigas baterias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P23",
+      "factKey": "goree-F25",
+      "text": "Em 2017, muralhas norte e noroeste, um pontão e passarelas foram reabilitados com pedreiros locais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P24",
+      "factKey": "goree-F13",
+      "text": "Construída em 1786, a Casa dos Escravos transforma a memória do tráfico em espaço de museu.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "GOREE_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "goree-geografo-P25",
+      "factKey": "goree-F31",
+      "text": "O plano de gestão de cinco anos adotado em 2016 venceu, e a UNESCO pede a elaboração de um novo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GOREE_NEWS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Pequena ilha de rocha vulcânica a 3,5 km da costa de Dakar, no Senegal, que entre os séculos XV e XIX foi grande centro do tráfico atlântico de pessoas escravizadas, sob domínio sucessivo de portugueses, holandeses, ingleses e franceses; Patrimônio Mundial desde 1978 e lugar de memória e peregrinação da diáspora africana.",
+   "editorialNotes": [
+    "A UNESCO descreve a ilha como o maior centro de comércio de escravizados da costa africana; a Britannica registra que historiadores debatem se foi um grande polo ou um entre vários pontos de embarque. As pistas atribuem cada leitura à sua fonte.",
+    "Área divergente: cerca de 28 ha (UNESCO) e 36 ha (Britannica); nenhuma pista usa o número.",
+    "A página principal da UNESCO (lista 26) não abriu; a declaração de valor universal foi conferida no documento WHC-10/34.COM/8E.Add.2, e erosão, obras de 2017 e plano de gestão na notícia da UNESCO de 2022."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos na declaração de valor universal da UNESCO, em notícia da UNESCO (2022) e na Britannica; C1–C4 refeitos com alternativas africanas comparáveis e redação respeitosa sobre o tráfico de pessoas escravizadas."
+  }
+ },
+ "sources": {
+  "GOREE_SOUV": {
+   "id": "GOREE_SOUV",
+   "title": "Adoption of retrospective Statements of Outstanding Universal Value (WHC-10/34.COM/8E.Add.2) — Island of Gorée",
+   "publisher": "UNESCO World Heritage Committee",
+   "url": "https://whc.unesco.org/document/107116",
+   "checkedAt": "2026-11-15"
+  },
+  "GOREE_NEWS": {
+   "id": "GOREE_NEWS",
+   "title": "UNESCO mobilizes for the conservation of the Island of Gorée",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/news/2508",
+   "checkedAt": "2026-11-15"
+  },
+  "GOREE_EB": {
+   "id": "GOREE_EB",
+   "title": "Gorée Island",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://britannica.com/print/article/239194",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/107116",
+   "https://whc.unesco.org/en/news/2508",
+   "https://britannica.com/print/article/239194"
+  ],
+  "alteracoes": [
+   "Fonte GOREE26 (whc.unesco.org/en/list/26/) substituída: a página não abriu; o texto da UNESCO foi conferido na declaração retrospectiva de valor universal (GOREE_SOUV); acrescentadas a notícia da UNESCO de 2022 (GOREE_NEWS) e a Britannica (GOREE_EB).",
+   "C1: 'Ilha de Bissau', 'Ilha de Príncipe', 'Ilha de Luanda', 'Ilha de Fernando Pó' e 'Ilha de São Vicente' trocadas por Ilha de Saint-Louis, Ilha Kunta Kinteh, Ilha Robben, Ilha de Kilwa Kisiwani e Ilha de Bioko (ilhas históricas africanas comparáveis); rótulo 'Ilha histórica africana'.",
+   "C2: Nigéria e Moçambique trocados por Gâmbia e Benim; C3: rótulo 'Cidade portuária diante da ilha' e Lagos/Maputo trocados por Banjul e Lomé; C4: distratores implausíveis (seda, vikings, ferrovia) trocados por temas patrimoniais africanos comparáveis, com rótulo ancorado na UNESCO.",
+   "viajante P10–P13 (domínios separados por país) fundidas em P09 e trocadas por fatos datados (1444, 1817–1960, Casa dos Escravos de 1786); P24 (reconhecimento nacional de 1975) e P25 (medidas genéricas) trocadas pela origem do nome e pelas obras de 2017; novas: rocha vulcânica, península do Cabo Verde, forte-museu, erosão marinha, declínio diante de Dakar e Saint-Louis, eleições de 1848.",
+   "geografo: P05 corrigida para zona de amortecimento de quase 4 km; P15 ganhou o nome Relais de l'Espadon; novas: maior centro segundo a UNESCO e debate historiográfico (Britannica), mais de uma dúzia de casas de escravos, sítio histórico 1944/1951, portaria de 1975 e comitê de 1979, critério (vi), erosão, obras de 2017, plano de gestão vencido.",
+   "viajante: 21 de 25 pistas reescritas ou trocadas; geografo: 25 de 25; aberturas P01–P02 e decisivas P13 e P24 (viajante) e P16 e P24 (geografo); factKeys realinhados entre perfis; relatedFields ampliados."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

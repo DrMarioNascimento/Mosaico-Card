@@ -1,0 +1,1055 @@
+{
+  "case": {
+    "id": "lug2-greater-blue-mountains",
+    "placeId": "greater-blue-mountains",
+    "title": "Área das Grandes Montanhas Azuis",
+    "aliases": [
+      "Blue Mountains",
+      "Montanhas Azuis"
+    ],
+    "answerType": "área natural protegida",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área natural protegida",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Área das Grandes Montanhas Azuis"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Kakadu"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Purnululu"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Uluru-Kata Tjuta"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Florestas Tropicais Gondwana da Austrália"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Trópicos Úmidos de Queensland"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Área Selvagem da Tasmânia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Kosciuszko"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Baía Shark"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilha K’gari"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Fiordland"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Tongariro"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Área das Grandes Montanhas Azuis",
+        "sources": [
+          "GBM_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Vegetação dominante",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Florestas temperadas de eucaliptos"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Florestas tropicais úmidas de baixada"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Savanas tropicais com estação seca"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Desertos de areia com touceiras de spinifex"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Florestas temperadas de eucaliptos",
+        "sources": [
+          "GBM_IUCN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "País",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Austrália"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Nova Zelândia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "África do Sul"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Chile"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Austrália",
+        "sources": [
+          "GBM_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Relevo e substrato",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Planaltos de arenito recortados por escarpas e gargantas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Montanhas vulcânicas com crateras ativas"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Picos graníticos esculpidos por geleiras"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Planícies aluviais de grandes rios"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Planaltos de arenito recortados por escarpas e gargantas",
+        "sources": [
+          "GBM_IUCN",
+          "GBM_AVAL"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "greater-blue-mountains-viajante-P01",
+            "factKey": "greater-blue-mountains-F01",
+            "text": "Este destino é um grande conjunto de áreas naturais protegidas, coberto sobretudo por florestas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P02",
+            "factKey": "greater-blue-mountains-F02",
+            "text": "Paredões de rocha e vales profundos dominam o cenário.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P03",
+            "factKey": "greater-blue-mountains-F03",
+            "text": "Fica perto de uma metrópole de cerca de 5 milhões de habitantes.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P04",
+            "factKey": "greater-blue-mountains-F04",
+            "text": "O parque mais visitado do conjunto fica a até 2 horas de carro de Sydney.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_NSW",
+              "GBM_IUCN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P05",
+            "factKey": "greater-blue-mountains-F05",
+            "text": "A área fica na Austrália, no estado de Nova Gales do Sul.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P06",
+            "factKey": "greater-blue-mountains-F06",
+            "text": "Os eucaliptos dominam as florestas da região.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P07",
+            "factKey": "greater-blue-mountains-F07",
+            "text": "Há mais de cem espécies de eucalipto ali, cerca de 13% de todas as do mundo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P08",
+            "factKey": "greater-blue-mountains-F08",
+            "text": "O terreno é formado por planaltos de arenito.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P09",
+            "factKey": "greater-blue-mountains-F09",
+            "text": "Os paredões de arenito chegam a cerca de 300 metros de altura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P10",
+            "factKey": "greater-blue-mountains-F10",
+            "text": "Os planaltos vão de menos de 100 metros a cerca de 1.300 metros de altitude.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P11",
+            "factKey": "greater-blue-mountains-F11",
+            "text": "Cânions bem estreitos e cachoeiras se escondem entre as escarpas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P12",
+            "factKey": "greater-blue-mountains-F12",
+            "text": "Num dos parques, o mirante de Echo Point, em Katoomba, mostra a formação rochosa das Três Irmãs.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_NSW"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P13",
+            "factKey": "greater-blue-mountains-F13",
+            "text": "O parque mais famoso do conjunto tem mais de 140 km de trilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_NSW"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P14",
+            "factKey": "greater-blue-mountains-F14",
+            "text": "Em Wentworth Falls há mirantes, trilhas e cachoeiras para todos os gostos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_NSW"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P15",
+            "factKey": "greater-blue-mountains-F15",
+            "text": "Do mirante de Govetts Leap, em Blackheath, vê-se um vale de tom azulado cercado de paredões de arenito.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "GBM_NSW"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P16",
+            "factKey": "greater-blue-mountains-F16",
+            "text": "Somadas, as áreas protegidas passam de 1 milhão de hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P17",
+            "factKey": "greater-blue-mountains-F17",
+            "text": "São sete parques nacionais vizinhos e uma reserva de terreno cárstico, com cavernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P18",
+            "factKey": "greater-blue-mountains-F18",
+            "text": "A UNESCO incluiu a área no Patrimônio Mundial em 2000.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P19",
+            "factKey": "greater-blue-mountains-F19",
+            "text": "Cerca de 265 espécies de aves vivem ali, perto de um terço das aves do país.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P20",
+            "factKey": "greater-blue-mountains-F20",
+            "text": "Ornitorrincos e equidnas estão entre os animais da região.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P21",
+            "factKey": "greater-blue-mountains-F21",
+            "text": "Há cerca de 63 espécies de répteis e mais de 30 de sapos e rãs.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P22",
+            "factKey": "greater-blue-mountains-F22",
+            "text": "Um pinheiro raríssimo, com menos de 100 árvores adultas na natureza, sobrevive escondido em poucos pontos dali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN",
+              "GBM_AVAL"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P23",
+            "factKey": "greater-blue-mountains-F23",
+            "text": "Os incêndios de 2019 e 2020 queimaram cerca de 71% da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P24",
+            "factKey": "greater-blue-mountains-F24",
+            "text": "Parte da área faz parte da bacia que abastece de água a metrópole vizinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-viajante-P25",
+            "factKey": "greater-blue-mountains-F25",
+            "text": "Povos aborígines de vários grupos de língua são reconhecidos como guardiões tradicionais da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "greater-blue-mountains-geografo-P01",
+            "factKey": "greater-blue-mountains-F01",
+            "text": "O bem combina planaltos, escarpas e gargantas cobertos principalmente por floresta temperada.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P02",
+            "factKey": "greater-blue-mountains-F02",
+            "text": "Foi inscrito por dois critérios naturais, (ix) e (x): processos evolutivos e diversidade de habitats.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P03",
+            "factKey": "greater-blue-mountains-F03",
+            "text": "Situa-se entre cerca de 60 e 180 km para o interior a partir do centro de Sydney.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P04",
+            "factKey": "greater-blue-mountains-F04",
+            "text": "Segundo a avaliação da IUCN de 1999, um corredor urbano e uma via de transporte dividem o conjunto em dois blocos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P05",
+            "factKey": "greater-blue-mountains-F05",
+            "text": "O novo aeroporto internacional do oeste de Sydney fica a cerca de 8 km a leste do bem.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P06",
+            "factKey": "greater-blue-mountains-F06",
+            "text": "A floresta temperada de eucaliptos domina a cobertura vegetal dos planaltos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P07",
+            "factKey": "greater-blue-mountains-F07",
+            "text": "O critério (ix) reconhece ali um centro de diversificação da flora esclerófila australiana.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P08",
+            "factKey": "greater-blue-mountains-F08",
+            "text": "Eram 91 táxons de eucalipto na inscrição; a IUCN hoje registra 101 espécies, cerca de 13% do total mundial.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P09",
+            "factKey": "greater-blue-mountains-F09",
+            "text": "Espécies relictuais de afinidade gondwânica, como o gênero Wollemia, persistem em microambientes muito restritos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN",
+              "GBM_AVAL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P10",
+            "factKey": "greater-blue-mountains-F10",
+            "text": "O planalto de arenito é entalhado por gargantas, com paredões de cerca de 300 m e cânions estreitos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P11",
+            "factKey": "greater-blue-mountains-F11",
+            "text": "Afloramentos de basalto aparecem nos espigões mais altos, sobre o arenito.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P12",
+            "factKey": "greater-blue-mountains-F12",
+            "text": "A chuva chega a cerca de 1.400 mm por ano nas partes mais úmidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P13",
+            "factKey": "greater-blue-mountains-F13",
+            "text": "Cerca de 1.500 espécies de plantas, 114 endêmicas e 177 ameaçadas, sustentam o critério (x).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P14",
+            "factKey": "greater-blue-mountains-F14",
+            "text": "Mais de 400 táxons de vertebrados, 40 deles ameaçados, ocupam o mosaico de habitats.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P15",
+            "factKey": "greater-blue-mountains-F15",
+            "text": "Cerca de 120 espécies de borboletas e 4.000 de mariposas revelam a riqueza de invertebrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P16",
+            "factKey": "greater-blue-mountains-F16",
+            "text": "A reserva cárstica do conjunto abriga uma fauna de invertebrados de cavernas com 67 táxons.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P17",
+            "factKey": "greater-blue-mountains-F17",
+            "text": "A área reconhecida soma cerca de 1,03 milhão de hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P18",
+            "factKey": "greater-blue-mountains-F18",
+            "text": "Os parques nacionais Kanangra-Boyd, Nattai, Yengo e Thirlmere Lakes integram o conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P19",
+            "factKey": "greater-blue-mountains-F19",
+            "text": "O Parque Nacional Wollemi, que recebe translocações do pinheiro de mesmo nome, integra o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P20",
+            "factKey": "greater-blue-mountains-F20",
+            "text": "Cerca de 141.700 ha são “áreas especiais” geridas para proteger a qualidade da água de Sydney.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P21",
+            "factKey": "greater-blue-mountains-F21",
+            "text": "A represa de Warragamba, que formou o lago Burragorang, fornece cerca de 70% da água de Sydney; parte da bacia fica no bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_AVAL"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P22",
+            "factKey": "greater-blue-mountains-F22",
+            "text": "A proposta de elevar o paredão da represa de Warragamba foi retirada, e a Austrália informou a UNESCO em maio de 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P23",
+            "factKey": "greater-blue-mountains-F23",
+            "text": "Os incêndios de 2019 e 2020 atingiram 71% do bem; 29% queimou em intensidade alta a extrema, até em grotões úmidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P24",
+            "factKey": "greater-blue-mountains-F24",
+            "text": "Raposas, gatos e cervos ferais, além de patógenos como Phytophthora e a ferrugem-da-murta, pressionam a biota nativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "greater-blue-mountains-geografo-P25",
+            "factKey": "greater-blue-mountains-F25",
+            "text": "O parque nacional mais visitado de Nova Gales do Sul fica no bem: cerca de 6,4 milhões de visitas em 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "GBM_IUCN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de oito áreas protegidas em Nova Gales do Sul, a oeste de Sydney, com cerca de 1,03 milhão de hectares de planaltos de arenito, escarpas e gargantas cobertos sobretudo por florestas temperadas de eucaliptos.",
+      "editorialNotes": [
+        "A IUCN fala em oito áreas protegidas (sete parques nacionais contíguos e uma reserva cárstica), mas lista nove unidades nos planos de manejo; as pistas citam só unidades nomeadas pela IUCN.",
+        "Contagem de eucaliptos: 90 táxons na avaliação de 1999, 91 na inscrição de 2000 e 101 espécies na avaliação atual da IUCN.",
+        "Altitudes, paredões de 300 m, distância de 60–180 km de Sydney e os 70% da água de Sydney vêm da avaliação técnica de 1999; a proposta de elevar a represa de Warragamba foi retirada em 2023."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook, na avaliação técnica da IUCN de 1999 publicada pela UNESCO e na página do governo de Nova Gales do Sul; alternativas de C1, C2 e C4 refeitas."
+    }
+  },
+  "sources": {
+    "GBM_IUCN": {
+      "id": "GBM_IUCN",
+      "title": "Greater Blue Mountains Area — World Heritage Outlook",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1104",
+      "checkedAt": "2026-11-15"
+    },
+    "GBM_AVAL": {
+      "id": "GBM_AVAL",
+      "title": "Greater Blue Mountains Area (Australia) — IUCN technical evaluation, 1999",
+      "publisher": "UNESCO World Heritage Centre / IUCN",
+      "url": "https://whc.unesco.org/document/154593",
+      "checkedAt": "2026-11-15"
+    },
+    "GBM_NSW": {
+      "id": "GBM_NSW",
+      "title": "Blue Mountains National Park",
+      "publisher": "NSW Government",
+      "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/blue-mountains-national-park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1104",
+      "https://whc.unesco.org/document/154593",
+      "https://www.nsw.gov.au/visiting-and-exploring-nsw/locations-and-attractions/blue-mountains-national-park"
+    ],
+    "alteracoes": [
+      "Fonte GBM917 (whc.unesco.org/en/list/917) substituída: as páginas da lista da UNESCO (ES e RU) não abriram; dados conferidos na IUCN World Heritage Outlook (GBM_IUCN), na avaliação técnica da IUCN de 1999 (GBM_AVAL) e no governo de Nova Gales do Sul (GBM_NSW).",
+      "C1: rótulo ‘Área natural protegida’; saíram Lamington (parte das Florestas Gondwana), Cradle Mountain–Lake St Clair (parte da Área Selvagem da Tasmânia), Alpes Australianos e Ningaloo (marinho); entraram Trópicos Úmidos de Queensland, Área Selvagem da Tasmânia, Kosciuszko e Baía Shark.",
+      "C2: alternativas implausíveis (coníferas boreais, tundra, manguezais) trocadas por outros tipos de vegetação australiana; gabarito ‘Florestas temperadas de eucaliptos’ (IUCN).",
+      "C4: alternativas implausíveis (gelo com fiordes, dunas, recifes) trocadas por relevos plausíveis; gabarito mantido (planaltos de arenito com escarpas e gargantas).",
+      "Viajante: 24 pistas reescritas ou trocadas; ‘sete parques nacionais’ ajustado para ‘sete parques e uma reserva cárstica’; entraram metrópole de 5 milhões, 2 horas de Sydney, 13% dos eucaliptos do mundo, paredões de 300 m, Três Irmãs/Echo Point, 140 km de trilhas, Govetts Leap, ornitorrincos, pinheiro de Wollemi, incêndios de 2019–2020.",
+      "Geógrafo: todas as 25 reescritas para relações e processos (60–180 km de Sydney, dois blocos, aeroporto a 8 km, centro de diversificação da flora esclerófila, relictos gondwânicos, basalto nos espigões, áreas especiais de captação, Warragamba, incêndios, espécies invasoras, visitação).",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas Viajante P12 e P22, Geógrafo P09 e P19; clueType e relatedFields diversificados."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

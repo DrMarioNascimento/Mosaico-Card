@@ -1,0 +1,1088 @@
+{
+  "case": {
+    "id": "lug2-rio-grande",
+    "placeId": "rio-grande-rs",
+    "title": "Rio Grande",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pelotas"
+          },
+          {
+            "id": "C1-O3",
+            "text": "São José do Norte"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Torres"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Tramandaí"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Mostardas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Porto Alegre"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Santa Vitória do Palmar"
+          },
+          {
+            "id": "C1-O9",
+            "text": "São Lourenço do Sul"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Jaguarão"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Laguna"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Imbituba"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Rio Grande",
+        "sources": [
+          "RGWIKI",
+          "RGDISTR"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Balneário oceânico do município",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Cassino"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Hermenegildo"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Pinhal"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Quintão"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Cassino",
+        "sources": [
+          "RG_ESTADO",
+          "RG_EM"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Veículo a vela que leva turistas sobre trilhos nos molhes da barra",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Vagoneta"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Jangada"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Bondinho"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Charrete"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Vagoneta",
+        "sources": [
+          "RG_CB",
+          "RG_ESTADO",
+          "RG_EM"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Apelido da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Noiva do Mar"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Princesa do Sul"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rainha da Fronteira"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Sentinela do Sul"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Noiva do Mar",
+        "sources": [
+          "RGWIKI",
+          "RG_CB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "rio-grande-rs-viajante-P01",
+            "factKey": "rio-grande-rs-viajante-F01",
+            "text": "É uma cidade litorânea do extremo sul do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P02",
+            "factKey": "rio-grande-rs-viajante-F02",
+            "text": "O terreno é plano e venta forte em boa parte do ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P03",
+            "factKey": "rio-grande-rs-viajante-F03",
+            "text": "O clima é subtropical úmido: janeiro tem média de 23,6 °C e julho, de 12,9 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P04",
+            "factKey": "rio-grande-rs-viajante-F04",
+            "text": "A cidade fica onde uma grande lagoa encontra o Oceano Atlântico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P05",
+            "factKey": "rio-grande-rs-viajante-F05",
+            "text": "É a cidade mais antiga do estado, fundada em 1737.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB",
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P06",
+            "factKey": "rio-grande-rs-viajante-F06",
+            "text": "Nasceu em torno de um forte militar português.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RGDISTR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P07",
+            "factKey": "rio-grande-rs-viajante-F07",
+            "text": "No século XVIII, ficou ocupada por tropas espanholas de 1763 a 1776.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P08",
+            "factKey": "rio-grande-rs-viajante-F08",
+            "text": "Tem um dos portos marítimos mais importantes do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P09",
+            "factKey": "rio-grande-rs-viajante-F09",
+            "text": "O porto movimenta grãos vindos do Cone Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P10",
+            "factKey": "rio-grande-rs-viajante-F10",
+            "text": "Tem uma praia de mais de 200 km de areia que vai até a fronteira com o Uruguai.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_CB",
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P11",
+            "factKey": "rio-grande-rs-viajante-F11",
+            "text": "No verão, os carros podem circular na areia dessa praia.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P12",
+            "factKey": "rio-grande-rs-viajante-F12",
+            "text": "Seu balneário é considerado o mais antigo balneário marítimo do Brasil.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P13",
+            "factKey": "rio-grande-rs-viajante-F13",
+            "text": "O balneário fica a cerca de 22 km do centro da cidade.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P14",
+            "factKey": "rio-grande-rs-viajante-F14",
+            "text": "Paredões de pedra dos molhes avançam cerca de 4 km mar adentro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_EM",
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P15",
+            "factKey": "rio-grande-rs-viajante-F15",
+            "text": "Carrinhos movidos a vela correm sobre trilhos e levam turistas pelos molhes.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RG_CB",
+              "RG_EM",
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P16",
+            "factKey": "rio-grande-rs-viajante-F16",
+            "text": "Dos molhes dá para ver navios entrando no canal e leões-marinhos descansando.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P17",
+            "factKey": "rio-grande-rs-viajante-F17",
+            "text": "Um navio cargueiro encalhado na praia desde 1976 virou atração para visitantes.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_ESTADO",
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P18",
+            "factKey": "rio-grande-rs-viajante-F18",
+            "text": "Uma ilha na lagoa, ligada por ponte, guarda hortas, dunas e doces caseiros de herança portuguesa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P19",
+            "factKey": "rio-grande-rs-viajante-F19",
+            "text": "Parte de uma estação ecológica com capivaras, jacarés e aves migratórias fica no município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P20",
+            "factKey": "rio-grande-rs-viajante-F20",
+            "text": "Um museu oceanográfico com esqueletos de baleia e aquários é apontado como o maior do gênero na América Latina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P21",
+            "factKey": "rio-grande-rs-viajante-F21",
+            "text": "O centro histórico tem a catedral mais antiga do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P22",
+            "factKey": "rio-grande-rs-viajante-F22",
+            "text": "A pesca é uma atividade forte, e uma festa local celebra a anchova assada na brasa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P23",
+            "factKey": "rio-grande-rs-viajante-F23",
+            "text": "O apelido da cidade a apresenta como prometida em casamento ao oceano.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P24",
+            "factKey": "rio-grande-rs-viajante-F24",
+            "text": "Um clube de futebol local é apontado como o mais antigo do Brasil ainda em atividade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-viajante-P25",
+            "factKey": "rio-grande-rs-viajante-F25",
+            "text": "No campo, a paisagem mistura pastagens baixas, dunas costeiras e plantações de eucalipto e pinus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "rio-grande-rs-geografo-P01",
+            "factKey": "rio-grande-rs-geografo-F01",
+            "text": "O município ocupa uma planície costeira baixa, cujo ponto mais alto fica perto de 10 m de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P02",
+            "factKey": "rio-grande-rs-geografo-F02",
+            "text": "A posição na saída de uma grande laguna para o Atlântico deu valor estratégico ao sítio nas disputas entre Portugal e Espanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB",
+              "RGDISTR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P03",
+            "factKey": "rio-grande-rs-geografo-F03",
+            "text": "O topônimo vem das águas que descem do estuário do Guaíba pela Lagoa dos Patos até o oceano, vistas como um grande rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGDISTR",
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P04",
+            "factKey": "rio-grande-rs-geografo-F04",
+            "text": "O primeiro núcleo, de 1737, reuniu indígenas catequizados e famílias trazidas do Rio de Janeiro e de Laguna em torno de um forte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGDISTR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P05",
+            "factKey": "rio-grande-rs-geografo-F05",
+            "text": "Colonos açorianos e madeirenses transformaram o forte em povoação, elevada a vila em 1751.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RGDISTR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P06",
+            "factKey": "rio-grande-rs-geografo-F06",
+            "text": "A ocupação espanhola de 1763 extinguiu a vila, que só foi restaurada em 1809.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGDISTR",
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P07",
+            "factKey": "rio-grande-rs-geografo-F07",
+            "text": "Em 1760 a área virou capitania própria; antes era governada a partir de Santa Catarina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P08",
+            "factKey": "rio-grande-rs-geografo-F08",
+            "text": "Na Revolução Farroupilha, foi elevada a cidade em 1835 e serviu de sede do governo provincial até 1845.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGDISTR",
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P09",
+            "factKey": "rio-grande-rs-geografo-F09",
+            "text": "Faz divisa com Pelotas ao norte, pelo Canal São Gonçalo, e com Santa Vitória do Palmar ao sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P10",
+            "factKey": "rio-grande-rs-geografo-F10",
+            "text": "A maior e mais povoada ilha da Lagoa dos Patos pertence ao município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P11",
+            "factKey": "rio-grande-rs-geografo-F11",
+            "text": "Parte da Estação Ecológica do Taim, área de reprodução de aves migratórias, está no território municipal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P12",
+            "factKey": "rio-grande-rs-geografo-F12",
+            "text": "Sem afloramentos rochosos na planície costeira, a praia segue contínua por cerca de 254 km, dos molhes da barra aos do Chuí.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P13",
+            "factKey": "rio-grande-rs-geografo-F13",
+            "text": "Essa extensão contínua aparece no livro dos recordes como a maior praia do mundo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_EM",
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P14",
+            "factKey": "rio-grande-rs-geografo-F14",
+            "text": "Os molhes foram erguidos entre 1909 e 1915 para eliminar bancos de areia que bloqueavam a entrada do porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P15",
+            "factKey": "rio-grande-rs-geografo-F15",
+            "text": "Os dois molhes partem de margens opostas da barra: um do município procurado e o leste, de 4,2 km, de São José do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P16",
+            "factKey": "rio-grande-rs-geografo-F16",
+            "text": "Os trilhos usados na construção dos molhes hoje servem às vagonetas a vela do turismo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RG_EM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P17",
+            "factKey": "rio-grande-rs-geografo-F17",
+            "text": "Desde o inverno de 1976, um cargueiro encalhado após uma tempestade afunda devagar na areia, a cerca de 12 km da avenida principal do balneário.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RG_EM",
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P18",
+            "factKey": "rio-grande-rs-geografo-F18",
+            "text": "É o único porto marítimo do estado e escoa grãos do Cone Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_EM",
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P19",
+            "factKey": "rio-grande-rs-geografo-F19",
+            "text": "O porto e uma refinaria de petróleo explicam boa parte da riqueza do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P20",
+            "factKey": "rio-grande-rs-geografo-F20",
+            "text": "Indústrias naval e de fertilizantes e a logística de comércio exterior geram empregos especializados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P21",
+            "factKey": "rio-grande-rs-geografo-F21",
+            "text": "Funciona como polo do sul gaúcho, com hospitais e comércio que atendem cidades vizinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P22",
+            "factKey": "rio-grande-rs-geografo-F22",
+            "text": "A universidade federal local, referência em oceanografia, mantém o museu oceanográfico que deu origem a um complexo de museus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RG_CB",
+              "RG_ESTADO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P23",
+            "factKey": "rio-grande-rs-geografo-F23",
+            "text": "O Censo de 2022 contou cerca de 192 mil habitantes num território de cerca de 2.710 km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P24",
+            "factKey": "rio-grande-rs-geografo-F24",
+            "text": "A influência oceânica marca o clima subtropical úmido; em julho, o vento derruba a sensação térmica para perto de 6 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-grande-rs-geografo-P25",
+            "factKey": "rio-grande-rs-geografo-F25",
+            "text": "O IDHM de 0,744 (2010) coloca o município na faixa de alto desenvolvimento humano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RGWIKI",
+              "RG_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade mais antiga do Rio Grande do Sul, fundada em 1737 junto à saída da Lagoa dos Patos para o Atlântico; único porto marítimo gaúcho, tem os Molhes da Barra (1909–1915), percorridos por vagonetas a vela, o balneário do Cassino e o apelido de Noiva do Mar.",
+      "editorialNotes": [
+        "A extensão da praia do Cassino varia entre as fontes (mais de 200 km, mais de 240 km, cerca de 254 km); o Viajante usa \"mais de 200 km\" e o Geógrafo os 254 km atribuídos à Secretaria de Turismo do RS. O título de maior praia do mundo aparece como recorde no Estado de Minas e no site do governo, mas como reivindicação no Correio Braziliense.",
+        "A posição do porto no ranking nacional diverge (2º mais movimentado na Wikipedia, 4º maior no Correio Braziliense); as pistas evitam ranking.",
+        "O Estado de Minas chama o Cassino de distrito, mas o IBGE registra a extinção do distrito em 1979, com anexação à sede; as pistas o tratam como balneário."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes do rascunho trocadas por IBGE (histórico), Wikipedia, governo do RS, Correio Braziliense e Estado de Minas abertos na revisão; C2–C4 refeitos (C4 \"Estado brasileiro\" continha o nome do lugar); pistas conferidas e reescritas"
+    }
+  },
+  "sources": {
+    "RGWIKI": {
+      "title": "Rio Grande, Rio Grande do Sul",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/Rio_Grande,_Rio_Grande_do_Sul",
+      "checkedAt": "2026-11-15",
+      "id": "RGWIKI"
+    },
+    "RGDISTR": {
+      "title": "Rio Grande (RS): histórico e formação administrativa",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/riogrande.pdf",
+      "checkedAt": "2026-11-15",
+      "id": "RGDISTR"
+    },
+    "RG_CB": {
+      "title": "Fundada em 1737, a cidade mais antiga do RS também é dona da maior praia do mundo em extensão",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/fundada-em-1737-a-cidade-mais-antiga-do-rs-tambem-e-dona-da-maior-praia-do-mundo-em-extensao",
+      "checkedAt": "2026-11-15",
+      "id": "RG_CB"
+    },
+    "RG_ESTADO": {
+      "title": "Praia do Cassino é o balneário marítimo mais antigo do país",
+      "publisher": "Governo do Estado do Rio Grande do Sul",
+      "url": "https://estado.rs.gov.br/praia-do-cassino-e-o-balneario-maritimo-mais-antigo-do-pais",
+      "checkedAt": "2026-11-15",
+      "id": "RG_ESTADO"
+    },
+    "RG_EM": {
+      "title": "Registrada no Guinness como a maior praia contínua do mundo: 254 km de areia no extremo sul do país, com um cargueiro encalhado desde 1976",
+      "publisher": "Estado de Minas",
+      "url": "https://www.em.com.br/emfoco/2026/08/04/registrada-no-guinness-como-a-maior-praia-continua-do-mundo-254-km-de-areia-sem-obstaculo-no-extremo-sul-do-pais-com-um-cargueiro-encalhado-desde-1976/",
+      "checkedAt": "2026-11-15",
+      "id": "RG_EM"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.wikipedia.org/wiki/Rio_Grande,_Rio_Grande_do_Sul",
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/riogrande.pdf",
+      "https://www.correiobraziliense.com.br/cbradar/fundada-em-1737-a-cidade-mais-antiga-do-rs-tambem-e-dona-da-maior-praia-do-mundo-em-extensao",
+      "https://estado.rs.gov.br/praia-do-cassino-e-o-balneario-maritimo-mais-antigo-do-pais",
+      "https://www.em.com.br/emfoco/2026/08/04/registrada-no-guinness-como-a-maior-praia-continua-do-mundo-254-km-de-areia-sem-obstaculo-no-extremo-sul-do-pais-com-um-cargueiro-encalhado-desde-1976/"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (IBGE Cidades, páginas da Secretaria de Turismo do RS, prefeitura/museus, artigo da RBG) não foram abertas; substituídas por 5 fontes abertas (IBGE histórico, Wikipedia, governo do RS, Correio Braziliense, Estado de Minas)",
+      "C2: rótulo \"Praia associada\" virou \"Balneário oceânico do município\"; alternativas de outros estados (Guarita, Joaquina, Praia do Rosa) trocadas por balneários gaúchos (Hermenegildo, Pinhal, Quintão)",
+      "C3: \"Obra na entrada do canal\" (alternativas implausíveis: aqueduto, barragem de rejeitos) trocado por veículo a vela dos molhes, gabarito Vagoneta",
+      "C4: \"Estado brasileiro\" (o gabarito continha o nome do lugar) trocado por apelido da cidade, gabarito Noiva do Mar",
+      "Viajante: 22 pistas reescritas ou trocadas; retiradas sem fonte aberta: Estação de Apoio Antártico, 5º Distrito Naval, Museu Náutico, molhe oeste/São José do Norte do lado brasileiro; datas de 1835 e 1909–1915 mantidas com fonte",
+      "Geógrafo: 24 pistas reescritas ou trocadas; retiradas as pistas metodológicas sobre o artigo da RBG e as de instalações navais/antárticas; incluídos topônimo, formação administrativa (IBGE), divisas, Taim, causa da praia contínua, função dos molhes e economia portuária",
+      "População passou a ser 2022 (Wikipedia, cerca de 192 mil) sem citar IBGE Cidades, que não foi aberto"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

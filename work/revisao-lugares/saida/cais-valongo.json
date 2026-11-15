@@ -1,0 +1,1055 @@
+{
+  "case": {
+    "id": "lug2-cais-valongo",
+    "placeId": "cais-valongo",
+    "title": "Sítio Arqueológico Cais do Valongo",
+    "aliases": [
+      "Cais do Valongo",
+      "Valongo"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Lugar de memória",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Sítio Arqueológico Cais do Valongo"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cemitério dos Pretos Novos"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Pedra do Sal"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Fazenda Machadinha"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Quilombo do Campinho da Independência"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Quilombo São José da Serra"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Mina Chico Rei"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Igreja de Santa Efigênia, Ouro Preto"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Igreja de Nossa Senhora do Rosário dos Homens Pretos, São Paulo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Sítio Arqueológico Cais do Valongo",
+        "sources": [
+          "SE_VALONGO_UNESCO_DEC",
+          "SE_VALONGO_UNB",
+          "SE_VALONGO_PUBLICA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Função para a qual o cais foi construído",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Desembarque de africanos escravizados"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Embarque de café para exportação"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Desembarque de imigrantes europeus"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ancoradouro de navios de guerra"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Desembarque de africanos escravizados",
+        "sources": [
+          "SE_VALONGO_UNESCO_DEC"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Praça ocupada pelo sítio",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Praça Jornal do Comércio"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Praça Mauá"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Praça XV de Novembro"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Praça Tiradentes"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Praça Jornal do Comércio",
+        "sources": [
+          "SE_VALONGO_UNESCO_DEC",
+          "SE_VALONGO_UNESCO_LAVAGEM"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Calçamento da camada mais antiga",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Pé de moleque"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Blocos de granito aparelhado"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Tijolos cerâmicos em espinha de peixe"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Tábuas de madeira sobre estacas"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Pé de moleque",
+        "sources": [
+          "SE_VALONGO_UNESCO_DEC",
+          "SE_VALONGO_PUBLICA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cais-valongo-viajante-P01",
+            "factKey": "cais-valongo-F01",
+            "text": "É um lugar de memória em uma cidade brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P02",
+            "factKey": "cais-valongo-F02",
+            "text": "O lugar fica em uma antiga área de porto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P03",
+            "factKey": "cais-valongo-F03",
+            "text": "Hoje se veem ali restos de construções de pedra a céu aberto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P04",
+            "factKey": "cais-valongo-F04",
+            "text": "Os vestígios ocupam uma praça inteira, chamada Jornal do Comércio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM",
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P05",
+            "factKey": "cais-valongo-F05",
+            "text": "O cais foi construído para o desembarque de africanos escravizados.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P06",
+            "factKey": "cais-valongo-F06",
+            "text": "A obra do cais começou em 1811.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P07",
+            "factKey": "cais-valongo-F07",
+            "text": "Estima-se que cerca de 900 mil africanos escravizados chegaram à América do Sul por ali.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM",
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P08",
+            "factKey": "cais-valongo-F08",
+            "text": "O lugar lembra a maior migração forçada da história.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P09",
+            "factKey": "cais-valongo-F09",
+            "text": "O calçamento mais antigo tem pedras arredondadas de rio sobre terra batida.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P10",
+            "factKey": "cais-valongo-F10",
+            "text": "Esse calçamento antigo é do tipo chamado pé de moleque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P11",
+            "factKey": "cais-valongo-F11",
+            "text": "Há várias camadas de construção, uma por cima da outra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P12",
+            "factKey": "cais-valongo-F12",
+            "text": "Em 1843, um novo cais foi feito por cima do antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P13",
+            "factKey": "cais-valongo-F13",
+            "text": "O cais de 1843 foi preparado para a chegada da imperatriz Teresa Cristina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB",
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P14",
+            "factKey": "cais-valongo-F14",
+            "text": "Por isso, a camada mais nova ficou conhecida como Cais da Imperatriz.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P15",
+            "factKey": "cais-valongo-F15",
+            "text": "No começo do século XX, um aterro cobriu tudo durante reformas urbanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB",
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P16",
+            "factKey": "cais-valongo-F16",
+            "text": "As pedras ficaram cobertas de terra por cerca de 168 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P17",
+            "factKey": "cais-valongo-F17",
+            "text": "Em 2011, obras na zona portuária trouxeram as pedras de volta à vista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA",
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P18",
+            "factKey": "cais-valongo-F18",
+            "text": "Nas escavações apareceram búzios, amuletos e colares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P19",
+            "factKey": "cais-valongo-F19",
+            "text": "O cais tinha uma rampa e degraus que desciam até o mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P20",
+            "factKey": "cais-valongo-F20",
+            "text": "Aterros feitos depois deixaram o antigo cais longe da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P21",
+            "factKey": "cais-valongo-F21",
+            "text": "A UNESCO incluiu o sítio na Lista do Patrimônio Mundial em 2017.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P22",
+            "factKey": "cais-valongo-F22",
+            "text": "A Pedra do Sal e o Cemitério dos Pretos Novos ficam na mesma região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB",
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P23",
+            "factKey": "cais-valongo-F23",
+            "text": "A região em volta é conhecida como Pequena África.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB",
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P24",
+            "factKey": "cais-valongo-F24",
+            "text": "Em uma cerimônia de lavagem, as pedras do cais são lavadas com água consagrada com flores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-viajante-P25",
+            "factKey": "cais-valongo-F25",
+            "text": "Fica na antiga zona portuária do centro do Rio de Janeiro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cais-valongo-geografo-P01",
+            "factKey": "cais-valongo-F01",
+            "text": "O objeto é um sítio arqueológico reconhecido como lugar de consciência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P02",
+            "factKey": "cais-valongo-F02",
+            "text": "Sua posição integra a antiga frente portuária de uma grande cidade do Sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P03",
+            "factKey": "cais-valongo-F03",
+            "text": "O sítio ocupa toda a Praça Jornal do Comércio, no centro da cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P04",
+            "factKey": "cais-valongo-F04",
+            "text": "Fica a cerca de 3 km a noroeste da área das Paisagens Cariocas inscrita pela UNESCO.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P05",
+            "factKey": "cais-valongo-F05",
+            "text": "A estrutura foi construída a partir de 1811 para receber africanos escravizados trazidos pelo tráfico atlântico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P06",
+            "factKey": "cais-valongo-F06",
+            "text": "Entre 1774 e 1831, a área foi o ponto exclusivo de entrada de pessoas escravizadas na cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P07",
+            "factKey": "cais-valongo-F07",
+            "text": "A lei de 1831 que proibiu o tráfico transatlântico levou à desativação desse porto de desembarque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P08",
+            "factKey": "cais-valongo-F08",
+            "text": "O cais foi assentado diretamente sobre a areia da praia, com rampa e degraus em direção ao mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P09",
+            "factKey": "cais-valongo-F09",
+            "text": "Aterros da orla separaram o cais do mar e reduziram a integridade de sua relação original com a água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P10",
+            "factKey": "cais-valongo-F10",
+            "text": "A estratigrafia reúne várias camadas, do cais original às obras posteriores.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P11",
+            "factKey": "cais-valongo-F11",
+            "text": "A camada inferior conserva calçamento em pé de moleque, atribuído ao cais original.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P12",
+            "factKey": "cais-valongo-F12",
+            "text": "Esse calçamento usa pedras arredondadas de rio assentadas sobre terra batida.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P13",
+            "factKey": "cais-valongo-F13",
+            "text": "Em 1843, blocos de granito recobriram o cais original para a chegada da imperatriz Teresa Cristina.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA",
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P14",
+            "factKey": "cais-valongo-F14",
+            "text": "A camada de 1843 corresponde ao Cais da Imperatriz, chamado Cais da Saúde a partir de 1889.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC",
+              "SE_VALONGO_UNB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P15",
+            "factKey": "cais-valongo-F15",
+            "text": "As reformas urbanas de Pereira Passos, no início do século XX, soterraram as estruturas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNB",
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P16",
+            "factKey": "cais-valongo-F16",
+            "text": "A cobertura de terra por cerca de 168 anos preservou os vestígios, que não foram reconstruídos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P17",
+            "factKey": "cais-valongo-F17",
+            "text": "Em março de 2011, obras de drenagem do projeto Porto Maravilha expuseram novamente o cais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P18",
+            "factKey": "cais-valongo-F18",
+            "text": "Uma equipe do Museu Nacional, coordenada pela arqueóloga Tania Andrade Lima, acompanhou as escavações.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P19",
+            "factKey": "cais-valongo-F19",
+            "text": "Estima-se que cerca de 900 mil africanos escravizados tenham entrado nas Américas por esse ponto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P20",
+            "factKey": "cais-valongo-F20",
+            "text": "É considerado o mais significativo vestígio material de desembarque de africanos escravizados nas Américas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P21",
+            "factKey": "cais-valongo-F21",
+            "text": "A inscrição como Patrimônio Mundial, em 2017, se baseou unicamente no critério (vi).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P22",
+            "factKey": "cais-valongo-F22",
+            "text": "O Iphan responde pela conservação do sítio, protegido pela lei federal 3.924, de 1961.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P23",
+            "factKey": "cais-valongo-F23",
+            "text": "A lavagem do cais começou logo após a descoberta, quando arqueólogos convidaram sacerdotisas de tradições religiosas africanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P24",
+            "factKey": "cais-valongo-F24",
+            "text": "O ritual percorre o sítio e a praça vizinha e reforça a guarda comunitária do bem.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_VALONGO_UNESCO_LAVAGEM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cais-valongo-geografo-P25",
+            "factKey": "cais-valongo-F25",
+            "text": "Em 2012, a prefeitura criou um circuito histórico e arqueológico da herança africana que inclui o sítio, a Pedra do Sal e o Cemitério dos Pretos Novos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_VALONGO_PUBLICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Sítio arqueológico na Praça Jornal do Comércio, na antiga zona portuária do centro do Rio de Janeiro: cais de pedra construído a partir de 1811 para o desembarque de africanos escravizados, recoberto pelo Cais da Imperatriz (1843), soterrado no início do século XX, redescoberto em 2011 e inscrito como Patrimônio Mundial em 2017 como lugar de consciência.",
+      "editorialNotes": [
+        "Estimativas divergem: a UNESCO fala em cerca de 900 mil africanos escravizados chegados pelo cais; o artigo da RED|UnB (2024) cita cerca de um milhão. As pistas usam o número da UNESCO.",
+        "Tema sensível: as pistas usam \"africanos escravizados\" e \"pessoas escravizadas\" e tratam o sítio como lugar de memória. A cidade do Rio de Janeiro tem caso próprio no banco; a localização na cidade aparece só em pistas intermediárias, e a diferenciação vem da praça, das camadas, do calçamento e do ritual.",
+        "A data de 1774 (área designada para o desembarque) vem do artigo da UnB; a UNESCO data a construção do cais a partir de 1811."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (decisão 41 COM 8B.35 e página Canopy da UNESCO, artigo da RED|UnB 2024, Agência Pública 2016); C1 restrito a lugares de memória do Sudeste, C2–C4 reformulados e todas as pistas conferidas, com redação respeitosa"
+    }
+  },
+  "sources": {
+    "SE_VALONGO_UNESCO_DEC": {
+      "id": "SE_VALONGO_UNESCO_DEC",
+      "title": "Decisão 41 COM 8B.35: Valongo Wharf Archaeological Site (Brazil)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/6907",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_VALONGO_UNB": {
+      "id": "SE_VALONGO_UNB",
+      "title": "As ruínas do cais: fragmentos da forma jurídica da escravidão no Brasil oitocentista (Semple, 2024)",
+      "publisher": "RED|UnB, Universidade de Brasília",
+      "url": "https://periodicos.unb.br/index.php/redunb/article/download/53882/41541/198628",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_VALONGO_PUBLICA": {
+      "id": "SE_VALONGO_PUBLICA",
+      "title": "O Porto Maravilha é negro",
+      "publisher": "Agência Pública",
+      "url": "https://apublica.org/2016/07/o-porto-maravilha-e-negro/",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_VALONGO_UNESCO_LAVAGEM": {
+      "id": "SE_VALONGO_UNESCO_LAVAGEM",
+      "title": "Washing of the Valongo Wharf, Rio de Janeiro (Brazil)",
+      "publisher": "UNESCO World Heritage Centre (World Heritage Canopy)",
+      "url": "https://whc.unesco.org/en/canopy/valongo",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/decisions/6907",
+      "https://whc.unesco.org/en/canopy/valongo",
+      "https://periodicos.unb.br/index.php/redunb/article/download/53882/41541/198628",
+      "https://apublica.org/2016/07/o-porto-maravilha-e-negro/"
+    ],
+    "alteracoes": [
+      "Fonte única do rascunho (página da UNESCO 1548) substituída por fontes abertas: decisão 41 COM 8B.35 e página Canopy da UNESCO, artigo da RED|UnB e Agência Pública",
+      "C1: cais de Lisboa, Porto, Recife, Salvador e Porto Alegre (fora do recorte e de outra natureza) trocados por 8 lugares de memória da presença africana no Sudeste; rótulo passa a \"Lugar de memória\"",
+      "C2: alternativas trocadas por usos portuários plausíveis; gabarito mantido (desembarque de africanos escravizados)",
+      "C3: \"Antiga área portuária do Rio de Janeiro\" trocado por Praça Jornal do Comércio, para não depender do nome da cidade",
+      "C4: alternativas implausíveis (paralelepípedos de concreto) trocadas; granito aparelhado entra como distrator por ser a camada de 1843",
+      "Acréscimos verificados: 900 mil africanos (UNESCO), rampa e degraus sobre a areia, 168 anos sob a terra, Pereira Passos, Teresa Cristina, Porto Maravilha 2011, Tania Andrade Lima, búzios e amuletos, lavagem com água consagrada com flores, circuito de 2012, lei 3.924/1961",
+      "viajante: 15 pistas reescritas ou trocadas; geografo: 22 reescritas ou trocadas; 2 aberturas e 2 decisivas por perfil; relatedFields apontam C2–C4 quando pertinente"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

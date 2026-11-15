@@ -1,0 +1,1061 @@
+{
+ "case": {
+  "id": "lug2-parque-itaunas",
+  "placeId": "parque-itaunas",
+  "title": "Parque Estadual de Itaúnas",
+  "aliases": [
+   "Parque de Itaúnas",
+   "Itaúnas"
+  ],
+  "answerType": "parque estadual",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sudeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Parque estadual",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Estadual de Itaúnas"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Estadual Paulo César Vinha"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Estadual da Pedra Azul"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Estadual de Forno Grande"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Estadual da Serra do Mar"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Estadual da Ilha do Cardoso"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Estadual de Vila Velha"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Estadual do Jalapão"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Estadual do Ibitipoca"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Estadual do Guartelá"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Estadual do Desengano"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Estadual do Rio Doce"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Parque Estadual Dunas de Natal"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Parque Estadual de Itapuã"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Estadual de Itaúnas",
+    "sources": [
+     "ITAUNAS_DECRETO",
+     "ITAUNAS_ESGOV"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Município que abriga o parque",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Conceição da Barra"
+     },
+     {
+      "id": "C2-O2",
+      "text": "São Mateus"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Linhares"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Anchieta"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Conceição da Barra",
+    "sources": [
+     "ITAUNAS_DECRETO",
+     "ITAUNAS_ESGOV",
+     "ITAUNAS_GAZETA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Fenômeno ligado à antiga vila da região",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Soterramento pelo avanço das dunas"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Deslizamentos em encostas íngremes"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Submersão por construção de reservatório"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Erosão costeira e recuo da linha de praia"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Soterramento pelo avanço das dunas",
+    "sources": [
+     "ITAUNAS_ESGOV",
+     "ITAUNAS_GAZETA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Ano de criação como parque estadual",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "1991"
+     },
+     {
+      "id": "C4-O2",
+      "text": "1986"
+     },
+     {
+      "id": "C4-O3",
+      "text": "2002"
+     },
+     {
+      "id": "C4-O4",
+      "text": "1974"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "1991",
+    "sources": [
+     "ITAUNAS_DECRETO",
+     "ITAUNAS_GAZETA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "parque-itaunas-viajante-P01",
+      "factKey": "parque-itaunas-F01",
+      "text": "É uma área protegida no litoral, com praias, dunas e mata de restinga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P02",
+      "factKey": "parque-itaunas-F02",
+      "text": "Além das dunas, a área protege rios, terrenos alagados, plantas e animais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P03",
+      "factKey": "parque-itaunas-F03",
+      "text": "É a unidade de conservação mais visitada do seu estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P04",
+      "factKey": "parque-itaunas-F04",
+      "text": "Mais de 100 mil turistas passam por ali a cada ano (dado de 2023).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P05",
+      "factKey": "parque-itaunas-F05",
+      "text": "A praia do parque tem mais de 25 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P06",
+      "factKey": "parque-itaunas-F06",
+      "text": "As dunas passam de 30 metros de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P07",
+      "factKey": "parque-itaunas-F07",
+      "text": "Uma antiga vila com cerca de 300 casas foi aos poucos coberta pela areia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P08",
+      "factKey": "parque-itaunas-F08",
+      "text": "A vila tinha duas ruas, duas padarias, correio e escola antes de sumir sob as dunas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P09",
+      "factKey": "parque-itaunas-F09",
+      "text": "A vila antiga ficava entre o mar e o rio, no caminho de um vento forte que vem do nordeste.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P10",
+      "factKey": "parque-itaunas-F10",
+      "text": "As últimas famílias saíram da vila antiga entre o fim dos anos 1960 e o começo dos anos 1970.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P11",
+      "factKey": "parque-itaunas-F11",
+      "text": "Às vezes ainda aparece na areia parte do mastro da antiga igreja.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P12",
+      "factKey": "parque-itaunas-F12",
+      "text": "A igreja de São Sebastião foi reconstruída na vila nova.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P13",
+      "factKey": "parque-itaunas-F13",
+      "text": "A vila nova, a cerca de 1 km da antiga, virou sede de distrito.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P14",
+      "factKey": "parque-itaunas-F14",
+      "text": "A explicação oficial para o soterramento é o desmatamento da restinga, que segurava a areia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P15",
+      "factKey": "parque-itaunas-F15",
+      "text": "Antigos moradores contestam essa versão, e há até a lenda de uma praga de padre.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P16",
+      "factKey": "parque-itaunas-F16",
+      "text": "Na maré baixa, rochas escuras de arenito aparecem na praia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P17",
+      "factKey": "parque-itaunas-F17",
+      "text": "Tartarugas marinhas são acompanhadas por um projeto de conservação na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P18",
+      "factKey": "parque-itaunas-F18",
+      "text": "O parque começa na divisa com a Bahia, na foz de um riacho.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P19",
+      "factKey": "parque-itaunas-F19",
+      "text": "Uma trilha de longo curso do parque faz parte da Rede Brasileira de Trilhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P20",
+      "factKey": "parque-itaunas-F20",
+      "text": "Em julho, a vila ao lado do parque recebe um festival nacional de forró.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P21",
+      "factKey": "parque-itaunas-F21",
+      "text": "Em janeiro, a festa de São Sebastião e São Benedito reúne Ticumbi, Alardo, Jongo e Reis de Bois.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P22",
+      "factKey": "parque-itaunas-F22",
+      "text": "O parque fica no litoral norte do Espírito Santo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P23",
+      "factKey": "parque-itaunas-F23",
+      "text": "O parque fica no município de Conceição da Barra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_ESGOV",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P24",
+      "factKey": "parque-itaunas-F24",
+      "text": "O parque estadual foi criado em novembro de 1991.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-viajante-P25",
+      "factKey": "parque-itaunas-F25",
+      "text": "O nome do lugar vem do tupi e junta as palavras para \"pedra\" e \"preta\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "parque-itaunas-geografo-P01",
+      "factKey": "parque-itaunas-F01",
+      "text": "Unidade de conservação estadual costeira, criada para proteger dunas, rios, áreas úmidas, flora e fauna.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P02",
+      "factKey": "parque-itaunas-F02",
+      "text": "O mosaico litorâneo combina praias, campos de dunas e floresta de restinga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P03",
+      "factKey": "parque-itaunas-F03",
+      "text": "A antiga vila ocupava a faixa entre o mar e o rio, na rota do forte vento nordeste.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P04",
+      "factKey": "parque-itaunas-F04",
+      "text": "A versão oficial liga o soterramento ao desmatamento da restinga, vegetação que estabiliza as areias.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P05",
+      "factKey": "parque-itaunas-F05",
+      "text": "Outras hipóteses citam a abertura de áreas para lavouras anuais e o corte de árvores para lenha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P06",
+      "factKey": "parque-itaunas-F06",
+      "text": "Medições indicam deslocamento das areias de cerca de 5 metros por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P07",
+      "factKey": "parque-itaunas-F07",
+      "text": "Por volta de 2012, o órgão ambiental estadual replantou espécies nativas nas dunas para evitar novo soterramento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P08",
+      "factKey": "parque-itaunas-F08",
+      "text": "O governo comprou uma propriedade rural na margem sul do rio para reassentar a população, e a vila nova surgiu em 1958.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P09",
+      "factKey": "parque-itaunas-F09",
+      "text": "O abandono foi gradual: o último registro de saída de família da vila antiga é de 1972.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P10",
+      "factKey": "parque-itaunas-F10",
+      "text": "A igreja foi a segunda construção alcançada pela areia; parte de seu mastro ainda reaparece às vezes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P11",
+      "factKey": "parque-itaunas-F11",
+      "text": "O tombamento das dunas como monumento natural, iniciado em 1984 e oficializado em 1986, antecedeu o parque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P12",
+      "factKey": "parque-itaunas-F12",
+      "text": "O parque foi criado pelo Decreto estadual nº 4.967-E, de 8 de novembro de 1991.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P13",
+      "factKey": "parque-itaunas-F13",
+      "text": "O decreto de criação fixou uma área aproximada de 3.150 hectares.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P14",
+      "factKey": "parque-itaunas-F14",
+      "text": "O perímetro parte da divisa com a Bahia, na foz do Riacho Doce, e segue pela praia até a foz original do rio principal.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P15",
+      "factKey": "parque-itaunas-F15",
+      "text": "Os limites acompanham bordas de mangue, o traçado de uma antiga ferrovia e o rio Angelim.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P16",
+      "factKey": "parque-itaunas-F16",
+      "text": "O decreto prevê uso educativo, recreativo e científico, incluindo um projeto de tartarugas marinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P17",
+      "factKey": "parque-itaunas-F17",
+      "text": "O trabalho do Projeto Tamar com tartarugas marinhas na região começou no fim do século XX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P18",
+      "factKey": "parque-itaunas-F18",
+      "text": "A demanda turística é alta: mais de 100 mil visitantes por ano, a maior entre as unidades do estado (2023).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P19",
+      "factKey": "parque-itaunas-F19",
+      "text": "A trilha de longo curso do parque integra a Rede Brasileira de Trilhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P20",
+      "factKey": "parque-itaunas-F20",
+      "text": "Festejos de janeiro com Ticumbi, Alardo, Jongo e Reis de Bois mostram a herança cultural da comunidade do entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P21",
+      "factKey": "parque-itaunas-F21",
+      "text": "O calendário turístico da vila inclui um festival nacional de forró em julho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_ESGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P22",
+      "factKey": "parque-itaunas-F22",
+      "text": "A unidade ocupa o extremo norte do litoral capixaba, junto à divisa estadual.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P23",
+      "factKey": "parque-itaunas-F23",
+      "text": "Conceição da Barra é o município que abriga a unidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITAUNAS_DECRETO",
+       "ITAUNAS_ESGOV",
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P24",
+      "factKey": "parque-itaunas-F24",
+      "text": "O nome tupi, de \"pedra\" e \"preta\", é explicado pelas águas escuras do rio ou pelo arenito escuro exposto na maré baixa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itaunas-geografo-P25",
+      "factKey": "parque-itaunas-F25",
+      "text": "As dunas superam 30 metros de altura, e a faixa de praia protegida passa de 25 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITAUNAS_GAZETA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Parque estadual criado em 1991 em Conceição da Barra, no extremo norte do litoral do Espírito Santo, junto à divisa com a Bahia; protege dunas de mais de 30 m, praias, restinga, mangue e áreas alagadas, e guarda a memória da antiga vila soterrada pela areia, substituída pela vila nova na outra margem do rio.",
+   "editorialNotes": [
+    "A área varia entre fontes: o decreto de 1991 fixa cerca de 3.150 ha; A Gazeta (2022) fala em quase 3.500 ha. As pistas usam o número do decreto.",
+    "A causa do soterramento é discutida: a explicação oficial é o desmatamento da restinga, mas ex-moradores contestam; as pistas apresentam as duas versões.",
+    "A página do Iema e o plano de manejo do rascunho não foram abertos; por isso saíram as pistas sobre floresta de tabuleiro, Augusto Ruschi, Trilha do Tamandaré e sítios arqueológicos."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes do rascunho (página do Iema e plano de manejo) não abertas; trocadas pelo decreto de criação de 1991, notícia do governo do ES (2023) e reportagem de A Gazeta (2022); C1 ampliado com parques de dunas; 50 pistas conferidas"
+  }
+ },
+ "sources": {
+  "ITAUNAS_DECRETO": {
+   "id": "ITAUNAS_DECRETO",
+   "checkedAt": "2026-11-15",
+   "title": "Decreto nº 4.967-E, de 8 de novembro de 1991: cria o Parque Estadual de Itaúnas",
+   "publisher": "Governo do Estado do Espírito Santo (cópia no acervo de documentação do Instituto Socioambiental)",
+   "url": "https://documentacao.socioambiental.org/ato_normativo/UC/4584_20200511_075939.pdf"
+  },
+  "ITAUNAS_ESGOV": {
+   "id": "ITAUNAS_ESGOV",
+   "checkedAt": "2026-11-15",
+   "title": "Iema apresenta o Parque Estadual de Itaúnas no Salão Nacional do Turismo",
+   "publisher": "Governo do Estado do Espírito Santo (21/12/2023)",
+   "url": "https://www.es.gov.br/Noticia/iema-apresenta-o-parque-estadual-de-itaunas-no-salao-nacional-do-turismo"
+  },
+  "ITAUNAS_GAZETA": {
+   "id": "ITAUNAS_GAZETA",
+   "checkedAt": "2026-11-15",
+   "title": "Itaúnas: a curiosa história da vila que foi soterrada por areia no ES",
+   "publisher": "A Gazeta — Capixapédia (20/07/2022)",
+   "url": "https://www.agazeta.com.br/capixapedia/itaunas-a-curiosa-historia-da-vila-que-foi-soterrada-por-areia-no-es-0722"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://documentacao.socioambiental.org/ato_normativo/UC/4584_20200511_075939.pdf",
+   "https://www.es.gov.br/Noticia/iema-apresenta-o-parque-estadual-de-itaunas-no-salao-nacional-do-turismo",
+   "https://www.agazeta.com.br/capixapedia/itaunas-a-curiosa-historia-da-vila-que-foi-soterrada-por-areia-no-es-0722"
+  ],
+  "alteracoes": [
+   "Fontes SE_ITAUNAS_IEMA e SE_ITAUNAS_PLANO não abertas (URLs só do rascunho); substituídas por ITAUNAS_DECRETO (Decreto 4.967-E/1991), ITAUNAS_ESGOV (governo do ES, 2023) e ITAUNAS_GAZETA (A Gazeta, 2022)",
+   "C1: incluídos Parque Estadual Dunas de Natal e Parque Estadual de Itapuã como distratores de ambiente costeiro/dunas (14 alternativas)",
+   "retiradas por falta de apoio nas fontes abertas: floresta de tabuleiro, proposta de Augusto Ruschi nos anos 1940, Trilha do Tamandaré, sítios arqueológicos e manguezais como formação (o decreto cita apenas bordas de mangue como limite)",
+   "viajante/geografo P15 (tombamento de 1986) mantidas com detalhe do processo iniciado em 1984; criação em 8/11/1991 conferida no decreto",
+   "novas pistas verificadas: vila antiga (300 casas, vento nordeste, saída até 1972, mastro da igreja), vila nova de 1958 na margem sul, 5 m/ano de deslocamento da areia, replantio do Iema (~2012), Projeto Tamar, perímetro a partir do Riacho Doce, Rede Brasileira de Trilhas, festejos de janeiro e festival de forró, origem tupi do nome",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

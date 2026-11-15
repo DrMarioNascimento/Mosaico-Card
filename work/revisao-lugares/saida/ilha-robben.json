@@ -1,0 +1,1075 @@
+{
+ "case": {
+  "id": "lug2-ilha-robben",
+  "placeId": "ilha-robben",
+  "title": "Ilha Robben",
+  "aliases": [
+   "Robben"
+  ],
+  "answerType": "ilha e sítio histórico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "ZA"
+   ],
+   "continents": [
+    "africa"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha histórica africana",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Robben"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha de Gorée"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha de Moçambique"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Kunta Kinteh"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha de Saint-Louis"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha de Zanzibar"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha de Santiago, em Cabo Verde"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha de São Tomé"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha de Lamu"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha de Kilwa Kisiwani"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha de Bioko"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha de Djerba"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Ilha Robben",
+    "sources": [
+     "ROBBEN_EB",
+     "ROBBEN_PR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Baía onde fica a ilha",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Baía da Mesa"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Baía Falsa"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Baía de Algoa"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Baía de Walvis"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Baía da Mesa",
+    "sources": [
+     "ROBBEN_EB",
+     "ROBBEN_RIM"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Uso da ilha de meados dos anos 1960 a 1991",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Prisão de segurança máxima"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Colônia de leprosos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Quarentena de imigrantes"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Campo de refugiados"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Prisão de segurança máxima",
+    "sources": [
+     "ROBBEN_EB",
+     "ROBBEN_PR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "País",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "África do Sul"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Namíbia"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Moçambique"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Senegal"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "África do Sul",
+    "sources": [
+     "ROBBEN_EB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "ilha-robben-viajante-P01",
+      "factKey": "ilha-robben-F01",
+      "text": "Este destino é uma ilha perto de uma grande cidade costeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P02",
+      "factKey": "ilha-robben-F02",
+      "text": "As águas em volta já tiveram muitas focas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P03",
+      "factKey": "ilha-robben-F03",
+      "text": "Fica na África do Sul.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P04",
+      "factKey": "ilha-robben-F04",
+      "text": "A ilha está na Baía da Mesa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ROBBEN_EB",
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P05",
+      "factKey": "ilha-robben-F05",
+      "text": "Fica a cerca de 10 km ao norte da Cidade do Cabo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P06",
+      "factKey": "ilha-robben-F06",
+      "text": "A travessia de barco até lá leva uns 40 minutos.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P07",
+      "factKey": "ilha-robben-F07",
+      "text": "A ilha tem cerca de 13 km² de área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P08",
+      "factKey": "ilha-robben-F08",
+      "text": "Navios costumavam fazer parada ali nos séculos XVI e XVII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P09",
+      "factKey": "ilha-robben-F09",
+      "text": "Holandeses e, depois, britânicos usaram a ilha como colônia penal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P10",
+      "factKey": "ilha-robben-F10",
+      "text": "De 1846 a 1931, a ilha abrigou uma colônia de leprosos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P11",
+      "factKey": "ilha-robben-F11",
+      "text": "Um farol foi instalado ali em 1864.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P12",
+      "factKey": "ilha-robben-F12",
+      "text": "Fortificações foram construídas durante a Segunda Guerra Mundial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P13",
+      "factKey": "ilha-robben-F13",
+      "text": "Há pedreiras na ilha desde o século XVII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P14",
+      "factKey": "ilha-robben-F14",
+      "text": "Do meio dos anos 1960 até 1991, funcionou ali uma prisão de segurança máxima.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P15",
+      "factKey": "ilha-robben-F15",
+      "text": "A maioria dos presos era de homens negros condenados por motivos políticos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P16",
+      "factKey": "ilha-robben-F16",
+      "text": "Mais de 3 mil presos políticos passaram pela ilha.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P17",
+      "factKey": "ilha-robben-F17",
+      "text": "Nelson Mandela passou ali 18 dos seus 27 anos de prisão.",
+      "relatedFields": [
+       "C1",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_RIM",
+       "ROBBEN_NMF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P18",
+      "factKey": "ilha-robben-F18",
+      "text": "A cela onde ele ficou mede uns 2 por 2 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P19",
+      "factKey": "ilha-robben-F19",
+      "text": "Os presos eram obrigados a quebrar pedras numa pedreira de cal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_RIM",
+       "ROBBEN_NMF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P20",
+      "factKey": "ilha-robben-F20",
+      "text": "O brilho da pedra branca deixou presos com lesões permanentes nos olhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P21",
+      "factKey": "ilha-robben-F21",
+      "text": "Os últimos presos políticos foram soltos em 1991.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P22",
+      "factKey": "ilha-robben-F22",
+      "text": "Até 1996, a ilha ainda foi prisão de média segurança para presos comuns.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P23",
+      "factKey": "ilha-robben-F23",
+      "text": "As visitas guiadas são conduzidas por ex-presos, segundo o museu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P24",
+      "factKey": "ilha-robben-F24",
+      "text": "Desde 1997, a ilha funciona como museu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-viajante-P25",
+      "factKey": "ilha-robben-F25",
+      "text": "A UNESCO reconheceu a ilha como Patrimônio Mundial em 1999.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "ilha-robben-geografo-P01",
+      "factKey": "ilha-robben-F26",
+      "text": "Entre os séculos XVII e XX, a ilha serviu de prisão, hospital para grupos considerados socialmente indesejáveis e base militar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P02",
+      "factKey": "ilha-robben-F27",
+      "text": "A ilha fica numa baía, a cerca de 8 km do continente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P03",
+      "factKey": "ilha-robben-F05",
+      "text": "Situa-se na Baía da Mesa, cerca de 10 km ao norte da Cidade do Cabo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P04",
+      "factKey": "ilha-robben-F03",
+      "text": "Integra a província do Cabo Ocidental, na África do Sul.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P05",
+      "factKey": "ilha-robben-F02",
+      "text": "O nome, de origem holandesa, significa 'focas', animais antes abundantes nas águas vizinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P06",
+      "factKey": "ilha-robben-F08",
+      "text": "Nos séculos XVI e XVII, a ilha era escala frequente de navios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P07",
+      "factKey": "ilha-robben-F09",
+      "text": "Foi colônia penal sob domínio holandês e, depois, britânico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P08",
+      "factKey": "ilha-robben-F10",
+      "text": "Uma colônia de leprosos funcionou de 1846 a 1931; dela restou a igreja dos leprosos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB",
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P09",
+      "factKey": "ilha-robben-F28",
+      "text": "Pessoas tidas como insanas também foram mandadas para lá, outro uso do isolamento insular.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P10",
+      "factKey": "ilha-robben-F29",
+      "text": "O túmulo de Hadije Kramat, que morreu em 1755, está entre os testemunhos históricos da ilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P11",
+      "factKey": "ilha-robben-F30",
+      "text": "Edifícios administrativos do século XIX formam uma 'vila' com capela e casa paroquial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P12",
+      "factKey": "ilha-robben-F11",
+      "text": "Um pequeno farol, instalado em 1864, integra o conjunto ligado à navegação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR",
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P13",
+      "factKey": "ilha-robben-F12",
+      "text": "Estruturas militares abandonadas da Segunda Guerra cercam o porto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P14",
+      "factKey": "ilha-robben-F14",
+      "text": "Do meio dos anos 1960 a 1991, a prisão de segurança máxima concentrou presos políticos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB",
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P15",
+      "factKey": "ilha-robben-F31",
+      "text": "O apartheid, segregação racial imposta de 1948 a 1994, explica o perfil político e racial dos presos.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_RIM",
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P16",
+      "factKey": "ilha-robben-F17",
+      "text": "Nelson Mandela cumpriu ali 18 de seus 27 anos de prisão, até ser transferido para Pollsmoor em 1982.",
+      "relatedFields": [
+       "C1",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ROBBEN_RIM",
+       "ROBBEN_NMF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P17",
+      "factKey": "ilha-robben-F32",
+      "text": "Na Seção B, presos políticos ficavam em celas individuais para evitar conversas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P18",
+      "factKey": "ilha-robben-F19",
+      "text": "O trabalho forçado na pedreira de cal expôs os presos ao brilho da rocha branca e a lesões nos olhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_RIM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P19",
+      "factKey": "ilha-robben-F21",
+      "text": "Com a libertação dos últimos presos políticos em 1991, a prisão recebeu presos comuns até 1996.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P20",
+      "factKey": "ilha-robben-F24",
+      "text": "Monumento nacional desde 1996, segundo a UNESCO, a ilha virou museu em 1997.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR",
+       "ROBBEN_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P21",
+      "factKey": "ilha-robben-F25",
+      "text": "Inscrita em 1999, simboliza o triunfo da liberdade e da democracia sobre a opressão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_EB",
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P22",
+      "factKey": "ilha-robben-F33",
+      "text": "Com mais de 700 edifícios e sítios inventariados, estruturas desocupadas tendem a se deteriorar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P23",
+      "factKey": "ilha-robben-F34",
+      "text": "Ventos extremos, secas e ondulações mais fortes, ligados à mudança do clima, causam inundação e erosão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P24",
+      "factKey": "ilha-robben-F35",
+      "text": "Uma zona de amortecimento marinha de uma milha náutica cerca a ilha, e nela a mineração é proibida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-robben-geografo-P25",
+      "factKey": "ilha-robben-F36",
+      "text": "Pesca ilegal de recursos marinhos e o aumento de visitantes pressionam o patrimônio natural e construído.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROBBEN_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ilha de cerca de 13 km² na Baía da Mesa, a uns 10 km da Cidade do Cabo, usada do século XVII ao XX como prisão, colônia de leprosos e base militar e, de meados dos anos 1960 a 1991, como prisão de segurança máxima para presos políticos do apartheid, onde Nelson Mandela passou 18 de seus 27 anos de prisão; museu desde 1997 e Patrimônio Mundial desde 1999.",
+   "editorialNotes": [
+    "A UNESCO data a declaração de monumento nacional em 1996; a Britannica, em 1997. A pista atribui 1996 à UNESCO.",
+    "Distância: a Britannica dá cerca de 10 km da Cidade do Cabo (8 km do continente) e o museu fala em 9 km. Mandela teve breve passagem pela ilha em 1963 (Fundação Nelson Mandela); os 18 anos contam de 1964 a 1982.",
+    "O isivivane de 1995 e o uso do calcário nas estradas saíram das pistas: as páginas do museu e do governo citadas no rascunho não puderam ser abertas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico da UNESCO, na Britannica e em páginas do Robben Island Museum e da Fundação Nelson Mandela; C1–C3 refeitos para não entregar a resposta e redação factual sobre o apartheid."
+  }
+ },
+ "sources": {
+  "ROBBEN_PR": {
+   "id": "ROBBEN_PR",
+   "title": "Robben Island — Periodic Report (Section II)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217465",
+   "checkedAt": "2026-11-15"
+  },
+  "ROBBEN_EB": {
+   "id": "ROBBEN_EB",
+   "title": "Robben Island",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Robben-Island",
+   "checkedAt": "2026-11-15"
+  },
+  "ROBBEN_RIM": {
+   "id": "ROBBEN_RIM",
+   "title": "Robben Island Prison Tour",
+   "publisher": "Robben Island Museum (Google Arts & Culture)",
+   "url": "https://artsandculture.google.com/story/WQUhm-e6wopSJw",
+   "checkedAt": "2026-11-15"
+  },
+  "ROBBEN_NMF": {
+   "id": "ROBBEN_NMF",
+   "title": "In his own words: Nelson Mandela's prison years",
+   "publisher": "Nelson Mandela Foundation (Google Arts & Culture)",
+   "url": "https://artsandculture.google.com/story/in-his-own-words-nelson-mandela-s-prison-years/IwWB0EVYSJpvJg",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/217465",
+   "https://www.britannica.com/place/Robben-Island",
+   "https://artsandculture.google.com/story/WQUhm-e6wopSJw",
+   "https://artsandculture.google.com/story/in-his-own-words-nelson-mandela-s-prison-years/IwWB0EVYSJpvJg"
+  ],
+  "alteracoes": [
+   "Fontes ROBBEN_UNESCO, ROBBEN_QUARRY, ROBBEN_GOV e ROBBEN_MUSEUM substituídas (não puderam ser abertas): entraram o relatório periódico da UNESCO (ROBBEN_PR), a Britannica (ROBBEN_EB), o Robben Island Museum (ROBBEN_RIM) e a Fundação Nelson Mandela (ROBBEN_NMF); cada pista agora cita só a fonte que a sustenta.",
+   "C1: Ilha do Sal, Ilha do Príncipe, Ilha de Madagascar, Ilha da Madeira, Alcatraz e Ellis (fora do recorte ou não comparáveis) trocadas por ilhas históricas africanas (Kunta Kinteh, Saint-Louis, Lamu, Kilwa Kisiwani, Bioko, Djerba).",
+   "C2 'Figura histórica presa na ilha' (o nome de Mandela entregava o C1) trocado por 'Baía onde fica a ilha'; C3 'Uso durante o apartheid' (o rótulo entregava o C1) trocado por 'Uso de meados dos anos 1960 a 1991', com distratores sem ambiguidade; C4: Gana trocado por Namíbia.",
+   "viajante P04 (província) trocada pela Baía da Mesa; P06–P09 e P11 reescritas com datas (colônia penal, leprosos 1846–1931, farol 1864); P16, P18–P23 e P25 trocadas (3 mil presos, cela, pedreira de cal, lesões oculares, 1991, média segurança até 1996, guias ex-presos, museu 1997); saíram o isivivane de 1995 e o calcário nas estradas (sem fonte aberta).",
+   "geografo: P07 reescrita (grupos considerados socialmente indesejáveis); P15 ganhou datas de 1964 a 1982 e Pollsmoor; P20–P21 trocadas (pistas sem fonte aberta) por Seção B e pedreira; P23 com a divergência 1996/1997 atribuída; novas: túmulo de Hadije Kramat, mais de 700 edifícios, clima, zona marinha, pesca ilegal.",
+   "viajante: 21 de 25 pistas reescritas ou trocadas; geografo: 25 de 25; aberturas P01–P02 e decisiva P17 (viajante) e P16 (geografo); factKeys realinhados entre perfis; relatedFields ampliados."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

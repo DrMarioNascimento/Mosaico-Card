@@ -1,0 +1,1062 @@
+{
+  "case": {
+    "id": "lug2-santa-maria-rs",
+    "placeId": "santa-maria-rs",
+    "title": "Santa Maria",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Santa Maria"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pelotas"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Caxias do Sul"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Passo Fundo"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Porto Alegre"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Bagé"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Uruguaiana"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Santa Cruz do Sul"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Canoas"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cachoeira do Sul"
+          },
+          {
+            "id": "C1-O12",
+            "text": "São Leopoldo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Santa Maria",
+        "sources": [
+          "SULSM_CB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Estilo dos prédios da avenida que liga a antiga estação ao centro",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Art Déco"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Enxaimel"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Barroco colonial"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Neogótico"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Art Déco",
+        "sources": [
+          "SULSM_CB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Conjunto ferroviário preservado na cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Gare e Vila Belga"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Estação da Luz e galpões ferroviários"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Estação de Paranapiacaba e vila ferroviária"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Estação de São João del-Rei e oficinas ferroviárias"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Gare e Vila Belga",
+        "sources": [
+          "SULSM_CB",
+          "SULSM_JC",
+          "SULSM_IPAT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano de criação da universidade federal local, a primeira fora de uma capital",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1960"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1934"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1946"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1969"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1960",
+        "sources": [
+          "SULSM_CB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "santa-maria-rs-viajante-P01",
+            "factKey": "santa-maria-rs-viajante-F01",
+            "text": "É uma cidade do interior do Sul do Brasil, cercada por morros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P02",
+            "factKey": "santa-maria-rs-viajante-F02",
+            "text": "No inverno faz frio de verdade, com geadas frequentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P03",
+            "factKey": "santa-maria-rs-viajante-F03",
+            "text": "Fica no centro do estado, a cerca de 290 km da capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P04",
+            "factKey": "santa-maria-rs-viajante-F04",
+            "text": "A chegada do trem, nos anos 1880, mudou a história da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB",
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P05",
+            "factKey": "santa-maria-rs-viajante-F05",
+            "text": "Virou um dos principais entroncamentos ferroviários do Sul do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB",
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P06",
+            "factKey": "santa-maria-rs-viajante-F06",
+            "text": "A antiga estação, conhecida como Gare, fica no fim de uma avenida central.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT",
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P07",
+            "factKey": "santa-maria-rs-viajante-F07",
+            "text": "A estação tem um prédio central de dois pavimentos, com portas e janelas de detalhes neoclássicos.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P08",
+            "factKey": "santa-maria-rs-viajante-F08",
+            "text": "A plataforma de embarque tem cobertura de ferro com enfeites art nouveau.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P09",
+            "factKey": "santa-maria-rs-viajante-F09",
+            "text": "Hoje o prédio da estação abriga um ateliê de artistas e a secretaria municipal de cultura.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P10",
+            "factKey": "santa-maria-rs-viajante-F10",
+            "text": "Os trens de passageiros deixaram de circular por ali em 1996.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P11",
+            "factKey": "santa-maria-rs-viajante-F11",
+            "text": "Uma vila de 84 casas geminadas foi construída para os ferroviários.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_CB",
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P12",
+            "factKey": "santa-maria-rs-viajante-F12",
+            "text": "Essas casas foram projetadas por um engenheiro belga no começo do século XX.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P13",
+            "factKey": "santa-maria-rs-viajante-F13",
+            "text": "Na vila dos ferroviários há feira de antiguidades e restaurantes em casas restauradas.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P14",
+            "factKey": "santa-maria-rs-viajante-F14",
+            "text": "A avenida entre a estação e o centro tem um dos maiores conjuntos contínuos de prédios Art Déco da América Latina.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P15",
+            "factKey": "santa-maria-rs-viajante-F15",
+            "text": "A catedral, nessa mesma avenida, tem afrescos de Aldo Locatelli.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P16",
+            "factKey": "santa-maria-rs-viajante-F16",
+            "text": "A cidade sedia a primeira universidade federal instalada fora de uma capital brasileira.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P17",
+            "factKey": "santa-maria-rs-viajante-F17",
+            "text": "O campus da universidade fica no bairro Camobi e ocupa mais de 1.800 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P18",
+            "factKey": "santa-maria-rs-viajante-F18",
+            "text": "A universidade tem um planetário de 1971, nascido de um esboço de Oscar Niemeyer.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P19",
+            "factKey": "santa-maria-rs-viajante-F19",
+            "text": "No inverno há um festival da universidade, e na primavera uma grande romaria religiosa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P20",
+            "factKey": "santa-maria-rs-viajante-F20",
+            "text": "É conhecida pelo apelido de \"Coração do Rio Grande\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P21",
+            "factKey": "santa-maria-rs-viajante-F21",
+            "text": "Uma praça central tem coreto, chafariz e programação cultural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P22",
+            "factKey": "santa-maria-rs-viajante-F22",
+            "text": "Na zona rural há cachoeiras, trilhas e produtores de queijos, embutidos e vinhos artesanais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P23",
+            "factKey": "santa-maria-rs-viajante-F23",
+            "text": "A cidade tem uma base aérea.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P24",
+            "factKey": "santa-maria-rs-viajante-F24",
+            "text": "O hospital universitário atende uma região com mais de 1,3 milhão de pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-viajante-P25",
+            "factKey": "santa-maria-rs-viajante-F25",
+            "text": "Da capital, o principal acesso de carro é pela BR-287, em cerca de 4 horas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "santa-maria-rs-geografo-P01",
+            "factKey": "santa-maria-rs-geografo-F01",
+            "text": "A posição no centro do território gaúcho ajuda a explicar o peso regional da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P02",
+            "factKey": "santa-maria-rs-geografo-F02",
+            "text": "Rodovias como a BR-287 e a BR-158 articulam o município a diferentes partes do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P03",
+            "factKey": "santa-maria-rs-geografo-F03",
+            "text": "A estação foi inaugurada em 1885 pela Estrada de Ferro Porto Alegre–Uruguaiana, em terreno doado por Ernesto Beck.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P04",
+            "factKey": "santa-maria-rs-geografo-F04",
+            "text": "Nos 20 anos seguintes à chegada da ferrovia, a população quintuplicou.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P05",
+            "factKey": "santa-maria-rs-geografo-F05",
+            "text": "Entre 1910 e 1950, a estação viveu seu apogeu como maior entroncamento ferroviário do centro do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P06",
+            "factKey": "santa-maria-rs-geografo-F06",
+            "text": "No início dos anos 1920, a linha até Itararé passou a ligar a cidade a São Paulo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P07",
+            "factKey": "santa-maria-rs-geografo-F07",
+            "text": "Em 1898, uma empresa belga que assumiu a malha ferroviária gaúcha escolheu a cidade para sua diretoria.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P08",
+            "factKey": "santa-maria-rs-geografo-F08",
+            "text": "A empresa comprou em 1905 o terreno da estação e das casas dos empregados; as primeiras casas foram entregues em 1907.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P09",
+            "factKey": "santa-maria-rs-geografo-F09",
+            "text": "O crescimento urbano se voltou para a estação, e a avenida de ligação virou eixo principal, com cerca de 14 hotéis no entorno.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P10",
+            "factKey": "santa-maria-rs-geografo-F10",
+            "text": "A vila operária abrigava sobretudo funcionários de nível médio, como telegrafistas, técnicos e chefes de seção.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P11",
+            "factKey": "santa-maria-rs-geografo-F11",
+            "text": "Uma cooperativa de consumo dos ferroviários, criada em 1913, mantinha escolas, ambulatório e oficinas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P12",
+            "factKey": "santa-maria-rs-geografo-F12",
+            "text": "A troca dos investimentos ferroviários pelas rodovias, na segunda metade do século XX, esvaziou a área da estação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P13",
+            "factKey": "santa-maria-rs-geografo-F13",
+            "text": "Com o fim dos trens de passageiros (1996) e a privatização da rede (1997), o prédio da estação passou ao uso da prefeitura.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P14",
+            "factKey": "santa-maria-rs-geografo-F14",
+            "text": "Abandono e incêndios marcaram a estação nos anos 1990, até a restauração municipal de 2007.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P15",
+            "factKey": "santa-maria-rs-geografo-F15",
+            "text": "A estação é tombada nos níveis municipal e estadual (2002).",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_IPAT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P16",
+            "factKey": "santa-maria-rs-geografo-F16",
+            "text": "O órgão estadual de patrimônio descreve a vila ferroviária como testemunho excepcional da \"era do carvão e do ferro\".",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_JC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P17",
+            "factKey": "santa-maria-rs-geografo-F17",
+            "text": "O conjunto de 84 casas geminadas, erguido entre 1903 e 1907, recebeu em 2017 um prêmio belga de patrimônio no exterior.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P18",
+            "factKey": "santa-maria-rs-geografo-F18",
+            "text": "O eixo Art Déco entre a estação e o centro está entre os maiores conjuntos contínuos do estilo na América Latina.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P19",
+            "factKey": "santa-maria-rs-geografo-F19",
+            "text": "Em 1960, a cidade recebeu a primeira universidade federal instalada fora de uma capital do país.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P20",
+            "factKey": "santa-maria-rs-geografo-F20",
+            "text": "O campus universitário, com mais de 1.800 hectares e 89 cursos de graduação, fica no bairro Camobi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P21",
+            "factKey": "santa-maria-rs-geografo-F21",
+            "text": "O hospital universitário é referência em alta complexidade para uma região de mais de 1,3 milhão de habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P22",
+            "factKey": "santa-maria-rs-geografo-F22",
+            "text": "Com cerca de 282 mil habitantes estimados em 2025, é a quinta cidade mais populosa do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P23",
+            "factKey": "santa-maria-rs-geografo-F23",
+            "text": "O IDH de 0,784, segundo o IBGE, fica acima da média estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P24",
+            "factKey": "santa-maria-rs-geografo-F24",
+            "text": "O apelido \"Coração do Rio Grande\" traduz a posição estratégica e a importância regional da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "santa-maria-rs-geografo-P25",
+            "factKey": "santa-maria-rs-geografo-F25",
+            "text": "O planetário universitário, de 1971, é considerado o primeiro instalado numa cidade do interior do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULSM_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade do centro do Rio Grande do Sul, apelidada de Coração do Rio Grande, que virou um dos principais entroncamentos ferroviários do Sul a partir dos anos 1880; guarda a Gare, a Vila Belga e o eixo Art Déco da Avenida Rio Branco, e sedia a UFSM, de 1960, primeira universidade federal fora de uma capital.",
+      "editorialNotes": [
+        "Chegada da ferrovia: 1884 no Correio Braziliense; a prefeitura (texto reproduzido pelo iPatrimônio) dá 1885 para a inauguração da estação e cita 1900 para o prédio, segundo Antonio Isaia. O Viajante usa \"anos 1880\" e o Geógrafo, 1885 atribuído à prefeitura.",
+        "Vila Belga: construção entre 1903 e 1907 (Correio Braziliense); terreno comprado em 1905 e primeiras casas entregues em 1907 (Jornal do Comércio).",
+        "A população (cerca de 282 mil, estimativa de 2025) vem do Correio Braziliense; o IBGE Cidades não foi aberto. A Wikipedia da cidade foi bloqueada na sessão."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes do rascunho trocadas por Correio Braziliense, Jornal do Comércio e texto da prefeitura sobre a estação (iPatrimônio) abertos na revisão; C2 e C4 refeitos; pistas conferidas, datas divergentes anotadas"
+    }
+  },
+  "sources": {
+    "SULSM_CB": {
+      "title": "Onde nasceu a primeira universidade federal fora de uma capital: cidade preserva tesouro Art Déco único na América Latina",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/onde-nasceu-a-primeira-universidade-federal-fora-de-uma-capital-cidade-preserva-tesouro-art-deco-unico-na-america-latina/",
+      "checkedAt": "2026-11-15",
+      "id": "SULSM_CB"
+    },
+    "SULSM_JC": {
+      "title": "Vila Belga mantém viva a memória ferroviária em Santa Maria",
+      "publisher": "Jornal do Comércio",
+      "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/06/1251065-vila-belga-mantem-viva-a-memoria-ferroviaria-em-santa-maria.html",
+      "checkedAt": "2026-11-15",
+      "id": "SULSM_JC"
+    },
+    "SULSM_IPAT": {
+      "title": "Estação Férrea de Santa Maria (texto da Prefeitura Municipal)",
+      "publisher": "iPatrimônio",
+      "url": "https://www.ipatrimonio.org/wp-content/uploads/2018/01/ipatrimonio_Santa-Maria-Estação-ferroviária-Fonte-Prefeitura-Municipal.pdf",
+      "checkedAt": "2026-11-15",
+      "id": "SULSM_IPAT"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.correiobraziliense.com.br/cbradar/onde-nasceu-a-primeira-universidade-federal-fora-de-uma-capital-cidade-preserva-tesouro-art-deco-unico-na-america-latina/",
+      "https://www.jornaldocomercio.com/jornal-cidades/2026/06/1251065-vila-belga-mantem-viva-a-memoria-ferroviaria-em-santa-maria.html",
+      "https://www.ipatrimonio.org/wp-content/uploads/2018/01/ipatrimonio_Santa-Maria-Estação-ferroviária-Fonte-Prefeitura-Municipal.pdf"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (IBGE Cidades, notícia e página do museu da prefeitura, notícia do Iphan) não foram abertas; substituídas por 3 fontes abertas (Correio Braziliense, Jornal do Comércio, texto da prefeitura no iPatrimônio)",
+      "C2: \"Transporte associado à história\" (alternativas implausíveis, como metrô) trocado por estilo dos prédios da avenida da estação, gabarito Art Déco",
+      "C3: rótulo ajustado para \"Conjunto ferroviário preservado na cidade\"; gabarito e alternativas mantidos",
+      "C4: \"Estado brasileiro\" (dedutível porque todas as alternativas de C1 são gaúchas) trocado por ano de criação da universidade federal, gabarito 1960",
+      "Viajante: 23 pistas reescritas ou trocadas; retiradas as do Museu Gama d'Eça (fonte não aberta), Irmão Estanislau e Largo da Estação (sem apoio nas fontes abertas)",
+      "Geógrafo: 24 pistas reescritas ou trocadas; retiradas sem apoio: arroio Itaimbé, estação de 1895/1899, desativação em 1980, tombamento estadual de 2000 da estação e federal de 2014; tombamento passou a municipal e estadual (2002), segundo a prefeitura",
+      "População passou de \"Censo 2022, cerca de 272 mil\" (IBGE não aberto) para estimativa de 2025 citada pelo Correio Braziliense"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

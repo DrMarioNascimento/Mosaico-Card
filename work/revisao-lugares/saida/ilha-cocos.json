@@ -1,0 +1,1027 @@
+{
+  "case": {
+    "id": "lug2-ilha-cocos",
+    "placeId": "ilha-cocos",
+    "title": "Parque Nacional Ilha do Coco",
+    "aliases": [
+      "Ilha do Coco",
+      "Isla del Coco"
+    ],
+    "answerType": "parque nacional insular",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "CR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área protegida insular",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Ilha do Coco"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Galápagos"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Santuário de Fauna e Flora de Malpelo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Coiba"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Marinho de Fernando de Noronha"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Rapa Nui"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Baía de Loreto"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Revillagigedo"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Isla Contoy"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Marinho dos Abrolhos"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Islas Marietas"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Isla Isabel"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Ilha do Coco",
+        "sources": [
+          "COCOS_IUCN"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Costa Rica"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Panamá"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Colômbia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Equador"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Costa Rica",
+        "sources": [
+          "COCOS_IUCN"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Distância até a costa pacífica do país",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Cerca de 55 km"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Cerca de 550 km"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cerca de 1.500 km"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Cerca de 3.500 km"
+          }
+        ],
+        "answerId": "C3-O2",
+        "answerText": "Cerca de 550 km",
+        "sources": [
+          "COCOS_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Únicos habitantes da ilha",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Guarda-parques e funcionários do governo"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Pescadores artesanais"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Uma comunidade indígena"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Militares de uma base naval"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Guarda-parques e funcionários do governo",
+        "sources": [
+          "COCOS_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ilha-cocos-viajante-P01",
+            "factKey": "ilha-cocos-F01",
+            "text": "Este destino protege uma ilha no meio do oceano e o mar ao redor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P02",
+            "factKey": "ilha-cocos-F02",
+            "text": "Fica no oceano Pacífico, em águas tropicais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P03",
+            "factKey": "ilha-cocos-F03",
+            "text": "A ilha pertence à Costa Rica.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P04",
+            "factKey": "ilha-cocos-F04",
+            "text": "Fica a cerca de 550 km da costa do país.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P05",
+            "factKey": "ilha-cocos-F05",
+            "text": "Uma floresta tropical úmida e densa cobre a ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P06",
+            "factKey": "ilha-cocos-F06",
+            "text": "No ponto mais alto, a uns 500 metros, a mata vira floresta de neblina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P07",
+            "factKey": "ilha-cocos-F07",
+            "text": "Há rios, cachoeiras, baías e praias de areia e de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P08",
+            "factKey": "ilha-cocos-F08",
+            "text": "Falésias fazem parte do litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P09",
+            "factKey": "ilha-cocos-F09",
+            "text": "Pequenas rochas despontam do mar em volta da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P10",
+            "factKey": "ilha-cocos-F10",
+            "text": "Essas rochas servem de pouso e de local de ninho para aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P11",
+            "factKey": "ilha-cocos-F11",
+            "text": "Quase toda a área protegida é mar; a parte em terra é bem pequena.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P12",
+            "factKey": "ilha-cocos-F12",
+            "text": "O tubarão-martelo, ameaçado, é o símbolo do lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P13",
+            "factKey": "ilha-cocos-F13",
+            "text": "Raias-manta e golfinhos também aparecem por ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P14",
+            "factKey": "ilha-cocos-F14",
+            "text": "Atuns e outros peixes grandes de mar aberto frequentam a região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P15",
+            "factKey": "ilha-cocos-F15",
+            "text": "Tartarugas-verdes estão entre os animais marinhos do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P16",
+            "factKey": "ilha-cocos-F16",
+            "text": "Os recifes de coral do parque são os mais diversos e extensos do Pacífico oriental tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P17",
+            "factKey": "ilha-cocos-F17",
+            "text": "Três aves da ilha não existem em nenhum outro lugar do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P18",
+            "factKey": "ilha-cocos-F18",
+            "text": "Quase 30% das plantas da ilha são endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P19",
+            "factKey": "ilha-cocos-F19",
+            "text": "O mergulho é um dos passeios turísticos de maior destaque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P20",
+            "factKey": "ilha-cocos-F20",
+            "text": "Não há comunidade local: só guarda-parques e funcionários do governo moram na ilha.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P21",
+            "factKey": "ilha-cocos-F21",
+            "text": "Animais trazidos de fora, como veados, porcos, gatos e ratos, vivem na ilha; veados e cabras ajudam a desmatar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P22",
+            "factKey": "ilha-cocos-F22",
+            "text": "A pesca ilegal continua sendo uma ameaça séria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P23",
+            "factKey": "ilha-cocos-F23",
+            "text": "As áreas das baías Wafer e Chatham têm risco de deslizamentos de terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P24",
+            "factKey": "ilha-cocos-F24",
+            "text": "A mudança do clima é vista como uma ameaça importante para o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-viajante-P25",
+            "factKey": "ilha-cocos-F25",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1997.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ilha-cocos-geografo-P01",
+            "factKey": "ilha-cocos-F01",
+            "text": "A unidade combina ecossistemas terrestres insulares e um vasto setor marinho pelágico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P02",
+            "factKey": "ilha-cocos-F02",
+            "text": "Situa-se no Pacífico oriental tropical, longe do continente americano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P03",
+            "factKey": "ilha-cocos-F03",
+            "text": "Pertence à Costa Rica e fica a 550 km de sua costa pacífica.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P04",
+            "factKey": "ilha-cocos-F04",
+            "text": "É a única ilha do Pacífico oriental tropical com floresta tropical úmida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P05",
+            "factKey": "ilha-cocos-F05",
+            "text": "O gradiente de altitude leva da floresta úmida à floresta nebulosa perto dos 500 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P06",
+            "factKey": "ilha-cocos-F06",
+            "text": "Ser o primeiro ponto de contato com a Contracorrente Equatorial Norte faz da área um laboratório para estudar processos biológicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P07",
+            "factKey": "ilha-cocos-F07",
+            "text": "Funciona como centro de dispersão de larvas marinhas vindas de todo o Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P08",
+            "factKey": "ilha-cocos-F08",
+            "text": "É também um ponto importante de mistura de espécies pelágicas migratórias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P09",
+            "factKey": "ilha-cocos-F09",
+            "text": "A ilha se insere no contexto regional do Corredor Marinho do Pacífico Leste Tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P10",
+            "factKey": "ilha-cocos-F10",
+            "text": "Desde 2011, uma área marinha de manejo de montes submarinos, com 9.640 km², cerca o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P11",
+            "factKey": "ilha-cocos-F11",
+            "text": "O setor marinho tem 201.153 ha, contra cerca de 2.330 ha de terra firme.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P12",
+            "factKey": "ilha-cocos-F12",
+            "text": "Abriga os recifes de coral mais diversos e extensos de todo o Pacífico oriental tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P13",
+            "factKey": "ilha-cocos-F13",
+            "text": "Das 235 plantas vasculares conhecidas, 70 são endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P14",
+            "factKey": "ilha-cocos-F14",
+            "text": "Entre os vertebrados terrestres endêmicos estão três aves e dois répteis, um anolis e uma lagartixa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P15",
+            "factKey": "ilha-cocos-F15",
+            "text": "Grandes espécies pelágicas, como tubarões, raias, atuns e golfinhos, compõem a fauna marinha do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P16",
+            "factKey": "ilha-cocos-F16",
+            "text": "O monitoramento registrou quedas de 45% no tubarão-martelo e de 89% na raia-manta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P17",
+            "factKey": "ilha-cocos-F17",
+            "text": "A pesca ilegal, sobretudo com espinhéis (palangres), inclusive junto aos limites, ameaça a fauna marinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P18",
+            "factKey": "ilha-cocos-F18",
+            "text": "Como muitas espécies migram para além dos limites, sua conservação é complexa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P19",
+            "factKey": "ilha-cocos-F19",
+            "text": "Mamíferos introduzidos, como veado-de-cauda-branca e porco-selvagem, alteram a floresta; veados e cabras contribuem para o desmatamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P20",
+            "factKey": "ilha-cocos-F20",
+            "text": "Os deslizamentos de terra são uma ameaça potencial em parte da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P21",
+            "factKey": "ilha-cocos-F21",
+            "text": "No severo El Niño de 2015-2016, os corais locais sofreram pouco: não houve perda substancial de cobertura viva.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P22",
+            "factKey": "ilha-cocos-F22",
+            "text": "O mergulho domina o turismo: 70% dos visitantes chegaram por operadoras de mergulho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P23",
+            "factKey": "ilha-cocos-F23",
+            "text": "A gestão cabe a uma área de conservação marinha do sistema nacional costarriquenho (SINAC).",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P24",
+            "factKey": "ilha-cocos-F24",
+            "text": "Sem comunidade local, a ilha recebe apenas visitas ocasionais de pesquisadores e voluntários.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-cocos-geografo-P25",
+            "factKey": "ilha-cocos-F25",
+            "text": "Inscrito em 1997 pelos critérios de processos ecológicos e de biodiversidade, o bem tem perspectiva de “preocupação significativa”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COCOS_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ilha oceânica da Costa Rica, a cerca de 550 km da costa do Pacífico, coberta de floresta tropical úmida e cercada por um vasto setor marinho com recifes de coral, tubarões-martelo e outras espécies pelágicas.",
+      "editorialNotes": [
+        "A IUCN não menciona a origem vulcânica da ilha nem peixes de água doce endêmicos; essas pistas do rascunho saíram.",
+        "Habitantes: a IUCN (com dados do Estado Parte, 2023) diz que só vivem na ilha guarda-parques e funcionários do Estado, com visitas ocasionais de pesquisadores e voluntários.",
+        "Mamíferos introduzidos: a IUCN fala em 5 espécies (veado, porco, gato e dois ratos), mas também cita cabras; as pistas não dão o número."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook (2025); C1, C3 e C4 refeitos com alternativas comparáveis; pistas sem apoio (vulcanismo, peixes de água doce) trocadas."
+    }
+  },
+  "sources": {
+    "COCOS_IUCN": {
+      "id": "COCOS_IUCN",
+      "checkedAt": "2026-11-15",
+      "title": "Cocos Island National Park — World Heritage Outlook (avaliação 2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/explore-sites/cocos-island-national-park"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/explore-sites/cocos-island-national-park"
+    ],
+    "alteracoes": [
+      "Fontes: COCOS820 (página /en/list/ da UNESCO, não aberta) trocada pela IUCN World Heritage Outlook (COCOS_IUCN).",
+      "C1: rótulo virou “Área protegida insular”; Marino Ballena (costeiro, não insular) e “Ilhas do Golfo da Califórnia” (não é parque nacional) trocados por Marinho dos Abrolhos e Revillagigedo; nomes padronizados.",
+      "C3: “Oceano” (Atlântico, Índico e Ártico eram descartáveis) trocado por “Distância até a costa pacífica do país” (cerca de 550 km).",
+      "C4: “Ambientes protegidos” com alternativas absurdas trocado por “Únicos habitantes da ilha” (guarda-parques e funcionários do governo).",
+      "Viajante: as 25 pistas reescritas ou trocadas; P05 (origem vulcânica) e P18 (peixes de água doce endêmicos) saíram por falta de apoio; entram ponto mais alto de 500 m com floresta de neblina, tartarugas-verdes, 30% de plantas endêmicas, baías Wafer e Chatham, habitantes.",
+      "Geógrafo: as 25 pistas reescritas ou trocadas para processos (contracorrente equatorial, dispersão de larvas, montes submarinos, endemismo, quedas de tubarão-martelo e raia-manta, espinhéis, El Niño de 2015-2016 com efeito mínimo nos corais, gestão pelo SINAC).",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas P16 e P20 (Viajante) e P04 e P06 (Geógrafo)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

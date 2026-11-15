@@ -1,0 +1,1062 @@
+{
+  "case": {
+    "id": "lug2-dubrovnik",
+    "placeId": "dubrovnik",
+    "title": "Cidade Antiga de Dubrovnik",
+    "aliases": [
+      "Dubrovnik"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "HR"
+      ],
+      "continents": [
+        "europa"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica costeira",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade Antiga de Dubrovnik"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Centro Histórico de Split"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Cidade Antiga de Kotor"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Centro Histórico de Trogir"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Cidade Velha de Corfu"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Centro Histórico de Veneza"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Cidade Medieval de Rodes"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cidade Hanseática de Visby"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Centro Histórico de Tallinn"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidade de Valletta"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cidade Antiga de Nessebar"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Centro Histórico de Nápoles"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade Antiga de Dubrovnik",
+        "sources": [
+          "DUBROVNIK_SOUV",
+          "DUBROVNIK_ICOMOS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Mar junto à cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Mar Adriático"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Mar Jônico"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Mar Egeu"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Mar Tirreno"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Mar Adriático",
+        "sources": [
+          "DUBROVNIK_ICOMOS",
+          "DUBROVNIK_SOUV"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Evento que danificou gravemente a cidade em 1667",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Terremoto"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Erupção vulcânica"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cerco otomano"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Epidemia de peste"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Terremoto",
+        "sources": [
+          "DUBROVNIK_SOUV",
+          "DUBROVNIK_PR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Croácia"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Montenegro"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Grécia"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Itália"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Croácia",
+        "sources": [
+          "DUBROVNIK_ICOMOS",
+          "DUBROVNIK_SOUV"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "dubrovnik-viajante-P01",
+            "factKey": "dubrovnik-F01",
+            "text": "Este destino preserva uma cidade antiga murada à beira-mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P02",
+            "factKey": "dubrovnik-F02",
+            "text": "Fica numa costa europeia do Mediterrâneo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P03",
+            "factKey": "dubrovnik-F03",
+            "text": "A cidade fica na costa dálmata, à beira do mar Adriático.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P04",
+            "factKey": "dubrovnik-F04",
+            "text": "O lugar fica na Croácia.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS",
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P05",
+            "factKey": "dubrovnik-F05",
+            "text": "O centro antigo fica ao pé do monte Srđ.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P06",
+            "factKey": "dubrovnik-F06",
+            "text": "Muralhas de pedra com 1.940 metros envolvem a cidade antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P07",
+            "factKey": "dubrovnik-F07",
+            "text": "A rua principal, a Placa, atravessa a cidade de leste a oeste até a praça central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P08",
+            "factKey": "dubrovnik-F08",
+            "text": "O Palácio do Reitor, antiga sede do governo da cidade, tem origem no século XI.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P09",
+            "factKey": "dubrovnik-F09",
+            "text": "A antiga alfândega, o Palácio Sponza, é obra de várias mãos ao longo de muitos anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P10",
+            "factKey": "dubrovnik-F10",
+            "text": "Igrejas, mosteiros, palácios e fontes góticos, renascentistas e barrocos enchem a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS",
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P11",
+            "factKey": "dubrovnik-F11",
+            "text": "Os mosteiros franciscano e dominicano estão entre os grandes conjuntos religiosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P12",
+            "factKey": "dubrovnik-F12",
+            "text": "Um terremoto danificou a cidade em 1667, e a catedral foi reconstruída depois dele.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P13",
+            "factKey": "dubrovnik-F13",
+            "text": "A cidade foi danificada de novo por conflitos armados nos anos 1990.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR",
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P14",
+            "factKey": "dubrovnik-F14",
+            "text": "Entre 1991 e 1998, a cidade esteve na lista do Patrimônio Mundial em Perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P15",
+            "factKey": "dubrovnik-F15",
+            "text": "A cidade foi capital de uma república independente até ser conquistada por Napoleão, em 1808.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P16",
+            "factKey": "dubrovnik-F16",
+            "text": "Uma fortaleza sobre um penhasco, citada num documento de 1301, fica fora das muralhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P17",
+            "factKey": "dubrovnik-F17",
+            "text": "A fortaleza Revelin, de 1449, vigiava o fosso do lado norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P18",
+            "factKey": "dubrovnik-F18",
+            "text": "Uma ilha de vegetação exuberante, a uns 500 m da costa, também faz parte do patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P19",
+            "factKey": "dubrovnik-F19",
+            "text": "Em 1023, essa ilha ganhou uma abadia beneditina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P20",
+            "factKey": "dubrovnik-F20",
+            "text": "Antigos lazaretos, construídos de 1627 a 1648, recebiam viajantes vindos de regiões com risco de peste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P21",
+            "factKey": "dubrovnik-F21",
+            "text": "Um quebra-mar de por volta de 1485 protege o porto antigo dos vendavais de sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P22",
+            "factKey": "dubrovnik-F22",
+            "text": "Num bairro fora dos muros havia curtumes, fundição de canhões e fabricação de sabão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P23",
+            "factKey": "dubrovnik-F23",
+            "text": "A UNESCO reconheceu a cidade antiga em 1979 e ampliou a área em 1994.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P24",
+            "factKey": "dubrovnik-F24",
+            "text": "Ela é chamada de “Pérola do Adriático”.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS",
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-viajante-P25",
+            "factKey": "dubrovnik-F25",
+            "text": "O excesso de turistas e a saída de moradores pressionam a cidade antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "dubrovnik-geografo-P01",
+            "factKey": "dubrovnik-F01",
+            "text": "A partir do século XIII, a cidade se tornou uma importante potência marítima do Mediterrâneo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P02",
+            "factKey": "dubrovnik-F02",
+            "text": "A UNESCO a descreve como exemplo bem preservado de cidade planejada do fim da Idade Média.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P03",
+            "factKey": "dubrovnik-F03",
+            "text": "Foi um forte polo marítimo e comercial na costa leste do Adriático, com apogeu nos séculos XV e XVI.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P04",
+            "factKey": "dubrovnik-F04",
+            "text": "Como cidade-Estado, sobreviveu até a conquista por Napoleão, em 1808.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P05",
+            "factKey": "dubrovnik-F05",
+            "text": "O núcleo murado fica ao pé do monte Srđ, junto ao mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P06",
+            "factKey": "dubrovnik-F06",
+            "text": "Estatutos de 1272 já tratavam do desenvolvimento planejado da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P07",
+            "factKey": "dubrovnik-F07",
+            "text": "A malha urbana tinha larguras de rua rigidamente prescritas e exigia pedra em vez de madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P08",
+            "factKey": "dubrovnik-F08",
+            "text": "A Placa, rua principal no sentido leste–oeste, termina na praça central da Luža.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P09",
+            "factKey": "dubrovnik-F09",
+            "text": "Esgoto, abastecimento de água, celeiro, quarentena, boticas, hospitais e orfanato compunham os serviços municipais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P10",
+            "factKey": "dubrovnik-F10",
+            "text": "Torres, baluartes, barbacãs, fosso e quebra-mar completam o sistema defensivo das muralhas de 1.940 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P11",
+            "factKey": "dubrovnik-F11",
+            "text": "Grandes torres de defesa representam a arquitetura militar dos séculos XIII ao XVII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P12",
+            "factKey": "dubrovnik-F12",
+            "text": "Segundo a UNESCO, quase todas as etapas do desenvolvimento urbano ao longo dos séculos se conservaram na estrutura da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P13",
+            "factKey": "dubrovnik-F13",
+            "text": "Os danos da guerra de 1991–1995 levaram o sítio à lista do Patrimônio em Perigo, de onde saiu em 1998.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR",
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P14",
+            "factKey": "dubrovnik-F14",
+            "text": "A recuperação virou foco de um grande programa de restauração coordenado pela UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P15",
+            "factKey": "dubrovnik-F15",
+            "text": "Em 1994, o bem passou de 24,7 para 96,7 hectares, incorporando áreas fora das muralhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P16",
+            "factKey": "dubrovnik-F16",
+            "text": "A fortaleza de Lovrijenac, num penhasco, e a de Revelin, feita para dominar o fosso norte, entraram na ampliação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P17",
+            "factKey": "dubrovnik-F17",
+            "text": "Os lazaretos ficavam na entrada leste, por onde chegavam viajantes de áreas sujeitas à peste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P18",
+            "factKey": "dubrovnik-F18",
+            "text": "O subúrbio de Pile foi, desde o século XIII, uma zona industrial de curtumes, sabão e fundição de canhões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P19",
+            "factKey": "dubrovnik-F19",
+            "text": "O quebra-mar de Kaše, de cerca de 1485, protegia o porto dos vendavais de sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993",
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P20",
+            "factKey": "dubrovnik-F20",
+            "text": "A ilha de Lokrum, a cerca de 500 m da costa, recebeu em 1023 a primeira abadia beneditina da república.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P21",
+            "factKey": "dubrovnik-F21",
+            "text": "Na ilha, os franceses começaram a construir o Forte Royal no início do século XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_ICOMOS1993"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P22",
+            "factKey": "dubrovnik-F22",
+            "text": "Em 2018, a zona de amortecimento foi muito ampliada para proteger o entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV",
+              "DUBROVNIK_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P23",
+            "factKey": "dubrovnik-F23",
+            "text": "Pressão turística, despovoamento e obras inadequadas no entorno ameaçam o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P24",
+            "factKey": "dubrovnik-F24",
+            "text": "Um plano de gestão foi aprovado em 2021, e um plano de riscos e evacuação, em 2026.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubrovnik-geografo-P25",
+            "factKey": "dubrovnik-F25",
+            "text": "A cidade é bem cultural nacional protegido pela lei croata de proteção do patrimônio.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "DUBROVNIK_SOUV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade murada da costa dálmata da Croácia, no Adriático, antiga cidade-Estado e potência marítima; inscrita pela UNESCO em 1979 e ampliada em 1994 com fortalezas, lazaretos, o subúrbio de Pile e a ilha de Lokrum.",
+      "editorialNotes": [
+        "A página da lista da UNESCO (95) não foi aberta; as pistas foram conferidas na declaração retrospectiva de valor universal (2026), nos pareceres do ICOMOS (1993 e 2018) e no relatório periódico, todos publicados pela UNESCO.",
+        "O ICOMOS recomendou em 1993 adiar a ampliação até haver zona de amortecimento; a ampliação foi aprovada em 1994, e a zona de amortecimento foi ampliada em 2018.",
+        "O ICOMOS dá ao bem 24,7 ha antes de 1994 e 96,7 ha depois."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos em documentos da UNESCO e do ICOMOS; C1 restrito a cidades costeiras da Europa, C2 e C3 com alternativas plausíveis e pistas genéricas trocadas por dados verificados."
+    }
+  },
+  "sources": {
+    "DUBROVNIK_SOUV": {
+      "title": "Retrospective Statement of Outstanding Universal Value — Old City of Dubrovnik (WHC/26/48.COM/8E.Add)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/226286",
+      "id": "DUBROVNIK_SOUV",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBROVNIK_ICOMOS": {
+      "title": "Old City of Dubrovnik (Croatia), No 95bis — ICOMOS evaluation (2018)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/168759",
+      "id": "DUBROVNIK_ICOMOS",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBROVNIK_ICOMOS1993": {
+      "title": "Old City of Dubrovnik — ICOMOS evaluation of the proposed extension (1993)",
+      "publisher": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/154698",
+      "id": "DUBROVNIK_ICOMOS1993",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBROVNIK_PR": {
+      "title": "Old City of Dubrovnik — State of Conservation of World Heritage Properties in Europe (Periodic Report, Section II)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/162569",
+      "id": "DUBROVNIK_PR",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/226286",
+      "https://whc.unesco.org/document/168759",
+      "https://whc.unesco.org/document/154698",
+      "https://whc.unesco.org/document/162569"
+    ],
+    "alteracoes": [
+      "Fontes: DUBROVNIK95 (página da lista) e DUBROVNIK_EXTRA (whc.unesco.org/archive/dubrov.pdf) não foram abertas e saíram; DUBROVNIK_ICOMOS mantida (aberta, título corrigido para avaliação ICOMOS de 2018); acrescentadas a declaração retrospectiva de valor universal de 2026 (DUBROVNIK_SOUV), o parecer ICOMOS de 1993 sobre a ampliação (DUBROVNIK_ICOMOS1993) e o relatório periódico (DUBROVNIK_PR).",
+      "C1: rótulo “Cidade histórica” virou “Cidade histórica costeira”; Évora (interior) e Porto trocados por Nessebar e Nápoles, e Acre (Ásia, fora do recorte) por Visby.",
+      "C2: alternativas Báltico, Negro e do Norte trocadas por mares mediterrâneos comparáveis (Jônico, Egeu, Tirreno).",
+      "C3: alternativas tsunami e incêndio florestal trocadas por cerco otomano e epidemia de peste; rótulo ajustado.",
+      "C4 conferido e mantido.",
+      "Viajante: 25 pistas revistas; 13 trocadas por fatos verificados (P05 monte Srđ, P06 muralhas de 1.940 m, P07 Placa, P08 Palácio do Reitor, P09 Sponza, P11 mosteiros, P15 república até 1808, P16–P22 componentes da ampliação descritos sem nomes que entregam o lugar, P24 Pérola do Adriático, P25 pressão turística) e as demais reescritas.",
+      "Geógrafo: 25 pistas revistas; as cinco primeiras do rascunho só repetiam Europa, Adriático, Croácia e costa dálmata e foram trocadas; P11–P12 (consulados, frota) saíram por falta de apoio nas fontes abertas; 18 trocadas por processos e dados verificados (cidade planejada, estatutos de 1272, pedra em vez de madeira, serviços municipais, 24,7→96,7 ha, Pile, Kaše, Lokrum, Forte Royal, zona de amortecimento de 2018, planos de 2021 e 2026, proteção legal) e 7 reescritas.",
+      "Sinais: o rascunho não tinha abertura nem decisiva; agora abertura P01–P02 e decisivas P15/P24 (Viajante) e P04/P20 (Geógrafo); relatedFields ampliados para C2, C3 e C4.",
+      "reveal.canonicalSummary e editorialNotes refeitos; review marcado como source-reviewed."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

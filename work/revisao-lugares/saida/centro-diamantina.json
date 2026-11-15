@@ -1,0 +1,1049 @@
+{
+  "case": {
+    "id": "lug2-centro-diamantina",
+    "placeId": "centro-diamantina",
+    "title": "Centro Histórico de Diamantina",
+    "aliases": [
+      "Diamantina"
+    ],
+    "answerType": "centro histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Centro histórico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Centro Histórico de Diamantina"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Centro Histórico de Ouro Preto"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Centro Histórico de Mariana"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Centro Histórico de Tiradentes"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Centro Histórico de São João del-Rei"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Centro Histórico de Congonhas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Centro Histórico de Paraty"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Centro Histórico de Sabará"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Centro Histórico do Serro"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Centro Histórico de Vassouras"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Centro Histórico de Santana de Parnaíba"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Centro Histórico de Itu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Centro Histórico de Diamantina",
+        "sources": [
+          "SE_IPAT_PATRIMONIO_MUNDIAL",
+          "SE_ITATIAIA_UNESCO_MG"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Personagem histórica que dá nome a uma casa do centro",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Chica da Silva"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Marília de Dirceu"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Bárbara Heliodora"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Dona Beja"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Chica da Silva",
+        "sources": [
+          "SE_IPAT_PATRIMONIO_MUNDIAL",
+          "SE_HOJEEMDIA_UNESCO_MG"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Nome histórico do povoado",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Arraial do Tijuco"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Arraial de Nossa Senhora do Carmo"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Arraial de São José do Rio das Mortes"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Vila Rica de Ouro Preto"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Arraial do Tijuco",
+        "sources": [
+          "SE_HOJEEMDIA_UNESCO_MG"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Serra que forma conjunto paisagístico com o centro",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Serra dos Cristais"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Serra de São José"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Serra do Caraça"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Serra do Curral"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Serra dos Cristais",
+        "sources": [
+          "SE_IPAT_PATRIMONIO_MUNDIAL"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "centro-diamantina-viajante-P01",
+            "factKey": "centro-diamantina-F01",
+            "text": "Este destino é a parte antiga de uma cidade do interior do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P02",
+            "factKey": "centro-diamantina-F02",
+            "text": "As casas antigas se destacam em meio a montanhas e encostas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P03",
+            "factKey": "centro-diamantina-F03",
+            "text": "As ruas atravessam a encosta e sobem e descem o tempo todo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P04",
+            "factKey": "centro-diamantina-F04",
+            "text": "O centro histórico fica em Minas Gerais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P05",
+            "factKey": "centro-diamantina-F05",
+            "text": "A cidade foi ocupada no século XVIII, em tempos de mineração.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P06",
+            "factKey": "centro-diamantina-F06",
+            "text": "Em 1713, uma bandeira encontrou ouro em um córrego da região.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P07",
+            "factKey": "centro-diamantina-F07",
+            "text": "No século XVIII, o lugar foi o maior centro de extração de diamantes do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P08",
+            "factKey": "centro-diamantina-F08",
+            "text": "O povoado cresceu depressa a partir de 1720, depois que encontraram diamantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P09",
+            "factKey": "centro-diamantina-F09",
+            "text": "O antigo povoado se chamava Arraial do Tijuco.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P10",
+            "factKey": "centro-diamantina-F10",
+            "text": "Becos estreitos e ruas que mudam de direção aparecem pelo centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P11",
+            "factKey": "centro-diamantina-F11",
+            "text": "Quase não se veem casas térreas: predominam os sobrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P12",
+            "factKey": "centro-diamantina-F12",
+            "text": "As fachadas das casas repetem formas geométricas parecidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P13",
+            "factKey": "centro-diamantina-F13",
+            "text": "As igrejas usam cores e materiais parecidos com os das casas ao redor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P14",
+            "factKey": "centro-diamantina-F14",
+            "text": "Entre as igrejas do centro estão as do Carmo, do Rosário e das Mercês.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P15",
+            "factKey": "centro-diamantina-F15",
+            "text": "Uma casa histórica leva o nome de Chica da Silva.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P16",
+            "factKey": "centro-diamantina-F16",
+            "text": "Um museu da cidade é dedicado ao diamante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P17",
+            "factKey": "centro-diamantina-F17",
+            "text": "O Mercado Municipal faz parte do roteiro do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P18",
+            "factKey": "centro-diamantina-F18",
+            "text": "Um hotel desenhado por Oscar Niemeyer convive com o casario colonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P19",
+            "factKey": "centro-diamantina-F19",
+            "text": "A UNESCO reconheceu o centro histórico como Patrimônio Mundial em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P20",
+            "factKey": "centro-diamantina-F20",
+            "text": "O Iphan protege o conjunto desde 1938.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P21",
+            "factKey": "centro-diamantina-F21",
+            "text": "A arquitetura adaptou modelos europeus às condições do Brasil do século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P22",
+            "factKey": "centro-diamantina-F22",
+            "text": "A Casa do Forro Pintado é uma das construções históricas do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P23",
+            "factKey": "centro-diamantina-F23",
+            "text": "A Serra dos Cristais forma o pano de fundo da cidade antiga.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P24",
+            "factKey": "centro-diamantina-F24",
+            "text": "A Rua do Burgalhau e o Beco das Beatas lembram os primeiros núcleos de moradia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-viajante-P25",
+            "factKey": "centro-diamantina-F25",
+            "text": "Uma descrição famosa compara a cidade a uma joia num colar de montanhas rochosas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "centro-diamantina-geografo-P01",
+            "factKey": "centro-diamantina-F01",
+            "text": "O destino é um núcleo urbano colonial formado no interior do Brasil durante a exploração mineral do século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P02",
+            "factKey": "centro-diamantina-F02",
+            "text": "O sítio urbano foi implantado em relevo de montanhas e encostas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P03",
+            "factKey": "centro-diamantina-F03",
+            "text": "O traçado é irregular, com arruamentos transversais à encosta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P04",
+            "factKey": "centro-diamantina-F04",
+            "text": "Ruas paralelas têm pequenas variações de largura, e becos estreitos mudam de direção ao longo do percurso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P05",
+            "factKey": "centro-diamantina-F05",
+            "text": "A ocupação começou com a descoberta de ouro em 1713 no córrego do Tijuco.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P06",
+            "factKey": "centro-diamantina-F06",
+            "text": "A descoberta de diamantes acelerou o crescimento do arraial a partir de 1720.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P07",
+            "factKey": "centro-diamantina-F07",
+            "text": "No século XVIII, o núcleo era o maior centro de extração de diamantes do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P08",
+            "factKey": "centro-diamantina-F08",
+            "text": "O assentamento colonial foi conhecido como Arraial do Tijuco.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P09",
+            "factKey": "centro-diamantina-F09",
+            "text": "Os primeiros núcleos de povoamento são associados ao Burgalhau, à Rua do Espírito Santo e ao Beco das Beatas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P10",
+            "factKey": "centro-diamantina-F10",
+            "text": "A arquitetura civil se caracteriza pela ausência de casas térreas e pelo predomínio de sobrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P11",
+            "factKey": "centro-diamantina-F11",
+            "text": "A repetição de fachadas geométricas dá uniformidade ao casario.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P12",
+            "factKey": "centro-diamantina-F12",
+            "text": "Cores e materiais compartilhados entre igrejas e casas unificam a leitura do conjunto urbano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P13",
+            "factKey": "centro-diamantina-F13",
+            "text": "Modelos arquitetônicos europeus foram adaptados às condições brasileiras no século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_HOJEEMDIA_UNESCO_MG",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P14",
+            "factKey": "centro-diamantina-F14",
+            "text": "Templos das Mercês, do Amparo, do Carmo, do Rosário, de São Francisco de Assis e do Senhor do Bonfim pontuam o tecido urbano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P15",
+            "factKey": "centro-diamantina-F15",
+            "text": "A Serra dos Cristais compõe com o centro histórico um dos conjuntos paisagísticos mais significativos de Minas Gerais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P16",
+            "factKey": "centro-diamantina-F16",
+            "text": "A imagem de uma joia num colar de montanhas rochosas inóspitas resume a relação entre núcleo urbano e relevo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P17",
+            "factKey": "centro-diamantina-F17",
+            "text": "A Casa da Chica da Silva integra o patrimônio edificado do centro histórico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P18",
+            "factKey": "centro-diamantina-F18",
+            "text": "O Museu do Diamante e o Mercado Municipal estão entre os edifícios de interesse do núcleo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P19",
+            "factKey": "centro-diamantina-F19",
+            "text": "Edifícios de Oscar Niemeyer, como um hotel, inserem a arquitetura moderna no núcleo colonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P20",
+            "factKey": "centro-diamantina-F20",
+            "text": "O conjunto arquitetônico e urbanístico foi inscrito no Livro do Tombo de Belas Artes do Iphan em 1938.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P21",
+            "factKey": "centro-diamantina-F21",
+            "text": "A inscrição na Lista do Patrimônio Mundial da UNESCO ocorreu em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_HOJEEMDIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P22",
+            "factKey": "centro-diamantina-F22",
+            "text": "O casario mostra construção mais refinada do que se esperava para o período colonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P23",
+            "factKey": "centro-diamantina-F23",
+            "text": "O núcleo histórico pertence ao território de Minas Gerais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P24",
+            "factKey": "centro-diamantina-F24",
+            "text": "A Biblioteca Antônio Torres e a Casa do Forro Pintado integram o patrimônio civil do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "centro-diamantina-geografo-P25",
+            "factKey": "centro-diamantina-F25",
+            "text": "A exploração mineral do século XVIII foi o motor da ocupação deste sítio montanhoso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Núcleo colonial mineiro do antigo Arraial do Tijuco, formado após a descoberta de ouro (1713) e de diamantes (a partir de 1720), maior centro de extração de diamantes do mundo no século XVIII; traçado irregular nas encostas, predomínio de sobrados e paisagem com a Serra dos Cristais; tombado pelo Iphan em 1938 e Patrimônio Mundial desde 1999.",
+      "editorialNotes": [
+        "A ficha do Iphan reproduzida pela compilação iPatrimônio registra a cidade como \"Diamantina-GO\"; trata-se de erro de digitação, e as demais fontes situam o conjunto em Minas Gerais.",
+        "C2 deixou de perguntar o mineral (resposta \"diamantes\" quase entregaria o nome do lugar) e passou a perguntar a personagem da Casa da Chica da Silva.",
+        "População municipal do Censo 2022 retirada: a página do IBGE não foi aberta nesta revisão."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (compilação iPatrimônio com textos da Unesco e registro do Iphan, Itatiaia 2024, Hoje em Dia 2026); C1 restrito ao Sudeste, C2 e C4 reformulados para não entregar o C1, afirmações sem apoio retiradas e pistas reescritas"
+    }
+  },
+  "sources": {
+    "SE_IPAT_PATRIMONIO_MUNDIAL": {
+      "id": "SE_IPAT_PATRIMONIO_MUNDIAL",
+      "title": "Patrimônio Mundial Cultural e Nacional (fichas de bens brasileiros, com textos da Unesco e registros do Iphan)",
+      "publisher": "iPatrimônio",
+      "url": "https://www.ipatrimonio.org/wp-content/uploads/2018/03/Patrim%C3%B4nio-Mundial-Cultural-e-Nacional_semcapa.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_ITATIAIA_UNESCO_MG": {
+      "id": "SE_ITATIAIA_UNESCO_MG",
+      "title": "Patrimônios mundiais da UNESCO em Minas Gerais",
+      "publisher": "Itatiaia",
+      "url": "https://www.itatiaia.com.br/brasil/patrimonios-mundiais-da-unesco-em-minas-gerais/",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_HOJEEMDIA_UNESCO_MG": {
+      "id": "SE_HOJEEMDIA_UNESCO_MG",
+      "title": "Conheça os cinco patrimônios mineiros reconhecidos pela Unesco",
+      "publisher": "Hoje em Dia",
+      "url": "https://www.hojeemdia.com.br/minas/conheca-os-cinco-patrimonios-mineiros-reconhecidos-pela-unesco-1.1127109",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.ipatrimonio.org/wp-content/uploads/2018/03/Patrim%C3%B4nio-Mundial-Cultural-e-Nacional_semcapa.pdf",
+      "https://www.itatiaia.com.br/brasil/patrimonios-mundiais-da-unesco-em-minas-gerais/",
+      "https://www.hojeemdia.com.br/minas/conheca-os-cinco-patrimonios-mineiros-reconhecidos-pela-unesco-1.1127109"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (UNESCO 890 e IBGE) não foram abertas (cota de buscas esgotada); substituídas por iPatrimônio, Itatiaia e Hoje em Dia, todas abertas",
+      "C1: Goiás, Olinda e São Luís (fora do Sudeste) trocados por Vassouras, Santana de Parnaíba e Itu",
+      "C2: mineral (diamantes) trocado por personagem da casa histórica (Chica da Silva), para não entregar o C1",
+      "C4: Estado (Minas Gerais) trocado por Serra dos Cristais, verificada na ficha da Unesco/Iphan",
+      "Retirados por falta de apoio: igrejas de uma só torre, paredes brancas com detalhes coloridos, calçamento cinza, localização no nordeste de Minas, uso residencial, festas religiosas e população do Censo 2022 (IBGE não aberto)",
+      "Corrigido: \"casas de um ou dois andares\" passa a \"ausência de casas térreas e predomínio de sobrados\" (iPatrimônio)",
+      "Acrescentados com fonte: ouro em 1713, diamantes a partir de 1720, maior centro de extração de diamantes do século XVIII, Burgalhau e Beco das Beatas, igrejas citadas, Casa da Chica da Silva, Museu do Diamante, Mercado, Casa do Forro Pintado, Niemeyer, Livro do Tombo de Belas Artes",
+      "viajante: 22 pistas reescritas ou trocadas; geografo: 24 reescritas ou trocadas; 2 aberturas e 2 decisivas por perfil"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

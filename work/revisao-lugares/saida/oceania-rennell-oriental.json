@@ -1,0 +1,1054 @@
+{
+  "case": {
+    "id": "lug2-oceania-rennell-oriental",
+    "placeId": "oceania-rennell-oriental",
+    "title": "Rennell Oriental",
+    "aliases": [
+      "East Rennell"
+    ],
+    "answerType": "área insular protegida",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "SB"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área insular",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Rennell Oriental"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilhas Rock do Sul"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Área Protegida das Ilhas Phoenix"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Atol de Bikini"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Atol de Rangiroa"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Atol de Kiritimati"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha Henderson"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha Norfolk"
+          },
+          {
+            "id": "C1-O10",
+            "text": "K’gari"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha Macquarie"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilha de Páscoa"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Rennell Oriental",
+        "sources": [
+          "RENNELL_IUCN",
+          "RENNELL_DECISAO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Lago do destino",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Lago Tegano"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Lago Letas"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Lago Kutubu"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Lago Lanoto‘o"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Lago Tegano",
+        "sources": [
+          "RENNELL_DECISAO",
+          "RENNELL_NEWS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "País",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Ilhas Salomão"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Fiji"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Vanuatu"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Papua-Nova Guiné"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Ilhas Salomão",
+        "sources": [
+          "RENNELL_IUCN"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Origem geológica da ilha",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Atol de coral elevado"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Atol baixo, quase ao nível do mar"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ilha vulcânica"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Fragmento de crosta continental"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Atol de coral elevado",
+        "sources": [
+          "RENNELL_DECISAO",
+          "RENNELL_NEWS",
+          "RENNELL_IUCN"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "oceania-rennell-oriental-viajante-P01",
+            "factKey": "oceania-rennell-oriental-F01",
+            "text": "Este destino protegido fica numa ilha do Pacífico coberta de floresta densa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN",
+              "RENNELL_DECISAO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P02",
+            "factKey": "oceania-rennell-oriental-F02",
+            "text": "Ali há um lago enorme, cheio de ilhotas de pedra.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_IUCN",
+              "RENNELL_DECISAO"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P03",
+            "factKey": "oceania-rennell-oriental-F03",
+            "text": "A ilha pertence às Ilhas Salomão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P04",
+            "factKey": "oceania-rennell-oriental-F04",
+            "text": "A área protegida ocupa só o terço sul de uma ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P05",
+            "factKey": "oceania-rennell-oriental-F05",
+            "text": "A ilha tem cerca de 86 km de comprimento e 15 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P06",
+            "factKey": "oceania-rennell-oriental-F06",
+            "text": "A ilha é um antigo atol de coral que se elevou acima do nível do mar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_NEWS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P07",
+            "factKey": "oceania-rennell-oriental-F07",
+            "text": "O lago ocupa o lugar da antiga lagoa do atol.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P08",
+            "factKey": "oceania-rennell-oriental-F08",
+            "text": "A água do lago é salobra: nem doce, nem salgada como a do mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P09",
+            "factKey": "oceania-rennell-oriental-F09",
+            "text": "O lago se chama Tegano e é o maior das ilhas do Pacífico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_NEWS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P10",
+            "factKey": "oceania-rennell-oriental-F10",
+            "text": "As ilhotas do lago são de calcário, com formas recortadas.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P11",
+            "factKey": "oceania-rennell-oriental-F11",
+            "text": "As árvores da floresta formam uma copa de uns 20 metros de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P12",
+            "factKey": "oceania-rennell-oriental-F12",
+            "text": "Ciclones passam com frequência pela ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P13",
+            "factKey": "oceania-rennell-oriental-F13",
+            "text": "Quatro espécies de aves só existem nessa ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P14",
+            "factKey": "oceania-rennell-oriental-F14",
+            "text": "Há 11 espécies de morcegos, uma delas endêmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P15",
+            "factKey": "oceania-rennell-oriental-F15",
+            "text": "Dos 27 tipos de caracóis terrestres, sete são endêmicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P16",
+            "factKey": "oceania-rennell-oriental-F16",
+            "text": "Dez espécies de plantas da ilha são endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P17",
+            "factKey": "oceania-rennell-oriental-F17",
+            "text": "No lago vive uma serpente marinha endêmica, um caso raríssimo de cobra-do-mar em lago salobro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P18",
+            "factKey": "oceania-rennell-oriental-F18",
+            "text": "O sítio inclui também o mar, até 3 milhas náuticas da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P19",
+            "factKey": "oceania-rennell-oriental-F19",
+            "text": "Quando entrou na lista, cerca de 1.200 pessoas de origem polinésia viviam em quatro aldeias da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P20",
+            "factKey": "oceania-rennell-oriental-F20",
+            "text": "Os moradores vivem tradicionalmente de roças, caça e pesca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P21",
+            "factKey": "oceania-rennell-oriental-F21",
+            "text": "O caranguejo-dos-coqueiros está entre os recursos colhidos pelas famílias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P22",
+            "factKey": "oceania-rennell-oriental-F22",
+            "text": "A terra pertence às comunidades e é administrada segundo o costume tradicional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P23",
+            "factKey": "oceania-rennell-oriental-F23",
+            "text": "Ratos-pretos invasores prejudicam aves, caracóis e roças.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P24",
+            "factKey": "oceania-rennell-oriental-F24",
+            "text": "O lugar entrou para o Patrimônio Mundial em 1998.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-viajante-P25",
+            "factKey": "oceania-rennell-oriental-F25",
+            "text": "Desde 2013, está na Lista do Patrimônio Mundial em Perigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN",
+              "RENNELL_NEWS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "oceania-rennell-oriental-geografo-P01",
+            "factKey": "oceania-rennell-oriental-F01",
+            "text": "O bem natural cobre a porção sul de uma ilha do Pacífico insular e inclui um componente marinho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P02",
+            "factKey": "oceania-rennell-oriental-F02",
+            "text": "Foi inscrito por um único critério natural, pela especiação em curso, sobretudo nas aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P03",
+            "factKey": "oceania-rennell-oriental-F03",
+            "text": "Situa-se nas Ilhas Salomão, país arquipelágico da Oceania.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P04",
+            "factKey": "oceania-rennell-oriental-F04",
+            "text": "A delimitação abrange cerca de 37.000 ha de terra e o mar até 3 milhas náuticas da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P05",
+            "factKey": "oceania-rennell-oriental-F05",
+            "text": "A UNESCO descreve a ilha como o maior atol de coral elevado do mundo.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_NEWS"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P06",
+            "factKey": "oceania-rennell-oriental-F06",
+            "text": "A elevação do atol transformou a antiga laguna num lago interior de água salobra.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P07",
+            "factKey": "oceania-rennell-oriental-F07",
+            "text": "O lago Tegano, com cerca de 15.500 ha, é o maior lago do Pacífico insular.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_DECISAO",
+              "RENNELL_NEWS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P08",
+            "factKey": "oceania-rennell-oriental-F08",
+            "text": "O terreno cárstico ao redor do lago sustenta uma densa floresta nativa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P09",
+            "factKey": "oceania-rennell-oriental-F09",
+            "text": "Numerosas ilhotas calcárias acidentadas pontilham o lago.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P10",
+            "factKey": "oceania-rennell-oriental-F10",
+            "text": "Ciclones frequentes moldam o clima e fazem da ilha um laboratório natural para a ciência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P11",
+            "factKey": "oceania-rennell-oriental-F11",
+            "text": "Das 43 espécies de aves terrestres e aquáticas que se reproduzem ali, quatro espécies e nove subespécies são endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P12",
+            "factKey": "oceania-rennell-oriental-F12",
+            "text": "Entre as aves endêmicas estão um leque, um estorninho, um picanço e um assobiador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P13",
+            "factKey": "oceania-rennell-oriental-F13",
+            "text": "Há 11 espécies de morcegos (uma endêmica) e 27 de caracóis terrestres (sete endêmicas).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P14",
+            "factKey": "oceania-rennell-oriental-F14",
+            "text": "As raposas-voadoras, morcegos frugívoros, podem estar localmente extintas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P15",
+            "factKey": "oceania-rennell-oriental-F15",
+            "text": "A serpente-marinha endêmica do lago é apenas o segundo registro de cobra-do-mar vivendo em lago salobro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P16",
+            "factKey": "oceania-rennell-oriental-F16",
+            "text": "A tilápia introduzida e o risco de chegada do caracol-gigante-africano somam-se às pressões de espécies invasoras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P17",
+            "factKey": "oceania-rennell-oriental-F17",
+            "text": "A exploração de madeira e a mineração de bauxita no oeste da ilha chegaram perto do limite: corte a cerca de 200 m e minas a até 12 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P18",
+            "factKey": "oceania-rennell-oriental-F18",
+            "text": "Em 2019, um navio cargueiro encalhou na baía de Kangava e causou um derramamento de óleo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P19",
+            "factKey": "oceania-rennell-oriental-F19",
+            "text": "A terra está sob propriedade e manejo consuetudinários das comunidades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P20",
+            "factKey": "oceania-rennell-oriental-F20",
+            "text": "Cerca de 1.200 pessoas de origem polinésia viviam em quatro aldeias na inscrição; hoje cerca de 350 residem dentro do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P21",
+            "factKey": "oceania-rennell-oriental-F21",
+            "text": "A subsistência combina roças, caça e pesca, incluindo a coleta do caranguejo-dos-coqueiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P22",
+            "factKey": "oceania-rennell-oriental-F22",
+            "text": "Está na Lista do Patrimônio Mundial em Perigo desde 2013, em parte por impactos da mudança do clima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P23",
+            "factKey": "oceania-rennell-oriental-F23",
+            "text": "Corte comercial de madeira, invasão de ratos e superexploração de recursos marinhos pesam sobre o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_NEWS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P24",
+            "factKey": "oceania-rennell-oriental-F24",
+            "text": "Em 2014, 2017, 2020 e 2025, a IUCN classificou a perspectiva de conservação do bem como ‘crítica’.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "oceania-rennell-oriental-geografo-P25",
+            "factKey": "oceania-rennell-oriental-F25",
+            "text": "Na inscrição, em 1998, o Comitê recomendou levar adiante um plano de manejo de recursos e um projeto de lei de proteção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RENNELL_DECISAO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Terço sul da ilha de Rennell, nas Ilhas Salomão: um atol de coral elevado com o lago Tegano, o maior do Pacífico insular, florestas densas sob propriedade tradicional de comunidades de origem polinésia e uma faixa marinha de 3 milhas náuticas.",
+      "editorialNotes": [
+        "A IUCN chama a ilha de ‘maior atol de coral elevado do mundo’ no resumo, mas de ‘segundo maior’ na avaliação completa; as pistas atribuem o superlativo à UNESCO (decisão de 1998 e notícia de 2015).",
+        "Área do lago: 15.500 ha na UNESCO; a IUCN também cita 15.000 ha. O bem cobre só parte da ilha, não a ilha inteira.",
+        "Na Lista do Patrimônio Mundial em Perigo desde 2013; perspectiva ‘crítica’ em todas as avaliações da IUCN (2014, 2017, 2020 e 2025). Inscrito pelo antigo critério natural (ii), hoje (ix)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na IUCN World Heritage Outlook, na decisão de inscrição de 1998 e na notícia da UNESCO de 2015; alternativas de C1, C2 e C4 refeitas."
+    }
+  },
+  "sources": {
+    "RENNELL_IUCN": {
+      "id": "RENNELL_IUCN",
+      "title": "East Rennell — World Heritage Outlook",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1087",
+      "checkedAt": "2026-11-15"
+    },
+    "RENNELL_DECISAO": {
+      "id": "RENNELL_DECISAO",
+      "title": "East Rennell (Solomon Islands) — inscription decision of the World Heritage Committee, 22nd session (1998)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/2741",
+      "checkedAt": "2026-11-15"
+    },
+    "RENNELL_NEWS": {
+      "id": "RENNELL_NEWS",
+      "title": "Stepping up capacity to assist East Rennell’s removal from Danger List",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/news/1389",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/node/1087",
+      "https://whc.unesco.org/en/decisions/2741",
+      "https://whc.unesco.org/en/news/1389"
+    ],
+    "alteracoes": [
+      "Fonte RENNELL_UNESCO (whc.unesco.org/en/list/854) substituída pela IUCN World Heritage Outlook (RENNELL_IUCN), pela decisão de inscrição de 1998 (RENNELL_DECISAO) e pela notícia da UNESCO de 2015 (RENNELL_NEWS).",
+      "C1: ‘Atol de Takapoto’ trocado por ‘Ilha Henderson’ (outro atol elevado da Oceania, para exigir investigação); ‘Ilhas Phoenix’ ajustado para ‘Área Protegida das Ilhas Phoenix’.",
+      "C2: lagos da Nova Zelândia (Te Anau, Taupo, Rotorua) trocados por lagos de ilhas do Pacífico (Letas, Kutubu, Lanoto‘o); gabarito ‘Lago Tegano’.",
+      "C4: ‘Ilha fluvial sedimentar’ trocada por ‘Atol baixo, quase ao nível do mar’; gabarito ‘Atol de coral elevado’ (UNESCO).",
+      "Viajante: 22 pistas reescritas ou trocadas; ‘aves terrestres e aquáticas próprias’ ficou ‘quatro espécies de aves só existem ali’; ‘conservação depende das comunidades’ saiu por ser vaga; entraram 86 × 15 km, maior lago das ilhas do Pacífico, copa de 20 m, 10 plantas endêmicas, caranguejo-dos-coqueiros, ratos-pretos e Lista em Perigo desde 2013.",
+      "Geógrafo: todas as 25 reescritas para processos e relações (37.000 ha + 3 milhas náuticas, laguna que virou lago, carste com floresta, especiação nas aves, madeira e bauxita no oeste da ilha, cargueiro encalhado em 2019, população de 1.200 para cerca de 350, perspectiva ‘crítica’ da IUCN).",
+      "Sinais: P01–P02 abertura nos dois perfis; decisivas Viajante P09 e P17, Geógrafo P07 e P15; clueType e relatedFields diversificados."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

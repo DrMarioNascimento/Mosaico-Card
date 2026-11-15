@@ -1,0 +1,1053 @@
+{
+ "case": {
+  "id": "lug2-panama-antigo",
+  "placeId": "panama-antigo",
+  "title": "Panamá Viejo e Distrito Histórico do Panamá",
+  "aliases": [
+   "Panamá Viejo",
+   "Panamá La Vieja"
+  ],
+  "answerType": "sítio arqueológico e distrito histórico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "PA"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Patrimônio urbano histórico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Panamá Viejo e Distrito Histórico do Panamá"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Porto e Fortificações de Cartagena das Índias"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Havana Velha e suas Fortificações"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cidade Colonial de Santo Domingo"
+     },
+     {
+      "id": "C1-O5",
+      "text": "La Fortaleza e Sítio Histórico de San Juan"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cidade Histórica de Quito"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Centro Histórico de Lima"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cidade Histórica Fortificada de Campeche"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Antigua Guatemala"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Fortificações de Portobelo e San Lorenzo"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Bairro Histórico de Colônia do Sacramento"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Trinidad e Vale dos Engenhos"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Panamá Viejo e Distrito Histórico do Panamá",
+    "sources": [
+     "PANAMA_CR2017",
+     "PANAMA_ICOMOS2025"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Panamá"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Costa Rica"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Colômbia"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Nicarágua"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Panamá",
+    "sources": [
+     "PANAMA_CR2017",
+     "PANAMA_ICOMOS2025"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ano de fundação do primeiro assentamento",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "1502"
+     },
+     {
+      "id": "C3-O2",
+      "text": "1519"
+     },
+     {
+      "id": "C3-O3",
+      "text": "1538"
+     },
+     {
+      "id": "C3-O4",
+      "text": "1565"
+     }
+    ],
+    "answerId": "C3-O2",
+    "answerText": "1519",
+    "sources": [
+     "PANAMA_CR2017",
+     "PANAMA_ICOMOS2025"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Evento de 1671 que levou à transferência da cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Ataque pirata seguido de destruição pelo fogo"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Erupção vulcânica"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Inundação por ressaca do mar"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Epidemia de febre amarela"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Ataque pirata seguido de destruição pelo fogo",
+    "sources": [
+     "PANAMA_CR2017",
+     "PANAMA_ICOMOS2025"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "panama-antigo-viajante-P01",
+      "factKey": "panama-antigo-F01",
+      "text": "Este destino junta as ruínas de uma cidade antiga e um bairro histórico ainda habitado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P02",
+      "factKey": "panama-antigo-F02",
+      "text": "Igrejas, conventos e casarões contam séculos de história colonial espanhola.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P03",
+      "factKey": "panama-antigo-F03",
+      "text": "O lugar fica num istmo, a faixa estreita de terra entre o mar do Caribe e o oceano Pacífico.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P04",
+      "factKey": "panama-antigo-F04",
+      "text": "O conjunto fica no Panamá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P05",
+      "factKey": "panama-antigo-F05",
+      "text": "A primeira cidade foi fundada em 1519.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P06",
+      "factKey": "panama-antigo-F06",
+      "text": "Foi o primeiro povoado europeu na costa do Pacífico das Américas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P07",
+      "factKey": "panama-antigo-F07",
+      "text": "Depois de um ataque pirata em 1671, a cidade original foi destruída pelo fogo.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P08",
+      "factKey": "panama-antigo-F08",
+      "text": "Em 1673, a cidade foi refundada em outro ponto da costa.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P09",
+      "factKey": "panama-antigo-F09",
+      "text": "A nova cidade ocupou uma pequena península ao pé de um morro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P10",
+      "factKey": "panama-antigo-F10",
+      "text": "O novo núcleo ficou a cerca de 7,5 km do antigo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P11",
+      "factKey": "panama-antigo-F11",
+      "text": "Pedras lavradas das ruínas foram reaproveitadas para erguer a cidade nova.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P12",
+      "factKey": "panama-antigo-F12",
+      "text": "Nas ruínas ficam restos da catedral, de conventos e de prédios públicos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P13",
+      "factKey": "panama-antigo-F13",
+      "text": "As ruínas ficam junto da foz de um rio chamado Abajo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P14",
+      "factKey": "panama-antigo-F14",
+      "text": "Uma ponte antiga, a do Rei, ligava a cidade a um caminho colonial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025",
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P15",
+      "factKey": "panama-antigo-F15",
+      "text": "Outra ponte antiga marca o fim de um caminho que cruzava o istmo usando um rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P16",
+      "factKey": "panama-antigo-F16",
+      "text": "O Caminho Real, primeira rota para atravessar o istmo, só era usado na estação seca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P17",
+      "factKey": "panama-antigo-F17",
+      "text": "No bairro histórico, a catedral tem cinco naves e teto de madeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P18",
+      "factKey": "panama-antigo-F18",
+      "text": "As igrejas de San José, San Francisco e La Merced estão entre os destaques do bairro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P19",
+      "factKey": "panama-antigo-F19",
+      "text": "O Palácio Presidencial, erguido no fim do século XVII, fica no bairro histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P20",
+      "factKey": "panama-antigo-F20",
+      "text": "Os casarões misturam estilos colonial, caribenho, francês e eclético.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P21",
+      "factKey": "panama-antigo-F21",
+      "text": "Em 1826, um salão do bairro sediou o congresso convocado por Simón Bolívar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P22",
+      "factKey": "panama-antigo-F22",
+      "text": "A construção de uma ferrovia e, depois, de um canal marcou a vida do bairro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P23",
+      "factKey": "panama-antigo-F23",
+      "text": "Uma via construída sobre o mar mudou a relação do bairro com a orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P24",
+      "factKey": "panama-antigo-F24",
+      "text": "Boa parte das muralhas voltadas para o mar ainda está de pé.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-viajante-P25",
+      "factKey": "panama-antigo-F25",
+      "text": "Obras, crescimento urbano e gentrificação estão entre as ameaças ao conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "panama-antigo-geografo-P01",
+      "factKey": "panama-antigo-F01",
+      "text": "O bem combina um sítio arqueológico e o núcleo histórico para onde a cidade foi transferida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P02",
+      "factKey": "panama-antigo-F02",
+      "text": "A posição num istmo entre o Caribe e o Pacífico fez da cidade um elo das rotas do império espanhol.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017",
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P03",
+      "factKey": "panama-antigo-F03",
+      "text": "As duas áreas ficam na vertente pacífica do istmo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025",
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P04",
+      "factKey": "panama-antigo-F04",
+      "text": "Fundado em 1519, o núcleo original foi o primeiro assentamento europeu na costa pacífica das Américas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P05",
+      "factKey": "panama-antigo-F05",
+      "text": "Mesmo com a mudança de sítio, a cidade é considerada o assentamento europeu mais antigo em ocupação contínua na costa pacífica americana.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P06",
+      "factKey": "panama-antigo-F06",
+      "text": "A malha do núcleo original é uma grade levemente irregular, com quarteirões de tamanhos variados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P07",
+      "factKey": "panama-antigo-F07",
+      "text": "A arquitetura em pedra dos edifícios públicos e religiosos do sítio original tem paralelos no sul da Espanha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P08",
+      "factKey": "panama-antigo-F08",
+      "text": "O núcleo original passou por rebelião de escravizados, incêndio e terremoto antes de ser destruído após o ataque pirata de 1671.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P09",
+      "factKey": "panama-antigo-F09",
+      "text": "Em 1673 a cidade foi refeita cerca de 7,5 km adiante, numa pequena península ao pé do morro Ancón.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P10",
+      "factKey": "panama-antigo-F10",
+      "text": "O novo sítio ficava mais perto das ilhas usadas como porto e da foz de um rio que viria a ser a entrada do canal.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P11",
+      "factKey": "panama-antigo-F11",
+      "text": "Pedras lavradas e outros materiais das ruínas foram levados para construir o novo núcleo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P12",
+      "factKey": "panama-antigo-F12",
+      "text": "O sítio original fica junto à foz do Río Abajo, cercado por bairros populares sem planejamento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P13",
+      "factKey": "panama-antigo-F13",
+      "text": "Segundo relatório de 2017, a área protegida do sítio arqueológico soma 32 hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P14",
+      "factKey": "panama-antigo-F14",
+      "text": "A Ponte do Rei conectava a cidade ao Caminho Real, rota terrestre que partia de Nombre de Dios, no Caribe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P15",
+      "factKey": "panama-antigo-F15",
+      "text": "O Caminho Real era a travessia mais curta e mais cara, usada só na estação seca, do fim de dezembro ao fim de março.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P16",
+      "factKey": "panama-antigo-F16",
+      "text": "Na estação chuvosa, a travessia seguia pelo Caminho de Cruces, que combinava barco pelo rio Chagres e trecho por terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P17",
+      "factKey": "panama-antigo-F17",
+      "text": "A Ponte do Matadero marca o fim do Caminho de Cruces junto ao sítio original.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P18",
+      "factKey": "panama-antigo-F18",
+      "text": "O Caminho de Cruces é visto como antecessor direto da ferrovia do século XIX e do canal interoceânico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P19",
+      "factKey": "panama-antigo-F19",
+      "text": "A ferrovia (1850–55) e depois o canal (1880–1914) influenciaram o desenvolvimento do bairro histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P20",
+      "factKey": "panama-antigo-F20",
+      "text": "A arquitetura do bairro histórico combina influências colonial tardia, caribenha, da Costa do Golfo, francesa e eclética.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P21",
+      "factKey": "panama-antigo-F21",
+      "text": "Ruas e quarteirões de larguras e tamanhos diferentes cercam uma praça principal ampliada no século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P22",
+      "factKey": "panama-antigo-F22",
+      "text": "Boa parte das muralhas do lado do mar sobrevive, além de trechos de baluartes e do fosso do lado de terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P23",
+      "factKey": "panama-antigo-F23",
+      "text": "A travessia do istmo incluiu o transporte de africanos escravizados, e as ruínas se associam à diáspora africana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025",
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P24",
+      "factKey": "panama-antigo-F24",
+      "text": "O viaduto marítimo da Cinta Costera prejudicou a relação do bairro histórico com o mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_ICOMOS2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "panama-antigo-geografo-P25",
+      "factKey": "panama-antigo-F25",
+      "text": "Desenvolvimento urbano, obras de infraestrutura e gentrificação são as principais ameaças apontadas ao bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PANAMA_CR2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Conjunto da Cidade do Panamá que reúne as ruínas da cidade fundada em 1519 na costa do Pacífico, destruída após o ataque pirata de 1671, e o bairro histórico para onde ela foi transferida em 1673, numa pequena península ao pé do morro Ancón.",
+   "editorialNotes": [
+    "Em março de 2025 a ICOMOS recomendou inscrever a ‘Rota Colonial Transístmica do Panamá’, que reúne estas duas áreas, o Castelo de San Lorenzo e trechos do Caminho de Cruces; as pistas descrevem o lugar e não afirmam o status final dessa inscrição.",
+    "O relatório de 2017 diz que a cidade foi transferida ‘cerca de 7,5 km para sudeste’; como a direção não foi conferida em outra fonte, as pistas citam só a distância.",
+    "O Salón Bolívar fazia parte do bem inscrito em 1997, mas fica fora dos limites revistos na proposta de 2025; o nome do pirata (não citado nas fontes abertas) ficou fora das pistas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório de estado de conservação de 2017 (com a declaração de valor universal) e na avaliação da ICOMOS de 2025; C1 com nomes reais e comparáveis, C3 e C4 refeitos."
+  }
+ },
+ "sources": {
+  "PANAMA_CR2017": {
+   "title": "State of Conservation Report: Archaeological Site of Panamá Viejo and Historic District of Panamá (C 790bis), 2017",
+   "publisher": "República de Panamá / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/156437",
+   "id": "PANAMA_CR2017",
+   "checkedAt": "2026-11-15"
+  },
+  "PANAMA_ICOMOS2025": {
+   "title": "The Colonial Transisthmian Route of Panamá (No. 1582rev) — ICOMOS evaluation, 2025",
+   "publisher": "ICOMOS / UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/222007",
+   "id": "PANAMA_ICOMOS2025",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/156437",
+   "https://whc.unesco.org/document/222007"
+  ],
+  "alteracoes": [
+   "Fontes PANAMA790 (avaliações ICOMOS 2024, PDF) e PANAMA_EXTRA (lista indicativa 5970) substituídas pelo relatório de estado de conservação de 2017, que traz a declaração de valor universal (PANAMA_CR2017), e pela avaliação ICOMOS de 2025 da Rota Colonial Transístmica (PANAMA_ICOMOS2025).",
+   "C1: rótulo para ‘Patrimônio urbano histórico’; alternativas com nomes de bens reais e títulos do banco; retirados ‘Centro Histórico de Salvador’ (Brasil, fora do recorte), Veracruz e Oaxaca; Portobelo virou ‘Fortificações de Portobelo e San Lorenzo’.",
+   "C2: Guatemala trocada por Nicarágua (vizinhança mais comparável).",
+   "C3: alternativas espaçadas de 100 em 100 anos (1519/1619/1719/1819) trocadas por anos plausíveis do século XVI.",
+   "C4: ‘Localização marítima’ com opções implausíveis (Báltico, mar Negro) trocado por ‘Evento de 1671 que levou à transferência’ (ataque pirata e fogo), conforme as duas fontes.",
+   "Viajante: as 25 pistas reescritas ou trocadas; entraram istmo entre Caribe e Pacífico, primeiro povoado europeu no Pacífico, pedras reaproveitadas, foz do Río Abajo, catedral de cinco naves, Palácio Presidencial, congresso de 1826, ferrovia e canal, Cinta Costera, muralhas e ameaças.",
+   "Geógrafo: as 25 pistas reescritas para relações e processos (continuidade apesar da mudança, grade irregular, paralelos no sul da Espanha, rebelião, incêndio e terremoto, ilhas-porto e foz do futuro canal, Caminho Real e de Cruces por estação, diáspora africana, Cinta Costera, gentrificação); 32 ha com ano do relatório.",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas Viajante P06 e P21, Geógrafo P04 e P10; relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

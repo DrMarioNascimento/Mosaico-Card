@@ -183,6 +183,31 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Reservas de Mata Atlântica do Sudeste | Brasil / Sudeste e Sul |
 | Serra da Barriga | Brasil / Nordeste |
 | Teresina | Brasil / Nordeste |
+| Sítio Arqueológico Cais do Valongo | Brasil / Sudeste |
+| Centro Histórico de Diamantina | Brasil / Sudeste |
+| Centro Histórico de Bruges | Europa |
+| Cidade Antiga de Ávila e suas Igrejas Extramuros | Europa |
+| Gante | Europa |
+| Cidades Antigas de Djenné | África |
+| Parque Nacional Darién | Américas |
+| Cidade Antiga de Dubrovnik | Europa |
+| Parque Nacional Everglades | Américas |
+| Ilha de Gorée | África |
+| Área das Grandes Montanhas Azuis | Oceania |
+| Parque Nacional Gros Morne | Américas |
+| Parque Nacional Ilha do Coco | Américas |
+| Ilha de Moçambique | África |
+| Ilha Robben | África |
+| Sítio Agrícola Antigo de Kuk | Oceania |
+| Cidade Portuária Histórica de Levuka | Oceania |
+| Grupo de Ilhas Lord Howe | Oceania |
+| Rennell Oriental | Oceania |
+| Panamá Viejo e Distrito Histórico do Panamá | Américas |
+| Parque Nacional Impenetrável de Bwindi | África |
+| Parque Estadual de Itaúnas | Brasil / Sudeste |
+| Reservas de Mata Atlântica do Sudeste | Brasil / Sudeste e Sul |
+| Rio Grande | Brasil / Sul |
+| Santa Maria | Brasil / Sul |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -209,7 +234,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 194 lugares, 388 conjuntos de pistas (dois por lugar), 9.700 pistas, 776 perguntas distintas e 5.263 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 218 lugares, 436 conjuntos de pistas (dois por lugar), 10.900 pistas, 872 perguntas distintas e 5.840 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

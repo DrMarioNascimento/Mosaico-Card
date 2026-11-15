@@ -195,7 +195,31 @@
     "Porto Alegre",
     "Reservas de Mata Atlântica do Sudeste",
     "Serra da Barriga",
-    "Teresina"
+    "Teresina",
+    "Sítio Arqueológico Cais do Valongo",
+    "Centro Histórico de Diamantina",
+    "Centro Histórico de Bruges",
+    "Cidade Antiga de Ávila e suas Igrejas Extramuros",
+    "Gante",
+    "Cidades Antigas de Djenné",
+    "Parque Nacional Darién",
+    "Cidade Antiga de Dubrovnik",
+    "Parque Nacional Everglades",
+    "Ilha de Gorée",
+    "Área das Grandes Montanhas Azuis",
+    "Parque Nacional Gros Morne",
+    "Parque Nacional Ilha do Coco",
+    "Ilha de Moçambique",
+    "Ilha Robben",
+    "Sítio Agrícola Antigo de Kuk",
+    "Cidade Portuária Histórica de Levuka",
+    "Grupo de Ilhas Lord Howe",
+    "Rennell Oriental",
+    "Panamá Viejo e Distrito Histórico do Panamá",
+    "Parque Nacional Impenetrável de Bwindi",
+    "Parque Estadual de Itaúnas",
+    "Rio Grande",
+    "Santa Maria"
   ],
   "groups": {
     "Brasil Norte": [
@@ -290,7 +314,10 @@
       "Vila Velha",
       "Niterói",
       "Santuário do Bom Jesus de Matosinhos",
-      "Reservas de Mata Atlântica do Sudeste"
+      "Reservas de Mata Atlântica do Sudeste",
+      "Sítio Arqueológico Cais do Valongo",
+      "Centro Histórico de Diamantina",
+      "Parque Estadual de Itaúnas"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -317,7 +344,9 @@
       "Parque Nacional de Ilha Grande",
       "Parque Nacional de São Joaquim",
       "Pelotas",
-      "Pomerode"
+      "Pomerode",
+      "Rio Grande",
+      "Santa Maria"
     ],
     "América outros recortes": [
       "Peru",
@@ -348,7 +377,12 @@
       "Cidade Histórica de Quito",
       "Bairro Histórico de Colônia do Sacramento",
       "Sítio Maia de Copán",
-      "Linhas e Geoglifos de Nasca e Palpa"
+      "Linhas e Geoglifos de Nasca e Palpa",
+      "Parque Nacional Darién",
+      "Parque Nacional Everglades",
+      "Parque Nacional Gros Morne",
+      "Parque Nacional Ilha do Coco",
+      "Panamá Viejo e Distrito Histórico do Panamá"
     ],
     "Europa": [
       "Portugal",
@@ -366,7 +400,11 @@
       "Rio Danúbio",
       "Veneza",
       "Porto",
-      "Acrópole de Atenas"
+      "Acrópole de Atenas",
+      "Centro Histórico de Bruges",
+      "Cidade Antiga de Ávila e suas Igrejas Extramuros",
+      "Gante",
+      "Cidade Antiga de Dubrovnik"
     ],
     "África": [
       "Egito",
@@ -385,7 +423,12 @@
       "Serengeti",
       "Delta do Okavango",
       "Monte Quênia",
-      "Igrejas escavadas de Lalibela"
+      "Igrejas escavadas de Lalibela",
+      "Cidades Antigas de Djenné",
+      "Ilha de Gorée",
+      "Ilha de Moçambique",
+      "Ilha Robben",
+      "Parque Nacional Impenetrável de Bwindi"
     ],
     "Ásia": [
       "Japão",
@@ -422,7 +465,12 @@
       "Parque Nacional Tongariro",
       "Costa de Ningaloo",
       "Parque Nacional Fiordland",
-      "Parque Nacional Rapa Nui"
+      "Parque Nacional Rapa Nui",
+      "Área das Grandes Montanhas Azuis",
+      "Sítio Agrícola Antigo de Kuk",
+      "Cidade Portuária Histórica de Levuka",
+      "Grupo de Ilhas Lord Howe",
+      "Rennell Oriental"
     ],
     "Antártida": [
       "Polo Sul Geográfico",
