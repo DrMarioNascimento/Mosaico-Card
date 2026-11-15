@@ -170,6 +170,19 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional de Sete Cidades | Brasil / Nordeste |
 | Recife | Brasil / Nordeste |
 | Rio Parnaíba | Brasil / Nordeste |
+| Santuário do Bom Jesus de Matosinhos | Brasil / Sudeste |
+| Castelo de Himeji | Ásia |
+| Cidade Proibida | Ásia |
+| Reservas de Mata Atlântica da Costa do Descobrimento | Brasil / Nordeste e Sudeste |
+| Ilha de Jeju | Ásia |
+| Linhas e Geoglifos de Nasca e Palpa | Américas |
+| Parque Nacional de São Joaquim | Brasil / Sul |
+| Pelotas | Brasil / Sul |
+| Pomerode | Brasil / Sul |
+| Porto Alegre | Brasil / Sul |
+| Reservas de Mata Atlântica do Sudeste | Brasil / Sudeste e Sul |
+| Serra da Barriga | Brasil / Nordeste |
+| Teresina | Brasil / Nordeste |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -196,7 +209,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 181 lugares, 362 conjuntos de pistas (dois por lugar), 9.050 pistas, 724 perguntas distintas e 4.953 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 194 lugares, 388 conjuntos de pistas (dois por lugar), 9.700 pistas, 776 perguntas distintas e 5.263 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

@@ -1,0 +1,1062 @@
+{
+  "case": {
+    "id": "lug2-porto-alegre",
+    "placeId": "porto-alegre",
+    "title": "Porto Alegre",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Porto Alegre"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Curitiba"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Florianópolis"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Pelotas"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Santa Maria"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Caxias do Sul"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Canoas"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Joinville"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Blumenau"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Passo Fundo"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Foz do Iguaçu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Porto Alegre",
+        "sources": [
+          "POA_G20",
+          "POA_DEE_CENSO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Corpo d’água da orla",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Guaíba"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Lago Paranoá"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Lagoa Rodrigo de Freitas"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Lagoa da Pampulha"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Guaíba",
+        "sources": [
+          "POA_CATALOGO",
+          "POA_G20"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio que, com o Taquari, traz a maior parte da água que chega à orla",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Jacuí"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Uruguai"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Camaquã"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Ibicuí"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Jacuí",
+        "sources": [
+          "POA_RBRH"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano da cheia recorde que só foi superada em 2024",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1941"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1967"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1983"
+          },
+          {
+            "id": "C4-O4",
+            "text": "2015"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1941",
+        "sources": [
+          "POA_RBRH"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "porto-alegre-viajante-P01",
+            "factKey": "porto-alegre-F01",
+            "text": "É uma cidade grande do Sul do Brasil, à beira de muita água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P02",
+            "factKey": "porto-alegre-F02",
+            "text": "O clima é subtropical: verão quente e úmido, inverno frio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P03",
+            "factKey": "porto-alegre-F03",
+            "text": "É a capital de um estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P04",
+            "factKey": "porto-alegre-F04",
+            "text": "O estado é o Rio Grande do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P05",
+            "factKey": "porto-alegre-F05",
+            "text": "O pôr do sol na orla, junto a uma antiga usina, é um dos cartões-postais.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P06",
+            "factKey": "porto-alegre-F06",
+            "text": "A água da orla é chamada pela prefeitura de lago: o Guaíba.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P07",
+            "factKey": "porto-alegre-F07",
+            "text": "Passeios de barco saem ao lado da Usina do Gasômetro e chegam ao delta de um rio.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P08",
+            "factKey": "porto-alegre-F08",
+            "text": "O Mercado Público fica no centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P09",
+            "factKey": "porto-alegre-F09",
+            "text": "Mais de 80% do patrimônio arquitetônico da cidade está no centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P10",
+            "factKey": "porto-alegre-F10",
+            "text": "A Praça da Matriz reúne o Theatro São Pedro e a Catedral Metropolitana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P11",
+            "factKey": "porto-alegre-F11",
+            "text": "O Parque Farroupilha, apelidado de Redenção, tem alamedas arborizadas e um lago com peixes e tartarugas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P12",
+            "factKey": "porto-alegre-F12",
+            "text": "Aos domingos, uma feira, o Brique, ocupa esse parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P13",
+            "factKey": "porto-alegre-F13",
+            "text": "Nos parques, rodas de chimarrão são cena comum.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P14",
+            "factKey": "porto-alegre-F14",
+            "text": "Diante do aeroporto fica o Laçador, símbolo da tradição gaúcha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P15",
+            "factKey": "porto-alegre-F15",
+            "text": "A cidade se apresenta como capital mundial do churrasco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P16",
+            "factKey": "porto-alegre-F16",
+            "text": "Arroz de carreteiro é prato típico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P17",
+            "factKey": "porto-alegre-F17",
+            "text": "A Cidade Baixa é o bairro boêmio, com bares e música ao vivo em casas antigas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P18",
+            "factKey": "porto-alegre-F18",
+            "text": "O Bom Fim tem forte presença judaica e fica ao lado de um campus universitário central.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P19",
+            "factKey": "porto-alegre-F19",
+            "text": "A Fundação Iberê Camargo guarda mais de 4 mil obras do artista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P20",
+            "factKey": "porto-alegre-F20",
+            "text": "A Casa de Cultura Mário Quintana tem boa vista da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P21",
+            "factKey": "porto-alegre-F21",
+            "text": "A orla tem uma pista de skate apresentada como a maior da América Latina.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P22",
+            "factKey": "porto-alegre-F22",
+            "text": "Em maio de 2024, uma cheia histórica passou dos 5 metros e alagou bairros.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P23",
+            "factKey": "porto-alegre-F23",
+            "text": "Essa cheia bateu o recorde que vinha de 1941.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P24",
+            "factKey": "porto-alegre-F24",
+            "text": "Vento sul forte e persistente pode subir o nível da água perto da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-viajante-P25",
+            "factKey": "porto-alegre-F25",
+            "text": "A cidade já recebeu o Fórum Social Mundial, a Copa do Mundo e a Copa América.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "porto-alegre-geografo-P01",
+            "factKey": "porto-alegre-F01",
+            "text": "A capital estadual ocupa a margem de um corpo d’água que deságua numa grande laguna costeira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_RBRH",
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P02",
+            "factKey": "porto-alegre-F02",
+            "text": "A bacia que drena para a orla soma cerca de 85 mil km².",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P03",
+            "factKey": "porto-alegre-F03",
+            "text": "Jacuí, Taquari, Caí, Sinos e Gravataí convergem para o corpo d’água da orla.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P04",
+            "factKey": "porto-alegre-F04",
+            "text": "Na cheia de 2024, o baixo Jacuí e o Taquari responderam por cerca de 80% da vazão de entrada.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P05",
+            "factKey": "porto-alegre-F05",
+            "text": "A Laguna dos Patos, destino final dessas águas, tem cerca de 250 km de extensão e 10 mil km².",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P06",
+            "factKey": "porto-alegre-F06",
+            "text": "Ventos do sul persistentes elevam o nível em cerca de 50 cm junto à cidade; os de nordeste fazem o oposto.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P07",
+            "factKey": "porto-alegre-F07",
+            "text": "A prefeitura chama o corpo d’água de lago, enquanto parte da literatura técnica o trata como rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_CATALOGO",
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P08",
+            "factKey": "porto-alegre-F08",
+            "text": "O pico de 2024, em 5 de maio, chegou a cerca de 5,37 m, acima dos 4,76 m de 1941.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P09",
+            "factKey": "porto-alegre-F09",
+            "text": "O sistema de proteção contra cheias tem comportas e cota teórica de proteção de 6 m.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P10",
+            "factKey": "porto-alegre-F10",
+            "text": "Cerca de 151 mil moradores do município foram diretamente atingidos em 2024.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P11",
+            "factKey": "porto-alegre-F11",
+            "text": "Na região metropolitana, Canoas teve 154 mil atingidos diretos e São Leopoldo, 84 mil.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POA_RBRH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P12",
+            "factKey": "porto-alegre-F12",
+            "text": "O Censo 2022 contou 1.332.845 habitantes, queda de 5,4% em relação a 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_DEE_CENSO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P13",
+            "factKey": "porto-alegre-F13",
+            "text": "O centro histórico concentra mais de 80% do patrimônio arquitetônico municipal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P14",
+            "factKey": "porto-alegre-F14",
+            "text": "Antigos armazéns portuários viraram polo gastronômico no Cais Embarcadero.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P15",
+            "factKey": "porto-alegre-F15",
+            "text": "A Usina do Gasômetro, antiga instalação de energia, é hoje centro cultural na orla.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P16",
+            "factKey": "porto-alegre-F16",
+            "text": "Os roteiros fluviais alcançam o delta do principal rio formador do corpo d’água.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P17",
+            "factKey": "porto-alegre-F17",
+            "text": "A origem urbana remonta à colonização portuguesa, com influências indígenas e africanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P18",
+            "factKey": "porto-alegre-F18",
+            "text": "O Largo dos Açorianos e seu monumento estão entre os marcos do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO",
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P19",
+            "factKey": "porto-alegre-F19",
+            "text": "Moinhos de Vento é um dos bairros mais valorizados da cidade desde a década de 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P20",
+            "factKey": "porto-alegre-F20",
+            "text": "O Parque Marinha do Brasil soma 70 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P21",
+            "factKey": "porto-alegre-F21",
+            "text": "Morros como o do Osso e o da Tapera oferecem mirantes e trilhas dentro do município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P22",
+            "factKey": "porto-alegre-F22",
+            "text": "Os parques centrais funcionam como espaços de sociabilidade, com chimarrão e feira dominical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20",
+              "POA_CATALOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P23",
+            "factKey": "porto-alegre-F23",
+            "text": "Com economia diversificada, a cidade é polo político, cultural e econômico do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P24",
+            "factKey": "porto-alegre-F24",
+            "text": "Sediou reuniões do G20 em 2024.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "porto-alegre-geografo-P25",
+            "factKey": "porto-alegre-F25",
+            "text": "O Sítio do Laçador, defronte ao aeroporto, é referência simbólica do tradicionalismo gaúcho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POA_G20"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do Rio Grande do Sul, à margem do Guaíba, formado sobretudo pelo Jacuí e pelo Taquari, com centro histórico, Parque Farroupilha (Redenção), Laçador e a cheia recorde de maio de 2024, que superou a de 1941.",
+      "editorialNotes": [
+        "A página do G20 tem erros copiados de outra cidade (população de 2.063.689 e aeroporto de Manaus); dela só se usaram descrições qualitativas, e a população vem do caderno do DEE/RS (Censo 2022).",
+        "O pico de 2024 aparece como 5,37 m no artigo da RBRH; outras medições divulgadas falam em 5,33 m a 5,35 m. A pista do Viajante usa \"passou dos 5 metros\".",
+        "Guaíba: a prefeitura usa \"lago\", e a literatura hidrológica também usa \"rio\"; o gabarito usa só \"Guaíba\"."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por catálogo da prefeitura, artigo da RBRH e caderno do DEE/RS abertos na revisão; C3–C4 refeitos e pistas conferidas"
+    }
+  },
+  "sources": {
+    "POA_G20": {
+      "id": "POA_G20",
+      "title": "Porto Alegre - RS (cidades-sede do G20)",
+      "publisher": "Governo Federal, G20 Brasil",
+      "url": "https://www.gov.br/g20/en/about-the-g20/host-cities/porto-alegre-rs",
+      "checkedAt": "2026-11-15"
+    },
+    "POA_CATALOGO": {
+      "id": "POA_CATALOGO",
+      "title": "Catálogo digital de turismo de Porto Alegre",
+      "publisher": "Prefeitura de Porto Alegre (SMDET)",
+      "url": "https://prefeitura.poa.br/sites/default/files/usu_doc/projetos/smdet/Mais%20Turismo/CatDIGITAL_POATurismo_v5_compressed.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "POA_RBRH": {
+      "id": "POA_RBRH",
+      "title": "Emergency forecasts for water levels in the Guaíba River during the 2024 unprecedented flood in South Brazil",
+      "publisher": "Revista Brasileira de Recursos Hídricos (ABRHidro), v. 30, 2025",
+      "url": "https://www.scielo.br/j/rbrh/a/74F5ZgMCwcpFVyTMJfJwq5n/?lang=en",
+      "checkedAt": "2026-11-15"
+    },
+    "POA_DEE_CENSO": {
+      "id": "POA_DEE_CENSO",
+      "title": "Cadernos RS no Censo 2022: População",
+      "publisher": "Departamento de Economia e Estatística (DEE/SPGG), Governo do Estado do Rio Grande do Sul (2024)",
+      "url": "https://www.estado.rs.gov.br/upload/arquivos/202412/cadernosrsnocenso-populacao-3.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.gov.br/g20/en/about-the-g20/host-cities/porto-alegre-rs",
+      "https://prefeitura.poa.br/sites/default/files/usu_doc/projetos/smdet/Mais%20Turismo/CatDIGITAL_POATurismo_v5_compressed.pdf",
+      "https://www.scielo.br/j/rbrh/a/74F5ZgMCwcpFVyTMJfJwq5n/?lang=en",
+      "https://www.estado.rs.gov.br/upload/arquivos/202412/cadernosrsnocenso-populacao-3.pdf"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho SULPORTOALEGREG20 (versão pt-br), SULPOAUFRGS, SULPORTOALEGREENCHENTE e IBGESULPOA não abertas; usadas a versão em inglês da página do G20, o catálogo de turismo da prefeitura, o artigo da RBRH (2025) e o caderno do DEE/RS sobre o Censo 2022",
+      "C3: de \"Parque também chamado Redenção\" (rótulo que entrega a cidade) para \"Rio que, com o Taquari, traz a maior parte da água que chega à orla\", gabarito Jacuí",
+      "C4: de \"Estado brasileiro\" para \"Ano da cheia recorde que só foi superada em 2024\", gabarito 1941 (RBRH)",
+      "Retiradas pistas sem apoio nas fontes abertas: captação de água bruta no Jacuí e estações de tratamento, Parque Estadual Delta do Jacuí e APA, Região Hidrográfica do Guaíba, nome do aeroporto (a página do G20 traz o de Manaus)",
+      "viajante P25 e geografo P25 (cheia de 1941, fonte da Brigada Militar não aberta) refeitas com os níveis de 1941 e 2024 da RBRH",
+      "População de \"aproximadamente 1,33 milhão\" confirmada e detalhada (1.332.845, queda de 5,4%) com fonte do DEE/RS",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields passam a apontar C2–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

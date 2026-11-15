@@ -1,0 +1,1067 @@
+{
+  "case": {
+    "id": "lug2-ilha-jeju",
+    "placeId": "ilha-jeju",
+    "title": "Ilha de Jeju",
+    "aliases": [
+      "Jeju",
+      "Ilha vulcânica e tubos de lava de Jeju"
+    ],
+    "answerType": "ilha vulcânica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "KR"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Ilha vulcânica",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Ilha de Jeju"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Ilha de Ulleungdo"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Ilha de Sakurajima"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Ilha de Aogashima"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ilha de Miyakejima"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilha de Izu Oshima"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Ilha de Hachijojima"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Ilha de Surtsey"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Ilha do Pico"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Ilha Isabela"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Ilha de Tenerife"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilha de Lanzarote"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Ilha de Jeju",
+        "sources": [
+          "JEJ_IUCN_EVAL",
+          "JEJ_OUTLOOK"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Coreia do Sul"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Japão"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Islândia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Espanha"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Coreia do Sul",
+        "sources": [
+          "JEJ_IUCN_EVAL",
+          "JEJ_OUTLOOK"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Tipo de erupção que formou o cone de tufo do litoral",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Surtseiana"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pliniana"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Havaiana"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Estromboliana"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Surtseiana",
+        "sources": [
+          "JEJ_IUCN_EVAL",
+          "JEJ_OUTLOOK"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Altitude do ponto mais alto da ilha",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Cerca de 1.950 m"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cerca de 1.000 m"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Cerca de 2.500 m"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cerca de 3.200 m"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Cerca de 1.950 m",
+        "sources": [
+          "JEJ_IUCN_EVAL"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "ilha-jeju-viajante-P01",
+            "factKey": "ilha-jeju-F01",
+            "text": "Este destino é uma ilha nascida de vulcões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P02",
+            "factKey": "ilha-jeju-F02",
+            "text": "A paisagem mistura montanha, cones vulcânicos, cavernas e mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P03",
+            "factKey": "ilha-jeju-F03",
+            "text": "A ilha pertence à Coreia do Sul.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P04",
+            "factKey": "ilha-jeju-F04",
+            "text": "É o pedaço de território mais ao sul do país.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P05",
+            "factKey": "ilha-jeju-F05",
+            "text": "A ilha inteira é um grande vulcão do tipo escudo, com cerca de 1,2 milhão de anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P06",
+            "factKey": "ilha-jeju-F06",
+            "text": "Centenas de pequenos cones vulcânicos se espalham pela ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P07",
+            "factKey": "ilha-jeju-F07",
+            "text": "A montanha mais alta do país fica nesta ilha.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P08",
+            "factKey": "ilha-jeju-F08",
+            "text": "Essa montanha chega a 1.950 metros de altitude.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P09",
+            "factKey": "ilha-jeju-F09",
+            "text": "No topo da montanha há uma cratera com um lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P10",
+            "factKey": "ilha-jeju-F10",
+            "text": "A montanha tem cachoeiras e paredões de rocha em forma de colunas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P11",
+            "factKey": "ilha-jeju-F11",
+            "text": "Mais de 1.800 espécies de plantas vivem nessa montanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P12",
+            "factKey": "ilha-jeju-F12",
+            "text": "Perto do cume cresce uma floresta de abetos-coreanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P13",
+            "factKey": "ilha-jeju-F13",
+            "text": "No litoral, um cone de rocha com paredes quase verticais sai direto do oceano.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P14",
+            "factKey": "ilha-jeju-F14",
+            "text": "Esse cone, com jeito de fortaleza, tem 179 metros de altura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P15",
+            "factKey": "ilha-jeju-F15",
+            "text": "A cratera no alto do cone tem cerca de 570 metros de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P16",
+            "factKey": "ilha-jeju-F16",
+            "text": "Cerca de 120 cavernas formadas por lava são conhecidas na ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P17",
+            "factKey": "ilha-jeju-F17",
+            "text": "Dentro das cavernas, as paredes de lava escura ganham enfeites minerais coloridos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P18",
+            "factKey": "ilha-jeju-F18",
+            "text": "Uma dessas cavernas tem um lago onde já foram achados peixes cegos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P19",
+            "factKey": "ilha-jeju-F19",
+            "text": "A caverna mais longa do sistema protegido passa de 7 quilômetros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P20",
+            "factKey": "ilha-jeju-F20",
+            "text": "O cone do litoral se chama Seongsan Ilchulbong.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P21",
+            "factKey": "ilha-jeju-F21",
+            "text": "A montanha mais alta, o Hallasan, recebeu mais de 900 mil visitantes em 2023.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P22",
+            "factKey": "ilha-jeju-F22",
+            "text": "A UNESCO reconheceu o patrimônio natural da ilha em 2007.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P23",
+            "factKey": "ilha-jeju-F23",
+            "text": "As áreas reconhecidas pela UNESCO cobrem cerca de 10% da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P24",
+            "factKey": "ilha-jeju-F24",
+            "text": "Desde 2020, subir a montanha mais alta exige reserva.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-viajante-P25",
+            "factKey": "ilha-jeju-F25",
+            "text": "O excesso de turistas é a principal preocupação da conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "ilha-jeju-geografo-P01",
+            "factKey": "ilha-jeju-F01",
+            "text": "O sítio documenta a história do planeta e processos geológicos em um território insular vulcânico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P02",
+            "factKey": "ilha-jeju-F02",
+            "text": "O bem é serial: três áreas separadas somam 18.846 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P03",
+            "factKey": "ilha-jeju-F03",
+            "text": "A ilha, com 183.160 ha, é o extremo sul do território do país.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P04",
+            "factKey": "ilha-jeju-F04",
+            "text": "Erupções fissurais sobre uma placa de crosta continental estacionária construíram um vulcão em escudo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P05",
+            "factKey": "ilha-jeju-F05",
+            "text": "Vulcões em escudo desse tipo são raros no mundo, o que dá ao sítio valor comparativo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P06",
+            "factKey": "ilha-jeju-F06",
+            "text": "A atividade secundária gerou centenas de cones, em geral de escória, com cones de tufo no litoral.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P07",
+            "factKey": "ilha-jeju-F07",
+            "text": "Cinco tubos de lava nasceram de lavas emitidas por um cone de escória entre cerca de 300 mil e 100 mil anos atrás.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P08",
+            "factKey": "ilha-jeju-F08",
+            "text": "Três desses tubos formam uma única passagem de mais de 13 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P09",
+            "factKey": "ilha-jeju-F09",
+            "text": "Carbonatos secundários revestem tetos, pisos e paredes de lava escura de parte dos tubos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P10",
+            "factKey": "ilha-jeju-F10",
+            "text": "A avaliação da IUCN considera os espeleotemas carbonáticos desses tubos sem paralelo entre exemplos comparáveis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P11",
+            "factKey": "ilha-jeju-F11",
+            "text": "O cone costeiro formou-se numa erupção surtseiana em fundo marinho raso, entre cerca de 120 mil e 40 mil anos atrás.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P12",
+            "factKey": "ilha-jeju-F12",
+            "text": "Esse cone é referência mundial para estudar erupções do tipo surtseiano, ocorridas em mar raso.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P13",
+            "factKey": "ilha-jeju-F13",
+            "text": "A cratera do cume da montanha principal, com cerca de 550 m de diâmetro, abriga um lago.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P14",
+            "factKey": "ilha-jeju-F14",
+            "text": "Paredões de basalto com disjunção colunar e cachoeiras marcam a montanha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL",
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P15",
+            "factKey": "ilha-jeju-F15",
+            "text": "Espécies no limite norte ou sul de sua distribuição convivem com espécies endêmicas da ilha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P16",
+            "factKey": "ilha-jeju-F16",
+            "text": "Quatro das 20 espécies de mamíferos da ilha são endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P17",
+            "factKey": "ilha-jeju-F17",
+            "text": "O aumento das temperaturas já reduziu uma população de coníferas na montanha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P18",
+            "factKey": "ilha-jeju-F18",
+            "text": "A extração crescente e a intrusão de água do mar reduzem a quantidade e a qualidade da água subterrânea.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P19",
+            "factKey": "ilha-jeju-F19",
+            "text": "A subida do nível do mar já provoca erosão costeira junto ao cone de tufo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P20",
+            "factKey": "ilha-jeju-F20",
+            "text": "Fertilizantes de lavouras vizinhas podem infiltrar-se nas cavernas, segundo a avaliação técnica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P21",
+            "factKey": "ilha-jeju-F21",
+            "text": "A vibração de veículos afeta uma das cavernas, e o limite de velocidade na estrada acima dela caiu de 70 para 60 km/h.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P22",
+            "factKey": "ilha-jeju-F22",
+            "text": "A ilha soma quatro designações internacionais sobrepostas: Patrimônio Mundial, Reserva da Biosfera, Geoparque Global e sítio Ramsar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P23",
+            "factKey": "ilha-jeju-F23",
+            "text": "Um segundo aeroporto planejado deve ampliar a visitação, pressão vista como ameaça alta fora do sítio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P24",
+            "factKey": "ilha-jeju-F24",
+            "text": "O sistema Geomunoreum, que inclui a caverna Manjanggul, é tido como o melhor sistema de tubos de lava do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_OUTLOOK",
+              "JEJ_UNESCO_SR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "ilha-jeju-geografo-P25",
+            "factKey": "ilha-jeju-F25",
+            "text": "Na avaliação de 2007, cerca de 16% do bem era terra privada, e direitos privados ainda limitam parte da regulação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "JEJ_IUCN_EVAL",
+              "JEJ_OUTLOOK"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Ilha vulcânica no extremo sul da Coreia do Sul, formada por um vulcão em escudo; o bem natural da UNESCO (2007) reúne o monte Halla, o cone de tufo de Seongsan Ilchulbong e o sistema de tubos de lava Geomunoreum.",
+      "editorialNotes": [
+        "Título ajustado de ‘Ilha vulcânica e tubos de lava de Jeju’ (nome do bem da UNESCO, mantido como alias) para ‘Ilha de Jeju’, para que o C1 fique comparável às outras ilhas.",
+        "O bem inscrito cobre cerca de 10% da ilha (18.846 ha de 183.160 ha); as pistas sobre a ilha inteira (vulcão em escudo, cones, 120 cavernas) vêm da avaliação técnica da IUCN de 2007.",
+        "Visitantes: 2005 na avaliação da IUCN e 2023 no Outlook de 2025; a pista usa só o dado de 2023 para o Hallasan."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na avaliação técnica da IUCN (2007), no IUCN World Heritage Outlook (2025) e na UNESCO; título e C1 tornados comparáveis, C2–C4 refeitos para não entregar o lugar."
+    }
+  },
+  "sources": {
+    "JEJ_IUCN_EVAL": {
+      "id": "JEJ_IUCN_EVAL",
+      "title": "Jeju Volcanic Island and Lava Tubes (Republic of Korea) — IUCN Technical Evaluation (2007)",
+      "publisher": "IUCN / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/152211",
+      "checkedAt": "2026-11-15"
+    },
+    "JEJ_OUTLOOK": {
+      "id": "JEJ_OUTLOOK",
+      "title": "Jeju Volcanic Island and Lava Tubes — Conservation Outlook Assessment (2025)",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1146",
+      "checkedAt": "2026-11-15"
+    },
+    "JEJ_UNESCO_SR": {
+      "id": "JEJ_UNESCO_SR",
+      "title": "Jeju Volcanic Island and Lava Tubes",
+      "publisher": "UNESCO — Silk Roads Programme",
+      "url": "https://en.unesco.org/silkroad/silk-road-themes/biosphere-reserve/jeju-volcanic-island-and-lava-tubes",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/152211",
+      "https://worldheritageoutlook.iucn.org/node/1146",
+      "https://en.unesco.org/silkroad/silk-road-themes/biosphere-reserve/jeju-volcanic-island-and-lava-tubes"
+    ],
+    "alteracoes": [
+      "Título: ‘Ilha vulcânica e tubos de lava de Jeju’ virou ‘Ilha de Jeju’ (o nome antigo ficou como alias e a pista não pode citá-lo); no C1, a única alternativa em formato diferente destoava das ‘Ilha de X’.",
+      "Fontes: ASIA_JEJ_UNESCO (/en/list/, não aberta) e ASIA_JEJ_VISIT (não aberta) saíram; ASIA_JEJ_IUCN (arquivo do relatório de 2007, não aberto) trocada pela avaliação técnica no centro de documentos da UNESCO (JEJ_IUCN_EVAL); acrescentados o IUCN World Heritage Outlook (JEJ_OUTLOOK) e a página da UNESCO (JEJ_UNESCO_SR).",
+      "C1: Yakushima (ilha granítica) trocada por Lanzarote. C2: Indonésia e Filipinas trocadas por Islândia e Espanha, países de outras alternativas do C1.",
+      "C3: o rótulo citava cones com nomes coreanos (entregava o país); agora ‘Tipo de erupção que formou o cone de tufo do litoral’, gabarito Surtseiana (IUCN).",
+      "C4: ‘Rocha predominante em vulcões de escudo’ (conhecimento geral, sem ligação com o lugar) trocada por ‘Altitude do ponto mais alto da ilha’, gabarito cerca de 1.950 m (IUCN).",
+      "Viajante: 25 pistas reescritas ou trocadas, com números verificados (1,2 milhão de anos, 1.950 m, 179 m, 570 m, 120 cavernas, caverna de 7 km, 2007, 10% da ilha, reserva desde 2020).",
+      "Geógrafo: 25 pistas reescritas ou trocadas para processos (erupções fissurais, cones secundários, idade dos tubos e do cone, carbonatos, endemismos, água subterrânea, nível do mar, designações sobrepostas); G P04 (‘perfis amplos e baixos’) saiu por não estar nas fontes.",
+      "Sinais: aberturas P01–P02 nos dois perfis; decisivas P20–P21 (Viajante) e P22 e P24 (Geógrafo); relatedFields ampliados para C2–C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

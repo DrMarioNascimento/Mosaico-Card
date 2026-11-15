@@ -1,0 +1,1070 @@
+{
+  "case": {
+    "id": "lug2-castelo-himeji",
+    "placeId": "castelo-himeji",
+    "title": "Castelo de Himeji",
+    "aliases": [
+      "Himeji"
+    ],
+    "answerType": "castelo japonês",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "JP"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Castelo japonês",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Castelo de Himeji"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Castelo de Matsumoto"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Castelo de Osaka"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Castelo de Hikone"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Castelo de Matsue"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Castelo de Inuyama"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Castelo de Kochi"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Castelo de Hirosaki"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Castelo de Kumamoto"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Castelo de Nagoya"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Castelo de Akashi"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Castelo de Nijo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Castelo de Himeji",
+        "sources": [
+          "HIM_ICOMOS",
+          "HIM_OFICIAL"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Acabamento que marca as paredes",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Reboco branco de cal"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Tábuas de madeira pintadas de preto"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Tijolos aparentes"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Pedra sem reboco"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Reboco branco de cal",
+        "sources": [
+          "HIM_OFICIAL",
+          "HIM_ICOMOS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Apelido tradicional",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Castelo da Garça Branca"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Castelo do Corvo"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Castelo da Carpa"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Castelo do Dragão Azul"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Castelo da Garça Branca",
+        "sources": [
+          "HIM_ICOMOS",
+          "HIM_OFICIAL"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Senhor que ergueu o torreão atual (1601–1609)",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Ikeda Terumasa"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Oda Nobunaga"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Kato Kiyomasa"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Date Masamune"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Ikeda Terumasa",
+        "sources": [
+          "HIM_OFICIAL",
+          "HIM_JTA_DEF"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "castelo-himeji-viajante-P01",
+            "factKey": "castelo-himeji-F01",
+            "text": "Este destino é uma fortificação histórica cercada por muralhas e fossos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P02",
+            "factKey": "castelo-himeji-F02",
+            "text": "O conjunto ocupa uma colina baixa e pode ser visto de toda a cidade ao redor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P03",
+            "factKey": "castelo-himeji-F03",
+            "text": "Fica no Japão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P04",
+            "factKey": "castelo-himeji-F04",
+            "text": "A cidade fica na província de Hyogo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P05",
+            "factKey": "castelo-himeji-F05",
+            "text": "Quase tudo o que se vê hoje foi construído entre 1601 e 1609.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HIM_ICOMOS",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P06",
+            "factKey": "castelo-himeji-F06",
+            "text": "A estrutura principal é uma grande construção de madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P07",
+            "factKey": "castelo-himeji-F07",
+            "text": "As paredes são cobertas por um reboco branco.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIM_ICOMOS",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P08",
+            "factKey": "castelo-himeji-F08",
+            "text": "Esse reboco, feito à base de cal, ajuda a resistir ao fogo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P09",
+            "factKey": "castelo-himeji-F09",
+            "text": "A cor clara das paredes rendeu ao lugar o apelido de uma ave.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P10",
+            "factKey": "castelo-himeji-F10",
+            "text": "No centro, um torreão principal se liga a três torreões menores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P11",
+            "factKey": "castelo-himeji-F11",
+            "text": "O torreão principal tem seis andares acima do chão e um porão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL",
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P12",
+            "factKey": "castelo-himeji-F12",
+            "text": "Dois pilares centrais de 24,5 metros atravessam o torreão de alto a baixo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P13",
+            "factKey": "castelo-himeji-F13",
+            "text": "Ao todo, são 83 construções, entre torreões, torres de vigia, portões e muros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P14",
+            "factKey": "castelo-himeji-F14",
+            "text": "Para chegar ao centro, era preciso passar por uma série de portões fortificados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_DEF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P15",
+            "factKey": "castelo-himeji-F15",
+            "text": "As defesas tinham seteiras para atiradores e arqueiros e buracos para jogar pedras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_DEF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P16",
+            "factKey": "castelo-himeji-F16",
+            "text": "O apelido tradicional do lugar é Castelo da Garça Branca.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "HIM_ICOMOS",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P17",
+            "factKey": "castelo-himeji-F17",
+            "text": "Onze figuras decorativas chamadas shachi enfeitam o torreão principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P18",
+            "factKey": "castelo-himeji-F18",
+            "text": "Em 1945, bombardeios destruíram boa parte da cidade, mas o castelo escapou quase intacto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL",
+              "HIM_JTA_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P19",
+            "factKey": "castelo-himeji-F19",
+            "text": "No pátio oeste, uma galeria comprida tem cerca de 240 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P20",
+            "factKey": "castelo-himeji-F20",
+            "text": "O torreão principal chegou a ser desmontado para reparos, em obras concluídas em 1964.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL",
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P21",
+            "factKey": "castelo-himeji-F21",
+            "text": "Uma grande restauração mais recente durou de 2009 a 2015.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P22",
+            "factKey": "castelo-himeji-F22",
+            "text": "O torreão principal é Tesouro Nacional do Japão desde 1931.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P23",
+            "factKey": "castelo-himeji-F23",
+            "text": "A UNESCO reconheceu o conjunto como Patrimônio Mundial em 1993.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P24",
+            "factKey": "castelo-himeji-F24",
+            "text": "Antes do castelo atual, Toyotomi Hideyoshi fez dali sua base e ergueu um torreão de três andares.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HIM_OFICIAL",
+              "HIM_JTA_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-viajante-P25",
+            "factKey": "castelo-himeji-F25",
+            "text": "Os muros de pedra guardam cerca de 90 marcas gravadas, com uns 50 símbolos diferentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "castelo-himeji-geografo-P01",
+            "factKey": "castelo-himeji-F01",
+            "text": "O conjunto fortificado de madeira e pedra combina função defensiva e apelo estético.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P02",
+            "factKey": "castelo-himeji-F02",
+            "text": "A implantação sobre uma colina baixa garante visibilidade a partir de toda a área urbana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P03",
+            "factKey": "castelo-himeji-F03",
+            "text": "O bem fica na província de Hyogo, no Japão, e é gerido pela prefeitura municipal desde 1930.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P04",
+            "factKey": "castelo-himeji-F04",
+            "text": "Duas cercaduras concêntricas, definidas por muralhas e fossos, estruturavam o conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P05",
+            "factKey": "castelo-himeji-F05",
+            "text": "A defesa se organizava em três anéis: a cidade externa, os bairros de samurais e o núcleo do castelo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_DEF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P06",
+            "factKey": "castelo-himeji-F06",
+            "text": "Entre 1601 e 1609, fossos e diques de terra foram abertos para fortificar a cidade em volta.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HIM_JTA_DEF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P07",
+            "factKey": "castelo-himeji-F07",
+            "text": "O núcleo reúne um torreão principal e três torreões subsidiários unidos por estruturas de ligação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P08",
+            "factKey": "castelo-himeji-F08",
+            "text": "Torres de vigia, portões e muros de terra rebocados envolvem os torreões centrais.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P09",
+            "factKey": "castelo-himeji-F09",
+            "text": "Os muros de pedra mostram três técnicas de assentamento, ligadas a fases sucessivas da obra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P10",
+            "factKey": "castelo-himeji-F10",
+            "text": "As grandes muralhas de pedra se difundiram no país depois da chegada das armas de fogo europeias, em 1543.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P11",
+            "factKey": "castelo-himeji-F11",
+            "text": "O reboco de cal cobre os dois lados das paredes, com cerca de 30 mm na face externa, e as torna resistentes ao fogo.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P12",
+            "factKey": "castelo-himeji-F12",
+            "text": "As paredes do torreão afinam com a altura: cerca de 45 cm nos primeiros andares e 30 cm nos últimos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P13",
+            "factKey": "castelo-himeji-F13",
+            "text": "A estrutura do torreão sobe em bloco até o terceiro andar, com pavimentos cada vez menores acima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P14",
+            "factKey": "castelo-himeji-F14",
+            "text": "Após a batalha de Sekigahara (1600), o domínio passou a Ikeda Terumasa, que substituiu o castelo anterior.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "HIM_OFICIAL",
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P15",
+            "factKey": "castelo-himeji-F15",
+            "text": "As torres do pátio oeste, posteriores a 1617, ligam-se à fase em que o clã Honda ampliou o conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P16",
+            "factKey": "castelo-himeji-F16",
+            "text": "O complexo é visto como símbolo do feudalismo que vigorou no país até a restauração de 1868.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P17",
+            "factKey": "castelo-himeji-F17",
+            "text": "A avaliação da UNESCO o considera o ápice da arquitetura japonesa de castelos em madeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P18",
+            "factKey": "castelo-himeji-F18",
+            "text": "Em 1873, foi um dos 56 castelos escolhidos para preservação e passou a abrigar uma base do Exército Imperial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_JTA_HIST",
+              "HIM_OFICIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P19",
+            "factKey": "castelo-himeji-F19",
+            "text": "O subsolo fraco provocava deslocamentos, e a forte atividade sísmica da região exigiu uma nova fundação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P20",
+            "factKey": "castelo-himeji-F20",
+            "text": "Entre 1934 e 1964, obras nacionais desmontaram o torreão principal e o assentaram sobre uma laje de concreto armado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P21",
+            "factKey": "castelo-himeji-F21",
+            "text": "Os senhores feudais faziam reparos regulares nos séculos XVII, XVIII e XIX.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P22",
+            "factKey": "castelo-himeji-F22",
+            "text": "A área inscrita tem 107 ha, envolvida por uma zona de amortecimento de 143 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P23",
+            "factKey": "castelo-himeji-F23",
+            "text": "Das 83 construções, oito são Tesouros Nacionais e as demais, Bens Culturais Importantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P24",
+            "factKey": "castelo-himeji-F24",
+            "text": "Limites de altura para os prédios do entorno ajudam a proteger a paisagem do conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "castelo-himeji-geografo-P25",
+            "factKey": "castelo-himeji-F25",
+            "text": "As paredes brancas do torreão explicam o apelido Shirasagi-jo, o ‘Castelo da Garça Branca’.",
+            "relatedFields": [
+              "C1",
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "HIM_ICOMOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "critical",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Castelo da província de Hyogo, no Japão, erguido em grande parte entre 1601 e 1609, com torreão principal de madeira ligado a três torreões menores e paredes de reboco branco que lhe deram o apelido de Castelo da Garça Branca.",
+      "editorialNotes": [
+        "O documento da ICOMOS traz a data de recebimento da candidatura (1º/10/1992) e a avaliação de outubro de 1993; o ano de inscrição (1993) vem da linha do tempo da Agência de Turismo do Japão.",
+        "As obras de restauro têm datas diferentes conforme a fonte: a ICOMOS fala em obras nacionais de 1934 a 1964; o site oficial situa a reforma do torreão entre 1956 e 1964, e a linha do tempo da Agência de Turismo fala em desmonte a partir de 1956, por nove anos.",
+        "No C4, Toyotomi Hideyoshi (que ergueu um castelo anterior no mesmo morro) ficou fora das alternativas para não criar ambiguidade."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na avaliação da ICOMOS, no site oficial do castelo e na base da Agência de Turismo do Japão; C2 e C4 refeitos e pistas do Geógrafo voltadas a defesa, técnica construtiva e conservação."
+    }
+  },
+  "sources": {
+    "HIM_ICOMOS": {
+      "id": "HIM_ICOMOS",
+      "title": "Himeji-jo — Advisory Body Evaluation (ICOMOS, 1993)",
+      "publisher": "UNESCO World Heritage Centre / ICOMOS",
+      "url": "https://whc.unesco.org/document/153975",
+      "checkedAt": "2026-11-15"
+    },
+    "HIM_OFICIAL": {
+      "id": "HIM_OFICIAL",
+      "title": "History — Himeji Castle",
+      "publisher": "Himeji Castle (site oficial)",
+      "url": "https://himejicastle.jp/en/guide/history",
+      "checkedAt": "2026-11-15"
+    },
+    "HIM_JTA_HIST": {
+      "id": "HIM_JTA_HIST",
+      "title": "Himeji Castle History",
+      "publisher": "Japan Tourism Agency (MLIT) — Multilingual Commentary Database",
+      "url": "https://www.mlit.go.jp/tagengo-db/common/001561134.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "HIM_JTA_DEF": {
+      "id": "HIM_JTA_DEF",
+      "title": "Himeji's Defenses",
+      "publisher": "Japan Tourism Agency (MLIT) — Multilingual Commentary Database",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-00693.html",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/153975",
+      "https://himejicastle.jp/en/guide/history",
+      "https://www.mlit.go.jp/tagengo-db/common/001561134.pdf",
+      "https://www.mlit.go.jp/tagengo-db/en/R1-00693.html"
+    ],
+    "alteracoes": [
+      "Fontes: ASIA_HIM_UNESCO (página /en/list/, não aberta) trocada pela avaliação da ICOMOS no centro de documentos da UNESCO (HIM_ICOMOS); ASIA_HIM_CITY (PDF da prefeitura, não aberto) trocada pelo site oficial do castelo (HIM_OFICIAL); acrescentadas duas fichas da Agência de Turismo do Japão (HIM_JTA_HIST e HIM_JTA_DEF).",
+      "C2: rótulo e alternativas reescritos (‘Reboco branco de cal’ contra madeira pintada de preto, tijolo e pedra); gabarito equivalente ao do rascunho.",
+      "C3: gabarito mantido (Castelo da Garça Branca); distratores trocados por apelidos plausíveis.",
+      "C4: ‘Período da arquitetura’ (distratores dos séculos XIII, XIX e XXI, óbvios) trocado por ‘Senhor que ergueu o torreão atual (1601–1609)’, gabarito Ikeda Terumasa (site oficial e Agência de Turismo).",
+      "Viajante: 25 pistas reescritas ou trocadas; saíram afirmações vagas sem apoio (P19 vista de vários pontos, P25 combinação defesa/estética) e entraram fatos verificados (seis andares e porão, pilares de 24,5 m, 83 construções, shachi, 1945, Tesouro Nacional 1931, restauro 2009–2015, Hideyoshi).",
+      "Geógrafo: 25 pistas reescritas ou trocadas; G P03 (planície de Harima) e G P04 (área de circulação) saíram por falta de apoio; G P15 (queda do xogunato em 1868) virou o critério iii da ICOMOS; entraram anéis de defesa, técnicas de muro, subsolo e sismos, 107/143 ha e controles de altura.",
+      "Sinais: aberturas P01–P02 nos dois perfis; decisivas P16 e P24 (Viajante) e P14 e P25 (Geógrafo); relatedFields ampliados para C2–C4 onde a pista informa o campo."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

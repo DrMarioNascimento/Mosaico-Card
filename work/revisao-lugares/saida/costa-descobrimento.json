@@ -1,0 +1,1055 @@
+{
+ "case": {
+  "id": "lug2-costa-descobrimento",
+  "placeId": "costa-descobrimento",
+  "title": "Reservas de Mata Atlântica da Costa do Descobrimento",
+  "aliases": [
+   "Costa do Descobrimento"
+  ],
+  "answerType": "conjunto de áreas protegidas",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste",
+    "sudeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Conjunto de áreas protegidas",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Reservas de Mata Atlântica da Costa do Descobrimento"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Reservas de Mata Atlântica do Sudeste"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Complexo de Conservação da Amazônia Central"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Áreas Protegidas do Cerrado: Chapada dos Veadeiros e Emas"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Área de Conservação do Pantanal"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Paraty e Ilha Grande – Cultura e Biodiversidade"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilhas Atlânticas Brasileiras: Fernando de Noronha e Atol das Rocas"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Reservas Florestais de Gondwana da Austrália"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parques Nacionais do Lago Turkana"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Reserva Natural de Sian Ka’an"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional do Iguaçu"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional de Iguazú"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Reservas de Mata Atlântica da Costa do Descobrimento",
+    "sources": [
+     "COSTA_IUCN",
+     "COSTA_CNUC_PASCOAL",
+     "COSTA_CNUC_UNA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Bioma protegido",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Mata Atlântica"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cerrado"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Caatinga"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Pantanal"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Mata Atlântica",
+    "sources": [
+     "COSTA_IUCN",
+     "COSTA_CNUC_PASCOAL",
+     "COSTA_CNUC_UNA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estados abrangidos",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Bahia e Espírito Santo"
+     },
+     {
+      "id": "C3-O2",
+      "text": "São Paulo e Paraná"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Rio de Janeiro e São Paulo"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Pernambuco e Alagoas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Bahia e Espírito Santo",
+    "sources": [
+     "COSTA_IUCN"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Número de áreas que compõem o bem",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Oito áreas protegidas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Seis áreas protegidas"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Nove áreas protegidas"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Doze áreas protegidas"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Oito áreas protegidas",
+    "sources": [
+     "COSTA_IUCN",
+     "COSTA_CNUC_UNA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "costa-descobrimento-viajante-P01",
+      "factKey": "costa-descobrimento-F01",
+      "text": "Este destino não é uma cidade: reúne várias áreas de floresta protegida perto do litoral brasileiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P02",
+      "factKey": "costa-descobrimento-F02",
+      "text": "As áreas guardam mata tropical úmida e restinga, a vegetação baixa que cresce na areia perto do mar.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P03",
+      "factKey": "costa-descobrimento-F03",
+      "text": "O conjunto é Patrimônio Mundial natural desde 1999.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P04",
+      "factKey": "costa-descobrimento-F04",
+      "text": "Somadas, as áreas protegem cerca de 112 mil hectares.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P05",
+      "factKey": "costa-descobrimento-F05",
+      "text": "As reservas ficam separadas umas das outras, como ilhas de mata no meio de pastos e plantações.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P06",
+      "factKey": "costa-descobrimento-F06",
+      "text": "Plantações de eucalipto ganham espaço na paisagem ao redor das reservas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P07",
+      "factKey": "costa-descobrimento-F07",
+      "text": "Nessas matas ainda vivem bichos grandes, como a onça-pintada e a anta.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P08",
+      "factKey": "costa-descobrimento-F08",
+      "text": "O muriqui-do-norte, um macaco ameaçado de extinção, encontra abrigo nessas florestas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P09",
+      "factKey": "costa-descobrimento-F09",
+      "text": "Em uma das reservas há uma plataforma para observar a copa das árvores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P10",
+      "factKey": "costa-descobrimento-F10",
+      "text": "Uma reserva particular tem um projeto para proteger a harpia, uma grande ave de rapina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P11",
+      "factKey": "costa-descobrimento-F11",
+      "text": "Duas das áreas funcionam como bancos de sementes guardados na própria floresta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P12",
+      "factKey": "costa-descobrimento-F12",
+      "text": "Três das áreas protegidas são parques nacionais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P13",
+      "factKey": "costa-descobrimento-F13",
+      "text": "Duas das áreas são reservas biológicas federais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN",
+       "COSTA_CNUC_UNA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P14",
+      "factKey": "costa-descobrimento-F14",
+      "text": "Uma das áreas é uma estação experimental de pesquisa, e não um parque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P15",
+      "factKey": "costa-descobrimento-F15",
+      "text": "Parte das terras do parque mais visitado foi devolvida a um povo indígena depois de conflitos sérios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P16",
+      "factKey": "costa-descobrimento-F16",
+      "text": "O povo Pataxó tem um termo de compromisso com a administração de um dos parques.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P17",
+      "factKey": "costa-descobrimento-F17",
+      "text": "Incêndios florestais estão entre as maiores ameaças a essas matas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P18",
+      "factKey": "costa-descobrimento-F18",
+      "text": "Caça ilegal e retirada de madeira acontecem de forma contínua na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P19",
+      "factKey": "costa-descobrimento-F19",
+      "text": "A rodovia BR-101 provoca atropelamentos de animais em uma das reservas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P20",
+      "factKey": "costa-descobrimento-F20",
+      "text": "O conjunto vai do litoral sul de um estado do Nordeste ao litoral norte de um estado do Sudeste.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P21",
+      "factKey": "costa-descobrimento-F21",
+      "text": "O Monte Pascoal, em Porto Seguro, dá nome a um dos parques nacionais do conjunto.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN",
+       "COSTA_CNUC_PASCOAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P22",
+      "factKey": "costa-descobrimento-F22",
+      "text": "O parque mais visitado tem centro de visitantes e trilhas sinalizadas até o monte que lhe dá nome.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P23",
+      "factKey": "costa-descobrimento-F23",
+      "text": "No lado capixaba, reservas particulares ajudaram a ligar a Reserva de Sooretama à reserva florestal de Linhares.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P24",
+      "factKey": "costa-descobrimento-F24",
+      "text": "A Reserva Biológica de Una, no sul da Bahia, é uma das áreas do conjunto.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "COSTA_CNUC_UNA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-viajante-P25",
+      "factKey": "costa-descobrimento-F25",
+      "text": "O Parque Nacional do Pau Brasil e o Parque Nacional do Descobrimento fazem parte do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "costa-descobrimento-geografo-P01",
+      "factKey": "costa-descobrimento-F01",
+      "text": "É um bem natural seriado: várias unidades separadas, reconhecidas em conjunto.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN",
+       "COSTA_CNUC_UNA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P02",
+      "factKey": "costa-descobrimento-F02",
+      "text": "Protege remanescentes de uma das regiões florestais mais fragmentadas e degradadas do planeta.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P03",
+      "factKey": "costa-descobrimento-F03",
+      "text": "A inscrição como Patrimônio Mundial, em 1999, usou os critérios ix (processos ecológicos) e x (biodiversidade).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P04",
+      "factKey": "costa-descobrimento-F04",
+      "text": "As unidades formam um arquipélago florestal cuja estrutura evolutiva interessa à ciência e à conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P05",
+      "factKey": "costa-descobrimento-F05",
+      "text": "A área reúne espécies com alto nível de endemismo, o que reforça seu valor para a conservação.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P06",
+      "factKey": "costa-descobrimento-F06",
+      "text": "O isolamento biológico, sobretudo dos componentes menores, é apontado como ameaça principal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P07",
+      "factKey": "costa-descobrimento-F07",
+      "text": "A matriz ao redor das unidades é cada vez mais dominada por pastagens, lavouras e silvicultura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P08",
+      "factKey": "costa-descobrimento-F08",
+      "text": "A silvicultura de eucalipto tem peso econômico e pressiona o uso da terra no entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P09",
+      "factKey": "costa-descobrimento-F09",
+      "text": "Os fragmentos estão entre os últimos do norte da Mata Atlântica onde ainda há grandes mamíferos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P10",
+      "factKey": "costa-descobrimento-F10",
+      "text": "Três reservas privadas, com quase 3 mil hectares, ampliaram a conexão entre dois componentes vizinhos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P11",
+      "factKey": "costa-descobrimento-F11",
+      "text": "Cerca de 63% da área é gerida pelo poder público e 27% por proprietários privados, sem gestão integrada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P12",
+      "factKey": "costa-descobrimento-F12",
+      "text": "Nem todos os componentes são públicos: uma Reserva Particular do Patrimônio Natural integra a série.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P13",
+      "factKey": "costa-descobrimento-F13",
+      "text": "A série combina três parques nacionais com duas reservas biológicas federais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P14",
+      "factKey": "costa-descobrimento-F14",
+      "text": "Uma estação experimental e uma reserva biológica funcionam como bancos genéticos de sementes in situ.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P15",
+      "factKey": "costa-descobrimento-F15",
+      "text": "O fogo, ligado à abertura de pastos e à agricultura de subsistência, é das ameaças mais graves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P16",
+      "factKey": "costa-descobrimento-F16",
+      "text": "A BR-101 está associada à mortalidade de fauna, inclusive de morcegos, em uma das reservas biológicas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P17",
+      "factKey": "costa-descobrimento-F17",
+      "text": "Projeções climáticas indicam menos chuva e mais calor, com risco de retração das áreas de ocorrência de espécies.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P18",
+      "factKey": "costa-descobrimento-F18",
+      "text": "Só um dos parques nacionais tem fonte permanente de recursos, vinda das taxas de ingresso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P19",
+      "factKey": "costa-descobrimento-F19",
+      "text": "Parte do componente mais visitado foi devolvida aos Pataxó após conflitos, e hoje há um termo de compromisso na gestão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P20",
+      "factKey": "costa-descobrimento-F20",
+      "text": "O bem se estende entre o litoral sul baiano e o litoral norte capixaba, cruzando a divisa entre duas regiões do país.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P21",
+      "factKey": "costa-descobrimento-F21",
+      "text": "O Parque Nacional e Histórico do Monte Pascoal, em Porto Seguro, é gerido pelo ICMBio e integra o sítio.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "COSTA_CNUC_PASCOAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P22",
+      "factKey": "costa-descobrimento-F22",
+      "text": "Uma das reservas biológicas, gerida pelo ICMBio, passou de 11,4 mil para 18,5 mil hectares com a ampliação de 2007.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "COSTA_CNUC_UNA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P23",
+      "factKey": "costa-descobrimento-F23",
+      "text": "Em 2007 foi criado, ao lado de uma das reservas biológicas, um refúgio de vida silvestre de cerca de 23 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P24",
+      "factKey": "costa-descobrimento-F24",
+      "text": "Sooretama, no Espírito Santo, e Una, na Bahia, são as duas reservas biológicas federais da série.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "COSTA_IUCN",
+       "COSTA_CNUC_UNA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "costa-descobrimento-geografo-P25",
+      "factKey": "costa-descobrimento-F25",
+      "text": "Novas áreas na região, como o Parque Nacional da Serra das Lontras e reservas extrativistas, ampliam a proteção ao redor do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "COSTA_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Patrimônio Mundial natural desde 1999: oito áreas protegidas separadas, com cerca de 112 mil hectares de Mata Atlântica e restingas, entre o litoral sul da Bahia e o litoral norte do Espírito Santo — entre elas os parques nacionais do Monte Pascoal, do Pau Brasil e do Descobrimento e as reservas biológicas de Sooretama e de Una.",
+   "editorialNotes": [
+    "A página da UNESCO (whc.unesco.org/en/list/892) não pôde ser aberta (robots); a revisão usou a avaliação da IUCN, órgão consultivo do Patrimônio Mundial, e os relatórios do CNUC/MMA, que vinculam Monte Pascoal e Una ao sítio.",
+    "Datas de criação divergem entre fontes (Monte Pascoal: decreto de 1961 no CNUC, 1973 na IUCN; Una: 1980 no CNUC, 1983 na IUCN); por isso nenhuma pista usa essas datas.",
+    "O conjunto cruza Nordeste (Bahia) e Sudeste (Espírito Santo); não sortear junto com as Reservas de Mata Atlântica do Sudeste, que dividem o mesmo ano de inscrição."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fonte UNESCO do rascunho não abriu; trocada pela avaliação IUCN 2025 e por dois relatórios do CNUC/MMA; C1 e C2 com distratores revistos; 50 pistas conferidas, com a ligação com a Amazônia e a gestão pelo ICMBio retiradas por falta de apoio"
+  }
+ },
+ "sources": {
+  "COSTA_IUCN": {
+   "id": "COSTA_IUCN",
+   "checkedAt": "2026-11-15",
+   "title": "Discovery Coast Atlantic Forest Reserves — Conservation Outlook Assessment (2025)",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1089"
+  },
+  "COSTA_CNUC_PASCOAL": {
+   "id": "COSTA_CNUC_PASCOAL",
+   "checkedAt": "2026-11-15",
+   "title": "Relatório da unidade de conservação: Parque Nacional e Histórico do Monte Pascoal",
+   "publisher": "Cadastro Nacional de Unidades de Conservação (CNUC) — Ministério do Meio Ambiente",
+   "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15605"
+  },
+  "COSTA_CNUC_UNA": {
+   "id": "COSTA_CNUC_UNA",
+   "checkedAt": "2026-11-15",
+   "title": "Relatório da unidade de conservação: Reserva Biológica de Una",
+   "publisher": "Cadastro Nacional de Unidades de Conservação (CNUC) — Ministério do Meio Ambiente",
+   "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15916"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://worldheritageoutlook.iucn.org/node/1089",
+   "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15605",
+   "https://cnuc-backend.mma.gov.br/api/v1/report/uc/15916"
+  ],
+  "alteracoes": [
+   "Fonte SUDESTE_COSTA_MATA (whc.unesco.org/en/list/892) não abriu (robots); substituída por COSTA_IUCN (IUCN World Heritage Outlook) e pelos relatórios CNUC de Monte Pascoal e Una",
+   "C1: \"Parques Nacionais do Jaú e Anavilhanas\" (não é nome de bem inscrito e se sobrepõe ao Complexo da Amazônia Central) trocado por \"Paraty e Ilha Grande – Cultura e Biodiversidade\"",
+   "C2: alternativa Pampa trocada por Caatinga (mais plausível para o recorte)",
+   "geografo P25 (conexões históricas com a Amazônia) retirada: sem apoio nas fontes abertas",
+   "viajante P24 / geografo P24 (gestão pelo ICMBio de parte das unidades) reescritas com o que o CNUC afirma (Monte Pascoal e Una geridos pelo ICMBio)",
+   "pistas genéricas e repetidas (endemismo definido, corredores, pesquisa) trocadas por fatos da avaliação IUCN: arquipélago florestal, matriz de pastagens e eucalipto, BR-101, fogo, Pataxó, bancos de sementes, RPPN Veracel",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

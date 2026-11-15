@@ -1,0 +1,1050 @@
+{
+ "case": {
+  "id": "lug2-reservas-mata-sudeste",
+  "placeId": "reservas-mata-sudeste",
+  "title": "Reservas de Mata Atlântica do Sudeste",
+  "aliases": [
+   "Reservas da Mata Atlântica do Sudeste"
+  ],
+  "answerType": "conjunto de áreas protegidas",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sudeste",
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Conjunto de áreas protegidas",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Reservas de Mata Atlântica do Sudeste"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Reservas de Mata Atlântica da Costa do Descobrimento"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Complexo de Conservação da Amazônia Central"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Áreas Protegidas do Cerrado: Chapada dos Veadeiros e Emas"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Área de Conservação do Pantanal"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilhas Atlânticas Brasileiras: Fernando de Noronha e Atol das Rocas"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Paraty e Ilha Grande – Cultura e Biodiversidade"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Reservas Florestais de Gondwana da Austrália"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parques Nacionais do Lago Turkana"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Reserva Natural de Sian Ka’an"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional do Iguaçu"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional de Iguazú"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Reservas de Mata Atlântica do Sudeste",
+    "sources": [
+     "MATASE_IUCN",
+     "MATASE_AGENCIAGOV"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Bioma principal",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Mata Atlântica"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cerrado"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Pampa"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Pantanal"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Mata Atlântica",
+    "sources": [
+     "MATASE_IUCN",
+     "MATASE_AGENCIAGOV"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Estados abrangidos",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "São Paulo e Paraná"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Bahia e Espírito Santo"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Rio de Janeiro e São Paulo"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Paraná e Santa Catarina"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "São Paulo e Paraná",
+    "sources": [
+     "MATASE_IUCN",
+     "MATASE_AGENCIAGOV"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Número de áreas protegidas no bem",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "25 áreas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "8 áreas"
+     },
+     {
+      "id": "C4-O3",
+      "text": "12 áreas"
+     },
+     {
+      "id": "C4-O4",
+      "text": "35 áreas"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "25 áreas",
+    "sources": [
+     "MATASE_IUCN",
+     "MATASE_AGENCIAGOV"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "reservas-mata-sudeste-viajante-P01",
+      "factKey": "reservas-mata-sudeste-F01",
+      "text": "Este destino reúne várias áreas protegidas, que vão das montanhas até a beira do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P02",
+      "factKey": "reservas-mata-sudeste-F02",
+      "text": "Montanhas cobertas de floresta, rios e cachoeiras fazem parte da paisagem.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P03",
+      "factKey": "reservas-mata-sudeste-F03",
+      "text": "O conjunto é Patrimônio Mundial natural desde 1999.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P04",
+      "factKey": "reservas-mata-sudeste-F04",
+      "text": "Manguezais, estuários, baías e ilhas perto da costa também estão protegidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P05",
+      "factKey": "reservas-mata-sudeste-F05",
+      "text": "Há mais de 300 cavernas entre as áreas protegidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P06",
+      "factKey": "reservas-mata-sudeste-F06",
+      "text": "Trilhas, praias, ilhas e pontos de observação de bichos e plantas atraem visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P07",
+      "factKey": "reservas-mata-sudeste-F07",
+      "text": "Em alguns trechos de mata dá para encontrar mais de 450 espécies de árvores num só hectare.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P08",
+      "factKey": "reservas-mata-sudeste-F08",
+      "text": "A onça-pintada está entre os animais ameaçados que vivem ali.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P09",
+      "factKey": "reservas-mata-sudeste-F09",
+      "text": "O cachorro-vinagre e a jaguatirica estão entre os animais-símbolo da área.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P10",
+      "factKey": "reservas-mata-sudeste-F10",
+      "text": "O muriqui-do-sul, o maior primata das Américas, vive nessas matas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P11",
+      "factKey": "reservas-mata-sudeste-F11",
+      "text": "O guará, ave grande de penas vermelhas, é um símbolo local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P12",
+      "factKey": "reservas-mata-sudeste-F12",
+      "text": "O papagaio-de-cara-roxa, uma ave ameaçada, é alvo de um projeto de conservação na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P13",
+      "factKey": "reservas-mata-sudeste-F13",
+      "text": "Tirar palmito e madeira ilegalmente ainda é um dos maiores problemas dessas florestas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P14",
+      "factKey": "reservas-mata-sudeste-F14",
+      "text": "Estradas da região oferecem risco de atropelamento a felinos silvestres, como o gato-mourisco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P15",
+      "factKey": "reservas-mata-sudeste-F15",
+      "text": "Plantações de pínus, uma árvore invasora que não é nativa, pressionam o que resta da mata.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P16",
+      "factKey": "reservas-mata-sudeste-F16",
+      "text": "Comunidades quilombolas que vivem no território criaram roteiros de turismo comunitário.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P17",
+      "factKey": "reservas-mata-sudeste-F17",
+      "text": "As áreas se espalham por dois estados vizinhos, um do Sudeste e outro do Sul.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P18",
+      "factKey": "reservas-mata-sudeste-F18",
+      "text": "Um grande complexo de estuários liga Iguape, Cananeia e Paranaguá.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P19",
+      "factKey": "reservas-mata-sudeste-F19",
+      "text": "As áreas ficam perto da região do porto de Paranaguá, que planeja crescer.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P20",
+      "factKey": "reservas-mata-sudeste-F20",
+      "text": "A Ilha do Cardoso tem praias, trilhas e manguezais protegidos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P21",
+      "factKey": "reservas-mata-sudeste-F21",
+      "text": "A região de Guaraqueçaba junta floresta, manguezais, baías e comunidades tradicionais.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P22",
+      "factKey": "reservas-mata-sudeste-F22",
+      "text": "São 25 áreas protegidas, somando cerca de 470 mil hectares.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P23",
+      "factKey": "reservas-mata-sudeste-F23",
+      "text": "Cananeia é ponto de partida para conhecer as áreas do litoral.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P24",
+      "factKey": "reservas-mata-sudeste-F24",
+      "text": "A Caverna Casa de Pedra tem uma boca de entrada que chega a 215 metros de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-viajante-P25",
+      "factKey": "reservas-mata-sudeste-F25",
+      "text": "Iporanga e Apiaí servem de base para visitar o parque onde fica a Caverna de Santana.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "reservas-mata-sudeste-geografo-P01",
+      "factKey": "reservas-mata-sudeste-F01",
+      "text": "O bem natural é seriado: reúne dezenas de unidades protegidas separadas.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P02",
+      "factKey": "reservas-mata-sudeste-F02",
+      "text": "O território se estende de uma serra costeira até a planície litorânea, num gradiente de ambientes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P03",
+      "factKey": "reservas-mata-sudeste-F03",
+      "text": "Foi inscrito em 1999 pelos critérios vii (beleza natural), ix e x.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P04",
+      "factKey": "reservas-mata-sudeste-F04",
+      "text": "Toda a série fica dentro de uma zona de amortecimento de mais de 1,2 milhão de hectares, gerida como Reserva da Biosfera.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P05",
+      "factKey": "reservas-mata-sudeste-F05",
+      "text": "Doze das unidades têm menos de 5 mil hectares; o isolamento ecológico entre componentes é a ameaça mais séria.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P06",
+      "factKey": "reservas-mata-sudeste-F06",
+      "text": "A região conserva um dos maiores conjuntos contínuos de Mata Atlântica associados a ecossistemas costeiros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P07",
+      "factKey": "reservas-mata-sudeste-F07",
+      "text": "Centenas de cachoeiras e mais de 300 cavernas marcam as montanhas florestadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P08",
+      "factKey": "reservas-mata-sudeste-F08",
+      "text": "A mineração de calcário, ouro e chumbo pressiona a área, embora a de ouro e chumbo tenha diminuído.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P09",
+      "factKey": "reservas-mata-sudeste-F09",
+      "text": "Dunas, brejos, estuários, manguezais e baías completam, no litoral, a floresta das encostas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P10",
+      "factKey": "reservas-mata-sudeste-F10",
+      "text": "A APA de Cananéia-Iguape-Peruíbe, sítio Ramsar, se sobrepõe a vários componentes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P11",
+      "factKey": "reservas-mata-sudeste-F11",
+      "text": "O complexo estuarino de Iguape-Cananeia-Paranaguá conecta o litoral sul paulista ao litoral paranaense.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P12",
+      "factKey": "reservas-mata-sudeste-F12",
+      "text": "A expansão planejada do porto de Paranaguá é uma pressão próxima às unidades.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P13",
+      "factKey": "reservas-mata-sudeste-F13",
+      "text": "A exploração ilegal de madeira e de palmito persiste como um dos desafios de conservação mais sérios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P14",
+      "factKey": "reservas-mata-sudeste-F14",
+      "text": "Assentamentos, estradas, represamentos e drenagens na zona de amortecimento pressionam os componentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P15",
+      "factKey": "reservas-mata-sudeste-F15",
+      "text": "A falta de tratamento de esgoto e de destinação de resíduos nos municípios é uma fonte de poluição para a área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P16",
+      "factKey": "reservas-mata-sudeste-F16",
+      "text": "Espécies das partes mais altas da Mata Atlântica estão entre as mais expostas às mudanças climáticas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P17",
+      "factKey": "reservas-mata-sudeste-F17",
+      "text": "A fauna reúne cerca de 120 espécies de mamíferos e 350 de aves.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P18",
+      "factKey": "reservas-mata-sudeste-F18",
+      "text": "O mico-leão-da-cara-preta, registrado só em 1990, é endêmico da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P19",
+      "factKey": "reservas-mata-sudeste-F19",
+      "text": "A Caverna do Diabo e o Parque Estadual de Jacupiranga aparecem entre os componentes do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P20",
+      "factKey": "reservas-mata-sudeste-F20",
+      "text": "A gestão é dividida entre o órgão federal e os órgãos de áreas protegidas dos dois estados envolvidos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P21",
+      "factKey": "reservas-mata-sudeste-F21",
+      "text": "O acesso às áreas paranaenses costuma partir de Curitiba; às paulistas, do Vale do Ribeira.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P22",
+      "factKey": "reservas-mata-sudeste-F22",
+      "text": "A série cruza a divisa entre as regiões Sudeste e Sul do Brasil.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P23",
+      "factKey": "reservas-mata-sudeste-F23",
+      "text": "Os parques estaduais Intervales e Carlos Botelho e a Estação Ecológica Jureia-Itatins estão entre os componentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P24",
+      "factKey": "reservas-mata-sudeste-F24",
+      "text": "O Parque Nacional do Superagui, no litoral do Paraná, é uma das áreas protegidas incluídas no bem.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "reservas-mata-sudeste-geografo-P25",
+      "factKey": "reservas-mata-sudeste-F25",
+      "text": "A Caverna de Santana se destaca pela ornamentação, e a Casa de Pedra, pela maior boca de caverna do mundo, segundo a IUCN.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MATASE_IUCN",
+       "MATASE_AGENCIAGOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Patrimônio Mundial natural desde 1999: 25 áreas protegidas, com cerca de 470 mil hectares de Mata Atlântica, entre São Paulo e Paraná — da Serra do Mar à planície costeira, com mais de 300 cavernas (como Santana e Casa de Pedra), o complexo estuarino de Iguape-Cananeia-Paranaguá, ilhas e manguezais.",
+   "editorialNotes": [
+    "A página da UNESCO (whc.unesco.org/en/list/893) não pôde ser aberta (robots); a revisão usou a avaliação da IUCN, órgão consultivo do Patrimônio Mundial, e a reportagem da Agência Gov/Ministério do Turismo (2026).",
+    "O Parque Nacional do Superagui saiu das alternativas do C1 porque é componente do próprio bem; as pistas sobre caiçaras, orquídeas e bromélias do rascunho foram retiradas por falta de apoio nas fontes abertas.",
+    "O bem cruza Sudeste (São Paulo) e Sul (Paraná); não sortear junto com as Reservas da Costa do Descobrimento, inscritas no mesmo ano."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fonte UNESCO do rascunho não abriu; trocada pela avaliação IUCN 2025 e pela reportagem da Agência Gov (MTur, 2026); Superagui retirado do C1 por ser componente do bem; C3 com novo distrator; 50 pistas conferidas"
+  }
+ },
+ "sources": {
+  "MATASE_IUCN": {
+   "id": "MATASE_IUCN",
+   "checkedAt": "2026-11-15",
+   "title": "Atlantic Forest South-East Reserves — Conservation Outlook Assessment (2025)",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1090"
+  },
+  "MATASE_AGENCIAGOV": {
+   "id": "MATASE_AGENCIAGOV",
+   "checkedAt": "2026-11-15",
+   "title": "Mata Atlântica: Patrimônio Mundial reúne florestas, cavernas e ilhas entre São Paulo e Paraná",
+   "publisher": "Agência Gov / Ministério do Turismo (17/09/2026)",
+   "url": "https://agenciagov.ebc.com.br/noticias/202609/mata-atlantica-patrimonio-mundial-reune-florestas-cavernas-e-ilhas-entre-sao-paulo-e-parana"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://worldheritageoutlook.iucn.org/node/1090",
+   "https://agenciagov.ebc.com.br/noticias/202609/mata-atlantica-patrimonio-mundial-reune-florestas-cavernas-e-ilhas-entre-sao-paulo-e-parana"
+  ],
+  "alteracoes": [
+   "Fonte SUDESTE_MATA_SUL (whc.unesco.org/en/list/893) não abriu (robots); substituída por MATASE_IUCN (IUCN World Heritage Outlook) e MATASE_AGENCIAGOV (Agência Gov/MTur, 2026)",
+   "C1: \"Parque Nacional do Superagui\" retirado (é componente do próprio bem, gerando gabarito ambíguo); entra \"Paraty e Ilha Grande – Cultura e Biodiversidade\"",
+   "C3: distrator \"Pernambuco e Alagoas\" trocado por \"Paraná e Santa Catarina\"",
+   "pistas sobre comunidades caiçaras e sobre orquídeas e bromélias retiradas: sem apoio nas fontes abertas (a IUCN cita só quilombolas)",
+   "complexo estuarino Iguape-Cananeia-Paranaguá mantido com apoio da Agência Gov; Casa de Pedra com pórtico de 215 m (Agência Gov) e \"maior abertura do mundo\" (IUCN)",
+   "novas pistas verificadas: critérios vii/ix/x, zona de amortecimento como Reserva da Biosfera, APA Ramsar de Cananéia-Iguape-Peruíbe, porto de Paranaguá, pínus, mineração, cachorro-vinagre, papagaio-de-cara-roxa, Iporanga/Apiaí, Curitiba e Vale do Ribeira",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields distribuídos entre C1–C4",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "geografo: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

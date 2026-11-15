@@ -1,0 +1,1088 @@
+{
+  "case": {
+    "id": "lug2-pelotas",
+    "placeId": "pelotas",
+    "title": "Pelotas",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Pelotas"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio Grande"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Porto Alegre"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Caxias do Sul"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Santa Maria"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Bagé"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Passo Fundo"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Novo Hamburgo"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Jaguarão"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Uruguaiana"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Florianópolis"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Curitiba"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Pelotas",
+        "sources": [
+          "PELOTAS_CB",
+          "PELOTAS_MONUMENTA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Atividade que sustentou a riqueza histórica da cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Produção de charque"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Cultivo de café"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Extração de erva-mate"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Mineração de carvão"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Produção de charque",
+        "sources": [
+          "PELOTAS_MONUMENTA",
+          "PELOTAS_UFPEL_HIST",
+          "PELOTAS_CB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Tradição alimentar registrada pelo Iphan",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Doces finos e doces coloniais"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Queijo artesanal de leite cru"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Cajuína"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Farinha de mandioca"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Doces finos e doces coloniais",
+        "sources": [
+          "PELOTAS_UFPEL_INV",
+          "PELOTAS_MICHELIN",
+          "PELOTAS_CB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Lagoa em cuja margem fica a praia urbana da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Lagoa dos Patos"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Lagoa Mirim"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Lagoa da Conceição"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Lagoa dos Barros"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Lagoa dos Patos",
+        "sources": [
+          "PELOTAS_CB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "pelotas-viajante-P01",
+            "factKey": "pelotas-viajante-F01",
+            "text": "É uma cidade do Sul do Brasil, cheia de casarões antigos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P02",
+            "factKey": "pelotas-viajante-F02",
+            "text": "A cidade tem praia, mas de lagoa, não de mar.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P03",
+            "factKey": "pelotas-viajante-F03",
+            "text": "Fica no sul do Rio Grande do Sul, a cerca de 250 km de Porto Alegre.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P04",
+            "factKey": "pelotas-viajante-F04",
+            "text": "Tem o apelido de Princesa do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P05",
+            "factKey": "pelotas-viajante-F05",
+            "text": "A fama da cidade vem dos doces.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_CB",
+              "PELOTAS_UFPEL_CULTURA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P06",
+            "factKey": "pelotas-viajante-F06",
+            "text": "Há dois tipos de tradição: os doces finos, de bandeja, e os doces coloniais, de frutas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P07",
+            "factKey": "pelotas-viajante-F07",
+            "text": "Pessegada, passa de pêssego e marmelada branca estão entre os doces de fruta da região.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P08",
+            "factKey": "pelotas-viajante-F08",
+            "text": "No interior, a fruta era descascada à mão e cozida em tachos de cobre no fogão a lenha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P09",
+            "factKey": "pelotas-viajante-F09",
+            "text": "Em 2018, essas tradições doceiras foram reconhecidas como patrimônio imaterial pelo Iphan.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_CB",
+              "PELOTAS_MICHELIN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P10",
+            "factKey": "pelotas-viajante-F10",
+            "text": "Uma feira nacional do doce, a Fenadoce, teve sua 31ª edição em 2025.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P11",
+            "factKey": "pelotas-viajante-F11",
+            "text": "Um Museu do Doce funciona num casarão de 1878 na praça central.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_CB",
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P12",
+            "factKey": "pelotas-viajante-F12",
+            "text": "No centro da praça principal há uma fonte importada da Europa, a das Nereidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB",
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P13",
+            "factKey": "pelotas-viajante-F13",
+            "text": "A praça central se chama Coronel Pedro Osório.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA",
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P14",
+            "factKey": "pelotas-viajante-F14",
+            "text": "O Theatro Sete de Abril, aberto em 1831, é tido como o mais antigo do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P15",
+            "factKey": "pelotas-viajante-F15",
+            "text": "Uma caixa d’água trazida da França em 1870 abasteceu o centro até 2009.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_RS_CAIXA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P16",
+            "factKey": "pelotas-viajante-F16",
+            "text": "A riqueza antiga veio das charqueadas, que produziam o charque, carne salgada.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA",
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P17",
+            "factKey": "pelotas-viajante-F17",
+            "text": "Eram mais de 50 charqueadas; cerca de dez ainda têm áreas abertas à visita.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P18",
+            "factKey": "pelotas-viajante-F18",
+            "text": "A Charqueada São João, de 1810, guarda a arquitetura do ciclo do charque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P19",
+            "factKey": "pelotas-viajante-F19",
+            "text": "Na região das charqueadas há passeios de barco de cerca de 40 minutos por um arroio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P20",
+            "factKey": "pelotas-viajante-F20",
+            "text": "Dois casarões do centro histórico foram erguidos com tijolos e telhas feitos por pessoas escravizadas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P21",
+            "factKey": "pelotas-viajante-F21",
+            "text": "A praia do Laranjal fica a cerca de 12 km do centro, com calçadão arborizado e trapiche.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P22",
+            "factKey": "pelotas-viajante-F22",
+            "text": "A água dessa praia é doce: é a da Lagoa dos Patos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P23",
+            "factKey": "pelotas-viajante-F23",
+            "text": "Mais de mil construções antigas estão inventariadas como patrimônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA",
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P24",
+            "factKey": "pelotas-viajante-F24",
+            "text": "Uma universidade federal com o nome da cidade cuida do Museu do Doce.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV",
+              "PELOTAS_RS_CAIXA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-viajante-P25",
+            "factKey": "pelotas-viajante-F25",
+            "text": "Cucas e pães costumam ser vendidos junto com os doces de fruta.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "pelotas-geografo-P01",
+            "factKey": "pelotas-geografo-F01",
+            "text": "A cidade guarda um dos maiores conjuntos de arquitetura eclética historicista do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P02",
+            "factKey": "pelotas-geografo-F02",
+            "text": "O ciclo estancieiro-charqueador foi depois substituído pelo latifúndio do arroz.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P03",
+            "factKey": "pelotas-geografo-F03",
+            "text": "A riqueza do charque, apoiada em trabalho escravizado, financiou o centro histórico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P04",
+            "factKey": "pelotas-geografo-F04",
+            "text": "O núcleo protegido gira em torno de uma praça central, eixo de um conjunto urbano de monumentos nacionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P05",
+            "factKey": "pelotas-geografo-F05",
+            "text": "Segundo a secretaria municipal de cultura, seis edificações têm tombamento federal, três estadual e doze municipal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P06",
+            "factKey": "pelotas-geografo-F06",
+            "text": "Casarões de 1878 e 1879, tombados nos anos 1970, usaram tijolos e telhas de olarias locais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P07",
+            "factKey": "pelotas-geografo-F07",
+            "text": "O programa Monumenta atuou entre 2002 e 2012 e começou pela restauração de uma fonte da praça.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P08",
+            "factKey": "pelotas-geografo-F08",
+            "text": "Um reservatório de água importado da França em 1870 serviu ao centro até 2009 e foi restaurado pelo Iphan em 2011.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_RS_CAIXA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P09",
+            "factKey": "pelotas-geografo-F09",
+            "text": "A tradição urbana dos doces finos está associada à história das charqueadas.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P10",
+            "factKey": "pelotas-geografo-F10",
+            "text": "Os doces finos têm raiz urbana; os coloniais, de frutas, ligam-se à produção do interior.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_HIST",
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P11",
+            "factKey": "pelotas-geografo-F11",
+            "text": "O inventário abrangeu também Arroio do Padre, Capão do Leão, Morro Redondo e Turuçu.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P12",
+            "factKey": "pelotas-geografo-F12",
+            "text": "O Inventário Nacional de Referências Culturais teve campo em 2006–2007 e fichas concluídas em 2008.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_HIST",
+              "PELOTAS_UFPEL_CULTURA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P13",
+            "factKey": "pelotas-geografo-F13",
+            "text": "A inscrição foi feita no Livro de Registro dos Saberes, com reconhecimento em 2018.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV",
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P14",
+            "factKey": "pelotas-geografo-F14",
+            "text": "O pedido de registro partiu da Câmara de Dirigentes Lojistas e da Secretaria de Cultura locais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_CULTURA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P15",
+            "factKey": "pelotas-geografo-F15",
+            "text": "A mecanização trouxe tachos de inox, despolpadeiras e caldeiras às fábricas de doces.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P16",
+            "factKey": "pelotas-geografo-F16",
+            "text": "Uma fábrica de doces de fruta fundada em 1943 no bairro Fragata mostra a passagem da produção doméstica à industrial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P17",
+            "factKey": "pelotas-geografo-F17",
+            "text": "A praia urbana fica a cerca de 12 km do centro, na margem de uma grande lagoa costeira de água doce.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P18",
+            "factKey": "pelotas-geografo-F18",
+            "text": "A orla do Laranjal se volta para a Lagoa dos Patos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P19",
+            "factKey": "pelotas-geografo-F19",
+            "text": "Das mais de 50 charqueadas, cerca de dez mantêm áreas abertas à visitação.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P20",
+            "factKey": "pelotas-geografo-F20",
+            "text": "Uma charqueada de 1810 é reconhecida como patrimônio nacional pelo Iphan.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P21",
+            "factKey": "pelotas-geografo-F21",
+            "text": "Com cerca de 336 mil habitantes estimados pelo IBGE em 2025, é a quarta cidade mais populosa do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P22",
+            "factKey": "pelotas-geografo-F22",
+            "text": "Fica a cerca de 250 km da capital estadual, no sul gaúcho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P23",
+            "factKey": "pelotas-geografo-F23",
+            "text": "A cidade foi uma das 26 reconhecidas pelo Iphan e escolhidas para o programa Monumenta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P24",
+            "factKey": "pelotas-geografo-F24",
+            "text": "O Museu do Doce resultou do inventário e ocupa um casarão restaurado pelo Monumenta e cedido à universidade federal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PELOTAS_UFPEL_INV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pelotas-geografo-P25",
+            "factKey": "pelotas-geografo-F25",
+            "text": "O Theatro Sete de Abril, de 1831, e o Mercado Público integram o patrimônio do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PELOTAS_CB",
+              "PELOTAS_MONUMENTA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade do sul gaúcho, a Princesa do Sul, cuja riqueza veio das charqueadas apoiadas em trabalho escravizado, com centro histórico eclético em torno da Praça Coronel Pedro Osório, tradições doceiras registradas pelo Iphan em 2018 e praia do Laranjal na Lagoa dos Patos.",
+      "editorialNotes": [
+        "O número de construções inventariadas varia: 1.189 ou \"mais de 1.900\" (artigo da Unisinos, citando a secretaria de cultura) e 1.300 (Correio Braziliense); as pistas usam \"mais de mil\".",
+        "A população (cerca de 336 mil, estimativa de 2025) vem de reportagem do Correio Braziliense que cita o IBGE; a página do IBGE do rascunho não foi aberta nesta revisão.",
+        "O tombamento federal do conjunto histórico citado no rascunho (notícia da prefeitura) não pôde ser confirmado em fonte aberta e foi retirado; ficaram os tombamentos individuais e o programa Monumenta."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por artigo acadêmico, páginas do Museu do Doce/UFPel, governo do RS e reportagens abertas na revisão; C2–C4 refeitos e pistas conferidas"
+    }
+  },
+  "sources": {
+    "PELOTAS_CB": {
+      "id": "PELOTAS_CB",
+      "title": "6 motivos para conhecer essa cidade gaúcha histórica brasileira",
+      "publisher": "Correio Braziliense (2025)",
+      "url": "https://www.correiobraziliense.com.br/cbradar/os-6-motivos-para-conhecer-a-cidade-gaucha-mais-historica-do-brasil/",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_MONUMENTA": {
+      "id": "PELOTAS_MONUMENTA",
+      "title": "As ações do programa Monumenta no patrimônio histórico da cidade de Pelotas/RS",
+      "publisher": "Revista Latino-Americana de História (Unisinos), v. 9, n. 21, 2019",
+      "url": "https://revistas.unisinos.br/rla/index.php/rla/article/download/970/386583/387265",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_UFPEL_INV": {
+      "id": "PELOTAS_UFPEL_INV",
+      "title": "Entrevista com Maria Letícia Mazzucchi Ferreira",
+      "publisher": "Museu do Doce, Universidade Federal de Pelotas",
+      "url": "https://wp.ufpel.edu.br/museudodoce/?p=1178",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_UFPEL_HIST": {
+      "id": "PELOTAS_UFPEL_HIST",
+      "title": "Entrevista com Fábio Vergara Cerqueira",
+      "publisher": "Museu do Doce, Universidade Federal de Pelotas",
+      "url": "https://wp.ufpel.edu.br/museudodoce/entrevista02/",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_UFPEL_CULTURA": {
+      "id": "PELOTAS_UFPEL_CULTURA",
+      "title": "Cultura doceira em Pelotas e região",
+      "publisher": "Universidade Federal de Pelotas",
+      "url": "https://wp.ufpel.edu.br/culturadoceira",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_MICHELIN": {
+      "id": "PELOTAS_MICHELIN",
+      "title": "Patrimônio cultural à mesa",
+      "publisher": "Guia Michelin (2023)",
+      "url": "https://guide.michelin.com/br/pt_BR/article/news-and-views/patrimonio-cultural-a-mesa",
+      "checkedAt": "2026-11-15"
+    },
+    "PELOTAS_RS_CAIXA": {
+      "id": "PELOTAS_RS_CAIXA",
+      "title": "Pelotas recebe caixa d’água histórica restaurada",
+      "publisher": "Governo do Estado do Rio Grande do Sul (2011)",
+      "url": "https://estado.rs.gov.br/pelotas-recebe-caixa-dagua-historica-restaurada",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.correiobraziliense.com.br/cbradar/os-6-motivos-para-conhecer-a-cidade-gaucha-mais-historica-do-brasil/",
+      "https://revistas.unisinos.br/rla/index.php/rla/article/download/970/386583/387265",
+      "https://wp.ufpel.edu.br/museudodoce/?p=1178",
+      "https://wp.ufpel.edu.br/museudodoce/entrevista02/",
+      "https://wp.ufpel.edu.br/culturadoceira",
+      "https://guide.michelin.com/br/pt_BR/article/news-and-views/patrimonio-cultural-a-mesa",
+      "https://estado.rs.gov.br/pelotas-recebe-caixa-dagua-historica-restaurada",
+      "https://wp.ufpel.edu.br/museudodoce/?p=838"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (Iphan, dossiê do Iphan, duas notícias da prefeitura, IBGE) não abertas diretamente; substituídas por 7 fontes abertas (Correio Braziliense 2025, artigo da Revista Latino-Americana de História 2019, duas entrevistas e a página de cultura doceira da UFPel, Guia Michelin 2023, governo do RS 2011)",
+      "Retiradas pistas sem apoio nas fontes abertas: Canal São Gonçalo e porto de Rio Grande no transporte do charque, Chácara da Baronesa, obras de Antônio Caringi, feira do livro, cozinheiras negras citadas pelo Iphan, terreiros, frutas figo/maçã/uva, secagem ao sol, população de 2022",
+      "C2: alternativas látex, diamantes e sal marinho (só o charque combinava com o Sul) trocadas por café, erva-mate e carvão",
+      "C3: alternativas trocadas por outras tradições alimentares de mesma natureza (queijo artesanal, cajuína, farinha de mandioca)",
+      "C4: de \"Estado brasileiro\" para \"Lagoa em cuja margem fica a praia urbana da cidade\", gabarito Lagoa dos Patos",
+      "C1: Canoas trocada por Jaguarão",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields passam a apontar C2–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

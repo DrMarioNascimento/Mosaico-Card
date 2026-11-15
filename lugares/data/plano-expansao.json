@@ -182,7 +182,20 @@
     "Parque Nacional da Serra de Itabaiana",
     "Parque Nacional de Sete Cidades",
     "Recife",
-    "Rio Parnaíba"
+    "Rio Parnaíba",
+    "Santuário do Bom Jesus de Matosinhos",
+    "Castelo de Himeji",
+    "Cidade Proibida",
+    "Reservas de Mata Atlântica da Costa do Descobrimento",
+    "Ilha de Jeju",
+    "Linhas e Geoglifos de Nasca e Palpa",
+    "Parque Nacional de São Joaquim",
+    "Pelotas",
+    "Pomerode",
+    "Porto Alegre",
+    "Reservas de Mata Atlântica do Sudeste",
+    "Serra da Barriga",
+    "Teresina"
   ],
   "groups": {
     "Brasil Norte": [
@@ -233,7 +246,10 @@
       "João Pessoa",
       "Parque Nacional da Serra de Itabaiana",
       "Parque Nacional de Sete Cidades",
-      "Rio Parnaíba"
+      "Rio Parnaíba",
+      "Reservas de Mata Atlântica da Costa do Descobrimento",
+      "Serra da Barriga",
+      "Teresina"
     ],
     "Brasil Centro Oeste": [
       "Brasília",
@@ -272,7 +288,9 @@
       "Parque Nacional do Itatiaia",
       "Petrópolis",
       "Vila Velha",
-      "Niterói"
+      "Niterói",
+      "Santuário do Bom Jesus de Matosinhos",
+      "Reservas de Mata Atlântica do Sudeste"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -296,7 +314,10 @@
       "Geoparque Caçapava",
       "Geoparque Quarta Colônia",
       "Parque Nacional dos Campos Gerais",
-      "Parque Nacional de Ilha Grande"
+      "Parque Nacional de Ilha Grande",
+      "Parque Nacional de São Joaquim",
+      "Pelotas",
+      "Pomerode"
     ],
     "América outros recortes": [
       "Peru",
@@ -326,7 +347,8 @@
       "Parque Nacional Yosemite",
       "Cidade Histórica de Quito",
       "Bairro Histórico de Colônia do Sacramento",
-      "Sítio Maia de Copán"
+      "Sítio Maia de Copán",
+      "Linhas e Geoglifos de Nasca e Palpa"
     ],
     "Europa": [
       "Portugal",
@@ -381,7 +403,10 @@
       "Mar Morto",
       "Petra",
       "Angkor",
-      "Kyoto"
+      "Kyoto",
+      "Castelo de Himeji",
+      "Cidade Proibida",
+      "Ilha de Jeju"
     ],
     "Oceania": [
       "Austrália",

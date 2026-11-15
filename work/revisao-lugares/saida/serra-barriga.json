@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-serra-barriga",
+    "placeId": "serra-barriga",
+    "title": "Serra da Barriga",
+    "aliases": [
+      "Serra da Barriga"
+    ],
+    "answerType": "sítio histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Lugar histórico do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Serra da Barriga"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Sociedade Protetora dos Desvalidos"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Terreiro da Casa Branca"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Casa das Minas"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Igreja de Nossa Senhora do Rosário dos Pretos"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Comunidade quilombola Conceição das Crioulas"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Engenho Massangana"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Histórico Nacional dos Guararapes"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Pedra do Ingá"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Casa da Torre de Garcia d’Ávila"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Centro Histórico de Olinda"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Centro Histórico de Salvador"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Serra da Barriga",
+        "sources": [
+          "BARRIGA_AGBR",
+          "BARRIGA_MINC2026",
+          "BARRIGA_UFAL"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Experiência de resistência ligada ao lugar",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Quilombo dos Palmares"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Revolta dos Malês"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Balaiada"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Conjuração Baiana"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Quilombo dos Palmares",
+        "sources": [
+          "BARRIGA_AGBR",
+          "BARRIGA_MINC2026"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Liderança cuja morte é lembrada em 20 de novembro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Zumbi"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ganga Zumba"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Dandara"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Acotirene"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Zumbi",
+        "sources": [
+          "BARRIGA_AGBR",
+          "BARRIGA_UFAL"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Alagoas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Pernambuco"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Bahia"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Sergipe"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Alagoas",
+        "sources": [
+          "BARRIGA_AGBR",
+          "BARRIGA_MINC2026"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "serra-barriga-viajante-P01",
+            "factKey": "serra-barriga-F01",
+            "text": "O lugar fica no alto de uma serra onde predomina a Mata Atlântica, na Zona da Mata nordestina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P02",
+            "factKey": "serra-barriga-F02",
+            "text": "É um lugar de memória ligado à luta contra a escravidão.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P03",
+            "factKey": "serra-barriga-F03",
+            "text": "Fica a cerca de 80 km da capital do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P04",
+            "factKey": "serra-barriga-F04",
+            "text": "No alto da serra há um parque memorial aberto em 2007.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P05",
+            "factKey": "serra-barriga-F05",
+            "text": "As construções do parque são de taipa, com telhados de folhas, inspiradas em relatos históricos e na arquitetura africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P06",
+            "factKey": "serra-barriga-F06",
+            "text": "Placas trazem palavras em línguas bantas e em iorubá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P07",
+            "factKey": "serra-barriga-F07",
+            "text": "Uma das construções é uma casa de farinha, o Onjó de Farinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P08",
+            "factKey": "serra-barriga-F08",
+            "text": "Há um terreiro das ervas, chamado Oxile das Ervas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P09",
+            "factKey": "serra-barriga-F09",
+            "text": "O parque também tem ocas indígenas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P10",
+            "factKey": "serra-barriga-F10",
+            "text": "Pontos de áudio contam a história em português, inglês, espanhol e italiano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P11",
+            "factKey": "serra-barriga-F11",
+            "text": "Três mirantes levam nomes de filhos de um antigo líder do lugar.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P12",
+            "factKey": "serra-barriga-F12",
+            "text": "Uma lagoa considerada sagrada é usada em rituais de religiões de matriz africana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P13",
+            "factKey": "serra-barriga-F13",
+            "text": "Uma gameleira sagrada tem, segundo estimativas, mais de 300 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P14",
+            "factKey": "serra-barriga-F14",
+            "text": "Um restaurante no parque serve culinária afro-brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P15",
+            "factKey": "serra-barriga-F15",
+            "text": "Um palco, o Batucajé, recebe apresentações culturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P16",
+            "factKey": "serra-barriga-F16",
+            "text": "Em 2023, o parque recebeu cerca de 42 mil visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P17",
+            "factKey": "serra-barriga-F17",
+            "text": "O dia mais cheio do ano é 20 de novembro, Dia da Consciência Negra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P18",
+            "factKey": "serra-barriga-F18",
+            "text": "Na noite de 6 de fevereiro, data da destruição do antigo quilombo em 1694, acontece uma vigília no parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P19",
+            "factKey": "serra-barriga-F19",
+            "text": "No auge, no século XVII, a comunidade chegou a reunir até 30 mil pessoas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P20",
+            "factKey": "serra-barriga-F20",
+            "text": "Zumbi nasceu nessa serra, em 1655.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P21",
+            "factKey": "serra-barriga-F21",
+            "text": "Dandara também é uma das lideranças lembradas ali.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P22",
+            "factKey": "serra-barriga-F22",
+            "text": "Em 2017, a serra virou Patrimônio Cultural do Mercosul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P23",
+            "factKey": "serra-barriga-F23",
+            "text": "Em 2026, a Unesco incluiu o lugar numa rede internacional de memória da escravidão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P24",
+            "factKey": "serra-barriga-F24",
+            "text": "Fica em União dos Palmares, em Alagoas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-viajante-P25",
+            "factKey": "serra-barriga-F25",
+            "text": "Ali existiu o Quilombo dos Palmares.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "serra-barriga-geografo-P01",
+            "factKey": "serra-barriga-F01",
+            "text": "Relevo elevado da Zona da Mata, no domínio do Planalto da Borborema, com cerca de 28 km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P02",
+            "factKey": "serra-barriga-F02",
+            "text": "Sítio protegido em nível federal pela memória da resistência à escravidão.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P03",
+            "factKey": "serra-barriga-F03",
+            "text": "O núcleo se formou com escravizados fugidos das capitanias da Bahia e de Pernambuco, a partir do século XVI.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P04",
+            "factKey": "serra-barriga-F04",
+            "text": "A confederação de mocambos funcionava como uma espécie de república, com chefes locais e um chefe supremo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P05",
+            "factKey": "serra-barriga-F05",
+            "text": "Mocambos como Cerca Real do Macaco, Subupira, Zumbi e Dandara formavam a rede de assentamentos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P06",
+            "factKey": "serra-barriga-F06",
+            "text": "O maior mocambo chegou a ter cerca de 6 mil pessoas, num conjunto de até 30 mil no século XVII.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P07",
+            "factKey": "serra-barriga-F07",
+            "text": "A Agência Brasil situa essa resistência entre 1597 e 1704, mais de um século do período colonial.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P08",
+            "factKey": "serra-barriga-F08",
+            "text": "A sucessão de lideranças inclui Acotirene, Ganga Zumba e Zumbi.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P09",
+            "factKey": "serra-barriga-F09",
+            "text": "O quilombo foi destruído em 6 de fevereiro de 1694; Zumbi foi capturado e morto em 1695.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P10",
+            "factKey": "serra-barriga-F10",
+            "text": "A data da morte de Zumbi, 20 de novembro, tornou-se o Dia da Consciência Negra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P11",
+            "factKey": "serra-barriga-F11",
+            "text": "O tombamento federal foi aprovado em 1985, e um decreto de 1988 declarou o sítio Monumento Nacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_AGBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P12",
+            "factKey": "serra-barriga-F12",
+            "text": "Em 2017, o sítio recebeu a certificação de Patrimônio Cultural do Mercosul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_AGBR",
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P13",
+            "factKey": "serra-barriga-F13",
+            "text": "Em 2026, entrou na rede da Unesco de lugares de memória da escravidão, junto com o Cais do Valongo e a Sociedade Protetora dos Desvalidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P14",
+            "factKey": "serra-barriga-F14",
+            "text": "Essa rede foi criada em 2024 no Programa Rotas dos Povos Escravizados, e o Brasil passou a ter seis lugares nela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P15",
+            "factKey": "serra-barriga-F15",
+            "text": "O parque memorial ocupa o platô da serra e foi implantado em 2007 pela Fundação Cultural Palmares e pelo Ministério da Cultura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P16",
+            "factKey": "serra-barriga-F16",
+            "text": "As estruturas são reconstituições de “liberdade poética contemporânea”, não edificações originais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P17",
+            "factKey": "serra-barriga-F17",
+            "text": "Os espaços memoriais levam nomes como Acotirene, Ganga-Zumba, Caá-Puêra, Zumbi e Aqualtune.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_ME"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P18",
+            "factKey": "serra-barriga-F18",
+            "text": "Segundo a tradição, numa lagoa da serra os palmarinos se banhavam e afiavam as armas nas pedras.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P19",
+            "factKey": "serra-barriga-F19",
+            "text": "Em 2023 foram estimadas 41.734 visitas, 6.295 delas em 20 de novembro: um fluxo concentrado nessa data.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P20",
+            "factKey": "serra-barriga-F20",
+            "text": "Os visitantes estrangeiros passaram de 134 em 2022 para 247 em 2023, com os Estados Unidos à frente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P21",
+            "factKey": "serra-barriga-F21",
+            "text": "Pesquisadores apontam a falta de planejamento turístico e de serviço de guias na gestão do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P22",
+            "factKey": "serra-barriga-F22",
+            "text": "A requalificação, com governos, universidade federal e uma plataforma digital, trouxe sinalização nova, áudio recuperado e um aplicativo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_ME",
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P23",
+            "factKey": "serra-barriga-F23",
+            "text": "A implantação foi coordenada pela ONG Instituto Magna Matter, com R$ 1,2 milhão liberados pelo então ministro Gilberto Gil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BARRIGA_UFAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P24",
+            "factKey": "serra-barriga-F24",
+            "text": "O sítio fica em União dos Palmares, na Zona da Mata de Alagoas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BARRIGA_UFAL",
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "serra-barriga-geografo-P25",
+            "factKey": "serra-barriga-F25",
+            "text": "A serra guarda a memória do Quilombo dos Palmares, uma das experiências mais emblemáticas de resistência à escravidão no país.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "BARRIGA_MINC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Serra em União dos Palmares (AL), a cerca de 80 km de Maceió, onde existiu o Quilombo dos Palmares (até 30 mil pessoas no século XVII; lideranças como Ganga Zumba, Zumbi e Dandara); tombada pelo Iphan (aprovação em 1985), Patrimônio Cultural do Mercosul (2017) e, desde 2026, na rede da Unesco de lugares de memória da escravidão, com o Parque Memorial Quilombo dos Palmares (2007).",
+      "editorialNotes": [
+        "As construções do parque memorial são reconstituições cenográficas, não edificações originais. A rede da Unesco (2026) não equivale a inscrição na Lista do Patrimônio Mundial.",
+        "Datas de proteção divergem: tombamento aprovado em 1985 (Agência Brasil; artigo da UFAL), \"1986\" no resumo do mesmo artigo e Monumento Nacional pelo Decreto nº 95.855/1988; Mercosul em 11/10/2017 (UFAL) ou 11/11/2017 (Agência Brasil). As pistas usam só os anos 1985 e 2017.",
+        "No período colonial a área pertencia à capitania de Pernambuco; o gabarito de C4 é o estado atual, Alagoas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por Agência Brasil (2017), notícia do MinC sobre a rede da Unesco (2026), artigo da UFAL no Caderno Virtual de Turismo (2025) e Movimento Econômico (2024), todos abertos; C1 restrito a lugares históricos do Nordeste, C2–C3 com distratores do recorte e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "BARRIGA_AGBR": {
+      "id": "BARRIGA_AGBR",
+      "title": "Região do Quilombo dos Palmares se tornará patrimônio cultural do Mercosul",
+      "publisher": "Agência Brasil (EBC)",
+      "url": "https://agenciabrasil.ebc.com.br/cultura/noticia/2017-11/regiao-do-quilombo-dos-palmares-se-tornara-patrimonio-cultural-do-mercosul",
+      "checkedAt": "2026-11-15"
+    },
+    "BARRIGA_MINC2026": {
+      "id": "BARRIGA_MINC2026",
+      "title": "Unesco reconhece três locais de memória da escravidão e da resistência negra no Brasil",
+      "publisher": "Brasil 61 / Ministério da Cultura",
+      "url": "https://brasil61.com/n/unesco-reconhece-tres-locais-de-memoria-da-escravidao-e-da-resistencia-negra-no-brasil-cult260420",
+      "checkedAt": "2026-11-15"
+    },
+    "BARRIGA_UFAL": {
+      "id": "BARRIGA_UFAL",
+      "title": "Parque Memorial Quilombo dos Palmares-Serra da Barriga: racialização e negligenciamento no processo de patrimonialização da cultura afro-brasileira (Ramos, 2025)",
+      "publisher": "Caderno Virtual de Turismo (UFRJ)",
+      "url": "https://www.ivt.coppe.ufrj.br/caderno/article/download/2222/889/7505",
+      "checkedAt": "2026-11-15"
+    },
+    "BARRIGA_ME": {
+      "id": "BARRIGA_ME",
+      "title": "Quilombo dos Palmares passará por reforma para virar atração internacional",
+      "publisher": "Movimento Econômico",
+      "url": "https://movimentoeconomico.com.br/economia/2024/06/01/quilombo-dos-palmares-passara-por-reforma-para-virar-atracao-internacional/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://agenciabrasil.ebc.com.br/cultura/noticia/2017-11/regiao-do-quilombo-dos-palmares-se-tornara-patrimonio-cultural-do-mercosul",
+      "https://brasil61.com/n/unesco-reconhece-tres-locais-de-memoria-da-escravidao-e-da-resistencia-negra-no-brasil-cult260420",
+      "https://www.ivt.coppe.ufrj.br/caderno/article/download/2222/889/7505",
+      "https://movimentoeconomico.com.br/economia/2024/06/01/quilombo-dos-palmares-passara-por-reforma-para-virar-atracao-internacional/",
+      "https://www.gov.br/palmares/pt-br/midias/arquivos/artigos-institucionais/artigo-23.pdf"
+    ],
+    "alteracoes": [
+      "Fontes BARRIGA_PALMARES, BARRIGA_MDH, BARRIGA_MINC e BARRIGA_IBGE do rascunho não foram abertas (URLs fora das buscas); substituídas por Agência Brasil, Brasil 61/MinC, artigo da UFAL e Movimento Econômico. O artigo institucional da Fundação Palmares foi lido, mas não traz dados do lugar e não foi usado",
+      "C1: lugares fora do recorte (Cais do Valongo, Pretos Novos, São Miguel Arcanjo, Burle Marx, Peruaçu, Morro da Queimada, Roncador) trocados por lugares históricos e de memória afro-brasileira do Nordeste",
+      "C2: quilombos de outras regiões (Ambrósio, Piolho, Jabaquara) trocados por episódios de resistência do Nordeste (Malês, Balaiada, Conjuração Baiana); gabarito Quilombo dos Palmares mantido",
+      "C3: João Cândido (sem relação com o lugar) trocado por Acotirene; gabarito Zumbi mantido",
+      "População municipal do Censo 2022 retirada (página do IBGE não aberta); Ganga Zumba em 1678 e \"primeiras referências no início do século XVII\" retiradas por falta de apoio nas fontes abertas",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

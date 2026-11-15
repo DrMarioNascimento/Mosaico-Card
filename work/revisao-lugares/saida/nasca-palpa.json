@@ -1,0 +1,1048 @@
+{
+ "case": {
+  "id": "lug2-nasca-palpa",
+  "placeId": "nasca-palpa",
+  "title": "Linhas e Geoglifos de Nasca e Palpa",
+  "aliases": [
+   "Nasca",
+   "Nazca",
+   "Palpa"
+  ],
+  "answerType": "paisagem arqueológica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "PE"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Patrimônio arqueológico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Linhas e Geoglifos de Nasca e Palpa"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Geoglifos de Pintados"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Cidade Sagrada de Caral-Supe"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Zona Arqueológica de Chan Chan"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Sítio Arqueológico de Chavín"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Complexo Arqueoastronômico de Chankillo"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Machu Picchu"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Centro Arqueológico de Tiwanaku"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional Rapa Nui"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Sítio Maia de Copán"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional Tikal"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cidade Pré-hispânica de Teotihuacán"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Linhas e Geoglifos de Nasca e Palpa",
+    "sources": [
+     "NASCA_PR",
+     "NASCA_EB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Peru"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Chile"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Bolívia"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Equador"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Peru",
+    "sources": [
+     "NASCA_PR",
+     "NASCA_EB"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Técnica usada para traçar as figuras",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Remoção do cascalho superficial escurecido"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Alinhamento de grandes blocos de pedra erguidos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Pintura do solo com pigmentos minerais"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Queima da vegetação em faixas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Remoção do cascalho superficial escurecido",
+    "sources": [
+     "NASCA_PR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Pesquisadora que passou anos estudando o sítio e defendendo sua preservação",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Maria Reiche"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Ruth Shady"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Betty Meggers"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Niède Guidon"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Maria Reiche",
+    "sources": [
+     "NASCA_PR",
+     "NASCA_EB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "nasca-palpa-viajante-P01",
+      "factKey": "nasca-palpa-F01",
+      "text": "Este destino guarda desenhos enormes feitos no próprio chão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR",
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P02",
+      "factKey": "nasca-palpa-F02",
+      "text": "A paisagem é uma planície desértica, muito seca e quase sem chuva.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P03",
+      "factKey": "nasca-palpa-F03",
+      "text": "Fica na América do Sul, numa planície perto da costa.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P04",
+      "factKey": "nasca-palpa-F04",
+      "text": "O sítio fica no Peru.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR",
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P05",
+      "factKey": "nasca-palpa-F05",
+      "text": "Fica a cerca de 400 quilômetros ao sul de Lima.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P06",
+      "factKey": "nasca-palpa-F06",
+      "text": "Linhas retas cruzam a planície, e algumas têm vários quilômetros de comprimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P07",
+      "factKey": "nasca-palpa-F07",
+      "text": "Triângulos, espirais e retângulos aparecem entre as formas desenhadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P08",
+      "factKey": "nasca-palpa-F08",
+      "text": "Algumas linhas saem de uma pequena elevação, como raios, ou dão a volta nela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P09",
+      "factKey": "nasca-palpa-F09",
+      "text": "Também há desenhos de plantas, flores e árvores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR",
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P10",
+      "factKey": "nasca-palpa-F10",
+      "text": "Aves, insetos e outros animais aparecem entre as figuras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P11",
+      "factKey": "nasca-palpa-F11",
+      "text": "Há figuras de seres fantásticos e de objetos do dia a dia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P12",
+      "factKey": "nasca-palpa-F12",
+      "text": "A figura de um pelicano tem cerca de 285 metros de comprimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P13",
+      "factKey": "nasca-palpa-F13",
+      "text": "Uma ave parecida com um condor mede cerca de 135 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P14",
+      "factKey": "nasca-palpa-F14",
+      "text": "Entre os animais desenhados estão um macaco, uma aranha, uma orca e um beija-flor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P15",
+      "factKey": "nasca-palpa-F15",
+      "text": "Para fazer os traços, tiraram as pedrinhas escuras da superfície e deixaram à vista o chão mais claro.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P16",
+      "factKey": "nasca-palpa-F16",
+      "text": "O clima seco e o vento, que tira a areia de dentro dos sulcos, conservam os traçados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P17",
+      "factKey": "nasca-palpa-F17",
+      "text": "Os desenhos resistem há mais de dois mil anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P18",
+      "factKey": "nasca-palpa-F18",
+      "text": "Algumas faixas largas parecem ter sido feitas para reunir muita gente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P19",
+      "factKey": "nasca-palpa-F19",
+      "text": "Plataformas na ponta de muitas figuras sugerem que se caminhava sobre elas em procissão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P20",
+      "factKey": "nasca-palpa-F20",
+      "text": "Pedaços de uma concha marinha achados numa plataforma sugerem rituais ligados à água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P21",
+      "factKey": "nasca-palpa-F21",
+      "text": "Uma pesquisadora alemã passou anos estudando o sítio e lutando por sua preservação.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P22",
+      "factKey": "nasca-palpa-F22",
+      "text": "Para essa pesquisadora, o conjunto funcionava como um enorme calendário astronômico.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P23",
+      "factKey": "nasca-palpa-F23",
+      "text": "Em 1941, um historiador norte-americano observou as linhas de dentro de um avião.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P24",
+      "factKey": "nasca-palpa-F24",
+      "text": "A Rodovia Pan-Americana Sul atravessa a área protegida e danificou alguns traçados.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-viajante-P25",
+      "factKey": "nasca-palpa-F25",
+      "text": "Lixo, mineração e entradas não autorizadas estão entre as ameaças ao lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "nasca-palpa-geografo-P01",
+      "factKey": "nasca-palpa-F01",
+      "text": "O bem é uma paisagem cultural de grande escala, traçada sobre uma planície árida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P02",
+      "factKey": "nasca-palpa-F02",
+      "text": "Índices de chuva entre os mais baixos do mundo explicam a conservação de traçados expostos ao ar livre.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P03",
+      "factKey": "nasca-palpa-F03",
+      "text": "Ocupa a planície costeira desértica do sul do Peru.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P04",
+      "factKey": "nasca-palpa-F04",
+      "text": "Situa-se cerca de 400 km ao sul de Lima, nas planícies desérticas da bacia do Rio Grande.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P05",
+      "factKey": "nasca-palpa-F05",
+      "text": "Os traçados resultam da retirada do cascalho superficial intemperizado, que expõe o substrato mais claro logo abaixo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P06",
+      "factKey": "nasca-palpa-F06",
+      "text": "O vento remove a areia acumulada nos sulcos e, junto com o clima seco, mantém as linhas visíveis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P07",
+      "factKey": "nasca-palpa-F07",
+      "text": "Sociedades pré-hispânicas da costa sul produziram os geoglifos entre o século VIII a.C. e o século VIII d.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P08",
+      "factKey": "nasca-palpa-F08",
+      "text": "Parte das figuras é anterior à fase principal e se atribui à cultura Paracas, de 400 a 200 a.C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR",
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P09",
+      "factKey": "nasca-palpa-F09",
+      "text": "As imagens de aparência humana da fase Paracas lembram petróglifos ainda mais antigos da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P10",
+      "factKey": "nasca-palpa-F10",
+      "text": "Linhas retas, triângulos, retângulos, espirais e linhas onduladas formam a categoria geométrica dos traçados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P11",
+      "factKey": "nasca-palpa-F11",
+      "text": "Alguns feixes de linhas irradiam de uma elevação central ou a circundam.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P12",
+      "factKey": "nasca-palpa-F12",
+      "text": "Certas faixas, chamadas de pistas, parecem ter sido traçadas para acomodar grandes grupos de pessoas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P13",
+      "factKey": "nasca-palpa-F13",
+      "text": "Os geoglifos figurativos incluem animais, aves, insetos, plantas, objetos do cotidiano e seres fantásticos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P14",
+      "factKey": "nasca-palpa-F14",
+      "text": "O pelicano, com cerca de 285 m, e a ave semelhante a um condor, com 135 m, estão entre as figuras medidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P15",
+      "factKey": "nasca-palpa-F15",
+      "text": "Macaco (cerca de 110 m), orca (65 m), beija-flor (50 m) e aranha (46 m) estão entre as figuras de animais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P16",
+      "factKey": "nasca-palpa-F16",
+      "text": "A área inscrita soma cerca de 75,4 mil hectares e não tem zona de amortecimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P17",
+      "factKey": "nasca-palpa-F17",
+      "text": "A inscrição se apoia em três critérios: realização artística única, testemunho de tradições mágico-religiosas e paisagem cultural simbólica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P18",
+      "factKey": "nasca-palpa-F18",
+      "text": "Plataformas numa das pontas de muitas figuras indicam um uso cerimonial em procissões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P19",
+      "factKey": "nasca-palpa-F19",
+      "text": "Fragmentos de concha Spondylus numa plataforma escavada sugerem rituais ligados à água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P20",
+      "factKey": "nasca-palpa-F20",
+      "text": "A hipótese astronômica, defendida por Paul Kosok e por uma pesquisadora alemã, foi contestada em 1967 por Gerald Hawkins, que não achou correlação com o céu.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "NASCA_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P21",
+      "factKey": "nasca-palpa-F21",
+      "text": "Pesquisas arqueológicas ocorrem no sítio desde 1941, com estudiosos estrangeiros e o Ministério da Cultura do Peru.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P22",
+      "factKey": "nasca-palpa-F22",
+      "text": "A Rodovia Pan-Americana Sul atravessa o bem e danificou algumas linhas e figuras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P23",
+      "factKey": "nasca-palpa-F23",
+      "text": "Expansão urbana e agrícola, mineração legal e ilegal e lixo ao longo da rodovia pressionam a área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P24",
+      "factKey": "nasca-palpa-F24",
+      "text": "O bloqueio de cursos d’água naturais pode provocar inundações e erosão sobre os traçados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "nasca-palpa-geografo-P25",
+      "factKey": "nasca-palpa-F25",
+      "text": "Inscrito em 1994, o bem ganhou o nome atual em 2016; antes, o nome oficial citava as Pampas de Jumana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NASCA_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Paisagem arqueológica da planície desértica do sul do Peru, cerca de 400 km ao sul de Lima, com milhares de linhas, formas geométricas e figuras de animais e plantas traçadas no solo entre o século VIII a.C. e o século VIII d.C.",
+   "editorialNotes": [
+    "Área: a UNESCO dá cerca de 75.358 ha para o bem inscrito; a Britannica diz que as linhas se estendem por quase 500 km². As pistas usam só o número da UNESCO, como área inscrita.",
+    "Datas: a UNESCO situa os traçados entre o século VIII a.C. e o VIII d.C. (fase Paracas 400–200 a.C.; fase Nasca 200 a.C.–500 d.C.); a Britannica data a cultura Nazca em c. 200 a.C.–600 d.C.",
+    "A função das figuras segue em debate: a hipótese do calendário astronômico aparece como hipótese, ao lado da contestação de 1967. Palpa e o projeto Nasca-Palpa não são citados nas pistas porque repetem o nome do lugar."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos no relatório periódico e na declaração de valor universal da UNESCO e na Britannica; C1 com nomes reais e comparáveis, C3 e C4 refeitos."
+  }
+ },
+ "sources": {
+  "NASCA_PR": {
+   "title": "Lines and Geoglyphs of Nasca and Palpa — Periodic Report (Section II) and Statement of Outstanding Universal Value",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217131",
+   "id": "NASCA_PR",
+   "checkedAt": "2026-11-15"
+  },
+  "NASCA_EB": {
+   "title": "Nazca Lines",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Nazca-Lines",
+   "id": "NASCA_EB",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/217131",
+   "https://www.britannica.com/place/Nazca-Lines"
+  ],
+  "alteracoes": [
+   "Fonte NASCA700 (whc.unesco.org/en/list/700) substituída: a mesma declaração de valor universal foi conferida no relatório periódico publicado pela UNESCO (NASCA_PR); acrescentada a Britannica (NASCA_EB).",
+   "C1: rótulo para ‘Patrimônio arqueológico’; alternativas com nomes reais e títulos do banco (Machu Picchu, Copán, Tikal, Tiwanaku, Rapa Nui); retirados ‘Geoglifos de Atacama’ (vago) e nomes genéricos ‘Sítio Arqueológico de…’.",
+   "C3: ‘Ambiente’ com opções implausíveis (tundra, recife) trocado por ‘Técnica usada para traçar as figuras’ (remoção do cascalho superficial), conforme a UNESCO.",
+   "C4: ‘Tipo de vestígio’ com opções implausíveis e que entregava o C1 trocado por ‘Pesquisadora que estudou e defendeu o sítio’ (Maria Reiche), conforme UNESCO e Britannica.",
+   "Viajante: as 25 pistas reescritas ou trocadas; entraram medidas de figuras (pelicano, ave-condor), lista de animais, técnica, vento, plataformas e Spondylus, Kosok em 1941, Reiche e ameaças.",
+   "Geógrafo: as 25 pistas reescritas ou trocadas para processos e relações (aridez e conservação, cascalho intemperizado, fases Paracas e principal, petróglifos, pistas para multidões, critérios, área de 75,4 mil ha, hipótese astronômica contestada em 1967, ameaças, nome de 2016); ‘Rio Grande local’ corrigido para bacia do Rio Grande.",
+   "Sinais: P01–P02 abertura nos dois perfis; decisivas Viajante P14 e P21, Geógrafo P15 e P25; relatedFields ampliados para C2, C3 e C4."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

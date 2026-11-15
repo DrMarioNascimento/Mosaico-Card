@@ -1,0 +1,1057 @@
+{
+  "case": {
+    "id": "lug2-bom-jesus-congonhas",
+    "placeId": "bom-jesus-congonhas",
+    "title": "Santuário do Bom Jesus de Matosinhos",
+    "aliases": [
+      "Santuário de Congonhas",
+      "Bom Jesus de Matosinhos"
+    ],
+    "answerType": "santuário histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sudeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Santuário histórico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Santuário do Bom Jesus de Matosinhos"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Santuário Nacional de Nossa Senhora Aparecida"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Santuário do Caraça"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Santuário de Nossa Senhora da Piedade"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Santuário do Senhor Bom Jesus de Iguape"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Santuário do Bom Jesus de Pirapora"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Santuário do Senhor Bom Jesus de Tremembé"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Santuário de Nossa Senhora da Penha"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Santuário de São Judas Tadeu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Santuário do Bom Jesus de Matosinhos",
+        "sources": [
+          "SE_CONGONHAS_AGGOV",
+          "SE_IPAT_PATRIMONIO_MUNDIAL"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Personagens das estátuas de pedra-sabão da escadaria",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Doze profetas"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Doze apóstolos"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Quatro evangelistas"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Sete arcanjos"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Doze profetas",
+        "sources": [
+          "SE_CONGONHAS_AGGOV",
+          "SE_CONGONHAS_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Escultor associado às estátuas do conjunto",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Aleijadinho"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Mestre Valentim"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Francisco Xavier de Brito"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Francisco Vieira Servas"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Aleijadinho",
+        "sources": [
+          "SE_CONGONHAS_AGGOV",
+          "SE_ITATIAIA_UNESCO_MG"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Minas Gerais"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio de Janeiro"
+          },
+          {
+            "id": "C4-O3",
+            "text": "São Paulo"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Espírito Santo"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Minas Gerais",
+        "sources": [
+          "SE_CONGONHAS_AGGOV"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "bom-jesus-congonhas-viajante-P01",
+            "factKey": "bom-jesus-congonhas-F01",
+            "text": "O destino é um conjunto religioso histórico no Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P02",
+            "factKey": "bom-jesus-congonhas-F02",
+            "text": "Fica em uma cidade do interior da região Sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P03",
+            "factKey": "bom-jesus-congonhas-F03",
+            "text": "A igreja fica no alto de um morro, e ruas íngremes de pedra levam até ela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P04",
+            "factKey": "bom-jesus-congonhas-F04",
+            "text": "Uma escadaria ao ar livre leva até a entrada da igreja.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P05",
+            "factKey": "bom-jesus-congonhas-F05",
+            "text": "Estátuas decoram essa escadaria externa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P06",
+            "factKey": "bom-jesus-congonhas-F06",
+            "text": "As estátuas de fora foram esculpidas em pedra-sabão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P07",
+            "factKey": "bom-jesus-congonhas-F07",
+            "text": "As estátuas da escadaria representam doze profetas do Antigo Testamento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P08",
+            "factKey": "bom-jesus-congonhas-F08",
+            "text": "Em frente à igreja, pequenas capelas mostram cenas dos últimos momentos de Jesus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P09",
+            "factKey": "bom-jesus-congonhas-F09",
+            "text": "As figuras das capelas são de madeira pintada em várias cores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P10",
+            "factKey": "bom-jesus-congonhas-F10",
+            "text": "Ao todo, as capelas guardam 66 esculturas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P11",
+            "factKey": "bom-jesus-congonhas-F11",
+            "text": "Por dentro, a igreja tem altares dourados e pinturas no teto e nas paredes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P12",
+            "factKey": "bom-jesus-congonhas-F12",
+            "text": "O conjunto guarda obras de um escultor mineiro conhecido por um apelido.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P13",
+            "factKey": "bom-jesus-congonhas-F13",
+            "text": "Esse escultor é o Aleijadinho.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P14",
+            "factKey": "bom-jesus-congonhas-F14",
+            "text": "A construção começou em 1757, depois da promessa de um minerador português.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P15",
+            "factKey": "bom-jesus-congonhas-F15",
+            "text": "A decoração de dentro da igreja segue o estilo rococó.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P16",
+            "factKey": "bom-jesus-congonhas-F16",
+            "text": "O lugar é uma das grandes referências da arte barroca na América Latina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P17",
+            "factKey": "bom-jesus-congonhas-F17",
+            "text": "O destino fica em Minas Gerais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P18",
+            "factKey": "bom-jesus-congonhas-F18",
+            "text": "A cidade onde fica o conjunto se chama Congonhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P19",
+            "factKey": "bom-jesus-congonhas-F19",
+            "text": "Todo mês de setembro, um jubileu atrai milhares de romeiros de vários estados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P20",
+            "factKey": "bom-jesus-congonhas-F20",
+            "text": "A UNESCO reconheceu o conjunto como Patrimônio Mundial em 1985.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P21",
+            "factKey": "bom-jesus-congonhas-F21",
+            "text": "O tombamento federal do conjunto foi registrado em 1939.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P22",
+            "factKey": "bom-jesus-congonhas-F22",
+            "text": "Uma sala reúne objetos deixados por fiéis em agradecimento por graças recebidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P23",
+            "factKey": "bom-jesus-congonhas-F23",
+            "text": "Um museu da cidade conta a história do lugar e da obra do escultor.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P24",
+            "factKey": "bom-jesus-congonhas-F24",
+            "text": "As estátuas de pedra foram feitas entre 1800 e 1805.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-viajante-P25",
+            "factKey": "bom-jesus-congonhas-F25",
+            "text": "Saindo de Belo Horizonte, a viagem tem cerca de 80 km, com acesso principal pela BR-040.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "bom-jesus-congonhas-geografo-P01",
+            "factKey": "bom-jesus-congonhas-F01",
+            "text": "O destino é um conjunto religioso e artístico do interior brasileiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P02",
+            "factKey": "bom-jesus-congonhas-F02",
+            "text": "A construção foi iniciada no século XVIII por iniciativa de um minerador português.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P03",
+            "factKey": "bom-jesus-congonhas-F03",
+            "text": "O conjunto ocupa o topo do Morro do Maranhão, elevação que faz parte da Serra do Ouro Branco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P04",
+            "factKey": "bom-jesus-congonhas-F04",
+            "text": "A posição no alto do morro faz o acesso depender de ruas íngremes calçadas de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P05",
+            "factKey": "bom-jesus-congonhas-F05",
+            "text": "Igreja, adro murado, escadaria externa e capelas formam os elementos do conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P06",
+            "factKey": "bom-jesus-congonhas-F06",
+            "text": "O programa escultórico ao ar livre foi executado em pedra-sabão entre 1800 e 1805.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P07",
+            "factKey": "bom-jesus-congonhas-F07",
+            "text": "Doze profetas do Antigo Testamento compõem as estátuas da escadaria externa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P08",
+            "factKey": "bom-jesus-congonhas-F08",
+            "text": "Seis capelas dos Passos, situadas diante da igreja, distribuem a narrativa da Paixão pelo terreno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P09",
+            "factKey": "bom-jesus-congonhas-F09",
+            "text": "As capelas reúnem 66 esculturas de madeira policromada que representam sete passos da Paixão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG",
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P10",
+            "factKey": "bom-jesus-congonhas-F10",
+            "text": "Esculturas e edificações contam, no próprio espaço, parte da Via-Sacra de Cristo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P11",
+            "factKey": "bom-jesus-congonhas-F11",
+            "text": "O interior combina talha dourada nos altares, estatuária e forros e paredes pintados em estilo rococó.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI",
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P12",
+            "factKey": "bom-jesus-congonhas-F12",
+            "text": "O santuário passou a oferecer serviços religiosos em 1765, ano da morte de seu idealizador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P13",
+            "factKey": "bom-jesus-congonhas-F13",
+            "text": "Antônio Francisco Lisboa, o Aleijadinho, é o autor dos profetas e das figuras das capelas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P14",
+            "factKey": "bom-jesus-congonhas-F14",
+            "text": "Nos séculos XVIII e XIX, o escultor e o pintor Mestre Ataíde contribuíram para o monumento.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P15",
+            "factKey": "bom-jesus-congonhas-F15",
+            "text": "O historiador da arte Germain Bazin atribui ao mesmo escultor o elaborado frontispício da fachada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P16",
+            "factKey": "bom-jesus-congonhas-F16",
+            "text": "A inscrição na Lista do Patrimônio Mundial da UNESCO ocorreu em 1985.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P17",
+            "factKey": "bom-jesus-congonhas-F17",
+            "text": "O conjunto foi inscrito no Livro do Tombo de Belas Artes do Iphan em 1939.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P18",
+            "factKey": "bom-jesus-congonhas-F18",
+            "text": "A sala de ex-votos recebeu reconhecimento federal próprio do Iphan em 1981.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P19",
+            "factKey": "bom-jesus-congonhas-F19",
+            "text": "O jubileu de setembro gera um fluxo anual de romeiros vindos de vários estados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P20",
+            "factKey": "bom-jesus-congonhas-F20",
+            "text": "O município fica na região Central de Minas Gerais, a cerca de 80 km da capital estadual.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P21",
+            "factKey": "bom-jesus-congonhas-F21",
+            "text": "A BR-040 é o principal acesso rodoviário, e o aeroporto de Confins é a porta de entrada aérea.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P22",
+            "factKey": "bom-jesus-congonhas-F22",
+            "text": "O conjunto é tratado como referência da arte barroca latino-americana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P23",
+            "factKey": "bom-jesus-congonhas-F23",
+            "text": "Um museu da cidade interpreta a história do santuário, a obra do escultor e a formação urbana local.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P24",
+            "factKey": "bom-jesus-congonhas-F24",
+            "text": "O município que abriga o conjunto é Congonhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_CONGONHAS_AGGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "bom-jesus-congonhas-geografo-P25",
+            "factKey": "bom-jesus-congonhas-F25",
+            "text": "O conjunto começou a ser construído na segunda metade do século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SE_IPAT_PATRIMONIO_MUNDIAL",
+              "SE_ITATIAIA_UNESCO_MG"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Santuário no alto do Morro do Maranhão, em Congonhas (MG), iniciado em 1757: igreja de interior rococó, escadaria com os doze profetas de pedra-sabão de Aleijadinho (1800–1805) e seis capelas dos Passos com 66 esculturas de madeira policromada; tombado pelo Iphan em 1939 e Patrimônio Mundial desde 1985.",
+      "editorialNotes": [
+        "Número de capelas diverge entre fontes: Agência Gov, Itatiaia e iPatrimônio falam em seis capelas (com sete passos da Paixão); a Wikipédia em inglês fala em sete capelas. As pistas usam seis capelas e sete passos.",
+        "O alias \"Bom Jesus de Matosinhos\" impede citar a invocação nas pistas; a cidade (Congonhas) aparece só em pistas decisivas.",
+        "C1 restrito a santuários do Sudeste; C3 troca Manuel da Costa Ataíde (que também trabalhou no conjunto) por Francisco Vieira Servas para evitar dois gabaritos."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes abertas (Agência Gov/MTur 2026, Wikipédia, compilação iPatrimônio de textos Unesco/Iphan, Itatiaia); C1 restrito ao Sudeste, C3 sem distrator ambíguo, número de capelas e datas conferidos e pistas reescritas"
+    }
+  },
+  "sources": {
+    "SE_CONGONHAS_AGGOV": {
+      "id": "SE_CONGONHAS_AGGOV",
+      "title": "Conheça Congonhas (MG), onde a principal obra de Aleijadinho se tornou Patrimônio Mundial da Unesco",
+      "publisher": "Agência Gov / Ministério do Turismo",
+      "url": "https://agenciagov.ebc.com.br/noticias/202608/conheca-congonhas-mg-onde-a-principal-obra-de-aleijadinho-se-tornou-patrimonio-mundial-da-unesco",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_IPAT_PATRIMONIO_MUNDIAL": {
+      "id": "SE_IPAT_PATRIMONIO_MUNDIAL",
+      "title": "Patrimônio Mundial Cultural e Nacional (fichas de bens brasileiros, com textos da Unesco e registros do Iphan)",
+      "publisher": "iPatrimônio",
+      "url": "https://www.ipatrimonio.org/wp-content/uploads/2018/03/Patrim%C3%B4nio-Mundial-Cultural-e-Nacional_semcapa.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_CONGONHAS_WIKI": {
+      "id": "SE_CONGONHAS_WIKI",
+      "title": "Sanctuary of Bom Jesus de Matosinhos",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_de_Matosinhos",
+      "checkedAt": "2026-11-15"
+    },
+    "SE_ITATIAIA_UNESCO_MG": {
+      "id": "SE_ITATIAIA_UNESCO_MG",
+      "title": "Patrimônios mundiais da UNESCO em Minas Gerais",
+      "publisher": "Itatiaia",
+      "url": "https://www.itatiaia.com.br/brasil/patrimonios-mundiais-da-unesco-em-minas-gerais/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://agenciagov.ebc.com.br/noticias/202608/conheca-congonhas-mg-onde-a-principal-obra-de-aleijadinho-se-tornou-patrimonio-mundial-da-unesco",
+      "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_de_Matosinhos",
+      "https://www.ipatrimonio.org/wp-content/uploads/2018/03/Patrim%C3%B4nio-Mundial-Cultural-e-Nacional_semcapa.pdf",
+      "https://www.itatiaia.com.br/brasil/patrimonios-mundiais-da-unesco-em-minas-gerais/",
+      "https://www.wikiwand.com/en/articles/Sanctuary_of_Bom_Jesus_do_Congonhas",
+      "https://diariodocomercio.com.br/?p=618970",
+      "https://www.360meridianos.com/congonhas-mg-profetas/",
+      "https://www.hojeemdia.com.br/minas/conheca-os-cinco-patrimonios-mineiros-reconhecidos-pela-unesco-1.1127109"
+    ],
+    "alteracoes": [
+      "Fonte única do rascunho (página da UNESCO 334) não abriu (erro do site); substituída por Agência Gov/MTur, Wikipédia, iPatrimônio e Itatiaia, todas abertas",
+      "C1: Bom Jesus de Braga (Portugal), Nossa Senhora do Pilar, Bom Jesus de Monte Alegre e Bom Jesus da Lapa (BA) retirados; lista restrita a 9 santuários do Sudeste (incluído São Judas Tadeu)",
+      "C2: rótulo especificado (estátuas da escadaria); gabarito Doze profetas mantido",
+      "C3: Manuel da Costa Ataíde trocado por Francisco Vieira Servas (Ataíde também contribuiu para o conjunto, gerando ambiguidade); rótulo especificado",
+      "Retirados por falta de apoio: conclusão da igreja em 1772 e torres da fachada; geógrafo P13 corrigido (nome é Antônio Francisco Lisboa, não Francisco Antônio Lisboa)",
+      "Número de capelas: \"seis capelas\" mantido com apoio de três fontes e divergência registrada nas notas",
+      "viajante: 17 pistas reescritas ou trocadas; geografo: 21 reescritas ou trocadas; relatedFields passam a apontar C2–C4 quando pertinente; 2 aberturas e 2 decisivas por perfil"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

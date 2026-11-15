@@ -1,0 +1,1080 @@
+{
+  "case": {
+    "id": "lug2-pomerode",
+    "placeId": "pomerode",
+    "title": "Pomerode",
+    "aliases": [],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Pomerode"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Blumenau"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Timbó"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Indaial"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Brusque"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Jaraguá do Sul"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Joinville"
+          },
+          {
+            "id": "C1-O8",
+            "text": "São Bento do Sul"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Gaspar"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Nova Petrópolis"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Treze Tílias"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Rio Negrinho"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Pomerode",
+        "sources": [
+          "SULPOMERODEIBGEH"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio ao longo do qual foram demarcados os primeiros lotes",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Rio do Testo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Rio Benedito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Rio Itapocu"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rio dos Cedros"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Rio do Testo",
+        "sources": [
+          "SULPOMERODEIBGEH"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Técnica construtiva das casas da rota rural tombada",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Enxaimel"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Taipa de pilão"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Alvenaria de pedra"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Adobe"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Enxaimel",
+        "sources": [
+          "POMERODE_UNWTO",
+          "POMERODE_CB",
+          "POMERODE_JBR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Município do qual se desmembrou",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Blumenau"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Joinville"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Brusque"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Itajaí"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Blumenau",
+        "sources": [
+          "SULPOMERODEIBGEH"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "pomerode-viajante-P01",
+            "factKey": "pomerode-viajante-F01",
+            "text": "É uma cidade pequena do Sul do Brasil, com vales cercados por morros de Mata Atlântica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_UNWTO",
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P02",
+            "factKey": "pomerode-viajante-F02",
+            "text": "A cultura de imigrantes europeus marca a arquitetura, a língua e a comida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_UNWTO",
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P03",
+            "factKey": "pomerode-viajante-F03",
+            "text": "Fica em Santa Catarina, no Vale do Itajaí.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P04",
+            "factKey": "pomerode-viajante-F04",
+            "text": "Blumenau fica a cerca de 30 km.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P05",
+            "factKey": "pomerode-viajante-F05",
+            "text": "Muitas famílias vieram da Pomerânia, no norte da Alemanha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P06",
+            "factKey": "pomerode-viajante-F06",
+            "text": "Os primeiros lotes foram ocupados em 1861, ao longo de um rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P07",
+            "factKey": "pomerode-viajante-F07",
+            "text": "Esse rio, o do Testo, deságua no Itajaí-Açu.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P08",
+            "factKey": "pomerode-viajante-F08",
+            "text": "A área fazia parte de uma colônia maior, fundada só onze anos antes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P09",
+            "factKey": "pomerode-viajante-F09",
+            "text": "O lugar foi distrito de Blumenau até virar município, instalado em 1959.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P10",
+            "factKey": "pomerode-viajante-F10",
+            "text": "As casas de enxaimel têm vigas de madeira encaixadas sem pregos e vãos com tijolos de barro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P11",
+            "factKey": "pomerode-viajante-F11",
+            "text": "Uma rota rural de cerca de 16 km reúne umas 50 dessas casas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_UNWTO",
+              "POMERODE_CB",
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P12",
+            "factKey": "pomerode-viajante-F12",
+            "text": "A rota passa por roças de milho e cana e por palmeiras, entre morros de mata.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_UNWTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P13",
+            "factKey": "pomerode-viajante-F13",
+            "text": "Cerca de 80% dos moradores falam alemão no dia a dia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P14",
+            "factKey": "pomerode-viajante-F14",
+            "text": "Há escolas bilíngues que ensinam as crianças também em alemão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P15",
+            "factKey": "pomerode-viajante-F15",
+            "text": "Em janeiro acontece a Festa Pomerana, com desfiles, danças e comida típica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P16",
+            "factKey": "pomerode-viajante-F16",
+            "text": "Antes da Páscoa, a Osterfest dura semanas e enche a cidade de ovos decorados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P17",
+            "factKey": "pomerode-viajante-F17",
+            "text": "Uma árvore de Páscoa com mais de 100 mil cascas de ovo decoradas entrou para o Guinness em 2017.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P18",
+            "factKey": "pomerode-viajante-F18",
+            "text": "O zoológico da cidade é apontado como o maior do estado, com mais de 1.200 animais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P19",
+            "factKey": "pomerode-viajante-F19",
+            "text": "Lojas de fábrica vendem chocolates e cervejas artesanais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P20",
+            "factKey": "pomerode-viajante-F20",
+            "text": "Duas das maiores empresas de moda infantil do país têm sede ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P21",
+            "factKey": "pomerode-viajante-F21",
+            "text": "A cidade tinha cerca de 34 mil habitantes no Censo 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P22",
+            "factKey": "pomerode-viajante-F22",
+            "text": "O bairro rural da rota das casas antigas tem cerca de 3 mil moradores.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P23",
+            "factKey": "pomerode-viajante-F23",
+            "text": "Esse bairro foi escolhido pela ONU Turismo entre as melhores vilas turísticas do mundo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_UNWTO",
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P24",
+            "factKey": "pomerode-viajante-F24",
+            "text": "Em 2026, uma lei sancionada pelo presidente oficializou essa rota como destino turístico.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-viajante-P25",
+            "factKey": "pomerode-viajante-F25",
+            "text": "Na área rural há nascentes, riachos e cachoeiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "pomerode-geografo-P01",
+            "factKey": "pomerode-geografo-F01",
+            "text": "O povoamento nasceu como expansão de uma colônia privada de imigração alemã.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P02",
+            "factKey": "pomerode-geografo-F02",
+            "text": "Lotes coloniais longos e estreitos correm perpendiculares às estradas, rumo às cumeeiras do vale.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P03",
+            "factKey": "pomerode-geografo-F03",
+            "text": "A ocupação de 1861 buscava abrir ligação terrestre com a colônia Dona Francisca, perto de Joinville, para ampliar o comércio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P04",
+            "factKey": "pomerode-geografo-F04",
+            "text": "Os lotes do médio e alto curso do rio foram ocupados por imigrantes da Pomerânia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P05",
+            "factKey": "pomerode-geografo-F05",
+            "text": "Famílias de Baden se instalaram perto da confluência com o Itajaí-Açu, área que segue em Blumenau.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P06",
+            "factKey": "pomerode-geografo-F06",
+            "text": "O distrito de Rio do Testo constava no município de Blumenau nas divisões de 1936 e 1937.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P07",
+            "factKey": "pomerode-geografo-F07",
+            "text": "A lei estadual nº 380, de 19 de dezembro de 1958, criou o município por desmembramento e mudou o topônimo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P08",
+            "factKey": "pomerode-geografo-F08",
+            "text": "A instalação municipal ocorreu em 21 de janeiro de 1959.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SULPOMERODEIBGEH"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P09",
+            "factKey": "pomerode-geografo-F09",
+            "text": "Em 2015, um conjunto rural do município foi inscrito nos Livros do Tombo Histórico e Arqueológico, Etnográfico e Paisagístico.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P10",
+            "factKey": "pomerode-geografo-F10",
+            "text": "A proteção busca manter o caráter rural e os valores históricos, etnográficos e paisagísticos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P11",
+            "factKey": "pomerode-geografo-F11",
+            "text": "O padrão de assentamento colonial segue preservado, com casas, pequenos comércios, igrejas e sociedades recreativas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P12",
+            "factKey": "pomerode-geografo-F12",
+            "text": "O entorno funciona como transição entre o sítio rural e a ocupação urbana em expansão, com setores rural, urbano e industrial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P13",
+            "factKey": "pomerode-geografo-F13",
+            "text": "A Portaria Iphan nº 110/2023 fixa os critérios de intervenção no Conjunto Rural de Testo Alto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P14",
+            "factKey": "pomerode-geografo-F14",
+            "text": "No sítio tombado, telhados novos devem ter inclinação mínima de 50%, e paredes, no máximo 6 m.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P15",
+            "factKey": "pomerode-geografo-F15",
+            "text": "Projetos que criem falsos históricos são vedados no sítio e no entorno.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SULPOMERODENORMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P16",
+            "factKey": "pomerode-geografo-F16",
+            "text": "Na técnica enxaimel, vigas de madeira se encaixam sem pregos nem parafusos, e os vãos recebem tijolos de barro.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_JBR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P17",
+            "factKey": "pomerode-geografo-F17",
+            "text": "Cerca de 50 casas enxaimel ao longo de 16 km são divulgadas como a maior concentração da técnica fora da Europa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_JBR",
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P18",
+            "factKey": "pomerode-geografo-F18",
+            "text": "A atividade rural transmitida entre gerações foi a principal fonte de renda do bairro tombado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_UNWTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P19",
+            "factKey": "pomerode-geografo-F19",
+            "text": "Milho, cana-de-açúcar e palmeiras ocupam o vale; os morros em volta mantêm Mata Atlântica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_UNWTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P20",
+            "factKey": "pomerode-geografo-F20",
+            "text": "O bairro rural soma cerca de 3 mil moradores e recebeu o selo Best Tourism Villages da ONU Turismo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "POMERODE_JBR",
+              "POMERODE_UNWTO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P21",
+            "factKey": "pomerode-geografo-F21",
+            "text": "O parque industrial é diversificado, com moda infantil, chocolates e cervejas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P22",
+            "factKey": "pomerode-geografo-F22",
+            "text": "O município tinha 34.289 habitantes no Censo de 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P23",
+            "factKey": "pomerode-geografo-F23",
+            "text": "A manutenção do alemão, no dialeto Plattdeutsch, é apoiada por escolas bilíngues.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P24",
+            "factKey": "pomerode-geografo-F24",
+            "text": "O calendário turístico inclui a Festa Pomerana, em janeiro, e a Osterfest, entre fevereiro e abril.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "POMERODE_CB",
+              "POMERODE_NSC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "pomerode-geografo-P25",
+            "factKey": "pomerode-geografo-F25",
+            "text": "Fica a cerca de 30 km de Blumenau e 45 km do aeroporto de Navegantes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "POMERODE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade catarinense do Vale do Itajaí, desmembrada de Blumenau em 1958–1959, cujos primeiros lotes (1861) ocuparam o vale do Rio do Testo com imigrantes da Pomerânia; preserva a língua alemã e o Conjunto Rural de Testo Alto, tombado pelo Iphan, com casas enxaimel.",
+      "editorialNotes": [
+        "O IBGE dá 1861 para a ocupação dos primeiros lotes; reportagens (NSC, Correio Braziliense) falam em 1863. As pistas seguem o IBGE.",
+        "A \"maior concentração de enxaimel fora da Europa\", os 80% de falantes de alemão e o zoológico \"maior do estado\" vêm de reportagens; as pistas atribuem ou suavizam essas afirmações.",
+        "O tamanho do maior ovo de Páscoa diverge (16 m na NSC, 15 m no Correio Braziliense) e ficou fora das pistas."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "histórico do IBGE, portaria do Iphan e página da ONU Turismo abertos na revisão; C3–C4 refeitos e pistas sem fonte aberta trocadas"
+    }
+  },
+  "sources": {
+    "SULPOMERODEIBGEH": {
+      "id": "SULPOMERODEIBGEH",
+      "title": "Pomerode: histórico e formação administrativa (Documentação Territorial do Brasil)",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/pomerode.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SULPOMERODENORMA": {
+      "id": "SULPOMERODENORMA",
+      "title": "Portaria Iphan nº 110, de 6 de julho de 2023 (entorno e critérios de intervenção do Conjunto Rural de Testo Alto)",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/centrais-de-conteudo/legislacao/atos-normativos/2023/portaria-iphan-no-110-de-06-de-julho-de-2023",
+      "checkedAt": "2026-11-15"
+    },
+    "POMERODE_UNWTO": {
+      "id": "POMERODE_UNWTO",
+      "title": "Testo Alto (Best Tourism Villages)",
+      "publisher": "ONU Turismo (UN Tourism)",
+      "url": "https://tourism-villages.unwto.org/en/villages/testo-alto/",
+      "checkedAt": "2026-11-15"
+    },
+    "POMERODE_CB": {
+      "id": "POMERODE_CB",
+      "title": "A única vila do Brasil eleita pela ONU entre as melhores do mundo preserva 50 casas enxaimel em cenário que lembra a Alemanha",
+      "publisher": "Correio Braziliense (2026)",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-unica-vila-do-brasil-eleita-pela-onu-entre-as-melhores-do-mundo-preserva-50-casas-enxaimel-em-cenario-que-lembra-a-alemanha/",
+      "checkedAt": "2026-11-15"
+    },
+    "POMERODE_NSC": {
+      "id": "POMERODE_NSC",
+      "title": "Conheça Pomerode: a cidade mais alemã do Brasil",
+      "publisher": "NSC Total",
+      "url": "https://www.nsctotal.com.br/noticias/conheca-pomerode-a-cidade-mais-alema-do-brasil",
+      "checkedAt": "2026-11-15"
+    },
+    "POMERODE_JBR": {
+      "id": "POMERODE_JBR",
+      "title": "Lula sanciona lei criando Rota do Enxaimel como destino turístico em Pomerode",
+      "publisher": "Jornal de Brasília (2026)",
+      "url": "https://jornaldebrasilia.com.br/estilo-de-vida/turismo/lula-sanciona-lei-criando-rota-do-enxaimel-como-destino-turistico-em-pomerode/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/pomerode.pdf",
+      "https://www.gov.br/iphan/pt-br/centrais-de-conteudo/legislacao/atos-normativos/2023/portaria-iphan-no-110-de-06-de-julho-de-2023",
+      "https://tourism-villages.unwto.org/en/villages/testo-alto/",
+      "https://www.correiobraziliense.com.br/cbradar/a-unica-vila-do-brasil-eleita-pela-onu-entre-as-melhores-do-mundo-preserva-50-casas-enxaimel-em-cenario-que-lembra-a-alemanha/",
+      "https://www.nsctotal.com.br/noticias/conheca-pomerode-a-cidade-mais-alema-do-brasil",
+      "https://jornaldebrasilia.com.br/estilo-de-vida/turismo/lula-sanciona-lei-criando-rota-do-enxaimel-como-destino-turistico-em-pomerode/"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho SULPOMERODEIBGEH e SULPOMERODENORMA reabertas (mesmo endereço, buscado); SULPOMERODEIPHAN (notícia da Casa Martin Rahn), SULPOMERODECIMVI e SULPOMERODEIBGEP não abertas e substituídas por ONU Turismo, Correio Braziliense 2026, NSC Total e Jornal de Brasília 2026",
+      "C3: de \"Técnica da Casa Martin Rahn\" (casa sem fonte aberta) para \"Técnica construtiva das casas da rota rural tombada\", gabarito Enxaimel",
+      "C4: de \"Estado brasileiro\" para \"Município do qual se desmembrou\", gabarito Blumenau (IBGE)",
+      "C2: alternativas Uruguai e Tubarão (fora da região) trocadas por Benedito e dos Cedros",
+      "C1: Ponta Grossa, Florianópolis, Chapecó e Lages trocadas por cidades de colonização germânica (Gaspar, Nova Petrópolis, Treze Tílias, Rio Negrinho)",
+      "Retiradas pistas sem apoio nas fontes abertas: Casa Martin Rahn de 1889 e sua restauração em 2024, cultivos de milho/feijão/mandioca do CIMVI, laticínios, móveis, cerâmica e porcelana, ponte coberta de 1915, estrada para Blumenau",
+      "geografo P12–P14 (marcadas decisivas sem serem) refeitas com datas e lei do IBGE",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields passam a apontar C2–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

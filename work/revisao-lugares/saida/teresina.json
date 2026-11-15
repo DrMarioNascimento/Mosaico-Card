@@ -1,0 +1,1088 @@
+{
+  "case": {
+    "id": "lug2-teresina",
+    "placeId": "teresina",
+    "title": "Teresina",
+    "aliases": [
+      "Teresina"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Teresina"
+          },
+          {
+            "id": "C1-O2",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Aracaju"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Maceió"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Natal"
+          },
+          {
+            "id": "C1-O6",
+            "text": "João Pessoa"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Recife"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Salvador"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Fortaleza"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Timon"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Petrolina"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Campina Grande"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Teresina",
+        "sources": [
+          "TERESINA_IBGEHIST",
+          "TERESINA_IBGEMINHA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rios entre os quais a cidade se espreme",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Poti e Parnaíba"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Capibaribe e Beberibe"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Potengi e Jundiaí"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Cocó e Ceará"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Poti e Parnaíba",
+        "sources": [
+          "TERESINA_CB1",
+          "TERESINA_IBGEMINHA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Pioneirismo atribuído à cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Primeira capital planejada do Império"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Primeira capital do Brasil"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Única capital fundada por franceses"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Primeira capital planejada da República"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Primeira capital planejada do Império",
+        "sources": [
+          "TERESINA_PROARQ",
+          "TERESINA_CB2"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Piauí"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Maranhão"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Ceará"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Pernambuco"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Piauí",
+        "sources": [
+          "TERESINA_IBGEHIST",
+          "TERESINA_IBGEMINHA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "teresina-viajante-P01",
+            "factKey": "teresina-F01",
+            "text": "É uma cidade quente o ano todo, com estações de seca e de chuva bem definidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P02",
+            "factKey": "teresina-F02",
+            "text": "A cidade nasceu à beira de um rio navegável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_PROARQ",
+              "TERESINA_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P03",
+            "factKey": "teresina-F03",
+            "text": "A cidade fica a cerca de 366 km do litoral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P04",
+            "factKey": "teresina-F04",
+            "text": "É a única capital nordestina sem praia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2",
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P05",
+            "factKey": "teresina-F05",
+            "text": "A cidade foi fundada em 1852.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P06",
+            "factKey": "teresina-F06",
+            "text": "Foi desenhada antes de ter moradores, com ruas em forma de tabuleiro de xadrez.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TERESINA_CB2",
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P07",
+            "factKey": "teresina-F07",
+            "text": "A nova capital substituiu Oeiras, cidade de difícil acesso para o comércio.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P08",
+            "factKey": "teresina-F08",
+            "text": "O nome da cidade homenageia uma imperatriz do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P09",
+            "factKey": "teresina-F09",
+            "text": "Os rios Poti e Parnaíba se encontram na cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_CB1",
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P10",
+            "factKey": "teresina-F10",
+            "text": "No Parque Ambiental Encontro dos Rios há mirantes, trilhas e barracas de artesanato em argila.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P11",
+            "factKey": "teresina-F11",
+            "text": "No parque do encontro dos rios há um monumento ao Cabeça de Cuia, personagem de uma lenda local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P12",
+            "factKey": "teresina-F12",
+            "text": "O bairro Poti Velho tem um polo cerâmico que vende peças de artesãos da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P13",
+            "factKey": "teresina-F13",
+            "text": "Uma ponte estaiada com mirante de 360° sobre o rio Poti foi inaugurada em 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2",
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P14",
+            "factKey": "teresina-F14",
+            "text": "Uma ponte metálica liga a cidade a Timon, no Maranhão; antes, a travessia era de barco ou canoa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P15",
+            "factKey": "teresina-F15",
+            "text": "O apelido “Cidade Verde” vem das avenidas arborizadas que impressionaram o escritor Coelho Neto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P16",
+            "factKey": "teresina-F16",
+            "text": "Troncos de árvores petrificadas, de 270 a 280 milhões de anos, continuam em pé à beira do rio Poti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P17",
+            "factKey": "teresina-F17",
+            "text": "De setembro a dezembro vem o “B-R-O Bró”, a época mais quente, quando o termômetro passa de 40 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P18",
+            "factKey": "teresina-F18",
+            "text": "A cajuína, bebida de caju clarificada e sem álcool, é patrimônio cultural do Brasil desde 2014.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P19",
+            "factKey": "teresina-F19",
+            "text": "O Mercado Central Mestre Dezinho vende artesanato de cerâmica, madeira e couro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P20",
+            "factKey": "teresina-F20",
+            "text": "Os parques Potycabana e Lagoas do Norte, este com lagoas urbanizadas, estão entre as áreas de lazer.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P21",
+            "factKey": "teresina-F21",
+            "text": "A sede do governo estadual fica no Palácio de Karnak.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P22",
+            "factKey": "teresina-F22",
+            "text": "A Igreja de São Benedito foi erguida em 1917 pela comunidade negra, ao lado de um antigo cemitério de escravizados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P23",
+            "factKey": "teresina-F23",
+            "text": "Uma publicação do IBGE de 2021 fala em cerca de 868 mil moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P24",
+            "factKey": "teresina-F24",
+            "text": "É a capital do Piauí.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-viajante-P25",
+            "factKey": "teresina-F25",
+            "text": "O apelido de “Mesopotâmia brasileira” vem de ela ficar espremida entre dois rios.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "teresina-geografo-P01",
+            "factKey": "teresina-F01",
+            "text": "O sítio urbano foi escolhido pela navegação fluvial e pela posição central no território.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P02",
+            "factKey": "teresina-F02",
+            "text": "Clima quente com estações seca e chuvosa bem definidas; no fim da seca, a umidade do ar despenca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2",
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P03",
+            "factKey": "teresina-F03",
+            "text": "O núcleo foi implantado numa chapada mais elevada à margem do rio principal, acima da vila ribeirinha da confluência.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P04",
+            "factKey": "teresina-F04",
+            "text": "O plano ortogonal previa 100 quarteirões de 40 × 40 braças, com a Igreja Matriz como marco zero.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P05",
+            "factKey": "teresina-F05",
+            "text": "Foi a primeira capital planejada e construída sob o regime imperial.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P06",
+            "factKey": "teresina-F06",
+            "text": "A Lei Provincial nº 315, de 20 de julho de 1852, elevou a localidade a cidade e capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P07",
+            "factKey": "teresina-F07",
+            "text": "A fundação oficial é de 16 de agosto de 1852, com a mudança de funcionários públicos e famílias da antiga capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P08",
+            "factKey": "teresina-F08",
+            "text": "A antiga capital era de difícil acesso para o comércio; o novo sítio se ligava pela navegação do rio às relações políticas e comerciais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1",
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P09",
+            "factKey": "teresina-F09",
+            "text": "O presidente da província, José Antônio Saraiva, escolheu o sítio e orientou o plano.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TERESINA_PROARQ",
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P10",
+            "factKey": "teresina-F10",
+            "text": "Em 1841, a vila ribeirinha que antecedeu a capital tinha 2.849 fogos em 16 quarteirões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P11",
+            "factKey": "teresina-F11",
+            "text": "O povoamento remonta ao século XVII, com uma feitoria e um criatório de gado de bandeirantes liderados por Domingos Jorge Velho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P12",
+            "factKey": "teresina-F12",
+            "text": "A área urbana se espreme entre o rio principal e seu afluente, que se juntam no norte da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P13",
+            "factKey": "teresina-F13",
+            "text": "A confluência é protegida num parque ambiental de cerca de 10 hectares.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P14",
+            "factKey": "teresina-F14",
+            "text": "O rio principal é divisa estadual, e a cidade forma conurbação rara entre uma capital e uma cidade de outro estado.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_CB1",
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P15",
+            "factKey": "teresina-F15",
+            "text": "A mesma estação de alerta hidrológico do SGB atende a capital e a cidade maranhense em frente.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P16",
+            "factKey": "teresina-F16",
+            "text": "Cerca de 70 troncos petrificados do Permiano estão em posição de vida junto ao afluente; o sítio foi tombado pelo Iphan em 2017.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P17",
+            "factKey": "teresina-F17",
+            "text": "No “B-R-O Bró”, de setembro a dezembro, a umidade pode cair a 10%–30%, bem abaixo dos 60% recomendados pela OMS.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB1"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P18",
+            "factKey": "teresina-F18",
+            "text": "A vila foi criada em 1832, desmembrada de Campo Maior e Valença, e a sede passou em 1842 para Vila Nova do Poti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P19",
+            "factKey": "teresina-F19",
+            "text": "As praças Deodoro da Fonseca — a principal, com 1.200 palmos — e Rio Branco estruturam o núcleo planejado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TERESINA_PROARQ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P20",
+            "factKey": "teresina-F20",
+            "text": "As médias de temperatura vão de cerca de 22 °C a 37 °C ao longo do ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P21",
+            "factKey": "teresina-F21",
+            "text": "No bairro da confluência, o Poti Velho, concentram-se o polo cerâmico e as barracas de artesanato em argila.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P22",
+            "factKey": "teresina-F22",
+            "text": "A Floresta Fóssil é descrita pelo IBGE como o único sítio paleontológico dentro de uma cidade no Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P23",
+            "factKey": "teresina-F23",
+            "text": "O governo estadual fica no Palácio de Karnak, e o antigo palácio do governo provincial virou museu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P24",
+            "factKey": "teresina-F24",
+            "text": "Capital piauiense desde 1852, recebeu o nome em homenagem à imperatriz Teresa Cristina.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_IBGEHIST",
+              "TERESINA_CB2"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "teresina-geografo-P25",
+            "factKey": "teresina-F25",
+            "text": "Entre o Parnaíba, divisa com o Maranhão, e o Poti, ganhou o apelido de “Mesopotâmia brasileira”.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "TERESINA_CB1",
+              "TERESINA_IBGEMINHA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do Piauí fundada em 16/8/1852 para substituir Oeiras, primeira capital planejada do Império (traçado em tabuleiro de xadrez orientado por José Antônio Saraiva), única capital nordestina fora do litoral, a cerca de 366 km do mar, espremida entre o Parnaíba — divisa com Timon (MA) — e o Poti.",
+      "editorialNotes": [
+        "A população do Censo 2022 não pôde ser conferida; a pista cita os \"cerca de 868 mil\" da publicação Minha Teresina (IBGE, 2021), sem ano de referência do dado.",
+        "A pauta se relaciona com a do Rio Parnaíba (mesmo lote); evitar sortear as duas em sequência.",
+        "O histórico do IBGE dá 1797 para a igreja de Nossa Senhora do Amparo, mas sem situá-la no núcleo de 1852; a pista do rascunho foi retirada."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por histórico municipal e Minha Teresina (IBGE), artigo dos Cadernos PROARQ (UFRJ), duas reportagens do Correio Braziliense e relatório do SGB, todos abertos; C1 restrito a cidades do Nordeste, C3 refeito e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "TERESINA_IBGEHIST": {
+      "id": "TERESINA_IBGEHIST",
+      "title": "Teresina (PI) — histórico e formação administrativa",
+      "publisher": "IBGE — Biblioteca",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/teresina.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TERESINA_IBGEMINHA": {
+      "id": "TERESINA_IBGEMINHA",
+      "title": "Minha Teresina (PI) — Coleção Minha Capital, n. 17 (2021)",
+      "publisher": "IBGE",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101842.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TERESINA_PROARQ": {
+      "id": "TERESINA_PROARQ",
+      "title": "Planejamento e fundação da primeira cidade no Brasil Império (Angela Martins Napoleão Braz e Silva)",
+      "publisher": "Cadernos PROARQ — UFRJ",
+      "url": "https://cadernos.proarq.fau.ufrj.br/public/docs/Proarq18_Planejamento_AngelaSilva.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "TERESINA_CB1": {
+      "id": "TERESINA_CB1",
+      "title": "A “Mesopotâmia brasileira” entre dois rios que preserva uma floresta de 270 milhões de anos e surpreende pela organização",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-mesopotamia-brasileira-entre-dois-rios-que-preserva-uma-floresta-de-270-milhoes-de-anos-e-surpreende-pela-organizacao/",
+      "checkedAt": "2026-11-15"
+    },
+    "TERESINA_CB2": {
+      "id": "TERESINA_CB2",
+      "title": "A primeira capital planejada do Brasil nasceu de um tabuleiro de xadrez e encantou com sua organização a 366 km do mar",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-primeira-capital-planejada-do-brasil-nasceu-de-um-tabuleiro-de-xadrez-e-encantou-com-sua-organizacao-a-366-km-do-mar/",
+      "checkedAt": "2026-11-15"
+    },
+    "TERESINA_SGB": {
+      "id": "TERESINA_SGB",
+      "title": "Relatório de operação do Sistema de Alerta Hidrológico da Bacia do Rio Parnaíba — 2021",
+      "publisher": "Serviço Geológico do Brasil (SGB/CPRM)",
+      "url": "https://rigeo.cprm.gov.br/jspui/bitstream/doc/22581/1/relatorio_operacao_SAH_parnaiba_2021.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/teresina.pdf",
+      "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101842.pdf",
+      "https://cadernos.proarq.fau.ufrj.br/public/docs/Proarq18_Planejamento_AngelaSilva.pdf",
+      "https://www.correiobraziliense.com.br/cbradar/a-mesopotamia-brasileira-entre-dois-rios-que-preserva-uma-floresta-de-270-milhoes-de-anos-e-surpreende-pela-organizacao/",
+      "https://www.correiobraziliense.com.br/cbradar/a-primeira-capital-planejada-do-brasil-nasceu-de-um-tabuleiro-de-xadrez-e-encantou-com-sua-organizacao-a-366-km-do-mar/",
+      "https://rigeo.cprm.gov.br/jspui/bitstream/doc/22581/1/relatorio_operacao_SAH_parnaiba_2021.pdf"
+    ],
+    "alteracoes": [
+      "Fontes TERESINA_IBGE, TERESINA_G20, TERESINA_PREF, TERESINA_ANA, TERESINA_PI e TERESINA_CULTURA do rascunho não foram abertas (URLs fora das buscas); substituídas por IBGE (histórico e Minha Teresina), Cadernos PROARQ, Correio Braziliense (2 reportagens) e SGB",
+      "População do Censo 2022 (866.300) retirada por não ter sido conferida; entrou a cifra de cerca de 868 mil da publicação do IBGE de 2021",
+      "C1: Belém, Goiânia e Palmas (fora do recorte) trocadas por Timon, Petrolina e Campina Grande",
+      "C2: Negro e Solimões, Tapajós e Amazonas (fora do recorte) trocados por Potengi e Jundiaí, Cocó e Ceará; gabarito Poti e Parnaíba mantido",
+      "C3: \"Localização da capital\" (Interior do Nordeste, distratores fracos e redundante com C1) trocado por \"Pioneirismo atribuído à cidade\", gabarito Primeira capital planejada do Império (PROARQ; Correio Braziliense)",
+      "Pistas sem apoio nas fontes abertas retiradas: Parque da Cidadania, Igreja do Amparo como marco da fundação; \"Central de Artesanato Mestre Dezinho\" ajustada (Mercado Central Mestre Dezinho, no Correio; Centro de Artesanato, no IBGE)",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
