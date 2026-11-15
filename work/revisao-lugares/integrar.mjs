@@ -108,12 +108,10 @@ const rotulo = c => {
   return g.continents.map(x => CONT[x]).join(' / ');
 };
 let lr = ler('lugares/README.md');
-const linhas = lr.split('\n');
-let fim = -1;
-for (let k = linhas.indexOf('| Lugar | Recorte |') + 2; k < linhas.length && linhas[k].startsWith('|'); k++) fim = k;
-if (fim < 0) throw Error('tabela do catálogo não encontrada em lugares/README.md');
-linhas.splice(fim + 1, 0, ...integrados.map(c => `| ${c.title} | ${rotulo(c)} |`));
-lr = linhas.join('\n');
+// Reconstrói a tabela pelo banco final: revisar um lugar não cria outra linha.
+lr = troca(lr, /\| Lugar \| Recorte \|[\s\S]*?(?=\nSão \d+ lugares,)/,
+  () => ['| Lugar | Recorte |', '|---|---|', ...bank.cases.map(c => `| ${c.title} | ${rotulo(c)} |`), ''].join('\n'),
+  'lugares/README.md');
 const alternativas = bank.cases.reduce((s, c) => s + c.fields.reduce((a, f) => a + f.options.length, 0), 0);
 const ampliadas = bank.cases.filter(c => c.fields[0].options.length === 24).length;
 lr = troca(lr, /São \d+ lugares, \d+ conjuntos de pistas \(dois por lugar\), [\d.]+ pistas, [\d.]+ perguntas distintas e [\d.]+ alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; \d+ lugares têm listas principais ampliadas\./,
@@ -130,9 +128,9 @@ gravar('lugares/docs/METAS-POR-RECORTE.md', mt);
 
 // plano-expansao.json
 const plano = JSON.parse(ler('lugares/data/plano-expansao.json'));
+plano.draftedPlaces = bank.cases.map(c => c.title);
 const GRUPO = {norte: 'Brasil Norte', nordeste: 'Brasil Nordeste', 'centro-oeste': 'Brasil Centro Oeste', sudeste: 'Brasil Sudeste', sul: 'Brasil Sul', america: 'América outros recortes', europa: 'Europa', africa: 'África', asia: 'Ásia', oceania: 'Oceania', antartida: 'Antártida'};
 for (const c of integrados) {
-  if (!plano.draftedPlaces.includes(c.title)) plano.draftedPlaces.push(c.title);
   const g = c.geography, chave = g.countries.includes('BR') ? g.brazilRegions[0] : g.continents[0];
   const lista = plano.groups[GRUPO[chave]];
   if (lista && !lista.includes(c.title)) lista.push(c.title);

@@ -12,6 +12,58 @@ class Servidor {
  gravar(path,data){this.docs.set(path,clone(data));for(const fn of this.listeners.get(path)||[])queueMicrotask(()=>fn(this.snap(path)));const col=path.slice(0,path.lastIndexOf('/'));for(const fn of this.collectionListeners.get(col)||[])queueMicrotask(()=>fn(this.query(col)));}
  db(){return {collection:n=>({doc:id=>this.ref(n+'/'+id)}),runTransaction:fn=>{const p=this.fila.then(async()=>{const writes=[];const out=await fn({get:async ref=>this.snap(ref.path),set:(ref,d)=>writes.push([ref.path,d]),update:(ref,d,value)=>{const original=this.docs.get(ref.path);if(d?.segments){const [a,b]=d.segments;writes.push([ref.path,{...original,[a]:{...original[a],[b]:value}}]);}else writes.push([ref.path,{...original,...d}]);}});for(const [p,d]of writes)this.gravar(p,d);if(this.falharDepois){this.falharDepois=false;const e=new Error('Resposta de rede perdida');e.code='unavailable';throw e;}return out;});this.fila=p.catch(()=>{});return p;}};}
 }
+// Alternativas de Lugares: uma nova semente por partida, sem mutar o banco.
+// UUIDs controlados tornam a regressão determinística (o relógio permanece parado).
+{
+ const server=new Servidor(), app=await abrir(server,'lugares','teste-offline');
+ const w=app.w, e=w.MC_GAME_ENGINE, banco=w.MC_LUGARES_BANK;
+ const caso=banco.byId[banco.order[0]], original=JSON.stringify(caso);
+ const jogadores=[{id:'teste-offline',nome:'Um'},{id:'dois',nome:'Dois'}];
+ let numero=0;
+ Object.defineProperty(w.crypto,'randomUUID',{configurable:true,value:()=>`partida-teste-${++numero}`});
+ const ordens=new Set();
+ for(let i=0;i<8;i++){
+   e.iniciarPartida(caso,{tempoPorJogada:45,duracao:'padrao'},jogadores);
+   const dados=clone(e.dados()), snap=clone(w.MC_GAME.snapshotEstado());
+   assert.equal(snap.sementeAlternativas,`partida-teste-${i+1}`);
+   assert.equal(dados.caso.sementeAlternativas,snap.sementeAlternativas);
+   ordens.add(JSON.stringify(dados.campos.map(c=>c.opcoes.map(o=>o.id))));
+   for(const campo of dados.campos){
+     const fonte=caso.fields.find(f=>f.id===campo.id);
+     assert.equal(campo.resposta,fonte.respostaId);
+     assert.deepEqual(campo.opcoes.map(o=>o.id).sort(),clone(fonte.opcoes.map(o=>o.id)).sort());
+   }
+   // Protocolo 3 restaura o caso já normalizado, sem embaralhar novamente.
+   e.carregarCaso(dados.caso);
+   assert.deepEqual(clone(e.dados().campos),dados.campos);
+   // Salas legadas reconstroem a mesma ordem usando a semente do snapshot.
+   e.carregarCaso(caso,'outra-semente');
+   w.MC_GAME.receberSala({pautaId:caso.id,fase:'deal',snap,jogadores,ordem:jogadores.map(j=>j.id),
+     bankIdentity:{namespace:banco.namespace,catalogVersion:banco.catalogVersion,schemaVersion:banco.schemaVersion}});
+   assert.deepEqual(clone(e.dados().campos),dados.campos);
+ }
+ assert.ok(ordens.size>1,'Repetir o mesmo lugar em partidas novas varia as alternativas');
+ // Sem randomUUID, nem relógio parado e PRNG repetido reutilizam a semente local.
+ Object.defineProperty(w.crypto,'randomUUID',{configurable:true,value:undefined});
+ w.Math.random=()=>0.25;
+ e.iniciarPartida(caso,{tempoPorJogada:45,duracao:'padrao'},jogadores);
+ const primeiraSemente=e.state.sementeAlternativas;
+ e.iniciarPartida(caso,{tempoPorJogada:45,duracao:'padrao'},jogadores);
+ assert.notEqual(e.state.sementeAlternativas,primeiraSemente);
+ // Snapshots anteriores à semente conservam o embaralhamento antigo.
+ e.carregarCaso(caso);const ordemLegada=clone(e.dados().campos);
+ const antigo=clone(w.MC_GAME.snapshotEstado());delete antigo.sementeAlternativas;
+ e.carregarCaso(caso,'outro-jogo');
+ w.MC_GAME.receberSala({pautaId:caso.id,fase:'deal',snap:antigo,jogadores,ordem:jogadores.map(j=>j.id),
+   bankIdentity:{namespace:banco.namespace,catalogVersion:banco.catalogVersion,schemaVersion:banco.schemaVersion}});
+ assert.deepEqual(clone(e.dados().campos),ordemLegada);
+ assert.equal(w.MC_GAME.snapshotEstado().sementeAlternativas,null,'Restaurar snapshot antigo não republica a semente de outra partida');
+ assert.equal(JSON.stringify(caso),original,'O catálogo editorial não é embaralhado nem alterado');
+ e.carregarCaso('bussola');
+ assert.deepEqual(clone(e.dados().campos),clone(w.MC_CASOS.bussola.campos),'A demonstração mantém seu roteiro');
+ await flush();assert.deepEqual(app.erros,[]);app.close();
+ console.log('ok alternativas Lugares: novas partidas, snapshot, legado, demonstração e banco imutável');
+}
 for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'], ['lugares','viajante'], ['lugares','geografo']]){
  const server=new Servidor();let master=await abrir(server,edicao,'mestre',{google:true}),player=await abrir(server,edicao,'pessoa');
  assert.equal(master.auth.anonimos,0,'Refresh não substitui a identidade Google');
@@ -114,9 +166,11 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
  // Resposta perdida após commit: o refresh reenvia a mesma operação sem duplicar o débito.
  click(master,'[data-verbo="comprar"]');click(master,'[data-monte-index="0"]');await flush();
  click(player,'[data-verbo="comprar"]');server.falharDepois=true;click(player,'[data-monte-index="0"]');await flush();
+ const camposAntesRefresh=clone(player.w.MC_GAME_ENGINE.dados().campos);
  const saldoDepois=master.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,antesRefresh=player.save();player.close();player=await abrir(server,edicao,'pessoa',antesRefresh);
  assert.equal(player.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,saldoDepois);
  if(modo) assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,master.w.MC_SALA.ultimoDoc.pautaId);
+ if(edicao==='lugares') assert.deepEqual(clone(player.w.MC_GAME_ENGINE.dados().campos),camposAntesRefresh,'Reconectar participante conserva a ordem das alternativas');
  assert.equal(player.w.sessionStorage.getItem('mc:sessao:v3:'+edicao+':pendente'),null);
  // Uma segunda aba não toma o lugar silenciosamente.
  let duplicada=await abrir(server,edicao,'pessoa',{storage:player.save().storage});
@@ -126,6 +180,7 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
  // Refresh do mestre preserva o papel e o snapshot; não inicia outra partida.
  const partida=master.w.MC_GAME_ENGINE.state.partidaId,masterSave=master.save();master.close();master=await abrir(server,edicao,'mestre',masterSave);
  assert.equal(master.w.MC_SALA.souMestre(),true);assert.equal(master.w.MC_GAME_ENGINE.state.partidaId,partida);assert.equal(master.auth.anonimos,0);
+ if(edicao==='lugares') assert.deepEqual(clone(master.w.MC_GAME_ENGINE.dados().campos),camposAntesRefresh,'Reconectar mestre conserva a ordem das alternativas');
  click(master,'#btn-pausar');await flush();assert.equal(player.w.MC_GAME_ENGINE.state.pausado,true);
  click(master,'#btn-adicionar-tempo');await flush();click(master,'#btn-pausar');await flush();assert.equal(player.w.MC_GAME_ENGINE.state.pausado,false);
  // Ausência longa do mestre: reconexão encontra pausa e preserva as cartas.

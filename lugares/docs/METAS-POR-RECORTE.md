@@ -1,6 +1,6 @@
 # Metas de expansão por recorte geográfico
 
-Referência editorial, atualizada em 14/11/2026. Meta: **30 lugares jogáveis para cada região brasileira e para cada continente oferecido na seleção**, além de no mínimo 30 para o Brasil como um todo. Não é uma meta de 30 no catálogo inteiro.
+Referência editorial, atualizada em 15/11/2026. Meta: **30 lugares jogáveis para cada região brasileira e para cada continente oferecido na seleção**, além de no mínimo 30 para o Brasil como um todo. Não é uma meta de 30 no catálogo inteiro.
 
 Um lugar só conta como jogável após ter os dois perfis completos, quatro campos com gabarito único e alternativas revisadas, fontes vinculadas, 25 pistas por perfil e aprovação estrutural. Candidatos, nomes sem pistas, rascunhos e alternativas que apenas aparecem na lista de apostas não contam.
 
@@ -44,6 +44,8 @@ A tabela mostra as regiões que já atingiram ou ainda não atingiram a meta de 
 6. Revisar ambiguidade, integridade de alternativas e equilíbrio entre os grupos, evitando listas em que apenas a resposta certa combine com o enunciado ou categoria. Manter fontes e revisão editorial, com teste em partidas e acompanhamento de acertos e tempo por perfil.
 7. Considerar que os seis continentes seguem a convenção usada pelo jogo: América, Europa, África, Ásia, Oceania e Antártida. Na Antártida, planejar recortes geográficos e ambientais comparáveis, com nomenclatura e limites conferidos antes da publicação.
 
-## Próximos lotes
+## Situação e próximos passos
 
-Completar todas as cinco regiões brasileiras e os cinco continentes ainda abaixo de 30, e alcançar 30 lugares nas Américas fora do Brasil. O arquivo `data/plano-expansao.json` é uma lista de candidatos, não prova de cobertura nem de aprovação factual. Recalcular esta tabela após cada lote efetivamente integrado.
+As metas quantitativas foram atingidas nas cinco regiões brasileiras e nos seis continentes oferecidos, incluindo 30 destinos nas Américas fora do Brasil. O catálogo tem 331 lugares distintos. A soma dos filtros é maior porque alguns lugares abrangem mais de uma região ou continente.
+
+A continuidade passa pela revisão comparativa das pistas e alternativas e pela calibração com jogadores. Os testes automatizados verificam integridade e funcionamento, mas não comprovam equivalência de dificuldade nem engajamento. O arquivo `data/plano-expansao.json` continua sendo uma lista de candidatos, não prova de conteúdo jogável. Recalcular a tabela e confrontar identidades antes de integrar qualquer novo lote.

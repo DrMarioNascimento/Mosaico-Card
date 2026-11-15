@@ -1,6 +1,13 @@
 import {readFile,writeFile} from 'node:fs/promises';
 const root=new URL('../',import.meta.url);
 const bank=JSON.parse(await readFile(new URL('data/lugares-bank.json',root),'utf8'));
+for(const key of ['id','placeId']){
+ const seen=new Set();
+ for(const entry of bank.cases){
+  if(!entry[key]||seen.has(entry[key]))throw Error('Identidade ausente ou duplicada no banco: '+key+'='+entry[key]);
+  seen.add(entry[key]);
+ }
+}
 const points=[8,5,3,2],cases=[];
 const sourceText=ids=>ids.map(id=>bank.sources[id].publisher).filter((v,i,a)=>a.indexOf(v)===i).join('; ');
 for(const entry of bank.cases)for(const profile of bank.profiles){

@@ -20,10 +20,12 @@
   let toastTimer = null;
   let flipTimer = null;
   let apuracaoTimers = [];
+  let sequenciaAlternativas = 0;
 
   const state = {
     fase: "demo",
     demo: true,
+    sementeAlternativas: null,
     config: { tempoPorJogada: 45, duracao: "padrao", telao: false },
     monte: [],
     balaio: [],
@@ -88,7 +90,8 @@
   }
   function tempoRestante(deadline) { return deadline ? Math.max(0, (Number(deadline) - Date.now()) / 1000) : 0; }
 
-  // Mesma ordem para todos os participantes, sem deixar o gabarito na posição editorial.
+  // A semente nasce uma vez por partida; o caso normalizado é compartilhado na sala.
+  // Sem semente, conserva a ordem de salas antigas durante a reconexão.
   function embaralharFixo(lista, semente) {
     let h = 2166136261;
     for (let i = 0; i < semente.length; i += 1) { h ^= semente.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; }
@@ -109,7 +112,7 @@
     return !!(bank && bank.modoRascunho && caso && caso.status && caso.status.structural === "approved" &&
       caso.deck && quantidade >= 2 && quantidade <= caso.deck.maxPlayers);
   }
-  function normalizarCaso(origem) {
+  function normalizarCaso(origem, sementeAlternativas) {
     if (!origem) return null;
     if (origem.pecas && origem.campos) return origem;
     const cards = (((origem.deck || {}).cards) || []).map(function (card, i) {
@@ -131,6 +134,7 @@
     const valores = REGRAS.valoresCampos(ordenados.length);
     return {
       id: origem.id,
+      sementeAlternativas: sementeAlternativas || null,
       // Na mesa aparece só o título de sessão (neutro); o título real é a resposta e só aparece na revelação.
       titulo: origem.sessionTitle || "Sessão",
       tituloReal: origem.title,
@@ -152,16 +156,17 @@
           respostaCanonica: item.respostaCanonica,
           endereco: item.endereco,
           pontosBase: valores[index],
-          opcoes: embaralharFixo(item.opcoes || [], (origem.placeId || origem.id) + ':' + item.id).map(function (op) { return { id: op.id, txt: op.texto }; })
+          opcoes: embaralharFixo(item.opcoes || [], (sementeAlternativas ? sementeAlternativas + ':' : '') + (origem.placeId || origem.id) + ':' + item.id).map(function (op) { return { id: op.id, txt: op.texto }; })
         };
       })
     };
   }
-  function carregarCaso(origem) {
-    const c = typeof origem === "string" ? DEMOS[origem] : normalizarCaso(origem);
+  function carregarCaso(origem, sementeAlternativas) {
+    const c = typeof origem === "string" ? DEMOS[origem] : normalizarCaso(origem, sementeAlternativas);
     if (!c) return null;
     casoId = c.id;
     CASO = c;
+    state.sementeAlternativas = c.sementeAlternativas || null;
     PECAS = Object.assign({}, c.pecas || {});
     CAMPOS = (c.campos || []).slice();
     if ($("#caso-titulo")) $("#caso-titulo").textContent = c.titulo || "Sessão";
@@ -234,7 +239,7 @@
   }
   function limparEstadoPartida() {
     Object.assign(state, {
-      protocolo: null, treino: false, monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
+      protocolo: null, treino: false, sementeAlternativas: null, monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
       turnoId: 1, turnoTerminaEm: null, partidaIniciaEm: null, partidaTerminaEm: null,
       fechamentoTerminaEm: null, encerrarAoFimDoCiclo: false, pausado: false,
       pausaRestanteTurno: 0, pausaRestantePartida: 0, ledger: [], respostasFinais: {},
@@ -275,7 +280,9 @@
     state.fase = "deal";
     state.config = Object.assign({}, config || {});
     window.MC_ACTIVE_CASE_ID = caso.id;
-    carregarCaso(caso);
+    state.sementeAlternativas = window.crypto && typeof window.crypto.randomUUID === "function"
+      ? window.crypto.randomUUID() : Date.now().toString(36) + ":" + (++sequenciaAlternativas) + ":" + Math.random().toString(36).slice(2);
+    carregarCaso(caso, state.sementeAlternativas);
     prepararJogadores(jogadores, false);
     const bonus = distribuir();
     state.iniciando = jogoOnline();

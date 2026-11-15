@@ -10,6 +10,7 @@
     return {
       fase: s.fase,
       demo: s.demo,
+      sementeAlternativas: s.sementeAlternativas || null,
       config: clone(s.config),
       monte: s.monte.slice(),
       balaio: clone(s.balaio),
@@ -109,7 +110,7 @@
         const caso = casoDoBanco(data.pautaId);
         if (caso) {
           window.MC_ACTIVE_CASE_ID = data.pautaId;
-          engine().carregarCaso(caso);
+          engine().carregarCaso(caso, data.snap && data.snap.sementeAlternativas);
         }
       }
       if (data.snap && ["deal", "fechamento", "judge"].includes(data.fase)) aplicarSnap(data.snap, data.fase, opcoes || {});

@@ -1,6 +1,6 @@
 # Mosaico Card — Lugares
 
-Banco ampliado em 14 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
+Banco ampliado e verificado em 15 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
 
 O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. O filtro Américas reúne destinos fora do Brasil; o filtro Brasil e suas regiões agrupam os destinos brasileiros. A união de filtros não duplica lugares. Rapa Nui aparece em Américas pela administração chilena e em Oceania pela posição polinésia.
 
@@ -12,7 +12,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 |---|---|
 | Florianópolis | Brasil / Sul |
 | Parque Nacional dos Lençóis Maranhenses | Brasil / Nordeste |
-| Machu Picchu | América |
+| Machu Picchu | Américas |
 | Paris | Europa |
 | Pirâmides de Gizé | África |
 | Monte Fuji | Ásia |
@@ -25,8 +25,8 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional de Jericoacoara | Brasil / Nordeste |
 | Cataratas Vitória | África |
 | São Luís | Brasil / Nordeste |
-| Havana | América |
-| Ilhas Galápagos | América |
+| Havana | Américas |
+| Ilhas Galápagos | Américas |
 | Petra | Ásia |
 | Porto | Europa |
 | Roma | Europa |
@@ -64,12 +64,12 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional da Chapada Diamantina | Brasil / Nordeste |
 | Parque Nacional das Emas | Brasil / Centro-Oeste |
 | Fernando de Noronha | Brasil / Nordeste |
-| Parque Nacional Rapa Nui | América / Oceania |
-| Parque Nacional Yellowstone | América |
+| Parque Nacional Rapa Nui | Américas / Oceania |
+| Parque Nacional Yellowstone | Américas |
 | Mar de Ross | Antártida |
 | Ilha Paulet | Antártida |
-| Parque Nacional da Chapada dos Guimarães | Brasil · Centro-Oeste |
-| Conjunto Moderno da Pampulha | Brasil · Sudeste |
+| Parque Nacional da Chapada dos Guimarães | Brasil / Centro-Oeste |
+| Conjunto Moderno da Pampulha | Brasil / Sudeste |
 | Grande Zimbábue | África |
 | Timbuktu | África |
 | Stonehenge | Europa |
@@ -78,18 +78,18 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Bagan | Ásia |
 | K’gari | Oceania |
 | Parque Nacional Kakadu | Oceania |
-| Parque Nacional de Aparados da Serra | Brasil · Sul |
-| Paraty e Ilha Grande | Brasil · Sudeste |
-| Parque Nacional de Anavilhanas | Brasil · Norte |
-| Parque Nacional do Monte Roraima | Brasil · Norte |
-| Parque Nacional do Caparaó | Brasil · Sudeste |
-| Sítio de São Miguel Arcanjo | Brasil · Sul |
+| Parque Nacional de Aparados da Serra | Brasil / Sul |
+| Paraty e Ilha Grande | Brasil / Sudeste |
+| Parque Nacional de Anavilhanas | Brasil / Norte |
+| Parque Nacional do Monte Roraima | Brasil / Norte |
+| Parque Nacional do Caparaó | Brasil / Sudeste |
+| Sítio de São Miguel Arcanjo | Brasil / Sul |
 | Point Wild | Antártida |
 | Brown Bluff | Antártida |
-| Parque Nacional do Jaú | Brasil · Norte |
-| Parque Nacional da Serra da Bodoquena | Brasil · Centro-Oeste |
-| Parque Nacional do Itatiaia | Brasil · Sudeste |
-| Parque Estadual de Vila Velha | Brasil · Sul |
+| Parque Nacional do Jaú | Brasil / Norte |
+| Parque Nacional da Serra da Bodoquena | Brasil / Centro-Oeste |
+| Parque Nacional do Itatiaia | Brasil / Sudeste |
+| Parque Estadual de Vila Velha | Brasil / Sul |
 | Baía de Ha Long e Arquipélago de Cat Ba | Ásia |
 | Parque Nacional de Sagarmatha | Ásia |
 | Centro Histórico de Évora | Europa |
@@ -97,6 +97,27 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Centro Histórico da Cidade de Goiás | Brasil / Centro-Oeste |
 | Parque Nacional da Serra da Capivara | Brasil / Nordeste |
 | Praça de São Francisco em São Cristóvão | Brasil / Nordeste |
+| Parque Nacional do Catimbau | Brasil / Nordeste |
+| Parque Nacional de Ubajara | Brasil / Nordeste |
+| Área de Proteção Ambiental Delta do Parnaíba | Brasil / Nordeste |
+| Parque Nacional Marinho dos Abrolhos | Brasil / Nordeste |
+| Pirenópolis | Brasil / Centro-Oeste |
+| Goiânia | Brasil / Centro-Oeste |
+| Bonito | Brasil / Centro-Oeste |
+| Corumbá | Brasil / Centro-Oeste |
+| Campo Grande | Brasil / Centro-Oeste |
+| Parque Nacional do Viruá | Brasil / Norte |
+| Parque Nacional da Serra do Divisor | Brasil / Norte |
+| Parque Nacional do Cabo Orange | Brasil / Norte |
+| Boa Vista | Brasil / Norte |
+| Porto e Fortificações de Cartagena das Índias | Américas |
+| Distrito Histórico do Quebec Antigo | Américas |
+| Cidade Pré-hispânica de Chichén Itzá | Américas |
+| Petrópolis | Brasil / Sudeste |
+| Vila Velha | Brasil / Sudeste |
+| Niterói | Brasil / Sudeste |
+| Belo Horizonte | Brasil / Sudeste |
+| Parque Nacional Los Glaciares | Américas |
 | Cabo Adare e Praia Ridley | Antártida |
 | Cabo Crozier | Antártida |
 | Cabo Denison e Cabanas de Mawson | Antártida |
@@ -134,7 +155,6 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Londrina | Brasil / Sul |
 | Maceió | Brasil / Nordeste |
 | Maringá | Brasil / Sul |
-| Arquipélago do Marajó | Brasil / Norte |
 | Floresta Nacional do Tapajós | Brasil / Norte |
 | Parque Estadual Chandless | Brasil / Norte |
 | Parque Estadual Monte Alegre | Brasil / Norte |
@@ -180,7 +200,6 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Pelotas | Brasil / Sul |
 | Pomerode | Brasil / Sul |
 | Porto Alegre | Brasil / Sul |
-| Reservas de Mata Atlântica do Sudeste | Brasil / Sudeste e Sul |
 | Serra da Barriga | Brasil / Nordeste |
 | Teresina | Brasil / Nordeste |
 | Sítio Arqueológico Cais do Valongo | Brasil / Sudeste |
@@ -211,7 +230,6 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Auckland | Oceania |
 | Baía do Almirantado | Antártida |
 | Barcelona | Europa |
-| Berlim | Europa |
 | Geleira Lambert | Antártida |
 | Independence Hall | Américas |
 | Parque Nacional de Komodo | Ásia |
@@ -219,7 +237,6 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Lisboa | Europa |
 | Londres | Europa |
 | Mar de Areia do Namibe | África |
-| Mbanza Kongo | África |
 | Melbourne | Oceania |
 | Parque Nacional Mesa Verde | Américas |
 | Rio Branco | Brasil / Norte |
@@ -325,31 +342,6 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Varanasi | Ásia |
 | Singapura | Ásia |
 
-| Parque Nacional do Catimbau | Brasil / Nordeste |
-| Parque Nacional de Ubajara | Brasil / Nordeste |
-| Área de Proteção Ambiental Delta do Parnaíba | Brasil / Nordeste |
-| Parque Nacional Marinho dos Abrolhos | Brasil / Nordeste |
-
-| Pirenópolis | Brasil / Centro-Oeste |
-| Goiânia | Brasil / Centro-Oeste |
-| Bonito | Brasil / Centro-Oeste |
-| Corumbá | Brasil / Centro-Oeste |
-| Campo Grande | Brasil / Centro-Oeste |
-
-| Parque Nacional do Viruá | Brasil / Norte |
-| Parque Nacional da Serra do Divisor | Brasil / Norte |
-| Parque Nacional do Cabo Orange | Brasil / Norte |
-| Boa Vista | Brasil / Norte |
-
-| Porto e Fortificações de Cartagena das Índias | America |
-| Distrito Histórico do Quebec Antigo | America |
-| Cidade Pré-hispânica de Chichén Itzá | America |
-| Petrópolis | Brasil / Sudeste |
-| Vila Velha | Brasil / Sudeste |
-| Niterói | Brasil / Sudeste |
-| Belo Horizonte | Brasil / Sudeste |
-| Parque Nacional Los Glaciares | Américas |
-
 São 331 lugares, 662 conjuntos de pistas (dois por lugar), 16.550 pistas, 1.324 perguntas distintas e 8.867 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
@@ -396,4 +388,6 @@ As referências foram consultadas na elaboração do primeiro lote. A revisão d
 
 Criação do Mosaico Card: **Mário César Nascimento e Osana Melo Nascimento (M&O)**. Aplicam-se as condições de [LICENSE.md](../LICENSE.md).
 
-A pergunta principal é neutra; campos e alternativas são abertos separadamente ao arriscar. As pistas decisivas não são mais priorizadas na distribuição inicial, embora possam ser sorteadas. A divisão dos perfis e os campos ainda exigem revisão de dificuldade e testes com jogadores.
+A pergunta principal é neutra; campos e alternativas são abertos separadamente ao arriscar. A ordem das alternativas varia a cada nova partida e é compartilhada pela sala, preservando-se na reconexão. As pistas decisivas não são mais priorizadas na distribuição inicial, embora possam ser sorteadas. A divisão dos perfis e os campos ainda exigem revisão de dificuldade e testes com jogadores.
+
+A [verificação de 15/11/2026](docs/VERIFICACAO-20261115.md) documenta a comparação dos rascunhos, as correções e os limites da revisão.
