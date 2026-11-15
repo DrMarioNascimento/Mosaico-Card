@@ -319,7 +319,19 @@
     "Tiradentes",
     "Tóquio",
     "Trópicos Úmidos de Queensland",
-    "Parque Nacional dos Vulcões do Havaí"
+    "Parque Nacional dos Vulcões do Havaí",
+    "Domo A",
+    "Doze Apóstolos",
+    "Dubai",
+    "Geleira Beardmore",
+    "Ilha Snow Hill",
+    "Lagoas da Nova Caledônia",
+    "Mar Morto",
+    "Mausoléu do Primeiro Imperador Qin",
+    "Montes Transantárticos",
+    "Parque Nacional da Tijuca",
+    "Plataforma de Gelo Filchner-Ronne",
+    "Varanasi"
   ],
   "groups": {
     "Brasil Norte": [
@@ -435,7 +447,8 @@
       "Arraial do Cabo",
       "Ilhabela",
       "Parque Nacional da Serra dos Órgãos",
-      "Tiradentes"
+      "Tiradentes",
+      "Parque Nacional da Tijuca"
     ],
     "Brasil Sul": [
       "Florianópolis",
@@ -620,7 +633,10 @@
       "Memorial da Paz de Hiroshima",
       "Persépolis",
       "Samarcanda",
-      "Seul"
+      "Seul",
+      "Dubai",
+      "Mausoléu do Primeiro Imperador Qin",
+      "Varanasi"
     ],
     "Oceania": [
       "Austrália",
@@ -655,7 +671,9 @@
       "Ilhas Whitsunday",
       "Nan Madol",
       "Trópicos Úmidos de Queensland",
-      "Parque Nacional dos Vulcões do Havaí"
+      "Parque Nacional dos Vulcões do Havaí",
+      "Doze Apóstolos",
+      "Lagoas da Nova Caledônia"
     ],
     "Antártida": [
       "Polo Sul Geográfico",
@@ -683,7 +701,12 @@
       "Lago Vostok",
       "Polo Sul de Inacessibilidade",
       "Ilha Goudier e Base A de Port Lockroy",
-      "Península Byers"
+      "Península Byers",
+      "Domo A",
+      "Geleira Beardmore",
+      "Ilha Snow Hill",
+      "Montes Transantárticos",
+      "Plataforma de Gelo Filchner-Ronne"
     ]
   },
   "classificationNotes": [

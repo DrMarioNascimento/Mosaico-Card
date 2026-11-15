@@ -1,0 +1,1091 @@
+{
+  "case": {
+    "id": "lug3-doze-apostolos",
+    "placeId": "doze-apostolos",
+    "title": "Doze Apóstolos",
+    "aliases": [
+      "Twelve Apostles"
+    ],
+    "answerType": "formação rochosa costeira",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AU"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Paisagem costeira da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Doze Apóstolos"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Pancake Rocks de Punakaiki"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Rochas Moeraki"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Cathedral Cove"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Remarkable Rocks"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Baía dos Fogos"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Baía Wineglass"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Baía Shark"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Costa de Ningaloo"
+          },
+          {
+            "id": "C1-O10",
+            "text": "K’gari"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Baía Jervis"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Baía Golden"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Baía Botany"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Baía de Port Phillip"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Doze Apóstolos",
+        "sources": [
+          "TWA_BRIT",
+          "TWA_GORCAPA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha que forma os pilares",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Calcário marinho rico em fósseis"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Basalto de derrames vulcânicos"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Xisto metamórfico"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Calcário marinho rico em fósseis",
+        "sources": [
+          "TWA_BRIT",
+          "TWA_VHD",
+          "TWA_SCIALERT"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Quantos pilares restam depois dos desabamentos de 2005 e 2009",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Sete"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Doze"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Nove"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Quatro"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Sete",
+        "sources": [
+          "TWA_BRIT",
+          "TWA_SCIALERT"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estrada litorânea que dá acesso ao lugar",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Great Ocean Road"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Pacific Highway"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Eyre Highway"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Stuart Highway"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Great Ocean Road",
+        "sources": [
+          "TWA_BRIT",
+          "TWA_NAA",
+          "TWA_VHD_GOR"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "doze-apostolos-viajante-P01",
+            "factKey": "doze-apostolos-F01",
+            "text": "Este destino é um trecho de litoral selvagem, com falésias altas e mar bravo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P02",
+            "factKey": "doze-apostolos-F02",
+            "text": "O cenário é formado por pilares de rocha que se erguem do mar, junto da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_GORCAPA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P03",
+            "factKey": "doze-apostolos-F03",
+            "text": "A cor das rochas muda ao longo do dia: dourado suave de manhã, laranja e vermelho no pôr do sol.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P04",
+            "factKey": "doze-apostolos-F04",
+            "text": "O pôr do sol é um dos horários preferidos para fotografar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_GORCAPA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P05",
+            "factKey": "doze-apostolos-F05",
+            "text": "No meio do dia o lugar costuma lotar; para ver com mais calma, vá cedo ou no fim da tarde.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P06",
+            "factKey": "doze-apostolos-F06",
+            "text": "É preciso reservar para usar o centro de visitantes, o estacionamento e os mirantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P07",
+            "factKey": "doze-apostolos-F07",
+            "text": "Uma caminhada curta leva da área de visitantes a mirantes varridos pelo vento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P08",
+            "factKey": "doze-apostolos-F08",
+            "text": "Ao entardecer, pequenos pinguins voltam para a praia lá embaixo e às vezes deixam pegadas na areia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P09",
+            "factKey": "doze-apostolos-F09",
+            "text": "O centro de visitantes daqui se chama Keerray Woorroong.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P10",
+            "factKey": "doze-apostolos-F10",
+            "text": "Fica a cerca de 275 km (170 milhas) a oeste de Melbourne.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P11",
+            "factKey": "doze-apostolos-F11",
+            "text": "No século XX o conjunto tinha só nove pilares, menos do que o nome promete.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P12",
+            "factKey": "doze-apostolos-F12",
+            "text": "Um pilar de uns 50 m desabou em 2005, e outro caiu em 2009.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_SCIALERT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P13",
+            "factKey": "doze-apostolos-F13",
+            "text": "Do mirante principal dá para ver seis dos pilares que ainda estão de pé.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P14",
+            "factKey": "doze-apostolos-F14",
+            "text": "Antes, as rochas eram chamadas de Pinnacles e, junto com uma ilha vizinha, de \"Porca e Leitões\" (Sow and Piglets).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P15",
+            "factKey": "doze-apostolos-F15",
+            "text": "Ondas e vento continuam desgastando os pilares, e um dia eles vão desaparecer.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P16",
+            "factKey": "doze-apostolos-F16",
+            "text": "Cada pilar guarda milhões de minúsculos fósseis marinhos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P17",
+            "factKey": "doze-apostolos-F17",
+            "text": "Este litoral ganhou o apelido de \"Costa dos Naufrágios\" (Shipwreck Coast).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P18",
+            "factKey": "doze-apostolos-F18",
+            "text": "As falésias da região chegam a 70 m de altura, com charneca no alto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P19",
+            "factKey": "doze-apostolos-F19",
+            "text": "No mar em frente há um parque marinho com arcos, cânions e recifes, esponjas amarelas e laranjas e florestas de algas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA_MAR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P20",
+            "factKey": "doze-apostolos-F20",
+            "text": "Drones são um problema aqui: em 2022, mais de 40 pilotos foram multados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA_MAR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P21",
+            "factKey": "doze-apostolos-F21",
+            "text": "A estrada que traz os visitantes foi construída por mais de 3.000 ex-combatentes da Primeira Guerra, entre 1919 e 1932.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TWA_NAA",
+              "TWA_VHD_GOR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P22",
+            "factKey": "doze-apostolos-F22",
+            "text": "Essa estrada de 242 km é dedicada aos soldados mortos na Primeira Guerra e conta como memorial de guerra.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TWA_NAA",
+              "TWA_VHD_GOR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P23",
+            "factKey": "doze-apostolos-F23",
+            "text": "A região é terra tradicional dos povos aborígines Eastern Maar e Wadawurrung, reconhecidos pelo órgão que administra o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P24",
+            "factKey": "doze-apostolos-F24",
+            "text": "Os pilares ficam no Parque Nacional Port Campbell, no sudoeste do estado de Victoria, na Austrália.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_GORCAPA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-viajante-P25",
+            "factKey": "doze-apostolos-F25",
+            "text": "É uma das atrações mais populares da Great Ocean Road.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "doze-apostolos-geografo-P01",
+            "factKey": "doze-apostolos-F26",
+            "text": "A paisagem é um litoral de falésias em recuo, moldado pela energia contínua de um oceano aberto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P02",
+            "factKey": "doze-apostolos-F27",
+            "text": "Fica na costa sul da Austrália continental, voltada para o Oceano Austral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P03",
+            "factKey": "doze-apostolos-F28",
+            "text": "As camadas de calcário se depositaram em mares rasos durante o Mioceno.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P04",
+            "factKey": "doze-apostolos-F29",
+            "text": "A formação local é dominada por arenitos calcários amarelos estratificados, com intercalações de folhelho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P05",
+            "factKey": "doze-apostolos-F30",
+            "text": "Depois que a Austrália se separou da Antártida e derivou para o norte, a compressão dobrou e ergueu o calcário acima do mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P06",
+            "factKey": "doze-apostolos-F31",
+            "text": "As camadas, antes horizontais, estão inclinadas alguns graus, e pequenas falhas nas falésias são atribuídas a antigos terremotos dessa compressão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P07",
+            "factKey": "doze-apostolos-F32",
+            "text": "Depois da última era glacial o mar subiu cerca de 125 m e voltou a atacar as rochas soerguidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P08",
+            "factKey": "doze-apostolos-F33",
+            "text": "As ondas abrem cavernas nas falésias, que viram arcos; quando o topo do arco desaba, sobra um pilar isolado.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P09",
+            "factKey": "doze-apostolos-F34",
+            "text": "Na forma atual, as falésias e os pilares têm só alguns milhares de anos, bem menos que a rocha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P10",
+            "factKey": "doze-apostolos-F35",
+            "text": "Um estudo da Universidade de Melbourne, publicado em 2026 no Australian Journal of Earth Sciences, reconstituiu essa história geológica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P11",
+            "factKey": "doze-apostolos-F36",
+            "text": "Um único pilar contém cerca de 760 trilhões de fósseis de foraminíferos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P12",
+            "factKey": "doze-apostolos-F37",
+            "text": "As camadas registram um período mais quente entre 14,1 e 13,8 milhões de anos atrás.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P13",
+            "factKey": "doze-apostolos-F38",
+            "text": "O mesmo estudo data a Marga de Gellibrand, camada da região, em cerca de 14 a 15 milhões de anos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "TWA_SCIALERT"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P14",
+            "factKey": "doze-apostolos-F39",
+            "text": "O conjunto tinha nove pilares no século XX; os colapsos de 2005 e 2009 deixaram sete.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_SCIALERT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P15",
+            "factKey": "doze-apostolos-F40",
+            "text": "No planalto do topo das falésias domina uma charneca varrida pelo vento, com tufos de Casuarina stricta e Eucalyptus obliqua atrofiados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P16",
+            "factKey": "doze-apostolos-F41",
+            "text": "Algumas plantas dessa charneca estão ameaçadas, e parte delas já está à beira da extinção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P17",
+            "factKey": "doze-apostolos-F42",
+            "text": "O parque nacional e o parque costeiro vizinho cobrem cerca de 50 km de litoral, de Childers Cove a Glenample.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P18",
+            "factKey": "doze-apostolos-F43",
+            "text": "O parque marinho em frente tem 75 km² e é o segundo maior dos parques nacionais marinhos do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA_MAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P19",
+            "factKey": "doze-apostolos-F44",
+            "text": "Esse parque marinho fica nas terras tradicionais dos povos Gunditjmara, Eastern Maar e Girai Wurrung.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_GORCAPA_MAR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P20",
+            "factKey": "doze-apostolos-F45",
+            "text": "A costa pesa na história aborígine, inclusive como fonte de alimento marinho, na ocupação branca do oeste do estado e nos naufrágios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P21",
+            "factKey": "doze-apostolos-F46",
+            "text": "Em 2007, o conjunto de pilares recebeu o prêmio Victorian Heritage Icon, do National Trust.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P22",
+            "factKey": "doze-apostolos-F47",
+            "text": "A rodovia de acesso foi feita ao mesmo tempo como memorial de guerra, projeto de reinserção de ex-soldados e atração turística.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TWA_VHD_GOR",
+              "TWA_NAA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P23",
+            "factKey": "doze-apostolos-F48",
+            "text": "O registro de patrimônio do estado descreve essa rodovia de 242 km entre Torquay e Allansford.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "TWA_VHD_GOR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P24",
+            "factKey": "doze-apostolos-F49",
+            "text": "Na chamada Shipwreck Coast, no sudoeste de Victoria, os pilares se erguem logo a leste de Port Campbell.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "TWA_VHD",
+              "TWA_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "doze-apostolos-geografo-P25",
+            "factKey": "doze-apostolos-F50",
+            "text": "Os pilares de calcário do Parque Nacional Port Campbell estão entre as paradas mais famosas da Great Ocean Road.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "TWA_BRIT",
+              "TWA_GORCAPA"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de pilares de calcário do Mioceno no litoral do Parque Nacional Port Campbell, logo a leste de Port Campbell, no sudoeste de Victoria (Austrália), voltado para o Oceano Austral, a cerca de 275 km de Melbourne; esculpidos pelo mar a partir de arcos que desabaram, tinham nove pilares no século XX e hoje têm sete, depois dos colapsos de 2005 e 2009, e são uma das atrações mais populares da Great Ocean Road.",
+      "editorialNotes": [
+        "A altura dos pilares diverge: o mais alto tem \"cerca de 45 m\" na Britannica e \"até 45 m\" na página do parque marinho, mas a ScienceAlert (2026) fala em \"até 70 m\". Por isso nenhuma pista dá a altura atual; os 70 m citados são das falésias, segundo o Victorian Heritage Database.",
+        "A idade do calcário também varia: \"10 a 20 milhões de anos\" na Britannica e camadas de cerca de 14 a 8,6 milhões de anos no estudo da Universidade de Melbourne (ScienceAlert, 2026); as pistas dizem só \"Mioceno\". A notícia original da Universidade de Melbourne não abriu (proteção contra robôs).",
+        "As páginas da autoridade do parque sobre o Parque Nacional Port Campbell e a Loch Ard Gorge ficaram sem permissão e não foram usadas; a página de Parks Victoria redireciona para a Great Ocean Road Coast and Parks Authority, que hoje administra o parque. O registro estadual da Great Ocean Road dá os extremos como Torquay e Allansford, mas o histórico da mesma página cita outro traçado planejado (Barwon Heads a Nirranda)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "TWA_BRIT": {
+      "id": "TWA_BRIT",
+      "title": "Twelve Apostles",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/1075368",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_GORCAPA": {
+      "id": "TWA_GORCAPA",
+      "title": "Twelve Apostles (Port Campbell National Park)",
+      "publisher": "Great Ocean Road Coast and Parks Authority (Governo de Victoria)",
+      "url": "https://www.greatoceanroadauthority.vic.gov.au/Land-We-Manage/National-Parks/Port-Campbell-National-Park/Twelve-Apostles",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_GORCAPA_MAR": {
+      "id": "TWA_GORCAPA_MAR",
+      "title": "Twelve Apostles Marine National Park",
+      "publisher": "Great Ocean Road Coast and Parks Authority (Governo de Victoria)",
+      "url": "https://www.greatoceanroadauthority.vic.gov.au/Land-We-Manage/National-Parks/Marine-Parks/Twelve-Apostles-Marine-National-Park",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_VHD": {
+      "id": "TWA_VHD",
+      "title": "Port Campbell National Park — Statement of Significance",
+      "publisher": "Victorian Heritage Database (Heritage Council Victoria)",
+      "url": "https://vhd.heritagecouncil.vic.gov.au/places/70402",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_SCIALERT": {
+      "id": "TWA_SCIALERT",
+      "title": "Scientists solve the mystery of how the Twelve Apostles formed (4/5/2026)",
+      "publisher": "ScienceAlert (sobre estudo da Universidade de Melbourne no Australian Journal of Earth Sciences)",
+      "url": "https://www.sciencealert.com/scientists-solve-the-mystery-of-how-the-twelve-apostles-formed",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_NAA": {
+      "id": "TWA_NAA",
+      "title": "Returned soldiers employed building Great Ocean Road",
+      "publisher": "National Archives of Australia",
+      "url": "https://naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/war/world-war-i/returned-soldiers-employed-building-great-ocean-road",
+      "checkedAt": "2026-11-15"
+    },
+    "TWA_VHD_GOR": {
+      "id": "TWA_VHD_GOR",
+      "title": "Great Ocean Road",
+      "publisher": "Victorian Heritage Database (Heritage Council Victoria)",
+      "url": "https://vhd.heritagecouncil.vic.gov.au/places/14228",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/print/article/1075368",
+      "https://www.greatoceanroadauthority.vic.gov.au/Land-We-Manage/National-Parks/Port-Campbell-National-Park/Twelve-Apostles",
+      "https://www.greatoceanroadauthority.vic.gov.au/Land-We-Manage/National-Parks/Marine-Parks/Twelve-Apostles-Marine-National-Park",
+      "https://vhd.heritagecouncil.vic.gov.au/places/70402",
+      "https://www.sciencealert.com/scientists-solve-the-mystery-of-how-the-twelve-apostles-formed",
+      "https://naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/war/world-war-i/returned-soldiers-employed-building-great-ocean-road",
+      "https://vhd.heritagecouncil.vic.gov.au/places/14228"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

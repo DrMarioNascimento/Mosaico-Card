@@ -311,6 +311,18 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Tóquio | Ásia |
 | Trópicos Úmidos de Queensland | Oceania |
 | Parque Nacional dos Vulcões do Havaí | Oceania |
+| Domo A | Antártida |
+| Doze Apóstolos | Oceania |
+| Dubai | Ásia |
+| Geleira Beardmore | Antártida |
+| Ilha Snow Hill | Antártida |
+| Lagoas da Nova Caledônia | Oceania |
+| Mar Morto | Ásia |
+| Mausoléu do Primeiro Imperador Qin | Ásia |
+| Montes Transantárticos | Antártida |
+| Parque Nacional da Tijuca | Brasil / Sudeste |
+| Plataforma de Gelo Filchner-Ronne | Antártida |
+| Varanasi | Ásia |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -337,7 +349,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 318 lugares, 636 conjuntos de pistas (dois por lugar), 15.900 pistas, 1.272 perguntas distintas e 8.522 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 330 lugares, 660 conjuntos de pistas (dois por lugar), 16.500 pistas, 1.320 perguntas distintas e 8.839 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

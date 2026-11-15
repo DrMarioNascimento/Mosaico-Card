@@ -1,0 +1,1077 @@
+{
+  "case": {
+    "id": "lug3-varanasi",
+    "placeId": "varanasi",
+    "title": "Varanasi",
+    "aliases": [
+      "Benares",
+      "Banaras",
+      "Kashi"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "IN"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Varanasi"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Prayagraj"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Haridwar"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Rishikesh"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Ayodhya"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Mathura"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Bodh Gaya"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Patna"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Lucknow"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Agra"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Jaipur"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Amritsar"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Puri"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Madurai"
+          },
+          {
+            "id": "C1-O15",
+            "text": "Calcutá"
+          },
+          {
+            "id": "C1-O16",
+            "text": "Katmandu"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Varanasi",
+        "sources": [
+          "VARANASI_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio sagrado à margem do qual a cidade se estende",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Ganges"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Yamuna"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Godavari"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Narmada"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Ganges",
+        "sources": [
+          "VARANASI_BRIT",
+          "VARANASI_INCREDIBLE"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Lugar vizinho onde Buda fez o primeiro sermão",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Sarnath"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Bodh Gaya"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Lumbini"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Kushinagar"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Sarnath",
+        "sources": [
+          "VARANASI_BRIT",
+          "VARANASI_UP_NRI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Categoria da cidade na Rede de Cidades Criativas da UNESCO",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Música"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Gastronomia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Artesanato e artes populares"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Design"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Música",
+        "sources": [
+          "VARANASI_CIDADES_MUSICA",
+          "VARANASI_INCREDIBLE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "varanasi-viajante-P01",
+            "factKey": "varanasi-F01",
+            "text": "É uma cidade muito antiga do norte da Índia, à beira de um grande rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P02",
+            "factKey": "varanasi-F02",
+            "text": "Em junho, a temperatura chega a cerca de 44 °C; em janeiro, cai para perto de 4,5 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P03",
+            "factKey": "varanasi-F03",
+            "text": "A época mais agradável para visitar vai de outubro a março.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P04",
+            "factKey": "varanasi-F04",
+            "text": "A cidade fica na margem esquerda do rio Ganges, no sudeste do estado de Uttar Pradesh.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P05",
+            "factKey": "varanasi-F05",
+            "text": "Escadarias à beira do rio, os ghats, se estendem por uns 4 km e servem para banhos religiosos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI",
+              "VARANASI_BRIT"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P06",
+            "factKey": "varanasi-F06",
+            "text": "Passear de barco pelo rio ao amanhecer é um dos programas mais marcantes.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P07",
+            "factKey": "varanasi-F07",
+            "text": "Todas as noites, num dos ghats, sacerdotes fazem a Ganga Aarti, com lamparinas de latão, conchas e sinos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE_DASH",
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P08",
+            "factKey": "varanasi-F08",
+            "text": "Durante a cerimônia, visitantes podem soltar no rio pequenas lamparinas sobre folhas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE_DASH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P09",
+            "factKey": "varanasi-F09",
+            "text": "Um dos ghats é tido como um dos crematórios mais sagrados do hinduísmo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P10",
+            "factKey": "varanasi-F10",
+            "text": "É uma das sete cidades sagradas do hinduísmo, e muitos devotos desejam morrer ali na velhice.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P11",
+            "factKey": "varanasi-F11",
+            "text": "Mais de um milhão de peregrinos chegam todos os anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P12",
+            "factKey": "varanasi-F12",
+            "text": "Um dos templos mais venerados, o Vishwanath, é dedicado a Shiva e também é chamado de Templo Dourado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT",
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P13",
+            "factKey": "varanasi-F13",
+            "text": "Muitos macacos vivem nas árvores grandes em volta do templo da deusa Durga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P14",
+            "factKey": "varanasi-F14",
+            "text": "A cerca de 10 km ao norte fica o lugar onde Buda fez seu primeiro sermão, para cinco discípulos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI",
+              "VARANASI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P15",
+            "factKey": "varanasi-F15",
+            "text": "Nesse lugar do primeiro sermão há estupas, mosteiros e um pilar do imperador Ashoka.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI",
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P16",
+            "factKey": "varanasi-F16",
+            "text": "Os sáris de seda da cidade, bordados com fios de ouro e prata, têm indicação geográfica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE",
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P17",
+            "factKey": "varanasi-F17",
+            "text": "Também se fazem ali brinquedos de madeira, pulseiras de vidro e peças de latão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P18",
+            "factKey": "varanasi-F18",
+            "text": "Na comida de rua há kachori com sabzi, tamatar chaat e lassi; o paan local tem selo de origem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P19",
+            "factKey": "varanasi-F19",
+            "text": "Em março, um festival de música dhrupad dura cinco dias num dos ghats.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P20",
+            "factKey": "varanasi-F20",
+            "text": "Ravi Shankar, Bismillah Khan e Girija Devi estão entre os músicos ligados à cidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P21",
+            "factKey": "varanasi-F21",
+            "text": "Quinze dias depois do Diwali, milhares de lamparinas iluminam os ghats na festa de Dev Deepawali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P22",
+            "factKey": "varanasi-F22",
+            "text": "Na margem oposta fica Ramnagar, onde a encenação do Ramlila dura um mês.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT",
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P23",
+            "factKey": "varanasi-F23",
+            "text": "Mark Twain escreveu que a cidade era “mais velha que a história, mais velha que a tradição, mais velha até que a lenda”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P24",
+            "factKey": "varanasi-F24",
+            "text": "Um de seus nomes vem do sânscrito “kash”, brilhar, e lhe rendeu o apelido de “Cidade da Luz”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE",
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-viajante-P25",
+            "factKey": "varanasi-F25",
+            "text": "Pela tradição, a cidade é a terra que fica entre os rios Varuna e Assi.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "varanasi-geografo-P01",
+            "factKey": "varanasi-F26",
+            "text": "Centro de peregrinação no sudeste de Uttar Pradesh, tido como uma das cidades habitadas sem interrupção mais antigas do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P02",
+            "factKey": "varanasi-F02",
+            "text": "O clima tem grande amplitude anual: a faixa de temperatura vai de cerca de 4,5–27,9 °C em janeiro a 23,9–44,4 °C em junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P03",
+            "factKey": "varanasi-F27",
+            "text": "Já no segundo milênio a.C., era um centro da religião e da filosofia védicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P04",
+            "factKey": "varanasi-F05",
+            "text": "A frente urbana ocupa a margem esquerda do Ganges, onde os ghats formam uma faixa contínua de cerca de 4 km.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_BRIT",
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P05",
+            "factKey": "varanasi-F28",
+            "text": "Em 1910, os britânicos criaram um estado com sede em Ramnagar, na margem oposta, mas sem jurisdição sobre a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P06",
+            "factKey": "varanasi-F29",
+            "text": "A cidade declinou em três séculos de domínio muçulmano a partir de 1194, quando muitos templos hindus foram destruídos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P07",
+            "factKey": "varanasi-F30",
+            "text": "A Grande Mesquita de Aurangzeb é outro edifício religioso de destaque na paisagem urbana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P08",
+            "factKey": "varanasi-F14",
+            "text": "A uns 10 km ao norte, um sítio budista marca o primeiro sermão de Buda; um pilar de Ashoka fica diante da estupa principal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI",
+              "VARANASI_BRIT"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P09",
+            "factKey": "varanasi-F31",
+            "text": "As distâncias até Prayagraj (128 km), Patna (246 km) e Lucknow (286 km) ajudam a situar a cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P10",
+            "factKey": "varanasi-F32",
+            "text": "No censo de 2011, a cidade tinha 1.198.491 habitantes, e a aglomeração urbana, 1.432.280.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P11",
+            "factKey": "varanasi-F33",
+            "text": "A tecelagem faz dela um dos ricos centros têxteis da Índia, com padrões como jangla, tanchoi e butidar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P12",
+            "factKey": "varanasi-F34",
+            "text": "O artesanato com indicação geográfica inclui bordado zari, gulabi meenakari, metal repuxado, laca em madeira e contas de vidro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P13",
+            "factKey": "varanasi-F35",
+            "text": "Sob o domínio britânico, continuou a ser um centro comercial e religioso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P14",
+            "factKey": "varanasi-F07",
+            "text": "A Ganga Aarti dura cerca de 45 minutos e pode ser vista da escadaria ou de barcos ancorados junto à margem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE_DASH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P15",
+            "factKey": "varanasi-F36",
+            "text": "Pela lenda, o ghat principal da cerimônia lembra dez sacrifícios de cavalos feitos por Brahma a pedido de Shiva.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE_DASH"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P16",
+            "factKey": "varanasi-F37",
+            "text": "No Assi Ghat, ioga, música e devoção se reúnem num encontro ao nascer do sol.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P17",
+            "factKey": "varanasi-F38",
+            "text": "Kabir, Guru Nanak, Sant Ravidas e Tulsidas estão entre os santos e poetas ligados à cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P18",
+            "factKey": "varanasi-F39",
+            "text": "O templo Tulsi Manas é apontado como o lugar onde foi escrito o Ramcharitmanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P19",
+            "factKey": "varanasi-F40",
+            "text": "O templo Sankat Mochan, dedicado a Hanuman e atribuído a Tulsidas, fica a uns 300 m do templo Tulsi Manas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P20",
+            "factKey": "varanasi-F09",
+            "text": "O Manikarnika Ghat, um dos crematórios mais sagrados do hinduísmo, evoca o ciclo de vida, morte e libertação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P21",
+            "factKey": "varanasi-F41",
+            "text": "A universidade hindu fundada por Madan Mohan Malaviya é descrita como a maior universidade residencial da Índia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P22",
+            "factKey": "varanasi-F42",
+            "text": "O templo de Durga, do século XVIII e em pedra vermelha, é citado como exemplo da arte nagara.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P23",
+            "factKey": "varanasi-F43",
+            "text": "Na Mahashivaratri, uma procissão segue até o templo Vishwanath, dedicado a Shiva.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P24",
+            "factKey": "varanasi-F25",
+            "text": "Segundo o Vamana Purana, os rios Varuna e Assi nasceram do corpo do ser primordial, e a terra entre eles é a cidade sagrada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "VARANASI_UP_NRI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "varanasi-geografo-P25",
+            "factKey": "varanasi-F44",
+            "text": "Foi designada Cidade da Música pela UNESCO em 2015, antes de Chennai (2017) e Gwalior (2023).",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "VARANASI_CIDADES_MUSICA",
+              "VARANASI_INCREDIBLE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade sagrada do hinduísmo no sudeste de Uttar Pradesh, na margem esquerda do Ganges: famosa pelos ghats, pela Ganga Aarti e pelos crematórios, vizinha de Sarnath, onde Buda fez o primeiro sermão, e Cidade da Música da UNESCO desde 2015.",
+      "editorialNotes": [
+        "Ano de fundação da Universidade Hindu: 1915 na Britannica e 1917 no portal do governo de Uttar Pradesh; o ano ficou fora das pistas.",
+        "Distância do aeroporto: cerca de 25 km (Incredible India) e 22 km (governo de Uttar Pradesh); o número não foi usado.",
+        "Benares, Banaras e Kashi entram como aliases; por isso as pistas citam o templo como “Vishwanath”, sem o nome Kashi."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica, portal do governo de Uttar Pradesh, Incredible India (Ministério do Turismo da Índia, duas páginas) e a lista de Cidades da Música da UNESCO; C1 com 16 cidades do sul da Ásia comparáveis."
+    }
+  },
+  "sources": {
+    "VARANASI_BRIT": {
+      "id": "VARANASI_BRIT",
+      "title": "Varanasi",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Varanasi",
+      "checkedAt": "2026-11-15"
+    },
+    "VARANASI_UP_NRI": {
+      "id": "VARANASI_UP_NRI",
+      "title": "Varanasi",
+      "publisher": "Governo de Uttar Pradesh — portal NRI (nri.up.gov.in)",
+      "url": "https://nri.up.gov.in/article/en/varanasi2",
+      "checkedAt": "2026-11-15"
+    },
+    "VARANASI_INCREDIBLE": {
+      "id": "VARANASI_INCREDIBLE",
+      "title": "Varanasi",
+      "publisher": "Incredible India — Ministério do Turismo da Índia",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi",
+      "checkedAt": "2026-11-15"
+    },
+    "VARANASI_INCREDIBLE_DASH": {
+      "id": "VARANASI_INCREDIBLE_DASH",
+      "title": "Dashashwamedh Ghat",
+      "publisher": "Incredible India — Ministério do Turismo da Índia",
+      "url": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/dashashwamedh-ghat",
+      "checkedAt": "2026-11-15"
+    },
+    "VARANASI_CIDADES_MUSICA": {
+      "id": "VARANASI_CIDADES_MUSICA",
+      "title": "City of Music (UNESCO)",
+      "publisher": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/City_of_Music_(UNESCO)",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Varanasi",
+      "https://nri.up.gov.in/article/en/varanasi2",
+      "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi",
+      "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/dashashwamedh-ghat",
+      "https://en.wikipedia.org/wiki/City_of_Music_(UNESCO)"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

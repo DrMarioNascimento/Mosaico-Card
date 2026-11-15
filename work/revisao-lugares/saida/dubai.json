@@ -1,0 +1,1077 @@
+{
+  "case": {
+    "id": "lug3-dubai",
+    "placeId": "dubai",
+    "title": "Dubai",
+    "aliases": [
+      "Dubayy"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "AE"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Dubai"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Abu Dhabi"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Sharjah"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Doha"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Manama"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Cidade do Kuwait"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Mascate"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Riad"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Jidá"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Bandar Abbas"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Amã"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Beirute"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Singapura"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Hong Kong"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Dubai",
+        "sources": [
+          "DUBAI_UAE_GOV",
+          "DUBAI_BRITANNICA",
+          "DUBAI_UNESCO_TL"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Base da economia antes do petróleo",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Pesca, mergulho de pérolas e comércio marítimo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Mineração de cobre"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Agricultura irrigada em oásis"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rota de caravanas de incenso"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Pesca, mergulho de pérolas e comércio marítimo",
+        "sources": [
+          "DUBAI_UAE_GOV",
+          "DUBAI_BRITANNICA",
+          "DUBAI_UNESCO_TL"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Família que governa a cidade desde a fundação, em 1833",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Al Maktoum"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Al Nahyan"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Al Thani"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Al Khalifa"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Al Maktoum",
+        "sources": [
+          "DUBAI_UAE_GOV",
+          "DUBAI_SHINDAGHA_MUSEU"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Elemento tradicional que marca os bairros antigos",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Torres de vento (barjeel)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Balcões de madeira em treliça (rawasheen)"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Casas-torre de adobe"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Cúpulas de tijolo em forma de colmeia"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Torres de vento (barjeel)",
+        "sources": [
+          "DUBAI_UNESCO_TL",
+          "DUBAI_BRITANNICA",
+          "DUBAI_FAHIDI_DCAA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "dubai-viajante-P01",
+            "factKey": "dubai-F01",
+            "text": "Este destino é uma cidade costeira da Península Arábica, à beira do Golfo, quente o ano inteiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA",
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P02",
+            "factKey": "dubai-F02",
+            "text": "Em julho, as máximas passam dos 40 °C, com muita umidade; em janeiro, as mínimas ficam perto de 15 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P03",
+            "factKey": "dubai-F03",
+            "text": "Um braço de mar natural, de uns 14 km, entra pela cidade e serviu de porto abrigado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL",
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P04",
+            "factKey": "dubai-F04",
+            "text": "Barcos de madeira tradicionais ainda carregam e descarregam mercadorias vendidas nos mercados da cidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P05",
+            "factKey": "dubai-F05",
+            "text": "Pequenos barcos, hoje com motor a diesel, ainda levam passageiros de uma margem à outra do canal.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P06",
+            "factKey": "dubai-F06",
+            "text": "Nos mercados tradicionais restaurados se vendem ouro, seda e especiarias.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P07",
+            "factKey": "dubai-F07",
+            "text": "As casas antigas têm torres de vento, uma solução tradicional contra o calor forte do verão.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA",
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P08",
+            "factKey": "dubai-F08",
+            "text": "Os prédios antigos são baixos, de no máximo dois andares, feitos com pedra de coral, teca, sândalo e folhas de palmeira.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P09",
+            "factKey": "dubai-F09",
+            "text": "Um forte de 1787, que já foi sede do governante e prisão, virou o museu da cidade em 1971.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P10",
+            "factKey": "dubai-F10",
+            "text": "Na entrada do canal, a casa de um antigo xeque, de 1896, é o marco mais famoso do bairro histórico.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "DUBAI_SHINDAGHA_MUSEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P11",
+            "factKey": "dubai-F11",
+            "text": "Por muito tempo a cidade viveu da pesca, do mergulho para pérolas e do comércio pelo mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA",
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P12",
+            "factKey": "dubai-F12",
+            "text": "O petróleo foi descoberto nos anos 1960, e a primeira exportação saiu em 1969.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P13",
+            "factKey": "dubai-F13",
+            "text": "O emirado tem 4.114 km² e é o segundo maior do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P14",
+            "factKey": "dubai-F14",
+            "text": "O emirado faz fronteira com Abu Dhabi, Sharjah e Omã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P15",
+            "factKey": "dubai-F15",
+            "text": "Os estrangeiros são muito mais numerosos que os cidadãos nativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P16",
+            "factKey": "dubai-F16",
+            "text": "O árabe é a língua oficial, mas no dia a dia o inglês é a língua de comunicação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P17",
+            "factKey": "dubai-F17",
+            "text": "Igrejas e templos hindus convivem com as mesquitas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P18",
+            "factKey": "dubai-F18",
+            "text": "Como faltavam ilhas naturais na costa, construíram ilhas artificiais, uma delas em forma de palmeira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P19",
+            "factKey": "dubai-F19",
+            "text": "Um hotel de luxo em forma de vela é um dos cartões-postais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA",
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P20",
+            "factKey": "dubai-F20",
+            "text": "Uma fileira de arranha-céus ao longo de uma grande avenida forma o novo centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P21",
+            "factKey": "dubai-F21",
+            "text": "Hoje a economia, mais diversificada, se apoia no comércio, nos serviços e nas finanças.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P22",
+            "factKey": "dubai-F22",
+            "text": "Os wadis de Hatta, vales rochosos do interior, também estão entre os passeios do emirado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P23",
+            "factKey": "dubai-F23",
+            "text": "É comparada a Singapura e Hong Kong como o principal entreposto comercial do Oriente Médio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P24",
+            "factKey": "dubai-F24",
+            "text": "A cidade foi fundada em 1833, quando uns 800 membros da tribo Bani Yas, liderados pela família que governa até hoje, se instalaram junto ao canal.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-viajante-P25",
+            "factKey": "dubai-F25",
+            "text": "O Burj Khalifa, inaugurado em 2010 como o prédio mais alto do mundo, é o cartão-postal mais famoso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA",
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "dubai-geografo-P01",
+            "factKey": "dubai-F01",
+            "text": "Fica no canto sudoeste do Golfo Arábico, na costa leste da Península Arábica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P02",
+            "factKey": "dubai-F11",
+            "text": "Um porto natural abrigado favoreceu a pesca, o mergulho de pérolas e o comércio marítimo, base da economia antes do petróleo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV",
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P03",
+            "factKey": "dubai-F03",
+            "text": "O canal natural de água do mar, com cerca de 14 km, avança para sudeste até um santuário de vida selvagem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P04",
+            "factKey": "dubai-F26",
+            "text": "O canal divide a cidade em duas margens: ao norte fica o antigo distrito comercial; ao sul, o outro núcleo histórico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV",
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P05",
+            "factKey": "dubai-F27",
+            "text": "Uma estreita faixa de terra entre o canal e o mar virou a principal área residencial e a morada dos governantes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P06",
+            "factKey": "dubai-F28",
+            "text": "Ao contrário de outras cidades de canal do Golfo, o núcleo original sobreviveu porque a expansão moderna correu pela orla marítima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P07",
+            "factKey": "dubai-F07",
+            "text": "Torres de vento e casas de pátio adaptadas ao clima do Golfo ainda marcam bairros inteiros, caso raro na região.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P08",
+            "factKey": "dubai-F29",
+            "text": "A comunidade mercantil reunia gente da Pérsia, da Índia, da África Oriental e da Península Arábica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P09",
+            "factKey": "dubai-F30",
+            "text": "No início do século XX, comerciantes persas trouxeram o desenho de torres de vento que se vê num bairro restaurado.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P10",
+            "factKey": "dubai-F31",
+            "text": "A restauração do distrito histórico na foz do canal abrangeu 162 edifícios em 169.000 m².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_SHINDAGHA_MUSEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P11",
+            "factKey": "dubai-F08",
+            "text": "Pedra, gesso, teca, sândalo e madeira de palmeira compunham as construções tradicionais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "DUBAI_SHINDAGHA_MUSEU"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P12",
+            "factKey": "dubai-F32",
+            "text": "O bairro antigo ocupa cerca de 38.000 m² e se estende por uns 300 m ao longo do canal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P13",
+            "factKey": "dubai-F33",
+            "text": "Esses bairros mostram um modo de vida que durou de meados do século XIX até os anos 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA",
+              "DUBAI_SHINDAGHA_MUSEU"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P14",
+            "factKey": "dubai-F12",
+            "text": "As exportações de petróleo, a partir de 1969, transformaram o emirado, cuja economia depois se diversificou para comércio, serviços e finanças.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P15",
+            "factKey": "dubai-F34",
+            "text": "O ambiente favorável aos negócios atraiu comerciantes de fora, e o boom da construção trouxe trabalhadores do Sul da Ásia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P16",
+            "factKey": "dubai-F18",
+            "text": "Sem ilhas naturais ao largo, a cidade criou arquipélagos artificiais, como o da palmeira e o do “Mundo”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P17",
+            "factKey": "dubai-F20",
+            "text": "O novo centro se alinha ao longo de uma via expressa, com torres de escritórios e um centro financeiro internacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P18",
+            "factKey": "dubai-F14",
+            "text": "O emirado, o segundo maior do país, faz fronteira com Abu Dhabi ao sul, Sharjah a nordeste e Omã a sudeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P19",
+            "factKey": "dubai-F35",
+            "text": "É a capital de um dos sete emirados da federação criada em 1971, após a independência do Reino Unido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_BRITANNICA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P20",
+            "factKey": "dubai-F36",
+            "text": "Um banco islâmico aberto nos anos 1970 e uma bolsa compatível com a xaria fizeram dela um polo de finanças islâmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UAE_GOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P21",
+            "factKey": "dubai-F37",
+            "text": "O canal está na lista indicativa da UNESCO como paisagem urbana histórica ligada ao comércio internacional no Golfo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_UNESCO_TL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P22",
+            "factKey": "dubai-F38",
+            "text": "Em 2014, o Comitê do Patrimônio Mundial adiou a candidatura do canal e pediu mais dados sobre arquitetura, barcos e mercados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_THENATIONAL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P23",
+            "factKey": "dubai-F39",
+            "text": "Parte do casario foi reconstruída em 1991, o que levantou dúvidas na avaliação da candidatura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_THENATIONAL"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P24",
+            "factKey": "dubai-F09",
+            "text": "O Forte Al Fahidi, de 1787, foi sede do governante e reabriu em 1971 como museu, restaurado no governo do xeque Rashid.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "DUBAI_FAHIDI_DCAA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "dubai-geografo-P25",
+            "factKey": "dubai-F10",
+            "text": "A Casa do Xeque Saeed Al Maktoum, de 1896, foi sede do governante que reinou de 1912 a 1958.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "DUBAI_SHINDAGHA_MUSEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade portuária dos Emirados Árabes Unidos, no Golfo, fundada em 1833 junto a um canal natural pela família Al Maktoum: antigo porto de pérolas e comércio, com bairros de torres de vento, que virou metrópole de arranha-céus depois do petróleo.",
+      "editorialNotes": [
+        "População omitida: o portal do governo dos EAU traz cerca de 3,76 milhões sem ano, e a Britannica, 2.919.178 (estimativa de 2017). A área citada (4.114 km²) é a do emirado, não a da cidade.",
+        "Entrada do canal na lista indicativa: a UNESCO registra a submissão em 30/01/2012, e o The National fala em candidatura feita em 2011; por isso só o adiamento de 2014 é datado nas pistas.",
+        "Descoberta do petróleo: o portal oficial diz apenas “anos 1960”, com primeira exportação em 1969; o ano exato da descoberta não foi usado."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "DUBAI_UAE_GOV": {
+      "id": "DUBAI_UAE_GOV",
+      "title": "Dubai — The seven emirates",
+      "publisher": "The United Arab Emirates’ Government portal (u.ae)",
+      "url": "https://u.ae/en/about-the-uae/the-seven-emirates/dubai",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBAI_BRITANNICA": {
+      "id": "DUBAI_BRITANNICA",
+      "title": "Dubai",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/EBchecked/topic/172721/Dubai",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBAI_UNESCO_TL": {
+      "id": "DUBAI_UNESCO_TL",
+      "title": "Khor Dubai (Dubai Creek) — Tentative List (2012)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/tentativelists/5662",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBAI_THENATIONAL": {
+      "id": "DUBAI_THENATIONAL",
+      "title": "Dubai Creek’s Unesco world heritage bid deferred (2014)",
+      "publisher": "The National",
+      "url": "https://www.thenationalnews.com/uae/dubai-creek-s-unesco-world-heritage-bid-deferred-1.653301",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBAI_FAHIDI_DCAA": {
+      "id": "DUBAI_FAHIDI_DCAA",
+      "title": "Al Fahidi Historical Neighborhood",
+      "publisher": "Dubai Culture & Arts Authority (Google Arts & Culture)",
+      "url": "https://artsandculture.google.com/story/zAWRZ_j5CQugJw",
+      "checkedAt": "2026-11-15"
+    },
+    "DUBAI_SHINDAGHA_MUSEU": {
+      "id": "DUBAI_SHINDAGHA_MUSEU",
+      "title": "Al Shindagha Historical District",
+      "publisher": "Al Shindagha Museum (Google Arts & Culture)",
+      "url": "https://artsandculture.google.com/story/_wVRmCMBjqxcKQ",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://u.ae/en/about-the-uae/the-seven-emirates/dubai",
+      "https://www.britannica.com/EBchecked/topic/172721/Dubai",
+      "https://whc.unesco.org/en/tentativelists/5662",
+      "https://www.thenationalnews.com/uae/dubai-creek-s-unesco-world-heritage-bid-deferred-1.653301",
+      "https://artsandculture.google.com/story/zAWRZ_j5CQugJw",
+      "https://artsandculture.google.com/story/_wVRmCMBjqxcKQ"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

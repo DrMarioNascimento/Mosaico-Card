@@ -1,0 +1,1106 @@
+{
+ "case": {
+  "id": "lug3-ilha-snow-hill",
+  "placeId": "ilha-snow-hill",
+  "title": "Ilha Snow Hill",
+  "aliases": [
+   "Snow Hill Island",
+   "Snow Hill",
+   "Isla Cerro Nevado"
+  ],
+  "answerType": "ilha antártica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Ilha antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Ilha Paulet"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Ilha Deception"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ilha James Ross"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Ilha Seymour"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Ilha Snow Hill"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Ilha Ross"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ilha Dundee"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Ilha Rei George"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ilha Livingston"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Ilha Elefante"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Ilha Joinville"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ilha Half Moon"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Ilha Cuverville"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Ilha Petermann"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Ilha Goudier"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Ilha Detaille"
+     }
+    ],
+    "answerId": "C1-O5",
+    "answerText": "Ilha Snow Hill",
+    "sources": [
+     "SNOWHILL_GU",
+     "SNOWHILL_KBA"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Expedição que ergueu a cabana histórica da ilha",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Expedição Antártica Belga (1897–1899)"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Expedição Antártica Sueca (1901–1903)"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Expedição Antártica Escocesa (1902–1904)"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Expedição Antártica Francesa (1903–1905)"
+     }
+    ],
+    "answerId": "C2-O2",
+    "answerText": "Expedição Antártica Sueca (1901–1903)",
+    "sources": [
+     "SNOWHILL_UKSI",
+     "SNOWHILL_GUIA",
+     "SNOWHILL_BRIT"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "País do navio que resgatou os expedicionários em novembro de 1903",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Chile"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Reino Unido"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Argentina"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Estados Unidos"
+     }
+    ],
+    "answerId": "C3-O3",
+    "answerText": "Argentina",
+    "sources": [
+     "SNOWHILL_BRIT",
+     "SNOWHILL_FIB",
+     "SNOWHILL_GU"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Ave com colônia reprodutora na ponta sudoeste da ilha",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Pinguim-rei"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Pinguim-de-magalhães"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Pinguim-de-humboldt"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Pinguim-imperador"
+     }
+    ],
+    "answerId": "C4-O4",
+    "answerText": "Pinguim-imperador",
+    "sources": [
+     "SNOWHILL_KBA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "ilha-snow-hill-viajante-P01",
+      "factKey": "ilha-snow-hill-F01",
+      "text": "Este destino é uma ilha antártica quase toda coberta de neve e gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P02",
+      "factKey": "ilha-snow-hill-F02",
+      "text": "Fica do lado leste da Península Antártica, de frente para o Mar de Weddell.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA",
+       "SNOWHILL_RAA",
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P03",
+      "factKey": "ilha-snow-hill-F03",
+      "text": "A Ilha James Ross fica a só uns 5 km dali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P04",
+      "factKey": "ilha-snow-hill-F04",
+      "text": "A base permanente mais próxima é a argentina Marambio, a uns 53 km, em outra ilha.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P05",
+      "factKey": "ilha-snow-hill-F05",
+      "text": "Da praia, o terreno sobe em terraços baixos e depois em encostas íngremes até uns 170 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P06",
+      "factKey": "ilha-snow-hill-F06",
+      "text": "As encostas guardam muitos fósseis de animais marinhos — e é proibido levar qualquer um.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P07",
+      "factKey": "ilha-snow-hill-F07",
+      "text": "Quase não há plantas; perto da cabana, só uns poucos casais de gaivota e de trinta-réis fazem ninho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P08",
+      "factKey": "ilha-snow-hill-F08",
+      "text": "Na ponta sudoeste, milhares de pinguins grandes criam os filhotes sobre o mar congelado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P09",
+      "factKey": "ilha-snow-hill-F09",
+      "text": "Num censo de 2004, contaram quase 3.900 filhotes nessa colônia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P10",
+      "factKey": "ilha-snow-hill-F10",
+      "text": "A atração histórica da ilha é uma casinha de madeira montada em fevereiro de 1902.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_UKSI",
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P11",
+      "factKey": "ilha-snow-hill-F11",
+      "text": "A casa veio pronta, em peças, para servir de estação de pesquisa e moradia de inverno.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P12",
+      "factKey": "ilha-snow-hill-F12",
+      "text": "Por dentro, tem três quartinhos e uma cozinha simples.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P13",
+      "factKey": "ilha-snow-hill-F13",
+      "text": "Cabos prendem a casa na rocha para ela aguentar os ventos fortes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P14",
+      "factKey": "ilha-snow-hill-F14",
+      "text": "Seis homens moraram ali por 22 meses, entre eles um tenente argentino.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P15",
+      "factKey": "ilha-snow-hill-F15",
+      "text": "O navio da expedição foi esmagado pelo gelo e afundou em fevereiro de 1903.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_FIB",
+       "SNOWHILL_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P16",
+      "factKey": "ilha-snow-hill-F16",
+      "text": "Sem o navio, o grupo teve de encarar um segundo inverno no gelo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT",
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P17",
+      "factKey": "ilha-snow-hill-F17",
+      "text": "O resgate chegou em novembro de 1903, num navio de um país vizinho do Brasil.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT",
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P18",
+      "factKey": "ilha-snow-hill-F18",
+      "text": "O navio do resgate se chamava Uruguay, mas não era uruguaio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P19",
+      "factKey": "ilha-snow-hill-F19",
+      "text": "A expedição tinha zarpado de Gotemburgo em outubro de 1901.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P20",
+      "factKey": "ilha-snow-hill-F20",
+      "text": "Hoje a casa é um museu vivo, cuidado por argentinos e suecos.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA",
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P21",
+      "factKey": "ilha-snow-hill-F21",
+      "text": "Lá dentro ainda há objetos originais da expedição.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P22",
+      "factKey": "ilha-snow-hill-F22",
+      "text": "O degelo do chão está levando para o mar os morrinhos onde ficavam os laboratórios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_RAA",
+       "SNOWHILL_GU"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P23",
+      "factKey": "ilha-snow-hill-F23",
+      "text": "Para segurar o morro, usaram chapas de alumínio de pistas de pouso americanas usadas no Vietnã.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P24",
+      "factKey": "ilha-snow-hill-F24",
+      "text": "No máximo 100 visitantes podem estar em terra ao mesmo tempo, e só 5 entram juntos na casa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-viajante-P25",
+      "factKey": "ilha-snow-hill-F25",
+      "text": "O líder da expedição que morou na casinha foi o geólogo sueco Otto Nordenskjöld.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_UKSI",
+       "SNOWHILL_BRIT",
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "ilha-snow-hill-geografo-P01",
+      "factKey": "ilha-snow-hill-F01",
+      "text": "Ilha do setor do Mar de Weddell quase inteiramente recoberta por neve e gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P02",
+      "factKey": "ilha-snow-hill-F02",
+      "text": "Situa-se ao largo da costa leste da Península Trinity, no norte da Península Antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P03",
+      "factKey": "ilha-snow-hill-F03",
+      "text": "Fica a sudeste da Ilha James Ross, a cerca de 5 km dela, e a sudoeste da Ilha Seymour.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P04",
+      "factKey": "ilha-snow-hill-F04",
+      "text": "A estação permanente mais próxima é Marambio, na Ilha Seymour, cerca de 53 km a nordeste.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P05",
+      "factKey": "ilha-snow-hill-F05",
+      "text": "Terraços sedimentares sobem até 5–10 m; acima, encostas de 15° a 40°, cortadas por vales fluviais profundos, chegam a ~170 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P06",
+      "factKey": "ilha-snow-hill-F26",
+      "text": "Diques de basalto de direção nordeste–sudoeste resistem melhor à erosão e se destacam no relevo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P07",
+      "factKey": "ilha-snow-hill-F27",
+      "text": "A feição mais marcante perto da cabana é Haslum Crag, um pequeno neck vulcânico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P08",
+      "factKey": "ilha-snow-hill-F06",
+      "text": "As encostas íngremes concentram fósseis marinhos abundantes, protegidos por uma área fechada à visitação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P09",
+      "factKey": "ilha-snow-hill-F07",
+      "text": "A flora é praticamente ausente; perto da cabana, a nidificação se resume a 3–5 ninhos de gaivota-dominicana e trinta-réis-antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P10",
+      "factKey": "ilha-snow-hill-F08",
+      "text": "A colônia do extremo sudoeste se reproduz sobre gelo marinho fixo, a ~400 m das falésias de gelo da costa sul — hábito da maior espécie de pinguim.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P11",
+      "factKey": "ilha-snow-hill-F09",
+      "text": "A contagem em solo de novembro de 2004 registrou ~3.885 filhotes; a de satélite, em outubro de 2009, indicou 2.164 aves.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SNOWHILL_KBA"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P12",
+      "factKey": "ilha-snow-hill-F10",
+      "text": "A cabana de madeira, de 4,0 × 6,3 m, foi erguida em fevereiro de 1902 pelo grupo principal de uma expedição polar escandinava.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GU",
+       "SNOWHILL_UKSI"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P13",
+      "factKey": "ilha-snow-hill-F11",
+      "text": "Pré-fabricada na Suécia, foi chamada pelos expedicionários de “Estação de Inverno”; hoje também a chamam de “Casa Suecia”.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P14",
+      "factKey": "ilha-snow-hill-F28",
+      "text": "É o Sítio e Monumento Histórico nº 38 do Tratado da Antártida.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA",
+       "SNOWHILL_UKSI"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P15",
+      "factKey": "ilha-snow-hill-F14",
+      "text": "Seis homens passaram 22 meses na estação, com pesquisas de geografia, geologia, bacteriologia e meteorologia.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P16",
+      "factKey": "ilha-snow-hill-F29",
+      "text": "Entre os que invernaram estava o tenente argentino José María Sobral.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P17",
+      "factKey": "ilha-snow-hill-F15",
+      "text": "O navio da expedição, que tinha passado o inverno na Geórgia do Sul, foi esmagado pelo gelo ao voltar para buscá-los, em fevereiro de 1903.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT",
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P18",
+      "factKey": "ilha-snow-hill-F16",
+      "text": "O naufrágio impôs um segundo inverno, com os expedicionários espalhados em três locais diferentes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P19",
+      "factKey": "ilha-snow-hill-F17",
+      "text": "Todos foram resgatados em 8 de novembro de 1903 por uma expedição de socorro argentina, no navio Uruguay.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_FIB",
+       "SNOWHILL_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P20",
+      "factKey": "ilha-snow-hill-F30",
+      "text": "O navio perdido, o Antarctic, era comandado pelo capitão C. A. Larsen.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_FIB"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P21",
+      "factKey": "ilha-snow-hill-F20",
+      "text": "A cabana funciona como museu vivo, com objetos originais, sob gestão compartilhada de Argentina e Suécia.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_GUIA",
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P22",
+      "factKey": "ilha-snow-hill-F22",
+      "text": "O degelo do permafrost e a erosão por água de derretimento ameaçam o morro; partes da área de laboratórios já foram levadas ao mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GU",
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P23",
+      "factKey": "ilha-snow-hill-F23",
+      "text": "Dos anos 1990 a meados da década de 2010, o morro foi reforçado com terraços de chapas de alumínio reaproveitadas de pistas militares temporárias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SNOWHILL_GU"
+      ],
+      "clueType": "construcao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P24",
+      "factKey": "ilha-snow-hill-F31",
+      "text": "Em janeiro de 2020, uma equipe sueco-argentina documentou a cabana com escâner a laser, fotogrametria e drones.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "SNOWHILL_GU",
+       "SNOWHILL_RAA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "ilha-snow-hill-geografo-P25",
+      "factKey": "ilha-snow-hill-F25",
+      "text": "A expedição era liderada pelo sueco Otto Nordenskjöld, e seus resultados científicos saíram em volumes de 1905 a 1920.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SNOWHILL_BRIT",
+       "SNOWHILL_UKSI"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ilha quase toda coberta de gelo no lado do Mar de Weddell da Península Antártica, onde a Expedição Antártica Sueca de Otto Nordenskjöld ergueu em fevereiro de 1902 a cabana hoje protegida como Sítio e Monumento Histórico nº 38, e cuja ponta sudoeste abriga uma colônia de pinguins-imperadores.",
+   "editorialNotes": [
+    "A posição da cabana varia entre as fontes: 64°22′ S, 56°59′ O (Universidade de Gotemburgo e diretrizes de visita) e 64°24′ S, 57°00′ O (lei britânica de 1995); as pistas não usam coordenadas. As diretrizes situam a cabana na costa norte e a página de Gotemburgo, no lado oeste da ilha — as pistas não citam o lado.",
+    "A colônia de pinguins-imperadores tem dados antigos: ~3.885 filhotes em 2004 (contagem em solo) e 2.164 aves em 2009 (satélite), segundo a ficha da KBA; não há número mais recente nas fontes.",
+    "O navio de resgate Uruguay aparece como argentino na Britannica e no Dictionary of Falklands Biography; o nome do comandante não consta das fontes abertas e não entra nas pistas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "SNOWHILL_GU": {
+   "id": "SNOWHILL_GU",
+   "title": "Snow Hill — Built Cultural Heritage in Antarctica",
+   "publisher": "Universidade de Gotemburgo (Centre for Digital Humanities)",
+   "url": "https://antarctica.dh.gu.se/snowhill.html",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_GUIA": {
+   "id": "SNOWHILL_GUIA",
+   "title": "Snow Hill — diretrizes para visitantes do sítio (versão em inglês)",
+   "publisher": "Legislatura da Província de Tierra del Fuego (Argentina)",
+   "url": "https://legistdf.gob.ar/lp/novedadesip/Com.%20Of.%202008/C.Of.%20N%20206-08/documents/pdf_ingles/SnowHill_ingles.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_RAA": {
+   "id": "SNOWHILL_RAA",
+   "title": "Melting ice threatens the remains of a historic polar expedition (6 maio 2020, atualizado em 24 jan. 2025)",
+   "publisher": "Riksantikvarieämbetet (Swedish National Heritage Board)",
+   "url": "https://raa.se/?p=103764",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_KBA": {
+   "id": "SNOWHILL_KBA",
+   "title": "Snow Hill Island (Key Biodiversity Area 29412)",
+   "publisher": "Key Biodiversity Areas Partnership",
+   "url": "https://www.keybiodiversityareas.org/site/factsheet/29412",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_UKSI": {
+   "id": "SNOWHILL_UKSI",
+   "title": "The Antarctic Regulations 1995, Schedule 2, paragraph 38",
+   "publisher": "legislation.gov.uk (The National Archives, Reino Unido)",
+   "url": "https://legislation.gov.uk/uksi/1995/490/schedule/2/paragraph/38/made/data.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_BRIT": {
+   "id": "SNOWHILL_BRIT",
+   "title": "Otto Nordenskjöld",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/biography/Otto-Nordenskjold",
+   "checkedAt": "2026-11-15"
+  },
+  "SNOWHILL_FIB": {
+   "id": "SNOWHILL_FIB",
+   "title": "Nordenskjöld, Nils Otto Gustaf",
+   "publisher": "Dictionary of Falklands Biography",
+   "url": "https://www.falklandsbiographies.org/biographies/nordenskjold_nils",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://antarctica.dh.gu.se/snowhill.html",
+   "https://legistdf.gob.ar/lp/novedadesip/Com.%20Of.%202008/C.Of.%20N%20206-08/documents/pdf_ingles/SnowHill_ingles.pdf",
+   "https://raa.se/?p=103764",
+   "https://www.keybiodiversityareas.org/site/factsheet/29412",
+   "https://legislation.gov.uk/uksi/1995/490/schedule/2/paragraph/38/made/data.pdf",
+   "https://www.britannica.com/biography/Otto-Nordenskjold",
+   "https://www.falklandsbiographies.org/biographies/nordenskjold_nils"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

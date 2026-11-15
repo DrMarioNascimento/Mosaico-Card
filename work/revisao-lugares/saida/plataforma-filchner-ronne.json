@@ -1,0 +1,1094 @@
+{
+ "case": {
+  "id": "lug3-plataforma-filchner-ronne",
+  "placeId": "plataforma-filchner-ronne",
+  "title": "Plataforma de Gelo Filchner-Ronne",
+  "aliases": [
+   "Plataforma Filchner-Ronne",
+   "Filchner-Ronne",
+   "Ronne-Filchner",
+   "Filchner-Ronne Ice Shelf"
+  ],
+  "answerType": "plataforma de gelo",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Plataforma de gelo antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Plataforma de Gelo Ross"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Plataforma de Gelo Larsen C"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Plataforma de Gelo Amery"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Plataforma de Gelo Filchner-Ronne"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Plataforma de Gelo Brunt"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Plataforma de Gelo Fimbul"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Plataforma de Gelo Shackleton"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Plataforma de Gelo George VI"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Plataforma de Gelo Getz"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Plataforma de Gelo Sulzberger"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Plataforma de Gelo Wilkins"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Plataforma de Gelo Larsen B"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Plataforma de Gelo West"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Plataforma de Gelo Abbot"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Plataforma de Gelo Riiser-Larsen"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Plataforma de Gelo Ekström"
+     }
+    ],
+    "answerId": "C1-O4",
+    "answerText": "Plataforma de Gelo Filchner-Ronne",
+    "sources": [
+     "FR_BRIT_RONNE",
+     "FR_BRIT_FILCHNER"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Ilha que divide parcialmente a plataforma em dois setores",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Ilha Roosevelt"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Ilha Berkner"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Ilha Alexandre I"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Ilha Thurston"
+     }
+    ],
+    "answerId": "C2-O2",
+    "answerText": "Ilha Berkner",
+    "sources": [
+     "FR_BRIT_RONNE",
+     "FR_BRIT_FILCHNER"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Mar em cuja cabeceira fica a plataforma",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Mar de Ross"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Mar de Amundsen"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Mar de Bellingshausen"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Mar de Weddell"
+     }
+    ],
+    "answerId": "C3-O4",
+    "answerText": "Mar de Weddell",
+    "sources": [
+     "FR_BRIT_RONNE",
+     "FR_BRIT_FILCHNER",
+     "FR_ESA_A76"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Iceberg gigante que se soltou da plataforma em maio de 2021",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "A-68"
+     },
+     {
+      "id": "C4-O2",
+      "text": "B-15"
+     },
+     {
+      "id": "C4-O3",
+      "text": "A-76"
+     },
+     {
+      "id": "C4-O4",
+      "text": "D-28"
+     }
+    ],
+    "answerId": "C4-O3",
+    "answerText": "A-76",
+    "sources": [
+     "FR_ESA_A76"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "plataforma-filchner-ronne-viajante-P01",
+      "factKey": "plataforma-filchner-ronne-F01",
+      "text": "Este destino é um enorme lençol de gelo que flutua sobre o mar, preso à costa antártica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P02",
+      "factKey": "plataforma-filchner-ronne-F02",
+      "text": "É uma das duas maiores plataformas de gelo da Terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P03",
+      "factKey": "plataforma-filchner-ronne-F03",
+      "text": "Fica no fundo de um grande mar que recorta a costa antártica voltada para o Atlântico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P04",
+      "factKey": "plataforma-filchner-ronne-F04",
+      "text": "Uma ilha coberta de gelo divide a plataforma em duas partes, uma a oeste e outra a leste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P05",
+      "factKey": "plataforma-filchner-ronne-F05",
+      "text": "As duas partes têm nomes diferentes, mas costumam ser chamadas juntas por um nome duplo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P06",
+      "factKey": "plataforma-filchner-ronne-F06",
+      "text": "No começo, o nome de um só explorador valia para a plataforma inteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P07",
+      "factKey": "plataforma-filchner-ronne-F07",
+      "text": "A parte oeste homenageia uma mulher: a esposa de um explorador americano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P08",
+      "factKey": "plataforma-filchner-ronne-F08",
+      "text": "A parte leste homenageia um explorador alemão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P09",
+      "factKey": "plataforma-filchner-ronne-F09",
+      "text": "Na parte oeste, o gelo tem mais de 150 m de espessura; na leste, mais de 200 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P10",
+      "factKey": "plataforma-filchner-ronne-F10",
+      "text": "A parte oeste avança mais de 840 km para dentro do continente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P11",
+      "factKey": "plataforma-filchner-ronne-F11",
+      "text": "Boa parte desse gelo se formou por baixo, com cristais que nascem na água do mar muito fria.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P12",
+      "factKey": "plataforma-filchner-ronne-F12",
+      "text": "Três países já reivindicaram a área: Reino Unido, Chile e Argentina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P13",
+      "factKey": "plataforma-filchner-ronne-F13",
+      "text": "Argentina, Reino Unido e Estados Unidos já tiveram estações de pesquisa na borda norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P14",
+      "factKey": "plataforma-filchner-ronne-F14",
+      "text": "Em maio de 2021, soltou-se dela o que era então o maior iceberg do mundo.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P15",
+      "factKey": "plataforma-filchner-ronne-F15",
+      "text": "Esse iceberg tinha uns 170 km de comprimento por 25 km de largura.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P16",
+      "factKey": "plataforma-filchner-ronne-F16",
+      "text": "Era um pouco maior que a ilha espanhola de Maiorca.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P17",
+      "factKey": "plataforma-filchner-ronne-F17",
+      "text": "Cientistas britânicos notaram o iceberg primeiro; um centro americano confirmou com imagens de um satélite europeu.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P18",
+      "factKey": "plataforma-filchner-ronne-F18",
+      "text": "Em 1986, outro iceberg gigante saiu da parte leste e ficou mais de 30 anos encalhado no fundo do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BAS_A23A",
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P19",
+      "factKey": "plataforma-filchner-ronne-F19",
+      "text": "Esse outro iceberg pesa quase um trilhão de toneladas e tem o dobro do tamanho da Grande Londres.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BAS_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P20",
+      "factKey": "plataforma-filchner-ronne-F20",
+      "text": "Ele voltou a se mexer em 2020 e passou meses girando no mesmo ponto antes de seguir viagem, em dezembro de 2024.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P21",
+      "factKey": "plataforma-filchner-ronne-F21",
+      "text": "A corrente que contorna a Antártida deve levá-lo rumo à ilha da Geórgia do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BAS_A23A"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P22",
+      "factKey": "plataforma-filchner-ronne-F22",
+      "text": "Hoje, uma barreira natural no mar impede que água mais quente chegue por baixo da plataforma.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P23",
+      "factKey": "plataforma-filchner-ronne-F23",
+      "text": "Um estudo de 2012 previu que essa barreira pode sumir até o fim deste século.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P24",
+      "factKey": "plataforma-filchner-ronne-F24",
+      "text": "Como uma rolha, a plataforma segura o gelo que desce do continente atrás dela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-viajante-P25",
+      "factKey": "plataforma-filchner-ronne-F25",
+      "text": "A ilha de gelo que separa as duas metades se chama Berkner.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "plataforma-filchner-ronne-geografo-P01",
+      "factKey": "plataforma-filchner-ronne-F01",
+      "text": "Massa de gelo flutuante ligada ao continente, que freia as correntes de gelo vindas do interior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012",
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P02",
+      "factKey": "plataforma-filchner-ronne-F02",
+      "text": "Está entre as duas maiores plataformas de gelo do planeta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P03",
+      "factKey": "plataforma-filchner-ronne-F03",
+      "text": "Ocupa a cabeceira do Mar de Weddell, reentrância da costa atlântica da Antártida.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P04",
+      "factKey": "plataforma-filchner-ronne-F04",
+      "text": "Uma ilha a divide só em parte: os dois setores se tocam e formam uma massa de gelo quase contínua.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P05",
+      "factKey": "plataforma-filchner-ronne-F06",
+      "text": "O nome de um dos setores foi aplicado de início a toda a plataforma; o nome duplo veio depois.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_FILCHNER",
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P06",
+      "factKey": "plataforma-filchner-ronne-F10",
+      "text": "O setor ocidental passa de 150 m de espessura e se estende mais de 840 km para o interior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P07",
+      "factKey": "plataforma-filchner-ronne-F26",
+      "text": "O setor oriental, com mais de 200 m de espessura, avança terra adentro pelo lado leste da ilha que divide a plataforma.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P08",
+      "factKey": "plataforma-filchner-ronne-F11",
+      "text": "Radar e testemunhos de gelo indicam que boa parte da espessura vem de cristais acrescidos por baixo, a partir de água do mar resfriada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P09",
+      "factKey": "plataforma-filchner-ronne-F22",
+      "text": "Uma frente hidrográfica no sul do Weddell bloqueia hoje a entrada de água mais quente na cavidade sob o gelo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P10",
+      "factKey": "plataforma-filchner-ronne-F23",
+      "text": "Modelos publicados em 2012 projetaram o colapso dessa frente até o fim do século XXI, com forte aumento do derretimento basal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P11",
+      "factKey": "plataforma-filchner-ronne-F24",
+      "text": "Ao afinar por baixo, uma plataforma deixa acelerar as correntes de gelo que ela represa — o efeito “rolha”.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P12",
+      "factKey": "plataforma-filchner-ronne-F27",
+      "text": "O ar mais quente tende a afinar o gelo marinho hoje sólido do sul do Weddell, peça do mecanismo previsto.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P13",
+      "factKey": "plataforma-filchner-ronne-F28",
+      "text": "Se o derretimento extra fosse compensado pelo fluxo do interior, o estudo de 2012 estima +4,4 mm por ano no nível do mar global.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_AWI_2012"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P14",
+      "factKey": "plataforma-filchner-ronne-F12",
+      "text": "Foi reivindicada pelo Reino Unido (1908) e pela Argentina (1942); o setor oeste também pelo Chile (1940).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P15",
+      "factKey": "plataforma-filchner-ronne-F13",
+      "text": "A borda norte já recebeu estações de pesquisa de Argentina, Reino Unido e Estados Unidos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P16",
+      "factKey": "plataforma-filchner-ronne-F07",
+      "text": "O setor ocidental homenageia a esposa de um explorador norte-americano; o oriental, um explorador alemão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P17",
+      "factKey": "plataforma-filchner-ronne-F14",
+      "text": "Em 13 de maio de 2021, o setor oeste liberou um iceberg de ~4.320 km², o maior do mundo naquele momento.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P18",
+      "factKey": "plataforma-filchner-ronne-F15",
+      "text": "O bloco de 2021 media ~170 × 25 km; foi detectado pelo British Antarctic Survey e confirmado pelo US National Ice Center em imagens do Sentinel-1.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FR_ESA_A76"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P19",
+      "factKey": "plataforma-filchner-ronne-F18",
+      "text": "Em 1986, o setor leste liberou o A23a, que encalhou no fundo do Weddell por mais de 30 anos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "FR_BAS_A23A",
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P20",
+      "factKey": "plataforma-filchner-ronne-F20",
+      "text": "O A23a voltou a derivar em 2020, passou a ponta norte da Península Antártica em novembro de 2023 e ficou meses preso numa coluna de água giratória.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P21",
+      "factKey": "plataforma-filchner-ronne-F19",
+      "text": "Com quase um trilhão de toneladas, o A23a tinha ~3.900 km² em janeiro de 2025 e era então o maior iceberg do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BAS_A23A",
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P22",
+      "factKey": "plataforma-filchner-ronne-F21",
+      "text": "A Corrente Circumpolar Antártica tende a levar esse iceberg rumo à Geórgia do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BAS_A23A"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P23",
+      "factKey": "plataforma-filchner-ronne-F29",
+      "text": "Em 1º de dezembro de 2023, o navio polar RRS Sir David Attenborough interceptou o A23a para coletar água ao redor dele.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_CIRA_A23A"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P24",
+      "factKey": "plataforma-filchner-ronne-F05",
+      "text": "Os dois setores costumam ser tratados como uma só unidade, sob um nome composto que junta os dois homenageados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "plataforma-filchner-ronne-geografo-P25",
+      "factKey": "plataforma-filchner-ronne-F25",
+      "text": "A Ilha Berkner marca a divisão entre os setores oeste e leste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "FR_BRIT_RONNE",
+       "FR_BRIT_FILCHNER"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Uma das duas maiores plataformas de gelo da Terra, na cabeceira do Mar de Weddell, dividida em parte pela Ilha Berkner em um setor oeste (Ronne) e um leste (Filchner); dela se soltaram os icebergs gigantes A23a, em 1986, e A-76, em maio de 2021.",
+   "editorialNotes": [
+    "A área diverge na própria Britannica: ~422 mil km² para o conjunto (verbete Ronne) e ~260 mil km² no verbete Filchner; as pistas não usam área.",
+    "A taxa de derretimento basal também diverge: média líquida de ~290–300 mm/ano (Britannica) contra ~5 m/ano citados pelo AWI em 2012; as pistas não usam esses números.",
+    "Para não deixar o gabarito ambíguo, o C1 não inclui “Plataforma de Gelo Ronne” nem “Plataforma de Gelo Filchner”, que aparecem como alternativas separadas nos casos Ross e Larsen C. O BAS atribui o A23a ao setor Filchner; o CIRA, à plataforma Filchner-Ronne — informações compatíveis."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "FR_BRIT_RONNE": {
+   "id": "FR_BRIT_RONNE",
+   "title": "Ronne Ice Shelf",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Ronne-Ice-Shelf",
+   "checkedAt": "2026-11-15"
+  },
+  "FR_BRIT_FILCHNER": {
+   "id": "FR_BRIT_FILCHNER",
+   "title": "Filchner Ice Shelf",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Filchner-Ice-Shelf",
+   "checkedAt": "2026-11-15"
+  },
+  "FR_ESA_A76": {
+   "id": "FR_ESA_A76",
+   "title": "A-76: The world’s largest iceberg (maio 2021)",
+   "publisher": "European Space Agency (ESA)",
+   "url": "https://www.esa.int/ESA_Multimedia/Images/2021/05/A-76_The_world_s_largest_iceberg",
+   "checkedAt": "2026-11-15"
+  },
+  "FR_BAS_A23A": {
+   "id": "FR_BAS_A23A",
+   "title": "World’s largest iceberg A23a breaks free (13 dez. 2024)",
+   "publisher": "British Antarctic Survey (sala de imprensa)",
+   "url": "https://bas-newsroom.prgloo.com/news/worlds-largest-iceberg-a23a-breaks-free",
+   "checkedAt": "2026-11-15"
+  },
+  "FR_CIRA_A23A": {
+   "id": "FR_CIRA_A23A",
+   "title": "Iceberg A23a",
+   "publisher": "CIRA — Colorado State University (Satellite Library)",
+   "url": "https://satlib.cira.colostate.edu/event/iceberg-a23a",
+   "checkedAt": "2026-11-15"
+  },
+  "FR_AWI_2012": {
+   "id": "FR_AWI_2012",
+   "title": "Climate scientists discover new weak point of the Antarctic ice sheet (9 maio 2012)",
+   "publisher": "Alfred-Wegener-Institut (AWI)",
+   "url": "https://www.awi.de/en/about-us/service/press/single-view/climate-scientists-discover-new-weak-point-of-the-antarctic-ice-sheet.html",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/place/Ronne-Ice-Shelf",
+   "https://www.britannica.com/place/Filchner-Ice-Shelf",
+   "https://www.esa.int/ESA_Multimedia/Images/2021/05/A-76_The_world_s_largest_iceberg",
+   "https://bas-newsroom.prgloo.com/news/worlds-largest-iceberg-a23a-breaks-free",
+   "https://satlib.cira.colostate.edu/event/iceberg-a23a",
+   "https://www.awi.de/en/about-us/service/press/single-view/climate-scientists-discover-new-weak-point-of-the-antarctic-ice-sheet.html"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1097 @@
+{
+ "case": {
+  "id": "lug3-montes-transantarticos",
+  "placeId": "montes-transantarticos",
+  "title": "Montes Transantárticos",
+  "aliases": [
+   "Montanhas Transantárticas",
+   "Cordilheira Transantártica",
+   "Transantarctic Mountains"
+  ],
+  "answerType": "cordilheira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cordilheira antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Montanhas Ellsworth"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Montes Príncipe Charles"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Montanhas Sør Rondane"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Montanhas Gamburtsev"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Montes Transantárticos"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Montanhas Wohlthat"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Montanhas Mühlig-Hofmann"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Montanhas Tula"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Montanhas Grove"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Montanhas Belgica"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Montanhas Yamato"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Montanhas Rockefeller"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Montanhas Ford"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Montanhas Eternity"
+     }
+    ],
+    "answerId": "C1-O5",
+    "answerText": "Montes Transantárticos",
+    "sources": [
+     "TRANSANT_BRIT",
+     "TRANSANT_EARTHDATE",
+     "TRANSANT_AAJ"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Regiões do continente que a cordilheira separa",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Península Antártica e Terra de Ellsworth"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Terra de Enderby e Terra de Kemp"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Antártida Oriental e Antártida Ocidental"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Terra de Wilkes e Terra Adélia"
+     }
+    ],
+    "answerId": "C2-O3",
+    "answerText": "Antártida Oriental e Antártida Ocidental",
+    "sources": [
+     "TRANSANT_BRIT",
+     "TRANSANT_EARTHDATE",
+     "TRANSANT_AAJ"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ponto mais alto da cordilheira",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Monte Vinson"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Monte Kirkpatrick"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Monte Erebus"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Monte Sidley"
+     }
+    ],
+    "answerId": "C3-O2",
+    "answerText": "Monte Kirkpatrick",
+    "sources": [
+     "TRANSANT_BRIT",
+     "TRANSANT_EARTHDATE",
+     "TRANSANT_AAJ"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Geleira que corta a cordilheira e mais entrega gelo à Plataforma de Gelo Ross",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Geleira Lambert"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Geleira Thwaites"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Geleira Pine Island"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Geleira Byrd"
+     }
+    ],
+    "answerId": "C4-O4",
+    "answerText": "Geleira Byrd",
+    "sources": [
+     "TRANSANT_NASA_BYRD",
+     "TRANSANT_STEARNS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "montes-transantarticos-viajante-P01",
+      "factKey": "montes-transantarticos-F01",
+      "text": "Este destino é um conjunto enorme de montanhas, em boa parte coberto de gelo e de grandes geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P02",
+      "factKey": "montes-transantarticos-F02",
+      "text": "É uma cordilheira que corta o continente gelado de ponta a ponta.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P03",
+      "factKey": "montes-transantarticos-F03",
+      "text": "Tem mais de 3 mil km de comprimento: é uma das cordilheiras mais longas da Terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P04",
+      "factKey": "montes-transantarticos-F04",
+      "text": "Divide o continente em duas partes: uma a leste, maior, e outra a oeste, menor.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P05",
+      "factKey": "montes-transantarticos-F05",
+      "text": "Começa no norte da Terra de Vitória e vai até as margens do Mar de Weddell.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P06",
+      "factKey": "montes-transantarticos-F06",
+      "text": "O pico mais alto chega a 4.528 m.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P07",
+      "factKey": "montes-transantarticos-F07",
+      "text": "Esse pico mais alto fica de frente para a borda da enorme Plataforma de Gelo Ross.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P08",
+      "factKey": "montes-transantarticos-F08",
+      "text": "Em vários trechos aparecem grandes paredões de arenito amarelado, formado por antigos rios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_SWISSEDUC"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P09",
+      "factKey": "montes-transantarticos-F09",
+      "text": "Uma rocha magmática que forma penhascos atravessa esses arenitos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_SWISSEDUC",
+       "TRANSANT_USGS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P10",
+      "factKey": "montes-transantarticos-F10",
+      "text": "Debaixo dessas montanhas há muito carvão, talvez uma das maiores reservas do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P11",
+      "factKey": "montes-transantarticos-F11",
+      "text": "Ali já acharam fósseis de anfíbios e répteis primitivos de água doce.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P12",
+      "factKey": "montes-transantarticos-F12",
+      "text": "A história dessas montanhas está ligada à quebra de um antigo supercontinente do sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P13",
+      "factKey": "montes-transantarticos-F13",
+      "text": "Do alto do planalto, grandes geleiras descem por vales entre os picos, como rios de gelo.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_STEARNS",
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P14",
+      "factKey": "montes-transantarticos-F14",
+      "text": "Uma dessas geleiras corre num vale de uns 24 km de largura.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P15",
+      "factKey": "montes-transantarticos-F15",
+      "text": "Essa geleira entrega à Plataforma Ross mais gelo do que qualquer outra.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P16",
+      "factKey": "montes-transantarticos-F16",
+      "text": "O gelo dela avança uns 800 m por ano rumo à plataforma.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P17",
+      "factKey": "montes-transantarticos-F17",
+      "text": "De um lado fica a parte mais antiga do continente; do outro, terrenos geologicamente mais jovens.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P18",
+      "factKey": "montes-transantarticos-F18",
+      "text": "Nas encostas aparecem rochas de quase todas as eras da história da Terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P19",
+      "factKey": "montes-transantarticos-F19",
+      "text": "Reúne vários grupos de montanhas com nome próprio, como as Montanhas Rainha Maud e Shackleton.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P20",
+      "factKey": "montes-transantarticos-F20",
+      "text": "As Montanhas Pensacola, Horlick e Admiralty também fazem parte do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P21",
+      "factKey": "montes-transantarticos-F21",
+      "text": "Os Estados Unidos já mantiveram estações de pesquisa ao pé dessas montanhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P22",
+      "factKey": "montes-transantarticos-F22",
+      "text": "Montanhistas citam outro gigante da cordilheira, o Monte Markham, com 4.350 m.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P23",
+      "factKey": "montes-transantarticos-F23",
+      "text": "Ao contrário do Himalaia, ela não nasceu do choque entre placas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P24",
+      "factKey": "montes-transantarticos-F24",
+      "text": "Uma das geleiras que a atravessam forma uma corrente de gelo de uns 160 km, com fundo de rocha.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-viajante-P25",
+      "factKey": "montes-transantarticos-F25",
+      "text": "O pico mais alto da cordilheira se chama Kirkpatrick.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "montes-transantarticos-geografo-P01",
+      "factKey": "montes-transantarticos-F01",
+      "text": "Sistema montanhoso em grande parte recoberto por manto de gelo e por uma rede de grandes geleiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P02",
+      "factKey": "montes-transantarticos-F03",
+      "text": "Está entre os cinturões de montanhas mais longos da Terra, com mais de 3.000 km de extensão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_BRIT",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P03",
+      "factKey": "montes-transantarticos-F04",
+      "text": "Subdivide o continente numa região oriental, maior, e numa ocidental, menor.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P04",
+      "factKey": "montes-transantarticos-F17",
+      "text": "Marca o limite entre o antigo núcleo cratônico do leste e os sistemas tectônicos mais jovens do oeste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P05",
+      "factKey": "montes-transantarticos-F05",
+      "text": "Estende-se da Costa Oates, no norte da Terra de Vitória, até a Terra de Edith Ronne, no setor do Mar de Weddell.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_AAJ",
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P06",
+      "factKey": "montes-transantarticos-F23",
+      "text": "É o maior cinturão montanhoso não compressional do mundo: não resulta do encurtamento da crosta por colisão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P07",
+      "factKey": "montes-transantarticos-F26",
+      "text": "Topografia subglacial e gravimetria indicam soerguimento flexural da borda da Antártida Oriental, com espessura elástica de ~85 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P08",
+      "factKey": "montes-transantarticos-F27",
+      "text": "Antes do soerguimento, essa borda do leste estaria a cerca de 700 m de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P09",
+      "factKey": "montes-transantarticos-F12",
+      "text": "O relevo se liga ao rifte entre leste e oeste e à fragmentação do Gondwana; a idade do soerguimento varia entre os estudos.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_USGS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P10",
+      "factKey": "montes-transantarticos-F18",
+      "text": "Os afloramentos expõem rochas do Pré-Cambriano ao Cenozoico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P11",
+      "factKey": "montes-transantarticos-F08",
+      "text": "O Supergrupo Beacon aflora em falésias de arenito amarelado, depositado sobretudo por rios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_SWISSEDUC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P12",
+      "factKey": "montes-transantarticos-F09",
+      "text": "O dolerito Ferrar, formador de penhascos, intrude os estratos Beacon, como perto da Geleira Shackleton.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_SWISSEDUC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P13",
+      "factKey": "montes-transantarticos-F28",
+      "text": "Os basaltos de inundação Ferrar continuam por pelo menos 100 km para oeste, por baixo do gelo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P14",
+      "factKey": "montes-transantarticos-F29",
+      "text": "Os sedimentos Beacon afinam gradualmente sob o gelo, num perfil parecido com o de bacias de antepaís.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_USGS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P15",
+      "factKey": "montes-transantarticos-F10",
+      "text": "Abriga extensos depósitos de carvão, estimados entre as maiores reservas do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P16",
+      "factKey": "montes-transantarticos-F11",
+      "text": "O registro fóssil inclui anfíbios e répteis primitivos de água doce.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P17",
+      "factKey": "montes-transantarticos-F13",
+      "text": "Geleiras de descarga que cruzam a cordilheira são vias importantes de drenagem do manto de gelo da Antártida Oriental.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_STEARNS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P18",
+      "factKey": "montes-transantarticos-F30",
+      "text": "Das quatro grandes geleiras de descarga estudadas em 2011 — David, Mulock, Byrd e Nimrod —, só a David não despeja gelo na Plataforma Ross.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_STEARNS"
+      ],
+      "clueType": "agua",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P19",
+      "factKey": "montes-transantarticos-F24",
+      "text": "O relevo íngreme canaliza o manto em rios de gelo rápidos: uma corrente de ~160 km, com leito rochoso, num vale de ~24 km de largura.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P20",
+      "factKey": "montes-transantarticos-F15",
+      "text": "Essa corrente é a que mais fornece gelo à Plataforma Ross, deslocando-se cerca de 800 m por ano.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "TRANSANT_NASA_BYRD"
+      ],
+      "clueType": "agua",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P21",
+      "factKey": "montes-transantarticos-F19",
+      "text": "Entre as subdivisões estão as montanhas Rainha Maud, Shackleton, Pensacola, Horlick, Rainha Alexandra, Britannia, Príncipe Alberto, Dufek e Admiralty.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P22",
+      "factKey": "montes-transantarticos-F07",
+      "text": "O ponto culminante, a 4.528 m, situa-se junto à borda da Plataforma de Gelo Ross.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P23",
+      "factKey": "montes-transantarticos-F22",
+      "text": "Outro grande cume, o Monte Markham (4.350 m), fica na cordilheira Rainha Elizabeth.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P24",
+      "factKey": "montes-transantarticos-F21",
+      "text": "Estações de pesquisa dos Estados Unidos já funcionaram ao longo de seu sopé.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRANSANT_BRIT"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "montes-transantarticos-geografo-P25",
+      "factKey": "montes-transantarticos-F25",
+      "text": "O cume mais alto do sistema é o Monte Kirkpatrick.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "TRANSANT_BRIT",
+       "TRANSANT_EARTHDATE",
+       "TRANSANT_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cordilheira de mais de 3 mil km que atravessa a Antártida da Terra de Vitória ao Mar de Weddell, separando a Antártida Oriental da Ocidental, com ponto culminante no Monte Kirkpatrick (4.528 m) e cortada por geleiras de descarga como a Byrd, que alimentam a Plataforma de Gelo Ross.",
+   "editorialNotes": [
+    "O comprimento diverge: mais de 3.200 km (Britannica; ~3.200 km no American Alpine Journal) e mais de 3.500 km (EarthDate); as pistas dizem só “mais de 3 mil km”.",
+    "A Britannica situa o Monte Kirkpatrick nas Montanhas Rainha Maud; EarthDate e o American Alpine Journal, na cordilheira Rainha Alexandra — as pistas não dizem em qual subcordilheira ele fica.",
+    "A idade do soerguimento diverge: EarthDate liga o início ao fim do Cretáceo (rifte da Antártida Ocidental); ten Brink et al. (1997) o associam a um evento do Eoceno. Para não repetir os Vales Secos de McMurdo nem a Geleira Beardmore, vizinhos, as pistas evitam vales secos e a rota polar."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "TRANSANT_BRIT": {
+   "id": "TRANSANT_BRIT",
+   "title": "Transantarctic Mountains",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Transantarctic-Mountains",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_EARTHDATE": {
+   "id": "TRANSANT_EARTHDATE",
+   "title": "Extreme Antarctica",
+   "publisher": "EarthDate (Switch Energy Alliance)",
+   "url": "https://www.earthdate.org/episodes/extreme-antarctica",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_USGS": {
+   "id": "TRANSANT_USGS",
+   "title": "Uplift of the Transantarctic Mountains and the bedrock beneath the East Antarctic ice sheet (ten Brink et al., Journal of Geophysical Research, 1997)",
+   "publisher": "U.S. Geological Survey (Publications Warehouse)",
+   "url": "https://www.usgs.gov/publications/uplift-transantarctic-mountains-and-bedrock-beneath-east-antarctic-ice-sheet",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_AAJ": {
+   "id": "TRANSANT_AAJ",
+   "title": "Mountaineering in Antarctica (American Alpine Journal, 1985)",
+   "publisher": "American Alpine Club",
+   "url": "https://publications.americanalpineclub.org/articles/12198514300/Mountaineering-in-Antarctica",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_SWISSEDUC": {
+   "id": "TRANSANT_SWISSEDUC",
+   "title": "Geology of Antarctica — The heart of Gondwana (J. Alean e M. Hambrey)",
+   "publisher": "Glaciers online (SwissEduc)",
+   "url": "https://swisseduc.ch/glaciers/antarctic/geology/4_heart_of_gondwana/index-en.html",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_STEARNS": {
+   "id": "TRANSANT_STEARNS",
+   "title": "Dynamics and mass balance of four large East Antarctic outlet glaciers (L. A. Stearns, Annals of Glaciology 52(59), 2011)",
+   "publisher": "Cambridge University Press / International Glaciological Society",
+   "url": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/D13DEABD95E797ADBE7EBD47BDF5173B/S0260305500251069a.pdf/dynamics-and-mass-balance-of-four-large-east-antarctic-outlet-glaciers.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "TRANSANT_NASA_BYRD": {
+   "id": "TRANSANT_NASA_BYRD",
+   "title": "Byrd Glacier, Antarctica (1 abr. 2007)",
+   "publisher": "NASA Earth Observatory",
+   "url": "https://science.nasa.gov/earth/earth-observatory/byrd-glacier-antarctica-7544/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/place/Transantarctic-Mountains",
+   "https://www.earthdate.org/episodes/extreme-antarctica",
+   "https://www.usgs.gov/publications/uplift-transantarctic-mountains-and-bedrock-beneath-east-antarctic-ice-sheet",
+   "https://publications.americanalpineclub.org/articles/12198514300/Mountaineering-in-Antarctica",
+   "https://swisseduc.ch/glaciers/antarctic/geology/4_heart_of_gondwana/index-en.html",
+   "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/D13DEABD95E797ADBE7EBD47BDF5173B/S0260305500251069a.pdf/dynamics-and-mass-balance-of-four-large-east-antarctic-outlet-glaciers.pdf",
+   "https://science.nasa.gov/earth/earth-observatory/byrd-glacier-antarctica-7544/"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

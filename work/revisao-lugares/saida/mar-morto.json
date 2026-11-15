@@ -1,0 +1,1070 @@
+{
+  "case": {
+    "id": "lug3-mar-morto",
+    "placeId": "mar-morto",
+    "title": "Mar Morto",
+    "aliases": [],
+    "answerType": "lago salgado",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "JO",
+        "IL",
+        "PS"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Lago ou mar interior",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Mar Morto"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Mar Cáspio"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Mar de Aral"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Lago Baikal"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Mar da Galileia"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Lago Van"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Lago Urmia"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Lago Balkhash"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Lago Issyk-Kul"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Lago Qinghai"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Lago Tonlé Sap"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Lago Toba"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Lago Inle"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Lago Tuz"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Mar Morto",
+        "sources": [
+          "MARMORTO_BRIT"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que fornece quase toda a água",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Jordão"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Eufrates"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Amu Dária"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Orontes"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Jordão",
+        "sources": [
+          "MARMORTO_BRIT",
+          "MARMORTO_NASA_1999"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estrutura geológica que abriga o lago",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Fossa tectônica entre falhas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Cratera de vulcão extinto"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Vale escavado por geleira"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Laguna costeira fechada por restinga"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Fossa tectônica entre falhas",
+        "sources": [
+          "MARMORTO_BRIT",
+          "MARMORTO_NASA_1999"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Península que separa as bacias norte e sul",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Al-Lisan"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Absheron"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Sinai"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Musandam"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Al-Lisan",
+        "sources": [
+          "MARMORTO_BRIT",
+          "MARMORTO_NASA_LANDSAT"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "mar-morto-viajante-P01",
+            "factKey": "mar-morto-F01",
+            "text": "É um grande corpo de água salgada cercado de terra, no sudoeste da Ásia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P02",
+            "factKey": "mar-morto-F02",
+            "text": "A região é quente e seca, com uma paisagem de deserto em volta da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999",
+              "MARMORTO_UNESCO_MASSADA"
+            ],
+            "clueType": "clima",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P03",
+            "factKey": "mar-morto-F03",
+            "text": "Num dia quente de verão, o nível da água pode baixar 2 a 3 cm só pela evaporação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999",
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "clima",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P04",
+            "factKey": "mar-morto-F04",
+            "text": "A água é tão salgada que quase nenhum peixe ou planta consegue viver nela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT",
+              "MARMORTO_JTB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P05",
+            "factKey": "mar-morto-F05",
+            "text": "Ninguém afunda ali: a água, carregada de sais, faz qualquer um boiar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P06",
+            "factKey": "mar-morto-F06",
+            "text": "A margem leste fica na Jordânia; do lado oeste, as margens são de Israel e da Cisjordânia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P07",
+            "factKey": "mar-morto-F07",
+            "text": "Um rio que chega pelo norte fornece quase toda a água.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P08",
+            "factKey": "mar-morto-F08",
+            "text": "Esse rio é o Jordão, e parte da sua água é desviada para a agricultura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999",
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P09",
+            "factKey": "mar-morto-F09",
+            "text": "Não há saída para o oceano: a água que chega só vai embora evaporando.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT",
+              "MARMORTO_JTB",
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P10",
+            "factKey": "mar-morto-F10",
+            "text": "Em 1896, a água atingiu seu nível mais alto já registrado: 389 m abaixo do nível do mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P11",
+            "factKey": "mar-morto-F11",
+            "text": "Desde os anos 1960, o nível vem caindo; em meados dos anos 2010, baixava cerca de 1 m por ano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P12",
+            "factKey": "mar-morto-F12",
+            "text": "Com a queda do nível, surgiram várias centenas de buracos no chão, os sumidouros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P13",
+            "factKey": "mar-morto-F13",
+            "text": "Uma península perto do meio funciona como ponte de terra e hoje separa duas partes do lago.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT",
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P14",
+            "factKey": "mar-morto-F14",
+            "text": "A parte sul virou um conjunto de tanques de evaporação para extrair sais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_BRIT",
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P15",
+            "factKey": "mar-morto-F15",
+            "text": "Desses tanques se extrai potassa, um sal de potássio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999",
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P16",
+            "factKey": "mar-morto-F16",
+            "text": "Os antigos egípcios já usavam seus sais na mumificação e como fertilizante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P17",
+            "factKey": "mar-morto-F17",
+            "text": "Água e lama ricas em minerais atraem gente em busca de tratamentos há pelo menos dois mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P18",
+            "factKey": "mar-morto-F18",
+            "text": "Na margem jordaniana há hotéis de luxo e o maior centro de convenções da Jordânia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P19",
+            "factKey": "mar-morto-F19",
+            "text": "Os penhascos íngremes do monte Sedom, o antigo monte Sodoma, se erguem na margem sudoeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P20",
+            "factKey": "mar-morto-F20",
+            "text": "Numa fortaleza natural do deserto, com vista para a água, o rei Herodes, o Grande, construiu um conjunto de palácios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_UNESCO_MASSADA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P21",
+            "factKey": "mar-morto-F21",
+            "text": "Essa fortaleza, Massada, foi o último reduto de patriotas judeus diante do exército romano, em 73 d.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_UNESCO_MASSADA"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P22",
+            "factKey": "mar-morto-F22",
+            "text": "Entre 1947 e 1956, 972 textos antigos foram encontrados em cavernas perto do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P23",
+            "factKey": "mar-morto-F23",
+            "text": "As fontes termais de Hammamat Zarqa Ma’in, ali perto, são ligadas pela tradição a banhos de Herodes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P24",
+            "factKey": "mar-morto-F24",
+            "text": "Sua superfície fica a mais de 400 m abaixo do nível do mar: é o ponto mais baixo da superfície da Terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB",
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-viajante-P25",
+            "factKey": "mar-morto-F25",
+            "text": "Em árabe, seu nome quer dizer “Mar da Morte”; em hebraico, “Mar de Sal”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "mar-morto-geografo-P01",
+            "factKey": "mar-morto-F09",
+            "text": "Lago de bacia fechada em clima árido: recebe rios, não tem saída e perde água só por evaporação, o que concentra os sais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999",
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P02",
+            "factKey": "mar-morto-F26",
+            "text": "Ocupa uma depressão alongada do sudoeste da Ásia, num vale de rifte onde as placas que carregam a África e a Ásia se afastam.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P03",
+            "factKey": "mar-morto-F27",
+            "text": "O lago está num graben, um bloco da crosta rebaixado entre falhas transformantes.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P04",
+            "factKey": "mar-morto-F28",
+            "text": "Essa fronteira de placas vai do centro de expansão do mar Vermelho até a zona de convergência nos montes Tauro, no sul da Turquia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P05",
+            "factKey": "mar-morto-F29",
+            "text": "No Mioceno, a colisão das placas Arábica e Eurasiática ergueu os planaltos e provocou as falhas que rebaixaram a fossa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P06",
+            "factKey": "mar-morto-F30",
+            "text": "No Pleistoceno, o lago chegou a uns 200 m acima do nível atual e se estendeu por cerca de 320 km de norte a sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P07",
+            "factKey": "mar-morto-F31",
+            "text": "Nessa época, um terreno cerca de 30 m mais alto no Wadi Araba impediu que o lago transbordasse para o golfo de Aqaba.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P08",
+            "factKey": "mar-morto-F32",
+            "text": "Os sedimentos acumulados no vale têm de 1,6 a 6,4 km de espessura.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P09",
+            "factKey": "mar-morto-F33",
+            "text": "Antes do recuo recente, media cerca de 80 km de comprimento e até 18 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P10",
+            "factKey": "mar-morto-F08",
+            "text": "Rios, sobretudo o Jordão, drenam para a bacia, mas parte dessa água é desviada para a agricultura de Israel.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P11",
+            "factKey": "mar-morto-F34",
+            "text": "A península de Al-Lisan dividia o lago numa bacia norte, com três quartos da área e até 400 m de profundidade, e numa bacia sul com menos de 3 m de profundidade média.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P12",
+            "factKey": "mar-morto-F13",
+            "text": "Com a descida do nível, Al-Lisan avançou para leste e acabou isolando as duas bacias.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P13",
+            "factKey": "mar-morto-F11",
+            "text": "Desde os anos 1960, Israel e Jordânia desviaram grande parte do rio Jordão e ampliaram o uso comercial da água do lago, o que derrubou o nível.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P14",
+            "factKey": "mar-morto-F35",
+            "text": "Sem uma nova fonte de água, a tendência é que o lago continue recuando até secar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P15",
+            "factKey": "mar-morto-F12",
+            "text": "A água subterrânea dissolveu camadas de sal do subsolo e abriu várias centenas de dolinas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P16",
+            "factKey": "mar-morto-F14",
+            "text": "A bacia sul, quase seca, foi convertida em tanques de evaporação para extrair potassa e outros sais.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_BRIT",
+              "MARMORTO_NASA_1999"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P17",
+            "factKey": "mar-morto-F36",
+            "text": "Imagens Landsat de 1972, 1989 e 2011 mostram a expansão dos tanques de evaporação ao longo de 39 anos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P18",
+            "factKey": "mar-morto-F05",
+            "text": "A evaporação intensa deixa uma água densa de sais e minerais, cujo empuxo impede que os banhistas afundem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P19",
+            "factKey": "mar-morto-F37",
+            "text": "Os sais extraídos têm hoje usos como tratamento de água, degelo de estradas e fabricação de PVC.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_NASA_LANDSAT"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P20",
+            "factKey": "mar-morto-F38",
+            "text": "A metade norte da margem ocidental fica na Cisjordânia, sob ocupação israelense desde a guerra de 1967.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P21",
+            "factKey": "mar-morto-F39",
+            "text": "Fontes termominerais vizinhas reforçam o valor terapêutico atribuído à água e à lama, base de um turismo de bem-estar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P22",
+            "factKey": "mar-morto-F20",
+            "text": "No deserto da Judeia, Herodes, o Grande (37–4 a.C.), ergueu numa fortaleza natural um complexo de palácios voltado para o lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_UNESCO_MASSADA"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P23",
+            "factKey": "mar-morto-F40",
+            "text": "Os resorts da margem jordaniana ficam a cerca de 15 km do Wadi Mujib.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_JTB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P24",
+            "factKey": "mar-morto-F24",
+            "text": "É o corpo de água mais baixo da superfície terrestre: cerca de 400 m abaixo do mar em meados do século XX e 430 m em meados dos anos 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mar-morto-geografo-P25",
+            "factKey": "mar-morto-F25",
+            "text": "Al-Bahr al-Mayyit, em árabe, e Yam HaMelah, em hebraico, são os nomes locais do lago.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MARMORTO_BRIT"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Lago salgado sem saída no vale de rifte entre a Jordânia, Israel e a Cisjordânia, alimentado quase só pelo rio Jordão: é o corpo de água mais baixo da superfície da Terra (cerca de 430 m abaixo do nível do mar em meados dos anos 2010), dividido pela península de Al-Lisan e em recuo desde os anos 1960.",
+      "editorialNotes": [
+        "Área: cerca de 1.020 km² na Britannica (valor anterior ao recuo) e 1.035 km² na NASA (2005); como o lago encolhe e as fontes divergem, a área ficou fora das pistas.",
+        "Nível: “quase 400 m” (NASA, 2005), “mais de 400 m” (Jordan Tourism Board) e cerca de 430 m em meados dos anos 2010 (Britannica); as pistas usam essas formulações com data, sem um valor atual.",
+        "Geografia: countries = JO, IL e PS, porque a Britannica situa a metade norte da margem ocidental na Cisjordânia. Os benefícios de saúde citados pelo turismo jordaniano não entraram como fato médico."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: Britannica (verbete do Mar Morto), NASA Earth Observatory (duas matérias), Jordan Tourism Board e UNESCO (Massada); C1 com 14 lagos e mares interiores da Ásia."
+    }
+  },
+  "sources": {
+    "MARMORTO_BRIT": {
+      "id": "MARMORTO_BRIT",
+      "title": "Dead Sea",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Dead-Sea",
+      "checkedAt": "2026-11-15"
+    },
+    "MARMORTO_NASA_1999": {
+      "id": "MARMORTO_NASA_1999",
+      "title": "Dead Sea (Landsat 7, 1999)",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/dead-sea-6136/",
+      "checkedAt": "2026-11-15"
+    },
+    "MARMORTO_NASA_LANDSAT": {
+      "id": "MARMORTO_NASA_LANDSAT",
+      "title": "The Dead Sea (Landsat, 1972–2011)",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-dead-sea-77592",
+      "checkedAt": "2026-11-15"
+    },
+    "MARMORTO_JTB": {
+      "id": "MARMORTO_JTB",
+      "title": "A not so dead miracle — Dead Sea",
+      "publisher": "Jordan Tourism Board (Business Events)",
+      "url": "https://businessevents.visitjordan.com/en/page/17/DeadSea",
+      "checkedAt": "2026-11-15"
+    },
+    "MARMORTO_UNESCO_MASSADA": {
+      "id": "MARMORTO_UNESCO_MASSADA",
+      "title": "Masada (UNESCO/NHK)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/124453",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.britannica.com/place/Dead-Sea",
+      "https://www.britannica.com/print/article/154254",
+      "https://science.nasa.gov/earth/earth-observatory/dead-sea-6136/",
+      "https://science.nasa.gov/earth/earth-observatory/the-dead-sea-77592",
+      "https://businessevents.visitjordan.com/en/page/17/DeadSea",
+      "https://whc.unesco.org/en/documents/124453"
+    ],
+    "alteracoes": [
+      "criado do zero",
+      "Não abriram (permissão negada ou erro): britannica.com/summary/Dead-Sea, international.visitjordan.com/wheretogo/the-dead-sea e whc.unesco.org/en/list/1040/.htm; os textos dos manuscritos e de Massada foram apoiados na NASA e no documento UNESCO/NHK."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

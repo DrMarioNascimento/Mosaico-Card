@@ -1,0 +1,1099 @@
+{
+  "case": {
+    "id": "lug3-mausoleu-qin",
+    "placeId": "mausoleu-qin",
+    "title": "Mausoléu do Primeiro Imperador Qin",
+    "aliases": [
+      "Exército de Terracota",
+      "Guerreiros de Terracota",
+      "Mausoléu de Qin Shi Huang"
+    ],
+    "answerType": "mausoléu imperial",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "CN"
+      ],
+      "continents": [
+        "asia"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Monumento imperial ou funerário da Ásia",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Mausoléu do Primeiro Imperador Qin"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Grande Muralha da China"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Cidade Proibida"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Túmulos Ming (Treze Túmulos)"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Mausoléu Qianling"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Túmulos Imperiais Qing do Leste"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Mausoléu de Gengis Khan"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Túmulo de Humayun"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Taj Mahal"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Túmulos Kofun de Mozu-Furuichi"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Túmulos Reais da Dinastia Joseon"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Grutas de Longmen"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Angkor"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Borobudur"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Mausoléu do Primeiro Imperador Qin",
+        "sources": [
+          "QIN_UNESCO",
+          "QIN_EB",
+          "QIN_WIKI_EXERCITO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ano em que agricultores acharam as primeiras figuras ao cavar um poço",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "1974"
+          },
+          {
+            "id": "C2-O2",
+            "text": "1928"
+          },
+          {
+            "id": "C2-O3",
+            "text": "1956"
+          },
+          {
+            "id": "C2-O4",
+            "text": "1987"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "1974",
+        "sources": [
+          "QIN_WIKI_EXERCITO",
+          "QIN_WIKI_MAUSOLEU",
+          "QIN_EB",
+          "QIN_SMARTHISTORY"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Montanha a cujo pé fica o mausoléu",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Monte Li (Lishan)"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Monte Tai"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Monte Hua"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Monte Emei"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Monte Li (Lishan)",
+        "sources": [
+          "QIN_UNESCO",
+          "QIN_WIKI_EXERCITO",
+          "QIN_SMARTHISTORY"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Capital cujo plano urbano o traçado do mausoléu reproduz",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Xianyang"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Luoyang"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Kaifeng"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Nanquim"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Xianyang",
+        "sources": [
+          "QIN_UNESCO",
+          "QIN_WIKI_MAUSOLEU"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "mausoleu-qin-viajante-P01",
+            "factKey": "mausoleu-qin-F01",
+            "text": "É o túmulo de um antigo governante, coberto por um grande monte de terra ao pé de uma montanha, no Leste Asiático.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P02",
+            "factKey": "mausoleu-qin-F02",
+            "text": "O monte funerário parece um morro comum, coberto de grama e árvores, e se mistura às colinas em volta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P03",
+            "factKey": "mausoleu-qin-F03",
+            "text": "Fica na província de Shaanxi, na China, a uns 35 km a nordeste de Xi'an.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P04",
+            "factKey": "mausoleu-qin-F04",
+            "text": "O túmulo está no sopé norte de uma montanha, o monte Li.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P05",
+            "factKey": "mausoleu-qin-F05",
+            "text": "A obra começou em 246 a.C., quando o dono do túmulo tinha só 13 anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO",
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P06",
+            "factKey": "mausoleu-qin-F06",
+            "text": "Esse rei unificou a China em 221 a.C. e se tornou o primeiro imperador do país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P07",
+            "factKey": "mausoleu-qin-F07",
+            "text": "Segundo um historiador antigo, 700 mil trabalhadores foram mandados para a obra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P08",
+            "factKey": "mausoleu-qin-F08",
+            "text": "O mesmo historiador contou que, lá dentro, rios e mares eram imitados com mercúrio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P09",
+            "factKey": "mausoleu-qin-F09",
+            "text": "Testes no solo acharam muito mercúrio, o que dá alguma força a essa história.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P10",
+            "factKey": "mausoleu-qin-F10",
+            "text": "A câmara do imperador nunca foi aberta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P11",
+            "factKey": "mausoleu-qin-F11",
+            "text": "Em março de 1974, agricultores que cavavam um poço acharam pedaços de estátuas e pontas de flecha de bronze.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_WIKI_EXERCITO",
+              "QIN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P12",
+            "factKey": "mausoleu-qin-F12",
+            "text": "Um dos agricultores da descoberta, Yang Zhifa, cavava com os cinco irmãos e um vizinho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P13",
+            "factKey": "mausoleu-qin-F13",
+            "text": "As estátuas estavam enterradas em fossos a leste do monte funerário.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P14",
+            "factKey": "mausoleu-qin-F14",
+            "text": "Os soldados estão virados para o leste, de onde vinham os antigos inimigos do imperador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P15",
+            "factKey": "mausoleu-qin-F15",
+            "text": "São milhares de soldados e cavalos de barro cozido, em tamanho natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P16",
+            "factKey": "mausoleu-qin-F16",
+            "text": "Cada soldado tem um rosto diferente, embora os corpos fossem montados com partes queimadas separadamente.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P17",
+            "factKey": "mausoleu-qin-F17",
+            "text": "Altura, uniforme e penteado mudam conforme a patente de cada soldado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P18",
+            "factKey": "mausoleu-qin-F18",
+            "text": "As estátuas eram pintadas com cores fortes, mas a tinta descascou logo depois da escavação, no ar seco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P19",
+            "factKey": "mausoleu-qin-F19",
+            "text": "Os cavalos eram pintados de branco, com a língua vermelha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P20",
+            "factKey": "mausoleu-qin-F20",
+            "text": "Também apareceram carruagens de bronze com metade do tamanho real, uma delas enfeitada com ouro e prata.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_SMARTHISTORY",
+              "QIN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P21",
+            "factKey": "mausoleu-qin-F21",
+            "text": "Em outros fossos surgiram acrobatas, funcionários e até grous e patos de bronze.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P22",
+            "factKey": "mausoleu-qin-F22",
+            "text": "O maior fosso tem cerca de 230 m de comprimento e 62 m de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P23",
+            "factKey": "mausoleu-qin-F23",
+            "text": "Os fossos ganharam cobertura a partir de 1979 e funcionam como museu no próprio lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P24",
+            "factKey": "mausoleu-qin-F24",
+            "text": "É Patrimônio Mundial desde 1987, com seus fossos de soldados e cavalos em tamanho natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO",
+              "QIN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-viajante-P25",
+            "factKey": "mausoleu-qin-F25",
+            "text": "É o túmulo de Qin Shi Huang, guardado por milhares de soldados de barro em tamanho natural.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "mausoleu-qin-geografo-P01",
+            "factKey": "mausoleu-qin-F26",
+            "text": "Conjunto funerário imperial do Leste Asiático, com mais de 600 sítios espalhados por cerca de 56 km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P02",
+            "factKey": "mausoleu-qin-F27",
+            "text": "O traçado imita uma capital: o palácio fica cercado por muralhas, que por sua vez são cercadas por outras muralhas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P03",
+            "factKey": "mausoleu-qin-F04",
+            "text": "Fica no sopé norte do monte Li, no distrito de Lintong, na província de Shaanxi.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P04",
+            "factKey": "mausoleu-qin-F28",
+            "text": "Segundo o geógrafo antigo Li Daoyuan, o lugar foi escolhido pela geologia, famosa pelas minas de jade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P05",
+            "factKey": "mausoleu-qin-F29",
+            "text": "O recinto é retangular, com dupla muralha orientada no sentido norte-sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P06",
+            "factKey": "mausoleu-qin-F30",
+            "text": "A cidade interna tem 2,5 km de perímetro e a externa, 6,3 km; o túmulo fica no sudoeste da interna, voltado para o leste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P07",
+            "factKey": "mausoleu-qin-F31",
+            "text": "O conjunto reproduz o plano urbano de Xianyang, a capital da dinastia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P08",
+            "factKey": "mausoleu-qin-F32",
+            "text": "O monte funerário tem a forma de uma pirâmide truncada de terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P09",
+            "factKey": "mausoleu-qin-F05",
+            "text": "A obra começou em 246 a.C. e ganhou escala total depois da unificação de 221 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_UNESCO"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P10",
+            "factKey": "mausoleu-qin-F06",
+            "text": "Pelos critérios da UNESCO, o mausoléu está ligado à primeira unificação do país por um Estado centralizado sob um monarca absoluto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P11",
+            "factKey": "mausoleu-qin-F33",
+            "text": "O lençol freático é estimado em cerca de 30 m, e a profundidade do palácio subterrâneo, entre 20 e 50 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P12",
+            "factKey": "mausoleu-qin-F08",
+            "text": "O relato de Sima Qian fala em mercúrio imitando rios e mares, num teto com constelações e em bestas armadas contra invasores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_SMARTHISTORY"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P13",
+            "factKey": "mausoleu-qin-F09",
+            "text": "Amostras de solo mostraram concentrações altas de mercúrio, embora parte dos estudiosos atribua isso à poluição industrial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P14",
+            "factKey": "mausoleu-qin-F10",
+            "text": "A abertura da câmara é adiada: faltam técnicas para conservar um sítio desse porte, e a pintura das figuras já escavadas se perdeu ao contato com o ar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P15",
+            "factKey": "mausoleu-qin-F11",
+            "text": "Os fossos foram achados em sequência: o primeiro escavado a partir de maio de 1974, o segundo em maio de 1976 e o terceiro em julho de 1976.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P16",
+            "factKey": "mausoleu-qin-F34",
+            "text": "Os quatro fossos principais têm cerca de 7 m de profundidade; o quarto está vazio, talvez inacabado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_EB"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P17",
+            "factKey": "mausoleu-qin-F35",
+            "text": "A formação segue as regras militares da época: arqueiros e besteiros na vanguarda, infantaria e carros no meio e uma retaguarda com armadura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P18",
+            "factKey": "mausoleu-qin-F36",
+            "text": "O segundo fosso reúne cavalaria, infantaria e carros de guerra; o terceiro, com 68 figuras, seria o posto de comando.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P19",
+            "factKey": "mausoleu-qin-F37",
+            "text": "Foram recuperadas mais de 40 mil peças de armas de bronze, sobretudo pontas de flecha; algumas espadas trazem datas de 245 a 228 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P20",
+            "factKey": "mausoleu-qin-F38",
+            "text": "A ideia de uma camada antiferrugem de cromo nas armas foi descartada em 2019: o cromo veio da laca próxima.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_EXERCITO",
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P21",
+            "factKey": "mausoleu-qin-F39",
+            "text": "Restos de vigas de madeira caídas sobre as figuras sugerem um incêndio pouco depois da morte do imperador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_EB",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P22",
+            "factKey": "mausoleu-qin-F40",
+            "text": "Em 2012, foi anunciado um complexo palaciano de cerca de 690 m por 250 m, com 18 casas com pátio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_WIKI_MAUSOLEU"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P23",
+            "factKey": "mausoleu-qin-F41",
+            "text": "Inscrito em 1987 pelos critérios (i), (iii), (iv) e (vi), é considerado o maior sítio preservado da China.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P24",
+            "factKey": "mausoleu-qin-F42",
+            "text": "O exército de barro é testemunho único da organização militar dos Reinos Combatentes e da dinastia Qin, até nos detalhes de uniformes e arreios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QIN_UNESCO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "mausoleu-qin-geografo-P25",
+            "factKey": "mausoleu-qin-F24",
+            "text": "Necrópole do primeiro imperador da China, ao pé do monte Li, com fossos de guerreiros a leste do monte funerário.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "QIN_UNESCO",
+              "QIN_WIKI_EXERCITO"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Necrópole de Qin Shi Huang, o primeiro imperador da China, ao pé do monte Li, em Lintong (Xi'an, Shaanxi), iniciada em 246 a.C. com traçado que reproduz a capital Xianyang, cujos fossos com milhares de soldados e cavalos de terracota em tamanho natural foram achados por agricultores em 1974 — Patrimônio Mundial desde 1987.",
+      "editorialNotes": [
+        "Altura do monte funerário: 51,3 m (UNESCO) ou 76 m (Wikipedia); tamanho da câmara: 80 × 50 × 15 m ou cerca de 100 × 75 m, conforme o verbete da Wikipedia. Os dois números foram omitidos.",
+        "Contagem das figuras: \"cerca de 8 mil soldados e cavalos\" (Britannica) ou mais de 8 mil soldados, além de 670 cavalos (Wikipedia, estimativa de 2007); fosso 1 com cerca de 6 mil (Smarthistory) ou mais de 3 mil (Wikipedia); \"quase 200\" fossos (UNESCO) ou cerca de 600 (Wikipedia, 2008). As pistas dizem só \"milhares\".",
+        "Fim da obra: até a morte do imperador em 210 a.C. (UNESCO) ou 208 a.C. (Wikipedia), por isso só o início, em 246 a.C., aparece. \"Terracota\" não é usada como campo (está nos aliases), e as pistas falam em \"barro cozido\"."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Criado e verificado nas fontes: página da UNESCO, Britannica, Smarthistory e os verbetes da Wikipedia sobre o mausoléu e o exército; C1 com 14 monumentos imperiais e funerários asiáticos, incluindo a Grande Muralha e a Cidade Proibida, que já estão no banco."
+    }
+  },
+  "sources": {
+    "QIN_UNESCO": {
+      "id": "QIN_UNESCO",
+      "title": "Mausoleum of the First Qin Emperor",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/441",
+      "checkedAt": "2026-11-15"
+    },
+    "QIN_EB": {
+      "id": "QIN_EB",
+      "title": "Qin tomb",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/print/article/588125",
+      "checkedAt": "2026-11-15"
+    },
+    "QIN_WIKI_EXERCITO": {
+      "id": "QIN_WIKI_EXERCITO",
+      "title": "Terracotta Army",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "checkedAt": "2026-11-15"
+    },
+    "QIN_WIKI_MAUSOLEU": {
+      "id": "QIN_WIKI_MAUSOLEU",
+      "title": "Mausoleum of Qin Shi Huang",
+      "publisher": "Wikipedia (em inglês)",
+      "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Qin_Shi_Huang",
+      "checkedAt": "2026-11-15"
+    },
+    "QIN_SMARTHISTORY": {
+      "id": "QIN_SMARTHISTORY",
+      "title": "Art Appreciation: Spotlight—The Terracotta Army of Emperor Qin Shi Huangdi (Asa Simon Mittman)",
+      "publisher": "Smarthistory",
+      "url": "https://smarthistory.org/?p=43305",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/list/441",
+      "https://www.britannica.com/print/article/588125",
+      "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "https://en.wikipedia.org/wiki/Mausoleum_of_Qin_Shi_Huang",
+      "https://smarthistory.org/?p=43305"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

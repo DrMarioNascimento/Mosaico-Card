@@ -1,0 +1,1066 @@
+{
+  "case": {
+    "id": "lug3-lagoas-nova-caledonia",
+    "placeId": "lagoas-nova-caledonia",
+    "title": "Lagoas da Nova Caledônia",
+    "aliases": [
+      "Recifes da Nova Caledônia"
+    ],
+    "answerType": "conjunto de recifes e lagoas",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "NC"
+      ],
+      "continents": [
+        "oceania"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Recife, lagoa ou costa protegida da Oceania",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Lagoas da Nova Caledônia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Grande Barreira de Corais"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Costa de Ningaloo"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Baía Shark"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Recifes de Fiji"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Ilhas Rock do Sul"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Área Protegida das Ilhas Phoenix"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Rennell Oriental"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Grupo de Ilhas Lord Howe"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Atol de Rangiroa"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Lagoa de Aitutaki"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Ilhas Whitsunday"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Bora Bora"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Lagoas da Nova Caledônia",
+        "sources": [
+          "NC_UNESCO_DEC",
+          "NC_TURISMO",
+          "NC_ICRI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Mamífero marinho que tem aqui a terceira maior população do mundo",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Dugongo"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Leão-marinho-australiano"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Golfinho-de-hector"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Foca-monge-do-havaí"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Dugongo",
+        "sources": [
+          "NC_UNESCO_DEC",
+          "NC_TURISMO_SITIOS",
+          "NC_NWHS"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Povo indígena com cujas comunidades se implanta a cogestão dos núcleos",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Kanak"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Maori"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Chamorro"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Mā‘ohi"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Kanak",
+        "sources": [
+          "NC_UNESCO_DEC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Único atol habitado do território, incluído num dos núcleos do bem",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Ouvéa"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Beautemps-Beaupré"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Huon"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Surprise"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Ouvéa",
+        "sources": [
+          "NC_TURISMO_SITIOS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "lagoas-nova-caledonia-viajante-P01",
+            "factKey": "lagoas-nova-caledonia-F01",
+            "text": "Águas azul-turquesa e recifes de coral cercam as ilhas deste destino tropical.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO",
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P02",
+            "factKey": "lagoas-nova-caledonia-F02",
+            "text": "O bem é dividido em seis áreas marinhas separadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC",
+              "NC_NWHS",
+              "NC_TURISMO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P03",
+            "factKey": "lagoas-nova-caledonia-F03",
+            "text": "A barreira de recifes, dupla em alguns trechos, tem quase 1.600 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO",
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P04",
+            "factKey": "lagoas-nova-caledonia-F04",
+            "text": "A variedade de corais e peixes daqui iguala ou supera a da Grande Barreira de Corais, que é muito maior.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC",
+              "NC_NWHS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P05",
+            "factKey": "lagoas-nova-caledonia-F05",
+            "text": "Há centenas de espécies de corais e mais de mil espécies de peixes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P06",
+            "factKey": "lagoas-nova-caledonia-F06",
+            "text": "Vive aqui a terceira maior população de dugongos do mundo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC",
+              "NC_TURISMO_SITIOS",
+              "NC_NWHS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P07",
+            "factKey": "lagoas-nova-caledonia-F07",
+            "text": "Baleias-jubarte frequentam a grande lagoa do sul, e uma baía do nordeste é berçário delas de meados de julho a meados de setembro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P08",
+            "factKey": "lagoas-nova-caledonia-F08",
+            "text": "Bandeiras vermelhas em algumas ilhotas avisam que é proibido desembarcar ou sobrevoar, por causa dos ninhos de aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P09",
+            "factKey": "lagoas-nova-caledonia-F09",
+            "text": "Dá para chegar a ilhotas da lagoa sul em passeios de catamarã de vários dias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P10",
+            "factKey": "lagoas-nova-caledonia-F10",
+            "text": "Uma praia de desova de tartarugas-cabeçudas recebe de 10% a 20% da população dessa espécie no Pacífico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P11",
+            "factKey": "lagoas-nova-caledonia-F11",
+            "text": "Na costa oeste, a lagoa é estreita e tem áreas marinhas protegidas, como a de Poé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P12",
+            "factKey": "lagoas-nova-caledonia-F12",
+            "text": "No nordeste, os rochedos da \"Galinha\" e da \"Esfinge\" marcam a paisagem de Hienghène.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P13",
+            "factKey": "lagoas-nova-caledonia-F13",
+            "text": "No norte, o estuário do Diahot tem o maior manguezal do território.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P14",
+            "factKey": "lagoas-nova-caledonia-F14",
+            "text": "Mantas, peixes-napoleão e tubarões aparecem nas lagoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P15",
+            "factKey": "lagoas-nova-caledonia-F15",
+            "text": "Uma das áreas reúne atóis afastados, onde aves marinhas e tartarugas-verdes se reproduzem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P16",
+            "factKey": "lagoas-nova-caledonia-F16",
+            "text": "Esses atóis afastados ficam dentro do Parque Natural do Mar de Coral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P17",
+            "factKey": "lagoas-nova-caledonia-F17",
+            "text": "A grande lagoa do norte cobre mais de um terço de toda a área de lagoas do território.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P18",
+            "factKey": "lagoas-nova-caledonia-F18",
+            "text": "Há um só atol habitado no território, e ele faz parte do bem.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P19",
+            "factKey": "lagoas-nova-caledonia-F19",
+            "text": "As comunidades indígenas estão sendo incluídas na gestão das áreas marinhas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P20",
+            "factKey": "lagoas-nova-caledonia-F20",
+            "text": "Entrou para o Patrimônio Mundial em 7 de julho de 2008.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO",
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P21",
+            "factKey": "lagoas-nova-caledonia-F21",
+            "text": "A inscrição foi decidida numa reunião do Comitê do Patrimônio Mundial na cidade de Quebec, no Canadá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P22",
+            "factKey": "lagoas-nova-caledonia-F22",
+            "text": "A Grande Barreira de Corais fica a cerca de 1.000 km a oeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_NWHS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P23",
+            "factKey": "lagoas-nova-caledonia-F23",
+            "text": "Os ecossistemas estão intactos, com muitos peixes grandes e predadores de topo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC",
+              "NC_ICRI"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P24",
+            "factKey": "lagoas-nova-caledonia-F24",
+            "text": "Na Ilha dos Pinheiros, a Baía de Upi faz parte da grande lagoa do sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-viajante-P25",
+            "factKey": "lagoas-nova-caledonia-F25",
+            "text": "A grande lagoa do sul fica no extremo sul da Grande Terre, a ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "lagoas-nova-caledonia-geografo-P01",
+            "factKey": "lagoas-nova-caledonia-F26",
+            "text": "É um dos três sistemas de recifes mais extensos do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC",
+              "NC_ICRI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P02",
+            "factKey": "lagoas-nova-caledonia-F02",
+            "text": "O bem seriado tem seis núcleos marinhos, cercados por zonas de amortecimento que não fazem parte da área inscrita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P03",
+            "factKey": "lagoas-nova-caledonia-F27",
+            "text": "Reúne a concentração de estruturas recifais mais diversa do mundo: 146 tipos numa classificação global.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P04",
+            "factKey": "lagoas-nova-caledonia-F28",
+            "text": "Há um contínuo de habitats, dos manguezais aos bancos de ervas marinhas, além de extensos sistemas de barreira dupla.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P05",
+            "factKey": "lagoas-nova-caledonia-F29",
+            "text": "A área inscrita passa de 15 mil km², em núcleos distribuídos ao redor de uma ilha principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO",
+              "NC_NWHS",
+              "NC_ICRI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P06",
+            "factKey": "lagoas-nova-caledonia-F30",
+            "text": "As lagoas, somadas, cobrem cerca de 24 mil km², mas só parte delas foi inscrita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P07",
+            "factKey": "lagoas-nova-caledonia-F23",
+            "text": "Ecossistemas intactos, com predadores de topo e grande número de peixes grandes, sustentam a integridade do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P08",
+            "factKey": "lagoas-nova-caledonia-F31",
+            "text": "A maior ameaça atual é o sedimento vindo da erosão das bacias, ligada a queimadas, pastoreio excessivo e mineração.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_NWHS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P09",
+            "factKey": "lagoas-nova-caledonia-F32",
+            "text": "Estrelas-do-mar coroa-de-espinhos e doenças de coral também ameaçam os recifes, e a mudança climática pode piorar o quadro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_NWHS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P10",
+            "factKey": "lagoas-nova-caledonia-F33",
+            "text": "Um grande evento de branqueamento de corais atingiu os recifes em 2016.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_NWHS"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P11",
+            "factKey": "lagoas-nova-caledonia-F34",
+            "text": "A proteção se apoia na legislação de pesca, e a cogestão vem sendo implantada com as comunidades Kanak em todos os núcleos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P12",
+            "factKey": "lagoas-nova-caledonia-F35",
+            "text": "A UNESCO recomendou zonas sem pesca, controle da qualidade da água, mais vigilância e turismo planejado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_UNESCO_DEC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P13",
+            "factKey": "lagoas-nova-caledonia-F11",
+            "text": "Na costa oeste, a lagoa é estreita; a Falha de Poé é um ponto de mergulho, e La Foa tem manguezais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P14",
+            "factKey": "lagoas-nova-caledonia-F36",
+            "text": "A zona costeira oeste vai de Bourail a Sarraméa e tem uma das maiores concentrações de dugongos do território.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P15",
+            "factKey": "lagoas-nova-caledonia-F37",
+            "text": "Dois dos quatro atóis de Entrecasteaux são áreas de reprodução de aves marinhas e tartarugas-verdes, e parte da área é reserva natural integral.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P16",
+            "factKey": "lagoas-nova-caledonia-F38",
+            "text": "No atol habitado, as Plêiades do Norte e do Sul são áreas de desova de tartarugas-verdes.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P17",
+            "factKey": "lagoas-nova-caledonia-F39",
+            "text": "No atol habitado, os sítios de Lékiny e Nijmex concentram 1% dos manguezais do território.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P18",
+            "factKey": "lagoas-nova-caledonia-F40",
+            "text": "Na lagoa do atol habitado, as mantas aparecem mais entre setembro e outubro.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P19",
+            "factKey": "lagoas-nova-caledonia-F12",
+            "text": "Hienghène, na costa nordeste, é área de desova de tartarugas-verdes, berçário de jubartes e área de reprodução de tubarões.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P20",
+            "factKey": "lagoas-nova-caledonia-F41",
+            "text": "A grande lagoa do sul tem duas partes, uma oriental e o \"Corno Sul\", cujas ilhotas abrigam ninhos de aves marinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P21",
+            "factKey": "lagoas-nova-caledonia-F42",
+            "text": "O ponto de referência do bem fica a cerca de 20°25′ S e 164°34′ L.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_ICRI"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P22",
+            "factKey": "lagoas-nova-caledonia-F43",
+            "text": "Tartarugas, baleias e dugongos estão entre as espécies emblemáticas ou ameaçadas que encontram refúgio no bem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "NC_ICRI",
+              "NC_NWHS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P23",
+            "factKey": "lagoas-nova-caledonia-F44",
+            "text": "A avaliação da IUCN de 2020 classificou o estado de conservação como \"bom, com algumas preocupações\".",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_NWHS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P24",
+            "factKey": "lagoas-nova-caledonia-F45",
+            "text": "Um dos núcleos junta o atol de Ouvéa, o único habitado do território, e o pequeno atol de Beautemps-Beaupré.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "lagoas-nova-caledonia-geografo-P25",
+            "factKey": "lagoas-nova-caledonia-F46",
+            "text": "A grande lagoa do norte fica junto às ilhas Belep, e a do sul banha o extremo sul da Grande Terre e a Ilha dos Pinheiros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "NC_TURISMO_SITIOS"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Bem natural seriado (2008) de seis núcleos marinhos em torno da Grande Terre e de atóis como Ouvéa, com uma barreira de recifes de quase 1.600 km, um dos três maiores sistemas recifais do mundo, a terceira maior população de dugongos do planeta e cogestão com as comunidades Kanak.",
+      "editorialNotes": [
+        "A área inscrita varia entre as fontes (15.743 km² no Natural World Heritage Sites; 15.473 km² no ICRI; mais de 15.700 km² no turismo oficial), por isso as pistas dizem só \"mais de 15 mil km²\". As contagens de espécies também variam conforme a fonte e aparecem só de forma aproximada.",
+        "O ICRI descreve o bem como 100% marinho, mas o turismo oficial diz que as terras dos atóis de Entrecasteaux também foram incluídas; nenhuma pista afirma uma coisa ou outra.",
+        "O título segue a grafia já usada como alternativa de C1 em outros casos; \"Recifes da Nova Caledônia\", que aparece em outros casos, entrou como alias. O bem é distinto da Grande Barreira de Corais, que é distratora no C1."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "criado e verificado nas fontes"
+    }
+  },
+  "sources": {
+    "NC_UNESCO_DEC": {
+      "id": "NC_UNESCO_DEC",
+      "title": "Decision 32 COM 8B.10 — Lagoons of New Caledonia: Reef Diversity and Associated Ecosystems (France)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/1470",
+      "checkedAt": "2026-11-15"
+    },
+    "NC_TURISMO": {
+      "id": "NC_TURISMO",
+      "title": "UNESCO World Heritage listed lagoon",
+      "publisher": "Nouvelle-Calédonie Tourisme (órgão oficial de turismo)",
+      "url": "https://www.newcaledonia.travel/en/unesco-world-heritage",
+      "checkedAt": "2026-11-15"
+    },
+    "NC_TURISMO_SITIOS": {
+      "id": "NC_TURISMO_SITIOS",
+      "title": "UNESCO sites of New Caledonia",
+      "publisher": "Nouvelle-Calédonie Tourisme (órgão oficial de turismo)",
+      "url": "https://www.newcaledonia.travel/activities/sustainable-tourism/unesco-sites/",
+      "checkedAt": "2026-11-15"
+    },
+    "NC_NWHS": {
+      "id": "NC_NWHS",
+      "title": "Lagoons of New Caledonia: Reef Diversity and Associated Ecosystems",
+      "publisher": "Natural World Heritage Sites (naturalworldheritagesites.org)",
+      "url": "https://www.naturalworldheritagesites.org/?p=36226",
+      "checkedAt": "2026-11-15"
+    },
+    "NC_ICRI": {
+      "id": "NC_ICRI",
+      "title": "Lagoons of New Caledonia: Reef Diversity and Associated Ecosystems",
+      "publisher": "International Coral Reef Initiative (ICRI)",
+      "url": "https://icriforum.org/?p=4564",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/en/decisions/1470",
+      "https://www.newcaledonia.travel/en/unesco-world-heritage",
+      "https://www.newcaledonia.travel/activities/sustainable-tourism/unesco-sites/",
+      "https://www.naturalworldheritagesites.org/?p=36226",
+      "https://icriforum.org/?p=4564"
+    ],
+    "alteracoes": [
+      "criado do zero"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

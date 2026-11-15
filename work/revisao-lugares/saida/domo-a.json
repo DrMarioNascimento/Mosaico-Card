@@ -1,0 +1,1097 @@
+{
+ "case": {
+  "id": "lug3-domo-a",
+  "placeId": "domo-a",
+  "title": "Domo A",
+  "aliases": [
+   "Dome A",
+   "Domo Argus",
+   "Dome Argus"
+  ],
+  "answerType": "domo de gelo",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Destino no gelo antártico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Domo C"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Domo Fuji"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Domo A"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Domo Taylor"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Domo Talos"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Domo Siple"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Domo Law"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Domo Titan"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Polo Sul Geográfico"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Polo Sul de Inacessibilidade"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Polo Sul Geomagnético"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Lago Vostok"
+     }
+    ],
+    "answerId": "C1-O3",
+    "answerText": "Domo A",
+    "sources": [
+     "DOMOA_SCARGAZ",
+     "DOMOA_AAD"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estação de pesquisa construída no topo",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Vostok"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Concordia"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Amundsen-Scott"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Kunlun"
+     }
+    ],
+    "answerId": "C2-O4",
+    "answerText": "Kunlun",
+    "sources": [
+     "DOMOA_AAD",
+     "DOMOA_CAS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Cordilheira enterrada sob o gelo, bem abaixo do topo",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Montanhas Gamburtsev"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Montes Transantárticos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Montanhas Ellsworth"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Montes Príncipe Charles"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Montanhas Gamburtsev",
+    "sources": [
+     "DOMOA_AGLAC",
+     "DOMOA_SCARGAZ",
+     "DOMOA_SCINEWS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Altitude aproximada do topo de gelo",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Cerca de 2.800 m"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Cerca de 3.200 m"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Cerca de 4.090 m"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Cerca de 5.000 m"
+     }
+    ],
+    "answerId": "C4-O3",
+    "answerText": "Cerca de 4.090 m",
+    "sources": [
+     "DOMOA_SCARGAZ",
+     "DOMOA_AAD",
+     "DOMOA_CAS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "domo-a-viajante-P01",
+      "factKey": "domo-a-F01",
+      "text": "Este destino é um ponto alto e quase plano no meio do gelo antártico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS",
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P02",
+      "factKey": "domo-a-F02",
+      "text": "Debaixo dos pés há só gelo, com espessura de centenas de metros a vários quilômetros.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P03",
+      "factKey": "domo-a-F03",
+      "text": "É o ponto mais alto de todo o manto de gelo da Antártida.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "DOMOA_AAD",
+       "DOMOA_CAS",
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P04",
+      "factKey": "domo-a-F04",
+      "text": "A altitude passa dos 4 mil metros.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ",
+       "DOMOA_SCINEWS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P05",
+      "factKey": "domo-a-F05",
+      "text": "Fica perto do paralelo de 80° sul, no interior da Antártida Oriental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA",
+       "DOMOA_SCARGAZ",
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P06",
+      "factKey": "domo-a-F06",
+      "text": "No inverno, a temperatura fica entre –50 °C e –80 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA",
+       "DOMOA_CAS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P07",
+      "factKey": "domo-a-F07",
+      "text": "As primeiras pessoas só pisaram ali em janeiro de 2005.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_RAA",
+       "DOMOA_CAS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P08",
+      "factKey": "domo-a-F08",
+      "text": "Elas chegaram por terra, numa travessia de uns 1.200 km a partir de uma base na costa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P09",
+      "factKey": "domo-a-F09",
+      "text": "Essa primeira expedição era chinesa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_RAA",
+       "DOMOA_CAS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P10",
+      "factKey": "domo-a-F10",
+      "text": "Em 2009, começou a funcionar ali uma estação de pesquisa da China.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P11",
+      "factKey": "domo-a-F11",
+      "text": "A estação tem lugar para até 25 pessoas e, por enquanto, só é usada no verão.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD",
+       "DOMOA_CAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P12",
+      "factKey": "domo-a-F12",
+      "text": "É a terceira estação chinesa na Antártida.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P13",
+      "factKey": "domo-a-F13",
+      "text": "Cientistas querem tirar dali cilindros de gelo de grande profundidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P14",
+      "factKey": "domo-a-F14",
+      "text": "Debaixo do gelo se esconde uma cordilheira inteira, com picos e vales.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS",
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P15",
+      "factKey": "domo-a-F15",
+      "text": "Essas montanhas enterradas têm pelo menos 750 km de comprimento.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P16",
+      "factKey": "domo-a-F16",
+      "text": "Os vales lá embaixo lembram os dos Alpes, cavados por antigas geleiras.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P17",
+      "factKey": "domo-a-F17",
+      "text": "Talvez tenha sido ali que nasceu o grande manto de gelo da Antártida.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS",
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P18",
+      "factKey": "domo-a-F18",
+      "text": "Para astrônomos, é o melhor lugar da Terra para observar o céu com telescópios ópticos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_CAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P19",
+      "factKey": "domo-a-F19",
+      "text": "As estrelas ali “tremem” muito menos que nos melhores observatórios do Havaí e do Chile.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_CAS",
+       "DOMOA_NATURE"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P20",
+      "factKey": "domo-a-F20",
+      "text": "Os aparelhos que mediram isso ficavam numa torre de só 8 m e trabalharam sozinhos o inverno todo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_CAS",
+       "DOMOA_NATURE"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P21",
+      "factKey": "domo-a-F21",
+      "text": "As auroras quase sempre ficam baixas, perto do horizonte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P22",
+      "factKey": "domo-a-F22",
+      "text": "Por ano, há cerca de um mês seguido de escuridão total.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P23",
+      "factKey": "domo-a-F23",
+      "text": "Fica numa área reivindicada pela Austrália, perto da divisa com a Terra da Rainha Maud.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_AAD",
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P24",
+      "factKey": "domo-a-F24",
+      "text": "O nome oficial remete ao mito grego de Jasão e dos Argonautas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-viajante-P25",
+      "factKey": "domo-a-F25",
+      "text": "No topo fica a estação chinesa Kunlun.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD",
+       "DOMOA_CAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "domo-a-geografo-P01",
+      "factKey": "domo-a-F01",
+      "text": "Culminação suave do manto de gelo, onde a superfície forma uma cúpula ampla e relativamente plana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS",
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P02",
+      "factKey": "domo-a-F26",
+      "text": "Situa-se no centro da Antártida Oriental, longe do litoral, no alto do planalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P03",
+      "factKey": "domo-a-F03",
+      "text": "O gazetteer do SCAR a registra como a feição de gelo mais alta da Antártida, a ~4.090 m.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P04",
+      "factKey": "domo-a-F05",
+      "text": "As coordenadas variam pouco entre as fontes: ~80°21′–80°22′ S e ~77°21′–77°24′ L.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ",
+       "DOMOA_RAA"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P05",
+      "factKey": "domo-a-F23",
+      "text": "Fica no Território Antártico Australiano, perto do limite oeste com a Terra da Rainha Maud.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ",
+       "DOMOA_AAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P06",
+      "factKey": "domo-a-F27",
+      "text": "O relevo do gelo foi mapeado em detalhe por radioecossondagem do Scott Polar Research Institute; o nome foi aprovado em 1982.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P07",
+      "factKey": "domo-a-F14",
+      "text": "Sob a cúpula jaz uma cordilheira subglacial: os picos da crista central têm em média 1,5 a 2,5 km de altitude.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC",
+       "DOMOA_SCARGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P08",
+      "factKey": "domo-a-F15",
+      "text": "A cordilheira enterrada mede pelo menos 750 × 250 km; sem o peso do gelo, os picos teriam 2,5 a 3,5 km.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P09",
+      "factKey": "domo-a-F28",
+      "text": "O gelo vai de menos de 400 m sobre alguns picos a mais de 4,5 km no flanco norte da cordilheira.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P10",
+      "factKey": "domo-a-F16",
+      "text": "Vales de perfil quase semicircular e cabeceiras em paredão indicam erosão por geleiras de montanha, como nos Alpes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_SCINEWS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P11",
+      "factKey": "domo-a-F29",
+      "text": "Os vales têm 20–25 km de largura e 100–200 km de comprimento, num desenho que lembra uma rede de drenagem fluvial.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P12",
+      "factKey": "domo-a-F17",
+      "text": "A cordilheira teria sido o berço do manto de gelo da Antártida Oriental, há mais de 34 milhões de anos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC",
+       "DOMOA_SCINEWS"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P13",
+      "factKey": "domo-a-F30",
+      "text": "As montanhas têm mais de 100 milhões de anos, mas a paisagem parece jovem porque o gelo quase não a modificou.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P14",
+      "factKey": "domo-a-F31",
+      "text": "Cerca de 50 anos depois de detectada, a cordilheira foi mapeada por um levantamento aéreo de sete países.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AGLAC",
+       "DOMOA_SCINEWS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P15",
+      "factKey": "domo-a-F07",
+      "text": "Os primeiros visitantes chegaram em janeiro de 2005, com a 21ª Expedição Antártica Nacional Chinesa, numa travessia de ~1.200 km desde Zhongshan.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_RAA",
+       "DOMOA_CAS"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P16",
+      "factKey": "domo-a-F10",
+      "text": "A terceira estação chinesa no continente começou a operar ali em 2 de fevereiro de 2009.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P17",
+      "factKey": "domo-a-F11",
+      "text": "Projetada para 25 pessoas e vida útil de 25 anos, a estação ainda opera só no verão.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "DOMOA_AAD",
+       "DOMOA_CAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P18",
+      "factKey": "domo-a-F13",
+      "text": "Entre os objetivos estão testemunhos de gelo profundos, a exploração das montanhas subglaciais e observações astronômicas e geomagnéticas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P19",
+      "factKey": "domo-a-F19",
+      "text": "Medições noturnas publicadas em 2020 deram seeing mediano de 0,31″ e mínimo de 0,13″, contra 0,6–0,8″ nos melhores sítios de latitude média.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_NATURE",
+       "DOMOA_CAS"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P20",
+      "factKey": "domo-a-F32",
+      "text": "A camada-limite turbulenta tem mediana de ~14 m, contra ~30 m no Domo C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_NATURE",
+       "DOMOA_CAS"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P21",
+      "factKey": "domo-a-F33",
+      "text": "O seeing e a espessura da camada-limite acompanham o gradiente de temperatura junto à superfície.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_NATURE"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P22",
+      "factKey": "domo-a-F21",
+      "text": "Fica dentro do oval auroral, a ~6° do Polo Sul Geomagnético, de modo que as auroras ficam perto ou abaixo do horizonte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P23",
+      "factKey": "domo-a-F34",
+      "text": "Em 2008, o céu de noites limpas e sem Lua teve brilho mediano de 20,5 mag/arcsec² na banda i, o mais escuro entre os sítios comparados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P24",
+      "factKey": "domo-a-F35",
+      "text": "Telescópios robóticos como o CSTAR e o AST3 já operaram no local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "DOMOA_RAA"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "domo-a-geografo-P25",
+      "factKey": "domo-a-F25",
+      "text": "A cúpula recobre as Montanhas Subglaciais Gamburtsev e abriga a estação chinesa Kunlun.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "DOMOA_SCARGAZ",
+       "DOMOA_AAD"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Ponto mais alto do manto de gelo antártico (~4.090 m), no centro da Antártida Oriental, sobre as Montanhas Subglaciais Gamburtsev; alcançado por uma travessia chinesa em 2005, abriga desde 2009 a estação Kunlun e é apontado como o melhor sítio da Terra para astronomia óptica.",
+   "editorialNotes": [
+    "A altitude aparece como 4.090 m (gazetteer do SCAR) e 4.093 m (Australian Antarctic Magazine, CAS e Research in Astronomy and Astrophysics); o C4 usa “cerca de 4.090 m”. As coordenadas também variam alguns minutos.",
+    "A área do levantamento aéreo AGAP diverge (182 mil km² no AntarcticGlaciers.org e ~2 milhões de km² na Science News); as pistas não usam esse número. A descoberta sísmica de 1958 também ficou de fora, para não confundir com a estação soviética do Polo Sul de Inacessibilidade.",
+    "As pistas evitam “polo do frio” e recordes de temperatura (temas do Lago Vostok) e a ideia de ponto mais distante da costa (Polo Sul de Inacessibilidade). O título exato do artigo de 2020 da Research in Astronomy and Astrophysics não apareceu na página aberta; a fonte vai identificada pela revista e pelo DOI."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "DOMOA_AAD": {
+   "id": "DOMOA_AAD",
+   "title": "New Antarctic stations (Australian Antarctic Magazine, n. 16, 2009)",
+   "publisher": "Australian Antarctic Program (Australian Antarctic Division)",
+   "url": "https://www.antarctica.gov.au/magazine/issue-16-2009/international-polar-year/new-antarctic-stations/",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_RAA": {
+   "id": "DOMOA_RAA",
+   "title": "Condições de observação astronômica no Dome A (Research in Astronomy and Astrophysics, v. 20, n. 10, art. 168, 2020)",
+   "publisher": "IOP Publishing",
+   "url": "https://iopscience.iop.org/article/10.1088/1674-4527/20/10/168",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_AGLAC": {
+   "id": "DOMOA_AGLAC",
+   "title": "Geophysical Surveys: The Gamburtsev Mountains (Kathryn C. Rose)",
+   "publisher": "AntarcticGlaciers.org",
+   "url": "https://www.antarcticglaciers.org/glacial-geology/antarctic-ice-sheet/geophysical-surveys/",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_SCINEWS": {
+   "id": "DOMOA_SCINEWS",
+   "title": "Alpine Antarctica, before the ice (3 jun. 2009)",
+   "publisher": "Science News",
+   "url": "https://sciencenews.org/?p=4710",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_NATURE": {
+   "id": "DOMOA_NATURE",
+   "title": "Night-time measurements of astronomical seeing at Dome A in Antarctica (Ma et al., Nature 583, 771–774, 2020)",
+   "publisher": "Nature",
+   "url": "https://www.nature.com/articles/s41586-020-2489-0",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_CAS": {
+   "id": "DOMOA_CAS",
+   "title": "Dome A in Antarctica Is the Best Site for Optical Astronomical Observation on Earth (3 ago. 2020)",
+   "publisher": "Chinese Academy of Sciences",
+   "url": "https://english.cas.cn/newsroom/research_news/phys/202008/t20200803_241414.shtml",
+   "checkedAt": "2026-11-15"
+  },
+  "DOMOA_SCARGAZ": {
+   "id": "DOMOA_SCARGAZ",
+   "title": "Dome Argus (SCAR Composite Gazetteer of Antarctica)",
+   "publisher": "Australian Antarctic Data Centre / SCAR",
+   "url": "https://data.aad.gov.au/aadc/gaz/scar/display_name.cfm?gaz_id=410",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.antarctica.gov.au/magazine/issue-16-2009/international-polar-year/new-antarctic-stations/",
+   "https://iopscience.iop.org/article/10.1088/1674-4527/20/10/168",
+   "https://www.antarcticglaciers.org/glacial-geology/antarctic-ice-sheet/geophysical-surveys/",
+   "https://sciencenews.org/?p=4710",
+   "https://www.nature.com/articles/s41586-020-2489-0",
+   "https://english.cas.cn/newsroom/research_news/phys/202008/t20200803_241414.shtml",
+   "https://data.aad.gov.au/aadc/gaz/scar/display_name.cfm?gaz_id=410"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

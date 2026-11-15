@@ -1,0 +1,1082 @@
+{
+ "case": {
+  "id": "lug3-geleira-beardmore",
+  "placeId": "geleira-beardmore",
+  "title": "Geleira Beardmore",
+  "aliases": [
+   "Beardmore Glacier",
+   "Beardmore"
+  ],
+  "answerType": "geleira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [],
+   "continents": [
+    "antartida"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Geleira antártica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Geleira Lambert"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Geleira Thwaites"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Geleira Pine Island"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Geleira Byrd"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Geleira Totten"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Geleira Denman"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Geleira Beardmore"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Geleira Mertz"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Geleira Shirase"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Geleira Recovery"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Geleira Axel Heiberg"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Geleira Nimrod"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Geleira David"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Geleira Ninnis"
+     },
+     {
+      "id": "C1-O15",
+      "text": "Geleira Shackleton"
+     },
+     {
+      "id": "C1-O16",
+      "text": "Geleira Scott"
+     }
+    ],
+    "answerId": "C1-O7",
+    "answerText": "Geleira Beardmore",
+    "sources": [
+     "BEARD_BRIT",
+     "BEARD_NZGAZ"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Expedição que descobriu a geleira, em dezembro de 1908",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Expedição Discovery, de Scott (1901–1904)"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Expedição do Fram, de Amundsen (1910–1912)"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Expedição Antártica Britânica de Shackleton (1907–1909)"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Expedição Antártica Australasiana, de Mawson (1911–1914)"
+     }
+    ],
+    "answerId": "C2-O3",
+    "answerText": "Expedição Antártica Britânica de Shackleton (1907–1909)",
+    "sources": [
+     "BEARD_NZGAZ",
+     "BEARD_BRIT",
+     "BEARD_AAJ"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Plataforma de gelo aonde a geleira chega",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Plataforma de Gelo Ross"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Plataforma de Gelo Amery"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Plataforma de Gelo Filchner-Ronne"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Plataforma de Gelo Larsen C"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Plataforma de Gelo Ross",
+    "sources": [
+     "BEARD_BRIT",
+     "BEARD_NZGAZ"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Fóssil recolhido pelo grupo de Scott na descida da geleira, em 1912",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Conchas de amonites"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Dentes de tubarão"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Ossos de plesiossauro"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Folhas de Glossopteris"
+     }
+    ],
+    "answerId": "C4-O4",
+    "answerText": "Folhas de Glossopteris",
+    "sources": [
+     "BEARD_SCIAM",
+     "BEARD_LINNEAN"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "geleira-beardmore-viajante-P01",
+      "factKey": "geleira-beardmore-F01",
+      "text": "Este destino é um rio de gelo que desce entre montanhas, no interior da Antártida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P02",
+      "factKey": "geleira-beardmore-F02",
+      "text": "É uma das maiores geleiras de vale conhecidas no mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P03",
+      "factKey": "geleira-beardmore-F03",
+      "text": "Desce uns 2.200 m, do planalto polar até a grande plataforma de gelo lá embaixo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P04",
+      "factKey": "geleira-beardmore-F04",
+      "text": "Na parte de baixo, ela encontra a Plataforma de Gelo Ross.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "localizacao",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P05",
+      "factKey": "geleira-beardmore-F05",
+      "text": "É mais estreita perto da foz e bem mais larga perto do planalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P06",
+      "factKey": "geleira-beardmore-F06",
+      "text": "Dos dois lados ficam grupos de montanhas que homenageiam duas rainhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P07",
+      "factKey": "geleira-beardmore-F07",
+      "text": "Foi descoberta em dezembro de 1908 por uma expedição britânica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P08",
+      "factKey": "geleira-beardmore-F08",
+      "text": "O nome homenageia um generoso patrocinador do líder dessa expedição.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P09",
+      "factKey": "geleira-beardmore-F09",
+      "text": "Esse patrocinador mais tarde recebeu o título de Lord Invernairn.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P10",
+      "factKey": "geleira-beardmore-F10",
+      "text": "Shackleton subiu por ela rumo ao Polo Sul, mas não chegou lá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_AAJ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P11",
+      "factKey": "geleira-beardmore-F11",
+      "text": "Depois, a equipe de Scott também usou esse caminho para chegar ao Polo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_AAJ",
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P12",
+      "factKey": "geleira-beardmore-F12",
+      "text": "Os cinco homens da equipe polar de Scott nunca voltaram dessa viagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_AAJ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P13",
+      "factKey": "geleira-beardmore-F13",
+      "text": "Na volta, em fevereiro de 1912, o grupo de Scott parou para recolher pedras perto de um monte.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM",
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P14",
+      "factKey": "geleira-beardmore-F14",
+      "text": "Eles arrastaram uns 16 kg de rochas e fósseis, achados depois ao lado da barraca onde morreram.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM",
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P15",
+      "factKey": "geleira-beardmore-F15",
+      "text": "Entre as pedras havia pedaços de carvão com marcas de folhas antigas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM",
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P16",
+      "factKey": "geleira-beardmore-F16",
+      "text": "Hoje essas amostras estão no Museu de História Natural de Londres.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P17",
+      "factKey": "geleira-beardmore-F17",
+      "text": "As folhas fósseis são de uma planta que se espalhava pelo antigo supercontinente do sul.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P18",
+      "factKey": "geleira-beardmore-F18",
+      "text": "Esses fósseis ajudaram a mostrar que a Antártida já esteve ligada à Australásia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P19",
+      "factKey": "geleira-beardmore-F19",
+      "text": "A geleira e as montanhas em volta guardam madeira petrificada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P20",
+      "factKey": "geleira-beardmore-F20",
+      "text": "Ali também já apareceram fósseis de dinossauros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P21",
+      "factKey": "geleira-beardmore-F21",
+      "text": "Esses fósseis mostram que a região já teve clima temperado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P22",
+      "factKey": "geleira-beardmore-F22",
+      "text": "Scott anotou paredões de arenito que se desfaziam rápido com o tempo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P23",
+      "factKey": "geleira-beardmore-F23",
+      "text": "Do outro lado da geleira, acharam folhas parecidas com as de faia, bem mais recentes.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P24",
+      "factKey": "geleira-beardmore-F24",
+      "text": "Tudo o que eles recolheram estava solto sobre o gelo, em montes de pedras trazidas pela geleira.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-viajante-P25",
+      "factKey": "geleira-beardmore-F25",
+      "text": "Foi por ela que Shackleton, em 1908, abriu caminho da Plataforma Ross até o planalto polar.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "BEARD_NZGAZ",
+       "BEARD_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "geleira-beardmore-geografo-P01",
+      "factKey": "geleira-beardmore-F01",
+      "text": "Geleira de vale de grande porte que desce do Planalto Polar Sul atravessando uma cordilheira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P02",
+      "factKey": "geleira-beardmore-F02",
+      "text": "Figura entre as maiores geleiras de vale conhecidas do planeta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "paisagem",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P03",
+      "factKey": "geleira-beardmore-F03",
+      "text": "O desnível de ~2.200 m vai do Planalto Polar Sul à Plataforma de Gelo Ross.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P04",
+      "factKey": "geleira-beardmore-F05",
+      "text": "A largura média é de ~19 km (12 milhas), de ~13 km perto da foz a ~40 km perto do planalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P05",
+      "factKey": "geleira-beardmore-F06",
+      "text": "Separa as Montanhas Rainha Maud, a leste, da cordilheira Rainha Alexandra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P06",
+      "factKey": "geleira-beardmore-F26",
+      "text": "Corta a grande cordilheira que atravessa o continente, entre dois de seus grupos de montanhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P07",
+      "factKey": "geleira-beardmore-F07",
+      "text": "Foi descoberta em dezembro de 1908 pela Expedição Antártica Britânica de 1907–09.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P08",
+      "factKey": "geleira-beardmore-F08",
+      "text": "O nome, dado pelo líder da expedição, homenageia seu generoso patrono, mais tarde Lord Invernairn.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P09",
+      "factKey": "geleira-beardmore-F11",
+      "text": "Serviu de corredor natural até o planalto nas tentativas de Shackleton (1908) e de Scott (1911–1912) de chegar ao Polo Sul.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BEARD_BRIT",
+       "BEARD_AAJ",
+       "BEARD_NZGAZ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P10",
+      "factKey": "geleira-beardmore-F12",
+      "text": "A tentativa de Shackleton fracassou; da viagem polar de Scott, os cinco homens não voltaram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_AAJ"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P11",
+      "factKey": "geleira-beardmore-F13",
+      "text": "Em 8 de fevereiro de 1912, descendo a geleira, o grupo de Scott seguiu para a morena sob o Monte Buckley para coletar rochas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM",
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P12",
+      "factKey": "geleira-beardmore-F15",
+      "text": "Wilson, ajudado por Bowers, tirou impressões vegetais de veios de carvão; Scott achou que pareciam Glossopteris.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P13",
+      "factKey": "geleira-beardmore-F14",
+      "text": "Os ~16 kg de amostras foram achados junto à barraca onde o grupo morreu e hoje estão no Museu de História Natural de Londres.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM",
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "patrimonio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P14",
+      "factKey": "geleira-beardmore-F17",
+      "text": "As folhas de Glossopteris são do Permiano, quando o gênero se espalhava pelo Gondwana.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P15",
+      "factKey": "geleira-beardmore-F27",
+      "text": "Glossopteris era tema de debate entre críticos e defensores de Darwin.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P16",
+      "factKey": "geleira-beardmore-F18",
+      "text": "Debenham via nessas amostras a chance de resolver a controvérsia sobre uma antiga ligação entre Antártida e Australásia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_SCIAM"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P17",
+      "factKey": "geleira-beardmore-F24",
+      "text": "Todos os espécimes vieram de morena solta sobre a geleira, e não de rocha no lugar de origem.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "processo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P18",
+      "factKey": "geleira-beardmore-F28",
+      "text": "Newell Arber escreveu que o material estava “espalhado em abundância na face da geleira”.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P19",
+      "factKey": "geleira-beardmore-F23",
+      "text": "Na margem oposta, folhas de Nothofagus do Plioceno ocorrem em sedimentos glaciais do Grupo Sirius.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "biodiversidade",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P20",
+      "factKey": "geleira-beardmore-F29",
+      "text": "O diário de Wilson descreve folhas “como as de faia”, e há autores que veem Nothofagus entre as amostras de 1912.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "pesquisa",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P21",
+      "factKey": "geleira-beardmore-F22",
+      "text": "Scott descreveu paredes verticais de Arenito Beacon em rápida desagregação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_LINNEAN"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P22",
+      "factKey": "geleira-beardmore-F19",
+      "text": "A geleira e as montanhas laterais contêm madeira petrificada e fósseis de dinossauros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P23",
+      "factKey": "geleira-beardmore-F21",
+      "text": "Esse registro fóssil indica uma época em que a Antártida teve clima temperado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_BRIT"
+      ],
+      "clueType": "clima",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P24",
+      "factKey": "geleira-beardmore-F30",
+      "text": "As Montanhas Rainha Maud, a leste da geleira, se dividem em várias subcordilheiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BEARD_AAJ"
+      ],
+      "clueType": "relevo",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "geleira-beardmore-geografo-P25",
+      "factKey": "geleira-beardmore-F25",
+      "text": "É a geleira descoberta e batizada por Shackleton em 1908, que também levou Scott ao planalto em 1911.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BEARD_NZGAZ",
+       "BEARD_BRIT"
+      ],
+      "clueType": "historia",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Uma das maiores geleiras de vale do mundo, que desce cerca de 2.200 m do Planalto Polar Sul à Plataforma de Gelo Ross; descoberta pela expedição de Shackleton em dezembro de 1908, foi a rota de Shackleton e de Scott ao Polo, e nela o grupo de Scott recolheu em 1912 os fósseis de Glossopteris.",
+   "editorialNotes": [
+    "O comprimento diverge: ~200 km (Britannica) e ~100 milhas, ~160 km (gazetteer da Nova Zelândia); as pistas não usam comprimento.",
+    "A Britannica diz que Shackleton (1908) e Scott (1911) “descobriram” a geleira; o gazetteer neozelandês atribui a descoberta à expedição de 1907–09, em dezembro de 1908 — o C2 segue o gazetteer.",
+    "Chaloner e Kenrick (2015) sugerem que parte das folhas de 1912 pode ser de Nothofagus, mas confirmam Glossopteris entre as amostras do Museu de História Natural; para não repetir a vizinha cordilheira, as pistas não usam o Monte Kirkpatrick."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "criado e verificado nas fontes"
+  }
+ },
+ "sources": {
+  "BEARD_BRIT": {
+   "id": "BEARD_BRIT",
+   "title": "Beardmore Glacier",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/print/article/57390",
+   "checkedAt": "2026-11-15"
+  },
+  "BEARD_NZGAZ": {
+   "id": "BEARD_NZGAZ",
+   "title": "Beardmore Glacier (gazetteer antártico da Nova Zelândia)",
+   "publisher": "Antarctica New Zealand",
+   "url": "https://adam.antarcticanz.govt.nz/nodes/view/20438",
+   "checkedAt": "2026-11-15"
+  },
+  "BEARD_SCIAM": {
+   "id": "BEARD_SCIAM",
+   "title": "Greater Glory: Why Scott Let Amundsen Win the Race to the South Pole",
+   "publisher": "Scientific American",
+   "url": "https://www.scientificamerican.com/article/greater-glory/",
+   "checkedAt": "2026-11-15"
+  },
+  "BEARD_LINNEAN": {
+   "id": "BEARD_LINNEAN",
+   "title": "Did Captain Scott's Terra Nova Expedition discover fossil Nothofagus in Antarctica? (W. G. Chaloner e P. Kenrick, The Linnean 31(2), 2015)",
+   "publisher": "Natural History Museum, Londres (repositório) / Linnean Society of London",
+   "url": "https://nhm.openrepository.com/server/api/core/bitstreams/065c1851-9c67-4066-826d-0c722f68f80a/content",
+   "checkedAt": "2026-11-15"
+  },
+  "BEARD_AAJ": {
+   "id": "BEARD_AAJ",
+   "title": "Mountaineering in Antarctica (American Alpine Journal, 1985)",
+   "publisher": "American Alpine Club",
+   "url": "https://publications.americanalpineclub.org/articles/12198514300/Mountaineering-in-Antarctica",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.britannica.com/print/article/57390",
+   "https://adam.antarcticanz.govt.nz/nodes/view/20438",
+   "https://www.scientificamerican.com/article/greater-glory/",
+   "https://nhm.openrepository.com/server/api/core/bitstreams/065c1851-9c67-4066-826d-0c722f68f80a/content",
+   "https://publications.americanalpineclub.org/articles/12198514300/Mountaineering-in-Antarctica"
+  ],
+  "alteracoes": [
+   "criado do zero"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}
