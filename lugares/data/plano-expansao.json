@@ -126,7 +126,43 @@
     "Parque Estadual do Cantão",
     "Porto Murtinho",
     "Rio Paraguai",
-    "Trinidad e Vale dos Engenhos"
+    "Trinidad e Vale dos Engenhos",
+    "Aracaju",
+    "Reserva Biológica do Atol das Rocas",
+    "Balneário Camboriú",
+    "Sistema de Reservas da Barreira de Corais de Belize",
+    "Bento Gonçalves",
+    "Blumenau",
+    "Cáceres",
+    "Caldas Novas",
+    "Parque Nacional dos Campos Amazônicos",
+    "Parque Nacional Canaima",
+    "Centro Histórico de Oeiras",
+    "Centro Histórico de Penedo",
+    "Cidade Histórica de Cusco",
+    "Cuiabá",
+    "Parque Estadual Encontro das Águas",
+    "Fortaleza",
+    "Lapa",
+    "Londrina",
+    "Maceió",
+    "Maringá",
+    "Arquipélago do Marajó",
+    "Floresta Nacional do Tapajós",
+    "Parque Estadual Chandless",
+    "Parque Estadual Monte Alegre",
+    "Parque Nacional do Pico da Neblina",
+    "Porto Velho",
+    "Reserva de Desenvolvimento Sustentável Mamirauá",
+    "Rio Amazonas (trecho brasileiro)",
+    "Parque Nacional de Brasília",
+    "Parque Nacional da Furna Feia",
+    "Parque Estadual da Serra de Caldas Novas",
+    "Parque Estadual de Terra Ronca",
+    "Território Indígena do Xingu",
+    "Bairro Histórico da Cidade Portuária de Valparaíso",
+    "Vila Bela da Santíssima Trindade",
+    "Parque Nacional Yosemite"
   ],
   "groups": {
     "Brasil Norte": [
@@ -140,7 +176,16 @@
       "Monte Roraima",
       "Teatro Amazonas",
       "Parque Nacional de Anavilhanas",
-      "Parque Estadual do Cantão"
+      "Parque Estadual do Cantão",
+      "Parque Nacional dos Campos Amazônicos",
+      "Arquipélago do Marajó",
+      "Floresta Nacional do Tapajós",
+      "Parque Estadual Chandless",
+      "Parque Estadual Monte Alegre",
+      "Parque Nacional do Pico da Neblina",
+      "Porto Velho",
+      "Reserva de Desenvolvimento Sustentável Mamirauá",
+      "Rio Amazonas (trecho brasileiro)"
     ],
     "Brasil Nordeste": [
       "Parque Nacional dos Lençóis Maranhenses",
@@ -154,7 +199,13 @@
       "Delta do Parnaíba",
       "Rio São Francisco",
       "Parque Nacional de Jericoacoara",
-      "São Luís"
+      "São Luís",
+      "Aracaju",
+      "Reserva Biológica do Atol das Rocas",
+      "Centro Histórico de Oeiras",
+      "Centro Histórico de Penedo",
+      "Maceió",
+      "Parque Nacional da Furna Feia"
     ],
     "Brasil Centro Oeste": [
       "Brasília",
@@ -168,7 +219,15 @@
       "Rio Araguaia",
       "Parque Nacional das Emas",
       "Porto Murtinho",
-      "Rio Paraguai"
+      "Rio Paraguai",
+      "Cáceres",
+      "Caldas Novas",
+      "Parque Estadual Encontro das Águas",
+      "Parque Nacional de Brasília",
+      "Parque Estadual da Serra de Caldas Novas",
+      "Parque Estadual de Terra Ronca",
+      "Território Indígena do Xingu",
+      "Vila Bela da Santíssima Trindade"
     ],
     "Brasil Sudeste": [
       "Rio de Janeiro",
@@ -197,7 +256,13 @@
       "Parque Nacional de Aparados da Serra",
       "Ilha do Mel",
       "Joinville",
-      "Parque Nacional da Lagoa do Peixe"
+      "Parque Nacional da Lagoa do Peixe",
+      "Balneário Camboriú",
+      "Bento Gonçalves",
+      "Blumenau",
+      "Lapa",
+      "Londrina",
+      "Maringá"
     ],
     "América outros recortes": [
       "Peru",
@@ -219,7 +284,12 @@
       "Parque Nacional Rapa Nui",
       "Parque Nacional Yellowstone",
       "Parque Nacional Los Glaciares",
-      "Trinidad e Vale dos Engenhos"
+      "Trinidad e Vale dos Engenhos",
+      "Sistema de Reservas da Barreira de Corais de Belize",
+      "Parque Nacional Canaima",
+      "Cidade Histórica de Cusco",
+      "Bairro Histórico da Cidade Portuária de Valparaíso",
+      "Parque Nacional Yosemite"
     ],
     "Europa": [
       "Portugal",

@@ -1,0 +1,1066 @@
+{
+ "case": {
+  "id": "lug2-encontro-aguas-mt",
+  "placeId": "encontro-aguas-mt",
+  "title": "Parque Estadual Encontro das Águas",
+  "aliases": [
+   "Encontro das Águas"
+  ],
+  "answerType": "parque estadual",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Unidade de conservação",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Estadual Encontro das Águas"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional do Pantanal Mato-Grossense"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Estadual Guirá"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Estadual do Pantanal do Rio Negro"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Estadual da Serra Azul"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Estadual do Araguaia"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Estadual Cristalino"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Estadual Serra de Ricardo Franco"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional da Chapada dos Guimarães"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional das Emas"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional da Serra da Bodoquena"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Estadual das Nascentes do Rio Taquari"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Estadual Encontro das Águas",
+    "sources": [
+     "EAGUAS_SEMA_PMIF",
+     "EAGUAS_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rios principais da rede hídrica do parque",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Cuiabá, São Lourenço e Piquiri"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Paraguai, Jauru e Sepotuba"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Miranda, Aquidauana e Negro"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Araguaia, das Mortes e Cristalino"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Cuiabá, São Lourenço e Piquiri",
+    "sources": [
+     "EAGUAS_SEMA_PMIF",
+     "EAGUAS_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Bioma predominante",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Pantanal"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cerrado"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Amazônia"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Mata Atlântica"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Pantanal",
+    "sources": [
+     "EAGUAS_SEMA_PMIF",
+     "EAGUAS_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Municípios abrangidos",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Poconé e Barão de Melgaço"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Bonito e Jardim"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Corumbá e Ladário"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Cuiabá e Várzea Grande"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Poconé e Barão de Melgaço",
+    "sources": [
+     "EAGUAS_SEMA_PMIF",
+     "EAGUAS_ALMT",
+     "EAGUAS_WIKI"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "encontro-aguas-mt-viajante-P01",
+      "factKey": "encontro-aguas-mt-F01",
+      "text": "É uma área protegida brasileira cortada por muitos rios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P02",
+      "factKey": "encontro-aguas-mt-F02",
+      "text": "Fica numa grande planície que alaga todos os anos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P03",
+      "factKey": "encontro-aguas-mt-F03",
+      "text": "É um parque estadual de Mato Grosso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P04",
+      "factKey": "encontro-aguas-mt-F04",
+      "text": "Foi criado em dezembro de 2004.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P05",
+      "factKey": "encontro-aguas-mt-F05",
+      "text": "Tem pouco mais de 108 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P06",
+      "factKey": "encontro-aguas-mt-F06",
+      "text": "Fica dividido entre Poconé e Barão de Melgaço.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_ALMT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P07",
+      "factKey": "encontro-aguas-mt-F07",
+      "text": "A maior parte da área fica em Poconé.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P08",
+      "factKey": "encontro-aguas-mt-F08",
+      "text": "Na cheia, até 80% da área pode ficar debaixo d'água.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P09",
+      "factKey": "encontro-aguas-mt-F09",
+      "text": "As águas costumam subir entre dezembro e maio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P10",
+      "factKey": "encontro-aguas-mt-F10",
+      "text": "O clima é tropical, com uma estação seca no meio do ano.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P11",
+      "factKey": "encontro-aguas-mt-F11",
+      "text": "A paisagem mistura campos, savanas com árvores e matas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P12",
+      "factKey": "encontro-aguas-mt-F12",
+      "text": "Corixos, vazantes, baías e lagoas se espalham pela área.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P13",
+      "factKey": "encontro-aguas-mt-F13",
+      "text": "O rio Cuiabá é o principal caminho de barco na região do parque.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P14",
+      "factKey": "encontro-aguas-mt-F14",
+      "text": "O rio Piquiri forma o limite sul do parque.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P15",
+      "factKey": "encontro-aguas-mt-F15",
+      "text": "O rio São Lourenço atravessa o parque e se junta ao Cuiabá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P16",
+      "factKey": "encontro-aguas-mt-F16",
+      "text": "A estrada Transpantaneira chega a Porto Jofre, onde se concentra o turismo da região.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P17",
+      "factKey": "encontro-aguas-mt-F17",
+      "text": "A melhor época para ver bichos vai de março a outubro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P18",
+      "factKey": "encontro-aguas-mt-F18",
+      "text": "A maioria dos visitantes vem de outros estados e de outros países.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P19",
+      "factKey": "encontro-aguas-mt-F19",
+      "text": "Já foram registradas ali 368 espécies de aves.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P20",
+      "factKey": "encontro-aguas-mt-F20",
+      "text": "Os rios abrigam mais de 200 espécies de peixes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P21",
+      "factKey": "encontro-aguas-mt-F21",
+      "text": "Capivaras e jacarés estão entre as presas do grande felino da região.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P22",
+      "factKey": "encontro-aguas-mt-F22",
+      "text": "Passeios de barco para ver onças-pintadas movimentam o turismo local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P23",
+      "factKey": "encontro-aguas-mt-F23",
+      "text": "Em 2023, o fogo atingiu dezenas de milhares de hectares do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_ALMT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P24",
+      "factKey": "encontro-aguas-mt-F24",
+      "text": "É apontado como um dos lugares com maior densidade de onças-pintadas do planeta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-viajante-P25",
+      "factKey": "encontro-aguas-mt-F25",
+      "text": "Protege o trecho do Pantanal de Mato Grosso onde o rio Cuiabá recebe o São Lourenço e o Piquiri.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "encontro-aguas-mt-geografo-P01",
+      "factKey": "encontro-aguas-mt-F01",
+      "text": "Unidade de conservação estadual situada numa planície de inundação sul-americana.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P02",
+      "factKey": "encontro-aguas-mt-F02",
+      "text": "Foi criada pelo Decreto Estadual nº 4.881, de 22 de dezembro de 2004.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P03",
+      "factKey": "encontro-aguas-mt-F03",
+      "text": "Seus cerca de 108 mil ha se repartem entre dois municípios, com cerca de 56% no maior deles.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P04",
+      "factKey": "encontro-aguas-mt-F04",
+      "text": "O pulso de inundação, geralmente entre dezembro e maio, pode submergir até 80% da área.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P05",
+      "factKey": "encontro-aguas-mt-F05",
+      "text": "O clima é tropical semiúmido (Aw de Köppen), com temperaturas médias entre 20 e 29 °C.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P06",
+      "factKey": "encontro-aguas-mt-F06",
+      "text": "Quatro fitofisionomias dominam: savanas arborizada, gramíneo-lenhosa e parque, além de floresta semidecidual.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P07",
+      "factKey": "encontro-aguas-mt-F07",
+      "text": "A rede hídrica inclui os rios Cuiabá, Piquiri, Cassange, Alegre, Três Irmãos, São Pedro e São Lourenço, além de corixos e vazantes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P08",
+      "factKey": "encontro-aguas-mt-F08",
+      "text": "O Piquiri marca o limite sul da unidade, na divisa com Mato Grosso do Sul.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_WIKI",
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P09",
+      "factKey": "encontro-aguas-mt-F09",
+      "text": "Na borda leste, o rio Cuiabá aparece em alguns mapas com o nome de Canabu.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_WIKI",
+       "EAGUAS_ALMT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P10",
+      "factKey": "encontro-aguas-mt-F10",
+      "text": "As confluências do Cuiabá com o Piquiri e o São Lourenço são pontos sensíveis de monitoramento.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P11",
+      "factKey": "encontro-aguas-mt-F11",
+      "text": "O acesso terrestre principal é a Estrada Parque Transpantaneira, até Porto Jofre; o patrulhamento segue pelo rio Cuiabá.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P12",
+      "factKey": "encontro-aguas-mt-F12",
+      "text": "A visitação se concentra em Porto Jofre e tem pico de março a outubro, com público de outros estados e do exterior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P13",
+      "factKey": "encontro-aguas-mt-F13",
+      "text": "O inventário soma 202 espécies de peixes, 368 de aves, 30 de mamíferos de médio e grande porte e 153 de répteis e anfíbios.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P14",
+      "factKey": "encontro-aguas-mt-F14",
+      "text": "As onças da unidade caçam capivaras e jacarés, e o turismo de avistamento cresceu em torno delas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P15",
+      "factKey": "encontro-aguas-mt-F15",
+      "text": "Forma um conjunto regional de áreas protegidas com o Parque Nacional do Pantanal Mato-Grossense, a Estação Ecológica de Taiamã e a RPPN Sesc Pantanal.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P16",
+      "factKey": "encontro-aguas-mt-F16",
+      "text": "Terras indígenas como Perigara e Baía dos Guató ficam no entorno regional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P17",
+      "factKey": "encontro-aguas-mt-F17",
+      "text": "As formações gramíneo-lenhosas e de parque, com combustível fino e contínuo, são as mais propensas ao fogo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P18",
+      "factKey": "encontro-aguas-mt-F18",
+      "text": "Queimas mal manejadas em propriedades vizinhas escapam para dentro da unidade, e o desmatamento nas bordas aumenta o risco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P19",
+      "factKey": "encontro-aguas-mt-F19",
+      "text": "De 2016 a 2025 foram registrados 1.171 focos de calor; 2020 foi o ano mais crítico para o Pantanal mato-grossense.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P20",
+      "factKey": "encontro-aguas-mt-F20",
+      "text": "Em 2023, cerca de 46,8 mil ha da unidade foram atingidos pelo fogo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P21",
+      "factKey": "encontro-aguas-mt-F21",
+      "text": "A janela preferida para queima prescrita vai de abril a junho, antes da seca mais intensa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P22",
+      "factKey": "encontro-aguas-mt-F22",
+      "text": "O conselho consultivo da unidade foi criado por portaria da Sema em 2014.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P23",
+      "factKey": "encontro-aguas-mt-F23",
+      "text": "A pesca é proibida num raio de 2 km do parque, o que afeta famílias ribeirinhas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P24",
+      "factKey": "encontro-aguas-mt-F24",
+      "text": "O plano de manejo integrado do fogo aponta ali uma das maiores densidades de onça-pintada do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "encontro-aguas-mt-geografo-P25",
+      "factKey": "encontro-aguas-mt-F25",
+      "text": "Ocupa o setor do Pantanal mato-grossense em que o Cuiabá recebe o São Lourenço e o Piquiri, entre Poconé e Barão de Melgaço.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "EAGUAS_SEMA_PMIF",
+       "EAGUAS_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Parque Estadual Encontro das Águas, criado em 2004 em Poconé e Barão de Melgaço (MT), protege cerca de 108 mil hectares do Pantanal onde o rio Cuiabá recebe o São Lourenço e o Piquiri, com uma das maiores densidades de onças-pintadas do mundo.",
+   "editorialNotes": [
+    "A área varia entre fontes (108.047,45 ha no PMIF da Sema; 108.960 ha na Wikipédia) e a divisão entre municípios também (56,29%/43,71% no PMIF; 56,71%/43,29% na Wikipédia); as pistas usam valores arredondados.",
+    "A área queimada em 2023 depende da data do balanço (cerca de 21,8 mil ha até 23/10 no requerimento da ALMT; cerca de 46,8 mil ha no PMIF); a pista usa o PMIF.",
+    "As pistas do rascunho sobre águas turvas e claras e sobre o rio Pirigara foram retiradas: as fontes abertas não as confirmaram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Plano de manejo integrado do fogo da Sema-MT, Wikipédia e requerimento da ALMT abertos; 50 pistas conferidas e reescritas, C1 restrito a parques do Centro-Oeste e distratores de C2–C4 refeitos."
+  }
+ },
+ "sources": {
+  "EAGUAS_SEMA_PMIF": {
+   "id": "EAGUAS_SEMA_PMIF",
+   "title": "Plano de Manejo Integrado do Fogo (PMIF) — Parque Estadual Encontro das Águas (PEEA)",
+   "publisher": "Secretaria de Estado de Meio Ambiente de Mato Grosso (Sema-MT)",
+   "url": "https://sema.mt.gov.br/site/phocadownload/LEGISLACOES_PLANOS_MANEJOS_CONSELHOS_UCS/PE_ENCONTRO_DAS_AGUAS/PMIF%20PARQUE%20ESTADUAL%20ENCONTRO%20DAS%20GUAS%20PEEA.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "EAGUAS_WIKI": {
+   "id": "EAGUAS_WIKI",
+   "title": "Encontro das Águas State Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Encontro_das_%C3%81guas_State_Park",
+   "checkedAt": "2026-11-15"
+  },
+  "EAGUAS_ALMT": {
+   "id": "EAGUAS_ALMT",
+   "title": "Requerimento nº 836/2023 (incêndio no Parque Estadual Encontro das Águas)",
+   "publisher": "Assembleia Legislativa de Mato Grosso",
+   "url": "https://www.al.mt.gov.br/storage/webdisco/cp/20231025104022180700.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://sema.mt.gov.br/site/phocadownload/LEGISLACOES_PLANOS_MANEJOS_CONSELHOS_UCS/PE_ENCONTRO_DAS_AGUAS/PMIF%20PARQUE%20ESTADUAL%20ENCONTRO%20DAS%20GUAS%20PEEA.pdf",
+   "https://en.wikipedia.org/wiki/Encontro_das_%C3%81guas_State_Park",
+   "https://www.al.mt.gov.br/storage/webdisco/cp/20231025104022180700.pdf"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (notícias e cadastro da Sema, notícia da Sedec) não foram alcançadas; substituídas pelo PMIF oficial da Sema-MT, pela Wikipédia e por requerimento da ALMT",
+   "C1: Cantão, Araguaia (TO), Anavilhanas, Jaú, Jalapão e Iguaçu (fora do Centro-Oeste) trocados por parques de MT, MS e GO",
+   "C2: rótulo sem alusão a confluência; distratores de outras bacias trocados por trios de rios do Centro-Oeste",
+   "C3: Caatinga trocada por Amazônia; C4: par Cáceres/Porto Murtinho (estados diferentes) trocado por Corumbá e Ladário",
+   "Pistas sobre águas turvas/claras e rio Pirigara removidas por falta de fonte; Cassange mantido como grafado no PMIF",
+   "Pistas genéricas (pesquisa, educação ambiental, órgão gestor, espécies migratórias) trocadas por dados do PMIF: decreto 4.881/2004, 108 mil ha, 56% em Poconé, pulso de inundação dezembro–maio e até 80% submerso, clima Aw, fitofisionomias, inventário de fauna, Porto Jofre e Transpantaneira, focos de calor 2016–2025, fogo em 2023, conselho de 2014",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

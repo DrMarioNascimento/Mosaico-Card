@@ -1,0 +1,1096 @@
+{
+  "case": {
+    "id": "lug2-norte-porto-velho",
+    "placeId": "norte-porto-velho",
+    "title": "Porto Velho",
+    "aliases": [],
+    "answerType": "capital brasileira",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Capital brasileira",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Porto Velho"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio Branco"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Boa Vista"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Macapá"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Palmas"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Manaus"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Belém"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cuiabá"
+          },
+          {
+            "id": "C1-O9",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Teresina"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Campo Grande"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Goiânia"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Porto Velho",
+        "sources": [
+          "PORTOVELHO_IBGEHIST",
+          "PORTOVELHO_PAMZ"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Infraestrutura ligada à origem da cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Estrada de Ferro Madeira-Mamoré"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Estrada de Ferro de Bragança"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Estrada de Ferro Carajás"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Estrada de Ferro Tocantins"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Estrada de Ferro Madeira-Mamoré",
+        "sources": [
+          "PORTOVELHO_IBGEHIST",
+          "PORTOVELHO_GUIA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estado brasileiro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Rondônia"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Acre"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Roraima"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Amazonas"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Rondônia",
+        "sources": [
+          "PORTOVELHO_IBGEHIST",
+          "PORTOVELHO_PAMZ"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio junto à cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Madeira"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Branco"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rio Acre"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Tocantins"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Madeira",
+        "sources": [
+          "PORTOVELHO_IBGEHIST",
+          "PORTOVELHO_PAMZ",
+          "PORTOVELHO_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-porto-velho-viajante-P01",
+            "factKey": "norte-porto-velho-F01",
+            "text": "Esta cidade é uma capital estadual brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P02",
+            "factKey": "norte-porto-velho-F02",
+            "text": "A capital fica na região Norte do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P03",
+            "factKey": "norte-porto-velho-F03",
+            "text": "O núcleo da cidade se formou às margens de um rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P04",
+            "factKey": "norte-porto-velho-F04",
+            "text": "O rio que banha a cidade é um afluente do Amazonas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P05",
+            "factKey": "norte-porto-velho-F05",
+            "text": "O nome do rio é Madeira.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P06",
+            "factKey": "norte-porto-velho-F06",
+            "text": "Esta é a capital de Rondônia.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P07",
+            "factKey": "norte-porto-velho-F07",
+            "text": "A cidade cresceu ligada à construção de uma ferrovia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P08",
+            "factKey": "norte-porto-velho-F08",
+            "text": "A ferrovia foi construída no início do século XX e terminou em 1912.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P09",
+            "factKey": "norte-porto-velho-F09",
+            "text": "A linha servia para levar borracha da região e da Bolívia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P10",
+            "factKey": "norte-porto-velho-F10",
+            "text": "Ela ajudava a contornar trechos de rio com muitas cachoeiras.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P11",
+            "factKey": "norte-porto-velho-F11",
+            "text": "A ferrovia se chama Madeira-Mamoré.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P12",
+            "factKey": "norte-porto-velho-F12",
+            "text": "Um pequeno povoado cresceu perto das obras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P13",
+            "factKey": "norte-porto-velho-F13",
+            "text": "O município foi criado em 1914.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P14",
+            "factKey": "norte-porto-velho-F14",
+            "text": "Na época da criação, o município fazia parte do Amazonas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P15",
+            "factKey": "norte-porto-velho-F15",
+            "text": "Depois passou a ser capital do Território Federal do Guaporé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P16",
+            "factKey": "norte-porto-velho-F16",
+            "text": "Um bairro à beira do rio se chama Triângulo, por causa da manobra que o trem fazia para voltar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_BAIRROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P17",
+            "factKey": "norte-porto-velho-F17",
+            "text": "Trabalhadores de muitas nacionalidades participaram da construção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P18",
+            "factKey": "norte-porto-velho-F18",
+            "text": "Entre esses trabalhadores havia muita gente vinda do Caribe.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P19",
+            "factKey": "norte-porto-velho-F19",
+            "text": "Casas de madeira e palha abrigavam parte dos moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P20",
+            "factKey": "norte-porto-velho-F20",
+            "text": "A área da ferrovia e o resto da vila pareciam duas cidades separadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P21",
+            "factKey": "norte-porto-velho-F21",
+            "text": "Uma avenida marcou a separação entre essas áreas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_BAIRROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P22",
+            "factKey": "norte-porto-velho-F22",
+            "text": "Três caixas-d’água são símbolos ligados à história ferroviária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_CAIXAS",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P23",
+            "factKey": "norte-porto-velho-F23",
+            "text": "As caixas-d’água vieram dos Estados Unidos e foram instaladas entre 1910 e 1912.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_CAIXAS",
+              "PORTOVELHO_GUIA",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P24",
+            "factKey": "norte-porto-velho-F24",
+            "text": "Elas abasteceram a cidade com água potável até 1957.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_CAIXAS",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-viajante-P25",
+            "factKey": "norte-porto-velho-F25",
+            "text": "O Censo de 2022 contou mais de 460 mil moradores no município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-porto-velho-geografo-P01",
+            "factKey": "norte-porto-velho-F01",
+            "text": "O destino exerce função de capital estadual no Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P02",
+            "factKey": "norte-porto-velho-F02",
+            "text": "A cidade integra a rede urbana da região Norte brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P03",
+            "factKey": "norte-porto-velho-F03",
+            "text": "Dificuldades naturais no porto de Santo Antônio deslocaram o ponto inicial da ferrovia para um porto rio abaixo, origem do núcleo urbano.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P04",
+            "factKey": "norte-porto-velho-F04",
+            "text": "A cidade ocupa a margem leste de um grande afluente da margem direita do Amazonas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P05",
+            "factKey": "norte-porto-velho-F05",
+            "text": "O rio Madeira, descrito como o maior afluente do Amazonas, banha a capital.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PORTOVELHO_GUIA",
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P06",
+            "factKey": "norte-porto-velho-F06",
+            "text": "A cidade concentra a administração estadual de Rondônia desde a criação do estado, em 1981.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P07",
+            "factKey": "norte-porto-velho-F07",
+            "text": "A formação urbana esteve associada a uma infraestrutura ferroviária amazônica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P08",
+            "factKey": "norte-porto-velho-F08",
+            "text": "O povoamento começou por volta de 1907 e a ferrovia foi concluída em 1912.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P09",
+            "factKey": "norte-porto-velho-F09",
+            "text": "A ferrovia foi concebida para escoar a borracha boliviana e da região de Guajará-Mirim.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P10",
+            "factKey": "norte-porto-velho-F10",
+            "text": "A linha superava por terra cerca de 380 km de trecho encachoeirado que impedia a navegação.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P11",
+            "factKey": "norte-porto-velho-F11",
+            "text": "A Estrada de Ferro Madeira-Mamoré ligava a cidade a Guajará-Mirim, completando a rota fluvial interrompida.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PORTOVELHO_GUIA",
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P12",
+            "factKey": "norte-porto-velho-F12",
+            "text": "As obras ferroviárias atraíram moradores e deram origem a um núcleo de cerca de mil habitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P13",
+            "factKey": "norte-porto-velho-F13",
+            "text": "O antigo povoado tornou-se município pela Lei estadual nº 757, de 2 de outubro de 1914.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P14",
+            "factKey": "norte-porto-velho-F14",
+            "text": "Desmembrado de Humaitá, o município integrou o Amazonas até a criação de um território federal em 1943.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P15",
+            "factKey": "norte-porto-velho-F15",
+            "text": "Em 1943, tornou-se capital do Território Federal do Guaporé, mudando sua função administrativa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_PAMZ",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P16",
+            "factKey": "norte-porto-velho-F16",
+            "text": "O nome do bairro Triângulo vem do desvio em triângulo onde as locomotivas manobravam para retornar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_BAIRROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P17",
+            "factKey": "norte-porto-velho-F17",
+            "text": "Trabalhadores de mais de duas dezenas de nacionalidades marcaram a ocupação inicial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P18",
+            "factKey": "norte-porto-velho-F18",
+            "text": "Trabalhadores negros vindos das ilhas britânicas do Caribe formaram o maior bairro, a Barbadoes Town.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P19",
+            "factKey": "norte-porto-velho-F19",
+            "text": "Moradias de madeira e palha surgiram fora da área de concessão ferroviária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P20",
+            "factKey": "norte-porto-velho-F20",
+            "text": "A concessão da ferrovia e a área pública tinham idiomas, comércio e normas próprios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P21",
+            "factKey": "norte-porto-velho-F21",
+            "text": "A antiga Avenida Divisória, atual Presidente Dutra, foi a linha entre os dois setores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_IBGEHIST",
+              "PORTOVELHO_BAIRROS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P22",
+            "factKey": "norte-porto-velho-F22",
+            "text": "As Três Caixas d’Água são um memorial da construção da ferrovia na parte alta da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_CAIXAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P23",
+            "factKey": "norte-porto-velho-F23",
+            "text": "Fabricadas por uma empresa de Chicago, as caixas têm 200 mil litros cada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P24",
+            "factKey": "norte-porto-velho-F24",
+            "text": "Instaladas entre 1910 e 1912, as caixas forneceram água potável até 1957.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_CAIXAS",
+              "PORTOVELHO_GUIA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-porto-velho-geografo-P25",
+            "factKey": "norte-porto-velho-F25",
+            "text": "O Censo 2022 registrou 460.434 habitantes em um município de cerca de 34 mil km², a maior área entre as capitais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PORTOVELHO_WIKI",
+              "PORTOVELHO_PAMZ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital de Rondônia, na margem leste do rio Madeira, surgida por volta de 1907 com a construção da Estrada de Ferro Madeira-Mamoré e criada como município em 1914.",
+      "editorialNotes": [
+        "A página do IBGE Cidades não abriu (erro do site); a população do Censo 2022 (460.434) foi conferida na Wikipedia, que cita o IBGE.",
+        "As fontes dão 'instaladas entre 1910 e 1912' para as caixas-d’água; a divisão do rascunho (uma em 1910, duas em 1912) não foi confirmada e saiu das pistas.",
+        "O guia municipal descreve o Madeira como o maior afluente do Amazonas; a extensão citada no guia (1.450 km) não foi usada."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes reabertas por busca (histórico do IBGE, Wikipedia, Portal Amazônia, guia turístico municipal publicado pelo MTur); origem ferroviária, datas administrativas, bairros, caixas-d’água e população conferidos."
+    }
+  },
+  "sources": {
+    "PORTOVELHO_IBGEHIST": {
+      "id": "PORTOVELHO_IBGEHIST",
+      "title": "Porto Velho (RO) — Histórico",
+      "publisher": "IBGE — Biblioteca (Documentação Territorial do Brasil)",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/rondonia/portovelho.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PORTOVELHO_WIKI": {
+      "id": "PORTOVELHO_WIKI",
+      "title": "Porto Velho",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Porto_Velho",
+      "checkedAt": "2026-11-15"
+    },
+    "PORTOVELHO_PAMZ": {
+      "id": "PORTOVELHO_PAMZ",
+      "title": "Porto Velho — Amazônia de A a Z",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/amazonia-de-a-a-z/porto-velho/",
+      "checkedAt": "2026-11-15"
+    },
+    "PORTOVELHO_BAIRROS": {
+      "id": "PORTOVELHO_BAIRROS",
+      "title": "4 histórias curiosas sobre a origem de bairros de Porto Velho",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/cultura/historias-curiosas-sobre-origem-de-bairros-de-porto-velho/",
+      "checkedAt": "2026-11-15"
+    },
+    "PORTOVELHO_GUIA": {
+      "id": "PORTOVELHO_GUIA",
+      "title": "Visite Porto Velho — miniguia turístico",
+      "publisher": "Prefeitura de Porto Velho (publicado pelo Ministério do Turismo)",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/noticias/capital-de-rondonia-porto-velho-completa-107-anos-neste-sabado-2/GuiaTurstico_PortoVelho.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PORTOVELHO_CAIXAS": {
+      "id": "PORTOVELHO_CAIXAS",
+      "title": "Três caixas d'água — Amazônia de A a Z",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/amazonia-az/tres-caixas-d-agua",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/rondonia/portovelho.pdf",
+      "https://en.wikipedia.org/wiki/Porto_Velho",
+      "https://portalamazonia.com/amazonia-de-a-a-z/porto-velho/",
+      "https://portalamazonia.com/cultura/historias-curiosas-sobre-origem-de-bairros-de-porto-velho/",
+      "https://www.gov.br/turismo/pt-br/assuntos/noticias/capital-de-rondonia-porto-velho-completa-107-anos-neste-sabado-2/GuiaTurstico_PortoVelho.pdf",
+      "https://portalamazonia.com/amazonia-az/tres-caixas-d-agua"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (Prefeitura, Semec, Semtel) não apareceram nas buscas e a página do IBGE Cidades falhou; substituídas pelo histórico municipal do IBGE, Wikipedia, Portal Amazônia (2 páginas) e guia turístico municipal.",
+      "viajante P16 (Triângulo) reescrita com a origem do nome; P23–P24 (uma caixa em 1910, duas em 1912, sem apoio) trocadas por 'instaladas entre 1910 e 1912' e abastecimento até 1957; P08, P09, P18, P20 ajustadas às fontes.",
+      "geografo P03 trocada (porto de Santo Antônio → porto rio abaixo); P04 'margem direita' corrigida para 'margem leste' (fontes); P05, P08–P14, P16–P18, P20–P25 reescritas com dados do IBGE e demais fontes; P23 trocada por fabricante e capacidade das caixas.",
+      "Força das pistas: viajante P01–P02 abertura, P06 e P11 decisivas; geografo P01–P02 abertura, P11 e P18 decisivas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

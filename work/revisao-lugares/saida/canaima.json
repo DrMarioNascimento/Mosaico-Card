@@ -1,0 +1,1083 @@
+{
+  "case": {
+    "id": "lug2-canaima",
+    "placeId": "canaima",
+    "title": "Parque Nacional Canaima",
+    "aliases": [
+      "Canaima"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "VE"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área protegida",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional Canaima"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Serranía de la Neblina"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional Duida-Marahuaca"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Jaua-Sarisariñama"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Parima-Tapirapecó"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Yapacana"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional Henri Pittier"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Sierra Nevada"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Kaieteur"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Reserva Natural do Suriname Central"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Serranía de Chiribiquete"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Noel Kempff Mercado"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional Canaima",
+        "sources": [
+          "CANAIMA_WP",
+          "CANAIMA_MISSAO"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Venezuela"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Guiana"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Colômbia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Suriname"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Venezuela",
+        "sources": [
+          "CANAIMA_WP",
+          "CANAIMA_MISSAO"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Relevo que domina a maior parte da área protegida",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Tepuis, montanhas de topo plano e paredes verticais"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Cones vulcânicos cobertos de neve"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Torres de calcário, em relevo cárstico"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Campos de dunas móveis"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Tepuis, montanhas de topo plano e paredes verticais",
+        "sources": [
+          "CANAIMA_WP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio cuja bacia da margem direita está inteira dentro da área protegida",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Caroní"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Caura"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rio Ventuari"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Cuyuní"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Caroní",
+        "sources": [
+          "CANAIMA_WP"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "canaima-viajante-P01",
+            "factKey": "canaima-F01",
+            "text": "Este destino protege uma área enorme de natureza na América do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_PP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P02",
+            "factKey": "canaima-F02",
+            "text": "Savanas abertas e florestas tropicais dividem a paisagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P03",
+            "factKey": "canaima-F03",
+            "text": "A área protegida chega às fronteiras com o Brasil e com a Guiana.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P04",
+            "factKey": "canaima-F04",
+            "text": "O parque fica no sudeste da Venezuela.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P05",
+            "factKey": "canaima-F05",
+            "text": "Montanhas de topo plano e paredes quase verticais cobrem boa parte do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P06",
+            "factKey": "canaima-F06",
+            "text": "Essas montanhas de mesa são chamadas tepuis.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P07",
+            "factKey": "canaima-F07",
+            "text": "As rochas dos tepuis são arenitos muito antigos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P08",
+            "factKey": "canaima-F08",
+            "text": "A queda d’água mais alta do mundo, com 979 metros, despenca de um desses tepuis.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P09",
+            "factKey": "canaima-F09",
+            "text": "Uma linha de transmissão que cruza o parque gerou protestos de comunidades indígenas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_SOC",
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P10",
+            "factKey": "canaima-F10",
+            "text": "Outra cachoeira altíssima cai do tepui Kukenán.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P11",
+            "factKey": "canaima-F11",
+            "text": "Plantas carnívoras que só existem nessa região crescem por lá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P12",
+            "factKey": "canaima-F12",
+            "text": "Cerca de 300 espécies de plantas da savana local não existem em nenhum outro lugar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_WP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P13",
+            "factKey": "canaima-F13",
+            "text": "Na savana, o fogo faz parte do funcionamento natural da paisagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P14",
+            "factKey": "canaima-F14",
+            "text": "O povo pemón vive em dezenas de comunidades dentro do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_WP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P15",
+            "factKey": "canaima-F15",
+            "text": "Para os pemón, os tepuis são morada de espíritos chamados mawari.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P16",
+            "factKey": "canaima-F16",
+            "text": "Queimadas tradicionais dos pemón ainda fazem parte do uso da terra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_INF18"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P17",
+            "factKey": "canaima-F17",
+            "text": "O parque abraça toda a bacia de um dos lados do rio Caroní.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P18",
+            "factKey": "canaima-F18",
+            "text": "As águas que saem do parque alimentam uma grande represa hidrelétrica.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_INF18"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P19",
+            "factKey": "canaima-F19",
+            "text": "O parque tem cerca de 30 mil quilômetros quadrados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_PP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P20",
+            "factKey": "canaima-F20",
+            "text": "O parque foi criado em 1962.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P21",
+            "factKey": "canaima-F21",
+            "text": "A UNESCO reconheceu o parque como Patrimônio Mundial em 1994.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P22",
+            "factKey": "canaima-F22",
+            "text": "Uma estrada marca o limite leste do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P23",
+            "factKey": "canaima-F23",
+            "text": "Garimpos nas vizinhanças preocupam quem protege o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P24",
+            "factKey": "canaima-F24",
+            "text": "Trilhas abertas por jipes perto de uma lagoa turística preocupam os gestores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-viajante-P25",
+            "factKey": "canaima-F25",
+            "text": "As rochas dos tepuis vêm de um tempo em que a América do Sul e a África eram unidas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "historia-natural",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "canaima-geografo-P01",
+            "factKey": "canaima-F01",
+            "text": "A unidade reúne planaltos isolados, savanas e florestas num só território protegido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_WP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P02",
+            "factKey": "canaima-F02",
+            "text": "Savanas de planalto e floresta tropical primária formam um mosaico de vegetação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P03",
+            "factKey": "canaima-F03",
+            "text": "Situa-se numa área de fronteira compartilhada por três países sul-americanos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P04",
+            "factKey": "canaima-F04",
+            "text": "Ocupa parte do estado de Bolívar e coincide, grosso modo, com a região da Gran Sabana.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P05",
+            "factKey": "canaima-F05",
+            "text": "Cerca de 65% da superfície é ocupada por tepuis, planaltos tabulares de paredes verticais.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P06",
+            "factKey": "canaima-F06",
+            "text": "Os tepuis mantêm fortes ligações ecológicas com a savana ao redor, segundo a IUCN.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_SOC"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P07",
+            "factKey": "canaima-F07",
+            "text": "Os tepuis são restos de arenito de uma antiga cobertura sedimentar apoiada em embasamento granítico.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P08",
+            "factKey": "canaima-F08",
+            "text": "Do Auyantepui despenca a queda d’água mais alta do mundo, com 979 m.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P09",
+            "factKey": "canaima-F09",
+            "text": "Uma linha de transmissão até Santa Elena de Uairén cruzou o parque e motivou a missão UNESCO/IUCN de 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P10",
+            "factKey": "canaima-F10",
+            "text": "O Kukenán, também chamado Matawí, abriga outra das grandes quedas d’água da área.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P11",
+            "factKey": "canaima-F11",
+            "text": "Gêneros de plantas carnívoras endêmicas, como Heliamphora e Brocchinia, ocorrem na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P12",
+            "factKey": "canaima-F12",
+            "text": "A Gran Sabana tem seis complexos de vegetação, cerca de 300 espécies e seis gêneros endêmicos de plantas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P13",
+            "factKey": "canaima-F13",
+            "text": "Ecossistemas de savana dependentes do fogo dominam a Gran Sabana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_INF18"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P14",
+            "factKey": "canaima-F14",
+            "text": "Cerca de 80 comunidades pemón, com 12 a 15 mil pessoas, viviam no parque em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_INF18"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P15",
+            "factKey": "canaima-F15",
+            "text": "Os pemón, de língua do tronco caribe, associam os tepuis a espíritos mawari.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P16",
+            "factKey": "canaima-F16",
+            "text": "A missão de 1999 considerou manejável o fogo, em grande parte ligado às queimadas tradicionais pemón.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_INF18"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P17",
+            "factKey": "canaima-F17",
+            "text": "Ao abranger toda a bacia da margem direita do Caroní, a unidade protege cabeceiras de um grande rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P18",
+            "factKey": "canaima-F18",
+            "text": "O Caroní alimenta a represa de Guri, e a hidrelétrica estatal EDELCA apoia a proteção da bacia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_INF18"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P19",
+            "factKey": "canaima-F19",
+            "text": "Os cerca de 30 mil km² equivalem, aproximadamente, à área da região natural da Gran Sabana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_PP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P20",
+            "factKey": "canaima-F20",
+            "text": "Criado em 12 de junho de 1962, o parque precede em três décadas o título da UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P21",
+            "factKey": "canaima-F21",
+            "text": "A inscrição de 1994 usou os quatro critérios naturais da UNESCO (vii a x).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_WP",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P22",
+            "factKey": "canaima-F22",
+            "text": "O limite leste acompanha a estrada El Dorado–Santa Elena.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P23",
+            "factKey": "canaima-F23",
+            "text": "O garimpo avança de Las Claritas, ao norte, e entra ilegalmente pelo sul, a partir do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P24",
+            "factKey": "canaima-F24",
+            "text": "Trilhas desordenadas de veículos 4x4 junto a uma lagoa turística pedem um plano de turismo sustentável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CANAIMA_MISSAO",
+              "CANAIMA_SOC"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "canaima-geografo-P25",
+            "factKey": "canaima-F25",
+            "text": "A origem dos tepuis remonta à época em que América do Sul e África formavam um supercontinente.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CANAIMA_WP"
+            ],
+            "clueType": "historia-natural",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque do sudeste da Venezuela, na fronteira com o Brasil e a Guiana, dominado por tepuis de arenito, com a Gran Sabana, florestas, o Salto Ángel e comunidades pemón.",
+      "editorialNotes": [
+        "A ampliação de 1975 citada no rascunho não foi confirmada nas fontes abertas e saiu das pistas.",
+        "Área: a UNESCO (missão de 1999) fala em cerca de 3 milhões de hectares; Protected Planet e Wikipedia, em 30 mil km². A IUCN sugeriu concentrar o bem na porção dos tepuis (cerca de 2 milhões de hectares).",
+        "O Parque Nacional do Monte Roraima (lado brasileiro) já está no banco; as pistas evitam o Roraima e se apoiam no Salto Ángel, no Kukenán, na Gran Sabana e no Caroní, que são do lado venezuelano."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos no relatório da missão UNESCO/IUCN de 1999, no estado de conservação da UNESCO, na Wikipedia e no Protected Planet; C1, C3, C4 e alternativas refeitos."
+    }
+  },
+  "sources": {
+    "CANAIMA_MISSAO": {
+      "id": "CANAIMA_MISSAO",
+      "title": "Report on the Mission to Canaima National Park, 16-19 May 1999",
+      "publisher": "UNESCO World Heritage Centre / IUCN",
+      "url": "https://whc.unesco.org/document/134048",
+      "checkedAt": "2026-11-15"
+    },
+    "CANAIMA_INF18": {
+      "id": "CANAIMA_INF18",
+      "title": "WHC-99/CONF.204/INF.18 — Canaima National Park mission report",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/219",
+      "checkedAt": "2026-11-15"
+    },
+    "CANAIMA_SOC": {
+      "id": "CANAIMA_SOC",
+      "title": "State of conservation: Canaima National Park (1999)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/2327",
+      "checkedAt": "2026-11-15"
+    },
+    "CANAIMA_WP": {
+      "id": "CANAIMA_WP",
+      "title": "Canaima National Park",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Canaima_National_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "CANAIMA_PP": {
+      "id": "CANAIMA_PP",
+      "title": "Canaima National Park",
+      "publisher": "Protected Planet (UNEP-WCMC / IUCN)",
+      "url": "https://www.protectedplanet.net/61612",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/134048",
+      "https://whc.unesco.org/document/219",
+      "https://whc.unesco.org/en/soc/2327",
+      "https://whc.unesco.org/en/list/701/documents",
+      "https://en.wikipedia.org/wiki/Canaima_National_Park",
+      "https://www.protectedplanet.net/61612"
+    ],
+    "alteracoes": [
+      "Fonte CANAIMA701 (avaliação da IUCN, whc.unesco.org/document/154052) substituída: não apareceu em busca e não pôde ser aberta; dados conferidos no relatório da missão UNESCO/IUCN de 1999 (CANAIMA_MISSAO e CANAIMA_INF18), no estado de conservação da UNESCO (CANAIMA_SOC), na Wikipedia (CANAIMA_WP) e no Protected Planet (CANAIMA_PP).",
+      "C1: rótulo ‘Parque nacional’ trocado por ‘Área protegida’; saíram parques brasileiros (Monte Roraima, Serra do Divisor, Jaú, Pico da Neblina) e El Ávila; entraram Henri Pittier, Kaieteur (Guiana), Suriname Central, Chiribiquete (Colômbia) e Noel Kempff Mercado (Bolívia).",
+      "C2: Equador e Peru trocados por Guiana e Suriname (países do mesmo planalto).",
+      "C3: alternativas implausíveis (recifes, fiordes) trocadas por outros relevos continentais; rótulo ancorado no dado de que os tepuis cobrem cerca de 65% do parque.",
+      "C4: rótulo e alternativas refeitos com rios da região (Caroní, Caura, Ventuari, Cuyuní); gabarito único pela bacia da margem direita do Caroní.",
+      "Pistas sem apoio retiradas: ampliação de 1975, ‘Escudo das Guianas’ (não aparece nas fontes abertas), erosão ‘de longa duração’; números de área conferidos.",
+      "Viajante: P01–P25 reescritas ou trocadas (979 m do Salto Ángel, Kukenán, linha de transmissão, plantas carnívoras, ~300 espécies endêmicas, fogo na savana, mawari, estrada no limite leste, garimpo, trilhas de jipe).",
+      "Geógrafo: P01–P25 reescritas para relações e processos (65% de tepuis, cobertura sedimentar sobre granito, ligação tepui–savana, represa de Guri, EDELCA, 80 comunidades pemón em 1999, Las Claritas, supercontinente).",
+      "Sinais: P01–P02 abertura e P08 e P10 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

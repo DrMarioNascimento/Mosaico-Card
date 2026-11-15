@@ -1,0 +1,1080 @@
+{
+ "case": {
+  "id": "lug2-territorio-indigena-xingu",
+  "placeId": "territorio-indigena-xingu",
+  "title": "Território Indígena do Xingu",
+  "aliases": [
+   "Xingu"
+  ],
+  "answerType": "território indígena",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Terra ou território indígena",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Território Indígena do Xingu"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Terra Indígena Yanomami"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Terra Indígena Raposa Serra do Sol"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Terra Indígena Alto Rio Negro"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Terra Indígena Kayapó"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Terra Indígena Vale do Javari"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Terra Indígena Arariboia"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Terra Indígena Parque do Araguaia"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Terra Indígena Marãiwatsédé"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Terra Indígena Uru-Eu-Wau-Wau"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Terra Indígena Parque do Tumucumaque"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Terra Indígena Kadiwéu"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Território Indígena do Xingu",
+    "sources": [
+     "XINGU_PLANO",
+     "XINGU_PIB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estado onde se situa",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Mato Grosso"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Pará"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Tocantins"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rondônia"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Mato Grosso",
+    "sources": [
+     "XINGU_PIB",
+     "XINGU_PLANO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ambientes em transição",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Cerrado e Floresta Amazônica"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cerrado e Pantanal"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Caatinga e Cerrado"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Mata Atlântica e Cerrado"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Cerrado e Floresta Amazônica",
+    "sources": [
+     "XINGU_ISA2018",
+     "XINGU_PIB"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Povos presentes no território",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Aweti, Kuikuro e Yudja"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Xavante, Bororo e Paresi"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Yanomami, Ye’kwana e Sanöma"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Guarani, Kaingang e Xokleng"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Aweti, Kuikuro e Yudja",
+    "sources": [
+     "XINGU_PLANO",
+     "XINGU_PIB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "territorio-indigena-xingu-viajante-P01",
+      "factKey": "territorio-indigena-xingu-F01",
+      "text": "Este destino é um território de povos indígenas no Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P02",
+      "factKey": "territorio-indigena-xingu-F02",
+      "text": "Fica no nordeste de Mato Grosso.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P03",
+      "factKey": "territorio-indigena-xingu-F03",
+      "text": "Ali vivem povos com línguas e tradições diferentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P04",
+      "factKey": "territorio-indigena-xingu-F04",
+      "text": "São 16 povos indígenas vivendo no território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_ISA2018",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P05",
+      "factKey": "territorio-indigena-xingu-F05",
+      "text": "A parte mais antiga do território foi criada em 1961.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB",
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P06",
+      "factKey": "territorio-indigena-xingu-F06",
+      "text": "Terras indígenas vizinhas foram reconhecidas depois e se juntaram ao conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P07",
+      "factKey": "territorio-indigena-xingu-F07",
+      "text": "Uma das terras do conjunto se chama Wawi.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P08",
+      "factKey": "territorio-indigena-xingu-F08",
+      "text": "Outra terra do conjunto se chama Batovi.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P09",
+      "factKey": "territorio-indigena-xingu-F09",
+      "text": "A terra Pequizal do Naruvôtu também faz parte do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P10",
+      "factKey": "territorio-indigena-xingu-F10",
+      "text": "Os Aweti e os Ikpeng estão entre os povos que vivem ali.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P11",
+      "factKey": "territorio-indigena-xingu-F11",
+      "text": "Kalapalo e Kamaiurá também vivem no território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P12",
+      "factKey": "territorio-indigena-xingu-F12",
+      "text": "O povo Kuikuro também vive ali.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P13",
+      "factKey": "territorio-indigena-xingu-F13",
+      "text": "Waurá e Yudja são outros povos do território.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P14",
+      "factKey": "territorio-indigena-xingu-F14",
+      "text": "A área fica numa região de transição entre o Cerrado e a Amazônia.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "XINGU_ISA2018",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P15",
+      "factKey": "territorio-indigena-xingu-F15",
+      "text": "As chuvas se concentram de novembro a abril.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P16",
+      "factKey": "territorio-indigena-xingu-F16",
+      "text": "No sul do território, peixe e mandioca são a base da alimentação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P17",
+      "factKey": "territorio-indigena-xingu-F17",
+      "text": "O Kuarup é uma grande cerimônia em homenagem a líderes que morreram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P18",
+      "factKey": "territorio-indigena-xingu-F18",
+      "text": "Uma associação indígena coordena as reuniões e decisões conjuntas do território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P19",
+      "factKey": "territorio-indigena-xingu-F19",
+      "text": "O plano dos povos prevê que as próprias comunidades façam a vigilância, com apoio da Funai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P20",
+      "factKey": "territorio-indigena-xingu-F20",
+      "text": "Brigadas indígenas ajudam a combater incêndios florestais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P21",
+      "factKey": "territorio-indigena-xingu-F21",
+      "text": "Fazendas de soja e gado ocupam boa parte do entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P22",
+      "factKey": "territorio-indigena-xingu-F22",
+      "text": "Visto de cima, o território parece uma ilha de floresta no meio de pastos e lavouras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P23",
+      "factKey": "territorio-indigena-xingu-F23",
+      "text": "Rodovias passam perto dos limites do território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P24",
+      "factKey": "territorio-indigena-xingu-F24",
+      "text": "Os povos construíram juntos um plano de gestão do território, aprovado em 2015.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-viajante-P25",
+      "factKey": "territorio-indigena-xingu-F25",
+      "text": "Em 2023, caciques dos 16 povos pediram ao governo ações contra a extração ilegal de madeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_CARTA2023"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "territorio-indigena-xingu-geografo-P01",
+      "factKey": "territorio-indigena-xingu-F01",
+      "text": "O objeto é um território indígena formado por mais de uma terra oficialmente reconhecida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P02",
+      "factKey": "territorio-indigena-xingu-F02",
+      "text": "Situa-se no nordeste mato-grossense, no sul da Amazônia brasileira.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P03",
+      "factKey": "territorio-indigena-xingu-F03",
+      "text": "Os povos falam línguas das famílias karib, aruak, tupi-guarani e jê, entre outras, além do trumai, sem classificação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P04",
+      "factKey": "territorio-indigena-xingu-F04",
+      "text": "Segundo o ISA, cerca de oito mil pessoas de 16 povos viviam no território em 2018.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P05",
+      "factKey": "territorio-indigena-xingu-F05",
+      "text": "Criado em 1961 por decreto de Jânio Quadros, o parque central foi a primeira grande terra indígena demarcada pelo governo federal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P06",
+      "factKey": "territorio-indigena-xingu-F06",
+      "text": "Segundo o ISA, a inclusão das terras Wawi e Batovi, em 1998, levou a área a cerca de 2,8 milhões de hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB",
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P07",
+      "factKey": "territorio-indigena-xingu-F07",
+      "text": "Wawi também nomeia um dos polos de apoio logístico, ao lado de Diauarum, Pavuru e Leonardo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P08",
+      "factKey": "territorio-indigena-xingu-F08",
+      "text": "Batovi e Pequizal do Naruvôtu estão entre as três terras somadas ao parque criado em 1961.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P09",
+      "factKey": "territorio-indigena-xingu-F09",
+      "text": "Para a gestão, o território se divide em quatro regiões: Alto, Médio, Baixo e Leste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P10",
+      "factKey": "territorio-indigena-xingu-F10",
+      "text": "Os Ikpeng, de língua karib, vivem no território mas não integram o complexo cultural da porção sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P11",
+      "factKey": "territorio-indigena-xingu-F11",
+      "text": "Kalapalo e Kamaiurá falam línguas de famílias diferentes, mas compartilham modos de vida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P12",
+      "factKey": "territorio-indigena-xingu-F12",
+      "text": "Na porção sul, dez povos se ligam por trocas especializadas, casamentos e rituais entre aldeias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P13",
+      "factKey": "territorio-indigena-xingu-F13",
+      "text": "Os Yudja, de língua juruna, e os Kĩsêdjê, de língua jê, têm culturas distintas das do sul do território.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P14",
+      "factKey": "territorio-indigena-xingu-F14",
+      "text": "A vegetação passa de savanas e florestas semideciduais, no sul, à floresta ombrófila amazônica, no norte.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P15",
+      "factKey": "territorio-indigena-xingu-F15",
+      "text": "O Kuarup se encerra na estação seca, por volta de agosto ou setembro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P16",
+      "factKey": "territorio-indigena-xingu-F16",
+      "text": "O pequi é alimento cerimonial, e aldeias produzem mel e óleo de pequi em parcerias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P17",
+      "factKey": "territorio-indigena-xingu-F17",
+      "text": "No Kuarup, troncos de árvore representam os mortos, e há lutas de huka-huka.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P18",
+      "factKey": "territorio-indigena-xingu-F18",
+      "text": "A governança interna tem três níveis de decisão, etnia, região e geral, com a ATIX como mediadora.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P19",
+      "factKey": "territorio-indigena-xingu-F19",
+      "text": "O plano de gestão prevê agentes indígenas de vigilância e a renovação dos marcos nos limites do território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P20",
+      "factKey": "territorio-indigena-xingu-F20",
+      "text": "Os incêndios são tratados como ameaça interna e externa, e todas as etnias se comprometem com prevenção e manejo do fogo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P21",
+      "factKey": "territorio-indigena-xingu-F21",
+      "text": "Segundo o ISA, em 30 anos 66% das florestas do entorno foram desmatadas e substituídas por monoculturas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P22",
+      "factKey": "territorio-indigena-xingu-F22",
+      "text": "O desmatamento de nascentes fora dos limites e os agrotóxicos ameaçam os rios que entram no território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO",
+       "XINGU_PIB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P23",
+      "factKey": "territorio-indigena-xingu-F23",
+      "text": "Em 2018, lotes da BR-242 estavam a cerca de 12 km do limite sul, e a Ferrogrão passaria rente ao limite oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_ISA2018"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P24",
+      "factKey": "territorio-indigena-xingu-F24",
+      "text": "O plano de gestão nasceu em 2008, quando os povos recusaram contratos de créditos de carbono e preferiram planejar o território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_PLANO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "territorio-indigena-xingu-geografo-P25",
+      "factKey": "territorio-indigena-xingu-F25",
+      "text": "Reunidos no Polo Diauarum em 2023, caciques pediram bases federais de fiscalização nos limites do território.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "XINGU_CARTA2023"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Território Indígena do Xingu, no nordeste de Mato Grosso, reúne o parque indígena criado em 1961 e as terras Wawi, Batovi e Pequizal do Naruvôtu; nele vivem 16 povos indígenas, numa região de transição entre Cerrado e Amazônia cada vez mais cercada por desmatamento.",
+   "editorialNotes": [
+    "A carta trata de um território vivo e dos direitos de seus povos; não o apresenta como atração turística.",
+    "A área total varia entre as fontes (cerca de 2,6 milhões de ha no Plano de Gestão; cerca de 2,8 milhões de ha segundo o ISA); as pistas atribuem o número ao ISA.",
+    "As grafias dos povos seguem as fontes (Waurá no Plano de Gestão; Wauja no Povos Indígenas no Brasil). As notícias da Funai do rascunho não apareceram nas buscas; a Funai consta como correalizadora do Plano de Gestão."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes indigenistas e dos próprios povos (Plano de Gestão ATIX/ISA/Funai, ISA, Povos Indígenas no Brasil, carta da 8ª GGTIX) abertas; 50 pistas conferidas com linguagem respeitosa e trocas das genéricas por fatos verificados; distratores de C2–C4 ajustados."
+  }
+ },
+ "sources": {
+  "XINGU_PLANO": {
+   "id": "XINGU_PLANO",
+   "title": "Plano de Gestão do Território Indígena do Xingu (aprovado em 2015)",
+   "publisher": "ATIX, IPEAX, Instituto Socioambiental (ISA) e Funai — Coordenação Regional do Xingu",
+   "url": "https://site-antigo.socioambiental.org/sites/blog.socioambiental.org/files/nsa/arquivos/plano_de_gestao_do_tix.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "XINGU_ISA2018": {
+   "id": "XINGU_ISA2018",
+   "title": "Parque Indígena do Xingu comemora 57 anos (13/04/2018)",
+   "publisher": "Instituto Socioambiental (ISA)",
+   "url": "https://site-antigo.socioambiental.org/pt-br/print/5973",
+   "checkedAt": "2026-11-15"
+  },
+  "XINGU_PIB": {
+   "id": "XINGU_PIB",
+   "title": "Xingu — Povos Indígenas no Brasil",
+   "publisher": "Instituto Socioambiental (ISA) — Povos Indígenas no Brasil",
+   "url": "https://indios.org.br/en/Povo:Xingu",
+   "checkedAt": "2026-11-15"
+  },
+  "XINGU_CARTA2023": {
+   "id": "XINGU_CARTA2023",
+   "title": "Carta Geral da 8ª Governança Geral do TIX sobre proteção territorial (Polo Diauarum, 05/04/2023)",
+   "publisher": "Caciques e lideranças dos povos do Território Indígena do Xingu (documento publicado pela InfoAmazonia)",
+   "url": "https://infoamazonia.org/wp-content/uploads/2023/09/Carta-Geral-da-8°-GGTIX-Sobre-Protecao-Territorial-do-TIX-1.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://site-antigo.socioambiental.org/sites/blog.socioambiental.org/files/nsa/arquivos/plano_de_gestao_do_tix.pdf",
+   "https://site-antigo.socioambiental.org/pt-br/print/5973",
+   "https://indios.org.br/en/Povo:Xingu",
+   "https://infoamazonia.org/wp-content/uploads/2023/09/Carta-Geral-da-8°-GGTIX-Sobre-Protecao-Territorial-do-TIX-1.pdf",
+   "https://acervo.socioambiental.org/acervo/area-protegida/parque-indigena-do-xingu-pi"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (notícias da Funai, Museu do Índio, ICMBio, Fundo Amazônia) não apareceram nas buscas; substituídas por XINGU_PLANO (ATIX/IPEAX/ISA/Funai), XINGU_ISA2018, XINGU_PIB e XINGU_CARTA2023, todas abertas",
+   "C1: rótulo virou \"Terra ou território indígena\" (só o gabarito se chamava \"Território\"); TI Pataxó de Barra Velha trocada por TI Parque do Tumucumaque",
+   "C2: Roraima, Acre e Maranhão trocados por Pará, Tocantins e Rondônia (estados vizinhos ou com transição semelhante)",
+   "C3: distratores implausíveis (manguezal, dunas, Pampa) trocados por outras transições do Cerrado (Pantanal, Caatinga, Mata Atlântica)",
+   "C4: \"Pataxó, Tupinambá e Potiguara\" trocado por \"Xavante, Bororo e Paresi\", povos de Mato Grosso que não vivem no território",
+   "viajante P15–P17 e geógrafo P15–P17: frases genéricas sobre ambiente e saberes → estação chuvosa, alimentação, pequi e Kuarup (Povos Indígenas no Brasil)",
+   "viajante P18–P25 e geógrafo P18–P25: gestão, vigilância, fogo e ameaças reescritos com o que dizem o Plano de Gestão, o ISA e a carta da 8ª GGTIX (governança em três níveis, brigadas, 66% de desmatamento no entorno, BR-242 e Ferrogrão, plano de 2008–2015, pedido de 2023 contra madeira ilegal)",
+   "geógrafo P03–P13: povos e terras com famílias linguísticas, complexo cultural da porção sul, população de 2018, decreto de 1961, ampliação de 1998, polos e regiões",
+   "Marcadas aberturas (P01 nos dois perfis) e decisivas (viajante P09 e P17; geógrafo P07 e P17)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

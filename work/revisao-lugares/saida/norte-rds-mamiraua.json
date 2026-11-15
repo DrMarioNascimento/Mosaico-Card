@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-norte-rds-mamiraua",
+    "placeId": "norte-rds-mamiraua",
+    "title": "Reserva de Desenvolvimento Sustentável Mamirauá",
+    "aliases": [
+      "Reserva Mamirauá"
+    ],
+    "answerType": "reserva de desenvolvimento sustentável",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Reserva de desenvolvimento sustentável",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Reserva de Desenvolvimento Sustentável Mamirauá"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Reserva de Desenvolvimento Sustentável Amanã"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Reserva de Desenvolvimento Sustentável Piagaçu-Purus"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Reserva de Desenvolvimento Sustentável Uacari"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Reserva de Desenvolvimento Sustentável do Uatumã"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Reserva de Desenvolvimento Sustentável do Rio Negro"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Reserva de Desenvolvimento Sustentável Aripuanã"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Reserva de Desenvolvimento Sustentável do Juma"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Reserva de Desenvolvimento Sustentável do Tupé"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Reserva de Desenvolvimento Sustentável Cujubim"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Reserva de Desenvolvimento Sustentável Mamirauá",
+        "sources": [
+          "MAMIR_WIKI",
+          "MAMIR_IDSM"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ambiente predominante",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Floresta de várzea sazonalmente inundada"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Campos de altitude com geadas sazonais"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Manguezal oceânico sujeito a marés"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Dunas costeiras e lagoas interdunares"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Floresta de várzea sazonalmente inundada",
+        "sources": [
+          "MAMIR_WIKI",
+          "MAMIR_WCMC"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estado brasileiro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Amazonas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pará"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Roraima"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Acre"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Amazonas",
+        "sources": [
+          "MAMIR_WIKI",
+          "MAMIR_IDSM"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rios da região da reserva",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Solimões, Japurá e Auati-Paraná"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Negro, Branco e Jauaperi"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Tapajós, Arapiuns e Amazonas"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Tocantins, Araguaia e Javaés"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Solimões, Japurá e Auati-Paraná",
+        "sources": [
+          "MAMIR_WIKI",
+          "MAMIR_IDSM",
+          "MAMIR_WCMC"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-rds-mamiraua-viajante-P01",
+            "factKey": "norte-rds-mamiraua-F01",
+            "text": "Este lugar protege ambientes amazônicos no Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P02",
+            "factKey": "norte-rds-mamiraua-F02",
+            "text": "A reserva fica no estado do Amazonas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P03",
+            "factKey": "norte-rds-mamiraua-F03",
+            "text": "Muitos trechos são cobertos por floresta inundável.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P04",
+            "factKey": "norte-rds-mamiraua-F04",
+            "text": "Na cheia, a água sobe muitos metros e cobre boa parte da floresta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC",
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P05",
+            "factKey": "norte-rds-mamiraua-F05",
+            "text": "Parte da vegetação passa uma época do ano debaixo da água.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P06",
+            "factKey": "norte-rds-mamiraua-F06",
+            "text": "Na seca, aparecem praias e campos em lugares que antes estavam alagados.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P07",
+            "factKey": "norte-rds-mamiraua-F07",
+            "text": "O lugar tem lagos e canais em meio à floresta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P08",
+            "factKey": "norte-rds-mamiraua-F08",
+            "text": "A reserva fica na região do médio rio Solimões.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P09",
+            "factKey": "norte-rds-mamiraua-F09",
+            "text": "O rio Japurá também está ligado à região.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P10",
+            "factKey": "norte-rds-mamiraua-F10",
+            "text": "Uarini é um dos municípios relacionados à área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P11",
+            "factKey": "norte-rds-mamiraua-F11",
+            "text": "Fonte Boa também é um dos municípios abrangidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P12",
+            "factKey": "norte-rds-mamiraua-F12",
+            "text": "Maraã está entre os municípios ligados à reserva.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P13",
+            "factKey": "norte-rds-mamiraua-F13",
+            "text": "Milhares de pessoas vivem em comunidades ribeirinhas dentro da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P14",
+            "factKey": "norte-rds-mamiraua-F14",
+            "text": "A área é uma reserva de desenvolvimento sustentável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P15",
+            "factKey": "norte-rds-mamiraua-F15",
+            "text": "Antes dessa categoria, a área era uma estação ecológica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P16",
+            "factKey": "norte-rds-mamiraua-F16",
+            "text": "A transformação da categoria ocorreu em 1996.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P17",
+            "factKey": "norte-rds-mamiraua-F17",
+            "text": "Em 1990, a área passou a ser uma estação ecológica estadual.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P18",
+            "factKey": "norte-rds-mamiraua-F18",
+            "text": "O local integra um conjunto reconhecido pela UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P19",
+            "factKey": "norte-rds-mamiraua-F19",
+            "text": "Esse conjunto também reúne outras áreas protegidas amazônicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P20",
+            "factKey": "norte-rds-mamiraua-F20",
+            "text": "O macaco uacari-branco só vive nessa região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P21",
+            "factKey": "norte-rds-mamiraua-F21",
+            "text": "O pirarucu é um peixe importante para práticas de manejo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P22",
+            "factKey": "norte-rds-mamiraua-F22",
+            "text": "Há experiências de manejo florestal comunitário na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P23",
+            "factKey": "norte-rds-mamiraua-F23",
+            "text": "Passeios por igarapés e vivências com ribeirinhos fazem parte do turismo comunitário.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_AGOV",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P24",
+            "factKey": "norte-rds-mamiraua-F24",
+            "text": "O lugar também é reconhecido como área úmida de importância internacional.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-viajante-P25",
+            "factKey": "norte-rds-mamiraua-F25",
+            "text": "O instituto de pesquisa ligado à reserva tem sede em Tefé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_AGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-rds-mamiraua-geografo-P01",
+            "factKey": "norte-rds-mamiraua-F01",
+            "text": "A área protegida localiza-se no domínio amazônico brasileiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P02",
+            "factKey": "norte-rds-mamiraua-F02",
+            "text": "A unidade estadual de conservação integra o território amazonense.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P03",
+            "factKey": "norte-rds-mamiraua-F03",
+            "text": "A paisagem é marcada por várzea de água branca, rica em nutrientes e sedimentos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC",
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P04",
+            "factKey": "norte-rds-mamiraua-F04",
+            "text": "As cheias anuais elevam o nível da água em 10 a 12 metros, podendo chegar a 15 em ciclos plurianuais.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P05",
+            "factKey": "norte-rds-mamiraua-F05",
+            "text": "Como a maior parte do território inunda na cheia, os mamíferos terrestres são pouco comuns.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P06",
+            "factKey": "norte-rds-mamiraua-F06",
+            "text": "Na vazante, emergem praias, diques naturais e campos em áreas antes alagadas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P07",
+            "factKey": "norte-rds-mamiraua-F07",
+            "text": "Lagos, canais antigos e florestas alagáveis formam um mosaico aquático dinâmico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P08",
+            "factKey": "norte-rds-mamiraua-F08",
+            "text": "A posição no médio Solimões integra a reserva à grande rede hidrográfica amazônica.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P09",
+            "factKey": "norte-rds-mamiraua-F09",
+            "text": "A unidade ocupa o interflúvio entre o Solimões, ao sul, o Japurá, a leste, e o canal Auati-Paraná, ao norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P10",
+            "factKey": "norte-rds-mamiraua-F10",
+            "text": "Cerca de metade da área está no município de Fonte Boa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P11",
+            "factKey": "norte-rds-mamiraua-F11",
+            "text": "Maraã responde por cerca de um quarto do território protegido.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P12",
+            "factKey": "norte-rds-mamiraua-F12",
+            "text": "Uarini abrange perto de um quinto da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P13",
+            "factKey": "norte-rds-mamiraua-F13",
+            "text": "Foi a primeira área protegida brasileira a combinar conservação e desenvolvimento sustentável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P14",
+            "factKey": "norte-rds-mamiraua-F14",
+            "text": "Assembleias anuais e fiscais voluntários das comunidades participam da gestão dos recursos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P15",
+            "factKey": "norte-rds-mamiraua-F15",
+            "text": "A mudança de categoria substituiu a estação ecológica pela reserva de desenvolvimento sustentável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P16",
+            "factKey": "norte-rds-mamiraua-F16",
+            "text": "Em 1996, o governo do Amazonas converteu a estação ecológica em reserva com 1.124.000 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WCMC",
+              "MAMIR_IDSM",
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P17",
+            "factKey": "norte-rds-mamiraua-F17",
+            "text": "Criada em 1986 por órgão federal, a área passou em 1990 à administração do governo do Amazonas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P18",
+            "factKey": "norte-rds-mamiraua-F18",
+            "text": "Em 2003, a área foi incorporada ao Complexo de Conservação da Amazônia Central, patrimônio mundial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P19",
+            "factKey": "norte-rds-mamiraua-F19",
+            "text": "No complexo, a reserva se articula ao Parque Nacional do Jaú, a Anavilhanas e à reserva vizinha de Amanã.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P20",
+            "factKey": "norte-rds-mamiraua-F20",
+            "text": "O uacari-branco, endêmico do médio Solimões, motivou a proposta de proteção da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P21",
+            "factKey": "norte-rds-mamiraua-F21",
+            "text": "O manejo participativo do pirarucu começou ali e foi replicado em Santarém e na Guiana a partir de 2001.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P22",
+            "factKey": "norte-rds-mamiraua-F22",
+            "text": "As primeiras licenças de manejo florestal comunitário em várzea foram aprovadas pelo Ibama para a reserva.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P23",
+            "factKey": "norte-rds-mamiraua-F23",
+            "text": "Entre 1998 e 2013, o turismo de base comunitária gerou cerca de R$ 1,9 milhão às comunidades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM",
+              "MAMIR_AGOV"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P24",
+            "factKey": "norte-rds-mamiraua-F24",
+            "text": "A designação Ramsar, de 1993, reconhece a importância global dessa área úmida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_WIKI",
+              "MAMIR_WCMC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rds-mamiraua-geografo-P25",
+            "factKey": "norte-rds-mamiraua-F25",
+            "text": "Tefé sedia o instituto, unidade de pesquisa do MCTI fundada em 1999.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MAMIR_IDSM"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Reserva de desenvolvimento sustentável no Amazonas, entre os rios Solimões e Japurá e o canal Auati-Paraná, onde as cheias da várzea e o manejo comunitário marcam a paisagem e a conservação.",
+      "editorialNotes": [
+        "Histórico diverge entre fontes: o Instituto Mamirauá indica criação federal em 1986 e passagem ao Amazonas em 1990; a ficha de Patrimônio Mundial dá a estação ecológica como criada em 1990 (área focal de 260 mil ha); ambas indicam a conversão em RDS em 1996.",
+        "Pela ficha de Patrimônio Mundial, só a zona focal da reserva entrou na extensão de 2003; as pistas falam da 'área' sem precisar o limite.",
+        "Fontes do rascunho (Sema, lei de 1996, UNESCO, Prefeitura de Uarini, MCTI) não foram abertas; a página da UNESCO falhou ao abrir."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes reabertas por busca (Wikipedia, publicação do Instituto Mamirauá, ficha de Patrimônio Mundial, Agência Gov); limites fluviais, municípios, histórico de categoria, cheias, fauna, manejo e reconhecimentos conferidos."
+    }
+  },
+  "sources": {
+    "MAMIR_WIKI": {
+      "id": "MAMIR_WIKI",
+      "title": "Mamirauá Sustainable Development Reserve",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mamirau%C3%A1_Sustainable_Development_Reserve",
+      "checkedAt": "2026-11-15"
+    },
+    "MAMIR_IDSM": {
+      "id": "MAMIR_IDSM",
+      "title": "O Macaqueiro nº 64 — edição especial 15 anos",
+      "publisher": "Instituto de Desenvolvimento Sustentável Mamirauá",
+      "url": "https://mamiraua.org.br/wp-content/uploads/2025/11/Feliz-aniversario-Instituto-Mamiraua.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MAMIR_WCMC": {
+      "id": "MAMIR_WCMC",
+      "title": "Central Amazon Conservation Complex — ficha técnica de Patrimônio Mundial (com base no dossiê do MMA, 2001; rev. 2012)",
+      "publisher": "Ficha de Patrimônio Mundial (cópia em thesalmons.org)",
+      "url": "https://www.thesalmons.org/lynn/wh-wcmc/Brazil%20-%20Central%20Amazon.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MAMIR_AGOV": {
+      "id": "MAMIR_AGOV",
+      "title": "Nove estados, um bioma: descubra a diversidade do turismo na Amazônia brasileira",
+      "publisher": "Agência Gov / Ministério do Turismo",
+      "url": "https://agenciagov.ebc.com.br/noticias/202607/nove-estados-um-bioma-descubra-a-diversidade-do-turismo-de-natureza-na-amazonia-brasileira",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.wikipedia.org/wiki/Mamirau%C3%A1_Sustainable_Development_Reserve",
+      "https://mamiraua.org.br/wp-content/uploads/2025/11/Feliz-aniversario-Instituto-Mamiraua.pdf",
+      "https://www.thesalmons.org/lynn/wh-wcmc/Brazil%20-%20Central%20Amazon.pdf",
+      "https://agenciagov.ebc.com.br/noticias/202607/nove-estados-um-bioma-descubra-a-diversidade-do-turismo-de-natureza-na-amazonia-brasileira"
+    ],
+    "alteracoes": [
+      "Todas as 7 fontes do rascunho foram substituídas (não apareceram nas buscas; a página da UNESCO falhou): Wikipedia, O Macaqueiro (Instituto Mamirauá, 2014), ficha de Patrimônio Mundial e Agência Gov/MTur.",
+      "viajante P04, P06, P13, P17, P20, P23 reescritas conforme as fontes; P24 (pesquisas, genérica) trocada por sítio Ramsar.",
+      "geografo P03–P07, P09–P14, P16–P25 reescritas ou trocadas: P16 sem a data da lei (não aberta); P17 com histórico 1986/1990 do Instituto; P24 trocada por Ramsar 1993; números de cheia (10–12 m), áreas por município e manejo vinculados às fontes.",
+      "Força das pistas: viajante P01 e P04 abertura, P20 e P25 decisivas; geografo P01 e P04 abertura, P09 e P20 decisivas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

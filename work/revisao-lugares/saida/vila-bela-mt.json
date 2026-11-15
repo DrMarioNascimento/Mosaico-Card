@@ -1,0 +1,1103 @@
+{
+ "case": {
+  "id": "lug2-vila-bela-mt",
+  "placeId": "vila-bela-mt",
+  "title": "Vila Bela da Santíssima Trindade",
+  "aliases": [
+   "Vila Bela"
+  ],
+  "answerType": "cidade histórica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade histórica",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Vila Bela da Santíssima Trindade"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Cáceres"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Corumbá"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Pirenópolis"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Cidade de Goiás"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cuiabá"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Poconé"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Diamantino"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Pilar de Goiás"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Corumbá de Goiás"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Jaraguá"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Ladário"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Vila Bela da Santíssima Trindade",
+    "sources": [
+     "VBELA_UNIVAG",
+     "VBELA_NAUK"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio associado à cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Guaporé"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Cuiabá"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Araguaia"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Guaporé",
+    "sources": [
+     "VBELA_UNIVAG",
+     "VBELA_ACENO",
+     "VBELA_PFO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Elemento do patrimônio histórico",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Ruínas de uma antiga igreja matriz"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Ruínas de uma estação ferroviária"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Ruínas de uma missão jesuítica"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Ruínas de uma fábrica de tanino"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Ruínas de uma antiga igreja matriz",
+    "sources": [
+     "VBELA_UNIVAG",
+     "VBELA_PORTALAMZ",
+     "VBELA_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado brasileiro",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mato Grosso"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Mato Grosso do Sul"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Goiás"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Rondônia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mato Grosso",
+    "sources": [
+     "VBELA_UNIVAG",
+     "VBELA_ACENO"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "vila-bela-mt-viajante-P01",
+      "factKey": "vila-bela-mt-F01",
+      "text": "Este lugar é uma cidade histórica brasileira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PFO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P02",
+      "factKey": "vila-bela-mt-F02",
+      "text": "Fica no extremo oeste de Mato Grosso.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "VBELA_PORTALAMZ",
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P03",
+      "factKey": "vila-bela-mt-F03",
+      "text": "Foi fundada para ser a capital da capitania de Mato Grosso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_WIKI",
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P04",
+      "factKey": "vila-bela-mt-F04",
+      "text": "A cidade foi fundada em 1752.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P05",
+      "factKey": "vila-bela-mt-F05",
+      "text": "A região ficou conhecida pelas minas de ouro descobertas em 1734.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P06",
+      "factKey": "vila-bela-mt-F06",
+      "text": "Um rio importante para a cidade é o Guaporé.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P07",
+      "factKey": "vila-bela-mt-F07",
+      "text": "As ruínas de uma antiga igreja são o principal ponto turístico.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_WIKI",
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P08",
+      "factKey": "vila-bela-mt-F08",
+      "text": "A igreja em ruínas foi dedicada à Santíssima Trindade.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P09",
+      "factKey": "vila-bela-mt-F09",
+      "text": "As casas antigas da vila tinham paredes de adobe e telhado de telhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P10",
+      "factKey": "vila-bela-mt-F10",
+      "text": "A igreja antiga nunca chegou a ser concluída.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P11",
+      "factKey": "vila-bela-mt-F11",
+      "text": "A cidade tem um Palácio dos Capitães Generais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P12",
+      "factKey": "vila-bela-mt-F12",
+      "text": "Esse palácio foi a casa dos governadores da capitania.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P13",
+      "factKey": "vila-bela-mt-F13",
+      "text": "O palácio foi construído com taipa de pilão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P14",
+      "factKey": "vila-bela-mt-F14",
+      "text": "O Iphan protege as ruínas da igreja e o palácio desde 1988.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P15",
+      "factKey": "vila-bela-mt-F15",
+      "text": "A maioria dos moradores é negra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_ACENO",
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P16",
+      "factKey": "vila-bela-mt-F16",
+      "text": "A Festança é a grande festa da cidade, em julho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P17",
+      "factKey": "vila-bela-mt-F17",
+      "text": "A Festança homenageia São Benedito, o Divino Espírito Santo e a Santíssima Trindade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P18",
+      "factKey": "vila-bela-mt-F18",
+      "text": "A Dança do Congo é apresentada nas ruínas da antiga igreja.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P19",
+      "factKey": "vila-bela-mt-F19",
+      "text": "No Chorado, mulheres dançam equilibrando garrafas na cabeça.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P20",
+      "factKey": "vila-bela-mt-F20",
+      "text": "A cidade é ponto de partida para passeios ao Parque Estadual Serra de Ricardo Franco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P21",
+      "factKey": "vila-bela-mt-F21",
+      "text": "Nesse parque fica a Cascata dos Namorados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P22",
+      "factKey": "vila-bela-mt-F22",
+      "text": "O município tem dez comunidades quilombolas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P23",
+      "factKey": "vila-bela-mt-F23",
+      "text": "A cidade fica na Amazônia Legal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P24",
+      "factKey": "vila-bela-mt-F24",
+      "text": "Um instituto com o nome de Tereza de Benguela, rainha de um quilombo, apoia as festas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-viajante-P25",
+      "factKey": "vila-bela-mt-F25",
+      "text": "A vila nasceu numa fronteira com terras da Espanha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "vila-bela-mt-geografo-P01",
+      "factKey": "vila-bela-mt-F01",
+      "text": "O destino é um núcleo urbano de origem colonial no Centro-Oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PFO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P02",
+      "factKey": "vila-bela-mt-F02",
+      "text": "Situa-se no alto curso do Guaporé, perto da fronteira com a Bolívia.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P03",
+      "factKey": "vila-bela-mt-F03",
+      "text": "Foi criada para sediar o governo da capitania, em rivalidade com a vila de Cuiabá pelo papel de polo de poder.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_NAUK",
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P04",
+      "factKey": "vila-bela-mt-F04",
+      "text": "A fundação oficial ocorreu em 19 de março de 1752, com traçado urbano projetado e implantado no mesmo ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PFO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P05",
+      "factKey": "vila-bela-mt-F05",
+      "text": "A descoberta das minas do Guaporé em 1734 tornou a mineração a atividade decisiva da capitania.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P06",
+      "factKey": "vila-bela-mt-F06",
+      "text": "O rio Guaporé, à beira do qual a vila foi erguida, servia de fronteira natural com os domínios espanhóis.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P07",
+      "factKey": "vila-bela-mt-F07",
+      "text": "As ruínas da Igreja Matriz funcionam como um museu aberto, sob uma cobertura concluída pelo estado em 2006.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P08",
+      "factKey": "vila-bela-mt-F08",
+      "text": "Depois de desabamentos, a matriz foi reconstruída entre 1775 e 1793.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P09",
+      "factKey": "vila-bela-mt-F09",
+      "text": "Um relato de 1788 descreveu casas térreas de adobe dobrado, com pouca luz e má ventilação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P10",
+      "factKey": "vila-bela-mt-F10",
+      "text": "Os campanários previstos no projeto original da matriz nunca foram construídos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P11",
+      "factKey": "vila-bela-mt-F11",
+      "text": "O Palácio dos Capitães Generais é apontado como ponto de partida da formação do núcleo urbano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_PORTALAMZ"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P12",
+      "factKey": "vila-bela-mt-F12",
+      "text": "Concluído em 1753, o palácio serviu de residência aos primeiros governadores da capitania.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P13",
+      "factKey": "vila-bela-mt-F13",
+      "text": "Casa térrea de linhas sóbrias, o palácio foi erguido em taipa de pilão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P14",
+      "factKey": "vila-bela-mt-F14",
+      "text": "Antes do tombamento federal de 1988, uma lei estadual de 1984 já protegia o centro histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_PFO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P15",
+      "factKey": "vila-bela-mt-F15",
+      "text": "A população, majoritariamente negra, descende de quilombos coloniais e de quem ficou após a mudança da capital.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG",
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P16",
+      "factKey": "vila-bela-mt-F16",
+      "text": "O ciclo da Festança dura cerca de 15 dias em julho e exige de 30 a 40 dias de preparação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P17",
+      "factKey": "vila-bela-mt-F17",
+      "text": "Três irmandades organizam as festas a São Benedito, ao Divino Espírito Santo e à Santíssima Trindade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P18",
+      "factKey": "vila-bela-mt-F18",
+      "text": "Soldados do rei do Congo percorrem as ruas até a celebração a São Benedito.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P19",
+      "factKey": "vila-bela-mt-F19",
+      "text": "Segundo os mais velhos, o Chorado remete à escravidão, quando mulheres dançavam para negociar a libertação de parentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P20",
+      "factKey": "vila-bela-mt-F20",
+      "text": "O Parque Estadual Serra de Ricardo Franco, criado em 1997, tem cerca de 158 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P21",
+      "factKey": "vila-bela-mt-F21",
+      "text": "A cidade também serve de base para viagens pelo alto Guaporé rumo à Amazônia.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VBELA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P22",
+      "factKey": "vila-bela-mt-F22",
+      "text": "Comunidades quilombolas como Bela Cor e Vale do Alegre integram o território municipal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P23",
+      "factKey": "vila-bela-mt-F23",
+      "text": "Na colônia, o distrito de Mato Grosso mantinha mais ligações com o Grão-Pará do que com outras regiões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_NAUK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P24",
+      "factKey": "vila-bela-mt-F24",
+      "text": "As irmandades da Festança se ligam hoje ao Instituto Tereza de Benguela, rainha do quilombo do Piolho ou Quariterê.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_ACENO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "vila-bela-mt-geografo-P25",
+      "factKey": "vila-bela-mt-F25",
+      "text": "Uma lei de 1835 oficializou a transferência da capital para Cuiabá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VBELA_UNIVAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Vila Bela da Santíssima Trindade, fundada em 1752 à beira do rio Guaporé, no extremo oeste de Mato Grosso, foi a capital da capitania até 1835; preserva as ruínas da Igreja Matriz e o Palácio dos Capitães Generais (tombados pelo Iphan em 1988) e tradições afro-quilombolas como a Festança.",
+   "editorialNotes": [
+    "As datas da matriz variam entre as fontes (início das obras em 1771 e reconstruções em 1775 e 1793 no Portal Amazônia; reconstrução entre 1775 e 1793 após dois desabamentos na dissertação da Univag); as pistas usam o intervalo 1775–1793.",
+    "As páginas do Iphan e da prefeitura citadas no rascunho não foram abertas; os tombamentos de 1988 vêm da dissertação da Univag e do Portal Amazônia. O Portal Amazônia diz por engano que o palácio sedia a prefeitura de Cuiabá; esse trecho não foi usado.",
+    "A Festança acontece em julho segundo a Aceno (2024), que registra que nos anos 1980 as celebrações eram em setembro e outubro."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes acadêmicas, Portal Amazônia, relatório arqueológico e Wikipedia abertos; 50 pistas conferidas, com troca das afirmações sem apoio (igreja de adobe, Cachoeira do Jatobá, biomas) e C1/C3 ajustados ao recorte."
+  }
+ },
+ "sources": {
+  "VBELA_UNIVAG": {
+   "id": "VBELA_UNIVAG",
+   "title": "Casa de Bem Bem: estudo de caso de arquitetura de terra crua (Daniel Silva Campos, dissertação de mestrado, 2021)",
+   "publisher": "Univag — Mestrado em Arquitetura e Urbanismo",
+   "url": "https://repositoriodigital.univag.com.br/index.php/mestradoarq/article/download/1745/1660/5095",
+   "checkedAt": "2026-11-15"
+  },
+  "VBELA_PORTALAMZ": {
+   "id": "VBELA_PORTALAMZ",
+   "title": "Saiba quais Estados da Amazônia possuem bens arqueológicos tombados e reconhecidos como patrimônios mundiais",
+   "publisher": "Portal Amazônia",
+   "url": "https://portalamazonia.com/cultura/saiba-quais-estados-da-amazonia-possuem-bens-arqueologicos-tombados-e-reconhecidos-como-patrimonios-mundiais",
+   "checkedAt": "2026-11-15"
+  },
+  "VBELA_ACENO": {
+   "id": "VBELA_ACENO",
+   "title": "A estética da existência afro-quilombola no Vale do Rio Guaporé: mulheres que dançam a vida (Sonia Regina Lourenço, 2024)",
+   "publisher": "Aceno — Revista de Antropologia do Centro-Oeste (UFMT)",
+   "url": "https://periodicoscientificos.ufmt.br/ojs/index.php/aceno/article/view/17816/14437",
+   "checkedAt": "2026-11-15"
+  },
+  "VBELA_NAUK": {
+   "id": "VBELA_NAUK",
+   "title": "A capitania de Mato Grosso: história, historiografia e fontes (Nauk Maria de Jesus, 2012)",
+   "publisher": "Revista Territórios & Fronteiras (UFMT)",
+   "url": "https://periodicoscientificos.ufmt.br/territoriosefronteiras/index.php/v03n02/article/download/168/141/385",
+   "checkedAt": "2026-11-15"
+  },
+  "VBELA_PFO": {
+   "id": "VBELA_PFO",
+   "title": "Área Tombada – Projeto Fronteira Ocidental, Fase 2: Arqueologia e História – Vila Bela da Santíssima Trindade/MT (relatório final, 2004)",
+   "publisher": "Projeto Fronteira Ocidental (coord. Paulo Zanettini), publicado no iPatrimônio",
+   "url": "https://www.ipatrimonio.org/wp-content/uploads/2019/04/PFO-Área-Tombada-Projeto-Fronteira-Ocidental.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "VBELA_WIKI": {
+   "id": "VBELA_WIKI",
+   "title": "Vila Bela da Santíssima Trindade",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Vila_Bela_da_Sant%C3%ADssima_Trindade",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://repositoriodigital.univag.com.br/index.php/mestradoarq/article/download/1745/1660/5095",
+   "https://portalamazonia.com/cultura/saiba-quais-estados-da-amazonia-possuem-bens-arqueologicos-tombados-e-reconhecidos-como-patrimonios-mundiais",
+   "https://periodicoscientificos.ufmt.br/ojs/index.php/aceno/article/view/17816/14437",
+   "https://periodicoscientificos.ufmt.br/territoriosefronteiras/index.php/v03n02/article/download/168/141/385",
+   "https://www.ipatrimonio.org/wp-content/uploads/2019/04/PFO-Área-Tombada-Projeto-Fronteira-Ocidental.pdf",
+   "https://en.wikipedia.org/wiki/Vila_Bela_da_Sant%C3%ADssima_Trindade"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (Iphan e prefeitura) não apareceram nas buscas; substituídas por VBELA_UNIVAG, VBELA_PORTALAMZ, VBELA_ACENO, VBELA_NAUK, VBELA_PFO e VBELA_WIKI, todas abertas",
+   "C1: São Luís, Olinda, Paraty, Ouro Preto, Alcântara, Diamantina e São Cristóvão (fora do recorte) trocadas por cidades históricas do Centro-Oeste (Cuiabá, Poconé, Diamantino, Pilar de Goiás, Corumbá de Goiás, Jaraguá, Ladário)",
+   "C2: Rio São Francisco trocado por Rio Cuiabá",
+   "C3: aqueduto (risco de ambiguidade com o antigo abastecimento de água da vila) e \"fortaleza no litoral\" (implausível) trocados por missão jesuítica e fábrica de tanino",
+   "viajante P09 e geógrafo P09: \"igreja de adobe sobre pedra\" sem fonte → casas de adobe descritas num relato de 1788",
+   "viajante P21/P22 e geógrafo P21/P22: Cachoeira do Jatobá e \"parque com esse nome\" sem fonte → Cascata dos Namorados, viagens pelo alto Guaporé, comunidades quilombolas",
+   "viajante P23 e geógrafo P23: biomas Amazônia–Cerrado–Pantanal sem fonte → Amazônia Legal e ligações coloniais com o Grão-Pará",
+   "viajante P24/P25 e geógrafo P24/P25: frases genéricas → Instituto Tereza de Benguela/quilombo do Quariterê, fronteira com terras espanholas, lei de 1835 que transferiu a capital",
+   "viajante P20 e geógrafo P20: serra \"na paisagem do município\" → cidade como ponto de partida para o parque estadual e dados do parque (1997, cerca de 158 mil ha)",
+   "geógrafo P03, P04, P07, P08, P10–P19 reescritas com dados das fontes (19/03/1752, cobertura de 2006, campanários, palácio de 1753, lei estadual de 1984, duração da Festança, sentido histórico do Chorado)",
+   "Marcadas aberturas (P01 nos dois perfis) e decisivas (viajante P08 e P19; geógrafo P24 e P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

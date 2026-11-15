@@ -1,0 +1,1080 @@
+{
+ "case": {
+  "id": "lug2-fortaleza",
+  "placeId": "fortaleza",
+  "title": "Fortaleza",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Fortaleza"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Recife"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Salvador"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Natal"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Maceió"
+     },
+     {
+      "id": "C1-O6",
+      "text": "João Pessoa"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Aracaju"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Fortaleza",
+    "sources": [
+     "FORTALEZA_IBGEHIST",
+     "FORTALEZA_IBGE1970",
+     "FORTALEZA_DNORIGENS"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Praia urbana",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Praia do Futuro"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Praia de Pajuçara"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Praia de Ponta Negra"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Praia de Boa Viagem"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Praia do Futuro",
+    "sources": [
+     "FORTALEZA_IBGE1970"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Centro cultural da cidade",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Centro Dragão do Mar de Arte e Cultura"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Paço do Frevo"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Museu do Amanhã"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Memorial dos Povos Indígenas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Centro Dragão do Mar de Arte e Cultura",
+    "sources": [
+     "FORTALEZA_DNDRAGAO"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Riacho junto ao qual se formou o núcleo central",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Riacho Pajeú"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Riacho Mocha"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Riacho do Ipiranga"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Riacho Fundo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Riacho Pajeú",
+    "sources": [
+     "FORTALEZA_DNORIGENS",
+     "FORTALEZA_IBGEHIST"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "fortaleza-viajante-P01",
+      "factKey": "fortaleza-F01",
+      "text": "É uma capital litorânea do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970",
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P02",
+      "factKey": "fortaleza-F02",
+      "text": "Boa parte do município é formada por dunas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P03",
+      "factKey": "fortaleza-F03",
+      "text": "Fica no Ceará.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P04",
+      "factKey": "fortaleza-F04",
+      "text": "A Praia do Futuro é uma das praias da cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P05",
+      "factKey": "fortaleza-F05",
+      "text": "Iracema e Meireles também estão entre as praias da orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P06",
+      "factKey": "fortaleza-F06",
+      "text": "Jangadas aparecem entre a Praia de Iracema e o porto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P07",
+      "factKey": "fortaleza-F07",
+      "text": "O porto fica numa ponta de terra a leste do centro, onde há um farol antigo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P08",
+      "factKey": "fortaleza-F08",
+      "text": "Essa ponta e o porto se chamam Mucuripe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P09",
+      "factKey": "fortaleza-F09",
+      "text": "As chuvas se concentram entre janeiro e maio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P10",
+      "factKey": "fortaleza-F10",
+      "text": "Um centro cultural na Praia de Iracema foi inaugurado em 1999.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FORTALEZA_DNDRAGAO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P11",
+      "factKey": "fortaleza-F11",
+      "text": "Esse centro tem planetário, cinemas, teatro e um museu da cultura do estado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FORTALEZA_DNDRAGAO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P12",
+      "factKey": "fortaleza-F12",
+      "text": "O nome do centro homenageia um jangadeiro que lutou contra a escravidão.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FORTALEZA_DNDRAGAO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P13",
+      "factKey": "fortaleza-F13",
+      "text": "Esse jangadeiro, Chico da Matilde, ficou conhecido como Dragão do Mar.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FORTALEZA_DNDRAGAO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P14",
+      "factKey": "fortaleza-F14",
+      "text": "O Teatro José de Alencar é monumento histórico da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P15",
+      "factKey": "fortaleza-F15",
+      "text": "A praça principal do centro se chama Praça do Ferreira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P16",
+      "factKey": "fortaleza-F16",
+      "text": "O Passeio Público já se chamou Praça dos Mártires.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P17",
+      "factKey": "fortaleza-F17",
+      "text": "Um grande parque urbano protege o rio Cocó.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO",
+       "FORTALEZA_DNCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P18",
+      "factKey": "fortaleza-F18",
+      "text": "Esse parque tem cerca de 1.570 hectares, pouco mais de 15 km².",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO",
+       "FORTALEZA_DNCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P19",
+      "factKey": "fortaleza-F19",
+      "text": "O rio Cocó chega ao mar na praia de Sabiaguaba.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P20",
+      "factKey": "fortaleza-F20",
+      "text": "O núcleo central da cidade surgiu perto de um riacho chamado Pajeú.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_DNORIGENS",
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P21",
+      "factKey": "fortaleza-F21",
+      "text": "No século XVII, holandeses ergueram um forte à beira desse riacho.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST",
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P22",
+      "factKey": "fortaleza-F22",
+      "text": "O aniversário da cidade é 13 de abril, por causa de um marco de 1726.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_DNORIGENS",
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P23",
+      "factKey": "fortaleza-F23",
+      "text": "Em 2019, a cidade entrou para a Rede de Cidades Criativas da UNESCO.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P24",
+      "factKey": "fortaleza-F24",
+      "text": "O forte holandês, rebatizado de Nossa Senhora da Assunção, ficava onde hoje está a 10ª Região Militar.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-viajante-P25",
+      "factKey": "fortaleza-F25",
+      "text": "Há historiadores que dizem que o navegador Pinzón chegou ao Mucuripe em 1500.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "fortaleza-geografo-P01",
+      "factKey": "fortaleza-F01",
+      "text": "É uma capital costeira assentada numa planície baixa recoberta de dunas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P02",
+      "factKey": "fortaleza-F02",
+      "text": "A ocupação colonial começou na foz de um rio e depois se fixou junto a um riacho.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P03",
+      "factKey": "fortaleza-F03",
+      "text": "Em média, as dunas do município não passam de 30 m de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P04",
+      "factKey": "fortaleza-F04",
+      "text": "Rios como o Cocó, o Ceará e o Maranguapinho drenam o município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P05",
+      "factKey": "fortaleza-F05",
+      "text": "Lagoas como as de Messejana e Parangaba pontilham a área municipal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P06",
+      "factKey": "fortaleza-F06",
+      "text": "O período chuvoso concentra-se de janeiro a maio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P07",
+      "factKey": "fortaleza-F07",
+      "text": "O primeiro forte português, de 1612, ficava na foz do rio Ceará.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P08",
+      "factKey": "fortaleza-F08",
+      "text": "Holandeses tomaram esse forte em 1637, e indígenas o destruíram em 1644.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P09",
+      "factKey": "fortaleza-F09",
+      "text": "Em 1649, o Forte Schoonenborch foi erguido junto ao riacho Pajeú.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST",
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P10",
+      "factKey": "fortaleza-F10",
+      "text": "Com a derrota holandesa em Pernambuco, o forte passou a se chamar Nossa Senhora da Assunção.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST",
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P11",
+      "factKey": "fortaleza-F11",
+      "text": "O município foi instalado em 13 de abril de 1726, data oficial do aniversário.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST",
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P12",
+      "factKey": "fortaleza-F12",
+      "text": "Em 1823, foi elevada a cidade e rebatizada com o acréscimo \"da Nova Bragança\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P13",
+      "factKey": "fortaleza-F13",
+      "text": "Barra do Ceará e Mucuripe têm ocupação anterior ao início oficial da cidade, no Centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_DNORIGENS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P14",
+      "factKey": "fortaleza-F14",
+      "text": "A ponta do Mucuripe, a leste do centro, abriga o porto e um antigo farol.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P15",
+      "factKey": "fortaleza-F15",
+      "text": "Estudos para um porto começaram em 1811, mas as obras no Mucuripe só foram ordenadas em 1930.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P16",
+      "factKey": "fortaleza-F16",
+      "text": "Em 1968, o cais do porto tinha 1.200 m e registrou 713 movimentos de navios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P17",
+      "factKey": "fortaleza-F17",
+      "text": "O engenheiro Silva Paulet reconstruiu o forte e dotou a vila de um importante mercado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P18",
+      "factKey": "fortaleza-F18",
+      "text": "A Praça do Ferreira homenageia quem liderou melhorias urbanas na década de 1840.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P19",
+      "factKey": "fortaleza-F19",
+      "text": "Entre 1960 e 1970, a população passou de cerca de 515 mil para uma estimativa de 960 mil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P20",
+      "factKey": "fortaleza-F20",
+      "text": "Em 1970, era o segundo centro bancário do Norte e Nordeste, atrás de Recife.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_IBGE1970"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P21",
+      "factKey": "fortaleza-F21",
+      "text": "O Parque do Cocó, com 1.571 ha, vai de Maracanaú até a foz do rio, em Sabiaguaba.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P22",
+      "factKey": "fortaleza-F22",
+      "text": "Regulamentado em 2017 como unidade de conservação integral, é o quarto maior parque natural em área urbana do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO",
+       "FORTALEZA_DNCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P23",
+      "factKey": "fortaleza-F23",
+      "text": "A proteção do Cocó começou em 1977 e ganhou decreto de criação em 1989.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_UFCCOCO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P24",
+      "factKey": "fortaleza-F24",
+      "text": "O Centro Dragão do Mar, de 1999, ocupa cerca de 30 mil m² no núcleo histórico da Praia de Iracema.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "FORTALEZA_DNDRAGAO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "fortaleza-geografo-P25",
+      "factKey": "fortaleza-F25",
+      "text": "Em 2019, recebeu a chancela da UNESCO como Cidade Criativa, com foco no design.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "FORTALEZA_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital do Ceará assentada sobre dunas, nascida junto ao riacho Pajeú e ao forte holandês depois chamado Nossa Senhora da Assunção, com o porto do Mucuripe, a Praia do Futuro, o Parque do Cocó e o Centro Dragão do Mar (1999).",
+   "editorialNotes": [
+    "O IBGE dá vila em 1699/1700 e instalação do município em 13/04/1726; a imprensa trata 1726 como elevação a vila. As pistas usam \"município instalado\" e \"aniversário\".",
+    "Dados do porto, população de 1960–1970 e centro bancário vêm da monografia do IBGE de 1970 e trazem o ano.",
+    "População do Censo 2022, Avenida Beira-Mar, feira de artesanato, Mercado Central, Teatro São José e estátua de Iracema não foram confirmados nas fontes abertas e saíram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por histórico e monografia do IBGE, artigo da UFC e reportagens abertos na revisão; C3–C4 ajustados e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "FORTALEZA_IBGEHIST": {
+   "id": "FORTALEZA_IBGEHIST",
+   "title": "Fortaleza (CE) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/ceara/fortaleza.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_IBGE1970": {
+   "id": "FORTALEZA_IBGE1970",
+   "title": "Fortaleza/Ceará (Coleção de Monografias nº 473, 1970)",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n473_fortaleza.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_DNORIGENS": {
+   "id": "FORTALEZA_DNORIGENS",
+   "title": "Aniversário de Fortaleza: com \"várias origens\", cidade tem as áreas mais antigas que os 297 anos",
+   "publisher": "Diário do Nordeste",
+   "url": "https://diariodonordeste.verdesmares.com.br/ceara/aniversario-de-fortaleza-com-varias-origens-cidade-tem-as-areas-mais-antigas-que-os-297-anos-1.3357112",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_UFCCOCO": {
+   "id": "FORTALEZA_UFCCOCO",
+   "title": "Processo de regulamentação do Parque Estadual do Cocó/CE (Encontros Universitários da UFC, 2017)",
+   "publisher": "Universidade Federal do Ceará",
+   "url": "https://www.periodicos.ufc.br/eu/article/view/29654/66965",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_DNCOCO": {
+   "id": "FORTALEZA_DNCOCO",
+   "title": "Após 40 anos, Parque do Cocó é regulamentado com 1.571 hectares",
+   "publisher": "Diário do Nordeste",
+   "url": "https://diariodonordeste.verdesmares.com.br/metro/apos-40-anos-parque-do-coco-e-regulamentado-com-1-571-hectares-1.1765320",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_DNDRAGAO": {
+   "id": "FORTALEZA_DNDRAGAO",
+   "title": "Dez marcos históricos para celebrar a importância do Dragão do Mar",
+   "publisher": "Diário do Nordeste",
+   "url": "https://diariodonordeste.verdesmares.com.br/verso/dez-marcos-historicos-para-celebrar-a-importancia-do-dragao-do-mar-1.3505606",
+   "checkedAt": "2026-11-15"
+  },
+  "FORTALEZA_OPOVO": {
+   "id": "FORTALEZA_OPOVO",
+   "title": "Cidade criativa: o design como ferramenta de desenvolvimento",
+   "publisher": "O Povo",
+   "url": "https://mais.opovo.com.br/jornal/vidaearte/2022/11/27/cidade-criativa-o-design-como-ferramenta-de-desenvolvimento.html",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/ceara/fortaleza.pdf",
+   "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n473_fortaleza.pdf",
+   "https://diariodonordeste.verdesmares.com.br/ceara/aniversario-de-fortaleza-com-varias-origens-cidade-tem-as-areas-mais-antigas-que-os-297-anos-1.3357112",
+   "https://www.periodicos.ufc.br/eu/article/view/29654/66965",
+   "https://diariodonordeste.verdesmares.com.br/metro/apos-40-anos-parque-do-coco-e-regulamentado-com-1-571-hectares-1.1765320",
+   "https://diariodonordeste.verdesmares.com.br/verso/dez-marcos-historicos-para-celebrar-a-importancia-do-dragao-do-mar-1.3505606",
+   "https://mais.opovo.com.br/jornal/vidaearte/2022/11/27/cidade-criativa-o-design-como-ferramenta-de-desenvolvimento.html"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (FORTALEZA_IBGE, FORTALEZA_PCR, FORTALEZA_G20, FORTALEZA_COCO) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico e monografia de 1970), UFC (Cocó), Diário do Nordeste (3 reportagens) e O Povo",
+   "alias \"Fortaleza\" (igual ao título) removido; pistas evitam a palavra \"fortaleza\"",
+   "C3: gabarito passa ao nome completo \"Centro Dragão do Mar de Arte e Cultura\" e rótulo \"Centro cultural da cidade\"",
+   "C4: \"Estado\" trocado por \"Riacho junto ao qual se formou o núcleo central\", gabarito Riacho Pajeú (Diário do Nordeste, IBGE)",
+   "Retiradas pistas sem fonte aberta: população 2022, Avenida Beira-Mar, feira da Beira-Mar, Mercado Central, Teatro São José, estátua de Iracema, passeios de barco no Cocó, margem esquerda do Pajeú",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1064 @@
+{
+ "case": {
+  "id": "lug2-cuiaba-mt",
+  "placeId": "cuiaba-mt",
+  "title": "Cuiabá",
+  "aliases": [],
+  "answerType": "capital brasileira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade do Centro-Oeste",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cuiabá"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Campo Grande"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Goiânia"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Brasília"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Várzea Grande"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Rondonópolis"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Anápolis"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Dourados"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Corumbá"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Cáceres"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Sinop"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vila Bela da Santíssima Trindade"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cuiabá",
+    "sources": [
+     "CUI_IBGE_HIST",
+     "CUI_IPDU",
+     "CUI_CORREIO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Atividade ligada à formação urbana",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Mineração de ouro"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Produção de café"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Cultivo de cana-de-açúcar"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Extração de borracha"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Mineração de ouro",
+    "sources": [
+     "CUI_IBGE_HIST"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Córrego em cuja foz se fixou o arraial das lavras",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Córrego da Prainha"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Córrego Botafogo"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Córrego Prosa"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Córrego Vicente Pires"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Córrego da Prainha",
+    "sources": [
+     "CUI_IBGE_HIST",
+     "CUI_IPDU"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Danças tradicionais acompanhadas pela viola de cocho",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Siriri e cururu"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Catira e cavalhadas"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Frevo e maracatu"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Carimbó e marujada"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Siriri e cururu",
+    "sources": [
+     "CUI_IPHAN_VIOLA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "cuiaba-mt-viajante-P01",
+      "factKey": "cuiaba-mt-F01",
+      "text": "É uma capital estadual brasileira com mais de três séculos de história.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST",
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P02",
+      "factKey": "cuiaba-mt-F02",
+      "text": "É uma das capitais mais quentes do país: em 2023 os termômetros marcaram 44,2 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P03",
+      "factKey": "cuiaba-mt-F03",
+      "text": "Fica entre três biomas: Cerrado, Pantanal e Amazônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "critical",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P04",
+      "factKey": "cuiaba-mt-F04",
+      "text": "A Chapada dos Guimarães fica a cerca de 67 km dali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P05",
+      "factKey": "cuiaba-mt-F05",
+      "text": "Um rio com o mesmo nome da cidade passa por ela.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST",
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P06",
+      "factKey": "cuiaba-mt-F06",
+      "text": "A cidade surgiu com a descoberta de ouro num rio da região.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P07",
+      "factKey": "cuiaba-mt-F07",
+      "text": "A fundação foi registrada em 8 de abril de 1719.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST",
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P08",
+      "factKey": "cuiaba-mt-F08",
+      "text": "O ouro mais farto apareceu depois junto a um córrego chamado Prainha.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P09",
+      "factKey": "cuiaba-mt-F09",
+      "text": "Ganhou o título de vila em 1726, com um nome em homenagem ao Senhor Bom Jesus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P10",
+      "factKey": "cuiaba-mt-F10",
+      "text": "Virou cidade em 1818 e passou a ser capital ainda no século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P11",
+      "factKey": "cuiaba-mt-F11",
+      "text": "Antes dela, a capital da capitania ficava em Vila Bela da Santíssima Trindade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P12",
+      "factKey": "cuiaba-mt-F12",
+      "text": "O nome viria do tupi e lembraria um lugar de pesca com flecha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P13",
+      "factKey": "cuiaba-mt-F13",
+      "text": "Os moradores ganharam o apelido de \"papa-peixe\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P14",
+      "factKey": "cuiaba-mt-F14",
+      "text": "Um prato famoso é a maria-isabel, arroz com carne-seca desfiada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P15",
+      "factKey": "cuiaba-mt-F15",
+      "text": "Pacu assado na folha de bananeira e mojica de pintado também são pratos típicos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P16",
+      "factKey": "cuiaba-mt-F16",
+      "text": "A viola de cocho, típica da região, é feita de um tronco de árvore escavado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P17",
+      "factKey": "cuiaba-mt-F17",
+      "text": "Essa viola acompanha o siriri, dançado em pares, em roda ou em fileira.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P18",
+      "factKey": "cuiaba-mt-F18",
+      "text": "No cururu, homens tocam viola de cocho e improvisam versos em desafio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P19",
+      "factKey": "cuiaba-mt-F19",
+      "text": "A Igreja de Nossa Senhora do Rosário e São Benedito é do século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO",
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P20",
+      "factKey": "cuiaba-mt-F20",
+      "text": "A festa de São Benedito dura cerca de um mês e é a mais longa do estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P21",
+      "factKey": "cuiaba-mt-F21",
+      "text": "Um antigo mercado de peixe à beira do rio virou o Museu do Rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P22",
+      "factKey": "cuiaba-mt-F22",
+      "text": "O centro histórico, com cerca de 400 construções, é protegido pelo Iphan.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU",
+       "CUI_MPF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P23",
+      "factKey": "cuiaba-mt-F23",
+      "text": "Um obelisco de mármore branco com cerca de 20 m fica numa praça central.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P24",
+      "factKey": "cuiaba-mt-F24",
+      "text": "Esse obelisco marca o Centro Geodésico da América do Sul, calculado por Rondon em 1909.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-viajante-P25",
+      "factKey": "cuiaba-mt-F25",
+      "text": "Várzea Grande foi distrito do município até virar município próprio, em 1948.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "cuiaba-mt-geografo-P01",
+      "factKey": "cuiaba-mt-F01",
+      "text": "Capital estadual do interior sul-americano cuja origem está ligada à mineração colonial.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P02",
+      "factKey": "cuiaba-mt-F02",
+      "text": "Situa-se numa zona de contato entre Cerrado, Pantanal e Amazônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P03",
+      "factKey": "cuiaba-mt-F03",
+      "text": "O ouro foi achado primeiro no rio Coxipó, afluente do rio que dá nome à cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "critical",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P04",
+      "factKey": "cuiaba-mt-F04",
+      "text": "A expedição de Pascoal Moreira Cabral chegou ao ouro guiada por informações de Antônio Pires de Campos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P05",
+      "factKey": "cuiaba-mt-F05",
+      "text": "O termo de fundação de 1719 foi lavrado no arraial da Forquilha, onde se ergueu uma igreja a Nossa Senhora da Penha de França.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P06",
+      "factKey": "cuiaba-mt-F06",
+      "text": "A lavra mais rica, aberta por Miguel Sutil e João Francisco Barbado, deslocou o povoado para a foz do córrego da Prainha.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P07",
+      "factKey": "cuiaba-mt-F07",
+      "text": "Em 1748, a região foi separada de São Paulo para formar a capitania de Mato Grosso.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P08",
+      "factKey": "cuiaba-mt-F08",
+      "text": "Elevada a vila em 1726 como Vila Real do Senhor Bom Jesus, teve o município instalado em 1727.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P09",
+      "factKey": "cuiaba-mt-F09",
+      "text": "A sede da capitania ficou em Vila Bela a partir de 1752; a cidade só assumiu a capital no século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P10",
+      "factKey": "cuiaba-mt-F10",
+      "text": "O arruamento da antiga vila colonial segue praticamente intacto, com quase três séculos de evolução urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P11",
+      "factKey": "cuiaba-mt-F11",
+      "text": "A área tombada pelo Iphan tem 13,1 ha e cerca de 400 edificações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P12",
+      "factKey": "cuiaba-mt-F12",
+      "text": "O tombamento federal do conjunto foi provisório em 1987 e definitivo depois, com homologação em 1992.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU",
+       "CUI_MPF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P13",
+      "factKey": "cuiaba-mt-F13",
+      "text": "A antiga Rua da Prainha, hoje uma avenida, integra o perímetro do tombamento federal.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P14",
+      "factKey": "cuiaba-mt-F14",
+      "text": "O bairro do Porto, à beira do rio, tem um conjunto arquitetônico tombado pelo estado em 2007.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P15",
+      "factKey": "cuiaba-mt-F15",
+      "text": "O rio servia de via de transporte e de sustento, e casas se ergueram em suas margens.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P16",
+      "factKey": "cuiaba-mt-F16",
+      "text": "O antigo Mercado do Peixe, no Porto, abriga hoje o museu dedicado ao rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IPDU"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P17",
+      "factKey": "cuiaba-mt-F17",
+      "text": "A tradição da viola de cocho se concentra na baixada em torno da capital, com Várzea Grande e Poconé.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P18",
+      "factKey": "cuiaba-mt-F18",
+      "text": "O modo de fazer a viola de cocho foi registrado pelo Iphan em 2005, no Livro dos Saberes.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P19",
+      "factKey": "cuiaba-mt-F19",
+      "text": "A caixa do instrumento é escavada em tronco inteiriço de madeiras como ximbuva e sarã-de-leite.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P20",
+      "factKey": "cuiaba-mt-F20",
+      "text": "O cururu, dança religiosa de provável origem ameríndia, tem a viola de cocho e o ganzá como instrumentos principais.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P21",
+      "factKey": "cuiaba-mt-F21",
+      "text": "No siriri, pares em roda ou fileira dançam ao som de reco-reco, viola de cocho e mocho.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CUI_IPHAN_VIOLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P22",
+      "factKey": "cuiaba-mt-F22",
+      "text": "O Inmet registrou 44,2 °C em outubro de 2023, a maior temperatura já medida na cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P23",
+      "factKey": "cuiaba-mt-F23",
+      "text": "Uma interpretação do nome o liga ao lugar onde os Bororo pescavam com uma flecha de cana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P24",
+      "factKey": "cuiaba-mt-F24",
+      "text": "Um obelisco na praça Pascoal Moreira Cabral marca o Centro Geodésico da América do Sul, calculado em 1909 e confirmado pelo Exército em 1975.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "cuiaba-mt-geografo-P25",
+      "factKey": "cuiaba-mt-F25",
+      "text": "Seus distritos incluem Coxipó da Ponte, Coxipó do Ouro e Guia; Várzea Grande se emancipou em 1948.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CUI_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cuiabá, capital de Mato Grosso, nasceu em 1719 com o ouro do rio Coxipó e se fixou junto ao córrego da Prainha; guarda um centro histórico tombado pelo Iphan, a tradição da viola de cocho, do siriri e do cururu, e o marco do Centro Geodésico da América do Sul.",
+   "editorialNotes": [
+    "Datas divergentes nas fontes: Igreja do Rosário e São Benedito (1730 no Correio Braziliense; 1750–1751 no IPDU), passagem a capital (1825 e 1835 no IBGE) e tombamento federal (definitivo em 1988 no IPDU; 1992 no MPF); as pistas usam só o que coincide.",
+    "População do Censo 2022, comunidade São Gonçalo Beira-Rio e travessia por barcas foram retiradas: as fontes abertas não as confirmaram (IBGE Cidades e páginas do governo estadual não foram abertas)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do IBGE, IPDU, MPF, Iphan e Correio Braziliense abertas; 50 pistas conferidas e reescritas, C1 restrito a cidades do Centro-Oeste e distratores de C3 e C4 refeitos."
+  }
+ },
+ "sources": {
+  "CUI_IBGE_HIST": {
+   "id": "CUI_IBGE_HIST",
+   "title": "Cuiabá (MT) — histórico do município",
+   "publisher": "Instituto Brasileiro de Geografia e Estatística (IBGE) — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrosso/cuiaba.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CUI_IPDU": {
+   "id": "CUI_IPDU",
+   "title": "Patrimônio Histórico de Cuiabá (IPDU, agosto de 2010)",
+   "publisher": "Instituto de Planejamento e Desenvolvimento Urbano de Cuiabá (IPDU), cópia em ipatrimonio.org",
+   "url": "https://www.ipatrimonio.org/wp-content/uploads/2021/01/ipatrimonio-patrimonio_historico_cuiaba-Fonte-Governo-do-Estado.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CUI_MPF": {
+   "id": "CUI_MPF",
+   "title": "MPF aciona município de Cuiabá (MT) e Iphan para garantir restauração de imóveis históricos (23/10/2026)",
+   "publisher": "Ministério Público Federal — Procuradoria da República em Mato Grosso",
+   "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-mt/noticias/mpf-aciona-municipio-de-cuiaba-mt-e-iphan-para-garantir-restauracao-de-imoveis-historicos",
+   "checkedAt": "2026-11-15"
+  },
+  "CUI_CORREIO": {
+   "id": "CUI_CORREIO",
+   "title": "A capital com três biomas e uma das mais quentes ao já registrar 44°C e fica no coração da América do Sul (03/03/2026)",
+   "publisher": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/a-capital-com-tres-biomas-e-uma-das-mais-quentes-ao-ja-registrar-44c-e-fica-no-coracao-da-america-do-sul/",
+   "checkedAt": "2026-11-15"
+  },
+  "CUI_IPHAN_VIOLA": {
+   "id": "CUI_IPHAN_VIOLA",
+   "title": "Parecer técnico — revalidação do Modo de Fazer Viola de Cocho (Mato Grosso)",
+   "publisher": "Instituto do Patrimônio Histórico e Artístico Nacional (Iphan)",
+   "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/aberta-consulta-publica-sobre-o-modo-artesanal-de-fazer-queijo-minas-e-o-modo-de-fazer-a-viola-de-cocho/ParecerTcnicoRevalidaoMododeFazerVioladeCochoMatoGrosso.pdf/@@download/file",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrosso/cuiaba.pdf",
+   "https://www.ipatrimonio.org/wp-content/uploads/2021/01/ipatrimonio-patrimonio_historico_cuiaba-Fonte-Governo-do-Estado.pdf",
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-mt/noticias/mpf-aciona-municipio-de-cuiaba-mt-e-iphan-para-garantir-restauracao-de-imoveis-historicos",
+   "https://www.correiobraziliense.com.br/cbradar/a-capital-com-tres-biomas-e-uma-das-mais-quentes-ao-ja-registrar-44c-e-fica-no-coracao-da-america-do-sul/",
+   "https://www.gov.br/iphan/pt-br/assuntos/noticias/aberta-consulta-publica-sobre-o-modo-artesanal-de-fazer-queijo-minas-e-o-modo-de-fazer-a-viola-de-cocho/ParecerTcnicoRevalidaoMododeFazerVioladeCochoMatoGrosso.pdf/@@download/file"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (Mapas MT, perfil socioeconômico, turismo da prefeitura, IBGE Cidades, notícia da festa, páginas do Iphan-MT) substituídas por histórico do IBGE, publicação do IPDU, notícia do MPF, parecer do Iphan sobre a viola de cocho e reportagem do Correio Braziliense",
+   "C1: rótulo \"Capital brasileira\" com capitais de outras regiões trocado por \"Cidade do Centro-Oeste\" com 12 cidades da região",
+   "C3: rótulo refeito (\"Córrego em cuja foz se fixou o arraial das lavras\"); distratores trocados por córregos de outras cidades da lista (Botafogo, Prosa, Vicente Pires)",
+   "C4: rótulo ligado à viola de cocho; distratores Fandango caiçara e Bumba meu boi trocados por Catira e cavalhadas e Carimbó e marujada",
+   "geógrafo P07 (Censo 2022), viajante/geógrafo P20–P22 (São Gonçalo Beira-Rio, barcas) retirados por falta de fonte aberta",
+   "Pistas genéricas trocadas por dados das fontes: Coxipó, Forquilha, lavra do Sutil, vila de 1726/1727, capitania de 1748, Vila Bela 1752, 13,1 ha e ~400 edificações, Porto tombado em 2007, registro de 2005 da viola de cocho, recorde de 44,2 °C, obelisco de 1909/1975, distritos",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

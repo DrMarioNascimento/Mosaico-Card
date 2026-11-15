@@ -1,0 +1,1078 @@
+{
+ "case": {
+  "id": "lug2-maringa",
+  "placeId": "maringa",
+  "title": "Maringá",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Maringá"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Londrina"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Apucarana"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Campo Mourão"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Cascavel"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Foz do Iguaçu"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ponta Grossa"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Curitiba"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Umuarama"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Paranavaí"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Cianorte"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Toledo"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Maringá",
+    "sources": [
+     "MARINGA_CMM",
+     "MARINGA_PATR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Autor do plano urbanístico da cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Jorge de Macedo Vieira"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Lúcio Costa"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Oscar Niemeyer"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Jaime Lerner"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Jorge de Macedo Vieira",
+    "sources": [
+     "MARINGA_CMM",
+     "MARINGA_ANPUR"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Parque urbano",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Parque do Ingá"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Parque Barigui"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Parque Farroupilha"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Parque Tanguá"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Parque do Ingá",
+    "sources": [
+     "MARINGA_WIKI",
+     "MARINGA_AGUA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Município do qual era distrito antes da emancipação",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mandaguari"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Arapongas"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Paranavaí"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Campo Mourão"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mandaguari",
+    "sources": [
+     "MARINGA_CMM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "maringa-viajante-P01",
+      "factKey": "maringa-viajante-F01",
+      "text": "É uma cidade do Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_PATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P02",
+      "factKey": "maringa-viajante-F02",
+      "text": "O município fica no Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_PATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P03",
+      "factKey": "maringa-viajante-F03",
+      "text": "A cidade nasceu de um planejamento urbano rigoroso, com avenidas largas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P04",
+      "factKey": "maringa-viajante-F04",
+      "text": "Ruas arborizadas e muito verde marcam a paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT",
+       "MARINGA_PATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P05",
+      "factKey": "maringa-viajante-F05",
+      "text": "O urbanista Jorge de Macedo Vieira desenhou o plano da cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P06",
+      "factKey": "maringa-viajante-F06",
+      "text": "O plano foi desenhado em meados da década de 1940.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_ANPUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P07",
+      "factKey": "maringa-viajante-F07",
+      "text": "A catedral tem forma de cone.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P08",
+      "factKey": "maringa-viajante-F08",
+      "text": "O Parque do Ingá é um grande parque urbano.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P09",
+      "factKey": "maringa-viajante-F09",
+      "text": "Com a cruz, a catedral chega a 124 metros de altura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P10",
+      "factKey": "maringa-viajante-F10",
+      "text": "O nome da cidade vem de uma canção.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P11",
+      "factKey": "maringa-viajante-F11",
+      "text": "Matas nativas, como a do Bosque II, ficam abertas ao público.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P12",
+      "factKey": "maringa-viajante-F12",
+      "text": "Os lotes urbanos eram vendidos em prestações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P13",
+      "factKey": "maringa-viajante-F13",
+      "text": "Também chegaram imigrantes japoneses, alemães e italianos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P14",
+      "factKey": "maringa-viajante-F14",
+      "text": "A cidade foi fundada em 1947.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P15",
+      "factKey": "maringa-viajante-F15",
+      "text": "Uma companhia colonizadora fundou a cidade e vendeu os lotes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CMM",
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P16",
+      "factKey": "maringa-viajante-F16",
+      "text": "O lugar já foi distrito de Mandaguari.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P17",
+      "factKey": "maringa-viajante-F17",
+      "text": "O município foi criado em 1951.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P18",
+      "factKey": "maringa-viajante-F18",
+      "text": "Muitos moradores pioneiros vieram de São Paulo e de Minas Gerais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P19",
+      "factKey": "maringa-viajante-F19",
+      "text": "Também chegaram famílias do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P20",
+      "factKey": "maringa-viajante-F20",
+      "text": "Desde 1969, a água da cidade vem do Rio Pirapó.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P21",
+      "factKey": "maringa-viajante-F21",
+      "text": "A cidade fica entre as bacias dos rios Pirapó e Ivaí.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P22",
+      "factKey": "maringa-viajante-F22",
+      "text": "A Avenida Getúlio Vargas tem um largo canteiro central.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_PATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P23",
+      "factKey": "maringa-viajante-F23",
+      "text": "Fica no norte do Paraná, a cerca de 127 km de Londrina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P24",
+      "factKey": "maringa-viajante-F24",
+      "text": "O Trópico de Capricórnio passa pela cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-viajante-P25",
+      "factKey": "maringa-viajante-F25",
+      "text": "No começo, a economia girava em torno da produção de café.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "maringa-geografo-P01",
+      "factKey": "maringa-geografo-F01",
+      "text": "A sede municipal fica a cerca de 515 m de altitude, no norte do Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P02",
+      "factKey": "maringa-geografo-F02",
+      "text": "A cidade desenvolveu-se sobre um divisor de águas entre as bacias dos rios Pirapó e Ivaí.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P03",
+      "factKey": "maringa-geografo-F03",
+      "text": "Desde 1969, a captação de água para abastecimento é feita no Rio Pirapó.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P04",
+      "factKey": "maringa-geografo-F04",
+      "text": "O núcleo urbano nasceu de um empreendimento imobiliário que vendia lotes em prestações.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P05",
+      "factKey": "maringa-geografo-F05",
+      "text": "A companhia colonizadora não teve interesse em implantar o sistema de água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P06",
+      "factKey": "maringa-geografo-F06",
+      "text": "Antes da emancipação, o núcleo urbano mais próximo era a vizinha Mandaguari.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P07",
+      "factKey": "maringa-geografo-F07",
+      "text": "O plano urbanístico, de meados da década de 1940, é de Jorge Macedo Vieira.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_ANPUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P08",
+      "factKey": "maringa-geografo-F08",
+      "text": "O projeto inspirou-se nas cidades-jardim de Ebenezer Howard, com muita vegetação.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_PATR",
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P09",
+      "factKey": "maringa-geografo-F09",
+      "text": "Avenidas largas, como a Getúlio Vargas, receberam amplos canteiros centrais.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_PATR",
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P10",
+      "factKey": "maringa-geografo-F10",
+      "text": "O desenho urbano orgânico procurou acompanhar as curvas de nível do terreno.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MARINGA_PATR",
+       "MARINGA_ANPUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P11",
+      "factKey": "maringa-geografo-F11",
+      "text": "Um plano diretor de desenvolvimento foi elaborado em 1967.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P12",
+      "factKey": "maringa-geografo-F12",
+      "text": "Era distrito de Mandaguari antes de virar município.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P13",
+      "factKey": "maringa-geografo-F13",
+      "text": "A emancipação ocorreu pela Lei 790, de 14 de fevereiro de 1951.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P14",
+      "factKey": "maringa-geografo-F14",
+      "text": "Paulistas, mineiros e nordestinos estiveram entre os migrantes do núcleo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P15",
+      "factKey": "maringa-geografo-F15",
+      "text": "Imigrantes japoneses, espanhóis, portugueses e árabes também se fixaram ali.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_DISS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P16",
+      "factKey": "maringa-geografo-F16",
+      "text": "Havia muitas minas d'água em áreas como o Parque do Ingá e o Bosque II.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P17",
+      "factKey": "maringa-geografo-F17",
+      "text": "O Parque do Ingá é um grande parque urbano de flora diversa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P18",
+      "factKey": "maringa-geografo-F18",
+      "text": "A catedral, de José Augusto Bellucci, tem 114 m e chega a 124 m com a cruz.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P19",
+      "factKey": "maringa-geografo-F19",
+      "text": "A pedra fundamental da catedral foi lançada em 1958; o último vitral chegou em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P20",
+      "factKey": "maringa-geografo-F20",
+      "text": "A catedral recebeu em 1982 o título de Basílica Menor Nossa Senhora da Glória.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CAT"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P21",
+      "factKey": "maringa-geografo-F21",
+      "text": "O Censo de 2022 contou cerca de 410 mil habitantes no município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P22",
+      "factKey": "maringa-geografo-F22",
+      "text": "A primeira eleição municipal ocorreu em 1952, e a comarca foi criada em 1954.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_CMM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P23",
+      "factKey": "maringa-geografo-F23",
+      "text": "Os serviços respondem por cerca de três quartos da economia municipal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P24",
+      "factKey": "maringa-geografo-F24",
+      "text": "O Pirapó deságua no Paranapanema, e ambos os rios do divisor pertencem à bacia do Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MARINGA_AGUA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maringa-geografo-P25",
+      "factKey": "maringa-geografo-F25",
+      "text": "O Bosque II e o Horto Florestal preservam mata nativa dentro da cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MARINGA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade planejada do norte do Paraná, fundada em 1947 pela Companhia Melhoramentos Norte do Paraná, com plano de Jorge de Macedo Vieira inspirado na cidade-jardim, catedral cônica de 124 m e parques como o do Ingá.",
+   "editorialNotes": [
+    "A Câmara dá a Lei 790 de 14/02/1951 para a criação do município; a Wikipedia indica 14/11/1951. A pista usa a data da Câmara.",
+    "A data de 1943 para o plano não foi confirmada (a Anpur fala em meados da década de 1940); o rótulo de C2 deixou de citar o ano.",
+    "A população de 2022 vem da Wikipedia, que cita o Censo do IBGE; a página do IBGE não abriu."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por Câmara Municipal, artigos e dissertação da UEM, Anpur e Wikipedia; pistas, gabaritos e alternativas conferidos"
+  }
+ },
+ "sources": {
+  "MARINGA_CMM": {
+   "id": "MARINGA_CMM",
+   "title": "Histórico",
+   "publisher": "Câmara Municipal de Maringá",
+   "url": "https://www.cmm.pr.gov.br/?inc=historico",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_CAT": {
+   "id": "MARINGA_CAT",
+   "title": "Para além das paredes: a construção da Catedral de Maringá (Acta Scientiarum. Human and Social Sciences, 2010)",
+   "publisher": "Universidade Estadual de Maringá",
+   "url": "https://periodicos.uem.br/ojs/index.php/ActaSciHumanSocSci/article/download/9133/9133/",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_PATR": {
+   "id": "MARINGA_PATR",
+   "title": "Maringá e seu patrimônio histórico: estudo de caso da Catedral Basílica Menor de Nossa Senhora da Glória (Acta Scientiarum. Technology, 2013)",
+   "publisher": "Universidade Estadual de Maringá",
+   "url": "https://periodicos.uem.br//actascitechnol/index.php/ActaSciTechnol/article/download/11063/pdf_1/",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_DISS": {
+   "id": "MARINGA_DISS",
+   "title": "Beleza, elegância e roupas, os homens nos espaços da cidade (Maringá na década de 1950), dissertação de Guilherme Telles da Silva",
+   "publisher": "Universidade Estadual de Maringá",
+   "url": "https://pph.uem.br/dissertacoes-e-teses/dissertacoes/guilherme-telles-da-silva.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_AGUA": {
+   "id": "MARINGA_AGUA",
+   "title": "A história do abastecimento de água em Maringá, Estado do Paraná (Acta Scientiarum, 2002)",
+   "publisher": "Universidade Estadual de Maringá",
+   "url": "https://periodicos.uem.br/ojs/index.php/ActaSciHumanSocSci/article/download/2445/1711",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_ANPUR": {
+   "id": "MARINGA_ANPUR",
+   "title": "Maringá e o mito da cidade planejada (Anais do Enanpur)",
+   "publisher": "Associação Nacional de Pós-Graduação e Pesquisa em Planejamento Urbano e Regional (Anpur)",
+   "url": "https://anais.anpur.org.br/index.php/anaisenanpur/article/download/1560/1539",
+   "checkedAt": "2026-11-15"
+  },
+  "MARINGA_WIKI": {
+   "id": "MARINGA_WIKI",
+   "title": "Maringá",
+   "publisher": "Wikipedia (em inglês)",
+   "url": "https://en.wikipedia.org/wiki/Maring%C3%A1",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.cmm.pr.gov.br/?inc=historico",
+   "https://periodicos.uem.br/ojs/index.php/ActaSciHumanSocSci/article/download/9133/9133/",
+   "https://periodicos.uem.br//actascitechnol/index.php/ActaSciTechnol/article/download/11063/pdf_1/",
+   "https://pph.uem.br/dissertacoes-e-teses/dissertacoes/guilherme-telles-da-silva.pdf",
+   "https://periodicos.uem.br/ojs/index.php/ActaSciHumanSocSci/article/download/2445/1711",
+   "https://anais.anpur.org.br/index.php/anaisenanpur/article/download/1560/1539",
+   "https://en.wikipedia.org/wiki/Maring%C3%A1"
+  ],
+  "alteracoes": [
+   "Nenhuma das 4 fontes do rascunho abriu; substituídas por 7 fontes abertas (Câmara de Maringá, 3 artigos e 1 dissertação da UEM, Anpur, Wikipedia)",
+   "C2: rótulo \"Urbanista ligado ao projeto de 1943\" trocado por \"Autor do plano urbanístico da cidade\" (ano 1943 sem apoio)",
+   "C3: gabarito Parque do Ingá mantido, agora com fonte (Wikipedia, artigo da UEM)",
+   "C4: trocado de \"Estado brasileiro\" para o município do qual era distrito, gabarito Mandaguari (Câmara)",
+   "Retiradas sem apoio: Parque do Japão, Teatro Calil Haddad, Mercadão, Guarani/Kaingang, região metropolitana de 1998, BR-376, distrito criado em 1947; \"fotografias aéreas\" do plano corrigida (a fonte as liga ao cadastro técnico municipal, não ao projeto)",
+   "viajante: 21 pistas reescritas ou trocadas (P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

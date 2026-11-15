@@ -1,0 +1,1065 @@
+{
+ "case": {
+  "id": "lug2-maceio",
+  "placeId": "maceio",
+  "title": "Maceió",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Maceió"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Natal"
+     },
+     {
+      "id": "C1-O3",
+      "text": "João Pessoa"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Aracaju"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Recife"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Salvador"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Fortaleza"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Maceió",
+    "sources": [
+     "MACEIO_IBGEHIST",
+     "MACEIO_SEPLAG",
+     "MACEIO_CB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Lagoa que banha a cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Lagoa Mundaú"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Lagoa dos Patos"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Lagoa da Conceição"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Lagoa Rodrigo de Freitas"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Lagoa Mundaú",
+    "sources": [
+     "MACEIO_IBGE1966",
+     "MACEIO_CB"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Artesanato tradicional associado ao Pontal da Barra",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Filé"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Renda renascença"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Capim dourado"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Cerâmica marajoara"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Filé",
+    "sources": [
+     "MACEIO_CB",
+     "MACEIO_IBGE1966"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Alagoas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Pernambuco"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Paraíba"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Rio Grande do Norte"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Alagoas",
+    "sources": [
+     "MACEIO_IBGEHIST",
+     "MACEIO_SEPLAG"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "maceio-viajante-P01",
+      "factKey": "maceio-F01",
+      "text": "É uma capital litorânea do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P02",
+      "factKey": "maceio-F02",
+      "text": "O clima é quente e úmido, com calor o ano inteiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB",
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P03",
+      "factKey": "maceio-F03",
+      "text": "Fica em Alagoas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P04",
+      "factKey": "maceio-F04",
+      "text": "Jangadas levam cerca de 20 minutos até piscinas naturais formadas por recifes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P05",
+      "factKey": "maceio-F05",
+      "text": "Esse passeio de jangada depende da maré baixa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P06",
+      "factKey": "maceio-F06",
+      "text": "Nas piscinas naturais dá para ver peixes coloridos com máscara de mergulho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P07",
+      "factKey": "maceio-F07",
+      "text": "As piscinas ficam a cerca de 1 km da praia de Pajuçara.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P08",
+      "factKey": "maceio-F08",
+      "text": "Ponta Verde é o trecho mais nobre da orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P09",
+      "factKey": "maceio-F09",
+      "text": "Na praia de Jatiúca, ondas mais fortes atraem surfistas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P10",
+      "factKey": "maceio-F10",
+      "text": "Um mirante sobre o mar, o Marco dos Corais, foi inaugurado em 2022.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P11",
+      "factKey": "maceio-F11",
+      "text": "Rendeiras de filé trabalham no Pontal da Barra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MACEIO_CB",
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P12",
+      "factKey": "maceio-F12",
+      "text": "No Pontal da Barra, o pôr do sol acontece sobre uma lagoa.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P13",
+      "factKey": "maceio-F13",
+      "text": "O sururu, um marisco das lagoas, é símbolo da comida local.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P14",
+      "factKey": "maceio-F14",
+      "text": "Caldinho de sururu e peixada com pirão de coco estão no cardápio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P15",
+      "factKey": "maceio-F15",
+      "text": "A cidade nasceu em volta de um engenho de açúcar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P16",
+      "factKey": "maceio-F16",
+      "text": "O nome vem do tupi e tem a ver com terrenos alagadiços.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P17",
+      "factKey": "maceio-F17",
+      "text": "O porto de Jaraguá ajudou o povoado a crescer.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P18",
+      "factKey": "maceio-F18",
+      "text": "O bairro de Jaraguá guarda casarões do tempo do açúcar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P19",
+      "factKey": "maceio-F19",
+      "text": "Virou vila em 1815, por ordem de D. João VI.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P20",
+      "factKey": "maceio-F20",
+      "text": "Em 1839, tornou-se a capital da província.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P21",
+      "factKey": "maceio-F21",
+      "text": "A antiga matriz é dedicada a Nossa Senhora dos Prazeres.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P22",
+      "factKey": "maceio-F22",
+      "text": "O Teatro Deodoro é um dos marcos culturais da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P23",
+      "factKey": "maceio-F23",
+      "text": "A Praia do Francês fica a cerca de 30 km, já em outro município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P24",
+      "factKey": "maceio-F24",
+      "text": "A capital fica a cerca de 260 km de Recife pela BR-101.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-viajante-P25",
+      "factKey": "maceio-F25",
+      "text": "A lagoa Mundaú, a mais importante do estado, banha a cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "maceio-geografo-P01",
+      "factKey": "maceio-F01",
+      "text": "É uma capital costeira situada entre o mar e lagoas litorâneas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P02",
+      "factKey": "maceio-F02",
+      "text": "O relevo urbano combina uma planície litorânea e tabuleiros sedimentares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P03",
+      "factKey": "maceio-F03",
+      "text": "Os tabuleiros chegam a 45 m nas falésias voltadas para o mar e a 80–90 m no limite oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P04",
+      "factKey": "maceio-F04",
+      "text": "A planície reúne praias, restingas e margens lagunares.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P05",
+      "factKey": "maceio-F05",
+      "text": "Recifes a cerca de 1 km da costa formam piscinas de água clara na maré baixa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P06",
+      "factKey": "maceio-F06",
+      "text": "A principal lagoa do estado banha a cidade e é navegável por lanchas, canoas e barcaças.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P07",
+      "factKey": "maceio-F07",
+      "text": "Portos lacustres, como Trapiche da Barra e Fernão Velho, complementavam o porto marítimo de Jaraguá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P08",
+      "factKey": "maceio-F08",
+      "text": "Em 1966, o porto de Jaraguá era a única saída marítima do estado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P09",
+      "factKey": "maceio-F09",
+      "text": "Em 1673, a Coroa mandou fortificar o porto de Jaraguá contra o contrabando de pau-brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P10",
+      "factKey": "maceio-F10",
+      "text": "O povoado formou-se em torno de um engenho, e o porto impulsionou seu crescimento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P11",
+      "factKey": "maceio-F11",
+      "text": "O topônimo tupi é traduzido como \"o que tapa o alagadiço\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P12",
+      "factKey": "maceio-F12",
+      "text": "Um alvará de 1815 separou o povoado da Vila das Alagoas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P13",
+      "factKey": "maceio-F13",
+      "text": "Após a autonomia da capitania, em 1817, o governo começou a transferir a capital.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P14",
+      "factKey": "maceio-F14",
+      "text": "A transferência enfrentou resistência e só se completou em 16 de dezembro de 1839.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P15",
+      "factKey": "maceio-F15",
+      "text": "Uma lei provincial de 9 de dezembro de 1839 elevou a vila a cidade e capital.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST",
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P16",
+      "factKey": "maceio-F16",
+      "text": "O crescimento sem plano separou moradias no planalto, comércio no centro e indústria junto ao porto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P17",
+      "factKey": "maceio-F17",
+      "text": "A pesca se organizava em colônias, como a do Pontal da Barra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P18",
+      "factKey": "maceio-F18",
+      "text": "O filé é uma tradição artesanal ligada às comunidades do Pontal da Barra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "MACEIO_CB",
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P19",
+      "factKey": "maceio-F19",
+      "text": "Uma fábrica de fiação e tecelagem marcou o distrito lacustre de Fernão Velho.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P20",
+      "factKey": "maceio-F20",
+      "text": "A construção da catedral começou em 1840, logo após a mudança da capital.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P21",
+      "factKey": "maceio-F21",
+      "text": "Em 2010, 99,9% dos moradores do município viviam em área urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P22",
+      "factKey": "maceio-F22",
+      "text": "O município ocupa cerca de 509 km².",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_SEPLAG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P23",
+      "factKey": "maceio-F23",
+      "text": "As chuvas se concentram no outono e no inverno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "MACEIO_SEPLAG",
+       "MACEIO_IBGE1966"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P24",
+      "factKey": "maceio-F24",
+      "text": "O sururu das lagoas virou símbolo gastronômico, ligando a culinária ao ambiente lagunar.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "MACEIO_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "maceio-geografo-P25",
+      "factKey": "maceio-F25",
+      "text": "Capital transferida da Vila das Alagoas em 1839, cresceu a partir do porto de Jaraguá.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "MACEIO_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital de Alagoas desde 1839, nascida de um engenho e do porto de Jaraguá, entre o mar das piscinas naturais de Pajuçara e a lagoa Mundaú, onde as rendeiras do Pontal da Barra fazem o filé.",
+   "editorialNotes": [
+    "Dados da monografia do IBGE são de 1966 (porto, colônias de pesca, relevo); as pistas que dependem da época indicam o ano.",
+    "A população do Censo 2022 foi retirada; a estimativa de 2021 (SEPLAG) e o número da reportagem divergem.",
+    "Lagoa Manguaba, ilhas da Mundaú, Palácio dos Martírios e mirantes não foram confirmados nas fontes abertas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por histórico e monografia do IBGE, perfil da SEPLAG-AL e reportagem abertos na revisão; C2–C3 ajustados e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "MACEIO_IBGEHIST": {
+   "id": "MACEIO_IBGEHIST",
+   "title": "Maceió (AL) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/alagoas/maceio.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "MACEIO_IBGE1966": {
+   "id": "MACEIO_IBGE1966",
+   "title": "Maceió – Alagoas (Coleção de Monografias nº 329, 2ª ed., 1966)",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n329_maceio_2ed.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "MACEIO_SEPLAG": {
+   "id": "MACEIO_SEPLAG",
+   "title": "Perfil Municipal: Maceió",
+   "publisher": "Secretaria de Planejamento, Gestão e Patrimônio de Alagoas (SEPLAG/SINC)",
+   "url": "https://dados.al.gov.br/catalogo/dataset/2faafe79-05b2-458c-a991-56d3ce383dbc/resource/fe53c4f8-3c46-46bf-8343-0301436f20a4/download/maceio.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "MACEIO_CB": {
+   "id": "MACEIO_CB",
+   "title": "Entre os destinos mais buscados do Brasil, esta cidade guarda piscinas naturais a poucos minutos da sua orla urbana",
+   "publisher": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/entre-os-destinos-mais-buscados-do-brasil-esta-cidade-guarda-piscinas-naturais-a-poucos-minutos-da-sua-orla-urbana/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/alagoas/maceio.pdf",
+   "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n329_maceio_2ed.pdf",
+   "https://dados.al.gov.br/catalogo/dataset/2faafe79-05b2-458c-a991-56d3ce383dbc/resource/fe53c4f8-3c46-46bf-8343-0301436f20a4/download/maceio.pdf",
+   "https://www.correiobraziliense.com.br/cbradar/entre-os-destinos-mais-buscados-do-brasil-esta-cidade-guarda-piscinas-naturais-a-poucos-minutos-da-sua-orla-urbana/"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (MACEIO_IBGE, MACEIO_MTUR, MACEIO_PCR, MACEIO_JARAGUA, MACEIO_ART) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico e monografia de 1966), Perfil Municipal da SEPLAG-AL e Correio Braziliense (ago. 2026)",
+   "alias \"Maceió\" (igual ao título) removido",
+   "C2: alternativas padronizadas (\"Lagoa Mundaú\") e rótulo \"Lagoa que banha a cidade\" (monografia IBGE)",
+   "C3: renda de bilros (também citada entre as rendas locais pelo IBGE, risco de ambiguidade) trocada por cerâmica marajoara; rótulo ajustado",
+   "Retiradas pistas sem fonte aberta: população 2022, lagoa Manguaba, manguezais, ilhas da Mundaú e Marechal Deodoro, Palácio dos Martírios, mirantes da parte alta",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

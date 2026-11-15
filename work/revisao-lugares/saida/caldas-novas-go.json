@@ -1,0 +1,1097 @@
+{
+ "case": {
+  "id": "lug2-caldas-novas-go",
+  "placeId": "caldas-novas-go",
+  "title": "Caldas Novas",
+  "aliases": [],
+  "answerType": "cidade brasileira",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Município brasileiro",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Caldas Novas"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Rio Quente"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Piracanjuba"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Pirenópolis"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Alto Paraíso de Goiás"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Formosa"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Corumbá de Goiás"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cavalcante"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Aruanã"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Barra do Garças"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Bonito"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Chapada dos Guimarães"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Caldas Novas",
+    "sources": [
+     "CNO_GOTUR",
+     "CNO_GOTUR_FICHA",
+     "CNO_IBGE_HIST",
+     "CNO_SUDECO"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Principal recurso do turismo local",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Águas termais"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cavernas calcárias"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Praias fluviais"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Cachoeiras de chapada"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Águas termais",
+    "sources": [
+     "CNO_GOTUR",
+     "CNO_GOTUR_FICHA",
+     "CNO_SUDECO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Lago de represa junto à cidade",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Lago de Corumbá"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Lago de Serra da Mesa"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Lago de Cana Brava"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Lago de Itumbiara"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Lago de Corumbá",
+    "sources": [
+     "CNO_GOTUR",
+     "CNO_GOTUR_FICHA",
+     "CNO_SUDECO"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Devoção do santuário no morro com vista para a cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Nossa Senhora da Salete"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Nossa Senhora Aparecida"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Nossa Senhora de Fátima"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Nossa Senhora do Rosário"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Nossa Senhora da Salete",
+    "sources": [
+     "CNO_GOTUR",
+     "CNO_GOTUR_RELIG"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "caldas-novas-go-viajante-P01",
+      "factKey": "caldas-novas-go-F01",
+      "text": "É uma cidade do interior do Brasil muito procurada por turistas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P02",
+      "factKey": "caldas-novas-go-F02",
+      "text": "Fica no Cerrado, num clima tropical com estação seca curta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P03",
+      "factKey": "caldas-novas-go-F03",
+      "text": "Fica no sul de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P04",
+      "factKey": "caldas-novas-go-F04",
+      "text": "Está a cerca de 171 km de Goiânia e 303 km de Brasília.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P05",
+      "factKey": "caldas-novas-go-F05",
+      "text": "Suas nascentes brotam naturalmente com mais de 35 °C.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P06",
+      "factKey": "caldas-novas-go-F06",
+      "text": "A água quente abastece clubes, parques aquáticos e condomínios.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P07",
+      "factKey": "caldas-novas-go-F07",
+      "text": "A cidade tem muitos hotéis: o censo hoteleiro de 2019 contou mais de 200 meios de hospedagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P08",
+      "factKey": "caldas-novas-go-F08",
+      "text": "Recebe milhões de turistas por ano, do Brasil e do exterior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_SUDECO",
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P09",
+      "factKey": "caldas-novas-go-F09",
+      "text": "A cidade fica junto ao lago de uma represa, bom para passeios de barco.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P10",
+      "factKey": "caldas-novas-go-F10",
+      "text": "Esse lago é o da represa de Corumbá.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P11",
+      "factKey": "caldas-novas-go-F11",
+      "text": "Uma serra vizinha, protegida por parque estadual, tem trilhas e cachoeiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P12",
+      "factKey": "caldas-novas-go-F12",
+      "text": "Nessa serra ficam a Cascatinha e a cachoeira do Paredão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P13",
+      "factKey": "caldas-novas-go-F13",
+      "text": "Ciclistas de todo o país vêm para um desafio anual de mountain bike nas trilhas da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P14",
+      "factKey": "caldas-novas-go-F14",
+      "text": "Um santuário no alto de um morro tem vista para a cidade.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P15",
+      "factKey": "caldas-novas-go-F15",
+      "text": "O santuário é dedicado a Nossa Senhora da Salete e recebe uma romaria diocesana.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_GOTUR_RELIG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P16",
+      "factKey": "caldas-novas-go-F16",
+      "text": "Há também um jardim japonês para passeio e contemplação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P17",
+      "factKey": "caldas-novas-go-F17",
+      "text": "A igreja de Nossa Senhora das Dores, de 1850, é tida como a construção mais antiga da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_RELIG",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P18",
+      "factKey": "caldas-novas-go-F18",
+      "text": "Em novembro, costuma receber um grande festival de música sertaneja com cerca de 100 mil pessoas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P19",
+      "factKey": "caldas-novas-go-F19",
+      "text": "Tem um museu dedicado às águas termais.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P20",
+      "factKey": "caldas-novas-go-F20",
+      "text": "Uma lagoa de água quente está entre os passeios mais conhecidos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P21",
+      "factKey": "caldas-novas-go-F21",
+      "text": "Numa das fontes a água chega a cerca de 57 °C, e o nome dela vem de histórias de ovos cozidos ali.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P22",
+      "factKey": "caldas-novas-go-F22",
+      "text": "Os primeiros moradores foram garimpeiros e doentes que buscavam tratamento nas águas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA",
+       "CNO_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P23",
+      "factKey": "caldas-novas-go-F23",
+      "text": "Também se achou ouro num córrego da região, que ganhou o nome de Córrego das Lavras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P24",
+      "factKey": "caldas-novas-go-F24",
+      "text": "O município se separou de Morrinhos em 1911 e faz aniversário em 21 de outubro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_IBGE_HIST",
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-viajante-P25",
+      "factKey": "caldas-novas-go-F25",
+      "text": "É apresentada como a maior estância hidrotermal do mundo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_SUDECO",
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "caldas-novas-go-geografo-P01",
+      "factKey": "caldas-novas-go-F01",
+      "text": "Município do Centro-Oeste cuja economia depende de um recurso hídrico subterrâneo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_SUDECO",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P02",
+      "factKey": "caldas-novas-go-F02",
+      "text": "O clima tropical úmido a subúmido, de transição entre Af e Aw, tem mês mais frio acima de 18 °C e estação seca curta.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P03",
+      "factKey": "caldas-novas-go-F03",
+      "text": "Integra a Região Turística das Águas Quentes, com dois municípios vizinhos.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P04",
+      "factKey": "caldas-novas-go-F04",
+      "text": "A chuva infiltra por fissuras das rochas, desce a grandes profundidades e se aquece pelo gradiente geotérmico, sem vulcão envolvido.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA",
+       "CNO_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P05",
+      "factKey": "caldas-novas-go-F05",
+      "text": "O aquífero termal tem várias áreas de recarga; uma das principais é uma serra de topo plano a 1.043 m de altitude.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P06",
+      "factKey": "caldas-novas-go-F06",
+      "text": "No topo dessa serra, a permeabilidade dos solos favorece a infiltração que alimenta o aquífero.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P07",
+      "factKey": "caldas-novas-go-F07",
+      "text": "A escarpa íngreme da serra desce em média cerca de 300 m, e nela brotam muitas nascentes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P08",
+      "factKey": "caldas-novas-go-F08",
+      "text": "Um parque estadual de 1970, na divisa com o município vizinho, protege a área de captação que alimenta o lençol termal.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA",
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P09",
+      "factKey": "caldas-novas-go-F09",
+      "text": "Nas encostas íngremes, o Cerrado Rupestre tem proteção legal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P10",
+      "factKey": "caldas-novas-go-F10",
+      "text": "Em 2019, a hotelaria somava 223 estabelecimentos e mais de 64 mil leitos, além de cerca de 9.100 unidades em aluguel residencial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P11",
+      "factKey": "caldas-novas-go-F11",
+      "text": "A população passou de 70.473 habitantes no Censo 2010 para cerca de 95,2 mil na estimativa de 2020.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P12",
+      "factKey": "caldas-novas-go-F12",
+      "text": "A cidade margeia o lago formado pela represa de Corumbá, base de turismo náutico.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P13",
+      "factKey": "caldas-novas-go-F13",
+      "text": "A oferta turística se diversifica com ecoturismo na serra, turismo náutico e turismo religioso.",
+      "relatedFields": [
+       "C1",
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA",
+       "CNO_GOTUR_RELIG"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P14",
+      "factKey": "caldas-novas-go-F14",
+      "text": "Em 1722, Bartolomeu Bueno da Silva, o filho, achou ao pé da serra um córrego com sinais de ouro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P15",
+      "factKey": "caldas-novas-go-F15",
+      "text": "Em 1777, Martinho Coelho encontrou novas fontes termais e ouro, e requereu uma sesmaria na área.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA",
+       "CNO_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P16",
+      "factKey": "caldas-novas-go-F16",
+      "text": "O primeiro povoado surgiu junto à fazenda, formado por garimpeiros e enfermos atraídos pelas águas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P17",
+      "factKey": "caldas-novas-go-F17",
+      "text": "Em 1850, um segundo núcleo surgiu na margem oposta do córrego, em torno de uma igreja.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P18",
+      "factKey": "caldas-novas-go-F18",
+      "text": "Em 1818, um governador com reumatismo teria se curado com banhos nas fontes.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P19",
+      "factKey": "caldas-novas-go-F19",
+      "text": "Distrito de Morrinhos desde 1857, tornou-se município em 1911 e cidade em 1923.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P20",
+      "factKey": "caldas-novas-go-F20",
+      "text": "Os primeiros habitantes da região foram indígenas caiapós e xavantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P21",
+      "factKey": "caldas-novas-go-F21",
+      "text": "No período colonial, a área pertencia à capitania de São Paulo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P22",
+      "factKey": "caldas-novas-go-F22",
+      "text": "Na lagoa do Pirapitinga, as nascentes passam de 50 °C.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CNO_CORREIO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P23",
+      "factKey": "caldas-novas-go-F23",
+      "text": "Os extremos de temperatura registrados vão de 9,3 °C (1975) a 38,6 °C (2002).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CNO_GOTUR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P24",
+      "factKey": "caldas-novas-go-F24",
+      "text": "A serra protegida, com eixos de cerca de 15 km por 9 km, é uma das principais áreas de recarga dos aquíferos termais da cidade e de Rio Quente.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR_FICHA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caldas-novas-go-geografo-P25",
+      "factKey": "caldas-novas-go-F25",
+      "text": "Parques aquáticos e piscinas termais fazem dela o polo do que se anuncia como o maior manancial hidrotermal do mundo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CNO_GOTUR",
+       "CNO_SUDECO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Caldas Novas, no sul de Goiás, é a cidade das águas termais: a chuva que infiltra na serra vizinha, protegida por parque estadual desde 1970, aquece em profundidade e volta à superfície, sustentando hotéis, parques aquáticos e milhões de turistas por ano, junto ao lago da represa de Corumbá.",
+   "editorialNotes": [
+    "Cidade distinta do Parque Estadual da Serra de Caldas Novas (outro lote); as pistas sobre a serra tratam só da relação com o aquífero e a visitação.",
+    "O número de turistas por ano diverge entre páginas oficiais (2, 3 e 4 milhões); as pistas dizem só \"milhões\". O gentílico também diverge (caldense no IBGE; calda-novense na Goiás Turismo) e não é usado.",
+    "As fontes oficiais grafam \"Salete\"; a população do Censo 2022 foi retirada porque a página do IBGE Cidades não foi aberta."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes da Goiás Turismo, IBGE, Sudeco e Correio Braziliense abertas; 50 pistas conferidas e reescritas, C1 restrito ao Centro-Oeste e C3/C4 com rótulos e distratores revistos."
+  }
+ },
+ "sources": {
+  "CNO_GOTUR": {
+   "id": "CNO_GOTUR",
+   "title": "Caldas Novas",
+   "publisher": "Goiás Turismo — Governo de Goiás",
+   "url": "https://goias.gov.br/turismo/caldasnovas/",
+   "checkedAt": "2026-11-15"
+  },
+  "CNO_GOTUR_FICHA": {
+   "id": "CNO_GOTUR_FICHA",
+   "title": "32 – Município de Caldas Novas (ficha municipal de turismo)",
+   "publisher": "Goiás Turismo — Governo de Goiás",
+   "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/32-–-Municipio-de-Caldas-Novas.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CNO_GOTUR_RELIG": {
+   "id": "CNO_GOTUR_RELIG",
+   "title": "Turismo Religioso — Região das Águas Quentes",
+   "publisher": "Goiás Turismo — Governo de Goiás",
+   "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2024/04/Turismo-Religioso-Regiao-das-Aguas-Quentes.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CNO_IBGE_HIST": {
+   "id": "CNO_IBGE_HIST",
+   "title": "Caldas Novas (GO) — histórico do município",
+   "publisher": "Instituto Brasileiro de Geografia e Estatística (IBGE) — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/caldasnovas.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CNO_SUDECO": {
+   "id": "CNO_SUDECO",
+   "title": "Caldas Novas - GO",
+   "publisher": "Superintendência do Desenvolvimento do Centro-Oeste (Sudeco)",
+   "url": "https://www.gov.br/sudeco/pt-br/municipios/goias/outubro/caldas-novas-go",
+   "checkedAt": "2026-11-15"
+  },
+  "CNO_CORREIO": {
+   "id": "CNO_CORREIO",
+   "title": "Como as águas de Caldas Novas ficam quentes",
+   "publisher": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/como-as-aguas-de-caldas-novas-ficam-quentes/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://goias.gov.br/turismo/caldasnovas/",
+   "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/32-–-Municipio-de-Caldas-Novas.pdf",
+   "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2024/04/Turismo-Religioso-Regiao-das-Aguas-Quentes.pdf",
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/caldasnovas.pdf",
+   "https://www.gov.br/sudeco/pt-br/municipios/goias/outubro/caldas-novas-go",
+   "https://www.correiobraziliense.com.br/cbradar/como-as-aguas-de-caldas-novas-ficam-quentes/"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho substituídas: página da Goiás Turismo no endereço atual (/turismo/caldasnovas/), ficha municipal e cartilha de turismo religioso da Goiás Turismo, histórico do IBGE, página da Sudeco e reportagem do Correio Braziliense; a página do PESCAN e o IBGE Cidades deixaram de ser usados",
+   "C1: São Lourenço, Poços de Caldas, Águas de Lindóia, Caxambu, Araxá e Caldas da Imperatriz (fora do Centro-Oeste) trocados por Piracanjuba, Corumbá de Goiás, Cavalcante, Aruanã, Barra do Garças e Chapada dos Guimarães",
+   "C2: distrator \"Dunas e lagoas\" trocado por \"Cachoeiras de chapada\"; rótulo ajustado para \"Principal recurso do turismo local\"",
+   "C3: \"Lago das Brisas\" trocado por \"Lago de Itumbiara\"; gabarito renomeado \"Lago de Corumbá\", como nas fontes",
+   "C4: rótulo sem o nome do morro e grafia \"Salete\", como nas fontes oficiais",
+   "Pistas genéricas (hotéis, paisagem, visitantes estrangeiros, sustentabilidade do aquífero) trocadas por dados das fontes: distâncias, 35 °C/50 °C/57 °C, censo hoteleiro de 2019, recarga na serra a 1.043 m, escarpa de 300 m, Cerrado Rupestre, histórico de 1722, 1777, 1818, 1850, 1857, 1911 e 1923",
+   "geógrafo P25 (população do Censo 2022) retirada; números de população só com a fonte aberta (2010 e estimativa 2020)",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

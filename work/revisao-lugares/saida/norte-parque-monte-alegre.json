@@ -1,0 +1,1101 @@
+{
+  "case": {
+    "id": "lug2-norte-parque-monte-alegre",
+    "placeId": "norte-parque-monte-alegre",
+    "title": "Parque Estadual Monte Alegre",
+    "aliases": [
+      "Parque de Monte Alegre"
+    ],
+    "answerType": "parque estadual",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque estadual",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Estadual Monte Alegre"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Estadual do Jalapão"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Estadual do Cantão"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Estadual Chandless"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Estadual do Utinga"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Estadual do Lajeado"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Estadual Serra dos Martírios/Andorinhas"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Estadual de Guajará-Mirim"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Estadual Serra do Aracá"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Estadual de Vila Velha"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Estadual do Ibitipoca"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Estadual da Pedra Azul"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Estadual da Pedra da Boca"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Estadual Monte Alegre",
+        "sources": [
+          "MONTEALEGRE_WIKI",
+          "MONTEALEGRE_PAMZ26"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Patrimônio em destaque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Pinturas rupestres em serras e abrigos"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Cidades de pedra maias"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Ruínas de fortalezas romanas"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Arte mural de uma igreja barroca"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Pinturas rupestres em serras e abrigos",
+        "sources": [
+          "MONTEALEGRE_WIKI",
+          "MONTEALEGRE_DIARIO",
+          "MONTEALEGRE_PAMZ23"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estado brasileiro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pará"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Piauí"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Tocantins"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Maranhão"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pará",
+        "sources": [
+          "MONTEALEGRE_WIKI",
+          "MONTEALEGRE_PAMZ23"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ambientes do parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Serras, vales e cavernas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Dunas de areia e lagoas sazonais"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Cânions e campos de altitude"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Recifes costeiros e ilhas oceânicas"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Serras, vales e cavernas",
+        "sources": [
+          "MONTEALEGRE_WIKI",
+          "MONTEALEGRE_LEI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-parque-monte-alegre-viajante-P01",
+            "factKey": "norte-parque-monte-alegre-F01",
+            "text": "Este parque estadual fica no Norte do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_NORTE",
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P02",
+            "factKey": "norte-parque-monte-alegre-F02",
+            "text": "O lugar fica na Amazônia, numa região de morros ao norte do maior rio da região.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P03",
+            "factKey": "norte-parque-monte-alegre-F03",
+            "text": "O estado é o Pará.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P04",
+            "factKey": "norte-parque-monte-alegre-F04",
+            "text": "Há serras e vales no parque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P05",
+            "factKey": "norte-parque-monte-alegre-F05",
+            "text": "A área também tem cavernas e grutas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P06",
+            "factKey": "norte-parque-monte-alegre-F06",
+            "text": "O parque reúne vestígios de ocupações humanas antigas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P07",
+            "factKey": "norte-parque-monte-alegre-F07",
+            "text": "Há pinturas feitas em rochas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_DIARIO",
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P08",
+            "factKey": "norte-parque-monte-alegre-F08",
+            "text": "Algumas pinturas estão em paredões a céu aberto, visíveis do pé do morro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P09",
+            "factKey": "norte-parque-monte-alegre-F09",
+            "text": "Outros desenhos aparecem dentro de cavernas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P10",
+            "factKey": "norte-parque-monte-alegre-F10",
+            "text": "As pinturas têm figuras em amarelo e vermelho, como animais e mãos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P11",
+            "factKey": "norte-parque-monte-alegre-F11",
+            "text": "Alguns vestígios humanos da área têm mais de 12 mil anos, segundo pesquisadores.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P12",
+            "factKey": "norte-parque-monte-alegre-F12",
+            "text": "Uma das serras tem um sítio com nome ligado à Lua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P13",
+            "factKey": "norte-parque-monte-alegre-F13",
+            "text": "A Serra do Ererê abriga parte dos sítios.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P14",
+            "factKey": "norte-parque-monte-alegre-F14",
+            "text": "A gruta mais visitada se chama Caverna da Pedra Pintada.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P15",
+            "factKey": "norte-parque-monte-alegre-F15",
+            "text": "Outra gruta recebe o nome de Itatupaoca.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P16",
+            "factKey": "norte-parque-monte-alegre-F16",
+            "text": "A entrada dessa gruta tem cerca de 9,5 metros de altura.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P17",
+            "factKey": "norte-parque-monte-alegre-F17",
+            "text": "Uma formação de pedra é chamada de Pedra do Cogumelo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26",
+              "MONTEALEGRE_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P18",
+            "factKey": "norte-parque-monte-alegre-F18",
+            "text": "Outra rocha famosa do passeio é a Pedra da Tartaruga.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P19",
+            "factKey": "norte-parque-monte-alegre-F19",
+            "text": "A vegetação inclui floresta densa e campos rupestres.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P20",
+            "factKey": "norte-parque-monte-alegre-F20",
+            "text": "O solo arenoso exige carro com tração para chegar aos principais atrativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P21",
+            "factKey": "norte-parque-monte-alegre-F21",
+            "text": "O parque foi criado por lei estadual em 2001.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI",
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P22",
+            "factKey": "norte-parque-monte-alegre-F22",
+            "text": "Os limites da unidade foram alterados em 2013.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI",
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P23",
+            "factKey": "norte-parque-monte-alegre-F23",
+            "text": "As visitas são feitas com condutores locais, muitos de comunidades tradicionais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26",
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P24",
+            "factKey": "norte-parque-monte-alegre-F24",
+            "text": "Pesquisadores do Museu Goeldi acharam novos sítios com pinturas e cerâmica no parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-viajante-P25",
+            "factKey": "norte-parque-monte-alegre-F25",
+            "text": "O parque faz controle e fiscalização contra queimadas para proteger os vestígios.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-parque-monte-alegre-geografo-P01",
+            "factKey": "norte-parque-monte-alegre-F01",
+            "text": "A unidade estadual de proteção integral situa-se na região Norte brasileira.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI",
+              "MONTEALEGRE_NORTE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P02",
+            "factKey": "norte-parque-monte-alegre-F02",
+            "text": "A área protegida ocupa terrenos de serra ao norte do principal rio da bacia amazônica.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P03",
+            "factKey": "norte-parque-monte-alegre-F03",
+            "text": "A unidade localiza-se no oeste do Pará, na região do Baixo Amazonas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P04",
+            "factKey": "norte-parque-monte-alegre-F04",
+            "text": "Um conjunto de serras e vales diferencia o relevo da área protegida.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P05",
+            "factKey": "norte-parque-monte-alegre-F05",
+            "text": "A lei de criação inclui cavidades naturais e estruturas geológicas entre os elementos protegidos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P06",
+            "factKey": "norte-parque-monte-alegre-F06",
+            "text": "Sítios com pinturas, cerâmicas, artefatos e estruturas registram sociedades humanas do passado amazônico.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P07",
+            "factKey": "norte-parque-monte-alegre-F07",
+            "text": "A arte rupestre integra o patrimônio cultural protegido, ao lado de vestígios materiais de antigos habitantes.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23",
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P08",
+            "factKey": "norte-parque-monte-alegre-F08",
+            "text": "Os suportes da arte incluem paredões rochosos a céu aberto, visíveis a partir do sopé.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P09",
+            "factKey": "norte-parque-monte-alegre-F09",
+            "text": "Cavernas e abrigos rochosos também preservam pinturas antigas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P10",
+            "factKey": "norte-parque-monte-alegre-F10",
+            "text": "Os sítios são relevantes para estudos sobre o povoamento da Amazônia e a origem dos humanos nas Américas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P11",
+            "factKey": "norte-parque-monte-alegre-F11",
+            "text": "Estudos indicam vestígios de ocupação humana com mais de 12 mil anos, entre os mais antigos da Amazônia.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P12",
+            "factKey": "norte-parque-monte-alegre-F12",
+            "text": "Na Serra do Ererê, o sítio da Serra da Lua reúne um painel de mais de 200 metros com figuras vermelhas e amarelas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_DIARIO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P13",
+            "factKey": "norte-parque-monte-alegre-F13",
+            "text": "As serras do Ererê e da Paituna estruturam o relevo e concentram os sítios arqueológicos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P14",
+            "factKey": "norte-parque-monte-alegre-F14",
+            "text": "A Caverna da Pedra Pintada, no flanco leste da Serra da Paituna, tem 89 metros de profundidade.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P15",
+            "factKey": "norte-parque-monte-alegre-F15",
+            "text": "A Gruta Itatupaoca, também chamada Gruta da Capela, fica na encosta sul da Serra do Ererê.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P16",
+            "factKey": "norte-parque-monte-alegre-F16",
+            "text": "Várias grutas se abrem dezenas de metros acima do nível do Amazonas, algumas a cerca de 120 metros.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P17",
+            "factKey": "norte-parque-monte-alegre-F17",
+            "text": "A Pedra do Cogumelo situa-se no flanco oeste da Serra da Paituna.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_SGB",
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P18",
+            "factKey": "norte-parque-monte-alegre-F18",
+            "text": "Formações rochosas isoladas, como a Pedra da Tartaruga e a Pedra do Mirante, compõem o circuito de visitação.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P19",
+            "factKey": "norte-parque-monte-alegre-F19",
+            "text": "A cobertura combina floresta densa, campos rupestres e afloramentos rochosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P20",
+            "factKey": "norte-parque-monte-alegre-F20",
+            "text": "A característica arenosa do solo condiciona o acesso, que exige veículos com tração.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ26"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P21",
+            "factKey": "norte-parque-monte-alegre-F21",
+            "text": "A Lei estadual nº 6.412, de novembro de 2001, criou a unidade com 5.800 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI",
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P22",
+            "factKey": "norte-parque-monte-alegre-F22",
+            "text": "Uma lei de 2013 transferiu parte da área para a APA que a envolve, reduzindo o parque a 3.678 hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI",
+              "MONTEALEGRE_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P23",
+            "factKey": "norte-parque-monte-alegre-F23",
+            "text": "A lei concilia proteção integral com usos científicos, educacionais, recreativos e ecoturísticos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MONTEALEGRE_LEI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P24",
+            "factKey": "norte-parque-monte-alegre-F24",
+            "text": "Em 2012, o Museu Goeldi relatou 19 novos sítios com pinturas e cerâmica na parte baixa do parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parque-monte-alegre-geografo-P25",
+            "factKey": "norte-parque-monte-alegre-F25",
+            "text": "O controle de queimadas integra a gestão para proteger vestígios arqueológicos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MONTEALEGRE_PAMZ23"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque estadual de proteção integral no município de Monte Alegre, oeste do Pará (Baixo Amazonas), com serras, vales e grutas que guardam pinturas rupestres e vestígios humanos com mais de 12 mil anos.",
+      "editorialNotes": [
+        "Data da lei de criação diverge: 9 de novembro de 2001 (texto da ALEPA) e 11 de novembro (Wikipedia); as pistas citam só o mês e o ano.",
+        "As fontes tratam a Caverna da Pedra Pintada e a Gruta/Pedra do Pilão como sítios distintos; a equivalência do rascunho foi retirada.",
+        "Vegetação de Cerrado (rascunho) não confirmada; usada a descrição 'floresta densa e campos rupestres'."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes reabertas por busca (Wikipedia, lei da ALEPA, Portal Amazônia/Ideflor-Bio, Diário do Pará, CPRM); grutas, serras, pinturas, datas legais, áreas e acesso conferidos; pistas sem apoio trocadas."
+    }
+  },
+  "sources": {
+    "MONTEALEGRE_WIKI": {
+      "id": "MONTEALEGRE_WIKI",
+      "title": "Monte Alegre State Park",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monte_Alegre_State_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_PAMZ23": {
+      "id": "MONTEALEGRE_PAMZ23",
+      "title": "Parque Estadual de Monte Alegre preserva sítios arqueológicos mais antigos da Amazônia",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/cultura/parque-estadual-de-monte-alegre-preserva-os-sitios-arqueologicos-mais-antigos-da-amazonia",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_PAMZ26": {
+      "id": "MONTEALEGRE_PAMZ26",
+      "title": "Ideflor-Bio destaca protagonismo comunitário e preservação no Parque de Monte Alegre",
+      "publisher": "Portal Amazônia (com informações do Ideflor-Bio)",
+      "url": "https://portalamazonia.com/turismo/parque-monte-alegre-destaque-comunitario/",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_DIARIO": {
+      "id": "MONTEALEGRE_DIARIO",
+      "title": "Monte Alegre tem parque estadual de valor inestimável",
+      "publisher": "Diário do Pará",
+      "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/monte-alegre-tem-parque-estadual-de-valor-inestimavel/",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_LEI": {
+      "id": "MONTEALEGRE_LEI",
+      "title": "Lei nº 6.412, de 9 de novembro de 2001 (cria o Parque Estadual Monte Alegre)",
+      "publisher": "Assembleia Legislativa do Pará",
+      "url": "https://bancodeleis.alepa.pa.gov.br/arquivos/lei6412_2001_98931.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_SGB": {
+      "id": "MONTEALEGRE_SGB",
+      "title": "Mapa do Potencial Ecoturístico — Município de Monte Alegre (PRIMAZ/PA)",
+      "publisher": "CPRM — Serviço Geológico do Brasil",
+      "url": "https://sgb.gov.br/documents/d/guest/eco_malegre",
+      "checkedAt": "2026-11-15"
+    },
+    "MONTEALEGRE_NORTE": {
+      "id": "MONTEALEGRE_NORTE",
+      "title": "Ministério do Turismo impulsiona pesca esportiva e fortalece turismo sustentável na Amazônia Legal",
+      "publisher": "Agência Gov / Ministério do Turismo",
+      "url": "https://agenciagov.ebc.com.br/noticias/202507/ministerio-do-turismo-impulsiona-pesca-esportiva-e-fortalece-turismo-sustentavel-na-amazonia-legal",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.wikipedia.org/wiki/Monte_Alegre_State_Park",
+      "https://portalamazonia.com/cultura/parque-estadual-de-monte-alegre-preserva-os-sitios-arqueologicos-mais-antigos-da-amazonia",
+      "https://portalamazonia.com/turismo/parque-monte-alegre-destaque-comunitario/",
+      "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/monte-alegre-tem-parque-estadual-de-valor-inestimavel/",
+      "https://bancodeleis.alepa.pa.gov.br/arquivos/lei6412_2001_98931.pdf",
+      "https://sgb.gov.br/documents/d/guest/eco_malegre",
+      "https://agenciagov.ebc.com.br/noticias/202507/ministerio-do-turismo-impulsiona-pesca-esportiva-e-fortalece-turismo-sustentavel-na-amazonia-legal"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (Ideflor-Bio e duas notícias do Museu Goeldi) não apareceram nas buscas; substituídas por Wikipedia, lei 6.412/2001 (ALEPA), Portal Amazônia (2023 e 2026, com informações do Ideflor-Bio), Diário do Pará e mapa ecoturístico da CPRM.",
+      "C1: 'do Chandless' corrigido para 'Chandless'; Serra do Mar, Serra do Tabuleiro, Guartelá trocados por parques do Norte (Lajeado, Serra dos Martírios/Andorinhas, Guajará-Mirim, Serra do Aracá).",
+      "viajante P14: 'Gruta do Pilão' trocada por Caverna da Pedra Pintada (fontes tratam como sítios distintos); P16: entrada 'dividida por rocha' (sem apoio) trocada por altura de 9,5 m; P18: 'forma de tartaruga no alto' reduzida ao nome da Pedra da Tartaruga; P19: Cerrado trocado por floresta densa e campos rupestres; P20: solo arenoso ligado ao acesso; P23: pesquisa/educação trocada por condutores locais; P24 e P25 reapoiadas; P02, P08–P10 reescritas.",
+      "geografo P12: 'extremidade oeste' retirada; P14: equivalência Pilão = Pedra Pintada retirada; P16: divisão rochosa por erosão (sem apoio) trocada por altitude das grutas; P17–P18: erosão sem apoio retirada; P19–P20: Cerrado e relação solo–rocha sem apoio trocados; P02, P04–P11, P13, P15, P21–P25 reescritas com dados das fontes.",
+      "Força das pistas: viajante P01–P02 abertura, P12 e P14 decisivas; geografo P01–P02 abertura, P12 e P14 decisivas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

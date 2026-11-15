@@ -1,0 +1,1101 @@
+{
+ "case": {
+  "id": "lug2-terra-ronca-go",
+  "placeId": "terra-ronca-go",
+  "title": "Parque Estadual de Terra Ronca",
+  "aliases": [
+   "Terra Ronca"
+  ],
+  "answerType": "parque estadual",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Unidade de conservação",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Estadual de Terra Ronca"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Estadual Intervales"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Estadual Turístico do Alto Ribeira"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional da Furna Feia"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Estadual de Vila Velha"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Estadual do Ibitipoca"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Estadual do Sumidouro"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Estadual de Campinhos"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional de Ubajara"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional da Chapada dos Veadeiros"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional da Serra da Bodoquena"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional Cavernas do Peruaçu"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Estadual de Terra Ronca",
+    "sources": [
+     "CENTRO_TER_GOV",
+     "CENTRO_TER_SEMAD"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio que atravessa a caverna que dá nome ao parque",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio da Lapa"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Peruaçu"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Betari"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Formoso"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio da Lapa",
+    "sources": [
+     "CENTRO_TER_GOV",
+     "TRONCA_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Região administrativa brasileira",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Centro-Oeste"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Sul"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Norte"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Sudeste"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Centro-Oeste",
+    "sources": [
+     "CENTRO_TER_GOV",
+     "CENTRO_TER_APA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Municípios abrangidos",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "São Domingos e Guarani de Goiás"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Cavalcante e Alto Paraíso de Goiás"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Bonito e Jardim"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Pirenópolis e Corumbá de Goiás"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "São Domingos e Guarani de Goiás",
+    "sources": [
+     "CENTRO_TER_SEMAD",
+     "CENTRO_TER_GOV"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "terra-ronca-go-viajante-P01",
+      "factKey": "terra-ronca-go-F01",
+      "text": "Este lugar é uma unidade de conservação brasileira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P02",
+      "factKey": "terra-ronca-go-F02",
+      "text": "Fica no Centro-Oeste do país.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P03",
+      "factKey": "terra-ronca-go-F03",
+      "text": "Está no nordeste do estado de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P04",
+      "factKey": "terra-ronca-go-F04",
+      "text": "A área fica na divisa com a Bahia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P05",
+      "factKey": "terra-ronca-go-F05",
+      "text": "O parque foi criado em 1989.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P06",
+      "factKey": "terra-ronca-go-F06",
+      "text": "Cavernas e grutas são a parte mais famosa da paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P07",
+      "factKey": "terra-ronca-go-F07",
+      "text": "Há rios que correm por dentro das cavernas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_GOIASTURISMO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P08",
+      "factKey": "terra-ronca-go-F08",
+      "text": "A região fica no domínio do Cerrado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_APA",
+       "CENTRO_TER_SEMAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P09",
+      "factKey": "terra-ronca-go-F09",
+      "text": "O parque se divide entre os municípios de São Domingos e Guarani de Goiás.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P10",
+      "factKey": "terra-ronca-go-F10",
+      "text": "A Serra Geral de Goiás compõe a paisagem da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P11",
+      "factKey": "terra-ronca-go-F11",
+      "text": "A água de rios e da chuva ajudou a escavar as cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRONCA_WIKI",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P12",
+      "factKey": "terra-ronca-go-F12",
+      "text": "Estalactites pendem do teto em vários salões.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "TRONCA_GOIASTURISMO",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P13",
+      "factKey": "terra-ronca-go-F13",
+      "text": "Estalagmites e grandes colunas aparecem dentro das cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_GOIASTURISMO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P14",
+      "factKey": "terra-ronca-go-F14",
+      "text": "Uma das cavernas visitadas se chama Angélica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P15",
+      "factKey": "terra-ronca-go-F15",
+      "text": "Na caverna São Mateus, a descida é feita com cordas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_GOIASTURISMO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P16",
+      "factKey": "terra-ronca-go-F16",
+      "text": "Dentro da caverna São Bernardo, dois rios se encontram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_GOIASTURISMO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P17",
+      "factKey": "terra-ronca-go-F17",
+      "text": "O parque também tem cachoeiras, cascatas e rios de água cristalina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P18",
+      "factKey": "terra-ronca-go-F18",
+      "text": "Há pinturas rupestres em vermelho em paredes de pedra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P19",
+      "factKey": "terra-ronca-go-F19",
+      "text": "O parque protege bichos e plantas que só vivem em cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P20",
+      "factKey": "terra-ronca-go-F20",
+      "text": "Uma ave ameaçada, a tiriba-do-paranã, vive nas matas secas do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P21",
+      "factKey": "terra-ronca-go-F21",
+      "text": "Desde o começo do século XX, devotos fazem romaria a uma das cavernas em agosto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P22",
+      "factKey": "terra-ronca-go-F22",
+      "text": "Uma sala na entrada da caverna principal guarda oferendas de romeiros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P23",
+      "factKey": "terra-ronca-go-F23",
+      "text": "Os grupos só entram nas cavernas com condutor credenciado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P24",
+      "factKey": "terra-ronca-go-F24",
+      "text": "Capacete e lanterna com pilhas reservas são obrigatórios para entrar nas cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-viajante-P25",
+      "factKey": "terra-ronca-go-F25",
+      "text": "O nome do lugar vem do ronco que um rio faz ao passar dentro de uma caverna.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "TRONCA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "terra-ronca-go-geografo-P01",
+      "factKey": "terra-ronca-go-F01",
+      "text": "A unidade estadual protege paisagens subterrâneas e mananciais do Cerrado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P02",
+      "factKey": "terra-ronca-go-F02",
+      "text": "Situa-se no Centro-Oeste, no domínio morfoclimático do Cerrado, com veredas e campos.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P03",
+      "factKey": "terra-ronca-go-F03",
+      "text": "O acesso no nordeste goiano parte da BR-020, rodovia que liga Brasília a Barreiras.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P04",
+      "factKey": "terra-ronca-go-F04",
+      "text": "As encostas goianas da Serra Geral, no entorno da unidade, marcam a divisa entre Goiás e Bahia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_APA",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P05",
+      "factKey": "terra-ronca-go-F05",
+      "text": "Criada por lei em 1989, a unidade só teve a área delimitada por decreto em 1996.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P06",
+      "factKey": "terra-ronca-go-F06",
+      "text": "São mais de mil cavidades conhecidas, das quais cerca de 40 foram exploradas e mapeadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P07",
+      "factKey": "terra-ronca-go-F07",
+      "text": "Nascentes da região formam e modelam as cavidades subterrâneas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CENTRO_TER_APA",
+       "TRONCA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P08",
+      "factKey": "terra-ronca-go-F08",
+      "text": "Florestas estacionais deciduais, matas ciliares e veredas se alternam com formações de Cerrado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P09",
+      "factKey": "terra-ronca-go-F09",
+      "text": "Cerca de 57 mil hectares se distribuem entre São Domingos e Guarani de Goiás.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P10",
+      "factKey": "terra-ronca-go-F10",
+      "text": "A Serra Geral, com altitudes de até 800 m, divide as águas das bacias do São Francisco e do Tocantins.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P11",
+      "factKey": "terra-ronca-go-F11",
+      "text": "O governo estadual estima em cerca de 620 milhões de anos a idade do complexo de cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P12",
+      "factKey": "terra-ronca-go-F12",
+      "text": "Calcários, dolomitos, siltitos e ardósias pré-cambrianos convivem com arenitos cretáceos na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P13",
+      "factKey": "terra-ronca-go-F13",
+      "text": "Além de estalactites e estalagmites, há flores de calcita, otólitos e travertinos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P14",
+      "factKey": "terra-ronca-go-F14",
+      "text": "A Lapa da Angélica tem salões como o dos Tubarões, o das Cortinas e o dos Espelhos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P15",
+      "factKey": "terra-ronca-go-F15",
+      "text": "Na Lapa São Mateus destacam-se um rio interno e o Salão dos Travertinos Gigantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P16",
+      "factKey": "terra-ronca-go-F16",
+      "text": "A caverna São Bernardo começa por uma dolina de cerca de 50 m, onde os rios São Bernardo e Palmeiras se encontram.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_GOIASTURISMO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P17",
+      "factKey": "terra-ronca-go-F17",
+      "text": "Os mananciais ficam em veredas, e a gestão cita o rio Angélica como o maior rio subterrâneo da América Latina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P18",
+      "factKey": "terra-ronca-go-F18",
+      "text": "Pinturas em vermelho queimado, ainda sem datação, aparecem perto da Lapa Pau-Pombo e na Fazenda Vaca Brava.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P19",
+      "factKey": "terra-ronca-go-F19",
+      "text": "Fauna e flora exclusivas do ambiente cavernícola dependem da conservação das cavidades e do entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_APA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P20",
+      "factKey": "terra-ronca-go-F20",
+      "text": "A tiriba-do-paranã, endêmica do Cerrado e de distribuição restrita, ocorre na estreita faixa de mata seca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_APA",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P21",
+      "factKey": "terra-ronca-go-F21",
+      "text": "A Festa do Bom Jesus da Lapa, em agosto, reúne romeiros de Goiás e de cidades vizinhas numa caverna.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "TRONCA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P22",
+      "factKey": "terra-ronca-go-F22",
+      "text": "Na entrada da caverna principal, a Sala dos Milagres reúne oferendas, e lá ocorrem batizados, casamentos e promessas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P23",
+      "factKey": "terra-ronca-go-F23",
+      "text": "O uso público exige condutor credenciado e agendamento de visitas técnicas e de grupos grandes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV",
+       "CENTRO_TER_SEMAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P24",
+      "factKey": "terra-ronca-go-F24",
+      "text": "Iluminação a acetileno é proibida para evitar calor e fuligem dentro das cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_SEMAD",
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "terra-ronca-go-geografo-P25",
+      "factKey": "terra-ronca-go-F25",
+      "text": "Entre abril e julho, por volta das 13h, um feixe de luz chamado raio azul entra numa das cavernas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CENTRO_TER_GOV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Parque Estadual de Terra Ronca, criado em 1989 em São Domingos e Guarani de Goiás, no nordeste goiano junto à Serra Geral e à divisa com a Bahia, protege um dos maiores conjuntos de cavernas calcárias da América do Sul, com rios subterrâneos e a romaria do Bom Jesus da Lapa.",
+   "editorialNotes": [
+    "Extensão e posição das cavernas no ranking nacional divergem entre as fontes do governo de Goiás (São Mateus como 3ª ou 2ª maior do Brasil; Angélica com cerca de 14 km ou 17 km); as pistas não usam esses números.",
+    "A origem do nome (ronco do rio da Lapa) e o percurso do rio vêm da Wikipedia; as páginas oficiais confirmam que o rio da Lapa atravessa a caverna Terra Ronca.",
+    "A página do Ministério do Turismo citada no rascunho não foi usada; as pistas se apoiam nas páginas oficiais de Goiás."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Páginas oficiais de Goiás (PETER, Semad, APA Serra Geral) abertas e 50 pistas conferidas; C1 com parques de cavernas comparáveis, C2 trocado por rio da caverna principal e pistas genéricas substituídas por fatos verificados."
+  }
+ },
+ "sources": {
+  "CENTRO_TER_GOV": {
+   "id": "CENTRO_TER_GOV",
+   "title": "Parque Estadual de Terra Ronca (PETER)",
+   "publisher": "Governo de Goiás — Parques de Goiás",
+   "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-de-terra-ronca-peter/",
+   "checkedAt": "2026-11-15"
+  },
+  "CENTRO_TER_SEMAD": {
+   "id": "CENTRO_TER_SEMAD",
+   "title": "Parque Estadual de Terra Ronca (PETeR)",
+   "publisher": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável de Goiás (Semad)",
+   "url": "https://goias.gov.br/meioambiente/parque-estadual-terra-ronca/",
+   "checkedAt": "2026-11-15"
+  },
+  "CENTRO_TER_APA": {
+   "id": "CENTRO_TER_APA",
+   "title": "APA da Serra Geral de Goiás",
+   "publisher": "Governo de Goiás — Parques de Goiás",
+   "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/apa-serra-geral/",
+   "checkedAt": "2026-11-15"
+  },
+  "TRONCA_GOIASTURISMO": {
+   "id": "TRONCA_GOIASTURISMO",
+   "title": "Relatório das Áreas de Risco – Estado de Goiás (levantamento de atrativos turísticos)",
+   "publisher": "Secretaria de Indústria, Comércio e Serviços de Goiás, Observatório do Turismo e Goiás Turismo",
+   "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2022/02/riscoGoias-2d3.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "TRONCA_WIKI": {
+   "id": "TRONCA_WIKI",
+   "title": "Lapa Terra Ronca",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lapa_Terra_Ronca",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-de-terra-ronca-peter/",
+   "https://goias.gov.br/meioambiente/parque-estadual-terra-ronca/",
+   "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/apa-serra-geral/",
+   "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2022/02/riscoGoias-2d3.pdf",
+   "https://en.wikipedia.org/wiki/Lapa_Terra_Ronca",
+   "https://goias.gov.br/procuradoria/?p=80699"
+  ],
+  "alteracoes": [
+   "Fonte CENTRO_TER_MIN (Ministério do Turismo) retirada; acrescentadas TRONCA_GOIASTURISMO (levantamento turístico do governo de Goiás) e TRONCA_WIKI (Wikipedia); títulos de CENTRO_TER_GOV e CENTRO_TER_SEMAD corrigidos",
+   "C1: Jalapão (sem cavernas) e Rola-Moça trocados por Furna Feia e Sumidouro (parques de cavernas); \"Parque Nacional do Peruaçu\" corrigido para Parque Nacional Cavernas do Peruaçu",
+   "C2: \"complexo de cavernas\" era óbvio diante de distratores de outro tipo; trocado por \"Rio que atravessa a caverna que dá nome ao parque\" (gabarito Rio da Lapa, fontes Parques de Goiás e Wikipedia)",
+   "C4: \"Pirenópolis e Goiás\" (ambíguo) trocado por Pirenópolis e Corumbá de Goiás; Alto Paraíso com o nome completo",
+   "viajante P15/P16 e geógrafo P14–P16: cavernas só nomeadas → descida com cordas, encontro dos rios São Bernardo e Palmeiras, salões e travertinos (Parques de Goiás)",
+   "viajante P11 e geógrafo P07, P10–P12: formação genérica → nascentes que modelam as cavidades, divisor São Francisco–Tocantins, idade de cerca de 620 milhões de anos, litologias (APA; Parques de Goiás)",
+   "viajante P20 e geógrafo P20: \"espécies do Cerrado\" genérico → tiriba-do-paranã ameaçada e endêmica",
+   "viajante P21/P22 e geógrafo P21/P22: romaria detalhada (Bom Jesus da Lapa, agosto, Sala dos Milagres)",
+   "viajante P25 e geógrafo P25: administração estadual (genérica) trocada por origem do nome (Wikipedia) e raio azul de abril a julho (Parques de Goiás)",
+   "geógrafo P03, P05, P06, P08, P09, P17, P18, P23, P24 reescritas com dados das fontes (BR-020, delimitação de 1996, mais de mil cavidades, 57 mil ha, pinturas sem datação, proibição do acetileno)",
+   "Marcadas aberturas (viajante P01 e P08; geógrafo P01 e P02) e decisivas (viajante P22 e P25; geógrafo P22 e P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1074 @@
+{
+  "case": {
+    "id": "lug2-barreira-belize",
+    "placeId": "barreira-belize",
+    "title": "Sistema de Reservas da Barreira de Corais de Belize",
+    "aliases": [
+      "Barreira de Corais de Belize"
+    ],
+    "answerType": "sistema de reservas marinhas",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BZ"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Área marinha protegida",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Sistema de Reservas da Barreira de Corais de Belize"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Reserva da Biosfera Banco Chinchorro"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Reserva da Biosfera Sian Ka’an"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional Arrecifes de Cozumel"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional Arrecife Alacranes"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional Marinho Ilhas da Baía"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Reserva da Biosfera Seaflower"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional Los Roques"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Jardines de la Reina"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional Coiba"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional Ilha do Coco"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Santuário de Fauna e Flora de Malpelo"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Ilhas Galápagos"
+          },
+          {
+            "id": "C1-O14",
+            "text": "Arquipélago de Revillagigedo"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Sistema de Reservas da Barreira de Corais de Belize",
+        "sources": [
+          "BELIZE_IUCN",
+          "BELIZE_MAPAS"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Belize"
+          },
+          {
+            "id": "C2-O2",
+            "text": "México"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Honduras"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Guatemala"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Belize",
+        "sources": [
+          "BELIZE_IUCN",
+          "BELIZE_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Ambientes que o bem reúne",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Recife de barreira, atóis e manguezais"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Ilhas vulcânicas e campos de lava"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Florestas de algas (kelp) e costões rochosos"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Recife de franja em torno de uma única ilha oceânica"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Recife de barreira, atóis e manguezais",
+        "sources": [
+          "BELIZE_IUCN",
+          "BELIZE_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Quantas áreas protegidas formam o bem da UNESCO",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Sete"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Três"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Cinco"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Doze"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Sete",
+        "sources": [
+          "BELIZE_IUCN",
+          "BELIZE_MAPAS"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "barreira-belize-viajante-P01",
+            "factKey": "barreira-belize-F01",
+            "text": "Este destino junta recifes de coral, pequenas ilhas e áreas de mar profundo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P02",
+            "factKey": "barreira-belize-F02",
+            "text": "Não é uma área só: são várias áreas protegidas espalhadas pela costa e pelo mar.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P03",
+            "factKey": "barreira-belize-F03",
+            "text": "O mar do Caribe banha esse litoral.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P04",
+            "factKey": "barreira-belize-F04",
+            "text": "A barreira de recifes se estende por mais de 290 quilômetros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P05",
+            "factKey": "barreira-belize-F05",
+            "text": "É o segundo maior recife de coral do mundo, atrás só do grande recife australiano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P06",
+            "factKey": "barreira-belize-F06",
+            "text": "Manguezais fazem parte da paisagem.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P07",
+            "factKey": "barreira-belize-F07",
+            "text": "Lagoas costeiras e estuários também entram no conjunto.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P08",
+            "factKey": "barreira-belize-F08",
+            "text": "Centenas de ilhotas de areia e de mangue se espalham pelo recife.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P09",
+            "factKey": "barreira-belize-F09",
+            "text": "Longe da costa, há atóis, recifes em forma de anel.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P10",
+            "factKey": "barreira-belize-F10",
+            "text": "O conjunto reconhecido pela UNESCO reúne sete áreas protegidas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P11",
+            "factKey": "barreira-belize-F11",
+            "text": "Uma das áreas é o Monumento Natural Blue Hole, num atol longe da costa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_MAPAS",
+              "BELIZE_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P12",
+            "factKey": "barreira-belize-F12",
+            "text": "Tubarões-martelo-gigantes estão entre os animais marcantes do Blue Hole.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P13",
+            "factKey": "barreira-belize-F13",
+            "text": "Half Moon Caye fica no mesmo atol do Blue Hole e também é monumento natural.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P14",
+            "factKey": "barreira-belize-F14",
+            "text": "Em Bacalar Chico, que é parque nacional e reserva marinha, vivem até onças-pintadas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P15",
+            "factKey": "barreira-belize-F15",
+            "text": "Na reserva marinha de Glover’s Reef, as águias-pescadoras chamam a atenção.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P16",
+            "factKey": "barreira-belize-F16",
+            "text": "Laughing Bird Caye e Sapodilla Cayes completam a lista das sete áreas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P17",
+            "factKey": "barreira-belize-F17",
+            "text": "South Water Caye é uma das reservas marinhas do conjunto.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P18",
+            "factKey": "barreira-belize-F18",
+            "text": "Peixes-boi, tartarugas marinhas e crocodilos encontram abrigo ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P19",
+            "factKey": "barreira-belize-F19",
+            "text": "Atobás-de-pés-vermelhos e outras aves marinhas vivem na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P20",
+            "factKey": "barreira-belize-F20",
+            "text": "Mais de 500 espécies de peixes já foram registradas no recife.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_EB"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P21",
+            "factKey": "barreira-belize-F21",
+            "text": "Desde 2008, o peixe-leão, que veio de fora, ameaça os peixes nativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P22",
+            "factKey": "barreira-belize-F22",
+            "text": "O aquecimento do mar e o branqueamento põem os corais em risco.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P23",
+            "factKey": "barreira-belize-F23",
+            "text": "Âncoras de barcos de passeio podem quebrar pedaços do recife.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P24",
+            "factKey": "barreira-belize-F24",
+            "text": "A UNESCO incluiu o conjunto no Patrimônio Mundial em 1996.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-viajante-P25",
+            "factKey": "barreira-belize-F25",
+            "text": "A beleza das ilhotas e dos recifes atrai turistas do mundo inteiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "barreira-belize-geografo-P01",
+            "factKey": "barreira-belize-F01",
+            "text": "O bem cobre um gradiente contínuo de habitats, da terra firme ao oceano profundo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P02",
+            "factKey": "barreira-belize-F02",
+            "text": "Trata-se de um bem serial, formado por unidades protegidas separadas no espaço.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P03",
+            "factKey": "barreira-belize-F03",
+            "text": "A barreira acompanha a costa caribenha do país, a distâncias variáveis do litoral.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P04",
+            "factKey": "barreira-belize-F04",
+            "text": "Com mais de 290 km, é a mais longa barreira de recifes dos hemisférios norte e ocidental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB",
+              "BELIZE_IUCN"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P05",
+            "factKey": "barreira-belize-F05",
+            "text": "Em tamanho, só a Grande Barreira australiana supera esse sistema recifal, segundo a Britannica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P06",
+            "factKey": "barreira-belize-F06",
+            "text": "Manguezais fazem a transição entre terra e mar; desde 2018, alterá-los exige licença.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P07",
+            "factKey": "barreira-belize-F07",
+            "text": "Lagoas costeiras e estuários completam o mosaico de habitats entre a costa e o recife.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P08",
+            "factKey": "barreira-belize-F08",
+            "text": "Cerca de 450 ilhotas arenosas e de mangue pontilham a barreira e os atóis.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P09",
+            "factKey": "barreira-belize-F09",
+            "text": "Recifes de franja, de barreira e de atol coexistem no mesmo bem.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P10",
+            "factKey": "barreira-belize-F10",
+            "text": "As sete unidades combinam parques nacionais, monumentos naturais e reservas marinhas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P11",
+            "factKey": "barreira-belize-F11",
+            "text": "O Monumento Natural Blue Hole protege uma feição geológica singular num atol ao largo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P12",
+            "factKey": "barreira-belize-F12",
+            "text": "Grandes predadores, como o tubarão-martelo-gigante, frequentam o Blue Hole.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P13",
+            "factKey": "barreira-belize-F13",
+            "text": "Half Moon Caye e Blue Hole dividem o atol de Lighthouse Reef e um mesmo plano de manejo.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P14",
+            "factKey": "barreira-belize-F14",
+            "text": "Bacalar Chico une floresta e mar protegidos, com onças-pintadas na parte terrestre.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN",
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P15",
+            "factKey": "barreira-belize-F15",
+            "text": "Glover’s Reef reúne reserva marinha, águias-pescadoras e uma estação de pesquisa universitária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P16",
+            "factKey": "barreira-belize-F16",
+            "text": "Laughing Bird Caye é parque nacional; Sapodilla Cayes, reserva marinha: ambas fecham as sete unidades.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_MAPAS"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P17",
+            "factKey": "barreira-belize-F17",
+            "text": "South Water Caye concentra os cerca de 89 ha de mangue desmatados no bem desde a inscrição.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P18",
+            "factKey": "barreira-belize-F18",
+            "text": "Peixe-boi-marinho, crocodilo-americano e três espécies de tartaruga marinha estão entre as espécies ameaçadas protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P19",
+            "factKey": "barreira-belize-F19",
+            "text": "A avifauna inclui o atobá-de-pés-vermelhos e espécies endêmicas e migratórias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB",
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P20",
+            "factKey": "barreira-belize-F20",
+            "text": "A diversidade inclui 65 espécies de corais pétreos, mais de 500 de peixes e 246 táxons de flora marinha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "biodiversidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P21",
+            "factKey": "barreira-belize-F21",
+            "text": "Registrado desde 2008, o peixe-leão invasor reduz populações de peixes e invertebrados nativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P22",
+            "factKey": "barreira-belize-F22",
+            "text": "Branqueamento, tempestades mais fortes, alta do nível do mar e acidificação somam pressões climáticas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P23",
+            "factKey": "barreira-belize-F23",
+            "text": "Esportes aquáticos, ancoragem de barcos e pesca estão entre as pressões diretas sobre o recife.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_EB"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P24",
+            "factKey": "barreira-belize-F24",
+            "text": "Inscrito em 1996, o bem saiu da Lista do Patrimônio Mundial em Perigo em 2018.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "barreira-belize-geografo-P25",
+            "factKey": "barreira-belize-F25",
+            "text": "O turismo internacional pesa na gestão: um terminal de cruzeiros proposto foi negado em 2021.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "BELIZE_IUCN"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Conjunto de sete áreas protegidas no litoral caribenho de Belize que protege a mais longa barreira de recifes do hemisfério norte, atóis, ilhotas, manguezais, lagoas costeiras e estuários.",
+      "editorialNotes": [
+        "Glover’s Reef é uma das sete áreas do bem; por isso saiu das alternativas de C1 (a ‘Reserva Marinha de Glover’ estava listada como lugar diferente).",
+        "A Britannica fala em cerca de 450 ilhotas e 247 tipos de flora marinha; a IUCN, em várias centenas de ilhotas e 246 táxons. As pistas usam cada número com a sua fonte.",
+        "O bem esteve na Lista do Patrimônio Mundial em Perigo e saiu dela em 2018 (IUCN World Heritage Outlook)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na avaliação da IUCN (World Heritage Outlook), nos mapas oficiais do bem na UNESCO e na Britannica; C1, C3 e alternativas refeitos."
+    }
+  },
+  "sources": {
+    "BELIZE_IUCN": {
+      "id": "BELIZE_IUCN",
+      "title": "Belize Barrier Reef Reserve System — World Heritage Outlook",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/explore-sites/wdpaid/124383",
+      "checkedAt": "2026-11-15"
+    },
+    "BELIZE_MAPAS": {
+      "id": "BELIZE_MAPAS",
+      "title": "Belize Barrier Reef Reserve System (N764) — maps of the inscribed property",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/140285",
+      "checkedAt": "2026-11-15"
+    },
+    "BELIZE_EB": {
+      "id": "BELIZE_EB",
+      "title": "Belize Barrier Reef",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Belize-Barrier-Reef",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://worldheritageoutlook.iucn.org/explore-sites/wdpaid/124383",
+      "https://worldheritageoutlook.iucn.org/node/1070",
+      "https://whc.unesco.org/document/140285",
+      "https://www.britannica.com/place/Belize-Barrier-Reef"
+    ],
+    "alteracoes": [
+      "Fonte BELIZE764 (whc.unesco.org/en/list/764) substituída: a página da UNESCO recusou o acesso automatizado (robots); os dados foram conferidos na avaliação da IUCN (BELIZE_IUCN), nos mapas oficiais do bem publicados pela UNESCO (BELIZE_MAPAS, com os nomes das sete unidades) e na Britannica (BELIZE_EB).",
+      "C1: rótulo ‘Sistema de recifes’ trocado por ‘Área marinha protegida’; saíram lugares da Oceania/Ásia (Grande Barreira, Ningaloo, Bunaken, Tubbataha) e a ‘Reserva Marinha de Glover’, que é parte do próprio bem; entraram áreas marinhas das Américas fora do Brasil (Cozumel, Alacranes, Ilhas da Baía, Seaflower, Los Roques, Jardines de la Reina, Revillagigedo).",
+      "C2: Panamá trocado por Guatemala (país vizinho com costa caribenha).",
+      "C3: alternativas implausíveis (tundra, estepes, coníferas) trocadas por outros tipos de área marinha; gabarito agora ‘Recife de barreira, atóis e manguezais’, conforme a IUCN.",
+      "C4: alternativas ajustadas (Sete, Três, Cinco, Doze); sete unidades confirmadas nos mapas da UNESCO e na IUCN.",
+      "Viajante: todas as 25 reescritas ou ajustadas; ‘América Central’ e ‘governo e outras organizações’ saíram por falta de apoio direto; entraram extensão (290 km), 2º maior recife, ilhotas, atóis, onças em Bacalar Chico, águias-pescadoras em Glover’s Reef, atobás, peixe-leão, âncoras.",
+      "Geógrafo: todas as 25 reescritas para relações e processos (gradiente terra–oceano, bem serial, distâncias da costa, regra de 2018 sobre manguezais, 89 ha desmatados em South Water Caye, saída da Lista em Perigo em 2018, terminal de cruzeiros negado em 2021).",
+      "Sinais: P01–P02 abertura e P05 e P11 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4 onde a pista informa o campo."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

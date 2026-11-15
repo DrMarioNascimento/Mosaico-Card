@@ -1,0 +1,1049 @@
+{
+ "case": {
+  "id": "lug2-londrina",
+  "placeId": "londrina",
+  "title": "Londrina",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Londrina"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Maringá"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Apucarana"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Arapongas"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Rolândia"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cambé"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Ponta Grossa"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Cascavel"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Paranavaí"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Umuarama"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Curitiba"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Campo Mourão"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Londrina",
+    "sources": [
+     "SULLONDRINAUEL",
+     "LONDRINA_PREF"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Lago urbano",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Lago Igapó"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Lago Guaíba"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Lago Paranoá"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Lago Negro"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Lago Igapó",
+    "sources": [
+     "SULLONDRINALAGOS"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Cultura que impulsionou a expansão urbana nos anos 1950",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Café"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Algodão"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Erva-mate"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Trigo"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Café",
+    "sources": [
+     "SULLONDRINAUEL",
+     "LONDRINA_PREF"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Engenheiro que fincou o primeiro marco da cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Alexandre Razgulaeff"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Aarão Reis"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Saturnino de Brito"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Francisco Bicalho"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Alexandre Razgulaeff",
+    "sources": [
+     "SULLONDRINALAGOS",
+     "LONDRINA_PREF"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "londrina-viajante-P01",
+      "factKey": "londrina-viajante-F01",
+      "text": "É uma cidade do Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P02",
+      "factKey": "londrina-viajante-F02",
+      "text": "O município fica no Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P03",
+      "factKey": "londrina-viajante-F03",
+      "text": "A região tem terra roxa, muito fértil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P04",
+      "factKey": "londrina-viajante-F04",
+      "text": "Sua história tem forte relação com o cultivo de café.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P05",
+      "factKey": "londrina-viajante-F05",
+      "text": "Uma universidade estadual, criada em 1971, fica na cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P06",
+      "factKey": "londrina-viajante-F06",
+      "text": "Um conjunto de lagos chamado Igapó é a principal área de lazer.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P07",
+      "factKey": "londrina-viajante-F07",
+      "text": "O primeiro desses lagos foi inaugurado em 1959.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P08",
+      "factKey": "londrina-viajante-F08",
+      "text": "Os lagos ficam ao longo do Ribeirão Cambé.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P09",
+      "factKey": "londrina-viajante-F09",
+      "text": "O nome Igapó vem do tupi.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P10",
+      "factKey": "londrina-viajante-F10",
+      "text": "O Lago Norte, aberto em 2004, tem pista de caminhada e área verde.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P11",
+      "factKey": "londrina-viajante-F11",
+      "text": "O Lago Cabrinha tem lago, pista de caminhada, mata nativa e parquinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P12",
+      "factKey": "londrina-viajante-F12",
+      "text": "O Zerão, área de lazer em forma de zero, tem pista de caminhada de 1.050 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P13",
+      "factKey": "londrina-viajante-F13",
+      "text": "Uma concha acústica no Zerão comporta cerca de 6 mil pessoas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P14",
+      "factKey": "londrina-viajante-F14",
+      "text": "A Mata do Marco Zero lembra o início da colonização e guarda nascentes.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P15",
+      "factKey": "londrina-viajante-F15",
+      "text": "O nome da cidade é uma homenagem a Londres.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P16",
+      "factKey": "londrina-viajante-F16",
+      "text": "Uma companhia de terras vendeu lotes pequenos aos colonos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF",
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P17",
+      "factKey": "londrina-viajante-F17",
+      "text": "O município foi instalado em 1934.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF",
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P18",
+      "factKey": "londrina-viajante-F18",
+      "text": "Nos anos 1950, o café fez a cidade crescer depressa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P19",
+      "factKey": "londrina-viajante-F19",
+      "text": "Depois, a lavoura passou a incluir soja, milho, trigo e cana.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P20",
+      "factKey": "londrina-viajante-F20",
+      "text": "Geadas atingiram as plantações várias vezes entre 1962 e 1975.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P21",
+      "factKey": "londrina-viajante-F21",
+      "text": "A ferrovia ligava a região ao comércio com São Paulo e Santos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P22",
+      "factKey": "londrina-viajante-F22",
+      "text": "O Parque Arthur Thomas foi implantado nos anos 1970.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P23",
+      "factKey": "londrina-viajante-F23",
+      "text": "O Ginásio Moringão é uma instalação esportiva da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P24",
+      "factKey": "londrina-viajante-F24",
+      "text": "Uma encenação da Paixão de Cristo reúne cerca de 30 mil pessoas na Páscoa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-viajante-P25",
+      "factKey": "londrina-viajante-F25",
+      "text": "Um engenheiro fincou o primeiro marco da cidade em 21 de agosto de 1929.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "londrina-geografo-P01",
+      "factKey": "londrina-geografo-F01",
+      "text": "O município consolidou-se como polo regional de bens e serviços.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P02",
+      "factKey": "londrina-geografo-F02",
+      "text": "A ocupação regional apoiou-se em solos de terra roxa muito férteis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P03",
+      "factKey": "londrina-geografo-F03",
+      "text": "Uma companhia colonizadora privada dividiu as terras em lotes relativamente pequenos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF",
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P04",
+      "factKey": "londrina-geografo-F04",
+      "text": "A companhia colonizadora era subsidiária da firma inglesa Paraná Plantations.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P05",
+      "factKey": "londrina-geografo-F05",
+      "text": "O fracasso de um projeto de algodão levou a companhia a vender terras.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P06",
+      "factKey": "londrina-geografo-F06",
+      "text": "A malha inicial seguia um traçado ortogonal em xadrez, com ruas norte-sul e leste-oeste.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P07",
+      "factKey": "londrina-geografo-F07",
+      "text": "O plano inicial previa cerca de 30 mil habitantes e pequenas propriedades rurais no entorno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P08",
+      "factKey": "londrina-geografo-F08",
+      "text": "O município foi criado por decreto estadual em 1934 e instalado em 10 de dezembro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P09",
+      "factKey": "londrina-geografo-F09",
+      "text": "Nos anos 1950, a cafeicultura impulsionou a expansão urbana: a população passou de 20 mil a 75 mil.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P10",
+      "factKey": "londrina-geografo-F10",
+      "text": "A ferrovia tornava a cidade intermediária do comércio regional com São Paulo e Santos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P11",
+      "factKey": "londrina-geografo-F11",
+      "text": "A queda do preço do café nos anos 1960 levou à diversificação das culturas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P12",
+      "factKey": "londrina-geografo-F12",
+      "text": "Geadas em 1962, 1966, 1969, 1972 e 1975 reforçaram a mudança agrícola.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P13",
+      "factKey": "londrina-geografo-F13",
+      "text": "A mecanização de soja, milho e trigo reduziu empregos rurais e alimentou a migração para a cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P14",
+      "factKey": "londrina-geografo-F14",
+      "text": "Os primeiros conjuntos habitacionais surgiram a 6 ou 7 km do centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P15",
+      "factKey": "londrina-geografo-F15",
+      "text": "O campus da universidade no sudoeste impulsionou o mercado imobiliário e a expansão urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P16",
+      "factKey": "londrina-geografo-F16",
+      "text": "Nos anos 1980, a ferrovia saiu do centro e surgiram a Via Expressa Norte-Sul e a Avenida Leste-Oeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P17",
+      "factKey": "londrina-geografo-F17",
+      "text": "Nos anos 1990, tornou-se a terceira cidade mais importante do Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINAUEL",
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P18",
+      "factKey": "londrina-geografo-F18",
+      "text": "O primeiro lago urbano nasceu para resolver a drenagem barrada por uma represa natural de pedra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P19",
+      "factKey": "londrina-geografo-F19",
+      "text": "O Parque Linear do Cambé reúne quatro lagos e um aterro.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P20",
+      "factKey": "londrina-geografo-F20",
+      "text": "O sistema de lagos passa de 4.500 m; o ribeirão que o forma nasce no bairro Parque Ney Braga.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P21",
+      "factKey": "londrina-geografo-F21",
+      "text": "Os lagos Norte e Cabrinha ocupam fundos de vale do Ribeirão Lindóia e do Córrego Cabrinha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P22",
+      "factKey": "londrina-geografo-F22",
+      "text": "A Mata do Marco Zero, com cerca de 36 mil m², conserva espécies nativas e nascentes em meio urbano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P23",
+      "factKey": "londrina-geografo-F23",
+      "text": "A RPPN Fazenda Figueira protege 1.165,85 ha de mata nativa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P24",
+      "factKey": "londrina-geografo-F24",
+      "text": "O Zerão aproveita um fundo de vale cortado pelo Córrego do Leme.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLONDRINALAGOS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "londrina-geografo-P25",
+      "factKey": "londrina-geografo-F25",
+      "text": "A primeira expedição da companhia chegou em 1929 ao Patrimônio Três Bocas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LONDRINA_PREF"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade do norte do Paraná nascida de um loteamento da Companhia de Terras Norte do Paraná (1929–1934), impulsionada pelo café nos anos 1950 e marcada pelo conjunto de lagos Igapó no Ribeirão Cambé.",
+   "editorialNotes": [
+    "A UEL fala em surgimento em 1929 e povoação a partir de 1930; o município foi criado por decreto de 3/12/1934 e instalado em 10/12/1934.",
+    "A população foi retirada: a página do IBGE não abriu nesta revisão.",
+    "Pistas sobre povos Kaingang saíram por falta de fonte aberta; podem voltar com fonte própria."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "pistas, gabaritos e alternativas conferidos nas páginas da UEL, da Codel e da Prefeitura de Londrina"
+  }
+ },
+ "sources": {
+  "SULLONDRINAUEL": {
+   "id": "SULLONDRINAUEL",
+   "title": "Londrina",
+   "publisher": "Universidade Estadual de Londrina",
+   "url": "https://sites.uel.br/pdi/londrina/",
+   "checkedAt": "2026-11-15"
+  },
+  "SULLONDRINALAGOS": {
+   "id": "SULLONDRINALAGOS",
+   "title": "Pontos turísticos: Naturais",
+   "publisher": "Codel – Instituto de Desenvolvimento de Londrina",
+   "url": "https://codel.londrina.pr.gov.br/index.php/pontos-turisticos/naturais.html",
+   "checkedAt": "2026-11-15"
+  },
+  "LONDRINA_PREF": {
+   "id": "LONDRINA_PREF",
+   "title": "História da Cidade",
+   "publisher": "Prefeitura de Londrina",
+   "url": "https://portal.londrina.pr.gov.br/index.php/historia-cidade",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://sites.uel.br/pdi/londrina/",
+   "https://codel.londrina.pr.gov.br/index.php/pontos-turisticos/naturais.html",
+   "https://portal.londrina.pr.gov.br/index.php/historia-cidade"
+  ],
+  "alteracoes": [
+   "Fontes UEL e Codel do rascunho abertas a partir da busca; nova fonte LONDRINA_PREF (Prefeitura, História da Cidade); SULLONDRINAIBGE e SULLONDRINAIND não abriram e foram retiradas",
+   "C3: alternativas Borracha, Cacau, Carvão mineral trocadas por Algodão, Erva-mate, Trigo; rótulo especifica a expansão urbana dos anos 1950 (UEL)",
+   "C4: trocado de \"Estado brasileiro\" para o engenheiro que fincou o primeiro marco, gabarito Alexandre Razgulaeff (Codel, Prefeitura)",
+   "Retiradas sem fonte aberta: população de 2022 (556 mil), presença Kaingang (viajante P24, geografo P05 e P25)",
+   "viajante: 23 pistas reescritas ou trocadas (P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

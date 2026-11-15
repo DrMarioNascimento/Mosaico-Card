@@ -1,0 +1,1041 @@
+{
+  "case": {
+    "id": "lug2-norte-rio-amazonas",
+    "placeId": "norte-rio-amazonas",
+    "title": "Rio Amazonas (trecho brasileiro)",
+    "aliases": [
+      "Rio Amazonas"
+    ],
+    "answerType": "rio brasileiro",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Rio brasileiro",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Rio Amazonas (trecho brasileiro)"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio Madeira"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Rio Negro"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Rio Tapajós"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Rio Xingu"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Rio Solimões"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Rio Tocantins"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Rio Araguaia"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Rio São Francisco"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Rio Paraná"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Rio Paraguai"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Rio Uruguai"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Rio Amazonas (trecho brasileiro)",
+        "sources": [
+          "RIOAMZ_WIKI"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Confluência inicial do trecho",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Solimões e Negro"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Madeira e Mamoré"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Tapajós e Juruena"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Tocantins e Araguaia"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Solimões e Negro",
+        "sources": [
+          "RIOAMZ_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Cidade próxima à confluência inicial",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Manaus"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Santarém"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Tefé"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Macapá"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Manaus",
+        "sources": [
+          "RIOAMZ_WIKI"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Nome do trecho brasileiro anterior à confluência",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Solimões"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Juruá"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Japurá"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Purus"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Solimões",
+        "sources": [
+          "RIOAMZ_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-rio-amazonas-viajante-P01",
+            "factKey": "norte-rio-amazonas-F01",
+            "text": "Este destino é um grande rio da América do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P02",
+            "factKey": "norte-rio-amazonas-F02",
+            "text": "O curso atravessa a região Norte do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI",
+              "RIOAMZ_NORTE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P03",
+            "factKey": "norte-rio-amazonas-F03",
+            "text": "O rio tem grande importância para o transporte por barcos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P04",
+            "factKey": "norte-rio-amazonas-F04",
+            "text": "As águas seguem em direção ao oceano Atlântico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P05",
+            "factKey": "norte-rio-amazonas-F05",
+            "text": "A bacia desse rio se estende por mais de um país.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P06",
+            "factKey": "norte-rio-amazonas-F06",
+            "text": "As cabeceiras do sistema ficam nos Andes do Peru.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P07",
+            "factKey": "norte-rio-amazonas-F07",
+            "text": "O rio recebe nomes diferentes ao longo de seu percurso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P08",
+            "factKey": "norte-rio-amazonas-F08",
+            "text": "No Brasil, o trecho anterior é chamado Solimões.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P09",
+            "factKey": "norte-rio-amazonas-F09",
+            "text": "Perto de Manaus, dois rios se encontram.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P10",
+            "factKey": "norte-rio-amazonas-F10",
+            "text": "Os rios que se encontram são o Solimões e o Negro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P11",
+            "factKey": "norte-rio-amazonas-F11",
+            "text": "O encontro acontece perto da maior cidade às margens desse rio.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P12",
+            "factKey": "norte-rio-amazonas-F12",
+            "text": "As águas dos dois rios têm cores diferentes: uma escura e outra barrenta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P13",
+            "factKey": "norte-rio-amazonas-F13",
+            "text": "As águas seguem lado a lado por mais de 6 km antes de se misturarem.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P14",
+            "factKey": "norte-rio-amazonas-F14",
+            "text": "O rio recebe água de muitos outros rios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P15",
+            "factKey": "norte-rio-amazonas-F15",
+            "text": "O rio Madeira é um dos grandes afluentes dessa rede de águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI",
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P16",
+            "factKey": "norte-rio-amazonas-F16",
+            "text": "Santarém e Óbidos, no Pará, ficam às margens desse rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI",
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P17",
+            "factKey": "norte-rio-amazonas-F17",
+            "text": "O rio Xingu também chega a esse curso principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P18",
+            "factKey": "norte-rio-amazonas-F18",
+            "text": "As chuvas e a seca alteram muito o nível das águas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI",
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P19",
+            "factKey": "norte-rio-amazonas-F19",
+            "text": "Todo ano, o nível sobe mais de 9 metros e alaga as florestas vizinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P20",
+            "factKey": "norte-rio-amazonas-F20",
+            "text": "Barcos levam pessoas e mercadorias entre as cidades da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P21",
+            "factKey": "norte-rio-amazonas-F21",
+            "text": "Navios que cruzam o oceano conseguem subir o rio até Manaus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P22",
+            "factKey": "norte-rio-amazonas-F22",
+            "text": "Soja e milho do Centro-Oeste descem por rios da região até portos do Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P23",
+            "factKey": "norte-rio-amazonas-F23",
+            "text": "O rio carrega muita lama e areia até o mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P24",
+            "factKey": "norte-rio-amazonas-F24",
+            "text": "É o rio com maior volume de água do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-viajante-P25",
+            "factKey": "norte-rio-amazonas-F25",
+            "text": "Nenhuma ponte cruza o rio de uma margem à outra; as travessias são de balsa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-rio-amazonas-geografo-P01",
+            "factKey": "norte-rio-amazonas-F01",
+            "text": "O objeto é o trecho brasileiro de um grande eixo fluvial sul-americano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P02",
+            "factKey": "norte-rio-amazonas-F02",
+            "text": "O trecho escolhido integra a rede hidrográfica da região Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI",
+              "RIOAMZ_NORTE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P03",
+            "factKey": "norte-rio-amazonas-F03",
+            "text": "A hidrovia associada a esse curso é o principal eixo de circulação de pessoas e mercadorias da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P04",
+            "factKey": "norte-rio-amazonas-F04",
+            "text": "A drenagem chega ao Atlântico por um estuário com mais de 180 km de largura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P05",
+            "factKey": "norte-rio-amazonas-F05",
+            "text": "A bacia cobre cerca de 7 milhões de km², perto de 40% da América do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P06",
+            "factKey": "norte-rio-amazonas-F06",
+            "text": "O sistema tem cabeceiras andinas no Peru, e a nascente mais distante ainda é debatida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P07",
+            "factKey": "norte-rio-amazonas-F07",
+            "text": "Ao longo do eixo, trechos recebem nomes diferentes conforme o país e as confluências.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P08",
+            "factKey": "norte-rio-amazonas-F08",
+            "text": "Solimões é a denominação brasileira do trecho a montante da confluência com o Negro.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P09",
+            "factKey": "norte-rio-amazonas-F09",
+            "text": "Uma confluência próxima a Manaus marca o início do trecho identificado nesta carta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P10",
+            "factKey": "norte-rio-amazonas-F10",
+            "text": "O trecho começa na confluência dos rios Solimões e Negro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P11",
+            "factKey": "norte-rio-amazonas-F11",
+            "text": "A confluência situa-se junto à maior cidade ribeirinha do eixo, com cerca de 1,9 milhão de habitantes em 2014.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P12",
+            "factKey": "norte-rio-amazonas-F12",
+            "text": "O contraste entre a água escura do Negro e a cor de areia do Solimões marca o encontro.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P13",
+            "factKey": "norte-rio-amazonas-F13",
+            "text": "As correntes correm lado a lado por mais de 6 km antes da mistura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P14",
+            "factKey": "norte-rio-amazonas-F14",
+            "text": "Afluentes como o Japurá, pela margem esquerda, e o Madeira, pela direita, alimentam o eixo principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P15",
+            "factKey": "norte-rio-amazonas-F15",
+            "text": "O Madeira é rota de grãos do Centro-Oeste rumo aos portos do Amazonas e do Pará.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P16",
+            "factKey": "norte-rio-amazonas-F16",
+            "text": "Santarém, porto integrado aos principais portos amazônicos, embarca milho e recebe fertilizantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P17",
+            "factKey": "norte-rio-amazonas-F17",
+            "text": "Tapajós e Xingu estão entre os grandes afluentes da margem direita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P18",
+            "factKey": "norte-rio-amazonas-F18",
+            "text": "A sazonalidade altera o nível e a navegabilidade, e secas históricas agravam as restrições.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P19",
+            "factKey": "norte-rio-amazonas-F19",
+            "text": "A área alagada varia de cerca de 110 mil km² na seca a 350 mil km² na cheia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P20",
+            "factKey": "norte-rio-amazonas-F20",
+            "text": "A navegação interior abastece centros urbanos e distribui cargas pela região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P21",
+            "factKey": "norte-rio-amazonas-F21",
+            "text": "Navios oceânicos de grande porte alcançam Manaus, a cerca de 1.500 km da foz.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P22",
+            "factKey": "norte-rio-amazonas-F22",
+            "text": "O estreito de Óbidos tem condições naturais de profundidade, e o porto local escoa sobretudo bauxita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_INFRA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P23",
+            "factKey": "norte-rio-amazonas-F23",
+            "text": "Cerca de 754 milhões de toneladas de sedimentos por ano passam por Óbidos (dados de 1996 a 2007).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P24",
+            "factKey": "norte-rio-amazonas-F24",
+            "text": "É o rio de maior vazão do mundo, com média de cerca de 215 mil a 230 mil m³/s.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-rio-amazonas-geografo-P25",
+            "factKey": "norte-rio-amazonas-F25",
+            "text": "O rio responde por cerca de 20% da água doce fluvial que chega aos oceanos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RIOAMZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Trecho brasileiro chamado Amazonas, da confluência dos rios Solimões e Negro, perto de Manaus, até a foz no Atlântico; é o rio de maior vazão do mundo e eixo de transporte da região Norte.",
+      "editorialNotes": [
+        "Distinguir o trecho brasileiro (a jusante da confluência Solimões–Negro) do sistema transnacional e da bacia completa.",
+        "A mistura das águas no encontro é gradual (correm lado a lado por mais de 6 km); não afirmar separação permanente.",
+        "Números de vazão, sedimentos e área alagada vêm da Wikipedia (com faixas e anos); a amplitude de mais de 10 m citada pela Infra S.A. refere-se ao calado em Manaus, no rio Negro."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes reabertas por busca (Wikipedia, panorama logístico da Infra S.A., Agência Gov); nomenclatura, confluência, afluentes, regime, navegação e vazão conferidos; C4 refeito com alternativas brasileiras."
+    }
+  },
+  "sources": {
+    "RIOAMZ_WIKI": {
+      "id": "RIOAMZ_WIKI",
+      "title": "Amazon River",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amazon_River",
+      "checkedAt": "2026-11-15"
+    },
+    "RIOAMZ_INFRA": {
+      "id": "RIOAMZ_INFRA",
+      "title": "Potencialidades, Competitividade e Perspectivas do Transporte: Panorama Logístico da Região Norte do Brasil",
+      "publisher": "Infra S.A. / Observatório Nacional de Transporte e Logística (ONTL)",
+      "url": "https://ontl.infrasa.gov.br/wp-content/uploads/2025/12/Panorama-Logistico-Regiao-Norte_Rev02.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "RIOAMZ_NORTE": {
+      "id": "RIOAMZ_NORTE",
+      "title": "Ministério do Turismo impulsiona pesca esportiva e fortalece turismo sustentável na Amazônia Legal",
+      "publisher": "Agência Gov / Ministério do Turismo",
+      "url": "https://agenciagov.ebc.com.br/noticias/202507/ministerio-do-turismo-impulsiona-pesca-esportiva-e-fortalece-turismo-sustentavel-na-amazonia-legal",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.wikipedia.org/wiki/Amazon_River",
+      "https://ontl.infrasa.gov.br/wp-content/uploads/2025/12/Panorama-Logistico-Regiao-Norte_Rev02.pdf",
+      "https://agenciagov.ebc.com.br/noticias/202507/ministerio-do-turismo-impulsiona-pesca-esportiva-e-fortalece-turismo-sustentavel-na-amazonia-legal"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (ANA, DNIT, Plano Mestre do Porto de Manaus, Prefeitura de Santarém) não apareceram nas buscas; substituídas por Wikipedia, Panorama Logístico da Região Norte (Infra S.A., 2025) e Agência Gov (estados da região Norte).",
+      "C4: alternativas peruanas (Marañón, Ucayali, Apurímac), que só a resposta cumpria pelo rótulo 'trecho brasileiro', trocadas por Juruá, Japurá e Purus.",
+      "viajante P11 reescrita (maior cidade às margens do rio); P16 (confluência do Tapajós em Santarém, sem apoio) trocada por Santarém e Óbidos às margens do rio; P19, P21–P25 reescritas com dados conferidos (cheia de mais de 9 m, navios até Manaus, grãos, sedimentos, maior volume, ausência de ponte); P24 deixou de citar a ANA.",
+      "geografo P03–P06, P11–P25 reescritas ou trocadas com números e anos das fontes (bacia, estuário, vazão, sedimentos, área alagada, portos de Santarém e Óbidos); P16 (Tapajós em Santarém) trocada por função portuária de Santarém; P24 deixou de citar a ANA.",
+      "Força das pistas: de 5 decisivas por perfil para 2 (P10 e P24); P01–P02 abertura nos dois perfis."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1082 @@
+{
+ "case": {
+  "id": "lug2-blumenau",
+  "placeId": "blumenau",
+  "title": "Blumenau",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Blumenau"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Joinville"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Brusque"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Pomerode"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Jaraguá do Sul"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Itajaí"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Lages"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Chapecó"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Caxias do Sul"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Curitiba"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Maringá"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Blumenau",
+    "sources": [
+     "BLU_IBGE",
+     "BLU_FURB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio que corta o vale da cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Itajaí-Açu"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Itapocu"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Tubarão"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Chapecó"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Itajaí-Açu",
+    "sources": [
+     "BLU_IBGE",
+     "BLU_WIKI",
+     "BLU_JICA"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Ano da chegada dos primeiros colonos da colônia",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "1850"
+     },
+     {
+      "id": "C3-O2",
+      "text": "1824"
+     },
+     {
+      "id": "C3-O3",
+      "text": "1875"
+     },
+     {
+      "id": "C3-O4",
+      "text": "1891"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "1850",
+    "sources": [
+     "BLU_IBGE",
+     "BLU_FURB"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estilo da nova prefeitura, de 1982",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Enxaimel"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Art déco"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Neoclássico"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Barroco"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Enxaimel",
+    "sources": [
+     "BLU_FURB"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "blumenau-viajante-P01",
+      "factKey": "blumenau-F01",
+      "text": "É uma cidade do Sul do Brasil, num vale cortado ao meio por um grande rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P02",
+      "factKey": "blumenau-F02",
+      "text": "O clima é subtropical úmido, com verões que chegam perto dos 30 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P03",
+      "factKey": "blumenau-F03",
+      "text": "Antes dos colonos, a região era habitada por povos Kaingang e Xokleng.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE",
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P04",
+      "factKey": "blumenau-F04",
+      "text": "Algumas famílias já moravam às margens do ribeirão Garcia antes da colônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P05",
+      "factKey": "blumenau-F05",
+      "text": "Em 1850, o fundador recebeu do governo provincial terras para uma colônia agrícola de imigrantes europeus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P06",
+      "factKey": "blumenau-F06",
+      "text": "Os primeiros 17 colonos chegaram em setembro de 1850.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BLU_IBGE",
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P07",
+      "factKey": "blumenau-F07",
+      "text": "No começo, a colônia era particular e proibia o trabalho escravo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P08",
+      "factKey": "blumenau-F08",
+      "text": "Em 1860, o governo imperial assumiu a colônia, mas o fundador seguiu na direção até 1880.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P09",
+      "factKey": "blumenau-F09",
+      "text": "Os lotes dos colonos foram demarcados ao longo de rios e ribeirões.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P10",
+      "factKey": "blumenau-F10",
+      "text": "Depois dos alemães, chegaram italianos e poloneses.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P11",
+      "factKey": "blumenau-F11",
+      "text": "Os primeiros colonos plantavam milho, cana, mandioca e fumo em pequenos sítios de família.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P12",
+      "factKey": "blumenau-F12",
+      "text": "Nos anos 1880 já havia dezenas de serrarias, além de olarias e cervejarias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P13",
+      "factKey": "blumenau-F13",
+      "text": "De 1880 a 1949, barcos a vapor levaram gente e carga pelo rio até Itajaí.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P14",
+      "factKey": "blumenau-F14",
+      "text": "No mesmo ano em que virou município, 1880, uma grande enchente destruiu pontes e estradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P15",
+      "factKey": "blumenau-F15",
+      "text": "Fábricas de tecido, como a da família Hering, fizeram da cidade um polo têxtil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB",
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P16",
+      "factKey": "blumenau-F16",
+      "text": "A nova prefeitura, de 1982, foi construída no estilo enxaimel.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P17",
+      "factKey": "blumenau-F17",
+      "text": "Um \"castelo\" de 1978 imita a prefeitura de uma cidade alemã.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P18",
+      "factKey": "blumenau-F18",
+      "text": "As enchentes de 1983 e 1984 passaram dos 15 metros e deixaram a cidade isolada por semanas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB",
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P19",
+      "factKey": "blumenau-F19",
+      "text": "Numa festa típica, há concurso de quem bebe mais rápido um copo de chope de um metro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_OKTWIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P20",
+      "factKey": "blumenau-F20",
+      "text": "Essa festa ocupa o Parque Vila Germânica em outubro, por cerca de 18 dias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_OKTWIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P21",
+      "factKey": "blumenau-F21",
+      "text": "A cidade tem os apelidos de \"Alemanha Tropical\" e \"Cidade Jardim\".",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P22",
+      "factKey": "blumenau-F22",
+      "text": "É reconhecida como capital nacional da cerveja.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P23",
+      "factKey": "blumenau-F23",
+      "text": "Em 2008, cheias e deslizamentos mataram 24 pessoas só nesta cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P24",
+      "factKey": "blumenau-F24",
+      "text": "Sua Oktoberfest nasceu em 1984 para reanimar a cidade depois das cheias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB",
+       "BLU_OKTWIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-viajante-P25",
+      "factKey": "blumenau-F25",
+      "text": "A cidade leva o sobrenome do alemão que fundou a colônia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE",
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "blumenau-geografo-P01",
+      "factKey": "blumenau-F01",
+      "text": "A cidade fica num vale fluvial de baixa altitude (cerca de 21 m), numa bacia que deságua no Atlântico.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BLU_WIKI",
+       "BLU_JICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P02",
+      "factKey": "blumenau-F02",
+      "text": "A bacia hidrográfica em que está soma cerca de 15 mil km², toda no bioma Mata Atlântica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P03",
+      "factKey": "blumenau-F03",
+      "text": "O rio principal ganha esse nome em Rio do Sul, onde se juntam seus formadores do Sul e do Oeste.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_JICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P04",
+      "factKey": "blumenau-F04",
+      "text": "A cidade marca a passagem do médio para o baixo vale, trecho de declividade muito baixa e com influência da maré.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_JICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P05",
+      "factKey": "blumenau-F05",
+      "text": "A jusante, uma planície extensa, baixa e pouco drenada favorece o acúmulo de água nas cheias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P06",
+      "factKey": "blumenau-F06",
+      "text": "Num estudo de 2011, tinha a maior densidade demográfica da bacia: 454 hab/km².",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P07",
+      "factKey": "blumenau-F07",
+      "text": "Uma barragem de contenção de cheias em José Boiteux, em operação desde 1992, tem esta cidade como principal ponto de controle.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_DEFCIVIL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P08",
+      "factKey": "blumenau-F08",
+      "text": "Na operação das barragens, a cidade é o segundo ponto mais sensível da bacia, depois de Rio do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_DEFCIVIL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P09",
+      "factKey": "blumenau-F09",
+      "text": "As cheias de julho de 1983 e agosto de 1984 tiveram vazões de pico estimadas como eventos de cerca de 100 anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_JICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P10",
+      "factKey": "blumenau-F10",
+      "text": "Em 2008, chuva concentrada no baixo vale, após um período muito úmido, provocou cheia e deslizamentos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_JICA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P11",
+      "factKey": "blumenau-F11",
+      "text": "A ocupação seguiu a hidrografia: os lotes coloniais foram medidos ao longo de rios e ribeirões.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P12",
+      "factKey": "blumenau-F12",
+      "text": "A colônia, aberta em 1850 numa concessão de duas léguas, foi encampada pelo governo imperial em 1860.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P13",
+      "factKey": "blumenau-F13",
+      "text": "A colonização particular vetava mão de obra escravizada e se apoiava em pequenas propriedades familiares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P14",
+      "factKey": "blumenau-F14",
+      "text": "Após a \"pacificação\" de 1914, epidemias mataram cerca de dois terços dos Xokleng e Kaingang da região até 1932.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P15",
+      "factKey": "blumenau-F15",
+      "text": "A navegação fluvial a vapor ligou a colônia ao porto da foz num percurso de 72,3 km.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P16",
+      "factKey": "blumenau-F16",
+      "text": "Distrito de Itajaí desde 1873, foi elevado a vila em 1880, já com Indaial e Gaspar como distritos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P17",
+      "factKey": "blumenau-F17",
+      "text": "O território original foi fragmentado: Gaspar e Indaial saíram em 1938, e Pomerode em 1958.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P18",
+      "factKey": "blumenau-F18",
+      "text": "A economia da colônia nos anos 1880 já combinava 32 serrarias com olarias e cervejarias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P19",
+      "factKey": "blumenau-F19",
+      "text": "Desde o século XIX, a indústria têxtil estrutura um polo industrial que ainda lidera a economia local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB",
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P20",
+      "factKey": "blumenau-F20",
+      "text": "Em 1969, o consórcio CETIL introduziu a informática na cidade, que depois virou polo do setor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P21",
+      "factKey": "blumenau-F21",
+      "text": "Um \"castelo\" de 1978, réplica da prefeitura de Michelstadt, e a prefeitura de 1982 seguem o estilo enxaimel.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BLU_FURB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P22",
+      "factKey": "blumenau-F22",
+      "text": "O clima subtropical úmido tem chuva média anual de cerca de 1.820 mm.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P23",
+      "factKey": "blumenau-F23",
+      "text": "O Censo de 2022 contou cerca de 361 mil habitantes no município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P24",
+      "factKey": "blumenau-F24",
+      "text": "Uma Oktoberfest criada em 1984 para recuperar a economia após as cheias fez da cidade polo do turismo de eventos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_FURB",
+       "BLU_OKTWIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "blumenau-geografo-P25",
+      "factKey": "blumenau-F25",
+      "text": "O topônimo vem do sobrenome do fundador, que recebeu as terras do governo provincial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BLU_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade do Vale do Itajaí, em Santa Catarina, nascida em 1850 como colônia particular de Hermann Blumenau às margens do Itajaí-Açu, no limite entre o médio e o baixo vale; marcada pelas enchentes, pela indústria têxtil, pela arquitetura enxaimel e pela Oktoberfest criada em 1984.",
+   "editorialNotes": [
+    "A formação do fundador diverge: \"filósofo\" (IBGE) e químico e farmacêutico (Wikipedia); as pistas não citam a formação.",
+    "O IBGE dá 1894 e 1928 para a categoria de cidade, e a enchente de 1880 aparece em outubro (IBGE) ou 23 de setembro (Wikipedia): datas omitidas nas pistas.",
+    "As cotas de 1983 e 1984 (15,37 m e 15,67 m, segundo a FURB) foram arredondadas para \"mais de 15 metros\"; o ranking da Oktoberfest (2ª ou 3ª do mundo) diverge entre páginas e foi omitido."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por IBGE, FURB, JICA, SGB, Defesa Civil e Wikipedia abertos na revisão; C2 e C4 ajustados; pistas conferidas e Geógrafo refeito com hidrologia e processos"
+  }
+ },
+ "sources": {
+  "BLU_IBGE": {
+   "id": "BLU_IBGE",
+   "title": "Blumenau (SC): histórico e formação administrativa",
+   "publisher": "IBGE",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/blumenau.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_FURB": {
+   "id": "BLU_FURB",
+   "title": "História e Geografia: características históricas, breve histórico e datas de Blumenau (SIGAD, 2022)",
+   "publisher": "FURB – Universidade Regional de Blumenau",
+   "url": "https://www.sigad.furb.br/_files/ugd/4b83e6_f3d15904227c4b4b84c8e32cfd026011.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_JICA": {
+   "id": "BLU_JICA",
+   "title": "Estudo preparatório para o projeto de prevenção e mitigação de desastres na bacia do rio Itajaí, anexo A: hidrologia (2011)",
+   "publisher": "JICA / Nippon Koei",
+   "url": "https://openjicareport.jica.go.jp/pdf/12043618_01.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_SGB": {
+   "id": "BLU_SGB",
+   "title": "Caracterização hidromorfológica da bacia do Vale do Itajaí (Marcuzzo et al., XIX SBRH, 2011)",
+   "publisher": "Serviço Geológico do Brasil (RIGeo)",
+   "url": "https://rigeo.sgb.gov.br/bitstream/doc/17404/3/poster_bacia_vale_itajai.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_DEFCIVIL": {
+   "id": "BLU_DEFCIVIL",
+   "title": "Manual orientativo de operação das barragens de contenção de cheias",
+   "publisher": "Defesa Civil de Santa Catarina",
+   "url": "https://www.defesacivil.sc.gov.br/wp-content/uploads/2023/10/Manual-Orientativo-de-Operacao-das-Barragens-de-Contencao-de-Cheias.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_WIKI": {
+   "id": "BLU_WIKI",
+   "title": "Blumenau",
+   "publisher": "Wikipedia (inglês)",
+   "url": "https://en.wikipedia.org/wiki/Blumenau",
+   "checkedAt": "2026-11-15"
+  },
+  "BLU_OKTWIKI": {
+   "id": "BLU_OKTWIKI",
+   "title": "Oktoberfest of Blumenau",
+   "publisher": "Wikipedia (inglês)",
+   "url": "https://en.wikipedia.org/wiki/Oktoberfest_of_Blumenau",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/blumenau.pdf",
+   "https://www.sigad.furb.br/_files/ugd/4b83e6_f3d15904227c4b4b84c8e32cfd026011.pdf",
+   "https://openjicareport.jica.go.jp/pdf/12043618_01.pdf",
+   "https://rigeo.sgb.gov.br/bitstream/doc/17404/3/poster_bacia_vale_itajai.pdf",
+   "https://www.defesacivil.sc.gov.br/wp-content/uploads/2023/10/Manual-Orientativo-de-Operacao-das-Barragens-de-Contencao-de-Cheias.pdf",
+   "https://en.wikipedia.org/wiki/Blumenau",
+   "https://en.wikipedia.org/wiki/Oktoberfest_of_Blumenau"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (prefeitura/história, aguas.sc.gov.br, IBGE Cidades, notícia da Oktoberfest) não foram abertas (só links de busca); substituídas por 7 fontes abertas (IBGE Biblioteca, FURB, relatório JICA 2011, pôster SGB 2011, manual da Defesa Civil SC, Wikipedia Blumenau e Oktoberfest)",
+   "C2: rótulo de \"Rio ligado à formação da cidade\" para \"Rio que corta o vale da cidade\" (mesmo gabarito e alternativas)",
+   "C4: \"Estado brasileiro\" trocado por \"Estilo da nova prefeitura, de 1982\", gabarito Enxaimel (FURB)",
+   "Retirados do Geógrafo: \"região hidrográfica RH 7\" e \"salto de Weissbach\" (sem fonte aberta); passagem médio/baixo vale passou a citar o relatório JICA; \"vapor até Itajaí\" virou 1880–1949, 72,3 km (FURB)",
+   "Retiradas pistas com datas divergentes (categoria de cidade 1928/1894) e \"estudou química e farmácia\" (IBGE diz filósofo); entraram barragens de contenção, densidade de 454 hab/km², planície pouco drenada, cheias de 1983/84 e 2008, polo têxtil e de informática, enxaimel e Oktoberfest de 1984",
+   "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 5 aberturas); relatedFields agora apontam C2–C4",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

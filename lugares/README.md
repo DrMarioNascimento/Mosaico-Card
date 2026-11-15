@@ -114,6 +114,42 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Porto Murtinho | Brasil / Centro-Oeste |
 | Rio Paraguai | Brasil / Centro-Oeste |
 | Trinidad e Vale dos Engenhos | Américas |
+| Aracaju | Brasil / Nordeste |
+| Reserva Biológica do Atol das Rocas | Brasil / Nordeste |
+| Balneário Camboriú | Brasil / Sul |
+| Sistema de Reservas da Barreira de Corais de Belize | Américas |
+| Bento Gonçalves | Brasil / Sul |
+| Blumenau | Brasil / Sul |
+| Cáceres | Brasil / Centro-Oeste |
+| Caldas Novas | Brasil / Centro-Oeste |
+| Parque Nacional dos Campos Amazônicos | Brasil / Norte e Centro-Oeste |
+| Parque Nacional Canaima | Américas |
+| Centro Histórico de Oeiras | Brasil / Nordeste |
+| Centro Histórico de Penedo | Brasil / Nordeste |
+| Cidade Histórica de Cusco | Américas |
+| Cuiabá | Brasil / Centro-Oeste |
+| Parque Estadual Encontro das Águas | Brasil / Centro-Oeste |
+| Fortaleza | Brasil / Nordeste |
+| Lapa | Brasil / Sul |
+| Londrina | Brasil / Sul |
+| Maceió | Brasil / Nordeste |
+| Maringá | Brasil / Sul |
+| Arquipélago do Marajó | Brasil / Norte |
+| Floresta Nacional do Tapajós | Brasil / Norte |
+| Parque Estadual Chandless | Brasil / Norte |
+| Parque Estadual Monte Alegre | Brasil / Norte |
+| Parque Nacional do Pico da Neblina | Brasil / Norte |
+| Porto Velho | Brasil / Norte |
+| Reserva de Desenvolvimento Sustentável Mamirauá | Brasil / Norte |
+| Rio Amazonas (trecho brasileiro) | Brasil / Norte |
+| Parque Nacional de Brasília | Brasil / Centro-Oeste |
+| Parque Nacional da Furna Feia | Brasil / Nordeste |
+| Parque Estadual da Serra de Caldas Novas | Brasil / Centro-Oeste |
+| Parque Estadual de Terra Ronca | Brasil / Centro-Oeste |
+| Território Indígena do Xingu | Brasil / Centro-Oeste |
+| Bairro Histórico da Cidade Portuária de Valparaíso | Américas |
+| Vila Bela da Santíssima Trindade | Brasil / Centro-Oeste |
+| Parque Nacional Yosemite | Américas |
 
 | Parque Nacional do Catimbau | Brasil / Nordeste |
 | Parque Nacional de Ubajara | Brasil / Nordeste |
@@ -140,7 +176,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Belo Horizonte | Brasil / Sudeste |
 | Parque Nacional Los Glaciares | Américas |
 
-São 125 lugares, 250 conjuntos de pistas (dois por lugar), 6.250 pistas, 500 perguntas distintas e 3.604 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 161 lugares, 322 conjuntos de pistas (dois por lugar), 8.050 pistas, 644 perguntas distintas e 4.472 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 

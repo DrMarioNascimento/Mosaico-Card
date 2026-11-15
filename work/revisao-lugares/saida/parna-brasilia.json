@@ -1,0 +1,1069 @@
+{
+ "case": {
+  "id": "lug2-parna-brasilia",
+  "placeId": "parna-brasilia",
+  "title": "Parque Nacional de Brasília",
+  "aliases": [
+   "Brasília"
+  ],
+  "answerType": "parque nacional",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Unidade de conservação",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Nacional de Brasília"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Estação Ecológica de Águas Emendadas"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Floresta Nacional de Brasília"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional da Chapada dos Veadeiros"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Nacional das Emas"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Nacional da Chapada dos Guimarães"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Nacional da Serra da Bodoquena"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional do Pantanal Mato-Grossense"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Estadual dos Pireneus"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Estadual da Serra de Caldas Novas"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Estadual de Terra Ronca"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Municipal do Itiquira"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Nacional de Brasília",
+    "sources": [
+     "PNB_ICMBIO_CARAC",
+     "PNB_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Bioma protegido",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Cerrado"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Pantanal"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Amazônia"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Mata Atlântica"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Cerrado",
+    "sources": [
+     "PNB_ICMBIO_CARAC",
+     "PNB_ICMBIO_2017"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Apelido popular do parque",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Água Mineral"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Águas Emendadas"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Águas Quentes"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Poço Azul"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Água Mineral",
+    "sources": [
+     "PNB_WIKI",
+     "PNB_ICMBIO_CARAC"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Represa formada por nascentes do parque que abastece a capital",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Santa Maria"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Descoberto"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Corumbá IV"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Serra da Mesa"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Santa Maria",
+    "sources": [
+     "PNB_ICMBIO_CARAC",
+     "PNB_ICMBIO_2017"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "parna-brasilia-viajante-P01",
+      "factKey": "parna-brasilia-F01",
+      "text": "É uma área protegida do Brasil central, com muitas nascentes e vegetação de savana.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC",
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P02",
+      "factKey": "parna-brasilia-F02",
+      "text": "As chuvas vão de outubro a abril, e o inverno é seco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P03",
+      "factKey": "parna-brasilia-F03",
+      "text": "Quase todo o território fica no Distrito Federal, com pequenas partes em Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P04",
+      "factKey": "parna-brasilia-F04",
+      "text": "Foi criado em 29 de novembro de 1961.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P05",
+      "factKey": "parna-brasilia-F05",
+      "text": "A criação do parque está ligada à construção da cidade vizinha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P06",
+      "factKey": "parna-brasilia-F06",
+      "text": "Os limites foram ampliados em 2006.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC",
+       "PNB_LEI2006"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P07",
+      "factKey": "parna-brasilia-F07",
+      "text": "Hoje tem cerca de 42 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P08",
+      "factKey": "parna-brasilia-F08",
+      "text": "Tem tantas nascentes que ganhou um apelido ligado à água.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P09",
+      "factKey": "parna-brasilia-F09",
+      "text": "A temperatura média do ano fica em torno de 20 a 22 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI",
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P10",
+      "factKey": "parna-brasilia-F10",
+      "text": "As piscinas de água natural são a principal atração.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P11",
+      "factKey": "parna-brasilia-F11",
+      "text": "As duas piscinas se chamam Areal e Pedreira.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC",
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P12",
+      "factKey": "parna-brasilia-F12",
+      "text": "A água das piscinas se renova o tempo todo graças a nascentes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P13",
+      "factKey": "parna-brasilia-F13",
+      "text": "As piscinas surgiram de poços abertos na extração de areia, antes da construção da capital.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P14",
+      "factKey": "parna-brasilia-F14",
+      "text": "A trilha da Capivara, de 1,3 km, fica perto de uma das piscinas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P15",
+      "factKey": "parna-brasilia-F15",
+      "text": "A trilha Cristal Água tem 15 km e aceita bicicletas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017",
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P16",
+      "factKey": "parna-brasilia-F16",
+      "text": "Essa trilha leva a um lugar chamado Ilha da Meditação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P17",
+      "factKey": "parna-brasilia-F17",
+      "text": "Os córregos Bananal, Torto e Santa Maria correm pelo parque.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P18",
+      "factKey": "parna-brasilia-F18",
+      "text": "Buritis e matas de galeria acompanham nascentes e córregos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P19",
+      "factKey": "parna-brasilia-F19",
+      "text": "Lobo-guará, tamanduá-bandeira e tatu-canastra estão entre os mamíferos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P20",
+      "factKey": "parna-brasilia-F20",
+      "text": "Emas, seriemas e tucanos estão entre as aves.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P21",
+      "factKey": "parna-brasilia-F21",
+      "text": "Já foram registradas 312 espécies de aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P22",
+      "factKey": "parna-brasilia-F22",
+      "text": "Mais de 260 mil pessoas visitaram o parque em 2019.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P23",
+      "factKey": "parna-brasilia-F23",
+      "text": "A vegetação mistura cerrado, campos, veredas e matas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P24",
+      "factKey": "parna-brasilia-F24",
+      "text": "Suas nascentes formam a represa de Santa Maria, que abastece a capital federal.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC",
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-viajante-P25",
+      "factKey": "parna-brasilia-F25",
+      "text": "Os moradores da capital federal o chamam de Água Mineral.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PNB_WIKI",
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "parna-brasilia-geografo-P01",
+      "factKey": "parna-brasilia-F01",
+      "text": "Unidade de conservação federal num planalto ondulado do Cerrado, criada para proteger mananciais.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PNB_WIKI",
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P02",
+      "factKey": "parna-brasilia-F02",
+      "text": "A criação respondeu à construção da nova capital: proteger recursos hídricos, garantir água potável e manter a biodiversidade.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P03",
+      "factKey": "parna-brasilia-F03",
+      "text": "O decreto federal de 29 de novembro de 1961 criou a unidade com cerca de 28 mil ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P04",
+      "factKey": "parna-brasilia-F04",
+      "text": "Uma lei de 2006 alterou os limites e incorporou áreas como o vale do rio da Palma; hoje são cerca de 42,4 mil ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_LEI2006",
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P05",
+      "factKey": "parna-brasilia-F05",
+      "text": "Cerca de 98,8% da área fica no DF; o restante se divide entre Padre Bernardo e Planaltina, em Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P06",
+      "factKey": "parna-brasilia-F06",
+      "text": "A unidade se reparte entre duas grandes bacias: 68,6% drena para o Paraná e 31,4% para o Tocantins-Araguaia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P07",
+      "factKey": "parna-brasilia-F07",
+      "text": "Localmente, a drenagem se divide entre as bacias do Maranhão e do Paranoá.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P08",
+      "factKey": "parna-brasilia-F08",
+      "text": "O relevo é um planalto ondulado com quartzitos e calcários, cavernas e nascentes, entre 700 e 1.300 m de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P09",
+      "factKey": "parna-brasilia-F09",
+      "text": "Formações savânicas cobrem cerca de 48% da área, campestres 40% e florestais 13%.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P10",
+      "factKey": "parna-brasilia-F10",
+      "text": "Matas de galeria acompanham nascentes e córregos, com buritis e plantas da família Velloziaceae.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P11",
+      "factKey": "parna-brasilia-F11",
+      "text": "As chuvas de outubro a abril somam 84% do total anual; a estação seca vai de maio a setembro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P12",
+      "factKey": "parna-brasilia-F12",
+      "text": "A precipitação média anual fica na casa de 1.500 mm, com temperatura média de 22 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P13",
+      "factKey": "parna-brasilia-F13",
+      "text": "Os córregos protegidos alimentam a represa de Santa Maria, que fornece cerca de 25% da água potável da capital.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P14",
+      "factKey": "parna-brasilia-F14",
+      "text": "As piscinas surgiram de poços abertos às margens do córrego Acampamento durante a extração de areia.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P15",
+      "factKey": "parna-brasilia-F15",
+      "text": "Nascentes no interior ou perto das piscinas renovam a água continuamente.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P16",
+      "factKey": "parna-brasilia-F16",
+      "text": "A fauna soma 51 espécies de mamíferos, com destaque para a onça-pintada, e 25 espécies ameaçadas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P17",
+      "factKey": "parna-brasilia-F17",
+      "text": "Entre as 312 espécies de aves, destaca-se a águia-cinzenta.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P18",
+      "factKey": "parna-brasilia-F18",
+      "text": "A lista de mamíferos inclui o roedor Juscelinomys candangus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P19",
+      "factKey": "parna-brasilia-F19",
+      "text": "O plano de manejo de 2022 e o plano de uso público orientam a gestão do ICMBio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P20",
+      "factKey": "parna-brasilia-F20",
+      "text": "A visitação foi de 236 mil pessoas em 2010 a 318 mil em 2012 e caiu em 2013–2014 com a reforma das piscinas.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P21",
+      "factKey": "parna-brasilia-F21",
+      "text": "Em 2019, o parque recebeu cerca de 264 mil visitantes, com crescimento médio de 0,84% ao ano em dez anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P22",
+      "factKey": "parna-brasilia-F22",
+      "text": "A trilha Cristal Água, ampliada de 5 para 15 km, acompanha o córrego do Rego e é aberta ao ciclismo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P23",
+      "factKey": "parna-brasilia-F23",
+      "text": "Em 2025, a área de visitação chamada Santa Maria estava fechada ao público.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P24",
+      "factKey": "parna-brasilia-F24",
+      "text": "A área de visitação Água Mineral, com as piscinas Areal e Pedreira, deu o apelido à unidade.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PNB_WIKI",
+       "PNB_ICMBIO_CARAC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parna-brasilia-geografo-P25",
+      "factKey": "parna-brasilia-F25",
+      "text": "É o parque nacional que protege os mananciais da represa de Santa Maria, na capital federal.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "PNB_ICMBIO_CARAC",
+       "PNB_ICMBIO_2017"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Parque Nacional de Brasília, criado em 1961 e ampliado em 2006, protege cerca de 42 mil hectares de Cerrado no Distrito Federal e em Goiás, com as nascentes que formam a represa de Santa Maria e as piscinas naturais da área conhecida como Água Mineral.",
+   "editorialNotes": [
+    "A área original de 1961 (cerca de 28 mil ha) e a data do decreto vêm da Wikipédia; a área atual (42.355 ha) e a ampliação de 2006 vêm do ICMBio.",
+    "Temperatura e chuva médias divergem entre fontes (20,6 °C e 1.675 mm na Wikipédia; 22 °C e cerca de 1.500 mm no ICMBio); as pistas usam faixa ou citam só o ICMBio.",
+    "Jaguatirica e onça-parda, citadas no rascunho, não foram confirmadas nas fontes abertas e foram retiradas; os nomes populares de mamíferos e aves são tradução dos nomes da Wikipédia em inglês."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Documentos do ICMBio (2017 e 2025), Wikipédia e texto da Lei 11.285/2006 abertos; 50 pistas conferidas e reescritas, C1 restrito a unidades do Centro-Oeste e distratores de C2–C4 refeitos."
+  }
+ },
+ "sources": {
+  "PNB_ICMBIO_CARAC": {
+   "id": "PNB_ICMBIO_CARAC",
+   "title": "Minuta de caracterização — concessão de serviços no Parque Nacional e na Floresta Nacional de Brasília (2025)",
+   "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+   "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2025-1/1.1A_Minuta_Caracterizacao___Concessao_de_servicos___PNB_FNB.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PNB_ICMBIO_2017": {
+   "id": "PNB_ICMBIO_2017",
+   "title": "Projeto básico — Pregão Eletrônico nº 03/2017 (concessão no Parque Nacional de Brasília)",
+   "publisher": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+   "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes/pregao/exercicios-anteriores/2017/projeto_basico_pregao_eletronico_03_2017_concessao_parna_de_brasilia.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PNB_WIKI": {
+   "id": "PNB_WIKI",
+   "title": "Brasília National Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia_National_Park",
+   "checkedAt": "2026-11-15"
+  },
+  "PNB_LEI2006": {
+   "id": "PNB_LEI2006",
+   "title": "Lei nº 11.285, de 8 de março de 2006 — altera os limites do Parque Nacional de Brasília",
+   "publisher": "Justia Brasil (legislação federal)",
+   "url": "https://brasil.justia.com/nacionales/leis/11-285-de-8-3-2006/gdoc",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2025-1/1.1A_Minuta_Caracterizacao___Concessao_de_servicos___PNB_FNB.pdf",
+   "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes/pregao/exercicios-anteriores/2017/projeto_basico_pregao_eletronico_03_2017_concessao_parna_de_brasilia.pdf",
+   "https://en.wikipedia.org/wiki/Bras%C3%ADlia_National_Park",
+   "https://brasil.justia.com/nacionales/leis/11-285-de-8-3-2006/gdoc"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (acórdão do TCU, página de visitação de 2013 e minuta do plano de manejo do ICMBio) substituídas por documentos do ICMBio de 2017 e 2025, Wikipédia e texto da Lei 11.285/2006",
+   "C1: rótulo \"Parque nacional\" com parques de MG, BA, PI e TO trocado por \"Unidade de conservação\" com 12 unidades do Centro-Oeste (incluindo Águas Emendadas e Flona de Brasília)",
+   "C2: Pampa e Caatinga trocados por Pantanal e Amazônia; C3: rótulo \"Apelido popular do parque\" com distratores reais da região (Águas Emendadas, Águas Quentes, Poço Azul) no lugar de nomes inventados",
+   "C4: Sobradinho, Furnas e Três Marias trocados por Descoberto, Corumbá IV e Serra da Mesa; Paranoá evitado porque parte do parque drena para essa bacia",
+   "Pistas sobre jaguatirica e onça-parda retiradas por falta de fonte; \"Água Mineral\" deixou de ser nome de área inventada e virou apelido do parque, como na fonte",
+   "Pistas genéricas trocadas por dados das fontes: 1961 e 28 mil ha, 2006 e 42,4 mil ha, 98,8% no DF, bacias Paraná/Tocantins-Araguaia, relevo de 700–1.300 m, 48/40/13% de formações, 25% da água potável, origem das piscinas, 51 mamíferos e 312 aves, visitação 2010–2019, trilhas Capivara e Cristal Água",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

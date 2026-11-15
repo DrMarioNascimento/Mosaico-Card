@@ -1,0 +1,1081 @@
+{
+ "case": {
+  "id": "lug2-caceres-mt",
+  "placeId": "caceres-mt",
+  "title": "Cáceres",
+  "aliases": [],
+  "answerType": "cidade histórica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Cáceres"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Corumbá"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Porto Murtinho"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Cuiabá"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Aquidauana"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Bonito"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Poconé"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Miranda"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Ladário"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Barra do Garças"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Aragarças"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vila Bela da Santíssima Trindade"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Cáceres",
+    "sources": [
+     "CAC_IBGE_HIST",
+     "CAC_ES2022",
+     "CAC_IPHAN_EXT"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio que estrutura a paisagem urbana",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Paraguai"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Cuiabá"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Guaporé"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Araguaia"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Paraguai",
+    "sources": [
+     "CAC_IBGE_HIST",
+     "CAC_ES2022"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Origem do monumento de pedra da praça central",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Marco de limites do Tratado de Madri"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Homenagem ao fim da Guerra do Paraguai"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Lembrança da passagem da Comissão Rondon"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Marco da chegada da ferrovia"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Marco de limites do Tratado de Madri",
+    "sources": [
+     "CAC_UNEMAT_GUIA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Estado brasileiro",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mato Grosso"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Mato Grosso do Sul"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Goiás"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Rondônia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mato Grosso",
+    "sources": [
+     "CAC_IBGE_HIST",
+     "CAC_ES2022"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "caceres-mt-viajante-P01",
+      "factKey": "caceres-mt-F01",
+      "text": "É uma cidade do interior do Brasil, à beira de um grande rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P02",
+      "factKey": "caceres-mt-F02",
+      "text": "A criação de gado é a principal atividade econômica do município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P03",
+      "factKey": "caceres-mt-F03",
+      "text": "Fica perto da fronteira do Brasil com a Bolívia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P04",
+      "factKey": "caceres-mt-F04",
+      "text": "A cidade fica no sudoeste de Mato Grosso.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P05",
+      "factKey": "caceres-mt-F05",
+      "text": "Fica a cerca de 215 km da capital do estado.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P06",
+      "factKey": "caceres-mt-F06",
+      "text": "Está na parte mais a oeste do Pantanal mato-grossense.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P07",
+      "factKey": "caceres-mt-F07",
+      "text": "A cidade cresceu na margem esquerda do rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P08",
+      "factKey": "caceres-mt-F08",
+      "text": "O rio da cidade é o Paraguai.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P09",
+      "factKey": "caceres-mt-F09",
+      "text": "O rio é palco de um festival internacional de pesca esportiva organizado pela prefeitura.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P10",
+      "factKey": "caceres-mt-F10",
+      "text": "As ruas antigas acompanham o curso do rio, num traçado em xadrez.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P11",
+      "factKey": "caceres-mt-F11",
+      "text": "O centro histórico mistura casas coloniais, prédios neoclássicos e art déco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P12",
+      "factKey": "caceres-mt-F12",
+      "text": "O centro histórico é protegido pelo Iphan.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IPHAN_EXT",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P13",
+      "factKey": "caceres-mt-F13",
+      "text": "A praça principal já se chamou Largo da Matriz.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P14",
+      "factKey": "caceres-mt-F14",
+      "text": "De frente para a praça fica uma catedral em estilo neogótico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P15",
+      "factKey": "caceres-mt-F15",
+      "text": "A catedral demorou: a obra começou em 1919 e só foi inaugurada em 1965.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P16",
+      "factKey": "caceres-mt-F16",
+      "text": "O antigo mercado público, um prédio neoclássico, virou o museu histórico da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P17",
+      "factKey": "caceres-mt-F17",
+      "text": "A primeira escola pública da cidade, do começo do século XX, segue funcionando como escola estadual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P18",
+      "factKey": "caceres-mt-F18",
+      "text": "Na praça há um marco de pedra ligado a um antigo tratado de limites.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P19",
+      "factKey": "caceres-mt-F19",
+      "text": "Esse marco foi lavrado em Lisboa e é um dos poucos vestígios do Tratado de Madri.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P20",
+      "factKey": "caceres-mt-F20",
+      "text": "O marco ficava antes na foz de outro rio da região e chegou à cidade em 1883.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P21",
+      "factKey": "caceres-mt-F21",
+      "text": "Antes da vila, havia ali um posto de controle na travessia do rio, criado em 1772.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P22",
+      "factKey": "caceres-mt-F22",
+      "text": "Esse posto ficava no caminho entre Cuiabá e Vila Bela.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P23",
+      "factKey": "caceres-mt-F23",
+      "text": "A cidade foi fundada em 6 de outubro de 1778.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P24",
+      "factKey": "caceres-mt-F24",
+      "text": "O fundador foi um governador da capitania, e o sobrenome dele virou o nome da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-viajante-P25",
+      "factKey": "caceres-mt-F25",
+      "text": "O primeiro nome do lugar foi Vila Maria do Paraguai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "caceres-mt-geografo-P01",
+      "factKey": "caceres-mt-F01",
+      "text": "Núcleo urbano ribeirinho do Brasil central cuja origem combina controle fiscal e defesa de fronteira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P02",
+      "factKey": "caceres-mt-F02",
+      "text": "Até meados do século XX, a economia local girava em torno de couro e carne bovina, com poaia e borracha como produtos complementares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P03",
+      "factKey": "caceres-mt-F03",
+      "text": "A proximidade da fronteira Brasil-Bolívia ajuda a explicar a função estratégica do núcleo desde o período colonial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022",
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P04",
+      "factKey": "caceres-mt-F04",
+      "text": "O município integra a microrregião do Alto Paraguai, no sudoeste de seu estado.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P05",
+      "factKey": "caceres-mt-F05",
+      "text": "O sítio urbano ocupa a margem esquerda de um rio que nasce na Chapada dos Parecis e deságua no Paraná.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P06",
+      "factKey": "caceres-mt-F06",
+      "text": "O traçado em xadrez, de matriz portuguesa, organiza ruas paralelas e perpendiculares ao rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P07",
+      "factKey": "caceres-mt-F07",
+      "text": "Depois da Guerra do Paraguai, a navegação fluvial impulsionou o comércio local até o início do século XX.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P08",
+      "factKey": "caceres-mt-F08",
+      "text": "No século XIX, casas comerciais faziam da cidade um elo de comércio fluvial com Corumbá.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P09",
+      "factKey": "caceres-mt-F09",
+      "text": "A cidade fica na borda mais ocidental do Pantanal mato-grossense, com fauna pantaneira em baías próximas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P10",
+      "factKey": "caceres-mt-F10",
+      "text": "O registro fiscal de 1772 na travessia do rio buscava coibir o descaminho do ouro entre Cuiabá e Vila Bela.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P11",
+      "factKey": "caceres-mt-F11",
+      "text": "O mesmo posto servia ao plano defensivo da capitania e mais tarde justificou um núcleo militar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P12",
+      "factKey": "caceres-mt-F12",
+      "text": "Pelo Tratado de Madri (1750), a área cabia à Coroa espanhola; a fundação portuguesa buscou assegurá-la.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P13",
+      "factKey": "caceres-mt-F13",
+      "text": "Para povoar a vila, o governador atraiu indígenas chiquitanos, o que gerou queixas do governo da província de Chiquitos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P14",
+      "factKey": "caceres-mt-F14",
+      "text": "Uma provisão régia criou em 1779 a freguesia de São Luís do Paraguai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P15",
+      "factKey": "caceres-mt-F15",
+      "text": "O status de vila oscilou: criada em 1850, extinta em 1851 e recriada em 1859.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P16",
+      "factKey": "caceres-mt-F16",
+      "text": "A elevação a cidade veio em 1874; o nome atual, abreviado, foi fixado por decreto estadual em 1938.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P17",
+      "factKey": "caceres-mt-F17",
+      "text": "O marco de pedra lavrado em Lisboa em 1754 foi instalado primeiro na foz do Jauru e trazido ao núcleo urbano em 1883.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P18",
+      "factKey": "caceres-mt-F18",
+      "text": "Dentro da praça, o marco mudou de posição várias vezes até ficar diante da catedral.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P19",
+      "factKey": "caceres-mt-F19",
+      "text": "O marco foi o primeiro bem tombado da cidade, em 1978, ano do bicentenário de fundação.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P20",
+      "factKey": "caceres-mt-F20",
+      "text": "A convivência de estilos coloniais, neoclássicos e art déco registra construções do fim do século XVIII à primeira metade do XX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P21",
+      "factKey": "caceres-mt-F21",
+      "text": "A praça central, antigo Largo da Matriz, recebeu o nome atual em 1912 e fica dentro do perímetro de proteção federal.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P22",
+      "factKey": "caceres-mt-F22",
+      "text": "O centro histórico teve tombamento estadual em 2002; o federal foi aprovado em 2010 e homologado em 2012.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022",
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P23",
+      "factKey": "caceres-mt-F23",
+      "text": "A poligonal federal, de cerca de 475 mil m², abrange os bairros Centro e Cavalhada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P24",
+      "factKey": "caceres-mt-F24",
+      "text": "O bem federal é um conjunto arquitetônico, urbanístico e paisagístico emoldurado pelo rio Paraguai, na fronteira oeste de Mato Grosso.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "CAC_IPHAN_EXT",
+       "CAC_ES2022"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "caceres-mt-geografo-P25",
+      "factKey": "caceres-mt-F25",
+      "text": "O núcleo nasceu em 1778 como Vila Maria do Paraguai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "CAC_IBGE_HIST",
+       "CAC_UNEMAT_GUIA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cáceres, no sudoeste de Mato Grosso, nasceu em 1778 como Vila Maria do Paraguai, na margem esquerda do Rio Paraguai e perto da fronteira com a Bolívia; seu centro histórico, que guarda o Marco do Jauru, é protegido pelo Iphan como conjunto arquitetônico, urbanístico e paisagístico.",
+   "editorialNotes": [
+    "As datas do tombamento federal variam conforme a fonte: aprovação e federalização provisória em 2010, homologação em 2012 (o rascunho dizia 2013 e foi corrigido).",
+    "O guia da Unemat dá 1912 e 1913 para a escola Esperidião Marques; a pista não usa o ano.",
+    "Pistas sobre a ponte Marechal Rondon, a antiga prefeitura e a população do Censo 2022 foram retiradas: as fontes abertas não as confirmaram (a página do IBGE Cidades não abriu)."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes do IBGE, Iphan, Unemat e artigo acadêmico de 2022 abertas; 50 pistas conferidas e reescritas, C1 restrito ao Centro-Oeste e distratores de C2 e C3 refeitos."
+  }
+ },
+ "sources": {
+  "CAC_IBGE_HIST": {
+   "id": "CAC_IBGE_HIST",
+   "title": "Cáceres (MT) — histórico do município",
+   "publisher": "Instituto Brasileiro de Geografia e Estatística (IBGE) — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrosso/caceres.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CAC_UNEMAT_GUIA": {
+   "id": "CAC_UNEMAT_GUIA",
+   "title": "A cidade de Cáceres/MT e o seu patrimônio cultural: produção de um guia didático-histórico (Maria Solange Sá Leite)",
+   "publisher": "Universidade do Estado de Mato Grosso (Unemat)",
+   "url": "https://cms.unemat.br/download/documentos/bloco-documento-arquivo/Tbn01OMoD78uAfwStfBtApXCFiwXSYRk2I7pQe18/Maria-Solange-sa-Leite-a-Cidade-de-Caceresmt-e-o-Seu-Patrimonio-Cultural-Producao-de-um-Guia-Didatico-Historico.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CAC_ES2022": {
+   "id": "CAC_ES2022",
+   "title": "Patrimônio histórico – Diagnóstico sobre as edificações na poligonal tombada de Cáceres-MT (2022)",
+   "publisher": "E&S – Engineering and Science (IFMT/Univag), via CORE",
+   "url": "https://core.ac.uk/download/524767056.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "CAC_IPHAN_EXT": {
+   "id": "CAC_IPHAN_EXT",
+   "title": "Extrato de Decisões de Autorizações — abril de 2026",
+   "publisher": "Instituto do Patrimônio Histórico e Artístico Nacional (Iphan) — Superintendência em Mato Grosso",
+   "url": "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso/autorizacoes/abril_extratos_de_decisoes.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/matogrosso/caceres.pdf",
+   "https://cms.unemat.br/download/documentos/bloco-documento-arquivo/Tbn01OMoD78uAfwStfBtApXCFiwXSYRk2I7pQe18/Maria-Solange-sa-Leite-a-Cidade-de-Caceresmt-e-o-Seu-Patrimonio-Cultural-Producao-de-um-Guia-Didatico-Historico.pdf",
+   "https://core.ac.uk/download/524767056.pdf",
+   "https://www.gov.br/iphan/pt-br/superintendencias/mato-grosso/autorizacoes/abril_extratos_de_decisoes.pdf"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (portaria Iphan 2022, IBGE Cidades e Sudeco) não abriram ou não foram alcançáveis; substituídas por histórico do IBGE (Biblioteca), guia da Unemat, artigo E&S 2022 e extrato de decisões do Iphan-MT",
+   "C1: Porto Velho (Norte) trocado por Vila Bela da Santíssima Trindade (MT), para manter o recorte Centro-Oeste",
+   "C2: distratores Madeira e Tocantins trocados por Rio Cuiabá e Rio Guaporé (rios de cidades da lista de C1)",
+   "C3: rótulo e alternativas refeitos (antes só a resposta combinava com \"marco\"); agora opções de monumentos plausíveis no Centro-Oeste",
+   "viajante P21 e geógrafo P21 (tombamento em 2013) corrigidos: aprovação em 2010 e homologação em 2012",
+   "viajante P24 (ponte Marechal Rondon), P18 (antiga prefeitura) e geógrafo P24/P18 removidos por falta de apoio nas fontes; geógrafo P25 (população 2022) retirado porque a fonte não abriu",
+   "Todas as 50 pistas reordenadas e reescritas a partir das fontes abertas (registro fiscal de 1772, Tratado de Madri, Marco do Jauru de 1754/1883, catedral 1919–1965, mercado-museu, poligonal de 475 mil m², bairros Centro e Cavalhada, nomes e status de 1779 a 1938)",
+   "Marcadas aberturas (P01 nos dois perfis) e decisivas (viajante P24–P25; geógrafo P24–P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

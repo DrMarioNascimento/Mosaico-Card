@@ -1,0 +1,1078 @@
+{
+  "case": {
+    "id": "lug2-norte-flona-tapajos",
+    "placeId": "norte-flona-tapajos",
+    "title": "Floresta Nacional do Tapajós",
+    "aliases": [
+      "Flona do Tapajós"
+    ],
+    "answerType": "floresta nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Floresta nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Floresta Nacional do Tapajós"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Floresta Nacional do Jamari"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Floresta Nacional de Carajás"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Floresta Nacional de Altamira"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Floresta Nacional de Itaituba I"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Floresta Nacional de Itaituba II"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Floresta Nacional de Saracá-Taquera"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Floresta Nacional de Caxiuanã"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Floresta Nacional do Jamanxim"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Floresta Nacional do Amapá"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Floresta Nacional do Purus"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Floresta Nacional de Tefé"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Floresta Nacional do Tapajós",
+        "sources": [
+          "FLONATAP_CNUC",
+          "FLONATAP_PMIF"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Ano de criação da unidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "1974"
+          },
+          {
+            "id": "C2-O2",
+            "text": "1961"
+          },
+          {
+            "id": "C2-O3",
+            "text": "1989"
+          },
+          {
+            "id": "C2-O4",
+            "text": "2006"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "1974",
+        "sources": [
+          "FLONATAP_CNUC",
+          "FLONATAP_PMIF",
+          "FLONATAP_WIKI"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estado brasileiro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pará"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Amapá"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Amazonas"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Rondônia"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pará",
+        "sources": [
+          "FLONATAP_CNUC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rodovia no limite leste da unidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "BR-163 (Cuiabá–Santarém)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "BR-230 (Transamazônica)"
+          },
+          {
+            "id": "C4-O3",
+            "text": "BR-319 (Manaus–Porto Velho)"
+          },
+          {
+            "id": "C4-O4",
+            "text": "BR-174 (Manaus–Boa Vista)"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "BR-163 (Cuiabá–Santarém)",
+        "sources": [
+          "FLONATAP_PMIF",
+          "FLONATAP_SCIELO",
+          "FLONATAP_WIKI"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-flona-tapajos-viajante-P01",
+            "factKey": "norte-flona-tapajos-F01",
+            "text": "Este lugar protege uma área de floresta amazônica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P02",
+            "factKey": "norte-flona-tapajos-F02",
+            "text": "Há comunidades vivendo dentro da unidade de conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P03",
+            "factKey": "norte-flona-tapajos-F03",
+            "text": "Aqui é permitido usar os recursos da floresta de forma sustentável.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P04",
+            "factKey": "norte-flona-tapajos-F04",
+            "text": "As chuvas se concentram entre dezembro e julho; de agosto a novembro é tempo de seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P05",
+            "factKey": "norte-flona-tapajos-F05",
+            "text": "A área protegida foi criada em 1974.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P06",
+            "factKey": "norte-flona-tapajos-F06",
+            "text": "Seu estado é o Pará.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P07",
+            "factKey": "norte-flona-tapajos-F07",
+            "text": "Um grande rio forma seu limite a oeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P08",
+            "factKey": "norte-flona-tapajos-F08",
+            "text": "A rodovia BR-163 acompanha o limite leste.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P09",
+            "factKey": "norte-flona-tapajos-F09",
+            "text": "A área alcança parte do município de Belterra.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P10",
+            "factKey": "norte-flona-tapajos-F10",
+            "text": "Aveiro também é um município que abriga parte da floresta.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P11",
+            "factKey": "norte-flona-tapajos-F11",
+            "text": "A área também abrange terras de Placas e Rurópolis.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P12",
+            "factKey": "norte-flona-tapajos-F12",
+            "text": "O manejo florestal comunitário é a principal fonte de renda dos moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P13",
+            "factKey": "norte-flona-tapajos-F13",
+            "text": "Uma cooperativa criada por moradores em 2005 cuida da exploração de madeira manejada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P14",
+            "factKey": "norte-flona-tapajos-F14",
+            "text": "A cooperativa é conhecida pela sigla Coomflona.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P15",
+            "factKey": "norte-flona-tapajos-F15",
+            "text": "O látex das seringueiras vira biojoias, cadernos e sapatos no artesanato local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_BDF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P16",
+            "factKey": "norte-flona-tapajos-F16",
+            "text": "A comunidade de Jamaraquá é chamada de porta de entrada para o turismo na região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_BDF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P17",
+            "factKey": "norte-flona-tapajos-F17",
+            "text": "Em 2022, a unidade recebeu cerca de 29 mil visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P18",
+            "factKey": "norte-flona-tapajos-F18",
+            "text": "Maguari, Jamaraquá e São Domingos estão entre as comunidades que vivem na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P19",
+            "factKey": "norte-flona-tapajos-F19",
+            "text": "Algumas áreas planas perto do rio alagam na época das chuvas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P20",
+            "factKey": "norte-flona-tapajos-F20",
+            "text": "Castanheiras, samaúmas e buritis estão entre as árvores da floresta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P21",
+            "factKey": "norte-flona-tapajos-F21",
+            "text": "Um projeto científico internacional mede ali as trocas de gás carbônico e água entre a floresta e o ar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P22",
+            "factKey": "norte-flona-tapajos-F22",
+            "text": "Quase toda a área é coberta por floresta densa, com alguns trechos de floresta aberta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P23",
+            "factKey": "norte-flona-tapajos-F23",
+            "text": "Macaco-aranha, tamanduá-bandeira, onça-pintada e ariranha estão entre os animais protegidos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P24",
+            "factKey": "norte-flona-tapajos-F24",
+            "text": "As serras se concentram no centro-sul da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-viajante-P25",
+            "factKey": "norte-flona-tapajos-F25",
+            "text": "Terras indígenas, como a Munduruku-Takuara, se sobrepõem a parte da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-flona-tapajos-geografo-P01",
+            "factKey": "norte-flona-tapajos-F01",
+            "text": "A unidade combina conservação florestal com uso múltiplo sustentável dos recursos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P02",
+            "factKey": "norte-flona-tapajos-F02",
+            "text": "Extrativistas, ribeirinhos e povos indígenas formam a população tradicional da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P03",
+            "factKey": "norte-flona-tapajos-F03",
+            "text": "O objetivo legal enfatiza a pesquisa de métodos de exploração sustentável de florestas nativas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P04",
+            "factKey": "norte-flona-tapajos-F04",
+            "text": "Uma lei de 2012 reduziu a área e separou dela setores internos, como as áreas de São Jorge e Aveiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P05",
+            "factKey": "norte-flona-tapajos-F05",
+            "text": "A unidade foi instituída pelo Decreto nº 73.684, de 19 de fevereiro de 1974.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FLONATAP_CNUC",
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P06",
+            "factKey": "norte-flona-tapajos-F06",
+            "text": "A unidade distribui-se por municípios do oeste paraense.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO",
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P07",
+            "factKey": "norte-flona-tapajos-F07",
+            "text": "O limite ocidental acompanha um importante curso fluvial amazônico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF",
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P08",
+            "factKey": "norte-flona-tapajos-F08",
+            "text": "A leste, a BR-163 acompanha o limite da unidade por cerca de 161 km.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P09",
+            "factKey": "norte-flona-tapajos-F09",
+            "text": "Os municípios abrangidos são Aveiro, Belterra, Placas e Rurópolis.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P10",
+            "factKey": "norte-flona-tapajos-F10",
+            "text": "Parte da área drena para oeste, rumo ao rio principal, e parte para leste, rumo à bacia do Curuá-Una.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P11",
+            "factKey": "norte-flona-tapajos-F11",
+            "text": "Junto ao rio, o terreno chega a cerca de 100 m, cortado por ravinas; longe dele, a floresta ocupa um planalto de 120 a 170 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P12",
+            "factKey": "norte-flona-tapajos-F12",
+            "text": "O manejo florestal comunitário, principal fonte de renda local, faz da unidade referência nacional nessa modalidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P13",
+            "factKey": "norte-flona-tapajos-F13",
+            "text": "Uma norma do Ibama de 2004 autorizou associações intercomunitárias a conduzir um projeto-piloto de manejo comunitário em larga escala.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P14",
+            "factKey": "norte-flona-tapajos-F14",
+            "text": "A Coomflona, fundada em 2005 pelas associações intercomunitárias, executa o manejo madeireiro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO",
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P15",
+            "factKey": "norte-flona-tapajos-F15",
+            "text": "A cooperativa destina anualmente 15% de suas sobras às associações comunitárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P16",
+            "factKey": "norte-flona-tapajos-F16",
+            "text": "A floresta ombrófila densa cobre cerca de 93% da área; capoeiras, roças e pastos concentram-se nas bordas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P17",
+            "factKey": "norte-flona-tapajos-F17",
+            "text": "A visitação registrada variou de cerca de 15 mil a 43 mil pessoas por ano entre 2012 e 2022.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P18",
+            "factKey": "norte-flona-tapajos-F18",
+            "text": "Jamaraquá, uma das comunidades internas, é descrita como porta de entrada do turismo na região do rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_BDF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P19",
+            "factKey": "norte-flona-tapajos-F19",
+            "text": "A extração de látex de seringueira, herança do ciclo da borracha, sustenta em Jamaraquá a produção de tecido emborrachado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_BDF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P20",
+            "factKey": "norte-flona-tapajos-F20",
+            "text": "Fogo vindo do entorno, ligado à agropecuária e ao avanço da soja, e fogueiras de caminhoneiros na rodovia ameaçam a unidade.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P21",
+            "factKey": "norte-flona-tapajos-F21",
+            "text": "O projeto LBA mede fluxos de CO₂ e água em um sítio de floresta primária da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P22",
+            "factKey": "norte-flona-tapajos-F22",
+            "text": "Além da floresta densa com árvores emergentes, há floresta aluvial sazonalmente alagada e floresta aberta com palmeiras e cipós.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P23",
+            "factKey": "norte-flona-tapajos-F23",
+            "text": "O plano de manejo do fogo registra chuvas concentradas de dezembro a julho e estação seca de agosto a novembro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P24",
+            "factKey": "norte-flona-tapajos-F24",
+            "text": "A porção serrana concentra-se no centro-sul, com altitudes de até cerca de 500 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_PMIF"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-flona-tapajos-geografo-P25",
+            "factKey": "norte-flona-tapajos-F25",
+            "text": "Estudos de 2009 identificaram as terras indígenas Munduruku-Takuara e Bragança-Marituba sobrepostas à unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FLONATAP_SCIELO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Floresta nacional de uso sustentável criada em 1974 no oeste do Pará, entre o rio Tapajós e a BR-163, com comunidades tradicionais, manejo florestal comunitário conduzido pela Coomflona e turismo nas comunidades.",
+      "editorialNotes": [
+        "Área diverge entre fontes (600 mil ha na criação; 525 mil a 549 mil ha hoje); as pistas não usam área.",
+        "Chuva anual diverge (2.210 mm no plano do fogo; 1.820 mm na Wikipedia), e o próprio plano registra seca histórica de junho a dezembro; as pistas usam a sazonalidade de agosto a novembro.",
+        "Número de comunidades varia (21 em estudo de 2019; 25 no plano do fogo de 2022); as pistas não usam esse número."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes do rascunho (JBRJ, ICMBio, Prefeitura de Santarém) não puderam ser abertas; substituídas por CNUC, plano de manejo do fogo (ICMBio), Wikipedia, Ambiente & Sociedade e Brasil de Fato; C2 e C4 refeitos para evitar gabarito óbvio; prêmio, óleos e comunidade sem fonte retirados."
+    }
+  },
+  "sources": {
+    "FLONATAP_CNUC": {
+      "id": "FLONATAP_CNUC",
+      "title": "Floresta Nacional do Tapajós — relatório da unidade no CNUC",
+      "publisher": "Ministério do Meio Ambiente (Cadastro Nacional de Unidades de Conservação)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/18062",
+      "checkedAt": "2026-11-15"
+    },
+    "FLONATAP_PMIF": {
+      "id": "FLONATAP_PMIF",
+      "title": "Plano de Manejo Integrado do Fogo — Floresta Nacional do Tapajós",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_FlonadoTapajos.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "FLONATAP_WIKI": {
+      "id": "FLONATAP_WIKI",
+      "title": "Tapajós National Forest",
+      "publisher": "Wikipedia (via Wikiwand)",
+      "url": "https://www.wikiwand.com/en/articles/Tapaj%C3%B3s_National_Forest",
+      "checkedAt": "2026-11-15"
+    },
+    "FLONATAP_BDF": {
+      "id": "FLONATAP_BDF",
+      "title": "Alternativa ao desmatamento, látex cria renda comunitária na Floresta Nacional do Tapajós",
+      "publisher": "Brasil de Fato",
+      "url": "https://www.brasildefato.com.br/2023/06/09/alternativa-ao-desmatamento-latex-cria-renda-comunitaria-na-floresta-nacional-do-tapajos",
+      "checkedAt": "2026-11-15"
+    },
+    "FLONATAP_SCIELO": {
+      "id": "FLONATAP_SCIELO",
+      "title": "Cooperativism in forest communities in the Amazon: what do non-members say?",
+      "publisher": "Ambiente & Sociedade (ANPPAS, SciELO)",
+      "url": "https://scielo.br/j/asoc/a/JvNTtyD7JQpgB5zqDxxNxvB/?lang=en",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://cnuc-backend.mma.gov.br/api/v1/report/uc/18062",
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_FlonadoTapajos.pdf",
+      "https://www.wikiwand.com/en/articles/Tapaj%C3%B3s_National_Forest",
+      "https://www.brasildefato.com.br/2023/06/09/alternativa-ao-desmatamento-latex-cria-renda-comunitaria-na-floresta-nacional-do-tapajos",
+      "https://scielo.br/j/asoc/a/JvNTtyD7JQpgB5zqDxxNxvB/?lang=en"
+    ],
+    "alteracoes": [
+      "Fontes FLONATAP_JBRJ, FLONATAP_ICMBIO e FLONATAP_SANT não foram abertas (fora das buscas); substituídas por CNUC, plano de manejo integrado do fogo (ICMBio), Wikipedia, artigo da Ambiente & Sociedade e reportagem do Brasil de Fato.",
+      "C2: “Categoria da unidade” (respondida pelo próprio nome das alternativas do C1) trocado por “Ano de criação da unidade” (1974).",
+      "C4: “Organização citada para o manejo madeireiro” (só o gabarito combinava com o rótulo) trocado por “Rodovia no limite leste da unidade” (BR-163).",
+      "viajante P03–P04 (categoria repetida) trocadas por uso sustentável e sazonalidade; P08 reforçada; P12–P13 reescritas; P15 (Prêmio Chico Mendes 2009, sem fonte aberta) trocada por artesanato de látex; P16–P17 trocadas por Jamaraquá e visitação de 2022; P18 corrigida (Prainha sem fonte, entra São Domingos); P19 trocada por áreas alagáveis; P20 (andiroba e copaíba, sem fonte) trocada por árvores citadas; P21, P23–P25 reescritas ou trocadas (pesquisa LBA, fauna protegida, serras no centro-sul, terras indígenas).",
+      "geografo P01 corrigida (“oeste da Amazônia brasileira” era impreciso); P02–P04, P08–P25 reescritas ou trocadas: prêmio, óleos e estação seca de julho (diverge do plano) retirados; entram redução de 2012, drenagem, relevo, norma de 2004, fundação da Coomflona, repartição das sobras, cobertura florestal, visitação, látex, ameaças de fogo, LBA e terras indígenas.",
+      "Força das pistas: viajante P01–P02 abertura, P08 e P14 decisivas; geografo P01–P02 abertura, P08 e P14 decisivas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1064 @@
+{
+ "case": {
+  "id": "lug2-valparaiso",
+  "placeId": "valparaiso",
+  "title": "Bairro Histórico da Cidade Portuária de Valparaíso",
+  "aliases": [
+   "Valparaíso",
+   "Valparaiso"
+  ],
+  "answerType": "bairro histórico portuário",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "CL"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": []
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Patrimônio Mundial",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Bairro Histórico da Cidade Portuária de Valparaíso"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Bairro Histórico da Cidade de Colonia del Sacramento"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Centro Histórico de Lima"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Porto, Fortalezas e Conjunto Monumental de Cartagena"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Havana Velha e seu Sistema de Fortificações"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Cidade Colonial de Santo Domingo"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cidade de Quito"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Centro Histórico da Cidade de Arequipa"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Centro Histórico de Santa Ana de los Ríos de Cuenca"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Cidade Velha de Lunenburg"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Área Histórica de Willemstad, em Curaçao"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Cidade Mineira de Sewell"
+     },
+     {
+      "id": "C1-O13",
+      "text": "Usinas de Salitre de Humberstone e Santa Laura"
+     },
+     {
+      "id": "C1-O14",
+      "text": "Distrito Histórico do Quebec Antigo"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Bairro Histórico da Cidade Portuária de Valparaíso",
+    "sources": [
+     "VALPARAISO_PR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "País",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Chile"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Peru"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Equador"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Colômbia"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Chile",
+    "sources": [
+     "VALPARAISO_PR"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Costa em que fica o lugar",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Costa do Pacífico"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Costa do Atlântico"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Costa do Caribe"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Margem do Rio da Prata"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Costa do Pacífico",
+    "sources": [
+     "VALPARAISO_PR",
+     "VALPARAISO_EB"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Transporte de época que vence as encostas e que a UNESCO aponta como atributo do bem",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Elevadores funiculares"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Teleféricos de cabine"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Trens de cremalheira"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Escadas rolantes ao ar livre"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Elevadores funiculares",
+    "sources": [
+     "VALPARAISO_PR",
+     "VALPARAISO_EBK"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "valparaiso-viajante-P01",
+      "factKey": "valparaiso-F01",
+      "text": "Este destino é um bairro histórico à beira-mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P02",
+      "factKey": "valparaiso-F02",
+      "text": "Fica na América do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P03",
+      "factKey": "valparaiso-F03",
+      "text": "A cidade fica no Chile.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P04",
+      "factKey": "valparaiso-F04",
+      "text": "O porto fica numa baía aberta para o oceano Pacífico.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P05",
+      "factKey": "valparaiso-F05",
+      "text": "A cidade cresceu entre a baía e morros íngremes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P06",
+      "factKey": "valparaiso-F06",
+      "text": "O desenho da cidade lembra um grande anfiteatro voltado para a baía.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P07",
+      "factKey": "valparaiso-F07",
+      "text": "Ruas em zigue-zague sobem as encostas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P08",
+      "factKey": "valparaiso-F08",
+      "text": "Boa parte da faixa plana junto ao mar foi feita com aterros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR",
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P09",
+      "factKey": "valparaiso-F09",
+      "text": "Elevadores funiculares ajudam a subir e descer os morros.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "VALPARAISO_EBK",
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P10",
+      "factKey": "valparaiso-F10",
+      "text": "Escadarias ligam a parte baixa às partes altas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P11",
+      "factKey": "valparaiso-F11",
+      "text": "O Congresso Nacional se reúne aqui, embora a capital seja outra cidade.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P12",
+      "factKey": "valparaiso-F12",
+      "text": "A Igreja La Matriz fica entre os morros e a parte plana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P13",
+      "factKey": "valparaiso-F13",
+      "text": "A cidade foi um grande centro do comércio marítimo.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P14",
+      "factKey": "valparaiso-F14",
+      "text": "As rotas dos navios ligavam o Atlântico ao Pacífico pelo Estreito de Magalhães.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P15",
+      "factKey": "valparaiso-F15",
+      "text": "O porto viveu seu auge no fim do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P16",
+      "factKey": "valparaiso-F16",
+      "text": "Esse auge durou até a abertura do Canal do Panamá, em 1914.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P17",
+      "factKey": "valparaiso-F17",
+      "text": "Um forte terremoto em 1906 obrigou a reconstruir boa parte da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P18",
+      "factKey": "valparaiso-F18",
+      "text": "O Cais Prat faz parte do bairro protegido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P19",
+      "factKey": "valparaiso-F19",
+      "text": "A Praça Sotomayor, na parte baixa, reúne prédios administrativos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P20",
+      "factKey": "valparaiso-F20",
+      "text": "O Mercado do Porto fica numa área de lojas e comércio de rua.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P21",
+      "factKey": "valparaiso-F21",
+      "text": "Os cerros Alegre e Concepción formam um só bairro protegido.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P22",
+      "factKey": "valparaiso-F22",
+      "text": "A Rua Prat e a Praça Turri ficam ao pé dos morros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P23",
+      "factKey": "valparaiso-F23",
+      "text": "Imigrantes ingleses e alemães ajudaram a construir parte dos morros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P24",
+      "factKey": "valparaiso-F24",
+      "text": "A UNESCO reconheceu o conjunto em 2003.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR",
+       "VALPARAISO_EB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-viajante-P25",
+      "factKey": "valparaiso-F25",
+      "text": "Há desde casinhas simples até prédios monumentais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "valparaiso-geografo-P01",
+      "factKey": "valparaiso-F01",
+      "text": "O bem protege um conjunto urbano histórico ligado a atividades portuárias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P02",
+      "factKey": "valparaiso-F02",
+      "text": "Situa-se no hemisfério sul, no litoral sul-americano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P03",
+      "factKey": "valparaiso-F03",
+      "text": "Fica no litoral central chileno, cerca de 140 km a noroeste da capital do país.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VALPARAISO_PR",
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P04",
+      "factKey": "valparaiso-F04",
+      "text": "O porto, voltado a uma ampla baía aberta, liga a cidade às rotas marítimas do Pacífico.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_EB",
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P05",
+      "factKey": "valparaiso-F05",
+      "text": "Baía, planícies costeiras estreitas e morros íngremes condicionaram a forma urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P06",
+      "factKey": "valparaiso-F06",
+      "text": "A combinação de baía, planície e encostas produziu um arranjo urbano semelhante a um anfiteatro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P07",
+      "factKey": "valparaiso-F07",
+      "text": "Morros cortados por muitas ravinas exigiram a adaptação do ambiente construído ao relevo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P08",
+      "factKey": "valparaiso-F08",
+      "text": "A estreita planície costeira é em grande parte artificial, com obras portuárias sobre aterros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR",
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P09",
+      "factKey": "valparaiso-F09",
+      "text": "Funiculares e trólebus formam a infraestrutura de transporte típica da época incluída no bem.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P10",
+      "factKey": "valparaiso-F10",
+      "text": "Praças, mirantes, passeios, vielas e escadarias estruturam os espaços públicos do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P11",
+      "factKey": "valparaiso-F11",
+      "text": "A sede das sessões do Congresso Nacional fica fora da capital, nesta cidade portuária.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "VALPARAISO_EBK"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P12",
+      "factKey": "valparaiso-F12",
+      "text": "O setor de La Matriz e da Praça Santo Domingo faz a transição entre os morros e a planície.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P13",
+      "factKey": "valparaiso-F13",
+      "text": "Foi o primeiro e mais importante porto mercante das rotas da costa pacífica sul-americana.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P14",
+      "factKey": "valparaiso-F14",
+      "text": "Sua posição o tornou escala das rotas que uniam Atlântico e Pacífico pelo Estreito de Magalhães.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P15",
+      "factKey": "valparaiso-F15",
+      "text": "O conjunto é um testemunho excepcional da fase inicial da globalização, no fim do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P16",
+      "factKey": "valparaiso-F16",
+      "text": "Com a abertura do Canal do Panamá, em 1914, o desenvolvimento local desacelerou.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P17",
+      "factKey": "valparaiso-F17",
+      "text": "Um incêndio em 2007 e um grande terremoto em 2010 danificaram edifícios do bem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P18",
+      "factKey": "valparaiso-F18",
+      "text": "O Cais Prat e os prédios da alfândega e dos serviços navais expressam o patrimônio portuário e naval.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P19",
+      "factKey": "valparaiso-F19",
+      "text": "O Cais Prat e as praças Sotomayor e Justicia formam o principal eixo transversal da área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P20",
+      "factKey": "valparaiso-F20",
+      "text": "O setor de Echaurren e Serrano tem vocação comercial, marcada pelo Mercado do Porto e pelo comércio de rua.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P21",
+      "factKey": "valparaiso-F21",
+      "text": "O bem se divide em cinco setores; um deles reúne os cerros Alegre e Concepción como um único bairro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P22",
+      "factKey": "valparaiso-F22",
+      "text": "O setor da Rua Prat e da Praça Turri ocupa o sopé dos morros, no contato com a planície.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P23",
+      "factKey": "valparaiso-F23",
+      "text": "A preeminência do porto atraiu gente do mundo inteiro, e alemães e ingleses planejaram boa parte de dois cerros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P24",
+      "factKey": "valparaiso-F24",
+      "text": "Inscrito em 2003, o bem tem 23,2 hectares e uma zona de amortecimento de 44,5 hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "valparaiso-geografo-P25",
+      "factKey": "valparaiso-F25",
+      "text": "Técnicas, estilos e tipologias variados, de casas simples a edifícios monumentais, revelam a adaptação à paisagem.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "VALPARAISO_PR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Bairro histórico do porto chileno no Pacífico, entre a planície costeira e os morros, com funiculares, escadarias e marcas do auge comercial do fim do século XIX.",
+   "editorialNotes": [
+    "A UNESCO situa o auge portuário entre a década de 1880 e a abertura do Canal do Panamá (1914); a Britannica data a fundação da cidade em 1536.",
+    "Área do bem: 23,2 ha, com zona de amortecimento de 44,5 ha (relatório periódico da UNESCO). A página principal da UNESCO (lista 959) não foi usada; o texto de valor universal foi conferido no relatório periódico."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Pistas e gabaritos conferidos na declaração de valor universal da UNESCO e na Britannica; C1, C3 e C4 refeitos e pistas sem apoio trocadas."
+  }
+ },
+ "sources": {
+  "VALPARAISO_PR": {
+   "id": "VALPARAISO_PR",
+   "title": "Historic Quarter of the Seaport City of Valparaíso — Periodic Report (Section II)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/217517",
+   "checkedAt": "2026-11-15"
+  },
+  "VALPARAISO_EB": {
+   "id": "VALPARAISO_EB",
+   "title": "Valparaíso, Chile",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/place/Valparaiso-Chile",
+   "checkedAt": "2026-11-15"
+  },
+  "VALPARAISO_EBK": {
+   "id": "VALPARAISO_EBK",
+   "title": "Valparaíso, Chile",
+   "publisher": "Britannica Kids (Encyclopaedia Britannica)",
+   "url": "https://kids.britannica.com/students/article/Valparaiso/277538",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://whc.unesco.org/document/217517",
+   "https://www.britannica.com/place/Valparaiso-Chile",
+   "https://kids.britannica.com/students/article/Valparaiso/277538"
+  ],
+  "alteracoes": [
+   "Fonte VALPARAISO959 (página principal da UNESCO, não aberta) trocada pelo relatório periódico da UNESCO com a declaração de valor universal (VALPARAISO_PR); acrescentadas Britannica (VALPARAISO_EB) e Britannica Kids (VALPARAISO_EBK).",
+   "C1: rótulo ‘Cidade portuária’ (só a resposta tinha ‘Cidade Portuária’ no nome) trocado por ‘Patrimônio Mundial’; alternativas do Brasil (Salvador, São Luís, Santos) e da Europa (Porto, Lisboa) e La Serena saíram; agora são 14 bens das Américas fora do Brasil, incluindo dois chilenos.",
+   "C3: ‘Oceano’ com Índico/Ártico (implausíveis) virou ‘Costa em que fica o lugar’ (Pacífico, Atlântico, Caribe, Rio da Prata), gabarito mantido: Pacífico.",
+   "C4: gôndolas, teleféricos sobre geleiras e metrô submarino trocados por transportes plausíveis em cidades de encosta; rótulo ancorado nos atributos da UNESCO; gabarito mantido: elevadores funiculares.",
+   "Sem apoio na fonte e trocadas: P08 (traçado ‘mais geométrico’ na planície) nos dois perfis → planície artificial/aterros; P12 (igrejas e torres) → setor de La Matriz; G P12 (igrejas e construções de épocas diversas) → idem.",
+   "Viajante P16 (data do Canal do Panamá, sem ligação com o lugar) e P17 refeitas: auge até 1914 e terremoto de 1906; P11 trocada por Congresso Nacional; P07 ruas em zigue-zague; P22 Rua Prat e Praça Turri; P25 casas simples a monumentais. Viajante: 22 pistas reescritas ou trocadas (as demais só tiveram a redação mantida).",
+   "Geógrafo: as 25 pistas reescritas para relações e processos (G P21 setores do bem, G P22 sopé, G P23 imigração ligada à preeminência do porto, G P24 área do bem, G P17 incêndio de 2007 e terremoto de 2010).",
+   "Sinais: P01–P02 abertura e P11 e P21 decisiva nos dois perfis; relatedFields ampliados (C2, C3, C4) onde a pista informa o campo; review marcado como source-reviewed."
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

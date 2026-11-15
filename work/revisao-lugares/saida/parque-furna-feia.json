@@ -1,0 +1,1079 @@
+{
+  "case": {
+    "id": "lug2-parque-furna-feia",
+    "placeId": "parque-furna-feia",
+    "title": "Parque Nacional da Furna Feia",
+    "aliases": [
+      "Furna Feia"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Furna Feia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Ubajara"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional do Catimbau"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional da Serra das Confusões"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional de Sete Cidades"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Serra de Itabaiana"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional do Boqueirão da Onça"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Chapada das Mesas"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional de Jericoacoara"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional dos Lençóis Maranhenses"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Furna Feia",
+        "sources": [
+          "FURNA_FOGO",
+          "FURNA_TBC"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha em que se abrem as cavernas",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Arenito"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Quartzito"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Calcário",
+        "sources": [
+          "FURNA_FOGO",
+          "FURNA_SBE"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Município que concentra a maior parte da área do parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Baraúna"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Buíque"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Piracuruca"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tianguá"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Baraúna",
+        "sources": [
+          "FURNA_FOGO",
+          "FURNA_TBC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Grande do Norte"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ceará"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Paraíba"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Pernambuco"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Grande do Norte",
+        "sources": [
+          "FURNA_FOGO",
+          "FURNA_TBC"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-furna-feia-viajante-P01",
+            "factKey": "parque-furna-feia-F01",
+            "text": "A vegetação é de Caatinga, que floresce depois das chuvas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P02",
+            "factKey": "parque-furna-feia-F02",
+            "text": "O parque protege um mundo escondido debaixo da terra, além da mata seca da superfície.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P03",
+            "factKey": "parque-furna-feia-F03",
+            "text": "O parque foi criado em 2012, num 5 de junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P04",
+            "factKey": "parque-furna-feia-F04",
+            "text": "Foi o primeiro parque nacional do seu estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P05",
+            "factKey": "parque-furna-feia-F05",
+            "text": "Dentro dos limites do parque há mais de 200 cavernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC",
+              "FURNA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P06",
+            "factKey": "parque-furna-feia-F06",
+            "text": "A caverna mais famosa, que dá nome ao parque, tem mais de 700 metros de galerias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P07",
+            "factKey": "parque-furna-feia-F07",
+            "text": "Os morcegos são os grandes moradores das cavernas: 16 espécies já foram registradas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P08",
+            "factKey": "parque-furna-feia-F08",
+            "text": "No escuro das cavernas vivem bichinhos adaptados à falta de luz, vários deles novos para a ciência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P09",
+            "factKey": "parque-furna-feia-F09",
+            "text": "O mocó, roedor que só existe na Caatinga, vive na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P10",
+            "factKey": "parque-furna-feia-F10",
+            "text": "Entre as aves citadas estão a jacucaca e o arapaçu-beija-flor.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P11",
+            "factKey": "parque-furna-feia-F11",
+            "text": "Uma abelha nativa sem ferrão, a jandaíra, poliniza boa parte das plantas nativas e dá o mel vendido pelas comunidades.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P12",
+            "factKey": "parque-furna-feia-F12",
+            "text": "Comunidades vizinhas recebem visitantes com comida regional, doces caseiros e hospedagem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P13",
+            "factKey": "parque-furna-feia-F13",
+            "text": "Bonecas de pano e teatro de bonecos (o calunga) estão entre o artesanato das comunidades do entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P14",
+            "factKey": "parque-furna-feia-F14",
+            "text": "Um abrigo de pedra guarda pinturas rupestres de desenhos geométricos nas paredes e no teto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P15",
+            "factKey": "parque-furna-feia-F15",
+            "text": "A segunda maior caverna tem uma \"cortina\" de pedra com mais de 6 metros, a maior do estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_TBC",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P16",
+            "factKey": "parque-furna-feia-F16",
+            "text": "As cavernas guardam formações como travertinos e escorrimentos de calcita.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P17",
+            "factKey": "parque-furna-feia-F17",
+            "text": "As rochas são calcárias e se formaram no fundo de um antigo mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P18",
+            "factKey": "parque-furna-feia-F18",
+            "text": "Dá para conhecer o parque por trilhas a pé e de bicicleta, além das visitas às cavernas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P19",
+            "factKey": "parque-furna-feia-F19",
+            "text": "A paisagem é de chapada sertaneja, com uma serra ao fundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P20",
+            "factKey": "parque-furna-feia-F20",
+            "text": "Cedro e aroeira-do-sertão estão entre as árvores protegidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P21",
+            "factKey": "parque-furna-feia-F21",
+            "text": "Gatos-do-mato ameaçados, como o gato-mourisco, vivem na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P22",
+            "factKey": "parque-furna-feia-F22",
+            "text": "O parque tem cerca de 8,5 mil hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P23",
+            "factKey": "parque-furna-feia-F23",
+            "text": "A sede do parque fica numa cidade a cerca de 280 km de Natal.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P24",
+            "factKey": "parque-furna-feia-F24",
+            "text": "O parque fica no Rio Grande do Norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-viajante-P25",
+            "factKey": "parque-furna-feia-F25",
+            "text": "A área do parque se divide entre Baraúna e Mossoró.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-furna-feia-geografo-P01",
+            "factKey": "parque-furna-feia-F01",
+            "text": "Unidade de proteção integral no domínio da Caatinga, onde só se admite o uso indireto dos recursos naturais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P02",
+            "factKey": "parque-furna-feia-F02",
+            "text": "A unidade protege, juntos, ecossistemas de superfície e ecossistemas subterrâneos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P03",
+            "factKey": "parque-furna-feia-F03",
+            "text": "As cavidades se abrem em rochas carbonáticas de origem marinha, de idade cretácea.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P04",
+            "factKey": "parque-furna-feia-F04",
+            "text": "Os calcários pertencem à Formação Jandaíra, que reunia, em 2011, mais de 90% das cavernas conhecidas no estado.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P05",
+            "factKey": "parque-furna-feia-F05",
+            "text": "Um soerguimento tectônico da plataforma carbonática e o intenso fraturamento e falhamento das rochas explicam a concentração de cavernas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P06",
+            "factKey": "parque-furna-feia-F06",
+            "text": "A serra que é o ponto mais alto da área divide as águas: a leste para a bacia do Rio Mossoró, a oeste para a do Jaguaribe.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P07",
+            "factKey": "parque-furna-feia-F07",
+            "text": "Feições cársticas e fraturas facilitam a infiltração da chuva e recarregam um aquífero que abastece a agricultura e as cidades vizinhas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P08",
+            "factKey": "parque-furna-feia-F08",
+            "text": "Foram identificadas 251 cavernas: 208 dentro do parque e 43 na zona de amortecimento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P09",
+            "factKey": "parque-furna-feia-F09",
+            "text": "A zona de amortecimento, com cerca de 25 mil hectares, é cerca de três vezes maior que o próprio parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P10",
+            "factKey": "parque-furna-feia-F10",
+            "text": "A mineração de calcário para cimento atrasou a criação; cerca de 700 hectares com requerimentos minerários ficaram fora do limite.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "FURNA_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P11",
+            "factKey": "parque-furna-feia-F11",
+            "text": "A unidade foi criada por decreto de 5 de junho de 2012 e foi a primeira do tipo em seu estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P12",
+            "factKey": "parque-furna-feia-F12",
+            "text": "Nas cavernas, o fluxo de energia depende do ambiente externo, o que as torna ecossistemas frágeis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P13",
+            "factKey": "parque-furna-feia-F13",
+            "text": "Há 16 espécies de morcegos registradas, duas delas ameaçadas: Furipterus horrens e Natalus macrourus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P14",
+            "factKey": "parque-furna-feia-F14",
+            "text": "Os inventários subterrâneos revelaram mais de uma dezena de espécies troglóbias novas para a ciência.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P15",
+            "factKey": "parque-furna-feia-F15",
+            "text": "A sede fica numa cidade a 278 km da capital do próprio estado e a 245 km da capital do estado vizinho.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P16",
+            "factKey": "parque-furna-feia-F16",
+            "text": "A abelha jandaíra responde por 30% a 60% da polinização de plantas nativas como jurema-preta, marmeleiro e pau-ferro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P17",
+            "factKey": "parque-furna-feia-F17",
+            "text": "Os focos de incêndio concentram-se na zona de amortecimento, onde há agricultura e desmatamento.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P18",
+            "factKey": "parque-furna-feia-F18",
+            "text": "Um incêndio de 2009 queimou 55 hectares de uma área que depois entrou na unidade e hoje está em recuperação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P19",
+            "factKey": "parque-furna-feia-F19",
+            "text": "O turismo de base comunitária envolve 11 comunidades do entorno, com selo próprio de qualidade e origem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P20",
+            "factKey": "parque-furna-feia-F20",
+            "text": "O inventário soma 105 espécies de plantas, 176 de aves, 31 de mamíferos e 11 de répteis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P21",
+            "factKey": "parque-furna-feia-F21",
+            "text": "A lista de fauna inclui um peixe anual, grupo cujo ciclo de vida acompanha poças temporárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P22",
+            "factKey": "parque-furna-feia-F22",
+            "text": "Um abrigo sob rocha guarda painéis de pintura rupestre da tradição geométrica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P23",
+            "factKey": "parque-furna-feia-F23",
+            "text": "A segunda maior cavidade, com 250 m mapeados, tem a maior cortina e o maior ninho de pérolas do estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_TBC",
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P24",
+            "factKey": "parque-furna-feia-F24",
+            "text": "A unidade fica na Chapada do Apodi e se divide entre Baraúna (56% da área) e Mossoró (44%).",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "FURNA_FOGO",
+              "FURNA_TBC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-furna-feia-geografo-P25",
+            "factKey": "parque-furna-feia-F25",
+            "text": "O complexo espeleológico é descrito como a maior concentração de cavernas do Rio Grande do Norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "FURNA_SBE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Primeiro parque nacional do Rio Grande do Norte (decreto de 5/6/2012), com 8.494 ha de Caatinga em Baraúna (56%) e Mossoró (44%): 208 cavernas em calcário marinho cretáceo da Formação Jandaíra, 16 espécies de morcegos e fauna troglóbia nova para a ciência.",
+      "editorialNotes": [
+        "Números de cavernas variam com a data do levantamento: 251 identificadas (208 no parque e 43 na zona de amortecimento) no catálogo do ICMBio; o artigo de 2011 da SBE somava 213 na área estudada.",
+        "Extensão da Furna Feia: 739 m no catálogo do ICMBio e 766 m no artigo da SBE e na Wikipédia; por isso a pista diz só \"mais de 700 metros\". Área: 8.494 ha (ICMBio) contra 8.518 ha (Wikipédia).",
+        "A situação da visitação aberta ao público mudou nos últimos anos; nenhuma pista afirma se o parque está aberto ou fechado."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por PMIF 2023–2027 e catálogo de turismo de base comunitária do ICMBio, artigo da SBE (2011) e Wikipédia, todos abertos; C1 restrito a parques do Nordeste, C2–C3 refeitos e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "FURNA_FOGO": {
+      "id": "FURNA_FOGO",
+      "title": "Plano de Manejo Integrado do Fogo 2023–2027 — Parque Nacional da Furna Feia",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_2023_2027_PNFF.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "FURNA_TBC": {
+      "id": "FURNA_TBC",
+      "title": "Catálogo de Turismo de Base Comunitária — Parque Nacional da Furna Feia",
+      "publisher": "ICMBio / CECAV",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/cecav/publicacoes/catalogo-tbc-furna-feia.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "FURNA_SBE": {
+      "id": "FURNA_SBE",
+      "title": "Complexo espeleológico da Furna Feia e áreas cársticas adjacentes: a maior concentração de cavernas do Rio Grande do Norte (Anais do 31º CBE, 2011)",
+      "publisher": "Sociedade Brasileira de Espeleologia (SBE)",
+      "url": "https://www.cavernas.org.br/wp-content/uploads/2021/07/31cbe_063-072.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "FURNA_WIKI": {
+      "id": "FURNA_WIKI",
+      "title": "Furna Feia National Park",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/Furna_Feia_National_Park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_2023_2027_PNFF.pdf",
+      "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/cecav/publicacoes/catalogo-tbc-furna-feia.pdf",
+      "https://www.cavernas.org.br/wp-content/uploads/2021/07/31cbe_063-072.pdf",
+      "https://en.wikipedia.org/wiki/Furna_Feia_National_Park",
+      "https://entreparquesbr.com.br/wp-content/uploads/2022/11/Parna-da-Furna-Feia.pdf"
+    ],
+    "alteracoes": [
+      "Fontes FURNA_ICM, FURNA_MANEJO e FURNA_CAVERNAS do rascunho não foram abertas (URLs fora das buscas); FURNA_FOGO mantida e aberta; acrescentadas FURNA_TBC (catálogo ICMBio), FURNA_SBE (artigo do 31º CBE) e FURNA_WIKI. A página do Entreparques foi lida, mas não usada como fonte",
+      "C1: rótulo \"Parque nacional\" → \"Parque nacional do Nordeste\"; Itatiaia, Canastra, Chapada dos Guimarães e Peruaçu (fora do recorte) trocados por Boqueirão da Onça, Chapada das Mesas, Jericoacoara e Lençóis Maranhenses",
+      "C2: \"Patrimônio natural destacado\" (distratores implausíveis, como geleiras) trocado por \"Rocha em que se abrem as cavernas\", gabarito Calcário (PMIF; SBE: Formação Jandaíra)",
+      "C3: \"Grupo animal estudado nas cavernas\" (baleias, pinguins, botos) trocado por \"Município que concentra a maior parte da área do parque\", gabarito Baraúna (56%, PMIF e catálogo), com distratores de outros estados para não entregar o C1",
+      "C4: Estado mantido (Rio Grande do Norte), Piauí trocado por Paraíba",
+      "Número de cavernas corrigido de 206 (plano de manejo, não aberto) para 208 no parque e 251 no total (catálogo ICMBio)",
+      "Pistas sem apoio nas fontes abertas removidas: riachos intermitentes, anfíbios, rivulídeos nomeados e nascentes; Furna Nova deixa de ser citada como \"estudada para visitação\"",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

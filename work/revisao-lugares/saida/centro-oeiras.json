@@ -1,0 +1,1057 @@
+{
+ "case": {
+  "id": "lug2-centro-oeiras",
+  "placeId": "centro-oeiras",
+  "title": "Centro Histórico de Oeiras",
+  "aliases": [
+   "Oeiras"
+  ],
+  "answerType": "centro histórico",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Conjunto histórico",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Centro Histórico de Oeiras"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Centro Histórico de Penedo"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Centro Histórico de Olinda"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Centro Histórico de São Luís"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Centro Histórico de Piranhas"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Centro Histórico de Marechal Deodoro"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Centro Histórico de Salvador"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Centro Histórico de Ouro Preto"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Centro Histórico de Paraty"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Centro Histórico de Diamantina"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Centro Histórico de Goiás"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Centro Histórico de Icó"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Centro Histórico de Oeiras",
+    "sources": [
+     "OEIRAS_UFPEL",
+     "OEIRAS_UNB",
+     "OEIRAS_IBGEHIST"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Antiga função administrativa",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Primeira capital do Piauí"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Primeira capital de Alagoas"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Primeira capital de Sergipe"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Primeira capital de Goiás"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Primeira capital do Piauí",
+    "sources": [
+     "OEIRAS_UFPEL",
+     "OEIRAS_IBGEHIST"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Riacho que deu nome ao primeiro povoado",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Riacho Mocha"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Riacho Pajeú"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Riacho do Ipiranga"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Riacho Fundo"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Riacho Mocha",
+    "sources": [
+     "OEIRAS_IBGEHIST"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Título federal recebido pela cidade em 1989",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Cidade Monumento Nacional"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Patrimônio Mundial da UNESCO"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Cidade Criativa da UNESCO"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Patrimônio Cultural do Mercosul"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Cidade Monumento Nacional",
+    "sources": [
+     "OEIRAS_UNB",
+     "OEIRAS_UFPEL"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "centro-oeiras-viajante-P01",
+      "factKey": "centro-oeiras-F01",
+      "text": "É um centro histórico no sertão nordestino.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P02",
+      "factKey": "centro-oeiras-F02",
+      "text": "A cidade nasceu de fazendas de gado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL",
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P03",
+      "factKey": "centro-oeiras-F03",
+      "text": "Fica no Piauí, na região centro-sul do estado.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P04",
+      "factKey": "centro-oeiras-F04",
+      "text": "Está a cerca de 255 km de Teresina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P05",
+      "factKey": "centro-oeiras-F05",
+      "text": "Foi a primeira capital do estado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P06",
+      "factKey": "centro-oeiras-F06",
+      "text": "Em 1852, a capital foi transferida para o lugar onde hoje está Teresina.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P07",
+      "factKey": "centro-oeiras-F07",
+      "text": "O primeiro povoado levou o nome de um riacho chamado Mocha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P08",
+      "factKey": "centro-oeiras-F08",
+      "text": "Uma ponte antiga, a Ponte Grande, atravessa esse riacho.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P09",
+      "factKey": "centro-oeiras-F09",
+      "text": "O povoado foi elevado a vila em 1712.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P10",
+      "factKey": "centro-oeiras-F10",
+      "text": "Recebeu o título de cidade em 1761, quando também mudou de nome.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P11",
+      "factKey": "centro-oeiras-F11",
+      "text": "O nome adotado em 1761 homenageava o conde que depois virou Marquês de Pombal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P12",
+      "factKey": "centro-oeiras-F12",
+      "text": "A antiga matriz, hoje catedral, é dedicada a Nossa Senhora da Vitória.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P13",
+      "factKey": "centro-oeiras-F13",
+      "text": "O centro histórico foi tombado pelo Iphan em 2012.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P14",
+      "factKey": "centro-oeiras-F14",
+      "text": "Em 1989, uma lei federal declarou a cidade Monumento Nacional.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "OEIRAS_UNB",
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P15",
+      "factKey": "centro-oeiras-F15",
+      "text": "A Casa da Pólvora guardava a pólvora militar dos tempos da capitania.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P16",
+      "factKey": "centro-oeiras-F16",
+      "text": "Um sobrado do século XIX já serviu de câmara, tribunal do júri e escola.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P17",
+      "factKey": "centro-oeiras-F17",
+      "text": "Esse mesmo sobrado foi depois o palácio do bispo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P18",
+      "factKey": "centro-oeiras-F18",
+      "text": "Desde 1983, a cidade tem um Museu de Arte Sacra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P19",
+      "factKey": "centro-oeiras-F19",
+      "text": "Na Semana Santa, a cidade faz a Procissão do Fogaréu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB",
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P20",
+      "factKey": "centro-oeiras-F20",
+      "text": "A procissão do Bom Jesus dos Passos abre a Semana Santa local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P21",
+      "factKey": "centro-oeiras-F21",
+      "text": "Essa procissão acontece ali desde o começo do século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P22",
+      "factKey": "centro-oeiras-F22",
+      "text": "A dança dos Congos homenageia Nossa Senhora do Rosário e São Benedito.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P23",
+      "factKey": "centro-oeiras-F23",
+      "text": "Um cine teatro em estilo art déco fica no setor da Praça das Vitórias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P24",
+      "factKey": "centro-oeiras-F24",
+      "text": "A Igreja do Rosário foi construída pelos jesuítas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-viajante-P25",
+      "factKey": "centro-oeiras-F25",
+      "text": "Em janeiro de 1823, a cidade foi palco da adesão do Piauí à Independência.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "centro-oeiras-geografo-P01",
+      "factKey": "centro-oeiras-F01",
+      "text": "É um núcleo urbano do interior nordestino formado a partir da pecuária extensiva.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P02",
+      "factKey": "centro-oeiras-F02",
+      "text": "Sua formação ligou-se ao comércio entre o Maranhão e a Bahia no século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P03",
+      "factKey": "centro-oeiras-F03",
+      "text": "A pecuária extensiva foi estratégia portuguesa para garantir terras além da linha de Tordesilhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P04",
+      "factKey": "centro-oeiras-F04",
+      "text": "No início do século XVIII, os jesuítas chegaram a manter 39 fazendas de gado na área.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P05",
+      "factKey": "centro-oeiras-F05",
+      "text": "Em 1674, expedições de Domingos Afonso Mafrense percorreram o centro-sul do atual Piauí.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P06",
+      "factKey": "centro-oeiras-F06",
+      "text": "A capela do povoado dependia da freguesia de Cabrobó, então na diocese de Pernambuco.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P07",
+      "factKey": "centro-oeiras-F07",
+      "text": "O povoado tornou-se freguesia de Nossa Senhora da Vitória em 1696.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P08",
+      "factKey": "centro-oeiras-F08",
+      "text": "A vila criada por carta régia em 1712 só foi instalada em dezembro de 1717.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST",
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P09",
+      "factKey": "centro-oeiras-F09",
+      "text": "Com a criação da capitania do Piauí, em 1758, a vila passou a sediar o governo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P10",
+      "factKey": "centro-oeiras-F10",
+      "text": "A Casa da Pólvora é o único edifício militar remanescente do período colonial no Piauí.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P11",
+      "factKey": "centro-oeiras-F11",
+      "text": "Em 1852, o Conselheiro Saraiva transferiu a sede do governo para a Chapada do Corisco, atual Teresina.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P12",
+      "factKey": "centro-oeiras-F12",
+      "text": "O perímetro tombado tem três polígonos descontínuos e uma área de entorno comum.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P13",
+      "factKey": "centro-oeiras-F13",
+      "text": "O polígono principal reúne setores de praças, do Largo do Rosário e de riachos urbanos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P14",
+      "factKey": "centro-oeiras-F14",
+      "text": "Um dos setores tombados acompanha os riachos Mocha e Pouca Vergonha.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P15",
+      "factKey": "centro-oeiras-F15",
+      "text": "A Ponte Grande esteve entre os primeiros bens propostos ao Iphan, após a vistoria de 1938.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P16",
+      "factKey": "centro-oeiras-F16",
+      "text": "O dossiê de tombamento do Iphan é de 2009; a aprovação veio em 2012.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P17",
+      "factKey": "centro-oeiras-F17",
+      "text": "O título de Monumento Nacional, de 1989, foi honorífico e não trouxe salvaguarda prática.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P18",
+      "factKey": "centro-oeiras-F18",
+      "text": "A catedral do século XVIII integra o setor tombado da Praça das Vitórias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P19",
+      "factKey": "centro-oeiras-F19",
+      "text": "O Sobrado João Nepomuceno, do início do século XIX, foi palácio episcopal de 1950 a 1977.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P20",
+      "factKey": "centro-oeiras-F20",
+      "text": "Os 250 anos da catedral, comemorados em 1983, motivaram a criação do Museu de Arte Sacra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UNB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P21",
+      "factKey": "centro-oeiras-F21",
+      "text": "Os Congos se apresentam no Largo do Rosário e se ligam à comunidade negra local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P22",
+      "factKey": "centro-oeiras-F22",
+      "text": "A Praça Mafrense resulta da expansão urbana do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P23",
+      "factKey": "centro-oeiras-F23",
+      "text": "Em todas as divisões administrativas registradas, o município tem só o distrito-sede.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P24",
+      "factKey": "centro-oeiras-F24",
+      "text": "O nome dado à cidade em 1761 homenageia o futuro Marquês de Pombal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "centro-oeiras-geografo-P25",
+      "factKey": "centro-oeiras-F25",
+      "text": "A 255 km de Teresina, foi sede da capitania e depois da província até 1852.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "OEIRAS_UNB",
+       "OEIRAS_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Centro histórico tombado pelo Iphan em 2012 na primeira capital do Piauí, nascida do povoado da Mocha (nome de um riacho) entre fazendas de gado; virou cidade em 1761 e perdeu a capital para Teresina em 1852.",
+   "editorialNotes": [
+    "O IBGE dá 19/06/1761 (carta régia) e cita também ato de 13/11/1761 para a elevação a cidade; a pista usa só o ano.",
+    "Não foram confirmados nas fontes abertas: data de 1846 da Ponte Grande, ano de construção da matriz e população do Censo 2022; essas pistas foram retiradas."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas pelo histórico do IBGE e artigos da UFPel e da UnB abertos na revisão; C1 sem Évora, C2–C4 refeitos e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "OEIRAS_IBGEHIST": {
+   "id": "OEIRAS_IBGEHIST",
+   "title": "Oeiras (PI) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/oeiras.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "OEIRAS_UFPEL": {
+   "id": "OEIRAS_UFPEL",
+   "title": "A cidade-patrimônio de Oeiras-PI e as políticas públicas de preservação do patrimônio cultural no século XXI (Memória em Rede, v. 9, n. 16, 2017)",
+   "publisher": "Revista Memória em Rede (UFPel)",
+   "url": "https://periodicos.ufpel.edu.br/index.php/Memoria/article/view/8941/6882",
+   "checkedAt": "2026-11-15"
+  },
+  "OEIRAS_UNB": {
+   "id": "OEIRAS_UNB",
+   "title": "O Museu de Arte Sacra de Oeiras no sertão do Piauí, Nordeste do Brasil (Museologia & Interdisciplinaridade, v. 9, n. 18, 2020)",
+   "publisher": "Museologia & Interdisciplinaridade (UnB)",
+   "url": "https://periodicos.unb.br/index.php/museologia/article/download/29228/27970/89545",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/oeiras.pdf",
+   "https://periodicos.ufpel.edu.br/index.php/Memoria/article/view/8941/6882",
+   "https://periodicos.unb.br/index.php/museologia/article/download/29228/27970/89545"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (OEIRAS_IPHAN, OEIRAS_IBGE, OEIRAS_PREF, OEIRAS_TUR) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico), Memória em Rede/UFPel (2017) e Museologia & Interdisciplinaridade/UnB (2020)",
+   "C1: Centro Histórico de Évora (fora do recorte) trocado por Centro Histórico de Icó",
+   "C2: \"Primeira capital federal do Brasil\" (ambígua) e \"Capital do Grão-Pará\" trocadas por primeiras capitais de Sergipe e de Goiás",
+   "C3: rótulo passa a \"Riacho que deu nome ao primeiro povoado\" e distratores viram riachos (antes só o gabarito era riacho)",
+   "C4: \"Estado\" (redundante com C2) trocado por \"Título federal recebido pela cidade em 1989\", gabarito Cidade Monumento Nacional",
+   "Retiradas pistas sem fonte aberta: população 2022, matriz em 1733, Ponte Grande em 1846, Reisado; usos do Sobrado Nepomuceno confirmados (UnB)",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

@@ -1,0 +1,1089 @@
+{
+ "case": {
+  "id": "lug2-lapa",
+  "placeId": "lapa-pr",
+  "title": "Lapa",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Lapa"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Castro"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Ponta Grossa"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Campo Largo"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Paranaguá"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Morretes"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Curitiba"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Antonina"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Piratini"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Tijucas do Sul"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Rio Negro"
+     },
+     {
+      "id": "C1-O12",
+      "text": "União da Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Lapa",
+    "sources": [
+     "LAPA_IBGE"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Atividade que originou o povoado",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Tropeirismo"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Mineração de ouro"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Cafeicultura"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Colonização alemã"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Tropeirismo",
+    "sources": [
+     "LAPA_IBGE",
+     "LAPA_UEM"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Teatro histórico",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Theatro São João"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Theatro São Pedro"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Theatro Sete de Abril"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Teatro Guaíra"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Theatro São João",
+    "sources": [
+     "LAPA_GAZATR",
+     "LAPA_MIS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Comandante da resistência legalista no cerco de 1894",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Gomes Carneiro"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Floriano Peixoto"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Gumercindo Saraiva"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Deodoro da Fonseca"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Gomes Carneiro",
+    "sources": [
+     "LAPA_AEN",
+     "LAPA_GAZATR"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "lapa-pr-viajante-P01",
+      "factKey": "lapa-pr-viajante-F01",
+      "text": "O destino é uma cidade do Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P02",
+      "factKey": "lapa-pr-viajante-F02",
+      "text": "O município fica no Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P03",
+      "factKey": "lapa-pr-viajante-F03",
+      "text": "Um antigo caminho de tropas passava pela região.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P04",
+      "factKey": "lapa-pr-viajante-F04",
+      "text": "O povoado nasceu como pouso de tropeiros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P05",
+      "factKey": "lapa-pr-viajante-F05",
+      "text": "A cidade tem um centro histórico preservado, com ruas de pedra e casario antigo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_AEN",
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P06",
+      "factKey": "lapa-pr-viajante-F06",
+      "text": "Lampiões que imitam os do século 19 iluminam as ruas restauradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P07",
+      "factKey": "lapa-pr-viajante-F07",
+      "text": "A cidade sofreu um cerco durante a Revolução Federalista.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P08",
+      "factKey": "lapa-pr-viajante-F08",
+      "text": "O cerco aconteceu em 1894.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P09",
+      "factKey": "lapa-pr-viajante-F09",
+      "text": "A resistência durante o cerco durou 26 dias.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P10",
+      "factKey": "lapa-pr-viajante-F10",
+      "text": "O Theatro São João é um prédio histórico da cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P11",
+      "factKey": "lapa-pr-viajante-F11",
+      "text": "Esse teatro recebeu a visita do imperador Dom Pedro II.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAPA_AEN",
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P12",
+      "factKey": "lapa-pr-viajante-F12",
+      "text": "Durante o cerco, o teatro serviu de enfermaria.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P13",
+      "factKey": "lapa-pr-viajante-F13",
+      "text": "A Igreja Matriz é dedicada a Santo Antônio e é a construção mais antiga da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_AEN",
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P14",
+      "factKey": "lapa-pr-viajante-F14",
+      "text": "O antigo prédio da cadeia hoje abriga um museu de armas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P15",
+      "factKey": "lapa-pr-viajante-F15",
+      "text": "A Casa Lacerda, construída na década de 1840, hoje é um museu.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P16",
+      "factKey": "lapa-pr-viajante-F16",
+      "text": "Durante o cerco, essa casa serviu de quartel para tropas legalistas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P17",
+      "factKey": "lapa-pr-viajante-F17",
+      "text": "Uma carta de capitulação da cidade foi assinada nessa casa em 1894.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P18",
+      "factKey": "lapa-pr-viajante-F18",
+      "text": "Móveis e objetos antigos de uma família tradicional formam o acervo da casa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P19",
+      "factKey": "lapa-pr-viajante-F19",
+      "text": "Há indícios de que povos Kaingang e Guarani habitaram a região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P20",
+      "factKey": "lapa-pr-viajante-F20",
+      "text": "O nome da cidade vem da grande quantidade de pedras da região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P21",
+      "factKey": "lapa-pr-viajante-F21",
+      "text": "A localidade virou vila em 1806.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P22",
+      "factKey": "lapa-pr-viajante-F22",
+      "text": "Em 1872 foi elevada à condição de cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P23",
+      "factKey": "lapa-pr-viajante-F23",
+      "text": "A Casa Vermelha, antigo dormitório de tropeiros, abriga um museu dos tropeiros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P24",
+      "factKey": "lapa-pr-viajante-F24",
+      "text": "O Panteon dos Heróis guarda restos mortais de combatentes do cerco.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_GAZATR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-viajante-P25",
+      "factKey": "lapa-pr-viajante-F25",
+      "text": "A Gruta do Monge, local de peregrinação, fica num parque estadual perto do centro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZATR",
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "lapa-pr-geografo-P01",
+      "factKey": "lapa-pr-geografo-F01",
+      "text": "A formação do núcleo está ligada ao Caminho das Tropas, também chamado Caminho de Viamão.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P02",
+      "factKey": "lapa-pr-geografo-F02",
+      "text": "A rota levava mulas de Viamão, no Rio Grande do Sul, a Sorocaba, em São Paulo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P03",
+      "factKey": "lapa-pr-geografo-F03",
+      "text": "Um pouso de tropeiros, por volta de 1731, deu origem ao povoado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P04",
+      "factKey": "lapa-pr-geografo-F04",
+      "text": "Indícios arqueológicos apontam ocupação Kaingang e Guarani anterior à chegada dos europeus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P05",
+      "factKey": "lapa-pr-geografo-F05",
+      "text": "A cidade ficava a cerca de dois terços do percurso de 4 mil km entre Viamão e Sorocaba.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P06",
+      "factKey": "lapa-pr-geografo-F06",
+      "text": "Invernadas, com pasto e água, recuperavam mulas e gado antes da venda em São Paulo.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P07",
+      "factKey": "lapa-pr-geografo-F07",
+      "text": "O Registro de Curitiba, no Rio Iguaçu, cobrava tributos sobre os animais que passavam pela estrada.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P08",
+      "factKey": "lapa-pr-geografo-F08",
+      "text": "Uma freguesia com Santo Antônio como padroeiro foi instalada em 1769.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P09",
+      "factKey": "lapa-pr-geografo-F09",
+      "text": "O distrito de Vila Nova do Príncipe, criado em 1797, foi elevado a vila em 1806.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P10",
+      "factKey": "lapa-pr-geografo-F10",
+      "text": "Uma lei de 1872 elevou a vila a cidade e lhe deu o nome atual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P11",
+      "factKey": "lapa-pr-geografo-F11",
+      "text": "O cerco de 1894 ocorreu durante a Revolução Federalista.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_UEM",
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P12",
+      "factKey": "lapa-pr-geografo-F12",
+      "text": "A resistência legalista permitiu que as forças leais a Floriano Peixoto se reorganizassem.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P13",
+      "factKey": "lapa-pr-geografo-F13",
+      "text": "O cerco durou 26 dias.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "LAPA_AEN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P14",
+      "factKey": "lapa-pr-geografo-F14",
+      "text": "Uma residência construída entre 1842 e 1845 funcionou como quartel das tropas legalistas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P15",
+      "factKey": "lapa-pr-geografo-F15",
+      "text": "A carta de capitulação da cidade foi assinada nessa residência em 11 de fevereiro de 1894.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P16",
+      "factKey": "lapa-pr-geografo-F16",
+      "text": "O museu-casa preserva móveis e objetos do cotidiano de várias gerações de uma família.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "SULLAPACASA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P17",
+      "factKey": "lapa-pr-geografo-F17",
+      "text": "O núcleo urbano cresceu a partir de um pouso à beira de uma rota de tropas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "LAPA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P18",
+      "factKey": "lapa-pr-geografo-F18",
+      "text": "A área tombada soma 14 quarteirões e 23,41 hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P19",
+      "factKey": "lapa-pr-geografo-F19",
+      "text": "A Igreja Matriz de Santo Antônio, da segunda metade do século 18, é o imóvel mais antigo do conjunto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P20",
+      "factKey": "lapa-pr-geografo-F20",
+      "text": "Erguido na década de 1870, o teatro já serviu de enfermaria, sede de cinema e estação de rádio.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "LAPA_MIS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P21",
+      "factKey": "lapa-pr-geografo-F21",
+      "text": "O setor histórico teve tombamento estadual em 1989 e federal, pelo Iphan, em 1998.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P22",
+      "factKey": "lapa-pr-geografo-F22",
+      "text": "A Igreja Matriz foi um dos primeiros bens tombados pelo órgão federal, em 1938.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_UEM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P23",
+      "factKey": "lapa-pr-geografo-F23",
+      "text": "Normas estaduais de uso e ocupação do setor histórico foram aprovadas em 1989.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P24",
+      "factKey": "lapa-pr-geografo-F24",
+      "text": "Entre os imóveis tombados, 38 são do século 19 e 76 da primeira metade do século 20.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_GAZ30"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "lapa-pr-geografo-P25",
+      "factKey": "lapa-pr-geografo-F25",
+      "text": "O conjunto urbano está entre os bens protegidos pelo Iphan no Paraná, ao lado dos de Antonina e Paranaguá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "LAPA_IPHANPR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade paranaense nascida de um pouso de tropeiros no Caminho de Viamão, palco do cerco de 26 dias na Revolução Federalista (1894), com centro histórico tombado pelo estado (1989) e pelo Iphan (1998).",
+   "editorialNotes": [
+    "As datas do Theatro São João divergem (construção entre 1873 e 1876, ou 1876; o rascunho dizia 1887): as pistas usam \"década de 1870\".",
+    "A Igreja Matriz aparece como erguida entre 1769 e 1784 (Gazeta do Povo) ou entre 1769 e 1787 (dissertação da UEM); as pistas usam \"segunda metade do século 18\".",
+    "A população foi retirada: a página do IBGE Cidades não abriu nesta revisão."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por IBGE, Iphan, Governo do Paraná, UEM e Gazeta do Povo; pistas, gabaritos e alternativas conferidos"
+  }
+ },
+ "sources": {
+  "LAPA_IBGE": {
+   "id": "LAPA_IBGE",
+   "title": "Lapa (PR): histórico e formação administrativa",
+   "publisher": "IBGE",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/parana/lapa.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "SULLAPACASA": {
+   "id": "SULLAPACASA",
+   "title": "Museu Casa Coronel Joaquim Lacerda",
+   "publisher": "Iphan",
+   "url": "https://www.gov.br/iphan/pt-br/superintendencias/parana/museu-casa-coronel-joaquim-lacerda",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_IPHANPR": {
+   "id": "LAPA_IPHANPR",
+   "title": "Superintendência do Iphan no Paraná",
+   "publisher": "Iphan",
+   "url": "https://www.gov.br/iphan/pt-br/superintendencias/parana",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_GAZ30": {
+   "id": "LAPA_GAZ30",
+   "title": "A decisão controversa de tombar o centro histórico da Lapa completa 30 anos (08/12/2019)",
+   "publisher": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/parana/lapa-centro-historico-tombamento-30-anos/",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_GAZATR": {
+   "id": "LAPA_GAZATR",
+   "title": "10 atrações para você conhecer a Lapa e um pouco da história do Brasil (18/10/2019)",
+   "publisher": "Gazeta do Povo",
+   "url": "https://www.gazetadopovo.com.br/curitiba/lazer/atracoes-que-contam-a-historia-da-lapa-e-do-brasil/",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_AEN": {
+   "id": "LAPA_AEN",
+   "title": "História, cavalgada e natureza encantam na Rota dos Tropeiros",
+   "publisher": "Agência Estadual de Notícias, Governo do Paraná",
+   "url": "https://www.parana.pr.gov.br/aen/Noticia/Historia-cavalgada-e-natureza-encantam-na-Rota-dos-Tropeiros",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_MIS": {
+   "id": "LAPA_MIS",
+   "title": "MIS-PR inaugura exposição sobre o teatro da Lapa em parceria com o Iphan",
+   "publisher": "Governo do Paraná",
+   "url": "https://www.parana.pr.gov.br/Audio/MIS-PR-inaugura-exposicao-sobre-o-teatro-da-Lapa-em-parceria-com-o-Iphan",
+   "checkedAt": "2026-11-15"
+  },
+  "LAPA_UEM": {
+   "id": "LAPA_UEM",
+   "title": "Políticas culturais e patrimônio histórico: o processo de tombamento do Setor Histórico da Lapa/PR (dissertação de Alisson Bertão Machado)",
+   "publisher": "Universidade Estadual de Maringá",
+   "url": "https://pph.uem.br/dissertacoes-e-teses/dissertacoes/alisson-bertao-machado.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/parana/lapa.pdf",
+   "https://www.gov.br/iphan/pt-br/superintendencias/parana/museu-casa-coronel-joaquim-lacerda",
+   "https://www.gov.br/iphan/pt-br/superintendencias/parana",
+   "https://www.gazetadopovo.com.br/parana/lapa-centro-historico-tombamento-30-anos/",
+   "https://www.gazetadopovo.com.br/curitiba/lazer/atracoes-que-contam-a-historia-da-lapa-e-do-brasil/",
+   "https://www.parana.pr.gov.br/aen/Noticia/Historia-cavalgada-e-natureza-encantam-na-Rota-dos-Tropeiros",
+   "https://www.parana.pr.gov.br/Audio/MIS-PR-inaugura-exposicao-sobre-o-teatro-da-Lapa-em-parceria-com-o-Iphan",
+   "https://pph.uem.br/dissertacoes-e-teses/dissertacoes/alisson-bertao-machado.pdf"
+  ],
+  "alteracoes": [
+   "Fontes da Coordenação do Patrimônio Cultural do Paraná (Setor Histórico, Teatro São João) e do IBGE Cidades não abriram; substituídas por histórico do IBGE (biblioteca), Iphan, AEN e MIS-PR (Governo do Paraná), dissertação da UEM e duas matérias da Gazeta do Povo",
+   "C2: alternativas implausíveis (borracha, pesca oceânica) trocadas por mineração de ouro, cafeicultura e colonização alemã; rótulo \"Atividade que originou o povoado\" (IBGE)",
+   "C3: alternativas só do Norte/Nordeste trocadas por teatros do Sul (São Pedro, Sete de Abril, Guaíra); gabarito grafado \"Theatro São João\", como nas fontes",
+   "C4: trocado de \"Estado brasileiro\" para o comandante da resistência legalista no cerco, gabarito Gomes Carneiro (AEN, Gazeta do Povo)",
+   "Corrigido: o teatro não foi inaugurado em 1887 (as fontes dão construção entre 1873 e 1876); retiradas sem apoio: estrutura de madeira, planta em ferradura, tombamento do teatro em 1969, nome \"Santo Antônio do Registro\", entrada na província em 1853, \"segundo planalto\", população de 2022",
+   "viajante: 21 pistas reescritas ou trocadas (P03, P04, P05, P06, P07, P08, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)",
+   "sinal ajustado para 2 aberturas e 2 decisivas por perfil"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

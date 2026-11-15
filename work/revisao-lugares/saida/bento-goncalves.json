@@ -1,0 +1,1062 @@
+{
+ "case": {
+  "id": "lug2-bento-goncalves",
+  "placeId": "bento-goncalves",
+  "title": "Bento Gonçalves",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Bento Gonçalves"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Garibaldi"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Caxias do Sul"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Gramado"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Canela"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Farroupilha"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Carlos Barbosa"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Nova Petrópolis"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Antônio Prado"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Flores da Cunha"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Veranópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "São Joaquim"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Bento Gonçalves",
+    "sources": [
+     "BG_IBGE",
+     "BG_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Território vitivinícola reconhecido que abrange parte do município",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Vale dos Vinhedos"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Campanha Gaúcha"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Vale do São Francisco"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Vales da Uva Goethe"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Vale dos Vinhedos",
+    "sources": [
+     "BG_EMBRAPA_CAD",
+     "BG_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Uva tinta de identidade da denominação de origem local",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Merlot"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Malbec"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Carménère"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Touriga Nacional"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Merlot",
+    "sources": [
+     "BG_EMBRAPA_CAD"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Núcleo colonial que deu origem à cidade",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Colônia Dona Isabel"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Colônia Conde d'Eu"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Colônia Caxias"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Colônia Dona Francisca"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Colônia Dona Isabel",
+    "sources": [
+     "BG_IBGE",
+     "BG_WIKI",
+     "BG_360CP"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "bento-goncalves-viajante-P01",
+      "factKey": "bento-goncalves-viajante-F01",
+      "text": "É uma cidade de serra no Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P02",
+      "factKey": "bento-goncalves-viajante-F02",
+      "text": "Uva e vinho estão por toda parte: visitar vinícolas é o passeio mais comum.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P03",
+      "factKey": "bento-goncalves-viajante-F03",
+      "text": "Os invernos são amenos, com geadas frequentes e neve rara.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P04",
+      "factKey": "bento-goncalves-viajante-F04",
+      "text": "A cidade nasceu de uma colônia dos anos 1870 batizada em homenagem a uma princesa.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BG_WIKI",
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P05",
+      "factKey": "bento-goncalves-viajante-F05",
+      "text": "Entre os primeiros colonos estavam imigrantes italianos de Trento, do Tirol e do Vêneto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P06",
+      "factKey": "bento-goncalves-viajante-F06",
+      "text": "Um vale vinícola famoso se estende pela cidade e por dois municípios vizinhos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_WIKI",
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P07",
+      "factKey": "bento-goncalves-viajante-F07",
+      "text": "Nesse vale há dezenas de vinícolas, algumas com cerca de um século de história.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P08",
+      "factKey": "bento-goncalves-viajante-F08",
+      "text": "Em 2002, esse vale recebeu a primeira indicação de procedência do Brasil.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P09",
+      "factKey": "bento-goncalves-viajante-F09",
+      "text": "Nos vinhos com denominação de origem do vale, a uva tinta de identidade é a Merlot.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P10",
+      "factKey": "bento-goncalves-viajante-F10",
+      "text": "Os espumantes com o selo do vale levam pelo menos 60% de Chardonnay e/ou Pinot Noir.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P11",
+      "factKey": "bento-goncalves-viajante-F11",
+      "text": "Nas áreas do selo de origem, as videiras só podem ser conduzidas em espaldeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P12",
+      "factKey": "bento-goncalves-viajante-F12",
+      "text": "Uma rota de cerca de 12 km passa por casas coloniais de pedra e madeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP",
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P13",
+      "factKey": "bento-goncalves-viajante-F13",
+      "text": "Essas casas foram erguidas por imigrantes italianos no fim do século XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P14",
+      "factKey": "bento-goncalves-viajante-F14",
+      "text": "A rota segue o antigo traçado de uma linha colonial com cerca de 200 lotes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P15",
+      "factKey": "bento-goncalves-viajante-F15",
+      "text": "Pelo caminho há cantinas, casa de tecelagem, casa da erva-mate e queijos de ovelha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P16",
+      "factKey": "bento-goncalves-viajante-F16",
+      "text": "Uma cantina dessa rota aparece no filme O Quatrilho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P17",
+      "factKey": "bento-goncalves-viajante-F17",
+      "text": "Um trem a vapor faz um passeio de 23 km até duas cidades vizinhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360",
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P18",
+      "factKey": "bento-goncalves-viajante-F18",
+      "text": "A bordo do trem há apresentações italianas e gaúchas e degustação de vinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P19",
+      "factKey": "bento-goncalves-viajante-F19",
+      "text": "Uma das cidades do trajeto do trem é chamada de capital nacional dos espumantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P20",
+      "factKey": "bento-goncalves-viajante-F20",
+      "text": "Um parque temático conta a história da imigração italiana na região.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P21",
+      "factKey": "bento-goncalves-viajante-F21",
+      "text": "Num vale próximo, 13 km de corredeiras de rio permitem descer de bote no rafting.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P22",
+      "factKey": "bento-goncalves-viajante-F22",
+      "text": "O portal de entrada da cidade tem a forma de uma pipa de vinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P23",
+      "factKey": "bento-goncalves-viajante-F23",
+      "text": "Além do vinho, a fabricação de móveis é um dos pilares da economia local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P24",
+      "factKey": "bento-goncalves-viajante-F24",
+      "text": "Em 1967, a cidade realizou a primeira Festa Nacional do Vinho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-viajante-P25",
+      "factKey": "bento-goncalves-viajante-F25",
+      "text": "O nome atual homenageia um líder da Revolução Farroupilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE",
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "bento-goncalves-geografo-P01",
+      "factKey": "bento-goncalves-geografo-F01",
+      "text": "O município fica na Serra Gaúcha, com altitude média de cerca de 690 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P02",
+      "factKey": "bento-goncalves-geografo-F02",
+      "text": "Em 2012, a microrregião de Caxias do Sul, onde está o município, concentrava cerca de 80% da área de videiras do estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P03",
+      "factKey": "bento-goncalves-geografo-F03",
+      "text": "Relevo montanhoso e pequenas propriedades com mão de obra familiar marcam a viticultura regional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P04",
+      "factKey": "bento-goncalves-geografo-F04",
+      "text": "Jesuítas e bandeirantes passaram pela área no século XVII; o povoamento efetivo só veio no XIX.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P05",
+      "factKey": "bento-goncalves-geografo-F05",
+      "text": "Em 1870, o governo concedeu glebas para dois núcleos coloniais da região, ambos instalados em 1875.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P06",
+      "factKey": "bento-goncalves-geografo-F06",
+      "text": "Segundo o IBGE, 50 casais de Trento chegaram em 1876, seguidos por colonos do Tirol e do Vêneto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P07",
+      "factKey": "bento-goncalves-geografo-F07",
+      "text": "Uma grande seca em 1877 e o descaso oficial levaram colonos a pedir socorro ao cônsul italiano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P08",
+      "factKey": "bento-goncalves-geografo-F08",
+      "text": "A ferrovia de 1919 entre Carlos Barbosa e Caxias impulsionou a economia vinícola local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P09",
+      "factKey": "bento-goncalves-geografo-F09",
+      "text": "Foi distrito de São João de Montenegro até ser elevado a vila, em 1890.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P10",
+      "factKey": "bento-goncalves-geografo-F10",
+      "text": "Desmembramentos em 1992 deram origem aos municípios de Monte Belo do Sul e Santa Tereza.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P11",
+      "factKey": "bento-goncalves-geografo-F11",
+      "text": "Um distrito municipal criado em 1994 leva o nome do território vinícola.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P12",
+      "factKey": "bento-goncalves-geografo-F12",
+      "text": "A indicação de procedência de 2002 cobria cerca de 81 km², 60% deles neste município.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P13",
+      "factKey": "bento-goncalves-geografo-F13",
+      "text": "A denominação de origem de 2012 delimitou 72,45 km²: 61% aqui, o restante em dois municípios vizinhos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P14",
+      "factKey": "bento-goncalves-geografo-F14",
+      "text": "A associação de produtores criada em 1995 tinha como meta inicial obter a indicação geográfica.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P15",
+      "factKey": "bento-goncalves-geografo-F15",
+      "text": "Na denominação de origem, Merlot e Chardonnay são as cultivares de identidade, com mínimo de 60% nos cortes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P16",
+      "factKey": "bento-goncalves-geografo-F16",
+      "text": "A produtividade dos vinhedos da denominação é limitada a 10 t/ha para vinhos e 12 t/ha para espumantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P17",
+      "factKey": "bento-goncalves-geografo-F17",
+      "text": "Em 2013, a área da denominação tinha 481 propriedades vitícolas, com média de 3,83 ha cada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_EMBRAPA_CAD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P18",
+      "factKey": "bento-goncalves-geografo-F18",
+      "text": "Uma linha colonial esquecida quando a rodovia mudou de traçado virou rota turística a partir de 1992.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P19",
+      "factKey": "bento-goncalves-geografo-F19",
+      "text": "Nessa rota, casas de pedra local ficaram escondidas sob anexos de madeira e reboco até serem restauradas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360CP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P20",
+      "factKey": "bento-goncalves-geografo-F20",
+      "text": "Um trem turístico a vapor de 23 km articula o município a Garibaldi e Carlos Barbosa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360",
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P21",
+      "factKey": "bento-goncalves-geografo-F21",
+      "text": "Num vale fluvial próximo, 13 km de corredeiras sustentam o turismo de aventura.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_360"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P22",
+      "factKey": "bento-goncalves-geografo-F22",
+      "text": "O clima tem verões quentes e invernos amenos com geadas; a temperatura média anual é de 17,4 °C (1981–2010).",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P23",
+      "factKey": "bento-goncalves-geografo-F23",
+      "text": "A chuva média anual ronda 1.780 mm, segundo a normal climatológica de 1981–2010.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P24",
+      "factKey": "bento-goncalves-geografo-F24",
+      "text": "Além da vitivinicultura, a cidade tem o segundo maior polo de produção de móveis do país.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "bento-goncalves-geografo-P25",
+      "factKey": "bento-goncalves-geografo-F25",
+      "text": "O topônimo homenageia o presidente da República Rio-Grandense, chefe farroupilha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BG_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade da Serra Gaúcha nascida da Colônia Dona Isabel (anos 1870), povoada por imigrantes italianos, com a maior parte do Vale dos Vinhedos, primeira indicação de procedência de vinhos do Brasil (2002) e denominação de origem desde 2012, tendo a Merlot como uva tinta de identidade.",
+   "editorialNotes": [
+    "A chegada dos primeiros italianos aparece como 1876, com 50 casais de Trento (IBGE), e 1875, com 25 famílias (Wikipedia); só o Geógrafo cita 1876, atribuindo ao IBGE.",
+    "O Vale dos Vinhedos também abrange Garibaldi e Monte Belo do Sul: pistas da denominação de origem não bastam, sozinhas, para fechar o C1. A área da IP é 81,123 km² (Embrapa), não 81,23 km² como no rascunho.",
+    "O número de visitantes dos Caminhos de Pedra diverge entre reportagens (60 mil e 350 mil por ano) e foi omitido; \"maior produtor de vinho do Brasil\" também foi evitado, por ser disputado com Flores da Cunha."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por IBGE, Embrapa, Wikipedia e guias abertos na revisão; C2–C4 refeitos com alternativas da mesma natureza; pistas conferidas"
+  }
+ },
+ "sources": {
+  "BG_IBGE": {
+   "id": "BG_IBGE",
+   "title": "Bento Gonçalves (RS): histórico e formação administrativa",
+   "publisher": "IBGE",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/bentogoncalves.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BG_WIKI": {
+   "id": "BG_WIKI",
+   "title": "Bento Gonçalves, Rio Grande do Sul",
+   "publisher": "Wikipedia (inglês)",
+   "url": "https://en.wikipedia.org/wiki/Bento_Gon%C3%A7alves,_Rio_Grande_do_Sul",
+   "checkedAt": "2026-11-15"
+  },
+  "BG_EMBRAPA_CAD": {
+   "id": "BG_EMBRAPA_CAD",
+   "title": "A viticultura na delimitação da Denominação de Origem Vale dos Vinhedos: cadastro vitícola georreferenciado, cap. 1 (Mello e Machado)",
+   "publisher": "Embrapa Uva e Vinho",
+   "url": "https://www.cnpuv.embrapa.br/cadastro-viticola/do-vale-dos-vinhedos/site/pdf/capituloI.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BG_360CP": {
+   "id": "BG_360CP",
+   "title": "Caminhos de Pedra, um passeio incrível em Bento Gonçalves",
+   "publisher": "360meridianos",
+   "url": "https://www.360meridianos.com/caminhos-de-pedra/",
+   "checkedAt": "2026-11-15"
+  },
+  "BG_360": {
+   "id": "BG_360",
+   "title": "O que fazer em Bento Gonçalves: roteiro de três dias",
+   "publisher": "360meridianos",
+   "url": "https://www.360meridianos.com/bento-goncalves-o-que-fazer/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/bentogoncalves.pdf",
+   "https://en.wikipedia.org/wiki/Bento_Gon%C3%A7alves,_Rio_Grande_do_Sul",
+   "https://www.cnpuv.embrapa.br/cadastro-viticola/do-vale-dos-vinhedos/site/pdf/capituloI.pdf",
+   "https://www.360meridianos.com/caminhos-de-pedra/",
+   "https://www.360meridianos.com/bento-goncalves-o-que-fazer/"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (páginas da Embrapa sobre IP/DO, Setur-RS, Ibram, IBGE Cidades) não foram abertas (só links de busca); substituídas por 5 fontes abertas (IBGE Biblioteca, cadastro vitícola da Embrapa, Wikipedia, dois guias do 360meridianos)",
+   "C2: alternativas Vale do Itajaí/Paraíba/Ribeira (não vinícolas) trocadas por Campanha Gaúcha, Vale do São Francisco e Vales da Uva Goethe; rótulo \"Território vitivinícola reconhecido que abrange parte do município\"",
+   "C3: \"Produto associado\" (vinho x borracha, cacau, carvão) trocado por \"Uva tinta de identidade da denominação de origem\", gabarito Merlot (Embrapa)",
+   "C4: \"Estado brasileiro\" trocado por \"Núcleo colonial que deu origem à cidade\", gabarito Colônia Dona Isabel (IBGE, Wikipedia)",
+   "Corrigido: área da IP 81,123 km² (rascunho dizia 81,23); \"Chardonnay e/ou Pinot Noir obrigatórias\" virou mínimo de 60% (Embrapa)",
+   "Retiradas pistas sem fonte aberta ou repetitivas (ponto de cultura do Ibram, Linha Leopoldina, regulamento genérico, segunda fermentação, estudo de geomorfologia); entraram história do IBGE (1870/1875, seca de 1877, ferrovia de 1919, vila em 1890, desmembramentos), Caminhos de Pedra, Maria Fumaça de 23 km, portal-pipa, Fenavinho de 1967, polo moveleiro e clima",
+   "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho não tinha decisivas); relatedFields agora apontam C2–C4",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

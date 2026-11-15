@@ -1,0 +1,1072 @@
+{
+ "case": {
+  "id": "lug2-balneario-camboriu",
+  "placeId": "balneario-camboriu",
+  "title": "Balneário Camboriú",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Balneário Camboriú"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Itajaí"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Balneário Piçarras"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Porto Belo"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Itapema"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Bombinhas"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Navegantes"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Penha"
+     },
+     {
+      "id": "C1-O10",
+      "text": "São Francisco do Sul"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Guaratuba"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Matinhos"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Balneário Camboriú",
+    "sources": [
+     "BC_IBGE",
+     "BC_FCBC"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Invocação do antigo arraial que deu origem à cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Nossa Senhora do Bonsucesso"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Nossa Senhora do Desterro"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Nossa Senhora da Graça"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Nossa Senhora do Rosário"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Nossa Senhora do Bonsucesso",
+    "sources": [
+     "BC_IBGE",
+     "BC_FCBC"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Transporte do parque que liga duas praias pelo alto de um morro",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Teleférico de bondinhos"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Funicular sobre trilhos"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Trem de cremalheira"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Monotrilho elevado"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Teleférico de bondinhos",
+    "sources": [
+     "BC_JP",
+     "BC_LP"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Ano em que o distrito foi elevado a município",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "1964"
+     },
+     {
+      "id": "C4-O2",
+      "text": "1954"
+     },
+     {
+      "id": "C4-O3",
+      "text": "1979"
+     },
+     {
+      "id": "C4-O4",
+      "text": "1988"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "1964",
+    "sources": [
+     "BC_IBGE",
+     "BC_FCBC"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "balneario-camboriu-viajante-P01",
+      "factKey": "balneario-camboriu-viajante-F01",
+      "text": "É uma cidade de praia no Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P02",
+      "factKey": "balneario-camboriu-viajante-F02",
+      "text": "Na orla central, uma avenida à beira-mar reúne a maior parte dos hotéis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P03",
+      "factKey": "balneario-camboriu-viajante-F03",
+      "text": "O nome tem origem indígena e lembra cercados de pesca armados nas marés.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P04",
+      "factKey": "balneario-camboriu-viajante-F04",
+      "text": "Muito antes dos europeus, povos dos sambaquis sepultaram seus mortos numa das praias locais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P05",
+      "factKey": "balneario-camboriu-viajante-F05",
+      "text": "O povoamento europeu começou em 1758, com famílias vindas de Porto Belo.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P06",
+      "factKey": "balneario-camboriu-viajante-F06",
+      "text": "O núcleo mais antigo é o bairro da Barra, à margem de um rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC",
+       "BC_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P07",
+      "factKey": "balneario-camboriu-viajante-F07",
+      "text": "No alto de uma escadaria da Barra, uma capela de pedra é bem mais velha que o próprio município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P08",
+      "factKey": "balneario-camboriu-viajante-F08",
+      "text": "Essa capela foi erguida com pedra bruta, conchas e areia, com trabalho de pessoas escravizadas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P09",
+      "factKey": "balneario-camboriu-viajante-F09",
+      "text": "A capela se chamava Nossa Senhora do Bom Sucesso e só ganhou o nome de Santo Amaro em 1967.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P10",
+      "factKey": "balneario-camboriu-viajante-F10",
+      "text": "Nos anos 1920, a pesca artesanal era a principal atividade econômica do lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P11",
+      "factKey": "balneario-camboriu-viajante-F11",
+      "text": "Os primeiros veranistas vieram de Itajaí e Blumenau, muitos de origem alemã, a partir dos anos 1920.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P12",
+      "factKey": "balneario-camboriu-viajante-F12",
+      "text": "Os primeiros hotéis surgiram para esses veranistas entre o fim dos anos 1920 e os anos 1930.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC",
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P13",
+      "factKey": "balneario-camboriu-viajante-F13",
+      "text": "Separada da orla central por um morro, há uma praia de mar calmo cercada de restaurantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P14",
+      "factKey": "balneario-camboriu-viajante-F14",
+      "text": "Bondinhos aéreos ligam a orla central a essa praia, passando pelo alto de um morro com Mata Atlântica.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BC_JP",
+       "BC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P15",
+      "factKey": "balneario-camboriu-viajante-F15",
+      "text": "A estação do meio fica no topo do morro, a cerca de 240 metros, com mirantes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BC_JP",
+       "BC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P16",
+      "factKey": "balneario-camboriu-viajante-F16",
+      "text": "Um barco pirata faz passeios pela orla até a mesma praia de mar calmo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P17",
+      "factKey": "balneario-camboriu-viajante-F17",
+      "text": "A Passarela da Barra é reduto de pescadores e de restaurantes de frutos do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P18",
+      "factKey": "balneario-camboriu-viajante-F18",
+      "text": "Uma estrada panorâmica aberta em 1979 leva a praias de pescadores mais ao sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P19",
+      "factKey": "balneario-camboriu-viajante-F19",
+      "text": "Uma comunidade quilombola vive há mais de 100 anos num morro do município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P20",
+      "factKey": "balneario-camboriu-viajante-F20",
+      "text": "Um monumento que se ilumina em cores à noite oferece vista panorâmica da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P21",
+      "factKey": "balneario-camboriu-viajante-F21",
+      "text": "Uma roda-gigante de 65 metros, inaugurada em 2020, fica no extremo norte da orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P22",
+      "factKey": "balneario-camboriu-viajante-F22",
+      "text": "Hoje, arranha-céus colados à praia são a marca da paisagem urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_JP",
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P23",
+      "factKey": "balneario-camboriu-viajante-F23",
+      "text": "O município foi criado em 1964, ao se separar da cidade vizinha da qual era distrito.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P24",
+      "factKey": "balneario-camboriu-viajante-F24",
+      "text": "Em 1986, uma de suas praias foi a primeira do Brasil a oficializar o naturismo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-viajante-P25",
+      "factKey": "balneario-camboriu-viajante-F25",
+      "text": "Como os prédios sombreavam a areia à tarde, uma obra de 2021 alargou a faixa de praia de 25 para 75 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_TNH1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "balneario-camboriu-geografo-P01",
+      "factKey": "balneario-camboriu-geografo-F01",
+      "text": "Segundo o IBGE, o município é constituído apenas pelo distrito sede.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P02",
+      "factKey": "balneario-camboriu-geografo-F02",
+      "text": "A expansão urbana deste município litorâneo foi puxada pelo turismo de veraneio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P03",
+      "factKey": "balneario-camboriu-geografo-F03",
+      "text": "Um sítio de sambaqui escavado nos anos 1970, com 165 sepultamentos, atesta ocupação costeira pré-colonial.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P04",
+      "factKey": "balneario-camboriu-geografo-F04",
+      "text": "O topônimo indígena alude às camboas, tapagens que retinham peixes na vazante das marés.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P05",
+      "factKey": "balneario-camboriu-geografo-F05",
+      "text": "O povoado iniciado em 1758, sob uma invocação mariana, tornou-se freguesia em 1849.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "BC_IBGE",
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P06",
+      "factKey": "balneario-camboriu-geografo-F06",
+      "text": "Até o início do século XX, o bairro junto ao rio era o núcleo mais povoado; a centralidade depois migrou para a orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P07",
+      "factKey": "balneario-camboriu-geografo-F07",
+      "text": "A demanda de veraneio vinda do Vale do Itajaí levou à instalação dos primeiros hotéis na avenida de orla.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P08",
+      "factKey": "balneario-camboriu-geografo-F08",
+      "text": "Em 1954, criou-se um distrito praiano subordinado ao município vizinho, embrião da futura emancipação.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P09",
+      "factKey": "balneario-camboriu-geografo-F09",
+      "text": "Na emancipação, propôs-se usar o rio principal como divisa entre os dois municípios, mas o traçado não foi aprovado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P10",
+      "factKey": "balneario-camboriu-geografo-F10",
+      "text": "A elevação a município veio por lei estadual em 1964, com instalação em julho daquele ano.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P11",
+      "factKey": "balneario-camboriu-geografo-F11",
+      "text": "O nome atual do município só foi fixado por outra lei estadual, em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P12",
+      "factKey": "balneario-camboriu-geografo-F12",
+      "text": "A verticalização começou com um hotel de 1957 na Barra Sul, primeiro edifício com quatro ou mais pavimentos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P13",
+      "factKey": "balneario-camboriu-geografo-F13",
+      "text": "O primeiro prédio residencial de apartamentos é de 1959; nos anos 1970, o crescimento urbano e turístico se acelerou.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P14",
+      "factKey": "balneario-camboriu-geografo-F14",
+      "text": "Na Segunda Guerra, a vigilância costeira fechou a colônia de pescadores, que só voltou a funcionar em 1963.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P15",
+      "factKey": "balneario-camboriu-geografo-F15",
+      "text": "Uma estrada panorâmica aberta em 1979 passou a dar acesso às localidades pesqueiras do sul do município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P16",
+      "factKey": "balneario-camboriu-geografo-F16",
+      "text": "Entre a orla central e uma praia de águas calmas ergue-se um morro de cerca de 240 metros com Mata Atlântica.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BC_LP",
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P17",
+      "factKey": "balneario-camboriu-geografo-F17",
+      "text": "Esse relevo é vencido por um sistema de três estações, com a intermediária no topo do morro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BC_JP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P18",
+      "factKey": "balneario-camboriu-geografo-F18",
+      "text": "O parque desse transporte mantém uma reserva urbana de cerca de 6 hectares cortada por trilhas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "BC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P19",
+      "factKey": "balneario-camboriu-geografo-F19",
+      "text": "A comunidade quilombola do Morro do Boi descende de pessoas escravizadas citadas num inventário de 1864.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P20",
+      "factKey": "balneario-camboriu-geografo-F20",
+      "text": "As obras da BR-101, iniciadas em 1997, atingiram casas dessa comunidade sem consulta nem indenização.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P21",
+      "factKey": "balneario-camboriu-geografo-F21",
+      "text": "A densidade de torres junto ao mar passou a sombrear a faixa de areia a partir das 15h.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_TNH1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P22",
+      "factKey": "balneario-camboriu-geografo-F22",
+      "text": "A resposta foi uma engorda de praia, com areia dragada a até 40 metros de profundidade numa jazida a 15 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_TNH1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P23",
+      "factKey": "balneario-camboriu-geografo-F23",
+      "text": "A faixa de areia da obra soma 5,8 km e, no trecho sul, vai até um molhe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_TNH1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P24",
+      "factKey": "balneario-camboriu-geografo-F24",
+      "text": "A engorda iniciada em 2021 triplicou a largura da faixa de areia, de 25 para 75 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_TNH1"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "balneario-camboriu-geografo-P25",
+      "factKey": "balneario-camboriu-geografo-F25",
+      "text": "O município abriga a primeira praia do país a oficializar o naturismo, em 1986.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "BC_FCBC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade do litoral de Santa Catarina nascida do arraial do Bonsucesso, na Barra, emancipada de Camboriú em 1964 e moldada pelo turismo de veraneio: orla verticalizada, teleférico sobre o Morro da Aguada e faixa de areia alargada a partir de 2021.",
+   "editorialNotes": [
+    "A data do primeiro hotel diverge: 1932 (IBGE) e 1928, Strand Hotel (Fundação Cultural); a pista usa \"entre o fim dos anos 1920 e os anos 1930\".",
+    "Reportagem atribui óleo de baleia à argamassa da Capela Santo Amaro, mas o livro da Fundação Cultural diz que isso não foi confirmado; a pista não menciona o óleo.",
+    "C2 e as pistas evitam o nome do rio e o do município de origem, que repetem o nome da cidade."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes do rascunho trocadas por IBGE, livro da Fundação Cultural, reportagens e guia abertos na revisão; C2–C4 refeitos para não entregar o C1; pistas conferidas"
+  }
+ },
+ "sources": {
+  "BC_IBGE": {
+   "id": "BC_IBGE",
+   "title": "Balneário Camboriú (SC): histórico e formação administrativa",
+   "publisher": "IBGE",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/balneariocamboriu.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BC_FCBC": {
+   "id": "BC_FCBC",
+   "title": "Do Arraial do Bonsucesso a Balneário Camboriú: mais de 50 anos de história (Mariana Schlickmann, 2016)",
+   "publisher": "Fundação Cultural de Balneário Camboriú",
+   "url": "https://culturabc.com.br/wp-content/uploads/2016/12/ebook.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "BC_OPOVO": {
+   "id": "BC_OPOVO",
+   "title": "Igreja construída à mão há mais de 200 anos ficou mais velha que a própria cidade onde está",
+   "publisher": "O Povo",
+   "url": "https://www.opovo.com.br/trends/igreja-construida-a-mao-ha-mais-de-200-anos-ficou-mais-velha-que-a-propria-cidade-onde-esta/",
+   "checkedAt": "2026-11-15"
+  },
+  "BC_LP": {
+   "id": "BC_LP",
+   "title": "Parque Unipraias",
+   "publisher": "Lonely Planet",
+   "url": "https://www.lonelyplanet.fr/poi/bresil-santacatarinacg-parque-unipraias",
+   "checkedAt": "2026-11-15"
+  },
+  "BC_JP": {
+   "id": "BC_JP",
+   "title": "O que fazer em Balneário Camboriú além da praia: guia completo",
+   "publisher": "Jovem Pan",
+   "url": "https://jovempan.com.br/brasil/o-que-fazer-em-balneario-camboriu-alem-da-praia-guia-completo/",
+   "checkedAt": "2026-11-15"
+  },
+  "BC_TNH1": {
+   "id": "BC_TNH1",
+   "title": "Balneário Camboriú conclui trecho sul de megaobra na faixa de areia",
+   "publisher": "TNH1",
+   "url": "https://www.tnh1.com.br/noticia/nid/balneario-camboriu-conclui-trecho-sul-de-megaobra-na-faixa-de-areia/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/santacatarina/balneariocamboriu.pdf",
+   "https://culturabc.com.br/wp-content/uploads/2016/12/ebook.pdf",
+   "https://www.opovo.com.br/trends/igreja-construida-a-mao-ha-mais-de-200-anos-ficou-mais-velha-que-a-propria-cidade-onde-esta/",
+   "https://www.lonelyplanet.fr/poi/bresil-santacatarinacg-parque-unipraias",
+   "https://jovempan.com.br/brasil/o-que-fazer-em-balneario-camboriu-alem-da-praia-guia-completo/",
+   "https://www.tnh1.com.br/noticia/nid/balneario-camboriu-conclui-trecho-sul-de-megaobra-na-faixa-de-areia/"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (Plano Municipal de Turismo, caracterização do município, diagnóstico histórico, IBGE Cidades, notícia da exposição) não foram abertas (só links de busca); substituídas por 6 fontes abertas (IBGE Biblioteca, livro da Fundação Cultural de BC, O Povo, Lonely Planet, Jovem Pan, TNH1)",
+   "O link do livro da Fundação Cultural veio da busca com \"),\", no fim; registrado sem a pontuação",
+   "C2: \"Rio que deságua na Barra Sul\" (gabarito Rio Camboriú, que repete o nome do C1) trocado por \"Invocação do antigo arraial\", gabarito Nossa Senhora do Bonsucesso (IBGE, Fundação Cultural)",
+   "C3: rótulo e alternativas refeitos (teleférico x funicular, cremalheira, monotrilho); \"barcos\" saiu porque o Barco Pirata também liga a orla a Laranjeiras",
+   "C4: \"Estado brasileiro\" trocado por \"Ano em que o distrito foi elevado a município\" (1964, IBGE)",
+   "Retiradas pistas sem fonte aberta ou fracas (listas de praias Taquaras/Estaleirinho como nomes soltos, Morro do Careca, população do Censo 2022, Capela citada pela prefeitura); entraram sambaqui, camboas, capela de 1840, veranistas do Vale do Itajaí, Unipraias com 3 estações e 240 m, roda-gigante de 2020, Interpraias de 1979, naturismo em 1986, quilombo do Morro do Boi e engorda de 25 para 75 m (2021)",
+   "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (o rascunho tinha 4 aberturas e decisivas no meio); relatedFields agora apontam C2–C4",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

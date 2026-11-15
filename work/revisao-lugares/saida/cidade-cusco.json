@@ -1,0 +1,1067 @@
+{
+  "case": {
+    "id": "lug2-cidade-cusco",
+    "placeId": "cidade-cusco",
+    "title": "Cidade Histórica de Cusco",
+    "aliases": [
+      "Cusco",
+      "Cuzco"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "PE"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade Histórica de Cusco"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cidade Histórica de Quito"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Centro Histórico de Lima"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Centro Histórico de Arequipa"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Cidade Histórica de Sucre"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Cidade de Potosí"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Centro Histórico de Cuenca"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Centro Histórico de Santa Cruz de Mompox"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Centro Histórico de Oaxaca"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Centro Histórico de Puebla"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cidade Histórica de Guanajuato"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Antigua Guatemala"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Bairro Histórico de Colônia do Sacramento"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade Histórica de Cusco",
+        "sources": [
+          "CUSCO_PR",
+          "CUSCO_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Peru"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Bolívia"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Equador"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Chile"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Peru",
+        "sources": [
+          "CUSCO_PR",
+          "CUSCO_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Império do qual a cidade foi capital",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Império Inca (Tawantinsuyu)"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Reino Chimú"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Império Wari"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Império Asteca"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Império Inca (Tawantinsuyu)",
+        "sources": [
+          "CUSCO_PR",
+          "CUSCO_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano em que tropas de Francisco Pizarro tomaram a cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1533"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1521"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1534"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1572"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1533",
+        "sources": [
+          "CUSCO_EB",
+          "CUSCO_WHE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-cusco-viajante-P01",
+            "factKey": "cidade-cusco-F01",
+            "text": "Este destino é uma cidade antiga de ruas estreitas e praças, no alto das montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P02",
+            "factKey": "cidade-cusco-F02",
+            "text": "Igrejas coloniais e muros de pedra antigos dividem o mesmo centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P03",
+            "factKey": "cidade-cusco-F03",
+            "text": "A cidade fica no Peru.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P04",
+            "factKey": "cidade-cusco-F04",
+            "text": "Fica a cerca de 3.400 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P05",
+            "factKey": "cidade-cusco-F05",
+            "text": "A cidade ocupa um vale fértil, cortado por vários rios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P06",
+            "factKey": "cidade-cusco-F06",
+            "text": "Antes de ser espanhola, foi a capital de um enorme império andino.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P07",
+            "factKey": "cidade-cusco-F07",
+            "text": "No século XV, o inca Pachacútec remodelou a cidade para ser a capital do império.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P08",
+            "factKey": "cidade-cusco-F08",
+            "text": "Uma lenda conta que Manco Cápac e Mama Ocllo fundaram a cidade onde um bastão de ouro afundou na terra.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P09",
+            "factKey": "cidade-cusco-F09",
+            "text": "Diz-se que o traçado inca da cidade tinha a forma de um puma.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P10",
+            "factKey": "cidade-cusco-F10",
+            "text": "Paredes do antigo templo do Sol, o Qoricancha, sustentam hoje um convento dominicano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P11",
+            "factKey": "cidade-cusco-F11",
+            "text": "O antigo templo do Sol da cidade era revestido com centenas de placas de ouro.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P12",
+            "factKey": "cidade-cusco-F12",
+            "text": "A fortaleza inca de Sacsayhuamán, de blocos gigantes, fica perto da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB",
+              "CUSCO_WHE"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P13",
+            "factKey": "cidade-cusco-F13",
+            "text": "Muros incas de pedra cortada com precisão ainda ladeiam as ruas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P14",
+            "factKey": "cidade-cusco-F14",
+            "text": "No tempo dos incas, o centro reunia templos, palácios e prédios de governo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P15",
+            "factKey": "cidade-cusco-F15",
+            "text": "Ao redor do centro, havia áreas separadas para agricultura e artesanato.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P16",
+            "factKey": "cidade-cusco-F16",
+            "text": "Tropas de Francisco Pizarro tomaram a cidade em 1533.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CUSCO_EB",
+              "CUSCO_WHE"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P17",
+            "factKey": "cidade-cusco-F17",
+            "text": "Os espanhóis ergueram igrejas, conventos e casarões sobre a cidade inca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P18",
+            "factKey": "cidade-cusco-F18",
+            "text": "Muitas igrejas são barrocas, com toques locais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P19",
+            "factKey": "cidade-cusco-F19",
+            "text": "A catedral da cidade data de 1654.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P20",
+            "factKey": "cidade-cusco-F20",
+            "text": "Grandes terremotos abalaram a cidade em 1650 e em 1950.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P21",
+            "factKey": "cidade-cusco-F21",
+            "text": "A universidade da cidade data de 1692.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P22",
+            "factKey": "cidade-cusco-F22",
+            "text": "O vale tem mais de 3 mil anos de ocupação anterior aos incas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P23",
+            "factKey": "cidade-cusco-F23",
+            "text": "A UNESCO reconheceu a cidade como Patrimônio Mundial em 1983.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P24",
+            "factKey": "cidade-cusco-F24",
+            "text": "O turismo levou novos negócios ao centro e afastou moradores antigos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-viajante-P25",
+            "factKey": "cidade-cusco-F25",
+            "text": "Órgãos de cultura e a prefeitura dividem o cuidado com o centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-cusco-geografo-P01",
+            "factKey": "cidade-cusco-F01",
+            "text": "O bem protege um centro urbano andino em que traçados pré-hispânico e colonial se sobrepõem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P02",
+            "factKey": "cidade-cusco-F02",
+            "text": "A paisagem urbana resulta da confluência entre as culturas inca e hispânica, segundo a UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P03",
+            "factKey": "cidade-cusco-F03",
+            "text": "Situa-se no centro-sul do Peru, no alto dos Andes.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CUSCO_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P04",
+            "factKey": "cidade-cusco-F04",
+            "text": "A cerca de 3.400 m, o centro ocupa a bacia onde se encontram os rios Huatanay, Tullumayo e Chunchul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_WHE"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P05",
+            "factKey": "cidade-cusco-F05",
+            "text": "A cidade se assenta num vale aluvial fértil dos Andes centrais, alimentado por vários rios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P06",
+            "factKey": "cidade-cusco-F06",
+            "text": "Era a sede do governo imperial do Tawantinsuyu, segundo a UNESCO.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P07",
+            "factKey": "cidade-cusco-F07",
+            "text": "A reforma de Pachacútec drenou um brejo ao norte e deslocou para lá o coração cerimonial da cidade.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P08",
+            "factKey": "cidade-cusco-F08",
+            "text": "O mito de origem liga a escolha do vale ao ponto onde o bastão de ouro do casal fundador afundou no solo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P09",
+            "factKey": "cidade-cusco-F09",
+            "text": "A leitura do traçado como um puma, com Sacsayhuamán como cabeça, é debatida pelos estudiosos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P10",
+            "factKey": "cidade-cusco-F10",
+            "text": "A sobreposição é literal: os muros incas do Qoricancha servem de apoio a um mosteiro dominicano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P11",
+            "factKey": "cidade-cusco-F11",
+            "text": "O Qoricancha era o complexo religioso mais suntuoso, com 700 placas de ouro no templo do Sol.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P12",
+            "factKey": "cidade-cusco-F12",
+            "text": "Sacsayhuamán, com três terraços em zigue-zague e blocos de mais de 100 t, guardava o lado norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_WHE"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P13",
+            "factKey": "cidade-cusco-F13",
+            "text": "Ruas retilíneas corriam entre muros de granito ou andesito minuciosamente talhados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P14",
+            "factKey": "cidade-cusco-F14",
+            "text": "A cidade inca separava, com nitidez, funções religiosas e administrativas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P15",
+            "factKey": "cidade-cusco-F15",
+            "text": "Zonas de produção agrícola, artesanal e manufatureira ficavam bem delimitadas ao redor do núcleo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P16",
+            "factKey": "cidade-cusco-F16",
+            "text": "Tomada pelos espanhóis em 15 de novembro de 1533, a cidade teve o espaço inca reaproveitado pela colônia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CUSCO_WHE",
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P17",
+            "factKey": "cidade-cusco-F17",
+            "text": "A colonização construiu sobre a malha inca, aproveitando muros e fundações antigas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P18",
+            "factKey": "cidade-cusco-F18",
+            "text": "O barroco com adaptações locais predomina na arquitetura religiosa colonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P19",
+            "factKey": "cidade-cusco-F19",
+            "text": "A catedral, de 1654, incorpora fundações e paredes de um templo inca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P20",
+            "factKey": "cidade-cusco-F20",
+            "text": "Desde o sismo de 1950, danos não reparados seguem ameaçando o casario.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR",
+              "CUSCO_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P21",
+            "factKey": "cidade-cusco-F21",
+            "text": "A Universidade Nacional de San Antonio Abad, de 1692, guarda parte do patrimônio documental local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_EB",
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P22",
+            "factKey": "cidade-cusco-F22",
+            "text": "A capital inca coroou um processo de ocupação pré-inca de mais de 3 mil anos no vale.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P23",
+            "factKey": "cidade-cusco-F23",
+            "text": "Inscrito em 1983, o bem soma cerca de 142 ha em quatro componentes, como as praças de Santiago e Belém.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P24",
+            "factKey": "cidade-cusco-F24",
+            "text": "Novos empreendimentos turísticos alteram imóveis históricos e deslocam moradores originais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-cusco-geografo-P25",
+            "factKey": "cidade-cusco-F25",
+            "text": "A Zona Monumental de 1972, com 103 edifícios declarados monumento, é a base da proteção legal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CUSCO_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Antiga capital do império inca nos Andes do sul do Peru, remodelada por Pachacútec no século XV e recoberta por igrejas, conventos e casarões coloniais construídos sobre os muros incas.",
+      "editorialNotes": [
+        "Lugar distinto de Machu Picchu (já no banco): as pistas tratam da cidade (capital, praças, Qoricancha, Sacsayhuamán, catedral, Pizarro em 1533, terremotos), não do santuário arqueológico.",
+        "Altitude: UNESCO e Britannica dão cerca de 3.400 m; a World History Encyclopedia fala em 3.450 m para a bacia.",
+        "O traçado em forma de puma é tradição discutida; as pistas apresentam a ideia como leitura, não como fato estabelecido."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na declaração de valor universal e no relatório periódico da UNESCO, na Britannica e na World History Encyclopedia; C1, C3 e C4 refeitos."
+    }
+  },
+  "sources": {
+    "CUSCO_PR": {
+      "id": "CUSCO_PR",
+      "title": "City of Cuzco — Periodic Report (Section II) and Statement of Outstanding Universal Value",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216448",
+      "checkedAt": "2026-11-15"
+    },
+    "CUSCO_EB": {
+      "id": "CUSCO_EB",
+      "title": "Cuzco summary",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/summary/Cuzco",
+      "checkedAt": "2026-11-15"
+    },
+    "CUSCO_WHE": {
+      "id": "CUSCO_WHE",
+      "title": "Cuzco",
+      "publisher": "World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Cuzco/.md",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/216448",
+      "https://www.britannica.com/summary/Cuzco",
+      "https://www.worldhistory.org/Cuzco/.md"
+    ],
+    "alteracoes": [
+      "Fonte CUSCO273 (whc.unesco.org/en/list/273) substituída: a página de lista da UNESCO não abre nesta sessão; a mesma declaração de valor universal foi conferida no relatório periódico publicado pela UNESCO (CUSCO_PR); acrescentadas Britannica (CUSCO_EB) e World History Encyclopedia (CUSCO_WHE).",
+      "C1: saíram Salvador e Ouro Preto (Brasil), La Paz e Ayacucho (sem paralelo com centros inscritos) e Cartagena; entraram centros históricos inscritos das Américas (Mompox, Oaxaca, Puebla, Guanajuato, Antigua Guatemala, Colônia do Sacramento).",
+      "C2: Colômbia trocada por Chile.",
+      "C3: ‘Cordilheira’ (Andes serviria também a Machu Picchu e a outras opções) trocado por ‘Império do qual a cidade foi capital’, com alternativas andinas e mesoamericanas plausíveis.",
+      "C4: alternativas implausíveis (vikings, romanos) trocadas por ano da tomada por Pizarro (1533), com 1521, 1534 e 1572 como distratores.",
+      "Viajante: P01–P25 reescritas ou trocadas para pistas da cidade (Manco Cápac, puma, Qoricancha com ouro e convento dominicano, Sacsayhuamán, Pizarro 1533, catedral 1654, terremotos de 1650 e 1950, universidade de 1692); saíram ‘arte religiosa’ e ‘tradições ancestrais’, sem apoio direto.",
+      "Geógrafo: P01–P25 reescritas para relações e processos (confluência inca-hispânica, rios Huatanay/Tullumayo/Chunchul, drenagem do brejo por Pachacútec, zonas produtivas delimitadas, 142 ha em quatro componentes, Zona Monumental de 1972, danos do sismo de 1950).",
+      "Sinais: P01–P02 abertura e P07 e P10 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

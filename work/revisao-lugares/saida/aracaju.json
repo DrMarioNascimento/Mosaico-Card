@@ -1,0 +1,1056 @@
+{
+ "case": {
+  "id": "lug2-aracaju",
+  "placeId": "aracaju",
+  "title": "Aracaju",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Aracaju"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Maceió"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Natal"
+     },
+     {
+      "id": "C1-O4",
+      "text": "João Pessoa"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Recife"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Salvador"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Fortaleza"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Aracaju",
+    "sources": [
+     "ARACAJU_IBGEHIST",
+     "ARACAJU_ORLA",
+     "ARACAJU_NAVIGATOR"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio junto ao qual a capital foi implantada",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Sergipe"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Rio Potengi"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Rio Capibaribe"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Rio Cocó"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Sergipe",
+    "sources": [
+     "ARACAJU_IBGEHIST",
+     "ARACAJU_NAVIGATOR"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Nome dado ao núcleo planejado original",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Quadrado de Pirro"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Plano Piloto"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Cidade Alta"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Triângulo Histórico"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Quadrado de Pirro",
+    "sources": [
+     "ARACAJU_NAVIGATOR",
+     "ARACAJU_IBGEHIST"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Cidade que deixou de ser capital em 1855",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "São Cristóvão"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Laranjeiras"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Maruim"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Itaporanga d'Ajuda"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "São Cristóvão",
+    "sources": [
+     "ARACAJU_IBGEHIST",
+     "ARACAJU_NAVIGATOR"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "aracaju-viajante-P01",
+      "factKey": "aracaju-F01",
+      "text": "É uma capital litorânea do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA",
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P02",
+      "factKey": "aracaju-F02",
+      "text": "A cidade cresceu entre manguezais, rios e o mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P03",
+      "factKey": "aracaju-F03",
+      "text": "Fica em Sergipe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P04",
+      "factKey": "aracaju-F04",
+      "text": "A orla tem cerca de 30 km de praias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P05",
+      "factKey": "aracaju-F05",
+      "text": "Atalaia, Aruana e Mosqueiro estão entre as praias da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P06",
+      "factKey": "aracaju-F06",
+      "text": "Dunas com restinga e coqueiros fazem parte da paisagem da costa.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P07",
+      "factKey": "aracaju-F07",
+      "text": "Antes de virar capital, o lugar era um povoado de pescadores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P08",
+      "factKey": "aracaju-F08",
+      "text": "Uma capelinha de Santo Antônio, no alto de uma colina, marca o início do povoado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P09",
+      "factKey": "aracaju-F09",
+      "text": "O nome vem do tupi e é traduzido como cajueiro dos papagaios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P10",
+      "factKey": "aracaju-F10",
+      "text": "A cidade virou capital em 1855.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_ORLA",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P11",
+      "factKey": "aracaju-F11",
+      "text": "Antes disso, a capital ficava numa cidade a cerca de 19 km dali.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P12",
+      "factKey": "aracaju-F12",
+      "text": "A cidade foi planejada para ser capital e não nasceu de forma espontânea.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P13",
+      "factKey": "aracaju-F13",
+      "text": "As ruas retas formam quarteirões que lembram um tabuleiro de xadrez.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P14",
+      "factKey": "aracaju-F14",
+      "text": "O engenheiro que desenhou o plano se chamava Sebastião Pirro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P15",
+      "factKey": "aracaju-F15",
+      "text": "O núcleo original do plano é conhecido como Quadrado de Pirro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P16",
+      "factKey": "aracaju-F16",
+      "text": "A pressa na construção deixou problemas de alagamento que existem até hoje.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P17",
+      "factKey": "aracaju-F17",
+      "text": "Nos primeiros meses da nova capital, houve uma epidemia de cólera.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P18",
+      "factKey": "aracaju-F18",
+      "text": "O governo queria um porto para mandar o açúcar da província pelo mar.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P19",
+      "factKey": "aracaju-F19",
+      "text": "Navios de maior porte entravam pela barra do rio junto à cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P20",
+      "factKey": "aracaju-F20",
+      "text": "Um dos rios da cidade tem o mesmo nome do estado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P21",
+      "factKey": "aracaju-F21",
+      "text": "Os rios Poxim, do Sal e Pitanga também correm pelo município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P22",
+      "factKey": "aracaju-F22",
+      "text": "O bairro Coroa do Meio foi construído aterrando ilhas, canais e mangues.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P23",
+      "factKey": "aracaju-F23",
+      "text": "Comércio e serviços atraíram gente do interior para a nova capital.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P24",
+      "factKey": "aracaju-F24",
+      "text": "O vizinho município de Barra dos Coqueiros já foi distrito desta cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-viajante-P25",
+      "factKey": "aracaju-F25",
+      "text": "Tomou o posto de capital de São Cristóvão.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "aracaju-geografo-P01",
+      "factKey": "aracaju-F01",
+      "text": "É uma capital costeira implantada num sítio de rios, estuários e manguezais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA",
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P02",
+      "factKey": "aracaju-F02",
+      "text": "Foi planejada para sediar o governo, e não resultou de crescimento espontâneo.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P03",
+      "factKey": "aracaju-F03",
+      "text": "O território municipal reparte-se entre as bacias dos rios Sergipe e Vaza-Barris.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P04",
+      "factKey": "aracaju-F04",
+      "text": "A posição costeira, entre os rios Sergipe e Vaza-Barris, pesou na escolha do sítio.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P05",
+      "factKey": "aracaju-F05",
+      "text": "A transferência da capital buscava um porto de escoamento da produção açucareira.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P06",
+      "factKey": "aracaju-F06",
+      "text": "A barra do Cotinguiba admitia navios de maior calado que outras barras da província.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P07",
+      "factKey": "aracaju-F07",
+      "text": "Barras como as do Real e do Vaza-Barris eram perigosas pela movimentação de areia nos estuários.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P08",
+      "factKey": "aracaju-F08",
+      "text": "A riqueza de Laranjeiras, polo açucareiro, não superou as vantagens geográficas do novo sítio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P09",
+      "factKey": "aracaju-F09",
+      "text": "Laranjeiras, Maruim e Itaporanga d'Ajuda também foram cogitadas para sede do governo.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P10",
+      "factKey": "aracaju-F10",
+      "text": "Uma lei provincial de 17 de março de 1855 elevou o povoado a município e capital.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P11",
+      "factKey": "aracaju-F11",
+      "text": "Antes de 1855, o povoado pertencia juridicamente à cidade que perdeu a capital.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P12",
+      "factKey": "aracaju-F12",
+      "text": "O plano ortogonal, de quarteirões simétricos, foi traçado pelo engenheiro Sebastião José Basílio Pirro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST",
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P13",
+      "factKey": "aracaju-F13",
+      "text": "Sem levantamento completo do terreno, o traçado favoreceu alagamentos ainda recorrentes.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P14",
+      "factKey": "aracaju-F14",
+      "text": "O quadrado original do plano tornou-se a área mais elitizada da cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P15",
+      "factKey": "aracaju-F15",
+      "text": "Aterros sobre ilhas, canais e manguezais deram origem ao bairro da Coroa do Meio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P16",
+      "factKey": "aracaju-F16",
+      "text": "A faixa costeira foi classificada como Zona de Expansão Urbana por lei municipal de 1982.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P17",
+      "factKey": "aracaju-F17",
+      "text": "A expansão urbana em direção ao litoral é relativamente recente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P18",
+      "factKey": "aracaju-F18",
+      "text": "Os rios do Sal, Poxim e Pitanga e o Canal de Santa Maria completam a rede hídrica municipal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P19",
+      "factKey": "aracaju-F19",
+      "text": "Dunas fixadas por restinga e coqueiros ocupam trechos do litoral.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P20",
+      "factKey": "aracaju-F20",
+      "text": "Ao sul, o município faz limite com Itaporanga d'Ajuda.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_ORLA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P21",
+      "factKey": "aracaju-F21",
+      "text": "Criado como distrito em 1837, só recebeu a sede do governo provincial em 1855.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P22",
+      "factKey": "aracaju-F22",
+      "text": "O antigo distrito de Barra dos Coqueiros emancipou-se do município em 1953.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P23",
+      "factKey": "aracaju-F23",
+      "text": "A cólera e a falta de moradias marcaram os primeiros meses da nova capital.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P24",
+      "factKey": "aracaju-F24",
+      "text": "O topônimo, de origem tupi, é interpretado como cajueiro dos papagaios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "aracaju-geografo-P25",
+      "factKey": "aracaju-F25",
+      "text": "A cerca de 19 km de São Cristóvão, o povoado foi escolhido em 1855 para sediar a província.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ARACAJU_NAVIGATOR",
+       "ARACAJU_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital de Sergipe planejada em 1855 para substituir São Cristóvão, junto ao rio Sergipe e à barra do Cotinguiba, com núcleo em tabuleiro de xadrez traçado por Sebastião Pirro (o Quadrado de Pirro).",
+   "editorialNotes": [
+    "A população do Censo 2022 foi retirada: a página do IBGE Cidades não foi aberta.",
+    "Os dados de orla (30 km de praias, zoneamento) vêm do Projeto Orla de 2002.",
+    "O IBGE fala em lei provincial e a revista Navigator em resolução, ambas de 17/03/1855."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas pelo histórico do IBGE, Projeto Orla (2002) e revista Navigator (Marinha) abertos na revisão; C2–C4 refeitos e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "ARACAJU_IBGEHIST": {
+   "id": "ARACAJU_IBGEHIST",
+   "title": "Aracaju (SE) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/sergipe/aracaju.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ARACAJU_ORLA": {
+   "id": "ARACAJU_ORLA",
+   "title": "Projeto de Intervenção da Orla Marítima do Município de Aracaju (versão preliminar, 2002)",
+   "publisher": "Prefeitura de Aracaju / Projeto Orla (gov.br)",
+   "url": "https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/destinacao-de-imoveis/gestao-de-praias/pgi_se_aracaju.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ARACAJU_NAVIGATOR": {
+   "id": "ARACAJU_NAVIGATOR",
+   "title": "A trajetória do Capitão de Mar e Guerra José Moreira Guerra nas \"Praias do Aracaju\" (1855-1878)",
+   "publisher": "Navigator — Marinha do Brasil",
+   "url": "https://portaldeperiodicos.marinha.mil.br/index.php/navigator/article/download/6536/6511/24969",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/sergipe/aracaju.pdf",
+   "https://www.gov.br/gestao/pt-br/assuntos/patrimonio-da-uniao/destinacao-de-imoveis/gestao-de-praias/pgi_se_aracaju.pdf",
+   "https://portaldeperiodicos.marinha.mil.br/index.php/navigator/article/download/6536/6511/24969"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (ARACAJU_IBGE, ARACAJU_PLANO, ARACAJU_MOB, ARACAJU_CIDADE, ARACAJU_MERCADO) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico), Projeto de Intervenção da Orla (2002) e Navigator/Marinha (2024)",
+   "alias \"Aracaju\" (igual ao título) removido",
+   "C2: alternativas com prefixo \"Rio\" e rótulo mais preciso; C4 \"Estado\" (Sergipe, igual ao nome do rio de C2) trocado por \"Cidade que deixou de ser capital em 1855\", gabarito São Cristóvão (IBGE, Navigator)",
+   "C3: distratores ligados a outras cidades (Cidade-Jardim, Avenida do Contorno) trocados; rótulo passa a \"Nome dado ao núcleo planejado original\"",
+   "Retiradas pistas sem fonte aberta: população 2022, Poxim no abastecimento, rio do Sal como divisa com Socorro, ciclovia da Orla de Atalaia, mercados Thales Ferraz e Antônio Franco, Museu da Gente Sergipana, forma alongada norte-sul",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

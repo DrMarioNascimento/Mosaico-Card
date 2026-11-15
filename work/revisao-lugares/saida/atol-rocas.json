@@ -1,0 +1,1056 @@
+{
+ "case": {
+  "id": "lug2-atol-rocas",
+  "placeId": "atol-rocas",
+  "title": "Reserva Biológica do Atol das Rocas",
+  "aliases": [
+   "Atol das Rocas"
+  ],
+  "answerType": "atol e reserva biológica",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Área marinha protegida brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Reserva Biológica do Atol das Rocas"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Nacional Marinho de Fernando de Noronha"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Nacional Marinho dos Abrolhos"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Reserva Biológica Marinha do Arvoredo"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Refúgio de Vida Silvestre do Arquipélago de Alcatrazes"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Monumento Natural do Arquipélago de São Pedro e São Paulo"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Monumento Natural das Ilhas de Trindade, Martim Vaz e do Monte Columbia"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Estadual Marinho do Parcel de Manuel Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Estadual Marinho da Pedra da Risca do Meio"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Estadual Marinho de Areia Vermelha"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Área de Proteção Ambiental Costa dos Corais"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Área de Proteção Ambiental dos Recifes de Corais"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Reserva Biológica do Atol das Rocas",
+    "sources": [
+     "ROCAS_RAMSAR",
+     "ROCAS_IUCN",
+     "ROCAS_UFC"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Estado a que a área pertence administrativamente",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Rio Grande do Norte"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Pernambuco"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Ceará"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Paraíba"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Rio Grande do Norte",
+    "sources": [
+     "ROCAS_RAMSAR"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Principal construtor do recife",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Algas calcárias (coralináceas)"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Corais construtores"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Sedimentos trazidos por rios"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Dunas de areia cimentada"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Algas calcárias (coralináceas)",
+    "sources": [
+     "ROCAS_RAMSAR"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Área com que divide o título de Patrimônio Mundial",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Fernando de Noronha"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Abrolhos"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Arquipélago de São Pedro e São Paulo"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Ilha da Trindade"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Fernando de Noronha",
+    "sources": [
+     "ROCAS_IUCN"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "atol-rocas-viajante-P01",
+      "factKey": "atol-rocas-F01",
+      "text": "É uma área protegida no meio do oceano, longe do continente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P02",
+      "factKey": "atol-rocas-F02",
+      "text": "O lugar fica em águas tropicais do Atlântico Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P03",
+      "factKey": "atol-rocas-F03",
+      "text": "Turistas não podem visitar: só entram equipes de pesquisa e monitoramento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P04",
+      "factKey": "atol-rocas-F04",
+      "text": "A proteção oficial do lugar começou em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P05",
+      "factKey": "atol-rocas-F05",
+      "text": "O recife tem formato quase oval, com cerca de 3,7 km no lado maior.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P06",
+      "factKey": "atol-rocas-F06",
+      "text": "Dentro do anel de recifes ficam duas pequenas ilhas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P07",
+      "factKey": "atol-rocas-F07",
+      "text": "Uma dessas ilhas se chama Ilha do Farol.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P08",
+      "factKey": "atol-rocas-F08",
+      "text": "A outra ilha tem o nome de Ilha do Cemitério.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P09",
+      "factKey": "atol-rocas-F09",
+      "text": "Na maré baixa, aparecem lagoas e piscinas naturais cheias de peixes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P10",
+      "factKey": "atol-rocas-F10",
+      "text": "Quem construiu o recife foram sobretudo algas que fabricam calcário, e não corais.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P11",
+      "factKey": "atol-rocas-F11",
+      "text": "A vegetação das ilhas é baixa, de ervas e capins que aguentam o sal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P12",
+      "factKey": "atol-rocas-F12",
+      "text": "Tartarugas-verdes usam o lugar para se reproduzir.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P13",
+      "factKey": "atol-rocas-F13",
+      "text": "A tartaruga-de-pente também se reproduz por lá.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P14",
+      "factKey": "atol-rocas-F14",
+      "text": "O tubarão-limão usa essas águas como berçário.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P15",
+      "factKey": "atol-rocas-F15",
+      "text": "Mais de 150 mil aves marinhas já foram contadas no lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P16",
+      "factKey": "atol-rocas-F16",
+      "text": "Alguns moluscos encontrados ali não existem em nenhum outro lugar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P17",
+      "factKey": "atol-rocas-F17",
+      "text": "Pesquisadores acharam ali esponjas que provavelmente eram novas para a ciência.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P18",
+      "factKey": "atol-rocas-F18",
+      "text": "Uma espécie de lagosta tem ali uma população muito abundante.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P19",
+      "factKey": "atol-rocas-F19",
+      "text": "Quem administra a área é o ICMBio, órgão federal de conservação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P20",
+      "factKey": "atol-rocas-F20",
+      "text": "Fica a uns 267 km de Natal, mar adentro.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P21",
+      "factKey": "atol-rocas-F21",
+      "text": "Administrativamente, a área faz parte do Rio Grande do Norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P22",
+      "factKey": "atol-rocas-F22",
+      "text": "O lugar é Patrimônio Mundial da UNESCO desde 2001.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P23",
+      "factKey": "atol-rocas-F23",
+      "text": "Esse título da UNESCO é dividido com um arquipélago vizinho.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P24",
+      "factKey": "atol-rocas-F24",
+      "text": "Fica cerca de 148 km a oeste de Fernando de Noronha.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-viajante-P25",
+      "factKey": "atol-rocas-F25",
+      "text": "É o único atol do Atlântico Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "atol-rocas-geografo-P01",
+      "factKey": "atol-rocas-F01",
+      "text": "É uma unidade federal de conservação marinha isolada em mar aberto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P02",
+      "factKey": "atol-rocas-F02",
+      "text": "Situa-se em baixa latitude, no setor equatorial do Atlântico Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC",
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P03",
+      "factKey": "atol-rocas-F03",
+      "text": "A estrutura recifal carbonática assenta-se sobre uma base de origem vulcânica.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P04",
+      "factKey": "atol-rocas-F04",
+      "text": "O arcabouço do recife foi construído predominantemente por algas coralináceas, não por corais.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P05",
+      "factKey": "atol-rocas-F05",
+      "text": "O anel recifal é levemente elíptico: cerca de 3,7 km no eixo leste-oeste e 2,5 km no norte-sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P06",
+      "factKey": "atol-rocas-F06",
+      "text": "No platô recifal, a laguna e um depósito arenoso intermaré concentram a sedimentação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P07",
+      "factKey": "atol-rocas-F07",
+      "text": "Na baixa-mar, o recife exposto compartimenta o platô em lagunas e piscinas de maré.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P08",
+      "factKey": "atol-rocas-F08",
+      "text": "Duas ilhas baixas emergem no interior do anel recifal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P09",
+      "factKey": "atol-rocas-F09",
+      "text": "Por ser muito baixo, o conjunto é vulnerável à elevação do nível do mar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P10",
+      "factKey": "atol-rocas-F10",
+      "text": "A cobertura vegetal é herbácea e resistente ao sal, típica de praias arenosas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P11",
+      "factKey": "atol-rocas-F11",
+      "text": "Em 2015, cerca de 35 mil hectares da área foram designados sítio Ramsar.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P12",
+      "factKey": "atol-rocas-F12",
+      "text": "É considerado o segundo sítio de reprodução mais importante do Brasil para tartarugas-verdes e de pente.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P13",
+      "factKey": "atol-rocas-F13",
+      "text": "Três tartarugas marinhas ameaçadas usam a área: a verde, a de pente e a cabeçuda.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P14",
+      "factKey": "atol-rocas-F14",
+      "text": "O recife serve de área de reprodução, alimentação e berçário para o tubarão-limão.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P15",
+      "factKey": "atol-rocas-F15",
+      "text": "Abriga a maior concentração de aves marinhas tropicais do Atlântico ocidental.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P16",
+      "factKey": "atol-rocas-F16",
+      "text": "Cinco espécies de aves marinhas se reproduzem ali, e três dessas populações estão em declínio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P17",
+      "factKey": "atol-rocas-F17",
+      "text": "Sua população de lagosta é tida como fonte principal para outras populações do Atlântico Central.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P18",
+      "factKey": "atol-rocas-F18",
+      "text": "O endemismo é alto: há moluscos e peixes endêmicos e quinze corais endêmicos do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P19",
+      "factKey": "atol-rocas-F19",
+      "text": "Caranguejos, aves e tartarugas revolvem os sedimentos carbonáticos do recife, num processo de bioturbação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P20",
+      "factKey": "atol-rocas-F20",
+      "text": "Foi a primeira reserva biológica marinha do Brasil, criada em 1979.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P21",
+      "factKey": "atol-rocas-F21",
+      "text": "O manejo só admite atividades científicas; turismo e recreação são vedados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_UFC",
+       "ROCAS_RAMSAR"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P22",
+      "factKey": "atol-rocas-F22",
+      "text": "A pesca ilegal, feita sobretudo por frotas oceânicas do Nordeste, é uma das principais ameaças.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P23",
+      "factKey": "atol-rocas-F23",
+      "text": "A Marinha e a Força Aérea apoiam a vigilância contra pesca e turismo irregulares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P24",
+      "factKey": "atol-rocas-F24",
+      "text": "A cerca de 148 km a oeste de Fernando de Noronha, divide com ele o título da UNESCO de 2001.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "ROCAS_UFC",
+       "ROCAS_IUCN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "atol-rocas-geografo-P25",
+      "factKey": "atol-rocas-F25",
+      "text": "Situado a 267 km a nordeste de Natal, insere-se administrativamente no Rio Grande do Norte.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ROCAS_RAMSAR",
+       "ROCAS_UFC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Único atol do Atlântico Sul, a 267 km de Natal e 148 km a oeste de Fernando de Noronha: recife de algas calcárias com duas ilhas, primeira reserva biológica marinha do Brasil (1979) e Patrimônio Mundial junto com Noronha desde 2001.",
+   "editorialNotes": [
+    "Visitação turística proibida; só pesquisa e monitoramento.",
+    "O artigo da UFC dá 7,2 km² de área emersa para as duas ilhas, valor inconsistente com o tamanho do atol; o número não foi usado.",
+    "Os 35.186 ha são a área do sítio Ramsar (2015), não a área emersa."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por Ramsar, IUCN World Heritage Outlook e artigo da UFC abertos na revisão; C1 restrito a áreas marinhas brasileiras, C2–C4 refeitos e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "ROCAS_RAMSAR": {
+   "id": "ROCAS_RAMSAR",
+   "title": "Atol das Rocas Biological Reserve (Ramsar Site no. 2259)",
+   "publisher": "Ramsar Sites Information Service",
+   "url": "https://rsis.ramsar.org/ris/2259",
+   "checkedAt": "2026-11-15"
+  },
+  "ROCAS_IUCN": {
+   "id": "ROCAS_IUCN",
+   "title": "Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves — Conservation Outlook Assessment 2025",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1120",
+   "checkedAt": "2026-11-15"
+  },
+  "ROCAS_UFC": {
+   "id": "ROCAS_UFC",
+   "title": "Bioturbação nos sedimentos carbonáticos do Atol das Rocas (Atlântico Sul Equatorial)",
+   "publisher": "Arquivos de Ciências do Mar (Labomar/UFC)",
+   "url": "https://labomar.ufc.br/wp-content/uploads/2017/02/acm-2014-47-1-08.pdf",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://rsis.ramsar.org/ris/2259",
+   "https://worldheritageoutlook.iucn.org/node/1120",
+   "https://labomar.ufc.br/wp-content/uploads/2017/02/acm-2014-47-1-08.pdf"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (ROCAS_ICM, ROCAS_PM, ROCAS_UNESCO, ROCAS_JBRJ) não abertas nesta sessão; substituídas por Ramsar RIS 2259, IUCN World Heritage Outlook e artigo de Soares & Lemos (Arq. Ciênc. Mar, 2014)",
+   "C1: rótulo \"Atol ou área insular protegida\" (só uma alternativa brasileira tinha \"Atol\") trocado por \"Área marinha protegida brasileira\"; atóis estrangeiros (fora do recorte) substituídos por áreas marinhas brasileiras",
+   "C2: \"Posição no oceano\" (trivial após C1 brasileiro) trocado por \"Estado a que a área pertence administrativamente\", gabarito Rio Grande do Norte (Ramsar)",
+   "C3: distratores implausíveis (gelo glacial, lava) trocados por corais, sedimentos fluviais e dunas; gabarito mantido (Ramsar: algas coralináceas, não corais)",
+   "C4: Galápagos e Aldabra trocados por áreas insulares brasileiras; gabarito Fernando de Noronha mantido (IUCN)",
+   "Distância a Noronha corrigida de ~150 para 148 km (UFC); tartaruga-de-pente deixou de ser atribuída ao ICMBio",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}
