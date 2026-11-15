@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-58-2026-11-15",
+  "catalogVersion": "lote-59-2026-11-15",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "330 destinos jogáveis em dois perfis",
-  "status": "330 destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "331 destinos jogáveis em dois perfis",
+  "status": "331 destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -9146,6 +9146,55 @@
       "title": "City of Music (UNESCO)",
       "publisher": "Wikipedia (en)",
       "url": "https://en.wikipedia.org/wiki/City_of_Music_(UNESCO)",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_BRIT": {
+      "id": "SINGAPURA_BRIT",
+      "title": "Singapore",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Singapore",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_BRIT_HIST": {
+      "id": "SINGAPURA_BRIT_HIST",
+      "title": "Singapore — History",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Singapore/History",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_UNESCO_JARDIM": {
+      "id": "SINGAPURA_UNESCO_JARDIM",
+      "title": "Decision 39 COM 8B.17 — Singapore Botanic Gardens",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/6367",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_NPARKS": {
+      "id": "SINGAPURA_NPARKS",
+      "title": "Singapore’s first UNESCO World Heritage Site",
+      "publisher": "National Parks Board (NParks)",
+      "url": "https://www.nparks.gov.sg/sbg/about/singapore-s-first-unesco-world-heritage-site",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_UNESCO_HAWKER": {
+      "id": "SINGAPURA_UNESCO_HAWKER",
+      "title": "Hawker culture in Singapore, community dining and culinary practices in a multicultural urban context",
+      "publisher": "UNESCO — Intangible Cultural Heritage",
+      "url": "https://ich.unesco.org/en/RL/hawker-culture-in-singapore-community-dining-and-culinary-practices-in-a-multicultural-urban-context-01568?lang=en",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_NEA": {
+      "id": "SINGAPURA_NEA",
+      "title": "Hawker Culture is Singapore’s first inscription on UNESCO’s Representative List of the Intangible Cultural Heritage of Humanity (16/12/2020)",
+      "publisher": "National Environment Agency (NEA)",
+      "url": "https://www.nea.gov.sg/media/news/news/index/hawker-culture-is-singapore-s-first-inscription-on-unesco-s-representative-list-of-the-intangible-cultural-heritage-of-humanity",
+      "checkedAt": "2026-11-15"
+    },
+    "SINGAPURA_NLB_ATERROS": {
+      "id": "SINGAPURA_NLB_ATERROS",
+      "title": "Land from Sand: Singapore’s Reclamation Story",
+      "publisher": "BiblioAsia — National Library Board",
+      "url": "https://biblioasia.nlb.gov.sg/vol-13/issue-1/apr-jun-2017/land-from-sand/",
       "checkedAt": "2026-11-15"
     }
   },
@@ -347970,6 +348019,1024 @@
         "playtest": "pending",
         "publication": "integrated",
         "editorial": "Criado e verificado nas fontes: Britannica, portal do governo de Uttar Pradesh, Incredible India (Ministério do Turismo da Índia, duas páginas) e a lista de Cidades da Música da UNESCO; C1 com 16 cidades do sul da Ásia comparáveis."
+      }
+    },
+    {
+      "id": "lug3-singapura",
+      "placeId": "singapura",
+      "title": "Singapura",
+      "aliases": [
+        "Cingapura",
+        "Singapore"
+      ],
+      "answerType": "cidade-Estado",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "SG"
+        ],
+        "continents": [
+          "asia"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Singapura"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Hong Kong"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Macau"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Kuala Lumpur"
+            },
+            {
+              "id": "C1-O5",
+              "text": "George Town"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Malaca"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Jacarta"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Bangkok"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Manila"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ho Chi Minh"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Taipé"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Xangai"
+            },
+            {
+              "id": "C1-O13",
+              "text": "Tóquio"
+            },
+            {
+              "id": "C1-O14",
+              "text": "Dubai"
+            },
+            {
+              "id": "C1-O15",
+              "text": "Doha"
+            },
+            {
+              "id": "C1-O16",
+              "text": "Bandar Seri Begawan"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Singapura",
+          "sources": [
+            "SINGAPURA_BRIT",
+            "SINGAPURA_BRIT_HIST"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estreito que separa a ilha principal da península Malaia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Estreito de Johor"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Estreito de Malaca"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Estreito da Sonda"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Estreito de Luzon"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Estreito de Johor",
+          "sources": [
+            "SINGAPURA_BRIT"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Cultura agrícola cuja introdução e promoção foram o maior sucesso inicial do jardim botânico local",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Seringueira (borracha)"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Chá"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Arroz"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cana-de-açúcar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Seringueira (borracha)",
+          "sources": [
+            "SINGAPURA_NPARKS",
+            "SINGAPURA_UNESCO_JARDIM"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da independência",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1965"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1963"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1957"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1948"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1965",
+          "sources": [
+            "SINGAPURA_BRIT",
+            "SINGAPURA_BRIT_HIST"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "singapura-viajante-P01",
+              "factKey": "singapura-F01",
+              "text": "É uma cidade portuária tropical do Sudeste Asiático, quente e úmida o ano inteiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P02",
+              "factKey": "singapura-F02",
+              "text": "Chove em algum ponto da ilha todos os dias do ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P03",
+              "factKey": "singapura-F03",
+              "text": "As médias mensais quase não mudam: de cerca de 25 °C em janeiro a 27 °C em junho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P04",
+              "factKey": "singapura-F04",
+              "text": "O período mais chuvoso é a monção de nordeste, de novembro a março; em dezembro, chove mais de 250 mm.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P05",
+              "factKey": "singapura-F05",
+              "text": "Fica na ponta sul da península Malaia, a uns 137 km ao norte da linha do Equador.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P06",
+              "factKey": "singapura-F06",
+              "text": "Uma ponte-dique de estrada e ferrovia atravessa o estreito que a separa da Malásia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P07",
+              "factKey": "singapura-F07",
+              "text": "O território é uma ilha principal em forma de losango, mais umas 60 ilhotas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P08",
+              "factKey": "singapura-F08",
+              "text": "O ponto mais alto, o morro Timah, tem só 162 m.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "relevo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P09",
+              "factKey": "singapura-F09",
+              "text": "Restam alguns milhares de acres de floresta tropical em volta dos reservatórios de água, além de manguezais em Kranji.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P10",
+              "factKey": "singapura-F10",
+              "text": "Em 1819, o britânico Stamford Raffles desembarcou ali para criar um entreposto comercial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P11",
+              "factKey": "singapura-F11",
+              "text": "Em 1826, juntou-se a Penang e Malaca para formar os Estabelecimentos dos Estreitos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P12",
+              "factKey": "singapura-F12",
+              "text": "O Japão ocupou a ilha de fevereiro de 1942 a setembro de 1945.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P13",
+              "factKey": "singapura-F13",
+              "text": "Em 1963, entrou na Federação da Malásia, mas saiu dois anos depois.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT",
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P14",
+              "factKey": "singapura-F14",
+              "text": "Tornou-se um país independente em 9 de agosto de 1965.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P15",
+              "factKey": "singapura-F15",
+              "text": "Cerca de quatro quintos dos moradores vivem em prédios altos de habitação pública.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P16",
+              "factKey": "singapura-F16",
+              "text": "Os hawker centres, praças de comida popular, funcionam como “salas de jantar comunitárias”.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_HAWKER",
+                "SINGAPURA_NEA"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P17",
+              "factKey": "singapura-F17",
+              "text": "Nessas praças se misturam cozinhas de tradição chinesa, malaia e indiana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_HAWKER"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P18",
+              "factKey": "singapura-F18",
+              "text": "Essa cultura das barracas de comida entrou na lista do patrimônio imaterial da UNESCO em 2020.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_HAWKER",
+                "SINGAPURA_NEA"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P19",
+              "factKey": "singapura-F19",
+              "text": "O jardim botânico local, criado em 1859, fica bem no centro da cidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_JARDIM"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P20",
+              "factKey": "singapura-F20",
+              "text": "Esse é o único jardim botânico tropical da lista do Patrimônio Mundial da UNESCO.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P21",
+              "factKey": "singapura-F21",
+              "text": "O maior sucesso inicial do jardim foi introduzir e promover a seringueira, árvore da borracha.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P22",
+              "factKey": "singapura-F22",
+              "text": "Uma árvore tembusu do jardim é considerada mais velha que o próprio jardim.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "biodiversidade",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P23",
+              "factKey": "singapura-F23",
+              "text": "O primeiro aterro, em 1822, criou a margem em meia-lua de Boat Quay, à beira do rio que corta o centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P24",
+              "factKey": "singapura-F24",
+              "text": "O aeroporto de Changi foi construído sobre 745 hectares de terra aterrada a partir de 1975.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-viajante-P25",
+              "factKey": "singapura-F25",
+              "text": "O nome do lugar costuma ser traduzido como “Cidade do Leão”.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "singapura-geografo-P01",
+              "factKey": "singapura-F01",
+              "text": "Grande porto tropical perto do Equador, com chuva distribuída o ano todo e duas monções bem marcadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P02",
+              "factKey": "singapura-F04",
+              "text": "A monção de sudoeste (maio a setembro) é a fase mais seca; a de nordeste (novembro a março), a mais chuvosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "clima",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P03",
+              "factKey": "singapura-F26",
+              "text": "Entre o estreito de Johor, ao norte, e um estreito marítimo ao sul, é o maior porto do Sudeste Asiático e um dos mais movimentados do mundo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "localizacao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P04",
+              "factKey": "singapura-F06",
+              "text": "Uma ponte-dique de mais de 800 m sobre o estreito de Johor liga a ilha à Malásia peninsular por estrada e ferrovia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "construcao",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P05",
+              "factKey": "singapura-F07",
+              "text": "A ilha principal ocupa quase todo o território; as cerca de 60 ilhotas somam só uns 47 km².",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P06",
+              "factKey": "singapura-F27",
+              "text": "Em dois séculos, aterros ampliaram a área de 578 para 719 km² (de 58.150 para 71.910 ha).",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P07",
+              "factKey": "singapura-F28",
+              "text": "Sete ilhas do sudoeste foram unidas numa só, que ganhou cerca de 3.000 ha numa obra concluída em 2003.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P08",
+              "factKey": "singapura-F29",
+              "text": "A “Grande Recuperação” da costa leste, iniciada em 1966, acrescentou 1.525 ha em sete fases ao longo de uns 30 anos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P09",
+              "factKey": "singapura-F30",
+              "text": "Restrições de países vizinhos à exportação de areia pesam sobre a expansão por aterros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P10",
+              "factKey": "singapura-F31",
+              "text": "O plano de uso do solo de 2013 previa precisar de mais 5.600 ha até 2030, para uma população de 6,5 a 6,9 milhões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P11",
+              "factKey": "singapura-F32",
+              "text": "No século XIV, o nome mais usado era Temasek, palavra de origem javanesa que significa “mar”.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P12",
+              "factKey": "singapura-F10",
+              "text": "Em 1819, Raffles obteve a terra por meio de Hussein, irmão mais velho do sultão de Johor-Riau, sob protesto dos holandeses.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P13",
+              "factKey": "singapura-F33",
+              "text": "Um tratado anglo-holandês de 1824 pôs a ilha na esfera britânica; em 1867, os Estabelecimentos dos Estreitos viraram colônia da Coroa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P14",
+              "factKey": "singapura-F13",
+              "text": "Autônoma desde 1959, com defesa e política externa ainda britânicas, entrou na Federação da Malásia em setembro de 1963 e se separou em 1965.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "historia",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P15",
+              "factKey": "singapura-F34",
+              "text": "A partir dos anos 1970, a economia cresceu depressa com base na indústria de exportação e no comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P16",
+              "factKey": "singapura-F15",
+              "text": "Cerca de quatro quintos da população moram em conjuntos habitacionais públicos verticais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P17",
+              "factKey": "singapura-F35",
+              "text": "A população era estimada em 5.997.000 habitantes em 2024.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P18",
+              "factKey": "singapura-F36",
+              "text": "O jardim botânico ilustra a evolução de um “jardim de lazer” para uma instituição científica e de conservação.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_JARDIM"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P19",
+              "factKey": "singapura-F37",
+              "text": "A UNESCO o reconhece, desde 2015, como exemplo notável de jardim botânico colonial tropical britânico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_JARDIM",
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P20",
+              "factKey": "singapura-F38",
+              "text": "Foi o terceiro jardim botânico inscrito no mundo, depois de Pádua e de Kew, e o primeiro da Ásia.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "patrimonio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P21",
+              "factKey": "singapura-F21",
+              "text": "O jardim contribuiu para o desenvolvimento das plantações de borracha, cultura que transformou a região.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_JARDIM",
+                "SINGAPURA_NPARKS"
+              ],
+              "clueType": "processo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P22",
+              "factKey": "singapura-F39",
+              "text": "A cultura das barracas de comida evoluiu da comida de rua; alguns dos vendedores mais antigos começaram nos anos 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_UNESCO_HAWKER",
+                "SINGAPURA_NEA"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P23",
+              "factKey": "singapura-F16",
+              "text": "Em 2019, um mapeamento da agência ambiental do país documentou 114 hawker centres, as “salas de jantar comunitárias”.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NEA"
+              ],
+              "clueType": "urbanismo",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P24",
+              "factKey": "singapura-F24",
+              "text": "Changi, Jurong e Pulau Tekong estão entre as áreas ampliadas por aterros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_NLB_ATERROS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "singapura-geografo-P25",
+              "factKey": "singapura-F25",
+              "text": "Uma crônica malaia atribui ao príncipe Sri Tri Buana, de Srivijaya, o nome que significa “Cidade do Leão”.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SINGAPURA_BRIT_HIST"
+              ],
+              "clueType": "cultura",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade-Estado insular na ponta sul da península Malaia, separada da Malásia pelo estreito de Johor: entreposto britânico desde 1819, independente desde 9 de agosto de 1965, maior porto do Sudeste Asiático, ampliada por aterros e conhecida pelo jardim botânico (Patrimônio Mundial) e pela cultura dos hawker centres.",
+        "editorialNotes": [
+          "Aterros: a BiblioAsia (Biblioteca Nacional) fala em aumento de 25% da área em dois séculos, mas seus próprios números (578 → 719 km²) dão cerca de 24%; a pista usa só os números absolutos.",
+          "População: só a estimativa da Britannica para 2024 (5.997.000) foi usada, com o ano.",
+          "O nome “Cidade do Leão” tem origem discutida: a Britannica cita o governante chola Rajendra, monges budistas do século XIV e a crônica malaia de Sri Tri Buana."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "Criado e verificado nas fontes: Britannica (verbete e história), UNESCO (jardim botânico e patrimônio imaterial), NParks, NEA e BiblioAsia/Biblioteca Nacional; C1 com 16 cidades asiáticas comparáveis."
       }
     }
   ]

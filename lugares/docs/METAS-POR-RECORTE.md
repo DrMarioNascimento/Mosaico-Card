@@ -12,7 +12,7 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 | Américas (sem Brasil) | 30 | 30 | 0 |
 | Europa | 30 | 30 | 0 |
 | África | 32 | 30 | 0 |
-| Ásia | 31 | 30 | 0 |
+| Ásia | 32 | 30 | 0 |
 | Oceania | 32 | 30 | 0 |
 | Antártida | 32 | 30 | 0 |
 
