@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-parque-sete-cidades",
+    "placeId": "parque-sete-cidades",
+    "title": "Parque Nacional de Sete Cidades",
+    "aliases": [
+      "Sete Cidades"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Sete Cidades"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional do Catimbau"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional da Serra das Confusões"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Ubajara"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Serra de Itabaiana"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Furna Feia"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional do Boqueirão da Onça"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional de Jericoacoara"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Chapada das Mesas"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional dos Lençóis Maranhenses"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Sete Cidades",
+        "sources": [
+          "SETECIDADES_ICM2025",
+          "SETECIDADES_SGB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rocha das formações ruiniformes do parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Arenito"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Calcário"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Granito"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Basalto"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Arenito",
+        "sources": [
+          "SETECIDADES_SGB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Parque nacional ligado a este por uma trilha de longo percurso de 120 km",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Parque Nacional de Ubajara"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Parque Nacional de Jericoacoara"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Parque Nacional da Serra das Confusões"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Parque Nacional de Ubajara",
+        "sources": [
+          "SETECIDADES_ICM2025"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Piauí"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Ceará"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Maranhão"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Pernambuco"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Piauí",
+        "sources": [
+          "SETECIDADES_ICM2025",
+          "SETECIDADES_SGB",
+          "SETECIDADES_DEC2026"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-sete-cidades-viajante-P01",
+            "factKey": "parque-sete-cidades-F01",
+            "text": "É uma área protegida no interior do Nordeste, de clima quente, com média perto de 28 °C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P02",
+            "factKey": "parque-sete-cidades-F02",
+            "text": "A vegetação mistura cerrado e caatinga, com buritis e carnaúbas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P03",
+            "factKey": "parque-sete-cidades-F03",
+            "text": "O parque foi criado em 1961.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB",
+              "SETECIDADES_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P04",
+            "factKey": "parque-sete-cidades-F04",
+            "text": "A paisagem é cheia de rochas com formas curiosas, que lembram pessoas, animais e objetos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P05",
+            "factKey": "parque-sete-cidades-F05",
+            "text": "As formações rochosas foram esculpidas pela água e pelo vento.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P06",
+            "factKey": "parque-sete-cidades-F06",
+            "text": "De um mirante dá para ver de uma vez o conjunto de formações rochosas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P07",
+            "factKey": "parque-sete-cidades-F07",
+            "text": "Uma rocha coberta de desenhos em polígonos é conhecida como Pedra da Tartaruga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P08",
+            "factKey": "parque-sete-cidades-F08",
+            "text": "Há um arco de pedra chamado Arco do Triunfo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P09",
+            "factKey": "parque-sete-cidades-F09",
+            "text": "Uma das formações é conhecida como Mapa do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P10",
+            "factKey": "parque-sete-cidades-F10",
+            "text": "Há pinturas rupestres com cerca de 6 mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P11",
+            "factKey": "parque-sete-cidades-F11",
+            "text": "A Cachoeira do Riachão, com cerca de 15 metros, só tem passeio na época de chuva, de fevereiro a julho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P12",
+            "factKey": "parque-sete-cidades-F12",
+            "text": "Perto da pousada há piscinas naturais e um olho-d’água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P13",
+            "factKey": "parque-sete-cidades-F13",
+            "text": "Há passeios especiais no pôr do sol, em noites de lua cheia e no solstício de 21 de junho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P14",
+            "factKey": "parque-sete-cidades-F14",
+            "text": "Seriemas, papagaios, periquitos e jacus estão entre as aves.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P15",
+            "factKey": "parque-sete-cidades-F15",
+            "text": "A fauna inclui jaguatirica, gato-maracajá, veado, tatu-peba, mocó e iguana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P16",
+            "factKey": "parque-sete-cidades-F16",
+            "text": "Entre os circuitos fixos estão o Circuito das Águas e o Vale das Pedras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P17",
+            "factKey": "parque-sete-cidades-F17",
+            "text": "Em 2023 o parque bateu recorde, com mais de 30 mil visitantes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P18",
+            "factKey": "parque-sete-cidades-F18",
+            "text": "Dentro do parque há uma pousada de 12 suítes com restaurante, reformada em 2023 e 2024.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P19",
+            "factKey": "parque-sete-cidades-F19",
+            "text": "Uma trilha de 120 km liga este parque a outro parque nacional, na serra vizinha.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P20",
+            "factKey": "parque-sete-cidades-F20",
+            "text": "Há duas entradas, as portarias Norte e Sul, abertas todos os dias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P21",
+            "factKey": "parque-sete-cidades-F21",
+            "text": "O parque fica cercado por uma área de proteção ambiental bem maior, ligada a uma serra.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P22",
+            "factKey": "parque-sete-cidades-F22",
+            "text": "Fica a 186 km da capital do estado, pela BR-343.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P23",
+            "factKey": "parque-sete-cidades-F23",
+            "text": "Em 2026 o parque foi ampliado e passou a ter cerca de 13,5 mil hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_DEC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P24",
+            "factKey": "parque-sete-cidades-F24",
+            "text": "Fica no Piauí, entre os municípios de Piracuruca e Brasileira.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_DEC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-viajante-P25",
+            "factKey": "parque-sete-cidades-F25",
+            "text": "Os conjuntos de pedra são chamados de “cidades” e numerados um a um.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-sete-cidades-geografo-P01",
+            "factKey": "parque-sete-cidades-F01",
+            "text": "A unidade está numa bacia sedimentar intracratônica de idade paleozoica.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P02",
+            "factKey": "parque-sete-cidades-F02",
+            "text": "O clima é tropical com estação seca (Köppen Aw), com cerca de 1.200 mm de chuva concentrados de dezembro a maio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P03",
+            "factKey": "parque-sete-cidades-F03",
+            "text": "O relevo ruiniforme foi esculpido em arenitos claros da Formação Cabeças, de idade devoniana.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P04",
+            "factKey": "parque-sete-cidades-F04",
+            "text": "Diamictitos, tilitos e seixos estriados na formação indicam influência glacial no passado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P05",
+            "factKey": "parque-sete-cidades-F05",
+            "text": "As rochas se depositaram em ambiente flúvio-deltaico, com sinais de tempestades (estratificação hummocky).",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P06",
+            "factKey": "parque-sete-cidades-F06",
+            "text": "Fraturas de direção leste-oeste controlam muralhas rochosas e influenciam a drenagem.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P07",
+            "factKey": "parque-sete-cidades-F07",
+            "text": "Os polígonos de uma das rochas mais famosas são interpretados como gretas de contração de argilas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P08",
+            "factKey": "parque-sete-cidades-F08",
+            "text": "A erosão alveolar abriu um arco na rocha, num dos geossítios do conjunto.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P09",
+            "factKey": "parque-sete-cidades-F09",
+            "text": "Uma proposta de geoparque do Serviço Geológico do Brasil, de 2011, cobria exatamente a área do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P10",
+            "factKey": "parque-sete-cidades-F10",
+            "text": "As pinturas rupestres, de cerca de 6 mil anos AP, pertencem à tradição Agreste, ainda pouco estudada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P11",
+            "factKey": "parque-sete-cidades-F11",
+            "text": "A drenagem regional, de padrão dendrítico a subparalelo, inclui os rios Parnaíba, Longá, Poti e Canindé.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P12",
+            "factKey": "parque-sete-cidades-F12",
+            "text": "Uma queda de cerca de 15 m no Riacho D’água do Pinga só entra na visitação no período chuvoso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_SGB",
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P13",
+            "factKey": "parque-sete-cidades-F13",
+            "text": "A unidade é circundada pela APA da Serra da Ibiapaba, criada em 1996, com cerca de 1,59 milhão de hectares.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P14",
+            "factKey": "parque-sete-cidades-F14",
+            "text": "Uma trilha de 120 km pela APA, a Caminhos da Ibiapaba, conecta a unidade a outro parque nacional.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P15",
+            "factKey": "parque-sete-cidades-F15",
+            "text": "A unidade foi criada pelo Decreto nº 50.744, de 8 de junho de 1961.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB",
+              "SETECIDADES_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P16",
+            "factKey": "parque-sete-cidades-F16",
+            "text": "Um decreto de setembro de 2026 ampliou a unidade em cerca de 7.192 ha, para aproximadamente 13.502 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_DEC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P17",
+            "factKey": "parque-sete-cidades-F17",
+            "text": "A ampliação de 2026 excluiu dos limites o leito e a faixa de domínio de uma ferrovia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_DEC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P18",
+            "factKey": "parque-sete-cidades-F18",
+            "text": "Na nova zona de amortecimento, o decreto admite infraestrutura energética de interesse público e mineração sob condições.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_DEC2026"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P19",
+            "factKey": "parque-sete-cidades-F19",
+            "text": "A visitação, registrada desde 1980, teve pico em 2011 com telenovelas gravadas no local e caiu em 2020 com a pandemia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P20",
+            "factKey": "parque-sete-cidades-F20",
+            "text": "Os circuitos combinam percursos permanentes e sazonais, ajustados à estação chuvosa (fevereiro a julho) e à seca (julho a dezembro).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P21",
+            "factKey": "parque-sete-cidades-F21",
+            "text": "Uma das formações exibe folhas de ferrificação, produto de processo diagenético nos arenitos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P22",
+            "factKey": "parque-sete-cidades-F22",
+            "text": "A área original demarcada era de 6.221,48 ha, segundo o plano de manejo do fim dos anos 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P23",
+            "factKey": "parque-sete-cidades-F23",
+            "text": "O plano de manejo antigo nunca foi formalizado oficialmente, e o conselho consultivo só foi criado em 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P24",
+            "factKey": "parque-sete-cidades-F24",
+            "text": "A unidade fica a 186 km de Teresina e a 155 km da cidade de Parnaíba, pela BR-343.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-sete-cidades-geografo-P25",
+            "factKey": "parque-sete-cidades-F25",
+            "text": "Os conjuntos rochosos são numerados: a Pedra da Tartaruga fica na sexta “cidade” e o Arco do Triunfo, na segunda.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "SETECIDADES_ICM2025",
+              "SETECIDADES_SGB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional do Piauí (Brasileira e Piracuruca), criado em 8/6/1961 e ampliado em 2026 para cerca de 13,5 mil ha: sete conjuntos ruiniformes de arenito devoniano da Formação Cabeças, esculpidos pela água e pelo vento, com pinturas rupestres de cerca de 6 mil anos, em transição entre cerrado e caatinga.",
+      "editorialNotes": [
+        "A área mudou: 6.221,48 ha demarcados no plano de manejo de 1979 (ICMBio), 7.700 ha na Wikipédia e cerca de 13.502 ha após o Decreto nº 13.115, de 8/9/2026.",
+        "O nome vem dos sete conjuntos rochosos chamados \"cidades\", não de cidades habitadas.",
+        "A proposta de geoparque (SGB, 2011) lista sete municípios no entorno; os limites do parque abrangem só Brasileira e Piracuruca."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por anexo de caracterização do ICMBio (2025), proposta de geoparque do SGB (2011), Decreto nº 13.115/2026 (ampliação) e Wikipédia, todos abertos; C1 restrito a parques do Nordeste, C2–C3 refeitos e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "SETECIDADES_ICM2025": {
+      "id": "SETECIDADES_ICM2025",
+      "title": "Anexo F — Caracterização da área de permissão de serviços do Parque Nacional de Sete Cidades (2025)",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes/concorrencia/2025/sede/SEI_ICMBio021905224AnexoFcaracterizaodareadepermisso.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SETECIDADES_SGB": {
+      "id": "SETECIDADES_SGB",
+      "title": "Projeto Geoparques: Geoparque Sete Cidades – PI, Proposta (Barros, Ferreira e Pedreira, 2011)",
+      "publisher": "Serviço Geológico do Brasil (CPRM)",
+      "url": "https://rigeo.sgb.gov.br/bitstream/doc/14606/1/rli_geoparque_cidades_barros_2011.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "SETECIDADES_DEC2026": {
+      "id": "SETECIDADES_DEC2026",
+      "title": "Decreto nº 13.115, de 8 de setembro de 2026 — Amplia o Parque Nacional de Sete Cidades",
+      "publisher": "Senado Federal — Legislação",
+      "url": "https://legis.senado.leg.br/norma/43773235/publicacao/43773402",
+      "checkedAt": "2026-11-15"
+    },
+    "SETECIDADES_WIKI": {
+      "id": "SETECIDADES_WIKI",
+      "title": "Sete Cidades National Park",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/Sete_Cidades_National_Park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/licitacoes-e-contratos/licitacoes/concorrencia/2025/sede/SEI_ICMBio021905224AnexoFcaracterizaodareadepermisso.pdf",
+      "https://rigeo.sgb.gov.br/bitstream/doc/14606/1/rli_geoparque_cidades_barros_2011.pdf",
+      "https://legis.senado.leg.br/norma/43773235/publicacao/43773402",
+      "https://en.wikipedia.org/wiki/Sete_Cidades_National_Park"
+    ],
+    "alteracoes": [
+      "Fontes SETECIDADES_ICM (edital 2024) e SETECIDADES_IPHAN do rascunho não foram abertas; substituídas por anexo do ICMBio (2025), proposta de geoparque do SGB, Decreto nº 13.115/2026 e Wikipédia",
+      "Fato novo incorporado: ampliação do parque para cerca de 13.502 ha pelo Decreto nº 13.115, de 8/9/2026",
+      "C1: Itatiaia, Canastra e Chapada dos Veadeiros (fora do recorte) trocados por Furna Feia, Chapada das Mesas e Lençóis Maranhenses; \"do Ubajara\" corrigido para \"de Ubajara\"",
+      "C2: \"Patrimônio cultural destacado\" trocado por \"Rocha das formações ruiniformes do parque\", gabarito Arenito (SGB: Formação Cabeças)",
+      "C3: \"Água e vento\" (distratores implausíveis) trocado por \"Parque nacional ligado a este por trilha de 120 km\", gabarito Ubajara (ICMBio)",
+      "C4: Sergipe trocado por Maranhão nos distratores",
+      "Pistas sem apoio nas fontes abertas retiradas: Salão do Pajé (Iphan), Piscina dos Milagres e nascentes nomeadas; Cachoeira do Riachão ganhou altura (15 m, SGB) e período de visita (ICMBio)",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

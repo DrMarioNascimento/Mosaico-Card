@@ -1,0 +1,1067 @@
+{
+  "case": {
+    "id": "lug2-rio-parnaiba",
+    "placeId": "rio-parnaiba",
+    "title": "Rio Parnaíba",
+    "aliases": [
+      "Parnaíba"
+    ],
+    "answerType": "rio",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Rio do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Rio Parnaíba"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio São Francisco"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Rio Jaguaribe"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Rio Piranhas-Açu"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Rio Itapecuru"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Rio Mearim"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Rio Capibaribe"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Rio Paraíba"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Rio Vaza-Barris"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Rio de Contas"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Rio Pindaré"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Rio Acaraú"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Rio Parnaíba",
+        "sources": [
+          "PARNAIBA_SGB2017",
+          "PARNAIBA_SGB2021",
+          "PARNAIBA_FUNDAJ"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Estados que o rio separa",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Piauí e Maranhão"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Bahia e Pernambuco"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Alagoas e Sergipe"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Ceará e Piauí"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Piauí e Maranhão",
+        "sources": [
+          "PARNAIBA_SGB2017",
+          "PARNAIBA_SGB2021",
+          "PARNAIBA_FUNDAJ"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Único grande afluente da margem esquerda",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Rio das Balsas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Rio Poti"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Rio Gurguéia"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Rio Canindé"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Rio das Balsas",
+        "sources": [
+          "PARNAIBA_SGB2017",
+          "PARNAIBA_SGB2021"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Grande barragem no curso principal do rio",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Boa Esperança"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Sobradinho"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Castanhão"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Armando Ribeiro Gonçalves"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Boa Esperança",
+        "sources": [
+          "PARNAIBA_SGB2017",
+          "PARNAIBA_FUNDAJ"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "rio-parnaiba-viajante-P01",
+            "factKey": "rio-parnaiba-F01",
+            "text": "É um rio que corre o ano inteiro, mesmo atravessando áreas de seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P02",
+            "factKey": "rio-parnaiba-F02",
+            "text": "Ele nasce numa chapada do interior e corre até o Oceano Atlântico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P03",
+            "factKey": "rio-parnaiba-F03",
+            "text": "O rio tem cerca de 1.344 km de extensão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P04",
+            "factKey": "rio-parnaiba-F04",
+            "text": "Nasce na Chapada das Mangabeiras, perto das divisas com a Bahia e o Tocantins.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P05",
+            "factKey": "rio-parnaiba-F05",
+            "text": "O rio Água Quente, que nasce a 709 m de altitude, é seu formador mais importante.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P06",
+            "factKey": "rio-parnaiba-F06",
+            "text": "Por todo o caminho, ele serve de divisa entre dois estados vizinhos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P07",
+            "factKey": "rio-parnaiba-F07",
+            "text": "Uma capital estadual fica às suas margens.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P08",
+            "factKey": "rio-parnaiba-F08",
+            "text": "Em frente a essa capital, do outro lado do rio, fica uma cidade de outro estado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P09",
+            "factKey": "rio-parnaiba-F09",
+            "text": "Na foz, o rio se abre em vários braços e ilhas antes de chegar ao mar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P10",
+            "factKey": "rio-parnaiba-F10",
+            "text": "Ele chega ao oceano por três barras: Igaraçu, Canárias e Tutóia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P11",
+            "factKey": "rio-parnaiba-F11",
+            "text": "Uma grande barragem com usina hidrelétrica, a de Boa Esperança, represa o rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P12",
+            "factKey": "rio-parnaiba-F12",
+            "text": "O lago dessa barragem cobre cerca de 430 km².",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P13",
+            "factKey": "rio-parnaiba-F13",
+            "text": "O Poti, que nasce no Ceará, é um de seus afluentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P14",
+            "factKey": "rio-parnaiba-F14",
+            "text": "O Gurguéia, o Canindé e o Longá também deságuam nele.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P15",
+            "factKey": "rio-parnaiba-F15",
+            "text": "Do lado maranhense, só um afluente grande chega a ele: o rio das Balsas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P16",
+            "factKey": "rio-parnaiba-F16",
+            "text": "Cidades como Floriano, Uruçuí e Amarante ficam à beira do rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P17",
+            "factKey": "rio-parnaiba-F17",
+            "text": "Ilhas do delta têm nomes como Grande de Santa Isabel, Canárias e Caju.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P18",
+            "factKey": "rio-parnaiba-F18",
+            "text": "As maiores cheias recentes aconteceram em 1985, 2004, 2008 e 2009.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P19",
+            "factKey": "rio-parnaiba-F19",
+            "text": "No delta, a criação de camarão é a principal atividade de aquicultura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P20",
+            "factKey": "rio-parnaiba-F20",
+            "text": "Cerca de três quartos da bacia ficam num só estado; o resto se divide entre dois vizinhos.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P21",
+            "factKey": "rio-parnaiba-F21",
+            "text": "A bacia do rio drena cerca de 331 mil km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P22",
+            "factKey": "rio-parnaiba-F22",
+            "text": "No caminho para o mar, ele passa por Barão de Grajaú e Luzilândia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P23",
+            "factKey": "rio-parnaiba-F23",
+            "text": "Perto do mar, cidades como Luís Correia e Tutóia ficam às suas margens.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P24",
+            "factKey": "rio-parnaiba-F24",
+            "text": "Ele forma toda a divisa entre o Piauí e o Maranhão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-viajante-P25",
+            "factKey": "rio-parnaiba-F25",
+            "text": "Ele passa entre Teresina e Timon.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "rio-parnaiba-geografo-P01",
+            "factKey": "rio-parnaiba-F01",
+            "text": "Rio perene que atravessa uma bacia de clima semiárido a leste e tropical úmido a noroeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P02",
+            "factKey": "rio-parnaiba-F02",
+            "text": "O rio liga chapadas do interior a um delta aberto no Atlântico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P03",
+            "factKey": "rio-parnaiba-F03",
+            "text": "As nascentes ficam na Chapada das Mangabeiras, no encontro das divisas de três estados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P04",
+            "factKey": "rio-parnaiba-F04",
+            "text": "Lins e Andrade (1975) mediram não mais de 1.414 km no mapa ao milionésimo, contra estimativas de até 1.955 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P05",
+            "factKey": "rio-parnaiba-F05",
+            "text": "Pela margem direita chegam Gurguéia, Canindé, Poti e Longá; pela esquerda, só o Balsas é grande.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P06",
+            "factKey": "rio-parnaiba-F06",
+            "text": "A sub-bacia do Canindé é a mais seca (746,5 mm/ano), e a do Longá, no baixo curso, a mais chuvosa (1.370,4 mm).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P07",
+            "factKey": "rio-parnaiba-F07",
+            "text": "A vazão específica do Balsas (cerca de 5 l/s/km²) é cerca de quatro vezes a do Poti (cerca de 1,2 l/s/km²).",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P08",
+            "factKey": "rio-parnaiba-F08",
+            "text": "O Poti nasce no Ceará, estado que detém cerca de 5% da bacia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P09",
+            "factKey": "rio-parnaiba-F09",
+            "text": "Poti e Longá são subpermanentes, e Piauí, Canindé e Itaim são intermitentes, enquanto o tronco principal é perene.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P10",
+            "factKey": "rio-parnaiba-F10",
+            "text": "A represa de Boa Esperança inundou cerca de 430 km² e alagou a confluência do Balsas.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P11",
+            "factKey": "rio-parnaiba-F11",
+            "text": "A usina hidrelétrica Marechal Castelo Branco fica cerca de 80 km a montante de Floriano.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P12",
+            "factKey": "rio-parnaiba-F12",
+            "text": "A barragem hidrelétrica marca o limite entre as regiões hidrográficas do Alto curso/Uruçuí Preto e do Gurguéia/Itaueira.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P13",
+            "factKey": "rio-parnaiba-F13",
+            "text": "O delta começa com uma bifurcação que isola a ilha dos Poções; o ramo oriental se divide em Canárias e Igaraçu.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P14",
+            "factKey": "rio-parnaiba-F14",
+            "text": "O ramo ocidental do delta, o rio Santa Rosa, se divide em três braços.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P15",
+            "factKey": "rio-parnaiba-F15",
+            "text": "Canais dragados, como o igarapé São José, ligam braços do delta entre si.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P16",
+            "factKey": "rio-parnaiba-F16",
+            "text": "A ocupação desordenada das várzeas urbanas agravou os prejuízos das grandes cheias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P17",
+            "factKey": "rio-parnaiba-F17",
+            "text": "Estiagens regulares atingem a porção semiárida, e as secas são mais longas nas sub-bacias do Canindé e do Poti.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P18",
+            "factKey": "rio-parnaiba-F18",
+            "text": "Teresina, Floriano e Picos aparecem como zonas industriais em expansão na bacia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P19",
+            "factKey": "rio-parnaiba-F19",
+            "text": "Um sistema de alerta hidrológico do SGB monitora cheias em sete cidades da bacia, com cerca de 1,15 milhão de habitantes (2010).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P20",
+            "factKey": "rio-parnaiba-F20",
+            "text": "O Gurguéia, o afluente mais longo segundo Lins e Andrade (541 km), é perene como o rio principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P21",
+            "factKey": "rio-parnaiba-F21",
+            "text": "O Plano Nacional de Recursos Hídricos divide a bacia em seis regiões hidrográficas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P22",
+            "factKey": "rio-parnaiba-F22",
+            "text": "A bacia de drenagem, de cerca de 331 mil km², reparte-se entre três estados: cerca de 75%, 20% e 5%.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P23",
+            "factKey": "rio-parnaiba-F23",
+            "text": "Com o São Francisco, é um dos dois únicos rios do Polígono das Secas que não secam logo após as chuvas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P24",
+            "factKey": "rio-parnaiba-F24",
+            "text": "O curso principal constitui inteiramente a divisa entre Piauí e Maranhão.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2017",
+              "PARNAIBA_FUNDAJ"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "rio-parnaiba-geografo-P25",
+            "factKey": "rio-parnaiba-F25",
+            "text": "Separa Teresina, capital piauiense, de Timon, no Maranhão, atendidas pela mesma estação de alerta.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNAIBA_SGB2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Rio perene de cerca de 1.344 km que nasce na Chapada das Mangabeiras e forma toda a divisa entre Piauí e Maranhão até desaguar em delta no Atlântico; bacia de cerca de 331 mil km² (75% PI, 20% MA, 5% CE), com Gurguéia, Canindé, Poti e Longá à direita, o Balsas à esquerda e a barragem de Boa Esperança.",
+      "editorialNotes": [
+        "A extensão varia entre fontes: 1.344 km (SGB) e \"não mais de 1.414 km\" (Lins e Andrade, 1975, que contestam estimativas antigas de até 1.955 km).",
+        "O curso é pauta distinta da APA Delta do Parnaíba, já no banco; as pistas do delta ficam em \"conexão\" e não se recomenda sortear os dois lugares em sequência.",
+        "Os percentuais (75/20/5) referem-se à bacia de drenagem, não ao percurso do rio principal."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por boletim (2017) e relatório (2021) do sistema de alerta hidrológico do SGB e artigo de Lins e Andrade (Fundaj, 1975), todos abertos; C1 restrito a rios do Nordeste, C3–C4 refeitos e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "PARNAIBA_SGB2017": {
+      "id": "PARNAIBA_SGB2017",
+      "title": "Boletim do Sistema de Alerta Hidrológico da Bacia do Rio Parnaíba (16/11/2017)",
+      "publisher": "Serviço Geológico do Brasil (SGB)",
+      "url": "https://www.sgb.gov.br/sace/boletins/Parnaiba/20171116_10-20171116%20-%20103332.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNAIBA_SGB2021": {
+      "id": "PARNAIBA_SGB2021",
+      "title": "Relatório de operação do Sistema de Alerta Hidrológico da Bacia do Rio Parnaíba — 2021",
+      "publisher": "Serviço Geológico do Brasil (SGB/CPRM)",
+      "url": "https://rigeo.cprm.gov.br/jspui/bitstream/doc/22581/1/relatorio_operacao_SAH_parnaiba_2021.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNAIBA_FUNDAJ": {
+      "id": "PARNAIBA_FUNDAJ",
+      "title": "Aspectos hidrográficos da Bacia do Parnaíba (Lins e Andrade, Ciência & Trópico, 1975)",
+      "publisher": "Fundação Joaquim Nabuco (Fundaj)",
+      "url": "https://fundaj.emnuvens.com.br/CIC/article/download/153/75/418",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.sgb.gov.br/sace/boletins/Parnaiba/20171116_10-20171116%20-%20103332.pdf",
+      "https://rigeo.cprm.gov.br/jspui/bitstream/doc/22581/1/relatorio_operacao_SAH_parnaiba_2021.pdf",
+      "https://fundaj.emnuvens.com.br/CIC/article/download/153/75/418",
+      "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/atlas-aquaviario/Atlas_part2.pdf"
+    ],
+    "alteracoes": [
+      "Fontes PARNAIBA_DNIT, PARNAIBA_ANA e PARNAIBA_CBH do rascunho não foram abertas (URLs fora das buscas); substituídas por SGB (2017 e 2021) e Fundaj (1975). O Atlas Aquaviário do DNIT foi aberto, mas não descreve a hidrovia e não foi usado",
+      "C1: Jequitinhonha, Paranaíba, Paraíba do Sul, Doce, Tocantins e Araguaia (fora do recorte) trocados por Capibaribe, Paraíba, Vaza-Barris, Contas, Pindaré e Acaraú",
+      "C2: Ceará e Rio Grande do Norte trocado por Ceará e Piauí; gabarito Piauí e Maranhão mantido",
+      "C3: \"Rio afluente\" (distratores eram afluentes do São Francisco) trocado por \"Único grande afluente da margem esquerda\", gabarito Rio das Balsas (SGB), com distratores que são afluentes reais da margem direita",
+      "C4: \"Cidades em margens opostas\" (redundante com C2 e com distratores implausíveis) trocado por \"Grande barragem no curso principal do rio\", gabarito Boa Esperança (SGB, Fundaj)",
+      "Pistas sem apoio nas fontes abertas retiradas: Serra da Tabatinga, formadores Boi Pintado e Surubim, Uruçuí Preto como afluente direto, comitê de bacia e hidrovia; extensão passou de \"mais de mil quilômetros\" para 1.344 km (SGB)",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

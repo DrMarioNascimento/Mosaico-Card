@@ -1,0 +1,1073 @@
+{
+ "case": {
+  "id": "lug2-joao-pessoa",
+  "placeId": "joao-pessoa",
+  "title": "João Pessoa",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "João Pessoa"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Natal"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Maceió"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Aracaju"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Recife"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Salvador"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Fortaleza"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "João Pessoa",
+    "sources": [
+     "JOAOPESSOA_IBGEHIST",
+     "JOAOPESSOA_CB"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio junto ao qual a cidade foi fundada",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Sanhauá"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Capibaribe"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Potengi"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Cocó"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Sanhauá",
+    "sources": [
+     "JOAOPESSOA_IBGEHIST",
+     "JOAOPESSOA_AUCENTRO"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Centro cultural da cidade",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Estação Cabo Branco"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Paço do Frevo"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Centro Dragão do Mar"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Museu do Amanhã"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Estação Cabo Branco",
+    "sources": [
+     "JOAOPESSOA_CB",
+     "JOAOPESSOA_VITRUVIUS"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Extremo geográfico que fica no município",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Ponto mais oriental das Américas"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Ponto mais setentrional do Brasil"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Ponto mais meridional do Brasil"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Ponto mais ocidental do Brasil"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Ponto mais oriental das Américas",
+    "sources": [
+     "JOAOPESSOA_CB",
+     "JOAOPESSOA_VITRUVIUS"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "joao-pessoa-viajante-P01",
+      "factKey": "joao-pessoa-F01",
+      "text": "É uma capital litorânea do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P02",
+      "factKey": "joao-pessoa-F02",
+      "text": "É uma das capitais mais antigas do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P03",
+      "factKey": "joao-pessoa-F03",
+      "text": "Fica na Paraíba.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P04",
+      "factKey": "joao-pessoa-F04",
+      "text": "Foi fundada em 5 de agosto de 1585.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST",
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P05",
+      "factKey": "joao-pessoa-F05",
+      "text": "Nasceu num morro à beira de um pequeno rio chamado Sanhauá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P06",
+      "factKey": "joao-pessoa-F06",
+      "text": "O primeiro nome homenageava Nossa Senhora das Neves, até hoje a padroeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST",
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P07",
+      "factKey": "joao-pessoa-F07",
+      "text": "Já se chamou Felipeia, em homenagem a um rei espanhol.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P08",
+      "factKey": "joao-pessoa-F08",
+      "text": "Os holandeses ocuparam a cidade em 1634 e lhe deram outro nome.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P09",
+      "factKey": "joao-pessoa-F09",
+      "text": "O nome atual, adotado em 1930, homenageia um presidente do estado que foi assassinado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P10",
+      "factKey": "joao-pessoa-F10",
+      "text": "O centro antigo tem uma parte baixa, do comércio, e uma alta, do governo e das igrejas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P11",
+      "factKey": "joao-pessoa-F11",
+      "text": "O centro histórico foi tombado pelo Iphan em 2007.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_JPB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P12",
+      "factKey": "joao-pessoa-F12",
+      "text": "Igrejas barrocas, como a de São Francisco, ficam no centro histórico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P13",
+      "factKey": "joao-pessoa-F13",
+      "text": "Um antigo hotel construído em 1928 e 1929 virou centro cultural.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P14",
+      "factKey": "joao-pessoa-F14",
+      "text": "Desse antigo hotel se vê o pôr do sol sobre o rio Sanhauá.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P15",
+      "factKey": "joao-pessoa-F15",
+      "text": "Casarões coloridos em estilo art déco cercam a Praça Antenor Navarro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P16",
+      "factKey": "joao-pessoa-F16",
+      "text": "O antigo porto da cidade é chamado de Porto do Capim.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P17",
+      "factKey": "joao-pessoa-F17",
+      "text": "Uma mata atlântica de cerca de 515 hectares fica dentro da área urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P18",
+      "factKey": "joao-pessoa-F18",
+      "text": "Tambaú é a praia mais movimentada da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P19",
+      "factKey": "joao-pessoa-F19",
+      "text": "Cabo Branco e Manaíra também têm calçadões cheios de restaurantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P20",
+      "factKey": "joao-pessoa-F20",
+      "text": "Catamarãs levam a piscinas naturais formadas por corais no Seixas.",
+      "relatedFields": [
+       "C1",
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P21",
+      "factKey": "joao-pessoa-F21",
+      "text": "Um farol em forma de torre triangular fica no alto de uma falésia.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P22",
+      "factKey": "joao-pessoa-F22",
+      "text": "Um centro cultural projetado por Oscar Niemeyer foi inaugurado em 2008.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB",
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P23",
+      "factKey": "joao-pessoa-F23",
+      "text": "Esse centro cultural fica sobre a falésia do Cabo Branco.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P24",
+      "factKey": "joao-pessoa-F24",
+      "text": "A Ponta do Seixas fica no fim da praia do Cabo Branco.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-viajante-P25",
+      "factKey": "joao-pessoa-F25",
+      "text": "A Ponta do Seixas é apontada como o ponto mais oriental das Américas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB",
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "joao-pessoa-geografo-P01",
+      "factKey": "joao-pessoa-F01",
+      "text": "É uma capital litorânea cujo núcleo fundador se instalou num morro à beira de um rio.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P02",
+      "factKey": "joao-pessoa-F02",
+      "text": "O rio do núcleo original é um pequeno afluente do rio Paraíba.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P03",
+      "factKey": "joao-pessoa-F03",
+      "text": "A fundação selou um pacto entre o capitão João Tavares e o chefe tabajara Piragibe.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P04",
+      "factKey": "joao-pessoa-F04",
+      "text": "Fortes na barra do rio Paraíba protegiam o acesso contra os franceses.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P05",
+      "factKey": "joao-pessoa-F05",
+      "text": "Quando os holandeses chegaram, em 1634, viviam ali cerca de 1.500 pessoas, com 18 engenhos ao redor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P06",
+      "factKey": "joao-pessoa-F06",
+      "text": "A ocupação holandesa só terminou em 1654.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P07",
+      "factKey": "joao-pessoa-F07",
+      "text": "Os nomes da cidade seguiram o domínio político: Felipeia sob o rei espanhol, Frederikstadt sob os holandeses.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P08",
+      "factKey": "joao-pessoa-F08",
+      "text": "O nome atual data de 1930 e substituiu o de Paraíba do Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P09",
+      "factKey": "joao-pessoa-F09",
+      "text": "O traçado colonial separava a ribeira comercial, embaixo, das funções administrativas e religiosas, no alto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P10",
+      "factKey": "joao-pessoa-F10",
+      "text": "O perímetro tombado, de 37 hectares, vai do Varadouro, junto ao rio, ao entorno da rua Duque de Caxias.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO",
+       "JOAOPESSOA_JPB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P11",
+      "factKey": "joao-pessoa-F11",
+      "text": "O tombamento federal foi aprovado em 6 de dezembro de 2007.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_JPB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P12",
+      "factKey": "joao-pessoa-F12",
+      "text": "Obras de modernização no início do século XX deram ao centro sua forma urbana atual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P13",
+      "factKey": "joao-pessoa-F13",
+      "text": "O convento de São Francisco começou a ser erguido em 1590; a igreja só ficou pronta em 1770.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P14",
+      "factKey": "joao-pessoa-F14",
+      "text": "A Praça Antenor Navarro resultou de projetos urbanos dos anos 1920 e 1930.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUCENTRO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P15",
+      "factKey": "joao-pessoa-F15",
+      "text": "O antigo porto fluvial do Varadouro é conhecido como Porto do Capim.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P16",
+      "factKey": "joao-pessoa-F16",
+      "text": "A transferência do porto para Cabedelo, em 1935, contribuiu para o declínio do antigo hotel do Varadouro.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P17",
+      "factKey": "joao-pessoa-F17",
+      "text": "Nos anos 1960, um hotel em Tambaú marcou a expansão da cidade rumo às praias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_AUGLOBO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P18",
+      "factKey": "joao-pessoa-F18",
+      "text": "Cabedelo, antes parte do município, emancipou-se em 1956.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P19",
+      "factKey": "joao-pessoa-F19",
+      "text": "Cerca de 515 hectares de Mata Atlântica persistem no meio da malha urbana.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P20",
+      "factKey": "joao-pessoa-F20",
+      "text": "Formações de coral perto da costa criam piscinas naturais no Seixas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P21",
+      "factKey": "joao-pessoa-F21",
+      "text": "A orla urbana reúne as praias de Tambaú, Cabo Branco e Manaíra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P22",
+      "factKey": "joao-pessoa-F22",
+      "text": "A Estação Cabo Branco, aberta em julho de 2008, reúne cinco edifícios em 8.571 m².",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P23",
+      "factKey": "joao-pessoa-F23",
+      "text": "A torre principal da estação ficou abaixo da vegetação para não alterar o perfil da ponta.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P24",
+      "factKey": "joao-pessoa-F24",
+      "text": "A falésia do Cabo Branco abriga um centro cultural de Niemeyer junto ao extremo leste das Américas.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_VITRUVIUS"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "joao-pessoa-geografo-P25",
+      "factKey": "joao-pessoa-F25",
+      "text": "No extremo leste do município, uma pequena praia entre falésias marca o ponto mais oriental do continente americano.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "JOAOPESSOA_CB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital da Paraíba fundada em 1585 num morro à beira do rio Sanhauá, com centro histórico tombado em 2007, orla de Tambaú e Cabo Branco e a Ponta do Seixas, tida como o ponto mais oriental das Américas, ao lado da Estação Cabo Branco de Niemeyer.",
+   "editorialNotes": [
+    "\"Ponto mais oriental das Américas\" refere-se ao continente; fontes jornalísticas e a Vitruvius usam a expressão.",
+    "O número de edifícios tombados diverge (cerca de 700 em 2008; 502 em 2022); as pistas usam só a área de 37 ha.",
+    "População do Censo 2022, Casa da Pólvora (1710), Parque Solon de Lucena, Bica e bairro Altiplano não foram confirmados nas fontes abertas e saíram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por histórico do IBGE, A União, Jornal da Paraíba, Correio Braziliense e Vitruvius abertos na revisão; C4 refeito e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "JOAOPESSOA_IBGEHIST": {
+   "id": "JOAOPESSOA_IBGEHIST",
+   "title": "João Pessoa (PB) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/paraiba/joaopessoa.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "JOAOPESSOA_AUCENTRO": {
+   "id": "JOAOPESSOA_AUCENTRO",
+   "title": "Centro Histórico: a rica variedade arquitetônica de JP",
+   "publisher": "A União (Governo da Paraíba)",
+   "url": "https://www.auniao.pb.gov.br/noticias/caderno_paraiba/centro-historico-a-rica-variedade-arquitetonica-de-jp",
+   "checkedAt": "2026-11-15"
+  },
+  "JOAOPESSOA_AUGLOBO": {
+   "id": "JOAOPESSOA_AUGLOBO",
+   "title": "Hotel Globo: um encontro com a história",
+   "publisher": "A União (Governo da Paraíba)",
+   "url": "https://auniao.pb.gov.br/noticias/caderno_diversidade/hotel-globo-um-encontro-com-a-historia",
+   "checkedAt": "2026-11-15"
+  },
+  "JOAOPESSOA_JPB": {
+   "id": "JOAOPESSOA_JPB",
+   "title": "João Pessoa comemora 423 anos como patrimônio nacional",
+   "publisher": "Jornal da Paraíba",
+   "url": "https://jornaldaparaiba.com.br/cotidiano/vidaurbana/joao-pessoa-comemora-423-anos-como-patrimonio-nacional",
+   "checkedAt": "2026-11-15"
+  },
+  "JOAOPESSOA_CB": {
+   "id": "JOAOPESSOA_CB",
+   "title": "Onde o sol nasce primeiro nas Américas e a 3ª capital mais antiga do Brasil é uma das mais verdes do mundo",
+   "publisher": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cbradar/onde-o-sol-nasce-primeiro-nas-americas-e-a-3a-capital-mais-antiga-do-brasil-e-uma-das-mais-verdes-do-mundo/",
+   "checkedAt": "2026-11-15"
+  },
+  "JOAOPESSOA_VITRUVIUS": {
+   "id": "JOAOPESSOA_VITRUVIUS",
+   "title": "Um projeto de Niemeyer marca o ponto mais oriental das Américas (Arquitextos 111.07, 2009)",
+   "publisher": "Vitruvius",
+   "url": "https://vitruvius.com.br/revistas/read/arquitextos/10.111/38/en",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/paraiba/joaopessoa.pdf",
+   "https://www.auniao.pb.gov.br/noticias/caderno_paraiba/centro-historico-a-rica-variedade-arquitetonica-de-jp",
+   "https://auniao.pb.gov.br/noticias/caderno_diversidade/hotel-globo-um-encontro-com-a-historia",
+   "https://jornaldaparaiba.com.br/cotidiano/vidaurbana/joao-pessoa-comemora-423-anos-como-patrimonio-nacional",
+   "https://www.correiobraziliense.com.br/cbradar/onde-o-sol-nasce-primeiro-nas-americas-e-a-3a-capital-mais-antiga-do-brasil-e-uma-das-mais-verdes-do-mundo/",
+   "https://vitruvius.com.br/revistas/read/arquitextos/10.111/38/en"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (JOAOPESSOA_IBGE, JOAOPESSOA_PREF, JOAOPESSOA_ESTACAO) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico), A União (2 matérias), Jornal da Paraíba (2008), Correio Braziliense (jul. 2026) e Vitruvius (2009)",
+   "alias \"João Pessoa\" (igual ao título) removido",
+   "C4: \"Estado\" trocado por \"Extremo geográfico que fica no município\", gabarito Ponto mais oriental das Américas (Correio Braziliense, Vitruvius)",
+   "Praça Antenor Navarro corrigida: casario art déco de projetos de 1920–1930, e não \"casarões do século XIX\" (A União)",
+   "Hotel Globo: construção em 1928–1929 (A União), e não só 1929; vista do Sanhauá confirmada",
+   "Retiradas pistas sem fonte aberta: população 2022, Casa da Pólvora em 1710 e seu uso, Largo de São Pedro Gonçalves com esse nome, Parque Solon de Lucena, Parque Arruda Câmara (Bica), bairro Altiplano",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

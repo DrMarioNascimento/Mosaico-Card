@@ -1,0 +1,1065 @@
+{
+  "case": {
+    "id": "lug2-norte-parna-amazonia",
+    "placeId": "norte-parna-amazonia",
+    "title": "Parque Nacional da Amazônia",
+    "aliases": [
+      "Parna da Amazônia"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Amazônia"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional do Jaú"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional de Anavilhanas"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional do Juruena"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional do Viruá"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional do Pico da Neblina"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Serra do Divisor"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional do Cabo Orange"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional Montanhas do Tumucumaque"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional do Monte Roraima"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Araguaia"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional Mapinguari"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Amazônia",
+        "sources": [
+          "PARNA_AMAZ_CNUC",
+          "PARNA_AMAZ_PA50"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio associado ao parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Rio Tapajós"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Rio Negro"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Rio Xingu"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rio Madeira"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Rio Tapajós",
+        "sources": [
+          "PARNA_AMAZ_WIKI",
+          "PARNA_AMAZ_PA50",
+          "PARNA_AMAZ_PATUR"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estados abrangidos",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pará e Amazonas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Acre e Rondônia"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Amapá e Pará"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tocantins e Goiás"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pará e Amazonas",
+        "sources": [
+          "PARNA_AMAZ_CNUC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rodovia que corta o parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Transamazônica (BR-230)"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Cuiabá–Santarém (BR-163)"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Manaus–Porto Velho (BR-319)"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Manaus–Boa Vista (BR-174)"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Transamazônica (BR-230)",
+        "sources": [
+          "PARNA_AMAZ_DOL",
+          "PARNA_AMAZ_PA50"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-parna-amazonia-viajante-P01",
+            "factKey": "norte-parna-amazonia-F01",
+            "text": "Esta unidade federal protege uma área de floresta na Amazônia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P02",
+            "factKey": "norte-parna-amazonia-F02",
+            "text": "Foi criada na década de 1970.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC",
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P03",
+            "factKey": "norte-parna-amazonia-F03",
+            "text": "Foi o primeiro parque nacional criado na região amazônica do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P04",
+            "factKey": "norte-parna-amazonia-F04",
+            "text": "A área abrange partes do Pará e do Amazonas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P05",
+            "factKey": "norte-parna-amazonia-F05",
+            "text": "Itaituba, no Pará, é a principal porta de entrada.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI",
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P06",
+            "factKey": "norte-parna-amazonia-F06",
+            "text": "O município paraense de Aveiro também é abrangido.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P07",
+            "factKey": "norte-parna-amazonia-F07",
+            "text": "Parte da unidade fica em Maués, no Amazonas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P08",
+            "factKey": "norte-parna-amazonia-F08",
+            "text": "Um grande rio, navegável o ano todo, passa pelo parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PATUR",
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P09",
+            "factKey": "norte-parna-amazonia-F09",
+            "text": "Esse rio é o Tapajós.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI",
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P10",
+            "factKey": "norte-parna-amazonia-F10",
+            "text": "Na seca, de agosto a dezembro, bancos de areia viram praias no rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P11",
+            "factKey": "norte-parna-amazonia-F11",
+            "text": "Uma rodovia atravessa a área protegida.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P12",
+            "factKey": "norte-parna-amazonia-F12",
+            "text": "Essa rodovia é a Transamazônica.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P13",
+            "factKey": "norte-parna-amazonia-F13",
+            "text": "O parque tem oito trilhas, que somam cerca de 20 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P14",
+            "factKey": "norte-parna-amazonia-F14",
+            "text": "O parque fica num divisor de águas entre bacias de rios.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P15",
+            "factKey": "norte-parna-amazonia-F15",
+            "text": "Uma das bases de apoio aos visitantes fica perto do igarapé Uruá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P16",
+            "factKey": "norte-parna-amazonia-F16",
+            "text": "Quase todo o parque é coberto por floresta tropical densa e úmida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P17",
+            "factKey": "norte-parna-amazonia-F17",
+            "text": "Igapós cheios de açaí e buriti aparecem perto da água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P18",
+            "factKey": "norte-parna-amazonia-F18",
+            "text": "Há árvores com mais de 50 metros, como sumaúmas e castanheiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P19",
+            "factKey": "norte-parna-amazonia-F19",
+            "text": "Campinaranas aparecem em algumas manchas do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P20",
+            "factKey": "norte-parna-amazonia-F20",
+            "text": "Ariranha, peixe-boi e tamanduá-bandeira estão entre os animais ameaçados que vivem ali.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL",
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P21",
+            "factKey": "norte-parna-amazonia-F21",
+            "text": "Onça-pintada e gato-maracajá também vivem na área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P22",
+            "factKey": "norte-parna-amazonia-F22",
+            "text": "Treze espécies de primatas foram registradas no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P23",
+            "factKey": "norte-parna-amazonia-F23",
+            "text": "Mais de 30 sítios arqueológicos do parque estão cadastrados no Iphan.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P24",
+            "factKey": "norte-parna-amazonia-F24",
+            "text": "Parte do parque se sobrepõe a uma terra indígena do povo Sateré-Mawé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-viajante-P25",
+            "factKey": "norte-parna-amazonia-F25",
+            "text": "Garimpo de ouro e corte ilegal de madeira ocorrem na parte leste do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-parna-amazonia-geografo-P01",
+            "factKey": "norte-parna-amazonia-F01",
+            "text": "A unidade de proteção integral conserva uma amostra de ecossistemas amazônicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P02",
+            "factKey": "norte-parna-amazonia-F02",
+            "text": "O objetivo legal combina preservação, pesquisa, educação ambiental e turismo ecológico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P03",
+            "factKey": "norte-parna-amazonia-F03",
+            "text": "A unidade foi criada pelo Decreto nº 73.683, de 19 de fevereiro de 1974, com 1 milhão de hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P04",
+            "factKey": "norte-parna-amazonia-F04",
+            "text": "Os limites foram revistos em 1985, ampliados em 2006 e alterados novamente por lei em 2012.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC",
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P05",
+            "factKey": "norte-parna-amazonia-F05",
+            "text": "A unidade se distribui por Itaituba e Aveiro, no Pará, e Maués, no Amazonas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P06",
+            "factKey": "norte-parna-amazonia-F06",
+            "text": "A gestão cabe a uma unidade avançada do ICMBio em Itaituba, que administra outras 11 unidades de conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P07",
+            "factKey": "norte-parna-amazonia-F07",
+            "text": "A oeste, a unidade faz limite com a Floresta Nacional de Pau-Rosa, criada em 2001.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P08",
+            "factKey": "norte-parna-amazonia-F08",
+            "text": "O rio principal nasce em antigas rochas ígneas e transporta poucos sedimentos.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P09",
+            "factKey": "norte-parna-amazonia-F09",
+            "text": "O rio funciona como barreira que impede algumas plantas e animais de passar de uma margem à outra.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P10",
+            "factKey": "norte-parna-amazonia-F10",
+            "text": "A seca, de agosto a dezembro, expõe bancos de areia e afloramentos rochosos, e as corredeiras exigem piloto experiente.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P11",
+            "factKey": "norte-parna-amazonia-F11",
+            "text": "A unidade está no divisor de águas entre as bacias do Tapajós e do Parauari–Maués-Açu.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P12",
+            "factKey": "norte-parna-amazonia-F12",
+            "text": "A Transamazônica corta a unidade, e o trecho sem asfalto fica mais difícil no período chuvoso.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL",
+              "PARNA_AMAZ_PATUR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P13",
+            "factKey": "norte-parna-amazonia-F13",
+            "text": "A abertura da Transamazônica e a migração que ela atraiu formam o contexto da criação do parque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P14",
+            "factKey": "norte-parna-amazonia-F14",
+            "text": "A floresta ombrófila densa cobre quase toda a área, com cerca de 2% de floresta mais aberta.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P15",
+            "factKey": "norte-parna-amazonia-F15",
+            "text": "Árvores de cerca de 50 m deixam passar luz para um sub-bosque de cipós, liquens, musgos e orquídeas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P16",
+            "factKey": "norte-parna-amazonia-F16",
+            "text": "Campos de areia branca ocorrem junto ao alto Tapajós, e há manchas de campinarana.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI",
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P17",
+            "factKey": "norte-parna-amazonia-F17",
+            "text": "Matas aluviais e igapós ricos em açaí e buriti acompanham as áreas alagáveis.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_DOL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P18",
+            "factKey": "norte-parna-amazonia-F18",
+            "text": "O clima é equatorial quente e úmido, com um a três meses secos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P19",
+            "factKey": "norte-parna-amazonia-F19",
+            "text": "Treze espécies de primatas foram registradas, e a diversidade de aves sustenta pesquisas de ornitologia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P20",
+            "factKey": "norte-parna-amazonia-F20",
+            "text": "Ariranha, peixe-boi-da-amazônia e tamanduá-bandeira figuram entre as espécies ameaçadas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P21",
+            "factKey": "norte-parna-amazonia-F21",
+            "text": "Onça-pintada e gato-maracajá também estão entre as espécies ameaçadas presentes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P22",
+            "factKey": "norte-parna-amazonia-F22",
+            "text": "Mais de 30 sítios arqueológicos da unidade estão cadastrados no Iphan.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P23",
+            "factKey": "norte-parna-amazonia-F23",
+            "text": "Parte do território se sobrepõe à Terra Indígena Andirá-Marau, dos Sateré-Mawé.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_PA50"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P24",
+            "factKey": "norte-parna-amazonia-F24",
+            "text": "A visitação registrada cresceu de 1.030 pessoas em 2021 para 1.663 em 2023.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_CNUC"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-parna-amazonia-geografo-P25",
+            "factKey": "norte-parna-amazonia-F25",
+            "text": "Extração ilegal de madeira e garimpo de ouro concentram-se nos setores leste, mais próximos das áreas urbanas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "PARNA_AMAZ_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Primeiro parque nacional da Amazônia brasileira, criado em 1974 às margens do rio Tapajós, em Itaituba e Aveiro (PA) e Maués (AM), cortado pela Transamazônica e coberto sobretudo por floresta ombrófila densa.",
+      "editorialNotes": [
+        "Municípios divergem: o CNUC lista Aveiro, Itaituba (PA) e Maués (AM); a Wikipedia cita Itaituba e Trairão, só no Pará. As pistas e o C3 seguem o CNUC.",
+        "A Wikipedia põe o parque nos dois lados do Tapajós; o Diário do Pará, na margem esquerda. As pistas não citam a margem.",
+        "Trilhas, bases e época de praias vêm de matéria de 2018; números de visitação, do CNUC (2021–2023)."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes do rascunho (plano de manejo, página de visitação e Fapespa) não puderam ser abertas; substituídas por CNUC, Wikipedia, duas matérias do Portal Amazônia e Diário do Pará; criação, municípios, rio, rodovia, vegetação, fauna, arqueologia e ameaças conferidos; aves e bacia citadas sem fonte trocadas."
+    }
+  },
+  "sources": {
+    "PARNA_AMAZ_WIKI": {
+      "id": "PARNA_AMAZ_WIKI",
+      "title": "Amazônia National Park",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amaz%C3%B4nia_National_Park",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNA_AMAZ_CNUC": {
+      "id": "PARNA_AMAZ_CNUC",
+      "title": "Parque Nacional da Amazônia — relatório da unidade no CNUC",
+      "publisher": "Ministério do Meio Ambiente (Cadastro Nacional de Unidades de Conservação)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/136",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNA_AMAZ_PA50": {
+      "id": "PARNA_AMAZ_PA50",
+      "title": "Primeiro parque nacional da Amazônia brasileira celebra 50 anos",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/noticias/primeiro-parque-nacional-da-amazonia-brasileira-celebra-50-anos/",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNA_AMAZ_PATUR": {
+      "id": "PARNA_AMAZ_PATUR",
+      "title": "Parque Nacional da Amazônia aposta no turismo sustentável; saiba como visitar",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/amazonia/parque-nacional-da-amazonia-aposta-no-turismo-sustentavel-saiba-como-visitar",
+      "checkedAt": "2026-11-15"
+    },
+    "PARNA_AMAZ_DOL": {
+      "id": "PARNA_AMAZ_DOL",
+      "title": "Itaituba, lazer na floresta em plena Transamazônica",
+      "publisher": "Diário do Pará",
+      "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/itaituba-lazer-na-floresta-em-plena-transamazonica/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://en.wikipedia.org/wiki/Amaz%C3%B4nia_National_Park",
+      "https://cnuc-backend.mma.gov.br/api/v1/report/uc/136",
+      "https://portalamazonia.com/noticias/primeiro-parque-nacional-da-amazonia-brasileira-celebra-50-anos/",
+      "https://portalamazonia.com/amazonia/parque-nacional-da-amazonia-aposta-no-turismo-sustentavel-saiba-como-visitar",
+      "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/itaituba-lazer-na-floresta-em-plena-transamazonica/"
+    ],
+    "alteracoes": [
+      "Fontes PARNA_AMAZ_ICMBIO (plano de manejo), PARNA_AMAZ_VIS e PARNA_AMAZ_FAPESPA não foram abertas (fora das buscas); substituídas por CNUC, Wikipedia, Portal Amazônia (50 anos; turismo, 2018) e Diário do Pará (rodovia corta o parque).",
+      "C1: “Parque Nacional do Mapinguari” corrigido para “Parque Nacional Mapinguari”. C2: alternativas Iguaçu e São Francisco (fora da Amazônia, implausíveis) trocadas por Xingu e Madeira. C4: rótulo para “Rodovia que corta o parque”.",
+      "viajante P01 e P03 reescritas (P03 passa a “primeiro parque nacional da Amazônia brasileira”); P05 ajustada (porta de entrada); P08 e P10 reescritas; P13 e P15 (nascentes e bacia do Maués-Açu sem fonte aberta) trocadas por trilhas e base do Uruá; P14 reescrita (divisor de águas); P17–P18 trocadas (igapós; árvores de 50 m); P20–P21 (ararajuba e gavião-real, sem fonte aberta) trocadas por ariranha/peixe-boi/tamanduá e onça/gato-maracajá; P22–P25 reescritas (13 primatas, 30 sítios no Iphan, sobreposição com terra Sateré-Mawé, garimpo e madeira no leste).",
+      "geografo P02–P25 reescritas ou trocadas com dados do CNUC, Wikipedia e Portal Amazônia (decreto e área de criação, revisões de limites, municípios, gestão em Itaituba, limite com a Flona de Pau-Rosa, rio de poucos sedimentos como barreira, divisor de águas, rodovia e contexto de criação, vegetação, clima, fauna, arqueologia, terra indígena, visitação, ameaças).",
+      "Força das pistas: viajante P01–P02 abertura, P03 e P12 decisivas; geografo P01–P02 abertura, P05 e P13 decisivas.",
+      "Fontes vinculadas pista a pista (antes todas as pistas citavam as três fontes)."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

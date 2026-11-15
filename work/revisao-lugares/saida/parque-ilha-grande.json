@@ -1,0 +1,1090 @@
+{
+  "case": {
+    "id": "lug2-parque-ilha-grande",
+    "placeId": "parque-ilha-grande",
+    "title": "Parque Nacional de Ilha Grande",
+    "aliases": [
+      "Ilha Grande"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul",
+        "centro-oeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional de Ilha Grande"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de Anavilhanas"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional do Iguaçu"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional do Jaú"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional do Araguaia"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional do Pantanal Mato-Grossense"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional da Serra do Itajaí"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional do Superagui"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Lagoa do Peixe"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional da Chapada dos Veadeiros"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional de Aparados da Serra"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional de Ilha Grande",
+        "sources": [
+          "ILHAGRANDE_DECRETO",
+          "ILHAGRANDE_IBAMA2007"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rio que forma o arquipélago protegido",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Rio Paraná"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Rio Uruguai"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Rio Paraguai"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Rio Iguaçu"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Rio Paraná",
+        "sources": [
+          "ILHAGRANDE_DECRETO",
+          "ILHAGRANDE_IBAMA2007"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Reservatório que marca o limite rio abaixo do arquipélago",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Itaipu"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Porto Primavera"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Furnas"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Tucuruí"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Itaipu",
+        "sources": [
+          "ILHAGRANDE_DECRETO"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estados abrangidos",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Paraná e Mato Grosso do Sul"
+          },
+          {
+            "id": "C4-O2",
+            "text": "São Paulo e Mato Grosso do Sul"
+          },
+          {
+            "id": "C4-O3",
+            "text": "São Paulo e Paraná"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Paraná e Santa Catarina"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Paraná e Mato Grosso do Sul",
+        "sources": [
+          "ILHAGRANDE_DECRETO",
+          "ILHAGRANDE_IBAMA2007"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-ilha-grande-viajante-P01",
+            "factKey": "parque-ilha-grande-viajante-F01",
+            "text": "Este destino protege uma grande paisagem de rio, com ilhas e lagoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P02",
+            "factKey": "parque-ilha-grande-viajante-F02",
+            "text": "As ilhas daqui são de rio, não de mar.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P03",
+            "factKey": "parque-ilha-grande-viajante-F03",
+            "text": "O parque fica na divisa entre dois estados brasileiros.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P04",
+            "factKey": "parque-ilha-grande-viajante-F04",
+            "text": "São mais de 180 ilhas e ilhotas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P05",
+            "factKey": "parque-ilha-grande-viajante-F05",
+            "text": "O arquipélago se estende por cerca de 100 km de rio.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P06",
+            "factKey": "parque-ilha-grande-viajante-F06",
+            "text": "Nas cheias o rio invade as várzeas; na vazante, bancos de areia aparecem e mudam a paisagem.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007",
+              "ILHAGRANDE_BEMPARANA",
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P07",
+            "factKey": "parque-ilha-grande-viajante-F07",
+            "text": "Uma das praias de rio mais procuradas é a do Meião, formada por bancos de areia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P08",
+            "factKey": "parque-ilha-grande-viajante-F08",
+            "text": "Barqueiros saem de Porto Camargo, em Icaraíma, para levar visitantes até essa praia.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P09",
+            "factKey": "parque-ilha-grande-viajante-F09",
+            "text": "Os passeios de barco passam pelo Paredão das Araras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO",
+              "ILHAGRANDE_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P10",
+            "factKey": "parque-ilha-grande-viajante-F10",
+            "text": "Na região fica a Lagoa Xambrê, considerada a maior lagoa marginal do Paraná.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_VIAJEPR",
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P11",
+            "factKey": "parque-ilha-grande-viajante-F11",
+            "text": "Essa lagoa tem muitas áreas pantanosas e é comparada ao Pantanal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_VIAJEPR",
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P12",
+            "factKey": "parque-ilha-grande-viajante-F12",
+            "text": "A lagoa funciona como berçário de peixes do rio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA",
+              "ILHAGRANDE_VIAJEPR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P13",
+            "factKey": "parque-ilha-grande-viajante-F13",
+            "text": "Nos portos da região há pesca esportiva e navegação entre as ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P14",
+            "factKey": "parque-ilha-grande-viajante-F14",
+            "text": "Capivaras, jacarés, garças e biguás estão entre os bichos da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P15",
+            "factKey": "parque-ilha-grande-viajante-F15",
+            "text": "O verão traz chuvas fortes; de julho a setembro vem a época seca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P16",
+            "factKey": "parque-ilha-grande-viajante-F16",
+            "text": "Na época seca, incêndios são uma ameaça às várzeas e às ilhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P17",
+            "factKey": "parque-ilha-grande-viajante-F17",
+            "text": "O parque foi criado em 1997.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P18",
+            "factKey": "parque-ilha-grande-viajante-F18",
+            "text": "Altônia, Icaraíma e São Jorge do Patrocínio estão entre os municípios paranaenses do parque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P19",
+            "factKey": "parque-ilha-grande-viajante-F19",
+            "text": "Mundo Novo, Eldorado, Naviraí e Itaquiraí ficam do outro lado da divisa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P20",
+            "factKey": "parque-ilha-grande-viajante-F20",
+            "text": "O rio que forma o arquipélago é o Paraná.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P21",
+            "factKey": "parque-ilha-grande-viajante-F21",
+            "text": "Rio abaixo fica o reservatório de uma grande usina binacional.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P22",
+            "factKey": "parque-ilha-grande-viajante-F22",
+            "text": "O lago dessa usina encobriu as Sete Quedas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P23",
+            "factKey": "parque-ilha-grande-viajante-F23",
+            "text": "O parque guarda o último grande trecho desse rio sem barragem no Brasil.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007",
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P24",
+            "factKey": "parque-ilha-grande-viajante-F24",
+            "text": "Dá para visitar o ano todo, mas a paisagem muda com o nível do rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-viajante-P25",
+            "factKey": "parque-ilha-grande-viajante-F25",
+            "text": "A ilha principal tem uma trilha, ligada ao município de Alto Paraíso.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-ilha-grande-geografo-P01",
+            "factKey": "parque-ilha-grande-geografo-F01",
+            "text": "A unidade conserva uma planície de inundação com canais, ilhas e várzeas sujeitas a alagamentos periódicos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P02",
+            "factKey": "parque-ilha-grande-geografo-F02",
+            "text": "O rio tem padrão anastomosado: canais largos e pouco profundos, ilhas e barras arenosas em migração lateral contínua.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P03",
+            "factKey": "parque-ilha-grande-geografo-F03",
+            "text": "A área ocupa a porção sul da planície de inundação do Alto Rio Paraná.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P04",
+            "factKey": "parque-ilha-grande-geografo-F04",
+            "text": "O rio marca a divisa entre duas unidades da federação, e a unidade abrange as duas margens.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P05",
+            "factKey": "parque-ilha-grande-geografo-F05",
+            "text": "O decreto fixou cerca de 78,9 mil hectares, num perímetro de aproximadamente 131 km.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P06",
+            "factKey": "parque-ilha-grande-geografo-F06",
+            "text": "O arquipélago fluvial reúne 186 ilhas, entre elas Bandeirante, Peruzzi e Pavão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007",
+              "ILHAGRANDE_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P07",
+            "factKey": "parque-ilha-grande-geografo-F07",
+            "text": "Os limites abrangem as ilhas entre o reservatório de Itaipu e as fozes dos rios Amambai e Ivaí.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P08",
+            "factKey": "parque-ilha-grande-geografo-F08",
+            "text": "As águas navegáveis do rio ficaram expressamente fora dos limites do parque.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P09",
+            "factKey": "parque-ilha-grande-geografo-F09",
+            "text": "A unidade é vizinha da área do antigo Parque Nacional de Sete Quedas, extinto em 1983 para formar o reservatório de Itaipu.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P10",
+            "factKey": "parque-ilha-grande-geografo-F10",
+            "text": "O objetivo central foi proteger o último trecho do rio livre de represamento, onde se mantêm cheias, vazantes e lagoas marginais.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007",
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P11",
+            "factKey": "parque-ilha-grande-geografo-F11",
+            "text": "A floresta é estacional semidecidual aluvial, intercalada com campos e matas de várzea.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P12",
+            "factKey": "parque-ilha-grande-geografo-F12",
+            "text": "A cobertura vegetal mostra alto grau de alteração por ação humana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P13",
+            "factKey": "parque-ilha-grande-geografo-F13",
+            "text": "A dupla estacionalidade, com chuvas de verão e seca fisiológica de inverno entre julho e setembro, define a época de incêndios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P14",
+            "factKey": "parque-ilha-grande-geografo-F14",
+            "text": "Entre 2000 e 2006 houve 64 ocorrências de fogo, com o pior ano em 2006.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P15",
+            "factKey": "parque-ilha-grande-geografo-F15",
+            "text": "Queimadas da agricultura de subsistência e de pastagens nas várzeas sul-mato-grossenses estão entre as origens dos incêndios.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P16",
+            "factKey": "parque-ilha-grande-geografo-F16",
+            "text": "Acampamentos de pesca nas bordas das ilhas concentram áreas de maior risco de fogo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P17",
+            "factKey": "parque-ilha-grande-geografo-F17",
+            "text": "Pesca, apicultura e dragagem de areia estão entre as atividades do entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P18",
+            "factKey": "parque-ilha-grande-geografo-F18",
+            "text": "A unidade se sobrepôs a uma estação ecológica estadual criada em 1993.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P19",
+            "factKey": "parque-ilha-grande-geografo-F19",
+            "text": "A região funciona como corredor ecológico para espécies da Mata Atlântica e do Cerrado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P20",
+            "factKey": "parque-ilha-grande-geografo-F20",
+            "text": "A Lagoa Xambrê, maior lagoa marginal do Paraná, mede cerca de 5 km por 3 km e tem margens de arenito Caiuá.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_BEMPARANA",
+              "ILHAGRANDE_VIAJEPR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P21",
+            "factKey": "parque-ilha-grande-geografo-F21",
+            "text": "Na vazante, barras de areia emergem do leito e formam praias de água doce.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P22",
+            "factKey": "parque-ilha-grande-geografo-F22",
+            "text": "O uso turístico de uma dessas praias, antigo, começou a ser regularizado pelo ICMBio em 2019.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_ICMBIOFOCO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P23",
+            "factKey": "parque-ilha-grande-geografo-F23",
+            "text": "O acesso se faz sobretudo por barco, a partir de municípios com rede viária asfaltada.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P24",
+            "factKey": "parque-ilha-grande-geografo-F24",
+            "text": "No lado paranaense estão Altônia, São Jorge do Patrocínio, Alto Paraíso e Icaraíma.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_IBAMA2007",
+              "ILHAGRANDE_DECRETO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-ilha-grande-geografo-P25",
+            "factKey": "parque-ilha-grande-geografo-F25",
+            "text": "Na margem sul-mato-grossense ficam Mundo Novo, Eldorado, Itaquiraí e Naviraí.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ILHAGRANDE_DECRETO",
+              "ILHAGRANDE_IBAMA2007"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 1997 num arquipélago fluvial de mais de 180 ilhas do Rio Paraná, entre o Paraná e Mato Grosso do Sul, que protege o último grande trecho do rio sem represamento, com várzeas, lagoas marginais e praias de areia.",
+      "editorialNotes": [
+        "Municípios divergem: o decreto de 1997 lista Altônia, São Jorge do Patrocínio, Vila Alta e Icaraíma (PR) e Mundo Novo, Eldorado, Naviraí e Itaquiraí (MS); o plano do Ibama (2007) e a Bem Paraná (2026) incluem Guaíra e trazem Alto Paraíso. Guaíra foi retirada das pistas.",
+        "O número de ilhas aparece como 186 (Ibama, 2007) e \"mais de 180\" (Bem Paraná); a Lagoa Xambrê não é citada no decreto, por isso as pistas dizem \"na região\".",
+        "brazilRegions inclui centro-oeste porque metade do parque está em Mato Grosso do Sul."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas pelo decreto de criação, plano do Ibama, ICMBio em Foco e reportagens abertos na revisão; municípios corrigidos, C3 refeito e pistas conferidas"
+    }
+  },
+  "sources": {
+    "ILHAGRANDE_DECRETO": {
+      "id": "ILHAGRANDE_DECRETO",
+      "title": "Decreto de 30 de setembro de 1997: cria o Parque Nacional de Ilha Grande (PR/MS)",
+      "publisher": "Presidência da República (cópia no acervo de legislação do ICMBio/CEPSUL)",
+      "url": "https://assiste.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1997/dec_30_09_1997_parquenacionalilhagrande_pr_ms.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHAGRANDE_IBAMA2007": {
+      "id": "ILHAGRANDE_IBAMA2007",
+      "title": "Plano Operativo de Prevenção e Combate aos Incêndios Florestais do Parque Nacional de Ilha Grande (2007)",
+      "publisher": "Ibama",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/fiscalizacao-e-protecao-ambiental/incendios-florestais/servicos/arquivos/planos_operativos/32-parque_nacional_ilha_grande-2007-pr.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHAGRANDE_BEMPARANA": {
+      "id": "ILHAGRANDE_BEMPARANA",
+      "title": "Paraná guarda um paraíso com mais de 180 ilhas que pouca gente conhece",
+      "publisher": "Bem Paraná (2026)",
+      "url": "https://www.bemparana.com.br/noticias/parana/parana-guarda-um-paraiso-com-mais-de-180-ilhas-que-pouca-gente-conhece/amp/",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHAGRANDE_ICMBIOFOCO": {
+      "id": "ILHAGRANDE_ICMBIOFOCO",
+      "title": "ICMBio em Foco nº 520: ICMBio autoriza atividades turísticas em praia no Parna de Ilha Grande",
+      "publisher": "ICMBio (2019)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/icmbio-em-foco/pdf/icmbioemfoco520.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ILHAGRANDE_VIAJEPR": {
+      "id": "ILHAGRANDE_VIAJEPR",
+      "title": "Altônia",
+      "publisher": "Viaje Paraná (portal de turismo do Paraná)",
+      "url": "https://www.viajeparana.com/print/pdf/node/14053",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://assiste.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/1997/dec_30_09_1997_parquenacionalilhagrande_pr_ms.pdf",
+      "https://www.gov.br/ibama/pt-br/assuntos/fiscalizacao-e-protecao-ambiental/incendios-florestais/servicos/arquivos/planos_operativos/32-parque_nacional_ilha_grande-2007-pr.pdf",
+      "https://www.bemparana.com.br/noticias/parana/parana-guarda-um-paraiso-com-mais-de-180-ilhas-que-pouca-gente-conhece/amp/",
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/icmbio-em-foco/pdf/icmbioemfoco520.pdf",
+      "https://www.viajeparana.com/print/pdf/node/14053"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (página de visitação 2013 e plano de manejo no gov.br) não abertas diretamente; substituídas por 5 fontes abertas (decreto de 1997, plano operativo do Ibama 2007, ICMBio em Foco 520, Bem Paraná 2026, Viaje Paraná)",
+      "viajante P18 e geografo P18 do rascunho afirmavam que Guaíra integra o parque: o decreto não a inclui; pistas trocadas pelos municípios do decreto",
+      "geografo P13 (arenito Caiuá) e P12 (maior lagoa marginal) mantidas com fonte Bem Paraná/Viaje Paraná; P15/P25 (plano de manejo não aberto) trocadas por dados do Ibama 2007 (floresta estacional semidecidual aluvial)",
+      "viajante P23 (Xetá e Guarani) e geografo P22–P23 (sítios arqueológicos) retiradas: sem apoio nas fontes abertas",
+      "C2: alternativas Amazonas e São Francisco trocadas por Uruguai e Iguaçu",
+      "C3: de \"Ambientes predominantes\" (fiordes, deserto) para \"Reservatório que marca o limite rio abaixo do arquipélago\", gabarito Itaipu (decreto)",
+      "C4: alternativas reformuladas para pares de estados vizinhos plausíveis",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields passam a apontar C2–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

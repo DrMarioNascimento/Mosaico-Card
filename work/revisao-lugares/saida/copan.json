@@ -1,0 +1,1059 @@
+{
+  "case": {
+    "id": "lug2-copan",
+    "placeId": "copan",
+    "title": "Sítio Maia de Copán",
+    "aliases": [
+      "Copán",
+      "Copan"
+    ],
+    "answerType": "sítio arqueológico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "HN"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Sítio arqueológico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Sítio Maia de Copán"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional Tikal"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Arqueológico e Ruínas de Quiriguá"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Sítio Arqueológico de Caracol"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Cidade Pré-hispânica de Chichén Itzá"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Cidade Pré-hispânica de Palenque"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Cidade Pré-hispânica de Uxmal"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Antiga Cidade Maia de Calakmul"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Sítio Arqueológico de Monte Albán"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Cidade Pré-hispânica de Teotihuacán"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Cidade Maia de Yaxchilán"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Centro Arqueológico de Tiwanaku"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Sítio Maia de Copán",
+        "sources": [
+          "COPAN_PR",
+          "COPAN_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Honduras"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Guatemala"
+          },
+          {
+            "id": "C2-O3",
+            "text": "México"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Belize"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Honduras",
+        "sources": [
+          "COPAN_PR",
+          "COPAN_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Animal representado na escadaria da Praça Leste, com incrustações de obsidiana negra",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Jaguar"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Serpente emplumada"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Arara"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Macaco"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Jaguar",
+        "sources": [
+          "COPAN_PR"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Período de apogeu da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Período Clássico"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Período Pós-clássico"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Período Pré-clássico"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Período Arcaico"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Período Clássico",
+        "sources": [
+          "COPAN_PR",
+          "COPAN_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "copan-viajante-P01",
+            "factKey": "copan-F01",
+            "text": "Este destino guarda as ruínas de uma cidade antiga de pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P02",
+            "factKey": "copan-F02",
+            "text": "Templos, praças e esculturas de pedra formam o passeio pelas ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P03",
+            "factKey": "copan-F03",
+            "text": "As ruínas ficam em Honduras.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P04",
+            "factKey": "copan-F04",
+            "text": "O sítio fica no extremo oeste do país, perto da fronteira com a Guatemala.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P05",
+            "factKey": "copan-F05",
+            "text": "As ruínas ficam na margem oeste de um rio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P06",
+            "factKey": "copan-F06",
+            "text": "A cidade pertenceu ao mundo maia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P07",
+            "factKey": "copan-F07",
+            "text": "O auge da cidade foi no período Clássico maia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P08",
+            "factKey": "copan-F08",
+            "text": "Uma dinastia de 16 governantes, iniciada em 427 d.C., comandou a cidade.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P09",
+            "factKey": "copan-F09",
+            "text": "No coração das ruínas há uma grande plataforma elevada chamada Acrópole.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB",
+              "COPAN_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P10",
+            "factKey": "copan-F10",
+            "text": "Uma quadra de jogo de bola fica na Praça Cerimonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P11",
+            "factKey": "copan-F11",
+            "text": "Uma escadaria de pedra traz o texto maia mais longo que se conhece.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P12",
+            "factKey": "copan-F12",
+            "text": "Uma escadaria tem mais de mil hieróglifos gravados nos degraus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P13",
+            "factKey": "copan-F13",
+            "text": "Uma escadaria é decorada com figuras de onças-pintadas que tinham obsidiana negra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P14",
+            "factKey": "copan-F14",
+            "text": "Muitas estelas trazem retratos esculpidos em pedra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P15",
+            "factKey": "copan-F15",
+            "text": "A UNESCO considera as estelas e os altares um dos conjuntos de esculturas mais belos da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P16",
+            "factKey": "copan-F16",
+            "text": "Algumas esculturas originais foram para um museu e deram lugar a réplicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P17",
+            "factKey": "copan-F17",
+            "text": "Os astrônomos da cidade calcularam o calendário solar mais preciso dos maias até então.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P18",
+            "factKey": "copan-F18",
+            "text": "No auge, a cidade pode ter tido cerca de 20 mil habitantes.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P19",
+            "factKey": "copan-F19",
+            "text": "Em 1839, os viajantes John Lloyd Stephens e Frederick Catherwood redescobriram as ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P20",
+            "factKey": "copan-F20",
+            "text": "Bairros residenciais antigos cercavam o centro monumental.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P21",
+            "factKey": "copan-F21",
+            "text": "O centro da cidade foi abandonado no começo do século X.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P22",
+            "factKey": "copan-F22",
+            "text": "Túneis arqueológicos do sítio precisam de um plano próprio de conservação.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_SOC"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P23",
+            "factKey": "copan-F23",
+            "text": "O sítio entrou para o Patrimônio Mundial em 1980.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P24",
+            "factKey": "copan-F24",
+            "text": "Nas décadas de 1930 e 1940, as ruínas foram restauradas com apoio do governo hondurenho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-viajante-P25",
+            "factKey": "copan-F25",
+            "text": "Microrganismos, lavouras do entorno e o crescimento da cidade vizinha ameaçam as ruínas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "copan-geografo-P01",
+            "factKey": "copan-F01",
+            "text": "O bem preserva o centro monumental de uma cidade maia clássica e bairros residenciais do entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P02",
+            "factKey": "copan-F02",
+            "text": "O grupo principal reúne a Acrópole e várias praças, rodeadas por complexos secundários.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P03",
+            "factKey": "copan-F03",
+            "text": "O sítio ocupa um vale fluvial no território hondurenho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P04",
+            "factKey": "copan-F04",
+            "text": "A posição no extremo oeste hondurenho põe o sítio junto à fronteira guatemalteca.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P05",
+            "factKey": "copan-F05",
+            "text": "Na margem oeste do rio, as ruínas sofrem com a erosão fluvial contínua.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB",
+              "COPAN_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P06",
+            "factKey": "copan-F06",
+            "text": "Os vestígios testemunham a civilização maia, com ocupação do vale desde cerca de 1500 a.C.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P07",
+            "factKey": "copan-F07",
+            "text": "O apogeu, entre 300 e 900 d.C. segundo a UNESCO, coincide com o período Clássico.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P08",
+            "factKey": "copan-F08",
+            "text": "Em 427 d.C., Yax K’uk’ Mo’ chegou e fundou uma dinastia de 16 governantes.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P09",
+            "factKey": "copan-F09",
+            "text": "A Acrópole, plataforma elevada, concentra a maior parte das estruturas do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P10",
+            "factKey": "copan-F10",
+            "text": "A quadra do jogo de bola ocupa a Praça Cerimonial, espaço público do grupo principal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P11",
+            "factKey": "copan-F11",
+            "text": "A Escadaria Hieroglífica guarda o texto inscrito mais longo da região maia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P12",
+            "factKey": "copan-F12",
+            "text": "Os hieróglifos ocupam os espelhos dos 63 degraus remanescentes da escadaria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P13",
+            "factKey": "copan-F13",
+            "text": "Na Praça Leste, uma escadaria exibe jaguares originalmente incrustados com obsidiana negra.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P14",
+            "factKey": "copan-F14",
+            "text": "Frisos em edifícios e retratos em estelas marcam a escultura da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P15",
+            "factKey": "copan-F15",
+            "text": "A qualidade de estelas e altares sustentou a inscrição pelo critério iv da UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P16",
+            "factKey": "copan-F16",
+            "text": "Desde 1997, monumentos originais vão para um museu de escultura e são substituídos no local por réplicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P17",
+            "factKey": "copan-F17",
+            "text": "A astronomia local produziu, ao que indicam as evidências, o calendário solar maia mais exato até aquela época.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P18",
+            "factKey": "copan-F18",
+            "text": "A população pode ter chegado a 20 mil pessoas no começo do século IX, pouco antes do declínio.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_EB",
+              "COPAN_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P19",
+            "factKey": "copan-F19",
+            "text": "Vistas por espanhóis no fim do século XVI, as ruínas foram redescobertas em 1839 por Stephens e Catherwood.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P20",
+            "factKey": "copan-F20",
+            "text": "Bairros residenciais do entorno do grupo principal estão dentro dos limites do bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P21",
+            "factKey": "copan-F21",
+            "text": "Após o abandono do centro no início do século X, a ocupação maia do sítio terminou por volta de 1200.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COPAN_PR",
+              "COPAN_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P22",
+            "factKey": "copan-F22",
+            "text": "Infiltração de água e contaminantes biológicos ameaçam túneis escavados, sem monitoramento formal em 2012.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_SOC"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P23",
+            "factKey": "copan-F23",
+            "text": "Inscrito em 1980, o bem tem cerca de 15 ha e zona de amortecimento de 258 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P24",
+            "factKey": "copan-F24",
+            "text": "Pesquisas iniciadas em 1975 decifraram inscrições e revelaram a história dinástica da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_EB"
+            ],
+            "clueType": "pesquisa",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "copan-geografo-P25",
+            "factKey": "copan-F25",
+            "text": "Microflora, práticas agrícolas, sismos e a expansão urbana vizinha somam pressões sobre o bem.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COPAN_PR"
+            ],
+            "clueType": "conservacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Cidade maia do período Clássico no extremo oeste de Honduras, junto à Guatemala, com Acrópole, praças, estelas e a Escadaria Hieroglífica, o texto inscrito mais longo da região maia.",
+      "editorialNotes": [
+        "Contagem de glifos da Escadaria Hieroglífica: a UNESCO fala em mais de 1.800; a Britannica, em cerca de 1.260 nos 63 degraus remanescentes. As pistas evitam um número exato.",
+        "Abandono: a UNESCO situa o abandono do centro no início do século X; a Britannica diz que os maias deixaram o sítio por completo por volta de 1200.",
+        "O nome do rio e da cidade vizinha não aparece nas pistas porque repete o nome do sítio."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na declaração de valor universal e no relatório periódico da UNESCO, no estado de conservação de 2012 e na Britannica; C3 e C4 refeitos."
+    }
+  },
+  "sources": {
+    "COPAN_PR": {
+      "id": "COPAN_PR",
+      "title": "Maya Site of Copan — Periodic Report (Section II) and Statement of Outstanding Universal Value",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216152",
+      "checkedAt": "2026-11-15"
+    },
+    "COPAN_SOC": {
+      "id": "COPAN_SOC",
+      "title": "State of conservation: Maya Site of Copan (2012)",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/272",
+      "checkedAt": "2026-11-15"
+    },
+    "COPAN_EB": {
+      "id": "COPAN_EB",
+      "title": "Copán",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Copan",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/216152",
+      "https://whc.unesco.org/en/soc/272",
+      "https://www.britannica.com/place/Copan"
+    ],
+    "alteracoes": [
+      "Fonte COPAN129 (whc.unesco.org/en/list/129) substituída: a página de lista da UNESCO não abre nesta sessão; a mesma declaração de valor universal foi conferida no relatório periódico publicado pela UNESCO (COPAN_PR); acrescentados o estado de conservação de 2012 (COPAN_SOC) e a Britannica (COPAN_EB).",
+      "C1: nomes alinhados aos títulos usados no banco e nos rascunhos (Parque Nacional Tikal, Chichén Itzá, Tiwanaku); Quiriguá e Calakmul com o nome dos bens inscritos.",
+      "C3: ‘Cidade e monumentos maias’ contra opções implausíveis (fóruns romanos, castelos escandinavos) trocado por ‘Animal da escadaria da Praça Leste’ (jaguar), conforme a UNESCO.",
+      "C4: ‘Escadaria com inscrições’ contra opções implausíveis (muro de gelo, aqueduto de aço) trocado por ‘Período de apogeu’ (Clássico).",
+      "Viajante: P01–P25 reescritas ou trocadas; ‘matemática e astronomia’ virou o calendário solar citado pela Britannica; ‘plantas e umidade’ virou microrganismos e lavouras (UNESCO); entraram dinastia de 427 d.C., 20 mil habitantes, Stephens e Catherwood (1839), réplicas no museu, túneis, restauração dos anos 1930–40.",
+      "Geógrafo: P01–P25 reescritas para relações e processos (grupo principal e complexos secundários, margem oeste e erosão fluvial, ocupação desde 1500 a.C., Yax K’uk’ Mo’, 63 degraus, critério iv, 15 ha e 258 ha, túneis sem monitoramento em 2012, pesquisas desde 1975).",
+      "Sinais: P01–P02 abertura e P08 e P11 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

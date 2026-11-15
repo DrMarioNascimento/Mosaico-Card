@@ -1,0 +1,1064 @@
+{
+  "case": {
+    "id": "lug2-recife",
+    "placeId": "recife",
+    "title": "Recife",
+    "aliases": [
+      "Recife"
+    ],
+    "answerType": "cidade",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Recife"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Salvador"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Fortaleza"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Natal"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Maceió"
+          },
+          {
+            "id": "C1-O6",
+            "text": "João Pessoa"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Aracaju"
+          },
+          {
+            "id": "C1-O8",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Teresina"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Olinda"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Campina Grande"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Caruaru"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Recife",
+        "sources": [
+          "RECIFE_IBGE",
+          "RECIFE_IBGEHIST"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Rios que desaguam junto ao núcleo histórico",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Capibaribe e Beberibe"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Poti e Parnaíba"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Potengi e Jundiaí"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Sergipe e Poxim"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Capibaribe e Beberibe",
+        "sources": [
+          "RECIFE_IBGEHIST"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Expressão inscrita pela Unesco em 2012 e enraizada na cidade",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Frevo"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Samba de roda"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Bumba-meu-boi"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Círio de Nazaré"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Frevo",
+        "sources": [
+          "RECIFE_IPHAN2021",
+          "RECIFE_CB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Pernambuco"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Bahia"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Paraíba"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Alagoas"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Pernambuco",
+        "sources": [
+          "RECIFE_IBGEHIST"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "recife-viajante-P01",
+            "factKey": "recife-F01",
+            "text": "É uma cidade grande do litoral nordestino, banhada pelo Atlântico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P02",
+            "factKey": "recife-F02",
+            "text": "Rios, ilhas e pontes fazem parte do dia a dia de quem circula pela cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P03",
+            "factKey": "recife-F03",
+            "text": "A cidade é chamada de “Veneza Brasileira”.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P04",
+            "factKey": "recife-F04",
+            "text": "A cidade tem mais de 50 pontes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P05",
+            "factKey": "recife-F05",
+            "text": "Holandeses governaram a cidade por 24 anos no século XVII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P06",
+            "factKey": "recife-F06",
+            "text": "Dois rios, o Capibaribe e o Beberibe, chegam ao mar junto ao centro antigo.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P07",
+            "factKey": "recife-F07",
+            "text": "Na época holandesa, o conde Maurício de Nassau trouxe artistas e cientistas, como o pintor Frans Post.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P08",
+            "factKey": "recife-F08",
+            "text": "Uma sinagoga de 1636, considerada a primeira documentada das Américas, fica numa rua do centro antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P09",
+            "factKey": "recife-F09",
+            "text": "A Rua do Bom Jesus já se chamou Rua dos Judeus.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P10",
+            "factKey": "recife-F10",
+            "text": "A Praça do Marco Zero é o principal ponto do centro antigo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P11",
+            "factKey": "recife-F11",
+            "text": "No carnaval, passistas dançam o frevo com sombrinhas na mão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P12",
+            "factKey": "recife-F12",
+            "text": "O Galo da Madrugada, apontado pelo Guinness como o maior bloco de carnaval do mundo, tem sede na cidade.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P13",
+            "factKey": "recife-F13",
+            "text": "O Paço do Frevo ocupa quatro andares no centro antigo.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_CB",
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P14",
+            "factKey": "recife-F14",
+            "text": "Os passos do frevo vieram da ginga dos capoeiristas que defendiam as bandas e os blocos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P15",
+            "factKey": "recife-F15",
+            "text": "O Clube Vassourinhas é um dos mais tradicionais do frevo na cidade.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P16",
+            "factKey": "recife-F16",
+            "text": "Pescadores começaram o povoado numa estreita faixa de terra que vinha de Olinda.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P17",
+            "factKey": "recife-F17",
+            "text": "Os primeiros moradores ergueram uma pequena capela dedicada a São Telmo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P18",
+            "factKey": "recife-F18",
+            "text": "Até 1942, Fernando de Noronha era um distrito da cidade.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P19",
+            "factKey": "recife-F19",
+            "text": "Na época holandesa, a cidade ganhou o nome de Mauritsstad.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P20",
+            "factKey": "recife-F20",
+            "text": "A área do município é de cerca de 219 km².",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P21",
+            "factKey": "recife-F21",
+            "text": "Uma revista de arquitetura elegeu uma rua do centro antigo a 3ª mais bonita do mundo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P22",
+            "factKey": "recife-F22",
+            "text": "Em 1561, fortes defenderam o povoado de piratas franceses; um deles gravou uma frase em francês numa pedra dos arrecifes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P23",
+            "factKey": "recife-F23",
+            "text": "O frevo daqui é Patrimônio Imaterial da Humanidade desde 2012.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021",
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P24",
+            "factKey": "recife-F24",
+            "text": "É a capital de Pernambuco.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-viajante-P25",
+            "factKey": "recife-F25",
+            "text": "O nome da cidade vem dos arrecifes de arenito que protegiam o ancoradouro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "recife-geografo-P01",
+            "factKey": "recife-F01",
+            "text": "O sítio urbano original reuniu o estuário de dois rios e uma linha de arrecifes que abrigava os navios.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P02",
+            "factKey": "recife-F02",
+            "text": "A malha urbana se distribui por ilhas e penínsulas ligadas por dezenas de pontes.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P03",
+            "factKey": "recife-F03",
+            "text": "O ancoradouro natural, protegido por arrecifes de arenito, oferecia mais abrigo que o porto da vila vizinha mais antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P04",
+            "factKey": "recife-F04",
+            "text": "O povoado surgiu com pescadores e armazéns numa estreita faixa de terra que descia da vila vizinha mais antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P05",
+            "factKey": "recife-F05",
+            "text": "A elevação a vila, por Carta Régia de 1709, veio no contexto da Guerra dos Mascates; o pelourinho foi erguido em 1710.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P06",
+            "factKey": "recife-F06",
+            "text": "Durante o domínio holandês (1630–1654), a cidade foi rebatizada em homenagem ao conde governador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P07",
+            "factKey": "recife-F07",
+            "text": "A capitulação holandesa foi assinada em 23 de janeiro de 1654, na Campina do Taborda, após as batalhas dos Guararapes.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P08",
+            "factKey": "recife-F08",
+            "text": "A liberdade religiosa do período holandês atraiu judeus sefarditas, que fundaram em 1636 a primeira sinagoga documentada das Américas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P09",
+            "factKey": "recife-F09",
+            "text": "Elevada a cidade por Carta Imperial de 1823, passou a capital da província em 1827.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P10",
+            "factKey": "recife-F10",
+            "text": "O município administrou um arquipélago oceânico como distrito até 1942, quando ele virou Território Federal.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P11",
+            "factKey": "recife-F11",
+            "text": "Em 1928 incorporou os distritos de Tejipió e Beberibe; desde 2001 se divide em seis Regiões Político-Administrativas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P12",
+            "factKey": "recife-F12",
+            "text": "A área municipal é de 218,843 km² (IBGE, 2022).",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P13",
+            "factKey": "recife-F13",
+            "text": "O frevo surgiu no carnaval do fim do século XIX, moldado por rivalidades de bandas militares, capoeiristas, libertos e a nova classe operária.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P14",
+            "factKey": "recife-F14",
+            "text": "O Iphan registrou o frevo como Patrimônio Cultural do Brasil em 2007, no centenário da palavra na imprensa.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P15",
+            "factKey": "recife-F15",
+            "text": "A Unesco inscreveu o frevo como patrimônio imaterial da humanidade em 2012.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021",
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P16",
+            "factKey": "recife-F16",
+            "text": "As modalidades do frevo são o frevo de rua, o frevo de bloco e o frevo-canção.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P17",
+            "factKey": "recife-F17",
+            "text": "Quase todas as sombrinhas usadas no passo vêm da China: 339 mil foram importadas pelo estado em 2019.",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P18",
+            "factKey": "recife-F18",
+            "text": "Blocos clássicos como Vasculhadores e Pás Douradas surgiram no bairro de São José, sede também do maior bloco de carnaval do mundo.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P19",
+            "factKey": "recife-F19",
+            "text": "Criado em 2013, o Paço do Frevo é centro de referência para a salvaguarda desse bem.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P20",
+            "factKey": "recife-F20",
+            "text": "O frevo é compartilhado com a cidade vizinha que o Iphan chama de “território do frevo por excelência”.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "RECIFE_IPHAN2021"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P21",
+            "factKey": "recife-F21",
+            "text": "O governo de Nassau trouxe jardins, palácios e uma missão de naturalistas e artistas ao núcleo urbano.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P22",
+            "factKey": "recife-F22",
+            "text": "O apelido de “Veneza Brasileira” deriva do arranjo de rios, arrecifes, ilhas e penínsulas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "RECIFE_CB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P23",
+            "factKey": "recife-F23",
+            "text": "Em 1561, os fortes do Mar, de São Jorge e do Bom Jesus defenderam o porto de piratas franceses.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P24",
+            "factKey": "recife-F24",
+            "text": "Os rios Capibaribe e Beberibe desaguam junto ao núcleo histórico, misturando suas águas às do mar.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "recife-geografo-P25",
+            "factKey": "recife-F25",
+            "text": "Capital pernambucana desde 1827, deve o nome aos arrecifes de arenito que protegiam o ancoradouro.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "RECIFE_IBGEHIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital de Pernambuco desde 1827, nascida como porto de Olinda no estuário do Capibaribe e do Beberibe, abrigada por arrecifes de arenito que lhe deram o nome; foi Mauritsstad no domínio holandês (1630–1654), é a \"Veneza Brasileira\" de mais de 50 pontes e terra do frevo, patrimônio imaterial da humanidade (2012).",
+      "editorialNotes": [
+        "A população do Censo 2022 não pôde ser conferida (a página do IBGE Cidades não exibiu o dado); por isso nenhuma pista cita população ou densidade.",
+        "O frevo também é de Olinda, que está no banco; as pistas de frevo ficam em \"conexão\" e não decidem sozinhas.",
+        "O histórico do IBGE não traz a data de fundação usada popularmente (1537); a pista de 1561 se refere à defesa contra piratas franceses, não à fundação."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por IBGE Cidades, histórico municipal da Biblioteca do IBGE, parecer técnico do Iphan sobre o frevo (2021) e Correio Braziliense, todos abertos; C1 restrito a cidades do Nordeste, C2–C3 refeitos e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "RECIFE_IBGE": {
+      "id": "RECIFE_IBGE",
+      "title": "Cidades e Estados — Recife",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pe/recife.html",
+      "checkedAt": "2026-11-15"
+    },
+    "RECIFE_IBGEHIST": {
+      "id": "RECIFE_IBGEHIST",
+      "title": "Recife (PE) — histórico e formação administrativa",
+      "publisher": "IBGE — Biblioteca",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/pernambuco/recife.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "RECIFE_CB": {
+      "id": "RECIFE_CB",
+      "title": "A “Veneza brasileira” ganha fama com sua aparência que mistura rios, mais de 50 pontes e uma história que atravessa gerações",
+      "publisher": "Correio Braziliense",
+      "url": "https://www.correiobraziliense.com.br/cbradar/a-veneza-brasileira-ganha-fama-com-sua-aparencia-que-mistura-rios-mais-de-50-pontes-e-uma-historia-que-atravessa-geracoes/",
+      "checkedAt": "2026-11-15"
+    },
+    "RECIFE_IPHAN2021": {
+      "id": "RECIFE_IPHAN2021",
+      "title": "Parecer técnico sobre a revalidação do registro do Frevo como Patrimônio Cultural do Brasil (2021)",
+      "publisher": "Iphan — Superintendência em Pernambuco",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/aberta-consulta-publica-sobre-o-cirio-de-nazare-pa-o-frevo-pe-e-a-cachoeira-de-iarauete-am/ParecerTcnico_RevalidaoFrevo.pdf/@@download/file",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.ibge.gov.br/cidades-e-estados/pe/recife.html",
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/pernambuco/recife.pdf",
+      "https://www.correiobraziliense.com.br/cbradar/a-veneza-brasileira-ganha-fama-com-sua-aparencia-que-mistura-rios-mais-de-50-pontes-e-uma-historia-que-atravessa-geracoes/",
+      "https://www.gov.br/iphan/pt-br/assuntos/noticias/aberta-consulta-publica-sobre-o-cirio-de-nazare-pa-o-frevo-pe-e-a-cachoeira-de-iarauete-am/ParecerTcnico_RevalidaoFrevo.pdf/@@download/file",
+      "https://vermelho.org.br/2012/12/05/frevo-e-declarado-patrimonio-imaterial-da-humanidade-pela-unesco/",
+      "https://portaldeprefeitura.com.br/pernambuco/recife-um-em-cada-quatro-moradores-vive-em-favelas-revela-censo-2022/596698/"
+    ],
+    "alteracoes": [
+      "Fontes RECIFE_PCR, RECIFE_IPHAN, RECIFE_RIOS e RECIFE_FJN do rascunho não foram abertas (URLs fora das buscas); RECIFE_IBGE mantida e aberta; acrescentadas RECIFE_IBGEHIST, RECIFE_IPHAN2021 e RECIFE_CB. Portal Vermelho e Portal de Prefeitura foram lidos, mas não usados como fonte",
+      "População (1.488.920) e densidade (6.803,60 hab./km²) do Censo 2022 retiradas: a página do IBGE aberta não mostrou o dado; entrou a área de 218,843 km² (IBGE, 2022)",
+      "C1: rótulo \"Cidade brasileira\" → \"Cidade do Nordeste\"; Belém, Florianópolis e Vitória (fora do recorte) trocadas por Olinda, Campina Grande e Caruaru",
+      "C2: \"Rio da paisagem urbana\" (só Capibaribe era nordestino de capital) trocado por \"Rios que desaguam junto ao núcleo histórico\", gabarito Capibaribe e Beberibe (IBGE)",
+      "C3: distratores de outras regiões (jongo, fandango caiçara) trocados por bens brasileiros inscritos pela Unesco em outros anos; rótulo passou a citar 2012; gabarito Frevo mantido",
+      "Pistas sem apoio nas fontes abertas retiradas: Torre Malakoff, Teatro Santa Isabel, Museu Cais do Sertão",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

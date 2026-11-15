@@ -1,0 +1,1048 @@
+{
+  "case": {
+    "id": "lug2-cidade-quito",
+    "placeId": "cidade-quito",
+    "title": "Cidade Histórica de Quito",
+    "aliases": [
+      "Quito"
+    ],
+    "answerType": "cidade histórica",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "EC"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Cidade histórica",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Cidade Histórica de Quito"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cidade Histórica de Cusco"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Centro Histórico de Cuenca"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Centro Histórico de Lima"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Centro Histórico de Arequipa"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Cidade Histórica de Sucre"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Cidade de Potosí"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Centro Histórico de Santa Cruz de Mompox"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Centro Histórico da Cidade do México"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Centro Histórico de Oaxaca"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Centro Histórico de Puebla"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Antigua Guatemala"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Cidade Histórica de Quito",
+        "sources": [
+          "QUITO_PR",
+          "QUITO_EB"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Equador"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Peru"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Colômbia"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Bolívia"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Equador",
+        "sources": [
+          "QUITO_PR",
+          "QUITO_EB"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Vulcão em cujas encostas a cidade se espalha",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Pichincha"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Cotopaxi"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Chimborazo"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Misti"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Pichincha",
+        "sources": [
+          "QUITO_PR",
+          "QUITO_EB"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Ano da fundação espanhola da cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "1534"
+          },
+          {
+            "id": "C4-O2",
+            "text": "1535"
+          },
+          {
+            "id": "C4-O3",
+            "text": "1538"
+          },
+          {
+            "id": "C4-O4",
+            "text": "1557"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "1534",
+        "sources": [
+          "QUITO_PR",
+          "QUITO_EB"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "cidade-quito-viajante-P01",
+            "factKey": "cidade-quito-F01",
+            "text": "Este destino é o centro histórico de uma grande cidade nas montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P02",
+            "factKey": "cidade-quito-F02",
+            "text": "Igrejas e conventos antigos dominam o centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P03",
+            "factKey": "cidade-quito-F03",
+            "text": "A cidade fica no Equador.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P04",
+            "factKey": "cidade-quito-F04",
+            "text": "Fica pertinho da linha do Equador, um pouco ao sul.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P05",
+            "factKey": "cidade-quito-F05",
+            "text": "Está a mais de 2.800 metros de altitude.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P06",
+            "factKey": "cidade-quito-F06",
+            "text": "A cidade se espalha pelas encostas de um vulcão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P07",
+            "factKey": "cidade-quito-F07",
+            "text": "A cidade ocupa as encostas baixas do vulcão Pichincha.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "QUITO_EB",
+              "QUITO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P08",
+            "factKey": "cidade-quito-F08",
+            "text": "A cidade fica num vale estreito entre montanhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P09",
+            "factKey": "cidade-quito-F09",
+            "text": "Os espanhóis fundaram a cidade em 1534.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P10",
+            "factKey": "cidade-quito-F10",
+            "text": "A cidade espanhola nasceu sobre as ruínas de uma cidade inca.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P11",
+            "factKey": "cidade-quito-F11",
+            "text": "Antes mesmo dos incas, o lugar já era um centro de comércio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P12",
+            "factKey": "cidade-quito-F12",
+            "text": "A igreja jesuíta da Companhia está entre as igrejas do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB",
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P13",
+            "factKey": "cidade-quito-F13",
+            "text": "O convento de São Francisco faz parte do conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P14",
+            "factKey": "cidade-quito-F14",
+            "text": "Santo Domingo, San Agustín e La Merced também estão entre os conventos do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P15",
+            "factKey": "cidade-quito-F15",
+            "text": "Do morro do Panecillo, com a estátua da Virgem, se tem uma das melhores vistas da cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P16",
+            "factKey": "cidade-quito-F16",
+            "text": "A arte das igrejas mistura tradições indígenas e europeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P17",
+            "factKey": "cidade-quito-F17",
+            "text": "As ruas do centro formam um tabuleiro de xadrez.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P18",
+            "factKey": "cidade-quito-F18",
+            "text": "Uma escola de arte foi criada ali em 1552, uma das primeiras da América do Sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P19",
+            "factKey": "cidade-quito-F19",
+            "text": "As casas antigas têm um ou dois andares e pátios internos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P20",
+            "factKey": "cidade-quito-F20",
+            "text": "Pedra, cal, barro e madeira são materiais tradicionais das construções.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P21",
+            "factKey": "cidade-quito-F21",
+            "text": "Terremotos, como o de 1987, já ameaçaram os prédios coloniais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P22",
+            "factKey": "cidade-quito-F22",
+            "text": "Há uma praça principal e várias pracinhas espalhadas pelo centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P23",
+            "factKey": "cidade-quito-F23",
+            "text": "O centro histórico entrou para o Patrimônio Mundial em 1978.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P24",
+            "factKey": "cidade-quito-F24",
+            "text": "O trânsito e a poluição do ar pesam sobre as ruas do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "mobilidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-viajante-P25",
+            "factKey": "cidade-quito-F25",
+            "text": "A cidade é a capital do país.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "cidade-quito-geografo-P01",
+            "factKey": "cidade-quito-F01",
+            "text": "O bem reconhece um dos centros históricos mais extensos e preservados da América espanhola.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P02",
+            "factKey": "cidade-quito-F02",
+            "text": "Grandes conjuntos conventuais estruturam a paisagem do centro histórico.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P03",
+            "factKey": "cidade-quito-F03",
+            "text": "É um dos dois maiores polos industriais equatorianos, com têxteis, fármacos e artesanato.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P04",
+            "factKey": "cidade-quito-F04",
+            "text": "A latitude quase nula, logo ao sul do Equador, contrasta com a grande altitude do sítio.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "QUITO_EB",
+              "QUITO_PR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P05",
+            "factKey": "cidade-quito-F05",
+            "text": "Isolada nos Andes, a cidade está a 2.818 m segundo a UNESCO, ou 2.850 m segundo a Britannica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR",
+              "QUITO_EB"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P06",
+            "factKey": "cidade-quito-F06",
+            "text": "O tecido urbano sobe as encostas, o que expõe o centro a vulcanismo, sismos e deslizamentos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P07",
+            "factKey": "cidade-quito-F07",
+            "text": "A atividade do Pichincha entra no plano de gestão de riscos do núcleo central, de 2018.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P08",
+            "factKey": "cidade-quito-F08",
+            "text": "Espremido num vale andino estreito, o sítio urbano se apoia nas encostas baixas do vulcão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P09",
+            "factKey": "cidade-quito-F09",
+            "text": "Sebastián de Belalcázar, lugar-tenente de Pizarro, ocupou o sítio em 6 de dezembro de 1534.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P10",
+            "factKey": "cidade-quito-F10",
+            "text": "A cidade colonial ocupou o lugar de um assentamento que os incas haviam fortificado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "QUITO_EB",
+              "QUITO_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P11",
+            "factKey": "cidade-quito-F11",
+            "text": "Antes da conquista inca, o sítio já funcionava como centro de mercado e fronteira política.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P12",
+            "factKey": "cidade-quito-F12",
+            "text": "Igrejas como La Compañía, Carmen Alto e o Sagrário compõem a rede religiosa do centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P13",
+            "factKey": "cidade-quito-F13",
+            "text": "O conjunto franciscano está entre os grandes complexos conventuais citados pela UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P14",
+            "factKey": "cidade-quito-F14",
+            "text": "Fora do núcleo, o Santuário de Guápulo e a Recoleta de San Diego também integram o patrimônio citado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P15",
+            "factKey": "cidade-quito-F15",
+            "text": "O Panecillo, morro coroado por uma imagem da Virgem, serve de mirante panorâmico sobre o centro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P16",
+            "factKey": "cidade-quito-F16",
+            "text": "A escola barroca local funde tradições artísticas indígenas e europeias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P17",
+            "factKey": "cidade-quito-F17",
+            "text": "O traçado em tabuleiro é orientado pelos pontos cardeais.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P18",
+            "factKey": "cidade-quito-F18",
+            "text": "A UNESCO vê a escola artística local como a maior contribuição da América espanhola à arte universal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P19",
+            "factKey": "cidade-quito-F19",
+            "text": "Casas de um ou dois pavimentos se organizam em torno de pátios, em tijolo de terra e estuque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P20",
+            "factKey": "cidade-quito-F20",
+            "text": "Ofícios tradicionais e materiais locais sustentam a autenticidade da arquitetura.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P21",
+            "factKey": "cidade-quito-F21",
+            "text": "Sismos como os de 1660, 1797 e 1868 marcaram a história de riscos do casario colonial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "processo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P22",
+            "factKey": "cidade-quito-F22",
+            "text": "A Plaza Mayor se formou de modo orgânico, e praças secundárias pontuam a malha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P23",
+            "factKey": "cidade-quito-F23",
+            "text": "Inscrito em 1978, o bem tem cerca de 70 ha e zona de amortecimento de 375 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P24",
+            "factKey": "cidade-quito-F24",
+            "text": "Emissões de veículos superam limites de poluentes; ruas de pedestres e ciclovias tentam aliviar o tráfego.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "QUITO_PR"
+            ],
+            "clueType": "mobilidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "cidade-quito-geografo-P25",
+            "factKey": "cidade-quito-F25",
+            "text": "Capital nacional, concentrou a vida do país até o início do século XX, quando o peso econômico passou a Guayaquil.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "QUITO_EB"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital andina do Equador, fundada pelos espanhóis em 1534 sobre ruínas incas, nas encostas do vulcão Pichincha, com um dos centros históricos mais extensos e preservados da América espanhola.",
+      "editorialNotes": [
+        "Altitude: a UNESCO dá 2.818 m; a Britannica, 2.850 m. As pistas dizem ‘mais de 2.800 m’ ou citam as duas fontes.",
+        "O terremoto de 1917 citado no rascunho não aparece nas fontes abertas; as pistas usam os sismos de 1660, 1797, 1868 e 1987 citados pela Britannica.",
+        "A escola artística local (Escola Quitenha) não é nomeada nas pistas para não entregar o nome da cidade."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na declaração de valor universal e no relatório periódico da UNESCO e na Britannica; C1, C3 e C4 refeitos."
+    }
+  },
+  "sources": {
+    "QUITO_PR": {
+      "id": "QUITO_PR",
+      "title": "City of Quito — Periodic Report (Section II) and Statement of Outstanding Universal Value",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/215917",
+      "checkedAt": "2026-11-15"
+    },
+    "QUITO_EB": {
+      "id": "QUITO_EB",
+      "title": "Quito",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Quito",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/215917",
+      "https://www.britannica.com/place/Quito"
+    ],
+    "alteracoes": [
+      "Fonte QUITO2 (whc.unesco.org/en/list/2) substituída: a página de lista da UNESCO não abre nesta sessão; a mesma declaração de valor universal foi conferida no relatório periódico publicado pela UNESCO (QUITO_PR); acrescentada a Britannica (QUITO_EB).",
+      "C1: saíram Salvador (Brasil), Bogotá, La Paz e Cartagena; entraram Mompox, Cidade do México, Puebla e Antigua Guatemala, todos centros históricos inscritos.",
+      "C3: alternativas implausíveis (fiorde, atol, Saara) trocadas por vulcões andinos (Pichincha, Cotopaxi, Chimborazo, Misti).",
+      "C4: alternativas implausíveis (pagodes, castelos de gelo, pirâmides) trocadas por anos de fundação de cidades andinas (1534, 1535, 1538, 1557).",
+      "Viajante P22 (terremoto de 1917) trocada por sismo de 1987 (Britannica); P24 (chuvas e erosão) trocada por trânsito e poluição; P05 ajustada para ‘mais de 2.800 m’; entraram Panecillo, escola de arte de 1552, vale estreito, mercado pré-inca.",
+      "Geógrafo: P01–P25 reescritas para relações e processos (latitude quase nula e altitude, riscos vulcânicos com plano de 2018, fortificação inca, traçado em tabuleiro orientado, Plaza Mayor orgânica, 70 ha e 375 ha, perda do peso econômico para Guayaquil); P24 (drenagem urbana) saiu por falta de apoio.",
+      "Sinais: P01–P02 abertura e P07 e P18 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

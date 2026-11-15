@@ -1,0 +1,1084 @@
+{
+ "case": {
+  "id": "lug2-gramado",
+  "placeId": "gramado",
+  "title": "Gramado",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Gramado"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Canela"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Nova Petrópolis"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Bento Gonçalves"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Caxias do Sul"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Garibaldi"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Cambará do Sul"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Francisco de Paula"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Petrópolis"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Campos do Jordão"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Nova Friburgo"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Pomerode"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Gramado",
+    "sources": [
+     "GRA_IBGE",
+     "GRA_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Troféu entregue no festival de cinema da cidade",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Kikito"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Candango"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Grande Otelo"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Urso de Ouro"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Kikito",
+    "sources": [
+     "GRA_UFPEL",
+     "GRA_FESTIVAL",
+     "GRA_MD"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Lago criado depois que um incêndio destruiu a área",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Lago Negro"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Lago Guaíba"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Lago Paranoá"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Lago de Furnas"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Lago Negro",
+    "sources": [
+     "GRA_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Município do qual se emancipou em 1954",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Taquara"
+     },
+     {
+      "id": "C4-O2",
+      "text": "São Francisco de Paula"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Caxias do Sul"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Novo Hamburgo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Taquara",
+    "sources": [
+     "GRA_IBGE"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "gramado-viajante-P01",
+      "factKey": "gramado-F01",
+      "text": "É uma cidade de serra no Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P02",
+      "factKey": "gramado-F02",
+      "text": "No inverno faz frio de verdade: geadas fortes e, de vez em quando, neve.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P03",
+      "factKey": "gramado-F03",
+      "text": "A cidade fica a cerca de 850 metros de altitude.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P04",
+      "factKey": "gramado-F04",
+      "text": "Os primeiros moradores chegaram em 1875; depois vieram alemães e italianos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE",
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P05",
+      "factKey": "gramado-F05",
+      "text": "As construções precisam seguir um estilo de arquitetura alemã.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P06",
+      "factKey": "gramado-F06",
+      "text": "Hortênsias florescem no fim da primavera e dão nome à região turística.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P07",
+      "factKey": "gramado-F07",
+      "text": "Um lago artificial cercado de árvores e hortênsias tem pedalinhos.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P08",
+      "factKey": "gramado-F08",
+      "text": "Esse lago foi criado em 1953, numa área destruída por um incêndio em 1942.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P09",
+      "factKey": "gramado-F09",
+      "text": "A igreja matriz, de pedra, começou a ser construída em 1917 e tem torre de 44 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P10",
+      "factKey": "gramado-F10",
+      "text": "Ao lado da matriz há uma fonte onde casais deixam cadeados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P11",
+      "factKey": "gramado-F11",
+      "text": "Uma rua coberta, enfeitada com plantas penduradas, fica em frente ao palácio do festival de cinema.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P12",
+      "factKey": "gramado-F12",
+      "text": "Uma rua sinuosa e florida do centro lembra uma rua famosa de São Francisco, nos EUA.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P13",
+      "factKey": "gramado-F13",
+      "text": "Um parque tem réplicas de prédios famosos em tamanho 24 vezes menor.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P14",
+      "factKey": "gramado-F14",
+      "text": "Fábricas artesanais de chocolate estão espalhadas pela cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P15",
+      "factKey": "gramado-F15",
+      "text": "Um espaço tem mais de 200 peças feitas com cerca de 30 toneladas de chocolate.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P16",
+      "factKey": "gramado-F16",
+      "text": "Numa praça, três casas lembram os imigrantes italianos, alemães e portugueses.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_DV",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P17",
+      "factKey": "gramado-F17",
+      "text": "Numa dessas casas, agricultores vendem pães, cucas e outras comidas artesanais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_DV",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P18",
+      "factKey": "gramado-F18",
+      "text": "Um parque de neve coberto, aberto no fim de 2013, foi o primeiro do tipo na América Latina.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P19",
+      "factKey": "gramado-F19",
+      "text": "Um grande evento de Natal enfeita a cidade de novembro a janeiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P20",
+      "factKey": "gramado-F20",
+      "text": "Um mirante gratuito oferece vista panorâmica do Vale do Quilombo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P21",
+      "factKey": "gramado-F21",
+      "text": "Uma cidade vizinha fica a cerca de 7 km.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P22",
+      "factKey": "gramado-F22",
+      "text": "Um festival de cinema acontece todo mês de agosto, num palácio da avenida principal.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV",
+       "GRA_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P23",
+      "factKey": "gramado-F23",
+      "text": "O município se separou de Taquara em 1954.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P24",
+      "factKey": "gramado-F24",
+      "text": "O troféu do festival de cinema, o Kikito, representa o deus do bom humor.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "GRA_UFPEL",
+       "GRA_FESTIVAL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-viajante-P25",
+      "factKey": "gramado-F25",
+      "text": "O nome lembra um terreno coberto de grama e árvores onde os viajantes paravam.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "gramado-geografo-P01",
+      "factKey": "gramado-F01",
+      "text": "O município se situa na Serra Gaúcha, a cerca de 850 m de altitude, com clima Cfb.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P02",
+      "factKey": "gramado-F02",
+      "text": "Pequeno em área (cerca de 237 km²), é formado apenas pelo distrito sede.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI",
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P03",
+      "factKey": "gramado-F03",
+      "text": "O clima de altitude traz verões com média em torno de 22 °C e invernos com geadas fortes e neve ocasional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P04",
+      "factKey": "gramado-F04",
+      "text": "A chuva média anual fica em torno de 2.000 mm.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P05",
+      "factKey": "gramado-F05",
+      "text": "O povoamento começou em 1875, com uma família que se fixou onde hoje fica a cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P06",
+      "factKey": "gramado-F06",
+      "text": "A portugueses seguiram-se alemães, por volta de 1880, e italianos vindos de Caxias do Sul.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P07",
+      "factKey": "gramado-F07",
+      "text": "Em 1904 criou-se um distrito chamado Linha Nova, subordinado a Taquara do Mundo Novo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P08",
+      "factKey": "gramado-F08",
+      "text": "Em 1913, a sede distrital foi transferida para o local atual e o distrito mudou de nome.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P09",
+      "factKey": "gramado-F09",
+      "text": "Correio e escritório bancário chegaram em 1918; a iluminação por usina própria, em 1920.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P10",
+      "factKey": "gramado-F10",
+      "text": "A chegada dos trilhos da Viação Férrea, em 1919 segundo o IBGE, integrou o núcleo à rede ferroviária estadual.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P11",
+      "factKey": "gramado-F11",
+      "text": "A emancipação veio pela Lei Estadual nº 2.522, de dezembro de 1954, com instalação em julho de 1955.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P12",
+      "factKey": "gramado-F12",
+      "text": "Povoados como Várzea Grande e Linha 28 já constavam do território distrital em 1926.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P13",
+      "factKey": "gramado-F13",
+      "text": "O Censo de 2022 contou cerca de 40 mil habitantes no município.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P14",
+      "factKey": "gramado-F14",
+      "text": "Uma regra urbanística exige estilo arquitetônico alemão nas construções.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P15",
+      "factKey": "gramado-F15",
+      "text": "A floração de hortênsias no fim da primavera dá nome à região turística de que a cidade faz parte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P16",
+      "factKey": "gramado-F16",
+      "text": "O lago artificial de 1953 foi implantado numa área que um incêndio de 1942 havia destruído.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P17",
+      "factKey": "gramado-F17",
+      "text": "Esse lago fica a cerca de 1,6 km da prefeitura.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P18",
+      "factKey": "gramado-F18",
+      "text": "O festival de cinema, oficializado pelo Instituto Nacional de Cinema, teve a primeira edição em janeiro de 1973.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "GRA_FESTIVAL",
+       "GRA_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P19",
+      "factKey": "gramado-F19",
+      "text": "Em 1992, o festival se abriu ao cinema ibero-americano, já com edição em agosto.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "GRA_FESTIVAL",
+       "GRA_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P20",
+      "factKey": "gramado-F20",
+      "text": "O calendário de eventos inclui o maior Natal do país, de novembro a janeiro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P21",
+      "factKey": "gramado-F21",
+      "text": "Um parque de neve indoor aberto em 2013, o primeiro da América Latina, mantém áreas a −5 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_MD",
+       "GRA_DV"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P22",
+      "factKey": "gramado-F22",
+      "text": "A produção artesanal de chocolate reúne dezenas de lojas na cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P23",
+      "factKey": "gramado-F23",
+      "text": "A cidade vizinha, a menos de 10 km, abriga o aeroporto mais próximo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_WIKI",
+       "GRA_MD"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P24",
+      "factKey": "gramado-F24",
+      "text": "A estatueta Kikito, inspirada no deus do bom humor e idealizada por Elisabeth Rosenfeld, nasceu nos anos 1960 como símbolo de boas-vindas da cidade.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "GRA_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "gramado-geografo-P25",
+      "factKey": "gramado-F25",
+      "text": "O topônimo venceu a proposta Dinizópolis e vem de uma parada de viajantes coberta de grama e árvores.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "GRA_IBGE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Cidade da Serra Gaúcha, a cerca de 850 m de altitude, emancipada de Taquara em 1954, conhecida pelo Festival de Cinema (desde 1973, troféu Kikito), pelo Lago Negro, pela arquitetura de estilo alemão, pelo chocolate e pelo Natal Luz.",
+   "editorialNotes": [
+    "A chegada da ferrovia aparece como 1919 (IBGE) e 1921 (Wikipedia); a pista cita 1919 atribuindo ao IBGE.",
+    "A data de cidade diverge na Wikipedia (1937 e 1954); o C4 e as pistas usam a lei estadual de 1954 registrada pelo IBGE.",
+    "A distância até Canela aparece como 7 km (Melhores Destinos) e 8 km até o aeroporto (Wikipedia); o Geógrafo usa \"menos de 10 km\"."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por IBGE, site do festival, UFPel, Wikipedia e guias abertos na revisão; C3 e C4 refeitos; pistas conferidas"
+  }
+ },
+ "sources": {
+  "GRA_IBGE": {
+   "id": "GRA_IBGE",
+   "title": "Gramado (RS): histórico e formação administrativa",
+   "publisher": "IBGE",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/gramado.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "GRA_WIKI": {
+   "id": "GRA_WIKI",
+   "title": "Gramado",
+   "publisher": "Wikipedia (inglês)",
+   "url": "https://en.wikipedia.org/wiki/Gramado",
+   "checkedAt": "2026-11-15"
+  },
+  "GRA_FESTIVAL": {
+   "id": "GRA_FESTIVAL",
+   "title": "History (História do festival)",
+   "publisher": "Festival de Cinema de Gramado",
+   "url": "https://festivaldecinemadegramado.com/en/historia/",
+   "checkedAt": "2026-11-15"
+  },
+  "GRA_UFPEL": {
+   "id": "GRA_UFPEL",
+   "title": "Conheça a história do Festival de Cinema de Gramado",
+   "publisher": "UFPel – Arte no Sul",
+   "url": "https://wp.ufpel.edu.br/artenosul/2023/08/22/conheca-a-historia-do-festival-de-cinema-de-gramado/",
+   "checkedAt": "2026-11-15"
+  },
+  "GRA_MD": {
+   "id": "GRA_MD",
+   "title": "O que fazer em Gramado e Canela – 85 dicas para a sua viagem (Camille Panzera)",
+   "publisher": "Melhores Destinos",
+   "url": "https://www.melhoresdestinos.com.br/dicas-gramado.html",
+   "checkedAt": "2026-11-15"
+  },
+  "GRA_DV": {
+   "id": "GRA_DV",
+   "title": "Pontos turísticos de Gramado: 20 atrações imperdíveis (Virginia Falanghe)",
+   "publisher": "Dicas de Viagem",
+   "url": "https://www.dicasdeviagem.com/pontos-turisticos-de-gramado/",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/gramado.pdf",
+   "https://en.wikipedia.org/wiki/Gramado",
+   "https://festivaldecinemadegramado.com/en/historia/",
+   "https://wp.ufpel.edu.br/artenosul/2023/08/22/conheca-a-historia-do-festival-de-cinema-de-gramado/",
+   "https://www.melhoresdestinos.com.br/dicas-gramado.html",
+   "https://www.dicasdeviagem.com/pontos-turisticos-de-gramado/"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (Setur-RS, IBGE Cidades) não foram abertas; IBGE Biblioteca (mesmo documento do rascunho) aberto via busca e somadas 5 fontes abertas (Wikipedia, site do Festival, UFPel Arte no Sul, Melhores Destinos, Dicas de Viagem)",
+   "C2: rótulo para \"Troféu entregue no festival de cinema da cidade\" (mesmo gabarito Kikito)",
+   "C3: rótulo \"Lago turístico\" trocado por \"Lago criado depois que um incêndio destruiu a área\" (Wikipedia: 1953, após incêndio de 1942)",
+   "C4: \"Estado brasileiro\" trocado por \"Município do qual se emancipou em 1954\", gabarito Taquara (IBGE)",
+   "Retiradas pistas sem fonte aberta: pórticos bávaro e normando, Igreja do Relógio, Lago Joaquina Rita Bier, roteiro Raízes Coloniais, \"pedra basáltica\" (as fontes dizem só pedra), Mini Mundo \"criado pela família Höppner em 1981\" (sem ano nas fontes), ornamentos de madeira da prefeitura",
+   "Entraram: altitude e clima, regra de arquitetura alemã, hortênsias, Lago Negro (1953/1942), matriz de 1917 com torre de 44 m, Rua Torta, Snowland (2013), Natal, festival de 1973 e virada ibero-americana de 1992, Kikito, origem do topônimo",
+   "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho tinha 4 aberturas); relatedFields agora apontam C2–C4",
+   "viajante: 25 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

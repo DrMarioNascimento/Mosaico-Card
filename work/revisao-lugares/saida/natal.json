@@ -1,0 +1,1053 @@
+{
+ "case": {
+  "id": "lug2-natal",
+  "placeId": "natal",
+  "title": "Natal",
+  "aliases": [],
+  "answerType": "cidade",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "nordeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Cidade brasileira",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Natal"
+     },
+     {
+      "id": "C1-O2",
+      "text": "João Pessoa"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Maceió"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Aracaju"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Recife"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Salvador"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Fortaleza"
+     },
+     {
+      "id": "C1-O8",
+      "text": "São Luís"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Teresina"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Belém"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Florianópolis"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Vitória"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Natal",
+    "sources": [
+     "NATAL_IBGEHIST",
+     "NATAL_IBGE1973"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rio em cujo estuário a cidade nasceu",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Potengi"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Sanhauá"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Capibaribe"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Cocó"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Potengi",
+    "sources": [
+     "NATAL_IBGEHIST",
+     "NATAL_UFRN"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Forte erguido na barra do rio em 1598",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Forte dos Reis Magos"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Forte de São Marcelo"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Forte Orange"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Forte dos Remédios"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Forte dos Reis Magos",
+    "sources": [
+     "NATAL_IBGEHIST",
+     "NATAL_IBGE1973"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Apelido ligado à Segunda Guerra Mundial",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Trampolim da Vitória"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Cidade Maravilhosa"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Veneza Brasileira"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Ilha da Magia"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Trampolim da Vitória",
+    "sources": [
+     "NATAL_IBGEHIST"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "natal-viajante-P01",
+      "factKey": "natal-F01",
+      "text": "É uma capital litorânea do Nordeste.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P02",
+      "factKey": "natal-F02",
+      "text": "A costa é baixa e arenosa, com dunas antigas e fixas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P03",
+      "factKey": "natal-F03",
+      "text": "Fica no Rio Grande do Norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST",
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P04",
+      "factKey": "natal-F04",
+      "text": "Um rio encontra o mar junto à cidade, num trecho chamado Boca da Barra.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST",
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P05",
+      "factKey": "natal-F05",
+      "text": "Esse rio se chama Potengi.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST",
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P06",
+      "factKey": "natal-F06",
+      "text": "Um forte foi começado sobre arrecifes junto à barra do rio em 1598.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P07",
+      "factKey": "natal-F07",
+      "text": "O forte recebeu o nome da festa dos Reis Magos, dia em que a obra começou.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P08",
+      "factKey": "natal-F08",
+      "text": "O forte é tombado e é uma das grandes atrações turísticas.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P09",
+      "factKey": "natal-F09",
+      "text": "A data tradicional de fundação da cidade é 25 de dezembro de 1599.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P10",
+      "factKey": "natal-F10",
+      "text": "Durante o domínio holandês, a cidade se chamou Nova Amsterdã.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P11",
+      "factKey": "natal-F11",
+      "text": "A parte alta da cidade antiga era a Cidade Alta, e a baixa, a Ribeira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P12",
+      "factKey": "natal-F12",
+      "text": "Na Segunda Guerra, a cidade recebeu bases aéreas e navais dos Aliados.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P13",
+      "factKey": "natal-F13",
+      "text": "Por causa disso, ganhou o apelido de Trampolim da Vitória.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P14",
+      "factKey": "natal-F14",
+      "text": "A praia de Ponta Negra virou zona militar durante a guerra.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P15",
+      "factKey": "natal-F15",
+      "text": "A Redinha é uma praia popular desde o século XVIII.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P16",
+      "factKey": "natal-F16",
+      "text": "Areia Preta, Meio e Forte estão entre as praias da cidade.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P17",
+      "factKey": "natal-F17",
+      "text": "Um grande parque protege dunas cobertas de Mata Atlântica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P18",
+      "factKey": "natal-F18",
+      "text": "Esse parque das dunas foi criado em 1977.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P19",
+      "factKey": "natal-F19",
+      "text": "O Bosque dos Namorados reúne o centro de visitantes do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P20",
+      "factKey": "natal-F20",
+      "text": "Trilhas com guia levam grupos de 5 a 25 pessoas pelo parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P21",
+      "factKey": "natal-F21",
+      "text": "Uma avenida à beira-mar liga o forte histórico à praia de Ponta Negra.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P22",
+      "factKey": "natal-F22",
+      "text": "Uma ponte de 1.780 m atravessa o rio desde 2007.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P23",
+      "factKey": "natal-F23",
+      "text": "Essa ponte, a Newton Navarro, fica entre os bairros de Santos Reis e da Redinha.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P24",
+      "factKey": "natal-F24",
+      "text": "Há manguezal na beira do rio, perto da ponte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-viajante-P25",
+      "factKey": "natal-F25",
+      "text": "O farol da cidade fica no Morro do Pinto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "natal-geografo-P01",
+      "factKey": "natal-F01",
+      "text": "É uma capital costeira nascida junto ao estuário de um rio, numa planície de dunas fixas.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGE1973",
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P02",
+      "factKey": "natal-F02",
+      "text": "A defesa da barra do rio foi o ponto de partida da ocupação portuguesa.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P03",
+      "factKey": "natal-F03",
+      "text": "Em 1535, a resistência potiguar e franceses ligados ao pau-brasil frustraram a primeira tentativa de colonização.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P04",
+      "factKey": "natal-F04",
+      "text": "Uma esquadra entrou na foz do rio em 25 de dezembro de 1597 para preparar a conquista.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P05",
+      "factKey": "natal-F05",
+      "text": "O forte, iniciado em janeiro de 1598 sobre arrecifes, ficou pronto em junho do mesmo ano.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P06",
+      "factKey": "natal-F06",
+      "text": "O povoado cresceu em torno do forte e talvez tenha se chamado Cidade dos Reis.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P07",
+      "factKey": "natal-F07",
+      "text": "Sob os holandeses, entre 1633 e 1654, o forte passou a se chamar Forte de Keulen.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P08",
+      "factKey": "natal-F08",
+      "text": "Após a saída holandesa, o crescimento foi lento: cerca de 6.400 moradores em 1805.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P09",
+      "factKey": "natal-F09",
+      "text": "O estuário, chamado Boca da Barra, fica entre as praias da Redinha e do Forte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P10",
+      "factKey": "natal-F10",
+      "text": "O rio é a principal bacia hidrográfica que atravessa o município.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P11",
+      "factKey": "natal-F11",
+      "text": "O porto fica no estuário; em 1973, seu canal tinha ao menos 3,7 m na maré baixa.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P12",
+      "factKey": "natal-F12",
+      "text": "O primeiro navio atracou no porto em 24 de outubro de 1932.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P13",
+      "factKey": "natal-F13",
+      "text": "Em 1973, a economia da cidade se baseava principalmente nas atividades portuárias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P14",
+      "factKey": "natal-F14",
+      "text": "O núcleo original corresponde ao entorno da atual Praça André de Albuquerque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P15",
+      "factKey": "natal-F15",
+      "text": "O sítio urbano antigo dividia-se entre a Cidade Alta e a Ribeira, perto da foz.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "NATAL_IBGE1973",
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P16",
+      "factKey": "natal-F16",
+      "text": "A expansão abriu a Cidade Nova, de avenidas traçadas, e os bairros de Petrópolis, Tirol e Alecrim.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P17",
+      "factKey": "natal-F17",
+      "text": "O crescimento acelerou a partir de 1922, e o Alecrim já estava adensado nos anos 1940.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P18",
+      "factKey": "natal-F18",
+      "text": "A posição no litoral atraiu bases aéreas e navais aliadas na Segunda Guerra.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P19",
+      "factKey": "natal-F19",
+      "text": "A Base Aérea de Parnamirim fica a cerca de 15 km da capital.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGE1973"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P20",
+      "factKey": "natal-F20",
+      "text": "Parnamirim, antigo distrito do município, emancipou-se em 1958.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P21",
+      "factKey": "natal-F21",
+      "text": "Criado em 1977, o Parque das Dunas foi a primeira unidade de conservação do estado, com 1.172 ha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P22",
+      "factKey": "natal-F22",
+      "text": "As dunas do parque funcionam como importantes aquíferos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P23",
+      "factKey": "natal-F23",
+      "text": "A Via Costeira, aberta nos anos 1970 entre o forte e Ponta Negra, deu início ao polo hoteleiro.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "NATAL_OPOVO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P24",
+      "factKey": "natal-F24",
+      "text": "A ponte de 1.780 m sobre o estuário, inaugurada em 2007, facilitou o acesso às zonas Leste e Norte.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "NATAL_UFRN"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "natal-geografo-P25",
+      "factKey": "natal-F25",
+      "text": "O papel militar na Segunda Guerra rendeu à cidade o apelido de Trampolim da Vitória.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "NATAL_IBGEHIST"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Capital do Rio Grande do Norte nascida no estuário do Potengi em torno do Forte dos Reis Magos (1598), com fundação tradicional em 25 de dezembro de 1599, o Parque das Dunas e o apelido de Trampolim da Vitória ganho na Segunda Guerra.",
+   "editorialNotes": [
+    "O IBGE dá duas explicações para o nome (entrada da esquadra em 25/12/1597 e demarcação em 25/12/1599); a pista usa 1599 como data tradicional.",
+    "Dados de porto, economia e bairros vêm da monografia do IBGE de 1973 e trazem o ano quando dependem da época.",
+    "População do Censo 2022, Morro do Careca e Parque Dom Nivaldo Monte não foram confirmados nas fontes abertas e saíram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes trocadas por histórico e monografia do IBGE, reportagem de O Povo e artigo da UFRN abertos na revisão; C3–C4 ajustados e todas as pistas conferidas"
+  }
+ },
+ "sources": {
+  "NATAL_IBGEHIST": {
+   "id": "NATAL_IBGEHIST",
+   "title": "Natal (RN) — Histórico",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedonorte/natal.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "NATAL_IBGE1973": {
+   "id": "NATAL_IBGE1973",
+   "title": "Rio Grande do Norte – Natal (Coleção de Monografias nº 551, 1973)",
+   "publisher": "IBGE — Biblioteca",
+   "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n551_natal.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "NATAL_OPOVO": {
+   "id": "NATAL_OPOVO",
+   "title": "Parque das Dunas: um exemplo potiguar para o que a Sabiaguaba poderia ser",
+   "publisher": "O Povo",
+   "url": "https://mais.opovo.com.br/reportagens-especiais/dunas-sabiaguaba/2025/04/14/parque-das-dunas-um-exemplo-potiguar-para-o-que-a-sabiaguaba-poderia-ser.html",
+   "checkedAt": "2026-11-15"
+  },
+  "NATAL_UFRN": {
+   "id": "NATAL_UFRN",
+   "title": "O risco de desastre tecnológico na ponte Newton Navarro, Natal – RN, Brasil (Revista de Geociências do Nordeste, v. 7, n. 2, 2021)",
+   "publisher": "Revista de Geociências do Nordeste (UFRN)",
+   "url": "https://periodicos.ufrn.br/revistadoregne/article/download/18311/14855/88773",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedonorte/natal.pdf",
+   "https://biblioteca.ibge.gov.br/visualizacao/periodicos/113/col_mono_n551_natal.pdf",
+   "https://mais.opovo.com.br/reportagens-especiais/dunas-sabiaguaba/2025/04/14/parque-das-dunas-um-exemplo-potiguar-para-o-que-a-sabiaguaba-poderia-ser.html",
+   "https://periodicos.ufrn.br/revistadoregne/article/download/18311/14855/88773"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (NATAL_IBGE, NATAL_PREF, NATAL_IPHAN, NATAL_RN, NATAL_RISCO) não abertas nesta sessão; substituídas por IBGE Biblioteca (histórico e monografia de 1973), O Povo (2025) e Revista de Geociências do Nordeste/UFRN (2021)",
+   "alias \"Natal\" (igual ao título) removido",
+   "C3: gabarito passa a \"Forte dos Reis Magos\" (nome usado pelo IBGE) e rótulo mais preciso",
+   "C4: \"Estado\" trocado por \"Apelido ligado à Segunda Guerra Mundial\", gabarito Trampolim da Vitória (IBGE)",
+   "Retiradas pistas sem fonte aberta: população 2022, Morro do Careca, Parque Dom Nivaldo Monte, traçado irregular do centro, \"tradição ibérica\" do sítio elevado, Ribeira no século XVIII",
+   "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil",
+   "viajante: 24 pistas reescritas ou trocadas (P01, P02, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

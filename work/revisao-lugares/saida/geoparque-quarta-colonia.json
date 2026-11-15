@@ -1,0 +1,1097 @@
+{
+ "case": {
+  "id": "lug2-geoparque-quarta-colonia",
+  "placeId": "geoparque-quarta-colonia",
+  "title": "Geoparque Quarta Colônia",
+  "aliases": [],
+  "answerType": "geoparque",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "sul"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Geoparque",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Geoparque Quarta Colônia"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Geoparque Caçapava"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Geoparque Caminhos dos Cânions do Sul"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Geoparque Araripe"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Geoparque Seridó"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Geoparque Uberaba"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Geoparque Imbabura"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Geoparque Kütralkura"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Geoparque Rio Coco"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Geoparque Grutas del Palacio"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Geoparque Comarca Minera"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Geoparque Vale do Colca e Vulcões de Andagua"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Geoparque Quarta Colônia",
+    "sources": [
+     "QC_UFSM",
+     "QC_JC"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Período geológico dos fósseis mais famosos",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Triássico"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Jurássico"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Cretáceo"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Siluriano"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Triássico",
+    "sources": [
+     "QC_UFSM",
+     "QC_FAPESP"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Dinossauro descrito com fósseis do território",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Buriolestes schultzi"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Irritator challengeri"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Uberabatitan ribeiroi"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Oxalaia quilombensis"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Buriolestes schultzi",
+    "sources": [
+     "QC_UFSM",
+     "QC_FAPESP"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Transição de biomas onde está o território",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Mata Atlântica e Pampa"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Cerrado e Caatinga"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Amazônia e Cerrado"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Cerrado e Pantanal"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Mata Atlântica e Pampa",
+    "sources": [
+     "QC_UFSM"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "quarta-colonia-viajante-P01",
+      "factKey": "quarta-colonia-viajante-F01",
+      "text": "É um geoparque mundial no Sul do Brasil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P02",
+      "factKey": "quarta-colonia-viajante-F02",
+      "text": "Recebeu o título da UNESCO em 2023, renovado em 2026.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM",
+       "QC_JC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P03",
+      "factKey": "quarta-colonia-viajante-F03",
+      "text": "O território reúne nove municípios da região central do estado gaúcho.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM",
+       "QC_JC2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P04",
+      "factKey": "quarta-colonia-viajante-F04",
+      "text": "A paisagem mistura matas e campos, na passagem entre dois biomas.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P05",
+      "factKey": "quarta-colonia-viajante-F05",
+      "text": "Há vales profundos, morros e paredões de arenito e basalto.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P06",
+      "factKey": "quarta-colonia-viajante-F06",
+      "text": "Rios e cascatas fazem parte do passeio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P07",
+      "factKey": "quarta-colonia-viajante-F07",
+      "text": "Nas partes mais altas há matas com araucárias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P08",
+      "factKey": "quarta-colonia-viajante-F08",
+      "text": "O lugar é famoso por fósseis de dinossauros com mais de 230 milhões de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "QC_LP",
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P09",
+      "factKey": "quarta-colonia-viajante-F09",
+      "text": "Esses fósseis são do Triássico e têm entre cerca de 233 e 225 milhões de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P10",
+      "factKey": "quarta-colonia-viajante-F10",
+      "text": "Pesquisadores dizem que a região guarda alguns dos dinossauros mais antigos do mundo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P11",
+      "factKey": "quarta-colonia-viajante-F11",
+      "text": "Um agricultor e um carpinteiro acharam quatro esqueletos quase completos de uma espécie de dinossauro até então desconhecida.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P12",
+      "factKey": "quarta-colonia-viajante-F12",
+      "text": "Um dos dinossauros locais, o Buriolestes schultzi, era um carnívoro de cerca de 1,5 m.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "QC_ATARDE",
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P13",
+      "factKey": "quarta-colonia-viajante-F13",
+      "text": "Outro, o Macrocollum itaquii, era um herbívoro de cerca de 4 m encontrado em Agudo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_ATARDE",
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P14",
+      "factKey": "quarta-colonia-viajante-F14",
+      "text": "Um parente distante dos crocodilos, achado em 2019, também tem mais de 230 milhões de anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JC2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P15",
+      "factKey": "quarta-colonia-viajante-F15",
+      "text": "Em 1928 e 1929, uma expedição levou quase nove toneladas de fósseis da região para a Alemanha.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P16",
+      "factKey": "quarta-colonia-viajante-F16",
+      "text": "Hoje os fósseis achados ali ficam e são estudados na própria região, em vez de irem para outros estados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P17",
+      "factKey": "quarta-colonia-viajante-F17",
+      "text": "Depois da grande enchente de maio de 2024, pesquisadores acharam novos fragmentos de dinossauro.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_ATARDE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P18",
+      "factKey": "quarta-colonia-viajante-F18",
+      "text": "Um centro de pesquisa de uma universidade federal, aberto em 2013, estuda os fósseis e recebe visitantes.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_FAPESP",
+       "QC_ATARDE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P19",
+      "factKey": "quarta-colonia-viajante-F19",
+      "text": "Descendentes de italianos, alemães e portugueses, além de indígenas e quilombolas, formam a cultura local.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P20",
+      "factKey": "quarta-colonia-viajante-F20",
+      "text": "Uma comunidade quilombola de um dos municípios preserva a memória afro-brasileira.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P21",
+      "factKey": "quarta-colonia-viajante-F21",
+      "text": "Há cervejas, vinhos e pratos batizados com referências ao patrimônio geológico.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JC2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P22",
+      "factKey": "quarta-colonia-viajante-F22",
+      "text": "Um parque estadual de 1.847 hectares foi criado em 2005 como compensação por uma usina hidrelétrica.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P23",
+      "factKey": "quarta-colonia-viajante-F23",
+      "text": "Um sítio de fósseis do Triássico em Faxinal do Soturno tem importância internacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB",
+       "QC_JC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P24",
+      "factKey": "quarta-colonia-viajante-F24",
+      "text": "O centro de pesquisa paleontológica da UFSM fica em São João do Polêsine, a cerca de 50 km de Santa Maria.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-viajante-P25",
+      "factKey": "quarta-colonia-viajante-F25",
+      "text": "O nome vem da colônia imperial criada em 1877, a quarta de imigrantes italianos no estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "quarta-colonia-geografo-P01",
+      "factKey": "quarta-colonia-geografo-F01",
+      "text": "O território marca a transição entre a Depressão Periférica, ao sul, e o planalto da Serra Geral, ao norte.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P02",
+      "factKey": "quarta-colonia-geografo-F02",
+      "text": "Situa-se na transição entre os biomas Mata Atlântica e Pampa.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P03",
+      "factKey": "quarta-colonia-geografo-F03",
+      "text": "Ao sul predominam coxilhas e várzeas; ao norte, escarpas e picos, com altitudes de cerca de 100 a mais de 600 m.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P04",
+      "factKey": "quarta-colonia-geografo-F04",
+      "text": "A sucessão de rochas vai do Triássico Inferior ao Cretáceo Inferior, na bacia do Chaco-Paraná.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P05",
+      "factKey": "quarta-colonia-geografo-F05",
+      "text": "As escarpas arenítico-basálticas expõem arenito eólico e derrames vulcânicos sobre camadas triássicas mais antigas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM",
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P06",
+      "factKey": "quarta-colonia-geografo-F06",
+      "text": "Rios como o Jacuí erodiram o basalto e expuseram as camadas com fósseis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JC2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P07",
+      "factKey": "quarta-colonia-geografo-F07",
+      "text": "As rochas carnianas da Formação Santa Maria têm idade máxima de cerca de 233 milhões de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P08",
+      "factKey": "quarta-colonia-geografo-F08",
+      "text": "Os depósitos fossilíferos destacados no geoparque datam de cerca de 233 a 225 milhões de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P09",
+      "factKey": "quarta-colonia-geografo-F09",
+      "text": "Os níveis mais antigos da Formação Caturrita, que costuma recobrir a Santa Maria, têm cerca de 225 milhões de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P10",
+      "factKey": "quarta-colonia-geografo-F10",
+      "text": "Macrocollum itaquii e Sacisaurus agudoensis vêm da Formação Caturrita.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P11",
+      "factKey": "quarta-colonia-geografo-F11",
+      "text": "Buriolestes schultzi, Bagualosaurus agudoensis e Macrocollum itaquii estão entre as espécies descritas com fósseis do território.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P12",
+      "factKey": "quarta-colonia-geografo-F12",
+      "text": "No sítio Janner, em Agudo, foram achados Pampadromaeus e Bagualosaurus.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_FAPESP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P13",
+      "factKey": "quarta-colonia-geografo-F13",
+      "text": "O registro inclui dinossauros, cinodontes, rincossauros, dicinodontes, peixes, pegadas, coprólitos e madeira de coníferas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P14",
+      "factKey": "quarta-colonia-geografo-F14",
+      "text": "A proposta do Serviço Geológico registrou 20 geossítios, um deles de importância internacional.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P15",
+      "factKey": "quarta-colonia-geografo-F15",
+      "text": "Esse geossítio tem mais de 20 m de exposição vertical e rende micro e macrovertebrados, invertebrados, plantas e icnofósseis.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JGSB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P16",
+      "factKey": "quarta-colonia-geografo-F16",
+      "text": "Uma expedição de 1928–29 enviou quase nove toneladas de fósseis da área para Tübingen.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P17",
+      "factKey": "quarta-colonia-geografo-F17",
+      "text": "Com o centro de pesquisa local, os fósseis passaram a ser estudados e guardados na região, e não em outros estados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_LP"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P18",
+      "factKey": "quarta-colonia-geografo-F18",
+      "text": "A enchente de maio de 2024 expôs fragmentos de herrerassaurídeos de cerca de 230 milhões de anos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_ATARDE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P19",
+      "factKey": "quarta-colonia-geografo-F19",
+      "text": "Um parque estadual de 1.847 ha foi criado em 2005 como compensação pela usina hidrelétrica Dona Francisca.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P20",
+      "factKey": "quarta-colonia-geografo-F20",
+      "text": "O território soma cerca de 2.923 km², distribuídos por nove municípios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P21",
+      "factKey": "quarta-colonia-geografo-F21",
+      "text": "O clima é subtropical úmido (Cfa), e o planalto tem floresta mista dominada por araucárias.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P22",
+      "factKey": "quarta-colonia-geografo-F22",
+      "text": "A UFSM participa da proposta desde os anos 2000, articulada a um consórcio intermunicipal de desenvolvimento sustentável.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFSM",
+       "QC_JC2025"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P23",
+      "factKey": "quarta-colonia-geografo-F23",
+      "text": "Após missão de avaliação em julho de 2026, a UNESCO renovou o título com cartão verde.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_JC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P24",
+      "factKey": "quarta-colonia-geografo-F24",
+      "text": "O geossítio de importância internacional, a Linha São Luiz, fica em Faxinal do Soturno.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_SGB",
+       "QC_JC"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "quarta-colonia-geografo-P25",
+      "factKey": "quarta-colonia-geografo-F25",
+      "text": "A colônia imperial de imigração italiana criada em 1877 e extinta em 1882, nas encostas da Serra Geral, foi a quarta do estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "QC_UFPEL"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "Geoparque Mundial da UNESCO (2023, renovado em 2026) formado por nove municípios do centro do Rio Grande do Sul, na transição Mata Atlântica–Pampa, conhecido pelos fósseis triássicos de cerca de 233 a 225 milhões de anos, entre os dinossauros mais antigos do mundo, e pela herança da quarta colônia de imigração italiana do estado.",
+   "editorialNotes": [
+    "O nome correto da espécie é Bagualosaurus agudoensis (UFSM, FAPESP); o rascunho dizia \"acuteensis\".",
+    "Os tamanhos de Buriolestes (1,5 m) e Macrocollum (4 m) vêm de reportagem (A Tarde, 2026); a mesma reportagem traz dado implausível sobre Exaeretodon, que foi descartado.",
+    "A área de cerca de 2.923 km² é da UFSM; a proposta do SGB tem contagem inconsistente de geossítios nacionais (5 ou 6), e a pista usa só o total de 20 e o internacional."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "fontes UFSM, FAPESP, SGB, JGSB, reportagens e artigo da UFPel abertos na revisão; C3 e C4 refeitos; nome de espécie corrigido; pistas conferidas"
+  }
+ },
+ "sources": {
+  "QC_UFSM": {
+   "id": "QC_UFSM",
+   "title": "Quarta Colônia Geoparque Mundial da UNESCO",
+   "publisher": "UFSM – Pró-Reitoria de Extensão",
+   "url": "https://www.ufsm.br/pro-reitorias/pre/quarta-colonia-geoparque-mundial-da-unesco",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_FAPESP": {
+   "id": "QC_FAPESP",
+   "title": "La primera tierra de los dinosaurios (Marcos Pivetta)",
+   "publisher": "Revista Pesquisa FAPESP",
+   "url": "https://revistapesquisa.fapesp.br/es/2020/01/24/la-primera-tierra-de-los-dinosaurios/",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_SGB": {
+   "id": "QC_SGB",
+   "title": "Geoparque Quarta Colônia (RS): proposta (Godoy, Binotto, Silva e Zerfass), série Geoparques do Brasil: propostas, v. 1",
+   "publisher": "Serviço Geológico do Brasil (CPRM)",
+   "url": "https://rigeo.sgb.gov.br/bitstream/doc/17170/1/quartacolonia.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_JGSB": {
+   "id": "QC_JGSB",
+   "title": "Linha São Luiz Geosite, Rio Grande do Sul State: 25 years of discoveries, and a unique window to the Brazilian Mesozoic",
+   "publisher": "Journal of the Geological Survey of Brazil (SGB)",
+   "url": "https://jgsb.sgb.gov.br/index.php/journal/article/view/243",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_JC": {
+   "id": "QC_JC",
+   "title": "Geoparques gaúchos têm título renovado pela Unesco",
+   "publisher": "Jornal do Comércio",
+   "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/11/1269280-geoparques-gauchos-tem-titulo-renovado-pela-unesco.html",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_JC2025": {
+   "id": "QC_JC2025",
+   "title": "Geoparques fomentam economias locais nas Regiões Central e Vale do Jaguari",
+   "publisher": "Jornal do Comércio",
+   "url": "https://www.jornaldocomercio.com/mapa-economico/regiao-centro/2025/07/1211317-geoparques-fomentam-economias-locais-nas-regioes-central-e-vale-do-jaguari.html",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_LP": {
+   "id": "QC_LP",
+   "title": "Southern Brazil Has Two New Unesco Geoparks - Here's What Visitors Need to Know",
+   "publisher": "Lonely Planet",
+   "url": "https://www.lonelyplanet.com/articles/new-unesco-geoparks-brazil-rio-grande-do-sul",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_ATARDE": {
+   "id": "QC_ATARDE",
+   "title": "Cidade pequena do Brasil guarda dinossauros mais antigos do mundo",
+   "publisher": "A Tarde",
+   "url": "https://atarde.com.br/brasil/cidade-pequena-do-brasil-guarda-dinossauros-mais-antigos-do-mundo-1381011",
+   "checkedAt": "2026-11-15"
+  },
+  "QC_UFPEL": {
+   "id": "QC_UFPEL",
+   "title": "Padre Luiz Sponchiado e a memória da Quarta Colônia (Juliana Maria Manfio, Memória em Rede, 2015)",
+   "publisher": "Universidade Federal de Pelotas",
+   "url": "https://periodicos.ufpel.edu.br/index.php/Memoria/article/view/9409/6110",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://www.ufsm.br/pro-reitorias/pre/quarta-colonia-geoparque-mundial-da-unesco",
+   "https://revistapesquisa.fapesp.br/es/2020/01/24/la-primera-tierra-de-los-dinosaurios/",
+   "https://rigeo.sgb.gov.br/bitstream/doc/17170/1/quartacolonia.pdf",
+   "https://jgsb.sgb.gov.br/index.php/journal/article/view/243",
+   "https://www.jornaldocomercio.com/jornal-cidades/2026/11/1269280-geoparques-gauchos-tem-titulo-renovado-pela-unesco.html",
+   "https://www.jornaldocomercio.com/mapa-economico/regiao-centro/2025/07/1211317-geoparques-fomentam-economias-locais-nas-regioes-central-e-vale-do-jaguari.html",
+   "https://www.lonelyplanet.com/articles/new-unesco-geoparks-brazil-rio-grande-do-sul",
+   "https://atarde.com.br/brasil/cidade-pequena-do-brasil-guarda-dinossauros-mais-antigos-do-mundo-1381011",
+   "https://periodicos.ufpel.edu.br/index.php/Memoria/article/view/9409/6110"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (página IGGP da UNESCO, Setur-RS, páginas da UFSM/CAPPA, prefeitura de Faxinal do Soturno) não foram abertas; mantida a página da UFSM/PRE (aberta via busca) e somadas 8 fontes abertas (FAPESP, proposta do SGB, JGSB, Jornal do Comércio 2025 e 2026, Lonely Planet, A Tarde, artigo da UFPel)",
+   "C1: \"Geoparque Aras\" (Irã, fora do recorte das demais) trocado por \"Geoparque Vale do Colca e Vulcões de Andagua\"",
+   "C3: \"Instituição de reconhecimento\" (UNESCO x FIFA, OMS, Interpol) trocado por \"Dinossauro descrito com fósseis do território\", gabarito Buriolestes schultzi (UFSM)",
+   "C4: \"Estado brasileiro\" trocado por \"Transição de biomas onde está o território\", gabarito Mata Atlântica e Pampa (UFSM)",
+   "Corrigido: Bagualosaurus \"acuteensis\" para agudoensis; \"Reserva da Biosfera\" e \"praias fluviais\" retiradas (não constam na página da UFSM); área atribuída à UFSM",
+   "Pistas de lista de municípios (5 pistas só com nomes) trocadas por relevo, estratigrafia, sítio Janner, expedição de 1928–29, parque estadual de 2005, enchente de 2024 e origem do nome (quarta colônia italiana, 1877)",
+   "Sinal ajustado: 2 aberturas e 2 decisivas por perfil (rascunho sem decisivas); relatedFields agora apontam C2–C4",
+   "viajante: 24 de 25 pistas reescritas ou trocadas; geografo: 25 de 25"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

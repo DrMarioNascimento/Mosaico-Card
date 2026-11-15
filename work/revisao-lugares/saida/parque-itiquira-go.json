@@ -1,0 +1,1077 @@
+{
+ "case": {
+  "id": "lug2-parque-itiquira-go",
+  "placeId": "parque-itiquira-go",
+  "title": "Parque Municipal do Itiquira",
+  "aliases": [
+   "Itiquira"
+  ],
+  "answerType": "parque municipal",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Unidade de conservação",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Municipal do Itiquira"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Estação Ecológica de Águas Emendadas"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Nacional de Brasília"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Nacional da Chapada dos Veadeiros"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Estadual de Terra Ronca"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Estadual dos Pireneus"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Estadual da Serra de Caldas Novas"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Nacional das Emas"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional da Chapada dos Guimarães"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Estadual da Serra Azul"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Estadual Serra de Ricardo Franco"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional da Serra da Bodoquena"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Municipal do Itiquira",
+    "sources": [
+     "ITI_UNB_2008",
+     "ITI_WIKI",
+     "ITI_PREF_MASCOTE"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Atrativo principal",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Queda livre de cerca de 168 metros"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Cavernas calcárias com rio subterrâneo"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Nascentes de água termal"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Piscinas naturais formadas por nascentes"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Queda livre de cerca de 168 metros",
+    "sources": [
+     "ITI_PREF_MASCOTE",
+     "ITI_UNB_2008",
+     "ITI_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Município do parque",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Formosa"
+     },
+     {
+      "id": "C3-O2",
+      "text": "Cavalcante"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Alto Paraíso de Goiás"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Padre Bernardo"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Formosa",
+    "sources": [
+     "ITI_UNB_2008",
+     "ITI_GOTUR_FORMOSA"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Bacia para onde corre o rio do salto",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Bacia do Tocantins-Araguaia"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Bacia do Paraná"
+     },
+     {
+      "id": "C4-O3",
+      "text": "Bacia do São Francisco"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Bacia do Paraguai"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Bacia do Tocantins-Araguaia",
+    "sources": [
+     "ITI_UNB_2008",
+     "ITI_GOTUR_FORMOSA"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "parque-itiquira-go-viajante-P01",
+      "factKey": "parque-itiquira-go-F01",
+      "text": "É uma área protegida do Brasil central famosa por uma cachoeira.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P02",
+      "factKey": "parque-itiquira-go-F02",
+      "text": "Fica no Cerrado, numa região de clima tropical.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P03",
+      "factKey": "parque-itiquira-go-F03",
+      "text": "É um parque municipal em Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P04",
+      "factKey": "parque-itiquira-go-F04",
+      "text": "Fica a pouco mais de 30 km do centro da cidade.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE",
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P05",
+      "factKey": "parque-itiquira-go-F05",
+      "text": "Está a cerca de 115 km de Brasília, por estrada asfaltada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P06",
+      "factKey": "parque-itiquira-go-F06",
+      "text": "O acesso é por uma rodovia estadual asfaltada, a GO-116.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P07",
+      "factKey": "parque-itiquira-go-F07",
+      "text": "A atração principal é uma queda-d'água de 168 metros.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE",
+       "ITI_UNB_2008",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P08",
+      "factKey": "parque-itiquira-go-F08",
+      "text": "É apontada como a cachoeira mais alta do Brasil aberta à visitação.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P09",
+      "factKey": "parque-itiquira-go-F09",
+      "text": "Uma trilha calçada, com pontes, leva em cerca de 15 minutos até um mirante.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P10",
+      "factKey": "parque-itiquira-go-F10",
+      "text": "Outra trilha, de cerca de 1,2 km, é bem mais difícil.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P11",
+      "factKey": "parque-itiquira-go-F11",
+      "text": "Há poços para banho, restaurante e estacionamento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_PREF_MASCOTE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P12",
+      "factKey": "parque-itiquira-go-F12",
+      "text": "Em volta há campo, cerradão e matas ao longo do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P13",
+      "factKey": "parque-itiquira-go-F13",
+      "text": "Ipês, angicos e jatobás estão entre as árvores do parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P14",
+      "factKey": "parque-itiquira-go-F14",
+      "text": "Lobo-guará, seriema e tamanduá-bandeira estão entre os bichos citados no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P15",
+      "factKey": "parque-itiquira-go-F15",
+      "text": "Em certas épocas, dá para ver mais de 120 espécies de aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P16",
+      "factKey": "parque-itiquira-go-F16",
+      "text": "Caça e pesca são proibidas no parque.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P17",
+      "factKey": "parque-itiquira-go-F17",
+      "text": "A maior parte das visitas acontece em fins de semana e feriados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P18",
+      "factKey": "parque-itiquira-go-F18",
+      "text": "A cachoeira é tratada como símbolo natural da cidade.",
+      "relatedFields": [
+       "C2",
+       "C3"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P19",
+      "factKey": "parque-itiquira-go-F19",
+      "text": "Acima do salto, uma fábrica engarrafa a água do rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P20",
+      "factKey": "parque-itiquira-go-F20",
+      "text": "A cidade do parque é conhecida como \"Berço das Águas\".",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P21",
+      "factKey": "parque-itiquira-go-F21",
+      "text": "A região turística oficial se chama Águas e Cavernas do Cerrado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P22",
+      "factKey": "parque-itiquira-go-F22",
+      "text": "O rio do salto deságua no rio Paranã.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P23",
+      "factKey": "parque-itiquira-go-F23",
+      "text": "O nome do parque vem do tupi e tem a ver com água.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE",
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P24",
+      "factKey": "parque-itiquira-go-F24",
+      "text": "A área foi desapropriada pelo município de Formosa em 1973.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-viajante-P25",
+      "factKey": "parque-itiquira-go-F25",
+      "text": "Fica cerca de 34 km ao norte de Formosa, em Goiás.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ITI_WIKI",
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "parque-itiquira-go-geografo-P01",
+      "factKey": "parque-itiquira-go-F01",
+      "text": "Unidade municipal de lazer e conservação na borda de um planalto do Brasil central.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P02",
+      "factKey": "parque-itiquira-go-F02",
+      "text": "Situa-se num município chamado de \"Berço das Águas\", com nascentes das três principais bacias da América do Sul.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P03",
+      "factKey": "parque-itiquira-go-F03",
+      "text": "O município funciona como divisor entre as bacias do Paraná, do São Francisco e do Tocantins.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P04",
+      "factKey": "parque-itiquira-go-F04",
+      "text": "O rio do salto é afluente do Paranã e pertence à bacia do Tocantins.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA",
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P05",
+      "factKey": "parque-itiquira-go-F05",
+      "text": "A queda despenca do planalto central, ao norte da cidade, para o vale profundo do Paranã.",
+      "relatedFields": [
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P06",
+      "factKey": "parque-itiquira-go-F06",
+      "text": "O salto está na Serra Geral do Paranã, num relevo de estrutura falhada.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P07",
+      "factKey": "parque-itiquira-go-F07",
+      "text": "A escarpa é de falha inversa, com capa de quartzitos do Grupo Paranoá; ao cruzá-la, o rio formou a queda.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P08",
+      "factKey": "parque-itiquira-go-F08",
+      "text": "Com 168 m de queda livre, é tida como a mais alta cachoeira de visitação aberta do país.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P09",
+      "factKey": "parque-itiquira-go-F09",
+      "text": "A vegetação segue um gradiente: campo na entrada, cerradão nas trilhas e matas de galeria e ciliares junto ao rio.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P10",
+      "factKey": "parque-itiquira-go-F10",
+      "text": "O clima é tropical úmido a subúmido, no domínio do Cerrado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P11",
+      "factKey": "parque-itiquira-go-F11",
+      "text": "A desapropriação da área veio em 1973, por decreto autorizado por lei municipal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P12",
+      "factKey": "parque-itiquira-go-F12",
+      "text": "Um decreto municipal posterior regulamentou o parque como área de lazer e recreação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P13",
+      "factKey": "parque-itiquira-go-F13",
+      "text": "Em 2008, a área pública estava sob concessão de uso de 30 anos a uma empresa de turismo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P14",
+      "factKey": "parque-itiquira-go-F14",
+      "text": "Em 2008, não havia plano de manejo nem estudo de capacidade de carga.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P15",
+      "factKey": "parque-itiquira-go-F15",
+      "text": "A visitação, de cerca de 35 mil pessoas por ano em 2008, concentrava mais de 90% em fins de semana e feriados.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P16",
+      "factKey": "parque-itiquira-go-F16",
+      "text": "As instalações turísticas ficam junto à entrada, e o restante da área é protegido contra ocupação.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P17",
+      "factKey": "parque-itiquira-go-F17",
+      "text": "A trilha principal, calçada e com pontes, termina num mirante; a do salto, de 1,2 km, tem bifurcações sem sinalização.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P18",
+      "factKey": "parque-itiquira-go-F18",
+      "text": "Corrimãos escorregadios e rochas fora das trilhas foram apontados como pontos de risco num estudo de 2008.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P19",
+      "factKey": "parque-itiquira-go-F19",
+      "text": "A fauna citada inclui lobo-guará, veado-campeiro e tamanduá-bandeira; caça e pesca são proibidas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P20",
+      "factKey": "parque-itiquira-go-F20",
+      "text": "Uma engarrafadora de água opera no rio, a montante da queda.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P21",
+      "factKey": "parque-itiquira-go-F21",
+      "text": "O acesso se faz pela GO-116, a cerca de 34 km da sede municipal.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITI_UNB_2008"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P22",
+      "factKey": "parque-itiquira-go-F22",
+      "text": "O município integra a região turística Águas e Cavernas do Cerrado.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "ITI_GOTUR_FORMOSA"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P23",
+      "factKey": "parque-itiquira-go-F23",
+      "text": "A origem indígena do nome é associada a termos tupis para água abundante ou água que cai.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "ITI_UNB_2008",
+       "ITI_PREF_MASCOTE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P24",
+      "factKey": "parque-itiquira-go-F24",
+      "text": "É o principal atrativo natural de Formosa (GO), com trilhas, mirantes e áreas de banho.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "ITI_PREF_MASCOTE"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-itiquira-go-geografo-P25",
+      "factKey": "parque-itiquira-go-F25",
+      "text": "A cerca de 115 km de Brasília, o salto de 168 m cai do planalto para o vale do Paranã.",
+      "relatedFields": [
+       "C1",
+       "C2",
+       "C4"
+      ],
+      "sources": [
+       "ITI_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Parque Municipal do Itiquira, a cerca de 34 km de Formosa (GO), protege o Salto do Itiquira, queda livre de 168 m em que o rio Itiquira, afluente do Paranã (bacia do Tocantins), despenca do planalto pela escarpa de quartzitos da Serra Geral do Paranã, em meio ao Cerrado.",
+   "editorialNotes": [
+    "A altura de 168 m aparece em todas as fontes, mas o resumo da monografia da UnB traz 186 m (provável inversão de dígitos); a distância até Formosa varia entre 30 e 34 km.",
+    "O significado do nome diverge (água que cai, na Prefeitura; água vertente ou abundante, na monografia da UnB); a pista fica no genérico. Dados de gestão e visitação vêm de estudo de 2008 e levam o ano.",
+    "Mirantes \"da Serra\" e \"do Salto\", andorinhões e arco-íris citados no rascunho foram retirados: as fontes abertas não os confirmaram."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Fontes da Prefeitura de Formosa, Goiás Turismo, monografia da UnB e Wikipédia abertas; 50 pistas conferidas e reescritas, C1 restrito ao Centro-Oeste, C2 e C3 com distratores da região e C4 trocado por bacia hidrográfica."
+  }
+ },
+ "sources": {
+  "ITI_PREF_MASCOTE": {
+   "id": "ITI_PREF_MASCOTE",
+   "title": "Projeto Mascote do Turismo — Regulamento (2025)",
+   "publisher": "Prefeitura Municipal de Formosa (GO)",
+   "url": "https://formosa.go.gov.br/wp-content/uploads/2025/08/17-Projeto-Mascote-do-Turismo-Regulamento.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ITI_GOTUR_FORMOSA": {
+   "id": "ITI_GOTUR_FORMOSA",
+   "title": "3 – Município de Formosa (ficha municipal de turismo)",
+   "publisher": "Goiás Turismo — Governo de Goiás",
+   "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/3-Municipio-de-Formosa.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ITI_UNB_2008": {
+   "id": "ITI_UNB_2008",
+   "title": "Parque Municipal do Itiquira, uma análise sob a óptica da Consultoria em Turismo (Elvis Araújo de Oliveira, 2008)",
+   "publisher": "Universidade de Brasília — Centro de Excelência em Turismo (BDM/UnB)",
+   "url": "https://bdm.unb.br/bitstream/10483/435/1/2008_ElvisAraujoOliveira.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "ITI_WIKI": {
+   "id": "ITI_WIKI",
+   "title": "Itiquira Falls",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Itiquira_Falls",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://formosa.go.gov.br/wp-content/uploads/2025/08/17-Projeto-Mascote-do-Turismo-Regulamento.pdf",
+   "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2023/12/3-Municipio-de-Formosa.pdf",
+   "https://bdm.unb.br/bitstream/10483/435/1/2008_ElvisAraujoOliveira.pdf",
+   "https://en.wikipedia.org/wiki/Itiquira_Falls"
+  ],
+  "alteracoes": [
+   "Fontes do rascunho (e-book da Goiás Turismo, página da Prefeitura, SAPL da Câmara, notícia do MTur) não foram alcançadas; substituídas por regulamento da Prefeitura de Formosa (2025), ficha municipal da Goiás Turismo, monografia da UnB (2008) e Wikipédia",
+   "C1: Vila Velha, Canastra, Iguaçu, Caparaó, Chapada Diamantina, Jalapão e Ibitipoca (fora do Centro-Oeste) trocados por unidades de GO, DF, MT e MS",
+   "C2: distratores de outras regiões (araucárias, dunas) trocados por atrativos de unidades da lista (cavernas calcárias, águas termais, piscinas de nascente)",
+   "C3: Bonito (MS) e Guarani de Goiás trocados por Alto Paraíso de Goiás e Padre Bernardo",
+   "C4: \"Estado brasileiro\" (entregue por C3) trocado por \"Bacia para onde corre o rio do salto\" (Tocantins-Araguaia), com fonte",
+   "Pistas sem fonte retiradas: Mirante da Serra e Mirante do Salto, andorinhões, arco-íris, garganta do salto, objetivos de pesquisa e educação ambiental",
+   "Pistas genéricas trocadas por dados das fontes: GO-116, 115 km de Brasília, trilha calçada de 15 min e trilha de 1,2 km, gradiente de vegetação, falha inversa com quartzitos do Grupo Paranoá, desapropriação de 1973, concessão e visitação de 2008, Berço das Águas, região Águas e Cavernas do Cerrado, engarrafadora a montante",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

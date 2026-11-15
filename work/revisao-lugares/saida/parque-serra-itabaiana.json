@@ -1,0 +1,1069 @@
+{
+  "case": {
+    "id": "lug2-parque-serra-itabaiana",
+    "placeId": "parque-serra-itabaiana",
+    "title": "Parque Nacional da Serra de Itabaiana",
+    "aliases": [
+      "Serra de Itabaiana",
+      "Itabaiana"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "nordeste"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional do Nordeste",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional da Serra de Itabaiana"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional da Serra da Capivara"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Serra das Confusões"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional do Catimbau"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional de Ubajara"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional de Sete Cidades"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional do Boqueirão da Onça"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional da Chapada Diamantina"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional da Furna Feia"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional e Histórico do Monte Pascoal"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Pau Brasil"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional do Alto Cariri"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional da Serra de Itabaiana",
+        "sources": [
+          "ITAB_EDITAL",
+          "ITAB_IBAMA"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Biomas em contato no parque",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Mata Atlântica e Caatinga"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Caatinga e Cerrado"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Cerrado e Mata Atlântica"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Amazônia e Cerrado"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Mata Atlântica e Caatinga",
+        "sources": [
+          "ITAB_EDITAL",
+          "ITAB_IBAMA"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio com nascentes no parque que abastece a capital do estado",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Poxim"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Capibaribe"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Pirangi"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Gramame"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Poxim",
+        "sources": [
+          "ITAB_IBAMA"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Estado",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Sergipe"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Alagoas"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Bahia"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Pernambuco"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Sergipe",
+        "sources": [
+          "ITAB_EDITAL",
+          "ITAB_IBAMA"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-serra-itabaiana-viajante-P01",
+            "factKey": "parque-serra-itabaiana-F01",
+            "text": "É uma área protegida do Nordeste com serra, mata e trilhas para caminhar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P02",
+            "factKey": "parque-serra-itabaiana-F02",
+            "text": "As chuvas somam entre 1.100 e 1.300 mm por ano, em estações bem definidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P03",
+            "factKey": "parque-serra-itabaiana-F03",
+            "text": "O parque foi criado em 2005.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA",
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P04",
+            "factKey": "parque-serra-itabaiana-F04",
+            "text": "A vegetação mistura plantas da Mata Atlântica e da Caatinga.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P05",
+            "factKey": "parque-serra-itabaiana-F05",
+            "text": "Além das matas, há campos sobre rocha e trechos de areia muito branca.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P06",
+            "factKey": "parque-serra-itabaiana-F06",
+            "text": "O ponto mais alto da serra fica a 659 metros.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P07",
+            "factKey": "parque-serra-itabaiana-F07",
+            "text": "Uma trilha leva até o cruzeiro do ponto mais alto da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P08",
+            "factKey": "parque-serra-itabaiana-F08",
+            "text": "Um dos banhos mais conhecidos é o Poço das Moças.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P09",
+            "factKey": "parque-serra-itabaiana-F09",
+            "text": "Também há o Poço Caldeirão e uma gruta na serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P10",
+            "factKey": "parque-serra-itabaiana-F10",
+            "text": "Uma queda d’água chamada Véu de Noiva está entre os atrativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P11",
+            "factKey": "parque-serra-itabaiana-F11",
+            "text": "A Trilha do Encantado e a Bica da Serra, a Cachoeira do Encantado, estão entre os passeios.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P12",
+            "factKey": "parque-serra-itabaiana-F12",
+            "text": "Há um Mirante do Pôr do Sol entre os pontos de visita.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P13",
+            "factKey": "parque-serra-itabaiana-F13",
+            "text": "As visitas com condutor saem em grupos pequenos, de 7 ou 15 pessoas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P14",
+            "factKey": "parque-serra-itabaiana-F14",
+            "text": "Serpentes, outros répteis e aves estão entre os bichos mais citados da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P15",
+            "factKey": "parque-serra-itabaiana-F15",
+            "text": "Um lagarto protegido, Cnemidophorus abaetensis, vive no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P16",
+            "factKey": "parque-serra-itabaiana-F16",
+            "text": "A água que nasce na serra ajuda a abastecer a capital do estado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P17",
+            "factKey": "parque-serra-itabaiana-F17",
+            "text": "No entorno há casas de farinha, olarias e fábricas de cerâmica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA",
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P18",
+            "factKey": "parque-serra-itabaiana-F18",
+            "text": "Os povoados vizinhos plantam hortaliças, mandioca e batata-doce.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P19",
+            "factKey": "parque-serra-itabaiana-F19",
+            "text": "Uma rodovia federal, a BR-235, corta o parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P20",
+            "factKey": "parque-serra-itabaiana-F20",
+            "text": "Fica a cerca de 45 km da capital do estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA",
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P21",
+            "factKey": "parque-serra-itabaiana-F21",
+            "text": "O fogo é a grande ameaça: em 1993, um incêndio queimou cerca de 60% da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P22",
+            "factKey": "parque-serra-itabaiana-F22",
+            "text": "O parque tem cerca de 8 mil hectares.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P23",
+            "factKey": "parque-serra-itabaiana-F23",
+            "text": "A serra é o segundo ponto mais alto do estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P24",
+            "factKey": "parque-serra-itabaiana-F24",
+            "text": "O parque fica em Sergipe.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-viajante-P25",
+            "factKey": "parque-serra-itabaiana-F25",
+            "text": "Ocupa terras de Areia Branca, Laranjeiras, Campo do Brito e de outros municípios sergipanos.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-serra-itabaiana-geografo-P01",
+            "factKey": "parque-serra-itabaiana-F01",
+            "text": "A unidade foi criada para proteger uma ilha remanescente de Mata Atlântica cercada por pastagens e canaviais.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P02",
+            "factKey": "parque-serra-itabaiana-F02",
+            "text": "Situa-se numa zona de transição que reúne espécies típicas de dois biomas.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P03",
+            "factKey": "parque-serra-itabaiana-F03",
+            "text": "A floresta é classificada como Estacional Semidecidual de Terras Baixas, com seis hábitats distintos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P04",
+            "factKey": "parque-serra-itabaiana-F04",
+            "text": "O relevo é um domo formado por três serras — a principal, a Comprida e a do Cajueiro —, com altitudes entre 400 e 659 m.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA",
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P05",
+            "factKey": "parque-serra-itabaiana-F05",
+            "text": "Os solos vão de litólicos pré-cambrianos a areias quartzosas e espodossolos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P06",
+            "factKey": "parque-serra-itabaiana-F06",
+            "text": "As nascentes do Rio Poxim, na Serra do Cajueiro, respondem por cerca de 30% do abastecimento da capital do estado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P07",
+            "factKey": "parque-serra-itabaiana-F07",
+            "text": "Os riachos Coqueiro, Água Fria, dos Negros e Vermelho nascem na unidade e formam a barragem do Rio Jacarecica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P08",
+            "factKey": "parque-serra-itabaiana-F08",
+            "text": "O Rio Cotinguiba nasce no parque e, a jusante, serve à indústria sucroalcooleira e à irrigação da cana.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P09",
+            "factKey": "parque-serra-itabaiana-F09",
+            "text": "Levantamentos identificaram 114 espécies em áreas abertas e 210 em áreas fechadas, 26 delas endêmicas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P10",
+            "factKey": "parque-serra-itabaiana-F10",
+            "text": "O entorno combina latifúndios de pastagem e cana, que usam fogo no manejo, com cerca de 18 povoados de agricultura familiar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P11",
+            "factKey": "parque-serra-itabaiana-F11",
+            "text": "A extração de areia, argila, cascalho e seixo para olarias e construção civil degrada trechos da serra.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_CERU",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P12",
+            "factKey": "parque-serra-itabaiana-F12",
+            "text": "A argila do entorno alimenta o principal polo ceramista do estado.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ITAB_IBAMA",
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P13",
+            "factKey": "parque-serra-itabaiana-F13",
+            "text": "Os incêndios se distribuem de novembro a março, com pico em fevereiro e março, agravados pela estiagem e pelo vento leste-oeste.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P14",
+            "factKey": "parque-serra-itabaiana-F14",
+            "text": "No ano da criação, 2005, o fogo atingiu 824,73 ha, cerca de 10% da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P15",
+            "factKey": "parque-serra-itabaiana-F15",
+            "text": "Entre as causas de incêndio constam queimas para preparo da terra, ação de incendiários e até práticas religiosas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P16",
+            "factKey": "parque-serra-itabaiana-F16",
+            "text": "A rodovia BR-235 atravessa a unidade, e a sede fica a 2,5 km dela.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P17",
+            "factKey": "parque-serra-itabaiana-F17",
+            "text": "A desapropriação incompleta das terras é apontada como sinal de fraqueza institucional da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_CERU",
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P18",
+            "factKey": "parque-serra-itabaiana-F18",
+            "text": "Projetos de pesquisa são conduzidos por universidades federais do próprio estado e de Pernambuco.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P19",
+            "factKey": "parque-serra-itabaiana-F19",
+            "text": "A visitação é organizada por setores — poços, gruta, mirante e trilhas — com condutores credenciados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P20",
+            "factKey": "parque-serra-itabaiana-F20",
+            "text": "O lagarto Cnemidophorus abaetensis está entre as espécies protegidas na unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P21",
+            "factKey": "parque-serra-itabaiana-F21",
+            "text": "Em 2010, o turismo ainda era descrito como incipiente e com pouco retorno para os povoados do entorno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_CERU"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P22",
+            "factKey": "parque-serra-itabaiana-F22",
+            "text": "Fica no agreste, a cerca de 45 km da capital, entre o litoral e o sertão.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P23",
+            "factKey": "parque-serra-itabaiana-F23",
+            "text": "A umidade relativa média mensal chega a 84,6%, com chuvas concentradas em estações bem definidas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "ITAB_IBAMA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P24",
+            "factKey": "parque-serra-itabaiana-F24",
+            "text": "A unidade abrange Areia Branca, Laranjeiras, Campo do Brito, Itaporanga d’Ajuda e Malhador, em Sergipe.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ITAB_EDITAL",
+              "ITAB_WIKI"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-serra-itabaiana-geografo-P25",
+            "factKey": "parque-serra-itabaiana-F25",
+            "text": "Com 659 m, o topo da serra é o segundo ponto mais alto de Sergipe.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "ITAB_EDITAL"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional criado em 15/6/2005 no agreste de Sergipe, a cerca de 45 km de Aracaju: perto de 8 mil ha num domo de três serras (até 659 m, segundo ponto mais alto do estado), ilha de Mata Atlântica em transição com a Caatinga, com nascentes que abastecem a capital (Rio Poxim).",
+      "editorialNotes": [
+        "O nome oficial é \"Parque Nacional Serra de Itabaiana\" (sem \"da\").",
+        "Área: 7.966 ha (Ibama e Cadernos CERU), \"cerca de 8 mil ha\" (ICMBio, 2025) e 7.999 ha (Wikipédia); municípios: as fontes de 2010 listam cinco, o ICMBio (2025) e a Wikipédia incluem também Malhador.",
+        "A antiga Estação Ecológica citada no rascunho não foi confirmada nas fontes abertas; as pistas sobre ela foram retiradas. O documento do Ibama é anterior ao plano de manejo hoje aprovado."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por plano operativo de incêndios do Ibama, edital de condutores do ICMBio (2025), artigo dos Cadernos CERU (USP, 2010) e Wikipédia, todos abertos; C1 restrito a parques do Nordeste, C2–C3 refeitos e todas as pistas conferidas"
+    }
+  },
+  "sources": {
+    "ITAB_IBAMA": {
+      "id": "ITAB_IBAMA",
+      "title": "Plano operativo de prevenção e combate a incêndios florestais nº 51 — Parque Nacional Serra de Itabaiana (SE)",
+      "publisher": "Ibama / Prevfogo",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/fiscalizacao-e-protecao-ambiental/incendios-florestais/servicos/arquivos/planos_operativos/51-parque_nacional_itabaiana-se.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "ITAB_EDITAL": {
+      "id": "ITAB_EDITAL",
+      "title": "Edital de credenciamento de condutores de visitantes do Parque Nacional Serra de Itabaiana (2025)",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2025-1/SEI_022649753_Edital.pdf/@@download/file",
+      "checkedAt": "2026-11-15"
+    },
+    "ITAB_CERU": {
+      "id": "ITAB_CERU",
+      "title": "Reestratificação social em áreas de preservação ambiental: o caso dos povoados Bom Jardim e Mundês em Itabaiana/SE (Ennes, 2010)",
+      "publisher": "Cadernos CERU — Universidade de São Paulo",
+      "url": "https://revistas.usp.br/ceru/pt_BR/article/download/11906/13683/14789",
+      "checkedAt": "2026-11-15"
+    },
+    "ITAB_WIKI": {
+      "id": "ITAB_WIKI",
+      "title": "Serra de Itabaiana National Park",
+      "publisher": "Wikipedia (inglês)",
+      "url": "https://en.wikipedia.org/wiki/Serra_de_Itabaiana_National_Park",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://www.gov.br/ibama/pt-br/assuntos/fiscalizacao-e-protecao-ambiental/incendios-florestais/servicos/arquivos/planos_operativos/51-parque_nacional_itabaiana-se.pdf",
+      "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2025-1/SEI_022649753_Edital.pdf/@@download/file",
+      "https://revistas.usp.br/ceru/pt_BR/article/download/11906/13683/14789",
+      "https://en.wikipedia.org/wiki/Serra_de_Itabaiana_National_Park"
+    ],
+    "alteracoes": [
+      "Fontes ITABAIANA_PREF e ITABAIANA_SE do rascunho não foram abertas (URLs fora das buscas); substituídas por Ibama, ICMBio (edital 2025), Cadernos CERU e Wikipédia",
+      "C1: Canastra, Veadeiros, Chapada dos Guimarães e Itatiaia (fora do recorte) trocados por Furna Feia, Monte Pascoal, Pau Brasil e Alto Cariri; \"do Ubajara\" corrigido para \"de Ubajara\"",
+      "C2: distratores implausíveis (Pampa, Pantanal, araucária) trocados por combinações de biomas do Nordeste; gabarito Mata Atlântica e Caatinga mantido",
+      "C3: \"Poço das Moças\" (distratores sem conferência) trocado por \"Rio com nascentes no parque que abastece a capital do estado\", gabarito Poxim (Ibama: ~30% do abastecimento de Aracaju)",
+      "Pistas sem apoio nas fontes abertas retiradas: antiga estação ecológica e ampliação, Poço das Moças \"no lado leste\", Poções da Ribeira, Poço Negro; \"Cachoeira dos Encantados\" corrigida para Cachoeira do Encantado (Bica da Serra)",
+      "relatedFields passam a apontar C2–C4; 2 aberturas e 2 decisivas por perfil; fontes de cada pista restritas às que a apoiam",
+      "viajante: 25 pistas reescritas ou trocadas; geografo: 25 reescritas ou trocadas"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -162,7 +162,27 @@
     "Território Indígena do Xingu",
     "Bairro Histórico da Cidade Portuária de Valparaíso",
     "Vila Bela da Santíssima Trindade",
-    "Parque Nacional Yosemite"
+    "Parque Nacional Yosemite",
+    "Cidade Histórica de Quito",
+    "Bairro Histórico de Colônia do Sacramento",
+    "Sítio Maia de Copán",
+    "Geoparque Caçapava",
+    "Geoparque Quarta Colônia",
+    "Gramado",
+    "João Pessoa",
+    "Natal",
+    "Macapá",
+    "Palmas",
+    "Parque Nacional da Amazônia",
+    "Parque Nacional do Araguaia",
+    "Parque Nacional dos Campos Gerais",
+    "Parque Nacional de Ilha Grande",
+    "Parque Municipal do Itiquira",
+    "Parque Estadual dos Pireneus",
+    "Parque Nacional da Serra de Itabaiana",
+    "Parque Nacional de Sete Cidades",
+    "Recife",
+    "Rio Parnaíba"
   ],
   "groups": {
     "Brasil Norte": [
@@ -185,7 +205,11 @@
       "Parque Nacional do Pico da Neblina",
       "Porto Velho",
       "Reserva de Desenvolvimento Sustentável Mamirauá",
-      "Rio Amazonas (trecho brasileiro)"
+      "Rio Amazonas (trecho brasileiro)",
+      "Macapá",
+      "Palmas",
+      "Parque Nacional da Amazônia",
+      "Parque Nacional do Araguaia"
     ],
     "Brasil Nordeste": [
       "Parque Nacional dos Lençóis Maranhenses",
@@ -205,7 +229,11 @@
       "Centro Histórico de Oeiras",
       "Centro Histórico de Penedo",
       "Maceió",
-      "Parque Nacional da Furna Feia"
+      "Parque Nacional da Furna Feia",
+      "João Pessoa",
+      "Parque Nacional da Serra de Itabaiana",
+      "Parque Nacional de Sete Cidades",
+      "Rio Parnaíba"
     ],
     "Brasil Centro Oeste": [
       "Brasília",
@@ -227,7 +255,9 @@
       "Parque Estadual da Serra de Caldas Novas",
       "Parque Estadual de Terra Ronca",
       "Território Indígena do Xingu",
-      "Vila Bela da Santíssima Trindade"
+      "Vila Bela da Santíssima Trindade",
+      "Parque Municipal do Itiquira",
+      "Parque Estadual dos Pireneus"
     ],
     "Brasil Sudeste": [
       "Rio de Janeiro",
@@ -262,7 +292,11 @@
       "Blumenau",
       "Lapa",
       "Londrina",
-      "Maringá"
+      "Maringá",
+      "Geoparque Caçapava",
+      "Geoparque Quarta Colônia",
+      "Parque Nacional dos Campos Gerais",
+      "Parque Nacional de Ilha Grande"
     ],
     "América outros recortes": [
       "Peru",
@@ -289,7 +323,10 @@
       "Parque Nacional Canaima",
       "Cidade Histórica de Cusco",
       "Bairro Histórico da Cidade Portuária de Valparaíso",
-      "Parque Nacional Yosemite"
+      "Parque Nacional Yosemite",
+      "Cidade Histórica de Quito",
+      "Bairro Histórico de Colônia do Sacramento",
+      "Sítio Maia de Copán"
     ],
     "Europa": [
       "Portugal",

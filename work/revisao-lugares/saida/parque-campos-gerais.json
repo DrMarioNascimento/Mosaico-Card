@@ -1,0 +1,1071 @@
+{
+  "case": {
+    "id": "lug2-campos-gerais",
+    "placeId": "parque-campos-gerais",
+    "title": "Parque Nacional dos Campos Gerais",
+    "aliases": [
+      "Campos Gerais"
+    ],
+    "answerType": "parque nacional",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "sul"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Parque nacional",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Parque Nacional dos Campos Gerais"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Parque Nacional de São Joaquim"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Parque Nacional da Serra do Itajaí"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Parque Nacional de Aparados da Serra"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Parque Nacional da Serra Geral"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Parque Nacional das Araucárias"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Parque Nacional do Iguaçu"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Parque Nacional de Ilha Grande"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Parque Nacional do Superagui"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Parque Nacional da Serra da Canastra"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Parque Nacional do Itatiaia"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Parque Nacional da Serra da Bocaina"
+          },
+          {
+            "id": "C1-O13",
+            "text": "Parque Nacional do Caparaó"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Parque Nacional dos Campos Gerais",
+        "sources": [
+          "CAMPOSGERAIS_GUPE",
+          "CAMPOSGERAIS_RBESP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Atrativo em que uma cachoeira cai dentro de uma furna",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Buraco do Padre"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Poço Encantado"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Gruta do Lago Azul"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Gruta de Maquiné"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Buraco do Padre",
+        "sources": [
+          "CAMPOSGERAIS_RBESP"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rocha em que se formaram as cavernas do parque",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Arenito da Formação Furnas"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Calcário do Grupo Bambuí"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Basalto da Formação Serra Geral"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Granito do embasamento cristalino"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Arenito da Formação Furnas",
+        "sources": [
+          "CAMPOSGERAIS_GUPE",
+          "CAMPOSGERAIS_RBESP"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Cidade que sedia a administração do parque",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Ponta Grossa"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Guarapuava"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Telêmaco Borba"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Lapa"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Ponta Grossa",
+        "sources": [
+          "CAMPOSGERAIS_GUPE"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "parque-campos-gerais-viajante-P01",
+            "factKey": "parque-campos-gerais-viajante-F01",
+            "text": "É uma área protegida no Sul do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P02",
+            "factKey": "parque-campos-gerais-viajante-F02",
+            "text": "A paisagem mistura campos nativos e matas com araucárias.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P03",
+            "factKey": "parque-campos-gerais-viajante-F03",
+            "text": "A araucária, árvore-símbolo do estado, é uma das marcas da área.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GAZETA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P04",
+            "factKey": "parque-campos-gerais-viajante-F04",
+            "text": "Cachoeiras, corredeiras e paredões de rocha aparecem pelo caminho.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P05",
+            "factKey": "parque-campos-gerais-viajante-F05",
+            "text": "O parque fica no Paraná.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P06",
+            "factKey": "parque-campos-gerais-viajante-F06",
+            "text": "O clima é úmido, com chuva distribuída ao longo do ano, sem estação seca definida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P07",
+            "factKey": "parque-campos-gerais-viajante-F07",
+            "text": "O território do parque se divide entre três municípios.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P08",
+            "factKey": "parque-campos-gerais-viajante-F08",
+            "text": "Ponta Grossa, Castro e Carambeí dividem a área do parque.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P09",
+            "factKey": "parque-campos-gerais-viajante-F09",
+            "text": "A administração do parque fica em Ponta Grossa.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P10",
+            "factKey": "parque-campos-gerais-viajante-F10",
+            "text": "Um dos passeios mais famosos leva a uma furna onde cai uma cachoeira.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P11",
+            "factKey": "parque-campos-gerais-viajante-F11",
+            "text": "Essa cachoeira tem cerca de 25 metros de altura.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P12",
+            "factKey": "parque-campos-gerais-viajante-F12",
+            "text": "A trilha até a entrada da furna é curta: cerca de 730 metros, com ida e volta pelo mesmo caminho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P13",
+            "factKey": "parque-campos-gerais-viajante-F13",
+            "text": "Esse lugar se chama Buraco do Padre.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P14",
+            "factKey": "parque-campos-gerais-viajante-F14",
+            "text": "O Buraco do Padre fica a cerca de 26 km do centro de Ponta Grossa, parte por estrada de terra.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P15",
+            "factKey": "parque-campos-gerais-viajante-F15",
+            "text": "Furnas Gêmeas, Cachoeira da Mariquinha e Capão da Onça estão entre os atrativos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GAZETA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P16",
+            "factKey": "parque-campos-gerais-viajante-F16",
+            "text": "As cavernas se abrem em arenito, rocha de grãos de areia unidos por um cimento natural.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P17",
+            "factKey": "parque-campos-gerais-viajante-F17",
+            "text": "São dezenas de cavernas: mais de 30 catalogadas dentro do parque.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE",
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P18",
+            "factKey": "parque-campos-gerais-viajante-F18",
+            "text": "Em algumas cavernas há pinturas feitas por indígenas há mais de 5 mil anos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE",
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P19",
+            "factKey": "parque-campos-gerais-viajante-F19",
+            "text": "Na rocha das cavernas há fósseis de rastros de organismos de mais de 400 milhões de anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P20",
+            "factKey": "parque-campos-gerais-viajante-F20",
+            "text": "A maior caverna do parque tem cerca de 1.300 metros de extensão.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P21",
+            "factKey": "parque-campos-gerais-viajante-F21",
+            "text": "Mais de 400 espécies de aves já foram registradas no parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P22",
+            "factKey": "parque-campos-gerais-viajante-F22",
+            "text": "No campo aberto aparecem a coruja-buraqueira e o pica-pau-do-campo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P23",
+            "factKey": "parque-campos-gerais-viajante-F23",
+            "text": "Na mata vivem o tucano-de-bico-verde e a gralha-azul, ave-símbolo do Paraná.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P24",
+            "factKey": "parque-campos-gerais-viajante-F24",
+            "text": "O parque foi criado em 2006.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE",
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-viajante-P25",
+            "factKey": "parque-campos-gerais-viajante-F25",
+            "text": "Na base da cachoeira da furna se forma uma área de banho.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "parque-campos-gerais-geografo-P01",
+            "factKey": "parque-campos-gerais-geografo-F01",
+            "text": "A unidade federal de proteção integral resguarda remanescentes de campos sulinos e de Floresta Ombrófila Mista.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P02",
+            "factKey": "parque-campos-gerais-geografo-F02",
+            "text": "A paisagem é um mosaico campestre de campos limpos, capões e matas de galeria.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P03",
+            "factKey": "parque-campos-gerais-geografo-F03",
+            "text": "O parque ocupa o reverso da Escarpa Devoniana, no Segundo Planalto Paranaense, na borda leste da bacia do Paraná.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P04",
+            "factKey": "parque-campos-gerais-geografo-F04",
+            "text": "O clima é subtropical úmido (Cfb, na classificação de Köppen), sem estação seca definida.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P05",
+            "factKey": "parque-campos-gerais-geografo-F05",
+            "text": "Os mais de 21 mil hectares se dividem em dois setores, e o setor norte concentra cerca de 18 mil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P06",
+            "factKey": "parque-campos-gerais-geografo-F06",
+            "text": "A unidade foi criada por decreto federal de 23 de março de 2006.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P07",
+            "factKey": "parque-campos-gerais-geografo-F07",
+            "text": "O território se reparte entre Ponta Grossa, Castro e Carambeí, e a sede administrativa fica no primeiro desses municípios.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P08",
+            "factKey": "parque-campos-gerais-geografo-F08",
+            "text": "As cavidades se desenvolvem no arenito da Formação Furnas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE",
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P09",
+            "factKey": "parque-campos-gerais-geografo-F09",
+            "text": "Há cerca de 140 milhões de anos, uma anomalia térmica no manto soergueu o relevo regional e fraturou as rochas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P10",
+            "factKey": "parque-campos-gerais-geografo-F10",
+            "text": "Ao longo das fraturas, a água subterrânea dissolve o cimento e os grãos de quartzo; depois a erosão superficial abre os condutos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P11",
+            "factKey": "parque-campos-gerais-geografo-F11",
+            "text": "Com 35 cavidades catalogadas no interior, é uma das unidades de conservação brasileiras com mais cavernas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP",
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P12",
+            "factKey": "parque-campos-gerais-geografo-F12",
+            "text": "A Formação Furnas preserva icnofósseis de organismos que viveram há mais de 400 milhões de anos.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P13",
+            "factKey": "parque-campos-gerais-geografo-F13",
+            "text": "Abrigos rochosos guardam pinturas indígenas atribuídas às tradições Geométrica e Planalto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P14",
+            "factKey": "parque-campos-gerais-geografo-F14",
+            "text": "A Furna Grande é exemplo de caverna vertical.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GUPE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P15",
+            "factKey": "parque-campos-gerais-geografo-F15",
+            "text": "Na furna mais visitada, a queda de cerca de 25 m ocorre dentro de um poço com cerca de 40 m de profundidade.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P16",
+            "factKey": "parque-campos-gerais-geografo-F16",
+            "text": "Essa furna fica no distrito de Itaiacoca, a cerca de 940 m de altitude.",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P17",
+            "factKey": "parque-campos-gerais-geografo-F17",
+            "text": "O material arenoso em torno da queda é suscetível à erosão, e o monitoramento registrou mudanças na circulação subterrânea do rio.",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P18",
+            "factKey": "parque-campos-gerais-geografo-F18",
+            "text": "Afloramentos areníticos formam corredeiras e cachoeiras, como no Capão da Onça.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P19",
+            "factKey": "parque-campos-gerais-geografo-F19",
+            "text": "Foram registradas 427 espécies de aves, cerca de 58% das conhecidas no estado.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P20",
+            "factKey": "parque-campos-gerais-geografo-F20",
+            "text": "A avifauna inclui 15 espécies ameaçadas, como o pato-mergulhão e o papagaio-do-peito-roxo.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P21",
+            "factKey": "parque-campos-gerais-geografo-F21",
+            "text": "Áreas ripárias fazem a transição entre os campos e a mata com araucária.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P22",
+            "factKey": "parque-campos-gerais-geografo-F22",
+            "text": "Buraco do Padre, Furnas Gêmeas e Cachoeira da Mariquinha estão entre as áreas de visitação consolidadas.",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P23",
+            "factKey": "parque-campos-gerais-geografo-F23",
+            "text": "Os rios São Jorge, Verde e Quebra-Perna estão entre os cursos d’água da unidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_AVES"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P24",
+            "factKey": "parque-campos-gerais-geografo-F24",
+            "text": "A criação sem regularização fundiária gerou conflito com proprietários rurais, que em 2019 chegaram a pedir a extinção do parque.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_GAZETA"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "parque-campos-gerais-geografo-P25",
+            "factKey": "parque-campos-gerais-geografo-F25",
+            "text": "Um levantamento de 24 meses registrou 23 espécies de mamíferos de médio e grande porte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "CAMPOSGERAIS_RBESP"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Parque nacional paranaense criado em 2006 entre Ponta Grossa, Castro e Carambeí, que protege campos nativos e mata com araucárias e reúne dezenas de cavernas no arenito da Formação Furnas, como a furna do Buraco do Padre, com cachoeira interna.",
+      "editorialNotes": [
+        "A área aparece como 21.287 ha (Revista Brasileira de Espeleologia), 21.298 ha (Gazeta do Povo) e 21.298,91 ha (Terr@ Plural); as pistas usam \"mais de 21 mil hectares\".",
+        "As pinturas rupestres têm \"mais de 5 mil anos\" no GUPE e na RBEsp e \"mais de 10 mil anos\" na Gazeta do Povo; as pistas seguem as fontes científicas.",
+        "A situação fundiária e o pedido de extinção referem-se a 2019; a pista está no passado para não envelhecer."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "fontes trocadas por artigos do ICMBio/UEPG e cartilha do GUPE abertos na revisão; pistas, C2–C4 e alternativas refeitos e conferidos"
+    }
+  },
+  "sources": {
+    "CAMPOSGERAIS_RBESP": {
+      "id": "CAMPOSGERAIS_RBESP",
+      "title": "Análise dos impactos ambientais relacionados ao uso público na Furna do Buraco do Padre, Parque Nacional dos Campos Gerais (PR)",
+      "publisher": "Revista Brasileira de Espeleologia (ICMBio)",
+      "url": "https://revistaeletronica.icmbio.gov.br/RBEsp/article/view/841/pdf_20",
+      "checkedAt": "2026-11-15"
+    },
+    "CAMPOSGERAIS_GUPE": {
+      "id": "CAMPOSGERAIS_GUPE",
+      "title": "Cavernas: Parque Nacional dos Campos Gerais (n. 1, 2017)",
+      "publisher": "Grupo Universitário de Pesquisas Espeleológicas (GUPE), com apoio do ICMBio",
+      "url": "https://ead.uepg.br/geocultura/200001742-58ada59a90/LIVRETO%20CAVERNAS%20PNCG%20-%20COMPLETO%20leve.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "CAMPOSGERAIS_AVES": {
+      "id": "CAMPOSGERAIS_AVES",
+      "title": "Interpretando a biodiversidade: a avifauna do Parque Nacional dos Campos Gerais (Paraná, Brasil)",
+      "publisher": "Terr@ Plural, Universidade Estadual de Ponta Grossa (2021)",
+      "url": "https://revistas.uepg.br/index.php/tp/article/download/16911/209209214088/",
+      "checkedAt": "2026-11-15"
+    },
+    "CAMPOSGERAIS_GAZETA": {
+      "id": "CAMPOSGERAIS_GAZETA",
+      "title": "O que é o Parque Nacional dos Campos Gerais e por que ele pode ser extinto",
+      "publisher": "Gazeta do Povo (2019)",
+      "url": "https://www.gazetadopovo.com.br/parana/o-que-e-parque-campos-gerais/",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://revistaeletronica.icmbio.gov.br/RBEsp/article/view/841/pdf_20",
+      "https://ead.uepg.br/geocultura/200001742-58ada59a90/LIVRETO%20CAVERNAS%20PNCG%20-%20COMPLETO%20leve.pdf",
+      "https://revistas.uepg.br/index.php/tp/article/download/16911/209209214088/",
+      "https://www.gazetadopovo.com.br/parana/o-que-e-parque-campos-gerais/",
+      "https://revistas.uepg.br/index.php/tp/en/article/view/16911"
+    ],
+    "alteracoes": [
+      "Fontes do rascunho (SULCAMPOSGERAIS, guia de aves em gov.br; SULCAMPOSGERAISFURNA, página do artigo) não abertas diretamente; substituídas por 4 fontes abertas (RBEsp/ICMBio em PDF, cartilha Cavernas do GUPE 2017, artigo Terr@ Plural 2021 sobre avifauna, Gazeta do Povo 2019)",
+      "C1: incluído o Parque Nacional do Superagui (13 alternativas, maioria sulina)",
+      "C2: de \"Formação visitável\" (alternativas de ilha oceânica, duna e gruta marinha, incomparáveis) para \"Atrativo em que uma cachoeira cai dentro de uma furna\", gabarito Buraco do Padre",
+      "C3: de \"Ambientes vegetais\" (alternativas de outros biomas) para \"Rocha em que se formaram as cavernas\", gabarito Arenito da Formação Furnas",
+      "C4: de \"Estado brasileiro\" para \"Cidade que sedia a administração do parque\", gabarito Ponta Grossa (GUPE)",
+      "Retiradas pistas repetitivas de \"atrativo X existe\" e de gestão genérica; acrescentados dados verificados de geologia, cavernas, arte rupestre, avifauna (427 espécies) e da furna (25 m, 730 m de trilha)",
+      "geografo P07–P09 (marcadas decisivas sem serem) e P04 (Cerrado, sem apoio nas fontes abertas) substituídas",
+      "sinal ajustado para 2 aberturas e 2 decisivas por perfil; relatedFields passam a apontar C2–C4",
+      "viajante: 25 pistas reescritas ou trocadas (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25); geografo: 25 (P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11, P12, P13, P14, P15, P16, P17, P18, P19, P20, P21, P22, P23, P24, P25)"
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1057 @@
+{
+ "case": {
+  "id": "lug2-parque-pireneus-go",
+  "placeId": "parque-pireneus-go",
+  "title": "Parque Estadual dos Pireneus",
+  "aliases": [
+   "Pireneus"
+  ],
+  "answerType": "parque estadual",
+  "sessionTitle": "Destino em descoberta",
+  "geography": {
+   "countries": [
+    "BR"
+   ],
+   "continents": [
+    "america"
+   ],
+   "brazilRegions": [
+    "centro-oeste"
+   ]
+  },
+  "question": "Que lugar é este e quais características completam seu mosaico?",
+  "focalFieldId": "C1",
+  "fields": [
+   {
+    "id": "C1",
+    "label": "Unidade de conservação",
+    "options": [
+     {
+      "id": "C1-O1",
+      "text": "Parque Estadual dos Pireneus"
+     },
+     {
+      "id": "C1-O2",
+      "text": "Parque Estadual de Terra Ronca"
+     },
+     {
+      "id": "C1-O3",
+      "text": "Parque Estadual da Serra de Caldas Novas"
+     },
+     {
+      "id": "C1-O4",
+      "text": "Parque Estadual Serra Dourada"
+     },
+     {
+      "id": "C1-O5",
+      "text": "Parque Estadual Altamiro de Moura Pacheco"
+     },
+     {
+      "id": "C1-O6",
+      "text": "Parque Estadual da Serra de Jaraguá"
+     },
+     {
+      "id": "C1-O7",
+      "text": "Parque Estadual da Serra Azul"
+     },
+     {
+      "id": "C1-O8",
+      "text": "Parque Municipal do Itiquira"
+     },
+     {
+      "id": "C1-O9",
+      "text": "Parque Nacional da Chapada dos Veadeiros"
+     },
+     {
+      "id": "C1-O10",
+      "text": "Parque Nacional das Emas"
+     },
+     {
+      "id": "C1-O11",
+      "text": "Parque Nacional de Brasília"
+     },
+     {
+      "id": "C1-O12",
+      "text": "Parque Nacional da Chapada dos Guimarães"
+     }
+    ],
+    "answerId": "C1-O1",
+    "answerText": "Parque Estadual dos Pireneus",
+    "sources": [
+     "PIR_PARQUESGO",
+     "PIR_WIKI"
+    ]
+   },
+   {
+    "id": "C2",
+    "label": "Rocha predominante da serra",
+    "options": [
+     {
+      "id": "C2-O1",
+      "text": "Quartzito"
+     },
+     {
+      "id": "C2-O2",
+      "text": "Calcário"
+     },
+     {
+      "id": "C2-O3",
+      "text": "Basalto"
+     },
+     {
+      "id": "C2-O4",
+      "text": "Granito"
+     }
+    ],
+    "answerId": "C2-O1",
+    "answerText": "Quartzito",
+    "sources": [
+     "PIR_PARQUESGO",
+     "PIR_WIKI"
+    ]
+   },
+   {
+    "id": "C3",
+    "label": "Bacias separadas pelo divisor de águas da serra",
+    "options": [
+     {
+      "id": "C3-O1",
+      "text": "Tocantins e Paraná"
+     },
+     {
+      "id": "C3-O2",
+      "text": "São Francisco e Tocantins"
+     },
+     {
+      "id": "C3-O3",
+      "text": "Paraná e Paraguai"
+     },
+     {
+      "id": "C3-O4",
+      "text": "Araguaia e Xingu"
+     }
+    ],
+    "answerId": "C3-O1",
+    "answerText": "Tocantins e Paraná",
+    "sources": [
+     "PIR_PARQUESGO",
+     "PIR_WIKI"
+    ]
+   },
+   {
+    "id": "C4",
+    "label": "Dedicação da capela no alto do pico",
+    "options": [
+     {
+      "id": "C4-O1",
+      "text": "Santíssima Trindade"
+     },
+     {
+      "id": "C4-O2",
+      "text": "Nossa Senhora do Rosário"
+     },
+     {
+      "id": "C4-O3",
+      "text": "São Benedito"
+     },
+     {
+      "id": "C4-O4",
+      "text": "Divino Espírito Santo"
+     }
+    ],
+    "answerId": "C4-O1",
+    "answerText": "Santíssima Trindade",
+    "sources": [
+     "PIR_PARQUESGO",
+     "PIR_WIKI"
+    ]
+   }
+  ],
+  "profiles": {
+   "viajante": {
+    "label": "Viajante",
+    "cards": [
+     {
+      "id": "parque-pireneus-go-viajante-P01",
+      "factKey": "parque-pireneus-go-F01",
+      "text": "É uma área protegida do Brasil central, com serras e muitas formações rochosas.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P02",
+      "factKey": "parque-pireneus-go-F02",
+      "text": "O clima é quente, com cerca de 1.500 mm de chuva por ano.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P03",
+      "factKey": "parque-pireneus-go-F03",
+      "text": "É um parque estadual de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P04",
+      "factKey": "parque-pireneus-go-F04",
+      "text": "Foi criado em novembro de 1987.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_LEI10321"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P05",
+      "factKey": "parque-pireneus-go-F05",
+      "text": "Tem cerca de 2,8 mil hectares.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P06",
+      "factKey": "parque-pireneus-go-F06",
+      "text": "Fica na divisa de três municípios goianos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P07",
+      "factKey": "parque-pireneus-go-F07",
+      "text": "Fica a pouco mais de 130 km de Goiânia.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P08",
+      "factKey": "parque-pireneus-go-F08",
+      "text": "Os últimos quilômetros até a sede são de estrada de terra.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P09",
+      "factKey": "parque-pireneus-go-F09",
+      "text": "O pico mais alto tem 1.385 metros.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P10",
+      "factKey": "parque-pireneus-go-F10",
+      "text": "É o segundo ponto mais alto de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P11",
+      "factKey": "parque-pireneus-go-F11",
+      "text": "Uma trilha de uns 600 m leva ao topo em cerca de 15 minutos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P12",
+      "factKey": "parque-pireneus-go-F12",
+      "text": "No alto há uma capela onde se celebra uma festa religiosa tradicional.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P13",
+      "factKey": "parque-pireneus-go-F13",
+      "text": "A capela atual foi reconstruída em 1984, depois de um incêndio.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P14",
+      "factKey": "parque-pireneus-go-F14",
+      "text": "A primeira missa no alto do morro foi em 1927, num altar improvisado.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P15",
+      "factKey": "parque-pireneus-go-F15",
+      "text": "Uma cascata com sete quedas e poços fica no fim de uma trilha calçada.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P16",
+      "factKey": "parque-pireneus-go-F16",
+      "text": "Essa cascata se chama Sonrisal.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P17",
+      "factKey": "parque-pireneus-go-F17",
+      "text": "A rocha mais comum é o quartzito, dobrado e cheio de fraturas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P18",
+      "factKey": "parque-pireneus-go-F18",
+      "text": "Escaladores praticam boulder numa área de pedras chamada Vila dos Becos.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P19",
+      "factKey": "parque-pireneus-go-F19",
+      "text": "Na trilha do Oásis há buritis, quaresmeiras e pau-papiro, árvore-símbolo de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P20",
+      "factKey": "parque-pireneus-go-F20",
+      "text": "A trilha do Oásis é boa para observar aves.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P21",
+      "factKey": "parque-pireneus-go-F21",
+      "text": "Cactos, orquídeas e bromélias crescem sobre as rochas.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P22",
+      "factKey": "parque-pireneus-go-F22",
+      "text": "A entrada é gratuita e o parque abre todos os dias, das 8h às 17h.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P23",
+      "factKey": "parque-pireneus-go-F23",
+      "text": "Nascentes da serra formam o rio das Almas e o rio Corumbá.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P24",
+      "factKey": "parque-pireneus-go-F24",
+      "text": "A capela do topo é dedicada à Santíssima Trindade.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-viajante-P25",
+      "factKey": "parque-pireneus-go-F25",
+      "text": "Fica entre Pirenópolis, Cocalzinho de Goiás e Corumbá de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   },
+   "geografo": {
+    "label": "Geógrafo",
+    "cards": [
+     {
+      "id": "parque-pireneus-go-geografo-P01",
+      "factKey": "parque-pireneus-go-F01",
+      "text": "Unidade de conservação estadual numa serra de quartzito do Brasil central.",
+      "relatedFields": [
+       "C1",
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "abertura",
+      "recommendedMoment": "early",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P02",
+      "factKey": "parque-pireneus-go-F02",
+      "text": "A Lei Estadual nº 10.321, de 20 de novembro de 1987, criou o parque para preservar flora, fauna e mananciais.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_LEI10321",
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P03",
+      "factKey": "parque-pireneus-go-F03",
+      "text": "Uma lei de 1997 incluiu mais dois municípios, e um decreto do mesmo ano fixou a área e os limites.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_WIKI",
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P04",
+      "factKey": "parque-pireneus-go-F04",
+      "text": "A área legal é de 2.834 ha, na divisa de três municípios.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P05",
+      "factKey": "parque-pireneus-go-F05",
+      "text": "Sem plano de manejo em 2016, a unidade teve o plano aprovado por portaria em fevereiro de 2024.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_WIKI",
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P06",
+      "factKey": "parque-pireneus-go-F06",
+      "text": "A serra funciona como divisor de águas: o leste drena para a bacia do Paraná e o oeste para a do Tocantins.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P07",
+      "factKey": "parque-pireneus-go-F07",
+      "text": "Dezenas de pequenas nascentes alimentam o rio das Almas, no alto Tocantins, e o rio Corumbá, na bacia do Prata.",
+      "relatedFields": [
+       "C3"
+      ],
+      "sources": [
+       "PIR_WIKI",
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P08",
+      "factKey": "parque-pireneus-go-F08",
+      "text": "O quartzito predomina na região e aparece dobrado e fraturado.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P09",
+      "factKey": "parque-pireneus-go-F09",
+      "text": "A escarpa principal se originou da colisão de placas do antigo Gondwana.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P10",
+      "factKey": "parque-pireneus-go-F10",
+      "text": "O Morro Cabeludo, com mais de 1.350 m, é um quartzito orientado leste-oeste entrelaçado a metaconglomerado norte-sul.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO",
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P11",
+      "factKey": "parque-pireneus-go-F11",
+      "text": "Os quartzitos pré-cambrianos do Morro Cabeludo se formaram há cerca de 1 bilhão de anos.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P12",
+      "factKey": "parque-pireneus-go-F12",
+      "text": "A unidade fica no planalto do Alto Tocantins-Paranaíba, em terreno acidentado.",
+      "relatedFields": [
+       "C1",
+       "C3"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P13",
+      "factKey": "parque-pireneus-go-F13",
+      "text": "O pico de 1.385 m é o segundo ponto mais alto do estado.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P14",
+      "factKey": "parque-pireneus-go-F14",
+      "text": "Cerrado rupestre, cerrado stricto sensu, campo limpo úmido, veredas e mata de galeria formam o mosaico do Morro Cabeludo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P15",
+      "factKey": "parque-pireneus-go-F15",
+      "text": "No cerrado rupestre, cactos, orquídeas e bromélias endêmicos crescem sobre a rocha.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P16",
+      "factKey": "parque-pireneus-go-F16",
+      "text": "O Morro Cabeludo é área de nidificação da águia-chilena, de alta relevância para a conservação da espécie.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P17",
+      "factKey": "parque-pireneus-go-F17",
+      "text": "A temperatura média é de 22 °C, com variação diária de 19 a 33 °C.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_WIKI"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P18",
+      "factKey": "parque-pireneus-go-F18",
+      "text": "Uma Área de Proteção Ambiental envolve todo o entorno, para proteger os recursos naturais e controlar o ecoturismo.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P19",
+      "factKey": "parque-pireneus-go-F19",
+      "text": "A cascata do córrego Capitão do Mato desce em sete quedas e poços sucessivos.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P20",
+      "factKey": "parque-pireneus-go-F20",
+      "text": "Afloramentos rochosos de formas variadas atraem a escalada em boulder.",
+      "relatedFields": [
+       "C2"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P21",
+      "factKey": "parque-pireneus-go-F21",
+      "text": "A capela do cume foi de madeira em 1932, caiu numa tempestade em 1950 e, já de alvenaria, queimou em 1983.",
+      "relatedFields": [
+       "C4"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P22",
+      "factKey": "parque-pireneus-go-F22",
+      "text": "O acesso desde Goiânia, de pouco mais de 130 km, termina em trechos não pavimentados de 5 a 19 km, conforme a rota.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P23",
+      "factKey": "parque-pireneus-go-F23",
+      "text": "Grupos a partir de 15 pessoas e visitas científicas ou pedagógicas precisam de agendamento.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "conexao",
+      "recommendedMoment": "middle",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P24",
+      "factKey": "parque-pireneus-go-F24",
+      "text": "O cume, no divisor entre as bacias do Tocantins e do Paraná, abriga a capela da Santíssima Trindade.",
+      "relatedFields": [
+       "C3",
+       "C4"
+      ],
+      "sources": [
+       "PIR_WIKI",
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     },
+     {
+      "id": "parque-pireneus-go-geografo-P25",
+      "factKey": "parque-pireneus-go-F25",
+      "text": "A sede fica na zona rural de Pirenópolis, junto às divisas com Cocalzinho de Goiás e Corumbá de Goiás.",
+      "relatedFields": [
+       "C1"
+      ],
+      "sources": [
+       "PIR_PARQUESGO"
+      ],
+      "clueType": "territorio",
+      "signalStrength": "decisiva",
+      "recommendedMoment": "late",
+      "importance": "relevant",
+      "twoPlayerSuitable": true
+     }
+    ]
+   }
+  },
+  "reveal": {
+   "canonicalSummary": "O Parque Estadual dos Pireneus, criado em 1987 entre Pirenópolis, Cocalzinho de Goiás e Corumbá de Goiás, protege cerca de 2,8 mil hectares de serras de quartzito com cerrado rupestre, o pico de 1.385 m com a capela da Santíssima Trindade e as nascentes que dividem as bacias do Tocantins e do Paraná.",
+   "editorialNotes": [
+    "A área legal aparece como 2.834 ha (Parques de Goiás) e 2.833,26 ha (Wikipédia); as pistas usam valor arredondado.",
+    "A grafia varia entre Pireneus e Pirineus (lei de 1987 e páginas da Semad); as pistas evitam as duas.",
+    "A faixa de altitude de 140 a 1.000 m citada na Wikipédia conflita com o pico de 1.385 m e não foi usada."
+   ]
+  },
+  "review": {
+   "structural": "passed",
+   "sourceLinked": true,
+   "factual": "source-reviewed",
+   "playtest": "pending",
+   "publication": "integrated",
+   "editorial": "Página oficial do Parques de Goiás, texto da Lei 10.321/1987 e Wikipédia abertos; 50 pistas conferidas e reescritas, C1 restrito ao Centro-Oeste e C2 e C4 trocados por campos verificados (rocha e capela)."
+  }
+ },
+ "sources": {
+  "PIR_PARQUESGO": {
+   "id": "PIR_PARQUESGO",
+   "title": "Parque Estadual dos Pireneus (PEP)",
+   "publisher": "Governo de Goiás — Parques de Goiás (Semad)",
+   "url": "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-dos-pireneus-pep/",
+   "checkedAt": "2026-11-15"
+  },
+  "PIR_LEI10321": {
+   "id": "PIR_LEI10321",
+   "title": "Lei nº 10.321, de 20 de novembro de 1987 — cria o Parque Estadual dos Pireneus",
+   "publisher": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável de Goiás (Semad)",
+   "url": "https://goias.gov.br/meioambiente/wp-content/uploads/sites/33/2021/05/PE_Pirineus_10321-d1b.pdf",
+   "checkedAt": "2026-11-15"
+  },
+  "PIR_WIKI": {
+   "id": "PIR_WIKI",
+   "title": "Pireneus State Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pireneus_State_Park",
+   "checkedAt": "2026-11-15"
+  }
+ },
+ "revisao": {
+  "veredito": "aprovado",
+  "fontesAbertas": [
+   "https://goias.gov.br/parquesdegoias/parque-apa-e-unidade/parque-estadual-dos-pireneus-pep/",
+   "https://goias.gov.br/meioambiente/wp-content/uploads/sites/33/2021/05/PE_Pirineus_10321-d1b.pdf",
+   "https://en.wikipedia.org/wiki/Pireneus_State_Park"
+  ],
+  "alteracoes": [
+   "Fontes: página do PEP no Parques de Goiás aberta; página da APA e página da Semad do rascunho substituídas pelo texto da Lei 10.321/1987 (Semad) e pela Wikipédia (a página da Semad não abriu)",
+   "C1: Jalapão, Canastra, Ibitipoca e Vila Velha (fora do Centro-Oeste) trocados por Altamiro de Moura Pacheco, Serra de Jaraguá, Itiquira e Chapada dos Guimarães",
+   "C2: \"Papel das nascentes\" (distratores implausíveis, como geleiras e deltas) trocado por \"Rocha predominante da serra\" (quartzito)",
+   "C3: distratores refeitos com pares de bacias do Brasil central; C4: \"Estado brasileiro\" trocado por \"Dedicação da capela no alto do pico\" (Santíssima Trindade)",
+   "Pistas genéricas (gestão, fauna e flora do Cerrado, vistas, centro de apoio) trocadas por dados das fontes: lei de 1987 e de 1997, 2.834 ha, pico de 1.385 m e trilha de 600 m, história da capela (1927–1984), quartzito e Gondwana, Morro Cabeludo, águia-chilena, trilha do Oásis, Vila dos Becos, divisor leste/oeste, plano de manejo de 2024, acesso desde Goiânia",
+   "Marcadas aberturas (viajante P01–P02; geógrafo P01) e decisivas (P24–P25 nos dois perfis)"
+  ],
+  "naoVerificado": [],
+  "motivo": ""
+ }
+}

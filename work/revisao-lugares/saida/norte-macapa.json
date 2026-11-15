@@ -1,0 +1,1085 @@
+{
+  "case": {
+    "id": "lug2-norte-macapa",
+    "placeId": "norte-macapa",
+    "title": "Macapá",
+    "aliases": [],
+    "answerType": "capital brasileira",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "BR"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": [
+        "norte"
+      ]
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Capital brasileira",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Macapá"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Rio Branco"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Boa Vista"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Palmas"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Porto Velho"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Manaus"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Belém"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cuiabá"
+          },
+          {
+            "id": "C1-O9",
+            "text": "São Luís"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Teresina"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Campo Grande"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Goiânia"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Macapá",
+        "sources": [
+          "MACAPA_IBGE_HIST",
+          "MACAPA_PACAR"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "Fortificação colonial ligada à cidade",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Fortaleza de São José"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Forte do Presépio"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Forte Príncipe da Beira"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Forte de São Joaquim"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Fortaleza de São José",
+        "sources": [
+          "MACAPA_PA264",
+          "MACAPA_MEON",
+          "MACAPA_IBGE_HIST"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Estado brasileiro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Amapá"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Pará"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Maranhão"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Acre"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Amapá",
+        "sources": [
+          "MACAPA_IBGE_HIST"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "Rio que banha a cidade",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Rio Amazonas"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Rio Negro"
+          },
+          {
+            "id": "C4-O3",
+            "text": "Rio Branco"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Rio Madeira"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Rio Amazonas",
+        "sources": [
+          "MACAPA_SEBRAE",
+          "MACAPA_PACAR",
+          "MACAPA_MEON"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "norte-macapa-viajante-P01",
+            "factKey": "norte-macapa-F01",
+            "text": "Esta cidade é uma capital do Norte do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST",
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P02",
+            "factKey": "norte-macapa-F02",
+            "text": "Ela fica às margens de um grande rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P03",
+            "factKey": "norte-macapa-F03",
+            "text": "A cidade está na margem esquerda desse rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P04",
+            "factKey": "norte-macapa-F04",
+            "text": "O rio que banha a cidade é o Amazonas.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE",
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P05",
+            "factKey": "norte-macapa-F05",
+            "text": "A capital reúne cerca de 60% da população do estado, segundo o Censo 2022.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P06",
+            "factKey": "norte-macapa-F06",
+            "text": "A capital pertence ao estado do Amapá.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P07",
+            "factKey": "norte-macapa-F07",
+            "text": "Uma linha imaginária da geografia atravessa essa capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P08",
+            "factKey": "norte-macapa-F08",
+            "text": "Por isso, parte da cidade fica no hemisfério norte e parte no hemisfério sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_UNINTER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P09",
+            "factKey": "norte-macapa-F09",
+            "text": "É a única capital brasileira cortada pela linha do Equador.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_PACAR",
+              "MACAPA_UNINTER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P10",
+            "factKey": "norte-macapa-F10",
+            "text": "No Marco Zero, um obelisco de 30 metros funciona como relógio de sol.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P11",
+            "factKey": "norte-macapa-F11",
+            "text": "No estádio apelidado de Zerão, a marca do meio-campo fica sobre a latitude zero.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_ZERAO",
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P12",
+            "factKey": "norte-macapa-F12",
+            "text": "Em 2022, o Censo contou mais de 440 mil moradores no município.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P13",
+            "factKey": "norte-macapa-F13",
+            "text": "Uma grande fortaleza à beira do rio é o ponto turístico mais visitado do estado.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_UNINTER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P14",
+            "factKey": "norte-macapa-F14",
+            "text": "A fortaleza tem São José no nome.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P15",
+            "factKey": "norte-macapa-F15",
+            "text": "A fortaleza foi inaugurada em 1782.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST",
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P16",
+            "factKey": "norte-macapa-F16",
+            "text": "Os portugueses a construíram para defender a Amazônia de uma possível invasão francesa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P17",
+            "factKey": "norte-macapa-F17",
+            "text": "O povoado virou vila em 1758.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST",
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P18",
+            "factKey": "norte-macapa-F18",
+            "text": "A vila passou à condição de cidade em 1856.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P19",
+            "factKey": "norte-macapa-F19",
+            "text": "O nome da cidade vem do tupi e quer dizer lugar de muitas bacabas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST",
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P20",
+            "factKey": "norte-macapa-F20",
+            "text": "A bacaba é o fruto de uma palmeira nativa da região.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P21",
+            "factKey": "norte-macapa-F21",
+            "text": "O marabaixo é uma das manifestações culturais mais tradicionais do estado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P22",
+            "factKey": "norte-macapa-F22",
+            "text": "Um trapiche de quase 400 metros avança sobre o rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P23",
+            "factKey": "norte-macapa-F23",
+            "text": "O Curiaú, a cerca de 8 km do centro, é um bairro quilombola com criação de búfalos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P24",
+            "factKey": "norte-macapa-F24",
+            "text": "Açaí, filhote e camarão estão entre os sabores da culinária local.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-viajante-P25",
+            "factKey": "norte-macapa-F25",
+            "text": "Não há estrada ligando a cidade a outras capitais brasileiras.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_UNINTER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "norte-macapa-geografo-P01",
+            "factKey": "norte-macapa-F01",
+            "text": "O destino exerce função de capital estadual na região Norte.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST",
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P02",
+            "factKey": "norte-macapa-F02",
+            "text": "A posição ribeirinha, junto a um grande rio amazônico, marca a paisagem urbana.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P03",
+            "factKey": "norte-macapa-F03",
+            "text": "O sítio urbano ocupa a margem esquerda do rio, voltado para seu braço norte.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE",
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P04",
+            "factKey": "norte-macapa-F04",
+            "text": "É a única capital do país sem ligação rodoviária com outras capitais, segundo reportagem de 2020.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_UNINTER"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P05",
+            "factKey": "norte-macapa-F05",
+            "text": "O município concentrava 60,38% da população estadual no Censo 2022.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P06",
+            "factKey": "norte-macapa-F06",
+            "text": "O Censo 2022 registrou 442.933 habitantes, cerca de 11% a mais que em 2010.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P07",
+            "factKey": "norte-macapa-F07",
+            "text": "O Porto de Santana, no município vizinho, é a base logística e de comércio exterior que beneficia a capital.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P08",
+            "factKey": "norte-macapa-F08",
+            "text": "Serviços e administração pública somavam cerca de 82% do PIB municipal em 2021.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_SEBRAE"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P09",
+            "factKey": "norte-macapa-F09",
+            "text": "O paralelo de latitude zero cruza o município, dividido entre os hemisférios norte e sul.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_UNINTER",
+              "MACAPA_PA264"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P10",
+            "factKey": "norte-macapa-F10",
+            "text": "No Marco Zero, um obelisco de 30 m funciona como relógio de sol e projeta luz sobre a linha nos equinócios de março e setembro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P11",
+            "factKey": "norte-macapa-F11",
+            "text": "A marca central do gramado do Estádio Milton de Souza Corrêa, inaugurado em 1990, fica sobre a latitude 0°.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_ZERAO"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P12",
+            "factKey": "norte-macapa-F12",
+            "text": "A ocupação começou com um destacamento militar instalado sobre as ruínas de uma antiga fortaleza de Santo Antônio.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P13",
+            "factKey": "norte-macapa-F13",
+            "text": "Sob Mendonça Furtado, encarregado de fundar vilas na Amazônia, o povoado foi elevado a vila em fevereiro de 1758.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P14",
+            "factKey": "norte-macapa-F14",
+            "text": "A grande fortificação foi inaugurada em 19 de março de 1782, 18 anos após o início das obras.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P15",
+            "factKey": "norte-macapa-F15",
+            "text": "A fortaleza, uma das maiores construções militares do Brasil colonial, foi erguida para defender a Amazônia de uma possível invasão francesa.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_PACAR",
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P16",
+            "factKey": "norte-macapa-F16",
+            "text": "O conjunto fortificado foi tombado como patrimônio cultural em 1950.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P17",
+            "factKey": "norte-macapa-F17",
+            "text": "A Lei nº 281, de 6 de setembro de 1856, elevou a vila à categoria de cidade.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P18",
+            "factKey": "norte-macapa-F18",
+            "text": "Em 1944 tornou-se capital de um território federal recém-criado, que virou estado em 1988.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P19",
+            "factKey": "norte-macapa-F19",
+            "text": "O topônimo, de origem tupi, significa lugar de muitas bacabas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_IBGE_HIST"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P20",
+            "factKey": "norte-macapa-F20",
+            "text": "A história urbana se liga a populações negras trazidas para a região e a comunidades ribeirinhas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P21",
+            "factKey": "norte-macapa-F21",
+            "text": "O Curiaú, bairro quilombola a cerca de 8 km do centro, combina paisagem natural, balneário e criação de búfalos.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P22",
+            "factKey": "norte-macapa-F22",
+            "text": "O trapiche Eliezer Levy, inaugurado nos anos 1940, avança quase 400 m sobre o rio.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P23",
+            "factKey": "norte-macapa-F23",
+            "text": "O Museu Sacaca, a céu aberto, homenageia um curandeiro local e retrata ambientes e a organização social amazônica.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P24",
+            "factKey": "norte-macapa-F24",
+            "text": "A gastronomia local tem forte influência paraense, com açaí, filhote e maniçoba.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "MACAPA_MEON"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "norte-macapa-geografo-P25",
+            "factKey": "norte-macapa-F25",
+            "text": "O marabaixo figura entre as manifestações culturais mais tradicionais do estado.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "MACAPA_PACAR"
+            ],
+            "clueType": "territorio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Capital do Amapá, na margem esquerda do rio Amazonas, única capital brasileira cortada pela linha do Equador, com o Marco Zero e a Fortaleza de São José, inaugurada em 1782.",
+      "editorialNotes": [
+        "O início do destacamento militar diverge entre fontes (1738 e 1740); as pistas não citam esse ano.",
+        "População pelo Censo 2022 (442.933); matérias de 2020 (503 mil) e 2022 (mais de 600 mil) trazem valores diferentes, não usados.",
+        "Falta de ligação rodoviária com outras capitais e fortaleza como atrativo mais visitado vêm de reportagem de 2020."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Fontes do rascunho (portal do Amapá e IBGE Cidades) não puderam ser abertas; substituídas por histórico do IBGE, Sebrae, Portal Amazônia, Uninter e revista MEON; C2 trocado (o rótulo da linha imaginária entregava a capital); Zerão, fortaleza, marabaixo, Curiaú e economia conferidos; Beira-Rio e área de livre comércio retirados."
+    }
+  },
+  "sources": {
+    "MACAPA_IBGE_HIST": {
+      "id": "MACAPA_IBGE_HIST",
+      "title": "Macapá (AP) — histórico e formação administrativa",
+      "publisher": "IBGE (Biblioteca)",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/dtb/amapa/macapa.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_PA264": {
+      "id": "MACAPA_PA264",
+      "title": "“Cidade do meio do mundo”: Macapá completa 264 anos",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/amapa/cidade-do-meio-do-mundo-macapa-completa-264-anos/",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_PACAR": {
+      "id": "MACAPA_PACAR",
+      "title": "Cinco características que tornam Macapá uma das cidades mais atrativas da Amazônia",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/turismo/caracteristicas-atrativas-macapa/",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_ZERAO": {
+      "id": "MACAPA_ZERAO",
+      "title": "Estádio Zerão: o único do mundo com linha central na Linha do Equador",
+      "publisher": "Portal Amazônia",
+      "url": "https://portalamazonia.com/amapa/estadio-zerao-unico-linha-equador/",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_MEON": {
+      "id": "MACAPA_MEON",
+      "title": "Amapá (MEON Turismo, março de 2021)",
+      "publisher": "Revista MEON Turismo",
+      "url": "https://www.meon.com.br/source/files/originals/MEON_Turismo_Marco_2021_pg_dupla_Amapa-417935.pdf",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_UNINTER": {
+      "id": "MACAPA_UNINTER",
+      "title": "Capital do meio do mundo, Macapá celebra 262 anos",
+      "publisher": "Uninter (Notícias)",
+      "url": "https://www.uninter.com/noticias/capital-do-meio-do-mundo-macapa-celebra-262-anos",
+      "checkedAt": "2026-11-15"
+    },
+    "MACAPA_SEBRAE": {
+      "id": "MACAPA_SEBRAE",
+      "title": "Município em Números: Macapá — cenários econômicos e tendências para 2026",
+      "publisher": "Sebrae (Data Sebrae)",
+      "url": "https://datasebrae.com.br/wp-content/uploads/2025/09/MUNICIPIO-EM-NUMEROS-MACAPA_CENARIOS-ECONOMICOS-E-TENDENCIAS-PARA-2026.pdf",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://biblioteca.ibge.gov.br/visualizacao/dtb/amapa/macapa.pdf",
+      "https://portalamazonia.com/amapa/cidade-do-meio-do-mundo-macapa-completa-264-anos/",
+      "https://portalamazonia.com/turismo/caracteristicas-atrativas-macapa/",
+      "https://portalamazonia.com/amapa/estadio-zerao-unico-linha-equador/",
+      "https://www.meon.com.br/source/files/originals/MEON_Turismo_Marco_2021_pg_dupla_Amapa-417935.pdf",
+      "https://www.uninter.com/noticias/capital-do-meio-do-mundo-macapa-celebra-262-anos",
+      "https://datasebrae.com.br/wp-content/uploads/2025/09/MUNICIPIO-EM-NUMEROS-MACAPA_CENARIOS-ECONOMICOS-E-TENDENCIAS-PARA-2026.pdf"
+    ],
+    "alteracoes": [
+      "Fontes MACAPA_AP (portal do governo do Amapá, não veio das buscas) e MACAPA_IBGE (IBGE Cidades, erro do site) não puderam ser abertas; substituídas por histórico municipal do IBGE, Sebrae (Censo 2022), três matérias do Portal Amazônia, Uninter e revista MEON.",
+      "C2: “Linha imaginária que atravessa a cidade” (o rótulo entregava a capital e as alternativas eram implausíveis) trocado por “Fortificação colonial ligada à cidade” (Fortaleza de São José; distratores: Presépio, Príncipe da Beira, São Joaquim).",
+      "C4: alternativas Acre e Araguaia trocadas por Negro e Madeira (rios de outras capitais da lista); gabarito Amazonas mantido.",
+      "viajante P02 reescrita; P05 (extremo norte) trocada por peso populacional (Censo 2022); P08–P11 reescritas (hemisférios, única capital, relógio de sol, meio-campo do Zerão); P12 ajustada para “mais de 440 mil”; P13 e P16 reescritas (atrativo mais visitado, defesa contra franceses); P19 ajustada; P21–P25: marabaixo com caixas e complexo Beira-Rio (sem fonte) trocados por tradição do marabaixo, trapiche, Curiaú com búfalos, culinária e isolamento rodoviário; área de livre comércio (sem fonte) retirada.",
+      "geografo P02–P08 trocadas (margem esquerda e braço norte, isolamento rodoviário, Censo 2022, Porto de Santana, PIB 2021); P10–P25 reescritas com dados do IBGE, MEON e Portal Amazônia (Marco Zero, Zerão, destacamento, Mendonça Furtado, fortaleza, tombamento, lei de 1856, território de 1944, topônimo, Curiaú, trapiche, Museu Sacaca, gastronomia, marabaixo).",
+      "Força das pistas: viajante P01–P02 abertura, P09 e P11 decisivas; geografo P01–P02 abertura, P10 e P11 decisivas."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}

@@ -1,0 +1,1059 @@
+{
+  "case": {
+    "id": "lug2-colonia-sacramento",
+    "placeId": "colonia-sacramento",
+    "title": "Bairro Histórico de Colônia do Sacramento",
+    "aliases": [
+      "Colônia do Sacramento",
+      "Colonia del Sacramento"
+    ],
+    "answerType": "bairro histórico",
+    "sessionTitle": "Destino em descoberta",
+    "geography": {
+      "countries": [
+        "UY"
+      ],
+      "continents": [
+        "america"
+      ],
+      "brazilRegions": []
+    },
+    "question": "Que lugar é este e quais características completam seu mosaico?",
+    "focalFieldId": "C1",
+    "fields": [
+      {
+        "id": "C1",
+        "label": "Centro histórico",
+        "options": [
+          {
+            "id": "C1-O1",
+            "text": "Bairro Histórico de Colônia do Sacramento"
+          },
+          {
+            "id": "C1-O2",
+            "text": "Cidade Velha de Montevidéu"
+          },
+          {
+            "id": "C1-O3",
+            "text": "Bairro de San Telmo, em Buenos Aires"
+          },
+          {
+            "id": "C1-O4",
+            "text": "Bairro Histórico da Cidade Portuária de Valparaíso"
+          },
+          {
+            "id": "C1-O5",
+            "text": "Porto e Fortificações de Cartagena das Índias"
+          },
+          {
+            "id": "C1-O6",
+            "text": "Havana Velha"
+          },
+          {
+            "id": "C1-O7",
+            "text": "Cidade Colonial de Santo Domingo"
+          },
+          {
+            "id": "C1-O8",
+            "text": "Cidade Histórica Fortificada de Campeche"
+          },
+          {
+            "id": "C1-O9",
+            "text": "Centro Histórico de Santa Cruz de Mompox"
+          },
+          {
+            "id": "C1-O10",
+            "text": "Panamá Viejo e Distrito Histórico do Panamá"
+          },
+          {
+            "id": "C1-O11",
+            "text": "Centro Histórico de Lima"
+          },
+          {
+            "id": "C1-O12",
+            "text": "Cidade Histórica de Sucre"
+          }
+        ],
+        "answerId": "C1-O1",
+        "answerText": "Bairro Histórico de Colônia do Sacramento",
+        "sources": [
+          "COLONIA_PR",
+          "COLONIA_WP"
+        ]
+      },
+      {
+        "id": "C2",
+        "label": "País",
+        "options": [
+          {
+            "id": "C2-O1",
+            "text": "Uruguai"
+          },
+          {
+            "id": "C2-O2",
+            "text": "Argentina"
+          },
+          {
+            "id": "C2-O3",
+            "text": "Paraguai"
+          },
+          {
+            "id": "C2-O4",
+            "text": "Chile"
+          }
+        ],
+        "answerId": "C2-O1",
+        "answerText": "Uruguai",
+        "sources": [
+          "COLONIA_PR",
+          "COLONIA_WP"
+        ]
+      },
+      {
+        "id": "C3",
+        "label": "Rio em cuja margem norte fica o bairro",
+        "options": [
+          {
+            "id": "C3-O1",
+            "text": "Rio da Prata"
+          },
+          {
+            "id": "C3-O2",
+            "text": "Rio Uruguai"
+          },
+          {
+            "id": "C3-O3",
+            "text": "Rio Paraná"
+          },
+          {
+            "id": "C3-O4",
+            "text": "Rio Paraguai"
+          }
+        ],
+        "answerId": "C3-O1",
+        "answerText": "Rio da Prata",
+        "sources": [
+          "COLONIA_PR",
+          "COLONIA_ENC"
+        ]
+      },
+      {
+        "id": "C4",
+        "label": "País europeu que fundou o povoado em 1680",
+        "options": [
+          {
+            "id": "C4-O1",
+            "text": "Portugal"
+          },
+          {
+            "id": "C4-O2",
+            "text": "Espanha"
+          },
+          {
+            "id": "C4-O3",
+            "text": "França"
+          },
+          {
+            "id": "C4-O4",
+            "text": "Países Baixos"
+          }
+        ],
+        "answerId": "C4-O1",
+        "answerText": "Portugal",
+        "sources": [
+          "COLONIA_PR",
+          "COLONIA_ENC"
+        ]
+      }
+    ],
+    "profiles": {
+      "viajante": {
+        "label": "Viajante",
+        "cards": [
+          {
+            "id": "colonia-sacramento-viajante-P01",
+            "factKey": "colonia-sacramento-F01",
+            "text": "Este destino é um bairro antigo de ruas de pedra, à beira d’água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP",
+              "COLONIA_PR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P02",
+            "factKey": "colonia-sacramento-F02",
+            "text": "Casinhas baixas, de um só andar, predominam nas ruas antigas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P03",
+            "factKey": "colonia-sacramento-F03",
+            "text": "O bairro fica no Uruguai.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P04",
+            "factKey": "colonia-sacramento-F04",
+            "text": "Do outro lado do rio, bem em frente, fica Buenos Aires.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P05",
+            "factKey": "colonia-sacramento-F05",
+            "text": "Barcos fazem a travessia desde Buenos Aires em cerca de uma hora e meia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "mobilidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P06",
+            "factKey": "colonia-sacramento-F06",
+            "text": "O bairro ocupa a ponta de uma península.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P07",
+            "factKey": "colonia-sacramento-F07",
+            "text": "A água cerca o bairro por três lados.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P08",
+            "factKey": "colonia-sacramento-F08",
+            "text": "O bairro fica na margem norte do rio da Prata.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P09",
+            "factKey": "colonia-sacramento-F09",
+            "text": "Os portugueses fundaram o povoado em 1680.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P10",
+            "factKey": "colonia-sacramento-F10",
+            "text": "A expedição fundadora era chefiada por Manuel Lobo.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_WP",
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P11",
+            "factKey": "colonia-sacramento-F11",
+            "text": "Portugal e Espanha disputaram o lugar em guerras e tratados.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P12",
+            "factKey": "colonia-sacramento-F12",
+            "text": "O lugar trocou de mãos várias vezes entre portugueses e espanhóis.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_WP",
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P13",
+            "factKey": "colonia-sacramento-F13",
+            "text": "As ruas não seguem a grade quadriculada das cidades espanholas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P14",
+            "factKey": "colonia-sacramento-F14",
+            "text": "O traçado das ruas acompanha o relevo do terreno.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_WP"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P15",
+            "factKey": "colonia-sacramento-F15",
+            "text": "Muros longos de pedra, treliças de madeira e telhados de telha marcam as casas.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P16",
+            "factKey": "colonia-sacramento-F16",
+            "text": "O farol e as torres da igreja se destacam no horizonte do bairro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P17",
+            "factKey": "colonia-sacramento-F17",
+            "text": "Um portão antigo com ponte levadiça de madeira marca a entrada da cidade velha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P18",
+            "factKey": "colonia-sacramento-F18",
+            "text": "As ruínas de um convento franciscano do século XVII estão entre as atrações do bairro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P19",
+            "factKey": "colonia-sacramento-F19",
+            "text": "A Calle de los Suspiros é uma das ruas históricas do bairro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P20",
+            "factKey": "colonia-sacramento-F20",
+            "text": "Um museu português guarda móveis, joias, uniformes e mapas navais antigos.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P21",
+            "factKey": "colonia-sacramento-F21",
+            "text": "Depois de 1816, a cidade chegou a fazer parte do Brasil.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P22",
+            "factKey": "colonia-sacramento-F22",
+            "text": "Contrabando e caça ao gado sustentavam os primeiros moradores.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P23",
+            "factKey": "colonia-sacramento-F23",
+            "text": "Artesãos imigrantes do século XIX também deixaram marcas nas construções.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P24",
+            "factKey": "colonia-sacramento-F24",
+            "text": "A UNESCO reconheceu o bairro como Patrimônio Mundial em 1995.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR",
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-viajante-P25",
+            "factKey": "colonia-sacramento-F25",
+            "text": "Lojas e casas de veraneio vêm tomando o lugar de moradores do bairro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      },
+      "geografo": {
+        "label": "Geógrafo",
+        "cards": [
+          {
+            "id": "colonia-sacramento-geografo-P01",
+            "factKey": "colonia-sacramento-F01",
+            "text": "O bem protege um pequeno núcleo urbano colonial numa ponta de terra cercada por água.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P02",
+            "factKey": "colonia-sacramento-F02",
+            "text": "A predominância de casas térreas define a escala do conjunto.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "abertura",
+            "recommendedMoment": "early",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P03",
+            "factKey": "colonia-sacramento-F03",
+            "text": "Situa-se no sudoeste uruguaio, a 180 km de Montevidéu, numa cidade que é capital de departamento.",
+            "relatedFields": [
+              "C2"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P04",
+            "factKey": "colonia-sacramento-F04",
+            "text": "Diante de Buenos Aires, a cidade funcionou como porto alternativo ao da margem oposta.",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "sources": [
+              "COLONIA_ENC",
+              "COLONIA_PR"
+            ],
+            "clueType": "localizacao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P05",
+            "factKey": "colonia-sacramento-F05",
+            "text": "Balsas ligam a cidade a Buenos Aires em cerca de 1,5 h, e o bairro histórico fica a pé do terminal.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "mobilidade",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P06",
+            "factKey": "colonia-sacramento-F06",
+            "text": "Implantado na ponta de uma península, o núcleo teve o plano moldado pela função militar.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "relevo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P07",
+            "factKey": "colonia-sacramento-F07",
+            "text": "Cercado de água por três lados, o sítio só se liga à terra firme por um deles.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P08",
+            "factKey": "colonia-sacramento-F08",
+            "text": "A margem norte do Prata era reivindicada pela Espanha com base no Tratado de Tordesilhas.",
+            "relatedFields": [
+              "C3"
+            ],
+            "sources": [
+              "COLONIA_ENC"
+            ],
+            "clueType": "agua",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P09",
+            "factKey": "colonia-sacramento-F09",
+            "text": "Com a fundação de 1680, Portugal buscava um ponto de apoio na margem norte do Prata.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_ENC",
+              "COLONIA_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P10",
+            "factKey": "colonia-sacramento-F10",
+            "text": "Manuel Lobo chegou em janeiro de 1680, depois do fracasso de uma expedição anterior.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_ENC",
+              "COLONIA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P11",
+            "factKey": "colonia-sacramento-F11",
+            "text": "A UNESCO fala numa sangrenta disputa de fronteira entre Portugal e Espanha.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P12",
+            "factKey": "colonia-sacramento-F12",
+            "text": "Tratados de Lisboa (1700), Utrecht (1713), Madri (1750) e Santo Ildefonso (1777) mudaram o dono da colônia.",
+            "relatedFields": [
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P13",
+            "factKey": "colonia-sacramento-F13",
+            "text": "É o único plano urbano da região que foge à grade espanhola, segundo a UNESCO.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P14",
+            "factKey": "colonia-sacramento-F14",
+            "text": "O traçado atual coincide quase exatamente com o plano português da primeira metade do século XVIII.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "urbanismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P15",
+            "factKey": "colonia-sacramento-F15",
+            "text": "Tradições construtivas portuguesas e espanholas se combinam em edifícios modestos.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "construcao",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P16",
+            "factKey": "colonia-sacramento-F16",
+            "text": "Farol e torres de igreja são os pontos verticais de uma silhueta baixa.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "paisagem",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P17",
+            "factKey": "colonia-sacramento-F17",
+            "text": "O Portón de Campo, com ponte levadiça, marca a entrada da cidade antiga.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P18",
+            "factKey": "colonia-sacramento-F18",
+            "text": "Ruas de pedra feitas pelos portugueses e ruínas franciscanas, ambas do século XVII, sobrevivem no bairro.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P19",
+            "factKey": "colonia-sacramento-F19",
+            "text": "No traçado irregular do bairro, a Calle de los Suspiros é uma das vias históricas.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "decisiva",
+            "recommendedMoment": "late",
+            "importance": "essential",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P20",
+            "factKey": "colonia-sacramento-F20",
+            "text": "Edifícios do século XVIII, como a Casa de Nacarello e o prédio do Museu Português, lembram a presença lusa.",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P21",
+            "factKey": "colonia-sacramento-F21",
+            "text": "Após 1816, a área foi incorporada ao Brasil como Província Cisplatina.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_WP"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P22",
+            "factKey": "colonia-sacramento-F22",
+            "text": "Carne, couro e prata de Potosí movimentavam o comércio da colônia.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_ENC"
+            ],
+            "clueType": "historia",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P23",
+            "factKey": "colonia-sacramento-F23",
+            "text": "Destruições, ocupações sucessivas e artesãos imigrantes do século XIX explicam a heterogeneidade do casario.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "cultura",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P24",
+            "factKey": "colonia-sacramento-F24",
+            "text": "Inscrito em 1995 pelo critério iv, o bem tem 19 ha e zona de amortecimento de 57 ha.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "patrimonio",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          },
+          {
+            "id": "colonia-sacramento-geografo-P25",
+            "factKey": "colonia-sacramento-F25",
+            "text": "Pressão imobiliária e turismo trazem gentrificação e esvaziamento residencial.",
+            "relatedFields": [
+              "C1"
+            ],
+            "sources": [
+              "COLONIA_PR"
+            ],
+            "clueType": "turismo",
+            "signalStrength": "conexao",
+            "recommendedMoment": "middle",
+            "importance": "relevant",
+            "twoPlayerSuitable": true
+          }
+        ]
+      }
+    },
+    "reveal": {
+      "canonicalSummary": "Bairro histórico fundado pelos portugueses em 1680 na ponta de uma península da margem norte do rio da Prata, diante de Buenos Aires, marcado pela disputa entre Portugal e Espanha.",
+      "editorialNotes": [
+        "Área: a UNESCO informa 19 ha para o bem (57 ha de zona de amortecimento); a Wikipedia fala em 16 ha para o bairro histórico.",
+        "As datas dos tratados seguem a Encyclopedia of Latin American History and Culture (Encyclopedia.com); a Wikipedia traz datas um pouco diferentes para a devolução por Utrecht.",
+        "C2 não inclui Brasil, embora a área tenha sido parte da Província Cisplatina depois de 1816."
+      ]
+    },
+    "review": {
+      "structural": "passed",
+      "sourceLinked": true,
+      "factual": "source-reviewed",
+      "playtest": "pending",
+      "publication": "integrated",
+      "editorial": "Pistas e gabaritos conferidos na declaração de valor universal e no relatório periódico da UNESCO, na Wikipedia e na Encyclopedia.com; C1, C3 e C4 refeitos."
+    }
+  },
+  "sources": {
+    "COLONIA_PR": {
+      "id": "COLONIA_PR",
+      "title": "Historic Quarter of the City of Colonia del Sacramento — Periodic Report (Section II) and Statement of Outstanding Universal Value",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/217205",
+      "checkedAt": "2026-11-15"
+    },
+    "COLONIA_WP": {
+      "id": "COLONIA_WP",
+      "title": "Colonia del Sacramento",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
+      "checkedAt": "2026-11-15"
+    },
+    "COLONIA_ENC": {
+      "id": "COLONIA_ENC",
+      "title": "Sacramento, Colonia del",
+      "publisher": "Encyclopedia.com (Encyclopedia of Latin American History and Culture)",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sacramento-colonia-del",
+      "checkedAt": "2026-11-15"
+    }
+  },
+  "revisao": {
+    "veredito": "aprovado",
+    "fontesAbertas": [
+      "https://whc.unesco.org/document/217205",
+      "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
+      "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sacramento-colonia-del"
+    ],
+    "alteracoes": [
+      "Fonte COLONIA747 (whc.unesco.org/en/list/747) substituída: a página de lista da UNESCO não abre nesta sessão; a mesma declaração de valor universal foi conferida no relatório periódico publicado pela UNESCO (COLONIA_PR); acrescentadas Wikipedia (COLONIA_WP) e Encyclopedia.com (COLONIA_ENC).",
+      "C1: saíram Paraty, Salvador, São Luís, Olinda (Brasil), Porto e Lisboa (Europa) e ‘Centro Histórico de Buenos Aires’; entraram San Telmo, Valparaíso, Santo Domingo, Campeche, Mompox, Panamá Viejo e Sucre.",
+      "C2: Brasil trocado por Chile.",
+      "C3: Amazonas, Orinoco e Mississippi trocados por rios da bacia platina (Uruguai, Paraná, Paraguai); rótulo ancorado na margem norte.",
+      "C4: alternativas implausíveis (Japão/Coreia, Egito/Roma, China/Mongólia) trocadas por ‘País europeu que fundou o povoado em 1680’ (Portugal, Espanha, França, Países Baixos).",
+      "Viajante: P01–P25 reescritas ou trocadas; ‘disputa de cerca de um século’ virou ‘disputaram em guerras e tratados’; ‘madeira nas construções’ virou treliças de madeira, como diz a UNESCO; entraram balsa de 1,5 h, Manuel Lobo, Portón de Campo, Calle de los Suspiros, Museu Português, período brasileiro após 1816, contrabando e gado.",
+      "Geógrafo: P01–P25 reescritas para relações e processos (Tordesilhas e margem norte, porto alternativo a Buenos Aires, função militar do plano, plano português do século XVIII, sequência de tratados, Cisplatina, comércio de couro e prata de Potosí, 19 ha e 57 ha).",
+      "Sinais: P01–P02 abertura e P17 e P19 decisiva nos dois perfis; relatedFields ampliados para C2, C3 e C4."
+    ],
+    "naoVerificado": [],
+    "motivo": ""
+  }
+}
